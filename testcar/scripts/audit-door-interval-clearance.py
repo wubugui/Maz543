@@ -136,6 +136,7 @@ for name, side in [('cab_pivot_002', -1), ('cab_pivot_003', -1), ('cab_pivot_006
         coefficients[part.name] = (a, b, c)
         inventory.append({'name': part.name, 'vertices': len(pts), 'potential_nonrigidity': potential_nonrigidity(part, hinge)})
     comparisons = []
+    fixed_pose_checks = []
     for deg in [0., .731, 14.37, 48.125, 83.61, 99.]:
         angle = -side * math.radians(deg)
         hinge.matrix_basis = base @ Matrix.Rotation(angle, 4, 'Z')
@@ -146,6 +147,14 @@ for name, side in [('cab_pivot_002', -1), ('cab_pivot_003', -1), ('cab_pivot_006
             same = pts.shape == a.shape
             error = float(np.max(np.linalg.norm(pts - (c + a * math.cos(angle) + b * math.sin(angle)), axis=1))) if same else None
             comparisons.append({'part': part.name, 'degrees': deg, 'vertex_count_equal': same, 'maximum_corresponding_vertex_error_m': error})
+        changed_fixed = []
+        for obj in fixed_objects:
+            current = vertices(obj)
+            baseline = fixed_vertices[obj.name]
+            if not np.array_equal(current, baseline):
+                changed_fixed.append({'object': obj.name, 'same_vertex_count': current.shape == baseline.shape,
+                                      'max_vertex_error_m': float(np.max(np.linalg.norm(current - baseline, axis=1))) if current.shape == baseline.shape else None})
+        fixed_pose_checks.append({'degrees': deg, 'objects_checked': len(fixed_objects), 'changed_objects': changed_fixed})
     hinge.matrix_basis = base
     bpy.context.view_layer.update()
     pairs = []
@@ -157,9 +166,12 @@ for name, side in [('cab_pivot_002', -1), ('cab_pivot_003', -1), ('cab_pivot_006
             result.update({'moving_part': part.name, 'fixed_part': other})
             pairs.append(result)
     max_error = max((x['maximum_corresponding_vertex_error_m'] or 0.) for x in comparisons)
-    eligible = not hinge.constraints and not hinge.animation_data and not any(x['potential_nonrigidity'] for x in inventory) and all(x['vertex_count_equal'] for x in comparisons) and max_error < padding
+    hinge_issues = potential_nonrigidity(hinge, None)
+    eligible = not hinge_issues and not any(x['potential_nonrigidity'] for x in inventory) and all(x['vertex_count_equal'] for x in comparisons) and max_error < padding
     entry = {'hinge': name, 'side': side, 'basis': [list(x) for x in base], 'world_at_zero': world.tolist(), 'parts': inventory,
              'independent_actual_pose_comparisons': comparisons, 'maximum_actual_pose_error_m': max_error,
+             'hinge_and_ancestor_dependency_issues': hinge_issues,
+             'fixed_geometry_at_each_actual_pose': fixed_pose_checks,
              'native_rigid_inventory_eligible': eligible, 'pairs': pairs,
              'certified_snapshot_pairs': sum(x['status'].startswith('CERTIFIED') for x in pairs),
              'unresolved_pairs': sum(x['status'] == 'UNRESOLVED' for x in pairs)}
@@ -173,7 +185,7 @@ assert report['source_sha256_after'] == EXPECTED
 report['status'] = 'LIMITED_RIGID_SNAPSHOT_INTERVAL_RESULTS; NOT_WHOLE_VEHICLE_ACCEPTANCE'
 report['certified_snapshot_pairs'] = sum(d['certified_snapshot_pairs'] for d in report['doors'])
 report['unresolved_pairs'] = sum(d['unresolved_pairs'] for d in report['doors'])
-report['all_native_dependency_inventories_eligible'] = all(d['native_rigid_inventory_eligible'] for d in report['doors']) and not any(x['potential_nonrigidity'] for x in report['fixed_dependency_inventory']) and report['fixed_geometry_unchanged_after_door_trials']
+report['all_native_dependency_inventories_eligible'] = all(d['native_rigid_inventory_eligible'] for d in report['doors']) and not any(x['potential_nonrigidity'] for x in report['fixed_dependency_inventory']) and report['fixed_geometry_unchanged_after_door_trials'] and not any(s['changed_objects'] for d in report['doors'] for s in d['fixed_geometry_at_each_actual_pose'])
 report['dependency_details'] = dependency_details
 (OUT / 'interval-report.json').write_text(json.dumps(report, indent=2))
 print('DONE', report['certified_snapshot_pairs'], report['unresolved_pairs'], flush=True)
