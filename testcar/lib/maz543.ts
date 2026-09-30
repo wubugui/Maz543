@@ -217,7 +217,7 @@ export function createMAZ543() {
     if(i<2){const start:V3=[x-.3,.91,s*.55],end:V3=[-.16,.07,-s*.14];const steering=link(suspension,start,[x-.16,.87,z-s*.14],.022,m.brass);links.push({mesh:steering,start,wheel:index,end});}
     tube(brakes,[[x,1.24,s*.5],[x+.24,1.02,s*.72],[x+.13,.87,s*.91]],.014,m.dark);
   }
-  const fuel=part('fuel','燃油系统','FUEL SYSTEM','侧置燃油箱、固定带、加注口与供油管。未重建油泵的全部内部零件。','固定组件，管路呈现系统布局。','布置参考 · 油箱外形估算','#92a17a');
+  const fuel=part('fuel','燃油系统','FUEL SYSTEM','当前为估算原型。543A专用管架、三点支承及实际安装位置待按原车资料重建。','仅显示固定原型；不代表543A原厂安装或完整燃油功能。','未校准 · 油箱安装原型','#92a17a');
   for(const s of [-1,1]){box(fuel,[1.67,.44,.54],[.06,.98,s*1.02],m.olive,.11);for(const x of [-.51,.6])box(fuel,[.045,.46,.56],[x,.98,s*1.02],m.dark,.02);cylinder(fuel,.065,.06,[.48,1.23,s*1.02],m.steel);tube(fuel,[[.48,1.2,s*1.02],[-.7,1.2,s*.72],[-2.0,1.69,s*.48]],.013,m.brass);}
   // Merge fixed sibling details while preserving the pivots of all moving parts.
   // Shells remain separate so x-ray rendering does not hide internal mechanisms.
