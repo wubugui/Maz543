@@ -1,0 +1,105 @@
+{
+  "byteIdentical": false,
+  "identicalPrimitiveStreams": 417,
+  "changedStreams": [
+    {
+      "node": "BL_Merged_wheels_pivot_051_Tyre_rubber",
+      "primitive": 0,
+      "tangentDifference": [
+        {
+          "tuple": [
+            0.7020758390426636,
+            -0.07301580905914307,
+            0.7079366445541382,
+            1
+          ],
+          "beforeMinusAfter": 2
+        },
+        {
+          "tuple": [
+            0.7020758390426636,
+            -0.07301580905914307,
+            0.7084250450134277,
+            1
+          ],
+          "beforeMinusAfter": -2
+        }
+      ],
+      "before": {
+        "surfaceWithoutTangents": "624d2a201664d71a1d725cc9256d6f2bbf3dcdf1df7af0b0402bbcce37a0c50d",
+        "attributeMultisets": {
+          "NORMAL": "88b4008db27152b2d134c134f47ee7b9f6729b62c7b3b2aff61e06f9e5baef12",
+          "POSITION": "714754ccf0320905e9af0d60ddf92d7196178db68babbf8298e67fce1b20f886",
+          "TANGENT": "233dec5c45fb9d9ea70f373bc26488d95a61cef0bc9488de08a65aebea6a7175",
+          "TEXCOORD_0": "59562f8fc79d8e650d915bfe9c4b19e0481a0f073f3f5082646359c70b3d455e",
+          "TEXCOORD_1": "01b2adf2a07a47af2b7c979b469ddcae2f4f1146f3663743d8b01166fd288e37"
+        },
+        "attributes": [
+          [
+            "NORMAL",
+            3
+          ],
+          [
+            "POSITION",
+            3
+          ],
+          [
+            "TANGENT",
+            4
+          ],
+          [
+            "TEXCOORD_0",
+            2
+          ],
+          [
+            "TEXCOORD_1",
+            2
+          ]
+        ],
+        "vertices": 170415,
+        "triangles": 95744,
+        "vertexAttributeMultiset": "1f4d5cffe427606b44cba9a2ac16c816210ead3807f79336ab174219f0283120",
+        "orientedTriangleAttributeMultiset": "5181e5d07a4b5e743a175de1917187f1ccca969635af96318c2a391d91f71894"
+      },
+      "after": {
+        "surfaceWithoutTangents": "624d2a201664d71a1d725cc9256d6f2bbf3dcdf1df7af0b0402bbcce37a0c50d",
+        "attributeMultisets": {
+          "NORMAL": "88b4008db27152b2d134c134f47ee7b9f6729b62c7b3b2aff61e06f9e5baef12",
+          "POSITION": "714754ccf0320905e9af0d60ddf92d7196178db68babbf8298e67fce1b20f886",
+          "TANGENT": "940bc8a5455a0c556f42f2e9347a83abccb8d8bf65fb28314d0595026a93c0c8",
+          "TEXCOORD_0": "59562f8fc79d8e650d915bfe9c4b19e0481a0f073f3f5082646359c70b3d455e",
+          "TEXCOORD_1": "01b2adf2a07a47af2b7c979b469ddcae2f4f1146f3663743d8b01166fd288e37"
+        },
+        "attributes": [
+          [
+            "NORMAL",
+            3
+          ],
+          [
+            "POSITION",
+            3
+          ],
+          [
+            "TANGENT",
+            4
+          ],
+          [
+            "TEXCOORD_0",
+            2
+          ],
+          [
+            "TEXCOORD_1",
+            2
+          ]
+        ],
+        "vertices": 170415,
+        "triangles": 95744,
+        "vertexAttributeMultiset": "a5eea84ed8d13ec7ac3181ffccca20a14b2862fe75f3cc3987fba03b7cb5d09c",
+        "orientedTriangleAttributeMultiset": "89a481b55e402c8c3a0376dc6670bbba34ff86fb91d036f5ed4b999be89f3480"
+      },
+      "equal": false
+    }
+  ],
+  "allChangedStreamsDecodedExactlyEqual": false,
+  "scope": "Float32 decoded vertex attribute multisets and oriented triangle-attribute multisets; not browser runtime or factory accuracy."
+}

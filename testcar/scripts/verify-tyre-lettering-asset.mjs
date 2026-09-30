@@ -5,13 +5,13 @@ import assert from 'node:assert/strict';
 import {createRequire} from 'node:module';
 import * as T from 'three';
 import {validateBytes} from 'gltf-validator';
-const dir='outputs/cloud-tyre-lettering-20260930';
+const dir=process.env.MAZ_LETTERING_DIR??'outputs/cloud-tyre-lettering-portable-20260930';
 await fs.mkdir('work/cloud-tyre-audit',{recursive:true});
 await fs.copyFile('public/draco/draco_wasm_wrapper.js','work/cloud-tyre-audit/draco-wrapper.cjs');
 const factory=createRequire(import.meta.url)('../work/cloud-tyre-audit/draco-wrapper.cjs');
 const draco=await factory({wasmBinary:await fs.readFile('public/draco/draco_decoder.wasm')});
 async function read(path){const bytes=await fs.readFile(path),length=bytes.readUInt32LE(12);return {bytes,j:JSON.parse(bytes.subarray(20,20+length)),start:28+length};}
-const before=await read('public/models/maz543a-blender.glb'),after=await read(dir+'/maz543a-blender-candidate.glb');
+const before=await read('public/models/maz543a-blender.glb'),after=await read(process.env.MAZ_CANDIDATE_GLB??dir+'/maz543a-blender-candidate.glb');
 const config=JSON.parse(await fs.readFile(dir+'/pack-config.json','utf8'));
 const reference=JSON.parse(await fs.readFile(dir+'/glyph-world-reference.json','utf8')),refBytes=await fs.readFile(dir+'/glyph-world-reference.bin');
 const digest=b=>crypto.createHash('sha256').update(b).digest('hex');
@@ -74,4 +74,5 @@ const envelopePairs=rearEnvelopes.flatMap(part=>wheelEnvelopes.map(w=>({part:par
 const longitudinalEnvelope={status:envelopePairs.every(p=>p.gapM>0)?'PASS_CONDITIONAL_SEPARATION':'INCONCLUSIVE',minimumGapM:Math.min(...envelopePairs.map(p=>p.gapM)),wheelEnvelopes,rearEnvelopes,conditions:'Current assembled rigid meshes, fixed longitudinal axle positions, zero rear steering, arbitrary wheel spin/camber and transverse/vertical suspension motion. Excludes deformation, axle fore/aft flex, other parts and actual browser-runtime validation.'};
 const validated=await validateBytes(new Uint8Array(after.bytes),{uri:'maz543a-blender-candidate.glb'});assert.equal(validated.issues.numErrors,0);assert.equal(validated.issues.numWarnings,0);
 const report={status:'PASS_SCOPED_ASSET_CHECKS',sha256:digest(after.bytes),bytes:after.bytes.length,unchangedCompressedMeshNodes:unchanged,unchangedEmbeddedTextures:after.j.images.length,longitudinalEnvelope,glyphMeshes:rows.length,maxNativeAssetDeviationM:Math.max(...rows.map(r=>r.maxWorldVertexDeviationM)),gltfErrors:validated.issues.numErrors,gltfWarnings:validated.issues.numWarnings,parts:rows,limits:'Decoded asset under standard glTF world matrices, not an actual browser-render/runtime test. No factory geometry, typography, physical load or whole-vehicle acceptance.'};
-await fs.writeFile(dir+'/asset-verification.json',JSON.stringify(report,null,2));console.log(JSON.stringify({...report,parts:undefined},null,2));
+const reportPath=process.env.MAZ_REPORT_PATH??'work/cloud-tyre-audit/asset-verification.json';
+await fs.writeFile(reportPath,JSON.stringify(report,null,2));console.log(JSON.stringify({...report,parts:undefined},null,2));

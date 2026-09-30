@@ -16,8 +16,8 @@
     },
     {
       "name": "README.md",
-      "bytes": 803,
-      "sha256": "d9cfb0036c26153369d175985190d786f0632d5572ed422206c65ccae8ad051c"
+      "bytes": 5145,
+      "sha256": "d300b08ed8bc6af2ab78a8ddc6014ccb19e6d725a86bee3c47f358958ec058dc"
     },
     {
       "name": "asset-verification.json",
@@ -50,6 +50,11 @@
       "sha256": "0222c801815584c040154b7c6150a5e7953c8fa84f4c8ef82e8f9d83b2fb5cf1"
     },
     {
+      "name": "maz543a-blender-portable-reexport-v2.glb",
+      "bytes": 20293572,
+      "sha256": "a97860806ba1ff70b61cd7a01ac173f0f461c380704ab06246cd9352660ac422"
+    },
+    {
       "name": "native-tyre-after.png",
       "bytes": 1215261,
       "sha256": "67014c80d06cabf0093132a119b1fdc4c2a1216e5833879f62ab8e9fced06f2e"
@@ -60,9 +65,29 @@
       "sha256": "3e632dce7a6f83fae4bda1a8a9bfd09d77ea85885fa802f04b8305fa33595ad5"
     },
     {
+      "name": "pack-config.json",
+      "bytes": 4676,
+      "sha256": "63d833a76d5ce112dcf5740698f58ef69b31d10f5ee329de8f24af8c5d958807"
+    },
+    {
+      "name": "portable-reexport-v2-reproduction.json",
+      "bytes": 276,
+      "sha256": "d016e5567756d4b40fb266cfee398b55b66c0207b2783b355aa506c730c53c02"
+    },
+    {
+      "name": "portable-reexport-v2-verification.json",
+      "bytes": 30735,
+      "sha256": "b66e7c0c7395fa08b148d321081d0fed9fd0425f674f1184a7c6747e2ddc4567"
+    },
+    {
       "name": "rear-envelope/longitudinal-envelope.json",
       "bytes": 132337,
       "sha256": "d9ef06fbe245a14da98688b6854ddaed40a9e8e82459d8ae3752a86c619881ec"
+    },
+    {
+      "name": "reexport-comparison-failed.json",
+      "bytes": 3313,
+      "sha256": "7dc25adf657db699f4b7d8426bfb1bc9495ef6c90290e96cd69519a52ef5dee1"
     },
     {
       "name": "reference-pack-verification.json",
@@ -73,6 +98,13 @@
       "name": "render-comparison.json",
       "bytes": 1411,
       "sha256": "b8e163fcc712f343de27284d952b1c700237346b13ea4a531980f418f2aa6e57"
+    },
+    {
+      "name": "reproduction-summary.json",
+      "bytes": 5036,
+      "sha256": "a76ca48fdc707f8ec3bf7d80f4dd2d8df33e094ea9fb9b65c2c7ca7fee8e6452"
     }
-  ]
+  ],
+  "portablePairedAsset": "maz543a-blender-portable-reexport-v2.glb",
+  "legacyAssetWithReproductionMismatch": "maz543a-blender-candidate.glb"
 }

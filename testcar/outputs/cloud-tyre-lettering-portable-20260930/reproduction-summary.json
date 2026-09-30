@@ -1,0 +1,134 @@
+{
+  "status": "V2_PORTABLE_PAIR_REPRODUCED; V1_STRICT_MISMATCH_RETAINED",
+  "delivered_glb_sha256": "0222c801815584c040154b7c6150a5e7953c8fa84f4c8ef82e8f9d83b2fb5cf1",
+  "portable_master_sha256": "d1032255084ab15d3b09e64ed5f5a08c367c3a199f650d95ed115b12e7f584f2",
+  "reconstructed_glb_sha256": "a97860806ba1ff70b61cd7a01ac173f0f461c380704ab06246cd9352660ac422",
+  "singlethread_reconstructed_sha256": "a97860806ba1ff70b61cd7a01ac173f0f461c380704ab06246cd9352660ac422",
+  "unpacked_source_reconstructed_sha256": "0222c801815584c040154b7c6150a5e7953c8fa84f4c8ef82e8f9d83b2fb5cf1",
+  "scoped_asset_report": {
+    "status": "PASS_SCOPED_ASSET_CHECKS",
+    "sha256": "a97860806ba1ff70b61cd7a01ac173f0f461c380704ab06246cd9352660ac422",
+    "bytes": 20293572,
+    "unchangedCompressedMeshNodes": 266,
+    "unchangedEmbeddedTextures": 3,
+    "longitudinalEnvelope": {
+      "status": "PASS_CONDITIONAL_SEPARATION",
+      "minimumGapM": 0.053410715301488484,
+      "wheelEnvelopes": [
+        {
+          "wheel": 4,
+          "axleX": 2.42,
+          "radialEnvelopeM": 0.7540493657608285,
+          "meshNodes": 24,
+          "minX": 1.6659506342391714,
+          "maxX": 3.1740493657608284
+        },
+        {
+          "wheel": 5,
+          "axleX": 2.42,
+          "radialEnvelopeM": 0.7540493657608285,
+          "meshNodes": 24,
+          "minX": 1.6659506342391714,
+          "maxX": 3.1740493657608284
+        },
+        {
+          "wheel": 6,
+          "axleX": 4.62,
+          "radialEnvelopeM": 0.7540495276239393,
+          "meshNodes": 24,
+          "minX": 3.8659504723760607,
+          "maxX": 5.3740495276239395
+        },
+        {
+          "wheel": 7,
+          "axleX": 4.62,
+          "radialEnvelopeM": 0.7540495276239393,
+          "meshNodes": 24,
+          "minX": 3.8659504723760607,
+          "maxX": 5.3740495276239395
+        }
+      ],
+      "rearEnvelopes": [
+        {
+          "name": "BL_RearRestoration_mount_-1_3.37",
+          "minX": 3.3099998869001865,
+          "maxX": 3.4300041683018208
+        },
+        {
+          "name": "BL_RearRestoration_mount_-1_3.67",
+          "minX": 3.61000007763505,
+          "maxX": 3.730004359036684
+        },
+        {
+          "name": "BL_RearRestoration_mount_1_3.37",
+          "minX": 3.3099998869001865,
+          "maxX": 3.4300041683018208
+        },
+        {
+          "name": "BL_RearRestoration_mount_1_3.67",
+          "minX": 3.61000007763505,
+          "maxX": 3.730004359036684
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_-1",
+          "minX": 3.2349997758865356,
+          "maxX": 3.8050109148025513
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_1",
+          "minX": 3.2349997758865356,
+          "maxX": 3.8050109148025513
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_-1_4.94",
+          "minX": 3.350499749183655,
+          "maxX": 3.3895002603530884
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_-1_5.24",
+          "minX": 3.650499939918518,
+          "maxX": 3.6895004510879517
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_1_4.94",
+          "minX": 3.350499749183655,
+          "maxX": 3.3895002603530884
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_1_5.24",
+          "minX": 3.650499939918518,
+          "maxX": 3.6895004510879517
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_lid_-1",
+          "minX": 3.227500081062317,
+          "maxX": 3.8124815225601196
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_lid_1",
+          "minX": 3.227500081062317,
+          "maxX": 3.8124815225601196
+        }
+      ],
+      "conditions": "Current assembled rigid meshes, fixed longitudinal axle positions, zero rear steering, arbitrary wheel spin/camber and transverse/vertical suspension motion. Excludes deformation, axle fore/aft flex, other parts and actual browser-runtime validation."
+    },
+    "glyphMeshes": 144,
+    "maxNativeAssetDeviationM": 1.4994125137664242e-06,
+    "gltfErrors": 0,
+    "gltfWarnings": 0,
+    "limits": "Decoded asset under standard glTF world matrices, not an actual browser-render/runtime test. No factory geometry, typography, physical load or whole-vehicle acceptance."
+  },
+  "strict_comparison_passed": false,
+  "browser_visual_equivalence": "NOT_TESTED",
+  "production_promoted": false,
+  "v2_paired_glb_sha256": "a97860806ba1ff70b61cd7a01ac173f0f461c380704ab06246cd9352660ac422",
+  "v2_independent_reproduction": {
+    "byteIdentical": true,
+    "identicalPrimitiveStreams": 418,
+    "changedStreams": [],
+    "allChangedStreamsDecodedExactlyEqual": true,
+    "scope": "Float32 decoded vertex attribute multisets and oriented triangle-attribute multisets; not browser runtime or factory accuracy."
+  },
+  "save_only_control_sha256": "0222c801815584c040154b7c6150a5e7953c8fa84f4c8ef82e8f9d83b2fb5cf1",
+  "direct_pack_control_sha256": "a97860806ba1ff70b61cd7a01ac173f0f461c380704ab06246cd9352660ac422"
+}

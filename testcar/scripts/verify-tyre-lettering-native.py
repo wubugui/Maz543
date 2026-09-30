@@ -38,6 +38,8 @@ for filename in ['MAZ543A_Master.blend','MAZ543A_Textured.blend']:
    if error>=2e-5:failures.append({'name':obj.name,'vertexDeviationM':error})
   rows.append(row)
 report={'status':'FAIL_NATIVE_PARITY' if failures else 'PASS_NATIVE_GLYPH_GEOMETRY_ONLY','failures':failures,'glyphsPerFile':144,'results':rows,'limits':'Position, native manifold solids, sidewall attachment and Master/Textured evaluated vertex correspondence only. Typography size/style and original fitment remain reconstructed. No browser or entire-vehicle acceptance.'}
-(OUT/'lettering-readback.json').write_text(json.dumps(report,indent=2))
+report_path=Path(os.environ.get('MAZ_NATIVE_REPORT',str(OUT/'lettering-readback.json'))).resolve()
+report_path.parent.mkdir(parents=True,exist_ok=True)
+report_path.write_text(json.dumps(report,indent=2))
 assert not failures,failures
 print('NATIVE_LETTERING_READBACK_PASS',len(rows),'max correspondence',max(r.get('masterWorldVertexHausdorffM',0) for r in rows))
