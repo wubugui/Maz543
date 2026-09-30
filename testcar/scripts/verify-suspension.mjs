@@ -1,5 +1,7 @@
-import './prepare-suspension.mjs';
-import {wheelGeometry,suspensionElastic,advanceSuspension,initialSuspension,SUSPENSION as P} from '../work/compiled/suspension.mjs';
+// Resolve the generated module only after its compiler has completed. Static
+// imports are linked before side effects and fail on a fresh cloud checkout.
+await import('./prepare-suspension.mjs');
+const {wheelGeometry,suspensionElastic,advanceSuspension,initialSuspension,SUSPENSION:P}=await import('../work/compiled/suspension.mjs');
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 const distance=(a,b)=>Math.hypot(a[0]-b[0],a[1]-b[1]),near=(a,b,e=1e-7)=>assert.ok(Math.abs(a-b)<e,`${a} != ${b}`);

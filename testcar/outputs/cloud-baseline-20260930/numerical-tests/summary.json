@@ -1,0 +1,29 @@
+{
+  "dateUTC": "2026-09-30",
+  "baseCommit": "ed97cf3d5584a2aefa9f6ee597d85aa349367dbe",
+  "tests": [
+    {
+      "script": "verify-starting.mjs",
+      "status": "PASS"
+    },
+    {
+      "script": "verify-cooling.mjs",
+      "status": "PASS"
+    },
+    {
+      "script": "verify-transmission.mjs",
+      "status": "PASS"
+    },
+    {
+      "script": "verify-mechanical-timeline.mjs",
+      "status": "PASS"
+    }
+  ],
+  "suspension": {
+    "initialStatus": "FAIL_INFRASTRUCTURE",
+    "cause": "ESM statically resolved generated suspension.mjs before prepare-suspension side effect could produce it",
+    "fix": "await preparation, then dynamic import of compiled module",
+    "freshCompiledModuleStatus": "PASS"
+  },
+  "limits": "Existing reduced/fitted numerical models only; no factory parameter calibration, continuous native collision certification, whole-vehicle functional or browser acceptance."
+}

@@ -1,0 +1,4836 @@
+{
+  "status": "PASS_CONDITIONAL_LONGITUDINAL_SEPARATION",
+  "geometrySourceSHA256": "b1e951ada0762bdc720b168fdfe2a29670be39cbaf79e690058e8fcec427ea0c",
+  "sourceSHA256": {
+    "lib/suspension.ts": "06af7ce5a0d277df3f90072a7a9228fff6fc2bd9e593205f60c1f463e0d11d89",
+    "lib/maz543.ts": "d85b90628b56416b4d6eda267a1ed450420bbefe3cc28119ff82ef80b7922227",
+    "lib/vehicleViewport.ts": "966cc9de20bc2024a9539598fd1a88e6b165e744c8381f56b034bfedfb37d039"
+  },
+  "motionContract": {
+    "rearSteeringRadians": 0,
+    "axleLongitudinalCoordinatesFixed": true,
+    "arbitraryVerticalAndTransverseSuspensionMotion": true,
+    "arbitraryCamberAboutLongitudinalX": true,
+    "arbitraryWheelSpinAboutNativeY": true,
+    "commonChassisRigidMotion": true,
+    "rigidTyres": true
+  },
+  "mathematicalBasis": "A triangle lies within the radial envelope of its vertices. For all spin angles, abs(local x) <= max hypot(local x,local z). Camber about x and y/z translation preserve x. Disjoint closed x intervals imply disjoint meshes at every pose satisfying this motion contract, independent of time sampling. Common chassis rigid transforms preserve this separating plane.",
+  "numericalPaddingPerEnvelopeM": 2e-05,
+  "parts": [
+    {
+      "name": "BL_RearRestoration_mount_-1_3.37",
+      "minX": 3.309999942779541,
+      "maxX": 3.429999828338623,
+      "vertices": 96
+    },
+    {
+      "name": "BL_RearRestoration_mount_-1_3.67",
+      "minX": 3.6100001335144043,
+      "maxX": 3.7300000190734863,
+      "vertices": 96
+    },
+    {
+      "name": "BL_RearRestoration_mount_1_3.37",
+      "minX": 3.309999942779541,
+      "maxX": 3.429999828338623,
+      "vertices": 96
+    },
+    {
+      "name": "BL_RearRestoration_mount_1_3.67",
+      "minX": 3.6100001335144043,
+      "maxX": 3.7300000190734863,
+      "vertices": 96
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_-1",
+      "minX": 3.234999656677246,
+      "maxX": 3.804999828338623,
+      "vertices": 96
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_1",
+      "minX": 3.234999656677246,
+      "maxX": 3.804999828338623,
+      "vertices": 96
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_latch_-1_4.94",
+      "minX": 3.3504996299743652,
+      "maxX": 3.3894996643066406,
+      "vertices": 96
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_latch_-1_5.24",
+      "minX": 3.6504998207092285,
+      "maxX": 3.689499855041504,
+      "vertices": 96
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_latch_1_4.94",
+      "minX": 3.3504996299743652,
+      "maxX": 3.3894996643066406,
+      "vertices": 96
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_latch_1_5.24",
+      "minX": 3.6504998207092285,
+      "maxX": 3.689499855041504,
+      "vertices": 96
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_lid_-1",
+      "minX": 3.2274999618530273,
+      "maxX": 3.8125,
+      "vertices": 96
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_lid_1",
+      "minX": 3.2274999618530273,
+      "maxX": 3.8125,
+      "vertices": 96
+    }
+  ],
+  "wheels": [
+    {
+      "index": 4,
+      "carrier": "wheels_pivot_029",
+      "spin": "wheels_pivot_030",
+      "axleX": 2.42,
+      "actualNativeAxleX": 2.4200000762939453,
+      "radialEnvelopeM": 0.7540002286295879,
+      "objectEnvelopes": [
+        {
+          "name": "BL_Tyre_4_curved_tread_blocks",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.7540002286295879,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_0",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404095796921801,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_1",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404412190321002,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_10",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407678105138729,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_11",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404410959361585,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_14",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.540540744844575,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_15",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404091915740249,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_16",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5238390126389935,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_17",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407685618298393,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_18",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407656966973708,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_19",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407677623207282,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_2",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407656079766364,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_3",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.540765660774813,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_4",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5311858042161532,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_5",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.540772318874223,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_6",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407656975583517,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_7",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.540765902460291,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_8",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5238390652087425,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_emboss_9",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407720201704991,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_mould_ring_-1_0.343",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.34800028800964355,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_mould_ring_-1_0.38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.38350024132092453,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_mould_ring_-1_0.49",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.49180015709018976,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_mould_ring_-1_0.635",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6372001694876722,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_mould_ring_1_0.343",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.34800028800964355,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_mould_ring_1_0.38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.38350024132092453,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_mould_ring_1_0.49",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.49180015709018976,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_mould_ring_1_0.635",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6372001694876722,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_0",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203529337644005,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_1",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203547352300754,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_10",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588815425183,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_11",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533421135962,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_12",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203568988368947,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_13",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203470876693542,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_14",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203371942774215,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_15",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203350769442961,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_16",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203409096392707,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_17",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203451515169415,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_18",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203483918774709,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_19",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203509565835039,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_2",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_20",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203531721810744,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_21",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203549705658071,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_22",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620356478368481,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_23",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203578753821855,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_24",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203586860103295,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_25",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203589332145214,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_26",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_27",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620350982875789,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_28",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355966121926,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_29",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_3",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203575437086515,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_30",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588815425183,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_31",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533038788016,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_32",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203567678155775,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_33",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203470318775886,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_34",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203371942774215,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_35",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203349922691429,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_36",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_37",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620345031653814,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203482783497095,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_39",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508387666402,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_4",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203586684068457,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_5",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620358954359829,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_6",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620357197812242,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_7",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508220624283,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_8",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_-1_9",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_0",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203529337644005,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_1",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203547352300754,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_10",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588815425183,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_11",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533421135962,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_12",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203568988368947,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_13",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203470876693542,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_14",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203371942774215,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_15",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203350769442961,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_16",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203409096392707,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_17",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203451515169415,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_18",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203483918774709,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_19",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203509565835039,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_2",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_20",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203530529727375,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_21",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203549705658071,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_22",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620356478368481,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_23",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203578753821855,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_24",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203586860103295,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_25",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203589332145214,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_26",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_27",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620350982875789,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_28",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355966121926,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_29",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_3",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203575437086515,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_30",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588815425183,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_31",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533038788016,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_32",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203567678155775,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_33",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203470318775886,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_34",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203371942774215,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_35",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203349922691429,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_36",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_37",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620345031653814,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203482783497095,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_39",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508387666402,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_4",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203586684068457,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_5",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620358954359829,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_6",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620357197812242,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_7",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508220624283,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_8",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_vent_1_9",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_4_VI203_profile",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.7290001232609283,
+          "collections": [
+            "Collection"
+          ]
+        }
+      ],
+      "tyreObjects": 108,
+      "objectTypes": {
+        "CURVE": 88,
+        "MESH": 20
+      },
+      "vertices": 51616,
+      "minX": 1.665999771370412,
+      "maxX": 3.1740002286295876
+    },
+    {
+      "index": 5,
+      "carrier": "wheels_pivot_036",
+      "spin": "wheels_pivot_037",
+      "axleX": 2.42,
+      "actualNativeAxleX": 2.4200000762939453,
+      "radialEnvelopeM": 0.7540002286295879,
+      "objectEnvelopes": [
+        {
+          "name": "BL_Tyre_5_curved_tread_blocks",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.7540002286295879,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_0",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404096692882598,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_1",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404410513665852,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_10",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407679683405511,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_11",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404414892603965,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_14",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5405407308827306,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_15",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404096586909037,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_16",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5238388205024531,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_17",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407685746655213,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_18",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407660923279177,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_19",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407680176872118,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_2",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407658584076274,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_3",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407656287119207,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_4",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5311857272388336,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_5",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407720257510276,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_6",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407661712312852,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_7",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407658791125157,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_8",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5238391197016179,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_emboss_9",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407723079235877,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_mould_ring_-1_0.343",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.34800028800964355,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_mould_ring_-1_0.38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.38350024132092453,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_mould_ring_-1_0.49",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.49180015709018976,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_mould_ring_-1_0.635",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6372001694876722,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_mould_ring_1_0.343",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.34800028800964355,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_mould_ring_1_0.38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.38350024132092453,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_mould_ring_1_0.49",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.49180015709018976,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_mould_ring_1_0.635",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6372001694876722,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_0",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203529337644005,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_1",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203547352300754,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_10",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588815425183,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_11",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533421135962,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_12",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203568988368947,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_13",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203470876693542,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_14",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203371942774215,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_15",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203350769442961,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_16",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203409096392707,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_17",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203451515169415,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_18",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203483918774709,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_19",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203509565835039,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_2",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_20",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203530529727375,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_21",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203549705658071,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_22",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620356478368481,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_23",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203578753821855,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_24",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203586860103295,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_25",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203589332145214,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_26",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_27",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620350982875789,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_28",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355966121926,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_29",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_3",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203575437086515,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_30",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588815425183,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_31",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533038788016,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_32",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203567678155775,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_33",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203470318775886,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_34",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203371942774215,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_35",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203349922691429,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_36",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_37",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620345031653814,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203482783497095,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_39",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508387666402,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_4",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203586684068457,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_5",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620358954359829,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_6",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620357197812242,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_7",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508220624283,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_8",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_-1_9",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_0",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203529337644005,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_1",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203547352300754,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_10",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588815425183,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_11",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533421135962,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_12",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203568988368947,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_13",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203470876693542,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_14",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203371942774215,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_15",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203350769442961,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_16",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203409096392707,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_17",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203451515169415,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_18",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203483918774709,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_19",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203509565835039,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_2",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_20",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203531721810744,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_21",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203549705658071,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_22",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620356478368481,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_23",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203578753821855,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_24",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203586860103295,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_25",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203589332145214,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_26",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_27",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620350982875789,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_28",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203356533823249,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_29",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_3",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203575437086515,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_30",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588815425183,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_31",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533038788016,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_32",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203567678155775,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_33",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203470318775886,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_34",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203371942774215,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_35",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203349922691429,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_36",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_37",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620345031653814,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203482783497095,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_39",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508387666402,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_4",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203586684068457,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_5",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620358954359829,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_6",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620357197812242,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_7",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508220624283,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_8",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_vent_1_9",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_5_VI203_profile",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.7290001232609283,
+          "collections": [
+            "Collection"
+          ]
+        }
+      ],
+      "tyreObjects": 108,
+      "objectTypes": {
+        "CURVE": 88,
+        "MESH": 20
+      },
+      "vertices": 51616,
+      "minX": 1.665999771370412,
+      "maxX": 3.1740002286295876
+    },
+    {
+      "index": 6,
+      "carrier": "wheels_pivot_043",
+      "spin": "wheels_pivot_044",
+      "axleX": 4.62,
+      "actualNativeAxleX": 4.619999885559082,
+      "radialEnvelopeM": 0.7540006002817112,
+      "objectEnvelopes": [
+        {
+          "name": "BL_Tyre_6_curved_tread_blocks",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.7540006002817112,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_0",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404095719771707,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_1",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404409465870085,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_10",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407679455689062,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_11",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404413075289134,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_14",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.540540873789073,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_15",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404097638163574,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_16",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5238388576419967,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_17",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407680576199154,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_18",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407658872973287,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_19",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407679327881352,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_2",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407653440149588,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_3",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407663467680868,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_4",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.531185141677473,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_5",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407718516479414,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_6",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407656963330698,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_7",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407661468007054,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_8",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5238388976758996,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_emboss_9",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407723917683814,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_mould_ring_-1_0.343",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.34800044802447944,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_mould_ring_-1_0.38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.3835005199676245,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_mould_ring_-1_0.49",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.4918004849232259,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_mould_ring_-1_0.635",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6372004117922531,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_mould_ring_1_0.343",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.34800044802447944,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_mould_ring_1_0.38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.3835005199676245,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_mould_ring_1_0.49",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.4918004849232259,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_mould_ring_1_0.635",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6372004117922531,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_0",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203529337644005,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_1",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203552059015413,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_10",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588807266,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_11",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533038788016,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_12",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203567500519936,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_13",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203469788442685,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_14",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203373349020935,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_15",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203349922691429,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_16",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_17",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203452579638926,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_18",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203480512941931,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_19",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508387666402,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_2",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_20",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203531721810744,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_21",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203547352300754,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_22",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_23",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203579813973001,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_24",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203584936280985,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_25",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203585971938909,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_26",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_27",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508752482718,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_28",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_29",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_3",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203579677690908,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_30",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588807266,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_31",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533803484799,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_32",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203568422080762,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_33",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203472495278137,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_34",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203373349020935,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_35",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620335330969824,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_36",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_37",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203452445477163,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203485054052343,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_39",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203513100340982,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_4",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203584760246093,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_5",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620358954359829,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_6",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_7",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508220624283,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_8",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_-1_9",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_0",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203529337644005,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_1",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203552059015413,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_10",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588807266,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_11",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533038788016,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_12",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203567500519936,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_13",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203469788442685,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_14",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203373349020935,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_15",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203349922691429,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_16",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_17",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203452579638926,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_18",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203480512941931,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_19",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508387666402,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_2",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_20",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203531721810744,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_21",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203547352300754,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_22",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_23",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203579813973001,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_24",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203584936280985,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_25",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203585971938909,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_26",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_27",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508752482718,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_28",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_29",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_3",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203579677690908,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_30",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588807266,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_31",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533803484799,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_32",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203568422080762,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_33",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203472495278137,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_34",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203373349020935,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_35",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620335330969824,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_36",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_37",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203452445477163,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203485054052343,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_39",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203513100340982,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_4",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203584760246093,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_5",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620358954359829,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_6",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_7",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508220624283,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_8",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_vent_1_9",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_6_VI203_profile",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.7290003474361558,
+          "collections": [
+            "Collection"
+          ]
+        }
+      ],
+      "tyreObjects": 108,
+      "objectTypes": {
+        "CURVE": 88,
+        "MESH": 20
+      },
+      "vertices": 51616,
+      "minX": 3.865999399718289,
+      "maxX": 5.374000600281711
+    },
+    {
+      "index": 7,
+      "carrier": "wheels_pivot_050",
+      "spin": "wheels_pivot_051",
+      "axleX": 4.62,
+      "actualNativeAxleX": 4.619999885559082,
+      "radialEnvelopeM": 0.7540006002817112,
+      "objectEnvelopes": [
+        {
+          "name": "BL_Tyre_7_curved_tread_blocks",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.7540006002817112,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_0",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404097720658394,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_1",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404412015916662,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_10",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407678955949866,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_11",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404411081846011,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_14",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5405417038286346,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_15",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5404099683679552,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_16",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5238392439689403,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_17",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407678344528455,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_18",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407648966731904,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_19",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407680019530273,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_2",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.540765533480033,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_3",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407657274621299,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_4",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.531186048145744,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_5",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407728527344704,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_6",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.540765690287728,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_7",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407652688077231,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_8",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5238391199895516,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_emboss_9",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.5407722199091439,
+          "collections": [
+            "Scene Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_mould_ring_-1_0.343",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.34800044802447944,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_mould_ring_-1_0.38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.3835005199676245,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_mould_ring_-1_0.49",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.4918004849232259,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_mould_ring_-1_0.635",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6372004117922531,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_mould_ring_1_0.343",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.34800044802447944,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_mould_ring_1_0.38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.3835005199676245,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_mould_ring_1_0.49",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.4918004849232259,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_mould_ring_1_0.635",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6372004117922531,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_0",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203529337644005,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_1",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203552059015413,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_10",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588807266,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_11",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533038788016,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_12",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203567500519936,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_13",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203469788442685,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_14",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203373349020935,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_15",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203349922691429,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_16",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_17",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203452579638926,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_18",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203480512941931,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_19",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508387666402,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_2",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_20",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203531721810744,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_21",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203547352300754,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_22",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_23",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203579813973001,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_24",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203584936280985,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_25",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203585971938909,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_26",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_27",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508752482718,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_28",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_29",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_3",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203579677690908,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_30",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588807266,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_31",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533803484799,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_32",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203568422080762,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_33",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203472495278137,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_34",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203373349020935,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_35",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620335330969824,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_36",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_37",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203452445477163,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203485054052343,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_39",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203513100340982,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_4",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203584760246093,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_5",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620358954359829,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_6",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_7",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508220624283,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_8",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_-1_9",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_0",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203529337644005,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_1",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203552059015413,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_10",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588807266,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_11",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533038788016,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_12",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203567500519936,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_13",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203469788442685,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_14",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203373349020935,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_15",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203349922691429,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_16",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_17",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203452579638926,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_18",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203480512941931,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_19",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508387666402,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_2",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_20",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203531721810744,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_21",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203547352300754,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_22",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203563651349123,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_23",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203579813973001,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_24",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203584936280985,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_25",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203585971938909,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_26",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_27",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508752482718,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_28",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_29",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_3",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203579677690908,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_30",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203588807266,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_31",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203533803484799,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_32",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203568422080762,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_33",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203472495278137,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_34",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203373349020935,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_35",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620335330969824,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_36",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203408128898494,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_37",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203452445477163,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_38",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203485054052343,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_39",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203513100340982,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_4",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203584760246093,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_5",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.620358954359829,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_6",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203573373330012,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_7",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203508220624283,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_8",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203355807335416,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_vent_1_9",
+          "type": "CURVE",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.6203583379903099,
+          "collections": [
+            "Collection"
+          ]
+        },
+        {
+          "name": "BL_Tyre_7_VI203_profile",
+          "type": "MESH",
+          "hiddenRender": false,
+          "hiddenViewport": false,
+          "radialEnvelopeM": 0.7290003474361558,
+          "collections": [
+            "Collection"
+          ]
+        }
+      ],
+      "tyreObjects": 108,
+      "objectTypes": {
+        "CURVE": 88,
+        "MESH": 20
+      },
+      "vertices": 51616,
+      "minX": 3.865999399718289,
+      "maxX": 5.374000600281711
+    }
+  ],
+  "pairs": [
+    {
+      "part": "BL_RearRestoration_mount_-1_3.37",
+      "wheel": 4,
+      "separatingGapM": 0.13599971414995338,
+      "conservativeGapM": 0.13595971414995336,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_-1_3.37",
+      "wheel": 5,
+      "separatingGapM": 0.13599971414995338,
+      "conservativeGapM": 0.13595971414995336,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_-1_3.37",
+      "wheel": 6,
+      "separatingGapM": 0.43599957137966605,
+      "conservativeGapM": 0.43595957137966607,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_-1_3.37",
+      "wheel": 7,
+      "separatingGapM": 0.43599957137966605,
+      "conservativeGapM": 0.43595957137966607,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_-1_3.67",
+      "wheel": 4,
+      "separatingGapM": 0.43599990488481666,
+      "conservativeGapM": 0.4359599048848167,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_-1_3.67",
+      "wheel": 5,
+      "separatingGapM": 0.43599990488481666,
+      "conservativeGapM": 0.4359599048848167,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_-1_3.67",
+      "wheel": 6,
+      "separatingGapM": 0.13599938064480277,
+      "conservativeGapM": 0.13595938064480276,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_-1_3.67",
+      "wheel": 7,
+      "separatingGapM": 0.13599938064480277,
+      "conservativeGapM": 0.13595938064480276,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_1_3.37",
+      "wheel": 4,
+      "separatingGapM": 0.13599971414995338,
+      "conservativeGapM": 0.13595971414995336,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_1_3.37",
+      "wheel": 5,
+      "separatingGapM": 0.13599971414995338,
+      "conservativeGapM": 0.13595971414995336,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_1_3.37",
+      "wheel": 6,
+      "separatingGapM": 0.43599957137966605,
+      "conservativeGapM": 0.43595957137966607,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_1_3.37",
+      "wheel": 7,
+      "separatingGapM": 0.43599957137966605,
+      "conservativeGapM": 0.43595957137966607,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_1_3.67",
+      "wheel": 4,
+      "separatingGapM": 0.43599990488481666,
+      "conservativeGapM": 0.4359599048848167,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_1_3.67",
+      "wheel": 5,
+      "separatingGapM": 0.43599990488481666,
+      "conservativeGapM": 0.4359599048848167,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_1_3.67",
+      "wheel": 6,
+      "separatingGapM": 0.13599938064480277,
+      "conservativeGapM": 0.13595938064480276,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_mount_1_3.67",
+      "wheel": 7,
+      "separatingGapM": 0.13599938064480277,
+      "conservativeGapM": 0.13595938064480276,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_-1",
+      "wheel": 4,
+      "separatingGapM": 0.060999428047658455,
+      "conservativeGapM": 0.06095942804765846,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_-1",
+      "wheel": 5,
+      "separatingGapM": 0.060999428047658455,
+      "conservativeGapM": 0.06095942804765846,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_-1",
+      "wheel": 6,
+      "separatingGapM": 0.06099957137966605,
+      "conservativeGapM": 0.06095957137966605,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_-1",
+      "wheel": 7,
+      "separatingGapM": 0.06099957137966605,
+      "conservativeGapM": 0.06095957137966605,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_1",
+      "wheel": 4,
+      "separatingGapM": 0.060999428047658455,
+      "conservativeGapM": 0.06095942804765846,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_1",
+      "wheel": 5,
+      "separatingGapM": 0.060999428047658455,
+      "conservativeGapM": 0.06095942804765846,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_1",
+      "wheel": 6,
+      "separatingGapM": 0.06099957137966605,
+      "conservativeGapM": 0.06095957137966605,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_1",
+      "wheel": 7,
+      "separatingGapM": 0.06099957137966605,
+      "conservativeGapM": 0.06095957137966605,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_-1_4.94",
+      "wheel": 4,
+      "separatingGapM": 0.1764994013447776,
+      "conservativeGapM": 0.17645940134477758,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_-1_4.94",
+      "wheel": 5,
+      "separatingGapM": 0.1764994013447776,
+      "conservativeGapM": 0.17645940134477758,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_-1_4.94",
+      "wheel": 6,
+      "separatingGapM": 0.4764997354116485,
+      "conservativeGapM": 0.4764597354116485,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_-1_4.94",
+      "wheel": 7,
+      "separatingGapM": 0.4764997354116485,
+      "conservativeGapM": 0.4764597354116485,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_-1_5.24",
+      "wheel": 4,
+      "separatingGapM": 0.4764995920796409,
+      "conservativeGapM": 0.4764595920796409,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_-1_5.24",
+      "wheel": 5,
+      "separatingGapM": 0.4764995920796409,
+      "conservativeGapM": 0.4764595920796409,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_-1_5.24",
+      "wheel": 6,
+      "separatingGapM": 0.1764995446767852,
+      "conservativeGapM": 0.17645954467678518,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_-1_5.24",
+      "wheel": 7,
+      "separatingGapM": 0.1764995446767852,
+      "conservativeGapM": 0.17645954467678518,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_1_4.94",
+      "wheel": 4,
+      "separatingGapM": 0.1764994013447776,
+      "conservativeGapM": 0.17645940134477758,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_1_4.94",
+      "wheel": 5,
+      "separatingGapM": 0.1764994013447776,
+      "conservativeGapM": 0.17645940134477758,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_1_4.94",
+      "wheel": 6,
+      "separatingGapM": 0.4764997354116485,
+      "conservativeGapM": 0.4764597354116485,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_1_4.94",
+      "wheel": 7,
+      "separatingGapM": 0.4764997354116485,
+      "conservativeGapM": 0.4764597354116485,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_1_5.24",
+      "wheel": 4,
+      "separatingGapM": 0.4764995920796409,
+      "conservativeGapM": 0.4764595920796409,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_1_5.24",
+      "wheel": 5,
+      "separatingGapM": 0.4764995920796409,
+      "conservativeGapM": 0.4764595920796409,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_1_5.24",
+      "wheel": 6,
+      "separatingGapM": 0.1764995446767852,
+      "conservativeGapM": 0.17645954467678518,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_latch_1_5.24",
+      "wheel": 7,
+      "separatingGapM": 0.1764995446767852,
+      "conservativeGapM": 0.17645954467678518,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_lid_-1",
+      "wheel": 4,
+      "separatingGapM": 0.053499733223439705,
+      "conservativeGapM": 0.05345973322343971,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_lid_-1",
+      "wheel": 5,
+      "separatingGapM": 0.053499733223439705,
+      "conservativeGapM": 0.05345973322343971,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_lid_-1",
+      "wheel": 6,
+      "separatingGapM": 0.0534993997182891,
+      "conservativeGapM": 0.0534593997182891,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_lid_-1",
+      "wheel": 7,
+      "separatingGapM": 0.0534993997182891,
+      "conservativeGapM": 0.0534593997182891,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_lid_1",
+      "wheel": 4,
+      "separatingGapM": 0.053499733223439705,
+      "conservativeGapM": 0.05345973322343971,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_lid_1",
+      "wheel": 5,
+      "separatingGapM": 0.053499733223439705,
+      "conservativeGapM": 0.05345973322343971,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_lid_1",
+      "wheel": 6,
+      "separatingGapM": 0.0534993997182891,
+      "conservativeGapM": 0.0534593997182891,
+      "status": "SEPARATED"
+    },
+    {
+      "part": "BL_RearRestoration_Rear_box_lid_1",
+      "wheel": 7,
+      "separatingGapM": 0.0534993997182891,
+      "conservativeGapM": 0.0534593997182891,
+      "status": "SEPARATED"
+    }
+  ],
+  "minimumConservativeGapM": 0.0534593997182891,
+  "notCovered": [
+    "Factory-dimensional correctness or real suspension kinematics",
+    "Tyre load deformation, flex or radial growth",
+    "Longitudinal axle/bushing deflection or rear steering",
+    "Clearance to other body, axle, brake or suspension parts",
+    "Front-wheel steering",
+    "Full-vehicle continuous sweep or dynamic loads",
+    "Actual browser-runtime pose parity"
+  ]
+}

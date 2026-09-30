@@ -1,0 +1,20 @@
+// Verify the real test entry point in a fresh, isolated generated-file workspace.
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import os from 'node:os';
+import {fileURLToPath} from 'node:url';
+import {spawnSync} from 'node:child_process';
+import assert from 'node:assert/strict';
+const project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const run=await fs.mkdtemp(path.join(os.tmpdir(),'maz-suspension-bootstrap-'));
+await fs.mkdir(path.join(run,'scripts'));await fs.mkdir(path.join(run,'lib'));await fs.mkdir(path.join(run,'outputs'));
+for(const file of ['scripts/verify-suspension.mjs','scripts/prepare-suspension.mjs','lib/suspension.ts'])await fs.copyFile(path.join(project,file),path.join(run,file));
+await fs.symlink(path.join(project,'node_modules'),path.join(run,'node_modules'),'junction');
+await assert.rejects(fs.stat(path.join(run,'work/compiled/suspension.mjs')),{code:'ENOENT'});
+const result=spawnSync(process.execPath,['scripts/verify-suspension.mjs'],{cwd:run,encoding:'utf8',timeout:120000});
+assert.equal(result.status,0,result.error?.message||result.stderr||result.stdout);
+const numerical=JSON.parse(await fs.readFile(path.join(run,'outputs/suspension-verification.json'),'utf8'));
+const report={passed:true,initialCompiledModuleAbsent:true,actualTestEntryPoint:true,maxClosure:numerical.maxClosure,maxEnergyError:numerical.maxEnergyError,limits:numerical.scope};
+await fs.mkdir(path.join(project,'outputs/cloud-baseline-20260930/numerical-tests'),{recursive:true});
+await fs.writeFile(path.join(project,'outputs/cloud-baseline-20260930/numerical-tests/suspension-bootstrap.json'),JSON.stringify(report,null,2));
+console.log(JSON.stringify(report,null,2));

@@ -1,0 +1,97 @@
+{
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "packedAndReadBack": [
+        {
+          "image": "factory-543a-profile.jpg",
+          "source": "external/maz543-references/factory-543a-profile.jpg",
+          "sha256": "d33939dd33bf39eb9fdd4760b9c8e22d28c1e4c424f9dee7fd4c2a385db47d36",
+          "bytes": 62448,
+          "size": [
+            880,
+            495
+          ]
+        },
+        {
+          "image": "maz543a-5.jpg",
+          "source": "external/maz543-references/maz543a-5.jpg",
+          "sha256": "0b4728f8556013c5597606d974fbe6212d73af604c27d259ea0e2a40d4c267c1",
+          "bytes": 206700,
+          "size": [
+            613,
+            602
+          ]
+        },
+        {
+          "image": "museum-front-oblique.jpg",
+          "source": "external/maz543-references/museum-front-oblique.jpg",
+          "sha256": "d945dc8cb88c627464bb05a259269b3e7c923beae53750d94b10e4997dbc2f40",
+          "bytes": 276383,
+          "size": [
+            1067,
+            1600
+          ]
+        },
+        {
+          "image": "museum-front.jpg",
+          "source": "external/maz543-references/museum-front.jpg",
+          "sha256": "5d3bc6b389ec8d0a08e6963b66a6689cc3f5fa9401732e374c5577ae5396824c",
+          "bytes": 367758,
+          "size": [
+            1415,
+            1130
+          ]
+        }
+      ],
+      "objects": 10004
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "packedAndReadBack": [
+        {
+          "image": "factory-543a-profile.jpg",
+          "source": "external/maz543-references/factory-543a-profile.jpg",
+          "sha256": "d33939dd33bf39eb9fdd4760b9c8e22d28c1e4c424f9dee7fd4c2a385db47d36",
+          "bytes": 62448,
+          "size": [
+            880,
+            495
+          ]
+        },
+        {
+          "image": "maz543a-5.jpg",
+          "source": "external/maz543-references/maz543a-5.jpg",
+          "sha256": "0b4728f8556013c5597606d974fbe6212d73af604c27d259ea0e2a40d4c267c1",
+          "bytes": 206700,
+          "size": [
+            613,
+            602
+          ]
+        },
+        {
+          "image": "museum-front-oblique.jpg",
+          "source": "external/maz543-references/museum-front-oblique.jpg",
+          "sha256": "d945dc8cb88c627464bb05a259269b3e7c923beae53750d94b10e4997dbc2f40",
+          "bytes": 276383,
+          "size": [
+            1067,
+            1600
+          ]
+        },
+        {
+          "image": "museum-front.jpg",
+          "source": "external/maz543-references/museum-front.jpg",
+          "sha256": "5d3bc6b389ec8d0a08e6963b66a6689cc3f5fa9401732e374c5577ae5396824c",
+          "bytes": 367758,
+          "size": [
+            1415,
+            1130
+          ]
+        }
+      ],
+      "objects": 8088
+    }
+  ],
+  "scope": "Reference portability only; source dimensions and mechanical/visual acceptance unchanged"
+}

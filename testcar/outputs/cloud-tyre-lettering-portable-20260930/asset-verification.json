@@ -1,0 +1,1123 @@
+{
+  "status": "PASS_SCOPED_ASSET_CHECKS",
+  "sha256": "0222c801815584c040154b7c6150a5e7953c8fa84f4c8ef82e8f9d83b2fb5cf1",
+  "bytes": 20293572,
+  "unchangedCompressedMeshNodes": 266,
+  "unchangedEmbeddedTextures": 3,
+  "longitudinalEnvelope": {
+    "status": "PASS_CONDITIONAL_SEPARATION",
+    "minimumGapM": 0.053410715301488484,
+    "wheelEnvelopes": [
+      {
+        "wheel": 4,
+        "axleX": 2.42,
+        "radialEnvelopeM": 0.7540493657608285,
+        "meshNodes": 24,
+        "minX": 1.6659506342391714,
+        "maxX": 3.1740493657608284
+      },
+      {
+        "wheel": 5,
+        "axleX": 2.42,
+        "radialEnvelopeM": 0.7540493657608285,
+        "meshNodes": 24,
+        "minX": 1.6659506342391714,
+        "maxX": 3.1740493657608284
+      },
+      {
+        "wheel": 6,
+        "axleX": 4.62,
+        "radialEnvelopeM": 0.7540495276239393,
+        "meshNodes": 24,
+        "minX": 3.8659504723760607,
+        "maxX": 5.3740495276239395
+      },
+      {
+        "wheel": 7,
+        "axleX": 4.62,
+        "radialEnvelopeM": 0.7540495276239393,
+        "meshNodes": 24,
+        "minX": 3.8659504723760607,
+        "maxX": 5.3740495276239395
+      }
+    ],
+    "rearEnvelopes": [
+      {
+        "name": "BL_RearRestoration_mount_-1_3.37",
+        "minX": 3.3099998869001865,
+        "maxX": 3.4300041683018208
+      },
+      {
+        "name": "BL_RearRestoration_mount_-1_3.67",
+        "minX": 3.61000007763505,
+        "maxX": 3.730004359036684
+      },
+      {
+        "name": "BL_RearRestoration_mount_1_3.37",
+        "minX": 3.3099998869001865,
+        "maxX": 3.4300041683018208
+      },
+      {
+        "name": "BL_RearRestoration_mount_1_3.67",
+        "minX": 3.61000007763505,
+        "maxX": 3.730004359036684
+      },
+      {
+        "name": "BL_RearRestoration_Rear_box_-1",
+        "minX": 3.2349997758865356,
+        "maxX": 3.8050109148025513
+      },
+      {
+        "name": "BL_RearRestoration_Rear_box_1",
+        "minX": 3.2349997758865356,
+        "maxX": 3.8050109148025513
+      },
+      {
+        "name": "BL_RearRestoration_Rear_box_latch_-1_4.94",
+        "minX": 3.350499749183655,
+        "maxX": 3.3895002603530884
+      },
+      {
+        "name": "BL_RearRestoration_Rear_box_latch_-1_5.24",
+        "minX": 3.650499939918518,
+        "maxX": 3.6895004510879517
+      },
+      {
+        "name": "BL_RearRestoration_Rear_box_latch_1_4.94",
+        "minX": 3.350499749183655,
+        "maxX": 3.3895002603530884
+      },
+      {
+        "name": "BL_RearRestoration_Rear_box_latch_1_5.24",
+        "minX": 3.650499939918518,
+        "maxX": 3.6895004510879517
+      },
+      {
+        "name": "BL_RearRestoration_Rear_box_lid_-1",
+        "minX": 3.227500081062317,
+        "maxX": 3.8124815225601196
+      },
+      {
+        "name": "BL_RearRestoration_Rear_box_lid_1",
+        "minX": 3.227500081062317,
+        "maxX": 3.8124815225601196
+      }
+    ],
+    "conditions": "Current assembled rigid meshes, fixed longitudinal axle positions, zero rear steering, arbitrary wheel spin/camber and transverse/vertical suspension motion. Excludes deformation, axle fore/aft flex, other parts and actual browser-runtime validation."
+  },
+  "glyphMeshes": 144,
+  "maxNativeAssetDeviationM": 0.0000014994125137664242,
+  "gltfErrors": 0,
+  "gltfWarnings": 0,
+  "parts": [
+    {
+      "name": "BL_Tyre_0_emboss_0",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 8.923949552555132e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_1",
+      "decodedVertices": 732,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000013649558460812019
+    },
+    {
+      "name": "BL_Tyre_0_emboss_10",
+      "decodedVertices": 1406,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000014690219981888278
+    },
+    {
+      "name": "BL_Tyre_0_emboss_11",
+      "decodedVertices": 702,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.000001261948846302878
+    },
+    {
+      "name": "BL_Tyre_0_emboss_14",
+      "decodedVertices": 46,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 9.579731916670738e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_15",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 7.627028310451958e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_16",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 2.809510502647242e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_17",
+      "decodedVertices": 798,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 0.0000012602373068002702
+    },
+    {
+      "name": "BL_Tyre_0_emboss_18",
+      "decodedVertices": 840,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.000001363328859840969
+    },
+    {
+      "name": "BL_Tyre_0_emboss_19",
+      "decodedVertices": 1362,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000014347899610844425
+    },
+    {
+      "name": "BL_Tyre_0_emboss_2",
+      "decodedVertices": 880,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013903891811062765
+    },
+    {
+      "name": "BL_Tyre_0_emboss_3",
+      "decodedVertices": 870,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000014287971624492164
+    },
+    {
+      "name": "BL_Tyre_0_emboss_4",
+      "decodedVertices": 96,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 7.98387106332575e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_5",
+      "decodedVertices": 1120,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.00000132421164422833
+    },
+    {
+      "name": "BL_Tyre_0_emboss_6",
+      "decodedVertices": 852,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.000001355131285315991
+    },
+    {
+      "name": "BL_Tyre_0_emboss_7",
+      "decodedVertices": 848,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000012870982170396269
+    },
+    {
+      "name": "BL_Tyre_0_emboss_8",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 3.8716655914520517e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_9",
+      "decodedVertices": 1114,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000014248696473398648
+    },
+    {
+      "name": "BL_Tyre_1_emboss_0",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 8.138514316094526e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_1",
+      "decodedVertices": 716,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000013078620473639754
+    },
+    {
+      "name": "BL_Tyre_1_emboss_10",
+      "decodedVertices": 1368,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.000001428660700230985
+    },
+    {
+      "name": "BL_Tyre_1_emboss_11",
+      "decodedVertices": 720,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000013940981485720668
+    },
+    {
+      "name": "BL_Tyre_1_emboss_14",
+      "decodedVertices": 50,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 0.0000011252557681317847
+    },
+    {
+      "name": "BL_Tyre_1_emboss_15",
+      "decodedVertices": 28,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 8.854968702571461e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_16",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 4.647111281066732e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_17",
+      "decodedVertices": 810,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 0.000001252318911996457
+    },
+    {
+      "name": "BL_Tyre_1_emboss_18",
+      "decodedVertices": 834,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000012488942850604016
+    },
+    {
+      "name": "BL_Tyre_1_emboss_19",
+      "decodedVertices": 1430,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000012895019636218273
+    },
+    {
+      "name": "BL_Tyre_1_emboss_2",
+      "decodedVertices": 858,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.00000145454301716933
+    },
+    {
+      "name": "BL_Tyre_1_emboss_3",
+      "decodedVertices": 840,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.000001389906430604154
+    },
+    {
+      "name": "BL_Tyre_1_emboss_4",
+      "decodedVertices": 72,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 7.793212130805292e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_5",
+      "decodedVertices": 1126,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000014320748603010686
+    },
+    {
+      "name": "BL_Tyre_1_emboss_6",
+      "decodedVertices": 816,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013057485936333994
+    },
+    {
+      "name": "BL_Tyre_1_emboss_7",
+      "decodedVertices": 814,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000012721845857122143
+    },
+    {
+      "name": "BL_Tyre_1_emboss_8",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 3.1443163580508104e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_9",
+      "decodedVertices": 1126,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000014159448206780353
+    },
+    {
+      "name": "BL_Tyre_2_emboss_0",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 9.18593468514915e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_1",
+      "decodedVertices": 732,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000013477079886332323
+    },
+    {
+      "name": "BL_Tyre_2_emboss_10",
+      "decodedVertices": 1380,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000013764563825881998
+    },
+    {
+      "name": "BL_Tyre_2_emboss_11",
+      "decodedVertices": 700,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000013156653928409343
+    },
+    {
+      "name": "BL_Tyre_2_emboss_14",
+      "decodedVertices": 46,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 8.954714917045041e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_15",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 7.863499271245697e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_16",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.8137469966611358e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_17",
+      "decodedVertices": 796,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 0.0000012844445327871247
+    },
+    {
+      "name": "BL_Tyre_2_emboss_18",
+      "decodedVertices": 828,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.000001257907504856482
+    },
+    {
+      "name": "BL_Tyre_2_emboss_19",
+      "decodedVertices": 1356,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000013655788790981284
+    },
+    {
+      "name": "BL_Tyre_2_emboss_2",
+      "decodedVertices": 880,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000012724159072940656
+    },
+    {
+      "name": "BL_Tyre_2_emboss_3",
+      "decodedVertices": 872,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013216015580837401
+    },
+    {
+      "name": "BL_Tyre_2_emboss_4",
+      "decodedVertices": 88,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 8.60336720366109e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_5",
+      "decodedVertices": 1114,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000013145922255717059
+    },
+    {
+      "name": "BL_Tyre_2_emboss_6",
+      "decodedVertices": 862,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013624546750311557
+    },
+    {
+      "name": "BL_Tyre_2_emboss_7",
+      "decodedVertices": 834,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013589965704905611
+    },
+    {
+      "name": "BL_Tyre_2_emboss_8",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 3.16788515457117e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_9",
+      "decodedVertices": 1118,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000013670922046374873
+    },
+    {
+      "name": "BL_Tyre_3_emboss_0",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 8.296418019200211e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_1",
+      "decodedVertices": 696,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000013950198862790877
+    },
+    {
+      "name": "BL_Tyre_3_emboss_10",
+      "decodedVertices": 1374,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.000001399202336677149
+    },
+    {
+      "name": "BL_Tyre_3_emboss_11",
+      "decodedVertices": 720,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000012340504214924792
+    },
+    {
+      "name": "BL_Tyre_3_emboss_14",
+      "decodedVertices": 50,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 0.0000010146885328552063
+    },
+    {
+      "name": "BL_Tyre_3_emboss_15",
+      "decodedVertices": 28,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 9.267378590353041e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_16",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 4.180799686411246e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_17",
+      "decodedVertices": 814,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 0.0000012348163334113172
+    },
+    {
+      "name": "BL_Tyre_3_emboss_18",
+      "decodedVertices": 832,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000012326976726387673
+    },
+    {
+      "name": "BL_Tyre_3_emboss_19",
+      "decodedVertices": 1430,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000012691114123349363
+    },
+    {
+      "name": "BL_Tyre_3_emboss_2",
+      "decodedVertices": 852,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.000001287369731607001
+    },
+    {
+      "name": "BL_Tyre_3_emboss_3",
+      "decodedVertices": 844,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013332265842368352
+    },
+    {
+      "name": "BL_Tyre_3_emboss_4",
+      "decodedVertices": 72,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 8.025694791851123e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_5",
+      "decodedVertices": 1114,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000014295834334657698
+    },
+    {
+      "name": "BL_Tyre_3_emboss_6",
+      "decodedVertices": 828,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000014402316228865391
+    },
+    {
+      "name": "BL_Tyre_3_emboss_7",
+      "decodedVertices": 802,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013588651485552036
+    },
+    {
+      "name": "BL_Tyre_3_emboss_8",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 2.719014031349779e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_9",
+      "decodedVertices": 1122,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.000001413510734330437
+    },
+    {
+      "name": "BL_Tyre_4_emboss_0",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 8.823950750399862e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_1",
+      "decodedVertices": 732,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000014815024086538152
+    },
+    {
+      "name": "BL_Tyre_4_emboss_10",
+      "decodedVertices": 1374,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000014994125137664242
+    },
+    {
+      "name": "BL_Tyre_4_emboss_11",
+      "decodedVertices": 696,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.000001314924772439627
+    },
+    {
+      "name": "BL_Tyre_4_emboss_14",
+      "decodedVertices": 46,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 9.659991339070135e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_15",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 7.816252322484049e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_16",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.864819375374086e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_17",
+      "decodedVertices": 800,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 0.000001308380144781012
+    },
+    {
+      "name": "BL_Tyre_4_emboss_18",
+      "decodedVertices": 840,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013626243370956948
+    },
+    {
+      "name": "BL_Tyre_4_emboss_19",
+      "decodedVertices": 1364,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.000001314942761579811
+    },
+    {
+      "name": "BL_Tyre_4_emboss_2",
+      "decodedVertices": 876,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.000001343780093326833
+    },
+    {
+      "name": "BL_Tyre_4_emboss_3",
+      "decodedVertices": 856,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013399823835215718
+    },
+    {
+      "name": "BL_Tyre_4_emboss_4",
+      "decodedVertices": 96,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 8.515522252523496e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_5",
+      "decodedVertices": 1126,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000013500303148043457
+    },
+    {
+      "name": "BL_Tyre_4_emboss_6",
+      "decodedVertices": 848,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013293136088246818
+    },
+    {
+      "name": "BL_Tyre_4_emboss_7",
+      "decodedVertices": 832,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013307860770668474
+    },
+    {
+      "name": "BL_Tyre_4_emboss_8",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 3.5904660639405757e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_9",
+      "decodedVertices": 1102,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000013786266574027557
+    },
+    {
+      "name": "BL_Tyre_5_emboss_0",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 8.4129931064625e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_1",
+      "decodedVertices": 718,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000013047059274330492
+    },
+    {
+      "name": "BL_Tyre_5_emboss_10",
+      "decodedVertices": 1378,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000013991558145554578
+    },
+    {
+      "name": "BL_Tyre_5_emboss_11",
+      "decodedVertices": 722,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000013683037342054115
+    },
+    {
+      "name": "BL_Tyre_5_emboss_14",
+      "decodedVertices": 50,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 0.0000011144666836707904
+    },
+    {
+      "name": "BL_Tyre_5_emboss_15",
+      "decodedVertices": 28,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 9.30149396719694e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_16",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 4.6459461436380464e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_17",
+      "decodedVertices": 810,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 0.0000013238424567391084
+    },
+    {
+      "name": "BL_Tyre_5_emboss_18",
+      "decodedVertices": 832,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.000001240461382438918
+    },
+    {
+      "name": "BL_Tyre_5_emboss_19",
+      "decodedVertices": 1430,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000012660873047583958
+    },
+    {
+      "name": "BL_Tyre_5_emboss_2",
+      "decodedVertices": 864,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000014267346883357337
+    },
+    {
+      "name": "BL_Tyre_5_emboss_3",
+      "decodedVertices": 844,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013896145900291892
+    },
+    {
+      "name": "BL_Tyre_5_emboss_4",
+      "decodedVertices": 72,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 8.433973911621839e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_5",
+      "decodedVertices": 1122,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000014148512682553212
+    },
+    {
+      "name": "BL_Tyre_5_emboss_6",
+      "decodedVertices": 820,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000012955845342111983
+    },
+    {
+      "name": "BL_Tyre_5_emboss_7",
+      "decodedVertices": 816,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000012671544774192528
+    },
+    {
+      "name": "BL_Tyre_5_emboss_8",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 3.636153931862848e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_9",
+      "decodedVertices": 1122,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000014145721985802012
+    },
+    {
+      "name": "BL_Tyre_6_emboss_0",
+      "decodedVertices": 28,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 0.0000010992899997517094
+    },
+    {
+      "name": "BL_Tyre_6_emboss_1",
+      "decodedVertices": 724,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.000001448852306295148
+    },
+    {
+      "name": "BL_Tyre_6_emboss_10",
+      "decodedVertices": 1372,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000014609730175663107
+    },
+    {
+      "name": "BL_Tyre_6_emboss_11",
+      "decodedVertices": 710,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000013553950960132836
+    },
+    {
+      "name": "BL_Tyre_6_emboss_14",
+      "decodedVertices": 54,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 0.000001117339002568286
+    },
+    {
+      "name": "BL_Tyre_6_emboss_15",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 8.545612153318168e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_16",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 3.6296951496425697e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_17",
+      "decodedVertices": 790,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 0.0000013652562829507834
+    },
+    {
+      "name": "BL_Tyre_6_emboss_18",
+      "decodedVertices": 816,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000014933052169036004
+    },
+    {
+      "name": "BL_Tyre_6_emboss_19",
+      "decodedVertices": 1348,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000013705525693078216
+    },
+    {
+      "name": "BL_Tyre_6_emboss_2",
+      "decodedVertices": 892,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000014133385710358584
+    },
+    {
+      "name": "BL_Tyre_6_emboss_3",
+      "decodedVertices": 888,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000014577346101435746
+    },
+    {
+      "name": "BL_Tyre_6_emboss_4",
+      "decodedVertices": 88,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 0.0000010986542810100287
+    },
+    {
+      "name": "BL_Tyre_6_emboss_5",
+      "decodedVertices": 1114,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000014116798585707295
+    },
+    {
+      "name": "BL_Tyre_6_emboss_6",
+      "decodedVertices": 856,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013719044083175823
+    },
+    {
+      "name": "BL_Tyre_6_emboss_7",
+      "decodedVertices": 852,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000014217466557745803
+    },
+    {
+      "name": "BL_Tyre_6_emboss_8",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 4.2420615152687374e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_9",
+      "decodedVertices": 1110,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.000001459094911972827
+    },
+    {
+      "name": "BL_Tyre_7_emboss_0",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 9.298492568758694e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_1",
+      "decodedVertices": 692,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000014322500005367247
+    },
+    {
+      "name": "BL_Tyre_7_emboss_10",
+      "decodedVertices": 1382,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000014900633001833242
+    },
+    {
+      "name": "BL_Tyre_7_emboss_11",
+      "decodedVertices": 718,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 0.0000012992209442755321
+    },
+    {
+      "name": "BL_Tyre_7_emboss_14",
+      "decodedVertices": 50,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 0.0000011424705390158724
+    },
+    {
+      "name": "BL_Tyre_7_emboss_15",
+      "decodedVertices": 28,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 0.0000010062623176670664
+    },
+    {
+      "name": "BL_Tyre_7_emboss_16",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 4.925400293919471e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_17",
+      "decodedVertices": 834,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 0.0000012689561494413536
+    },
+    {
+      "name": "BL_Tyre_7_emboss_18",
+      "decodedVertices": 840,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.000001482237635386485
+    },
+    {
+      "name": "BL_Tyre_7_emboss_19",
+      "decodedVertices": 1418,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 0.0000013985461091939848
+    },
+    {
+      "name": "BL_Tyre_7_emboss_2",
+      "decodedVertices": 816,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000012996625574147419
+    },
+    {
+      "name": "BL_Tyre_7_emboss_3",
+      "decodedVertices": 852,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.000001423343525324818
+    },
+    {
+      "name": "BL_Tyre_7_emboss_4",
+      "decodedVertices": 72,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 9.352871572549608e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_5",
+      "decodedVertices": 1106,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000013579426883755342
+    },
+    {
+      "name": "BL_Tyre_7_emboss_6",
+      "decodedVertices": 804,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000014559067587074475
+    },
+    {
+      "name": "BL_Tyre_7_emboss_7",
+      "decodedVertices": 858,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 0.0000013962958148272216
+    },
+    {
+      "name": "BL_Tyre_7_emboss_8",
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 3.9075450947929674e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_9",
+      "decodedVertices": 1090,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 0.0000014756683344712614
+    }
+  ],
+  "limits": "Decoded asset under standard glTF world matrices, not an actual browser-render/runtime test. No factory geometry, typography, physical load or whole-vehicle acceptance."
+}
