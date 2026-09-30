@@ -1,0 +1,172 @@
+{
+  "status": "CANDIDATE_NOT_PROMOTED",
+  "method": "Fixed native exact-Boolean lip rabbet plus rigid latch-proxy release, all dimensions fitted, mechanism uncalibrated",
+  "sources": {
+    "manual": "https://djvu.online/file/zjMdLY3MFjmTL printed p173: hinged front; middle/rear removable",
+    "catalogue": "Retained 543a-8400002.gif.png; assembly drawing does not calibrate axis, notch or lock motion"
+  },
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "inputSHA256": "87f016864ecdcd4cb394f0c37a13d40d1e5bc20838ba063eb1cf4463b5110380",
+      "frontPanelClosedBoundsXYZ": {
+        "min": [
+          -5.55997371673584,
+          -0.509993314743042,
+          2.0101478099823
+        ],
+        "max": [
+          -4.581500053405762,
+          0.5099933743476868,
+          2.2929763793945312
+        ]
+      },
+      "originalLipBoundsXYZ": {
+        "min": [
+          -5.590000152587891,
+          -0.7099999785423279,
+          1.9455000162124634
+        ],
+        "max": [
+          -5.470000267028809,
+          0.7099999785423279,
+          2.05049991607666
+        ]
+      },
+      "rabbet": {
+        "fixedCutter": "CUTTER_R3_FIXED_closed_seating_rabbet",
+        "parent": "body",
+        "floorBlenderZ": 2.0081478099823,
+        "widthM": 1.0259866890907288,
+        "lowerRailMinimumHeightM": 0.06264779376983665,
+        "untrimmedOuterShoulderEachM": 0.1970066339969635,
+        "nominalMinimumVerticalGapM": 0.002,
+        "nominalLateralGapEachM": 0.003,
+        "contactStatus": "Clearance candidate only. Seal, bearing contact and load support not validated."
+      },
+      "latches": [
+        {
+          "name": "BL_Front_cover_latch_-0.46",
+          "pivotBlenderXYZ": [
+            -5.5980000495910645,
+            0.46000000834465027,
+            2.0
+          ],
+          "diagnosticReleasedDegrees": -100,
+          "geometry": "original three-point Bezier control geometry with native coincident-cap-rim Weld",
+          "capWeld": {
+            "mergeThresholdM": 1e-06,
+            "verticesBefore": 420,
+            "verticesAfter": 396,
+            "vertexSetHausdorffM": 0.0
+          }
+        },
+        {
+          "name": "BL_Front_cover_latch_0.46",
+          "pivotBlenderXYZ": [
+            -5.5980000495910645,
+            -0.46000000834465027,
+            2.0
+          ],
+          "diagnosticReleasedDegrees": -100,
+          "geometry": "original three-point Bezier control geometry with native coincident-cap-rim Weld",
+          "capWeld": {
+            "mergeThresholdM": 1e-06,
+            "verticesBefore": 420,
+            "verticesAfter": 396,
+            "vertexSetHausdorffM": 0.0
+          }
+        }
+      ],
+      "control": {
+        "object": "BL_Cover_service_DIAGNOSTIC_CONTROL",
+        "property": "service_stage",
+        "closed": 0,
+        "locksReleasedLidClosed": 1,
+        "locksReleasedLid60Degrees": 2
+      },
+      "archivedOriginalLip": "ARCHIVE_R2_BL_Front_cover_lip"
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "inputSHA256": "d832ccb2cbe4cfb2237711a9be3e6c87fab14d5120aa3a3e2dab1603eb67e2b9",
+      "frontPanelClosedBoundsXYZ": {
+        "min": [
+          -5.55997371673584,
+          -0.509993314743042,
+          2.0101478099823
+        ],
+        "max": [
+          -4.581500053405762,
+          0.5099933743476868,
+          2.2929763793945312
+        ]
+      },
+      "originalLipBoundsXYZ": {
+        "min": [
+          -5.590000152587891,
+          -0.7099999785423279,
+          1.9455000162124634
+        ],
+        "max": [
+          -5.470000267028809,
+          0.7099999785423279,
+          2.05049991607666
+        ]
+      },
+      "rabbet": {
+        "fixedCutter": "CUTTER_R3_FIXED_closed_seating_rabbet",
+        "parent": "body",
+        "floorBlenderZ": 2.0081478099823,
+        "widthM": 1.0259866890907288,
+        "lowerRailMinimumHeightM": 0.06264779376983665,
+        "untrimmedOuterShoulderEachM": 0.1970066339969635,
+        "nominalMinimumVerticalGapM": 0.002,
+        "nominalLateralGapEachM": 0.003,
+        "contactStatus": "Clearance candidate only. Seal, bearing contact and load support not validated."
+      },
+      "latches": [
+        {
+          "name": "BL_Front_cover_latch_-0.46",
+          "pivotBlenderXYZ": [
+            -5.5980000495910645,
+            0.46000000834465027,
+            2.0
+          ],
+          "diagnosticReleasedDegrees": -100,
+          "geometry": "original three-point Bezier control geometry with native coincident-cap-rim Weld",
+          "capWeld": {
+            "mergeThresholdM": 1e-06,
+            "verticesBefore": 420,
+            "verticesAfter": 396,
+            "vertexSetHausdorffM": 0.0
+          }
+        },
+        {
+          "name": "BL_Front_cover_latch_0.46",
+          "pivotBlenderXYZ": [
+            -5.5980000495910645,
+            -0.46000000834465027,
+            2.0
+          ],
+          "diagnosticReleasedDegrees": -100,
+          "geometry": "original three-point Bezier control geometry with native coincident-cap-rim Weld",
+          "capWeld": {
+            "mergeThresholdM": 1e-06,
+            "verticesBefore": 420,
+            "verticesAfter": 396,
+            "vertexSetHausdorffM": 0.0
+          }
+        }
+      ],
+      "control": {
+        "object": "BL_Cover_service_DIAGNOSTIC_CONTROL",
+        "property": "service_stage",
+        "closed": 0,
+        "locksReleasedLidClosed": 1,
+        "locksReleasedLid60Degrees": 2
+      },
+      "archivedOriginalLip": "ARCHIVE_R2_BL_Front_cover_lip"
+    }
+  ]
+}

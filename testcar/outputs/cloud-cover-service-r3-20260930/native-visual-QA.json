@@ -1,0 +1,34 @@
+{
+  "pairedRenders": [
+    {
+      "view": "closed-detail",
+      "cameraMatrixIdentical": true,
+      "projectionAndResolutionIdentical": true,
+      "images": [
+        "native-r2-closed-detail.png",
+        "native-r3-closed-detail.png"
+      ]
+    },
+    {
+      "view": "open-detail",
+      "cameraMatrixIdentical": true,
+      "projectionAndResolutionIdentical": true,
+      "images": [
+        "native-r2-open-detail.png",
+        "native-r3-open-detail.png"
+      ]
+    },
+    {
+      "view": "open-context",
+      "cameraMatrixIdentical": true,
+      "projectionAndResolutionIdentical": true,
+      "images": [
+        "native-r2-open-context.png",
+        "native-r3-open-context.png"
+      ]
+    }
+  ],
+  "visualInspection": "All six actual images visually inspected: fixed central seating recess and outer shoulders visible; r3 released proxy positions visible in open views; inherited plain panel contour/materials retained. Detail open crops the raised lid; full context captures it. No web or photorealism acceptance claimed.",
+  "renderExitCode": 0,
+  "software": "Official Blender 4.5.13, Cycles CPU, four threads"
+}

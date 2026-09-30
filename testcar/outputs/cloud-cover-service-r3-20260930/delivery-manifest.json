@@ -1,0 +1,106 @@
+{
+  "status": "CANDIDATE_NOT_PROMOTED_OVERALL_FAIL",
+  "files": [
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/MAZ543A_Master.blend",
+      "bytes": 65608178,
+      "sha256": "2b7c890d165620e262507150de074b47c197fe944c879bfe4d42217ec2703579"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/MAZ543A_Textured.blend",
+      "bytes": 98651583,
+      "sha256": "b7cfe290713d552ca23d2ddfc9c0efb11fe09a93419b5a29c4b49ec2e9247c2e"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/native-r2-closed-detail.png",
+      "bytes": 1195848,
+      "sha256": "998320a8a548d494b547d98f8d25bb81851d145b7771c4a8702e385f8b92b4f0"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/native-r2-open-context.png",
+      "bytes": 1253089,
+      "sha256": "216900fa931dab27216629ba93f130c528f5f5b1a87914cdd800ec34717f10b9"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/native-r2-open-detail.png",
+      "bytes": 1227017,
+      "sha256": "2490a30f78afe2d2da691752a94b65bd51bf7d19a22bcea498d68aced4f30767"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/native-r3-closed-detail.png",
+      "bytes": 1204751,
+      "sha256": "39187fc44e673f83f81e851f82559824d37f9d39ae19fd5c9f6cd9511efd45e0"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/native-r3-open-context.png",
+      "bytes": 1253435,
+      "sha256": "def1c96e026e0c2bded5a035afdc3ada0fc6eee0286a014c8aab36066b6da53e"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/native-r3-open-detail.png",
+      "bytes": 1228084,
+      "sha256": "d8f16ab0b93436382217316db8b505121636c3a27cadd0effb13e2aa39cf64c1"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/build-service-candidate.json",
+      "bytes": 5537,
+      "sha256": "7cc3edbfd220259cbe6556e4eceff1b7d7510f35ccc773fa8e40bde3d927e1b4"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/latch-cap-diagnosis.json",
+      "bytes": 25763,
+      "sha256": "421f0ba6c21a157fff7d64e02d8e9498a644731c324c8bf5e303097473ecd71e"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/native-render-manifest.json",
+      "bytes": 6095,
+      "sha256": "2cc71bcc1bd33787457b0baabafc42535475402c5d82c365886132c0749cc9db"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/native-visual-QA.json",
+      "bytes": 1133,
+      "sha256": "f3729bfa9525a2b538f9e56d276c58eb343514e9cd2cc89dbf9050f534b305f0"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/protected-input-sha256.json",
+      "bytes": 1334,
+      "sha256": "9956bc3895d434c8b5c9fc86389bf6ccfed623be57e68f08b98ce4d4eae59fbd"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/saved-service-verification.json",
+      "bytes": 528397,
+      "sha256": "3bcce95f58538ebe253b38e28bdc51604bff03fc0eba4508edabbae95528601f"
+    },
+    {
+      "path": "testcar/outputs/cloud-cover-service-r3-20260930/README.md",
+      "bytes": 9709,
+      "sha256": "f01e9ca875d5cac2801484a243e443def9bf52bfc19e136be40b9cc72f6fce02"
+    },
+    {
+      "path": "testcar/scripts/build-cloud-cover-service-r3.py",
+      "bytes": 7281,
+      "sha256": "43192217fb72a36f51074a9f4e5f7cb5afd507af359d3eb2ccab020cb38997c2"
+    },
+    {
+      "path": "testcar/scripts/diagnose-cloud-cover-service-r3-caps.py",
+      "bytes": 1227,
+      "sha256": "dae58056e7481f9396e62b18b0da660d061662b3256db54b631dbae213fd1d8e"
+    },
+    {
+      "path": "testcar/scripts/inspect-cloud-cover-service-r3.py",
+      "bytes": 1163,
+      "sha256": "f7e4c35d77bbbffab7608c230130cffa0d47fe9941d9bd2654485876ecf2eff7"
+    },
+    {
+      "path": "testcar/scripts/render-cloud-cover-service-r3.py",
+      "bytes": 3185,
+      "sha256": "c5832e32154ae692764e1fbaa354fa3a206b2589637ebb86b08bc44402a0751b"
+    },
+    {
+      "path": "testcar/scripts/verify-cloud-cover-service-r3.py",
+      "bytes": 9288,
+      "sha256": "5675963719bec4805f3793b2bd21e9f286f71d4ada99b498ef92f15bc2de5ba1"
+    }
+  ],
+  "excludedFromFinalDeliverables": "Pre-Weld Blender .blend1 backups and initial failed-stage reports/logs remain local evidence; final assets are the two .blend files."
+}

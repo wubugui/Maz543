@@ -1,0 +1,248 @@
+[
+  {
+    "file": "native-r2-closed-detail.png",
+    "variant": "r2",
+    "source": "outputs/cloud-three-cover-r2-portable-20260930/MAZ543A_Master.blend",
+    "view": "closed-detail",
+    "lidDegrees": 0,
+    "latchDegrees": 0,
+    "cameraMatrixWorld": [
+      [
+        0.795203447341919,
+        0.2949059307575226,
+        -0.5297942161560059,
+        -6.599999904632568
+      ],
+      [
+        -0.6063426733016968,
+        0.38676193356513977,
+        -0.6948120594024658,
+        -1.600000023841858
+      ],
+      [
+        4.8064965341154675e-08,
+        0.8737537860870361,
+        0.48636847734451294,
+        3.200000047683716
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 1.9,
+    "resolution": [
+      1100,
+      800
+    ],
+    "renderer": "Cycles CPU, 4 threads, 16 samples; original native material/geometry",
+    "scope": "Native inspection only, not web screenshot, calibrated dimensions, photorealism acceptance or continuous collision proof"
+  },
+  {
+    "file": "native-r2-open-detail.png",
+    "variant": "r2",
+    "source": "outputs/cloud-three-cover-r2-portable-20260930/MAZ543A_Master.blend",
+    "view": "open-detail",
+    "lidDegrees": 60,
+    "latchDegrees": 0,
+    "cameraMatrixWorld": [
+      [
+        0.795203447341919,
+        0.2949059307575226,
+        -0.5297942161560059,
+        -6.599999904632568
+      ],
+      [
+        -0.6063426733016968,
+        0.38676193356513977,
+        -0.6948120594024658,
+        -1.600000023841858
+      ],
+      [
+        4.8064965341154675e-08,
+        0.8737537860870361,
+        0.48636847734451294,
+        3.200000047683716
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 1.9,
+    "resolution": [
+      1100,
+      800
+    ],
+    "renderer": "Cycles CPU, 4 threads, 16 samples; original native material/geometry",
+    "scope": "Native inspection only, not web screenshot, calibrated dimensions, photorealism acceptance or continuous collision proof"
+  },
+  {
+    "file": "native-r2-open-context.png",
+    "variant": "r2",
+    "source": "outputs/cloud-three-cover-r2-portable-20260930/MAZ543A_Master.blend",
+    "view": "open-context",
+    "lidDegrees": 60,
+    "latchDegrees": 0,
+    "cameraMatrixWorld": [
+      [
+        0.8099420666694641,
+        0.2527623772621155,
+        -0.5292495489120483,
+        -8.600000381469727
+      ],
+      [
+        -0.5865098834037781,
+        0.34905269742012024,
+        -0.7308682203292847,
+        -5.800000190734863
+      ],
+      [
+        -3.1817108947507222e-09,
+        0.9023709893226624,
+        0.430960088968277,
+        5.599999904632568
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 3.65,
+    "resolution": [
+      1100,
+      800
+    ],
+    "renderer": "Cycles CPU, 4 threads, 16 samples; original native material/geometry",
+    "scope": "Native inspection only, not web screenshot, calibrated dimensions, photorealism acceptance or continuous collision proof"
+  },
+  {
+    "file": "native-r3-closed-detail.png",
+    "variant": "r3",
+    "source": "outputs/cloud-cover-service-r3-20260930/MAZ543A_Master.blend",
+    "view": "closed-detail",
+    "lidDegrees": 0,
+    "latchDegrees": 0,
+    "cameraMatrixWorld": [
+      [
+        0.795203447341919,
+        0.2949059307575226,
+        -0.5297942161560059,
+        -6.599999904632568
+      ],
+      [
+        -0.6063426733016968,
+        0.38676193356513977,
+        -0.6948120594024658,
+        -1.600000023841858
+      ],
+      [
+        4.8064965341154675e-08,
+        0.8737537860870361,
+        0.48636847734451294,
+        3.200000047683716
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 1.9,
+    "resolution": [
+      1100,
+      800
+    ],
+    "renderer": "Cycles CPU, 4 threads, 16 samples; original native material/geometry",
+    "scope": "Native inspection only, not web screenshot, calibrated dimensions, photorealism acceptance or continuous collision proof"
+  },
+  {
+    "file": "native-r3-open-detail.png",
+    "variant": "r3",
+    "source": "outputs/cloud-cover-service-r3-20260930/MAZ543A_Master.blend",
+    "view": "open-detail",
+    "lidDegrees": 60,
+    "latchDegrees": -100,
+    "cameraMatrixWorld": [
+      [
+        0.795203447341919,
+        0.2949059307575226,
+        -0.5297942161560059,
+        -6.599999904632568
+      ],
+      [
+        -0.6063426733016968,
+        0.38676193356513977,
+        -0.6948120594024658,
+        -1.600000023841858
+      ],
+      [
+        4.8064965341154675e-08,
+        0.8737537860870361,
+        0.48636847734451294,
+        3.200000047683716
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 1.9,
+    "resolution": [
+      1100,
+      800
+    ],
+    "renderer": "Cycles CPU, 4 threads, 16 samples; original native material/geometry",
+    "scope": "Native inspection only, not web screenshot, calibrated dimensions, photorealism acceptance or continuous collision proof"
+  },
+  {
+    "file": "native-r3-open-context.png",
+    "variant": "r3",
+    "source": "outputs/cloud-cover-service-r3-20260930/MAZ543A_Master.blend",
+    "view": "open-context",
+    "lidDegrees": 60,
+    "latchDegrees": -100,
+    "cameraMatrixWorld": [
+      [
+        0.8099420666694641,
+        0.2527623772621155,
+        -0.5292495489120483,
+        -8.600000381469727
+      ],
+      [
+        -0.5865098834037781,
+        0.34905269742012024,
+        -0.7308682203292847,
+        -5.800000190734863
+      ],
+      [
+        -3.1817108947507222e-09,
+        0.9023709893226624,
+        0.430960088968277,
+        5.599999904632568
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orthoScale": 3.65,
+    "resolution": [
+      1100,
+      800
+    ],
+    "renderer": "Cycles CPU, 4 threads, 16 samples; original native material/geometry",
+    "scope": "Native inspection only, not web screenshot, calibrated dimensions, photorealism acceptance or continuous collision proof"
+  }
+]

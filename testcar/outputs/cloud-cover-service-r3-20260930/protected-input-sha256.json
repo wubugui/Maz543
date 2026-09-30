@@ -1,0 +1,32 @@
+[
+  {
+    "path": "testcar/outputs/MAZ543A_Master.blend",
+    "sha256": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3",
+    "expected": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3",
+    "unchanged": true
+  },
+  {
+    "path": "testcar/outputs/MAZ543A_Textured.blend",
+    "sha256": "f927cfffae77e443fe6f7c8536bb2344d6b7694f335a071a26d4bba22e350f5d",
+    "expected": "f927cfffae77e443fe6f7c8536bb2344d6b7694f335a071a26d4bba22e350f5d",
+    "unchanged": true
+  },
+  {
+    "path": "testcar/public/models/maz543a-blender.glb",
+    "sha256": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698",
+    "expected": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698",
+    "unchanged": true
+  },
+  {
+    "path": "testcar/outputs/cloud-three-cover-r2-portable-20260930/MAZ543A_Master.blend",
+    "sha256": "87f016864ecdcd4cb394f0c37a13d40d1e5bc20838ba063eb1cf4463b5110380",
+    "expected": "87f016864ecdcd4cb394f0c37a13d40d1e5bc20838ba063eb1cf4463b5110380",
+    "unchanged": true
+  },
+  {
+    "path": "testcar/outputs/cloud-three-cover-r2-portable-20260930/MAZ543A_Textured.blend",
+    "sha256": "d832ccb2cbe4cfb2237711a9be3e6c87fab14d5120aa3a3e2dab1603eb67e2b9",
+    "expected": "d832ccb2cbe4cfb2237711a9be3e6c87fab14d5120aa3a3e2dab1603eb67e2b9",
+    "unchanged": true
+  }
+]
