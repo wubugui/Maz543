@@ -1,0 +1,12 @@
+{
+  "results": {
+    "between_sample_collision_not_certified": true,
+    "disjoint_full_rotation_certified": true,
+    "budget_exhaustion_unresolved": true,
+    "interior_extrema_retained": true,
+    "random_enclosure_regression": true,
+    "note": "Synthetic regression supports implementation; the analytic enclosure argument establishes interval scope."
+  },
+  "script_sha256": "b62f1fa79ba988a3874370c0d64565c3c0f023b2c6ba6fb197bb686cd3c41d16",
+  "negative_control": "8 corners of a positive-volume rigid cube, strictly contained in fixed box at 1.5 degrees but separated at both 0 and 3 degrees"
+}
