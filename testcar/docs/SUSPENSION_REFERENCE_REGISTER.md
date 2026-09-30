@@ -20,9 +20,35 @@ Every hardpoint in `lib/suspension.ts`, bar length/diameter/spline count, damper
 length, stops, material coefficients, sprung/unsprung masses and tire law remain
 reconstructed values. Upper torsion bar is thinner than lower, as documented.
 Eight stations use paired longitudinal anchors as a packaging hypothesis; exact
-directions, pre-twist marks and axle-specific anchor positions remain open.
+anchor directions and axle-specific positions remain open. The original 1977
+manual now establishes the pre-twist handedness assignment below; this does not
+calibrate those anchors or the numerical stiffness.
 The later 7310 front/rear catalog is not copied as proof of early 543A castings.
 The source drawing's incomplete `130 +5` annotation is not used as travel data.
+
+## Original 1977 scan check (cloud, 2026-09-30)
+
+Printed page 168 was directly inspected in the retained 1977 third-edition scan
+(DJVU page 86; book SHA-256
+`cf8ebb65dcbfca6dd3b6c55a3174cfe9d628a206cb8c846eceee0041a2bb1bde`).
+The public source and provenance are recorded in
+`CLOUD_REFERENCE_CALIBRATION_20260930.md`; the raw scan is research material,
+not a browser texture or a new public deliverable.
+
+The torsion end with the threaded hole carries its manufacturing pre-twist
+mark. `Пр` applies to the right front wheels and left rear wheels; `Л` applies
+to the left front wheels and right rear wheels. These labels describe the
+documented handedness, not an inferred sign for the application's rotation
+coordinates, and have not been stamped onto the fitted component geometry.
+
+The same page describes upward travel being stopped by the rubber buffer in
+bracket 12 and the upper-arm support pads; downward travel is stopped by support
+bolts 17 in the suspension bracket. It supplies no numeric travel in this
+passage. The current numerical compression/droop limits therefore remain
+uncalibrated, and an arm pose inside those limits is not proof of real stop
+contact. The additional rear torsion described at the bottom of the page is
+explicitly a MAZ-543M distinction; it must not be added to the 543A from that
+figure alone.
 
 ## Mechanics and presentation
 
