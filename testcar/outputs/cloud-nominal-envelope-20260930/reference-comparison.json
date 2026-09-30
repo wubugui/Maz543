@@ -1,0 +1,171 @@
+{
+  "status": "BASELINE_MEASURED_REFERENCE_CALIBRATION_REMAINS_OPEN",
+  "factoryReference": {
+    "variant": "MAZ-543A",
+    "source": {
+      "title": "Колесное шасси МАЗ-543 и его модификации. Техническое описание и инструкция по эксплуатации",
+      "edition": 3,
+      "year": 1977,
+      "publisher": "Военное издательство Министерства обороны СССР",
+      "printedPages": [
+        12,
+        13
+      ],
+      "publicIndex": "https://teharmy.com/books/",
+      "publicBook": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+      "bookSHA256": "cf8ebb65dcbfca6dd3b6c55a3174cfe9d628a206cb8c846eceee0041a2bb1bde",
+      "verification": "Original scan visually checked by column; flattened webpage OCR must not be used to assign model columns. Raw source pages retained locally, not republished here."
+    },
+    "dimensions": {
+      "description": "Handbook approximate overall dimensions; not individual manufacturing drawings",
+      "lengthM": {
+        "nominal": 11.5,
+        "plusMinus": 0.025
+      },
+      "widthM": {
+        "maximum": 3.05
+      },
+      "unladenCabHeightM": {
+        "nominal": 2.67,
+        "plusMinus": 0.025
+      },
+      "unladenSearchlightHeightM": {
+        "nominal": 2.92,
+        "plusMinus": 0.025
+      },
+      "trackM": 2.375,
+      "extremeAxleSpanM": 7.7,
+      "frontPairAxleSpacingM": 2.2,
+      "rearPairAxleSpacingM": 2.2,
+      "unresolvedConventions": [
+        "Width exclusions for mirrors and handles",
+        "Searchlight aiming posture for the height measurement",
+        "Detailed overhang endpoints and suspension/tyre measurement condition"
+      ]
+    },
+    "mass": {
+      "condition": "Equipped chassis without payload; not bare dry mass",
+      "printedUpperLimitTonnes": "Не более 21 +1%",
+      "nominalReferenceKg": 21000,
+      "positiveAllowanceFraction": 0.01,
+      "upperLimitNature": true,
+      "unloadedFrontAxleGroupKg": 15200,
+      "unloadedRearAxleGroupKg": 5800,
+      "notEstablished": [
+        "Itemized fuel, tools and personnel inclusion",
+        "Individual axle or wheel load split",
+        "Unsprung mass",
+        "Physical centre of mass or pitch/roll inertia"
+      ]
+    },
+    "base543OnlyNot543A": {
+      "lengthM": {
+        "nominal": 11.265,
+        "plusMinus": 0.02
+      },
+      "equippedUnladenUpperMassKg": 20550
+    },
+    "status": "REFERENCE_DATA_ONLY_NO_GEOMETRY_OR_DYNAMICS_PROMOTION"
+  },
+  "actualNative": {
+    "lengthM": 11.2691011428833,
+    "allActive": {
+      "parts": 8647,
+      "minXYZ": [
+        -5.749101161956787,
+        -1.8629999160766602,
+        -0.003979163244366646
+      ],
+      "maxXYZ": [
+        5.519999980926514,
+        1.8629999160766602,
+        2.994999885559082
+      ],
+      "extentXYZ": [
+        11.2691011428833,
+        3.7259998321533203,
+        2.9989790488034487
+      ],
+      "minimumContributors": [
+        "BL_Front_single_recovery_hook",
+        "BL_Front_mirror_back_1",
+        "BL_Tyre_0_curved_tread_blocks"
+      ],
+      "maximumContributors": [
+        "frame_0003",
+        "BL_Front_mirror_back_-1",
+        "BL_Searchlight_housing"
+      ]
+    },
+    "excludingNamedMirrors": {
+      "parts": 8635,
+      "minXYZ": [
+        -5.749101161956787,
+        -1.5862360000610352,
+        -0.003979163244366646
+      ],
+      "maxXYZ": [
+        5.519999980926514,
+        1.5862360000610352,
+        2.994999885559082
+      ],
+      "extentXYZ": [
+        11.2691011428833,
+        3.1724720001220703,
+        2.9989790488034487
+      ],
+      "minimumContributors": [
+        "BL_Front_single_recovery_hook",
+        "BL_Door_1_0_handle",
+        "BL_Tyre_0_curved_tread_blocks"
+      ],
+      "maximumContributors": [
+        "frame_0003",
+        "BL_Door_-1_0_handle",
+        "BL_Searchlight_housing"
+      ]
+    },
+    "unladenHeightConventionNotEstablished": true,
+    "wheelChecks": [
+      {
+        "file": "MAZ543A_Master.blend",
+        "extremeSpanM": 7.699999809265137,
+        "tracksM": [
+          2.375,
+          2.375,
+          2.375,
+          2.375
+        ]
+      },
+      {
+        "file": "MAZ543A_Textured.blend",
+        "extremeSpanM": 7.699999809265137,
+        "tracksM": [
+          2.375,
+          2.375,
+          2.375,
+          2.375
+        ]
+      }
+    ]
+  },
+  "differences": {
+    "lengthToNominalM": -0.23089885711669922,
+    "lengthToLowerNominalBoundM": -0.20589885711669886,
+    "searchlightTopZToNominalM": 0.0749998855590821,
+    "warning": "Differences identify calibration work. They do not establish which overhang/component must move; width/height measurement conventions and posture remain unresolved."
+  },
+  "currentNumericalParameters": {
+    "specLengthM": 11.165,
+    "vehicleMassKg": 20550,
+    "sprungMassKg": 17910,
+    "unsprungMassEachKg": 330,
+    "totalSuspensionMassKg": 20550,
+    "initialFrontGroupNormalN": 100797.75,
+    "initialRearGroupNormalN": 100797.75,
+    "initialFrontFraction": 0.5
+  },
+  "massInterpretation": "20550 kg matches the base-543 table entry but is below the 543A upper-limit entry; this alone is not an upper-limit failure. Equal model static axle-group loads do not reproduce the handbook nominal 15200/5800 kg split. Neither individual wheel masses nor chassis inertia may be inferred from that group split alone.",
+  "changesAppliedToGeometryOrDynamics": false,
+  "wholeVehicleAcceptance": "16 OPEN"
+}

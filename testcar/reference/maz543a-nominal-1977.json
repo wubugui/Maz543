@@ -1,0 +1,38 @@
+{
+  "variant": "MAZ-543A",
+  "source": {
+    "title": "Колесное шасси МАЗ-543 и его модификации. Техническое описание и инструкция по эксплуатации",
+    "edition": 3,
+    "year": 1977,
+    "publisher": "Военное издательство Министерства обороны СССР",
+    "printedPages": [12, 13],
+    "publicIndex": "https://teharmy.com/books/",
+    "publicBook": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+    "bookSHA256": "cf8ebb65dcbfca6dd3b6c55a3174cfe9d628a206cb8c846eceee0041a2bb1bde",
+    "verification": "Original scan visually checked by column; flattened webpage OCR must not be used to assign model columns. Raw source pages retained locally, not republished here."
+  },
+  "dimensions": {
+    "description": "Handbook approximate overall dimensions; not individual manufacturing drawings",
+    "lengthM": {"nominal": 11.5, "plusMinus": 0.025},
+    "widthM": {"maximum": 3.05},
+    "unladenCabHeightM": {"nominal": 2.67, "plusMinus": 0.025},
+    "unladenSearchlightHeightM": {"nominal": 2.92, "plusMinus": 0.025},
+    "trackM": 2.375,
+    "extremeAxleSpanM": 7.7,
+    "frontPairAxleSpacingM": 2.2,
+    "rearPairAxleSpacingM": 2.2,
+    "unresolvedConventions": ["Width exclusions for mirrors and handles", "Searchlight aiming posture for the height measurement", "Detailed overhang endpoints and suspension/tyre measurement condition"]
+  },
+  "mass": {
+    "condition": "Equipped chassis without payload; not bare dry mass",
+    "printedUpperLimitTonnes": "Не более 21 +1%",
+    "nominalReferenceKg": 21000,
+    "positiveAllowanceFraction": 0.01,
+    "upperLimitNature": true,
+    "unloadedFrontAxleGroupKg": 15200,
+    "unloadedRearAxleGroupKg": 5800,
+    "notEstablished": ["Itemized fuel, tools and personnel inclusion", "Individual axle or wheel load split", "Unsprung mass", "Physical centre of mass or pitch/roll inertia"]
+  },
+  "base543OnlyNot543A": {"lengthM": {"nominal": 11.265, "plusMinus": 0.02}, "equippedUnladenUpperMassKg": 20550},
+  "status": "REFERENCE_DATA_ONLY_NO_GEOMETRY_OR_DYNAMICS_PROMOTION"
+}
