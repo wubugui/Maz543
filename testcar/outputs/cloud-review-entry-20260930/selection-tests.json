@@ -1,0 +1,137 @@
+{
+  "status": "PASS_SELECTION_AND_FILE_CHECKS_ONLY",
+  "baselineRef": "aa04cfd6a30c7ca47f8c5004a9c8adde2b4bbe15",
+  "mechanicalPoseBlockSHA256": "6206938e2518959713ca1589f8b1d98327e8e75a8effb5c103ad8d2afaebfc5c",
+  "mechanicalPoseCharacters": 17208,
+  "unchangedMechanicalSources": [
+    {
+      "file": "mechanics.ts",
+      "sha256": "4db4fbc850535a0feece60bd2309312322e79778ab7d8e1db2210a91f882d89e"
+    },
+    {
+      "file": "mechanicalTimeline.ts",
+      "sha256": "2274170d87b522aa5d76e5b7d22b9cf45f7a444f5f9a03b0360cd7e63061adbb"
+    },
+    {
+      "file": "starting.ts",
+      "sha256": "9b2ed3b37ad48bcfcb6a4d3412e6858556c89dd159f2b221c82d95ef6f584a63"
+    },
+    {
+      "file": "suspension.ts",
+      "sha256": "06af7ce5a0d277df3f90072a7a9228fff6fc2bd9e593205f60c1f463e0d11d89"
+    },
+    {
+      "file": "transmission.ts",
+      "sha256": "9f4cbb54a1cd9bb372d10e9ea080410b7d9e05263b936b81bca6249a8fa79bb7"
+    },
+    {
+      "file": "transmissionDynamics.ts",
+      "sha256": "c65036b031f24cddcd5fbf6773b48f9dfb680ef18b95a6048992574385716bdf"
+    },
+    {
+      "file": "transmissionHydraulics.ts",
+      "sha256": "50cd133bb1ca8558c53ec447f7fa9f4198768254db2c6bb6ad27957d582baade"
+    },
+    {
+      "file": "cooling.ts",
+      "sha256": "34b5edb068b844220eb043f4c0638738d62571a6c40e0bb33eb0bf109a9e986e"
+    }
+  ],
+  "cases": [
+    {
+      "search": "",
+      "development": true,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    },
+    {
+      "search": "",
+      "development": false,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    },
+    {
+      "search": "?quality=full",
+      "development": true,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    },
+    {
+      "search": "?asset-review=tyre-v2",
+      "development": true,
+      "kind": "tyre-v2",
+      "url": "/models/review/maz543a-tyre-v2.glb?v=a97860806ba1ff70"
+    },
+    {
+      "search": "?asset-review=tyre-v2&quality=full&debug-handle=1",
+      "development": true,
+      "kind": "tyre-v2",
+      "url": "/models/review/maz543a-tyre-v2.glb?v=a97860806ba1ff70"
+    },
+    {
+      "search": "?asset-review=tyre-v2",
+      "development": false,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    },
+    {
+      "search": "?asset-review=tyre-v2&render-worker=1",
+      "development": true,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    },
+    {
+      "search": "?asset-review=tyre-v2&worker-build=1",
+      "development": true,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    },
+    {
+      "search": "?asset-review=tyre-v2&render-worker=0",
+      "development": true,
+      "kind": "tyre-v2",
+      "url": "/models/review/maz543a-tyre-v2.glb?v=a97860806ba1ff70"
+    },
+    {
+      "search": "?asset-review=unknown",
+      "development": true,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    },
+    {
+      "search": "?asset-review=",
+      "development": true,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    },
+    {
+      "search": "?asset-review=tyre-v2&asset-review=tyre-v2",
+      "development": true,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    },
+    {
+      "search": "?asset-review=tyre-v2&asset-review=../../secret",
+      "development": true,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    },
+    {
+      "search": "?asset-review=https://example.invalid/model.glb",
+      "development": true,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    },
+    {
+      "search": "?asset-review=../../model.glb",
+      "development": true,
+      "kind": "production",
+      "url": "/models/maz543a-blender.glb?v=rear-box-frame-20260930"
+    }
+  ],
+  "productionSHA256": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698",
+  "candidateSHA256": "a97860806ba1ff70b61cd7a01ac173f0f461c380704ab06246cd9352660ac422",
+  "portableCopyExact": true,
+  "browserRuntime": "NOT_RUN_ACCESS_BLOCKED",
+  "scope": "Actual pure selector, actual file bytes and static integration wiring; no rendered UI, picking, controls, performance or WebGL acceptance."
+}

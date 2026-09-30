@@ -1,6 +1,7 @@
 'use client';
-import { useRef, useState, useCallback } from 'react';
+import { useRef, useState, useCallback, useEffect } from 'react';
 import dynamic from 'next/dynamic';
+import {PRODUCTION_VEHICLE_ASSET,selectReviewVehicleAsset,type ReviewVehicleAsset} from '@/lib/reviewVehicleAsset';
 import { ArrowDownToLine, ArrowUpRight, Box, ChevronRight, Crosshair, Expand, Gauge, Info, Layers3, LoaderCircle, Maximize, MousePointer2, Power, RotateCcw, Settings2, SlidersHorizontal, X } from 'lucide-react';
 import { Slider } from '@/components/ui/slider';
 import { Switch } from '@/components/ui/switch';
@@ -16,6 +17,8 @@ import { COOLING } from '@/lib/cooling';
 const VehicleViewer=dynamic(()=>import('./vehicle-viewer'),{ssr:false});
 
 export default function Workshop(){
+  const [reviewAsset,setReviewAsset]=useState<Readonly<ReviewVehicleAsset>>(PRODUCTION_VEHICLE_ASSET);
+  useEffect(()=>{setReviewAsset(selectReviewVehicleAsset(window.location.search,process.env.NODE_ENV==='development'));},[]);
   const [state,setState]=useState<Controls>({...INITIAL}),[t,setT]=useState<Telemetry>({...INITIAL_TELEMETRY});
   const [parts,setParts]=useState<PartSummary[]>([]),[count,setCount]=useState(0),[selected,setSelected]=useState('');
   const [info,setInfo]=useState(false),[exporting,setExporting]=useState(false),[error,setError]=useState(''),[notice,setNotice]=useState('');
@@ -65,6 +68,7 @@ export default function Workshop(){
   const toggle=(label:string,key:'slow'|'lights'|'labels'|'wireframe'|'fanLeft'|'fanRight'|'heaterLeft'|'heaterRight')=><label className="switch-field"><span>{label}</span><Switch checked={state[key]} onCheckedChange={v=>set(key,v)} aria-label={label}/></label>;
   return <main className="workshop" ref={workbench}>
     <header className="topbar"><a className="brand" href="/" aria-label="MAZ-543 机械解构"><span className="brand-icon"><Box size={21}/></span><span>机械解构<span className="brand-divider">/</span><b>MAZ–543A</b></span></a><div className="top-meta"><i/> Blender 三维工作台 <span className="version">02 / Blender 资产</span></div><div className="header-actions"><button className="quiet-button" onClick={()=>setInfo(true)}><Info size={16}/><span>模型说明</span></button><button className="export-button" onClick={exportFile} disabled={!count||exporting}>{exporting?<LoaderCircle size={16} className="spin"/>:<ArrowDownToLine size={16}/>}<span>导出 GLB</span></button></div></header>
+    {reviewAsset.notice&&<div className="review-asset-notice" role="status">{reviewAsset.notice}</div>}
     <section className="workspace">
       <div className={`viewport ${state.focus?'component-view':''}`}>
         <VehicleViewer key={viewportGeneration} state={state} selected={selected} api={api} onReady={ready} onSelect={setSelected} onTelemetry={setT} onError={reportError}/>

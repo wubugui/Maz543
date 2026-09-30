@@ -1,4 +1,5 @@
 import * as T from 'three';
+import {selectReviewVehicleAsset} from '@/lib/reviewVehicleAsset';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -54,6 +55,7 @@ export type ViewportBindings={host:HTMLDivElement;latest:ViewportRef<Controls>;s
  */
 export function createVehicleViewport({host,latest,selection,callbacks,api,simulationWorker,simulationGeneration,environment=browserViewportEnvironment()}:ViewportBindings){
     const {window,document,ResizeObserver,requestAnimationFrame,cancelAnimationFrame}=environment;
+    const reviewAsset=selectReviewVehicleAsset(window.location.search,process.env.NODE_ENV==='development');
     let renderer:T.WebGLRenderer;
     try{renderer=new T.WebGLRenderer({canvas:environment.canvas,antialias:true,alpha:false,powerPreference:'high-performance'});}catch{callbacks.current.onError('此设备未能初始化 WebGL 2。请启用浏览器硬件加速后重新打开。');return;}
     const input=environment.input??renderer.domElement;
@@ -125,10 +127,11 @@ export function createVehicleViewport({host,latest,selection,callbacks,api,simul
     const resourceAuditOutput=resourceCensus?document.createElement('pre'):null;
     if(resourceAuditOutput){resourceAuditOutput.dataset.resourceCensus='1';resourceAuditOutput.style.display='none';host.appendChild(resourceAuditOutput);}
     const loadNative=async(url:string)=>{try{const gltf=await loader.loadAsync(url);assetResources.track(gltf.scene);return gltf;}catch(error){throw new Error(`${url}: ${nativeModelError(error)}`);}};
-    Promise.all([loadNative('/models/maz543a-blender.glb?v=rear-box-frame-20260930'),loadNative('/models/d12a525a-engine.glb?v=water-1'),loadNative('/models/maz543a-suspension.glb?v=s543-1'),loadNative('/models/maz543a-starting.glb?v=start-4'),loadNative('/models/maz543a-cooling.glb?v=spring-round-wire-20260908'),loadNative('/models/maz543a-cardan.glb?v=cardan-2'),loadNative('/models/maz543a-transmission.glb?v=transmission-spring-counts-20260908')]).then(([gltf,engineGltf,suspensionGltf,startingGltf,coolingGltf,cardanGltf,transmissionGltf])=>{
+    Promise.all([loadNative(reviewAsset.url),loadNative('/models/d12a525a-engine.glb?v=water-1'),loadNative('/models/maz543a-suspension.glb?v=s543-1'),loadNative('/models/maz543a-starting.glb?v=start-4'),loadNative('/models/maz543a-cooling.glb?v=spring-round-wire-20260908'),loadNative('/models/maz543a-cardan.glb?v=cardan-2'),loadNative('/models/maz543a-transmission.glb?v=transmission-spring-counts-20260908')]).then(([gltf,engineGltf,suspensionGltf,startingGltf,coolingGltf,cardanGltf,transmissionGltf])=>{
       if(disposed)return;
       draco.dispose(); // All seven native decodes finished; release idle workers.
       renderedRoot=(gltf.scene.getObjectByName('MAZ543_REFERENCE_CHASSIS')||gltf.scene) as T.Group;
+      if(reviewAsset.kind!=='production')renderedRoot.userData.reviewCandidate={id:reviewAsset.kind,sourceSHA256:reviewAsset.sha256,status:'UNACCEPTED_CANDIDATE'};
       driveHolder=renderedRoot.getObjectByName('drive');
       if(!driveHolder)throw new Error('Missing transmission mounting assembly');
       for(const name of ['drive_0002','drive_pivot_002','drive_pivot_007','drive_pivot_012']){
@@ -336,7 +339,7 @@ export function createVehicleViewport({host,latest,selection,callbacks,api,simul
       const {exportGLBBlob}=await import('@/lib/export-model');
       const blob=await exportGLBBlob(renderedRoot,exportMaterials,[],stage=>callbacks.current.onExportProgress?.(stage));
       if(disposed)throw new Error('三维运行时已关闭，导出已取消');
-      const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='MAZ543-reference-current-pose.glb';a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);
+      const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=reviewAsset.exportFilename;a.click();setTimeout(()=>URL.revokeObjectURL(url),5000);
     }
     api.current={view,focus,exportModel,reset:()=>{t=structuredClone(INITIAL_TELEMETRY);simulationSnapshot=null;simulationPublishedAt=null;simulationGeneration.current++;simulationWorker.current?.postMessage({type:'reset',controls:INITIAL,paused:document.hidden,generation:simulationGeneration.current});frameCache.invalidate();view('perspective');}};
     const ray=new T.Raycaster(),pointer=new T.Vector2();let down=[0,0];
