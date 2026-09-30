@@ -24,7 +24,13 @@ anchor directions and axle-specific positions remain open. The original 1977
 manual now establishes the pre-twist handedness assignment below; this does not
 calibrate those anchors or the numerical stiffness.
 The later 7310 front/rear catalog is not copied as proof of early 543A castings.
-The source drawing's incomplete `130 +5` annotation is not used as travel data.
+The earlier source note's incompletely assigned `130 +5` annotation is not used
+as travel data. A new native-resolution reading of the original 1977 scan,
+printed pages 164–165 / fig.98 (DJVU page 84, 3327×4397 pixels), instead clearly
+shows `136 +5` at the lower-arm/frame region. The exact extension-line datums
+and the depicted loading/setup condition have not been established, so this
+number is not transferred to arm hardpoints, stop travel, or photograph scale.
+The research render is retained locally as `1977-original-p164-165-full.png`.
 
 ## Original 1977 scan check (cloud, 2026-09-30)
 
