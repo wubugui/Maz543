@@ -1,0 +1,128 @@
+{
+  "source_sha256": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3",
+  "renders": [
+    {
+      "view": "exterior",
+      "file": "exterior.png",
+      "hidden_for_cutaway": [],
+      "camera_world": [
+        [
+          -0.693975031375885,
+          -0.2743004858493805,
+          0.6657010316848755,
+          7.0
+        ],
+        [
+          0.7199990749359131,
+          -0.2643861472606659,
+          0.6416395306587219,
+          8.0
+        ],
+        [
+          7.691982517599172e-08,
+          0.9245859384536743,
+          0.3809734880924225,
+          6.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "view": "bay-cutaway",
+      "file": "bay-cutaway.png",
+      "hidden_for_cutaway": [
+        "BL_Bay_bolt_-1_-0.47_1.72",
+        "BL_Bay_bolt_-1_-0.47_2.52",
+        "BL_Bay_bolt_-1_-2.85_1.72",
+        "BL_Bay_bolt_-1_-2.85_2.52",
+        "BL_Bay_bolt_1_-0.47_1.72",
+        "BL_Bay_bolt_1_-0.47_2.52",
+        "BL_Bay_bolt_1_-2.85_1.72",
+        "BL_Bay_bolt_1_-2.85_2.52",
+        "BL_Bay_door_-1",
+        "BL_Bay_door_1",
+        "BL_Bay_door_gasket_-1",
+        "BL_Bay_door_gasket_1",
+        "BL_Bay_handle_-1",
+        "BL_Bay_handle_1",
+        "BL_Bay_hinge_-1_-2.12",
+        "BL_Bay_hinge_-1_-2.6",
+        "BL_Bay_hinge_1_-2.12",
+        "BL_Bay_hinge_1_-2.6",
+        "BL_Hood_access_-1_-1.2",
+        "BL_Hood_access_-1_-1.9",
+        "BL_Hood_access_-1_-2.6",
+        "BL_Hood_access_1_-1.2",
+        "BL_Hood_access_1_-1.9",
+        "BL_Hood_access_1_-2.6",
+        "BL_Hood_handle_-1_-1.2",
+        "BL_Hood_handle_-1_-1.9",
+        "BL_Hood_handle_-1_-2.6",
+        "BL_Hood_handle_1_-1.2",
+        "BL_Hood_handle_1_-1.9",
+        "BL_Hood_handle_1_-2.6",
+        "BL_Louver_blade_-1_0",
+        "BL_Louver_blade_-1_1",
+        "BL_Louver_blade_-1_10",
+        "BL_Louver_blade_-1_2",
+        "BL_Louver_blade_-1_3",
+        "BL_Louver_blade_-1_4",
+        "BL_Louver_blade_-1_5",
+        "BL_Louver_blade_-1_6",
+        "BL_Louver_blade_-1_7",
+        "BL_Louver_blade_-1_8",
+        "BL_Louver_blade_-1_9",
+        "BL_Louver_blade_1_0",
+        "BL_Louver_blade_1_1",
+        "BL_Louver_blade_1_10",
+        "BL_Louver_blade_1_2",
+        "BL_Louver_blade_1_3",
+        "BL_Louver_blade_1_4",
+        "BL_Louver_blade_1_5",
+        "BL_Louver_blade_1_6",
+        "BL_Louver_blade_1_7",
+        "BL_Louver_blade_1_8",
+        "BL_Louver_blade_1_9",
+        "BL_Louver_recess_-1",
+        "BL_Louver_recess_1",
+        "BL_Power_bay_crown",
+        "BL_Power_bay_side_-1",
+        "BL_Power_bay_side_1"
+      ],
+      "camera_world": [
+        [
+          -0.693975031375885,
+          -0.2743004858493805,
+          0.6657010316848755,
+          7.0
+        ],
+        [
+          0.7199990749359131,
+          -0.2643861472606659,
+          0.6416395306587219,
+          8.0
+        ],
+        [
+          7.691982517599172e-08,
+          0.9245859384536743,
+          0.3809734880924225,
+          6.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "native_only": true,
+  "saved_vehicle_modified": false,
+  "scope": "Read-only current-production geometry review. Cutaway intentionally hides listed bay skins; camera is illustrative, not photo-calibrated."
+}
