@@ -1,0 +1,52 @@
+{
+  "status": "CANDIDATE_NOT_PROMOTED",
+  "baseCommit": "571b25bf0b1860e1ccf1abc61eda7e55488e7b13",
+  "blender": "4.5.13 LTS",
+  "originalProductionUnchanged": true,
+  "sampledCollisionStatus": "FAIL",
+  "continuousClearanceStatus": "UNTESTED",
+  "factoryDimensionStatus": "UNCALIBRATED",
+  "wholeVehicleGates": "16 OPEN",
+  "files": [
+    {
+      "name": "MAZ543A_Master.blend",
+      "bytes": 65602513,
+      "sha256": "87f016864ecdcd4cb394f0c37a13d40d1e5bc20838ba063eb1cf4463b5110380"
+    },
+    {
+      "name": "MAZ543A_Textured.blend",
+      "bytes": 98676273,
+      "sha256": "d832ccb2cbe4cfb2237711a9be3e6c87fab14d5120aa3a3e2dab1603eb67e2b9"
+    },
+    {
+      "name": "README.md",
+      "bytes": 1138,
+      "sha256": "0f6cdc6c28bb0f46b74d925bcd61c3ce58a915d9eb2a01563a1fa0e13f73cef5"
+    },
+    {
+      "name": "native-cover-00.png",
+      "bytes": 958318,
+      "sha256": "267fef652505a9af933a660dfa8180cb8c31ca22c833179899eab2c5fc8d96d2"
+    },
+    {
+      "name": "native-cover-60.png",
+      "bytes": 967631,
+      "sha256": "d385c464f32d02ba865c217d728adbd018e5d32d3a0fc802714cb8cbad075260"
+    },
+    {
+      "name": "reference-pack-verification.json",
+      "bytes": 2858,
+      "sha256": "818ac88d61f5323bba781d3c5976b78101dd028f8799b569a327b90d5c662bdb"
+    },
+    {
+      "name": "saved-rig-regression.json",
+      "bytes": 26608,
+      "sha256": "9b5ceeb85ccb0611cb8aeda02abc78bec167f9ddb98d17ed90f1d0e293bf3ff0"
+    },
+    {
+      "name": "three-cover-verification.json",
+      "bytes": 41731,
+      "sha256": "a9bb6e8b4b2723b85b0630197d468127586c03aaef1c9be1192a1b3212eb2ac7"
+    }
+  ]
+}

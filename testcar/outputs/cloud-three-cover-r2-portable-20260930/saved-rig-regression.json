@@ -1,0 +1,903 @@
+{
+  "scope": "Saved candidate read-back, rigid evaluated shape at 21 discrete hinge angles",
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "maxLocalDeviationM": 4.696679752669297e-06,
+      "samples": [
+        {
+          "degrees": 0,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 0,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 0,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 3,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 1.952450247699744e-06
+        },
+        {
+          "degrees": 3,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 3,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 6,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 6,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 6,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 9,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 9,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 9,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 12,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 1.952450247699744e-06
+        },
+        {
+          "degrees": 12,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 12,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 15,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 15,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 15,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 18,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 2.973668415506836e-06
+        },
+        {
+          "degrees": 18,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 18,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 21,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 21,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 21,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 24,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 5.331201577973843e-07
+        },
+        {
+          "degrees": 24,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 24,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 27,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 2.973668415506836e-06
+        },
+        {
+          "degrees": 27,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 27,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 30,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 30,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 30,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 33,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 33,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 33,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 36,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 36,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 36,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 39,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 39,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 39,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 42,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 42,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 42,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 45,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 5.331201577973843e-07
+        },
+        {
+          "degrees": 45,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 45,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 48,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 48,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 48,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 51,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 1.952450247699744e-06
+        },
+        {
+          "degrees": 51,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 51,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 54,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 54,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 54,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 57,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 57,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 57,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 60,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 60,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 60,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        }
+      ],
+      "limitM": 2e-05,
+      "limitations": "Vertex-set shape regression only; no continuous collision proof, dimensional calibration, or user acceptance."
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "maxLocalDeviationM": 4.696679752669297e-06,
+      "samples": [
+        {
+          "degrees": 0,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 0,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 0,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 3,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 1.952450247699744e-06
+        },
+        {
+          "degrees": 3,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 3,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 6,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 6,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 6,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 9,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 9,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 9,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 12,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 1.952450247699744e-06
+        },
+        {
+          "degrees": 12,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 12,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 15,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 15,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 15,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 18,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 2.973668415506836e-06
+        },
+        {
+          "degrees": 18,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 18,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 21,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 21,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 21,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 24,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 5.331201577973843e-07
+        },
+        {
+          "degrees": 24,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 24,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 27,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 2.973668415506836e-06
+        },
+        {
+          "degrees": 27,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 27,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 30,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 30,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 30,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 33,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 33,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 33,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 36,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 36,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 36,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 39,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 39,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 39,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 42,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 42,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 42,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 45,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 5.331201577973843e-07
+        },
+        {
+          "degrees": 45,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 45,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 48,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 48,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 48,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 51,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 1.952450247699744e-06
+        },
+        {
+          "degrees": 51,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 51,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 54,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 54,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 54,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 57,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 57,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 57,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 60,
+          "object": "BL_Front_cover_front_panel",
+          "vertices": 4156,
+          "referenceVertices": 4156,
+          "localVertexHausdorffM": 4.696679752669297e-06
+        },
+        {
+          "degrees": 60,
+          "object": "BL_Front_cover_hinge_knuckle_-1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        },
+        {
+          "degrees": 60,
+          "object": "BL_Front_cover_hinge_knuckle_1",
+          "vertices": 320,
+          "referenceVertices": 320,
+          "localVertexHausdorffM": 0.0
+        }
+      ],
+      "limitM": 2e-05,
+      "limitations": "Vertex-set shape regression only; no continuous collision proof, dimensional calibration, or user acceptance."
+    }
+  ]
+}

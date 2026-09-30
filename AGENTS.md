@@ -6,7 +6,7 @@ The current editable vehicle is `testcar/outputs/MAZ543A_Master.blend` with `MAZ
 
 The user requires actual reference comparison from multiple views, native structure and installation checks, retained original references and historical candidates. Preserve unrelated uncommitted work. Do not lower acceptance standards or replace game objects in tests to manufacture a pass.
 
-Blender execution is restricted to the existing authorized Inference Hub workflow (`http://denghong01:8765`, Blender 4.5.13). Cloud reachability is unverified. Do not run Blender on a cloud/local substitute, change service permissions/security, or duplicate an unknown job. Check saved task IDs first. Modeling must use Blender engineering tools/modifiers and appropriate curves/Spin/Screw/Boolean operations, not manual script mesh construction.
+On 2026-09-30 the user explicitly authorized Blender execution on the dot cloud computer, superseding the former Hub-only restriction for this project. Use verified official Blender 4.5.13 to match the current masters, preserve current sources, and validate candidate files before promotion. The existing Hub is not reachable from this environment; do not change network/security settings or duplicate unknown jobs. Modeling must use Blender engineering tools/modifiers and appropriate curves/Spin/Screw/Boolean operations, not manual script mesh construction.
 
 The user authorized continued development in the cloud and Git pushes to wubugui/Maz543. No force pushes, history replacement, deployments, paid services, or new credentials. No further development on the original Windows workstation after this migration.
 
