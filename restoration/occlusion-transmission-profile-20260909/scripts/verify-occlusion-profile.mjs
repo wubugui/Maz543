@@ -1,0 +1,31 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import * as T from 'three';
+import {createOcclusionProfile} from '../lib/occlusionProfile.ts';
+const elements=[],host={appendChild(element){elements.push(element);}},document={createElement(tag){return {tag,style:{},textContent:'',setAttribute(){},remove(){this.removed=true;},onclick:null};}};
+const scene=new T.Scene(),camera=new T.PerspectiveCamera(),shadowCamera=new T.OrthographicCamera(),geometry=new T.BoxGeometry(),material=new T.MeshStandardMaterial(),mesh=new T.Mesh(geometry,material);mesh.name='original';
+const calls=[],queries=[];let available=false,active=null,throwDraw=false,queryReads=0,currentTarget=null;
+const gl={ANY_SAMPLES_PASSED:1,ANY_SAMPLES_PASSED_CONSERVATIVE:2,CURRENT_QUERY:3,QUERY_RESULT_AVAILABLE:4,QUERY_RESULT:5,SAMPLES:6,VIEWPORT:7,getParameter(p){return p===6?4:[0,0,1212,773];},
+ getQuery(){return active;},createQuery(){const q={id:queries.length,deleted:0};queries.push(q);return q;},beginQuery(target,q){assert.equal(active,null);active=q;},endQuery(){assert.ok(active);active=null;},getError(){return 0;},deleteQuery(q){q.deleted++;},getQueryParameter(q,p){if(p===4)return available;assert.ok(available,'no synchronous unavailable result');queryReads++;return q.id%2===0;}};
+const renderer={getContext(){return gl;},getRenderTarget(){return currentTarget;},renderBufferDirect(...args){assert.equal(this,renderer);calls.push(args);if(throwDraw)throw new Error('render failure');}};
+const original=renderer.renderBufferDirect,profile=createOcclusionProfile(renderer,scene,camera,host,document),button=elements[0],output=elements[1];
+assert.equal(profile.shouldCapture(true),false);button.onclick();assert.equal(profile.shouldCapture(false),false);assert.equal(profile.shouldCapture(true),true);
+const args=[camera,scene,geometry,material,mesh,null],transparent=material.clone();transparent.transparent=true;
+const positionBefore=new Uint8Array(geometry.attributes.position.array.buffer).slice();
+profile.capture(()=>{
+ renderer.renderBufferDirect(...args);
+ renderer.renderBufferDirect(camera,scene,geometry,material,mesh,{start:0,count:6});
+ currentTarget=new T.WebGLRenderTarget(256,256);renderer.renderBufferDirect(...args);currentTarget=null;
+ renderer.renderBufferDirect(shadowCamera,scene,geometry,material,mesh,null);
+ renderer.renderBufferDirect(camera,scene,geometry,transparent,mesh,null);
+ scene.overrideMaterial=new T.MeshNormalMaterial();renderer.renderBufferDirect(...args);scene.overrideMaterial=null;
+});
+assert.equal(calls.length,6,'no actual draw skipped');assert.equal(queries.length,3,'only original opaque camera passes queried');assert.equal(renderer.renderBufferDirect,original);assert.deepEqual(calls[0],args);
+profile.poll();assert.equal(queryReads,0);assert.equal(queries[0].deleted,0);
+available=true;profile.poll();const report=JSON.parse(output.textContent);assert.equal(report.draws,3);assert.equal(report.triangles,26);assert.equal(report.zeroSampleDraws,1);assert.equal(report.zeroSampleTriangles,2);assert.ok(queries.every(q=>q.deleted===1));
+assert.equal(report.passes.length,2);assert.equal(report.passes[0].kind,'main-color');assert.equal(report.passes[0].triangles,14);assert.equal(report.passes[1].kind,'auxiliary-camera');assert.equal(report.passes[1].triangles,12);
+assert.deepEqual(new Uint8Array(geometry.attributes.position.array.buffer),positionBefore);assert.equal(mesh.material,material);
+button.onclick();throwDraw=true;assert.throws(()=>profile.capture(()=>renderer.renderBufferDirect(...args)),/render failure/);assert.equal(renderer.renderBufferDirect,original);assert.equal(active,null);assert.ok(queries.every(q=>q.deleted===1));
+throwDraw=false;button.onclick();profile.capture(()=>renderer.renderBufferDirect(...args));profile.dispose();profile.dispose();assert.ok(queries.every(q=>q.deleted===1));assert.ok(elements.every(element=>element.removed));assert.equal(button.onclick,null);
+const result={passed:true,originalDrawsAndOrderPreserved:true,sourceGeometryAndMaterialUntouched:true,opaqueCameraPassesOnly:true,renderTargetsSeparated:true,noUnavailableResultsRead:true,rangeCounts:true,queryCleanup:true,rendererRestoredAfterException:true,idempotentDispose:true,limits:'Mock WebGL control-flow tests with real Three geometry; actual query support, visibility and performance require separate browser evidence.'};
+await fs.mkdir('outputs/occlusion-profile',{recursive:true});await fs.writeFile('outputs/occlusion-profile/tests.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));

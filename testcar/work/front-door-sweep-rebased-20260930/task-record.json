@@ -1,0 +1,51 @@
+{
+  "idempotency_key": "maz-front-a1d739fb-7d99-4d27-8a98-1ff824dc5728",
+  "upload": {
+    "upload_id": "68ade6e9-d02b-42d9-9877-5f54310e92bd",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "68ade6e9-d02b-42d9-9877-5f54310e92bd",
+    "name": "hub-front-door-sweep.py",
+    "mime": "text/x-python",
+    "size": 7155,
+    "sha256": "6537e8688be873fc8938df14e8fef4448355a24f20c541e30ddff43b5f2aa546",
+    "created": 1790788142.3316483,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/68ade6e9-d02b-42d9-9877-5f54310e92bd/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A four doors with corrected actual hinge pivots and upper mirrors",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "87d83d96b97bc85043bac0d4bf143a01",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "68ade6e9-d02b-42d9-9877-5f54310e92bd",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "e3a358c0-f802-4bd1-9124-14f8943d5f90",
+    "task_ids": [
+      "68e36a53-73d3-4396-ba32-2ab9aee05c1b"
+    ],
+    "task_id": "68e36a53-73d3-4396-ba32-2ab9aee05c1b"
+  }
+}

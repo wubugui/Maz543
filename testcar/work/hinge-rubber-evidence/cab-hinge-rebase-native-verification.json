@@ -1,0 +1,249 @@
+{
+  "scope": "Native door hinge relocation with exact closed geometry preservation",
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "doors": [
+        {
+          "hinge": "cab_pivot_002",
+          "oldNativeX": -5.190000057220459,
+          "newNativeX": -4.909999847412109,
+          "directChildren": [
+            "BL_Door_-1_0_fasteners",
+            "BL_Door_-1_0_gap",
+            "BL_Door_-1_0_handle",
+            "BL_Door_-1_0_handle_recess",
+            "BL_Door_-1_0_hinge_1.47",
+            "BL_Door_-1_0_hinge_1.94",
+            "BL_Door_-1_0_hinge_2.38",
+            "BL_Door_-1_0_lock",
+            "BL_Door_-1_0_pressed_shell",
+            "BL_Door_-1_0_rubber_seal",
+            "BL_Door_-1_0_window"
+          ],
+          "allDoorMeshCurveParts": 11,
+          "closedWorldBounds": {
+            "min": [
+              -4.914996147155762,
+              1.2750016450881958,
+              -1.5862360000610352
+            ],
+            "max": [
+              -4.025001049041748,
+              2.554997682571411,
+              -1.4769999980926514
+            ]
+          },
+          "maxBoundsDriftM": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "oldNativeX": -3.990000009536743,
+          "newNativeX": -3.9600000381469727,
+          "directChildren": [
+            "BL_Door_-1_1_fasteners",
+            "BL_Door_-1_1_gap",
+            "BL_Door_-1_1_handle",
+            "BL_Door_-1_1_handle_recess",
+            "BL_Door_-1_1_hinge_1.47",
+            "BL_Door_-1_1_hinge_1.94",
+            "BL_Door_-1_1_hinge_2.38",
+            "BL_Door_-1_1_lock",
+            "BL_Door_-1_1_pressed_shell",
+            "BL_Door_-1_1_rubber_seal",
+            "BL_Door_-1_1_window"
+          ],
+          "allDoorMeshCurveParts": 11,
+          "closedWorldBounds": {
+            "min": [
+              -3.964996337890625,
+              1.2750016450881958,
+              -1.5862360000610352
+            ],
+            "max": [
+              -3.0050010681152344,
+              2.554997682571411,
+              -1.4769999980926514
+            ]
+          },
+          "maxBoundsDriftM": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "oldNativeX": -5.190000057220459,
+          "newNativeX": -4.909999847412109,
+          "directChildren": [
+            "BL_Door_1_0_fasteners",
+            "BL_Door_1_0_gap",
+            "BL_Door_1_0_handle",
+            "BL_Door_1_0_handle_recess",
+            "BL_Door_1_0_hinge_1.47",
+            "BL_Door_1_0_hinge_1.94",
+            "BL_Door_1_0_hinge_2.38",
+            "BL_Door_1_0_lock",
+            "BL_Door_1_0_pressed_shell",
+            "BL_Door_1_0_rubber_seal",
+            "BL_Door_1_0_window"
+          ],
+          "allDoorMeshCurveParts": 11,
+          "closedWorldBounds": {
+            "min": [
+              -4.914996147155762,
+              1.2750016450881958,
+              1.4769999980926514
+            ],
+            "max": [
+              -4.025001049041748,
+              2.554997682571411,
+              1.5862360000610352
+            ]
+          },
+          "maxBoundsDriftM": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "oldNativeX": -3.990000009536743,
+          "newNativeX": -3.9600000381469727,
+          "directChildren": [
+            "BL_Door_1_1_fasteners",
+            "BL_Door_1_1_gap",
+            "BL_Door_1_1_handle",
+            "BL_Door_1_1_handle_recess",
+            "BL_Door_1_1_hinge_1.47",
+            "BL_Door_1_1_hinge_1.94",
+            "BL_Door_1_1_hinge_2.38",
+            "BL_Door_1_1_lock",
+            "BL_Door_1_1_pressed_shell",
+            "BL_Door_1_1_rubber_seal",
+            "BL_Door_1_1_window"
+          ],
+          "allDoorMeshCurveParts": 11,
+          "closedWorldBounds": {
+            "min": [
+              -3.964996337890625,
+              1.2750016450881958,
+              1.4769999980926514
+            ],
+            "max": [
+              -3.0050010681152344,
+              2.554997682571411,
+              1.5862360000610352
+            ]
+          },
+          "maxBoundsDriftM": 0.0
+        }
+      ],
+      "limits": "Hinges now agree with runtime source; factory axis tolerance/hinge internals/full travel still OPEN"
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "doors": [
+        {
+          "hinge": "cab_pivot_002",
+          "oldNativeX": -5.190000057220459,
+          "newNativeX": -4.909999847412109,
+          "directChildren": [
+            "BL_Door_-1_0_handle",
+            "BL_Door_-1_0_lock",
+            "BL_Door_-1_0_window",
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "BL_Merged_cab_pivot_002_Rubber_window_seals"
+          ],
+          "allDoorMeshCurveParts": 5,
+          "closedWorldBounds": {
+            "min": [
+              -4.914996147155762,
+              1.2750016450881958,
+              -1.5862360000610352
+            ],
+            "max": [
+              -4.025001049041748,
+              2.554997682571411,
+              -1.4769999980926514
+            ]
+          },
+          "maxBoundsDriftM": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "oldNativeX": -3.990000009536743,
+          "newNativeX": -3.9600000381469727,
+          "directChildren": [
+            "BL_Door_-1_1_handle",
+            "BL_Door_-1_1_lock",
+            "BL_Door_-1_1_window",
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "BL_Merged_cab_pivot_003_Rubber_window_seals"
+          ],
+          "allDoorMeshCurveParts": 5,
+          "closedWorldBounds": {
+            "min": [
+              -3.964996337890625,
+              1.2750016450881958,
+              -1.5862360000610352
+            ],
+            "max": [
+              -3.0050010681152344,
+              2.554997682571411,
+              -1.4769999980926514
+            ]
+          },
+          "maxBoundsDriftM": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "oldNativeX": -5.190000057220459,
+          "newNativeX": -4.909999847412109,
+          "directChildren": [
+            "BL_Door_1_0_handle",
+            "BL_Door_1_0_lock",
+            "BL_Door_1_0_window",
+            "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+            "BL_Merged_cab_pivot_006_Rubber_window_seals"
+          ],
+          "allDoorMeshCurveParts": 5,
+          "closedWorldBounds": {
+            "min": [
+              -4.914996147155762,
+              1.2750016450881958,
+              1.4769999980926514
+            ],
+            "max": [
+              -4.025001049041748,
+              2.554997682571411,
+              1.5862360000610352
+            ]
+          },
+          "maxBoundsDriftM": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "oldNativeX": -3.990000009536743,
+          "newNativeX": -3.9600000381469727,
+          "directChildren": [
+            "BL_Door_1_1_handle",
+            "BL_Door_1_1_lock",
+            "BL_Door_1_1_window",
+            "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+            "BL_Merged_cab_pivot_007_Rubber_window_seals"
+          ],
+          "allDoorMeshCurveParts": 5,
+          "closedWorldBounds": {
+            "min": [
+              -3.964996337890625,
+              1.2750016450881958,
+              1.4769999980926514
+            ],
+            "max": [
+              -3.0050010681152344,
+              2.554997682571411,
+              1.5862360000610352
+            ]
+          },
+          "maxBoundsDriftM": 0.0
+        }
+      ],
+      "limits": "Hinges now agree with runtime source; factory axis tolerance/hinge internals/full travel still OPEN"
+    }
+  ]
+}

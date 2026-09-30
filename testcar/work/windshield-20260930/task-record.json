@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-repair-0ccac7f1-e21a-42e8-9267-665e019add95",
+  "upload": {
+    "upload_id": "7e080819-dbde-4e31-b7e4-e12e7e2bcfff",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "7e080819-dbde-4e31-b7e4-e12e7e2bcfff",
+    "name": "hub-windshield-study.py",
+    "mime": "text/x-python",
+    "size": 12718,
+    "sha256": "d16585033e6d42f6511cde78849bde0b5274ec309bf4651e5b7764d3e74e5147",
+    "created": 1790783733.0090818,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/7e080819-dbde-4e31-b7e4-e12e7e2bcfff/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A actual enlarged windshield apertures",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "6943eb2996cda5a5f22fb21bd820f061",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "54701e9265ba805803df6b520796f86a",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "7e080819-dbde-4e31-b7e4-e12e7e2bcfff",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "6d57bb48-1f02-4228-982d-67831a8478a5",
+    "task_ids": [
+      "bc0ae333-0636-4843-a0e5-dd194b373460"
+    ],
+    "task_id": "bc0ae333-0636-4843-a0e5-dd194b373460"
+  }
+}

@@ -1,0 +1,649 @@
+{
+  "stage": "Full ribbon/roller surface contact, saved static study, and incomplete integration diagnostics",
+  "wholeGoal": "active; all 16 gates OPEN",
+  "status": "38 saved static states checked; fitted stress reaches 9.364 GPa. Continuous run incomplete after 1.187 s. Polar excess energy and Cartesian step-dependent dissipation unresolved.",
+  "files": [
+    {
+      "path": "AGENT_START_HERE.md",
+      "bytes": 19833,
+      "sha256": "99d6f1db11b7211f9255424a4ab4f0f5d35987b5d03b68c10237079fa4f876cc"
+    },
+    {
+      "path": "NEXT_AGENT_PROMPT.md",
+      "bytes": 12235,
+      "sha256": "ca02d7be7d7d77d331ef13dadcae981f37ea2882b0d58ce429ca84fec999a4b8"
+    },
+    {
+      "path": "docs/CONTINUATION_20260908.md",
+      "bytes": 13189,
+      "sha256": "5df9c238b690bb45dc358a167f79c8645458fedaf03c0ac5405f62916fdccb48"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 25125,
+      "sha256": "ad8ed6744d071b47e92cda59b9fae9d2736db533fdec99e0aea65bb5c4a85dbb"
+    },
+    {
+      "path": "docs/CONVERTER_STRIP_SURFACE_CONTACT_20260908.md",
+      "bytes": 6057,
+      "sha256": "7540cf1d813c6cb79e5e8ffbbd5588a3b5dfa8a99fbd36e65b35eafa14f41b8d"
+    },
+    {
+      "path": "docs/CONVERTER_STRIP_POCKET_CONTACT_20260908.md",
+      "bytes": 6283,
+      "sha256": "a54dafc76d9e8ebecee2dbc9ec03491ca239e9de45d689330bead5b1b1ede617"
+    },
+    {
+      "path": "docs/CONVERTER_STRIP_SOURCE_CORRECTION_20260908.md",
+      "bytes": 7730,
+      "sha256": "12dc668ce3a87ded859821136365a49aa9f026edf9c11d95fd5c15007fcbfbd2"
+    },
+    {
+      "path": "outputs/MAZ543A_Converter_CurvedStripStudy.blend",
+      "bytes": 399096,
+      "sha256": "a5bf5073bd3034c07efc6c9f496a99a5dcbcd949d95eb140f05840e8dfd91a35"
+    },
+    {
+      "path": "outputs/MAZ543A_Converter_StripSurfaceStudy.blend",
+      "bytes": 474845,
+      "sha256": "0b1b30c4765fe3476897e84d74b0ca8ef23b28f5989d8e1cedc2ebc83615f7dc"
+    },
+    {
+      "path": "outputs/MAZ543A_Converter_StripSurfaceStudy.first-readback-failed.blend",
+      "bytes": 466951,
+      "sha256": "6ba2c39ce54067af12d11d4361e13128d53220a860c3e862c4e74f9f9f184c06"
+    },
+    {
+      "path": "work/reference-docs/transmission/000-0687.jpg",
+      "bytes": 122218,
+      "sha256": "e0d409bbe5f4817de15a63327b6d2b1f12c77b7c99f55a98e72583f420a1ff77"
+    },
+    {
+      "path": "work/reference-docs/transmission/catalog-converter-pump-reactors.gif",
+      "bytes": 37556,
+      "sha256": "3cd990b089a38e819bb50cdea5cffd60a7a6e09ef001f00e17e42474124c71d0"
+    },
+    {
+      "path": "work/reference-docs/transmission/converter-assembly-findings.json",
+      "bytes": 2436,
+      "sha256": "3a5c98173c0cd1f63133dd4b3a21d66b6aa8b571a30ec8bc2b64d297861dc71d"
+    },
+    {
+      "path": "scripts/archive-converter-strip-pocket-stage.py",
+      "bytes": 3783,
+      "sha256": "e0ca4241e275f883e3f37a0ecd52cdafc3481c051111521386ed175b9c13c435"
+    },
+    {
+      "path": "scripts/archive-converter-strip-stage.py",
+      "bytes": 3587,
+      "sha256": "44a45d31a9f0106a25ec8e4fe25808656de0904ed410d043ad2335c05f2aee7a"
+    },
+    {
+      "path": "scripts/archive-converter-strip-surface-stage.py",
+      "bytes": 2474,
+      "sha256": "cdf7b64c7d41ff6064df2d225cb1d8dff577f358826abfdf91337cf838917ff5"
+    },
+    {
+      "path": "scripts/build-converter-strip-study.py",
+      "bytes": 5099,
+      "sha256": "c93d76fd5660cd1c748bfc41d2cdc29e4ebb726c01c54aefd8766bc09dc04c56"
+    },
+    {
+      "path": "scripts/build-converter-strip-surface-study.py",
+      "bytes": 3694,
+      "sha256": "11ceff1b72d516ea0b532526fc190262cef6c70e2183a272e03bc95a23d7b6a0"
+    },
+    {
+      "path": "scripts/compare-converter-strip-dynamics.py",
+      "bytes": 1259,
+      "sha256": "239c1ad0512a00868a00c3c0338d058463faa2a28f157db9965aaae8e0bba207"
+    },
+    {
+      "path": "scripts/converter_strip_cartesian_dynamics.py",
+      "bytes": 3982,
+      "sha256": "2c65ce2ea7aada315f21894cf1a709ab08c073532cc5707cf6a0383e02ba9c4d"
+    },
+    {
+      "path": "scripts/converter_strip_dynamics.py",
+      "bytes": 5255,
+      "sha256": "7a01d274a95dcabb6e9d8220a15948bc61b4ee9b0cb0c27a86f7ff59a19d91a1"
+    },
+    {
+      "path": "scripts/converter_strip_mesh.py",
+      "bytes": 1645,
+      "sha256": "45e8e41a491465e5f2654d57d55e741a70e2b3d1b8e5a9d77bf9d7c85f88be86"
+    },
+    {
+      "path": "scripts/converter_strip_mount.py",
+      "bytes": 2784,
+      "sha256": "5ebb73ce156638dc656d34dd30be3bf09b45e14df090eb4ce9c7902a921e21f9"
+    },
+    {
+      "path": "scripts/converter_strip_pocket.py",
+      "bytes": 8395,
+      "sha256": "7c8b8f400bf4f583e458eb77c5c52552676b246e4f7f347bb7d708136d2a9f46"
+    },
+    {
+      "path": "scripts/converter_strip_spring.py",
+      "bytes": 5380,
+      "sha256": "f5e98668732fa2d848e4cb5913f3b0a338412a42e8ae64b2d3d01c1c3b36e077"
+    },
+    {
+      "path": "scripts/converter_strip_surface_contact.py",
+      "bytes": 12722,
+      "sha256": "5f4ce10043b3acfb63e404a051514aa9c875d7b061eda494683f787211738369"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-breakaway.py",
+      "bytes": 1965,
+      "sha256": "1aad16e8020c63c1b9740ce7d984ae562a2b63732826c8ec44ed52f20f0bc057"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-deep-domain.py",
+      "bytes": 3250,
+      "sha256": "e472962850e4964db5534ead42fb9f24d27e5866359e48052e44bd4e4d674c96"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-domain.py",
+      "bytes": 2110,
+      "sha256": "31c2eb836e579dcabc420c400d8452fd842870d3eef83a3a363e8740a8a5dd36"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-dynamics.py",
+      "bytes": 3721,
+      "sha256": "a29bbc9ee0f819aedb342825c190d1156905c27c6d226e1e544d6b91f531de27"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-exit-checkpoint.py",
+      "bytes": 2209,
+      "sha256": "2c11b7943708e91819be803f8b9e721d8d30277e63f7c9f150b2597da9df992a"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-pocket.py",
+      "bytes": 1752,
+      "sha256": "928e74233f06a9aca2292e426f5ebe25ab21719210075855e3e4a28a316c94cc"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-spring.py",
+      "bytes": 2320,
+      "sha256": "8b987fd7ff5b3b82476af4b0de9564b19d43c763a7da947de2949e7af247bba0"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-surface-contact.py",
+      "bytes": 2075,
+      "sha256": "70d16baed707ef1da4fd0657b6dc02f75784a72cfadd6268c0c6ef708cad171e"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-surface-continuation.py",
+      "bytes": 1943,
+      "sha256": "16d05ff63f029368fa4a1c8422fbf94418cecbbd27489a818219c673f889254f"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-surface-step.py",
+      "bytes": 2046,
+      "sha256": "0b1c5493e6d1b01bfe9bcae19a58967d1b893aff9b5d8d9ddcdeb071ec00e416"
+    },
+    {
+      "path": "scripts/export-converter-strip-study.py",
+      "bytes": 2389,
+      "sha256": "bfde3712479dc9d2f67bd5bb1f2ff48ff5e883318a1795b8a0ebfbefa6f1fef9"
+    },
+    {
+      "path": "scripts/measure-converter-strip-inertia.py",
+      "bytes": 1346,
+      "sha256": "88d30a120341e4332de0b94718c3e790a2d95e3a887b66b4b0a54f29d17a7210"
+    },
+    {
+      "path": "scripts/prepare-converter-strip-surface-domain.py",
+      "bytes": 1286,
+      "sha256": "ef20409a2d504027a3397c1ce72d85ea82ee5e7eca9516fdb5ff4c72ec7d9d4f"
+    },
+    {
+      "path": "scripts/render-converter-strip-study.py",
+      "bytes": 1826,
+      "sha256": "a213a489cdb1129d040d656b3a6b195a03e85ea41200001032478f371421ed86"
+    },
+    {
+      "path": "scripts/resume-converter-strip-surface-dynamics.py",
+      "bytes": 3053,
+      "sha256": "386827567ad5728df1da1cba8846bc3fe27f47829148e5388fe55db1473681f9"
+    },
+    {
+      "path": "scripts/verify-converter-strip-cartesian-interface.py",
+      "bytes": 2015,
+      "sha256": "b2507e108cb45af12149e1222234e7aaf3b431e77b3884abe761b246e192a9cf"
+    },
+    {
+      "path": "scripts/verify-converter-strip-domain-native.py",
+      "bytes": 7495,
+      "sha256": "1513a37abed5e8ad71ecba639f72eec77e4a43c587523d855a02d18be277648c"
+    },
+    {
+      "path": "scripts/verify-converter-strip-formulation.py",
+      "bytes": 1664,
+      "sha256": "85c8bbe445ab4491cebf62e520f74355f3806bb86d0dee50b937379eb98575e6"
+    },
+    {
+      "path": "scripts/verify-converter-strip-http.py",
+      "bytes": 1133,
+      "sha256": "ba2f2b24dbfc4e0b4fc2166ea11d431962a131b3f80349b14fbfa7c672bba214"
+    },
+    {
+      "path": "scripts/verify-converter-strip-mount.py",
+      "bytes": 3241,
+      "sha256": "a8cc06c1a5468a05fa3b61961a1dc3531d1a0f6fa38930b18ebbbd923b865d2a"
+    },
+    {
+      "path": "scripts/verify-converter-strip-native.py",
+      "bytes": 5487,
+      "sha256": "f0bb15357828ebd4172a12609a4966d6b6678990d63040fc3b466dffae770766"
+    },
+    {
+      "path": "scripts/verify-converter-strip-pocket-refinement.py",
+      "bytes": 1328,
+      "sha256": "b33c54ba770589fee8e0b989d42af5524c2e9e487148ea6244ac663f2b5804d6"
+    },
+    {
+      "path": "scripts/verify-converter-strip-pocket.py",
+      "bytes": 3521,
+      "sha256": "52d28b42dc794431899abe8f65c57f0ddd134c8b58dd85de213cb8b55844ba9d"
+    },
+    {
+      "path": "scripts/verify-converter-strip-surface-contact.py",
+      "bytes": 4337,
+      "sha256": "c3ba9efb0a628f5476098c414f0084afeb03a5029951b55beda7ee0b80e1e2e0"
+    },
+    {
+      "path": "scripts/verify-converter-strip-surface-saved.py",
+      "bytes": 1919,
+      "sha256": "25ac861d1cad440f0730d8a30db4811b0285f67130980b99034d851946ec3e20"
+    },
+    {
+      "path": "outputs/converter-strip-browser-verification.json",
+      "bytes": 9813,
+      "sha256": "997771043723ec8d83b43ac17ffd0d06e5629e80255b25d38e6c9b940d60af00"
+    },
+    {
+      "path": "outputs/converter-strip-cartesian-interface.json",
+      "bytes": 577,
+      "sha256": "8c15daf80def4cd4592720619d52e8de66285d5b05a891eef5b1a3974de2417a"
+    },
+    {
+      "path": "outputs/converter-strip-deep-domain-native.json",
+      "bytes": 52552,
+      "sha256": "e931e86844015eecf58b785d652155a58babc149a08e4056d6bc16984f06117a"
+    },
+    {
+      "path": "outputs/converter-strip-domain-native.json",
+      "bytes": 33554,
+      "sha256": "d198e387c53dccf7ae27127da5c6ed94a2c00a93a3d98180eed788fa3c7d933a"
+    },
+    {
+      "path": "outputs/converter-strip-dynamics-4000hz-88segments-drive10.json",
+      "bytes": 1254373,
+      "sha256": "a11b2904cf4e0f593c5ca09f040950fd57c9f9b331b0ddd51ec5e6327301a6ed"
+    },
+    {
+      "path": "outputs/converter-strip-dynamics-4000hz-88segments-drive6.json",
+      "bytes": 2469677,
+      "sha256": "708460f3cffecc843cab70ec8b2f793c89225dc8b2f583a48ae120773526c35e"
+    },
+    {
+      "path": "outputs/converter-strip-dynamics-4000hz-88segments.json",
+      "bytes": 2474869,
+      "sha256": "0aa73f005ad08813f12dca37c7572c4bbef13c724ac7ffdaad827b2f1d4d1ddd"
+    },
+    {
+      "path": "outputs/converter-strip-dynamics-8000hz-88segments-drive10.json",
+      "bytes": 1254675,
+      "sha256": "ceb4157cb0752aebdb8af127e078b4fbd2c1332216cea9eb5bfc49b3aae40c42"
+    },
+    {
+      "path": "outputs/converter-strip-dynamics-step-comparison.json",
+      "bytes": 1929,
+      "sha256": "71c8800fa3c3db7f538bab532aa16a4398d9d91614ffb7c11b740c22a5a6be29"
+    },
+    {
+      "path": "outputs/converter-strip-formulation.json",
+      "bytes": 1440,
+      "sha256": "5d4fe1e96e061b3adbdd0b198572fb2cb7a816aa5f642a63d8c59e36f1a326ee"
+    },
+    {
+      "path": "outputs/converter-strip-http-verification.json",
+      "bytes": 593,
+      "sha256": "02a81891cca1bf4702a3b0d3e9bd2029d1b631bfb279670a7b613ec7baef803a"
+    },
+    {
+      "path": "outputs/converter-strip-inertia.json",
+      "bytes": 723,
+      "sha256": "f8ed6794c6bd78dca536a6809df3b91a8640fd2b458694cd7c624dcaba9645e3"
+    },
+    {
+      "path": "outputs/converter-strip-mount-verification.json",
+      "bytes": 13657,
+      "sha256": "f4af55607e5df234cafd6fe3d74b5ef8e8943b92f03219856adf211b1c5c4879"
+    },
+    {
+      "path": "outputs/converter-strip-native-verification.json",
+      "bytes": 5629,
+      "sha256": "fb0f648f7a4e5ad0199a8393010eac295d61ada91b1d198cebc6c976a305f021"
+    },
+    {
+      "path": "outputs/converter-strip-pocket-domain-native.json",
+      "bytes": 33543,
+      "sha256": "23c464c261bac2797b703cb178fd616763b8ac708509a490b9b6b0dd2d79a0de"
+    },
+    {
+      "path": "outputs/converter-strip-pocket-refinement.json",
+      "bytes": 1520,
+      "sha256": "449ea3fc709a030db6bacb83bc84b7ca06b4924fe430b1112258ade133bb7288"
+    },
+    {
+      "path": "outputs/converter-strip-pocket-verification.json",
+      "bytes": 6138,
+      "sha256": "9a6ee8c8bcf5eae1ba0c2df2329e957d8794f64c4b847940e1f8ca22ee0429d1"
+    },
+    {
+      "path": "outputs/converter-strip-static-torque-domain.json",
+      "bytes": 1594,
+      "sha256": "aefb09d3bc9d9e2c7660c598ed24ee30927c055b847ca7ebfe575933d7c08022"
+    },
+    {
+      "path": "outputs/converter-strip-surface-first-readback-failed.json",
+      "bytes": 8909,
+      "sha256": "aaa07c01f1aaf80388453fa7b5e8283c0094c6894559427d69442ab345438cf8"
+    },
+    {
+      "path": "outputs/converter-strip-surface-resumed-dynamics.json",
+      "bytes": 537235,
+      "sha256": "d496894962a28aae25db9ff20e5178f0656f2c078a70212aadc3630b12f7be34"
+    },
+    {
+      "path": "outputs/converter-strip-surface-saved-native.json",
+      "bytes": 8906,
+      "sha256": "658be0421139055b3b0b44d8a194ee0d15ff1e80d3b072c0512b40baa9c2204b"
+    },
+    {
+      "path": "outputs/converter-strip-surface-step-sensitivity-cartesian.json",
+      "bytes": 98886,
+      "sha256": "f7db9445e6ad416de1386e80d50941b3d7b1f9a6301f17807c870d6efb68cec1"
+    },
+    {
+      "path": "outputs/converter-strip-surface-step-sensitivity.json",
+      "bytes": 84726,
+      "sha256": "afd7244f83a89dd28be1f67688b18e4706498e79aad805b695334f81e8552002"
+    },
+    {
+      "path": "outputs/converter-strip-surface-verification.json",
+      "bytes": 10062,
+      "sha256": "7db2cbfd25749a092b5c0740e722ad9d6ad9c54ec79bf23c021581a5a9a94e2a"
+    },
+    {
+      "path": "outputs/converter-strip-surface-verified-domain-native.json",
+      "bytes": 41609,
+      "sha256": "ed512336a1bc3075e5b94e83f0c213e8def1d318466c6149766ccdee29d2c0d5"
+    },
+    {
+      "path": "outputs/converter-strip-surface-verified-domain-saved-native.json",
+      "bytes": 41654,
+      "sha256": "4d35f7213612d2a1b44efc34b493ce9a8c99f4c282895c8bba73677e7c46b999"
+    },
+    {
+      "path": "outputs/converter-surface-strip-body-contact.png",
+      "bytes": 873960,
+      "sha256": "b4e5b5cb5f4473718da88ff897b047097e53b26d2aaf4dee4cc7491dd00cb0bd"
+    },
+    {
+      "path": "outputs/converter-surface-strip-deep-contact.png",
+      "bytes": 871626,
+      "sha256": "7ba02a1f6ebc6d389ebab4b84e4a243c42ba709e04a1659a4165c91d6327d05c"
+    },
+    {
+      "path": "work/freewheel-contact/strip-deep-domain.json",
+      "bytes": 569044,
+      "sha256": "81b0f6dedbf3cd0c42bf9be182969040f489c47b3fc4d58b6388229f15e43926"
+    },
+    {
+      "path": "work/freewheel-contact/strip-domain-exit-checkpoint.json",
+      "bytes": 96145,
+      "sha256": "9430773ab04cba5e851a1fb4d1ae7fa149db9e09479dba827fdb5adedf4b2428"
+    },
+    {
+      "path": "work/freewheel-contact/strip-domain.json",
+      "bytes": 909073,
+      "sha256": "b7458f699f507eaaac3575bfcfd9fad92fc4af3fa54b2cda3c95c8d5d7873e1a"
+    },
+    {
+      "path": "work/freewheel-contact/strip-pocket-domain.json",
+      "bytes": 912900,
+      "sha256": "2659a2765dad4650f34aebc0ad93e63b50ce28b0b34c802760fdd0f375deb403"
+    },
+    {
+      "path": "work/freewheel-contact/strip-spring-study.json",
+      "bytes": 569164,
+      "sha256": "004f51fec9f935e806376c9bbaf75884230a66b13305e21bd467f74f1169a349"
+    },
+    {
+      "path": "work/freewheel-contact/strip-surface-continuation.json",
+      "bytes": 467666,
+      "sha256": "5327b622c9a12296c16820cee42874da61c41327643fe761a7de8e258c6b67f6"
+    },
+    {
+      "path": "work/freewheel-contact/strip-surface-domain.json",
+      "bytes": 108340,
+      "sha256": "8e35fb3286352a19b9478e51a6885d5b8671644722fbadb2d87cb92433f59de3"
+    },
+    {
+      "path": "work/freewheel-contact/strip-surface-verified-domain.json",
+      "bytes": 513779,
+      "sha256": "64adac36bbc035980116ed0ddf5e6e46ecb7ece4dc7ff05fc3c9b38683db68d8"
+    },
+    {
+      "path": "work/transmission/converter-strip-breakaway.log",
+      "bytes": 1596,
+      "sha256": "0203ac47213a8132f43d6f2392effa0e781d06d07254e2cc14fb6212a6937c3d"
+    },
+    {
+      "path": "work/transmission/converter-strip-browser-build.log",
+      "bytes": 2847,
+      "sha256": "74755e3291d25ab31f98c07198bd505d4c25164612ffd761b54d9cbb0dc79f5c"
+    },
+    {
+      "path": "work/transmission/converter-strip-browser-verification.log",
+      "bytes": 6018,
+      "sha256": "dfb1a25501867356329f2bf2716bfd3e237c433e4f55c833eae4d6f67bddf2cd"
+    },
+    {
+      "path": "work/transmission/converter-strip-cartesian-interface.log",
+      "bytes": 579,
+      "sha256": "33bb865d9d2e6840db68ab411f821aeef7da4fa9c1e31e9545d8fcf101abdf53"
+    },
+    {
+      "path": "work/transmission/converter-strip-deep-domain-native.log",
+      "bytes": 35773,
+      "sha256": "64f0073a7e34425ff1faf2c561be8e72681ce3f16ce439ae34cfd8f2160a62a8"
+    },
+    {
+      "path": "work/transmission/converter-strip-deep-domain.log",
+      "bytes": 18266,
+      "sha256": "ad7b6ea64dfb1202cdebd3bb4c111c300971f8d16809b6d6ad5889c08012edc7"
+    },
+    {
+      "path": "work/transmission/converter-strip-domain-native.log",
+      "bytes": 1077,
+      "sha256": "042e1ed6de8c2eee2d662d9557b4dd8699de40ca4cf676ec8254f3e9d4f97406"
+    },
+    {
+      "path": "work/transmission/converter-strip-domain.log",
+      "bytes": 81,
+      "sha256": "4241e78ecbae247ceb71c966ccc9842bb80e6d84ac011ac782f6af8791c55c7c"
+    },
+    {
+      "path": "work/transmission/converter-strip-dynamics-4000hz-drive10.log",
+      "bytes": 1031,
+      "sha256": "95056aef4a691554906d0881ab0277ba3f9eb54a6020c907e1b2ac48a1b0da05"
+    },
+    {
+      "path": "work/transmission/converter-strip-dynamics-4000hz-drive6.log",
+      "bytes": 999,
+      "sha256": "4d76eed22686cbfd60efe0df4ca78890274b3e3b7108b29d8751442898c3bfab"
+    },
+    {
+      "path": "work/transmission/converter-strip-dynamics-4000hz.log",
+      "bytes": 959,
+      "sha256": "8dc35f1fa6013a79564c2f752594128dcd2efcbe660f85d64cce707bb49867e2"
+    },
+    {
+      "path": "work/transmission/converter-strip-dynamics-8000hz-drive10.log",
+      "bytes": 1030,
+      "sha256": "b39b3336d40c8d20aec96a8132901248dc24906ecf529165574c284c2b1a600f"
+    },
+    {
+      "path": "work/transmission/converter-strip-exit-checkpoint.log",
+      "bytes": 427,
+      "sha256": "9dfb88cc85b3c0bc28c422cecc1fb820298aad74797e346db6478d6209a635ea"
+    },
+    {
+      "path": "work/transmission/converter-strip-export.log",
+      "bytes": 3601,
+      "sha256": "9683f0463b82306f0eb24128c4e95a284d5d84c5fd397dc794f436de7ad69ce5"
+    },
+    {
+      "path": "work/transmission/converter-strip-formulation.log",
+      "bytes": 1442,
+      "sha256": "9c650b333f184d056c3fddbeabddfd2e644abfa79aa05899cf2821901a4b3a13"
+    },
+    {
+      "path": "work/transmission/converter-strip-http-verification.log",
+      "bytes": 595,
+      "sha256": "7d3838171ee3dc84e8c8a86f71082743cc398c4851a0f0b6788dc2f0c65faf39"
+    },
+    {
+      "path": "work/transmission/converter-strip-inertia.log",
+      "bytes": 889,
+      "sha256": "4755d2d5beedf3aa503be0c4f17d93962c50888368ae7b0cf9f679b3045c24ba"
+    },
+    {
+      "path": "work/transmission/converter-strip-mount-verification.log",
+      "bytes": 314,
+      "sha256": "9059778e91ecb0279205e4aeaefb1b193004a9cad2711a7d18683add8fd978fb"
+    },
+    {
+      "path": "work/transmission/converter-strip-native-build.log",
+      "bytes": 200,
+      "sha256": "da72c37046a1b7aa2fc990257e0f1fe0c3e619cafa05117d19c7c15cdd6867ce"
+    },
+    {
+      "path": "work/transmission/converter-strip-native-verification.log",
+      "bytes": 1101,
+      "sha256": "98a1d7ab695a8c11159cf314f302ba3bb56f0fb7825ff8c078802c8c99ee96d2"
+    },
+    {
+      "path": "work/transmission/converter-strip-pocket-domain-native.log",
+      "bytes": 229,
+      "sha256": "b55767cf319f1bd8c61c95579159c600f83607536a4032fe7f33592776729fa8"
+    },
+    {
+      "path": "work/transmission/converter-strip-pocket-refinement.log",
+      "bytes": 1522,
+      "sha256": "05fe5785fae9ca46c2a1585599ea6fe49d98bcab22f827ed79c8acd6618e29b1"
+    },
+    {
+      "path": "work/transmission/converter-strip-pocket-verification.log",
+      "bytes": 1088,
+      "sha256": "56a162c0470a3f53b226447fcc71489de5b900e9583748f13b92948e25f31edd"
+    },
+    {
+      "path": "work/transmission/converter-strip-pocket.log",
+      "bytes": 592,
+      "sha256": "1e943628537b3215c6eb874acdd31f2377676e02be868eaf35b0d65c9767b9e6"
+    },
+    {
+      "path": "work/transmission/converter-strip-preview.log",
+      "bytes": 4587,
+      "sha256": "e5945b820f6b9d454958a45090c6a48794d5afbcf383d9408ba1fe92f3ec1e32"
+    },
+    {
+      "path": "work/transmission/converter-strip-render.log",
+      "bytes": 16218,
+      "sha256": "bcddfef22b61d5460c575a0246c5b1d65428c152c3345c2e2b1aaabf167d835e"
+    },
+    {
+      "path": "work/transmission/converter-strip-spring.log",
+      "bytes": 303,
+      "sha256": "63f4d5fbc13e8e3b98710e87dc778cf690be9b0ac4caedf275a27bf01bc89a39"
+    },
+    {
+      "path": "work/transmission/converter-strip-step-comparison.log",
+      "bytes": 1931,
+      "sha256": "be3d94b97c3301f3fd8defb5d6da8d16026776293927f9f424e2dd02d4e1c529"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-contact.log",
+      "bytes": 2771,
+      "sha256": "ca72ddb79426de4857a46234495be487552f7f8e25d62b4bd054898d73b78991"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-continuation.log",
+      "bytes": 520,
+      "sha256": "9a5de908d235d605b7038822d2c80fdac64c1d27e20920c183100e7273713726"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-domain-native.log",
+      "bytes": 229,
+      "sha256": "8c746045eb406252ed09aba3377430241f78bbf07763a40115687a98acdb85e0"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-first-audit.log",
+      "bytes": 1078,
+      "sha256": "527f7d55a74ca7c5fe6dd247782e9e1e23825355fca07085731e0a1c21ece739"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-first-build.log",
+      "bytes": 684,
+      "sha256": "aa9d0ccb568f2c7594a5bb7e7ebcf1546c7c0450c37a2275504067ccd5f21b21"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-render.log",
+      "bytes": 10956,
+      "sha256": "2e6df119eefd7c36960dbbfc260c23af079b2808aec1c7939c5a4612f691966d"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-resumed-dynamics.log",
+      "bytes": 887,
+      "sha256": "fd0645cfdbd80eba825e310954b94fb94a1fe0e1984654df6f4b503eb45c73f2"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-saved-audit.log",
+      "bytes": 1078,
+      "sha256": "527f7d55a74ca7c5fe6dd247782e9e1e23825355fca07085731e0a1c21ece739"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-saved-domain-native.log",
+      "bytes": 230,
+      "sha256": "09e4c53a604cac0ad1c1c5b1cd81c6ad516b3aef01e2c035d0c218b7afe12fdc"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-saved-native.log",
+      "bytes": 374,
+      "sha256": "06abca6ba0b3e3bd020566e31472440fa999f4c724ccaa29248bd8d036b9bd7c"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-step-cartesian.log",
+      "bytes": 1701,
+      "sha256": "c26ddf598d64ef2ddcbbacfa98504b9d5fecb58458f910f7f82f52779b5d93f4"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-step-sensitivity.log",
+      "bytes": 1742,
+      "sha256": "04c0424437109ce4d0e83c33963fd38022f24b7a4d62742a1cdfdba34b02e7d0"
+    },
+    {
+      "path": "work/transmission/converter-strip-surface-verification.log",
+      "bytes": 1211,
+      "sha256": "b70ec3b5037fb7c0ba0e5b56db9036a53a1b56d18f329369086b6e306ea9a9ad"
+    }
+  ],
+  "fileCount": 128,
+  "totalBytes": 16188340
+}

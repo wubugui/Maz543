@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "actualStockCreatesWorkerAfterDispose": true,
+  "guardBlocksLateWorker": true,
+  "pendingAndActiveTasksRejectOnDispose": true,
+  "stockCallbacksReleased": true,
+  "workerToPostMicrotaskGapSettles": true,
+  "newTasksRejectedAfterDispose": true,
+  "idempotentDispose": true,
+  "stockGeometryConstructionUnchanged": true,
+  "limits": "Actual r183 DRACOLoader lifecycle and geometry construction with controlled library/Worker transport. Does not prove this race alone caused the observed 27 GiB process, real GPU memory release, full codec fidelity or stable frame rate."
+}

@@ -1,0 +1,49 @@
+{
+  "packs": [
+    {
+      "pack": "first",
+      "count": 30,
+      "measuredSingleCoilRateNPerM": 26114.800138070263,
+      "totalRateNPerM": 783444.0041421079,
+      "fittedAssemblyPreloadN": 1800,
+      "impliedUnloadedLengthM": 0.020297550785375044,
+      "fullTravelSpringForceN": 6735.69722609528,
+      "normalForceErrorN": 0.0005864047125214711,
+      "fittedMaximumWireShearPa": 2093404696.1118941
+    },
+    {
+      "pack": "second",
+      "count": 16,
+      "measuredSingleCoilRateNPerM": 26114.800138070263,
+      "totalRateNPerM": 417836.8022091242,
+      "fittedAssemblyPreloadN": 150,
+      "impliedUnloadedLengthM": 0.01835899488097053,
+      "fullTravelSpringForceN": 2280.967691266533,
+      "normalForceErrorN": 0.0002531779118726263,
+      "fittedMaximumWireShearPa": 1329202173.5917284
+    },
+    {
+      "pack": "direct",
+      "count": 16,
+      "measuredSingleCoilRateNPerM": 26114.800138070263,
+      "totalRateNPerM": 417836.8022091242,
+      "fittedAssemblyPreloadN": 50,
+      "impliedUnloadedLengthM": 0.018119666991537872,
+      "fullTravelSpringForceN": 1930.2656099410588,
+      "normalForceErrorN": 0.0002233922750747297,
+      "fittedMaximumWireShearPa": 1124835417.0761523
+    },
+    {
+      "pack": "reverse",
+      "count": 30,
+      "measuredSingleCoilRateNPerM": 26114.800138070263,
+      "totalRateNPerM": 783444.0041421079,
+      "fittedAssemblyPreloadN": 1800,
+      "impliedUnloadedLengthM": 0.020297550785375044,
+      "fullTravelSpringForceN": 6735.69722609528,
+      "normalForceErrorN": 0.0005864047125214711,
+      "fittedMaximumWireShearPa": 2093404696.1118941
+    }
+  ],
+  "limits": "Measured native coil dimensions with linear helical-spring formula and fitted steel shear modulus. Assembly preload is not independently sourced; implied free length and Wahl stress are diagnostic values, not factory dimensions or fatigue acceptance."
+}

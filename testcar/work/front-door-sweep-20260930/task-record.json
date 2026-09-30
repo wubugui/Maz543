@@ -1,0 +1,51 @@
+{
+  "idempotency_key": "maz-front-dd2ee9f2-e42e-4985-be95-bf0604693598",
+  "upload": {
+    "upload_id": "5003f54c-2fc9-4f53-a2f5-f31a5e247ad5",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "5003f54c-2fc9-4f53-a2f5-f31a5e247ad5",
+    "name": "hub-front-door-sweep.py",
+    "mime": "text/x-python",
+    "size": 7155,
+    "sha256": "6537e8688be873fc8938df14e8fef4448355a24f20c541e30ddff43b5f2aa546",
+    "created": 1790786019.112899,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/5003f54c-2fc9-4f53-a2f5-f31a5e247ad5/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A four actual door sampled front clearance",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "0f6144dde212cbcada00fe6578f8b45e",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "5003f54c-2fc9-4f53-a2f5-f31a5e247ad5",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "1a77dce6-4fef-4ff3-848f-aa4a72cb3c8f",
+    "task_ids": [
+      "b26d7303-871b-4b3f-806e-656d77f0f1db"
+    ],
+    "task_id": "b26d7303-871b-4b3f-806e-656d77f0f1db"
+  }
+}

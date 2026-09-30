@@ -1,0 +1,17 @@
+{
+  "assets": [
+    {
+      "path": "models/maz543a-converter-assembly.glb",
+      "bytes": 10998592,
+      "sha256": "668eaf3e6cf5ef73c95c565371a6f7155a9a4f8af936f2b381ce5e86f8dc86cc"
+    },
+    {
+      "path": "models/maz543a-converter-assembly.json",
+      "bytes": 19010,
+      "sha256": "57f1e5731377ee58c1d71cf0a4bc2b69b39b5e90f2526536bd593b4a32761e7e"
+    }
+  ],
+  "route": "/converter",
+  "headingPresent": true,
+  "limits": "HTTP byte equality and server-rendered markup. Actual WebGL and interactions are checked separately."
+}

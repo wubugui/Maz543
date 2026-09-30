@@ -1,0 +1,16 @@
+{
+  "preservedMeshNodes": 228,
+  "nativeCandidate": "work/front-assembly-cab-clearance-20260930/maz543a-blender.glb",
+  "source": "../restoration/front-assembly-20260930/maz543a-blender.glb",
+  "output": "work/front-assembly-cab-clearance-20260930/maz543a-preserved.glb",
+  "sha256": "67fd4f7becf0a582332e3856f02d2f231bb0b4bc4c3237fa151ceea9940f3d5a",
+  "bytes": 20358048,
+  "changedMeshes": [
+    "BL_Merged_body_OD_green_aged_enamel",
+    "BL_Merged_cab_pivot_001_OD_green_shadow",
+    "BL_Merged_cab_pivot_005_OD_green_shadow",
+    "BL_Merged_cab_pivot_001_Phosphated_steel",
+    "BL_Merged_cab_pivot_005_Phosphated_steel"
+  ],
+  "scope": "Only specified merged streams with archived old cover/mirror parts and ten new native front meshes are accepted from the candidate; all other original production geometry streams retained exactly."
+}

@@ -1,0 +1,42 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import {registerHooks} from 'node:module';
+import * as T from 'three';
+import {WebGLRenderLists} from '../node_modules/three/src/renderers/webgl/WebGLRenderLists.js';
+import {GLTFExporter} from 'three/addons/exporters/GLTFExporter.js';
+registerHooks({resolve(s,c,next){try{return next(s,c);}catch(error){if(s.startsWith('.')&&!/\.[a-z]+$/i.test(s))return next(s+'.ts',c);throw error;}}});
+const {DisplayBatches}=await import('../lib/displayBatches.ts');
+const {AUTHORITATIVE_PART_LAYER}=await import('../lib/displayInstances.ts');
+const {orderedBatchOpaqueSort,registerBatchMaterial}=await import('../lib/orderedBatchDraws.ts');
+const red=new T.MeshStandardMaterial({color:'red'}),green=new T.MeshStandardMaterial({color:'green'}),clone=red.clone();registerBatchMaterial(clone,red);
+const scene=new T.Scene(),lists=new WebGLRenderLists(),list=lists.get(scene,0),box=new T.BoxGeometry();
+const redMesh=new T.Mesh(box,red),greenMesh=new T.Mesh(box,green),displayMesh=new T.Mesh(box,clone);
+list.init();list.push(displayMesh,box,clone,0,0,null);list.push(greenMesh,box,green,0,0,null);list.sort(null,null);
+assert.deepEqual(list.opaque.map(item=>item.material),[green,clone],'stock sort proves cloned material changes coplanar draw order');
+list.sort(orderedBatchOpaqueSort,null);assert.deepEqual(list.opaque.map(item=>item.material),[clone,green],'source material order restored');
+
+globalThis.FileReader=class{readAsArrayBuffer(blob){blob.arrayBuffer().then(value=>{this.result=value;this.onloadend?.();});}readAsDataURL(blob){blob.arrayBuffer().then(value=>{this.result='data:application/octet-stream;base64,'+Buffer.from(value).toString('base64');this.onloadend?.();});}};
+const root=new T.Group(),mat=new T.MeshStandardMaterial(),meshes=[0,1,2].map(i=>new T.Mesh(new T.BoxGeometry(.2,.3,.4),mat));
+meshes[0].position.set(-.5,0,-.1);meshes[1].position.set(.5,0,.7);meshes[2].position.set(50,0,0);for(const [i,mesh] of meshes.entries()){mesh.name='original-'+i;root.add(mesh);}
+scene.add(root);root.updateMatrixWorld(true);const exportBefore=await new GLTFExporter().parseAsync(root,{binary:true});
+const presentation=new DisplayBatches(root,{exactMatrices:true,preserveOrder:true});scene.add(presentation.root);presentation.sync();assert.equal(presentation.stats.instances,3);
+const batch=presentation.root.children[0],camera=new T.PerspectiveCamera(35,1,.05,100);camera.position.set(0,0,4);camera.lookAt(0,0,0);camera.updateMatrixWorld(true);
+const projection=new T.Matrix4().multiplyMatrices(camera.projectionMatrix,camera.matrixWorldInverse),frustum=new T.Frustum().setFromProjectionMatrix(projection),point=new T.Vector4();
+list.init();for(const mesh of meshes){if(!frustum.intersectsObject(mesh))continue;const center=mesh.geometry.boundingSphere.center;point.set(center.x,center.y,center.z,1).applyMatrix4(mesh.matrixWorld).applyMatrix4(projection);list.push(mesh,mesh.geometry,mesh.material,0,point.z,null);}list.sort(null,null);
+batch.onBeforeRender({},scene,camera,batch.geometry,batch.material,null);
+const actual=Array.from(batch._indirectTexture.image.data.slice(0,batch._multiDrawCount)).map(index=>meshes[index]);
+assert.deepEqual(actual,list.opaque.map(item=>item.object),'actual batch indirect order equals native renderer order and culling');
+assert.equal(batch._multiDrawCount,2,'original far-outside part is camera culled');
+batch.onBeforeShadow({},batch,camera,camera,batch.geometry,batch.customDepthMaterial,null);
+assert.deepEqual(Array.from(batch._indirectTexture.image.data.slice(0,batch._multiDrawCount)),[0,1],'shadow traversal order retained within material');
+const ray=new T.Raycaster(new T.Vector3(-.5,0,4),new T.Vector3(0,0,-1));ray.layers.enable(AUTHORITATIVE_PART_LAYER);assert.equal(ray.intersectObject(root,true)[0].object,meshes[0]);
+const exportAfter=await new GLTFExporter().parseAsync(root,{binary:true});assert.deepEqual(new Uint8Array(exportAfter),new Uint8Array(exportBefore),'actual GLB is unchanged');
+meshes[1].morphTargetInfluences=[0];presentation.sync();assert.equal(presentation.stats.instances,0,'unsupported same-material part prevents reordered partial batch');assert.ok(meshes.every(mesh=>mesh.layers.mask===1));
+meshes[1].morphTargetInfluences=undefined;presentation.sync();assert.equal(presentation.stats.instances,3);
+root.renderOrder=1;presentation.sync();assert.equal(presentation.stats.instances,0,'changed parent group order uses original draws');root.renderOrder=0;presentation.sync();
+assert.equal(presentation.auditGeometry().mismatches,0);presentation.dispose();assert.ok(meshes.every(mesh=>mesh.layers.mask===1&&mesh.material===mat));
+const splitRoot=new T.Group(),splitMaterial=new T.MeshStandardMaterial();
+for(let i=0;i<4;i++){const g=new T.BoxGeometry();if(i>1)g.deleteAttribute('uv');splitRoot.add(new T.Mesh(g,splitMaterial));}
+const split=new DisplayBatches(splitRoot,{exactMatrices:true,preserveOrder:true});split.sync();assert.equal(split.stats.instances,0);assert.equal(split.stats.bufferBytes,0);assert.equal(split.stats.unallocatedSplitGroups,2);assert.ok(splitRoot.children.every(mesh=>mesh.layers.mask===1));split.dispose();
+const result={passed:true,clonedMaterialReorderingReproduced:true,sourceMaterialOrderRestored:true,actualBatchIndirectOrderMatchesNative:true,originalWorldFrustumCulling:true,shadowTraversalOrderWithinMaterial:true,partialMaterialAndParentOrderFallback:true,splitMaterialGroupsAllocateNoCopies:true,originalSelectionAndGlbBytesPreserved:true,sourceGeometryCopyExact:true,limits:'Constructed CPU renderer-list and batch tests plus actual GLB export. Whole-vehicle shader pixels and throughput require browser verification.'};
+await fs.mkdir('outputs/ordered-batches',{recursive:true});await fs.writeFile('outputs/ordered-batches/tests.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));

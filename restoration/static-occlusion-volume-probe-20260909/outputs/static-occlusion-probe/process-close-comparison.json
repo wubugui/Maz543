@@ -1,0 +1,13 @@
+{
+  "action": "Closed only completed task-owned IAB tab 7; no process kill",
+  "exitedProcesses": [
+    {
+      "Id": 40004,
+      "ProcessName": "ChatGPT",
+      "CPU": 11173.609375,
+      "PrivateMemorySize64": 13878161408,
+      "WorkingSet64": 13718372352
+    }
+  ],
+  "limits": "Process membership and private-memory snapshots only; not normalized GC or attribution of the underlying retention cause."
+}

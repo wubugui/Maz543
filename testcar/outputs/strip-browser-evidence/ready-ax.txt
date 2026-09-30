@@ -1,0 +1,47 @@
+Browser tab: 2, Title: "MAZ–543A · 机械解构", URL: "http://localhost:3000/strip-spring".
+1 AXWebArea MAZ–543A · 机械解构, URL: localhost:3000/strip-spring
+	2 container
+		3 link Description: ← 单向离合器台架, Value: localhost:3000/freewheel
+		4 link Description: 整车工作台, Value: localhost:3000/
+		5 container 弯带研究件检查
+			6 container
+				7 heading 弯带弹簧接触, Value: 1
+					8 text 弯带弹簧接触
+				9 text 26 个独立静态平衡 · 图件形状研究
+			10 image 弯带弹簧与滚柱静态平衡三维研究件
+			12 container
+				13 text 拖动旋转 · 滚轮缩放
+				14 button 复位视角
+		15 heading 逐个平衡位置, Value: 2
+			16 text 逐个平衡位置
+		17 text 研究中
+		18 text 原图呈卷曲、弯带轮廓，旧圆线螺旋弹簧假设已撤回。这里展示重建弯带在滚柱挤压下的平衡变形；尚未接入连续运动与整车。
+		19 container
+			20 text 平衡位置
+			21 container 平衡位置 0
+				22 text 1  / 26
+			23 slider (settable, integer) Description: 平衡位置, Value: 0
+		24 button (disabled) 上一位置
+		25 button 下一位置
+		26 checkbox (settable, integer) Description: 显示外圈口袋, Value: 1
+		27 definition list
+			28 container 滚柱相对角
+				29 text 滚柱相对角
+			30 container
+				31 text 0.000 °
+			32 container 弹簧接触反力
+				33 text 弹簧接触反力
+			34 container
+				35 text 21.45 N
+			36 container 弯曲储能
+				37 text 弯曲储能
+			38 container
+				39 text 3.347 mJ
+			40 container 最大增量弯曲应力
+				41 text 最大增量弯曲应力
+			42 container
+				43 text 513.9 MPa
+		44 text 带宽 16 mm、厚度 0.30 mm、杨氏模量 210 GPa、自由曲线及固定座均为研究假设。滚柱采用目录尺寸线索 12.5 × 22 mm，早期 543A 适用性仍待核实。
+		45 text 各位置单独求平衡，没有赋予运动时间。应力随压缩上升，材料与弹性范围未确认，不能视为强度合格或原车性能。
+
+The focused UI element is 1 AXWebArea MAZ–543A · 机械解构, URL: localhost:3000/strip-spring

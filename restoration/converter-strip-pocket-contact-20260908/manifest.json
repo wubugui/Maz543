@@ -1,0 +1,294 @@
+{
+  "stage": "Curved ribbon/wedge contact and offline continuous-load diagnostics",
+  "wholeGoal": "active; all 16 gates OPEN",
+  "status": "Static contact checks and 2/6 Nm runs completed; 10 Nm trajectories incomplete at unexamined geometric boundary",
+  "files": [
+    {
+      "path": "AGENT_START_HERE.md",
+      "bytes": 19429,
+      "sha256": "5a4d621d679d35fa421202a7fde62bcd9e49a00e1e1e2180263ec7d1c16caf11"
+    },
+    {
+      "path": "NEXT_AGENT_PROMPT.md",
+      "bytes": 11831,
+      "sha256": "84bd1f923cc60e8c3a00e6ac9587a2743364ead84dc2a50076e005c9ef93a476"
+    },
+    {
+      "path": "docs/CONTINUATION_20260908.md",
+      "bytes": 12790,
+      "sha256": "ac643e623ff9d0ec3896bffc84e642bce6de75c756fabb0eda7535b53980db00"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 24726,
+      "sha256": "968b4f2978caea7ec9ef7afee117cf246f6612ce9c5032b713647cacd9c9fe3a"
+    },
+    {
+      "path": "docs/CONVERTER_STRIP_POCKET_CONTACT_20260908.md",
+      "bytes": 6283,
+      "sha256": "a54dafc76d9e8ebecee2dbc9ec03491ca239e9de45d689330bead5b1b1ede617"
+    },
+    {
+      "path": "docs/CONVERTER_STRIP_SOURCE_CORRECTION_20260908.md",
+      "bytes": 7730,
+      "sha256": "12dc668ce3a87ded859821136365a49aa9f026edf9c11d95fd5c15007fcbfbd2"
+    },
+    {
+      "path": "scripts/converter_strip_spring.py",
+      "bytes": 5380,
+      "sha256": "f5e98668732fa2d848e4cb5913f3b0a338412a42e8ae64b2d3d01c1c3b36e077"
+    },
+    {
+      "path": "scripts/converter_strip_mesh.py",
+      "bytes": 1645,
+      "sha256": "45e8e41a491465e5f2654d57d55e741a70e2b3d1b8e5a9d77bf9d7c85f88be86"
+    },
+    {
+      "path": "scripts/converter_strip_mount.py",
+      "bytes": 2552,
+      "sha256": "a9ae76071f24c84b46359fed209f81920c1e9d0affdb42200f9f7592da02244d"
+    },
+    {
+      "path": "scripts/converter_strip_pocket.py",
+      "bytes": 7895,
+      "sha256": "49ee4cd99601aa5a5fa927949ebaeb955562163603bfafc2ec6620114eb1194a"
+    },
+    {
+      "path": "scripts/converter_strip_dynamics.py",
+      "bytes": 5043,
+      "sha256": "df13f5f0561c7afb9e4c1d80d09f45362f80de408b1383ebc1103e98a51b451d"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-domain.py",
+      "bytes": 2110,
+      "sha256": "31c2eb836e579dcabc420c400d8452fd842870d3eef83a3a363e8740a8a5dd36"
+    },
+    {
+      "path": "scripts/verify-converter-strip-domain-native.py",
+      "bytes": 4564,
+      "sha256": "747775b6f8f7330f8f80955b492e18237881335924ee8418e21115286e972f0f"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-pocket.py",
+      "bytes": 1752,
+      "sha256": "928e74233f06a9aca2292e426f5ebe25ab21719210075855e3e4a28a316c94cc"
+    },
+    {
+      "path": "scripts/verify-converter-strip-pocket.py",
+      "bytes": 3521,
+      "sha256": "52d28b42dc794431899abe8f65c57f0ddd134c8b58dd85de213cb8b55844ba9d"
+    },
+    {
+      "path": "scripts/verify-converter-strip-pocket-refinement.py",
+      "bytes": 1328,
+      "sha256": "b33c54ba770589fee8e0b989d42af5524c2e9e487148ea6244ac663f2b5804d6"
+    },
+    {
+      "path": "scripts/verify-converter-strip-mount.py",
+      "bytes": 3241,
+      "sha256": "a8cc06c1a5468a05fa3b61961a1dc3531d1a0f6fa38930b18ebbbd923b865d2a"
+    },
+    {
+      "path": "scripts/measure-converter-strip-inertia.py",
+      "bytes": 1346,
+      "sha256": "88d30a120341e4332de0b94718c3e790a2d95e3a887b66b4b0a54f29d17a7210"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-dynamics.py",
+      "bytes": 3721,
+      "sha256": "a29bbc9ee0f819aedb342825c190d1156905c27c6d226e1e544d6b91f531de27"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-breakaway.py",
+      "bytes": 1965,
+      "sha256": "1aad16e8020c63c1b9740ce7d984ae562a2b63732826c8ec44ed52f20f0bc057"
+    },
+    {
+      "path": "scripts/diagnose-converter-strip-exit-checkpoint.py",
+      "bytes": 2209,
+      "sha256": "2c11b7943708e91819be803f8b9e721d8d30277e63f7c9f150b2597da9df992a"
+    },
+    {
+      "path": "scripts/compare-converter-strip-dynamics.py",
+      "bytes": 1259,
+      "sha256": "239c1ad0512a00868a00c3c0338d058463faa2a28f157db9965aaae8e0bba207"
+    },
+    {
+      "path": "scripts/archive-converter-strip-pocket-stage.py",
+      "bytes": 3783,
+      "sha256": "e0ca4241e275f883e3f37a0ecd52cdafc3481c051111521386ed175b9c13c435"
+    },
+    {
+      "path": "outputs/MAZ543A_Converter_CurvedStripStudy.blend",
+      "bytes": 399096,
+      "sha256": "a5bf5073bd3034c07efc6c9f496a99a5dcbcd949d95eb140f05840e8dfd91a35"
+    },
+    {
+      "path": "work/freewheel-contact/strip-spring-study.json",
+      "bytes": 569164,
+      "sha256": "004f51fec9f935e806376c9bbaf75884230a66b13305e21bd467f74f1169a349"
+    },
+    {
+      "path": "work/freewheel-contact/strip-domain.json",
+      "bytes": 909073,
+      "sha256": "b7458f699f507eaaac3575bfcfd9fad92fc4af3fa54b2cda3c95c8d5d7873e1a"
+    },
+    {
+      "path": "work/freewheel-contact/strip-pocket-domain.json",
+      "bytes": 912900,
+      "sha256": "2659a2765dad4650f34aebc0ad93e63b50ce28b0b34c802760fdd0f375deb403"
+    },
+    {
+      "path": "work/freewheel-contact/strip-domain-exit-checkpoint.json",
+      "bytes": 96145,
+      "sha256": "9430773ab04cba5e851a1fb4d1ae7fa149db9e09479dba827fdb5adedf4b2428"
+    },
+    {
+      "path": "outputs/converter-strip-domain-native.json",
+      "bytes": 33554,
+      "sha256": "d198e387c53dccf7ae27127da5c6ed94a2c00a93a3d98180eed788fa3c7d933a"
+    },
+    {
+      "path": "outputs/converter-strip-pocket-domain-native.json",
+      "bytes": 33543,
+      "sha256": "23c464c261bac2797b703cb178fd616763b8ac708509a490b9b6b0dd2d79a0de"
+    },
+    {
+      "path": "outputs/converter-strip-pocket-verification.json",
+      "bytes": 6138,
+      "sha256": "9a6ee8c8bcf5eae1ba0c2df2329e957d8794f64c4b847940e1f8ca22ee0429d1"
+    },
+    {
+      "path": "outputs/converter-strip-pocket-refinement.json",
+      "bytes": 1520,
+      "sha256": "449ea3fc709a030db6bacb83bc84b7ca06b4924fe430b1112258ade133bb7288"
+    },
+    {
+      "path": "outputs/converter-strip-mount-verification.json",
+      "bytes": 13657,
+      "sha256": "f4af55607e5df234cafd6fe3d74b5ef8e8943b92f03219856adf211b1c5c4879"
+    },
+    {
+      "path": "outputs/converter-strip-inertia.json",
+      "bytes": 723,
+      "sha256": "f8ed6794c6bd78dca536a6809df3b91a8640fd2b458694cd7c624dcaba9645e3"
+    },
+    {
+      "path": "outputs/converter-strip-static-torque-domain.json",
+      "bytes": 1594,
+      "sha256": "aefb09d3bc9d9e2c7660c598ed24ee30927c055b847ca7ebfe575933d7c08022"
+    },
+    {
+      "path": "outputs/converter-strip-dynamics-4000hz-88segments.json",
+      "bytes": 2474869,
+      "sha256": "0aa73f005ad08813f12dca37c7572c4bbef13c724ac7ffdaad827b2f1d4d1ddd"
+    },
+    {
+      "path": "outputs/converter-strip-dynamics-4000hz-88segments-drive6.json",
+      "bytes": 2469677,
+      "sha256": "708460f3cffecc843cab70ec8b2f793c89225dc8b2f583a48ae120773526c35e"
+    },
+    {
+      "path": "outputs/converter-strip-dynamics-4000hz-88segments-drive10.json",
+      "bytes": 1254373,
+      "sha256": "a11b2904cf4e0f593c5ca09f040950fd57c9f9b331b0ddd51ec5e6327301a6ed"
+    },
+    {
+      "path": "outputs/converter-strip-dynamics-8000hz-88segments-drive10.json",
+      "bytes": 1254675,
+      "sha256": "ceb4157cb0752aebdb8af127e078b4fbd2c1332216cea9eb5bfc49b3aae40c42"
+    },
+    {
+      "path": "outputs/converter-strip-dynamics-step-comparison.json",
+      "bytes": 1929,
+      "sha256": "71c8800fa3c3db7f538bab532aa16a4398d9d91614ffb7c11b740c22a5a6be29"
+    },
+    {
+      "path": "work/transmission/converter-strip-domain.log",
+      "bytes": 81,
+      "sha256": "4241e78ecbae247ceb71c966ccc9842bb80e6d84ac011ac782f6af8791c55c7c"
+    },
+    {
+      "path": "work/transmission/converter-strip-domain-native.log",
+      "bytes": 1077,
+      "sha256": "042e1ed6de8c2eee2d662d9557b4dd8699de40ca4cf676ec8254f3e9d4f97406"
+    },
+    {
+      "path": "work/transmission/converter-strip-pocket.log",
+      "bytes": 592,
+      "sha256": "1e943628537b3215c6eb874acdd31f2377676e02be868eaf35b0d65c9767b9e6"
+    },
+    {
+      "path": "work/transmission/converter-strip-pocket-verification.log",
+      "bytes": 1088,
+      "sha256": "56a162c0470a3f53b226447fcc71489de5b900e9583748f13b92948e25f31edd"
+    },
+    {
+      "path": "work/transmission/converter-strip-pocket-domain-native.log",
+      "bytes": 229,
+      "sha256": "b55767cf319f1bd8c61c95579159c600f83607536a4032fe7f33592776729fa8"
+    },
+    {
+      "path": "work/transmission/converter-strip-pocket-refinement.log",
+      "bytes": 1522,
+      "sha256": "05fe5785fae9ca46c2a1585599ea6fe49d98bcab22f827ed79c8acd6618e29b1"
+    },
+    {
+      "path": "work/transmission/converter-strip-mount-verification.log",
+      "bytes": 314,
+      "sha256": "9059778e91ecb0279205e4aeaefb1b193004a9cad2711a7d18683add8fd978fb"
+    },
+    {
+      "path": "work/transmission/converter-strip-inertia.log",
+      "bytes": 889,
+      "sha256": "4755d2d5beedf3aa503be0c4f17d93962c50888368ae7b0cf9f679b3045c24ba"
+    },
+    {
+      "path": "work/transmission/converter-strip-breakaway.log",
+      "bytes": 1596,
+      "sha256": "0203ac47213a8132f43d6f2392effa0e781d06d07254e2cc14fb6212a6937c3d"
+    },
+    {
+      "path": "work/transmission/converter-strip-exit-checkpoint.log",
+      "bytes": 427,
+      "sha256": "9dfb88cc85b3c0bc28c422cecc1fb820298aad74797e346db6478d6209a635ea"
+    },
+    {
+      "path": "work/transmission/converter-strip-dynamics-4000hz.log",
+      "bytes": 959,
+      "sha256": "8dc35f1fa6013a79564c2f752594128dcd2efcbe660f85d64cce707bb49867e2"
+    },
+    {
+      "path": "work/transmission/converter-strip-dynamics-4000hz-drive6.log",
+      "bytes": 999,
+      "sha256": "4d76eed22686cbfd60efe0df4ca78890274b3e3b7108b29d8751442898c3bfab"
+    },
+    {
+      "path": "work/transmission/converter-strip-dynamics-4000hz-drive10.log",
+      "bytes": 1031,
+      "sha256": "95056aef4a691554906d0881ab0277ba3f9eb54a6020c907e1b2ac48a1b0da05"
+    },
+    {
+      "path": "work/transmission/converter-strip-dynamics-8000hz-drive10.log",
+      "bytes": 1030,
+      "sha256": "b39b3336d40c8d20aec96a8132901248dc24906ecf529165574c284c2b1a600f"
+    },
+    {
+      "path": "work/reference-docs/transmission/000-0687.jpg",
+      "bytes": 122218,
+      "sha256": "e0d409bbe5f4817de15a63327b6d2b1f12c77b7c99f55a98e72583f420a1ff77"
+    },
+    {
+      "path": "work/reference-docs/transmission/catalog-converter-pump-reactors.gif",
+      "bytes": 37556,
+      "sha256": "3cd990b089a38e819bb50cdea5cffd60a7a6e09ef001f00e17e42474124c71d0"
+    },
+    {
+      "path": "work/reference-docs/transmission/converter-assembly-findings.json",
+      "bytes": 2436,
+      "sha256": "3a5c98173c0cd1f63133dd4b3a21d66b6aa8b571a30ec8bc2b64d297861dc71d"
+    }
+  ],
+  "fileCount": 57,
+  "totalBytes": 10742777
+}

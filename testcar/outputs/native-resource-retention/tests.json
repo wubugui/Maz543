@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "before": {
+    "owned": {
+      "geometries": 3,
+      "materials": 2,
+      "textures": 1,
+      "geometryBuffers": 8,
+      "geometryBufferBytes": 966
+    },
+    "referenced": {
+      "geometries": 1,
+      "materials": 1,
+      "textures": 0,
+      "geometryBuffers": 4,
+      "geometryBufferBytes": 126
+    },
+    "orphaned": {
+      "geometries": 2,
+      "materials": 1,
+      "textures": 1,
+      "exclusiveGeometryBufferBytes": 840,
+      "geometry": [
+        {
+          "labels": [
+            ""
+          ],
+          "bufferBytes": 36
+        },
+        {
+          "labels": [
+            ""
+          ],
+          "bufferBytes": 840
+        }
+      ]
+    },
+    "limits": "Underlying JS geometry buffers only, including index, interleaved attributes and morph targets. Shared backing buffers count once and are exclusive only if absent from every retained geometry. Includes hidden objects; excludes driver/GPU allocations, parser caches, textures, simulation and temporary allocations."
+  },
+  "after": {
+    "owned": {
+      "geometries": 1,
+      "materials": 2,
+      "textures": 1,
+      "geometryBuffers": 4,
+      "geometryBufferBytes": 126
+    },
+    "referenced": {
+      "geometries": 1,
+      "materials": 1,
+      "textures": 0,
+      "geometryBuffers": 4,
+      "geometryBufferBytes": 126
+    },
+    "orphaned": {
+      "geometries": 0,
+      "materials": 1,
+      "textures": 1,
+      "exclusiveGeometryBufferBytes": 0,
+      "geometry": []
+    },
+    "limits": "Underlying JS geometry buffers only, including index, interleaved attributes and morph targets. Shared backing buffers count once and are exclusive only if absent from every retained geometry. Includes hidden objects; excludes driver/GPU allocations, parser caches, textures, simulation and temporary allocations."
+  },
+  "hiddenGeometryRetained": true,
+  "sharedBackingUnchanged": true,
+  "morphAndInterleavedBuffersCounted": true,
+  "materialsAndTexturesPreservedUntilFullDispose": true,
+  "repeatedReleaseAndLateLoadSafe": true,
+  "actualRetainedGlbByteIdentical": true,
+  "limits": "Actual Three resources and GLTFExporter in a controlled scene. Whole-native resource census and full browser pixels are separate; no sustained heap/driver/FPS claim."
+}

@@ -1,0 +1,158 @@
+{
+  "wholeGoal": "ACTIVE; all 16 gates OPEN",
+  "status": "Owned resource rollback/fatal cleanup, synchronous startup fallback, explicit same-page full-model restart. Actual browser controlled-fault recovery passed. No mechanical/geometry/export fidelity reduction; dynamic rendering and default-worker/full-product acceptance remain open.",
+  "files": [
+    {
+      "path": "AGENT_START_HERE.md",
+      "bytes": 23519,
+      "sha256": "9a309f66a0f5f72bba37e5b892eaef7de850e87685138972f088698f140be8bc"
+    },
+    {
+      "path": "NEXT_AGENT_PROMPT.md",
+      "bytes": 15921,
+      "sha256": "77b5cf0769b1d831d5021e2c00d88d03f88d7bbbc9343f0477e8fe692ab3dc0f"
+    },
+    {
+      "path": "docs/CONTINUATION_20260908.md",
+      "bytes": 16835,
+      "sha256": "7b82b100f3251bda9279899f0a561531df6bd881a9d1e77ce0aee859cc18ae57"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 28771,
+      "sha256": "eecfdd1ba330fdafca3f4b89b76718c3cab891fad356add6b031ada4cbdbbf68"
+    },
+    {
+      "path": "docs/WORKER_LIFECYCLE_20260909.md",
+      "bytes": 5978,
+      "sha256": "42fedc37c9e7bb2e5272e602ed38cac4c804d30a007f22d36c674c834a2a3806"
+    },
+    {
+      "path": "lib/renderWorkerClient.ts",
+      "bytes": 10657,
+      "sha256": "bbb58ff5c3c0beee39314e2cc3efef1b2ed0e1de7e11fdcf3586b9a8995ada70"
+    },
+    {
+      "path": "lib/viewportProtocol.ts",
+      "bytes": 1593,
+      "sha256": "270c729f5bf8f6e33efab069fbf06d6090d5156516e82ad32d3765914e12452f"
+    },
+    {
+      "path": "lib/viewport.worker.ts",
+      "bytes": 4706,
+      "sha256": "2d3af2fe42da42f55abb3bf0eaf29507818f87ce83131611303e8d8c7a2d5b22"
+    },
+    {
+      "path": "lib/vehicleViewport.ts",
+      "bytes": 58025,
+      "sha256": "9a1266272b0d0281b1757f9705a4987e975ccb0f3405e57df18ce9c13ba1f1d7"
+    },
+    {
+      "path": "components/vehicle-viewer.tsx",
+      "bytes": 2501,
+      "sha256": "03b083c921006c13806d9e532bd36bf32a6b00b31ee2a1ed43fcb0d20b5ef30a"
+    },
+    {
+      "path": "components/workshop.tsx",
+      "bytes": 49072,
+      "sha256": "7701e73ea316604c088fffb71fafcfca750a394baf75ce6583ee33eea378e7a3"
+    },
+    {
+      "path": "scripts/verify-render-client-lifecycle.mjs",
+      "bytes": 9033,
+      "sha256": "bdd2943609245e7344ede7e23a2f9391a588c1679ecd95bd0222e2071948d0ba"
+    },
+    {
+      "path": "scripts/verify-viewport-worker-failures.mjs",
+      "bytes": 2573,
+      "sha256": "b2ab1a9c9c8f75836490b55b9340d1c05e4ebadf59765d853945167bb571fd89"
+    },
+    {
+      "path": "scripts/verify-worker-lifecycle-integrity.py",
+      "bytes": 2029,
+      "sha256": "cc4e370ba918a2d5a5ea3723e6bb8fd9e2559da442a19ce15fc7faf6f2c93663"
+    },
+    {
+      "path": "scripts/summarize-worker-lifecycle-browser.py",
+      "bytes": 1875,
+      "sha256": "86b098e029396edebb6a19f3ac7903ba6c07826b6e81f8a214403d87fb61dc0a"
+    },
+    {
+      "path": "scripts/archive-worker-lifecycle-stage.py",
+      "bytes": 2776,
+      "sha256": "988539b2795c9f16a092af40f00f4c5f90c0d49a4b3380e733b8d590fef62f11"
+    },
+    {
+      "path": "outputs/worker-lifecycle/browser-verification.json",
+      "bytes": 814,
+      "sha256": "359e439de12c62026a43da1dc05bd16aa0c1d4fa80da91c1dfe86c9b455f789b"
+    },
+    {
+      "path": "outputs/worker-lifecycle/client-tests.json",
+      "bytes": 918,
+      "sha256": "961e638adc5481d09ff7f75432d0a3c2377083652255b248d776a7d3d49a68fe"
+    },
+    {
+      "path": "outputs/worker-lifecycle/final-preview-ax.txt",
+      "bytes": 7416,
+      "sha256": "c35d618cafe0068dd30e5a1569a90cc47b1c2f857342a2b07ec745f22bc4cac9"
+    },
+    {
+      "path": "outputs/worker-lifecycle/recovered-door-ax.txt",
+      "bytes": 7675,
+      "sha256": "a3134f04a9960b8e6e5f1af99c465aa67699faa6db9c97f044f100222a6a569f"
+    },
+    {
+      "path": "outputs/worker-lifecycle/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "path": "outputs/worker-lifecycle/worker-failed-ax.txt",
+      "bytes": 7738,
+      "sha256": "d640e631ac7b72527461c007f10bbfe52e52f6950a2df9968df7aa6624a4c8c7"
+    },
+    {
+      "path": "outputs/worker-lifecycle/worker-failure-tests.json",
+      "bytes": 887,
+      "sha256": "6fef7c5b1ef8d198e111b9a7f8bc3c7d3bec580d6ccdadadaa559908b2ff428e"
+    },
+    {
+      "path": "outputs/worker-lifecycle/worker-ready-ax.txt",
+      "bytes": 7416,
+      "sha256": "f9017e3d6ba3db2bc7e10c42512d47382247d04b273e0e432f6c76d481fc0e41"
+    },
+    {
+      "path": "outputs/worker-lifecycle/worker-recovery-ax.txt",
+      "bytes": 7526,
+      "sha256": "c2efa086c1a7312e366af7bf40fcc6e6bfef609dc3b74adfb38930a25a1a92a6"
+    },
+    {
+      "path": "work/worker-lifecycle/build.log",
+      "bytes": 2859,
+      "sha256": "8e4fb5be899e2cdc87b8023af47300ffaa5516c08ef08155e417ec55abebd5f3"
+    },
+    {
+      "path": "work/worker-lifecycle/client-tests.log",
+      "bytes": 953,
+      "sha256": "ba616513d6b126ece0452151a043bd6f9113f5b74f8824e397f908a62973f840"
+    },
+    {
+      "path": "work/worker-lifecycle/final-types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/worker-lifecycle/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/worker-lifecycle/worker-failure-tests.log",
+      "bytes": 937,
+      "sha256": "8276d01fa4757c7a319cc49f6993f09cc9f8369ec2483b2c66283c80156fd7f8"
+    }
+  ],
+  "fileCount": 30,
+  "totalBytes": 284093
+}

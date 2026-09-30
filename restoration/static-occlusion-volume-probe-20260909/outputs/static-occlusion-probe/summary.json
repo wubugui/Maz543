@@ -1,0 +1,240 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "passed": true,
+  "measurements": [
+    {
+      "file": "still-loose-depth.json",
+      "bounds": "independent-z-w",
+      "stableOccluders": 2315,
+      "movingOrNew": 0,
+      "passes": [
+        {
+          "requestedSamples": 4,
+          "actualSamples": 4,
+          "depthBits": 24,
+          "depthDraws": 2315,
+          "depthTriangles": 5393928
+        },
+        {
+          "requestedSamples": 2,
+          "actualSamples": 2,
+          "depthBits": 24,
+          "depthDraws": 2315,
+          "depthTriangles": 5393928
+        },
+        {
+          "requestedSamples": 0,
+          "actualSamples": 0,
+          "depthBits": 24,
+          "depthDraws": 2315,
+          "depthTriangles": 5393928
+        }
+      ],
+      "visibility": [
+        {
+          "requestedSamples": 4,
+          "queried": 2314,
+          "zeroVolumes": 232,
+          "zeroVolumeTriangles": 41368,
+          "zeroStableVolumes": 232,
+          "zeroMovingVolumes": 0
+        },
+        {
+          "requestedSamples": 2,
+          "queried": 2314,
+          "zeroVolumes": 231,
+          "zeroVolumeTriangles": 41308,
+          "zeroStableVolumes": 231,
+          "zeroMovingVolumes": 0
+        },
+        {
+          "requestedSamples": 0,
+          "queried": 2314,
+          "zeroVolumes": 240,
+          "zeroVolumeTriangles": 41848,
+          "zeroStableVolumes": 240,
+          "zeroMovingVolumes": 0
+        }
+      ],
+      "submitMs": 2757,
+      "displayDifferentPixels": 0,
+      "controlsPassed": true
+    },
+    {
+      "file": "still-correlated.json",
+      "bounds": "correlated-corners",
+      "stableOccluders": 2315,
+      "movingOrNew": 0,
+      "passes": [
+        {
+          "requestedSamples": 4,
+          "actualSamples": 4,
+          "depthBits": 24,
+          "depthDraws": 2315,
+          "depthTriangles": 5393928
+        },
+        {
+          "requestedSamples": 2,
+          "actualSamples": 2,
+          "depthBits": 24,
+          "depthDraws": 2315,
+          "depthTriangles": 5393928
+        },
+        {
+          "requestedSamples": 0,
+          "actualSamples": 0,
+          "depthBits": 24,
+          "depthDraws": 2315,
+          "depthTriangles": 5393928
+        }
+      ],
+      "visibility": [
+        {
+          "requestedSamples": 4,
+          "queried": 2314,
+          "zeroVolumes": 1925,
+          "zeroVolumeTriangles": 3281902,
+          "zeroStableVolumes": 1925,
+          "zeroMovingVolumes": 0
+        },
+        {
+          "requestedSamples": 2,
+          "queried": 2314,
+          "zeroVolumes": 1938,
+          "zeroVolumeTriangles": 3302030,
+          "zeroStableVolumes": 1938,
+          "zeroMovingVolumes": 0
+        },
+        {
+          "requestedSamples": 0,
+          "queried": 2314,
+          "zeroVolumes": 1943,
+          "zeroVolumeTriangles": 3315034,
+          "zeroStableVolumes": 1943,
+          "zeroMovingVolumes": 0
+        }
+      ],
+      "submitMs": 2566.9000000059605,
+      "displayDifferentPixels": 0,
+      "controlsPassed": true
+    },
+    {
+      "file": "engine-correlated.json",
+      "bounds": "correlated-corners",
+      "stableOccluders": 1934,
+      "movingOrNew": 381,
+      "passes": [
+        {
+          "requestedSamples": 4,
+          "actualSamples": 4,
+          "depthBits": 24,
+          "depthDraws": 1934,
+          "depthTriangles": 4236729
+        },
+        {
+          "requestedSamples": 2,
+          "actualSamples": 2,
+          "depthBits": 24,
+          "depthDraws": 1934,
+          "depthTriangles": 4236729
+        },
+        {
+          "requestedSamples": 0,
+          "actualSamples": 0,
+          "depthBits": 24,
+          "depthDraws": 1934,
+          "depthTriangles": 4236729
+        }
+      ],
+      "visibility": [
+        {
+          "requestedSamples": 4,
+          "queried": 2314,
+          "zeroVolumes": 1923,
+          "zeroVolumeTriangles": 3269902,
+          "zeroStableVolumes": 1556,
+          "zeroMovingVolumes": 367
+        },
+        {
+          "requestedSamples": 2,
+          "queried": 2314,
+          "zeroVolumes": 1938,
+          "zeroVolumeTriangles": 3302030,
+          "zeroStableVolumes": 1566,
+          "zeroMovingVolumes": 372
+        },
+        {
+          "requestedSamples": 0,
+          "queried": 2314,
+          "zeroVolumes": 1941,
+          "zeroVolumeTriangles": 3301882,
+          "zeroStableVolumes": 1571,
+          "zeroMovingVolumes": 370
+        }
+      ],
+      "submitMs": 2624.39999999851,
+      "displayDifferentPixels": 0,
+      "controlsPassed": true
+    },
+    {
+      "file": "side-door-correlated.json",
+      "bounds": "correlated-corners",
+      "stableOccluders": 1934,
+      "movingOrNew": 381,
+      "passes": [
+        {
+          "requestedSamples": 4,
+          "actualSamples": 4,
+          "depthBits": 24,
+          "depthDraws": 1934,
+          "depthTriangles": 4236729
+        },
+        {
+          "requestedSamples": 2,
+          "actualSamples": 2,
+          "depthBits": 24,
+          "depthDraws": 1934,
+          "depthTriangles": 4236729
+        },
+        {
+          "requestedSamples": 0,
+          "actualSamples": 0,
+          "depthBits": 24,
+          "depthDraws": 1934,
+          "depthTriangles": 4236729
+        }
+      ],
+      "visibility": [
+        {
+          "requestedSamples": 4,
+          "queried": 2314,
+          "zeroVolumes": 1968,
+          "zeroVolumeTriangles": 3277542,
+          "zeroStableVolumes": 1635,
+          "zeroMovingVolumes": 333
+        },
+        {
+          "requestedSamples": 2,
+          "queried": 2314,
+          "zeroVolumes": 1966,
+          "zeroVolumeTriangles": 3274918,
+          "zeroStableVolumes": 1633,
+          "zeroMovingVolumes": 333
+        },
+        {
+          "requestedSamples": 0,
+          "queried": 2314,
+          "zeroVolumes": 2009,
+          "zeroVolumeTriangles": 3327966,
+          "zeroStableVolumes": 1674,
+          "zeroMovingVolumes": 335
+        }
+      ],
+      "submitMs": 2563.7000000029802,
+      "displayDifferentPixels": 0,
+      "controlsPassed": true
+    }
+  ],
+  "limits": "Finite isolated snapshot potential only. No actual product draw was skipped, no dynamic FPS improvement or cross-frame proof reuse established."
+}

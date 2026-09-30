@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "F:\InferenceHub\blender_bootstrap.py", line 79, in <module>
+    runpy.run_path(str(script),run_name='__main__')
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "F:\InferenceHub\data\blender\bc0ae333-0636-4843-a0e5-dd194b373460\d8b7976f-e7f5-44bf-b333-9f5f60397e93\work\main.py", line 135, in <module>
+    gasket=panel(f'BL_Front_windshield_gasket_{side}',side,scaled(opening,1.018),.006,.009,bpy.data.materials['Rubber_window_seals'],p)
+                                                                                           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'bpy_prop_collection[key]: key "Rubber_window_seals" not found'
+
+Error: script failed, file: 'F:\InferenceHub\blender_bootstrap.py', exiting.

@@ -1,0 +1,44 @@
+{
+  "baseline": "C:\\Users\\weiruanrinima\\Downloads\\MAZ543-reference-current-pose (1).glb",
+  "candidate": "E:\\Maz543\\testcar\\outputs\\render-worker-evidence\\whole-current-pose.glb",
+  "bytes": [
+    349722392,
+    349722388
+  ],
+  "binaryBytes": 346418624,
+  "binarySha256": [
+    "cb5a1ca51d7c539b9443e73e0752f3cfbe7964508165e57add148e71400acb82",
+    "cb5a1ca51d7c539b9443e73e0752f3cfbe7964508165e57add148e71400acb82"
+  ],
+  "binaryDifferentBytes": 0,
+  "jsonChanges": [
+    {
+      "path": "/nodes/0/matrix/1",
+      "before": -3.8021032763710445e-20,
+      "after": 3.055261561224527e-20
+    },
+    {
+      "path": "/nodes/0/matrix/4",
+      "before": 3.8021032763710445e-20,
+      "after": -3.055261561224527e-20
+    },
+    {
+      "path": "/nodes/0/matrix/13",
+      "before": 1.1726141304038876e-09,
+      "after": 1.172614132133459e-09
+    }
+  ],
+  "nodes": [
+    3226,
+    3226
+  ],
+  "meshes": [
+    1758,
+    1758
+  ],
+  "images": [
+    9,
+    9
+  ],
+  "limits": "Exports were made at different mechanical times. Report every JSON difference; do not assume identical snapshots."
+}

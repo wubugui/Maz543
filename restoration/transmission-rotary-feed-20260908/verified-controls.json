@@ -1,0 +1,70 @@
+{
+  "samples": [
+    {
+      "gear": -1,
+      "range": "high",
+      "totalRatio": -13.0194432,
+      "synchronousKmh": -43.43401395584741
+    },
+    {
+      "gear": 1,
+      "range": "high",
+      "totalRatio": 26.0388864,
+      "synchronousKmh": 21.717006977923706
+    },
+    {
+      "gear": 2,
+      "range": "high",
+      "totalRatio": 14.646873599999997,
+      "synchronousKmh": 38.60801240519771
+    },
+    {
+      "gear": 3,
+      "range": "high",
+      "totalRatio": 8.137151999999999,
+      "synchronousKmh": 69.49442232935587
+    },
+    {
+      "gear": -1,
+      "range": "low",
+      "totalRatio": -24.08596992,
+      "synchronousKmh": -23.477845381539147
+    },
+    {
+      "gear": 1,
+      "range": "low",
+      "totalRatio": 48.17193984,
+      "synchronousKmh": 11.738922690769574
+    },
+    {
+      "gear": 2,
+      "range": "low",
+      "totalRatio": 27.09671616,
+      "synchronousKmh": 20.86919589470146
+    },
+    {
+      "gear": 3,
+      "range": "low",
+      "totalRatio": 15.053731199999998,
+      "synchronousKmh": 37.564552610462634
+    }
+  ],
+  "neutral": {
+    "pump": 252.0331049811306,
+    "turbine": null,
+    "gearboxOutput": 120.76800000000001,
+    "propeller": 65.28,
+    "halfshaft": 34,
+    "wheel": 6.666666666666667,
+    "slipOmega": null
+  },
+  "application": {
+    "forwardKmh": 14.214689904761968,
+    "reverseKmh": -29.10363456527835,
+    "lowKmh": 7.373823439119301,
+    "brakeHeldSpeed": 0
+  },
+  "pauseAndSlow": true,
+  "errors": 0,
+  "limits": "Checks cover published ratios, straight-running shaft-speed arithmetic and application controls. They do not validate converter/traction dynamics or the unfinished transmission geometry."
+}

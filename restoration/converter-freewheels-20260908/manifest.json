@@ -1,0 +1,77 @@
+[
+  {
+    "file": "scripts/blender-converter-freewheels.py",
+    "bytes": 9516,
+    "sha256": "ac4991eb5cd61a62d0238be0af4e883aad35f8c7c4f704ad27c4c029aa02a09d"
+  },
+  {
+    "file": "scripts/prepare-converter-freewheel-support.py",
+    "bytes": 1207,
+    "sha256": "bb164c35de3c95dfe84d89999036bdead1a73350a7591928ae602311166a5534"
+  },
+  {
+    "file": "scripts/verify-converter-freewheels.py",
+    "bytes": 4468,
+    "sha256": "ec434fdd74ce8c971ab37e4b87aff8222c7ffa6a70d0a2f03d0ea87ac78afeb7"
+  },
+  {
+    "file": "scripts/render-converter-freewheels.py",
+    "bytes": 1722,
+    "sha256": "a9416cd6f91f4dc3178190cb9b6f71caf098d115b2abb53384aaa2b24050eb46"
+  },
+  {
+    "file": "docs/CONVERTER_FREEWHEELS_20260908.md",
+    "bytes": 3961,
+    "sha256": "69dcf54e20a6d8036c17cbca3d4fb11f800a9cc11b16cdd6649e8acb06672852"
+  },
+  {
+    "file": "outputs/MAZ543A_Converter_Freewheels.blend",
+    "bytes": 9760893,
+    "sha256": "138924837bee01252120c056286a42ca79c180ae4e92cc889bd33b6ea825390d"
+  },
+  {
+    "file": "outputs/converter-freewheel-build.json",
+    "bytes": 1181,
+    "sha256": "d63835247cf8413f99c669a9707f1223d17543ba97a3b9ca1a3ff1e10eaf2302"
+  },
+  {
+    "file": "outputs/converter-freewheel-verification.json",
+    "bytes": 12538,
+    "sha256": "e1774b2d43603e03c37a133722cdd67686b62da5b69d4737aef240142699dc7e"
+  },
+  {
+    "file": "outputs/converter-freewheels-locked.png",
+    "bytes": 895770,
+    "sha256": "a7eeea1c1c45b5b56d3079f49faa2a84ee71265d4179320b3315ac937fd16775"
+  },
+  {
+    "file": "outputs/converter-freewheels-released.png",
+    "bytes": 894247,
+    "sha256": "8aa9a1023b98ceaef8ea51777ee973877ec9850462395659296fff4f4a3c4ad5"
+  },
+  {
+    "file": "work/reference-docs/transmission/000-0687.jpg",
+    "bytes": 122218,
+    "sha256": "e0d409bbe5f4817de15a63327b6d2b1f12c77b7c99f55a98e72583f420a1ff77"
+  },
+  {
+    "file": "work/transmission/converter-freewheel-support.json",
+    "bytes": 28818,
+    "sha256": "5454f933ec491ba794b2679b15617a3f92c07c243359336b0087e124a5f49ebb"
+  },
+  {
+    "file": "work/transmission/converter-freewheel-build.log",
+    "bytes": 166,
+    "sha256": "1730839a55a0da0f2277e01e06ad66cf4a608e71ccf16c219dcd660646bdce63"
+  },
+  {
+    "file": "work/transmission/converter-freewheel-check.log",
+    "bytes": 434,
+    "sha256": "f904ace37dc80b7345e663d008c4f4afb9b9b46509d438170983b16e6ca4744c"
+  },
+  {
+    "file": "work/transmission/converter-freewheel-render.log",
+    "bytes": 26634,
+    "sha256": "1baf4242c86f4418a96507eb0bef72a9fbed51f5016442ed1ec7a91c3a556c30"
+  }
+]

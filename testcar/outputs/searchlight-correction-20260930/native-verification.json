@@ -1,0 +1,211 @@
+{
+  "scope": "Searchlight relocation only; 16 full vehicle gates OPEN",
+  "source": "museum-front.jpg / museum-front-oblique.jpg; MAZ543A photo set",
+  "destinationBrowserCenter": [
+    -5.02,
+    2.875,
+    0.9
+  ],
+  "dimensionStatus": "photo-fitted, not factory calibrated",
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "parts": [
+        {
+          "name": "BL_Searchlight_housing",
+          "parent": "cab_pivot_005",
+          "before": {
+            "min": [
+              -3.509999990463257,
+              2.755000114440918,
+              -1.149999976158142
+            ],
+            "max": [
+              -3.3299999237060547,
+              2.994999885559082,
+              -0.9100000262260437
+            ]
+          },
+          "after": {
+            "min": [
+              -5.110000133514404,
+              2.755000114440918,
+              0.7799999713897705
+            ],
+            "max": [
+              -4.929999828338623,
+              2.994999885559082,
+              1.0199999809265137
+            ]
+          },
+          "vertices": 128,
+          "uvUnchanged": true,
+          "localGeometryUnchanged": true
+        },
+        {
+          "name": "BL_Searchlight_lens",
+          "parent": "cab_pivot_005",
+          "before": {
+            "min": [
+              -3.5269999504089355,
+              2.7720000743865967,
+              -1.1330000162124634
+            ],
+            "max": [
+              -3.5169999599456787,
+              2.9779999256134033,
+              -0.9269999861717224
+            ]
+          },
+          "after": {
+            "min": [
+              -5.126999855041504,
+              2.7720000743865967,
+              0.7969999313354492
+            ],
+            "max": [
+              -5.117000102996826,
+              2.9779999256134033,
+              1.003000020980835
+            ]
+          },
+          "vertices": 128,
+          "uvUnchanged": true,
+          "localGeometryUnchanged": true
+        },
+        {
+          "name": "BL_Searchlight_stand",
+          "parent": "cab_pivot_005",
+          "before": {
+            "min": [
+              -3.4549999237060547,
+              2.6649999618530273,
+              -1.065000057220459
+            ],
+            "max": [
+              -3.384999990463257,
+              2.815000057220459,
+              -0.9950000047683716
+            ]
+          },
+          "after": {
+            "min": [
+              -5.054999828338623,
+              2.6649999618530273,
+              0.8649998903274536
+            ],
+            "max": [
+              -4.985000133514404,
+              2.815000057220459,
+              0.934999942779541
+            ]
+          },
+          "vertices": 64,
+          "uvUnchanged": true,
+          "localGeometryUnchanged": true
+        }
+      ],
+      "otherObjectTransformsUnchanged": true
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "parts": [
+        {
+          "name": "BL_Searchlight_lens",
+          "parent": "cab_pivot_005",
+          "before": {
+            "min": [
+              -3.5269999504089355,
+              2.7720000743865967,
+              -1.1330000162124634
+            ],
+            "max": [
+              -3.5169999599456787,
+              2.9779999256134033,
+              -0.9269999861717224
+            ]
+          },
+          "after": {
+            "min": [
+              -5.126999855041504,
+              2.7720000743865967,
+              0.7969999313354492
+            ],
+            "max": [
+              -5.117000102996826,
+              2.9779999256134033,
+              1.003000020980835
+            ]
+          },
+          "vertices": 512,
+          "uvUnchanged": true,
+          "localGeometryUnchanged": true
+        },
+        {
+          "name": "BL_Searchlight_housing",
+          "parent": "cab_pivot_005",
+          "before": {
+            "min": [
+              -3.509999990463257,
+              2.755000114440918,
+              -1.149999976158142
+            ],
+            "max": [
+              -3.3299999237060547,
+              2.994999885559082,
+              -0.9100000262260437
+            ]
+          },
+          "after": {
+            "min": [
+              -5.110000133514404,
+              2.755000114440918,
+              0.7799999713897705
+            ],
+            "max": [
+              -4.929999828338623,
+              2.994999885559082,
+              1.0199999809265137
+            ]
+          },
+          "vertices": 512,
+          "uvUnchanged": true,
+          "localGeometryUnchanged": true
+        },
+        {
+          "name": "BL_Searchlight_stand",
+          "parent": "cab_pivot_005",
+          "before": {
+            "min": [
+              -3.4549999237060547,
+              2.6649999618530273,
+              -1.065000057220459
+            ],
+            "max": [
+              -3.384999990463257,
+              2.815000057220459,
+              -0.9950000047683716
+            ]
+          },
+          "after": {
+            "min": [
+              -5.054999828338623,
+              2.6649999618530273,
+              0.8649998903274536
+            ],
+            "max": [
+              -4.985000133514404,
+              2.815000057220459,
+              0.934999942779541
+            ]
+          },
+          "vertices": 256,
+          "uvUnchanged": true,
+          "localGeometryUnchanged": true
+        }
+      ],
+      "otherObjectTransformsUnchanged": true
+    }
+  ],
+  "exportSelectedObjects": 332
+}

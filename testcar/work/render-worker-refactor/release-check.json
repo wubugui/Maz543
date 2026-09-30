@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "order": [
+    "dispose",
+    "lose-owned-context",
+    "remove-canvas"
+  ],
+  "idempotent": true,
+  "contextAndCanvasReleasedAfterDisposeError": true,
+  "limits": "Ownership/order test. Browser recreation is verified separately; this is not a long-term GPU memory measurement."
+}

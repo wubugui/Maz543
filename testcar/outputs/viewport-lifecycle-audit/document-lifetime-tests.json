@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "persistedStateUntouched": true,
+  "documentExitReleases": true,
+  "componentCleanupReleases": true,
+  "releasesOnce": true,
+  "listenersRemovedOnFailure": true,
+  "limits": "Actual lifetime owner with real EventTarget and controlled persisted flags. Browser release callbacks, driver memory and history restoration require separate observation."
+}

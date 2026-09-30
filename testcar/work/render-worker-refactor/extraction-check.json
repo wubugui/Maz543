@@ -1,0 +1,8 @@
+{
+  "completeSceneBodyPreserved": true,
+  "bodySha256": "93cf3deb46b1140e350d19b230fd6f1447d395b02a50003b1e50f6d4b12a8e11",
+  "source": "work/render-worker-refactor/viewer-before.tsx",
+  "runtime": "lib/vehicleViewport.ts",
+  "bodyLines": 443,
+  "purpose": "Run one complete scene implementation in either UI or future worker host; no reduced alternate model."
+}

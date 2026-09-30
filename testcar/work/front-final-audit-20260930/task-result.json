@@ -1,0 +1,321 @@
+{
+  "id": "3269933a-a72f-4a8f-a8cc-9f1d172359b9",
+  "batch_id": "f99379bc-c6a7-45b2-9afc-eaaf80feb3cb",
+  "name": "MAZ543A original and final baked shell topology read-only audit",
+  "backend": "blender",
+  "group_key": "blender:cpu",
+  "priority": 50,
+  "params": {
+    "version": "4.5.13",
+    "project_file": null,
+    "files": [
+      {
+        "file_id": "fdbaf8d6500eb4a8812e7699d3989376",
+        "path": "MAZ543A_Textured.blend"
+      },
+      {
+        "file_id": "0f6144dde212cbcada00fe6578f8b45e",
+        "path": "MAZ543A_Master.blend"
+      },
+      {
+        "file_id": "54701e9265ba805803df6b520796f86a",
+        "path": "Baseline_Textured.blend"
+      },
+      {
+        "file_id": "129cd89b-2ed7-49e5-a7da-03000efcdb22",
+        "path": "main.py"
+      }
+    ],
+    "script": "main.py",
+    "blend_file": null,
+    "args": [],
+    "device": "cpu",
+    "gpu_policy": "auto",
+    "threads": 4,
+    "ram_mb": 4096,
+    "vram_mb": 1024,
+    "timeout_seconds": 900
+  },
+  "state": "succeeded",
+  "created": 1790785267.3205707,
+  "started": 1790785267.4412205,
+  "finished": 1790785277.7692108,
+  "prompt_id": null,
+  "phase": "完成",
+  "result": {
+    "files": [
+      {
+        "id": "50722708958f185d85f50abd512cd69c",
+        "name": "front-final-native-audit.json",
+        "mime": "application/json",
+        "size": 27492,
+        "sha256": "569ab79852631ae9b33353cf5cbf4b16dc4d8b908af9f4532a667436868f6b7d",
+        "created": 1790785277.7672102,
+        "origin": "generated",
+        "producer_task_id": "3269933a-a72f-4a8f-a8cc-9f1d172359b9",
+        "producer_backend": "blender",
+        "origin_basis": "registration",
+        "url": "/v1/files/50722708958f185d85f50abd512cd69c/content",
+        "relative_path": "front-final-native-audit.json"
+      }
+    ],
+    "exit_code": 0,
+    "reason": null,
+    "version": "4.5.13",
+    "build_hash": "daeeeca98fb0",
+    "device": "cpu",
+    "measurements": {
+      "execution_ms": 9610.498,
+      "launch_ms": 53.932,
+      "peak_rss_bytes": 1990144000,
+      "peak_commit_bytes": 2098159616,
+      "cpu_seconds": 22.4844,
+      "stdout_bytes": 513,
+      "stderr_bytes": 0,
+      "prepare_ms": 140.535,
+      "input_bytes": 260969038,
+      "archive_ms": 15.047,
+      "vram_budget_mb": 1024,
+      "gpu_peak_bytes": null,
+      "gpu_measurement_basis": "not_available_per_process",
+      "ram_limit_mb": 4096
+    },
+    "logs": {
+      "stdout": "/v1/tasks/3269933a-a72f-4a8f-a8cc-9f1d172359b9/logs/stdout",
+      "stderr": "/v1/tasks/3269933a-a72f-4a8f-a8cc-9f1d172359b9/logs/stderr"
+    },
+    "usage": {
+      "execution_ms": 9610.498,
+      "model": "blender:4.5.13",
+      "input_tokens": null,
+      "output_tokens": null,
+      "measurements": {
+        "execution_ms": 9610.498,
+        "launch_ms": 53.932,
+        "peak_rss_bytes": 1990144000,
+        "peak_commit_bytes": 2098159616,
+        "cpu_seconds": 22.4844,
+        "stdout_bytes": 513,
+        "stderr_bytes": 0,
+        "prepare_ms": 140.535,
+        "input_bytes": 260969038,
+        "archive_ms": 15.047,
+        "vram_budget_mb": 1024,
+        "gpu_peak_bytes": null,
+        "gpu_measurement_basis": "not_available_per_process",
+        "ram_limit_mb": 4096
+      }
+    }
+  },
+  "error": null,
+  "cancel_requested": 0,
+  "scheduling": "normal",
+  "dispatch_id": null,
+  "held": 0,
+  "attempt_id": "b886dcde-c2c0-47d3-87e7-87e652f37c31",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "next_retry": 0,
+  "last_progress": 1790785276.1487186,
+  "resource_held": 0,
+  "error_code": null,
+  "execution": {
+    "state": "finished",
+    "job_id": "3269933a-a72f-4a8f-a8cc-9f1d172359b9",
+    "attempt_id": "b886dcde-c2c0-47d3-87e7-87e652f37c31",
+    "runner_pid": 39224,
+    "runner_created": 1790785267.6307201,
+    "heartbeat": 1790785277.550404,
+    "stdout_bytes": 513,
+    "stderr_bytes": 0,
+    "peak_rss_bytes": 1990144000,
+    "cpu_seconds": 22.4844,
+    "exit_code": 0,
+    "pid": 53100,
+    "created": 1790785267.9407787,
+    "started": 1790785267.9934583,
+    "launch_ms": 53.932,
+    "workspace_bytes": 260970529,
+    "peak_commit_bytes": 2098159616,
+    "reason": null,
+    "capture_errors": [],
+    "execution_ms": 9610.498,
+    "finished": 1790785277.550404
+  },
+  "pause": null,
+  "audit": {
+    "task": {
+      "job_id": "3269933a-a72f-4a8f-a8cc-9f1d172359b9",
+      "batch_id": "f99379bc-c6a7-45b2-9afc-eaaf80feb3cb",
+      "created": 1790785267.3205707,
+      "backend": "blender",
+      "device": "cpu",
+      "name": "MAZ543A original and final baked shell topology read-only audit",
+      "app_id": "codex",
+      "project_id": "maz543a",
+      "actor_id": "",
+      "client_ip": "192.168.71.67",
+      "identity_source": "self_reported",
+      "request_id": "b668d023e48f023b4ed166ef",
+      "state": "succeeded",
+      "finished": 1790785277.7692108,
+      "origin": "live",
+      "measurements": {
+        "question_count": 0,
+        "prompt_characters": 0,
+        "input_images": 0,
+        "input_videos": 0,
+        "input_audios": 0,
+        "guide_count": 0,
+        "input_file_ids": [
+          "fdbaf8d6500eb4a8812e7699d3989376",
+          "0f6144dde212cbcada00fe6578f8b45e",
+          "54701e9265ba805803df6b520796f86a",
+          "129cd89b-2ed7-49e5-a7da-03000efcdb22"
+        ],
+        "priority_at_submission": 50,
+        "scheduling": "normal",
+        "version": "4.5.13",
+        "script": "main.py",
+        "device": "cpu",
+        "gpu_policy": "auto",
+        "threads": 4,
+        "ram_mb": 4096,
+        "vram_mb": 1024,
+        "timeout_seconds": 900
+      }
+    },
+    "attempts": [
+      {
+        "id": "b886dcde-c2c0-47d3-87e7-87e652f37c31",
+        "job_id": "3269933a-a72f-4a8f-a8cc-9f1d172359b9",
+        "execution_id": "b886dcde-c2c0-47d3-87e7-87e652f37c31",
+        "started": 1790785267.4432354,
+        "finished": 1790785277.7692108,
+        "outcome": "succeeded",
+        "model": "blender:4.5.13",
+        "generation": null,
+        "input_tokens": null,
+        "output_tokens": null,
+        "state_tokens": null,
+        "token_basis": "unknown",
+        "allocated_ms": 9610.498,
+        "allocation_basis": "single_execution",
+        "estimated_cost": 0.0000026695827777777778,
+        "rate_id": 3,
+        "error": null,
+        "measurements": {
+          "question_count": 0,
+          "prompt_characters": 0,
+          "input_images": 0,
+          "input_videos": 0,
+          "input_audios": 0,
+          "guide_count": 0,
+          "input_file_ids": [
+            "fdbaf8d6500eb4a8812e7699d3989376",
+            "0f6144dde212cbcada00fe6578f8b45e",
+            "54701e9265ba805803df6b520796f86a",
+            "129cd89b-2ed7-49e5-a7da-03000efcdb22"
+          ],
+          "priority_at_submission": 50,
+          "scheduling": "normal",
+          "version": "4.5.13",
+          "script": "main.py",
+          "device": "cpu",
+          "gpu_policy": "auto",
+          "threads": 4,
+          "ram_mb": 4096,
+          "vram_mb": 1024,
+          "timeout_seconds": 900,
+          "output_images": 0,
+          "output_videos": 0,
+          "output_bytes": 27492,
+          "file_ids": [
+            "50722708958f185d85f50abd512cd69c"
+          ],
+          "execution_ms": 9610.498,
+          "launch_ms": 53.932,
+          "peak_rss_bytes": 1990144000,
+          "peak_commit_bytes": 2098159616,
+          "cpu_seconds": 22.4844,
+          "stdout_bytes": 513,
+          "stderr_bytes": 0,
+          "prepare_ms": 140.535,
+          "input_bytes": 260969038,
+          "archive_ms": 15.047,
+          "vram_budget_mb": 1024,
+          "gpu_peak_bytes": null,
+          "gpu_measurement_basis": "not_available_per_process",
+          "ram_limit_mb": 4096
+        },
+        "origin": "live",
+        "batch_work_ms": 9610.498,
+        "time_basis": "backend_execution_wall",
+        "request_count": 1,
+        "batch_input_tokens": null,
+        "forward_passes": null,
+        "currency": "CNY",
+        "gpu_per_hour": 0.01,
+        "cpu_per_hour": 0.001
+      }
+    ],
+    "requests": [
+      {
+        "id": "fb08b4cad973e85bc353b61c",
+        "at": 1790785391.033227,
+        "method": "GET",
+        "path": "/v1/tasks/3269933a-a72f-4a8f-a8cc-9f1d172359b9",
+        "status": 200,
+        "ms": 5.36,
+        "client_ip": "192.168.71.67",
+        "app_id": "codex",
+        "project_id": "maz543a",
+        "actor_id": "",
+        "identity_source": "self_reported",
+        "kind": "query",
+        "received_bytes": 0,
+        "sent_bytes": 6470,
+        "transfer_basis": "asgi_body_bytes",
+        "error": null,
+        "task_ids": [
+          "3269933a-a72f-4a8f-a8cc-9f1d172359b9"
+        ],
+        "origin": "live"
+      },
+      {
+        "id": "b668d023e48f023b4ed166ef",
+        "at": 1790785267.330949,
+        "method": "POST",
+        "path": "/v1/tasks",
+        "status": 202,
+        "ms": 10,
+        "client_ip": "192.168.71.67",
+        "app_id": "codex",
+        "project_id": "maz543a",
+        "actor_id": "",
+        "identity_source": "self_reported",
+        "kind": "submit",
+        "received_bytes": 534,
+        "sent_bytes": 152,
+        "transfer_basis": "asgi_body_bytes",
+        "error": null,
+        "task_ids": [
+          "3269933a-a72f-4a8f-a8cc-9f1d172359b9"
+        ],
+        "origin": "live"
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "id": "b886dcde-c2c0-47d3-87e7-87e652f37c31",
+      "job_id": "3269933a-a72f-4a8f-a8cc-9f1d172359b9",
+      "backend": "blender",
+      "generation": null,
+      "started": 1790785267.4432354,
+      "finished": 1790785277.7731996,
+      "state": "succeeded",
+      "error": null
+    }
+  ]
+}

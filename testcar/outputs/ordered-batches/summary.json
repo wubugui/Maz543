@@ -1,0 +1,160 @@
+{
+  "whole-initial": {
+    "displayInstances": {
+      "instances": 549,
+      "batches": 33,
+      "savedDrawsPerPass": 516,
+      "bufferBytes": 393131760,
+      "orderRejectedInstances": 1357
+    },
+    "geometryCopy": {
+      "geometries": 2558,
+      "components": 80659352,
+      "indices": 18507990,
+      "mismatches": 0,
+      "exactCopy": true
+    },
+    "baseline": {
+      "calls": 9305,
+      "triangles": 21582915,
+      "synchronizedMs": 1753.3999999985099
+    },
+    "optimized": {
+      "calls": 7241,
+      "triangles": 21582915,
+      "synchronizedMs": 2904.599999997765
+    },
+    "differentPixels": 0,
+    "maxChannelDifference": 0,
+    "optimizedReadbackError": 0,
+    "baselineReadbackError": 0
+  },
+  "whole-side-door": {
+    "displayInstances": {
+      "instances": 486,
+      "batches": 30,
+      "savedDrawsPerPass": 456,
+      "bufferBytes": 103764124,
+      "orderRejectedInstances": 0,
+      "unallocatedSplitGroups": 17,
+      "unallocatedSourceOnlyGroups": 11
+    },
+    "geometryCopy": {
+      "geometries": 759,
+      "components": 20693724,
+      "indices": 5807769,
+      "mismatches": 0,
+      "exactCopy": true
+    },
+    "baseline": {
+      "calls": 9306,
+      "triangles": 21582915,
+      "synchronizedMs": 1766.5
+    },
+    "optimized": {
+      "calls": 7482,
+      "triangles": 21582915,
+      "synchronizedMs": 1890.699999999255
+    },
+    "differentPixels": 0,
+    "maxChannelDifference": 0,
+    "optimizedReadbackError": 0,
+    "baselineReadbackError": 0
+  },
+  "whole-source-filter": {
+    "displayInstances": {
+      "instances": 486,
+      "batches": 30,
+      "savedDrawsPerPass": 456,
+      "bufferBytes": 103764124,
+      "orderRejectedInstances": 0,
+      "unallocatedSplitGroups": 17,
+      "unallocatedSourceOnlyGroups": 11
+    },
+    "geometryCopy": {
+      "geometries": 759,
+      "components": 20693724,
+      "indices": 5807769,
+      "mismatches": 0,
+      "exactCopy": true
+    },
+    "baseline": {
+      "calls": 9305,
+      "triangles": 21582915,
+      "synchronizedMs": 1706.9000000022352
+    },
+    "optimized": {
+      "calls": 7481,
+      "triangles": 21582915,
+      "synchronizedMs": 2776.800000000745
+    },
+    "differentPixels": 0,
+    "maxChannelDifference": 0,
+    "optimizedReadbackError": 0,
+    "baselineReadbackError": 0
+  },
+  "whole-split-filter": {
+    "displayInstances": {
+      "instances": 545,
+      "batches": 32,
+      "savedDrawsPerPass": 513,
+      "bufferBytes": 152961648,
+      "orderRejectedInstances": 555,
+      "unallocatedSplitGroups": 17
+    },
+    "geometryCopy": {
+      "geometries": 1822,
+      "components": 30582180,
+      "indices": 8326302,
+      "mismatches": 0,
+      "exactCopy": true
+    },
+    "baseline": {
+      "calls": 9305,
+      "triangles": 21582915,
+      "synchronizedMs": 1953.3999999985099
+    },
+    "optimized": {
+      "calls": 7253,
+      "triangles": 21582915,
+      "synchronizedMs": 2964.5
+    },
+    "differentPixels": 0,
+    "maxChannelDifference": 0,
+    "optimizedReadbackError": 0,
+    "baselineReadbackError": 0
+  },
+  "whole-warm": {
+    "displayInstances": {
+      "instances": 486,
+      "batches": 30,
+      "savedDrawsPerPass": 456,
+      "bufferBytes": 103764124,
+      "orderRejectedInstances": 0,
+      "unallocatedSplitGroups": 17,
+      "unallocatedSourceOnlyGroups": 11
+    },
+    "geometryCopy": {
+      "geometries": 759,
+      "components": 20693724,
+      "indices": 5807769,
+      "mismatches": 0,
+      "exactCopy": true
+    },
+    "baseline": {
+      "calls": 9305,
+      "triangles": 21582915,
+      "synchronizedMs": 1731.9000000022352
+    },
+    "optimized": {
+      "calls": 7481,
+      "triangles": 21582915,
+      "synchronizedMs": 1707
+    },
+    "differentPixels": 0,
+    "maxChannelDifference": 0,
+    "optimizedReadbackError": 0,
+    "baselineReadbackError": 0
+  },
+  "limits": "Each paired capture uses identical pose and original complete scene, candidate before baseline. Initial captures include shader compilation and every synchronized time includes readback. No steady-state FPS claim."
+}

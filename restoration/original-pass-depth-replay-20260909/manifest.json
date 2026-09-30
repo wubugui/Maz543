@@ -1,0 +1,180 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "count": 34,
+  "bytes": 3251486,
+  "files": [
+    {
+      "file": "AGENT_START_HERE.md",
+      "bytes": 31425,
+      "sha256": "66400c804d3af29d97e18a58ffb9ec88f18cf3bc181a2f05ca3ac0de8d6ea966"
+    },
+    {
+      "file": "NEXT_AGENT_PROMPT.md",
+      "bytes": 23827,
+      "sha256": "7c94ada9416188929294c4835e7175c332d10de1514d7869a4a0abd854c1f5ae"
+    },
+    {
+      "file": "docs/ACCEPTANCE.md",
+      "bytes": 36607,
+      "sha256": "20121153522efbe015565229ccb48782ed99a4877a493fb9e87ebecb4ac61dab"
+    },
+    {
+      "file": "docs/CONTINUATION_20260908.md",
+      "bytes": 24671,
+      "sha256": "fd1bf0d0acf5c95eaef82836b81dfa5d23453891c5d76321b285630208edf618"
+    },
+    {
+      "file": "docs/ORIGINAL_PASS_DEPTH_REPLAY_20260909.md",
+      "bytes": 3708,
+      "sha256": "340462f92af27ff323e4aa5f62fb9ab87198f0bc41cbf2c9470ca1c2015e8f06"
+    },
+    {
+      "file": "lib/conservativeRasterBounds.ts",
+      "bytes": 10779,
+      "sha256": "8a50c84fd5c23a46e1a3bee4e28c9d8e28acf00acc3a0633e44801f7bbb0fd18"
+    },
+    {
+      "file": "lib/originalPassDepthReplay.ts",
+      "bytes": 8913,
+      "sha256": "632a7a53c7ab5e1612f1aa336899b651a2c65a5f25a81c0a827c697af8740a49"
+    },
+    {
+      "file": "lib/originalReplayDepthQueries.ts",
+      "bytes": 6911,
+      "sha256": "43f1e4a8d9413b765ecef42f5c2480f3f707b443a7c94474796a7d533b8576f2"
+    },
+    {
+      "file": "lib/staticOccluderScene.ts",
+      "bytes": 6155,
+      "sha256": "3b4db44da60b4fe27c75daed94d555e0c887da2ef221bf2ed04b500b656a3914"
+    },
+    {
+      "file": "lib/vehicleViewport.ts",
+      "bytes": 69089,
+      "sha256": "a39bb29ce598a89759019d90a0938d45cec73de420e681b0e02038071475a083"
+    },
+    {
+      "file": "outputs/context-frame-audit/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/engine-queries-raw.json",
+      "bytes": 733897,
+      "sha256": "d09a18203687de91ed74d413005503ddcb638f69d987d063d25d5728f5d8573e"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/engine-queries.json",
+      "bytes": 9003,
+      "sha256": "54aeffb564fd87b485dfc6a913faa8c4fa79c6cb88c5c034aad212c4ba733124"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/query-tests.json",
+      "bytes": 466,
+      "sha256": "a692307a67589b061c131087ebe2aa0bfad02ed349eaf1e492010c8951014796"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/section-queries.json",
+      "bytes": 3321,
+      "sha256": "2d0302a0ead2f0e87d1bd5453fb28b7e95f83573a951ae29c7bc423dcce21af9"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/side-door-queries-raw.json",
+      "bytes": 733915,
+      "sha256": "a905e7d97304eb535d3b328ad7bb4fe604a35c18b889f23cbcfbbd8d9dd2fbf0"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/side-door-queries.json",
+      "bytes": 9496,
+      "sha256": "df4dd4f873cad41f9be8e14fc3bac2d37a8099bbc9e7880db8967ce4610f991d"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/side-door-state.txt",
+      "bytes": 3049,
+      "sha256": "aacd440532a20ff849a3e62c159e91d7ddcf023ef08fe120a4781813b6232055"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/still-queries-raw.json",
+      "bytes": 732742,
+      "sha256": "fada566947a6183c3339bc8eb9c130f16886de3289fefcb7faae268159dbb31d"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/still-queries.json",
+      "bytes": 8992,
+      "sha256": "705897f1dec0cf1b2666fa77bc6013f492698faa74d5376e94a0200c67d7f099"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/still-query-uninitialized-geometry-raw.json",
+      "bytes": 734296,
+      "sha256": "29b416f067f01faf9fbda5dcfe9865ccbb6ea69d951aa20d6444150910de078f"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/still-query-uninitialized-geometry.json",
+      "bytes": 9204,
+      "sha256": "feaa0d3147f68ef4ba40dff179960669609568b6c5216bbe208d1434c8b28664"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/still.json",
+      "bytes": 2702,
+      "sha256": "2ae6e1c93116403e9cd1bdae02c131aec65bd6fe8b2ab590c898ef9039949443"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/summary.json",
+      "bytes": 22020,
+      "sha256": "565ffbb15411c5893d0e568278e03779a64250591e4e519da8628e363984d38a"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/tests.json",
+      "bytes": 610,
+      "sha256": "b42342c446bdeb969740f5793bc7ad806a285ecc829c3ed5c3cedaaec39b791a"
+    },
+    {
+      "file": "scripts/archive-original-pass-depth-replay.py",
+      "bytes": 2704,
+      "sha256": "76da58b4dcb90b9499554e3159a910e1457c1c58143ca0c01b5a491d4257b323"
+    },
+    {
+      "file": "scripts/summarize-original-depth-replay.py",
+      "bytes": 3099,
+      "sha256": "ec5338061b003161c4e4eee7c7a44bc59617e761cd22faf9c68052c4c9f4f524"
+    },
+    {
+      "file": "scripts/verify-original-pass-depth-replay.mjs",
+      "bytes": 7266,
+      "sha256": "1feeeffd89e478eade74e0f6ff2357ae515d0e6bc4ac722fad0c365c5a79d25c"
+    },
+    {
+      "file": "scripts/verify-original-replay-depth-queries.mjs",
+      "bytes": 5450,
+      "sha256": "57063f1b5d8ceeabe0f49894ef91462b01daa698dc7f77344e06a04d8ad58f69"
+    },
+    {
+      "file": "work/original-pass-depth-replay/build.log",
+      "bytes": 2892,
+      "sha256": "cd9b61aeb93e0d1558bbeaf31864f67d8acc1cf91dae2fc0c4c20b9d808bd4a8"
+    },
+    {
+      "file": "work/original-pass-depth-replay/query-tests.log",
+      "bytes": 477,
+      "sha256": "5331ddb0410cbc65cc86b9fa5e99153e4823ea2860fd9aa8c0d654b3d5db9f97"
+    },
+    {
+      "file": "work/original-pass-depth-replay/replay-tests.log",
+      "bytes": 623,
+      "sha256": "b7b2fb547b206f67adbd200bcbc7f512a9bb4cef5257bf18f7938b7d9ea1e118"
+    },
+    {
+      "file": "work/original-pass-depth-replay/summary.log",
+      "bytes": 87,
+      "sha256": "17ff4d0a41efd450167ebccf4b0742556155c7fd7a7dfcb9d257b84aba89f922"
+    },
+    {
+      "file": "work/original-pass-depth-replay/typecheck.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "verification": "Every copy byte-equal and SHA-256 recorded",
+  "limits": "Finite original-program snapshot and volume query proof only. No actual culling, cross-frame acceptance or stable FPS gain."
+}

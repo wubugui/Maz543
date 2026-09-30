@@ -1,0 +1,130 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "count": 24,
+  "bytes": 279459,
+  "files": [
+    {
+      "file": "AGENT_START_HERE.md",
+      "bytes": 27936,
+      "sha256": "ef5194b2bf30eefb99a301d1d2c5703ee811f1cab6e71941b7fc7a0983b834ab"
+    },
+    {
+      "file": "NEXT_AGENT_PROMPT.md",
+      "bytes": 20338,
+      "sha256": "a0df0ce43e7da7408d1d9c706ec0ff8098a9ac64163abe248dc5a77cfa21c614"
+    },
+    {
+      "file": "docs/ACCEPTANCE.md",
+      "bytes": 33148,
+      "sha256": "d1d5ef47408aec1e3b1e813dfb4122011b2b5c2e334ee2f76504e80a1b19f1a1"
+    },
+    {
+      "file": "docs/CONTINUATION_20260908.md",
+      "bytes": 21212,
+      "sha256": "6dcc438d54e52969af4ed18ce53aaa8e6438361365394e02eaa0f68eb6a96a29"
+    },
+    {
+      "file": "docs/NATIVE_RESOURCE_RETENTION_20260909.md",
+      "bytes": 3759,
+      "sha256": "0ae0f34c6ffeb9b36c56b36a677cc5746ca6d952b62ae4f4c800b6b0ff913ffe"
+    },
+    {
+      "file": "lib/renderResources.ts",
+      "bytes": 4804,
+      "sha256": "db7daee24035a8976e8defd879caf0d17382776f07a237c19acea9787f335cd5"
+    },
+    {
+      "file": "lib/vehicleViewport.ts",
+      "bytes": 62685,
+      "sha256": "3a48a88b59fdd74ad16941ad75f1530740c1266ee4faf44b2801e70464618b98"
+    },
+    {
+      "file": "outputs/context-frame-audit/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "file": "outputs/native-resource-retention/after-census.json",
+      "bytes": 2998,
+      "sha256": "b67ca823fb1a74f59e15bacc864c52049a735e4df39b26f2b825f43d404abe6c"
+    },
+    {
+      "file": "outputs/native-resource-retention/before-census.json",
+      "bytes": 2295,
+      "sha256": "ca5dd800b52923c34aa0ab4981d1c689a338e0d351cef72c621e8048f3caf166"
+    },
+    {
+      "file": "outputs/native-resource-retention/final-normal-ax.txt",
+      "bytes": 7329,
+      "sha256": "c18a3d946a7d795b1912d1a17ad52d2bc83dc0e8a0a13bbc94666bcc4da17162"
+    },
+    {
+      "file": "outputs/native-resource-retention/final-normal.png",
+      "bytes": 70533,
+      "sha256": "dee88069474d8396630f6cc1274caf3a787bd5979ebb420cc5f4b9f62adf301d"
+    },
+    {
+      "file": "outputs/native-resource-retention/full-frame-comparison.json",
+      "bytes": 588,
+      "sha256": "0f0ca1033cc707157ef3c35aaa1364d7499a92eaa191d8c5d34f7e5ae50bccfd"
+    },
+    {
+      "file": "outputs/native-resource-retention/full-side-frame.json",
+      "bytes": 1675,
+      "sha256": "4ab57b1c8ed26a75e69437e116cf2bf8caa897fc98a80bcf4af6e2c874d4329d"
+    },
+    {
+      "file": "outputs/native-resource-retention/glb-storage.json",
+      "bytes": 2121,
+      "sha256": "4f916a0a4b578898a31ac2361ce1cf4289b525ba6d7d7fd3951bf21e0cea5fe7"
+    },
+    {
+      "file": "outputs/native-resource-retention/tests.json",
+      "bytes": 2271,
+      "sha256": "32e937fa36c65924dc4bf2a979fea1efeadd88ed17b63d6da788b328c2440899"
+    },
+    {
+      "file": "outputs/native-resource-retention/verified-stage.json",
+      "bytes": 891,
+      "sha256": "af16c48be72f935dceed7af77729d69ed6ff25f90c30ce359aec02f3a6d72dd9"
+    },
+    {
+      "file": "scripts/archive-native-resource-retention.py",
+      "bytes": 2652,
+      "sha256": "ccc097135ed9a05239a80e059cfafb183b1788d96cd099331d227f0d601675b1"
+    },
+    {
+      "file": "scripts/verify-native-resource-retention.mjs",
+      "bytes": 4033,
+      "sha256": "aa61583184cd82e0eccde2592be0346287d233bf8340659d106a211cbe6e48da"
+    },
+    {
+      "file": "scripts/verify-native-resource-stage.py",
+      "bytes": 1588,
+      "sha256": "e04528badfa64c61aa7bcd5e5b1c8894fa424bd9de05f0ffa8c228a7f06297ea"
+    },
+    {
+      "file": "work/native-resource-retention/build.log",
+      "bytes": 2552,
+      "sha256": "d0ac21792937395d4dc518f82355dbe06640da70c8fad05f554f8299acfe2e7b"
+    },
+    {
+      "file": "work/native-resource-retention/stage-verification.log",
+      "bytes": 893,
+      "sha256": "68b2d1de5c91dae992d76ca6e548a4d9c03062f72c49139549221a2c308ffbb6"
+    },
+    {
+      "file": "work/native-resource-retention/tests.log",
+      "bytes": 68,
+      "sha256": "0b6f7e6a0b36cea2713dc4fa94a7e8f883c5e460d5287de083c26393cb1cd911"
+    },
+    {
+      "file": "work/native-resource-retention/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "verification": "Every copy byte-equal and SHA-256 recorded",
+  "limits": "Removed 1.42 MB of unreferenced geometry holdings; one full side frame remains pixel identical. Main multi-GB memory attribution, dynamic FPS and complete mechanical product goal remain unfinished."
+}

@@ -1,0 +1,41 @@
+{
+  "audit": {
+    "baseline": {
+      "calls": 9305,
+      "synchronizedMs": 1246.2000000029802,
+      "triangles": 21582915
+    },
+    "baselineReadbackError": 0,
+    "differentPixels": 0,
+    "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "height": 773,
+    "identicalPixels": true,
+    "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose.",
+    "maxChannelDifference": 0,
+    "normalOcclusion": {
+      "certificates": 2314,
+      "controlsFailed": false,
+      "error": "",
+      "excludedChanged": 0,
+      "kind": "static-normal-occlusion-cache",
+      "limits": "DEV-only normal-material camera pass. Original main/transmission/shadow draws and full mechanics retained. Query regions are conservative; leaving a certified region restores original drawing. Not full product performance acceptance.",
+      "occluders": 1649,
+      "pendingBatches": 1,
+      "prepareMs": 31.200000002980232,
+      "queried": 28,
+      "rebuilt": false,
+      "savedTriangles": 2969794,
+      "skipped": 1734
+    },
+    "optimized": {
+      "calls": 7601,
+      "synchronizedMs": 1229.4000000059605,
+      "triangles": 18613181
+    },
+    "optimizedReadbackError": 0,
+    "order": "optimized-then-baseline",
+    "rmsChannelDifference": 0,
+    "width": 1212
+  },
+  "text": "11 vs_5_0 ps_5_0, D3D11)\",\n  \"normalOcclusion\": {\n    \"kind\": \"static-normal-occlusion-cache\",\n    \"rebuilt\": false,\n    \"occluders\": 1649,\n    \"excludedChanged\": 0,\n    \"queried\": 28,\n    \"pendingBatches\": 1,\n    \"certificates\": 2314,\n    \"skipped\": 1734,\n    \"savedTriangles\": 2969794,\n    \"controlsFailed\": false,\n    \"prepareMs\": 31.200000002980232,\n    \"error\": \"\",\n    \"limits\": \"DEV-only normal-material camera pass. Original main/transmission/shadow draws and full mechanics retained. Query regions are conservative; leaving a certified region restores original drawing. Not full product performance acceptance.\"\n  },\n  \"width\": 1212,\n  \"height\": 773,\n  \"order\": \"optimized-then-baseline\",\n  \"baseline\": {\n    \"calls\": 9305,\n    \"triangles\": 21582915,\n    \"synchronizedMs\": 1246.2000000029802\n  },\n  \"optimized\": {\n    \"calls\": 7601,\n    \"triangles\": 18613181,\n    \"synchronizedMs\": 1229.4000000059605\n  },\n  \"optimizedReadbackError\": 0,\n  \"baselineReadbackError\": 0,\n  \"differentPixels\": 0,\n  \"maxChannelDifference\": 0,\n  \"rmsChannelDifference\": 0,\n  \"identicalPixels\": true,\n  \"limits\": \"Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose.\"\n}\n比较当前帧法线遮挡\nMINSK AUTOMOBILE PLANT\n8×8\nMAZ–543A\n\n双驾驶室 · 四轴全轮驱动底盘\n\n外观\n透视\n纵剖\n车门开闭\n发动机内构\n变速机构\n电启动机构\n冷却系统\n转向联动\n悬架机构\n前\n侧\n顶\n拖动旋转 · 滚轮缩放 · 点击部件\n2 m\n驱动形式\n8 × 8\n参考轴距\n7,700 mm\n发动机\nV12 / 60°\n参考功率\n525 hp\n机械控制\n组件结构\n驾驶室操作\n四门独立\n右舱前门\n打开\n0°\n右舱后门\n打开\n0°\n左舱前门\n打开\n0°\n左舱后门\n打开\n0°\n动力系统\n自行运转\n548\nRPM\n0\n1,000\n2,000\n引导启动\n原车分步操作\n断油停机\nSTOP\n油压\n8.07 kgf/cm²\n母线电压\n25.2 V\n启动电流\n0 A\n按住启动\n0.0 / 5 s\n\n暖机且油路已充油的试验初始条件。启动前油压 ≥2.5；单次 ≤5 秒，重试间隔 25–30 秒。引导模式代为操作；手动模式保留独立按钮。电机曲线、油路参数与燃烧扭矩尚待标定。\n\n油门\n0%\n变速箱\n空挡\nR\nN\n1\n2\n3\n分动箱\n直接挡 · 1.00\n高挡\n低挡\n检查传动转速\n制动\n0%\n动力及启动机构慢动作 ×0.035\n演示车速\n0.0km/h\n转向与悬架\n02\n双前轴转向\n0°\n悬架台架激励\n0%\n模型固定在观察台上；车轮转动与地面滚动表示行驶。\n拆解与观察\n03\n总成分离\n0%\n驾驶室开门\n0%\n车灯\n部件标签\n网格线框\n机构演示\n01\nV12 曲柄连杆\n02\n双前轴转向\n03\n八轮独立悬架\n8,868 个几何实例\n精度说明\nMAZ–543A / 双驾驶室参考底盘\n运动学演示 · 部分内构简化\n0.8 FPS\n模拟时间 145.1 s\n资料与建模边界"
+}

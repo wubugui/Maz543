@@ -1,0 +1,220 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "count": 42,
+  "bytes": 957569,
+  "files": [
+    {
+      "file": "AGENT_START_HERE.md",
+      "bytes": 32860,
+      "sha256": "a9edab804adb299eeefa086b57d0f092f3da248b266d30418aa5d03e96418a7a"
+    },
+    {
+      "file": "NEXT_AGENT_PROMPT.md",
+      "bytes": 25262,
+      "sha256": "592cbeeafafb65f0560c241508ab3a18e82803039a90fb89c2172192cf1672e9"
+    },
+    {
+      "file": "docs/ACCEPTANCE.md",
+      "bytes": 38032,
+      "sha256": "d047ca630ac8197eb48acafd1e7534b5e0c1eef3ac03b05d21d9672203182277"
+    },
+    {
+      "file": "docs/CONTINUATION_20260908.md",
+      "bytes": 26096,
+      "sha256": "4fffd04ac3aff63662273ce8cbb076b471bdf48af157716b643da4cfa96b40a0"
+    },
+    {
+      "file": "docs/TRIANGLE_RANGE_OCCLUSION_20260909.md",
+      "bytes": 5252,
+      "sha256": "35a90a438b86479bd9febae43f7ecef4128a07786ccf7023773293780a8bc4fb"
+    },
+    {
+      "file": "lib/conservativeRasterBounds.ts",
+      "bytes": 10779,
+      "sha256": "8a50c84fd5c23a46e1a3bee4e28c9d8e28acf00acc3a0633e44801f7bbb0fd18"
+    },
+    {
+      "file": "lib/normalOcclusionCache.ts",
+      "bytes": 14386,
+      "sha256": "cb19f574a34144dd3b62a4b5af903d8a7cc4683e7f614a5d7e7fb974defa8816"
+    },
+    {
+      "file": "lib/originalPassDepthReplay.ts",
+      "bytes": 9287,
+      "sha256": "3e88abb116d1e500006c8b3911cd8a75da8f3a6cec14f8d8369e03fce8c6ef52"
+    },
+    {
+      "file": "lib/originalProgramOcclusionCache.ts",
+      "bytes": 18019,
+      "sha256": "6ead2c29a5f6c3b7d41da052fdf5b6c22f07dcec90a72181c1c5c6cc97bd1054"
+    },
+    {
+      "file": "lib/originalReplayDepthQueries.ts",
+      "bytes": 8164,
+      "sha256": "6edf784ecb3c0302c07ad6d6823bf5f3c74ce5f5c2afafad7c64d7486da2d890"
+    },
+    {
+      "file": "lib/staticOccluderScene.ts",
+      "bytes": 6155,
+      "sha256": "3b4db44da60b4fe27c75daed94d555e0c887da2ef221bf2ed04b500b656a3914"
+    },
+    {
+      "file": "lib/triangleRangeProxies.ts",
+      "bytes": 6049,
+      "sha256": "ddd2bb794f885b3132186d937225a523081e2e2abbde0991f47197f8378566cc"
+    },
+    {
+      "file": "lib/vehicleViewport.ts",
+      "bytes": 70669,
+      "sha256": "6b6fb45bbc831e7db833dd4a4b4f1ee3f0bc08854e9ab214565bbd30db75dc47"
+    },
+    {
+      "file": "outputs/context-frame-audit/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "file": "outputs/original-pass-depth-replay/query-tests.json",
+      "bytes": 466,
+      "sha256": "a692307a67589b061c131087ebe2aa0bfad02ed349eaf1e492010c8951014796"
+    },
+    {
+      "file": "outputs/original-program-occlusion-cache/tests.json",
+      "bytes": 869,
+      "sha256": "26eccf1ff0b1ba6f696a039956401abfd0421dd61b6bffb4b0245529c7e8a180"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/engine-range-profile.json",
+      "bytes": 233008,
+      "sha256": "16700866b9d5003a294cbe80cf87add9a6ad99ab5666a305e40d19abf655bdb0"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/engine-whole-profile.json",
+      "bytes": 232660,
+      "sha256": "9b5ccb091ee056079eb5c02b46ee5a43f2f059633f0bdb401ebb732c0232c274"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/engine.json",
+      "bytes": 16786,
+      "sha256": "322e63d3c92e8ec1702ad7de7da7834f8a17331b10c796377c3ca12e9293319c"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/range-tests.json",
+      "bytes": 599,
+      "sha256": "f057dde2c12722966e3b82c8eea69480c3c834a1da059b2db2f763d31cc7d2e7"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/restored-preview-state.txt",
+      "bytes": 7297,
+      "sha256": "9d829345a74e30a56579c66a7f7bbf1bbab246f215f55316fde7360c5af3659f"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/restored-preview.png",
+      "bytes": 83330,
+      "sha256": "d5377336422a0c8c298c1a5470d7a0e5300f2326110126e288fcac1c7252f8b3"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/section.json",
+      "bytes": 1502,
+      "sha256": "c68149be584ad6c9845ec6731783b728a12da709bcf0ae61416742fa36a1a038"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/side-door-state.txt",
+      "bytes": 10766,
+      "sha256": "fdee8b9daa2cc5823ba1fb2d41ab4db4c3d063185023d1c05f58d3c387e3257e"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/side-door.json",
+      "bytes": 17392,
+      "sha256": "a8d77e374aa83c554b240b373dbb5f9b8bbe7461fce6236974d43aef523a858e"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/still-initial.json",
+      "bytes": 16753,
+      "sha256": "4321bbab43c7453cfc0312e936cbd8a3ad1116ca853f23e2fcefb0203641be00"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/still.json",
+      "bytes": 16754,
+      "sha256": "0ef1aa08a337b43f768e6a401fe0b862e4817d7a5ff8e85ab19862154bc86375"
+    },
+    {
+      "file": "outputs/triangle-range-occlusion/summary.json",
+      "bytes": 3519,
+      "sha256": "8af9e2a3611059e9c45c6870c4c1e5a56ff1759a7872c5c44f962aa5aa9572ad"
+    },
+    {
+      "file": "scripts/archive-triangle-range-occlusion.py",
+      "bytes": 3331,
+      "sha256": "ee5f25cd749a1914cf028c73c2fe9f0d5dbd5fb25d4d171d981146636d0ab1f4"
+    },
+    {
+      "file": "scripts/summarize-triangle-range-occlusion.py",
+      "bytes": 3526,
+      "sha256": "7bed773704908f03b303cb18f74e4b8269d49b47462bc82cdc0cca52c60d5f84"
+    },
+    {
+      "file": "scripts/verify-original-program-occlusion-cache.mjs",
+      "bytes": 10584,
+      "sha256": "b61d74e19b4b8c5ddd5708d7ffd6362533ba828136b965cbda51b353cda0f4c6"
+    },
+    {
+      "file": "scripts/verify-original-replay-depth-queries.mjs",
+      "bytes": 6566,
+      "sha256": "d5df068efbd2be8cacad0d875483cfc05fb638b717e5ad0b6c460519af337fac"
+    },
+    {
+      "file": "scripts/verify-triangle-range-proxies.mjs",
+      "bytes": 6598,
+      "sha256": "f0981b5f82b2ad3585bc42f19814982b4cf470fbf966a79731c0efa6b1efd719"
+    },
+    {
+      "file": "work/triangle-range-occlusion/build.log",
+      "bytes": 3179,
+      "sha256": "e05dd2c604619d7dd233cf099d884ef3f87b813e4a26933b659b5ea9956d456d"
+    },
+    {
+      "file": "work/triangle-range-occlusion/cache-tests.log",
+      "bytes": 888,
+      "sha256": "75babaa9f661aad62d91e3e10b413be7625466a6171db902783744673f3cc3f7"
+    },
+    {
+      "file": "work/triangle-range-occlusion/integrity.log",
+      "bytes": 74,
+      "sha256": "11932fc03938f487caa7b8bb703092740d1a64da0f1d6d44a20acf6072fda199"
+    },
+    {
+      "file": "work/triangle-range-occlusion/next-production-worker-availability.json",
+      "bytes": 517,
+      "sha256": "33d3bb6b08d591701adcf62fba3fcb9a420e680f2f801d55f12976dc3b49c9e4"
+    },
+    {
+      "file": "work/triangle-range-occlusion/next-worker-acceptance.md",
+      "bytes": 1892,
+      "sha256": "f71641d3d07212a1546a1ed1ee5c5688c0ff92f20f770f7d44687c9c64ff8454"
+    },
+    {
+      "file": "work/triangle-range-occlusion/query-tests.log",
+      "bytes": 477,
+      "sha256": "5331ddb0410cbc65cc86b9fa5e99153e4823ea2860fd9aa8c0d654b3d5db9f97"
+    },
+    {
+      "file": "work/triangle-range-occlusion/range-tests.log",
+      "bytes": 615,
+      "sha256": "60bd237ee740f14ae0fe2ac0f2fc9b2028e999f51f35eda35f971397ea21f6ea"
+    },
+    {
+      "file": "work/triangle-range-occlusion/summary.log",
+      "bytes": 3521,
+      "sha256": "cc6730e7a271f18a25ef5411ae5fba9ada580509db0c0e5ea5af64147c9fe641"
+    },
+    {
+      "file": "work/triangle-range-occlusion/typecheck.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "verification": "Every copy byte-equal and SHA-256 recorded",
+  "limits": "DEV original triangle-range submission reuse. Finite pixel and timing evidence; usable preview, default enable and full mechanical/product acceptance remain open."
+}

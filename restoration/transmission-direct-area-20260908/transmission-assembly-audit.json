@@ -1,0 +1,658 @@
+{
+  "clutches": [
+    {
+      "frame": 0,
+      "pack": "first",
+      "discCount": 15,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 0,
+      "pack": "second",
+      "discCount": 11,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 5.100011825561523
+    },
+    {
+      "frame": 0,
+      "pack": "direct",
+      "discCount": 9,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 4.49998676776886
+    },
+    {
+      "frame": 0,
+      "pack": "reverse",
+      "discCount": 15,
+      "pistonToDiscMM": 2.0999908447265625,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 120,
+      "pack": "first",
+      "discCount": 15,
+      "pistonToDiscMM": 0.0,
+      "minInterDiscMM": -1.4901161193847656e-05,
+      "maxInterDiscMM": 1.4901161193847656e-05,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 0.0
+    },
+    {
+      "frame": 120,
+      "pack": "second",
+      "discCount": 11,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 5.100011825561523
+    },
+    {
+      "frame": 120,
+      "pack": "direct",
+      "discCount": 9,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 4.49998676776886
+    },
+    {
+      "frame": 120,
+      "pack": "reverse",
+      "discCount": 15,
+      "pistonToDiscMM": 2.0999908447265625,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 240,
+      "pack": "first",
+      "discCount": 15,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 240,
+      "pack": "second",
+      "discCount": 11,
+      "pistonToDiscMM": 1.4901161193847656e-05,
+      "minInterDiscMM": -1.4901161193847656e-05,
+      "maxInterDiscMM": 1.4901161193847656e-05,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 1.4901161193847656e-05
+    },
+    {
+      "frame": 240,
+      "pack": "direct",
+      "discCount": 9,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 4.49998676776886
+    },
+    {
+      "frame": 240,
+      "pack": "reverse",
+      "discCount": 15,
+      "pistonToDiscMM": 2.0999908447265625,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 360,
+      "pack": "first",
+      "discCount": 15,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 360,
+      "pack": "second",
+      "discCount": 11,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 5.100011825561523
+    },
+    {
+      "frame": 360,
+      "pack": "direct",
+      "discCount": 9,
+      "pistonToDiscMM": 0.0,
+      "minInterDiscMM": -1.4901161193847656e-05,
+      "maxInterDiscMM": 1.4901161193847656e-05,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": -1.4901161193847656e-05
+    },
+    {
+      "frame": 360,
+      "pack": "reverse",
+      "discCount": 15,
+      "pistonToDiscMM": 2.0999908447265625,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 480,
+      "pack": "first",
+      "discCount": 15,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 480,
+      "pack": "second",
+      "discCount": 11,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 5.100011825561523
+    },
+    {
+      "frame": 480,
+      "pack": "direct",
+      "discCount": 9,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 4.49998676776886
+    },
+    {
+      "frame": 480,
+      "pack": "reverse",
+      "discCount": 15,
+      "pistonToDiscMM": -1.4901161193847656e-05,
+      "minInterDiscMM": -1.4901161193847656e-05,
+      "maxInterDiscMM": 1.4901161193847656e-05,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 0.0
+    }
+  ],
+  "crossingCandidates": [
+    {
+      "frame": 0,
+      "a": "TX_first_booster_outer_bore",
+      "b": "TX_first_piston_seal_29_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 36,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_first_piston_seal_31_fixed",
+      "b": "TX_first_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 18,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_direct_feed_seal_0",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "fixed",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 3552,
+      "overlappingAABBAxialMM": 1.5999972820281982
+    },
+    {
+      "frame": 0,
+      "a": "TX_direct_feed_seal_1",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "fixed",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 3534,
+      "overlappingAABBAxialMM": 1.5999972820281982
+    },
+    {
+      "frame": 0,
+      "a": "TX_reverse_booster_outer_bore",
+      "b": "TX_reverse_piston_seal_outer_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_reverse",
+      "trianglePairs": 408,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_reverse_piston_seal_inner_fixed",
+      "b": "TX_reverse_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_reverse",
+      "trianglePairs": 396,
+      "overlappingAABBAxialMM": 0.9999871253967285
+    },
+    {
+      "frame": 0,
+      "a": "TX_second_booster_outer_bore",
+      "b": "TX_second_piston_seal_outer_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_second",
+      "trianglePairs": 396,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_second_piston_seal_inner_fixed",
+      "b": "TX_second_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_second",
+      "trianglePairs": 392,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_direct_annular_piston",
+      "b": "TX_direct_piston_seal_inner_fixed",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 316,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_direct_piston_seal_outer_moving",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 553,
+      "overlappingAABBAxialMM": 0.9999871253967285
+    },
+    {
+      "frame": 120,
+      "a": "TX_first_booster_outer_bore",
+      "b": "TX_first_piston_seal_29_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 28,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 120,
+      "a": "TX_first_piston_seal_31_fixed",
+      "b": "TX_first_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 18,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 120,
+      "a": "TX_direct_feed_seal_0",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "fixed",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 3564,
+      "overlappingAABBAxialMM": 1.5999972820281982
+    },
+    {
+      "frame": 120,
+      "a": "TX_direct_feed_seal_1",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "fixed",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 3556,
+      "overlappingAABBAxialMM": 1.5999972820281982
+    },
+    {
+      "frame": 120,
+      "a": "TX_reverse_booster_outer_bore",
+      "b": "TX_reverse_piston_seal_outer_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_reverse",
+      "trianglePairs": 408,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 120,
+      "a": "TX_reverse_piston_seal_inner_fixed",
+      "b": "TX_reverse_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_reverse",
+      "trianglePairs": 396,
+      "overlappingAABBAxialMM": 0.9999871253967285
+    },
+    {
+      "frame": 120,
+      "a": "TX_second_booster_outer_bore",
+      "b": "TX_second_piston_seal_outer_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_second",
+      "trianglePairs": 396,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 120,
+      "a": "TX_second_piston_seal_inner_fixed",
+      "b": "TX_second_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_second",
+      "trianglePairs": 392,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 120,
+      "a": "TX_direct_annular_piston",
+      "b": "TX_direct_piston_seal_inner_fixed",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 440,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 120,
+      "a": "TX_direct_piston_seal_outer_moving",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 582,
+      "overlappingAABBAxialMM": 0.9999871253967285
+    },
+    {
+      "frame": 240,
+      "a": "TX_first_booster_outer_bore",
+      "b": "TX_first_piston_seal_29_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 36,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_first_piston_seal_31_fixed",
+      "b": "TX_first_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 18,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_direct_feed_seal_0",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "fixed",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 3934,
+      "overlappingAABBAxialMM": 1.5999972820281982
+    },
+    {
+      "frame": 240,
+      "a": "TX_direct_feed_seal_1",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "fixed",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 3940,
+      "overlappingAABBAxialMM": 1.5999972820281982
+    },
+    {
+      "frame": 240,
+      "a": "TX_reverse_booster_outer_bore",
+      "b": "TX_reverse_piston_seal_outer_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_reverse",
+      "trianglePairs": 408,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_reverse_piston_seal_inner_fixed",
+      "b": "TX_reverse_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_reverse",
+      "trianglePairs": 396,
+      "overlappingAABBAxialMM": 0.9999871253967285
+    },
+    {
+      "frame": 240,
+      "a": "TX_second_booster_outer_bore",
+      "b": "TX_second_piston_seal_outer_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_second",
+      "trianglePairs": 396,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_second_piston_seal_inner_fixed",
+      "b": "TX_second_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_second",
+      "trianglePairs": 392,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_direct_annular_piston",
+      "b": "TX_direct_piston_seal_inner_fixed",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 396,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_direct_piston_seal_outer_moving",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 539,
+      "overlappingAABBAxialMM": 0.9999871253967285
+    },
+    {
+      "frame": 360,
+      "a": "TX_first_booster_outer_bore",
+      "b": "TX_first_piston_seal_29_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 36,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_first_piston_seal_31_fixed",
+      "b": "TX_first_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 18,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_direct_feed_seal_0",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "fixed",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 3552,
+      "overlappingAABBAxialMM": 1.5999972820281982
+    },
+    {
+      "frame": 360,
+      "a": "TX_direct_feed_seal_1",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "fixed",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 3534,
+      "overlappingAABBAxialMM": 1.5999972820281982
+    },
+    {
+      "frame": 360,
+      "a": "TX_reverse_booster_outer_bore",
+      "b": "TX_reverse_piston_seal_outer_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_reverse",
+      "trianglePairs": 408,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_reverse_piston_seal_inner_fixed",
+      "b": "TX_reverse_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_reverse",
+      "trianglePairs": 396,
+      "overlappingAABBAxialMM": 0.9999871253967285
+    },
+    {
+      "frame": 360,
+      "a": "TX_second_booster_outer_bore",
+      "b": "TX_second_piston_seal_outer_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_second",
+      "trianglePairs": 396,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_second_piston_seal_inner_fixed",
+      "b": "TX_second_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_second",
+      "trianglePairs": 392,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_direct_annular_piston",
+      "b": "TX_direct_piston_seal_inner_fixed",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 392,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_direct_piston_seal_outer_moving",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 531,
+      "overlappingAABBAxialMM": 0.9999871253967285
+    },
+    {
+      "frame": 480,
+      "a": "TX_first_booster_outer_bore",
+      "b": "TX_first_piston_seal_29_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 36,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_first_piston_seal_31_fixed",
+      "b": "TX_first_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 18,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_direct_feed_seal_0",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "fixed",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 3536,
+      "overlappingAABBAxialMM": 1.5999972820281982
+    },
+    {
+      "frame": 480,
+      "a": "TX_direct_feed_seal_1",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "fixed",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 3546,
+      "overlappingAABBAxialMM": 1.5999972820281982
+    },
+    {
+      "frame": 480,
+      "a": "TX_reverse_booster_outer_bore",
+      "b": "TX_reverse_piston_seal_outer_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_reverse",
+      "trianglePairs": 392,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_reverse_piston_seal_inner_fixed",
+      "b": "TX_reverse_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_reverse",
+      "trianglePairs": 392,
+      "overlappingAABBAxialMM": 0.9999871253967285
+    },
+    {
+      "frame": 480,
+      "a": "TX_second_booster_outer_bore",
+      "b": "TX_second_piston_seal_outer_moving",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_second",
+      "trianglePairs": 396,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_second_piston_seal_inner_fixed",
+      "b": "TX_second_annular_piston",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_second",
+      "trianglePairs": 392,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_direct_annular_piston",
+      "b": "TX_direct_piston_seal_inner_fixed",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 396,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_direct_piston_seal_outer_moving",
+      "b": "TX_direct_body46_sleeve",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 502,
+      "overlappingAABBAxialMM": 0.9999871253967285
+    }
+  ],
+  "limits": "BVH intersections are candidates only; seals and designed interfaces require interpretation. Axial clutch gaps use evaluated mesh bounds. This is not a complete solid-containment or load audit.",
+  "unexpectedCrossings": []
+}

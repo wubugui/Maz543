@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "threeRevision": "183",
+  "cases": [
+    {
+      "animations": 0,
+      "bytes": 12868,
+      "sha256": "d8a4482cbd4b1b700189a022356ce726cb638763858b23482c440d6ba5245db2",
+      "byteIdentical": true,
+      "validationErrors": 0
+    },
+    {
+      "animations": 1,
+      "bytes": 13176,
+      "sha256": "5413f1e282803d74a3965050f244c8620f4b16ef8b4168bc9bcefb1467358c2b",
+      "byteIdentical": true,
+      "validationErrors": 0
+    }
+  ],
+  "unalignedPayload": true,
+  "utf8Json": true,
+  "authoritativeSourcePreserved": true,
+  "limits": "Byte equality covers shared geometry/materials, transforms, visibility, morphs, animation and material extensions. Browser image encoding and full native vehicle export are verified separately."
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS for declared scope only",
+  "source": "work/rear-box-frame-20260930/baseline.glb",
+  "result": "work/rear-box-frame-20260930/packaged.glb",
+  "preservedMeshNodes": 260,
+  "changedMeshes": [
+    "BL_Merged_body_OD_green_aged_enamel",
+    "BL_Merged_body_Phosphated_steel"
+  ],
+  "newNodes": [
+    "BL_RearRestoration_mount_-1_3.37",
+    "BL_RearRestoration_mount_-1_3.67",
+    "BL_RearRestoration_mount_1_3.37",
+    "BL_RearRestoration_mount_1_3.67",
+    "BL_RearRestoration_Rear_box_-1",
+    "BL_RearRestoration_Rear_box_1",
+    "BL_RearRestoration_Rear_box_latch_-1_4.94",
+    "BL_RearRestoration_Rear_box_latch_-1_5.24",
+    "BL_RearRestoration_Rear_box_latch_1_4.94",
+    "BL_RearRestoration_Rear_box_latch_1_5.24",
+    "BL_RearRestoration_Rear_box_lid_-1",
+    "BL_RearRestoration_Rear_box_lid_1"
+  ],
+  "removedNodes": [],
+  "declaredHingeRebases": {},
+  "changedMaterialNodes": {
+    "frame_0002": "MAZ543A_Frame_dark_enamel",
+    "frame_0003": "MAZ543A_Frame_dark_enamel",
+    "frame_0004": "MAZ543A_Frame_dark_enamel"
+  },
+  "unchangedTransformsAndParents": true,
+  "closedWorldGeometryPreservedForOriginalUnchangedStreams": true,
+  "embeddedTexturesUnchanged": true,
+  "effectiveTriangles": 1491834,
+  "fullVehicleAcceptance": "16 OPEN",
+  "limits": "Changed surfaces require separate native geometry/clearance, browser and photographic verification; this does not certify factory dimensions or FPS."
+}

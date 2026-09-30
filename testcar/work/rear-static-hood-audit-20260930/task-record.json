@@ -1,0 +1,51 @@
+{
+  "idempotency_key": "maz-front-ec892bab-5b8f-40f2-81f0-719d8048c015",
+  "upload": {
+    "upload_id": "b2ef9012-4672-4e23-93d0-bd400171436b",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "b2ef9012-4672-4e23-93d0-bd400171436b",
+    "name": "hub-rear-static-hood-audit.py",
+    "mime": "text/x-python",
+    "size": 6742,
+    "sha256": "0c181672f4a1236f165fe8c98d5f7862cc85affdb3d8860c3245a0cf6d768fff",
+    "created": 1790790293.6945906,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/b2ef9012-4672-4e23-93d0-bd400171436b/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A read-only rear tyre clearance and actual hood equipment audit",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "832bdeb7d19a64db706fc205a7f147c1",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "b2ef9012-4672-4e23-93d0-bd400171436b",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "0654c120-2c88-435a-9733-5267c1b81009",
+    "task_ids": [
+      "0b6e697f-ee60-4415-bad1-49bb203b834e"
+    ],
+    "task_id": "0b6e697f-ee60-4415-bad1-49bb203b834e"
+  }
+}

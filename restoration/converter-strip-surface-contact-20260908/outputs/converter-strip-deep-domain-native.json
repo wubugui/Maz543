@@ -1,0 +1,1345 @@
+{
+  "rows": [
+    {
+      "kind": "rejected-dynamic-candidate",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.06434382348115263,
+      "centreM": [
+        0.06274640874598816,
+        -0.004042924797206105
+      ],
+      "innerRollerGapM": 0.0006265222593813957,
+      "outerRollerGapM": 2.498001805406602e-16,
+      "rootCentrelineRollerGapM": 0.005385628164123326,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.000239427510178161,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": 8.346095342615101e-10,
+      "maxIdealPlanePenetrationM": -1.3877787807814457e-17,
+      "stripProjectionStorageErrorM": 3.734011780331947e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 170.99178409261768,
+      "stressPa": 3054102323.237479
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.06,
+      "centreM": [
+        0.06213798361096646,
+        -0.003732759403345426
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0005660903734310968,
+      "rootCentrelineRollerGapM": 0.005662036414815929,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816177,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -0.0002367691508784464,
+      "maxIdealPlanePenetrationM": -0.00023677022305720885,
+      "stripProjectionStorageErrorM": 3.7088541682273046e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 59.69545517385157,
+      "stressPa": 2668362534.743111
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.065,
+      "centreM": [
+        0.062118543168538494,
+        -0.0040434013674652165
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0006232436419505438,
+      "rootCentrelineRollerGapM": 0.005350972786552435,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.0002394275101781625,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -0.0001777149776244491,
+      "maxIdealPlanePenetrationM": -0.00017771514021866497,
+      "stripProjectionStorageErrorM": 3.644673063352144e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 61.08404116551644,
+      "stressPa": 2717792573.4575753
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.06999999999999999,
+      "centreM": [
+        0.06209754976576665,
+        -0.004353942246761414
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0006819259761418686,
+      "rootCentrelineRollerGapM": 0.005039979427463304,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816183,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -0.00012543140387059892,
+      "maxIdealPlanePenetrationM": -0.00012542796210794627,
+      "stripProjectionStorageErrorM": 3.690205023498816e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 62.469878177664945,
+      "stressPa": 2756770383.422965
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.075,
+      "centreM": [
+        0.06207500392748492,
+        -0.004664374277728211
+      ],
+      "innerRollerGapM": 6.938893903907228e-18,
+      "outerRollerGapM": 0.0007421359089497884,
+      "rootCentrelineRollerGapM": 0.004729070413998003,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816277,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -8.218592120395884e-05,
+      "maxIdealPlanePenetrationM": -8.218410351265582e-05,
+      "stripProjectionStorageErrorM": 3.6861220742423484e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 63.852604801808205,
+      "stressPa": 2785361067.8476033
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.08,
+      "centreM": [
+        0.06205090621733806,
+        -0.004974689699581
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0008038719351291107,
+      "rootCentrelineRollerGapM": 0.004418261232934003,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816229,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -4.7104385006824234e-05,
+      "maxIdealPlanePenetrationM": -4.710441382181629e-05,
+      "stripProjectionStorageErrorM": 3.67467474504668e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 65.22911139372121,
+      "stressPa": 2803461288.8268685
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.08499999999999999,
+      "centreM": [
+        0.06202525723776758,
+        -0.005284880754450397
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.000867132511282398,
+      "rootCentrelineRollerGapM": 0.00410756899145347,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816164,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -1.9588482556287534e-05,
+      "maxIdealPlanePenetrationM": -1.9586970483320698e-05,
+      "stripProjectionStorageErrorM": 3.678857968258953e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 66.59343338583602,
+      "stressPa": 2810815258.443044
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.09,
+      "centreM": [
+        0.06199805762999664,
+        -0.005594939687576187
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0009319160558985407,
+      "rootCentrelineRollerGapM": 0.003797012665714715,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816242,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -1.3003251377180503e-06,
+      "maxIdealPlanePenetrationM": -1.3000269147578347e-06,
+      "stripProjectionStorageErrorM": 3.703805553922912e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 67.93641398805192,
+      "stressPa": 2807024169.871221
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.095,
+      "centreM": [
+        0.06196930807401402,
+        -0.005904858747501192
+      ],
+      "innerRollerGapM": 6.938893903907228e-18,
+      "outerRollerGapM": 0.000998220949392288,
+      "rootCentrelineRollerGapM": 0.003486613396352471,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 22,
+      "maxIntersectingRootArcM": 0.01218751335290287,
+      "outsideFittedSeat": true,
+      "maxActualPlanePenetrationM": 2.9442512039512536e-09,
+      "maxIdealPlanePenetrationM": -9.658940314238862e-15,
+      "stripProjectionStorageErrorM": 3.696494971228148e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": true,
+      "geometryValid": true,
+      "forceN": 81.53158867780493,
+      "stressPa": 2724613153.0762906
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.1,
+      "centreM": [
+        0.061939009288557105,
+        -0.0062146301862650525
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0010660455341447786,
+      "rootCentrelineRollerGapM": 0.0031763948415060115,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 20,
+      "maxIntersectingRootArcM": 0.012187513352902865,
+      "outsideFittedSeat": true,
+      "maxActualPlanePenetrationM": 3.211994281659969e-10,
+      "maxIdealPlanePenetrationM": -5.35682609381638e-15,
+      "stripProjectionStorageErrorM": 3.741158521863852e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": true,
+      "geometryValid": true,
+      "forceN": 79.93989471737493,
+      "stressPa": 2708448409.183676
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.105,
+      "centreM": [
+        0.06190716203109396,
+        -0.006524246259597934
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0011353881145449024,
+      "rootCentrelineRollerGapM": 0.0028663836007795564,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816188,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -5.521176916711834e-06,
+      "maxIdealPlanePenetrationM": -5.523304506510618e-06,
+      "stripProjectionStorageErrorM": 3.7231279309546395e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 71.68408271863615,
+      "stressPa": 2722741790.4170094
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.11,
+      "centreM": [
+        0.06187376709780438,
+        -0.006833699227114132
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0012062469570317744,
+      "rootCentrelineRollerGapM": 0.002556609727201991,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816201,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -2.8852497782158593e-05,
+      "maxIdealPlanePenetrationM": -2.885323655855976e-05,
+      "stripProjectionStorageErrorM": 3.6861125402021244e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 72.7606479443682,
+      "stressPa": 2667669836.243918
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.11499999999999999,
+      "centreM": [
+        0.061838825323559936,
+        -0.007142981352505572
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.001278620290138019,
+      "rootCentrelineRollerGapM": 0.0022471073490698927,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816245,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -6.482733817804454e-05,
+      "maxIdealPlanePenetrationM": -6.482644048887154e-05,
+      "stripProjectionStorageErrorM": 3.7148251974539193e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 73.69214826147272,
+      "stressPa": 2597461879.5525246
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.12,
+      "centreM": [
+        0.06180233758190318,
+        -0.00745208490373523
+      ],
+      "innerRollerGapM": 6.938893903907228e-18,
+      "outerRollerGapM": 0.0013525063045340749,
+      "rootCentrelineRollerGapM": 0.001937915429944894,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816134,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -0.00011484321436064371,
+      "maxIdealPlanePenetrationM": -0.000114845446042941,
+      "stripProjectionStorageErrorM": 3.718399060881339e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 74.4271702109828,
+      "stressPa": 2510976682.710149
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.125,
+      "centreM": [
+        0.06176430478502573,
+        -0.0077610021532304235
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.001427903153073444,
+      "rootCentrelineRollerGapM": 0.0016290787036157776,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.0002394275101781615,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -0.00017979773297692458,
+      "maxIdealPlanePenetrationM": -0.00017979583738048088,
+      "stripProjectionStorageErrorM": 3.697714620609638e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 74.89927004426663,
+      "stressPa": 2407021286.9140763
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.13,
+      "centreM": [
+        0.061724727883745556,
+        -0.008069725378076004
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0015048089508388138,
+      "rootCentrelineRollerGapM": 0.0013206488323545904,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816215,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -0.00026015057905305616,
+      "maxIdealPlanePenetrationM": -0.0002601541812704833,
+      "stripProjectionStorageErrorM": 3.6494227362293685e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 75.02293081951483,
+      "stressPa": 2284424577.5361648
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.135,
+      "centreM": [
+        0.06168360786748311,
+        -0.008378246860207432
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0015832217751892835,
+      "rootCentrelineRollerGapM": 0.0010126858524790302,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.0002394275101781625,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -0.00035932916432522555,
+      "maxIdealPlanePenetrationM": -0.0003593275629932696,
+      "stripProjectionStorageErrorM": 3.7048798751104783e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 74.68877788268156,
+      "stressPa": 2142159343.8543048
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.14,
+      "centreM": [
+        0.06164094576423666,
+        -0.008686558886603721
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0016631396658082914,
+      "rootCentrelineRollerGapM": 0.0007052599927956649,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.0002394275101781615,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -0.00047582716465456587,
+      "maxIdealPlanePenetrationM": -0.0004758280243390006,
+      "stripProjectionStorageErrorM": 3.70218702916425e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 73.75838741072592,
+      "stressPa": 1979534997.851067
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.14500000000000002,
+      "centreM": [
+        0.06159674264055657,
+        -0.00899465374948027
+      ],
+      "innerRollerGapM": -6.938893903907228e-18,
+      "outerRollerGapM": 0.0017445606247527556,
+      "rootCentrelineRollerGapM": 0.0003984539814504669,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.0002394275101781613,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -0.0006121001223134692,
+      "maxIdealPlanePenetrationM": -0.0006121008035066822,
+      "stripProjectionStorageErrorM": 3.6918409301867072e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 72.05964199227495,
+      "stressPa": 1796485366.9495568
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.15,
+      "centreM": [
+        0.06155099960151863,
+        -0.009302523746481552
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0018274826165029373,
+      "rootCentrelineRollerGapM": 9.236599877002726e-05,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816277,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -0.0007679985854416871,
+      "maxIdealPlanePenetrationM": -0.0007679989531989423,
+      "stripProjectionStorageErrorM": 3.7092618698775226e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 69.3847162094585,
+      "stressPa": 1593967470.3717012
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.155,
+      "centreM": [
+        0.06150371779069643,
+        -0.009610161180873678
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.0019119035680133512,
+      "rootCentrelineRollerGapM": -0.00021288650659998486,
+      "tipModelValid": false,
+      "failure": "Fixed root centreline is inside the roller; this fitted seating cannot occupy the candidate geometry"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.0,
+      "betaRad": -0.16,
+      "centreM": [
+        0.061454898390132774,
+        -0.009917558361736812
+      ],
+      "innerRollerGapM": 0.0,
+      "outerRollerGapM": 0.001997821368764627,
+      "rootCentrelineRollerGapM": -0.0005171618351412326,
+      "tipModelValid": false,
+      "failure": "Fixed root centreline is inside the roller; this fitted seating cannot occupy the candidate geometry"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.06,
+      "centreM": [
+        0.062425273446454425,
+        -0.0037500175081725353
+      ],
+      "innerRollerGapM": 0.00028780773401165805,
+      "outerRollerGapM": 0.0002830451867155484,
+      "rootCentrelineRollerGapM": 0.005656412160630283,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816258,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -0.00010903604605667916,
+      "maxIdealPlanePenetrationM": -0.00010903949992541184,
+      "stripProjectionStorageErrorM": 3.707869108970918e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 63.09688253621534,
+      "stressPa": 2829005410.4900446
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.065,
+      "centreM": [
+        0.06243503469611563,
+        -0.004064002337966481
+      ],
+      "innerRollerGapM": 0.0003171612949489644,
+      "outerRollerGapM": 0.0003116218209752719,
+      "rootCentrelineRollerGapM": 0.005343402905820024,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.0002394275101781623,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -3.4080603818695265e-05,
+      "maxIdealPlanePenetrationM": -3.408138861417387e-05,
+      "stripProjectionStorageErrorM": 3.6686625543014273e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 64.9168840623097,
+      "stressPa": 2896805378.318964
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.06999999999999999,
+      "centreM": [
+        0.06244405639682484,
+        -0.004378237405997775
+      ],
+      "innerRollerGapM": 0.0003473573090199966,
+      "outerRollerGapM": 0.0003409629880709239,
+      "rootCentrelineRollerGapM": 0.0050301642437492345,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 22,
+      "maxIntersectingRootArcM": 0.012187513352902869,
+      "outsideFittedSeat": true,
+      "maxActualPlanePenetrationM": -4.566041988951497e-12,
+      "maxIdealPlanePenetrationM": 1.3877787807814457e-17,
+      "stripProjectionStorageErrorM": 3.732412712231792e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": true,
+      "geometryValid": true,
+      "forceN": 117.94307877877758,
+      "stressPa": 2787488842.182389
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.075,
+      "centreM": [
+        0.062452339894855394,
+        -0.004692727657815316
+      ],
+      "innerRollerGapM": 0.00037839971780351256,
+      "outerRollerGapM": 0.00037106795447489765,
+      "rootCentrelineRollerGapM": 0.004716691345724182,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816174,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -1.2595334081266785e-09,
+      "maxIdealPlanePenetrationM": 0.0,
+      "stripProjectionStorageErrorM": 3.7155975241009997e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 204.74075855800012,
+      "stressPa": 2985148132.56437
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.08,
+      "centreM": [
+        0.06245988656392134,
+        -0.005007478105770472
+      ],
+      "innerRollerGapM": 0.00041029258276481517,
+      "outerRollerGapM": 0.00040193596756455535,
+      "rootCentrelineRollerGapM": 0.004402979494419118,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06245988656392134, -0.005007478105770472], [73], 7.015783253950438e-05, [-5.308572004750949e-09, -9.552158208867359e-06], [276.6610649735583, 417.90786844262936])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.08499999999999999,
+      "centreM": [
+        0.06246669780542511,
+        -0.005322493831189503
+      ],
+      "innerRollerGapM": 0.00044304008657861105,
+      "outerRollerGapM": 0.000433566255641199,
+      "rootCentrelineRollerGapM": 0.004089024108067517,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06246669780542511, -0.005322493831189503], [73], 0.00012129245326336359, [-2.2915975905957913e-08, -3.19223532268028e-05], [324.97347195556375, 516.8365358896099])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.09,
+      "centreM": [
+        0.06247277504870871,
+        -0.0056377799865769546
+      ],
+      "innerRollerGapM": 0.0004766465344960835,
+      "outerRollerGapM": 0.0004659580279492703,
+      "rootCentrelineRollerGapM": 0.0037748207696240398,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06247277504870871, -0.0056377799865769546], [74], 0.00018004224996591073, [-3.3112149856246624e-08, -6.171730371459517e-05], [368.0352676829577, 573.2848058191476])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.095,
+      "centreM": [
+        0.062478119751308264,
+        -0.005953341797851105
+      ],
+      "innerRollerGapM": 0.0005111163557569021,
+      "outerRollerGapM": 0.0004991104746961406,
+      "rootCentrelineRollerGapM": 0.003460365262047193,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.062478119751308264, -0.005953341797851105], [74], 0.00011242125345586066, [9.347476728844488e-08, -9.914167462616935e-06], [527.9038710095608, 836.3943107144277])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.1,
+      "centreM": [
+        0.06248273339921209,
+        -0.006269184566612574
+      ],
+      "innerRollerGapM": 0.0005464541050469451,
+      "outerRollerGapM": 0.0005330227670723928,
+      "rootCentrelineRollerGapM": 0.0031456536111657343,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06248273339921209, -0.006269184566612574], [74], 0.00023465360827660357, [7.843541080605125e-08, -0.00015540265920004385], [329.3140640965192, 455.84970808696875])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.105,
+      "centreM": [
+        0.06248661750712274,
+        -0.0065853136724472825
+      ],
+      "innerRollerGapM": 0.0005826644640029577,
+      "outerRollerGapM": 0.0005676940572724512,
+      "rootCentrelineRollerGapM": 0.0028306821380035974,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06248661750712274, -0.0065853136724472825], [74], 0.0002652223631750221, [1.0150759879691616e-07, -0.00016591022637184406], [312.41716558504953, 402.9200639325932])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.11,
+      "centreM": [
+        0.062489773618722606,
+        -0.00690173457526486
+      ],
+      "innerRollerGapM": 0.0006197522427646152,
+      "outerRollerGapM": 0.0006031234785158976,
+      "rootCentrelineRollerGapM": 0.0025154475229851956,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.062489773618722606, -0.00690173457526486], [74], 0.00026998679818572037, [1.0217975424366903e-07, -0.00016842468887147416], [288.9829112116291, 341.9820174564338])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.11499999999999999,
+      "centreM": [
+        0.06249220330694386,
+        -0.007218452817673767
+      ],
+      "innerRollerGapM": 0.0006577223815756039,
+      "outerRollerGapM": 0.0006393101450690025,
+      "rootCentrelineRollerGapM": 0.0021999468851757274,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06249220330694386, -0.007218452817673767], [74], 0.00025054946618022726, [9.782444067554168e-08, -0.00014761954323944638], [273.7643738841291, 296.2541209504421])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.12,
+      "centreM": [
+        0.062493908174242295,
+        -0.007535474027394311
+      ],
+      "innerRollerGapM": 0.0006965799524339816,
+      "outerRollerGapM": 0.000676253152267034,
+      "rootCentrelineRollerGapM": 0.0018841778807031553,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.062493908174242295, -0.007535474027394311], [74], 0.0002033654148844035, [8.899786368019784e-08, -9.441800601542148e-05], [272.6803659695922, 271.0200164329774])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.125,
+      "centreM": [
+        0.06249488985287572,
+        -0.007852803919710865
+      ],
+      "innerRollerGapM": 0.0007363301607935802,
+      "outerRollerGapM": 0.0007139515765367255,
+      "rootCentrelineRollerGapM": 0.0015681388258651507,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 20,
+      "maxIntersectingRootArcM": 0.012666067309099653,
+      "outsideFittedSeat": true,
+      "maxActualPlanePenetrationM": 3.5898041483850562e-09,
+      "maxIdealPlanePenetrationM": -1.3877787807814457e-17,
+      "stripProjectionStorageErrorM": 3.6706863659752287e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": true,
+      "geometryValid": false,
+      "forceN": 289.23713612066064,
+      "stressPa": 2592362099.2035327
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.13,
+      "centreM": [
+        0.062495150005186774,
+        -0.008170448299964536
+      ],
+      "innerRollerGapM": 0.0007769783473171865,
+      "outerRollerGapM": 0.0007524044754193965,
+      "rootCentrelineRollerGapM": 0.0012518288523008757,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816223,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -1.8448039068585942e-09,
+      "maxIdealPlanePenetrationM": -1.249000902703301e-16,
+      "stripProjectionStorageErrorM": 3.7107179273743185e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 230.19761579930864,
+      "stressPa": 2400594740.0668397
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.135,
+      "centreM": [
+        0.062494690323890247,
+        -0.008488413066087629
+      ],
+      "innerRollerGapM": 0.0008185299896824039,
+      "outerRollerGapM": 0.0007916108875946418,
+      "rootCentrelineRollerGapM": 0.000935248104235017,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.0002394275101781623,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -9.94615723115544e-10,
+      "maxIdealPlanePenetrationM": 0.0,
+      "stripProjectionStorageErrorM": 3.6759757043869357e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 168.59027610966024,
+      "stressPa": 2261264865.935829
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.14,
+      "centreM": [
+        0.062493512532365555,
+        -0.008806704211181298
+      ],
+      "innerRollerGapM": 0.0008609907044420384,
+      "outerRollerGapM": 0.0008315698329041457,
+      "rootCentrelineRollerGapM": 0.0006183979915287009,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.0002394275101781622,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -2.9304035170651943e-09,
+      "maxIdealPlanePenetrationM": 1.3877787807814457e-17,
+      "stripProjectionStorageErrorM": 3.7153697896030735e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 114.84191233653597,
+      "stressPa": 2354857644.7554436
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.14500000000000002,
+      "centreM": [
+        0.062491618384953866,
+        -0.009125327826137732
+      ],
+      "innerRollerGapM": 0.0009043662489394977,
+      "outerRollerGapM": 0.0008722803123763778,
+      "rootCentrelineRollerGapM": 0.00030128151763466303,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816164,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -8.950894085237027e-05,
+      "maxIdealPlanePenetrationM": -8.950551394666661e-05,
+      "stripProjectionStorageErrorM": 3.6588993918007517e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 100.1347508432075,
+      "stressPa": 2315194672.7453575
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.15,
+      "centreM": [
+        0.06248900966726059,
+        -0.009444290102308338
+      ],
+      "innerRollerGapM": 0.0009486625232808799,
+      "outerRollerGapM": 0.0009137413082514825,
+      "rootCentrelineRollerGapM": -1.6096290611076168e-05,
+      "tipModelValid": false,
+      "failure": "Fixed root centreline is inside the roller; this fitted seating cannot occupy the candidate geometry"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.155,
+      "centreM": [
+        0.06248568819646325,
+        -0.009763597334219427
+      ],
+      "innerRollerGapM": 0.0009938855723650442,
+      "outerRollerGapM": 0.0009559517840066825,
+      "rootCentrelineRollerGapM": -0.00033372781278936947,
+      "tipModelValid": false,
+      "failure": "Fixed root centreline is inside the roller; this fitted seating cannot occupy the candidate geometry"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 0.5,
+      "betaRad": -0.16,
+      "centreM": [
+        0.06248165582162473,
+        -0.010083255922336854
+      ],
+      "innerRollerGapM": 0.0010400415879726899,
+      "outerRollerGapM": 0.0009989106843823203,
+      "rootCentrelineRollerGapM": -0.0006516020681091861,
+      "tipModelValid": false,
+      "failure": "Fixed root centreline is inside the roller; this fitted seating cannot occupy the candidate geometry"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.06,
+      "centreM": [
+        0.06271256328194237,
+        -0.0037672756129996437
+      ],
+      "innerRollerGapM": 0.0005756154680233022,
+      "outerRollerGapM": 1.3877787807814457e-17,
+      "rootCentrelineRollerGapM": 0.005657743535751112,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816229,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -1.7155247500344473e-09,
+      "maxIdealPlanePenetrationM": -2.9976021664879227e-15,
+      "stripProjectionStorageErrorM": 3.7130322844136643e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 85.20114870516426,
+      "stressPa": 2940824570.702318
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.065,
+      "centreM": [
+        0.06275152622369276,
+        -0.0040846033084677436
+      ],
+      "innerRollerGapM": 0.0006343225898979149,
+      "outerRollerGapM": 0.0,
+      "rootCentrelineRollerGapM": 0.005344507098322449,
+      "tipModelValid": true,
+      "invalidReasons": [],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816177,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -3.132227116564579e-10,
+      "maxIdealPlanePenetrationM": 0.0,
+      "stripProjectionStorageErrorM": 3.700643097515055e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": true,
+      "forceN": 182.32107001049457,
+      "stressPa": 3120498197.1463923
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.06999999999999999,
+      "centreM": [
+        0.06279056302788301,
+        -0.004402532565234136
+      ],
+      "innerRollerGapM": 0.0006947146180399794,
+      "outerRollerGapM": 0.0,
+      "rootCentrelineRollerGapM": 0.005031041151402295,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06279056302788301, -0.004402532565234136], [73], 0.0001380876673026213, [2.1563217327138324e-08, -5.774955267737842e-05], [213.83598571496745, 293.11435966353895])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.075,
+      "centreM": [
+        0.06282967586222589,
+        -0.004721081037902423
+      ],
+      "innerRollerGapM": 0.0007567994356070529,
+      "outerRollerGapM": -6.938893903907228e-18,
+      "rootCentrelineRollerGapM": 0.004717361746660164,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06282967586222589, -0.004721081037902423], [74], 0.00022120044644513846, [1.3942509181013403e-08, -0.00013550064249327116], [224.80661759039683, 303.8256461634857])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.08,
+      "centreM": [
+        0.06286886691050463,
+        -0.005040266511959945
+      ],
+      "innerRollerGapM": 0.0008205851655296442,
+      "outerRollerGapM": -6.938893903907228e-18,
+      "rootCentrelineRollerGapM": 0.004403488935078945,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06286886691050463, -0.005040266511959945], [74], 0.00031101906002325964, [-9.829188694763418e-09, -0.00019486268150043355], [255.134094690916, 368.94771922887963])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.08499999999999999,
+      "centreM": [
+        0.06290813837308264,
+        -0.005360106907928608
+      ],
+      "innerRollerGapM": 0.0008860801731572221,
+      "outerRollerGapM": 0.0,
+      "rootCentrelineRollerGapM": 0.004089447404881723,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06290813837308264, -0.005360106907928608], [75], 0.0003648354418564077, [-2.598715982685064e-08, -0.0002955377564707618], [242.64342301172758, 324.9755754994141])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.09,
+      "centreM": [
+        0.0629474924674208,
+        -0.005680620285577724
+      ],
+      "innerRollerGapM": 0.0009532930689921809,
+      "outerRollerGapM": -1.3877787807814457e-17,
+      "rootCentrelineRollerGapM": 0.003775267241267609,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.0629474924674208, -0.005680620285577724], [75], 0.0004324042391054079, [-4.6607102999917565e-08, -0.00034584857631973266], [278.77421071837733, 395.65604694342517])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.095,
+      "centreM": [
+        0.06298693142860251,
+        -0.0060018248482010175
+      ],
+      "innerRollerGapM": 0.0010222327115138041,
+      "outerRollerGapM": 0.0,
+      "rootCentrelineRollerGapM": 0.00346098483537894,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06298693142860251, -0.0060018248482010175], [75], 0.0004899491860682891, [-6.410716545289454e-08, -0.00039373851208430197], [314.7954365764545, 462.6989313736402])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.1,
+      "centreM": [
+        0.06302645750986709,
+        -0.006323738946960097
+      ],
+      "innerRollerGapM": 0.0010929082100939042,
+      "outerRollerGapM": 6.938893903907228e-18,
+      "rootCentrelineRollerGapM": 0.003146643977074877,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06302645750986709, -0.006323738946960097], [76], 0.0005425254028388901, [-6.568344743023498e-08, -0.00044821548221676296], [348.32276962380075, 496.08576631452])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.105,
+      "centreM": [
+        0.0630660729831515,
+        -0.00664638108529663
+      ],
+      "innerRollerGapM": 0.0011653289280058876,
+      "outerRollerGapM": 1.3877787807814457e-17,
+      "rootCentrelineRollerGapM": 0.002832297175361329,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.0630660729831515, -0.00664638108529663], [76], 0.0005656048210555047, [-5.690086924382766e-08, -0.0004455918947715812], [459.73215546740204, 689.8154466273005])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.11,
+      "centreM": [
+        0.06310578013964084,
+        -0.006969769923415589
+      ],
+      "innerRollerGapM": 0.0012395044855292303,
+      "outerRollerGapM": 6.938893903907228e-18,
+      "rootCentrelineRollerGapM": 0.002518007262427957,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06310578013964084, -0.006969769923415589], [77], 0.0006120099993801298, [7.027469222685499e-08, -0.000498410644046249], [515.9709819366172, 690.3124474999147])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.11499999999999999,
+      "centreM": [
+        0.06314558129032778,
+        -0.007293924282841959
+      ],
+      "innerRollerGapM": 0.001315444763151194,
+      "outerRollerGapM": 6.938893903907228e-18,
+      "rootCentrelineRollerGapM": 0.002203849353129929,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06314558129032778, -0.007293924282841959], [77], 0.0006636092889662633, [8.842473829016938e-08, -0.0005818464585257187], [373.60651629679734, 428.13783981416105])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.12,
+      "centreM": [
+        0.06318547876658141,
+        -0.007618863151053392
+      ],
+      "innerRollerGapM": 0.0013931599048679355,
+      "outerRollerGapM": 0.0,
+      "rootCentrelineRollerGapM": 0.001889913252742752,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06318547876658141, -0.007618863151053392], [77], 0.0006749272374302948, [9.730089084791847e-08, -0.0005945961115367161], [338.1675781979191, 342.4484508020142])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.125,
+      "centreM": [
+        0.06322547492072571,
+        -0.007944605686191307
+      ],
+      "innerRollerGapM": 0.0014726603215871603,
+      "outerRollerGapM": 1.3877787807814457e-17,
+      "rootCentrelineRollerGapM": 0.0015763064337283098,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06322547492072571, -0.007944605686191307], [77], 0.0006609087590083574, [1.0814487799365512e-07, -0.0005748932908904359], [321.2558763831459, 286.85772450672306])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.13,
+      "centreM": [
+        0.06326557212662798,
+        -0.008271171221853064
+      ],
+      "innerRollerGapM": 0.0015539566946343591,
+      "outerRollerGapM": -1.3877787807814457e-17,
+      "rootCentrelineRollerGapM": 0.0012631577395922763,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06326557212662798, -0.008271171221853064], [77], 0.0006402007186764473, [1.7984453784013264e-07, -0.00047030437107842515], [346.4687702393495, 274.8006223207377])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.135,
+      "centreM": [
+        0.06330577278029739,
+        -0.008598579271967825
+      ],
+      "innerRollerGapM": 0.0016370599793648077,
+      "outerRollerGapM": -6.938893903907228e-18,
+      "rootCentrelineRollerGapM": 0.000950622024175808,
+      "tipModelValid": false,
+      "failure": "('Pocket strip Newton limit', [0.06330577278029739, -0.008598579271967825], [77], 0.0005169632257926352, [2.7963677308014893e-07, -0.0002559643791329873], [385.55374813289234, 258.3962867021863])"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.14,
+      "centreM": [
+        0.06334607930049445,
+        -0.008926849535758877
+      ],
+      "innerRollerGapM": 0.0017219814088840768,
+      "outerRollerGapM": 0.0,
+      "rootCentrelineRollerGapM": 0.0006388860027553228,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip",
+        "contact leaves the outward-facing tip cap"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 22,
+      "maxIntersectingRootArcM": 0.01314462126529645,
+      "outsideFittedSeat": true,
+      "maxActualPlanePenetrationM": 1.9025590963783756e-09,
+      "maxIdealPlanePenetrationM": -4.163336342344337e-17,
+      "stripProjectionStorageErrorM": 3.740286309839025e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": true,
+      "geometryValid": false,
+      "forceN": 396.27408299566173,
+      "stressPa": 3657383274.731398
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.14500000000000002,
+      "centreM": [
+        0.06338649412935116,
+        -0.009256001902795193
+      ],
+      "innerRollerGapM": 0.0018087324978789815,
+      "outerRollerGapM": 0.0,
+      "rootCentrelineRollerGapM": 0.0003281756838488508,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip",
+        "contact leaves the outward-facing tip cap"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816104,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": 1.690380113661405e-09,
+      "maxIdealPlanePenetrationM": 1.3877787807814457e-17,
+      "stripProjectionStorageErrorM": 3.701828302227206e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 313.529972386457,
+      "stressPa": 3328107769.882061
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.15,
+      "centreM": [
+        0.06342701973300256,
+        -0.009586056458135128
+      ],
+      "innerRollerGapM": 0.0018973250465617736,
+      "outerRollerGapM": 6.938893903907228e-18,
+      "rootCentrelineRollerGapM": 1.8765876922437023e-05,
+      "tipModelValid": false,
+      "invalidReasons": [
+        "roller intersects a non-tip part of the strip"
+      ],
+      "innerRaceTrianglePairs": 0,
+      "outerRaceTrianglePairs": 10,
+      "maxIntersectingRootArcM": 0.00023942751017816128,
+      "outsideFittedSeat": false,
+      "maxActualPlanePenetrationM": -9.728728794788921e-10,
+      "maxIdealPlanePenetrationM": 0.0,
+      "stripProjectionStorageErrorM": 3.6958801574726863e-09,
+      "savedPlaneDeviationM": 3.708316306805237e-09,
+      "explicitWedgeContactWithinStoragePrecision": false,
+      "geometryValid": false,
+      "forceN": 243.2060516930025,
+      "stressPa": 3016942764.96608
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.155,
+      "centreM": [
+        0.06346765860223008,
+        -0.00991703348756518
+      ],
+      "innerRollerGapM": 0.001987771144730102,
+      "outerRollerGapM": 1.3877787807814457e-17,
+      "rootCentrelineRollerGapM": -0.00028900755611598137,
+      "tipModelValid": false,
+      "failure": "Fixed root centreline is inside the roller; this fitted seating cannot occupy the candidate geometry"
+    },
+    {
+      "kind": "geometric-envelope",
+      "radialClearanceFraction": 1.0,
+      "betaRad": -0.16,
+      "centreM": [
+        0.0635084132531167,
+        -0.010248953482936897
+      ],
+      "innerRollerGapM": 0.0020800831759453936,
+      "outerRollerGapM": 6.938893903907228e-18,
+      "rootCentrelineRollerGapM": -0.000594731801889235,
+      "tipModelValid": false,
+      "failure": "Fixed root centreline is inside the roller; this fitted seating cannot occupy the candidate geometry"
+    }
+  ],
+  "limits": "Actual saved pocket/inner-race surfaces against solved strip meshes. First 1 mm root-seat overlap remains an explicit fit. Active wedge touch may intersect only within measured float32 projection/plane storage error; not a claim of strictly zero BVH overlap. No factory seat or material acceptance."
+}

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "coveredFloat32Vertices": 90000,
+  "coveredMorphVertices": 4800,
+  "conservativeFallbackCases": 0,
+  "attributeChangesRefresh": true,
+  "unknownAndNearPlaneFallBack": true,
+  "modifiedMorphSourceFallsBack": true,
+  "limits": "CPU highp-style sequential float32 transform coverage. Not GPU compiler or raster coverage proof; actual full-frame pairs required."
+}

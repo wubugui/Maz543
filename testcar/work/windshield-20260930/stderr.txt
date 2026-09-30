@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "F:\InferenceHub\blender_bootstrap.py", line 79, in <module>
+    runpy.run_path(str(script),run_name='__main__')
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "F:\InferenceHub\data\blender\ba90346e-5f26-41c3-946a-f100edb58099\f9d0693a-c490-42d4-9f4d-6383d4728f26\work\main.py", line 143, in <module>
+    assert hit==expect,('Actual aperture ray',filename,side,h,z,hit,expect);rays.append({'h':h,'lateral':z,'hitShell':hit})
+           ^^^^^^^^^^^
+AssertionError: ('Actual aperture ray', 'MAZ543A_Master.blend', 1, 1.89, 1.1, True, False)
+
+Error: script failed, file: 'F:\InferenceHub\blender_bootstrap.py', exiting.

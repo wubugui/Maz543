@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import {viewportRendererRelease} from '../lib/viewportEnvironment.ts';
+const calls=[];
+const release=viewportRendererRelease({dispose(){calls.push('dispose');},forceContextLoss(){calls.push('lose-owned-context');}},()=>calls.push('remove-canvas'));
+release();release();assert.deepEqual(calls,['dispose','lose-owned-context','remove-canvas']);
+const failed=[];
+const releaseFailed=viewportRendererRelease({dispose(){failed.push('dispose');throw new Error('cleanup fixture');},forceContextLoss(){failed.push('lose-owned-context');}},()=>failed.push('remove-canvas'));
+assert.throws(releaseFailed,/cleanup fixture/);releaseFailed();assert.deepEqual(failed,calls);
+await fs.writeFile('work/render-worker-refactor/release-check.json',JSON.stringify({passed:true,order:calls,idempotent:true,contextAndCanvasReleasedAfterDisposeError:true,limits:'Ownership/order test. Browser recreation is verified separately; this is not a long-term GPU memory measurement.'},null,2));console.log('Viewport release: ownership order, idempotence and error cleanup passed.');

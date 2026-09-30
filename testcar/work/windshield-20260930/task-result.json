@@ -1,0 +1,293 @@
+{
+  "id": "bc0ae333-0636-4843-a0e5-dd194b373460",
+  "batch_id": "6d57bb48-1f02-4228-982d-67831a8478a5",
+  "name": "MAZ543A actual enlarged windshield apertures",
+  "backend": "blender",
+  "group_key": "blender:cpu",
+  "priority": 50,
+  "params": {
+    "version": "4.5.13",
+    "project_file": null,
+    "files": [
+      {
+        "file_id": "6943eb2996cda5a5f22fb21bd820f061",
+        "path": "MAZ543A_Master.blend"
+      },
+      {
+        "file_id": "54701e9265ba805803df6b520796f86a",
+        "path": "MAZ543A_Textured.blend"
+      },
+      {
+        "file_id": "7e080819-dbde-4e31-b7e4-e12e7e2bcfff",
+        "path": "main.py"
+      }
+    ],
+    "script": "main.py",
+    "blend_file": null,
+    "args": [],
+    "device": "cpu",
+    "gpu_policy": "auto",
+    "threads": 4,
+    "ram_mb": 4096,
+    "vram_mb": 1024,
+    "timeout_seconds": 900
+  },
+  "state": "failed",
+  "created": 1790783733.0935018,
+  "started": 1790783733.3159492,
+  "finished": 1790783759.4043577,
+  "prompt_id": null,
+  "phase": "failed",
+  "result": {
+    "files": [
+      {
+        "id": "e0b5fd6edd2b4c408c1cf8aff1fded81",
+        "name": "MAZ543A_Master.blend",
+        "mime": "application/x-blender",
+        "size": 64718802,
+        "sha256": "97fdb57469e54405d4c926571719a7bf16e1acffb386cbf7af106b25a11fdbb4",
+        "created": 1790783759.3993716,
+        "origin": "generated",
+        "producer_task_id": "bc0ae333-0636-4843-a0e5-dd194b373460",
+        "producer_backend": "blender",
+        "origin_basis": "registration",
+        "url": "/v1/files/e0b5fd6edd2b4c408c1cf8aff1fded81/content",
+        "relative_path": "MAZ543A_Master.blend"
+      }
+    ],
+    "exit_code": 1,
+    "reason": null,
+    "version": "4.5.13",
+    "build_hash": "daeeeca98fb0",
+    "device": "cpu",
+    "measurements": {
+      "execution_ms": 24558.129,
+      "launch_ms": 49.444,
+      "peak_rss_bytes": 2308710400,
+      "peak_commit_bytes": 2369585152,
+      "cpu_seconds": 37.3594,
+      "stdout_bytes": 406,
+      "stderr_bytes": 882,
+      "prepare_ms": 75.997,
+      "input_bytes": 162808154,
+      "archive_ms": 896.768,
+      "vram_budget_mb": 1024,
+      "gpu_peak_bytes": null,
+      "gpu_measurement_basis": "not_available_per_process",
+      "ram_limit_mb": 4096
+    },
+    "logs": {
+      "stdout": "/v1/tasks/bc0ae333-0636-4843-a0e5-dd194b373460/logs/stdout",
+      "stderr": "/v1/tasks/bc0ae333-0636-4843-a0e5-dd194b373460/logs/stderr"
+    },
+    "usage": {
+      "execution_ms": 24558.129,
+      "model": "blender:4.5.13",
+      "input_tokens": null,
+      "output_tokens": null,
+      "measurements": {
+        "execution_ms": 24558.129,
+        "launch_ms": 49.444,
+        "peak_rss_bytes": 2308710400,
+        "peak_commit_bytes": 2369585152,
+        "cpu_seconds": 37.3594,
+        "stdout_bytes": 406,
+        "stderr_bytes": 882,
+        "prepare_ms": 75.997,
+        "input_bytes": 162808154,
+        "archive_ms": 896.768,
+        "vram_budget_mb": 1024,
+        "gpu_peak_bytes": null,
+        "gpu_measurement_basis": "not_available_per_process",
+        "ram_limit_mb": 4096
+      }
+    }
+  },
+  "error": "Blender exited 1",
+  "cancel_requested": 0,
+  "scheduling": "normal",
+  "dispatch_id": null,
+  "held": 0,
+  "attempt_id": "d8b7976f-e7f5-44bf-b333-9f5f60397e93",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "next_retry": 0,
+  "last_progress": 1790783757.7527204,
+  "resource_held": 0,
+  "error_code": null,
+  "execution": {
+    "state": "finished",
+    "job_id": "bc0ae333-0636-4843-a0e5-dd194b373460",
+    "attempt_id": "d8b7976f-e7f5-44bf-b333-9f5f60397e93",
+    "runner_pid": 56824,
+    "runner_created": 1790783733.4417384,
+    "heartbeat": 1790783758.449215,
+    "stdout_bytes": 406,
+    "stderr_bytes": 882,
+    "peak_rss_bytes": 2308710400,
+    "cpu_seconds": 37.3594,
+    "exit_code": 1,
+    "pid": 55504,
+    "created": 1790783733.892218,
+    "started": 1790783733.9409645,
+    "launch_ms": 49.444,
+    "workspace_bytes": 227528361,
+    "peak_commit_bytes": 2369585152,
+    "reason": null,
+    "capture_errors": [],
+    "execution_ms": 24558.129,
+    "finished": 1790783758.449215
+  },
+  "pause": null,
+  "audit": {
+    "task": {
+      "job_id": "bc0ae333-0636-4843-a0e5-dd194b373460",
+      "batch_id": "6d57bb48-1f02-4228-982d-67831a8478a5",
+      "created": 1790783733.0935018,
+      "backend": "blender",
+      "device": "cpu",
+      "name": "MAZ543A actual enlarged windshield apertures",
+      "app_id": "codex",
+      "project_id": "maz543a",
+      "actor_id": "",
+      "client_ip": "192.168.71.67",
+      "identity_source": "self_reported",
+      "request_id": "0ac2946810c3be54a6da3124",
+      "state": "failed",
+      "finished": 1790783759.4043577,
+      "origin": "live",
+      "measurements": {
+        "question_count": 0,
+        "prompt_characters": 0,
+        "input_images": 0,
+        "input_videos": 0,
+        "input_audios": 0,
+        "guide_count": 0,
+        "input_file_ids": [
+          "6943eb2996cda5a5f22fb21bd820f061",
+          "54701e9265ba805803df6b520796f86a",
+          "7e080819-dbde-4e31-b7e4-e12e7e2bcfff"
+        ],
+        "priority_at_submission": 50,
+        "scheduling": "normal",
+        "version": "4.5.13",
+        "script": "main.py",
+        "device": "cpu",
+        "gpu_policy": "auto",
+        "threads": 4,
+        "ram_mb": 4096,
+        "vram_mb": 1024,
+        "timeout_seconds": 900
+      }
+    },
+    "attempts": [
+      {
+        "id": "d8b7976f-e7f5-44bf-b333-9f5f60397e93",
+        "job_id": "bc0ae333-0636-4843-a0e5-dd194b373460",
+        "execution_id": "d8b7976f-e7f5-44bf-b333-9f5f60397e93",
+        "started": 1790783733.3185067,
+        "finished": 1790783759.4043577,
+        "outcome": "failed",
+        "model": "blender:4.5.13",
+        "generation": null,
+        "input_tokens": null,
+        "output_tokens": null,
+        "state_tokens": null,
+        "token_basis": "unknown",
+        "allocated_ms": 24558.129,
+        "allocation_basis": "single_execution",
+        "estimated_cost": 0.0000068217025000000004,
+        "rate_id": 3,
+        "error": "Blender exited 1",
+        "measurements": {
+          "question_count": 0,
+          "prompt_characters": 0,
+          "input_images": 0,
+          "input_videos": 0,
+          "input_audios": 0,
+          "guide_count": 0,
+          "input_file_ids": [
+            "6943eb2996cda5a5f22fb21bd820f061",
+            "54701e9265ba805803df6b520796f86a",
+            "7e080819-dbde-4e31-b7e4-e12e7e2bcfff"
+          ],
+          "priority_at_submission": 50,
+          "scheduling": "normal",
+          "version": "4.5.13",
+          "script": "main.py",
+          "device": "cpu",
+          "gpu_policy": "auto",
+          "threads": 4,
+          "ram_mb": 4096,
+          "vram_mb": 1024,
+          "timeout_seconds": 900,
+          "output_images": 0,
+          "output_videos": 0,
+          "output_bytes": 64718802,
+          "file_ids": [
+            "e0b5fd6edd2b4c408c1cf8aff1fded81"
+          ],
+          "execution_ms": 24558.129,
+          "launch_ms": 49.444,
+          "peak_rss_bytes": 2308710400,
+          "peak_commit_bytes": 2369585152,
+          "cpu_seconds": 37.3594,
+          "stdout_bytes": 406,
+          "stderr_bytes": 882,
+          "prepare_ms": 75.997,
+          "input_bytes": 162808154,
+          "archive_ms": 896.768,
+          "vram_budget_mb": 1024,
+          "gpu_peak_bytes": null,
+          "gpu_measurement_basis": "not_available_per_process",
+          "ram_limit_mb": 4096
+        },
+        "origin": "live",
+        "batch_work_ms": 24558.129,
+        "time_basis": "backend_execution_wall",
+        "request_count": 1,
+        "batch_input_tokens": null,
+        "forward_passes": null,
+        "currency": "CNY",
+        "gpu_per_hour": 0.01,
+        "cpu_per_hour": 0.001
+      }
+    ],
+    "requests": [
+      {
+        "id": "0ac2946810c3be54a6da3124",
+        "at": 1790783733.1027699,
+        "method": "POST",
+        "path": "/v1/tasks",
+        "status": 202,
+        "ms": 9.18,
+        "client_ip": "192.168.71.67",
+        "app_id": "codex",
+        "project_id": "maz543a",
+        "actor_id": "",
+        "identity_source": "self_reported",
+        "kind": "submit",
+        "received_bytes": 435,
+        "sent_bytes": 152,
+        "transfer_basis": "asgi_body_bytes",
+        "error": null,
+        "task_ids": [
+          "bc0ae333-0636-4843-a0e5-dd194b373460"
+        ],
+        "origin": "live"
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "id": "d8b7976f-e7f5-44bf-b333-9f5f60397e93",
+      "job_id": "bc0ae333-0636-4843-a0e5-dd194b373460",
+      "backend": "blender",
+      "generation": null,
+      "started": 1790783733.318012,
+      "finished": 1790783759.4103413,
+      "state": "failed",
+      "error": "Blender exited 1"
+    }
+  ]
+}

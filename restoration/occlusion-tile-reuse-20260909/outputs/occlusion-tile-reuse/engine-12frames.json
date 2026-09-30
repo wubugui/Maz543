@@ -1,0 +1,919 @@
+{
+  "kind": "render-thread-wall-time",
+  "limits": "Includes synchronous driver waits. Not GPU duration or end-to-end UI latency. No finish/readback or precision reduction.",
+  "samples": [
+    {
+      "startMs": 90556,
+      "updateMs": 2.100000001490116,
+      "queryPollMs": 0,
+      "cacheMs": 0,
+      "submitMs": 1315.5,
+      "frameWorkMs": 1317.6000000014901,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 735,
+        "skipped": 0,
+        "savedTriangles": 0,
+        "reusedPositive": 0,
+        "waitingForStablePrefix": 6218,
+        "pending": 735,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20974,
+        "prefixNodes": 28081,
+        "proofEntries": 6953,
+        "epochReset": false,
+        "firstChangedDepthDraws": [
+          {
+            "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+            "object": "C5_flywheel_involute_ring",
+            "material": ""
+          }
+        ],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 2322,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 1.10009765625,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 90.47083333333322,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 92047.89999999851,
+      "updateMs": 3,
+      "queryPollMs": 0,
+      "cacheMs": 0,
+      "submitMs": 1055,
+      "frameWorkMs": 1058,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 0,
+        "skipped": 152,
+        "savedTriangles": 204792,
+        "reusedPositive": 583,
+        "waitingForStablePrefix": 6218,
+        "pending": 0,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20938,
+        "prefixNodes": 39229,
+        "proofEntries": 6953,
+        "epochReset": false,
+        "firstChangedDepthDraws": [
+          {
+            "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+            "object": "C5_flywheel_involute_ring",
+            "material": ""
+          }
+        ],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 381,
+        "depthUniformMatrixChanges": 381,
+        "morphUniformChanges": 0,
+        "changedExamples": [
+          "COOL_armature_0_D12_forged_steel_cooling-internal",
+          "COOL_armature_0_D12_machined_steel_cooling-internal",
+          "COOL_contact_ring_0",
+          "COOL_fan_0_COOL_enamelled_copper_cooling-internal",
+          "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "COOL_fan_0_D12_forged_steel_bearing-cover"
+        ],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 3.199951171875,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9153,
+      "triangles": 21378123,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 91.95833333333186,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 93323.10000000149,
+      "updateMs": 2.0999999940395355,
+      "queryPollMs": 0,
+      "cacheMs": 0,
+      "submitMs": 1048.8000000044703,
+      "frameWorkMs": 1050.8999999985099,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 0,
+        "skipped": 150,
+        "savedTriangles": 204720,
+        "reusedPositive": 561,
+        "waitingForStablePrefix": 6242,
+        "pending": 0,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20956,
+        "prefixNodes": 50893,
+        "proofEntries": 6953,
+        "epochReset": false,
+        "firstChangedDepthDraws": [
+          {
+            "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+            "object": "C5_flywheel_involute_ring",
+            "material": ""
+          }
+        ],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 381,
+        "depthUniformMatrixChanges": 381,
+        "morphUniformChanges": 0,
+        "changedExamples": [
+          "COOL_armature_0_D12_forged_steel_cooling-internal",
+          "COOL_armature_0_D12_machined_steel_cooling-internal",
+          "COOL_contact_ring_0",
+          "COOL_fan_0_COOL_enamelled_copper_cooling-internal",
+          "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "COOL_fan_0_D12_forged_steel_bearing-cover"
+        ],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 2,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9155,
+      "triangles": 21378195,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 93.23749999999737,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 94590.39999999851,
+      "updateMs": 2.2000000029802322,
+      "queryPollMs": 0,
+      "cacheMs": 0.09999999403953552,
+      "submitMs": 1035.3000000044703,
+      "frameWorkMs": 1037.6000000014901,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 0,
+        "skipped": 150,
+        "savedTriangles": 204720,
+        "reusedPositive": 561,
+        "waitingForStablePrefix": 6242,
+        "pending": 0,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20956,
+        "prefixNodes": 62557,
+        "proofEntries": 6953,
+        "epochReset": false,
+        "firstChangedDepthDraws": [
+          {
+            "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+            "object": "C5_flywheel_involute_ring",
+            "material": ""
+          }
+        ],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 381,
+        "depthUniformMatrixChanges": 381,
+        "morphUniformChanges": 0,
+        "changedExamples": [
+          "COOL_armature_0_D12_forged_steel_cooling-internal",
+          "COOL_armature_0_D12_machined_steel_cooling-internal",
+          "COOL_contact_ring_0",
+          "COOL_fan_0_COOL_enamelled_copper_cooling-internal",
+          "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "COOL_fan_0_D12_forged_steel_bearing-cover"
+        ],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 0.199951171875,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9155,
+      "triangles": 21378195,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 94.50416666666288,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 95855.19999999553,
+      "updateMs": 2.7000000029802322,
+      "queryPollMs": 0,
+      "cacheMs": 0,
+      "submitMs": 1090.2999999970198,
+      "frameWorkMs": 1093,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 6,
+        "skipped": 25,
+        "savedTriangles": 12120,
+        "reusedPositive": 252,
+        "waitingForStablePrefix": 6670,
+        "pending": 6,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20950,
+        "prefixNodes": 76939,
+        "proofEntries": 6953,
+        "epochReset": false,
+        "firstChangedDepthDraws": [
+          {
+            "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+            "object": "C5_flywheel_involute_ring",
+            "material": ""
+          }
+        ],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 662,
+        "depthUniformMatrixChanges": 574,
+        "morphUniformChanges": 0,
+        "changedExamples": [
+          "COOL_armature_0_D12_forged_steel_cooling-internal",
+          "COOL_armature_0_D12_machined_steel_cooling-internal",
+          "COOL_contact_ring_0",
+          "COOL_fan_0_COOL_enamelled_copper_cooling-internal",
+          "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "COOL_fan_0_D12_forged_steel_bearing-cover"
+        ],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 11.800048828125,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9280,
+      "triangles": 21570795,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 95.75833333332841,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 97174.10000000149,
+      "updateMs": 5.5999999940395355,
+      "queryPollMs": 0,
+      "cacheMs": 0,
+      "submitMs": 1240.6000000014901,
+      "frameWorkMs": 1246.1999999955297,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 434,
+        "skipped": 25,
+        "savedTriangles": 12120,
+        "reusedPositive": 252,
+        "waitingForStablePrefix": 6242,
+        "pending": 434,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20932,
+        "prefixNodes": 88585,
+        "proofEntries": 6953,
+        "epochReset": false,
+        "firstChangedDepthDraws": [
+          {
+            "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+            "object": "C5_flywheel_involute_ring",
+            "material": ""
+          }
+        ],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 381,
+        "depthUniformMatrixChanges": 381,
+        "morphUniformChanges": 0,
+        "changedExamples": [
+          "COOL_armature_0_D12_forged_steel_cooling-internal",
+          "COOL_armature_0_D12_machined_steel_cooling-internal",
+          "COOL_contact_ring_0",
+          "COOL_fan_0_COOL_enamelled_copper_cooling-internal",
+          "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "COOL_fan_0_D12_forged_steel_bearing-cover"
+        ],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 2.400146484375,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9280,
+      "triangles": 21570795,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 97.08749999999387,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 98602.79999999702,
+      "updateMs": 3.5,
+      "queryPollMs": 0,
+      "cacheMs": 0,
+      "submitMs": 1039.1000000014901,
+      "frameWorkMs": 1042.6000000014901,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 0,
+        "skipped": 150,
+        "savedTriangles": 204720,
+        "reusedPositive": 561,
+        "waitingForStablePrefix": 6242,
+        "pending": 0,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20947,
+        "prefixNodes": 100240,
+        "proofEntries": 6953,
+        "epochReset": false,
+        "firstChangedDepthDraws": [
+          {
+            "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+            "object": "C5_flywheel_involute_ring",
+            "material": ""
+          }
+        ],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 381,
+        "depthUniformMatrixChanges": 381,
+        "morphUniformChanges": 0,
+        "changedExamples": [
+          "COOL_armature_0_D12_forged_steel_cooling-internal",
+          "COOL_armature_0_D12_machined_steel_cooling-internal",
+          "COOL_contact_ring_0",
+          "COOL_fan_0_COOL_enamelled_copper_cooling-internal",
+          "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "COOL_fan_0_D12_forged_steel_bearing-cover"
+        ],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 2.60009765625,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9155,
+      "triangles": 21378195,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 98.51666666665923,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 99858.60000000149,
+      "updateMs": 2.6999999955296516,
+      "queryPollMs": 0,
+      "cacheMs": 0,
+      "submitMs": 1067.1000000014901,
+      "frameWorkMs": 1069.7999999970198,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 0,
+        "skipped": 0,
+        "savedTriangles": 0,
+        "reusedPositive": 0,
+        "waitingForStablePrefix": 6953,
+        "pending": 0,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20947,
+        "prefixNodes": 16945,
+        "proofEntries": 6953,
+        "epochReset": true,
+        "firstChangedDepthDraws": [],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 381,
+        "depthUniformMatrixChanges": 381,
+        "morphUniformChanges": 0,
+        "changedExamples": [
+          "COOL_armature_0_D12_forged_steel_cooling-internal",
+          "COOL_armature_0_D12_machined_steel_cooling-internal",
+          "COOL_contact_ring_0",
+          "COOL_fan_0_COOL_enamelled_copper_cooling-internal",
+          "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "COOL_fan_0_D12_forged_steel_bearing-cover"
+        ],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 4,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 99.77083333332476,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 101142.10000000149,
+      "updateMs": 2.1999999955296516,
+      "queryPollMs": 0,
+      "cacheMs": 0,
+      "submitMs": 1428.8999999985099,
+      "frameWorkMs": 1431.0999999940395,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 711,
+        "skipped": 0,
+        "savedTriangles": 0,
+        "reusedPositive": 0,
+        "waitingForStablePrefix": 6242,
+        "pending": 711,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20947,
+        "prefixNodes": 28606,
+        "proofEntries": 6953,
+        "epochReset": false,
+        "firstChangedDepthDraws": [
+          {
+            "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+            "object": "C5_flywheel_involute_ring",
+            "material": ""
+          }
+        ],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 381,
+        "depthUniformMatrixChanges": 381,
+        "morphUniformChanges": 0,
+        "changedExamples": [
+          "COOL_armature_0_D12_forged_steel_cooling-internal",
+          "COOL_armature_0_D12_machined_steel_cooling-internal",
+          "COOL_contact_ring_0",
+          "COOL_fan_0_COOL_enamelled_copper_cooling-internal",
+          "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "COOL_fan_0_D12_forged_steel_bearing-cover"
+        ],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 1,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 101.05416666665693,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 102753.69999999553,
+      "updateMs": 2.2000000029802322,
+      "queryPollMs": 0,
+      "cacheMs": 0,
+      "submitMs": 1037.3999999985099,
+      "frameWorkMs": 1039.6000000014901,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 0,
+        "skipped": 150,
+        "savedTriangles": 204720,
+        "reusedPositive": 561,
+        "waitingForStablePrefix": 6242,
+        "pending": 0,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20953,
+        "prefixNodes": 40267,
+        "proofEntries": 6953,
+        "epochReset": false,
+        "firstChangedDepthDraws": [
+          {
+            "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+            "object": "C5_flywheel_involute_ring",
+            "material": ""
+          }
+        ],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 381,
+        "depthUniformMatrixChanges": 381,
+        "morphUniformChanges": 0,
+        "changedExamples": [
+          "COOL_armature_0_D12_forged_steel_cooling-internal",
+          "COOL_armature_0_D12_machined_steel_cooling-internal",
+          "COOL_contact_ring_0",
+          "COOL_fan_0_COOL_enamelled_copper_cooling-internal",
+          "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "COOL_fan_0_D12_forged_steel_bearing-cover"
+        ],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 1.300048828125,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9155,
+      "triangles": 21378195,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 102.66666666665546,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 104010.29999999702,
+      "updateMs": 2.2000000029802322,
+      "queryPollMs": 0,
+      "cacheMs": 0,
+      "submitMs": 1057.7999999970198,
+      "frameWorkMs": 1060,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 6,
+        "skipped": 150,
+        "savedTriangles": 204720,
+        "reusedPositive": 561,
+        "waitingForStablePrefix": 6236,
+        "pending": 6,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20956,
+        "prefixNodes": 51748,
+        "proofEntries": 6953,
+        "epochReset": false,
+        "firstChangedDepthDraws": [
+          {
+            "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+            "object": "C5_flywheel_involute_ring",
+            "material": ""
+          }
+        ],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 381,
+        "depthUniformMatrixChanges": 381,
+        "morphUniformChanges": 0,
+        "changedExamples": [
+          "COOL_armature_0_D12_forged_steel_cooling-internal",
+          "COOL_armature_0_D12_machined_steel_cooling-internal",
+          "COOL_contact_ring_0",
+          "COOL_fan_0_COOL_enamelled_copper_cooling-internal",
+          "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "COOL_fan_0_D12_forged_steel_bearing-cover"
+        ],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 1.10009765625,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9155,
+      "triangles": 21378195,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 103.92499999998765,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 105276.89999999851,
+      "updateMs": 2.2999999970197678,
+      "queryPollMs": 0,
+      "cacheMs": 0,
+      "submitMs": 1069.1000000014901,
+      "frameWorkMs": 1071.3999999985099,
+      "cacheChange": null,
+      "occlusionPrefix": {
+        "kind": "spatial-depth-prefix-occlusion",
+        "queried": 0,
+        "skipped": 26,
+        "savedTriangles": 12156,
+        "reusedPositive": 257,
+        "waitingForStablePrefix": 6670,
+        "pending": 0,
+        "unsupported": 1,
+        "passes": 3,
+        "queryError": 0,
+        "spatialBounds": 6950,
+        "fullViewportBounds": 3,
+        "tileTouches": 20947,
+        "prefixNodes": 66127,
+        "proofEntries": 6953,
+        "epochReset": false,
+        "firstChangedDepthDraws": [
+          {
+            "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+            "object": "C5_flywheel_involute_ring",
+            "material": "D12_machined_steel"
+          },
+          {
+            "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+            "object": "C5_flywheel_involute_ring",
+            "material": ""
+          }
+        ],
+        "firstChangedFullViewportDraws": [],
+        "limits": "Development-only ordered per-tile depth dependencies using outward influence bounds, original query coverage/MSAA. No shadow culling, moving-target inference or steady-state FPS claim."
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 662,
+        "depthUniformMatrixChanges": 582,
+        "morphUniformChanges": 0,
+        "changedExamples": [
+          "COOL_armature_0_D12_forged_steel_cooling-internal",
+          "COOL_armature_0_D12_machined_steel_cooling-internal",
+          "COOL_contact_ring_0",
+          "COOL_fan_0_COOL_enamelled_copper_cooling-internal",
+          "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "COOL_fan_0_D12_forged_steel_bearing-cover"
+        ],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 3.7998046875,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9279,
+      "triangles": 21570759,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 105.1874999999865,
+      "simulationBacklog": 0
+    }
+  ]
+}

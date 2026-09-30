@@ -1,0 +1,133 @@
+{
+  "whole-still": {
+    "shadowCache": {
+      "refresh": false,
+      "eligible": true,
+      "casters": 2322,
+      "signatureValues": 139603,
+      "reasons": []
+    },
+    "baseline": {
+      "calls": 9305,
+      "triangles": 21582915,
+      "synchronizedMs": 1658
+    },
+    "optimized": {
+      "calls": 6983,
+      "triangles": 16187549,
+      "synchronizedMs": 1511.2999999970198
+    },
+    "differentPixels": 0
+  },
+  "whole-side": {
+    "shadowCache": {
+      "refresh": false,
+      "eligible": true,
+      "casters": 2322,
+      "signatureValues": 139603,
+      "reasons": []
+    },
+    "baseline": {
+      "calls": 9305,
+      "triangles": 21582915,
+      "synchronizedMs": 1932.5999999977648
+    },
+    "optimized": {
+      "calls": 6983,
+      "triangles": 16187549,
+      "synchronizedMs": 1616.4000000022352
+    },
+    "differentPixels": 0
+  },
+  "whole-door": {
+    "shadowCache": {
+      "refresh": true,
+      "eligible": true,
+      "casters": 2322,
+      "signatureValues": 139603,
+      "reasons": []
+    },
+    "baseline": {
+      "calls": 9306,
+      "triangles": 21582915,
+      "synchronizedMs": 2380.900000002235
+    },
+    "optimized": {
+      "calls": 9306,
+      "triangles": 21582915,
+      "synchronizedMs": 2367.7999999970198
+    },
+    "differentPixels": 0
+  },
+  "whole-suspension": {
+    "shadowCache": {
+      "refresh": true,
+      "eligible": true,
+      "casters": 2322,
+      "signatureValues": 139603,
+      "reasons": []
+    },
+    "baseline": {
+      "calls": 9329,
+      "triangles": 21583203,
+      "synchronizedMs": 1728.800000000745
+    },
+    "optimized": {
+      "calls": 9329,
+      "triangles": 21583203,
+      "synchronizedMs": 1759.5
+    },
+    "differentPixels": 0
+  },
+  "whole-section": {
+    "shadowCache": {
+      "refresh": true,
+      "eligible": false,
+      "casters": 3042,
+      "signatureValues": 193078,
+      "reasons": [
+        "shadow clipping"
+      ]
+    },
+    "baseline": {
+      "calls": 9138,
+      "triangles": 20352995,
+      "synchronizedMs": 1796.9000000022352
+    },
+    "optimized": {
+      "calls": 9138,
+      "triangles": 20352995,
+      "synchronizedMs": 1808.1000000014901
+    },
+    "differentPixels": 0
+  },
+  "phase-baseline": {
+    "sampleCount": 12,
+    "meanStartGapMs": 1743.7727272727273,
+    "medianStartGapMs": 1729.300000000745,
+    "meanSubmitMs": 252.36666666778424,
+    "meanUpdateMs": 3.1416666662941375,
+    "drawCalls": [
+      9305
+    ],
+    "triangles": [
+      21582915
+    ],
+    "maxSimulationBacklog": 0
+  },
+  "phase-cached": {
+    "sampleCount": 12,
+    "meanStartGapMs": 1659.8909090909767,
+    "medianStartGapMs": 1659.3999999985099,
+    "meanSubmitMs": 108.97500000024836,
+    "meanUpdateMs": 4.066666666418314,
+    "drawCalls": [
+      6983
+    ],
+    "triangles": [
+      16187549
+    ],
+    "maxSimulationBacklog": 0
+  },
+  "limits": "Sequential 12-frame samples of forced complete rendering at fixed pose, same worker/native RAF and diagnostic overhead. Not a randomized benchmark or ordinary static-cache FPS. Pixel pairs are separate and include readback."
+}

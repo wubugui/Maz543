@@ -1,0 +1,315 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "files": [
+    {
+      "file": "AGENT_START_HERE.md",
+      "bytes": 26129,
+      "sha256": "e49bd8873155058e4aa58e211e91a80fb6f68cfb4733f1224859e7fb15adc3ea"
+    },
+    {
+      "file": "NEXT_AGENT_PROMPT.md",
+      "bytes": 18531,
+      "sha256": "3dad36ff892de366652c17ec2035b1b381014177ae5b049768c50037c551c2a3"
+    },
+    {
+      "file": "docs/ACCEPTANCE.md",
+      "bytes": 31356,
+      "sha256": "677495dd7e4b568fdebbb1338066cb2c317e9fac4848a2ffd31ff1ac06bd96b5"
+    },
+    {
+      "file": "docs/BROWSER_BACKEND_COMPARISON_20260909.md",
+      "bytes": 1988,
+      "sha256": "29025f9a9890d89e1949ade28095d2c0a3f31ece329abd05b8a3a505067157c0"
+    },
+    {
+      "file": "docs/CONTEXT_FRAME_AUDIT_20260909.md",
+      "bytes": 5032,
+      "sha256": "e0bb4d7422917d3593016032be9781af08da53243b419243ec03fb84dc4034af"
+    },
+    {
+      "file": "docs/CONTINUATION_20260908.md",
+      "bytes": 19420,
+      "sha256": "0a71f8b332baa47502a3d99ce9669ccc6a361396220d9efe6221b792def82cb1"
+    },
+    {
+      "file": "docs/OWNED_DRACO_LIFETIME_20260909.md",
+      "bytes": 2889,
+      "sha256": "1b013b7d74fc3ffb365f2550e80192b21d4a6fa7b024226e7cc77592524ef9b3"
+    },
+    {
+      "file": "lib/contextFrameAudit.ts",
+      "bytes": 6637,
+      "sha256": "cdec188254af663892052a11e70a1a64200bd16928e625873fda09c492c5cb89"
+    },
+    {
+      "file": "lib/nativeModelError.ts",
+      "bytes": 608,
+      "sha256": "e67c1541374081297f0660de3b27921c10f2511f3cc0a21d46a7e34c3a15716c"
+    },
+    {
+      "file": "lib/ownedDracoLifetime.ts",
+      "bytes": 3869,
+      "sha256": "8f728eaf9438e1bfba3ca11e324ae391bcd9915d4d3b480ddc8a9762d3af7e7e"
+    },
+    {
+      "file": "lib/vehicleViewport.ts",
+      "bytes": 61842,
+      "sha256": "0c11bb210a3f9a4f8e5dc8b047046cd5d620c8f58adea16479f4c76401027165"
+    },
+    {
+      "file": "outputs/browser-backend-comparison/chrome-canvas-size.json",
+      "bytes": 98,
+      "sha256": "5daefc2a7616a269e3b2db6b0f72890c1d1b41353c06be4701498eb643149be7"
+    },
+    {
+      "file": "outputs/browser-backend-comparison/chrome-engine-ax.txt",
+      "bytes": 27502,
+      "sha256": "e0071791e0cc68b68efb5ad4aef9b82f89aa802be02f735d5df00e1dc18a1d1c"
+    },
+    {
+      "file": "outputs/browser-backend-comparison/chrome-engine.json",
+      "bytes": 20495,
+      "sha256": "e559b552af00fc87060dfa0ae1074aa8985573ea36822603ab42da225fe10759"
+    },
+    {
+      "file": "outputs/browser-backend-comparison/summary.json",
+      "bytes": 349,
+      "sha256": "7b69846a861e728f8e8a6381c6aedc4716b862efafbe72eb169687c35264e35b"
+    },
+    {
+      "file": "outputs/context-frame-audit/asset-integrity.json",
+      "bytes": 1607,
+      "sha256": "58725635ed2b8e99fde1b29a0424144364b5a67e55aeb029136f7ca6856020e7"
+    },
+    {
+      "file": "outputs/context-frame-audit/comparison.json",
+      "bytes": 2421,
+      "sha256": "a6905fe162077c339ed68958ec6c9ef1ccb33d083c558ddb27e51e9751be1ff7"
+    },
+    {
+      "file": "outputs/context-frame-audit/former-process-after-close.json",
+      "bytes": 91,
+      "sha256": "953b718f9eb973f2362f8752b8f6cca338980f82bdcc64cb47b3c426ea9c8d06"
+    },
+    {
+      "file": "outputs/context-frame-audit/main-perspective-ax.txt",
+      "bytes": 9182,
+      "sha256": "ffb1028b9e160659057aadab532979c614f10fcff481a19761311937c326f191"
+    },
+    {
+      "file": "outputs/context-frame-audit/main-perspective.json",
+      "bytes": 1792,
+      "sha256": "5c8cbee17352c948ce1dea44aaa76814dc0fe7b82c566d3ce6f0357abe4e6aaa"
+    },
+    {
+      "file": "outputs/context-frame-audit/main-side-ax.txt",
+      "bytes": 9090,
+      "sha256": "a257d6481f5d5645b658e63fc65f95ee86bacd12456a4a94fa46987b2ea5eb8b"
+    },
+    {
+      "file": "outputs/context-frame-audit/main-side-door-ax.txt",
+      "bytes": 9302,
+      "sha256": "1f6540b8d786c24320205a85ffb82ee4f8af6cf6d7dfc7dd50f159ce8eb96bad"
+    },
+    {
+      "file": "outputs/context-frame-audit/main-side-door.json",
+      "bytes": 1701,
+      "sha256": "f3c4d7d354ab242d0adaccd5dd7f7810a96bf197150a779501136d0a2e5fe39c"
+    },
+    {
+      "file": "outputs/context-frame-audit/main-side-door.png",
+      "bytes": 80815,
+      "sha256": "ad4a750a0ce516d85b7bf8ca7cee845a13787f604020b52a18e1abb3e3501e33"
+    },
+    {
+      "file": "outputs/context-frame-audit/main-side.json",
+      "bytes": 1700,
+      "sha256": "69cde01f663e183bc58ff2966598554d3a89905605563bb29456b7779dccea06"
+    },
+    {
+      "file": "outputs/context-frame-audit/memory-after-close.json",
+      "bytes": 1377,
+      "sha256": "4d53c08b3f8983768247a80b222338ccea9baa875040e626e7bbf7c9eac78986"
+    },
+    {
+      "file": "outputs/context-frame-audit/memory-before-close.json",
+      "bytes": 1381,
+      "sha256": "084ab9a1c221e0f16bd2b78252793036644e37596b1bf19b210f890620b532a4"
+    },
+    {
+      "file": "outputs/context-frame-audit/memory-fresh-loaded.json",
+      "bytes": 1101,
+      "sha256": "bb71704342623dc9a5071ce8b75ef9d97b7d55da2e9e1fdd75821b9aa35d79cd"
+    },
+    {
+      "file": "outputs/context-frame-audit/noise-tests.json",
+      "bytes": 377,
+      "sha256": "8814ed7b5aba7081758c353481223aa5bce8f01080014f942d51754eb8f80c3b"
+    },
+    {
+      "file": "outputs/context-frame-audit/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "file": "outputs/context-frame-audit/worker-allocation-failure-ax.txt",
+      "bytes": 7567,
+      "sha256": "dbeddd098047da020e8119e336d9412d5c32705fd5f0f8cdf9eb1742401e84d4"
+    },
+    {
+      "file": "outputs/context-frame-audit/worker-load-failure-ax.txt",
+      "bytes": 7484,
+      "sha256": "914c2390359dd9be6de5dba4297d981d2a844ef07932f478c0a5d8b74bc8b912"
+    },
+    {
+      "file": "outputs/context-frame-audit/worker-perspective-ax.txt",
+      "bytes": 9249,
+      "sha256": "4502003fec2acf0ad2bb2f08718c5401479a38cc19c76bc9489456ad20cb97d1"
+    },
+    {
+      "file": "outputs/context-frame-audit/worker-perspective.json",
+      "bytes": 1800,
+      "sha256": "1e9ce87ba775ff34091cf55c52ae795166e306bdc6850a71ed6de5f35efaf2f7"
+    },
+    {
+      "file": "outputs/context-frame-audit/worker-side-ax.txt",
+      "bytes": 9157,
+      "sha256": "fb564b45555707b1371ff858735f0a354995bf57273892a117a65866789c0884"
+    },
+    {
+      "file": "outputs/context-frame-audit/worker-side-door-ax.txt",
+      "bytes": 9367,
+      "sha256": "36a7d9daf87546ed9605cfb1b61c291be2254191280187caeed073693a460ae6"
+    },
+    {
+      "file": "outputs/context-frame-audit/worker-side-door.json",
+      "bytes": 1707,
+      "sha256": "055a5998134c0bd4a946672d621714142c7e665b117b7fa680d3ab6bd80f9639"
+    },
+    {
+      "file": "outputs/context-frame-audit/worker-side.json",
+      "bytes": 1708,
+      "sha256": "32f6413785fab27a455c33c1e76ff7aa50f84c50a1ac4e060954e6ac7757759f"
+    },
+    {
+      "file": "outputs/context-frame-audit/worker-structured-load-failure-ax.txt",
+      "bytes": 7500,
+      "sha256": "493678f31f6dafcce2d897186a11a2f10903283eb95dd0e3956bf5c8d13b3ed9"
+    },
+    {
+      "file": "outputs/owned-draco-lifetime/final-normal-ax.txt",
+      "bytes": 7329,
+      "sha256": "890f3f4d12f7c4a805995a1c2d83b35048daf136485759748d5256da213c0619"
+    },
+    {
+      "file": "outputs/owned-draco-lifetime/final-normal.png",
+      "bytes": 70565,
+      "sha256": "6353d33c0edc19b98fddc029adb33242f1bab8303fdb72fd915cfcac3f3a2baf"
+    },
+    {
+      "file": "outputs/owned-draco-lifetime/memory-normal-loaded.json",
+      "bytes": 1692,
+      "sha256": "d9b46279a3122e70bb59025d56295d5d134e1b7ddfb49cd26f0ec59d4ea2fe2a"
+    },
+    {
+      "file": "outputs/owned-draco-lifetime/tests.json",
+      "bytes": 592,
+      "sha256": "1f57c30833d8d1632b40c2ccf3dbaa8b7c70bbbb0c9917dc8732cb8adfd9360b"
+    },
+    {
+      "file": "scripts/archive-context-and-decoder-lifecycle.py",
+      "bytes": 3063,
+      "sha256": "c13eb33be69c3522082b1390843dafc84d43e7cb425fa1d924dba2e167a084fa"
+    },
+    {
+      "file": "scripts/compare-context-frame-audits.py",
+      "bytes": 1950,
+      "sha256": "74d34d3f597db11d522fe343f81c9da7e300644431af6459e15198bc6d821dd3"
+    },
+    {
+      "file": "scripts/verify-context-assets.py",
+      "bytes": 951,
+      "sha256": "b66b1a28ab6ada8830ba4425abb9f804bb7a9b5d6b0399128de2bf36870048b8"
+    },
+    {
+      "file": "scripts/verify-context-audit-noise.mjs",
+      "bytes": 2225,
+      "sha256": "4cdc1ef383988a60d75270c33ee8e1101b30c37f61428621db6dc4dbbbec36f4"
+    },
+    {
+      "file": "scripts/verify-context-frame-integrity.py",
+      "bytes": 2036,
+      "sha256": "9483e428bca781cc02a97fe6c375dcc887d7a00896bd97f039576f5ee4b7e266"
+    },
+    {
+      "file": "scripts/verify-owned-draco-lifetime.mjs",
+      "bytes": 5165,
+      "sha256": "e3241e5639f51e7db6a60de2a215f7c508a27f368a8470b1b0fefe698767d01d"
+    },
+    {
+      "file": "work/context-frame-audit/assets.log",
+      "bytes": 1609,
+      "sha256": "683c92c72400ce92360b134eb4206547669cdeda0fe4cebeb093d9ef0be0727c"
+    },
+    {
+      "file": "work/context-frame-audit/build.log",
+      "bytes": 2561,
+      "sha256": "228e1c5417fbf2b5948f3f2180ee6ca4a747440e948ce0158ed3932ac94e1d17"
+    },
+    {
+      "file": "work/context-frame-audit/comparison.log",
+      "bytes": 1766,
+      "sha256": "ae18785f37ebe113282e8edef569e7354ff1a4993a1ae577e97d0e6043b58e3c"
+    },
+    {
+      "file": "work/context-frame-audit/error-format-tests.log",
+      "bytes": 67,
+      "sha256": "5cce6eecaa8bf92c695a33fe87a192d4aad6a0390b8d8c3a173dfb20810ca215"
+    },
+    {
+      "file": "work/context-frame-audit/final-build.log",
+      "bytes": 2228,
+      "sha256": "cd40e616ed4c3c5926f3fe6a9f2602730e24aad4ad990790120128f5d5f84e0d"
+    },
+    {
+      "file": "work/context-frame-audit/final-types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "file": "work/context-frame-audit/integrity.log",
+      "bytes": 74,
+      "sha256": "11932fc03938f487caa7b8bb703092740d1a64da0f1d6d44a20acf6072fda199"
+    },
+    {
+      "file": "work/context-frame-audit/noise-tests.log",
+      "bytes": 387,
+      "sha256": "b5e88c208ecc156846e221a47d1de479acfc7831fc3c68ddf6a064dc257e7724"
+    },
+    {
+      "file": "work/context-frame-audit/types.log",
+      "bytes": 304,
+      "sha256": "dea8aa7bd264350cb9958356e544199a2b026c863651e30560c290abd40800f7"
+    },
+    {
+      "file": "work/owned-draco-lifetime/build.log",
+      "bytes": 2876,
+      "sha256": "04f99eb4f113b50f218b5d309b1fdd6e1ffe5daeee8fd37d53df5381a46ab4d3"
+    },
+    {
+      "file": "work/owned-draco-lifetime/tests.log",
+      "bytes": 605,
+      "sha256": "0feec3b3ef4fa9e6d8f90b9bb806c75c149dd34c49150d2a780afc5ad268bf35"
+    },
+    {
+      "file": "work/owned-draco-lifetime/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "count": 61,
+  "bytes": 515356,
+  "copyVerification": "Every file byte-equal and SHA-256 recorded",
+  "limits": "Decoder lifecycle regression passed and complete ordinary app loaded. Cross-context pixel comparison failed. Whole-vehicle dynamic performance and full mechanical product goal remain unfinished."
+}

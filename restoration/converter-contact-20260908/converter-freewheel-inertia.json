@@ -1,0 +1,37 @@
+{
+  "densityKgM3": 7850,
+  "roller": {
+    "node": "CV_front_roller_0",
+    "volumeM3": 1.8088308646966214e-06,
+    "massKg": 0.014199322287868478,
+    "axialInertiaKgM2": 2.554851750521187e-07
+  },
+  "outerAssemblyInertiaKgM2": 0.00828493264129215,
+  "parts": [
+    {
+      "node": "CV_front_roller_0",
+      "volumeM3": 1.8088308646966214e-06,
+      "massKg": 0.014199322287868478,
+      "axialInertiaKgM2": 2.554851750521187e-07
+    },
+    {
+      "node": "CV_front_wedged_outer_race",
+      "volumeM3": 0.00015100582643059983,
+      "massKg": 1.1853957374802087,
+      "axialInertiaKgM2": 0.006821090630753287
+    },
+    {
+      "node": "CV_front_retainer_-1",
+      "volumeM3": 1.82017389431798e-05,
+      "massKg": 0.14288365070396142,
+      "axialInertiaKgM2": 0.0007319213331992394
+    },
+    {
+      "node": "CV_front_retainer_1",
+      "volumeM3": 1.8201721534031627e-05,
+      "massKg": 0.14288351404214827,
+      "axialInertiaKgM2": 0.0007319206773396231
+    }
+  ],
+  "limits": "Closed native-mesh mass integrals using fitted uniform steel density. Outer assembly excludes unbuilt reactor blades, screws and fluid entrainment. No factory inertia measurement."
+}

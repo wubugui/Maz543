@@ -1,0 +1,28 @@
+{
+  "url": "http://localhost:3000/",
+  "browserTab": "3",
+  "reverseLow": {
+    "wheelRPM": -8,
+    "halfshaftRPM": -40,
+    "propellerRPM": -76,
+    "totalRatio": -24.086,
+    "turbineCalculatedRPM": 225,
+    "pumpRPM": 661,
+    "gearboxOutputRPM": -141
+  },
+  "reverseHigh": {
+    "totalRatio": -13.0194
+  },
+  "neutralCoast": {
+    "pumpRPM": 661,
+    "gearboxOutputRPM": -178,
+    "wheelRPM": -18,
+    "turbine": "not solved"
+  },
+  "screenshots": [
+    "screenshots/reverse-low.png",
+    "screenshots/neutral-coasting.png"
+  ],
+  "finalState": "reset to original whole-vehicle controls",
+  "scope": "UI and straight-running ratio checks only; geometry and hydrodynamics remain open"
+}

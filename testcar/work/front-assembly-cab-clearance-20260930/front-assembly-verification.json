@@ -1,0 +1,443 @@
+{
+  "scope": "Central cover and low round mirrors; bumper/ windshield remain open",
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "archivedOriginals": [
+        "BL_Radiator_top_hatch",
+        "BL_Cab_-1_mirror_back",
+        "BL_Cab_-1_mirror_face",
+        "BL_Cab_-1_mirror_stalk",
+        "BL_Cab_1_mirror_back",
+        "BL_Cab_1_mirror_face",
+        "BL_Cab_1_mirror_stalk"
+      ],
+      "parts": [
+        {
+          "name": "BL_Front_center_cover_NURBS",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              -5.55997371673584,
+              2.0101478099823,
+              -0.5099933743476868
+            ],
+            "max": [
+              -2.929996967315674,
+              2.3539881706237793,
+              0.509993314743042
+            ]
+          },
+          "modifiers": [
+            "SOLIDIFY",
+            "BOOLEAN",
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_cover_lip",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              -5.590000152587891,
+              1.9455000162124634,
+              -0.7099999785423279
+            ],
+            "max": [
+              -5.470000267028809,
+              2.05049991607666,
+              0.7099999785423279
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_cover_latch_-0.46",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              -5.625340461730957,
+              1.9954266548156738,
+              -0.4710000157356262
+            ],
+            "max": [
+              -5.56231164932251,
+              2.085867166519165,
+              -0.4490000009536743
+            ]
+          },
+          "modifiers": []
+        },
+        {
+          "name": "BL_Front_cover_latch_0.46",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              -5.625340461730957,
+              1.9954266548156738,
+              0.4490000009536743
+            ],
+            "max": [
+              -5.56231164932251,
+              2.085867166519165,
+              0.4710000157356262
+            ]
+          },
+          "modifiers": []
+        },
+        {
+          "name": "BL_Front_mirror_arm_-1",
+          "parent": "cab_pivot_001",
+          "bounds": {
+            "min": [
+              -5.4655585289001465,
+              1.2237027883529663,
+              -1.8029268980026245
+            ],
+            "max": [
+              -5.2886457443237305,
+              1.5911751985549927,
+              -1.4915759563446045
+            ]
+          },
+          "modifiers": []
+        },
+        {
+          "name": "BL_Front_mirror_back_-1",
+          "parent": "cab_pivot_001",
+          "bounds": {
+            "min": [
+              -5.468499660491943,
+              1.5470000505447388,
+              -1.8629999160766602
+            ],
+            "max": [
+              -5.43149995803833,
+              1.6929999589920044,
+              -1.7170000076293945
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_mirror_face_-1",
+          "parent": "cab_pivot_001",
+          "bounds": {
+            "min": [
+              -5.43149995803833,
+              1.5540000200271606,
+              -1.8559999465942383
+            ],
+            "max": [
+              -5.426499843597412,
+              1.6859999895095825,
+              -1.7239999771118164
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_mirror_arm_1",
+          "parent": "cab_pivot_005",
+          "bounds": {
+            "min": [
+              -5.4655585289001465,
+              1.2237027883529663,
+              1.4915759563446045
+            ],
+            "max": [
+              -5.2886457443237305,
+              1.5911751985549927,
+              1.8029268980026245
+            ]
+          },
+          "modifiers": []
+        },
+        {
+          "name": "BL_Front_mirror_back_1",
+          "parent": "cab_pivot_005",
+          "bounds": {
+            "min": [
+              -5.468499660491943,
+              1.5470000505447388,
+              1.7170000076293945
+            ],
+            "max": [
+              -5.43149995803833,
+              1.6929999589920044,
+              1.8629999160766602
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_mirror_face_1",
+          "parent": "cab_pivot_005",
+          "bounds": {
+            "min": [
+              -5.43149995803833,
+              1.5540000200271606,
+              1.7239999771118164
+            ],
+            "max": [
+              -5.426499843597412,
+              1.6859999895095825,
+              1.8559999465942383
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        }
+      ],
+      "mechanicalSurfaceIntersectionTest": {
+        "tested": 3120,
+        "intersections": []
+      },
+      "expansionAccessPort": {
+        "centerBrowser": [
+          -4.65,
+          2.3,
+          0.42
+        ],
+        "radiusM": 0.05,
+        "capRadiusM": 0.039,
+        "nominalRadialClearanceM": 0.011
+      },
+      "dimensions": "Photographic fit; factory dimension validation OPEN"
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "archivedOriginals": [
+        "BL_Radiator_top_hatch",
+        "BL_Cab_-1_mirror_back",
+        "BL_Cab_-1_mirror_face",
+        "BL_Cab_-1_mirror_stalk",
+        "BL_Cab_1_mirror_back",
+        "BL_Cab_1_mirror_face",
+        "BL_Cab_1_mirror_stalk"
+      ],
+      "parts": [
+        {
+          "name": "BL_Front_center_cover_NURBS",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              -5.55997371673584,
+              2.0101478099823,
+              -0.5099933743476868
+            ],
+            "max": [
+              -2.929996967315674,
+              2.3539881706237793,
+              0.509993314743042
+            ]
+          },
+          "modifiers": [
+            "SOLIDIFY",
+            "BOOLEAN",
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_cover_lip",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              -5.590000152587891,
+              1.9455000162124634,
+              -0.7099999785423279
+            ],
+            "max": [
+              -5.470000267028809,
+              2.05049991607666,
+              0.7099999785423279
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_cover_latch_-0.46",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              -5.625340461730957,
+              1.9954266548156738,
+              -0.4710000157356262
+            ],
+            "max": [
+              -5.56231164932251,
+              2.085867166519165,
+              -0.4490000009536743
+            ]
+          },
+          "modifiers": []
+        },
+        {
+          "name": "BL_Front_cover_latch_0.46",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              -5.625340461730957,
+              1.9954266548156738,
+              0.4490000009536743
+            ],
+            "max": [
+              -5.56231164932251,
+              2.085867166519165,
+              0.4710000157356262
+            ]
+          },
+          "modifiers": []
+        },
+        {
+          "name": "BL_Front_mirror_arm_-1",
+          "parent": "cab_pivot_001",
+          "bounds": {
+            "min": [
+              -5.4655585289001465,
+              1.2237027883529663,
+              -1.8029268980026245
+            ],
+            "max": [
+              -5.2886457443237305,
+              1.5911751985549927,
+              -1.4915759563446045
+            ]
+          },
+          "modifiers": []
+        },
+        {
+          "name": "BL_Front_mirror_back_-1",
+          "parent": "cab_pivot_001",
+          "bounds": {
+            "min": [
+              -5.468499660491943,
+              1.5470000505447388,
+              -1.8629999160766602
+            ],
+            "max": [
+              -5.43149995803833,
+              1.6929999589920044,
+              -1.7170000076293945
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_mirror_face_-1",
+          "parent": "cab_pivot_001",
+          "bounds": {
+            "min": [
+              -5.43149995803833,
+              1.5540000200271606,
+              -1.8559999465942383
+            ],
+            "max": [
+              -5.426499843597412,
+              1.6859999895095825,
+              -1.7239999771118164
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_mirror_arm_1",
+          "parent": "cab_pivot_005",
+          "bounds": {
+            "min": [
+              -5.4655585289001465,
+              1.2237027883529663,
+              1.4915759563446045
+            ],
+            "max": [
+              -5.2886457443237305,
+              1.5911751985549927,
+              1.8029268980026245
+            ]
+          },
+          "modifiers": []
+        },
+        {
+          "name": "BL_Front_mirror_back_1",
+          "parent": "cab_pivot_005",
+          "bounds": {
+            "min": [
+              -5.468499660491943,
+              1.5470000505447388,
+              1.7170000076293945
+            ],
+            "max": [
+              -5.43149995803833,
+              1.6929999589920044,
+              1.8629999160766602
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_mirror_face_1",
+          "parent": "cab_pivot_005",
+          "bounds": {
+            "min": [
+              -5.43149995803833,
+              1.5540000200271606,
+              1.7239999771118164
+            ],
+            "max": [
+              -5.426499843597412,
+              1.6859999895095825,
+              1.8559999465942383
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        }
+      ],
+      "mechanicalSurfaceIntersectionTest": {
+        "tested": 3104,
+        "intersections": []
+      },
+      "expansionAccessPort": {
+        "centerBrowser": [
+          -4.65,
+          2.3,
+          0.42
+        ],
+        "radiusM": 0.05,
+        "capRadiusM": 0.039,
+        "nominalRadialClearanceM": 0.011
+      },
+      "dimensions": "Photographic fit; factory dimension validation OPEN"
+    }
+  ]
+}

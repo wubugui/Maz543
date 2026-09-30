@@ -1,0 +1,76 @@
+{
+  "baseline": "outputs\\render-worker-evidence\\whole-current-pose.glb",
+  "candidate": "outputs\\tangent-audit\\whole-guarded-tangents.glb",
+  "bytes": [
+    349722388,
+    349722392
+  ],
+  "binaryBytes": 346418624,
+  "binarySha256": [
+    "cb5a1ca51d7c539b9443e73e0752f3cfbe7964508165e57add148e71400acb82",
+    "3120117f6cc46b4b34e707bde3a7e721f268b56f1bb2720d6f9d397e805990f4"
+  ],
+  "binaryDifferentBytes": 5982,
+  "differentBytesOutsideTangentXYZ": 0,
+  "outsideTangentExamples": [],
+  "jsonChanges": [
+    {
+      "path": "/accessors/5332/min/0",
+      "before": -0.7221999764442444,
+      "after": -0.9922104477882385
+    },
+    {
+      "path": "/accessors/5352/min/0",
+      "before": -0.7221999764442444,
+      "after": -0.9922104477882385
+    },
+    {
+      "path": "/accessors/5598/max/2",
+      "before": 0.600488543510437,
+      "after": 0.9674140214920044
+    },
+    {
+      "path": "/accessors/5598/min/0",
+      "before": -0.760699987411499,
+      "after": -0.7859367728233337
+    },
+    {
+      "path": "/accessors/5618/max/2",
+      "before": 0.600488543510437,
+      "after": 0.9674140214920044
+    },
+    {
+      "path": "/accessors/5618/min/0",
+      "before": -0.760699987411499,
+      "after": -0.7859367728233337
+    },
+    {
+      "path": "/nodes/0/matrix/1",
+      "before": 3.055261561224527e-20,
+      "after": -4.650787043281072e-19
+    },
+    {
+      "path": "/nodes/0/matrix/4",
+      "before": -3.055261561224527e-20,
+      "after": 4.650787043281072e-19
+    },
+    {
+      "path": "/nodes/0/matrix/13",
+      "before": 1.172614132133459e-09,
+      "after": 1.172614130589548e-09
+    }
+  ],
+  "nodes": [
+    3226,
+    3226
+  ],
+  "meshes": [
+    1758,
+    1758
+  ],
+  "images": [
+    9,
+    9
+  ],
+  "limits": "Exports were made at different mechanical times. Report every JSON difference; do not assume identical snapshots."
+}

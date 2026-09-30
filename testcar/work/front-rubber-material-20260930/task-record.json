@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-532d29ad-1176-4f33-b283-6fc9374864e5",
+  "upload": {
+    "upload_id": "c9c724be-3581-42ea-83b0-50810da2c381",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "c9c724be-3581-42ea-83b0-50810da2c381",
+    "name": "hub-front-rubber-material.py",
+    "mime": "text/x-python",
+    "size": 2414,
+    "sha256": "b216ebf74f883e39c29ec802b0f933b545c9932fd61be97ab04c18adbbfe1f42",
+    "created": 1790787211.6071284,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/c9c724be-3581-42ea-83b0-50810da2c381/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A native dark rubber export repair with complete mirrors",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "5bcde896a74e4b13837171da0e6bbc9a",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "abfe8a8391c497d433759448b804f073",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "c9c724be-3581-42ea-83b0-50810da2c381",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "c1a4ba00-bb68-4e6e-93ef-5185486828c7",
+    "task_ids": [
+      "6d59d4ae-9f24-4055-801f-0a965ebe9c22"
+    ],
+    "task_id": "6d59d4ae-9f24-4055-801f-0a965ebe9c22"
+  }
+}

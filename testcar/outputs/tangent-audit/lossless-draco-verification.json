@@ -1,0 +1,69 @@
+{
+  "plainBytes": 17807964,
+  "compressedBytes": 16285152,
+  "rows": [
+    {
+      "node": "BL_Merged_body_OD_green_aged_enamel",
+      "primitive": 0,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "baseline": {
+        "vertices": 19376,
+        "uniqueVertexRecords": 19328,
+        "triangles": 10072,
+        "vertexMultisetSha256": "b348a4a67aa07eebe65edc423b7e602fbbfe70b85575391c482d3c46fb914445",
+        "uniqueVertexRecordsSha256": "235dd1e134b370d332c9b797aca5a15359b1ecc7da3f21158c9e2024c781dd9c",
+        "orientedCornerMultisetSha256": "818225d1d3e12e41cfde7a5e5eee40c128e4d2562cf78532713643c8089a9c52"
+      },
+      "candidate": {
+        "vertices": 19414,
+        "uniqueVertexRecords": 19328,
+        "triangles": 10072,
+        "vertexMultisetSha256": "dca5a50208e66c306591b851f5a4e853bf34864e15568ca44f5cb652a1698bd7",
+        "uniqueVertexRecordsSha256": "235dd1e134b370d332c9b797aca5a15359b1ecc7da3f21158c9e2024c781dd9c",
+        "orientedCornerMultisetSha256": "818225d1d3e12e41cfde7a5e5eee40c128e4d2562cf78532713643c8089a9c52"
+      },
+      "surfaceAttributesBitExact": true,
+      "uniqueVertexRecordsBitExact": true,
+      "vertexStorageIdentical": false,
+      "additionalDuplicateVertexRecords": 38
+    },
+    {
+      "node": "BL_Merged_wheels_pivot_002_Tyre_rubber",
+      "primitive": 0,
+      "attributes": [
+        "NORMAL",
+        "POSITION",
+        "TANGENT",
+        "TEXCOORD_0",
+        "TEXCOORD_1"
+      ],
+      "baseline": {
+        "vertices": 195907,
+        "uniqueVertexRecords": 195907,
+        "triangles": 126804,
+        "vertexMultisetSha256": "1938bdcc9bc6b4fbbe9d2763b966aad25035700ea32f566bace56fb8f9899384",
+        "uniqueVertexRecordsSha256": "1938bdcc9bc6b4fbbe9d2763b966aad25035700ea32f566bace56fb8f9899384",
+        "orientedCornerMultisetSha256": "a468c0df96baa506c59fdd87e782b4e24f5f1652784b177ef62d5e387d3bd5a8"
+      },
+      "candidate": {
+        "vertices": 196078,
+        "uniqueVertexRecords": 195907,
+        "triangles": 126804,
+        "vertexMultisetSha256": "3be18446777bc3fd5686da570a7b1ecd71435915dee5870358c1d7c8e344e97a",
+        "uniqueVertexRecordsSha256": "1938bdcc9bc6b4fbbe9d2763b966aad25035700ea32f566bace56fb8f9899384",
+        "orientedCornerMultisetSha256": "a468c0df96baa506c59fdd87e782b4e24f5f1652784b177ef62d5e387d3bd5a8"
+      },
+      "surfaceAttributesBitExact": true,
+      "uniqueVertexRecordsBitExact": true,
+      "vertexStorageIdentical": false,
+      "additionalDuplicateVertexRecords": 171
+    }
+  ],
+  "limits": "Two native source objects only. Zero quantization is verified against the same Blender uncompressed glTF export, not against every Blender internal value. Complete oriented triangle-corner attribute records are compared with multiplicity; duplicate vertex storage and connectivity are not claimed identical. Source zero tangents are not repaired. No runtime asset replaced."
+}

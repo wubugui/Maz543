@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "exactInputChangesResetObservation": true,
+  "reappearingMeshRequiresObservation": true,
+  "sharedGeometryAndAttributesRetained": true,
+  "sourcePoseAndMaterialsUnchanged": true,
+  "ownedClonesAndMaterialsOnlyDisposed": true,
+  "visibleGroupsCounted": true,
+  "unsupportedDepthPathsExcluded": true,
+  "limits": "Actual Three object/resource tests; real WebGL queries and restored display pixels require browser evidence."
+}

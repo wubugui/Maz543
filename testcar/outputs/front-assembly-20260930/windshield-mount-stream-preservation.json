@@ -1,0 +1,23 @@
+{
+  "preservedMeshNodes": 230,
+  "nativeCandidate": "work/front-export-tangents-20260930/maz543a-blender.glb",
+  "source": "work/front-dark-enamel-20260930/bumper-baseline.glb",
+  "output": "work/front-export-tangents-20260930/maz543a-preserved.glb",
+  "sha256": "e1bad4af9758cc25e7bfffb87ac487404a4099be7fe5c0ab063dd434d033d5ad",
+  "bytes": 20477376,
+  "changedMeshes": [
+    "BL_Merged_cab_pivot_001_OD_green_aged_enamel",
+    "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+    "BL_Merged_cab_pivot_001_Phosphated_steel",
+    "BL_Merged_cab_pivot_005_Phosphated_steel",
+    "BL_Merged_cab_pivot_001_Rubber_window_seals",
+    "BL_Merged_cab_pivot_005_Rubber_window_seals",
+    "BL_Front_mirror_arm_-1",
+    "BL_Front_mirror_arm_1",
+    "BL_Front_box_bumper",
+    "BL_Front_hook_mount",
+    "BL_Front_lower_shield",
+    "BL_Front_single_recovery_hook"
+  ],
+  "scope": "Actual native enlarged windshield apertures, glazing/seals/wipers, physical front mounts and dark front enamel; all unrelated original streams and textures retained."
+}

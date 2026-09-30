@@ -1,0 +1,106 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "passed": true,
+  "measurements": [
+    {
+      "file": "still.json",
+      "skipped": 5377,
+      "savedTriangles": 8277190,
+      "differentPixels": 0,
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1254.6999999955297
+      },
+      "candidate": {
+        "calls": 3928,
+        "triangles": 13305725,
+        "synchronizedMs": 985.8999999985099
+      }
+    },
+    {
+      "file": "engine.json",
+      "skipped": 4814,
+      "savedTriangles": 7900570,
+      "differentPixels": 0,
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1244.2999999970198
+      },
+      "candidate": {
+        "calls": 4491,
+        "triangles": 13682345,
+        "synchronizedMs": 1005.5
+      }
+    },
+    {
+      "file": "side-door.json",
+      "skipped": 3659,
+      "savedTriangles": 6688862,
+      "differentPixels": 0,
+      "baseline": {
+        "calls": 9306,
+        "triangles": 21582915,
+        "synchronizedMs": 1268.4000000059605
+      },
+      "candidate": {
+        "calls": 5647,
+        "triangles": 14894053,
+        "synchronizedMs": 1024.8000000044703
+      }
+    },
+    {
+      "file": "section.json",
+      "skipped": 0,
+      "savedTriangles": 0,
+      "differentPixels": 0,
+      "baseline": {
+        "calls": 9139,
+        "triangles": 20352995,
+        "synchronizedMs": 1249.6999999955297
+      },
+      "candidate": {
+        "calls": 9139,
+        "triangles": 20352995,
+        "synchronizedMs": 1240.7999999970198
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "file": "engine-profile.json",
+      "frames": 12,
+      "meanFrameGapMs": 1023.9909090907736,
+      "medianFrameGapMs": 1020.5,
+      "meanWorkMs": 464.7416666646798,
+      "callsRange": [
+        4107,
+        4539
+      ],
+      "skippedRange": [
+        4766,
+        5198
+      ],
+      "allBacklogZero": true
+    },
+    {
+      "file": "engine-baseline-profile.json",
+      "frames": 12,
+      "meanFrameGapMs": 1280.3363636359572,
+      "medianFrameGapMs": 1277.0,
+      "meanWorkMs": 202.79166666728756,
+      "callsRange": [
+        9305,
+        9305
+      ],
+      "skippedRange": [
+        0,
+        0
+      ],
+      "allBacklogZero": true
+    }
+  ],
+  "limits": "DEV-only candidate; finite actual pixel pairs and consecutive profile windows. Full mechanical fidelity and usable dynamic performance remain unfinished. No quality or mechanical computation reduction."
+}

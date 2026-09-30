@@ -1,0 +1,27 @@
+{
+  "kind": "exact-production-worker-fixtures",
+  "passed": true,
+  "files": [
+    {
+      "file": "dist\\client\\_next\\static\\viewport.worker-D81fNBfT.js",
+      "fixture": "public\\__worker-validation\\viewport.worker-D81fNBfT.js",
+      "url": "http://localhost:3000/__worker-validation/viewport.worker-D81fNBfT.js",
+      "bytes": 906078,
+      "sha256": "9b11274e1727713586840ec3aad048e7703e21e7ed7e0a29ed5a0523e601e82b",
+      "httpStatus": 200,
+      "contentType": "text/javascript",
+      "httpByteEqual": true
+    },
+    {
+      "file": "dist\\client\\_next\\static\\mechanics.worker-txGZjy8K.js",
+      "fixture": "public\\__worker-validation\\mechanics.worker-txGZjy8K.js",
+      "url": "http://localhost:3000/__worker-validation/mechanics.worker-txGZjy8K.js",
+      "bytes": 26069,
+      "sha256": "8daeeedfe0038170be8b65fa96d8794a2d5353f7552b5b4440fc19a3510448d2",
+      "httpStatus": 200,
+      "contentType": "text/javascript",
+      "httpByteEqual": true
+    }
+  ],
+  "limits": "Byte-exact serving verified. Actual browser execution and product interactions still required. Same existing localhost:3000; no server/port/settings changes."
+}

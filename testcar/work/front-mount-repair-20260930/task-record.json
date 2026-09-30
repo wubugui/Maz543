@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-a9aa0008-3650-4461-b10e-64626e412a97",
+  "upload": {
+    "upload_id": "e7512dcb-f661-4cdb-8e45-f9a0af57faae",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "e7512dcb-f661-4cdb-8e45-f9a0af57faae",
+    "name": "hub-front-mount-repair.py",
+    "mime": "text/x-python",
+    "size": 8639,
+    "sha256": "de91a7e4eb1e45ac54b29eefadd3870c661002e7521faaaf1d911478aaafcc70",
+    "created": 1790783734.3338645,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/e7512dcb-f661-4cdb-8e45-f9a0af57faae/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A actual front attachment repair",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "6943eb2996cda5a5f22fb21bd820f061",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "54701e9265ba805803df6b520796f86a",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "e7512dcb-f661-4cdb-8e45-f9a0af57faae",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "5288af57-58c9-4cca-9fbb-944577dc8304",
+    "task_ids": [
+      "d7b7db65-4a78-4b27-ac5c-5030359a971a"
+    ],
+    "task_id": "d7b7db65-4a78-4b27-ac5c-5030359a971a"
+  }
+}

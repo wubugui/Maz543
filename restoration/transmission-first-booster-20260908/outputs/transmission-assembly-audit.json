@@ -1,0 +1,729 @@
+{
+  "clutches": [
+    {
+      "frame": 0,
+      "pack": "first",
+      "discCount": 15,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 0,
+      "pack": "second",
+      "discCount": 11,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 5.100011825561523
+    },
+    {
+      "frame": 0,
+      "pack": "direct",
+      "discCount": 9,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 4.49998676776886
+    },
+    {
+      "frame": 0,
+      "pack": "reverse",
+      "discCount": 15,
+      "pistonToDiscMM": 2.0999908447265625,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 120,
+      "pack": "first",
+      "discCount": 15,
+      "pistonToDiscMM": 0.0,
+      "minInterDiscMM": -1.4901161193847656e-05,
+      "maxInterDiscMM": 1.4901161193847656e-05,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 0.0
+    },
+    {
+      "frame": 120,
+      "pack": "second",
+      "discCount": 11,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 5.100011825561523
+    },
+    {
+      "frame": 120,
+      "pack": "direct",
+      "discCount": 9,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 4.49998676776886
+    },
+    {
+      "frame": 120,
+      "pack": "reverse",
+      "discCount": 15,
+      "pistonToDiscMM": 2.0999908447265625,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 240,
+      "pack": "first",
+      "discCount": 15,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 240,
+      "pack": "second",
+      "discCount": 11,
+      "pistonToDiscMM": 1.4901161193847656e-05,
+      "minInterDiscMM": -1.4901161193847656e-05,
+      "maxInterDiscMM": 1.4901161193847656e-05,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 1.4901161193847656e-05
+    },
+    {
+      "frame": 240,
+      "pack": "direct",
+      "discCount": 9,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 4.49998676776886
+    },
+    {
+      "frame": 240,
+      "pack": "reverse",
+      "discCount": 15,
+      "pistonToDiscMM": 2.0999908447265625,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 360,
+      "pack": "first",
+      "discCount": 15,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 360,
+      "pack": "second",
+      "discCount": 11,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 5.100011825561523
+    },
+    {
+      "frame": 360,
+      "pack": "direct",
+      "discCount": 9,
+      "pistonToDiscMM": 0.0,
+      "minInterDiscMM": -1.4901161193847656e-05,
+      "maxInterDiscMM": 1.4901161193847656e-05,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": -1.4901161193847656e-05
+    },
+    {
+      "frame": 360,
+      "pack": "reverse",
+      "discCount": 15,
+      "pistonToDiscMM": 2.0999908447265625,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 480,
+      "pack": "first",
+      "discCount": 15,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 6.300002336502075
+    },
+    {
+      "frame": 480,
+      "pack": "second",
+      "discCount": 11,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 5.100011825561523
+    },
+    {
+      "frame": 480,
+      "pack": "direct",
+      "discCount": 9,
+      "pistonToDiscMM": 2.1000057458877563,
+      "minInterDiscMM": 0.299990177154541,
+      "maxInterDiscMM": 0.30000507831573486,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 4.49998676776886
+    },
+    {
+      "frame": 480,
+      "pack": "reverse",
+      "discCount": 15,
+      "pistonToDiscMM": -1.4901161193847656e-05,
+      "minInterDiscMM": -1.4901161193847656e-05,
+      "maxInterDiscMM": 1.4901161193847656e-05,
+      "stopGapMM": 0.0,
+      "totalRemainingGapMM": 0.0
+    }
+  ],
+  "crossingCandidates": [
+    {
+      "frame": 0,
+      "a": "TX_first_reaction_drum_segment_0",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_first_reaction_drum_segment_1",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_first_reaction_drum_segment_2",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_first_reaction_drum_segment_3",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_first_reaction_drum_segment_4",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_first_reaction_drum_segment_5",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_first_reaction_drum_segment_6",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_first_reaction_drum_segment_7",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 0,
+      "a": "TX_first_piston_seal_0",
+      "b": "TX_first_hub_rear_seal_land",
+      "bodyA": "TX_piston_first",
+      "bodyB": "TX_ring40",
+      "trianglePairs": 258,
+      "overlappingAABBAxialMM": 0.5999952554702759
+    },
+    {
+      "frame": 0,
+      "a": "TX_reverse_piston_seal_0",
+      "b": "TX_18_stepped_clutch_bell",
+      "bodyA": "TX_piston_reverse",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 1600,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 120,
+      "a": "TX_first_piston_seal_0",
+      "b": "TX_first_hub_rear_seal_land",
+      "bodyA": "TX_piston_first",
+      "bodyB": "TX_ring40",
+      "trianglePairs": 258,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 120,
+      "a": "TX_reverse_piston_seal_0",
+      "b": "TX_18_stepped_clutch_bell",
+      "bodyA": "TX_piston_reverse",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 1600,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_first_reaction_drum_segment_0",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_first_reaction_drum_segment_1",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_first_reaction_drum_segment_2",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_first_reaction_drum_segment_3",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_first_reaction_drum_segment_4",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_first_reaction_drum_segment_5",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_first_reaction_drum_segment_6",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_first_reaction_drum_segment_7",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_first_piston_seal_0",
+      "b": "TX_first_hub_rear_seal_land",
+      "bodyA": "TX_piston_first",
+      "bodyB": "TX_ring40",
+      "trianglePairs": 1280,
+      "overlappingAABBAxialMM": 0.5999952554702759
+    },
+    {
+      "frame": 240,
+      "a": "TX_reverse_piston_seal_0",
+      "b": "TX_18_stepped_clutch_bell",
+      "bodyA": "TX_piston_reverse",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 1664,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_second_piston_seal_0",
+      "b": "TX_second_hub_front_seal_land",
+      "bodyA": "TX_piston_second",
+      "bodyB": "TX_sun21",
+      "trianglePairs": 768,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_second_piston_seal_1",
+      "b": "TX_second_reaction_drum_segment_1",
+      "bodyA": "TX_piston_second",
+      "bodyB": "fixed",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_second_piston_seal_1",
+      "b": "TX_second_reaction_drum_segment_3",
+      "bodyA": "TX_piston_second",
+      "bodyB": "fixed",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_second_piston_seal_1",
+      "b": "TX_second_reaction_drum_segment_5",
+      "bodyA": "TX_piston_second",
+      "bodyB": "fixed",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 240,
+      "a": "TX_second_piston_seal_1",
+      "b": "TX_second_reaction_drum_segment_7",
+      "bodyA": "TX_piston_second",
+      "bodyB": "fixed",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_first_reaction_drum_segment_0",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_first_reaction_drum_segment_1",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_first_reaction_drum_segment_2",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_first_reaction_drum_segment_3",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_first_reaction_drum_segment_4",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_first_reaction_drum_segment_5",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_first_reaction_drum_segment_6",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_first_reaction_drum_segment_7",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_first_piston_seal_0",
+      "b": "TX_first_hub_rear_seal_land",
+      "bodyA": "TX_piston_first",
+      "bodyB": "TX_ring40",
+      "trianglePairs": 1792,
+      "overlappingAABBAxialMM": 0.5999952554702759
+    },
+    {
+      "frame": 360,
+      "a": "TX_reverse_piston_seal_0",
+      "b": "TX_18_stepped_clutch_bell",
+      "bodyA": "TX_piston_reverse",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 1728,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_direct_reaction_drum_segment_1",
+      "b": "TX_direct_piston_seal_1",
+      "bodyA": "TX_ring18",
+      "bodyB": "TX_piston_direct",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_direct_reaction_drum_segment_3",
+      "b": "TX_direct_piston_seal_1",
+      "bodyA": "TX_ring18",
+      "bodyB": "TX_piston_direct",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_direct_reaction_drum_segment_5",
+      "b": "TX_direct_piston_seal_1",
+      "bodyA": "TX_ring18",
+      "bodyB": "TX_piston_direct",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_direct_reaction_drum_segment_7",
+      "b": "TX_direct_piston_seal_1",
+      "bodyA": "TX_ring18",
+      "bodyB": "TX_piston_direct",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_direct_piston_seal_0",
+      "b": "TX_21_direct_hub_shoulder",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_sun21",
+      "trianglePairs": 576,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 360,
+      "a": "TX_direct_piston_seal_0",
+      "b": "TX_direct_hub_front_seal_land",
+      "bodyA": "TX_piston_direct",
+      "bodyB": "TX_sun21",
+      "trianglePairs": 512,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_first_reaction_drum_segment_0",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_first_reaction_drum_segment_1",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_first_reaction_drum_segment_2",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_first_reaction_drum_segment_3",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_first_reaction_drum_segment_4",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_first_reaction_drum_segment_5",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_first_reaction_drum_segment_6",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_first_reaction_drum_segment_7",
+      "b": "TX_first_piston_seal_1",
+      "bodyA": "fixed",
+      "bodyB": "TX_piston_first",
+      "trianglePairs": 2,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_first_piston_seal_0",
+      "b": "TX_first_hub_rear_seal_land",
+      "bodyA": "TX_piston_first",
+      "bodyB": "TX_ring40",
+      "trianglePairs": 1024,
+      "overlappingAABBAxialMM": 0.5999952554702759
+    },
+    {
+      "frame": 480,
+      "a": "TX_reverse_piston_seal_0",
+      "b": "TX_18_stepped_clutch_bell",
+      "bodyA": "TX_piston_reverse",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 1728,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_reverse_piston_seal_0",
+      "b": "TX_reverse_hub_front_seal_land",
+      "bodyA": "TX_piston_reverse",
+      "bodyB": "TX_ring18",
+      "trianglePairs": 1024,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_reverse_piston_seal_1",
+      "b": "TX_reverse_reaction_drum_segment_1",
+      "bodyA": "TX_piston_reverse",
+      "bodyB": "fixed",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_reverse_piston_seal_1",
+      "b": "TX_reverse_reaction_drum_segment_3",
+      "bodyA": "TX_piston_reverse",
+      "bodyB": "fixed",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_reverse_piston_seal_1",
+      "b": "TX_reverse_reaction_drum_segment_5",
+      "bodyA": "TX_piston_reverse",
+      "bodyB": "fixed",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    },
+    {
+      "frame": 480,
+      "a": "TX_reverse_piston_seal_1",
+      "b": "TX_reverse_reaction_drum_segment_7",
+      "bodyA": "TX_piston_reverse",
+      "bodyB": "fixed",
+      "trianglePairs": 1,
+      "overlappingAABBAxialMM": 1.0000020265579224
+    }
+  ],
+  "limits": "BVH intersections are candidates only; seals and designed interfaces require interpretation. Axial clutch gaps use evaluated mesh bounds. This is not a complete solid-containment or load audit."
+}

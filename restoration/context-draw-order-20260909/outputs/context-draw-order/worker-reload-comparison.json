@@ -1,0 +1,17 @@
+{
+  "comparison": "Worker old load vs current load",
+  "equal": {
+    "width": true,
+    "height": true,
+    "pixelRatio": true,
+    "view": true,
+    "ao": true,
+    "sceneInputSha256": true,
+    "noiseSha256": true,
+    "pixelSha256": false,
+    "drawSequenceSha256": false
+  },
+  "oldPixels": "c3ade12b6ab240e096304501f05d91d39306e10543bc4a95eb286e5b91258f93",
+  "newPixels": "1d0ef1ea90583bb2ee89c9c13eb1586826cc9cfc6ddbdd59ab30ac07382ee165",
+  "limits": "Same recorded inputs, but not all shader/geometry bytes are captured in these fingerprints."
+}

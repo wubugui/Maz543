@@ -1,0 +1,65 @@
+{
+  "comparedRates": [
+    4000,
+    8000
+  ],
+  "failure": [
+    {
+      "step": 4046,
+      "time": 1.0114999999999215,
+      "error": "('Outside audited pocket angular region', -0.06434382348115263)"
+    },
+    {
+      "step": 8093,
+      "time": 1.0116250000001192,
+      "error": "('Outside audited pocket angular region', -0.060830178416210856)"
+    }
+  ],
+  "maxStepEnergyGainJ": [
+    0.04499709660475992,
+    0.0114775214163092
+  ],
+  "samples": [
+    {
+      "time": 0.5,
+      "coarseOmega": 58.00782417931555,
+      "fineOmega": 58.00846740142311,
+      "relativeOmegaDifference": 1.1088417542762995e-05,
+      "coarseBeta": 0.0,
+      "fineBeta": 0.0,
+      "coarseEnergy": 16.678334268850385,
+      "fineEnergy": 16.678220192562925
+    },
+    {
+      "time": 0.8,
+      "coarseOmega": 266.33829615435366,
+      "fineOmega": 266.3585930358599,
+      "relativeOmegaDifference": 7.62013392355386e-05,
+      "coarseBeta": 0.0,
+      "fineBeta": 0.0,
+      "coarseEnergy": 334.9279618107455,
+      "fineEnergy": 334.97900544246505
+    },
+    {
+      "time": 1.0,
+      "coarseOmega": 468.6654843282724,
+      "fineOmega": 468.707748901616,
+      "relativeOmegaDifference": 9.017255089695838e-05,
+      "coarseBeta": -0.012920740702227818,
+      "fineBeta": -0.012752757457406005,
+      "coarseEnergy": 1037.410907269956,
+      "fineEnergy": 1037.5781979295791
+    },
+    {
+      "time": 1.01,
+      "coarseOmega": 479.74055188835337,
+      "fineOmega": 479.73399493860876,
+      "relativeOmegaDifference": 1.3667886399097876e-05,
+      "coarseBeta": -0.03878342522679645,
+      "fineBeta": -0.03748473653178053,
+      "coarseEnergy": 1084.969412389033,
+      "fineEnergy": 1085.0585566141158
+    }
+  ],
+  "limits": "Both runs stop at the unexamined angular-domain boundary. Agreement before failure is not full trajectory or original-vehicle acceptance."
+}

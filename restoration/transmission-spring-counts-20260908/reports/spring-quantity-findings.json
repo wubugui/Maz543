@@ -1,0 +1,31 @@
+{
+  "status": "Indexed catalogue text found; current 8 springs per pack is incorrect. Quantity and placement/stiffness reconstruction must follow.",
+  "largeTotal": 60,
+  "first": 30,
+  "reverse": 30,
+  "second": 16,
+  "direct": 16,
+  "urls": [
+    "https://www.autoopt.ru/auto/catalog/special/maz/maz-543_7310/102",
+    "https://www.autoopt.ru/auto/catalog/special/maz/maz-543_7310/104"
+  ],
+  "parts": {
+    "large": "535A-1511246",
+    "second": "535A-1511058",
+    "direct": "535A-1511264"
+  },
+  "corroboration": {
+    "url": "https://1sonar.ru/acat/gruzovye_avtomobili/maz/maz_543__7310__1146/planetarnaya_korobka_peredach_543_1700035-102.html",
+    "retrieval": "Read full catalogue page through web open, lines 240-261. Local urllib download failed TLS; no claimed local HTML cache.",
+    "rows": {
+      "535A-1511246": 60,
+      "535A-1511244-01": 60,
+      "535A-1511248-10": 60,
+      "535A-1511252": 120,
+      "535A-1511254": 60,
+      "535A-1511264": 16
+    },
+    "versionCaveat": "Later MAZ543/7310 catalogue also lists differing big piston part numbers 1511182-B and 1511180-A; do not extrapolate all 1973 interchangeability to every later variant."
+  },
+  "implementation": "30/16/16/30 implemented and saved-file/browser checked in transmission-spring-counts-20260908. Original factory dimensions, spring strength and cross-year fit remain open."
+}

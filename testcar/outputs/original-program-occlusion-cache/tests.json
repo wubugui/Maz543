@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "originalProgramSelectedBeforeSkip": true,
+  "stalePriorProgramNotUsed": true,
+  "programMismatchFallsBack": true,
+  "originalUniformSetupRetained": true,
+  "volumeEscapeAndRasterMismatchFallBack": true,
+  "originalShadowAndTransparentDrawsRetained": true,
+  "submittedCallAndTriangleAccounting": true,
+  "sourceExceptionRestoresHooks": true,
+  "materialTargetOccluderChangesInvalidate": true,
+  "disposedGeometryReleasesCertificates": true,
+  "rangeIndexByteOffsetsAndArrayStartsPreserved": true,
+  "rangeAdditionalDrawsAndSavedTrianglesAccounted": true,
+  "unalignedPrimitiveAssemblyFallsBack": true,
+  "rangeResourcesReleasedOnAttributeChange": true,
+  "limits": "Actual Three objects and conservative bounds with controlled GL transport. Actual depth controls, pixels, animation and stable frame interval still require browser verification."
+}

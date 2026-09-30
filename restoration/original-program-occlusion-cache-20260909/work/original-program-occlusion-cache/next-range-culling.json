@@ -1,0 +1,92 @@
+{
+  "source": "outputs\\original-pass-depth-replay\\engine-queries-raw.json",
+  "scope": "Older exact original-program query potential, not a new performance measurement",
+  "mainPassUnprovenTriangles": 2189496,
+  "largest": [
+    {
+      "name": "BL_Merged_wheels_pivot_002_Tyre_rubber",
+      "triangles": 126804,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    },
+    {
+      "name": "BL_Merged_wheels_pivot_009_Tyre_rubber",
+      "triangles": 126804,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    },
+    {
+      "name": "BL_Merged_wheels_pivot_016_Tyre_rubber",
+      "triangles": 126804,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    },
+    {
+      "name": "BL_Merged_wheels_pivot_023_Tyre_rubber",
+      "triangles": 126804,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    },
+    {
+      "name": "BL_Merged_wheels_pivot_030_Tyre_rubber",
+      "triangles": 126804,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    },
+    {
+      "name": "BL_Merged_wheels_pivot_037_Tyre_rubber",
+      "triangles": 126804,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    },
+    {
+      "name": "BL_Merged_wheels_pivot_044_Tyre_rubber",
+      "triangles": 126804,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    },
+    {
+      "name": "BL_Merged_wheels_pivot_051_Tyre_rubber",
+      "triangles": 126804,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    },
+    {
+      "name": "COOL_radiator_COOL_radiator_black_radiator",
+      "triangles": 87336,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    },
+    {
+      "name": "BL_Merged_drive_Phosphated_steel",
+      "triangles": 26816,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    },
+    {
+      "name": "BL_Merged_wheels_pivot_009_Phosphated_steel",
+      "triangles": 24220,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    },
+    {
+      "name": "BL_Merged_wheels_pivot_023_Phosphated_steel",
+      "triangles": 24220,
+      "stable": true,
+      "pass": 1,
+      "anySamplesPassed": true
+    }
+  ],
+  "next": "Eight tyre meshes each have 126804 triangles and remain positive at whole-object bounds. Consider conservative contiguous triangle-range clusters with original index order, program and geometry retained. Need Float32/morph range proof, exact original group/index offset coverage, independent queries, source pixel comparisons and actual performance. No implementation or default enable is claimed."
+}

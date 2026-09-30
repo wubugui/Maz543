@@ -1,0 +1,31 @@
+{
+  "reference": "outputs/triangle-range-occlusion/restored-preview.png",
+  "candidate": "outputs\\production-worker-acceptance\\production-side.png",
+  "regions": [
+    {
+      "region": "canvas",
+      "box": [
+        0,
+        70,
+        970,
+        689
+      ],
+      "differentPixels": 63828,
+      "maxChannelDifference": 16,
+      "rmsChannelDifference": 0.7064501230363462
+    },
+    {
+      "region": "vehicle",
+      "box": [
+        65,
+        318,
+        915,
+        590
+      ],
+      "differentPixels": 63449,
+      "maxChannelDifference": 16,
+      "rmsChannelDifference": 1.1368836023355757
+    }
+  ],
+  "limits": "Actual screenshot-region comparison across main and exact production workers. Whole canvas includes identical UI overlays; status/time outside canvas excluded. Not dynamic pose or full feature acceptance."
+}

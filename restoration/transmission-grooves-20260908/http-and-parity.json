@@ -1,0 +1,22 @@
+{
+  "bytes": 10836480,
+  "sha256": "6ee7a4ba6d84f12d063669cce8a3a69218f5bc0afce5f1b2be4b7b2d55df5531",
+  "url": "http://localhost:3000/models/maz543a-transmission.glb?v=transmission-grooves-20260908",
+  "nativeParity": [
+    {
+      "file": "MAZ543A_Transmission.blend",
+      "nodes": 795,
+      "geometrySha256": "173b41e56e4eae15f27e2235faedd431bd5b462b6d8f80fe934b8aaf565c5e33"
+    },
+    {
+      "file": "MAZ543A_Master.blend",
+      "nodes": 795,
+      "geometrySha256": "173b41e56e4eae15f27e2235faedd431bd5b462b6d8f80fe934b8aaf565c5e33"
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "nodes": 795,
+      "geometrySha256": "173b41e56e4eae15f27e2235faedd431bd5b462b6d8f80fe934b8aaf565c5e33"
+    }
+  ]
+}

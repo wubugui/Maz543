@@ -1,0 +1,43 @@
+{
+  "before": {
+    "gear": 3,
+    "t": 20,
+    "rpm": 1120.3514279549113,
+    "speed": 2.93133381524401,
+    "pressure": 1228538.8405616186,
+    "slip": {
+      "first": 25.68631263778504,
+      "second": 3.662244743213705,
+      "direct": -45.25824940972348,
+      "reverse": 48.92049415293721
+    },
+    "heat": 459338.9525808877
+  },
+  "after": {
+    "gear": 3,
+    "t": 20,
+    "rpm": 1125.798962866658,
+    "speed": 5.230216756360676,
+    "pressure": 1246590.1520781002,
+    "slip": {
+      "first": 68.28570997104498,
+      "second": 68.28570997104498,
+      "direct": 0,
+      "reverse": 68.28570997104498
+    },
+    "torque": {
+      "first": 0,
+      "second": 0,
+      "direct": 250.37420734282404,
+      "reverse": 0
+    },
+    "capacity": {
+      "first": 0,
+      "second": 0,
+      "direct": 2260.0992120391047,
+      "reverse": 0
+    },
+    "heat": 89365.01358842918
+  },
+  "note": "Same 50 percent throttle drive scenario; fitted geometry changed and contact solver convergence corrected. No factory performance acceptance."
+}

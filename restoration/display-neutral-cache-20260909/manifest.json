@@ -1,0 +1,233 @@
+{
+  "wholeGoal": "ACTIVE; all 16 gates OPEN",
+  "status": "Ordinary full-model exact idle cache restored; mechanical neutral reference corrected and tested; moving mechanisms retained. Exact-batch full pixels failed and not enabled. Dynamic whole rendering still slow; physical calibration remains open.",
+  "files": [
+    {
+      "path": "AGENT_START_HERE.md",
+      "bytes": 23026,
+      "sha256": "34d22584ee670a31e82d4856dd3b0256326e139613add14c620393aef0805901"
+    },
+    {
+      "path": "NEXT_AGENT_PROMPT.md",
+      "bytes": 15428,
+      "sha256": "6e64df6fd8d7ad1331d30d1fa1bc0e7630f211ff337e7c91ae17ae5869bb4cbb"
+    },
+    {
+      "path": "docs/CONTINUATION_20260908.md",
+      "bytes": 16347,
+      "sha256": "2edbb32c0dd5a407dfc078139428eab350cfcf0ae1afb6f107729efaf53886da"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 28283,
+      "sha256": "719ca7c5b6cc4ef925182ad99471413f93c338fe22d38edb8d3624018c917662"
+    },
+    {
+      "path": "docs/DISPLAY_NEUTRAL_CACHE_20260909.md",
+      "bytes": 6714,
+      "sha256": "bbf9fd8bc9c63560c8c2c1b6790cd07ea7fafc8e3f851646fe6a569744146c56"
+    },
+    {
+      "path": "lib/displayFrameCache.ts",
+      "bytes": 4987,
+      "sha256": "12054cf1e359d739d15820d50dbeb1f307d5d8677da0d46cbd77694c8e75691a"
+    },
+    {
+      "path": "lib/shadowPoseProbe.ts",
+      "bytes": 2076,
+      "sha256": "b9b97b00e5d17a08ad474bc2e9c0a566d865164ebe1ea274b06732bb0f01a115"
+    },
+    {
+      "path": "lib/exactBatchMatrices.ts",
+      "bytes": 4539,
+      "sha256": "813c33608d8f24a9f679146ba430245020e3ef1736856f1dffd1172da6309889"
+    },
+    {
+      "path": "lib/displayBatches.ts",
+      "bytes": 7798,
+      "sha256": "dd35723e3a071f7bb1d1ed3836789a3f099f719cbe0c658fe938ff3d56220db6"
+    },
+    {
+      "path": "lib/vehicleViewport.ts",
+      "bytes": 57965,
+      "sha256": "ffa6e8f1ea7de3ef534a159e93e6df630c8f5a1b5034789375c0098b5d1ed704"
+    },
+    {
+      "path": "lib/suspension.ts",
+      "bytes": 8555,
+      "sha256": "06af7ce5a0d277df3f90072a7a9228fff6fc2bd9e593205f60c1f463e0d11d89"
+    },
+    {
+      "path": "lib/compositedShadows.ts",
+      "bytes": 2958,
+      "sha256": "395417ce69a7d7fde54343f59ed6ccc3ac76132cf13116407f958cac776a1e9a"
+    },
+    {
+      "path": "scripts/verify-exact-batch-matrices.mjs",
+      "bytes": 3828,
+      "sha256": "d3709c9065d68b768e7746095ec67ef3c6a2b5706cab06298b8a2d87e9edc77e"
+    },
+    {
+      "path": "scripts/verify-suspension-reference.mjs",
+      "bytes": 4005,
+      "sha256": "50f000b3671404d89cd809822469add3a192c9a7e3b7d218ec3bba29213b865a"
+    },
+    {
+      "path": "scripts/verify-rendered-material-versions.mjs",
+      "bytes": 2884,
+      "sha256": "ce15970441fc1c59a9023f25859c82fcadf85be7eb3ac45c6f2b48a89379a515"
+    },
+    {
+      "path": "scripts/verify-display-presentation.mjs",
+      "bytes": 8316,
+      "sha256": "81c337b15aafb417e45dae914275c4ba66597c601a39e01ff4b3461f4651c86c"
+    },
+    {
+      "path": "scripts/verify-mechanical-timeline.mjs",
+      "bytes": 4481,
+      "sha256": "0248d43b29e8109c2391fc8bb4f5ed949fd7439174f5716c9f73e6963dd6b476"
+    },
+    {
+      "path": "scripts/archive-display-neutral-stage.py",
+      "bytes": 2906,
+      "sha256": "86abde6c0be2091e69e56f9e9db7c47ad190c70140a36a1f905c4d7301620af0"
+    },
+    {
+      "path": "outputs/render-performance-evidence/presentation-tests.json",
+      "bytes": 1527,
+      "sha256": "bd4e32ce07d0e413bd4514829bbda6d2a9da7893ae5e48d72d4e4c50c461e2b1"
+    },
+    {
+      "path": "outputs/shadow-cache/pose-probe-whole-ax.txt",
+      "bytes": 23345,
+      "sha256": "3d23291fc2327be6acd202ddb5d97a6c9c20db4e9b74fecd52ce4fded5d986a6"
+    },
+    {
+      "path": "outputs/shadow-cache/pose-probe-whole.json",
+      "bytes": 15870,
+      "sha256": "df68abbbf9794d7e056a9a525482c6ade7c9e5e23ddca679e3630f6d04b71df4"
+    },
+    {
+      "path": "outputs/exact-batch/matrix-tests.json",
+      "bytes": 374,
+      "sha256": "04287894a870b305cda9d2076eb9aff98d5b769edacd1773afd9a39f7010cbb1"
+    },
+    {
+      "path": "outputs/exact-batch/whole-audit-ax.txt",
+      "bytes": 8610,
+      "sha256": "a932ac54d2f3f76a95575c693c180d53f43d931f0f8e7fb1b0d8958996a19f0c"
+    },
+    {
+      "path": "outputs/exact-batch/whole-audit.json",
+      "bytes": 1037,
+      "sha256": "98114fc1d6fc580383d5298bf2af2f28a8cc3167c47b7f966d5fd6f51cad5df3"
+    },
+    {
+      "path": "outputs/suspension-reference/baseline.json",
+      "bytes": 1724,
+      "sha256": "b89d4cf2350498c1d8389debc839463a6bdaba31ce840ea4ff95e4ab330c2d90"
+    },
+    {
+      "path": "outputs/suspension-reference/door-profile-ax.txt",
+      "bytes": 22016,
+      "sha256": "ce7ff5cb07a213bcfc293a5ca3a65d41d7829b66eb52004869fd3180c11ec721"
+    },
+    {
+      "path": "outputs/suspension-reference/door-profile.json",
+      "bytes": 14320,
+      "sha256": "0e7391c67ac31ca807fb8a40c61a89474935bbccf412c793e65ea8a0dbc58879"
+    },
+    {
+      "path": "outputs/suspension-reference/material-version-tests.json",
+      "bytes": 378,
+      "sha256": "0378db89092fceebd1dc26b5140c7ee282869d3ed9560cc84a771396be7f713b"
+    },
+    {
+      "path": "outputs/suspension-reference/ordinary-idle-ax.txt",
+      "bytes": 7330,
+      "sha256": "63f7744beacca56bdc35b441ad437f13e0a95d1b4631d6e2a3cf4a12090a9e45"
+    },
+    {
+      "path": "outputs/suspension-reference/ordinary-suspension-a-ax.txt",
+      "bytes": 8400,
+      "sha256": "c7302317a85357784bd0146c04eb542049842409c4d87986880b14b2014c5c0d"
+    },
+    {
+      "path": "outputs/suspension-reference/ordinary-suspension-b-ax.txt",
+      "bytes": 8419,
+      "sha256": "c80760164a47abf354e8d768bba30a7ac1f75fa056a8577f6b385839f723c14d"
+    },
+    {
+      "path": "outputs/suspension-reference/ordinary-suspension-paused-ax.txt",
+      "bytes": 8430,
+      "sha256": "a1e6c7150520f9fc510d19b02a34345208714124ada7809010abefb992d31cbd"
+    },
+    {
+      "path": "outputs/suspension-reference/verification.json",
+      "bytes": 1349,
+      "sha256": "832a6dd3fa21cdaed6c53835eee62c49e5eee5d302753f4513e7d72c0693c78a"
+    },
+    {
+      "path": "outputs/suspension-reference/whole-cached-profile-ax.txt",
+      "bytes": 21425,
+      "sha256": "871825e27fce4c3c78c0f6682c02c59581c880125d7e2e33da47ec5588d35e0d"
+    },
+    {
+      "path": "outputs/suspension-reference/whole-cached-profile.json",
+      "bytes": 13941,
+      "sha256": "03482ad6b77a53beda14cad0333f8125b9a550b0d795b11f47d33c0e5d005f17"
+    },
+    {
+      "path": "outputs/suspension-reference/whole-profile-ax.txt",
+      "bytes": 23535,
+      "sha256": "53d608e108370e4dae552e8f2635905dc25c45c6a44272dd9419a0223022e53f"
+    },
+    {
+      "path": "outputs/suspension-reference/whole-profile.json",
+      "bytes": 16057,
+      "sha256": "24cec6e7a39789795523a17dcdebe2744dca3cf1051d3b0290c5ea296f1f7ac4"
+    },
+    {
+      "path": "work/shadow-cache/directionalShadowCache.ts.prototype",
+      "bytes": 8293,
+      "sha256": "74e06e9bfc3a1b19388a70c5844504dde56212883225650c24b4ae87a3e9707e"
+    },
+    {
+      "path": "work/shadow-cache/types.log",
+      "bytes": 102,
+      "sha256": "372dc8848c72264a1aa0cb891065d359087b464c1ececaf2ec1d6eb324060a56"
+    },
+    {
+      "path": "work/exact-batch/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/suspension-reference/baseline-suspension.ts",
+      "bytes": 8007,
+      "sha256": "e293e07136fa3600ccb43e7b41133fefd7d99550698c5e355d3620da33611ec6"
+    },
+    {
+      "path": "work/suspension-reference/build.log",
+      "bytes": 3187,
+      "sha256": "d7687ab18f29cc12633f65f27b6a099ee0382dc65ba45289245e65662f374081"
+    },
+    {
+      "path": "work/suspension-reference/final-types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/suspension-reference/timeline.log",
+      "bytes": 732,
+      "sha256": "731656f2e9177afaf50dbf024a9ac036836d37e6aa470b93c60d62e8b8855bfc"
+    },
+    {
+      "path": "work/suspension-reference/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "fileCount": 45,
+  "totalBytes": 423504
+}

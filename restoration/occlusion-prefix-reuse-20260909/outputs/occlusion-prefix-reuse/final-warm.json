@@ -1,0 +1,40 @@
+{
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "occlusionPrefix": {
+    "kind": "exact-depth-prefix-occlusion",
+    "queried": 0,
+    "skipped": 5319,
+    "savedTriangles": 6937268,
+    "reusedPositive": 1634,
+    "waitingForStablePrefix": 0,
+    "pending": 0,
+    "unsupported": 1,
+    "passes": 3,
+    "queryError": 0,
+    "prefixNodes": 6964,
+    "proofEntries": 6953,
+    "epochReset": false,
+    "firstChangedDepthDraws": [],
+    "limits": "Development-only exact ordered-depth-prefix proofs, original query coverage/MSAA. No shadow culling, moving-target inference, spatial bounds or steady-state FPS claim."
+  },
+  "width": 1212,
+  "height": 773,
+  "order": "optimized-then-baseline",
+  "baseline": {
+    "calls": 9305,
+    "triangles": 21582915,
+    "synchronizedMs": 1249
+  },
+  "optimized": {
+    "calls": 3986,
+    "triangles": 14645647,
+    "synchronizedMs": 972.3999999985099
+  },
+  "optimizedReadbackError": 0,
+  "baselineReadbackError": 0,
+  "differentPixels": 0,
+  "maxChannelDifference": 0,
+  "rmsChannelDifference": 0,
+  "identicalPixels": true,
+  "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+}

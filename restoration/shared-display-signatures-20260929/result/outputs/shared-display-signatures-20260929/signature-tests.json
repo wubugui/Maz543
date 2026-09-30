@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "comparisons": 1212,
+  "sharedCallbackProtection": true,
+  "syntheticBenchmark": {
+    "meshes": 3043,
+    "geometries": 600,
+    "materials": 67,
+    "samples": 120,
+    "before": {
+      "medianMs": 10.136299999999665,
+      "p95Ms": 15.32970000000023,
+      "meanMs": 10.770855833333332
+    },
+    "after": {
+      "medianMs": 5.141599999999926,
+      "p95Ms": 8.266399999999976,
+      "meanMs": 5.459013333333358
+    },
+    "signatureValues": {
+      "before": 170483,
+      "after": 87556
+    }
+  },
+  "limits": "Node CPU benchmark of constructed assembly; real vehicle GPU/FPS and pixel comparisons remain unverified."
+}

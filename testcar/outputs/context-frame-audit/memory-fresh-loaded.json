@@ -1,0 +1,47 @@
+{
+  "time": "2026-09-09T05:50:06.4572046+08:00",
+  "os": {
+    "TotalVisibleMemorySize": 33490956,
+    "FreePhysicalMemory": 17544524,
+    "TotalVirtualMemorySize": 67045388,
+    "FreeVirtualMemory": 37362740
+  },
+  "processes": [
+    {
+      "Id": 11136,
+      "ProcessName": "codex",
+      "PrivateMemorySize64": 1537605632,
+      "WorkingSet64": 1126555648
+    },
+    {
+      "Id": 5356,
+      "ProcessName": "ChatGPT",
+      "PrivateMemorySize64": 1475624960,
+      "WorkingSet64": 1512783872
+    },
+    {
+      "Id": 31308,
+      "ProcessName": "ChatGPT",
+      "PrivateMemorySize64": 1144868864,
+      "WorkingSet64": 1237803008
+    },
+    {
+      "Id": 15892,
+      "ProcessName": "ChatGPT",
+      "PrivateMemorySize64": 663019520,
+      "WorkingSet64": 600408064
+    },
+    {
+      "Id": 19036,
+      "ProcessName": "ChatGPT",
+      "PrivateMemorySize64": 368095232,
+      "WorkingSet64": 306200576
+    },
+    {
+      "Id": 7360,
+      "ProcessName": "ChatGPT",
+      "PrivateMemorySize64": 224120832,
+      "WorkingSet64": 169172992
+    }
+  ]
+}

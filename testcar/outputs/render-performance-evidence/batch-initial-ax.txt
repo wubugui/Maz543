@@ -1,0 +1,221 @@
+Browser tab: 3, Title: "MAZ–543A · 机械解构", URL: "http://localhost:3000/?inspect=batch-audit".
+1 AXWebArea MAZ–543A · 机械解构, URL: localhost:3000/?inspect=batch-audit
+	2 container
+		3 link Description: MAZ-543 机械解构, Value: localhost:3000/
+		4 text Blender 三维工作台 02 / Blender 资产
+		5 button 模型说明
+		6 button 导出 GLB
+		7 container
+			8 image MAZ-543 三维模型：拖动旋转，滚轮缩放，点击选择部件
+			9 container 阴影渲染诊断
+				10 text {
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "multiDraw": true,
+  "displayInstances": {
+    "instances": 1906,
+    "batches": 51,
+    "savedDrawsPerPass": 1855,
+    "bufferBytes": 392645360
+  },
+  "geometryCopy": {
+    "geometries": 2558,
+    "components": 80659352,
+    "indices": 18507990,
+    "mismatches": 0,
+    "exactCopy": true
+  },
+  "width": 1212,
+  "height": 773,
+  "order": "optimized-then-baseline",
+  "baseline": {
+    "calls": 9305,
+    "triangles": 21582915,
+    "synchronizedMs": 1629.300000000745
+  },
+  "optimized": {
+    "calls": 1885,
+    "triangles": 21582915,
+    "synchronizedMs": 2938
+  },
+  "optimizedReadbackError": 0,
+  "baselineReadbackError": 0,
+  "differentPixels": 307,
+  "maxChannelDifference": 59,
+  "rmsChannelDifference": 0.11175469902178027,
+  "identicalPixels": false,
+  "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+}
+			11 button 比较当前帧阴影
+			12 text MINSK AUTOMOBILE PLANT 8×8
+			13 heading MAZ–543A, Value: 1
+				14 text MAZ – 543A
+			15 text 双驾驶室 · 四轴全轮驱动底盘
+			16 tab group
+				17 tab (selected, settable, boolean) 外观, Value: 1, ID: base-ui-_R_2d9i_
+				18 tab (selectable, settable, boolean) 透视, Value: 0, ID: base-ui-_R_4d9i_
+				19 tab (selectable, settable, boolean) 纵剖, Value: 0, ID: base-ui-_R_6d9i_
+			20 container 车辆功能快捷操作
+				21 button 车门开闭
+				22 button 发动机内构
+				23 button 变速机构
+				24 button 电启动机构
+				25 button 冷却系统
+				26 button 转向联动
+				27 button 悬架机构
+			28 container 视角
+				29 button 立体视角
+				30 button 前, Help: 正视
+				31 button 侧, Help: 侧视
+				32 button 顶, Help: 俯视
+				33 button 重置模型
+				34 button 全屏
+			35 text 拖动旋转  ·  滚轮缩放  ·  点击部件
+			36 text 2 m
+			37 text 驱动形式
+			38 text 8 × 8
+			39 text 参考轴距
+			40 container
+				41 text 7,700  mm
+			42 text 发动机
+			43 container
+				44 text V12  / 60°
+			45 text 参考功率
+			46 container
+				47 text 525  hp
+		48 container
+			49 tab group
+				50 tab (selected, settable, boolean) 机械控制, Value: 1, ID: base-ui-_R_m9i_
+				51 tab (selectable, settable, boolean) 组件结构, Value: 0, ID: base-ui-_R_169i_
+			52 container
+				53 heading 驾驶室操作, Value: 2
+					54 text 驾驶室操作
+				55 text 四门独立
+				56 checkbox 右舱前门 打开 0°, Value: 0
+					57 text 右舱前门
+					58 text 打开
+					59 container
+						60 text 0 °
+				61 checkbox 右舱后门 打开 0°, Value: 0
+					62 text 右舱后门
+					63 text 打开
+					64 container
+						65 text 0 °
+				66 checkbox 左舱前门 打开 0°, Value: 0
+					67 text 左舱前门
+					68 text 打开
+					69 container
+						70 text 0 °
+				71 checkbox 左舱后门 打开 0°, Value: 0
+					72 text 左舱后门
+					73 text 打开
+					74 container
+						75 text 0 °
+			76 container
+				77 heading 动力系统, Value: 2
+					78 text 动力系统
+				79 text 已停止 0 RPM 0 1,000 2,000
+				80 checkbox 引导启动, Value: 1
+				81 checkbox 原车分步操作, Value: 0
+				82 button 执行预润滑与启动 START
+					83 text 执行预润滑与启动
+					84 text START
+				85 text 油压 0.00  kgf/cm² 母线电压 0.0  V 启动电流 0  A 按住启动 0.0  / 5 s 暖机且油路已充油的试验初始条件。启动前油压 ≥2.5；单次 ≤5 秒，重试间隔 25–30 秒。引导模式代为操作；手动模式保留独立按钮。电机曲线、油路参数与燃烧扭矩尚待标定。
+				86 text 油门
+				87 text 0 %
+				88 container Description: 油门, ID: base-ui-_R_a3q9i_
+					89 container
+						90 slider (settable, integer) 油门, Value: 0, ID: base-ui-_R_6q3q9iH2_
+				91 text 变速箱 空挡
+				92 变速箱挡位
+					93 container base-ui-_R_9qbq9iH1_-label
+						94 radio button Description: R 挡 R, Value: 0, ID: base-ui-_R_9qbq9i_
+						95 text R
+					96 container base-ui-_R_aqbq9iH1_-label
+						97 radio button Description: N 挡 N, Value: 1, ID: base-ui-_R_aqbq9i_
+						98 text N
+					99 container base-ui-_R_bqbq9iH1_-label
+						100 radio button Description: 1 挡 1, Value: 0, ID: base-ui-_R_bqbq9i_
+						101 text 1
+					102 container base-ui-_R_cqbq9iH1_-label
+						103 radio button Description: 2 挡 2, Value: 0, ID: base-ui-_R_cqbq9i_
+						104 text 2
+					105 container base-ui-_R_dqbq9iH1_-label
+						106 radio button Description: 3 挡 3, Value: 0, ID: base-ui-_R_dqbq9i_
+						107 text 3
+				108 text 分动箱 直接挡 · 1.00
+				109 分动箱挡位
+					110 container base-ui-_R_5qjq9iH1_-label
+						111 radio button Description: 分动箱高挡 高挡, Value: 1, ID: base-ui-_R_5qjq9i_
+						112 text 高挡
+					113 container base-ui-_R_6qjq9iH1_-label
+						114 radio button Description: 分动箱低挡 低挡, Value: 0, ID: base-ui-_R_6qjq9i_
+						115 text 低挡
+				116 button (collapsed) 检查传动转速, Secondary Actions: Expand
+					117 text 检查传动转速
+				118 text 制动
+				119 text 0 %
+				120 container Description: 制动, ID: base-ui-_R_b3q9i_
+					121 container
+						122 slider (settable, integer) 制动, Value: 0, ID: base-ui-_R_6r3q9iH2_
+				123 container base-ui-_R_bbq9iH1_-label
+					124 text 动力及启动机构慢动作 ×0.035
+					125 switch Description: 动力及启动机构慢动作 ×0.035 动力及启动机构慢动作 ×0.035, Value: 0, ID: base-ui-_R_bbq9i_
+				126 text 演示车速 0.0 km/h
+			127 container
+				128 heading 转向与悬架, Value: 2
+					129 text 转向与悬架
+				130 text 02
+				131 text 双前轴转向
+				132 text 0 °
+				133 container Description: 双前轴转向, ID: base-ui-_R_4ka9i_
+					134 container
+						135 slider (settable, integer) 双前轴转向, Value: 0, ID: base-ui-_R_3cka9iH2_
+				136 text 悬架台架激励
+				137 text 0 %
+				138 container Description: 悬架台架激励, ID: base-ui-_R_4sa9i_
+					139 container
+						140 slider (settable, integer) 悬架台架激励, Value: 0, ID: base-ui-_R_3csa9iH2_
+				141 text 模型固定在观察台上；车轮转动与地面滚动表示行驶。
+			142 container
+				143 heading 拆解与观察, Value: 2
+					144 text 拆解与观察
+				145 text 03
+				146 text 总成分离
+				147 text 0 %
+				148 container Description: 总成分离, ID: base-ui-_R_4kq9i_
+					149 container
+						150 slider (settable, integer) 总成分离, Value: 0, ID: base-ui-_R_3ckq9iH2_
+				151 text 驾驶室开门
+				152 text 0 %
+				153 container Description: 驾驶室开门, ID: base-ui-_R_4sq9i_
+					154 container
+						155 slider (settable, integer) 驾驶室开门, Value: 0, ID: base-ui-_R_3csq9iH2_
+				156 container base-ui-_R_54q9iH1_-label
+					157 text 车灯
+					158 switch Description: 车灯 车灯, Value: 0, ID: base-ui-_R_54q9i_
+				159 container base-ui-_R_5cq9iH1_-label
+					160 text 部件标签
+					161 switch Description: 部件标签 部件标签, Value: 0, ID: base-ui-_R_5cq9i_
+				162 container base-ui-_R_5kq9iH1_-label
+					163 text 网格线框
+					164 switch Description: 网格线框 网格线框, Value: 0, ID: base-ui-_R_5kq9i_
+			165 container
+				166 heading 机构演示, Value: 2
+					167 text 机构演示
+				168 button 01 V12 曲柄连杆
+					169 text 01
+					170 text V12 曲柄连杆
+				171 button 02 双前轴转向
+					172 text 02
+					173 text 双前轴转向
+				174 button 03 八轮独立悬架
+					175 text 03
+					176 text 八轮独立悬架
+			177 text 8,868 个几何实例
+			178 button 精度说明
+		179 text MAZ–543A / 双驾驶室参考底盘 运动学演示 · 部分内构简化
+		180 container ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11) · 1885 draws · 21,582,915 triangles
+			181 text 0  FPS
+		182 button 资料与建模边界
+
+The focused UI element is 1 AXWebArea MAZ–543A · 机械解构, URL: localhost:3000/?inspect=batch-audit

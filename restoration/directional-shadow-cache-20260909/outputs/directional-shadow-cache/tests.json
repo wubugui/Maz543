@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    "sub-float32 caster translation",
+    "source vertex upload version",
+    "draw range",
+    "material alpha test",
+    "shadow side",
+    "frustum flag",
+    "light transform",
+    "light target",
+    "projection",
+    "camera layers",
+    "material groups",
+    "morph weight",
+    "visible caster removed",
+    "visible caster restored"
+  ],
+  "cameraOrbitReuses": true,
+  "stockDoubleSideVersionsAccepted": true,
+  "explicitUpdateAndDisposeInvalidate": true,
+  "customCallbacksAndMultipleLightsFallBack": true,
+  "exceptionDoesNotCommit": true,
+  "rendererAutoUpdateRestored": true,
+  "limits": "Real Three scene, mocked draw submission. No pixel or FPS proof; actual complete-vehicle paired audit is separate."
+}

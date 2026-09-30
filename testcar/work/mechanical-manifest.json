@@ -1,0 +1,3140 @@
+{
+  "groups": [
+    {
+      "id": "frame",
+      "pivots": [
+        {
+          "name": "frame",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "frame_0001",
+          "material": "olive"
+        },
+        {
+          "name": "frame_0002",
+          "material": "dark"
+        },
+        {
+          "name": "frame_0003",
+          "material": "steel"
+        },
+        {
+          "name": "frame_0004",
+          "material": "olive"
+        }
+      ]
+    },
+    {
+      "id": "cab",
+      "pivots": [
+        {
+          "name": "cab",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "cab_pivot_001",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "cab_pivot_002",
+          "position": [
+            -5.19,
+            1.47,
+            -1.4799999999999998
+          ]
+        },
+        {
+          "name": "cab_pivot_003",
+          "position": [
+            -3.99,
+            1.47,
+            -1.4799999999999998
+          ]
+        },
+        {
+          "name": "cab_pivot_004",
+          "position": [
+            -4.62,
+            2.13,
+            -1.025
+          ]
+        },
+        {
+          "name": "cab_pivot_005",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "cab_pivot_006",
+          "position": [
+            -5.19,
+            1.47,
+            1.4799999999999998
+          ]
+        },
+        {
+          "name": "cab_pivot_007",
+          "position": [
+            -3.99,
+            1.47,
+            1.4799999999999998
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "cab_0001",
+          "material": "glass"
+        },
+        {
+          "name": "cab_0002",
+          "material": "black"
+        },
+        {
+          "name": "cab_0003",
+          "material": "black"
+        },
+        {
+          "name": "cab_0004",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0005",
+          "material": "brass"
+        },
+        {
+          "name": "cab_0006",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0007",
+          "material": "bright"
+        },
+        {
+          "name": "cab_0008",
+          "material": "steel"
+        },
+        {
+          "name": "cab_0009",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0010",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0011",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0012",
+          "material": "lamp"
+        },
+        {
+          "name": "cab_0013",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0014",
+          "material": "glass"
+        },
+        {
+          "name": "cab_0015",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0016",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0017",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0018",
+          "material": "steel"
+        },
+        {
+          "name": "cab_0019",
+          "material": "engine"
+        },
+        {
+          "name": "cab_0020",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0021",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0022",
+          "material": "glass"
+        },
+        {
+          "name": "cab_0023",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0024",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0025",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0026",
+          "material": "steel"
+        },
+        {
+          "name": "cab_0027",
+          "material": "engine"
+        },
+        {
+          "name": "cab_0028",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0029",
+          "material": "black"
+        },
+        {
+          "name": "cab_0030",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0031",
+          "material": "steel"
+        },
+        {
+          "name": "cab_0032",
+          "material": "red"
+        },
+        {
+          "name": "cab_0033",
+          "material": "glass"
+        },
+        {
+          "name": "cab_0034",
+          "material": "black"
+        },
+        {
+          "name": "cab_0035",
+          "material": "black"
+        },
+        {
+          "name": "cab_0036",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0037",
+          "material": "lamp"
+        },
+        {
+          "name": "cab_0038",
+          "material": "lamp"
+        },
+        {
+          "name": "cab_0039",
+          "material": "brass"
+        },
+        {
+          "name": "cab_0040",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0041",
+          "material": "bright"
+        },
+        {
+          "name": "cab_0042",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0043",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0044",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0045",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0046",
+          "material": "glass"
+        },
+        {
+          "name": "cab_0047",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0048",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0049",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0050",
+          "material": "steel"
+        },
+        {
+          "name": "cab_0051",
+          "material": "engine"
+        },
+        {
+          "name": "cab_0052",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0053",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0054",
+          "material": "glass"
+        },
+        {
+          "name": "cab_0055",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0056",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0057",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0058",
+          "material": "steel"
+        },
+        {
+          "name": "cab_0059",
+          "material": "engine"
+        },
+        {
+          "name": "cab_0060",
+          "material": "olive"
+        },
+        {
+          "name": "cab_0061",
+          "material": "red"
+        },
+        {
+          "name": "cab_0062",
+          "material": "dark"
+        },
+        {
+          "name": "cab_0063",
+          "material": "steel"
+        },
+        {
+          "name": "cab_0064",
+          "material": "engine"
+        },
+        {
+          "name": "cab_0065",
+          "material": "seat"
+        },
+        {
+          "name": "cab_0066",
+          "material": "black"
+        },
+        {
+          "name": "cab_0067",
+          "material": "bright"
+        },
+        {
+          "name": "cab_0068",
+          "material": "brass"
+        },
+        {
+          "name": "cab_0069",
+          "material": "rubber"
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "pivots": [
+        {
+          "name": "body",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "body_0001",
+          "material": "red"
+        },
+        {
+          "name": "body_0002",
+          "material": "red"
+        },
+        {
+          "name": "body_0003",
+          "material": "edge"
+        },
+        {
+          "name": "body_0004",
+          "material": "edge"
+        },
+        {
+          "name": "body_0005",
+          "material": "olive"
+        },
+        {
+          "name": "body_0006",
+          "material": "dark"
+        },
+        {
+          "name": "body_0007",
+          "material": "edge"
+        },
+        {
+          "name": "body_0008",
+          "material": "rubber"
+        },
+        {
+          "name": "body_0009",
+          "material": "steel"
+        }
+      ]
+    },
+    {
+      "id": "engine",
+      "pivots": [
+        {
+          "name": "engine",
+          "position": [
+            -2.05,
+            1.32,
+            0
+          ]
+        },
+        {
+          "name": "engine_pivot_001",
+          "position": [
+            0,
+            0.2,
+            0
+          ]
+        },
+        {
+          "name": "engine_pivot_002",
+          "position": [
+            -0.66,
+            0.5418742881539741,
+            -0.1973812122947086
+          ]
+        },
+        {
+          "name": "engine_pivot_003",
+          "position": [
+            -0.66,
+            0.5418742881539741,
+            0.1973812122947086
+          ]
+        },
+        {
+          "name": "engine_pivot_004",
+          "position": [
+            -0.396,
+            0.4068742881539741,
+            -0.11943892595410914
+          ]
+        },
+        {
+          "name": "engine_pivot_005",
+          "position": [
+            -0.396,
+            0.465941722939444,
+            0.15354152532784085
+          ]
+        },
+        {
+          "name": "engine_pivot_006",
+          "position": [
+            -0.132,
+            0.465941722939444,
+            -0.15354152532784085
+          ]
+        },
+        {
+          "name": "engine_pivot_007",
+          "position": [
+            -0.132,
+            0.4068742881539741,
+            0.11943892595410913
+          ]
+        },
+        {
+          "name": "engine_pivot_008",
+          "position": [
+            0.132,
+            0.5418742881539741,
+            -0.1973812122947086
+          ]
+        },
+        {
+          "name": "engine_pivot_009",
+          "position": [
+            0.132,
+            0.5418742881539741,
+            0.1973812122947086
+          ]
+        },
+        {
+          "name": "engine_pivot_010",
+          "position": [
+            0.396,
+            0.4068742881539741,
+            -0.11943892595410914
+          ]
+        },
+        {
+          "name": "engine_pivot_011",
+          "position": [
+            0.396,
+            0.465941722939444,
+            0.15354152532784085
+          ]
+        },
+        {
+          "name": "engine_pivot_012",
+          "position": [
+            0.66,
+            0.465941722939444,
+            -0.15354152532784085
+          ]
+        },
+        {
+          "name": "engine_pivot_013",
+          "position": [
+            0.66,
+            0.4068742881539741,
+            0.11943892595410913
+          ]
+        },
+        {
+          "name": "engine_pivot_014",
+          "position": [
+            0,
+            0.72,
+            -0.29
+          ]
+        },
+        {
+          "name": "engine_pivot_015",
+          "position": [
+            0,
+            0.72,
+            0.29
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "engine_0001",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0002",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0003",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0004",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0005",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0006",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0007",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0008",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0009",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0010",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0011",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0012",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0013",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0014",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0015",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0016",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0017",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0018",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0019",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0020",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0021",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0022",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0023",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0024",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0025",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0026",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0027",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0028",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0029",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0030",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0031",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0032",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0033",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0034",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0035",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0036",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0037",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0038",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0039",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0040",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0041",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0042",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0043",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0044",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0045",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0046",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0047",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0048",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0049",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0050",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0051",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0052",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0053",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0054",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0055",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0056",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0057",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0058",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0059",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0060",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0061",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0062",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0063",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0064",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0065",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0066",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0067",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0068",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0069",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0070",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0071",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0072",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0073",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0074",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0075",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0076",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0077",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0078",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0079",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0080",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0081",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0082",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0083",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0084",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0085",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0086",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0087",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0088",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0089",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0090",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0091",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0092",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0093",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0094",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0095",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0096",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0097",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0098",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0099",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0100",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0101",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0102",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0103",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0104",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0105",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0106",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0107",
+          "material": "brass"
+        },
+        {
+          "name": "engine_0108",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0109",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0110",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0111",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0112",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0113",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0114",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0115",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0116",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0117",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0118",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0119",
+          "material": "black"
+        },
+        {
+          "name": "engine_0120",
+          "material": "engine"
+        },
+        {
+          "name": "engine_0121",
+          "material": "bright"
+        },
+        {
+          "name": "engine_0122",
+          "material": "dark"
+        },
+        {
+          "name": "engine_0123",
+          "material": "steel"
+        },
+        {
+          "name": "engine_0124",
+          "material": "brass"
+        }
+      ]
+    },
+    {
+      "id": "cooling",
+      "pivots": [
+        {
+          "name": "cooling",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "cooling_pivot_001",
+          "position": [
+            -1.13,
+            1.77,
+            0
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "cooling_0001",
+          "material": "dark"
+        },
+        {
+          "name": "cooling_0002",
+          "material": "dark"
+        },
+        {
+          "name": "cooling_0003",
+          "material": "dark"
+        },
+        {
+          "name": "cooling_0004",
+          "material": "rubber"
+        },
+        {
+          "name": "cooling_0005",
+          "material": "black"
+        },
+        {
+          "name": "cooling_0006",
+          "material": "rubber"
+        },
+        {
+          "name": "cooling_0007",
+          "material": "black"
+        },
+        {
+          "name": "cooling_0008",
+          "material": "steel"
+        },
+        {
+          "name": "cooling_0009",
+          "material": "dark"
+        },
+        {
+          "name": "cooling_0010",
+          "material": "brass"
+        }
+      ]
+    },
+    {
+      "id": "drive",
+      "pivots": [
+        {
+          "name": "drive",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_001",
+          "position": [
+            -0.99,
+            1.12,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_002",
+          "position": [
+            -0.66,
+            1.05,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_003",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_004",
+          "position": [
+            0.015,
+            0.14,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_005",
+          "position": [
+            0.015,
+            -0.06999999999999998,
+            0.12124355652982143
+          ]
+        },
+        {
+          "name": "drive_pivot_006",
+          "position": [
+            0.015,
+            -0.07000000000000006,
+            -0.1212435565298214
+          ]
+        },
+        {
+          "name": "drive_pivot_007",
+          "position": [
+            -0.33,
+            1.05,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_008",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_009",
+          "position": [
+            0.015,
+            0.14,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_010",
+          "position": [
+            0.015,
+            -0.06999999999999998,
+            0.12124355652982143
+          ]
+        },
+        {
+          "name": "drive_pivot_011",
+          "position": [
+            0.015,
+            -0.07000000000000006,
+            -0.1212435565298214
+          ]
+        },
+        {
+          "name": "drive_pivot_012",
+          "position": [
+            0,
+            1.05,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_013",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_014",
+          "position": [
+            0.015,
+            0.14,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_015",
+          "position": [
+            0.015,
+            -0.06999999999999998,
+            0.12124355652982143
+          ]
+        },
+        {
+          "name": "drive_pivot_016",
+          "position": [
+            0.015,
+            -0.07000000000000006,
+            -0.1212435565298214
+          ]
+        },
+        {
+          "name": "drive_pivot_017",
+          "position": [
+            0.46,
+            0.85,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_018",
+          "position": [
+            0.46,
+            1.15,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_019",
+          "position": [
+            -3.02,
+            0.87,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_020",
+          "position": [
+            -0.94,
+            0.87,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_021",
+          "position": [
+            -0.8200000000000001,
+            0.87,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_022",
+          "position": [
+            0.34,
+            0.87,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_023",
+          "position": [
+            0.76,
+            0.87,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_024",
+          "position": [
+            2.36,
+            0.87,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_025",
+          "position": [
+            2.48,
+            0.87,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_026",
+          "position": [
+            4.5600000000000005,
+            0.87,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_027",
+          "position": [
+            -3.08,
+            0.84,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_028",
+          "position": [
+            -0.88,
+            0.84,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_029",
+          "position": [
+            2.42,
+            0.84,
+            0
+          ]
+        },
+        {
+          "name": "drive_pivot_030",
+          "position": [
+            4.62,
+            0.84,
+            0
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "drive_0001",
+          "material": "engine"
+        },
+        {
+          "name": "drive_0002",
+          "material": "engine"
+        },
+        {
+          "name": "drive_0003",
+          "material": "engine"
+        },
+        {
+          "name": "drive_0004",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0005",
+          "material": "steel"
+        },
+        {
+          "name": "drive_0006",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0007",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0008",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0009",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0010",
+          "material": "steel"
+        },
+        {
+          "name": "drive_0011",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0012",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0013",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0014",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0015",
+          "material": "steel"
+        },
+        {
+          "name": "drive_0016",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0017",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0018",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0019",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0020",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0021",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0022",
+          "material": "dark"
+        },
+        {
+          "name": "drive_0023",
+          "material": "steel"
+        },
+        {
+          "name": "drive_0024",
+          "material": "dark"
+        },
+        {
+          "name": "drive_0025",
+          "material": "steel"
+        },
+        {
+          "name": "drive_0026",
+          "material": "dark"
+        },
+        {
+          "name": "drive_0027",
+          "material": "steel"
+        },
+        {
+          "name": "drive_0028",
+          "material": "dark"
+        },
+        {
+          "name": "drive_0029",
+          "material": "steel"
+        },
+        {
+          "name": "drive_0030",
+          "material": "dark"
+        },
+        {
+          "name": "drive_0031",
+          "material": "steel"
+        },
+        {
+          "name": "drive_0032",
+          "material": "dark"
+        },
+        {
+          "name": "drive_0033",
+          "material": "steel"
+        },
+        {
+          "name": "drive_0034",
+          "material": "dark"
+        },
+        {
+          "name": "drive_0035",
+          "material": "steel"
+        },
+        {
+          "name": "drive_0036",
+          "material": "dark"
+        },
+        {
+          "name": "drive_0037",
+          "material": "steel"
+        },
+        {
+          "name": "drive_0038",
+          "material": "engine"
+        },
+        {
+          "name": "drive_0039",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0040",
+          "material": "engine"
+        },
+        {
+          "name": "drive_0041",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0042",
+          "material": "engine"
+        },
+        {
+          "name": "drive_0043",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0044",
+          "material": "engine"
+        },
+        {
+          "name": "drive_0045",
+          "material": "brass"
+        },
+        {
+          "name": "drive_0046",
+          "material": "steel"
+        }
+      ]
+    },
+    {
+      "id": "suspension",
+      "pivots": [
+        {
+          "name": "suspension",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "suspension_0001",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0002",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0003",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0004",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0005",
+          "material": "olive"
+        },
+        {
+          "name": "suspension_0006",
+          "material": "steel"
+        },
+        {
+          "name": "suspension_0007",
+          "material": "brass"
+        },
+        {
+          "name": "suspension_0008",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0009",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0010",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0011",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0012",
+          "material": "olive"
+        },
+        {
+          "name": "suspension_0013",
+          "material": "steel"
+        },
+        {
+          "name": "suspension_0014",
+          "material": "brass"
+        },
+        {
+          "name": "suspension_0015",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0016",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0017",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0018",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0019",
+          "material": "olive"
+        },
+        {
+          "name": "suspension_0020",
+          "material": "steel"
+        },
+        {
+          "name": "suspension_0021",
+          "material": "brass"
+        },
+        {
+          "name": "suspension_0022",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0023",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0024",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0025",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0026",
+          "material": "olive"
+        },
+        {
+          "name": "suspension_0027",
+          "material": "steel"
+        },
+        {
+          "name": "suspension_0028",
+          "material": "brass"
+        },
+        {
+          "name": "suspension_0029",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0030",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0031",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0032",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0033",
+          "material": "olive"
+        },
+        {
+          "name": "suspension_0034",
+          "material": "steel"
+        },
+        {
+          "name": "suspension_0035",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0036",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0037",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0038",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0039",
+          "material": "olive"
+        },
+        {
+          "name": "suspension_0040",
+          "material": "steel"
+        },
+        {
+          "name": "suspension_0041",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0042",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0043",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0044",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0045",
+          "material": "olive"
+        },
+        {
+          "name": "suspension_0046",
+          "material": "steel"
+        },
+        {
+          "name": "suspension_0047",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0048",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0049",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0050",
+          "material": "dark"
+        },
+        {
+          "name": "suspension_0051",
+          "material": "olive"
+        },
+        {
+          "name": "suspension_0052",
+          "material": "steel"
+        },
+        {
+          "name": "suspension_0053",
+          "material": "brass"
+        }
+      ]
+    },
+    {
+      "id": "wheels",
+      "pivots": [
+        {
+          "name": "wheels",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "wheels_pivot_001",
+          "position": [
+            -3.08,
+            0.8,
+            -1.1875
+          ]
+        },
+        {
+          "name": "wheels_pivot_002",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "wheels_pivot_003",
+          "position": [
+            0,
+            0,
+            -0.18
+          ]
+        },
+        {
+          "name": "wheels_pivot_004",
+          "position": [
+            0,
+            0,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_005",
+          "position": [
+            0.11,
+            0,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_006",
+          "position": [
+            -0.05499999999999997,
+            0.09526279441628825,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_007",
+          "position": [
+            -0.05500000000000005,
+            -0.09526279441628824,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_008",
+          "position": [
+            -3.08,
+            0.8,
+            1.1875
+          ]
+        },
+        {
+          "name": "wheels_pivot_009",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "wheels_pivot_010",
+          "position": [
+            0,
+            0,
+            0.18
+          ]
+        },
+        {
+          "name": "wheels_pivot_011",
+          "position": [
+            0,
+            0,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_012",
+          "position": [
+            0.11,
+            0,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_013",
+          "position": [
+            -0.05499999999999997,
+            0.09526279441628825,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_014",
+          "position": [
+            -0.05500000000000005,
+            -0.09526279441628824,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_015",
+          "position": [
+            -0.88,
+            0.8,
+            -1.1875
+          ]
+        },
+        {
+          "name": "wheels_pivot_016",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "wheels_pivot_017",
+          "position": [
+            0,
+            0,
+            -0.18
+          ]
+        },
+        {
+          "name": "wheels_pivot_018",
+          "position": [
+            0,
+            0,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_019",
+          "position": [
+            0.11,
+            0,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_020",
+          "position": [
+            -0.05499999999999997,
+            0.09526279441628825,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_021",
+          "position": [
+            -0.05500000000000005,
+            -0.09526279441628824,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_022",
+          "position": [
+            -0.88,
+            0.8,
+            1.1875
+          ]
+        },
+        {
+          "name": "wheels_pivot_023",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "wheels_pivot_024",
+          "position": [
+            0,
+            0,
+            0.18
+          ]
+        },
+        {
+          "name": "wheels_pivot_025",
+          "position": [
+            0,
+            0,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_026",
+          "position": [
+            0.11,
+            0,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_027",
+          "position": [
+            -0.05499999999999997,
+            0.09526279441628825,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_028",
+          "position": [
+            -0.05500000000000005,
+            -0.09526279441628824,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_029",
+          "position": [
+            2.42,
+            0.8,
+            -1.1875
+          ]
+        },
+        {
+          "name": "wheels_pivot_030",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "wheels_pivot_031",
+          "position": [
+            0,
+            0,
+            -0.18
+          ]
+        },
+        {
+          "name": "wheels_pivot_032",
+          "position": [
+            0,
+            0,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_033",
+          "position": [
+            0.11,
+            0,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_034",
+          "position": [
+            -0.05499999999999997,
+            0.09526279441628825,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_035",
+          "position": [
+            -0.05500000000000005,
+            -0.09526279441628824,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_036",
+          "position": [
+            2.42,
+            0.8,
+            1.1875
+          ]
+        },
+        {
+          "name": "wheels_pivot_037",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "wheels_pivot_038",
+          "position": [
+            0,
+            0,
+            0.18
+          ]
+        },
+        {
+          "name": "wheels_pivot_039",
+          "position": [
+            0,
+            0,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_040",
+          "position": [
+            0.11,
+            0,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_041",
+          "position": [
+            -0.05499999999999997,
+            0.09526279441628825,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_042",
+          "position": [
+            -0.05500000000000005,
+            -0.09526279441628824,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_043",
+          "position": [
+            4.62,
+            0.8,
+            -1.1875
+          ]
+        },
+        {
+          "name": "wheels_pivot_044",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "wheels_pivot_045",
+          "position": [
+            0,
+            0,
+            -0.18
+          ]
+        },
+        {
+          "name": "wheels_pivot_046",
+          "position": [
+            0,
+            0,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_047",
+          "position": [
+            0.11,
+            0,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_048",
+          "position": [
+            -0.05499999999999997,
+            0.09526279441628825,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_049",
+          "position": [
+            -0.05500000000000005,
+            -0.09526279441628824,
+            -0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_050",
+          "position": [
+            4.62,
+            0.8,
+            1.1875
+          ]
+        },
+        {
+          "name": "wheels_pivot_051",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "wheels_pivot_052",
+          "position": [
+            0,
+            0,
+            0.18
+          ]
+        },
+        {
+          "name": "wheels_pivot_053",
+          "position": [
+            0,
+            0,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_054",
+          "position": [
+            0.11,
+            0,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_055",
+          "position": [
+            -0.05499999999999997,
+            0.09526279441628825,
+            0.035
+          ]
+        },
+        {
+          "name": "wheels_pivot_056",
+          "position": [
+            -0.05500000000000005,
+            -0.09526279441628824,
+            0.035
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "wheels_0001",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0002",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0003",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0004",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0005",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0006",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0007",
+          "material": "rubber"
+        },
+        {
+          "name": "wheels_0008",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0009",
+          "material": "bright"
+        },
+        {
+          "name": "wheels_0010",
+          "material": "dark"
+        },
+        {
+          "name": "wheels_0011",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0012",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0013",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0014",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0015",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0016",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0017",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0018",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0019",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0020",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0021",
+          "material": "rubber"
+        },
+        {
+          "name": "wheels_0022",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0023",
+          "material": "bright"
+        },
+        {
+          "name": "wheels_0024",
+          "material": "dark"
+        },
+        {
+          "name": "wheels_0025",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0026",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0027",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0028",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0029",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0030",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0031",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0032",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0033",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0034",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0035",
+          "material": "rubber"
+        },
+        {
+          "name": "wheels_0036",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0037",
+          "material": "bright"
+        },
+        {
+          "name": "wheels_0038",
+          "material": "dark"
+        },
+        {
+          "name": "wheels_0039",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0040",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0041",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0042",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0043",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0044",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0045",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0046",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0047",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0048",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0049",
+          "material": "rubber"
+        },
+        {
+          "name": "wheels_0050",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0051",
+          "material": "bright"
+        },
+        {
+          "name": "wheels_0052",
+          "material": "dark"
+        },
+        {
+          "name": "wheels_0053",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0054",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0055",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0056",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0057",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0058",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0059",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0060",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0061",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0062",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0063",
+          "material": "rubber"
+        },
+        {
+          "name": "wheels_0064",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0065",
+          "material": "bright"
+        },
+        {
+          "name": "wheels_0066",
+          "material": "dark"
+        },
+        {
+          "name": "wheels_0067",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0068",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0069",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0070",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0071",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0072",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0073",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0074",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0075",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0076",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0077",
+          "material": "rubber"
+        },
+        {
+          "name": "wheels_0078",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0079",
+          "material": "bright"
+        },
+        {
+          "name": "wheels_0080",
+          "material": "dark"
+        },
+        {
+          "name": "wheels_0081",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0082",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0083",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0084",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0085",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0086",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0087",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0088",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0089",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0090",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0091",
+          "material": "rubber"
+        },
+        {
+          "name": "wheels_0092",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0093",
+          "material": "bright"
+        },
+        {
+          "name": "wheels_0094",
+          "material": "dark"
+        },
+        {
+          "name": "wheels_0095",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0096",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0097",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0098",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0099",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0100",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0101",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0102",
+          "material": "edge"
+        },
+        {
+          "name": "wheels_0103",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0104",
+          "material": "olive"
+        },
+        {
+          "name": "wheels_0105",
+          "material": "rubber"
+        },
+        {
+          "name": "wheels_0106",
+          "material": "tread"
+        },
+        {
+          "name": "wheels_0107",
+          "material": "bright"
+        },
+        {
+          "name": "wheels_0108",
+          "material": "dark"
+        },
+        {
+          "name": "wheels_0109",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0110",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0111",
+          "material": "brass"
+        },
+        {
+          "name": "wheels_0112",
+          "material": "brass"
+        }
+      ]
+    },
+    {
+      "id": "brakes",
+      "pivots": [
+        {
+          "name": "brakes",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "brakes_pivot_001",
+          "position": [
+            -3.08,
+            0.8,
+            -0.8975
+          ]
+        },
+        {
+          "name": "brakes_pivot_002",
+          "position": [
+            -3.08,
+            0.8,
+            0.8975
+          ]
+        },
+        {
+          "name": "brakes_pivot_003",
+          "position": [
+            -0.88,
+            0.8,
+            -0.8975
+          ]
+        },
+        {
+          "name": "brakes_pivot_004",
+          "position": [
+            -0.88,
+            0.8,
+            0.8975
+          ]
+        },
+        {
+          "name": "brakes_pivot_005",
+          "position": [
+            2.42,
+            0.8,
+            -0.8975
+          ]
+        },
+        {
+          "name": "brakes_pivot_006",
+          "position": [
+            2.42,
+            0.8,
+            0.8975
+          ]
+        },
+        {
+          "name": "brakes_pivot_007",
+          "position": [
+            4.62,
+            0.8,
+            -0.8975
+          ]
+        },
+        {
+          "name": "brakes_pivot_008",
+          "position": [
+            4.62,
+            0.8,
+            0.8975
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "brakes_0001",
+          "material": "brass"
+        },
+        {
+          "name": "brakes_0002",
+          "material": "brass"
+        },
+        {
+          "name": "brakes_0003",
+          "material": "dark"
+        },
+        {
+          "name": "brakes_0004",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0005",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0006",
+          "material": "steel"
+        },
+        {
+          "name": "brakes_0007",
+          "material": "dark"
+        },
+        {
+          "name": "brakes_0008",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0009",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0010",
+          "material": "steel"
+        },
+        {
+          "name": "brakes_0011",
+          "material": "dark"
+        },
+        {
+          "name": "brakes_0012",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0013",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0014",
+          "material": "steel"
+        },
+        {
+          "name": "brakes_0015",
+          "material": "dark"
+        },
+        {
+          "name": "brakes_0016",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0017",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0018",
+          "material": "steel"
+        },
+        {
+          "name": "brakes_0019",
+          "material": "dark"
+        },
+        {
+          "name": "brakes_0020",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0021",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0022",
+          "material": "steel"
+        },
+        {
+          "name": "brakes_0023",
+          "material": "dark"
+        },
+        {
+          "name": "brakes_0024",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0025",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0026",
+          "material": "steel"
+        },
+        {
+          "name": "brakes_0027",
+          "material": "dark"
+        },
+        {
+          "name": "brakes_0028",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0029",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0030",
+          "material": "steel"
+        },
+        {
+          "name": "brakes_0031",
+          "material": "dark"
+        },
+        {
+          "name": "brakes_0032",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0033",
+          "material": "red"
+        },
+        {
+          "name": "brakes_0034",
+          "material": "steel"
+        },
+        {
+          "name": "brakes_0035",
+          "material": "dark"
+        },
+        {
+          "name": "brakes_0036",
+          "material": "steel"
+        }
+      ]
+    },
+    {
+      "id": "fuel",
+      "pivots": [
+        {
+          "name": "fuel",
+          "position": [
+            0,
+            0,
+            0
+          ]
+        }
+      ],
+      "meshes": [
+        {
+          "name": "fuel_0001",
+          "material": "olive"
+        },
+        {
+          "name": "fuel_0002",
+          "material": "steel"
+        },
+        {
+          "name": "fuel_0003",
+          "material": "brass"
+        },
+        {
+          "name": "fuel_0004",
+          "material": "olive"
+        },
+        {
+          "name": "fuel_0005",
+          "material": "steel"
+        },
+        {
+          "name": "fuel_0006",
+          "material": "brass"
+        },
+        {
+          "name": "fuel_0007",
+          "material": "dark"
+        }
+      ]
+    }
+  ],
+  "wheels": [
+    {
+      "carrier": "wheels_pivot_001",
+      "spin": "wheels_pivot_002",
+      "hub": "wheels_pivot_003",
+      "brake": "brakes_pivot_001",
+      "x": -3.08,
+      "side": -1
+    },
+    {
+      "carrier": "wheels_pivot_008",
+      "spin": "wheels_pivot_009",
+      "hub": "wheels_pivot_010",
+      "brake": "brakes_pivot_002",
+      "x": -3.08,
+      "side": 1
+    },
+    {
+      "carrier": "wheels_pivot_015",
+      "spin": "wheels_pivot_016",
+      "hub": "wheels_pivot_017",
+      "brake": "brakes_pivot_003",
+      "x": -0.88,
+      "side": -1
+    },
+    {
+      "carrier": "wheels_pivot_022",
+      "spin": "wheels_pivot_023",
+      "hub": "wheels_pivot_024",
+      "brake": "brakes_pivot_004",
+      "x": -0.88,
+      "side": 1
+    },
+    {
+      "carrier": "wheels_pivot_029",
+      "spin": "wheels_pivot_030",
+      "hub": "wheels_pivot_031",
+      "brake": "brakes_pivot_005",
+      "x": 2.42,
+      "side": -1
+    },
+    {
+      "carrier": "wheels_pivot_036",
+      "spin": "wheels_pivot_037",
+      "hub": "wheels_pivot_038",
+      "brake": "brakes_pivot_006",
+      "x": 2.42,
+      "side": 1
+    },
+    {
+      "carrier": "wheels_pivot_043",
+      "spin": "wheels_pivot_044",
+      "hub": "wheels_pivot_045",
+      "brake": "brakes_pivot_007",
+      "x": 4.62,
+      "side": -1
+    },
+    {
+      "carrier": "wheels_pivot_050",
+      "spin": "wheels_pivot_051",
+      "hub": "wheels_pivot_052",
+      "brake": "brakes_pivot_008",
+      "x": 4.62,
+      "side": 1
+    }
+  ],
+  "doors": [
+    {
+      "name": "cab_pivot_002",
+      "side": -1
+    },
+    {
+      "name": "cab_pivot_003",
+      "side": -1
+    },
+    {
+      "name": "cab_pivot_006",
+      "side": 1
+    },
+    {
+      "name": "cab_pivot_007",
+      "side": 1
+    }
+  ],
+  "pistons": [
+    {
+      "name": "engine_pivot_002",
+      "rod": "engine_0008",
+      "bank": -1,
+      "phase": 0,
+      "x": -0.66
+    },
+    {
+      "name": "engine_pivot_003",
+      "rod": "engine_0017",
+      "bank": 1,
+      "phase": 0,
+      "x": -0.66
+    },
+    {
+      "name": "engine_pivot_004",
+      "rod": "engine_0026",
+      "bank": -1,
+      "phase": 2.0943951023931953,
+      "x": -0.396
+    },
+    {
+      "name": "engine_pivot_005",
+      "rod": "engine_0035",
+      "bank": 1,
+      "phase": 2.0943951023931953,
+      "x": -0.396
+    },
+    {
+      "name": "engine_pivot_006",
+      "rod": "engine_0044",
+      "bank": -1,
+      "phase": 4.1887902047863905,
+      "x": -0.132
+    },
+    {
+      "name": "engine_pivot_007",
+      "rod": "engine_0053",
+      "bank": 1,
+      "phase": 4.1887902047863905,
+      "x": -0.132
+    },
+    {
+      "name": "engine_pivot_008",
+      "rod": "engine_0062",
+      "bank": -1,
+      "phase": 0,
+      "x": 0.132
+    },
+    {
+      "name": "engine_pivot_009",
+      "rod": "engine_0071",
+      "bank": 1,
+      "phase": 0,
+      "x": 0.132
+    },
+    {
+      "name": "engine_pivot_010",
+      "rod": "engine_0080",
+      "bank": -1,
+      "phase": 2.0943951023931953,
+      "x": 0.396
+    },
+    {
+      "name": "engine_pivot_011",
+      "rod": "engine_0089",
+      "bank": 1,
+      "phase": 2.0943951023931953,
+      "x": 0.396
+    },
+    {
+      "name": "engine_pivot_012",
+      "rod": "engine_0098",
+      "bank": -1,
+      "phase": 4.1887902047863905,
+      "x": 0.66
+    },
+    {
+      "name": "engine_pivot_013",
+      "rod": "engine_0107",
+      "bank": 1,
+      "phase": 4.1887902047863905,
+      "x": 0.66
+    }
+  ]
+}

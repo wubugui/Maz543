@@ -1,0 +1,171 @@
+        "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "BL_Merged_wheels_pivot_030_Phosphated_steel",
+            "triangles": 24220,
+            "stable": true,
+            "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "BL_Merged_wheels_pivot_044_Phosphated_steel",
+            "triangles": 24220,
+            "stable": true,
+            "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "COOL_upper_output_0_D12_machined_steel_upper-internal",
+            "triangles": 17792,
+            "stable": false,
+            "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "COOL_upper_output_1_D12_machined_steel_upper-internal",
+            "triangles": 17792,
+            "stable": false,
+            "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "COOL_lower_input_D12_machined_steel_lower-internal",
+            "triangles": 17664,
+            "stable": false,
+            "pass": 2,
+            "anySamplesPassed": false
+          }
+        ]
+      }
+    ],
+    "controlsPassed": true,
+    "queryError": 0,
+    "limits": "Actual conservative volume queries on exact-program snapshots. Potential only: no source product draw skipped, no cross-frame reuse or FPS gain established."
+  }
+}
+核对原程序深度重放
+MINSK AUTOMOBILE PLANT
+8×8
+MAZ–543A
+
+双驾驶室 · 四轴全轮驱动底盘
+
+外观
+透视
+纵剖
+车门开闭
+发动机内构
+变速机构
+电启动机构
+冷却系统
+转向联动
+悬架机构
+前
+侧
+顶
+已选组件
+双驾驶室
+
+TWIN CABINS
+
+聚焦
+单独查看
+详情
+拖动旋转 · 滚轮缩放 · 点击部件
+1 m
+驱动形式
+8 × 8
+参考轴距
+7,700 mm
+发动机
+V12 / 60°
+参考功率
+525 hp
+机械控制
+组件结构
+驾驶室操作
+四门独立
+右舱前门
+关闭
+99°
+右舱后门
+打开
+0°
+左舱前门
+打开
+0°
+左舱后门
+打开
+0°
+动力系统
+自行运转
+549
+RPM
+0
+1,000
+2,000
+引导启动
+原车分步操作
+断油停机
+STOP
+油压
+8.07 kgf/cm²
+母线电压
+25.2 V
+启动电流
+0 A
+按住启动
+0.0 / 5 s
+
+暖机且油路已充油的试验初始条件。启动前油压 ≥2.5；单次 ≤5 秒，重试间隔 25–30 秒。引导模式代为操作；手动模式保留独立按钮。电机曲线、油路参数与燃烧扭矩尚待标定。
+
+油门
+0%
+变速箱
+空挡
+R
+N
+1
+2
+3
+分动箱
+直接挡 · 1.00
+高挡
+低挡
+检查传动转速
+制动
+0%
+动力及启动机构慢动作 ×0.035
+演示车速
+0.0km/h
+转向与悬架
+02
+双前轴转向
+0°
+悬架台架激励
+0%
+模型固定在观察台上；车轮转动与地面滚动表示行驶。
+拆解与观察
+03
+总成分离
+0%
+驾驶室开门
+0%
+车灯
+部件标签
+网格线框
+机构演示
+01
+V12 曲柄连杆
+02
+双前轴转向
+03
+八轮独立悬架
+8,868 个几何实例
+精度说明
+MAZ–543A / 双驾驶室参考底盘
+运动学演示 · 部分内构简化
+0.7 FPS
+模拟时间 358.0 s
+资料与建模边界

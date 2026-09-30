@@ -1,0 +1,26 @@
+{
+  "base": "http://denghong01:8765",
+  "file_id": "e894f974-9bbe-4ebe-b8f1-b9441c41e782",
+  "idempotency_key": "maz543-converter-audit-d88a60426ac34749a1b06a4303235fee",
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A converter installation audit (read-only)",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "project_file": "e894f974-9bbe-4ebe-b8f1-b9441c41e782",
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 12288,
+      "timeout_seconds": 3600
+    }
+  },
+  "response": {
+    "batch_id": "a2731267-0c19-4bec-8976-d840b83b6e49",
+    "task_ids": [
+      "418533a1-7a85-4707-b5d2-a09edf43ab46"
+    ],
+    "task_id": "418533a1-7a85-4707-b5d2-a09edf43ab46"
+  }
+}

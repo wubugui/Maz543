@@ -1,0 +1,284 @@
+{
+  "stage": "Four-wheel converter assembly with native/export/browser inspection",
+  "wholeGoal": "active; all 16 gates OPEN",
+  "status": "180 fitted solids and app controls checked. Fluid/contact/lockup dynamics, factory fidelity, installation and main-scene performance incomplete.",
+  "files": [
+    {
+      "path": "AGENT_START_HERE.md",
+      "bytes": 20280,
+      "sha256": "b2550090daf0ec66f038393ef976f31b3ed1c7634bbc03b8e183c4857cf66120"
+    },
+    {
+      "path": "NEXT_AGENT_PROMPT.md",
+      "bytes": 12682,
+      "sha256": "fa2b39a6890709c9b762f1908126fa6f425d88c79b8db2e3fa7cf035cf37efcf"
+    },
+    {
+      "path": "docs/CONTINUATION_20260908.md",
+      "bytes": 13631,
+      "sha256": "6713501e30a6cde4dd6192b9f518301217054f9fb876f6d79295e157522cba08"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 25567,
+      "sha256": "b100b08a3fb67879bf58b36e716275a91c68f4be6ae158620a52620e721a5032"
+    },
+    {
+      "path": "docs/CONVERTER_FOUR_WHEEL_ASSEMBLY_20260908.md",
+      "bytes": 6413,
+      "sha256": "624296f84f4253c4ef8f480f805d37562fce5498d350327bbaad741d8cdee615"
+    },
+    {
+      "path": "docs/CONVERTER_STRIP_SURFACE_CONTACT_20260908.md",
+      "bytes": 6057,
+      "sha256": "7540cf1d813c6cb79e5e8ffbbd5588a3b5dfa8a99fbd36e65b35eafa14f41b8d"
+    },
+    {
+      "path": "scripts/blender-d12.py",
+      "bytes": 33403,
+      "sha256": "30b11d7b6cbd52c274caeb9661e07ce8a84105036220f5edad03405e344db416"
+    },
+    {
+      "path": "scripts/converter_strip_mesh.py",
+      "bytes": 1645,
+      "sha256": "45e8e41a491465e5f2654d57d55e741a70e2b3d1b8e5a9d77bf9d7c85f88be86"
+    },
+    {
+      "path": "components/converter-assembly.tsx",
+      "bytes": 10267,
+      "sha256": "c7193c7723f8db5b05914eec5b9dcb13d22333aa70edc60fe1ed25ecc53d9e59"
+    },
+    {
+      "path": "components/freewheel-bench.module.css",
+      "bytes": 3080,
+      "sha256": "0e9cb2f3bebd0efa8806dd7cc205cdc8e4df0862f67bdb0fc66da2352339facf"
+    },
+    {
+      "path": "components/workshop.tsx",
+      "bytes": 47780,
+      "sha256": "4c03ee6fbc80cb1a9a471f6fedfba9b6471783aa08484c1859cb69b4beaee788"
+    },
+    {
+      "path": "app/converter/page.tsx",
+      "bytes": 126,
+      "sha256": "e432f6fdca4ed24dc4d1ade30f5605381ba399c6d6f55159f4c63cb1457dc5fc"
+    },
+    {
+      "path": "outputs/MAZ543A_Converter_FourWheelAssembly.blend",
+      "bytes": 6765843,
+      "sha256": "d7a46e2fe4eb5f1d54c7a94ef21568aebac9e3b1a8ac9ee51ac0e35ae30a7e87"
+    },
+    {
+      "path": "outputs/converter-main-renderer-observation.json",
+      "bytes": 1055,
+      "sha256": "5602526fced894ee2d57f8229fe05fca6eebe6451ec8b8dfa359db9f47c7f687"
+    },
+    {
+      "path": "public/models/maz543a-converter-assembly.glb",
+      "bytes": 10998592,
+      "sha256": "668eaf3e6cf5ef73c95c565371a6f7155a9a4f8af936f2b381ce5e86f8dc86cc"
+    },
+    {
+      "path": "public/models/maz543a-converter-assembly.json",
+      "bytes": 19010,
+      "sha256": "57f1e5731377ee58c1d71cf0a4bc2b69b39b5e90f2526536bd593b4a32761e7e"
+    },
+    {
+      "path": "work/transmission/converter-four-wheel-assembly.json",
+      "bytes": 1955,
+      "sha256": "1d985c326e25ffef462c00b2015ffc680bcd972f1964071526b9bb8a7f502a8f"
+    },
+    {
+      "path": "work/transmission/converter-four-wheel-reference.bin",
+      "bytes": 2302368,
+      "sha256": "7a926a23e67e9f1d6c9d9213660a2debb06056168860a8c718064c8c2f2c7cb5"
+    },
+    {
+      "path": "work/freewheel-contact/strip-spring-study.json",
+      "bytes": 569164,
+      "sha256": "004f51fec9f935e806376c9bbaf75884230a66b13305e21bd467f74f1169a349"
+    },
+    {
+      "path": "scripts/archive-converter-four-wheel-stage.py",
+      "bytes": 2634,
+      "sha256": "c1d979580ab978656e28f701d7113c3ee00bdb09904775616459623b01f54bc5"
+    },
+    {
+      "path": "scripts/build-converter-four-wheel-assembly.py",
+      "bytes": 11504,
+      "sha256": "dcf9cecf13ea42eff34a4369af405eb37e4a14e8923b594aecc104a6b9d1554a"
+    },
+    {
+      "path": "scripts/export-converter-four-wheel.py",
+      "bytes": 1505,
+      "sha256": "cbfa67530fe806a0e66bbd6b5c87a0ca6a07e075f15e57aa673f7cd4d71cd09a"
+    },
+    {
+      "path": "scripts/render-converter-four-wheel.py",
+      "bytes": 1863,
+      "sha256": "81d53f7c76450a5ba3897b68d69ef96848ae0cb896028212a79e74d440a24677"
+    },
+    {
+      "path": "scripts/verify-converter-four-wheel-http.py",
+      "bytes": 1171,
+      "sha256": "d465af48cae4140fc7ab33ec8e9643002ff47a3a624c938c0d98ffc76b3206fa"
+    },
+    {
+      "path": "scripts/verify-converter-four-wheel-native.py",
+      "bytes": 3544,
+      "sha256": "94fe05a5fc387d846690b2444da22b1da9b0fb45990f4e754aa2e2b18cf35081"
+    },
+    {
+      "path": "scripts/verify-converter-four-wheel-export.mjs",
+      "bytes": 3524,
+      "sha256": "0026ec1b9012aa3997590ca535fa04b72734d1e17a31ba5f40d2ce3bfc72e5ad"
+    },
+    {
+      "path": "outputs/converter-four-wheel-assembled.png",
+      "bytes": 1164349,
+      "sha256": "db5c7449886c56ed43256efdd3f64552eacbe040606d897b06f3f5503eda8c0c"
+    },
+    {
+      "path": "outputs/converter-four-wheel-exploded.png",
+      "bytes": 1233731,
+      "sha256": "2591cf2b695a07af9f818136cc718161617cd476fd0ba0659e05eb74b6736242"
+    },
+    {
+      "path": "outputs/converter-four-wheel-export-verification.json",
+      "bytes": 29373,
+      "sha256": "1baba0921147918bb5b329dc13d56de7edf1f6eba26b7d056a4537a09e03d988"
+    },
+    {
+      "path": "outputs/converter-four-wheel-http.json",
+      "bytes": 553,
+      "sha256": "abfa9eda92674aab4950d6a63deffc0e8a5baa71b82a73c85133fafc8c93e382"
+    },
+    {
+      "path": "outputs/converter-four-wheel-native.json",
+      "bytes": 41219,
+      "sha256": "4aff3baff389d3e8578a630550111793c1f79786225f5aaa8f072ad252b1f467"
+    },
+    {
+      "path": "work/transmission/converter-four-wheel-build.log",
+      "bytes": 321,
+      "sha256": "66616cc002e90102be5639d42cab86551ed0e9a7992789dc68ab3a5f68d9a530"
+    },
+    {
+      "path": "work/transmission/converter-four-wheel-export-verification.log",
+      "bytes": 4126,
+      "sha256": "8a79743b6cc99c7b067362369ca56ed72dd91c03137f119453ba48c3b80a1798"
+    },
+    {
+      "path": "work/transmission/converter-four-wheel-export.log",
+      "bytes": 20005,
+      "sha256": "3edf95051f399d70ca38628d05dda6ff2fb48a3286ae8ce3974770eede6b0e66"
+    },
+    {
+      "path": "work/transmission/converter-four-wheel-first-export-failed.log",
+      "bytes": 377,
+      "sha256": "4cb497bc2f17c60b4e6a19ebfebb000c99f28a99ff17d8e4787b78355c8bb4d6"
+    },
+    {
+      "path": "work/transmission/converter-four-wheel-http.log",
+      "bytes": 555,
+      "sha256": "e680bf701d6a240447154851fc293666ba2c3c6004e0c83783b33de0cb160641"
+    },
+    {
+      "path": "work/transmission/converter-four-wheel-native.log",
+      "bytes": 1446,
+      "sha256": "a528f9649ccb91b08730f369e43a478cb0cbc0b2a989236a50b87de097405186"
+    },
+    {
+      "path": "work/transmission/converter-four-wheel-render.log",
+      "bytes": 45166,
+      "sha256": "eae82bdb5b2a2c89dea7fe351bc4b98cd122000df0dca0f56cd657d58fae3c6a"
+    },
+    {
+      "path": "work/transmission/converter-four-wheel-web-build.log",
+      "bytes": 2554,
+      "sha256": "87efd3161ea85fefcee04cc806b8c20bbfb5886598429d7fec91c116f9b05cbc"
+    },
+    {
+      "path": "outputs/converter-browser-evidence/exploded-rotated.png",
+      "bytes": 72157,
+      "sha256": "7afc6874ddc6da3233380c69dbc590920fb0f6a15ff9f6b4e9fd9339cf45f4f3"
+    },
+    {
+      "path": "outputs/converter-browser-evidence/fixed-support.png",
+      "bytes": 50665,
+      "sha256": "e55df04b0d5187f4afbd251a3b73e859d56fe30b32677759540dec34e0c406b7"
+    },
+    {
+      "path": "outputs/converter-browser-evidence/front-reactor-focused.png",
+      "bytes": 58849,
+      "sha256": "c56b292b7ba872fd35085134f434759124504ee25fb71c45a9cf6800b1644d47"
+    },
+    {
+      "path": "outputs/converter-browser-evidence/front-reactor.png",
+      "bytes": 49112,
+      "sha256": "04a5ea96cb0dcffe5134aa5dbc6a46ff383856248e3bf1dff1163c90928c453f"
+    },
+    {
+      "path": "outputs/converter-browser-evidence/initial.png",
+      "bytes": 60389,
+      "sha256": "a5d9d95a9159092815bdbd2e076af3d227eb7daf6538fcc4d36270601991b4dd"
+    },
+    {
+      "path": "outputs/converter-browser-evidence/main-entry-ax.txt",
+      "bytes": 8905,
+      "sha256": "390a2538c115052494fc30e955194947f8267553691d6fc67fe4d405eb03486d"
+    },
+    {
+      "path": "outputs/converter-browser-evidence/pump-section.png",
+      "bytes": 49337,
+      "sha256": "e6cf6363f51b5d2acb4fb3ac4b0ba1c02c8d6f820455e791281b063a89972f72"
+    },
+    {
+      "path": "outputs/converter-browser-evidence/ready-ax.txt",
+      "bytes": 2717,
+      "sha256": "6dbe0fa1c6818600035ac55c88bb1c93100a85f301bf15a909cf936c4d07c9de"
+    },
+    {
+      "path": "outputs/converter-browser-evidence/ready.png",
+      "bytes": 63304,
+      "sha256": "93d13f50b19a6e7810dbf8ef2bc20b5e77142b78bcf01b41e1c94d3805d52009"
+    },
+    {
+      "path": "outputs/converter-browser-evidence/rear-reactor-retained.png",
+      "bytes": 58712,
+      "sha256": "6f4dc029e82988629ab9ff86e52ef5c149d8d22e679f48518e391a089a088942"
+    },
+    {
+      "path": "outputs/converter-browser-evidence/turbine-90.png",
+      "bytes": 57390,
+      "sha256": "aeba8eb7a39ddb4f0fb30dc6a66c9e8272da9b3b6c6f32760d42c0c21aca87b2"
+    },
+    {
+      "path": "work/reference-docs/transmission/009.htm",
+      "bytes": 29958,
+      "sha256": "e1745bc0cabbf6129834a761eb4b9d75dfe2e388d0278113c6cebf3b850e89fb"
+    },
+    {
+      "path": "work/reference-docs/transmission/000-3024.jpg",
+      "bytes": 1315336,
+      "sha256": "cfa86bb9d794de0cc61f6b80c18bbee238c48d6019fbe50796b65c280d815947"
+    },
+    {
+      "path": "work/reference-docs/transmission/catalog-converter-pump-reactors.gif",
+      "bytes": 37556,
+      "sha256": "3cd990b089a38e819bb50cdea5cffd60a7a6e09ef001f00e17e42474124c71d0"
+    },
+    {
+      "path": "work/reference-docs/transmission/catalog-converter-016.txt",
+      "bytes": 10650,
+      "sha256": "4878e0e8576a25f9e573eb6b06054aa4187655be2bb9c8329a1017e90189fad0"
+    },
+    {
+      "path": "work/reference-docs/transmission/converter-assembly-findings.json",
+      "bytes": 2436,
+      "sha256": "3a5c98173c0cd1f63133dd4b3a21d66b6aa8b571a30ec8bc2b64d297861dc71d"
+    }
+  ],
+  "fileCount": 55,
+  "totalBytes": 25335911
+}

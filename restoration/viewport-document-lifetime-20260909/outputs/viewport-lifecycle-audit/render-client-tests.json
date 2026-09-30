@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "synchronousRollback": [
+    "render-constructor",
+    "mechanics-constructor",
+    "channel",
+    "transfer",
+    "listener",
+    "observe",
+    "mechanics-reset",
+    "mechanics-connect-renderer",
+    "render-init"
+  ],
+  "fatalCleanup": [
+    "render-error",
+    "mechanics-error",
+    "render-messageerror",
+    "mechanics-messageerror",
+    "fatal-message",
+    "unexpected-disposed",
+    "unsupported-overlay",
+    "render-state",
+    "mechanics-controls"
+  ],
+  "normalDisposeAcknowledged": true,
+  "boundedShutdown": true,
+  "failedShutdownPost": true,
+  "sharedHostPreserved": true,
+  "replacementApiPreserved": true,
+  "pendingExportRejected": true,
+  "lateMessagesIgnored": true,
+  "fractionalInputRetained": true,
+  "limits": "Fault injection runs the actual client with deterministic browser/Worker mocks; full browser lifecycle and GPU context recovery require separate evidence."
+}

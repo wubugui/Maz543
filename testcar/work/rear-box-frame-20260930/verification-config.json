@@ -1,0 +1,61 @@
+{
+  "source": "work/rear-box-frame-20260930/baseline.glb",
+  "changedMeshes": [
+    "BL_Merged_body_OD_green_aged_enamel",
+    "BL_Merged_body_Phosphated_steel"
+  ],
+  "changedMaterialNodes": {
+    "frame_0002": "MAZ543A_Frame_dark_enamel",
+    "frame_0003": "MAZ543A_Frame_dark_enamel",
+    "frame_0004": "MAZ543A_Frame_dark_enamel"
+  },
+  "materialSpecs": {
+    "frame_0002": {
+      "baseColorFactor": [
+        0.006,
+        0.008,
+        0.007,
+        1
+      ],
+      "metallicFactor": 0.15,
+      "roughnessFactor": 0.76
+    },
+    "frame_0003": {
+      "baseColorFactor": [
+        0.006,
+        0.008,
+        0.007,
+        1
+      ],
+      "metallicFactor": 0.15,
+      "roughnessFactor": 0.76
+    },
+    "frame_0004": {
+      "baseColorFactor": [
+        0.006,
+        0.008,
+        0.007,
+        1
+      ],
+      "metallicFactor": 0.15,
+      "roughnessFactor": 0.76
+    }
+  },
+  "result": "work/rear-box-frame-20260930/packaged.glb",
+  "newNodes": [
+    "BL_RearRestoration_mount_-1_3.37",
+    "BL_RearRestoration_mount_-1_3.67",
+    "BL_RearRestoration_mount_1_3.37",
+    "BL_RearRestoration_mount_1_3.67",
+    "BL_RearRestoration_Rear_box_-1",
+    "BL_RearRestoration_Rear_box_1",
+    "BL_RearRestoration_Rear_box_latch_-1_4.94",
+    "BL_RearRestoration_Rear_box_latch_-1_5.24",
+    "BL_RearRestoration_Rear_box_latch_1_4.94",
+    "BL_RearRestoration_Rear_box_latch_1_5.24",
+    "BL_RearRestoration_Rear_box_lid_-1",
+    "BL_RearRestoration_Rear_box_lid_1"
+  ],
+  "removedNodes": [],
+  "report": "outputs/rear-box-frame-20260930/export-verification.json"
+}

@@ -1,0 +1,30 @@
+{
+  "base_url": "http://denghong01:8765",
+  "idempotency_key": "maz543a-searchlight-audit-49f6a27ce6a94e9894a1b17e76abadd6",
+  "source_sha256": {
+    "MAZ543A_Master.blend": "034767fb77e9664e29a828fdfcb7ec6ccb4694d4720dcb96a93339130e173a50",
+    "MAZ543A_Textured.blend": "42687db5b5348ebf153c3329f62894711539f049d8a0852f0ab2da37c20764cc"
+  },
+  "project_file": "79701385-4164-4f93-bd1b-5c610f84213d",
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A roof searchlight native audit",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "project_file": "79701385-4164-4f93-bd1b-5c610f84213d",
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 8192,
+      "timeout_seconds": 600
+    }
+  },
+  "response": {
+    "batch_id": "65765c80-c135-4245-ad5f-535d9b0e24d3",
+    "task_ids": [
+      "6c9ca96b-a3de-4fe1-a024-6b8be591746a"
+    ],
+    "task_id": "6c9ca96b-a3de-4fe1-a024-6b8be591746a"
+  }
+}

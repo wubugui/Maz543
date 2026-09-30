@@ -1,0 +1,132 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "passed": true,
+  "measurements": [
+    {
+      "file": "still.json",
+      "captureMs": 1119.5,
+      "unattributedMs": 0.30000000447034836,
+      "pixelDifferences": 0,
+      "phases": {
+        "target-setup": {
+          "wallMs": 7.5,
+          "stateReadWaitMs": 2.5,
+          "draws": 0,
+          "triangles": 0
+        },
+        "shadow-depth": {
+          "wallMs": 41.100000001490116,
+          "stateReadWaitMs": 22.100000001490116,
+          "draws": 2322,
+          "triangles": 5395366
+        },
+        "transmission-prepass": {
+          "wallMs": 278.1000000014901,
+          "stateReadWaitMs": 264.20000000298023,
+          "draws": 2323,
+          "triangles": 5395368
+        },
+        "main-color": {
+          "wallMs": 477.79999999701977,
+          "stateReadWaitMs": 466.3999999985099,
+          "draws": 2332,
+          "triangles": 5396808
+        },
+        "normal-buffer": {
+          "wallMs": 305.1000000014901,
+          "stateReadWaitMs": 291.70000000298023,
+          "draws": 2323,
+          "triangles": 5395368
+        },
+        "GTAO evaluation": {
+          "wallMs": 0.7999999970197678,
+          "stateReadWaitMs": 0.7000000029802322,
+          "draws": 1,
+          "triangles": 1
+        },
+        "Poisson denoise": {
+          "wallMs": 1.6000000014901161,
+          "stateReadWaitMs": 1.5,
+          "draws": 1,
+          "triangles": 1
+        },
+        "GTAO copy + GTAO blend": {
+          "wallMs": 5.199999995529652,
+          "stateReadWaitMs": 5.0999999940395355,
+          "draws": 2,
+          "triangles": 2
+        },
+        "OutputShader": {
+          "wallMs": 2,
+          "stateReadWaitMs": 1.8999999985098839,
+          "draws": 1,
+          "triangles": 1
+        }
+      }
+    },
+    {
+      "file": "engine-side-door.json",
+      "captureMs": 1134.39999999851,
+      "unattributedMs": 0,
+      "pixelDifferences": 0,
+      "phases": {
+        "target-setup": {
+          "wallMs": 6.699999995529652,
+          "stateReadWaitMs": 2.5999999940395355,
+          "draws": 0,
+          "triangles": 0
+        },
+        "shadow-depth": {
+          "wallMs": 31.600000001490116,
+          "stateReadWaitMs": 15.699999995529652,
+          "draws": 2322,
+          "triangles": 5395366
+        },
+        "transmission-prepass": {
+          "wallMs": 306.5,
+          "stateReadWaitMs": 292.5,
+          "draws": 2323,
+          "triangles": 5395368
+        },
+        "main-color": {
+          "wallMs": 502.79999999701977,
+          "stateReadWaitMs": 490.09999999403954,
+          "draws": 2333,
+          "triangles": 5396808
+        },
+        "normal-buffer": {
+          "wallMs": 276.1000000014901,
+          "stateReadWaitMs": 263.3999999985099,
+          "draws": 2323,
+          "triangles": 5395368
+        },
+        "GTAO evaluation": {
+          "wallMs": 2.3000000044703484,
+          "stateReadWaitMs": 2.200000002980232,
+          "draws": 1,
+          "triangles": 1
+        },
+        "Poisson denoise": {
+          "wallMs": 5.5999999940395355,
+          "stateReadWaitMs": 5.5,
+          "draws": 1,
+          "triangles": 1
+        },
+        "GTAO blend + GTAO copy": {
+          "wallMs": 1.600000001490116,
+          "stateReadWaitMs": 1.5,
+          "draws": 2,
+          "triangles": 2
+        },
+        "OutputShader": {
+          "wallMs": 1.2000000029802322,
+          "stateReadWaitMs": 1.2000000029802322,
+          "draws": 1,
+          "triangles": 1
+        }
+      }
+    }
+  ],
+  "limits": "Intrusive command/state round-trip wall time only. Chromium finish is Flush, GPU timer extension unavailable, and GPU completion not proven. No pass skipped; no FPS optimization claimed. Earlier incomplete-boundary sample is excluded."
+}

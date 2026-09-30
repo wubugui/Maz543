@@ -1,0 +1,240 @@
+{
+  "cases": [
+    {
+      "file": "maz543a-blender.glb",
+      "name": "BL_Merged_body_OD_green_aged_enamel",
+      "vertices": 19414,
+      "triangles": 10072,
+      "decodedMatchesExportExactly": true,
+      "quantization": {
+        "bits": 12,
+        "range": 2,
+        "min": [
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "rawTinySample": [
+        2048,
+        2048,
+        2048,
+        4095
+      ],
+      "minimumLength": 0.0004230704432378566,
+      "maximumLength": 1.000333608616132,
+      "nonUnitAt1e4": 11124,
+      "tinyCount": 3,
+      "samples": [
+        {
+          "vertex": 1014,
+          "tangent": [
+            0.0002442598342895508,
+            0.0002442598342895508,
+            0.0002442598342895508,
+            1
+          ],
+          "incidentUvDeterminants": [
+            0,
+            0
+          ]
+        },
+        {
+          "vertex": 1389,
+          "tangent": [
+            0.0002442598342895508,
+            0.0002442598342895508,
+            0.0002442598342895508,
+            1
+          ],
+          "incidentUvDeterminants": [
+            0,
+            0
+          ]
+        },
+        {
+          "vertex": 2149,
+          "tangent": [
+            0.0002442598342895508,
+            0.0002442598342895508,
+            0.0002442598342895508,
+            1
+          ],
+          "incidentUvDeterminants": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "maz543a-blender.glb",
+      "name": "BL_Merged_body_Rubber_window_seals",
+      "vertices": 2302,
+      "triangles": 1136,
+      "decodedMatchesExportExactly": true,
+      "quantization": {
+        "bits": 12,
+        "range": 2,
+        "min": [
+          -1,
+          -1,
+          -1,
+          -1
+        ]
+      },
+      "rawTinySample": [
+        2048,
+        2048,
+        2048,
+        4095
+      ],
+      "minimumLength": 0.0004230704432378566,
+      "maximumLength": 1.0003243758890124,
+      "nonUnitAt1e4": 982,
+      "tinyCount": 1,
+      "samples": [
+        {
+          "vertex": 1238,
+          "tangent": [
+            0.0002442598342895508,
+            0.0002442598342895508,
+            0.0002442598342895508,
+            1
+          ],
+          "incidentUvDeterminants": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "file": "maz543a-cooling.glb",
+      "name": "COOL_upper_input_flange_0",
+      "vertices": 15106,
+      "triangles": 7824,
+      "decodedMatchesExportExactly": true,
+      "quantization": {
+        "bits": 12,
+        "range": 1.996999979019165,
+        "min": [
+          -0.16140000522136688,
+          -0.9984999895095825,
+          -0.9984999895095825,
+          -1
+        ]
+      },
+      "rawTinySample": [
+        331,
+        2048,
+        2048,
+        0
+      ],
+      "minimumLength": 0.00034531811416726294,
+      "maximumLength": 1.0003334613836123,
+      "nonUnitAt1e4": 13879,
+      "tinyCount": 16,
+      "samples": [
+        {
+          "vertex": 122,
+          "tangent": [
+            0.00001806020736694336,
+            0.00024384260177612305,
+            0.00024384260177612305,
+            -1
+          ],
+          "incidentUvDeterminants": [
+            0
+          ]
+        },
+        {
+          "vertex": 123,
+          "tangent": [
+            0.00001806020736694336,
+            0.00024384260177612305,
+            0.00024384260177612305,
+            -1
+          ],
+          "incidentUvDeterminants": [
+            0
+          ]
+        },
+        {
+          "vertex": 130,
+          "tangent": [
+            0.00001806020736694336,
+            0.00024384260177612305,
+            0.00024384260177612305,
+            -1
+          ],
+          "incidentUvDeterminants": [
+            0
+          ]
+        },
+        {
+          "vertex": 135,
+          "tangent": [
+            0.00001806020736694336,
+            0.00024384260177612305,
+            0.00024384260177612305,
+            -1
+          ],
+          "incidentUvDeterminants": [
+            0
+          ]
+        },
+        {
+          "vertex": 354,
+          "tangent": [
+            0.00001806020736694336,
+            0.00024384260177612305,
+            0.00024384260177612305,
+            -1
+          ],
+          "incidentUvDeterminants": [
+            0
+          ]
+        },
+        {
+          "vertex": 367,
+          "tangent": [
+            0.00001806020736694336,
+            0.00024384260177612305,
+            0.00024384260177612305,
+            -1
+          ],
+          "incidentUvDeterminants": [
+            0
+          ]
+        },
+        {
+          "vertex": 381,
+          "tangent": [
+            0.00001806020736694336,
+            0.00024384260177612305,
+            0.00024384260177612305,
+            -1
+          ],
+          "incidentUvDeterminants": [
+            0
+          ]
+        },
+        {
+          "vertex": 385,
+          "tangent": [
+            0.00001806020736694336,
+            0.00024384260177612305,
+            0.00024384260177612305,
+            -1
+          ],
+          "incidentUvDeterminants": [
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": "Directly decodes the current native GLB with the same shipped Draco WASM. No native or runtime asset changes. UV determinants describe decoded triangles; original Blender loop tangents require a separate check."
+}

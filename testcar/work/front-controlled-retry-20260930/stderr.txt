@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "F:\InferenceHub\blender_bootstrap.py", line 79, in <module>
+    runpy.run_path(str(script),run_name='__main__')
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "F:\InferenceHub\data\blender\a474180c-fde7-4acc-b82f-19a100987e4d\a53e5431-5ccc-4fa5-8298-7aee17cc7420\work\main.py", line 113, in <module>
+    assert not hits,('cover intersects installed mechanics',hits)
+           ^^^^^^^^
+AssertionError: ('cover intersects installed mechanics', ['COOL_expansion_cap'])
+
+Error: script failed, file: 'F:\InferenceHub\blender_bootstrap.py', exiting.

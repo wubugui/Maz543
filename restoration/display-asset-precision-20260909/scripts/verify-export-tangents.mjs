@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import * as T from 'three';
+import {prepareExportTangents} from '../lib/exportTangents.ts';
+function fixture(){const geometry=new T.BufferGeometry();geometry.setAttribute('position',new T.Float32BufferAttribute([0,0,0, 0,0,0, 1,0,0],3));geometry.setAttribute('normal',new T.Float32BufferAttribute([0,0,1, 0,0,1, 0,0,1],3));geometry.setAttribute('tangent',new T.Float32BufferAttribute([.000244,.000244,.000244,-1, 1,0,0,1, 1,0,0,1],4));geometry.setIndex([0,1,2]);return geometry;}
+const original=fixture(),before=original.attributes.tangent.array.slice(),{geometry,audit}=prepareExportTangents(original);
+assert.equal(audit.repaired,1);assert.notEqual(geometry,original);assert.equal(geometry.attributes.position,original.attributes.position);assert.equal(geometry.index,original.index);assert.deepEqual(original.attributes.tangent.array,before);assert.equal(geometry.attributes.tangent.getW(0),-1);assert.equal(Math.hypot(geometry.attributes.tangent.getX(0),geometry.attributes.tangent.getY(0),geometry.attributes.tangent.getZ(0)),1);
+const animated=fixture();animated.morphAttributes.position=[new T.Float32BufferAttribute([0,0,0, 0,1,0, 1,0,0],3)];assert.equal(prepareExportTangents(animated).audit.repaired,0,'a morph can open the triangle, so it must not be changed');
+const stable=fixture();stable.morphAttributes.position=[new T.Float32BufferAttribute([0,1,0, 0,1,0, 1,0,0],3)];assert.equal(prepareExportTangents(stable).audit.repaired,1);
+const adjacent=fixture();adjacent.setIndex([0,1,2,0,2,3]);adjacent.setAttribute('position',new T.Float32BufferAttribute([0,0,0,0,0,0,1,0,0,0,1,0],3));adjacent.setAttribute('normal',new T.Float32BufferAttribute([0,0,1,0,0,1,0,0,1,0,0,1],3));adjacent.setAttribute('tangent',new T.Float32BufferAttribute([...before,1,0,0,1],4));assert.equal(prepareExportTangents(adjacent).audit.repaired,0,'shared corner also belongs to a real surface');
+const thin=fixture();thin.attributes.position.setY(1,1e-20);assert.equal(prepareExportTangents(thin).audit.repaired,0,'no epsilon discards a thin real surface');
+const skinned=fixture();skinned.setAttribute('skinIndex',new T.Uint16BufferAttribute(new Uint16Array(12),4));assert.equal(prepareExportTangents(skinned).audit.repaired,0);
+await fs.writeFile('outputs/tangent-audit/repair-contract-tests.json',JSON.stringify({passed:true,sourceUntouched:true,positionAndIndexIdentityPreserved:true,handednessPreserved:true,unitOrthogonalFrame:true,morphOpeningProtected:true,sharedSurfaceProtected:true,noEpsilon:true,skinningProtected:true},null,2));console.log('Export tangent repair: exact collapse, morph/skin/adjacent surface guards and source preservation passed.');

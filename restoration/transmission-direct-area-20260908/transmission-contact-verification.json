@@ -1,0 +1,11 @@
+{
+  "clutchStates": 20,
+  "springStates": 160,
+  "maxStackGapErrorMM": 1.4901161193847656e-05,
+  "maxWireRadiusErrorM": 3.16556880469894e-09,
+  "maxHelixRadiusErrorM": 3.2929591692321125e-10,
+  "maxFixedEndPlaneErrorM": 1.4901161193847656e-08,
+  "rigidCrossingCandidates": 0,
+  "sealCrossingCandidates": 50,
+  "limits": "Five discrete states; nominal seals have tessellated surface crossings and no elastic solve. No continuous collision, solid-containment, hydraulic pressure or force validation."
+}

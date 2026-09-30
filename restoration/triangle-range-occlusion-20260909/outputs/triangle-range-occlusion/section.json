@@ -1,0 +1,46 @@
+{
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "originalOcclusion": {
+    "kind": "original-program-occlusion-cache",
+    "generation": 28,
+    "rebuilt": false,
+    "pending": false,
+    "ready": false,
+    "occluders": 0,
+    "excludedChanged": 0,
+    "skipped": 0,
+    "savedTriangles": 0,
+    "programFallbacks": 0,
+    "rangeMode": true,
+    "rangeMeshes": 0,
+    "rangeProxyBytes": 0,
+    "rangeSourceDraws": 0,
+    "rangeSubmittedDraws": 0,
+    "rangeSavedTriangles": 0,
+    "depthControls": null,
+    "passes": [],
+    "prepareMs": 0,
+    "error": "",
+    "limits": "DEV only; original program/uniform setup retained. Only proven camera-pass GL triangle submissions omitted. Original shadows/transparent draws and full mechanical solver retained. Stable FPS and full-product acceptance remain open."
+  },
+  "width": 1212,
+  "height": 773,
+  "order": "optimized-then-baseline",
+  "baseline": {
+    "calls": 9139,
+    "triangles": 20352995,
+    "synchronizedMs": 1242.6999999955297
+  },
+  "optimized": {
+    "calls": 9139,
+    "triangles": 20352995,
+    "synchronizedMs": 1314.6000000014901
+  },
+  "optimizedReadbackError": 0,
+  "baselineReadbackError": 0,
+  "differentPixels": 0,
+  "maxChannelDifference": 0,
+  "rmsChannelDifference": 0,
+  "identicalPixels": true,
+  "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+}

@@ -1,0 +1,31 @@
+{
+  "file_id_main2": "6e488360-ec4f-49d6-a451-7a9637d882d4",
+  "idempotency_key": "maz543-converter-audit-flange-53cabcb6000d429493cec35bbd79cb42",
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A converter installation audit, flange placement (read-only)",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "project_file": "e894f974-9bbe-4ebe-b8f1-b9441c41e782",
+      "files": [
+        {
+          "file_id": "6e488360-ec4f-49d6-a451-7a9637d882d4",
+          "path": "main2.py"
+        }
+      ],
+      "script": "main2.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 12288,
+      "timeout_seconds": 3600
+    }
+  },
+  "response": {
+    "batch_id": "fcfea93d-4b54-465d-b7d2-f342e53f4e9b",
+    "task_ids": [
+      "4aa149e3-0a53-45d7-b279-f1bf479a16d0"
+    ],
+    "task_id": "4aa149e3-0a53-45d7-b279-f1bf479a16d0"
+  }
+}

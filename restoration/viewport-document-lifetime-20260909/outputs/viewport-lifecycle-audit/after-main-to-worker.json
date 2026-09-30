@@ -1,0 +1,148 @@
+{
+  "page": "396a1364-ad20-477f-834a-210825d2eacb",
+  "query": "?render-worker=1&native-raf=1&lifecycle-audit=1",
+  "events": [
+    {
+      "time": 1788906527765,
+      "page": "bfd187b2-4508-4130-9ec0-fa125f4f3f77",
+      "event": "viewer-effect-enter",
+      "details": {
+        "query": "?lifecycle-audit=1",
+        "navigation": [
+          {
+            "type": "navigate",
+            "activationStart": 0,
+            "notRestoredReasons": null
+          }
+        ]
+      }
+    },
+    {
+      "time": 1788906532820,
+      "page": "bfd187b2-4508-4130-9ec0-fa125f4f3f77",
+      "event": "native-ready",
+      "details": {
+        "count": 8868
+      }
+    },
+    {
+      "time": 1788906563457,
+      "page": "bfd187b2-4508-4130-9ec0-fa125f4f3f77",
+      "event": "snapshot",
+      "details": {
+        "hidden": false,
+        "navigation": [
+          {
+            "type": "navigate",
+            "activationStart": 0,
+            "notRestoredReasons": null
+          }
+        ],
+        "telemetry": {
+          "time": 34.27500000000031,
+          "engineRPM": 0,
+          "render": {
+            "fps": 0,
+            "drawCalls": 9305,
+            "triangles": 21582915,
+            "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "cached": true
+          },
+          "backlog": 0
+        },
+        "jsHeap": {
+          "used": 1710593306,
+          "total": 1803473754,
+          "limit": 4395630592
+        },
+        "canvases": [
+          {
+            "width": 1212,
+            "height": 773,
+            "connected": true
+          }
+        ]
+      }
+    },
+    {
+      "time": 1788906590311,
+      "page": "bfd187b2-4508-4130-9ec0-fa125f4f3f77",
+      "event": "pagehide",
+      "details": {
+        "persisted": false,
+        "hidden": false
+      }
+    },
+    {
+      "time": 1788906590311,
+      "page": "bfd187b2-4508-4130-9ec0-fa125f4f3f77",
+      "event": "visibilitychange",
+      "details": {
+        "hidden": true
+      }
+    },
+    {
+      "time": 1788906590952,
+      "page": "396a1364-ad20-477f-834a-210825d2eacb",
+      "event": "viewer-effect-enter",
+      "details": {
+        "query": "?render-worker=1&native-raf=1&lifecycle-audit=1",
+        "navigation": [
+          {
+            "type": "navigate",
+            "activationStart": 0,
+            "notRestoredReasons": null
+          }
+        ]
+      }
+    },
+    {
+      "time": 1788906595459,
+      "page": "396a1364-ad20-477f-834a-210825d2eacb",
+      "event": "native-ready",
+      "details": {
+        "count": 8868
+      }
+    },
+    {
+      "time": 1788906639879,
+      "page": "396a1364-ad20-477f-834a-210825d2eacb",
+      "event": "snapshot",
+      "details": {
+        "hidden": false,
+        "navigation": [
+          {
+            "type": "navigate",
+            "activationStart": 0,
+            "notRestoredReasons": null
+          }
+        ],
+        "telemetry": {
+          "time": 48.72916666667848,
+          "engineRPM": 0,
+          "render": {
+            "fps": 0,
+            "drawCalls": 9305,
+            "triangles": 21582915,
+            "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "cached": true
+          },
+          "backlog": 0
+        },
+        "jsHeap": {
+          "used": 1591764131,
+          "total": 1631890971,
+          "limit": 4395630592
+        },
+        "canvases": [
+          {
+            "width": 1212,
+            "height": 773,
+            "connected": true
+          }
+        ]
+      }
+    }
+  ],
+  "limits": "Page lifecycle events and legacy JS heap snapshot. Heap excludes most driver/GPU allocations; process memory is measured separately. No resource policy changed."
+}

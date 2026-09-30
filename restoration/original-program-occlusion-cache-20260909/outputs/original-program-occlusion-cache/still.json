@@ -1,0 +1,478 @@
+{
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "originalOcclusion": {
+    "kind": "original-program-occlusion-cache",
+    "generation": 2,
+    "rebuilt": false,
+    "pending": false,
+    "ready": true,
+    "occluders": 2315,
+    "excludedChanged": 0,
+    "skipped": 5377,
+    "savedTriangles": 8277190,
+    "programFallbacks": 0,
+    "depthControls": {
+      "kind": "original-program-static-depth-volume-queries",
+      "initializationDraws": 1,
+      "passes": [
+        {
+          "samples": 4,
+          "depthBits": 24,
+          "viewport": [
+            0,
+            0,
+            1212,
+            773
+          ],
+          "normalOverride": false,
+          "queried": 2314,
+          "zeroVolumes": 1781,
+          "zeroTriangles": 2240098,
+          "movingZeroVolumes": 0,
+          "controlsPassed": true,
+          "largestZero": [
+            {
+              "name": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+              "triangles": 24220,
+              "stable": true,
+              "meshUuid": "ca350ffa-70a2-4dd8-b4a3-6335201f0aad",
+              "volume": {
+                "left": 457.3675329241679,
+                "right": 493.92540212936404,
+                "bottom": 245.26219211155146,
+                "top": 291.5740164226514,
+                "nearDepth": 0.9986785800820994
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_18_reverse_ring",
+              "triangles": 22864,
+              "stable": true,
+              "meshUuid": "54d0d4b6-7c5c-4df2-9373-a8d4f01ca8c1",
+              "volume": {
+                "left": 584.749112902005,
+                "right": 609.9251610315458,
+                "bottom": 279.0628041670878,
+                "top": 310.15128693887885,
+                "nearDepth": 0.9987283567438305
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_40_first_ring",
+              "triangles": 19504,
+              "stable": true,
+              "meshUuid": "919e6a75-cac4-4a32-8fb6-9c85e33278f4",
+              "volume": {
+                "left": 590.9790011154744,
+                "right": 610.1927571098933,
+                "bottom": 283.0680137851361,
+                "top": 308.8175643232036,
+                "nearDepth": 0.9987344153055773
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_01_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "0e954dad-b769-4c7c-a8d7-ab4835c043a0",
+              "volume": {
+                "left": 583.2731480082447,
+                "right": 607.3947899072679,
+                "bottom": 278.36007651990167,
+                "top": 309.1991713858741,
+                "nearDepth": 0.998726478117551
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_11_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "d6f800f7-b5b8-46aa-8392-4c1049352b2a",
+              "volume": {
+                "left": 583.8883172409611,
+                "right": 608.0113554894942,
+                "bottom": 278.62074800611435,
+                "top": 309.4502516557657,
+                "nearDepth": 0.9987272532381632
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_13_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "3ba46750-e65b-4a4f-a860-c66459f6271a",
+              "volume": {
+                "left": 584.0112838867884,
+                "right": 608.134600330504,
+                "bottom": 278.6728536734567,
+                "top": 309.50044005762425,
+                "nearDepth": 0.9987274081763944
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_03_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "84161ab8-d28c-4093-bc42-32a2e70208a1",
+              "volume": {
+                "left": 583.3962265301226,
+                "right": 607.5181484887444,
+                "bottom": 278.4122298508103,
+                "top": 309.2494058533606,
+                "nearDepth": 0.9987266331987774
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_05_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "b210a7d7-d928-4014-8104-7b9a223bf008",
+              "volume": {
+                "left": 583.5192828828708,
+                "right": 607.6414843095419,
+                "bottom": 278.4643737362739,
+                "top": 309.2996311026521,
+                "nearDepth": 0.9987267882516644
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            }
+          ]
+        },
+        {
+          "samples": 2,
+          "depthBits": 24,
+          "viewport": [
+            0,
+            0,
+            1212,
+            773
+          ],
+          "normalOverride": false,
+          "queried": 2314,
+          "zeroVolumes": 1799,
+          "zeroTriangles": 3015326,
+          "movingZeroVolumes": 0,
+          "controlsPassed": true,
+          "largestZero": [
+            {
+              "name": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+              "triangles": 738276,
+              "stable": true,
+              "meshUuid": "97d634f4-18d6-48a5-83ca-aead0783a934",
+              "volume": {
+                "left": 439.13871029768603,
+                "right": 466.4378351607828,
+                "bottom": 233.24355503828482,
+                "top": 262.5179287464714,
+                "nearDepth": 0.998538060985092
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+              "triangles": 24220,
+              "stable": true,
+              "meshUuid": "ca350ffa-70a2-4dd8-b4a3-6335201f0aad",
+              "volume": {
+                "left": 457.3675329241679,
+                "right": 493.92540212936404,
+                "bottom": 245.26219211155146,
+                "top": 291.5740164226514,
+                "nearDepth": 0.9986785800820994
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_18_reverse_ring",
+              "triangles": 22864,
+              "stable": true,
+              "meshUuid": "54d0d4b6-7c5c-4df2-9373-a8d4f01ca8c1",
+              "volume": {
+                "left": 584.749112902005,
+                "right": 609.9251610315458,
+                "bottom": 279.0628041670878,
+                "top": 310.15128693887885,
+                "nearDepth": 0.9987283567438305
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_40_first_ring",
+              "triangles": 19504,
+              "stable": true,
+              "meshUuid": "919e6a75-cac4-4a32-8fb6-9c85e33278f4",
+              "volume": {
+                "left": 590.9790011154744,
+                "right": 610.1927571098933,
+                "bottom": 283.0680137851361,
+                "top": 308.8175643232036,
+                "nearDepth": 0.9987344153055773
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_01_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "0e954dad-b769-4c7c-a8d7-ab4835c043a0",
+              "volume": {
+                "left": 583.2731480082447,
+                "right": 607.3947899072679,
+                "bottom": 278.36007651990167,
+                "top": 309.1991713858741,
+                "nearDepth": 0.998726478117551
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_11_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "d6f800f7-b5b8-46aa-8392-4c1049352b2a",
+              "volume": {
+                "left": 583.8883172409611,
+                "right": 608.0113554894942,
+                "bottom": 278.62074800611435,
+                "top": 309.4502516557657,
+                "nearDepth": 0.9987272532381632
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_13_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "3ba46750-e65b-4a4f-a860-c66459f6271a",
+              "volume": {
+                "left": 584.0112838867884,
+                "right": 608.134600330504,
+                "bottom": 278.6728536734567,
+                "top": 309.50044005762425,
+                "nearDepth": 0.9987274081763944
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_03_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "84161ab8-d28c-4093-bc42-32a2e70208a1",
+              "volume": {
+                "left": 583.3962265301226,
+                "right": 607.5181484887444,
+                "bottom": 278.4122298508103,
+                "top": 309.2494058533606,
+                "nearDepth": 0.9987266331987774
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            }
+          ]
+        },
+        {
+          "samples": 0,
+          "depthBits": 24,
+          "viewport": [
+            0,
+            0,
+            1212,
+            773
+          ],
+          "normalOverride": true,
+          "queried": 2314,
+          "zeroVolumes": 1797,
+          "zeroTriangles": 3021766,
+          "movingZeroVolumes": 0,
+          "controlsPassed": true,
+          "largestZero": [
+            {
+              "name": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+              "triangles": 738276,
+              "stable": true,
+              "meshUuid": "97d634f4-18d6-48a5-83ca-aead0783a934",
+              "volume": {
+                "left": 439.13871029768603,
+                "right": 466.4378351607828,
+                "bottom": 233.24355503828482,
+                "top": 262.5179287464714,
+                "nearDepth": 0.998538060985092
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+              "triangles": 24220,
+              "stable": true,
+              "meshUuid": "ca350ffa-70a2-4dd8-b4a3-6335201f0aad",
+              "volume": {
+                "left": 457.3675329241679,
+                "right": 493.92540212936404,
+                "bottom": 245.26219211155146,
+                "top": 291.5740164226514,
+                "nearDepth": 0.9986785800820994
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_18_reverse_ring",
+              "triangles": 22864,
+              "stable": true,
+              "meshUuid": "54d0d4b6-7c5c-4df2-9373-a8d4f01ca8c1",
+              "volume": {
+                "left": 584.749112902005,
+                "right": 609.9251610315458,
+                "bottom": 279.0628041670878,
+                "top": 310.15128693887885,
+                "nearDepth": 0.9987283567438305
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_40_first_ring",
+              "triangles": 19504,
+              "stable": true,
+              "meshUuid": "919e6a75-cac4-4a32-8fb6-9c85e33278f4",
+              "volume": {
+                "left": 590.9790011154744,
+                "right": 610.1927571098933,
+                "bottom": 283.0680137851361,
+                "top": 308.8175643232036,
+                "nearDepth": 0.9987344153055773
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_01_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "0e954dad-b769-4c7c-a8d7-ab4835c043a0",
+              "volume": {
+                "left": 583.2731480082447,
+                "right": 607.3947899072679,
+                "bottom": 278.36007651990167,
+                "top": 309.1991713858741,
+                "nearDepth": 0.998726478117551
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_11_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "d6f800f7-b5b8-46aa-8392-4c1049352b2a",
+              "volume": {
+                "left": 583.8883172409611,
+                "right": 608.0113554894942,
+                "bottom": 278.62074800611435,
+                "top": 309.4502516557657,
+                "nearDepth": 0.9987272532381632
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_13_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "3ba46750-e65b-4a4f-a860-c66459f6271a",
+              "volume": {
+                "left": 584.0112838867884,
+                "right": 608.134600330504,
+                "bottom": 278.6728536734567,
+                "top": 309.50044005762425,
+                "nearDepth": 0.9987274081763944
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "TX_reverse_disc_03_mesh",
+              "triangles": 19408,
+              "stable": true,
+              "meshUuid": "84161ab8-d28c-4093-bc42-32a2e70208a1",
+              "volume": {
+                "left": 583.3962265301226,
+                "right": 607.5181484887444,
+                "bottom": 278.4122298508103,
+                "top": 309.2494058533606,
+                "nearDepth": 0.9987266331987774
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            }
+          ]
+        }
+      ],
+      "controlsPassed": true,
+      "queryError": 0,
+      "limits": "Actual conservative volume queries on exact-program snapshots. Potential only: no source product draw skipped, no cross-frame reuse or FPS gain established."
+    },
+    "passes": [
+      {
+        "samples": 4,
+        "skipped": 1781,
+        "savedTriangles": 2240098
+      },
+      {
+        "samples": 2,
+        "skipped": 1799,
+        "savedTriangles": 3015326
+      },
+      {
+        "samples": 0,
+        "skipped": 1797,
+        "savedTriangles": 3021766
+      }
+    ],
+    "prepareMs": 14.100000001490116,
+    "error": "",
+    "limits": "DEV only; original program/uniform setup retained. Only proven camera-pass GL triangle submissions omitted. Original shadows/transparent draws and full mechanical solver retained. Stable FPS and full-product acceptance remain open."
+  },
+  "width": 1212,
+  "height": 773,
+  "order": "optimized-then-baseline",
+  "baseline": {
+    "calls": 9305,
+    "triangles": 21582915,
+    "synchronizedMs": 1254.6999999955297
+  },
+  "optimized": {
+    "calls": 3928,
+    "triangles": 13305725,
+    "synchronizedMs": 985.8999999985099
+  },
+  "optimizedReadbackError": 0,
+  "baselineReadbackError": 0,
+  "differentPixels": 0,
+  "maxChannelDifference": 0,
+  "rmsChannelDifference": 0,
+  "identicalPixels": true,
+  "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+}

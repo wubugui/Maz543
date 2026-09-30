@@ -1,0 +1,42 @@
+{
+  "packs": [
+    {
+      "pack": "first",
+      "springs": 30,
+      "wireDiameterM": 0.0013000000063136722,
+      "meanCoilDiameterM": 0.006000000276471143,
+      "installedLengthM": 0.018000003046821544,
+      "effectiveTurnsMeasured": 5.000000000000003,
+      "sampledTravelStates": 25
+    },
+    {
+      "pack": "second",
+      "springs": 16,
+      "wireDiameterM": 0.0013000000063136722,
+      "meanCoilDiameterM": 0.006000000276471143,
+      "installedLengthM": 0.018000003046821544,
+      "effectiveTurnsMeasured": 5.000000000000003
+    },
+    {
+      "pack": "direct",
+      "springs": 16,
+      "wireDiameterM": 0.0013000000063136722,
+      "meanCoilDiameterM": 0.006000000276471143,
+      "installedLengthM": 0.018000003046821544,
+      "effectiveTurnsMeasured": 5.000000000000003
+    },
+    {
+      "pack": "reverse",
+      "springs": 30,
+      "wireDiameterM": 0.0013000000063136722,
+      "meanCoilDiameterM": 0.006000000276471143,
+      "installedLengthM": 0.018000003046821544,
+      "effectiveTurnsMeasured": 5.000000000000003,
+      "sampledTravelStates": 25
+    }
+  ],
+  "springs": 92,
+  "hardwareSolids": 540,
+  "clearancePairChecks": 602,
+  "limits": "Catalogue counts; fitted hardware through 25 travel positions per installation direction. Measured coil geometry remains reconstruction, not factory spring dimensions or fatigue approval."
+}

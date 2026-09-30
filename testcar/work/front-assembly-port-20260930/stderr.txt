@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "F:\InferenceHub\blender_bootstrap.py", line 79, in <module>
+    runpy.run_path(str(script),run_name='__main__')
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "F:\InferenceHub\data\blender\a75ef5ed-830c-4034-9114-a625fc83049f\f8e72323-43f7-4afd-8a1a-0796081b1c3d\work\main.py", line 85, in <module>
+    split_old(tex,target_bounds)
+  File "F:\InferenceHub\data\blender\a75ef5ed-830c-4034-9114-a625fc83049f\f8e72323-43f7-4afd-8a1a-0796081b1c3d\work\main.py", line 72, in split_old
+    assert not unmatched,('unmatched old components',unmatched)
+           ^^^^^^^^^^^^^
+AssertionError: ('unmatched old components', {'BL_Cab_1_mirror_face', 'BL_Cab_-1_mirror_face'})
+
+Error: script failed, file: 'F:\InferenceHub\blender_bootstrap.py', exiting.

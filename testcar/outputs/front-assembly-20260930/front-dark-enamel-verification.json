@@ -1,0 +1,41 @@
+{
+  "scope": "Dark front painted metal matching clear photographic tone; no unapproved global material replacement",
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "changedMaterialOnly": [
+        "BL_Front_box_bumper",
+        "BL_Front_bumper_frame_mount_-1",
+        "BL_Front_bumper_frame_mount_1",
+        "BL_Front_hook_mount",
+        "BL_Front_lower_shield",
+        "BL_Front_mirror_root_mount_-1",
+        "BL_Front_mirror_root_mount_1",
+        "BL_Front_shield_stay_-1",
+        "BL_Front_shield_stay_1",
+        "BL_Front_single_recovery_hook",
+        "BL_Front_upper_fine_rod_-1",
+        "BL_Front_upper_fine_rod_1"
+      ],
+      "limits": "Factory color, weathering, mechanical load rating and full-vehicle paint acceptance OPEN"
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "changedMaterialOnly": [
+        "BL_Front_box_bumper",
+        "BL_Front_bumper_frame_mount_-1",
+        "BL_Front_bumper_frame_mount_1",
+        "BL_Front_hook_mount",
+        "BL_Front_lower_shield",
+        "BL_Front_mirror_root_mount_-1",
+        "BL_Front_mirror_root_mount_1",
+        "BL_Front_shield_stay_-1",
+        "BL_Front_shield_stay_1",
+        "BL_Front_single_recovery_hook",
+        "BL_Front_upper_fine_rod_-1",
+        "BL_Front_upper_fine_rod_1"
+      ],
+      "limits": "Factory color, weathering, mechanical load rating and full-vehicle paint acceptance OPEN"
+    }
+  ]
+}

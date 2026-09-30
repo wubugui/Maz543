@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "F:\InferenceHub\blender_bootstrap.py", line 79, in <module>
+    runpy.run_path(str(script),run_name='__main__')
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "F:\InferenceHub\data\blender\5cccc1b0-1719-43ae-b396-3a34f4d120f1\7a3a5d5c-e1f1-4186-838b-0e9647130c82\work\main.py", line 128, in <module>
+    assert not hits,('cover intersects installed mechanics',hits)
+           ^^^^^^^^
+AssertionError: ('cover intersects installed mechanics', ['BL_Cab_-1_inner_wall', 'BL_Cab_-1_rear_bulkhead', 'BL_Cab_1_inner_wall', 'BL_Cab_1_rear_bulkhead'])
+
+Error: script failed, file: 'F:\InferenceHub\blender_bootstrap.py', exiting.

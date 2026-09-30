@@ -1,0 +1,86 @@
+{
+  "url": "http://localhost:3000/",
+  "assetCacheVersion": "spring-round-wire-20260908",
+  "gpu": "NVIDIA GeForce GTX 970 via ANGLE D3D11",
+  "observations": {
+    "engaged": {
+      "fanRPM": [
+        549,
+        549
+      ],
+      "travelMM": [
+        1.5,
+        1.5
+      ],
+      "magneticGapMM": [
+        0.6,
+        0.6
+      ],
+      "leftSpringLengthMM": 8.5
+    },
+    "slowReleaseIntermediate": {
+      "leftTravelMM": 0.52,
+      "leftMagneticGapMM": 1.58,
+      "leftSpringLengthMM": 9.48,
+      "fanRPM": [
+        525,
+        549
+      ]
+    },
+    "releasedPaused": {
+      "simulationTimeSeconds": 22.5,
+      "fanRPM": [
+        485,
+        549
+      ],
+      "travelMM": [
+        0,
+        1.5
+      ],
+      "magneticGapMM": [
+        2.1,
+        0.6
+      ],
+      "leftSpringLengthMM": 10,
+      "stableOnLaterRead": true
+    }
+  },
+  "screenshots": [
+    {
+      "name": "spring-released.png",
+      "dimensions": [
+        1240,
+        1124
+      ]
+    },
+    {
+      "name": "spring-engaged.png",
+      "dimensions": [
+        1240,
+        1124
+      ]
+    },
+    {
+      "name": "released-closeup.png",
+      "dimensions": [
+        1240,
+        1124
+      ]
+    },
+    {
+      "name": "engaged-closeup.png",
+      "dimensions": [
+        1240,
+        1124
+      ]
+    },
+    {
+      "name": "spring-releasing-paused.png",
+      "dimensions": [
+        483,
+        522
+      ]
+    }
+  ],
+  "limitations": "Observed model states, not measured MAZ performance. Canvas resized during QA; full-vehicle fidelity and performance remain open."
+}

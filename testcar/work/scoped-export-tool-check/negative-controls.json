@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "unrelated-transform",
+      "rejected": true,
+      "reasonContains": "transform"
+    },
+    {
+      "name": "unrelated-geometry-byte",
+      "rejected": true,
+      "reasonContains": "geometry bytes"
+    },
+    {
+      "name": "embedded-texture-byte",
+      "rejected": true,
+      "reasonContains": "textures"
+    }
+  ],
+  "scope": "Temporary asset copies only; original production model never mutated"
+}

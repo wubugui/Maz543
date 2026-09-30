@@ -1,0 +1,14 @@
+{
+  "preservedMeshNodes": 229,
+  "nativeCandidate": "work/searchlight-correction-20260930/maz543a-blender.glb",
+  "source": "../restoration/searchlight-correction-20260930/maz543a-blender.glb",
+  "output": "work/searchlight-correction-20260930/recovered-preserved.glb",
+  "sha256": "a0aca93239983927f04970ec94233a84ea9509cdb19da4c73b505bd32dbece30",
+  "bytes": 20284632,
+  "changedMeshes": [
+    "BL_Merged_cab_pivot_001_Headlamp_prismatic_glass",
+    "BL_Merged_cab_pivot_001_OD_green_aged_enamel",
+    "BL_Merged_cab_pivot_001_Phosphated_steel"
+  ],
+  "scope": "Only new lamp and three separated cab material streams are taken from the new native export. Unchanged production surfaces retain their original compressed byte streams."
+}

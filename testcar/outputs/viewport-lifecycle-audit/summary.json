@@ -1,0 +1,247 @@
+{
+  "baselineNonPersistedExitSkippedReactCleanup": true,
+  "fixedExits": [
+    {
+      "owner": "bfd187b2-4508-4130-9ec0-fa125f4f3f77",
+      "persisted": false,
+      "exitEvents": [
+        "pagehide",
+        "visibilitychange"
+      ],
+      "documentOwnerRelease": false,
+      "mainDisposerReturned": false,
+      "mainDisposeMs": null,
+      "renderWorkerDisposalAckDuringExit": false
+    },
+    {
+      "owner": "38a70428-c367-4ec5-9beb-f7c5b27253f3",
+      "persisted": false,
+      "exitEvents": [
+        "pagehide",
+        "viewport-owner-release",
+        "viewer-effect-cleanup",
+        "render-client-stop",
+        "audit-listeners-dispose"
+      ],
+      "documentOwnerRelease": true,
+      "mainDisposerReturned": false,
+      "mainDisposeMs": null,
+      "renderWorkerDisposalAckDuringExit": false
+    },
+    {
+      "owner": "411686a2-3c67-4603-a901-08b1dfb3e898",
+      "persisted": false,
+      "exitEvents": [
+        "pagehide",
+        "viewport-owner-release",
+        "viewer-effect-cleanup",
+        "main-viewport-disposed",
+        "audit-listeners-dispose"
+      ],
+      "documentOwnerRelease": true,
+      "mainDisposerReturned": true,
+      "mainDisposeMs": 186,
+      "renderWorkerDisposalAckDuringExit": false
+    }
+  ],
+  "snapshots": [
+    {
+      "time": 1788906563457,
+      "page": "bfd187b2-4508-4130-9ec0-fa125f4f3f77",
+      "event": "snapshot",
+      "details": {
+        "hidden": false,
+        "navigation": [
+          {
+            "type": "navigate",
+            "activationStart": 0,
+            "notRestoredReasons": null
+          }
+        ],
+        "telemetry": {
+          "time": 34.27500000000031,
+          "engineRPM": 0,
+          "render": {
+            "fps": 0,
+            "drawCalls": 9305,
+            "triangles": 21582915,
+            "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "cached": true
+          },
+          "backlog": 0
+        },
+        "jsHeap": {
+          "used": 1710593306,
+          "total": 1803473754,
+          "limit": 4395630592
+        },
+        "canvases": [
+          {
+            "width": 1212,
+            "height": 773,
+            "connected": true
+          }
+        ]
+      }
+    },
+    {
+      "time": 1788906639879,
+      "page": "396a1364-ad20-477f-834a-210825d2eacb",
+      "event": "snapshot",
+      "details": {
+        "hidden": false,
+        "navigation": [
+          {
+            "type": "navigate",
+            "activationStart": 0,
+            "notRestoredReasons": null
+          }
+        ],
+        "telemetry": {
+          "time": 48.72916666667848,
+          "engineRPM": 0,
+          "render": {
+            "fps": 0,
+            "drawCalls": 9305,
+            "triangles": 21582915,
+            "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "cached": true
+          },
+          "backlog": 0
+        },
+        "jsHeap": {
+          "used": 1591764131,
+          "total": 1631890971,
+          "limit": 4395630592
+        },
+        "canvases": [
+          {
+            "width": 1212,
+            "height": 773,
+            "connected": true
+          }
+        ]
+      }
+    },
+    {
+      "time": 1788906751667,
+      "page": "38a70428-c367-4ec5-9beb-f7c5b27253f3",
+      "event": "snapshot",
+      "details": {
+        "hidden": false,
+        "navigation": [
+          {
+            "type": "navigate",
+            "activationStart": 0,
+            "notRestoredReasons": null
+          }
+        ],
+        "telemetry": {
+          "time": 39.91666666667147,
+          "engineRPM": 0,
+          "render": {
+            "fps": 0,
+            "drawCalls": 9305,
+            "triangles": 21582915,
+            "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "cached": true
+          },
+          "backlog": 0
+        },
+        "jsHeap": {
+          "used": 1601779732,
+          "total": 1641555692,
+          "limit": 4395630592
+        },
+        "canvases": [
+          {
+            "width": 1212,
+            "height": 773,
+            "connected": true
+          }
+        ]
+      }
+    },
+    {
+      "time": 1788906790804,
+      "page": "411686a2-3c67-4603-a901-08b1dfb3e898",
+      "event": "snapshot",
+      "details": {
+        "hidden": false,
+        "navigation": [
+          {
+            "type": "navigate",
+            "activationStart": 0,
+            "notRestoredReasons": null
+          }
+        ],
+        "telemetry": {
+          "time": 36.8583333333357,
+          "engineRPM": 0,
+          "render": {
+            "fps": 0,
+            "drawCalls": 9305,
+            "triangles": 21582915,
+            "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "cached": true
+          },
+          "backlog": 0
+        },
+        "jsHeap": {
+          "used": 2484948146,
+          "total": 2558931722,
+          "limit": 4395630592
+        },
+        "canvases": [
+          {
+            "width": 1212,
+            "height": 773,
+            "connected": true
+          }
+        ]
+      }
+    },
+    {
+      "time": 1788906878042,
+      "page": "a155af32-038a-46aa-8453-9b2df9abafd9",
+      "event": "snapshot",
+      "details": {
+        "hidden": false,
+        "navigation": [
+          {
+            "type": "navigate",
+            "activationStart": 0,
+            "notRestoredReasons": null
+          }
+        ],
+        "telemetry": {
+          "time": 86.17083333333713,
+          "engineRPM": 0,
+          "render": {
+            "fps": 0,
+            "drawCalls": 9305,
+            "triangles": 21582915,
+            "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "cached": true
+          },
+          "backlog": 0
+        },
+        "jsHeap": {
+          "used": 2581700208,
+          "total": 2630614532,
+          "limit": 4395630592
+        },
+        "canvases": [
+          {
+            "width": 1212,
+            "height": 773,
+            "connected": true
+          }
+        ]
+      }
+    }
+  ],
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "limits": "Actual ordinary main document release completed; experimental render client exit cleanup started. No hard-navigation worker disposal ack, real BFCache restoration, GC-normalized live heap, isolated GPU memory or sustained FPS proof."
+}

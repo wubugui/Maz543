@@ -1,0 +1,1596 @@
+{
+  "meshCount": 180,
+  "parts": [
+    {
+      "name": "CA_01_input_shaft",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 0.0003224175510139257,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_02_turbine_hub",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 0.0006874581321207692,
+      "vertices": 720,
+      "blade": false
+    },
+    {
+      "name": "CA_03_lockup_turbine_hub",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 6.86575854544106e-05,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_04_lockup_body",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 0.0006977867065723456,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_05_lockup_piston",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 0.0004135220755445243,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_07_driven_disc_carrier",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 0.00013449265060446532,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_07_friction_face_-0_0993",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 5.029983157585712e-05,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_07_friction_face_-0_1027",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 5.029983157585662e-05,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_08_thrust_disc",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 0.0001710620016770733,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_09_rotating_casing",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 0.002156180003699718,
+      "vertices": 2688,
+      "blade": false
+    },
+    {
+      "name": "CA_13_shared_inner_race",
+      "group": "fixed_support",
+      "closed": true,
+      "volumeM3": 0.0005097517757761248,
+      "vertices": 768,
+      "blade": false
+    },
+    {
+      "name": "CA_15_turbine_shaft",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 0.000491634785576548,
+      "vertices": 384,
+      "blade": false
+    },
+    {
+      "name": "CA_52_fixed_hub",
+      "group": "fixed_support",
+      "closed": true,
+      "volumeM3": 0.0006295295850514868,
+      "vertices": 512,
+      "blade": false
+    },
+    {
+      "name": "CA_fixed_support_flange",
+      "group": "fixed_support",
+      "closed": true,
+      "volumeM3": 0.0001727328056914819,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_blade_00",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.647481779083403e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_01",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474816833337304e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_02",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474814480922835e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_03",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.647482286967998e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_04",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.647481632154115e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_05",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.647481779083403e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_06",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474816833337295e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_07",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474814480922843e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_08",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474822869679964e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_09",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474816321541163e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_10",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.647481779083403e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_11",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474816833337304e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_12",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474814480922835e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_13",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.647482286967998e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_14",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.647481632154115e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_15",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.647481779083403e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_16",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474816833337295e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_17",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474814480922843e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_18",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474822869679964e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_blade_19",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.6474816321541163e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_front_reactor_core_ring",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 3.3831561818512945e-05,
+      "vertices": 14112,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_hub_sleeve",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.884779963320149e-05,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_outer_race",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 0.00018628997702458146,
+      "vertices": 5760,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_outer_shroud",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 5.573251601998504e-05,
+      "vertices": 14112,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_00",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_01",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_02",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_03",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_04",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_05",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_06",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_07",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_08",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_09",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_10",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_roller_11",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326675e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_00",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_01",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_02",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_03",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_04",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_05",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_06",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_07",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_08",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_09",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_10",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_strip_11",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_front_reactor_thrust_ring",
+      "group": "front_reactor",
+      "closed": true,
+      "volumeM3": 2.426893643451072e-05,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_input_flange",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 0.0001460173919510781,
+      "vertices": 384,
+      "blade": false
+    },
+    {
+      "name": "CA_piston_seal_0_053",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 7.98969098329275e-07,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_piston_seal_0_156",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.3516804968041213e-06,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_pump_blade_00",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874267098612745e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_01",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874272377347812e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_02",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874261465065003e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_03",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874258890096234e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_04",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874269487212748e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_05",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874272237184998e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_06",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874264655912196e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_07",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874268712011474e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_08",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874267098612732e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_09",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874272377347785e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_10",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874261465065e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_11",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874258890096193e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_12",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.087426948721274e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_13",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874272237185035e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_14",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.087426465591217e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_15",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.087426871201146e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_16",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874267098612745e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_17",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874272377347812e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_18",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874261465065003e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_19",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874258890096234e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_20",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874269487212748e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_21",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874272237184998e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_22",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874264655912196e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_23",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874268712011474e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_24",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874267098612732e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_25",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874272377347785e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_26",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874261465065e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_27",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874258890096193e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_28",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.087426948721274e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_29",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.0874272237185035e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_30",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.087426465591217e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_blade_31",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 2.087426871201146e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_pump_core_ring",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 0.0003963492146736953,
+      "vertices": 14112,
+      "blade": false
+    },
+    {
+      "name": "CA_pump_cover_joint",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 0.00022954662546467068,
+      "vertices": 768,
+      "blade": false
+    },
+    {
+      "name": "CA_pump_outer_shroud",
+      "group": "pump",
+      "closed": true,
+      "volumeM3": 0.001063781898597375,
+      "vertices": 14112,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_blade_00",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477370390142372e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_01",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477365937293197e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_02",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.647736198638629e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_03",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.647736857357677e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_04",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477367463519436e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_05",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477370390142376e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_06",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477365937293214e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_07",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477361986386263e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_08",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477368573576756e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_09",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477367463519445e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_10",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477370390142372e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_11",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477365937293197e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_12",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.647736198638629e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_13",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.647736857357677e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_14",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477367463519436e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_15",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477370390142376e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_16",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477365937293214e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_17",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477361986386263e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_18",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477368573576756e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_blade_19",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.6477367463519445e-06,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_rear_reactor_core_ring",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 3.383156181851948e-05,
+      "vertices": 14112,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_hub_sleeve",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.884779963320133e-05,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_outer_race",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 0.0001862899770245815,
+      "vertices": 5760,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_outer_shroud",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 5.573251601998634e-05,
+      "vertices": 14112,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_00",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_01",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_02",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_03",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_04",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_05",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_06",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_07",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_08",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_09",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_10",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_roller_11",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.697877969326671e-06,
+      "vertices": 194,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_00",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_01",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_02",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_03",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_04",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_05",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_06",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_07",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_08",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_09",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_10",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_strip_11",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 7.055634474309654e-08,
+      "vertices": 772,
+      "blade": false
+    },
+    {
+      "name": "CA_rear_reactor_thrust_ring",
+      "group": "rear_reactor",
+      "closed": true,
+      "volumeM3": 2.4268936434510578e-05,
+      "vertices": 576,
+      "blade": false
+    },
+    {
+      "name": "CA_turbine_blade_00",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375384333187682e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_01",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375389735233487e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_02",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375384336061366e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_03",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.037539122323392e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_04",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375391007249288e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_05",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375381950863275e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_06",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.037538325121551e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_07",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375384333187685e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_08",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375389735233514e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_09",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375384336061383e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_10",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375391223233968e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_11",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.037539100724929e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_12",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375381950863316e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_13",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375383251215506e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_14",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375384333187682e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_15",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375389735233487e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_16",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375384336061366e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_17",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.037539122323392e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_18",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375391007249288e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_19",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375381950863275e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_20",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.037538325121551e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_21",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375384333187685e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_22",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375389735233514e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_23",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375384336061383e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_24",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375391223233968e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_25",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.037539100724929e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_26",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375381950863316e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_blade_27",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 2.0375383251215506e-05,
+      "vertices": 294,
+      "blade": true
+    },
+    {
+      "name": "CA_turbine_core_ring",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 0.0003864802598534795,
+      "vertices": 14112,
+      "blade": false
+    },
+    {
+      "name": "CA_turbine_outer_shroud",
+      "group": "turbine",
+      "closed": true,
+      "volumeM3": 0.001029127468846897,
+      "vertices": 14112,
+      "blade": false
+    }
+  ],
+  "states": [
+    {
+      "pumpAngle": 0.0,
+      "turbineAngle": 0.0,
+      "intersections": {
+        "CA_front_reactor_roller_07 | CA_13_shared_inner_race": 10,
+        "CA_front_reactor_roller_01 | CA_13_shared_inner_race": 4,
+        "CA_front_reactor_roller_00 | CA_13_shared_inner_race": 4,
+        "CA_rear_reactor_roller_07 | CA_13_shared_inner_race": 10,
+        "CA_rear_reactor_roller_01 | CA_13_shared_inner_race": 4,
+        "CA_rear_reactor_roller_00 | CA_13_shared_inner_race": 4
+      },
+      "unexpectedIntersections": []
+    },
+    {
+      "pumpAngle": 0.31,
+      "turbineAngle": -0.22,
+      "intersections": {
+        "CA_front_reactor_roller_07 | CA_13_shared_inner_race": 10,
+        "CA_front_reactor_roller_01 | CA_13_shared_inner_race": 4,
+        "CA_front_reactor_roller_00 | CA_13_shared_inner_race": 4,
+        "CA_rear_reactor_roller_07 | CA_13_shared_inner_race": 10,
+        "CA_rear_reactor_roller_01 | CA_13_shared_inner_race": 4,
+        "CA_rear_reactor_roller_00 | CA_13_shared_inner_race": 4
+      },
+      "unexpectedIntersections": []
+    }
+  ],
+  "rollerChecks": [
+    {
+      "name": "CA_front_reactor_roller_00",
+      "minimumVertexInnerRaceGapM": 1.728534697320594e-09,
+      "maximumCylinderVertexDeviationM": 7.39991664888695e-08
+    },
+    {
+      "name": "CA_front_reactor_roller_01",
+      "minimumVertexInnerRaceGapM": 1.2268820473448905e-09,
+      "maximumCylinderVertexDeviationM": 7.24482160128424e-08
+    },
+    {
+      "name": "CA_front_reactor_roller_02",
+      "minimumVertexInnerRaceGapM": 3.5217555954814017e-09,
+      "maximumCylinderVertexDeviationM": 7.47819337266142e-08
+    },
+    {
+      "name": "CA_front_reactor_roller_03",
+      "minimumVertexInnerRaceGapM": 1.7285347528317452e-09,
+      "maximumCylinderVertexDeviationM": 7.404917747258893e-08
+    },
+    {
+      "name": "CA_front_reactor_roller_04",
+      "minimumVertexInnerRaceGapM": 3.08952730759815e-09,
+      "maximumCylinderVertexDeviationM": 7.441968939158607e-08
+    },
+    {
+      "name": "CA_front_reactor_roller_05",
+      "minimumVertexInnerRaceGapM": 3.08952730759815e-09,
+      "maximumCylinderVertexDeviationM": 7.441968938589029e-08
+    },
+    {
+      "name": "CA_front_reactor_roller_06",
+      "minimumVertexInnerRaceGapM": 1.728534912426305e-09,
+      "maximumCylinderVertexDeviationM": 7.419900817615828e-08
+    },
+    {
+      "name": "CA_front_reactor_roller_07",
+      "minimumVertexInnerRaceGapM": 2.9555948660719977e-10,
+      "maximumCylinderVertexDeviationM": 7.151488839385618e-08
+    },
+    {
+      "name": "CA_front_reactor_roller_08",
+      "minimumVertexInnerRaceGapM": 1.6591107238062008e-09,
+      "maximumCylinderVertexDeviationM": 7.31055730444139e-08
+    },
+    {
+      "name": "CA_front_reactor_roller_09",
+      "minimumVertexInnerRaceGapM": 1.7285347042594879e-09,
+      "maximumCylinderVertexDeviationM": 7.40028897207884e-08
+    },
+    {
+      "name": "CA_front_reactor_roller_10",
+      "minimumVertexInnerRaceGapM": 1.6591107238062008e-09,
+      "maximumCylinderVertexDeviationM": 7.31055730470926e-08
+    },
+    {
+      "name": "CA_front_reactor_roller_11",
+      "minimumVertexInnerRaceGapM": 2.657299817687697e-09,
+      "maximumCylinderVertexDeviationM": 7.583169818783026e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_00",
+      "minimumVertexInnerRaceGapM": 1.728534697320594e-09,
+      "maximumCylinderVertexDeviationM": 7.39991664888695e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_01",
+      "minimumVertexInnerRaceGapM": 1.2268820473448905e-09,
+      "maximumCylinderVertexDeviationM": 7.24482160128424e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_02",
+      "minimumVertexInnerRaceGapM": 3.5217555954814017e-09,
+      "maximumCylinderVertexDeviationM": 7.47819337266142e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_03",
+      "minimumVertexInnerRaceGapM": 1.7285347528317452e-09,
+      "maximumCylinderVertexDeviationM": 7.404917747258893e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_04",
+      "minimumVertexInnerRaceGapM": 3.08952730759815e-09,
+      "maximumCylinderVertexDeviationM": 7.441968939158607e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_05",
+      "minimumVertexInnerRaceGapM": 3.08952730759815e-09,
+      "maximumCylinderVertexDeviationM": 7.441968938589029e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_06",
+      "minimumVertexInnerRaceGapM": 1.728534912426305e-09,
+      "maximumCylinderVertexDeviationM": 7.419900817615828e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_07",
+      "minimumVertexInnerRaceGapM": 2.9555948660719977e-10,
+      "maximumCylinderVertexDeviationM": 7.151488839385618e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_08",
+      "minimumVertexInnerRaceGapM": 1.6591107238062008e-09,
+      "maximumCylinderVertexDeviationM": 7.31055730444139e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_09",
+      "minimumVertexInnerRaceGapM": 1.7285347042594879e-09,
+      "maximumCylinderVertexDeviationM": 7.40028897207884e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_10",
+      "minimumVertexInnerRaceGapM": 1.6591107238062008e-09,
+      "maximumCylinderVertexDeviationM": 7.31055730470926e-08
+    },
+    {
+      "name": "CA_rear_reactor_roller_11",
+      "minimumVertexInnerRaceGapM": 2.657299817687697e-09,
+      "maximumCylinderVertexDeviationM": 7.583169818783026e-08
+    }
+  ],
+  "limits": "Surface intersection screen only. Same-rotor cast/spline mates and contained solids require additional fit verification. Roller/inner-race contact is expected and reported, not silently suppressed. Roller check covers vertices and circular surface storage deviation, not continuous rolling dynamics."
+}

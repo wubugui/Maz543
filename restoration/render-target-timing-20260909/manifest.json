@@ -1,0 +1,140 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "count": 26,
+  "bytes": 375142,
+  "files": [
+    {
+      "file": "AGENT_START_HERE.md",
+      "bytes": 30860,
+      "sha256": "aec97214b7bf352e041b6cf0ce35609eab8704d49ac396309c4de5a204d93d11"
+    },
+    {
+      "file": "NEXT_AGENT_PROMPT.md",
+      "bytes": 23262,
+      "sha256": "0c47d951da1497ee5571e07547b56d0307e2ebd8445c7ab42118f290da489717"
+    },
+    {
+      "file": "docs/ACCEPTANCE.md",
+      "bytes": 36047,
+      "sha256": "ae38ce95f89c1b683cdf6af2f9404ad4b8fbe1409b6ce790a65a0c89505466c0"
+    },
+    {
+      "file": "docs/CONTINUATION_20260908.md",
+      "bytes": 24111,
+      "sha256": "1d36784a2c133fc4739a429725640d4d6f609e2ef0f9392866e5161ddf58ca45"
+    },
+    {
+      "file": "docs/RENDER_TARGET_TIMING_20260909.md",
+      "bytes": 4622,
+      "sha256": "c9da3da2a46b437aee80d6337589c5701022a7f3f1778c3060f3506faef95bbb"
+    },
+    {
+      "file": "lib/compositedShadows.ts",
+      "bytes": 2958,
+      "sha256": "395417ce69a7d7fde54343f59ed6ccc3ac76132cf13116407f958cac776a1e9a"
+    },
+    {
+      "file": "lib/normalOcclusionCache.ts",
+      "bytes": 14386,
+      "sha256": "cb19f574a34144dd3b62a4b5af903d8a7cc4683e7f614a5d7e7fb974defa8816"
+    },
+    {
+      "file": "lib/renderTargetTiming.ts",
+      "bytes": 4281,
+      "sha256": "b33f3ebdbc3dd4f1489a09019b3e6f56d60c61b0617cfd4a6e04e5943c3ae745"
+    },
+    {
+      "file": "lib/vehicleViewport.ts",
+      "bytes": 66793,
+      "sha256": "cba38b4ffb0ba393cf65c43425601315bfe6a3caf9d9fedc92953b3ea3f14b26"
+    },
+    {
+      "file": "outputs/context-frame-audit/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "file": "outputs/render-target-timing/engine-side-door.json",
+      "bytes": 15568,
+      "sha256": "0a761f7f383782a358bd627f7f9e54830725d95a0166052f50b8fb0a927ac935"
+    },
+    {
+      "file": "outputs/render-target-timing/normal-final-ax.txt",
+      "bytes": 7298,
+      "sha256": "ae0f4bdca08c89851024cc4078a3da8085bb61f6d07ff3b2d2946c059c82ef44"
+    },
+    {
+      "file": "outputs/render-target-timing/normal-final-side.png",
+      "bytes": 83412,
+      "sha256": "e5f12f433dfb8c4943e7b8c81a59183503a909c3ba506e546090354106089c91"
+    },
+    {
+      "file": "outputs/render-target-timing/still-incomplete-boundary.json",
+      "bytes": 10439,
+      "sha256": "f70974c27e6ec538df4b802bd1dbfd48fbc9f8837f3655be0b542637f2c151fe"
+    },
+    {
+      "file": "outputs/render-target-timing/still-state-waits-v1.json",
+      "bytes": 11707,
+      "sha256": "50b3aabc84d148ba20e5a078dfa0564602339dc55e709855c5a95add4501e5ad"
+    },
+    {
+      "file": "outputs/render-target-timing/still.json",
+      "bytes": 11771,
+      "sha256": "d90a8ad310779f87241c4e46246a49a717b157653bc6c7f9543208a127e80254"
+    },
+    {
+      "file": "outputs/render-target-timing/summary.json",
+      "bytes": 3921,
+      "sha256": "817fd0074a5ed2b7d06ec95018fd1f241718a592beba7e3b1a9830f4fafdfc29"
+    },
+    {
+      "file": "outputs/render-target-timing/tests.json",
+      "bytes": 424,
+      "sha256": "1f7bcd56ded891380f91471bf9b4feb1a0251a2d7b29343ac6656c4042176bbf"
+    },
+    {
+      "file": "scripts/archive-render-target-timing.py",
+      "bytes": 2763,
+      "sha256": "50039e00c6042b9b8e908a78d903724e22454ec7fc735f1ca45e6625e4350241"
+    },
+    {
+      "file": "scripts/summarize-render-target-timing.py",
+      "bytes": 2404,
+      "sha256": "48d9b561d6d92994837ec0882c3fd8f2ccc57bc8dba2f1f921513edc8fe358ac"
+    },
+    {
+      "file": "scripts/verify-render-target-timing.mjs",
+      "bytes": 3973,
+      "sha256": "93b83e2cdc7b1429fdc413c21c707f581fdeda0d5723daa9709095138dc54944"
+    },
+    {
+      "file": "work/render-target-timing/build.log",
+      "bytes": 2533,
+      "sha256": "a374f298775ba440c8fa0c5ffbca7c933a909896108c1dd3a3ece3d9c6ddb16d"
+    },
+    {
+      "file": "work/render-target-timing/next-depth-replay.txt",
+      "bytes": 4162,
+      "sha256": "28b7aeef3ace3efe1b4901fcf5b7a79250608251a6740983c9f5f840170b66c5"
+    },
+    {
+      "file": "work/render-target-timing/summary.log",
+      "bytes": 3923,
+      "sha256": "c41cd3ecc4a9f7b096adc7dc733a7c17561e6f5fb7e557a01b527b3f304dc558"
+    },
+    {
+      "file": "work/render-target-timing/tests.log",
+      "bytes": 434,
+      "sha256": "ea977e36ac8db2f14ee49c3149496475072b49ad4dbc6cb90d0a0c3ec1cdc1c9"
+    },
+    {
+      "file": "work/render-target-timing/typecheck.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "verification": "Every copy byte-equal and SHA-256 recorded",
+  "limits": "Finite intrusive diagnostic only. GPU completion not proven and timer extension unavailable. No draw reduction or FPS improvement in this stage; full product precision/mechanical/performance acceptance unfinished."
+}

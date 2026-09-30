@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-a43efd69-df80-456d-95a6-3b2906972e2a",
+  "upload": {
+    "upload_id": "c3fb3662-64a1-4468-874f-035321dbacc2",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "c3fb3662-64a1-4468-874f-035321dbacc2",
+    "name": "hub-three-cover.py",
+    "mime": "text/x-python",
+    "size": 11358,
+    "sha256": "3e7c7c416a32121b85e52377dac36bbb5e9e2419f432030c458eaaba72d80bf0",
+    "created": 1790791406.6308146,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/c3fb3662-64a1-4468-874f-035321dbacc2/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A original manual three central cover panels and real native front hinge candidate",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "832bdeb7d19a64db706fc205a7f147c1",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "74f730705de0b980898acd74761aee30",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "c3fb3662-64a1-4468-874f-035321dbacc2",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "3b8969ba-7939-4968-8e5e-9fad7b6f9f3a",
+    "task_ids": [
+      "f7e5773e-efd6-47c8-ad72-850e6bf10ddd"
+    ],
+    "task_id": "f7e5773e-efd6-47c8-ad72-850e6bf10ddd"
+  }
+}

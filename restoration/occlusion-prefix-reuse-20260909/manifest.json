@@ -1,0 +1,135 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "count": 25,
+  "bytes": 245784,
+  "files": [
+    {
+      "file": "AGENT_START_HERE.md",
+      "bytes": 28427,
+      "sha256": "44a4edcdccf722ad6ad37a49960b0847839834187cd492756525d6f41f997c79"
+    },
+    {
+      "file": "NEXT_AGENT_PROMPT.md",
+      "bytes": 20829,
+      "sha256": "675da9ab1de1e03bce46a82069ffade2fbdb8f7cbddcee4a536a1fdc30bde9e4"
+    },
+    {
+      "file": "docs/ACCEPTANCE.md",
+      "bytes": 33634,
+      "sha256": "63ed0e8ffa877aaf22fbbd88ffff76d1f29db136f28a018a43a20f6ace16ef2e"
+    },
+    {
+      "file": "docs/CONTINUATION_20260908.md",
+      "bytes": 21698,
+      "sha256": "1bea7b153267954d31a84aea297463b4cbaf8b8b2d8008dcdc483eed274cd2cb"
+    },
+    {
+      "file": "docs/OCCLUSION_PREFIX_REUSE_20260909.md",
+      "bytes": 3816,
+      "sha256": "4777a464f73344bb53decbc32b1a79d0925ac7cc7874168b1eec813696b297c1"
+    },
+    {
+      "file": "lib/occlusionPrefixReuse.ts",
+      "bytes": 11001,
+      "sha256": "efd29849d4254a2330d28a2f7102fb3751d80f24b6e8be01c87cca814d23267a"
+    },
+    {
+      "file": "lib/vehicleViewport.ts",
+      "bytes": 63898,
+      "sha256": "ee967bfcf241bfab5cb893bba84fcd62e76ebfa12957c388e8acbbc80d7808d7"
+    },
+    {
+      "file": "outputs/context-frame-audit/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/cold-ax.txt",
+      "bytes": 8813,
+      "sha256": "5d061524cbf581f25c2bd5908e5dd33558d5482d14308bb28d2e2729c07080f7"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/cold.json",
+      "bytes": 1222,
+      "sha256": "80f7641089f1b6ce89f053548d5feed6de7441482cfbbced1f0bee9640493a9d"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/engine-before-stability-gate.json",
+      "bytes": 1227,
+      "sha256": "60193f3730dd22d24fac8150fc565ea40e078a905ee8933afd2476e16a56b483"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/engine-final-ax.txt",
+      "bytes": 8776,
+      "sha256": "40aff208f921136b522812a0683f7a054c41aa4d3be5c097c1ffb4740cad2f4e"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/final-engine.json",
+      "bytes": 1790,
+      "sha256": "1a46cb1ccd9bde03d81d8c467004e8d9621192270710e2ccbde744056c8e12d0"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/final-section.json",
+      "bytes": 1298,
+      "sha256": "b2dd05e1788cd8df50e557c86bf3fcd60e70614d50373adee1a2e37a987f500d"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/final-side-door.json",
+      "bytes": 1788,
+      "sha256": "ac2c9d4bcd4e1cfcf3cf3cbbd7e1e61e0fe3ccb82b19f4de82b0a81784092b86"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/final-warm.json",
+      "bytes": 1294,
+      "sha256": "76448d2066fc1dd021f22ee1862c23ad716cb23b1f7aecd87490087daa9e6821"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/section-ax.txt",
+      "bytes": 9001,
+      "sha256": "360bb729dbb96774ef93e0a363533946e0f162675f10886d32767089b658859f"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/side-door-ax.txt",
+      "bytes": 9502,
+      "sha256": "1e2f7c6851bcc689b1f73aef8d5a7de36af05ac970278765b750ec4260532f5c"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/tests.json",
+      "bytes": 820,
+      "sha256": "ef9f16066439fb483077c0881e89c80645a96ce8acfafaf0056925829188ccc5"
+    },
+    {
+      "file": "outputs/occlusion-prefix-reuse/warm.json",
+      "bytes": 1227,
+      "sha256": "2ca7feb37fea612acef1a207c8c9e7dbedbfdbffbe5753b5cc8a2fb7d03a3d43"
+    },
+    {
+      "file": "scripts/archive-occlusion-prefix-reuse.py",
+      "bytes": 2432,
+      "sha256": "f445ca02d23978b81a962bd7ba6b712f94ad8941e3b879de45a1d92fcd1793dd"
+    },
+    {
+      "file": "scripts/verify-occlusion-prefix-reuse.mjs",
+      "bytes": 6188,
+      "sha256": "4740d9b53491e8ad4fa9a77d1fd86e6ca2dfd3cafaad5238265bafc2a0fa7dc4"
+    },
+    {
+      "file": "work/occlusion-prefix-reuse/build.log",
+      "bytes": 3167,
+      "sha256": "b953814b962f31ce7aa2a337887a765438df18bc7c7c1f6fef9aacc74fec85d7"
+    },
+    {
+      "file": "work/occlusion-prefix-reuse/tests.log",
+      "bytes": 846,
+      "sha256": "555232f9d152d035430bed4dbf2a3b5cf1e2c11a973a0486ecc1755303440149"
+    },
+    {
+      "file": "work/occlusion-prefix-reuse/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "verification": "Every copy byte-equal and SHA-256 recorded",
+  "limits": "DEV-only exact global depth-prefix reuse. Dynamic performance ineffective; full mechanical and browser product acceptance remain unfinished."
+}

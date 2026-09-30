@@ -1,0 +1,2678 @@
+[
+  {
+    "name": "BL_Final_drive_0_cast_housing",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 56,
+    "props": {
+      "surface": "exterior",
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "OD_green_shadow"
+    ],
+    "txFrameMin": [
+      -3.059999942779541,
+      -0.30000001192092896,
+      -0.2799999713897705
+    ],
+    "txFrameMax": [
+      -2.4000000953674316,
+      0.30000001192092896,
+      0.440000057220459
+    ],
+    "rMaxAboutGearboxAxis": 0.4868414011353869
+  },
+  {
+    "name": "BL_Final_drive_0_casting_rib_-0.2",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_0_casting_rib_0.05",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_0_casting_rib_0.22",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_-0.31_0",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.5139999389648438,
+      0.30000001192092896,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      -2.4860000610351562,
+      0.3199999928474426,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_-0.31_1",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.556016445159912,
+      0.30000001192092896,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      -2.5280160903930664,
+      0.3199999928474426,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_-0.31_2",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.666016101837158,
+      0.30000001192092896,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      -2.6380162239074707,
+      0.3199999928474426,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_-0.31_3",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.8019838333129883,
+      0.30000001192092896,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      -2.773983955383301,
+      0.3199999928474426,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_-0.31_4",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.9119834899902344,
+      0.30000001192092896,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      -2.883983612060547,
+      0.3199999928474426,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_-0.31_5",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.9539999961853027,
+      0.30000001192092896,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      -2.9260001182556152,
+      0.3199999928474426,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_-0.31_6",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.9119834899902344,
+      0.30000001192092896,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      -2.883983612060547,
+      0.3199999928474426,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_-0.31_7",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.8019838333129883,
+      0.30000001192092896,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      -2.773983955383301,
+      0.3199999928474426,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_-0.31_8",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.666016101837158,
+      0.30000001192092896,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      -2.6380162239074707,
+      0.3199999928474426,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_-0.31_9",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.556016445159912,
+      0.30000001192092896,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      -2.5280160903930664,
+      0.3199999928474426,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_0.31_0",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.5139999389648438,
+      -0.3199999928474426,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      -2.4860000610351562,
+      -0.30000001192092896,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_0.31_1",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.556016445159912,
+      -0.3199999928474426,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      -2.5280160903930664,
+      -0.30000001192092896,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_0.31_2",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.666016101837158,
+      -0.3199999928474426,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      -2.6380162239074707,
+      -0.30000001192092896,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_0.31_3",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.8019838333129883,
+      -0.3199999928474426,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      -2.773983955383301,
+      -0.30000001192092896,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_0.31_4",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.9119834899902344,
+      -0.3199999928474426,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      -2.883983612060547,
+      -0.30000001192092896,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_0.31_5",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.9539999961853027,
+      -0.3199999928474426,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      -2.9260001182556152,
+      -0.30000001192092896,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_0.31_6",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.9119834899902344,
+      -0.3199999928474426,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      -2.883983612060547,
+      -0.30000001192092896,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_0.31_7",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.8019838333129883,
+      -0.3199999928474426,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      -2.773983955383301,
+      -0.30000001192092896,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_0.31_8",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.666016101837158,
+      -0.3199999928474426,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      -2.6380162239074707,
+      -0.30000001192092896,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_0_cover_bolt_0.31_9",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -2.556016445159912,
+      -0.3199999928474426,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      -2.5280160903930664,
+      -0.30000001192092896,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_0_cover_seam_-0.31",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_0_cover_seam_0.31",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_1_cast_housing",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 56,
+    "props": {
+      "surface": "exterior",
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "OD_green_shadow"
+    ],
+    "txFrameMin": [
+      -0.8600000143051147,
+      -0.30000001192092896,
+      -0.2799999713897705
+    ],
+    "txFrameMax": [
+      -0.19999998807907104,
+      0.30000001192092896,
+      0.440000057220459
+    ],
+    "rMaxAboutGearboxAxis": 0.4868414011353869
+  },
+  {
+    "name": "BL_Final_drive_1_casting_rib_-0.2",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_1_casting_rib_0.05",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_1_casting_rib_0.22",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_-0.31_0",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.3140000104904175,
+      0.30000001192092896,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      -0.28600001335144043,
+      0.3199999928474426,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_-0.31_1",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.35601621866226196,
+      0.30000001192092896,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      -0.3280162215232849,
+      0.3199999928474426,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_-0.31_2",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.4660162329673767,
+      0.30000001192092896,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      -0.43801623582839966,
+      0.3199999928474426,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_-0.31_3",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.6019837260246277,
+      0.30000001192092896,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      -0.5739837288856506,
+      0.3199999928474426,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_-0.31_4",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.7119836807250977,
+      0.30000001192092896,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      -0.6839836835861206,
+      0.3199999928474426,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_-0.31_5",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.7539999485015869,
+      0.30000001192092896,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      -0.7259999513626099,
+      0.3199999928474426,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_-0.31_6",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.7119836807250977,
+      0.30000001192092896,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      -0.6839836835861206,
+      0.3199999928474426,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_-0.31_7",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.6019837260246277,
+      0.30000001192092896,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      -0.5739837288856506,
+      0.3199999928474426,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_-0.31_8",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.4660162329673767,
+      0.30000001192092896,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      -0.43801623582839966,
+      0.3199999928474426,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_-0.31_9",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.35601621866226196,
+      0.30000001192092896,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      -0.3280162215232849,
+      0.3199999928474426,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_0.31_0",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.3140000104904175,
+      -0.3199999928474426,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      -0.28600001335144043,
+      -0.30000001192092896,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_0.31_1",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.35601621866226196,
+      -0.3199999928474426,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      -0.3280162215232849,
+      -0.30000001192092896,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_0.31_2",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.4660162329673767,
+      -0.3199999928474426,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      -0.43801623582839966,
+      -0.30000001192092896,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_0.31_3",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.6019837260246277,
+      -0.3199999928474426,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      -0.5739837288856506,
+      -0.30000001192092896,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_0.31_4",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.7119836807250977,
+      -0.3199999928474426,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      -0.6839836835861206,
+      -0.30000001192092896,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_0.31_5",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.7539999485015869,
+      -0.3199999928474426,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      -0.7259999513626099,
+      -0.30000001192092896,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_0.31_6",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.7119836807250977,
+      -0.3199999928474426,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      -0.6839836835861206,
+      -0.30000001192092896,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_0.31_7",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.6019837260246277,
+      -0.3199999928474426,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      -0.5739837288856506,
+      -0.30000001192092896,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_0.31_8",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.4660162329673767,
+      -0.3199999928474426,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      -0.43801623582839966,
+      -0.30000001192092896,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_1_cover_bolt_0.31_9",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      -0.35601621866226196,
+      -0.3199999928474426,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      -0.3280162215232849,
+      -0.30000001192092896,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_1_cover_seam_-0.31",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_1_cover_seam_0.31",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_2_cast_housing",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 56,
+    "props": {
+      "surface": "exterior",
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "OD_green_shadow"
+    ],
+    "txFrameMin": [
+      2.440000057220459,
+      -0.30000001192092896,
+      -0.2799999713897705
+    ],
+    "txFrameMax": [
+      3.0999999046325684,
+      0.30000001192092896,
+      0.440000057220459
+    ],
+    "rMaxAboutGearboxAxis": 0.4868414011353869
+  },
+  {
+    "name": "BL_Final_drive_2_casting_rib_-0.2",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_2_casting_rib_0.05",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_2_casting_rib_0.22",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_-0.31_0",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.9860000610351562,
+      0.30000001192092896,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      3.0139999389648438,
+      0.3199999928474426,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_-0.31_1",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.943983554840088,
+      0.30000001192092896,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      2.9719839096069336,
+      0.3199999928474426,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_-0.31_2",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.833983898162842,
+      0.30000001192092896,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      2.8619837760925293,
+      0.3199999928474426,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_-0.31_3",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.6980161666870117,
+      0.30000001192092896,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      2.726016044616699,
+      0.3199999928474426,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_-0.31_4",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.5880165100097656,
+      0.30000001192092896,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      2.616016387939453,
+      0.3199999928474426,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_-0.31_5",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.5460000038146973,
+      0.30000001192092896,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      2.5739998817443848,
+      0.3199999928474426,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_-0.31_6",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.5880165100097656,
+      0.30000001192092896,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      2.616016387939453,
+      0.3199999928474426,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_-0.31_7",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.6980161666870117,
+      0.30000001192092896,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      2.726016044616699,
+      0.3199999928474426,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_-0.31_8",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.833983898162842,
+      0.30000001192092896,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      2.8619837760925293,
+      0.3199999928474426,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_-0.31_9",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.943983554840088,
+      0.30000001192092896,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      2.9719839096069336,
+      0.3199999928474426,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_0.31_0",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.9860000610351562,
+      -0.3199999928474426,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      3.0139999389648438,
+      -0.30000001192092896,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_0.31_1",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.943983554840088,
+      -0.3199999928474426,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      2.9719839096069336,
+      -0.30000001192092896,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_0.31_2",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.833983898162842,
+      -0.3199999928474426,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      2.8619837760925293,
+      -0.30000001192092896,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_0.31_3",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.6980161666870117,
+      -0.3199999928474426,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      2.726016044616699,
+      -0.30000001192092896,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_0.31_4",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.5880165100097656,
+      -0.3199999928474426,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      2.616016387939453,
+      -0.30000001192092896,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_0.31_5",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.5460000038146973,
+      -0.3199999928474426,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      2.5739998817443848,
+      -0.30000001192092896,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_0.31_6",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.5880165100097656,
+      -0.3199999928474426,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      2.616016387939453,
+      -0.30000001192092896,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_0.31_7",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.6980161666870117,
+      -0.3199999928474426,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      2.726016044616699,
+      -0.30000001192092896,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_0.31_8",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.833983898162842,
+      -0.3199999928474426,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      2.8619837760925293,
+      -0.30000001192092896,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_2_cover_bolt_0.31_9",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      2.943983554840088,
+      -0.3199999928474426,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      2.9719839096069336,
+      -0.30000001192092896,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_2_cover_seam_-0.31",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_2_cover_seam_0.31",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_3_cast_housing",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 56,
+    "props": {
+      "surface": "exterior",
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "OD_green_shadow"
+    ],
+    "txFrameMin": [
+      4.640000343322754,
+      -0.30000001192092896,
+      -0.2799999713897705
+    ],
+    "txFrameMax": [
+      5.300000190734863,
+      0.30000001192092896,
+      0.440000057220459
+    ],
+    "rMaxAboutGearboxAxis": 0.4868414011353869
+  },
+  {
+    "name": "BL_Final_drive_3_casting_rib_-0.2",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_3_casting_rib_0.05",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_3_casting_rib_0.22",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_-0.31_0",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      5.186000347137451,
+      0.30000001192092896,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      5.214000225067139,
+      0.3199999928474426,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_-0.31_1",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      5.143983840942383,
+      0.30000001192092896,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      5.17198371887207,
+      0.3199999928474426,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_-0.31_2",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      5.0339837074279785,
+      0.30000001192092896,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      5.061984062194824,
+      0.3199999928474426,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_-0.31_3",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      4.898016452789307,
+      0.30000001192092896,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      4.926016330718994,
+      0.3199999928474426,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_-0.31_4",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      4.788016319274902,
+      0.30000001192092896,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      4.81601619720459,
+      0.3199999928474426,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_-0.31_5",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      4.746000289916992,
+      0.30000001192092896,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      4.77400016784668,
+      0.3199999928474426,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_-0.31_6",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      4.788016319274902,
+      0.30000001192092896,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      4.81601619720459,
+      0.3199999928474426,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_-0.31_7",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      4.898016452789307,
+      0.30000001192092896,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      4.926016330718994,
+      0.3199999928474426,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_-0.31_8",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      5.0339837074279785,
+      0.30000001192092896,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      5.061984062194824,
+      0.3199999928474426,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_-0.31_9",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      5.143983840942383,
+      0.30000001192092896,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      5.17198371887207,
+      0.3199999928474426,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_0.31_0",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      5.186000347137451,
+      -0.3199999928474426,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      5.214000225067139,
+      -0.30000001192092896,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_0.31_1",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      5.143983840942383,
+      -0.3199999928474426,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      5.17198371887207,
+      -0.30000001192092896,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_0.31_2",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      5.0339837074279785,
+      -0.3199999928474426,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      5.061984062194824,
+      -0.30000001192092896,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_0.31_3",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      4.898016452789307,
+      -0.3199999928474426,
+      0.192108154296875
+    ],
+    "txFrameMax": [
+      4.926016330718994,
+      -0.30000001192092896,
+      0.21635687351226807
+    ],
+    "rMaxAboutGearboxAxis": 0.3862774807549191
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_0.31_4",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      4.788016319274902,
+      -0.3199999928474426,
+      0.11218845844268799
+    ],
+    "txFrameMax": [
+      4.81601619720459,
+      -0.30000001192092896,
+      0.13643717765808105
+    ],
+    "rMaxAboutGearboxAxis": 0.34787224504071335
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_0.31_5",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      4.746000289916992,
+      -0.3199999928474426,
+      -0.017124295234680176
+    ],
+    "txFrameMax": [
+      4.77400016784668,
+      -0.30000001192092896,
+      0.007124423980712891
+    ],
+    "rMaxAboutGearboxAxis": 0.320457855122398
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_0.31_6",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      4.788016319274902,
+      -0.3199999928474426,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      4.81601619720459,
+      -0.30000001192092896,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_0.31_7",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      4.898016452789307,
+      -0.3199999928474426,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      4.926016330718994,
+      -0.30000001192092896,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_0.31_8",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      5.0339837074279785,
+      -0.3199999928474426,
+      -0.22635674476623535
+    ],
+    "txFrameMax": [
+      5.061984062194824,
+      -0.30000001192092896,
+      -0.20210802555084229
+    ],
+    "rMaxAboutGearboxAxis": 0.39196603337984526
+  },
+  {
+    "name": "BL_Final_drive_3_cover_bolt_0.31_9",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 12,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "Phosphated_steel"
+    ],
+    "txFrameMin": [
+      5.143983840942383,
+      -0.3199999928474426,
+      -0.14643704891204834
+    ],
+    "txFrameMax": [
+      5.17198371887207,
+      -0.30000001192092896,
+      -0.12218832969665527
+    ],
+    "rMaxAboutGearboxAxis": 0.3519144849483081
+  },
+  {
+    "name": "BL_Final_drive_3_cover_seam_-0.31",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "BL_Final_drive_3_cover_seam_0.31",
+    "type": "CURVE",
+    "meshes": 0,
+    "vertices": 0,
+    "props": {
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": []
+  },
+  {
+    "name": "drive_0001",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 148,
+    "props": {
+      "provenance": "Simplified mechanical reconstruction"
+    },
+    "materials": [
+      "OD_green_aged_enamel"
+    ],
+    "txFrameMin": [
+      -0.7600001096725464,
+      -0.30000001192092896,
+      -0.23000001907348633
+    ],
+    "txFrameMax": [
+      -0.4599999785423279,
+      0.30000001192092896,
+      0.37000012397766113
+    ],
+    "rMaxAboutGearboxAxis": 0.37000012397766113
+  },
+  {
+    "name": "drive_0003",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 900,
+    "props": {
+      "provenance": "Simplified mechanical reconstruction"
+    },
+    "materials": [
+      "OD_green_aged_enamel"
+    ],
+    "txFrameMin": [
+      0.5750000476837158,
+      -0.3449999988079071,
+      -0.2849999666213989
+    ],
+    "txFrameMax": [
+      1.065000057220459,
+      0.3449999988079071,
+      0.24500000476837158
+    ],
+    "rMaxAboutGearboxAxis": 0.42894102309667215
+  },
+  {
+    "name": "drive_0038",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 423,
+    "props": {
+      "provenance": "Simplified mechanical reconstruction"
+    },
+    "materials": [
+      "OD_green_aged_enamel"
+    ],
+    "txFrameMin": [
+      -2.9730000495910645,
+      -0.31050002574920654,
+      -0.4399999976158142
+    ],
+    "txFrameMax": [
+      -2.4670000076293945,
+      0.31050002574920654,
+      0.019999980926513672
+    ],
+    "rMaxAboutGearboxAxis": 0.4399999976158142
+  },
+  {
+    "name": "drive_0040",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 423,
+    "props": {
+      "provenance": "Simplified mechanical reconstruction"
+    },
+    "materials": [
+      "OD_green_aged_enamel"
+    ],
+    "txFrameMin": [
+      -0.7730000019073486,
+      -0.31050002574920654,
+      -0.4399999976158142
+    ],
+    "txFrameMax": [
+      -0.2669999599456787,
+      0.31050002574920654,
+      0.019999980926513672
+    ],
+    "rMaxAboutGearboxAxis": 0.4399999976158142
+  },
+  {
+    "name": "drive_0042",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 423,
+    "props": {
+      "provenance": "Simplified mechanical reconstruction"
+    },
+    "materials": [
+      "OD_green_aged_enamel"
+    ],
+    "txFrameMin": [
+      2.5269999504089355,
+      -0.31050002574920654,
+      -0.4399999976158142
+    ],
+    "txFrameMax": [
+      3.0329999923706055,
+      0.31050002574920654,
+      0.019999980926513672
+    ],
+    "rMaxAboutGearboxAxis": 0.4399999976158142
+  },
+  {
+    "name": "drive_0044",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 423,
+    "props": {
+      "provenance": "Simplified mechanical reconstruction"
+    },
+    "materials": [
+      "OD_green_aged_enamel"
+    ],
+    "txFrameMin": [
+      4.726999759674072,
+      -0.31050002574920654,
+      -0.4399999976158142
+    ],
+    "txFrameMax": [
+      5.2330002784729,
+      0.31050002574920654,
+      0.019999980926513672
+    ],
+    "rMaxAboutGearboxAxis": 0.4399999976158142
+  },
+  {
+    "name": "drive_0046",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 592,
+    "props": {
+      "fixedDetailCount": "4",
+      "provenance": "Simplified mechanical reconstruction"
+    },
+    "materials": [
+      "Worn_steel"
+    ],
+    "txFrameMin": [
+      -2.7199997901916504,
+      -0.04800000041723251,
+      -0.22799992561340332
+    ],
+    "txFrameMax": [
+      4.980000019073486,
+      0.04800000041723251,
+      -0.13199996948242188
+    ],
+    "rMaxAboutGearboxAxis": 0.22799992561340332
+  },
+  {
+    "name": "drive_pivot_001",
+    "type": "EMPTY",
+    "meshes": 1,
+    "vertices": 820,
+    "props": {},
+    "materials": [
+      "brass"
+    ],
+    "txFrameMin": [
+      -0.6599999666213989,
+      -0.26350000500679016,
+      -0.19349992275238037
+    ],
+    "txFrameMax": [
+      -0.6000000238418579,
+      0.26350000500679016,
+      0.3335000276565552
+    ],
+    "rMaxAboutGearboxAxis": 0.3337731541876576
+  },
+  {
+    "name": "drive_pivot_017",
+    "type": "EMPTY",
+    "meshes": 1,
+    "vertices": 628,
+    "props": {},
+    "materials": [
+      "brass"
+    ],
+    "txFrameMin": [
+      0.7950000166893005,
+      -0.1535000056028366,
+      -0.3534999489784241
+    ],
+    "txFrameMax": [
+      0.8450000286102295,
+      0.1535000056028366,
+      -0.04649996757507324
+    ],
+    "rMaxAboutGearboxAxis": 0.353757634457835
+  },
+  {
+    "name": "drive_pivot_018",
+    "type": "EMPTY",
+    "meshes": 1,
+    "vertices": 628,
+    "props": {},
+    "materials": [
+      "brass"
+    ],
+    "txFrameMin": [
+      0.7950000166893005,
+      -0.1535000056028366,
+      -0.05349999666213989
+    ],
+    "txFrameMax": [
+      0.8450000286102295,
+      0.1535000056028366,
+      0.25349998474121094
+    ],
+    "rMaxAboutGearboxAxis": 0.2538591977322251
+  },
+  {
+    "name": "drive_pivot_019",
+    "type": "EMPTY",
+    "meshes": 2,
+    "vertices": 172,
+    "props": {},
+    "materials": [
+      "Phosphated_steel",
+      "Worn_steel"
+    ],
+    "txFrameMin": [
+      -2.7249999046325684,
+      -0.0860000029206276,
+      -0.265999972820282
+    ],
+    "txFrameMax": [
+      -2.5949997901916504,
+      0.0860000029206276,
+      -0.09399992227554321
+    ],
+    "rMaxAboutGearboxAxis": 0.265999972820282
+  },
+  {
+    "name": "drive_pivot_020",
+    "type": "EMPTY",
+    "meshes": 2,
+    "vertices": 172,
+    "props": {},
+    "materials": [
+      "Phosphated_steel",
+      "Worn_steel"
+    ],
+    "txFrameMin": [
+      -0.6449999809265137,
+      -0.0860000029206276,
+      -0.265999972820282
+    ],
+    "txFrameMax": [
+      -0.5149999856948853,
+      0.0860000029206276,
+      -0.09399992227554321
+    ],
+    "rMaxAboutGearboxAxis": 0.265999972820282
+  },
+  {
+    "name": "drive_pivot_021",
+    "type": "EMPTY",
+    "meshes": 2,
+    "vertices": 172,
+    "props": {},
+    "materials": [
+      "Phosphated_steel",
+      "Worn_steel"
+    ],
+    "txFrameMin": [
+      -0.5249999761581421,
+      -0.0860000029206276,
+      -0.265999972820282
+    ],
+    "txFrameMax": [
+      -0.39499998092651367,
+      0.0860000029206276,
+      -0.09399992227554321
+    ],
+    "rMaxAboutGearboxAxis": 0.265999972820282
+  },
+  {
+    "name": "drive_pivot_022",
+    "type": "EMPTY",
+    "meshes": 2,
+    "vertices": 172,
+    "props": {},
+    "materials": [
+      "Phosphated_steel",
+      "Worn_steel"
+    ],
+    "txFrameMin": [
+      0.6349999904632568,
+      -0.0860000029206276,
+      -0.265999972820282
+    ],
+    "txFrameMax": [
+      0.7649999856948853,
+      0.0860000029206276,
+      -0.09399992227554321
+    ],
+    "rMaxAboutGearboxAxis": 0.265999972820282
+  },
+  {
+    "name": "drive_pivot_023",
+    "type": "EMPTY",
+    "meshes": 2,
+    "vertices": 172,
+    "props": {},
+    "materials": [
+      "Phosphated_steel",
+      "Worn_steel"
+    ],
+    "txFrameMin": [
+      1.0550000667572021,
+      -0.0860000029206276,
+      -0.265999972820282
+    ],
+    "txFrameMax": [
+      1.184999942779541,
+      0.0860000029206276,
+      -0.09399992227554321
+    ],
+    "rMaxAboutGearboxAxis": 0.265999972820282
+  },
+  {
+    "name": "drive_pivot_024",
+    "type": "EMPTY",
+    "meshes": 2,
+    "vertices": 172,
+    "props": {},
+    "materials": [
+      "Phosphated_steel",
+      "Worn_steel"
+    ],
+    "txFrameMin": [
+      2.6549997329711914,
+      -0.0860000029206276,
+      -0.265999972820282
+    ],
+    "txFrameMax": [
+      2.7849998474121094,
+      0.0860000029206276,
+      -0.09399992227554321
+    ],
+    "rMaxAboutGearboxAxis": 0.265999972820282
+  },
+  {
+    "name": "drive_pivot_025",
+    "type": "EMPTY",
+    "meshes": 2,
+    "vertices": 172,
+    "props": {},
+    "materials": [
+      "Phosphated_steel",
+      "Worn_steel"
+    ],
+    "txFrameMin": [
+      2.7750000953674316,
+      -0.0860000029206276,
+      -0.265999972820282
+    ],
+    "txFrameMax": [
+      2.9050002098083496,
+      0.0860000029206276,
+      -0.09399992227554321
+    ],
+    "rMaxAboutGearboxAxis": 0.265999972820282
+  },
+  {
+    "name": "drive_pivot_026",
+    "type": "EMPTY",
+    "meshes": 2,
+    "vertices": 172,
+    "props": {},
+    "materials": [
+      "Phosphated_steel",
+      "Worn_steel"
+    ],
+    "txFrameMin": [
+      4.855000019073486,
+      -0.0860000029206276,
+      -0.265999972820282
+    ],
+    "txFrameMax": [
+      4.985000133514404,
+      0.0860000029206276,
+      -0.09399992227554321
+    ],
+    "rMaxAboutGearboxAxis": 0.265999972820282
+  },
+  {
+    "name": "drive_pivot_027",
+    "type": "EMPTY",
+    "meshes": 1,
+    "vertices": 724,
+    "props": {},
+    "materials": [
+      "brass"
+    ],
+    "txFrameMin": [
+      -2.9235000610351562,
+      -0.02500000037252903,
+      -0.41349995136260986
+    ],
+    "txFrameMax": [
+      -2.5164999961853027,
+      0.02500000037252903,
+      -0.0065000057220458984
+    ],
+    "rMaxAboutGearboxAxis": 0.4142550057579355
+  },
+  {
+    "name": "drive_pivot_028",
+    "type": "EMPTY",
+    "meshes": 1,
+    "vertices": 724,
+    "props": {},
+    "materials": [
+      "brass"
+    ],
+    "txFrameMin": [
+      -0.7235000133514404,
+      -0.02500000037252903,
+      -0.41349995136260986
+    ],
+    "txFrameMax": [
+      -0.3164999485015869,
+      0.02500000037252903,
+      -0.0065000057220458984
+    ],
+    "rMaxAboutGearboxAxis": 0.4142550057579355
+  },
+  {
+    "name": "drive_pivot_029",
+    "type": "EMPTY",
+    "meshes": 1,
+    "vertices": 724,
+    "props": {},
+    "materials": [
+      "brass"
+    ],
+    "txFrameMin": [
+      2.5764999389648438,
+      -0.02500000037252903,
+      -0.41349995136260986
+    ],
+    "txFrameMax": [
+      2.9835000038146973,
+      0.02500000037252903,
+      -0.0065000057220458984
+    ],
+    "rMaxAboutGearboxAxis": 0.4142550057579355
+  },
+  {
+    "name": "drive_pivot_030",
+    "type": "EMPTY",
+    "meshes": 1,
+    "vertices": 724,
+    "props": {},
+    "materials": [
+      "brass"
+    ],
+    "txFrameMin": [
+      4.776500225067139,
+      -0.02500000037252903,
+      -0.41349995136260986
+    ],
+    "txFrameMax": [
+      5.183499813079834,
+      0.02500000037252903,
+      -0.0065000057220458984
+    ],
+    "rMaxAboutGearboxAxis": 0.4142550057579355
+  },
+  {
+    "name": "S543_TRANSMISSION",
+    "type": "EMPTY",
+    "meshes": 1449,
+    "vertices": 786514,
+    "props": {
+      "partId": "drive",
+      "dimensionStatus": "Reconstruction, not factory CAD",
+      "spec": "{\"sun41\": 60, \"sun21\": 48, \"ring40\": 132, \"ring18\": 156, \"long43\": 36, \"short20\": 54, \"module\": 0.0025, \"longRadius\": 0.12, \"shortRadius\": 0.1275, \"planetOffset",
+      "nativeVehiclePose": "Neutral reference only; interactive gearing lives in the browser and source module inspection sequence."
+    },
+    "materials": [
+      "TX_cast_housing",
+      "TX_cast_iron_feed_rings.001",
+      "TX_forged_steel",
+      "TX_ground_steel",
+      "TX_oil_seals",
+      "TX_sintered_friction"
+    ],
+    "txFrameMin": [
+      -0.2849999666213989,
+      -0.2475000023841858,
+      -0.2475000023841858
+    ],
+    "txFrameMax": [
+      0.28999999165534973,
+      0.2475000023841858,
+      0.24749994277954102
+    ],
+    "rMaxAboutGearboxAxis": 0.29605109430013266
+  },
+  {
+    "name": "BL_Final_drive_1_cast_housing",
+    "type": "MESH",
+    "meshes": 1,
+    "vertices": 56,
+    "props": {
+      "surface": "exterior",
+      "provenance": "Authored in Blender with photographic reference"
+    },
+    "materials": [
+      "OD_green_shadow"
+    ],
+    "txFrameMin": [
+      -0.8600000143051147,
+      -0.30000001192092896,
+      -0.2799999713897705
+    ],
+    "txFrameMax": [
+      -0.19999998807907104,
+      0.30000001192092896,
+      0.440000057220459
+    ],
+    "rMaxAboutGearboxAxis": 0.4868414011353869
+  }
+]

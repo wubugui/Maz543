@@ -1,0 +1,329 @@
+{
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "originalDepthReplay": {
+    "kind": "original-linked-program-depth-replay",
+    "eligibleMeshes": 2315,
+    "recordedDraws": 6945,
+    "replayedDraws": 6945,
+    "replayedTriangles": 16181784,
+    "programMatches": 6945,
+    "programMismatches": 0,
+    "matrixMismatches": 0,
+    "errors": [],
+    "passes": [
+      {
+        "requestedSamples": 4,
+        "originalSamples": 4,
+        "originalDepthBits": 24,
+        "viewport": [
+          0,
+          0,
+          1212,
+          773
+        ],
+        "normalOverride": false,
+        "draws": 2315,
+        "programMatches": 2315,
+        "programMismatches": 0,
+        "matrixMismatches": 0,
+        "triangles": 5393928,
+        "actualSamples": 4,
+        "actualDepthBits": 24,
+        "error": ""
+      },
+      {
+        "requestedSamples": 2,
+        "originalSamples": 2,
+        "originalDepthBits": 24,
+        "viewport": [
+          0,
+          0,
+          1212,
+          773
+        ],
+        "normalOverride": false,
+        "draws": 2315,
+        "programMatches": 2315,
+        "programMismatches": 0,
+        "matrixMismatches": 0,
+        "triangles": 5393928,
+        "actualSamples": 2,
+        "actualDepthBits": 24,
+        "error": ""
+      },
+      {
+        "requestedSamples": 0,
+        "originalSamples": 0,
+        "originalDepthBits": 24,
+        "viewport": [
+          0,
+          0,
+          1212,
+          773
+        ],
+        "normalOverride": true,
+        "draws": 2315,
+        "programMatches": 2315,
+        "programMismatches": 0,
+        "matrixMismatches": 0,
+        "triangles": 5393928,
+        "actualSamples": 0,
+        "actualDepthBits": 24,
+        "error": ""
+      }
+    ],
+    "sourceCallsUnchanged": true,
+    "limits": "Finite depth-snapshot proof only; original product draws retained. Same linked program, source geometry/material and matrices checked per replay. Not cross-frame validity, actual culling or performance acceptance."
+  },
+  "width": 1212,
+  "height": 773,
+  "order": "optimized-then-baseline",
+  "baseline": {
+    "calls": 9305,
+    "triangles": 21582915,
+    "synchronizedMs": 1307.3999999985099
+  },
+  "optimized": {
+    "calls": 23199,
+    "triangles": 37778597,
+    "synchronizedMs": 2321.89999999851
+  },
+  "optimizedReadbackError": 0,
+  "baselineReadbackError": 0,
+  "differentPixels": 0,
+  "maxChannelDifference": 0,
+  "rmsChannelDifference": 0,
+  "identicalPixels": true,
+  "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose.",
+  "depthQueries": {
+    "kind": "original-program-static-depth-volume-queries",
+    "initializationDraws": 1,
+    "passes": [
+      {
+        "samples": 4,
+        "depthBits": 24,
+        "viewport": [
+          0,
+          0,
+          1212,
+          773
+        ],
+        "normalOverride": false,
+        "queried": 2314,
+        "zeroVolumes": 1861,
+        "zeroTriangles": 3178054,
+        "movingZeroVolumes": 0,
+        "controlsPassed": true,
+        "largestZero": [
+          {
+            "name": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+            "triangles": 738276,
+            "stable": true,
+            "pass": 0,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+            "triangles": 24220,
+            "stable": true,
+            "pass": 0,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "BL_Merged_wheels_pivot_016_Phosphated_steel",
+            "triangles": 24220,
+            "stable": true,
+            "pass": 0,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_18_reverse_ring",
+            "triangles": 22864,
+            "stable": true,
+            "pass": 0,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_40_first_ring",
+            "triangles": 19504,
+            "stable": true,
+            "pass": 0,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_reverse_disc_01_mesh",
+            "triangles": 19408,
+            "stable": true,
+            "pass": 0,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_reverse_disc_11_mesh",
+            "triangles": 19408,
+            "stable": true,
+            "pass": 0,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_reverse_disc_13_mesh",
+            "triangles": 19408,
+            "stable": true,
+            "pass": 0,
+            "anySamplesPassed": false
+          }
+        ]
+      },
+      {
+        "samples": 2,
+        "depthBits": 24,
+        "viewport": [
+          0,
+          0,
+          1212,
+          773
+        ],
+        "normalOverride": false,
+        "queried": 2314,
+        "zeroVolumes": 1880,
+        "zeroTriangles": 3214266,
+        "movingZeroVolumes": 0,
+        "controlsPassed": true,
+        "largestZero": [
+          {
+            "name": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+            "triangles": 738276,
+            "stable": true,
+            "pass": 1,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+            "triangles": 24220,
+            "stable": true,
+            "pass": 1,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "BL_Merged_wheels_pivot_016_Phosphated_steel",
+            "triangles": 24220,
+            "stable": true,
+            "pass": 1,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_18_reverse_ring",
+            "triangles": 22864,
+            "stable": true,
+            "pass": 1,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_40_first_ring",
+            "triangles": 19504,
+            "stable": true,
+            "pass": 1,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_reverse_disc_01_mesh",
+            "triangles": 19408,
+            "stable": true,
+            "pass": 1,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_reverse_disc_11_mesh",
+            "triangles": 19408,
+            "stable": true,
+            "pass": 1,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_reverse_disc_13_mesh",
+            "triangles": 19408,
+            "stable": true,
+            "pass": 1,
+            "anySamplesPassed": false
+          }
+        ]
+      },
+      {
+        "samples": 0,
+        "depthBits": 24,
+        "viewport": [
+          0,
+          0,
+          1212,
+          773
+        ],
+        "normalOverride": true,
+        "queried": 2314,
+        "zeroVolumes": 1882,
+        "zeroTriangles": 3216266,
+        "movingZeroVolumes": 0,
+        "controlsPassed": true,
+        "largestZero": [
+          {
+            "name": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+            "triangles": 738276,
+            "stable": true,
+            "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+            "triangles": 24220,
+            "stable": true,
+            "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "BL_Merged_wheels_pivot_016_Phosphated_steel",
+            "triangles": 24220,
+            "stable": true,
+            "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_18_reverse_ring",
+            "triangles": 22864,
+            "stable": true,
+            "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_40_first_ring",
+            "triangles": 19504,
+            "stable": true,
+            "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_reverse_disc_01_mesh",
+            "triangles": 19408,
+            "stable": true,
+            "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_reverse_disc_11_mesh",
+            "triangles": 19408,
+            "stable": true,
+            "pass": 2,
+            "anySamplesPassed": false
+          },
+          {
+            "name": "TX_reverse_disc_13_mesh",
+            "triangles": 19408,
+            "stable": true,
+            "pass": 2,
+            "anySamplesPassed": false
+          }
+        ]
+      }
+    ],
+    "controlsPassed": true,
+    "queryError": 0,
+    "limits": "Actual conservative volume queries on exact-program snapshots. Potential only: no source product draw skipped, no cross-frame reuse or FPS gain established."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "frameSource": "window",
+  "simulationTime": 119.75416666663992,
+  "simulationBacklog": 0,
+  "width": 1212,
+  "height": 773,
+  "pixelRatio": 1.25,
+  "meshes": 3264,
+  "draws": 9305,
+  "triangles": 21582915,
+  "readbackError": 0,
+  "view": {
+    "projection": [
+      2.0239352398585866,
+      0,
+      0,
+      0,
+      0,
+      3.171594802363213,
+      0,
+      0,
+      0,
+      0,
+      -1.0008336807002918,
+      -1,
+      0,
+      0,
+      -0.10004168403501458,
+      0
+    ],
+    "world": [
+      0.7130236798105839,
+      -1.3877787807814457e-17,
+      0.7011399518137403,
+      0,
+      0.24921729803672404,
+      0.9346968683252351,
+      -0.2534413200373467,
+      0,
+      -0.6553533172180094,
+      0.3554458669657001,
+      0.6664610005606879,
+      0,
+      -19.42798546989396,
+      13.853846489250913,
+      19.631690454075258,
+      1
+    ],
+    "layers": 1
+  },
+  "ao": {
+    "enabled": true,
+    "samples": 8,
+    "blendIntensity": 0.55
+  },
+  "limits": "Exact RGBA fingerprint of this current context and pose, fixed audit-only stock-recipe AO noise. Input fingerprint covers transforms/material subset and geometry layouts, not all geometry bytes or every shader input. Asset/source checks and actual pixel equality remain separate requirements.",
+  "pixelSha256": "2bff12097d1ecd96ba8d25e8775f1aa4f692f5a6fb420ea5fc4bea62b3288c09",
+  "sceneInputSha256": "dcd32a825562a91efa69950ff5a50d0e961e8443e58f6a747d5a9866ff701e1b",
+  "drawSequenceSha256": "089c069d16c4a5898454462a02b7159ab84d3d9bc9cfc2bfe92a0dba94590cf0",
+  "noiseSha256": "292cffd4de183a1f5e30e4545f1152071ccf5ca50d7dccd5337eb7fd8e2e0722"
+}

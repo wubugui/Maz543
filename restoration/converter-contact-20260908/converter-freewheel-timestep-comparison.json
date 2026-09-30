@@ -1,0 +1,29 @@
+{
+  "rows": [
+    {
+      "hz": 4000,
+      "omegaAt1_2Seconds": 167.25937288179924,
+      "minimumGapM": -1.5959455978986625e-16,
+      "maximumEnergyExcessJ": 5.361162902506322e-15,
+      "supportBalanceNm": -7.437250815200969e-11,
+      "relativeOmegaDifferenceTo16000Hz": 1.86121341736913e-05
+    },
+    {
+      "hz": 8000,
+      "omegaAt1_2Seconds": 167.2614518390087,
+      "minimumGapM": -1.6653345369377348e-16,
+      "maximumEnergyExcessJ": 5.900661903535109e-15,
+      "supportBalanceNm": 2.8251267991663553e-10,
+      "relativeOmegaDifferenceTo16000Hz": 6.182824653825593e-06
+    },
+    {
+      "hz": 16000,
+      "omegaAt1_2Seconds": 167.26248599363078,
+      "minimumGapM": -1.6653345369377348e-16,
+      "maximumEnergyExcessJ": 6.251076045682424e-15,
+      "supportBalanceNm": -2.587124292574572e-09,
+      "relativeOmegaDifferenceTo16000Hz": 0.0
+    }
+  ],
+  "limits": "Numerical convergence of this fitted contact bench only; not factory dynamics or full operating-envelope acceptance."
+}

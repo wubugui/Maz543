@@ -1,0 +1,54 @@
+{
+  "nativeAssets": [
+    {
+      "file": "d12a525a-engine.glb",
+      "bytes": 9996432,
+      "sha256": "4e8cc7f9f79527bd854658a62b90761953b1996cedde2b1543d586e8dc96e070",
+      "unchanged": true
+    },
+    {
+      "file": "maz543a-blender.glb",
+      "bytes": 20332232,
+      "sha256": "9d1831e61230413198dadd62d26d1eb2fe0047976dab6589d9b78d4c1606d47d",
+      "unchanged": true
+    },
+    {
+      "file": "maz543a-cardan.glb",
+      "bytes": 907380,
+      "sha256": "947f83011dea5b478d16e7aedd66a5af1b6b6f428b8e557ccb3424077c3fa6e0",
+      "unchanged": true
+    },
+    {
+      "file": "maz543a-cooling.glb",
+      "bytes": 15673480,
+      "sha256": "0bdddd0688c9e6f62c06586afdf6d7e2b6e33f61abf89292172634f25b9159ce",
+      "unchanged": true
+    },
+    {
+      "file": "maz543a-starting.glb",
+      "bytes": 792512,
+      "sha256": "fc7e57bade4d6107d2b9d55292edc223bfd6e9b0fb2f635584a2142a72f5b9d4",
+      "unchanged": true
+    },
+    {
+      "file": "maz543a-suspension.glb",
+      "bytes": 8154920,
+      "sha256": "02820335705e230b5a70a4debbc9649e4a2cf66eb180117c8d65a17f19e2ba18",
+      "unchanged": true
+    },
+    {
+      "file": "maz543a-transmission.glb",
+      "bytes": 19204280,
+      "sha256": "0fb959900cf4b37b215c1f47463323faea8fba6e0c08b2e8f0515f22243e9faa",
+      "unchanged": true
+    }
+  ],
+  "mechanicsSourceUnchangedExceptTelemetryType": true,
+  "productionWorkerBundles": [
+    {
+      "file": "dist/client/_next/static/mechanics.worker-DAkom6SJ.js",
+      "bytes": 25933,
+      "sha256": "927ddaddba650ec41bfe6e16a6f7dcffde2f664d074ec77911acb99d9f178686"
+    }
+  ]
+}

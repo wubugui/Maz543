@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "firstFrameAllDynamic": true,
+  "continuousMotionReusesStaticSubset": true,
+  "subFloat32PoseAndMorphChecked": true,
+  "sourceDepthSetComplete": true,
+  "geometryMaterialLightVisibilityDisposalInvalidate": true,
+  "stockDoubleSideVersionsAccepted": true,
+  "originalHooksAndMapRestoredOnException": true,
+  "limits": "Real Three inputs and mocked stock submission/depth copy; actual WebGL pixel comparison is separate."
+}

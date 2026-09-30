@@ -1,0 +1,69 @@
+{
+  "page": "bfd187b2-4508-4130-9ec0-fa125f4f3f77",
+  "query": "?lifecycle-audit=1",
+  "events": [
+    {
+      "time": 1788906527765,
+      "page": "bfd187b2-4508-4130-9ec0-fa125f4f3f77",
+      "event": "viewer-effect-enter",
+      "details": {
+        "query": "?lifecycle-audit=1",
+        "navigation": [
+          {
+            "type": "navigate",
+            "activationStart": 0,
+            "notRestoredReasons": null
+          }
+        ]
+      }
+    },
+    {
+      "time": 1788906532820,
+      "page": "bfd187b2-4508-4130-9ec0-fa125f4f3f77",
+      "event": "native-ready",
+      "details": {
+        "count": 8868
+      }
+    },
+    {
+      "time": 1788906563457,
+      "page": "bfd187b2-4508-4130-9ec0-fa125f4f3f77",
+      "event": "snapshot",
+      "details": {
+        "hidden": false,
+        "navigation": [
+          {
+            "type": "navigate",
+            "activationStart": 0,
+            "notRestoredReasons": null
+          }
+        ],
+        "telemetry": {
+          "time": 34.27500000000031,
+          "engineRPM": 0,
+          "render": {
+            "fps": 0,
+            "drawCalls": 9305,
+            "triangles": 21582915,
+            "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "cached": true
+          },
+          "backlog": 0
+        },
+        "jsHeap": {
+          "used": 1710593306,
+          "total": 1803473754,
+          "limit": 4395630592
+        },
+        "canvases": [
+          {
+            "width": 1212,
+            "height": 773,
+            "connected": true
+          }
+        ]
+      }
+    }
+  ],
+  "limits": "Page lifecycle events and legacy JS heap snapshot. Heap excludes most driver/GPU allocations; process memory is measured separately. No resource policy changed."
+}

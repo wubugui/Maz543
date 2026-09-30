@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-repair-ffa594eb-4aa6-4531-9fb6-2f2eb205cbd9",
+  "upload": {
+    "upload_id": "0761362c-9471-4c4e-ae1b-5a2722fca6de",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "0761362c-9471-4c4e-ae1b-5a2722fca6de",
+    "name": "hub-windshield-study.py",
+    "mime": "text/x-python",
+    "size": 13566,
+    "sha256": "fe71b78619811d81f4a94c1fcbaf83f854a7769f4f665f815e05606864d99db7",
+    "created": 1790784364.8421125,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/0761362c-9471-4c4e-ae1b-5a2722fca6de/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A enlarged windshield with repaired front mounts",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "a532d7274ec980cccb1f65e208d70c9e",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "337def20099b3a4c7d4dbc95efc12814",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "0761362c-9471-4c4e-ae1b-5a2722fca6de",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "a2f11a27-ff45-495a-87ef-650d63a03c95",
+    "task_ids": [
+      "afce2dc6-0897-46c4-a44b-844131b2c597"
+    ],
+    "task_id": "afce2dc6-0897-46c4-a44b-844131b2c597"
+  }
+}

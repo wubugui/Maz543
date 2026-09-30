@@ -1,0 +1,671 @@
+Browser tab: 3, Title: "MAZ–543A · 机械解构", URL: "http://localhost:3000/?render-worker=1&native-raf=1&frame-profile=1".
+1 AXWebArea MAZ–543A · 机械解构, URL: localhost:3000/?render-worker=1&native-raf=1&frame-profile=1
+	2 container
+		3 link Description: MAZ-543 机械解构, Value: localhost:3000/
+		4 text Blender 三维工作台 02 / Blender 资产
+		5 button 模型说明
+		6 button 导出 GLB
+		7 container
+			8 image MAZ-543 三维模型：拖动旋转，滚轮缩放，点击选择部件
+			9 button 记录接下来 12 帧
+			10 container 逐帧阶段耗时诊断
+				185 text {
+  "kind": "render-thread-wall-time",
+  "limits": "Includes synchronous driver waits. Not GPU duration or end-to-end UI latency. No finish/readback or precision reduction.",
+  "samples": [
+    {
+      "startMs": 276919.3999999985,
+      "updateMs": 3.7000000029802322,
+      "queryPollMs": 0,
+      "cacheMs": 14.699999999254942,
+      "submitMs": 279.5999999977648,
+      "frameWorkMs": 298,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 3649,
+        "after": 3681,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 2322,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 3.599853515625,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 276.7708333331638,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 278977.8999999985,
+      "updateMs": 3.7000000029802322,
+      "queryPollMs": 0,
+      "cacheMs": 13.599999997764826,
+      "submitMs": 309.9000000022352,
+      "frameWorkMs": 327.20000000298023,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 3681,
+        "after": 3713,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 9.199951171875,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 278.82083333316194,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 280969.30000000075,
+      "updateMs": 5.5,
+      "queryPollMs": 0,
+      "cacheMs": 14.099999997764826,
+      "submitMs": 274,
+      "frameWorkMs": 293.5999999977648,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 3713,
+        "after": 3745,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 8.10009765625,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 280.8124999998268,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 283050.30000000075,
+      "updateMs": 4,
+      "queryPollMs": 0,
+      "cacheMs": 35.80000000074506,
+      "submitMs": 255.29999999701977,
+      "frameWorkMs": 295.0999999977648,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 3745,
+        "after": 3777,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 21.199951171875,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 282.8791666664916,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 284945.30000000075,
+      "updateMs": 2.599999997764826,
+      "queryPollMs": 0,
+      "cacheMs": 12.900000002235174,
+      "submitMs": 279.19999999925494,
+      "frameWorkMs": 294.69999999925494,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 3777,
+        "after": 3809,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 0.699951171875,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 284.7958333331565,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 286887.30000000075,
+      "updateMs": 4.399999998509884,
+      "queryPollMs": 0,
+      "cacheMs": 17.300000000745058,
+      "submitMs": 251.89999999850988,
+      "frameWorkMs": 273.5999999977648,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 3809,
+        "after": 3841,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 3,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 286.7374999998214,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 288869.5,
+      "updateMs": 4.199999999254942,
+      "queryPollMs": 0,
+      "cacheMs": 15.400000002235174,
+      "submitMs": 284.29999999701977,
+      "frameWorkMs": 303.8999999985099,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 3841,
+        "after": 3873,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 2.89990234375,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 288.72083333315294,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 290986.8999999985,
+      "updateMs": 3.7000000029802322,
+      "queryPollMs": 0,
+      "cacheMs": 13.899999998509884,
+      "submitMs": 302.3999999985099,
+      "frameWorkMs": 320,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 3873,
+        "after": 3905,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 21,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 290.82083333315103,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 293147.3999999985,
+      "updateMs": 5.400000002235174,
+      "queryPollMs": 0,
+      "cacheMs": 32.599999997764826,
+      "submitMs": 291.4000000022352,
+      "frameWorkMs": 329.4000000022352,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 3905,
+        "after": 3937,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 13.5,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 292.9874999998157,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 295269.3999999985,
+      "updateMs": 3.7000000029802322,
+      "queryPollMs": 0,
+      "cacheMs": 17.699999999254942,
+      "submitMs": 231.89999999850988,
+      "frameWorkMs": 253.30000000074506,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 3937,
+        "after": 3969,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 4.5,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 295.11666666648046,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 297188.80000000075,
+      "updateMs": 3.599999997764826,
+      "queryPollMs": 0,
+      "cacheMs": 13.700000002980232,
+      "submitMs": 278.0999999977648,
+      "frameWorkMs": 295.3999999985099,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 3969,
+        "after": 4001,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 2,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 297.0416666664787,
+      "simulationBacklog": 0
+    },
+    {
+      "startMs": 299243.30000000075,
+      "updateMs": 3.899999998509884,
+      "queryPollMs": 0,
+      "cacheMs": 14.5,
+      "submitMs": 275.6000000014901,
+      "frameWorkMs": 294,
+      "cacheChange": {
+        "kind": "numeric value",
+        "index": 4298,
+        "before": 4001,
+        "after": 4033,
+        "object": "BL_Cab_-1_quarterlight_glass"
+      },
+      "suspensionPose": {
+        "heave": 0,
+        "pitch": 0,
+        "roll": 0
+      },
+      "shadowPose": {
+        "visibleShadowMeshes": 2322,
+        "newMeshes": 0,
+        "worldMatrixChanges": 0,
+        "depthUniformMatrixChanges": 0,
+        "morphUniformChanges": 0,
+        "changedExamples": [],
+        "limits": "Pose-only diagnostic against the last rendered light camera. Includes all visible cast-shadow meshes before shadow frustum culling. Not a complete shadow-cache eligibility test."
+      },
+      "stateAgeAtUpdateMs": 1.199951171875,
+      "frameSource": "native-worker",
+      "rendered": true,
+      "drawCalls": 9305,
+      "triangles": 21582915,
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "gpuMs": null,
+      "focus": "",
+      "mode": "solid",
+      "simulationTime": 299.0958333331435,
+      "simulationBacklog": 0
+    }
+  ]
+}
+			12 text MINSK AUTOMOBILE PLANT 8×8
+			13 heading MAZ–543A, Value: 1
+				14 text MAZ – 543A
+			15 text 双驾驶室 · 四轴全轮驱动底盘
+			16 tab group
+				17 tab (selected, settable, boolean) 外观, Value: 1, ID: base-ui-_R_2d9i_
+				18 tab (selectable, settable, boolean) 透视, Value: 0, ID: base-ui-_R_4d9i_
+				19 tab (selectable, settable, boolean) 纵剖, Value: 0, ID: base-ui-_R_6d9i_
+			20 container 车辆功能快捷操作
+				21 button 车门开闭
+				22 button 发动机内构
+				23 button 变速机构
+				24 button 电启动机构
+				25 button 冷却系统
+				26 button 转向联动
+				27 button 悬架机构
+			29 container 视角
+				30 button 立体视角
+				31 button 前, Help: 正视
+				32 button 侧, Help: 侧视
+				33 button 顶, Help: 俯视
+				34 button 重置模型
+				35 button 全屏
+			36 text 拖动旋转  ·  滚轮缩放  ·  点击部件
+			37 text 2 m
+			38 text 驱动形式
+			39 text 8 × 8
+			40 text 参考轴距
+			41 container
+				42 text 7,700  mm
+			43 text 发动机
+			44 container
+				45 text V12  / 60°
+			46 text 参考功率
+			47 container
+				48 text 525  hp
+		49 container
+			50 tab group
+				51 tab (selected, settable, boolean) 机械控制, Value: 1, ID: base-ui-_R_m9i_
+				52 tab (selectable, settable, boolean) 组件结构, Value: 0, ID: base-ui-_R_169i_
+			53 container
+				54 heading 驾驶室操作, Value: 2
+					55 text 驾驶室操作
+				56 text 四门独立
+				57 checkbox 右舱前门 打开 0°, Value: 0
+					58 text 右舱前门
+					59 text 打开
+					60 container
+						61 text 0 °
+				62 checkbox 右舱后门 打开 0°, Value: 0
+					63 text 右舱后门
+					64 text 打开
+					65 container
+						66 text 0 °
+				67 checkbox 左舱前门 打开 0°, Value: 0
+					68 text 左舱前门
+					69 text 打开
+					70 container
+						71 text 0 °
+				72 checkbox 左舱后门 打开 0°, Value: 0
+					73 text 左舱后门
+					74 text 打开
+					75 container
+						76 text 0 °
+			77 container
+				78 heading 动力系统, Value: 2
+					79 text 动力系统
+				80 text 已停止 0 RPM 0 1,000 2,000
+				81 checkbox 引导启动, Value: 1
+				82 checkbox 原车分步操作, Value: 0
+				83 button 执行预润滑与启动 START
+					84 text 执行预润滑与启动
+					85 text START
+				86 text 油压 0.00  kgf/cm² 母线电压 0.0  V 启动电流 0  A 按住启动 0.0  / 5 s 暖机且油路已充油的试验初始条件。启动前油压 ≥2.5；单次 ≤5 秒，重试间隔 25–30 秒。引导模式代为操作；手动模式保留独立按钮。电机曲线、油路参数与燃烧扭矩尚待标定。
+				87 text 油门
+				88 text 0 %
+				89 container Description: 油门, ID: base-ui-_R_a3q9i_
+					90 container
+						91 slider (settable, integer) 油门, Value: 0, ID: base-ui-_R_6q3q9iH2_
+				92 text 变速箱 空挡
+				93 变速箱挡位
+					94 container base-ui-_R_9qbq9iH1_-label
+						95 radio button Description: R 挡 R, Value: 0, ID: base-ui-_R_9qbq9i_
+						96 text R
+					97 container base-ui-_R_aqbq9iH1_-label
+						98 radio button Description: N 挡 N, Value: 1, ID: base-ui-_R_aqbq9i_
+						99 text N
+					100 container base-ui-_R_bqbq9iH1_-label
+						101 radio button Description: 1 挡 1, Value: 0, ID: base-ui-_R_bqbq9i_
+						102 text 1
+					103 container base-ui-_R_cqbq9iH1_-label
+						104 radio button Description: 2 挡 2, Value: 0, ID: base-ui-_R_cqbq9i_
+						105 text 2
+					106 container base-ui-_R_dqbq9iH1_-label
+						107 radio button Description: 3 挡 3, Value: 0, ID: base-ui-_R_dqbq9i_
+						108 text 3
+				109 text 分动箱 直接挡 · 1.00
+				110 分动箱挡位
+					111 container base-ui-_R_5qjq9iH1_-label
+						112 radio button Description: 分动箱高挡 高挡, Value: 1, ID: base-ui-_R_5qjq9i_
+						113 text 高挡
+					114 container base-ui-_R_6qjq9iH1_-label
+						115 radio button Description: 分动箱低挡 低挡, Value: 0, ID: base-ui-_R_6qjq9i_
+						116 text 低挡
+				117 button (collapsed) 检查传动转速, Secondary Actions: Expand
+					118 text 检查传动转速
+				119 text 制动
+				120 text 0 %
+				121 container Description: 制动, ID: base-ui-_R_b3q9i_
+					122 container
+						123 slider (settable, integer) 制动, Value: 0, ID: base-ui-_R_6r3q9iH2_
+				124 container base-ui-_R_bbq9iH1_-label
+					125 text 动力及启动机构慢动作 ×0.035
+					126 switch Description: 动力及启动机构慢动作 ×0.035 动力及启动机构慢动作 ×0.035, Value: 0, ID: base-ui-_R_bbq9i_
+				127 text 演示车速 0.0 km/h
+			128 container
+				129 heading 转向与悬架, Value: 2
+					130 text 转向与悬架
+				131 text 02
+				132 text 双前轴转向
+				133 text 0 °
+				134 container Description: 双前轴转向, ID: base-ui-_R_4ka9i_
+					135 container
+						136 slider (settable, integer) 双前轴转向, Value: 0, ID: base-ui-_R_3cka9iH2_
+				137 text 悬架台架激励
+				138 text 0 %
+				139 container Description: 悬架台架激励, ID: base-ui-_R_4sa9i_
+					140 container
+						141 slider (settable, integer) 悬架台架激励, Value: 0, ID: base-ui-_R_3csa9iH2_
+				142 text 模型固定在观察台上；车轮转动与地面滚动表示行驶。
+			143 container
+				144 heading 拆解与观察, Value: 2
+					145 text 拆解与观察
+				146 text 03
+				147 text 总成分离
+				148 text 0 %
+				149 container Description: 总成分离, ID: base-ui-_R_4kq9i_
+					150 container
+						151 slider (settable, integer) 总成分离, Value: 0, ID: base-ui-_R_3ckq9iH2_
+				152 text 驾驶室开门
+				153 text 0 %
+				154 container Description: 驾驶室开门, ID: base-ui-_R_4sq9i_
+					155 container
+						156 slider (settable, integer) 驾驶室开门, Value: 0, ID: base-ui-_R_3csq9iH2_
+				157 container base-ui-_R_54q9iH1_-label
+					158 text 车灯
+					159 switch Description: 车灯 车灯, Value: 0, ID: base-ui-_R_54q9i_
+				160 container base-ui-_R_5cq9iH1_-label
+					161 text 部件标签
+					162 switch Description: 部件标签 部件标签, Value: 0, ID: base-ui-_R_5cq9i_
+				163 container base-ui-_R_5kq9iH1_-label
+					164 text 网格线框
+					165 switch Description: 网格线框 网格线框, Value: 0, ID: base-ui-_R_5kq9i_
+			166 container
+				167 heading 机构演示, Value: 2
+					168 text 机构演示
+				169 button 01 V12 曲柄连杆
+					170 text 01
+					171 text V12 曲柄连杆
+				172 button 02 双前轴转向
+					173 text 02
+					174 text 双前轴转向
+				175 button 03 八轮独立悬架
+					176 text 03
+					177 text 八轮独立悬架
+			178 text 8,868 个几何实例
+			179 button 精度说明
+		180 text MAZ–543A / 双驾驶室参考底盘 运动学演示 · 部分内构简化
+		181 text 0.5 FPS
+		182 container 独立机械计算 240 Hz · 待推进 0.000 s
+			183 text 模拟时间  309.9  s
+		184 button 资料与建模边界
+
+The focused UI element is 9 button 记录接下来 12 帧
