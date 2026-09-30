@@ -1,0 +1,21 @@
+{
+  "status": "PASS_DIMENSION_REFERENCE_READBACK",
+  "source": "https://www.compancommand.com/literatura/Avtomob/Akkum_Batarei_1983.pdf",
+  "source_year": 1983,
+  "target": "12ST-70 envelope only",
+  "nominal_dimensions_m": [
+    0.587,
+    0.238,
+    0.239
+  ],
+  "actual_saved_dimensions_m": [
+    0.5870000123977661,
+    0.23800000548362732,
+    0.23899999260902405
+  ],
+  "max_numeric_error_m": 1.239776614703203e-08,
+  "blend_sha256": "83a57e3d1b2bd041f036ca77ba08f613fb726dfbd3a638fc04dab6d73670ea51",
+  "not_battery_geometry": true,
+  "not_vehicle_installation": true,
+  "whole_vehicle_gates": "16 OPEN"
+}

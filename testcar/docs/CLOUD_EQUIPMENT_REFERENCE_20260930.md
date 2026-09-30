@@ -30,3 +30,16 @@ Current source `lib/maz543.ts` openly labels the fuel geometry approximate: two 
 ## Read-only native installation views
 
 `render-equipment-installation-review.py` opened the current Master by SHA-256 and produced matching exterior and bay-cutaway views. The latter temporarily hides only its recorded bay/crown/access objects; no saved master is modified. The exterior visibly lacks a rear enclosure wall, and the cutaway exposes the sparse existing bay installation. Both show the current low, outboard simplified tanks. The retained `maz543a-5.jpg` rear-left bare-chassis photograph shows a closed, panelled rear enclosure. This establishes an exterior omission, not the hidden equipment dimensions or attachment coordinates. These are native Cycles CPU inspection renders; they are not web screenshots, photo-calibrated views, or visual acceptance.
+
+## Dimensioned battery reference and bracket-interface evidence
+
+The [1983 USSR Ministry of Defence starter-battery guide](https://www.compancommand.com/literatura/Avtomob/Akkum_Batarei_1983.pdf), table 1 on PDF page 5, was actually viewed. Its 12СТ-70 row gives length 587 mm, width 238 mm, height 239 mm, 24 V and 70 Ah at the 10-hour rate. This is a later official-guide dimensional source, not a dimensioned 1977 MAZ installation drawing. The generic battery figure on PDF page 8 is not identified as a 12СТ-70 manufacturing drawing.
+
+`outputs/cloud-battery-dimension-reference-20260930/12ST70_dimension_reference.blend` contains one explicitly labelled, wire-display, render-hidden **outer-envelope reference**. It is not a battery-shaped component and is not inserted into the vehicle. Native save/reopen verified 587×238×239 mm within 1.24e-8 m numerical error. Terminals, cover edges, mounting holes, clearances, box size and vehicle orientation remain unknown. No manufacturing tolerance is invented.
+
+Additional catalogue images inspected:
+
+- [543A wing assembly 84.5](https://1sonar.ru/acat/data/maz/543/84.5.gif): tie member #1 543A-8404225-12, brackets #2/#16 543A-8404221-Б / 543A-8404220-Б and isolator #17 543A-8404294 are distinct support elements.
+- [543A guard framework 84.8](https://1sonar.ru/acat/data/maz/543/84.8.gif): bows #1/#91/#15/#87 have distinct part numbers, but the list does not establish which is front/rear. Pad #93 543-8408248-А also occurs in FVU and battery installation drawings, supporting interface-type tracing rather than positional proof.
+
+The fuel drawing identifies two front brackets 543A-1101760-10 and pins 378013 (20×80), but does not yet identify the third installed mounting point or map the first two to vehicle holes. These remaining gaps must not be replaced by guessed bracket coordinates. Raw scans, images, attribution and SHA-256 remain in the local reference workspace; source-image copyright is not reassigned.
