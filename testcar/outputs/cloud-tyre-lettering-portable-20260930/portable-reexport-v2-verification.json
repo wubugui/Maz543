@@ -106,12 +106,26 @@
     "conditions": "Current assembled rigid meshes, fixed longitudinal axle positions, zero rear steering, arbitrary wheel spin/camber and transverse/vertical suspension motion. Excludes deformation, axle fore/aft flex, other parts and actual browser-runtime validation."
   },
   "glyphMeshes": 144,
+  "glyphParentBindingsVerified": 144,
+  "glyphsPerWheel": [
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18
+  ],
   "maxNativeAssetDeviationM": 0.0000014994125137664242,
   "gltfErrors": 0,
   "gltfWarnings": 0,
   "parts": [
     {
       "name": "BL_Tyre_0_emboss_0",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -119,6 +133,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_1",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 732,
       "nativeVertices": 156,
       "triangles": 308,
@@ -126,6 +143,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_10",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 1406,
       "nativeVertices": 294,
       "triangles": 584,
@@ -133,6 +153,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_11",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 702,
       "nativeVertices": 156,
       "triangles": 308,
@@ -140,6 +163,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_14",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 46,
       "nativeVertices": 14,
       "triangles": 24,
@@ -147,6 +173,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_15",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -154,6 +183,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_16",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -161,6 +193,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_17",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 798,
       "nativeVertices": 178,
       "triangles": 352,
@@ -168,6 +203,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_18",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 840,
       "nativeVertices": 192,
       "triangles": 384,
@@ -175,6 +213,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_19",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 1362,
       "nativeVertices": 294,
       "triangles": 584,
@@ -182,6 +223,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_2",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 880,
       "nativeVertices": 192,
       "triangles": 384,
@@ -189,6 +233,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_3",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 870,
       "nativeVertices": 192,
       "triangles": 384,
@@ -196,6 +243,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_4",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 96,
       "nativeVertices": 24,
       "triangles": 44,
@@ -203,6 +253,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_5",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 1120,
       "nativeVertices": 242,
       "triangles": 484,
@@ -210,6 +263,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_6",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 852,
       "nativeVertices": 192,
       "triangles": 384,
@@ -217,6 +273,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_7",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 848,
       "nativeVertices": 192,
       "triangles": 384,
@@ -224,6 +283,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_8",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -231,6 +293,9 @@
     },
     {
       "name": "BL_Tyre_0_emboss_9",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
       "decodedVertices": 1114,
       "nativeVertices": 242,
       "triangles": 484,
@@ -238,6 +303,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_0",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -245,6 +313,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_1",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 716,
       "nativeVertices": 156,
       "triangles": 308,
@@ -252,6 +323,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_10",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 1368,
       "nativeVertices": 294,
       "triangles": 584,
@@ -259,6 +333,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_11",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 720,
       "nativeVertices": 156,
       "triangles": 308,
@@ -266,6 +343,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_14",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 50,
       "nativeVertices": 14,
       "triangles": 24,
@@ -273,6 +353,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_15",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 28,
       "nativeVertices": 8,
       "triangles": 12,
@@ -280,6 +363,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_16",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -287,6 +373,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_17",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 810,
       "nativeVertices": 178,
       "triangles": 352,
@@ -294,6 +383,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_18",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 834,
       "nativeVertices": 192,
       "triangles": 384,
@@ -301,6 +393,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_19",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 1430,
       "nativeVertices": 294,
       "triangles": 584,
@@ -308,6 +403,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_2",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 858,
       "nativeVertices": 192,
       "triangles": 384,
@@ -315,6 +413,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_3",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 840,
       "nativeVertices": 192,
       "triangles": 384,
@@ -322,6 +423,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_4",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 72,
       "nativeVertices": 24,
       "triangles": 44,
@@ -329,6 +433,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_5",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 1126,
       "nativeVertices": 242,
       "triangles": 484,
@@ -336,6 +443,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_6",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 816,
       "nativeVertices": 192,
       "triangles": 384,
@@ -343,6 +453,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_7",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 814,
       "nativeVertices": 192,
       "triangles": 384,
@@ -350,6 +463,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_8",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -357,6 +473,9 @@
     },
     {
       "name": "BL_Tyre_1_emboss_9",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
       "decodedVertices": 1126,
       "nativeVertices": 242,
       "triangles": 484,
@@ -364,6 +483,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_0",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -371,6 +493,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_1",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 732,
       "nativeVertices": 156,
       "triangles": 308,
@@ -378,6 +503,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_10",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 1380,
       "nativeVertices": 294,
       "triangles": 584,
@@ -385,6 +513,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_11",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 700,
       "nativeVertices": 156,
       "triangles": 308,
@@ -392,6 +523,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_14",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 46,
       "nativeVertices": 14,
       "triangles": 24,
@@ -399,6 +533,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_15",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -406,6 +543,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_16",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -413,6 +553,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_17",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 796,
       "nativeVertices": 178,
       "triangles": 352,
@@ -420,6 +563,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_18",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 828,
       "nativeVertices": 192,
       "triangles": 384,
@@ -427,6 +573,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_19",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 1356,
       "nativeVertices": 294,
       "triangles": 584,
@@ -434,6 +583,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_2",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 880,
       "nativeVertices": 192,
       "triangles": 384,
@@ -441,6 +593,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_3",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 872,
       "nativeVertices": 192,
       "triangles": 384,
@@ -448,6 +603,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_4",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 88,
       "nativeVertices": 24,
       "triangles": 44,
@@ -455,6 +613,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_5",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 1114,
       "nativeVertices": 242,
       "triangles": 484,
@@ -462,6 +623,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_6",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 862,
       "nativeVertices": 192,
       "triangles": 384,
@@ -469,6 +633,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_7",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 834,
       "nativeVertices": 192,
       "triangles": 384,
@@ -476,6 +643,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_8",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -483,6 +653,9 @@
     },
     {
       "name": "BL_Tyre_2_emboss_9",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
       "decodedVertices": 1118,
       "nativeVertices": 242,
       "triangles": 484,
@@ -490,6 +663,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_0",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -497,6 +673,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_1",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 696,
       "nativeVertices": 156,
       "triangles": 308,
@@ -504,6 +683,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_10",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 1374,
       "nativeVertices": 294,
       "triangles": 584,
@@ -511,6 +693,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_11",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 720,
       "nativeVertices": 156,
       "triangles": 308,
@@ -518,6 +703,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_14",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 50,
       "nativeVertices": 14,
       "triangles": 24,
@@ -525,6 +713,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_15",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 28,
       "nativeVertices": 8,
       "triangles": 12,
@@ -532,6 +723,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_16",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -539,6 +733,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_17",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 814,
       "nativeVertices": 178,
       "triangles": 352,
@@ -546,6 +743,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_18",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 832,
       "nativeVertices": 192,
       "triangles": 384,
@@ -553,6 +753,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_19",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 1430,
       "nativeVertices": 294,
       "triangles": 584,
@@ -560,6 +763,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_2",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 852,
       "nativeVertices": 192,
       "triangles": 384,
@@ -567,6 +773,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_3",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 844,
       "nativeVertices": 192,
       "triangles": 384,
@@ -574,6 +783,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_4",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 72,
       "nativeVertices": 24,
       "triangles": 44,
@@ -581,6 +793,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_5",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 1114,
       "nativeVertices": 242,
       "triangles": 484,
@@ -588,6 +803,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_6",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 828,
       "nativeVertices": 192,
       "triangles": 384,
@@ -595,6 +813,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_7",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 802,
       "nativeVertices": 192,
       "triangles": 384,
@@ -602,6 +823,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_8",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -609,6 +833,9 @@
     },
     {
       "name": "BL_Tyre_3_emboss_9",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
       "decodedVertices": 1122,
       "nativeVertices": 242,
       "triangles": 484,
@@ -616,6 +843,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_0",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -623,6 +853,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_1",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 732,
       "nativeVertices": 156,
       "triangles": 308,
@@ -630,6 +863,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_10",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 1374,
       "nativeVertices": 294,
       "triangles": 584,
@@ -637,6 +873,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_11",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 696,
       "nativeVertices": 156,
       "triangles": 308,
@@ -644,6 +883,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_14",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 46,
       "nativeVertices": 14,
       "triangles": 24,
@@ -651,6 +893,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_15",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -658,6 +903,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_16",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -665,6 +913,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_17",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 800,
       "nativeVertices": 178,
       "triangles": 352,
@@ -672,6 +923,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_18",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 840,
       "nativeVertices": 192,
       "triangles": 384,
@@ -679,6 +933,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_19",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 1364,
       "nativeVertices": 294,
       "triangles": 584,
@@ -686,6 +943,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_2",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 876,
       "nativeVertices": 192,
       "triangles": 384,
@@ -693,6 +953,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_3",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 856,
       "nativeVertices": 192,
       "triangles": 384,
@@ -700,6 +963,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_4",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 96,
       "nativeVertices": 24,
       "triangles": 44,
@@ -707,6 +973,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_5",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 1126,
       "nativeVertices": 242,
       "triangles": 484,
@@ -714,6 +983,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_6",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 848,
       "nativeVertices": 192,
       "triangles": 384,
@@ -721,6 +993,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_7",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 832,
       "nativeVertices": 192,
       "triangles": 384,
@@ -728,6 +1003,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_8",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -735,6 +1013,9 @@
     },
     {
       "name": "BL_Tyre_4_emboss_9",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
       "decodedVertices": 1102,
       "nativeVertices": 242,
       "triangles": 484,
@@ -742,6 +1023,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_0",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -749,6 +1033,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_1",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 718,
       "nativeVertices": 156,
       "triangles": 308,
@@ -756,6 +1043,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_10",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 1378,
       "nativeVertices": 294,
       "triangles": 584,
@@ -763,6 +1053,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_11",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 722,
       "nativeVertices": 156,
       "triangles": 308,
@@ -770,6 +1063,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_14",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 50,
       "nativeVertices": 14,
       "triangles": 24,
@@ -777,6 +1073,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_15",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 28,
       "nativeVertices": 8,
       "triangles": 12,
@@ -784,6 +1083,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_16",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -791,6 +1093,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_17",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 810,
       "nativeVertices": 178,
       "triangles": 352,
@@ -798,6 +1103,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_18",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 832,
       "nativeVertices": 192,
       "triangles": 384,
@@ -805,6 +1113,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_19",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 1430,
       "nativeVertices": 294,
       "triangles": 584,
@@ -812,6 +1123,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_2",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 864,
       "nativeVertices": 192,
       "triangles": 384,
@@ -819,6 +1133,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_3",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 844,
       "nativeVertices": 192,
       "triangles": 384,
@@ -826,6 +1143,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_4",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 72,
       "nativeVertices": 24,
       "triangles": 44,
@@ -833,6 +1153,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_5",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 1122,
       "nativeVertices": 242,
       "triangles": 484,
@@ -840,6 +1163,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_6",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 820,
       "nativeVertices": 192,
       "triangles": 384,
@@ -847,6 +1173,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_7",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 816,
       "nativeVertices": 192,
       "triangles": 384,
@@ -854,6 +1183,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_8",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -861,6 +1193,9 @@
     },
     {
       "name": "BL_Tyre_5_emboss_9",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
       "decodedVertices": 1122,
       "nativeVertices": 242,
       "triangles": 484,
@@ -868,6 +1203,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_0",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 28,
       "nativeVertices": 8,
       "triangles": 12,
@@ -875,6 +1213,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_1",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 724,
       "nativeVertices": 156,
       "triangles": 308,
@@ -882,6 +1223,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_10",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 1372,
       "nativeVertices": 294,
       "triangles": 584,
@@ -889,6 +1233,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_11",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 710,
       "nativeVertices": 156,
       "triangles": 308,
@@ -896,6 +1243,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_14",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 54,
       "nativeVertices": 14,
       "triangles": 24,
@@ -903,6 +1253,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_15",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -910,6 +1263,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_16",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -917,6 +1273,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_17",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 790,
       "nativeVertices": 178,
       "triangles": 352,
@@ -924,6 +1283,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_18",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 816,
       "nativeVertices": 192,
       "triangles": 384,
@@ -931,6 +1293,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_19",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 1348,
       "nativeVertices": 294,
       "triangles": 584,
@@ -938,6 +1303,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_2",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 892,
       "nativeVertices": 192,
       "triangles": 384,
@@ -945,6 +1313,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_3",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 888,
       "nativeVertices": 192,
       "triangles": 384,
@@ -952,6 +1323,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_4",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 88,
       "nativeVertices": 24,
       "triangles": 44,
@@ -959,6 +1333,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_5",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 1114,
       "nativeVertices": 242,
       "triangles": 484,
@@ -966,6 +1343,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_6",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 856,
       "nativeVertices": 192,
       "triangles": 384,
@@ -973,6 +1353,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_7",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 852,
       "nativeVertices": 192,
       "triangles": 384,
@@ -980,6 +1363,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_8",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -987,6 +1373,9 @@
     },
     {
       "name": "BL_Tyre_6_emboss_9",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
       "decodedVertices": 1110,
       "nativeVertices": 242,
       "triangles": 484,
@@ -994,6 +1383,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_0",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -1001,6 +1393,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_1",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 692,
       "nativeVertices": 156,
       "triangles": 308,
@@ -1008,6 +1403,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_10",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 1382,
       "nativeVertices": 294,
       "triangles": 584,
@@ -1015,6 +1413,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_11",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 718,
       "nativeVertices": 156,
       "triangles": 308,
@@ -1022,6 +1423,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_14",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 50,
       "nativeVertices": 14,
       "triangles": 24,
@@ -1029,6 +1433,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_15",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 28,
       "nativeVertices": 8,
       "triangles": 12,
@@ -1036,6 +1443,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_16",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -1043,6 +1453,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_17",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 834,
       "nativeVertices": 178,
       "triangles": 352,
@@ -1050,6 +1463,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_18",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 840,
       "nativeVertices": 192,
       "triangles": 384,
@@ -1057,6 +1473,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_19",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 1418,
       "nativeVertices": 294,
       "triangles": 584,
@@ -1064,6 +1483,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_2",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 816,
       "nativeVertices": 192,
       "triangles": 384,
@@ -1071,6 +1493,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_3",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 852,
       "nativeVertices": 192,
       "triangles": 384,
@@ -1078,6 +1503,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_4",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 72,
       "nativeVertices": 24,
       "triangles": 44,
@@ -1085,6 +1513,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_5",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 1106,
       "nativeVertices": 242,
       "triangles": 484,
@@ -1092,6 +1523,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_6",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 804,
       "nativeVertices": 192,
       "triangles": 384,
@@ -1099,6 +1533,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_7",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 858,
       "nativeVertices": 192,
       "triangles": 384,
@@ -1106,6 +1543,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_8",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 24,
       "nativeVertices": 8,
       "triangles": 12,
@@ -1113,6 +1553,9 @@
     },
     {
       "name": "BL_Tyre_7_emboss_9",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
       "decodedVertices": 1090,
       "nativeVertices": 242,
       "triangles": 484,

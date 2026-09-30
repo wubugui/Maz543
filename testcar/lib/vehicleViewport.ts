@@ -1,5 +1,5 @@
 import * as T from 'three';
-import {selectReviewVehicleAsset} from '@/lib/reviewVehicleAsset';
+import {selectReviewVehicleAsset,reviewCandidateMetadata} from '@/lib/reviewVehicleAsset';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -131,7 +131,7 @@ export function createVehicleViewport({host,latest,selection,callbacks,api,simul
       if(disposed)return;
       draco.dispose(); // All seven native decodes finished; release idle workers.
       renderedRoot=(gltf.scene.getObjectByName('MAZ543_REFERENCE_CHASSIS')||gltf.scene) as T.Group;
-      if(reviewAsset.kind!=='production')renderedRoot.userData.reviewCandidate={id:reviewAsset.kind,sourceSHA256:reviewAsset.sha256,status:'UNACCEPTED_CANDIDATE'};
+      if(reviewAsset.kind!=='production')renderedRoot.userData.reviewCandidate=reviewCandidateMetadata(reviewAsset);
       driveHolder=renderedRoot.getObjectByName('drive');
       if(!driveHolder)throw new Error('Missing transmission mounting assembly');
       for(const name of ['drive_0002','drive_pivot_002','drive_pivot_007','drive_pivot_012']){

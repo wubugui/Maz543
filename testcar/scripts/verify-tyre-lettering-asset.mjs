@@ -31,6 +31,8 @@ for(const old of before.j.nodes){
 }
 assert.deepEqual(new Set(after.j.nodes.filter(n=>!before.j.nodes.some(o=>o.name===n.name)).map(n=>n.name)),newNames);
 const parent=new Map();after.j.nodes.forEach((n,i)=>(n.children??[]).forEach(c=>parent.set(c,i)));
+const originalIndex=new Map(before.j.nodes.map((n,i)=>[n.name,i])),originalParent=new Map();before.j.nodes.forEach((n,i)=>(n.children??[]).forEach(c=>originalParent.set(c,i)));
+const glyphCounts=Array(8).fill(0);
 const world=new Map();function matrix(i){if(world.has(i))return world.get(i);const n=after.j.nodes[i],m=n.matrix?new T.Matrix4().fromArray(n.matrix):new T.Matrix4().compose(new T.Vector3(...(n.translation??[0,0,0])),new T.Quaternion(...(n.rotation??[0,0,0,1])),new T.Vector3(...(n.scale??[1,1,1])));if(parent.has(i))m.premultiply(matrix(parent.get(i)));world.set(i,m);return m;}
 function decode(primitive){
  const e=primitive.extensions.KHR_draco_mesh_compression,bytes=view(after,e.bufferView),decoder=new draco.Decoder(),mesh=new draco.Mesh(),buffer=new draco.DecoderBuffer();buffer.Init(bytes,bytes.length);
@@ -42,12 +44,18 @@ function decode(primitive){
 function deviation(a,b){let max=0;for(const p of a){let best=Infinity;for(const q of b)best=Math.min(best,p.distanceToSquared(q));max=Math.max(max,best);}return Math.sqrt(max);}
 const rows=[];
 for(const r of reference.parts){
- const i=index.get(r.name);assert.ok(i!==undefined,r.name);const n=after.j.nodes[i];let triangles=0;const points=[];
+ const i=index.get(r.name);assert.ok(i!==undefined,r.name);const n=after.j.nodes[i];
+ const match=/^BL_Tyre_(\d+)_emboss_(\d+)$/.exec(r.name);assert.ok(match,r.name);const tyre=Number(match[1]);assert.ok(tyre>=0&&tyre<8);glyphCounts[tyre]++;
+ const spinName='wheels_pivot_'+String(2+7*tyre).padStart(3,'0'),carrierName='wheels_pivot_'+String(1+7*tyre).padStart(3,'0'),rubberName='BL_Merged_'+spinName+'_Tyre_rubber';
+ const spin=index.get(spinName),carrier=index.get(carrierName);assert.equal(parent.get(i),spin,r.name+' actual spin parent');assert.equal(parent.get(spin),carrier,r.name+' carrier parent');assert.equal(after.j.nodes[parent.get(carrier)]?.name,'wheels');assert.equal(n.extras?.tyreIndex,tyre);
+ assert.equal(parent.get(index.get(rubberName)),spin,'Glyph and existing rubber must share a spin');assert.ok(originalIndex.has(spinName)&&originalIndex.has(rubberName));assert.equal(before.j.nodes[originalParent.get(originalIndex.get(rubberName))]?.name,spinName,'Production spin identity');
+ let triangles=0;const points=[];
  for(const p of after.j.meshes[n.mesh].primitives){const d=decode(p);triangles+=d.triangles;points.push(...d.points.map(v=>v.applyMatrix4(matrix(i))));}
  assert.equal(triangles,r.triangles,r.name+' triangle count');
  const expected=[];for(let k=0;k<r.vertices;k++){const off=r.byteOffset+k*12;expected.push(new T.Vector3(refBytes.readFloatLE(off),refBytes.readFloatLE(off+4),refBytes.readFloatLE(off+8)));}
- const error=Math.max(deviation(points,expected),deviation(expected,points));assert.ok(error<2e-5,r.name+' asset/source vertex mismatch '+error);rows.push({name:r.name,decodedVertices:points.length,nativeVertices:r.vertices,triangles,maxWorldVertexDeviationM:error});
+ const error=Math.max(deviation(points,expected),deviation(expected,points));assert.ok(error<2e-5,r.name+' asset/source vertex mismatch '+error);rows.push({name:r.name,spinParent:spinName,carrierParent:carrierName,tyreIndex:tyre,decodedVertices:points.length,nativeVertices:r.vertices,triangles,maxWorldVertexDeviationM:error});
 }
+assert.deepEqual(glyphCounts,Array(8).fill(18),'Exactly eighteen glyphs per original wheel spin');
 // A separate, conservative longitudinal separating-plane test on decoded bytes.
 // This is conditional on the reviewed fixed-X, zero-rear-steering motion contract.
 function descendants(i){return [i,...(after.j.nodes[i].children??[]).flatMap(descendants)];}
@@ -73,6 +81,6 @@ assert.equal(rearEnvelopes.length,12);
 const envelopePairs=rearEnvelopes.flatMap(part=>wheelEnvelopes.map(w=>({part:part.name,wheel:w.wheel,gapM:Math.max(part.minX-w.maxX,w.minX-part.maxX)-.00004})));
 const longitudinalEnvelope={status:envelopePairs.every(p=>p.gapM>0)?'PASS_CONDITIONAL_SEPARATION':'INCONCLUSIVE',minimumGapM:Math.min(...envelopePairs.map(p=>p.gapM)),wheelEnvelopes,rearEnvelopes,conditions:'Current assembled rigid meshes, fixed longitudinal axle positions, zero rear steering, arbitrary wheel spin/camber and transverse/vertical suspension motion. Excludes deformation, axle fore/aft flex, other parts and actual browser-runtime validation.'};
 const validated=await validateBytes(new Uint8Array(after.bytes),{uri:'maz543a-blender-candidate.glb'});assert.equal(validated.issues.numErrors,0);assert.equal(validated.issues.numWarnings,0);
-const report={status:'PASS_SCOPED_ASSET_CHECKS',sha256:digest(after.bytes),bytes:after.bytes.length,unchangedCompressedMeshNodes:unchanged,unchangedEmbeddedTextures:after.j.images.length,longitudinalEnvelope,glyphMeshes:rows.length,maxNativeAssetDeviationM:Math.max(...rows.map(r=>r.maxWorldVertexDeviationM)),gltfErrors:validated.issues.numErrors,gltfWarnings:validated.issues.numWarnings,parts:rows,limits:'Decoded asset under standard glTF world matrices, not an actual browser-render/runtime test. No factory geometry, typography, physical load or whole-vehicle acceptance.'};
+const report={status:'PASS_SCOPED_ASSET_CHECKS',sha256:digest(after.bytes),bytes:after.bytes.length,unchangedCompressedMeshNodes:unchanged,unchangedEmbeddedTextures:after.j.images.length,longitudinalEnvelope,glyphMeshes:rows.length,glyphParentBindingsVerified:rows.length,glyphsPerWheel:glyphCounts,maxNativeAssetDeviationM:Math.max(...rows.map(r=>r.maxWorldVertexDeviationM)),gltfErrors:validated.issues.numErrors,gltfWarnings:validated.issues.numWarnings,parts:rows,limits:'Decoded asset under standard glTF world matrices, not an actual browser-render/runtime test. No factory geometry, typography, physical load or whole-vehicle acceptance.'};
 const reportPath=process.env.MAZ_REPORT_PATH??'work/cloud-tyre-audit/asset-verification.json';
 await fs.writeFile(reportPath,JSON.stringify(report,null,2));console.log(JSON.stringify({...report,parts:undefined},null,2));

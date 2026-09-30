@@ -15,3 +15,7 @@ export function selectReviewVehicleAsset(search:string,development:boolean):Read
   exportFilename:'MAZ543-CANDIDATE-tyre-v2-current-pose.glb',
   notice:'候选审查：轮胎字样 v2｜未替换生产模型；网页、写实及整车验收仍未通过。'};
 }
+
+export function reviewCandidateMetadata(asset:Readonly<ReviewVehicleAsset>){
+ return asset.kind==='production'?undefined:{id:asset.kind,sourceSHA256:asset.sha256,status:'UNACCEPTED_CANDIDATE'};
+}
