@@ -1,0 +1,62 @@
+{
+  "before": {
+    "source": "testcar/scripts/blender-model.py",
+    "checks": [
+      {
+        "kind": "FONT",
+        "parent_by_name": false,
+        "world_matrix_max_abs_error": 0.9117597043514252
+      },
+      {
+        "kind": "FONT",
+        "parent_by_name": true,
+        "world_matrix_max_abs_error": 2.680000066757202
+      },
+      {
+        "kind": "MESH",
+        "parent_by_name": false,
+        "world_matrix_max_abs_error": 2.680000066757202
+      },
+      {
+        "kind": "CURVE",
+        "parent_by_name": true,
+        "world_matrix_max_abs_error": 2.680000066757202
+      }
+    ],
+    "threshold": 2e-06,
+    "passed": false,
+    "scope": "Disposable native objects; actual helper AST only; no full generator run or vehicle acceptance."
+  },
+  "after": {
+    "source": "testcar/scripts/blender-model.py",
+    "checks": [
+      {
+        "kind": "FONT",
+        "parent_by_name": false,
+        "world_matrix_max_abs_error": 2.384185791015625e-07
+      },
+      {
+        "kind": "FONT",
+        "parent_by_name": true,
+        "world_matrix_max_abs_error": 2.384185791015625e-07
+      },
+      {
+        "kind": "MESH",
+        "parent_by_name": false,
+        "world_matrix_max_abs_error": 2.384185791015625e-07
+      },
+      {
+        "kind": "CURVE",
+        "parent_by_name": true,
+        "world_matrix_max_abs_error": 2.384185791015625e-07
+      }
+    ],
+    "threshold": 2e-06,
+    "passed": true,
+    "scope": "Disposable native objects; actual helper AST only; no full generator run or vehicle acceptance."
+  },
+  "before_source_sha256": "7168f749b683b26b207efca803d81cb6dd341f4b5e9bccdf25ab5a3c55786278",
+  "after_source_sha256": "847f8849c6f2c258abfbed88449a2e59d7613fbf0fdabb3c7cdcf4bb0decf6e5",
+  "blender_version": "4.5.13",
+  "production_masters_opened_or_rebuilt": false
+}

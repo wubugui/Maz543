@@ -20,7 +20,10 @@ def C(p): return Vector((p[0],-p[2],p[1]))
 def to3(p): return (p.x,p.z,-p.y)
 def parent_keep(obj,parent):
     if isinstance(parent,str): parent=bpy.data.objects[parent]
+    # Refresh RNA transforms before capturing world space (especially new fonts).
+    bpy.context.view_layer.update()
     world=obj.matrix_world.copy();obj.parent=parent;obj.matrix_world=world
+    bpy.context.view_layer.update()
     return obj
 def clear_children(obj):
     for child in list(obj.children):

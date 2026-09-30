@@ -36,3 +36,7 @@ Starting, cooling, transmission and the 240 Hz mechanical-timeline checks ran su
 ## Next
 
 Verify the actual candidate in an approved browser preview before promotion. Reconcile real hood hinge/latch/pressed-panel construction using the newly available migration references and the documented 543A catalogue; continue asymmetric equipment and fuel installation work without inventing unverified components.
+
+## Preventing the original parenting regression
+
+The retained legacy `blender-model.py` helper has now been narrowly repaired to update the dependency graph before capturing `matrix_world` and after reparenting. `verify-parent-keep-regression.py` extracts and executes that exact helper definition from its AST, without running the old full-vehicle generation script. Four disposable native FONT/MESH/CURVE cases reproduce the old failure (maximum matrix-element error 2.68) and pass after the repair (maximum 2.3842e-7, tolerance 2e-6). Both failed-before and passed-after results and source hashes are retained. This is a generator regression fix, not permission to regenerate or replace the current production masters.
