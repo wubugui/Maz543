@@ -1,0 +1,15 @@
+Browser tab: 9, Title: "MAZ–543A · 机械解构", URL: "http://localhost:3000/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 190-191, 194
++			403 image MAZ-543 三维模型：拖动旋转，滚轮缩放，点击选择部件
+~					241 text 已释放  · 活塞行程  0.00  mm
+~						245 text 主油路  11.73  kgf/cm² ·  已释放
+~						247 text 当前盘组  0.00  kgf/cm² · 行程  0.00  mm
+~						251 text 盘间滑差  -294.0  RPM
+~				256 text 齿数由原车速比推导；压力、活塞与两自由度传动已联动。尺寸、摩擦与惯量仍待标定；变矩器暂用被动滑差近似，尚未复现原车单涡轮、双导轮特性、降挡限位及锁止控制。
+~				283 text 549
+~					292 text 8.07  kgf/cm²
+~					349 text 0.0 km/h
++			404 container ANGLE (NVIDIA, NVIDIA GeForce GTX 970 (0x000013C2) Direct3D11 vs_5_0 ps_5_0, D3D11) · 112 draws · 223,301 triangles · GPU 4.54 ms
++				405 text 137  FPS
+The focused UI element is 232 checkbox 暂停并检查 空挡, Value: 0

@@ -1,0 +1,24 @@
+{
+  "parts": 68,
+  "fit": {
+    "innerRadius": 0.056,
+    "rollerRadius": 0.006,
+    "boreRadius": 0.031,
+    "outerRadius": 0.084,
+    "rollerCount": 12,
+    "wedgeAngle": 0.12217304763960307,
+    "releaseAngle": -0.05235987755982988,
+    "rowX": [
+      -0.014,
+      0.014
+    ],
+    "raceWidth": 0.019,
+    "rollerLength": 0.016,
+    "springWireRadius": 0.000175,
+    "springRadius": 0.0012,
+    "springTurns": 5,
+    "springBaseZ": -0.014
+  },
+  "sourceImage": "000-0687.jpg",
+  "limits": "Discrete locked/released geometric inspection states, not continuous running animation. No reactor fluid torque, roller friction/contact dynamics, strength or factory geometry acceptance.\nTwo separate outer races on one fixed inner race per original figs.42/43. Roller count 12 per row, all dimensions and 7-degree wedge are fitted. Spring endpoints preserve ideal helix centreline length; the two states use constant interpolation because interpolating endpoint meshes would not produce physical spring motion. Actual wire skin is seated with 1-micrometre numerical separation from the roller. This component is not yet installed in the vehicle or browser.\n"
+}

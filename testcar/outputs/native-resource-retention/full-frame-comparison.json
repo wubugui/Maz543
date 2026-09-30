@@ -1,0 +1,18 @@
+{
+  "equal": {
+    "width": true,
+    "height": true,
+    "pixelRatio": true,
+    "meshes": true,
+    "draws": true,
+    "triangles": true,
+    "view": true,
+    "ao": true,
+    "sceneInputSha256": true,
+    "noiseSha256": true,
+    "pixelSha256": true,
+    "drawSequenceSha256": true
+  },
+  "baseline": "restoration/context-draw-order-20260909/outputs/context-draw-order/main-canonical-side-trace.json",
+  "limits": "One complete identical-input fixed-sort side pose; not all motion/production contexts or steady-state performance. Source ordering remains audit-only."
+}

@@ -1,0 +1,52 @@
+Browser tab: 2, Title: "MAZ–543A · 机械解构", URL: "http://localhost:3000/converter".
+1 AXWebArea MAZ–543A · 机械解构, URL: localhost:3000/converter
+	2 container
+		3 link Description: ← 整车工作台, Value: localhost:3000/
+		4 link Description: 弯带接触研究 →, Value: localhost:3000/strip-spring
+		5 container 变矩器总成检查
+			6 container
+				7 heading 变矩器内部总成, Value: 1
+					8 text 变矩器内部总成
+				9 text 一个泵轮 · 一个涡轮 · 两个导轮
+			10 image 四工作轮变矩器内部总成三维检查
+			12 container
+				13 text 拖动旋转 · 滚轮缩放
+				14 button 复位视角
+		15 heading 装配结构检查, Value: 2
+			16 text 装配结构检查
+		17 text 重建中
+		18 text 依据手册图 42 和零件目录重建的 180 个实体。这里检查装配与转动关系；完整液力工作过程仍在开发。
+		19 container
+			20 text 查看总成
+			21 pop up button (collapsed, settable) Description: 查看总成, Value: 全部总成, Secondary Actions: Expand
+				22 menu
+					23 (disabled) 全部总成
+					24 (disabled) 泵轮与输入侧
+					25 (disabled) 涡轮与输出侧
+					26 (disabled) 前导轮与单向离合器
+					27 (disabled) 后导轮与单向离合器
+					28 (disabled) 固定内圈与支承
+		29 text 泵轮、涡轮和两只独立导轮构成工作轮组。两只导轮各有单向离合器，共用一个固定内圈。
+		30 container
+			31 text 轴向拆开
+			32 container 轴向拆开 0.65
+				33 text 65 %
+			34 slider (settable, float) Description: 轴向拆开, Value: 0.6499999761581421, Details: 0.65
+		35 checkbox (settable, integer) Description: 显示流道壁与芯环, Value: 0
+		36 checkbox (settable, integer) Description: 显示旋转外罩, Value: 0
+		37 checkbox (settable, integer) Description: 显示导轮保持环, Value: 0
+		38 checkbox (settable, integer) Description: 半剖查看, Value: 0
+		39 container
+			40 text 泵轮侧装配转角
+			41 container 泵轮侧装配转角 0
+				42 text 0 °
+			43 slider (settable, integer) Description: 泵轮侧装配转角, Value: 0
+		44 container
+			45 text 涡轮侧装配转角
+			46 container 涡轮侧装配转角 0
+				47 text 0 °
+			48 slider (settable, integer) Description: 涡轮侧装配转角, Value: 0
+		49 text 转角用于检查轴、轮毂和盘片的装配层级，不代表油流驱动。导轮越程、闭锁接合和变矩特性尚未接入本总成。
+		50 text 叶片数、型线、流道和安装尺寸为重建参数，尚非原厂数据。滚柱采用目录尺寸线索 12.5 × 22 mm；弯带为拟合初始平衡，真实固定座、材料及强度仍待核实。
+
+The focused UI element is 14 button 复位视角

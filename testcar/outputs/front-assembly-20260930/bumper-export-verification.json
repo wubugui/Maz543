@@ -1,0 +1,25 @@
+{
+  "status": "PASS for declared scope only",
+  "source": "work/front-bumper-refinement-20260930/cover-mirror-baseline.glb",
+  "result": "work/front-bumper-refinement-20260930/maz543a-preserved.glb",
+  "preservedMeshNodes": 239,
+  "changedMeshes": [
+    "frame_0002"
+  ],
+  "newNodes": [
+    "BL_Front_box_bumper",
+    "BL_Front_hook_mount",
+    "BL_Front_lower_shield",
+    "BL_Front_single_recovery_hook"
+  ],
+  "removedNodes": [
+    "BL_Merged_frame_OD_green_aged_enamel",
+    "BL_Merged_frame_Phosphated_steel",
+    "frame_0001"
+  ],
+  "unchangedTransformsAndParents": true,
+  "embeddedTexturesUnchanged": true,
+  "effectiveTriangles": 1479704,
+  "fullVehicleAcceptance": "16 OPEN",
+  "limits": "Changed surfaces require separate native geometry/clearance, browser and photographic verification; this does not certify factory dimensions or FPS."
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "Export-only native triangulation of the two changed baked cab surfaces",
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "nativeTriangulateModifiersAdded": [],
+      "limits": "No tangent removal or normal-map disable; editable master Boolean retained"
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "nativeTriangulateModifiersAdded": [
+        "BL_Merged_cab_pivot_001_OD_green_aged_enamel",
+        "BL_Merged_cab_pivot_005_OD_green_aged_enamel"
+      ],
+      "limits": "No tangent removal or normal-map disable; editable master Boolean retained"
+    }
+  ]
+}

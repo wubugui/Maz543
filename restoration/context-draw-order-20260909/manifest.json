@@ -1,0 +1,160 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "count": 30,
+  "bytes": 10828124,
+  "files": [
+    {
+      "file": "AGENT_START_HERE.md",
+      "bytes": 26704,
+      "sha256": "dd5a41c4506aa2fabe79d8dcdad706f83cf1698c4ada81cae815916de13bb398"
+    },
+    {
+      "file": "NEXT_AGENT_PROMPT.md",
+      "bytes": 19106,
+      "sha256": "fe537eb559a53720269342415c30d53e845a00b2e5d285c5c75d8614635ad776"
+    },
+    {
+      "file": "docs/ACCEPTANCE.md",
+      "bytes": 31926,
+      "sha256": "1cbdb18052ee859fb9e49cab53154a4d6683e140c5f54b572bf2902b2c1c1e88"
+    },
+    {
+      "file": "docs/CONTEXT_DRAW_ORDER_20260909.md",
+      "bytes": 4633,
+      "sha256": "dba2cce00b894ee60ce756da3203c77845fd3cc49bf8ba4e9d7d043156ba5666"
+    },
+    {
+      "file": "docs/CONTINUATION_20260908.md",
+      "bytes": 19990,
+      "sha256": "091493ace8f61f5534703b9ef8c843af9cdfccac50a155deb9e6cdc5c811fe05"
+    },
+    {
+      "file": "lib/contextFrameAudit.ts",
+      "bytes": 8391,
+      "sha256": "82a02506d0428cc1f87cd203cb5d7afce4960723cbe068ba93fb2c9b5eb86281"
+    },
+    {
+      "file": "lib/contextSourceOrder.ts",
+      "bytes": 1702,
+      "sha256": "fa96dc5f065c831389f0a499d521328f2b760977971d977f4d788e2e72d00557"
+    },
+    {
+      "file": "lib/vehicleViewport.ts",
+      "bytes": 61842,
+      "sha256": "0c11bb210a3f9a4f8e5dc8b047046cd5d620c8f58adea16479f4c76401027165"
+    },
+    {
+      "file": "outputs/context-draw-order/after-owned-tab-close.json",
+      "bytes": 218,
+      "sha256": "03bdda5029739beffe626c949a257f82bf2e0ca87304c0e9b00083bfc43547e0"
+    },
+    {
+      "file": "outputs/context-draw-order/comparison.json",
+      "bytes": 135999,
+      "sha256": "ad11be8355fed6b6fe1f0ba0a635ce3c7f28c68a2ae659d1f70f0b2466c2f8e7"
+    },
+    {
+      "file": "outputs/context-draw-order/final-normal-ax.txt",
+      "bytes": 7328,
+      "sha256": "0eb97e0c60de00334f0d47a22f95cb75459db7cf2763f3d2b1933c8492dfff1e"
+    },
+    {
+      "file": "outputs/context-draw-order/final-normal.png",
+      "bytes": 70531,
+      "sha256": "6f355cd5c49673d297662e9eb179c3b9de16540a6b8759a560b8ba2963e46b1a"
+    },
+    {
+      "file": "outputs/context-draw-order/main-canonical-side-door-trace.json",
+      "bytes": 1487938,
+      "sha256": "f639f38505c95868d6afcd7c4f2ef8f71cc940b6cf235f073d254494b0ec7c31"
+    },
+    {
+      "file": "outputs/context-draw-order/main-canonical-side-trace.json",
+      "bytes": 1487869,
+      "sha256": "0a8b4bdd5c1a99feb0ec55b6105f8f66ff957c8cbb30a8bba527f0fe87f33a6c"
+    },
+    {
+      "file": "outputs/context-draw-order/main-side-trace.json",
+      "bytes": 1487836,
+      "sha256": "021e02111d49aa642e647a5352fccdb3ce30064f7b1c6a75d35042ec48bd6d86"
+    },
+    {
+      "file": "outputs/context-draw-order/memory-after-comparisons.json",
+      "bytes": 305,
+      "sha256": "868826a308bb26fe108902045be061b59d72e210f40ecfcbdbcce2dd86c5e7a9"
+    },
+    {
+      "file": "outputs/context-draw-order/sort-tests.json",
+      "bytes": 1710,
+      "sha256": "dc65778473496656b7621a7de8cf750c78d7eaa7d6537bb5498693d70fe2fbbf"
+    },
+    {
+      "file": "outputs/context-draw-order/worker-canonical-side-door-trace.json",
+      "bytes": 1487946,
+      "sha256": "f30790507325d428edf1eaa3251b316f4956fb3d7d7cd9458c65f1dff84bfd88"
+    },
+    {
+      "file": "outputs/context-draw-order/worker-canonical-side-trace.json",
+      "bytes": 1487875,
+      "sha256": "363b4c8b261058d49084fc39aa8c35744c5f68d546a07a0f17df20ecbb21bc1d"
+    },
+    {
+      "file": "outputs/context-draw-order/worker-reload-comparison.json",
+      "bytes": 570,
+      "sha256": "0c62e333f592c1a1face92e36d4e9f1ca37276bf236cc427d5b19bf55a9fc9c5"
+    },
+    {
+      "file": "outputs/context-draw-order/worker-side-trace.json",
+      "bytes": 1487845,
+      "sha256": "e9ba7e26f5d686a362bb46c6a26e24d7dc067b13a552c3b6a61b69c082f8f5fe"
+    },
+    {
+      "file": "outputs/context-draw-order/worker-stock-side-trace.json",
+      "bytes": 1487879,
+      "sha256": "89be82a0284d0ad8deb8485966d41cd4877a7b215dceb08c57a5ba01841d67cb"
+    },
+    {
+      "file": "outputs/context-frame-audit/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "file": "scripts/archive-context-draw-order.py",
+      "bytes": 2607,
+      "sha256": "9ea08e82fe6b97171d5bea8ab1dc3ca02152ff0f8fab33cc2d607741bf09c3d5"
+    },
+    {
+      "file": "scripts/compare-context-draw-order.py",
+      "bytes": 3306,
+      "sha256": "28131958dc948e6f0c1d6a46784053c6ac4b014fee1a0cd017821f95434055d3"
+    },
+    {
+      "file": "scripts/verify-context-source-order.mjs",
+      "bytes": 2558,
+      "sha256": "bb513a899bd3222db2be5ef92f31638acde16e23f90fbfe458c303b2d31d16e9"
+    },
+    {
+      "file": "work/context-draw-order/build.log",
+      "bytes": 2550,
+      "sha256": "ac257908af256398656dd4a2812f2c2a23ab7d4d5ce6bff6340497310ea18884"
+    },
+    {
+      "file": "work/context-draw-order/comparison.log",
+      "bytes": 6061,
+      "sha256": "27546cb9fa84ae26601d67af59ff8581bcd3e04ba1945754057ce7582291c8cb"
+    },
+    {
+      "file": "work/context-draw-order/sort-tests.log",
+      "bytes": 1809,
+      "sha256": "5fc8f2d3cf4d9e8cab4cd518b879b42b11b535862546e66b7ba70810bc8d9956"
+    },
+    {
+      "file": "work/context-draw-order/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "verification": "Every copy byte-equal; SHA-256 recorded",
+  "limits": "Audit-only source ordering reproduced two complete poses across contexts. Baseline pixel preservation, persistent memory, dynamic performance and full product mechanics remain unproven."
+}

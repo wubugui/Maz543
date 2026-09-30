@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "sharedDoubleSidedMaterial": true,
+  "applicationProgramUpdate": true,
+  "opacityDuringRender": true,
+  "noMotionEpsilon": true,
+  "unexpectedVersionConservative": true,
+  "customMaterialHookConservative": true,
+  "customSharedObjectHookConservative": true,
+  "limits": "Stock renderer bookkeeping unit test; real browser and raster validation separate."
+}

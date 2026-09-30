@@ -1,0 +1,293 @@
+{
+  "id": "a75ef5ed-830c-4034-9114-a625fc83049f",
+  "batch_id": "e21ffaa2-a1a2-4b4f-a023-abeb12470be5",
+  "name": "MAZ543A native central cover and low mirrors",
+  "backend": "blender",
+  "group_key": "blender:cpu",
+  "priority": 50,
+  "params": {
+    "version": "4.5.13",
+    "project_file": null,
+    "files": [
+      {
+        "file_id": "4d28289c72ba6fa94712f94df1d49e7f",
+        "path": "MAZ543A_Master.blend"
+      },
+      {
+        "file_id": "96223522b9749b711e4fa4e9394aedf0",
+        "path": "MAZ543A_Textured.blend"
+      },
+      {
+        "file_id": "9d46a391-e811-4c85-baa1-2d618a4cc201",
+        "path": "main.py"
+      }
+    ],
+    "script": "main.py",
+    "blend_file": null,
+    "args": [],
+    "device": "cpu",
+    "gpu_policy": "auto",
+    "threads": 4,
+    "ram_mb": 4096,
+    "vram_mb": 1024,
+    "timeout_seconds": 900
+  },
+  "state": "failed",
+  "created": 1790780302.4987843,
+  "started": 1790780303.7729635,
+  "finished": 1790780385.3946517,
+  "prompt_id": null,
+  "phase": "failed",
+  "result": {
+    "files": [
+      {
+        "id": "bd90ee3c05921b3619b5ef44297fe673",
+        "name": "MAZ543A_Master.blend",
+        "mime": "application/x-blender",
+        "size": 64702399,
+        "sha256": "e7f5f20fd1e01ce64b41acbeb7f849c6615ac18cc9db913d48639e0ce13b230e",
+        "created": 1790780385.3896651,
+        "origin": "generated",
+        "producer_task_id": "a75ef5ed-830c-4034-9114-a625fc83049f",
+        "producer_backend": "blender",
+        "origin_basis": "registration",
+        "url": "/v1/files/bd90ee3c05921b3619b5ef44297fe673/content",
+        "relative_path": "MAZ543A_Master.blend"
+      }
+    ],
+    "exit_code": 1,
+    "reason": null,
+    "version": "4.5.13",
+    "build_hash": "daeeeca98fb0",
+    "device": "cpu",
+    "measurements": {
+      "execution_ms": 60312.555,
+      "launch_ms": 136.039,
+      "peak_rss_bytes": 2300006400,
+      "peak_commit_bytes": 2377777152,
+      "cpu_seconds": 36.875,
+      "stdout_bytes": 406,
+      "stderr_bytes": 906,
+      "prepare_ms": 8452.349,
+      "input_bytes": 162675229,
+      "archive_ms": 10459.899,
+      "vram_budget_mb": 1024,
+      "gpu_peak_bytes": null,
+      "gpu_measurement_basis": "not_available_per_process",
+      "ram_limit_mb": 4096
+    },
+    "logs": {
+      "stdout": "/v1/tasks/a75ef5ed-830c-4034-9114-a625fc83049f/logs/stdout",
+      "stderr": "/v1/tasks/a75ef5ed-830c-4034-9114-a625fc83049f/logs/stderr"
+    },
+    "usage": {
+      "execution_ms": 60312.555,
+      "model": "blender:4.5.13",
+      "input_tokens": null,
+      "output_tokens": null,
+      "measurements": {
+        "execution_ms": 60312.555,
+        "launch_ms": 136.039,
+        "peak_rss_bytes": 2300006400,
+        "peak_commit_bytes": 2377777152,
+        "cpu_seconds": 36.875,
+        "stdout_bytes": 406,
+        "stderr_bytes": 906,
+        "prepare_ms": 8452.349,
+        "input_bytes": 162675229,
+        "archive_ms": 10459.899,
+        "vram_budget_mb": 1024,
+        "gpu_peak_bytes": null,
+        "gpu_measurement_basis": "not_available_per_process",
+        "ram_limit_mb": 4096
+      }
+    }
+  },
+  "error": "Blender exited 1",
+  "cancel_requested": 0,
+  "scheduling": "normal",
+  "dispatch_id": null,
+  "held": 0,
+  "attempt_id": "f8e72323-43f7-4afd-8a1a-0796081b1c3d",
+  "attempt_count": 1,
+  "retry_count": 0,
+  "next_retry": 0,
+  "last_progress": 1790780373.4291189,
+  "resource_held": 0,
+  "error_code": null,
+  "execution": {
+    "state": "finished",
+    "job_id": "a75ef5ed-830c-4034-9114-a625fc83049f",
+    "attempt_id": "f8e72323-43f7-4afd-8a1a-0796081b1c3d",
+    "runner_pid": 50716,
+    "runner_created": 1790780313.024711,
+    "heartbeat": 1790780374.8069253,
+    "stdout_bytes": 406,
+    "stderr_bytes": 906,
+    "peak_rss_bytes": 2300006400,
+    "cpu_seconds": 36.875,
+    "exit_code": 1,
+    "pid": 39812,
+    "created": 1790780314.5054207,
+    "started": 1790780314.6302314,
+    "launch_ms": 136.039,
+    "workspace_bytes": 227380336,
+    "peak_commit_bytes": 2377777152,
+    "reason": null,
+    "capture_errors": [],
+    "execution_ms": 60312.555,
+    "finished": 1790780374.8069253
+  },
+  "pause": null,
+  "audit": {
+    "task": {
+      "job_id": "a75ef5ed-830c-4034-9114-a625fc83049f",
+      "batch_id": "e21ffaa2-a1a2-4b4f-a023-abeb12470be5",
+      "created": 1790780302.4987843,
+      "backend": "blender",
+      "device": "cpu",
+      "name": "MAZ543A native central cover and low mirrors",
+      "app_id": "codex",
+      "project_id": "maz543a",
+      "actor_id": "",
+      "client_ip": "192.168.71.67",
+      "identity_source": "self_reported",
+      "request_id": "b966734efe99ea0160e57eef",
+      "state": "failed",
+      "finished": 1790780385.3946517,
+      "origin": "live",
+      "measurements": {
+        "question_count": 0,
+        "prompt_characters": 0,
+        "input_images": 0,
+        "input_videos": 0,
+        "input_audios": 0,
+        "guide_count": 0,
+        "input_file_ids": [
+          "4d28289c72ba6fa94712f94df1d49e7f",
+          "96223522b9749b711e4fa4e9394aedf0",
+          "9d46a391-e811-4c85-baa1-2d618a4cc201"
+        ],
+        "priority_at_submission": 50,
+        "scheduling": "normal",
+        "version": "4.5.13",
+        "script": "main.py",
+        "device": "cpu",
+        "gpu_policy": "auto",
+        "threads": 4,
+        "ram_mb": 4096,
+        "vram_mb": 1024,
+        "timeout_seconds": 900
+      }
+    },
+    "attempts": [
+      {
+        "id": "f8e72323-43f7-4afd-8a1a-0796081b1c3d",
+        "job_id": "a75ef5ed-830c-4034-9114-a625fc83049f",
+        "execution_id": "f8e72323-43f7-4afd-8a1a-0796081b1c3d",
+        "started": 1790780303.7769506,
+        "finished": 1790780385.3946517,
+        "outcome": "failed",
+        "model": "blender:4.5.13",
+        "generation": null,
+        "input_tokens": null,
+        "output_tokens": null,
+        "state_tokens": null,
+        "token_basis": "unknown",
+        "allocated_ms": 60312.555,
+        "allocation_basis": "single_execution",
+        "estimated_cost": 0.0000167534875,
+        "rate_id": 3,
+        "error": "Blender exited 1",
+        "measurements": {
+          "question_count": 0,
+          "prompt_characters": 0,
+          "input_images": 0,
+          "input_videos": 0,
+          "input_audios": 0,
+          "guide_count": 0,
+          "input_file_ids": [
+            "4d28289c72ba6fa94712f94df1d49e7f",
+            "96223522b9749b711e4fa4e9394aedf0",
+            "9d46a391-e811-4c85-baa1-2d618a4cc201"
+          ],
+          "priority_at_submission": 50,
+          "scheduling": "normal",
+          "version": "4.5.13",
+          "script": "main.py",
+          "device": "cpu",
+          "gpu_policy": "auto",
+          "threads": 4,
+          "ram_mb": 4096,
+          "vram_mb": 1024,
+          "timeout_seconds": 900,
+          "output_images": 0,
+          "output_videos": 0,
+          "output_bytes": 64702399,
+          "file_ids": [
+            "bd90ee3c05921b3619b5ef44297fe673"
+          ],
+          "execution_ms": 60312.555,
+          "launch_ms": 136.039,
+          "peak_rss_bytes": 2300006400,
+          "peak_commit_bytes": 2377777152,
+          "cpu_seconds": 36.875,
+          "stdout_bytes": 406,
+          "stderr_bytes": 906,
+          "prepare_ms": 8452.349,
+          "input_bytes": 162675229,
+          "archive_ms": 10459.899,
+          "vram_budget_mb": 1024,
+          "gpu_peak_bytes": null,
+          "gpu_measurement_basis": "not_available_per_process",
+          "ram_limit_mb": 4096
+        },
+        "origin": "live",
+        "batch_work_ms": 60312.555,
+        "time_basis": "backend_execution_wall",
+        "request_count": 1,
+        "batch_input_tokens": null,
+        "forward_passes": null,
+        "currency": "CNY",
+        "gpu_per_hour": 0.01,
+        "cpu_per_hour": 0.001
+      }
+    ],
+    "requests": [
+      {
+        "id": "b966734efe99ea0160e57eef",
+        "at": 1790780303.2521393,
+        "method": "POST",
+        "path": "/v1/tasks",
+        "status": 202,
+        "ms": 753.54,
+        "client_ip": "192.168.71.67",
+        "app_id": "codex",
+        "project_id": "maz543a",
+        "actor_id": "",
+        "identity_source": "self_reported",
+        "kind": "submit",
+        "received_bytes": 435,
+        "sent_bytes": 152,
+        "transfer_basis": "asgi_body_bytes",
+        "error": null,
+        "task_ids": [
+          "a75ef5ed-830c-4034-9114-a625fc83049f"
+        ],
+        "origin": "live"
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "id": "f8e72323-43f7-4afd-8a1a-0796081b1c3d",
+      "job_id": "a75ef5ed-830c-4034-9114-a625fc83049f",
+      "backend": "blender",
+      "generation": null,
+      "started": 1790780303.775953,
+      "finished": 1790780385.5163906,
+      "state": "failed",
+      "error": "Blender exited 1"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "parametersAndStiffnessUnchanged": true,
+  "poseGeometryExactlyUnchanged": true,
+  "neutralBefore": {
+    "force": 0.00026372755477640174,
+    "energy": 1.5472828921107773e-13,
+    "damperRate": -0.7718509551890572
+  },
+  "neutralAfter": {
+    "force": 0,
+    "energy": 0,
+    "damperRate": -0.7718509551890572
+  },
+  "exactStaticSeconds": 100,
+  "exactStaticDofs": true,
+  "perturbations": [
+    {
+      "displacement": -1e-12,
+      "wheelVelocity": 1.2783520649872485e-11,
+      "bodyVelocity": -2.6162022024451165e-14
+    },
+    {
+      "displacement": 1e-12,
+      "wheelVelocity": -1.2782069110770341e-11,
+      "bodyVelocity": 2.6135276747862234e-14
+    }
+  ],
+  "tinyRoadRetained": true,
+  "airborneMomentum": {
+    "measured": -419.99062499999985,
+    "gravityImpulse": -419.990625,
+    "difference": 1.7053025658242404e-13
+  },
+  "dynamicRegression": {
+    "seconds": 5,
+    "amplitude": 0.65,
+    "maximumDifference": {
+      "heave": 1.6600049512066617e-9,
+      "pitch": 1.4407076226463644e-11,
+      "roll": 3.976403928351857e-11,
+      "wheel": 4.792023167166093e-10,
+      "normal": 0.0008750633669478702
+    }
+  },
+  "limits": "Numerical neutral reference and force-balance tests. Full vehicle response, visual cache behavior, catalog dimensions and physical parameter calibration require separate evidence."
+}

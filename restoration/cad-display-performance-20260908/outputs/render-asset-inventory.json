@@ -1,0 +1,908 @@
+{
+  "assets": [
+    {
+      "name": "maz543a-blender",
+      "bytes": 20332232,
+      "meshNodes": 248,
+      "uniqueMeshes": 214,
+      "instanceTriangles": 1464068,
+      "topMeshes": [
+        {
+          "node": "BL_Merged_wheels_pivot_002_Tyre_rubber",
+          "mesh": 137,
+          "triangles": 126804,
+          "vertices": 196078
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_009_Tyre_rubber",
+          "mesh": 147,
+          "triangles": 126804,
+          "vertices": 196132
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_016_Tyre_rubber",
+          "mesh": 157,
+          "triangles": 126804,
+          "vertices": 196321
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_023_Tyre_rubber",
+          "mesh": 167,
+          "triangles": 126804,
+          "vertices": 196289
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_030_Tyre_rubber",
+          "mesh": 177,
+          "triangles": 126804,
+          "vertices": 195999
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_037_Tyre_rubber",
+          "mesh": 187,
+          "triangles": 126804,
+          "vertices": 196231
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_044_Tyre_rubber",
+          "mesh": 197,
+          "triangles": 126804,
+          "vertices": 196307
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_051_Tyre_rubber",
+          "mesh": 207,
+          "triangles": 126804,
+          "vertices": 196291
+        },
+        {
+          "node": "BL_Merged_drive_Phosphated_steel",
+          "mesh": 88,
+          "triangles": 26816,
+          "vertices": 23344
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+          "mesh": 136,
+          "triangles": 24220,
+          "vertices": 22542
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_009_Phosphated_steel",
+          "mesh": 146,
+          "triangles": 24220,
+          "vertices": 22368
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_016_Phosphated_steel",
+          "mesh": 156,
+          "triangles": 24220,
+          "vertices": 22390
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_023_Phosphated_steel",
+          "mesh": 166,
+          "triangles": 24220,
+          "vertices": 22470
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_030_Phosphated_steel",
+          "mesh": 176,
+          "triangles": 24220,
+          "vertices": 22542
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_037_Phosphated_steel",
+          "mesh": 186,
+          "triangles": 24220,
+          "vertices": 22329
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_044_Phosphated_steel",
+          "mesh": 196,
+          "triangles": 24220,
+          "vertices": 22398
+        },
+        {
+          "node": "BL_Merged_wheels_pivot_051_Phosphated_steel",
+          "mesh": 206,
+          "triangles": 24220,
+          "vertices": 22412
+        },
+        {
+          "node": "BL_Merged_cab_pivot_001_OD_green_aged_enamel",
+          "mesh": 46,
+          "triangles": 12880,
+          "vertices": 17612
+        },
+        {
+          "node": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+          "mesh": 68,
+          "triangles": 11860,
+          "vertices": 16630
+        },
+        {
+          "node": "cab_0067",
+          "mesh": 38,
+          "triangles": 10752,
+          "vertices": 6174
+        }
+      ]
+    },
+    {
+      "name": "d12a525a-engine",
+      "bytes": 9996432,
+      "meshNodes": 470,
+      "uniqueMeshes": 470,
+      "instanceTriangles": 1359074,
+      "topMeshes": [
+        {
+          "node": "D12_cam_L_intake_D12_cam_ground_steel_internal",
+          "mesh": 109,
+          "triangles": 73127,
+          "vertices": 73453
+        },
+        {
+          "node": "D12_cam_R_intake_D12_cam_ground_steel_internal",
+          "mesh": 116,
+          "triangles": 73127,
+          "vertices": 73429
+        },
+        {
+          "node": "D12_cam_L_exhaust_D12_cam_ground_steel_internal",
+          "mesh": 105,
+          "triangles": 72615,
+          "vertices": 72901
+        },
+        {
+          "node": "D12_cam_R_exhaust_D12_cam_ground_steel_internal",
+          "mesh": 112,
+          "triangles": 72615,
+          "vertices": 72949
+        },
+        {
+          "node": "D12_cam_22_spur_L_exhaust",
+          "mesh": 103,
+          "triangles": 64920,
+          "vertices": 72092
+        },
+        {
+          "node": "D12_cam_22_spur_L_intake",
+          "mesh": 106,
+          "triangles": 64920,
+          "vertices": 72080
+        },
+        {
+          "node": "D12_cam_22_spur_R_exhaust",
+          "mesh": 110,
+          "triangles": 64920,
+          "vertices": 72056
+        },
+        {
+          "node": "D12_cam_22_spur_R_intake",
+          "mesh": 113,
+          "triangles": 64920,
+          "vertices": 72096
+        },
+        {
+          "node": "D12A_525A_D12_cast_aluminium_water-pipe",
+          "mesh": 464,
+          "triangles": 16640,
+          "vertices": 9784
+        },
+        {
+          "node": "D12_head_L_D12_cast_aluminium_internal",
+          "mesh": 38,
+          "triangles": 15204,
+          "vertices": 16412
+        },
+        {
+          "node": "D12_head_R_D12_cast_aluminium_internal",
+          "mesh": 45,
+          "triangles": 15204,
+          "vertices": 16412
+        },
+        {
+          "node": "D12_water_rotor_D12_water_ground_steel_water-internal.001",
+          "mesh": 454,
+          "triangles": 14208,
+          "vertices": 8872
+        },
+        {
+          "node": "D12_water_corrugated_gland",
+          "mesh": 436,
+          "triangles": 9792,
+          "vertices": 6220
+        },
+        {
+          "node": "D12_assembly_fuel_injection_D12_machined_steel_internal",
+          "mesh": 62,
+          "triangles": 8640,
+          "vertices": 7020
+        },
+        {
+          "node": "D12_timing_gear_fuel23",
+          "mesh": 275,
+          "triangles": 8572,
+          "vertices": 9226
+        },
+        {
+          "node": "D12_timing_gear_lower23",
+          "mesh": 299,
+          "triangles": 8572,
+          "vertices": 9226
+        },
+        {
+          "node": "D12_cover_L_D12_machined_steel_cover",
+          "mesh": 5,
+          "triangles": 8448,
+          "vertices": 9152
+        },
+        {
+          "node": "D12_cover_R_D12_machined_steel_cover",
+          "mesh": 9,
+          "triangles": 8448,
+          "vertices": 9152
+        },
+        {
+          "node": "D12_timing_gear_injection36",
+          "mesh": 126,
+          "triangles": 7728,
+          "vertices": 8240
+        },
+        {
+          "node": "D12_head_L_D12_forged_steel_internal.001",
+          "mesh": 40,
+          "triangles": 7680,
+          "vertices": 8064
+        }
+      ]
+    },
+    {
+      "name": "maz543a-suspension",
+      "bytes": 8154920,
+      "meshNodes": 444,
+      "uniqueMeshes": 444,
+      "instanceTriangles": 950496,
+      "topMeshes": [
+        {
+          "node": "S543_0_lower_S543_cast_olive_visible",
+          "mesh": 36,
+          "triangles": 7240,
+          "vertices": 5360
+        },
+        {
+          "node": "S543_1_lower_S543_cast_olive_visible",
+          "mesh": 92,
+          "triangles": 7240,
+          "vertices": 5360
+        },
+        {
+          "node": "S543_2_lower_S543_cast_olive_visible",
+          "mesh": 148,
+          "triangles": 7240,
+          "vertices": 5360
+        },
+        {
+          "node": "S543_3_lower_S543_cast_olive_visible",
+          "mesh": 204,
+          "triangles": 7240,
+          "vertices": 5360
+        },
+        {
+          "node": "S543_4_lower_S543_cast_olive_visible",
+          "mesh": 260,
+          "triangles": 7240,
+          "vertices": 5360
+        },
+        {
+          "node": "S543_5_lower_S543_cast_olive_visible",
+          "mesh": 315,
+          "triangles": 7240,
+          "vertices": 5360
+        },
+        {
+          "node": "S543_6_lower_S543_cast_olive_visible",
+          "mesh": 370,
+          "triangles": 7240,
+          "vertices": 5360
+        },
+        {
+          "node": "S543_7_lower_S543_cast_olive_visible",
+          "mesh": 425,
+          "triangles": 7240,
+          "vertices": 5360
+        },
+        {
+          "node": "S543_0_halfshaft_bellows",
+          "mesh": 43,
+          "triangles": 6336,
+          "vertices": 4220
+        },
+        {
+          "node": "S543_1_halfshaft_bellows",
+          "mesh": 99,
+          "triangles": 6336,
+          "vertices": 4220
+        },
+        {
+          "node": "S543_2_halfshaft_bellows",
+          "mesh": 155,
+          "triangles": 6336,
+          "vertices": 4220
+        },
+        {
+          "node": "S543_3_halfshaft_bellows",
+          "mesh": 211,
+          "triangles": 6336,
+          "vertices": 4220
+        },
+        {
+          "node": "S543_4_halfshaft_bellows",
+          "mesh": 267,
+          "triangles": 6336,
+          "vertices": 4220
+        },
+        {
+          "node": "S543_5_halfshaft_bellows",
+          "mesh": 322,
+          "triangles": 6336,
+          "vertices": 4220
+        },
+        {
+          "node": "S543_6_halfshaft_bellows",
+          "mesh": 377,
+          "triangles": 6336,
+          "vertices": 4220
+        },
+        {
+          "node": "S543_7_halfshaft_bellows",
+          "mesh": 432,
+          "triangles": 6336,
+          "vertices": 4220
+        },
+        {
+          "node": "S543_0_lower_S543_machined_steel_visible",
+          "mesh": 38,
+          "triangles": 5760,
+          "vertices": 4160
+        },
+        {
+          "node": "S543_0_upper_S543_machined_steel_visible",
+          "mesh": 50,
+          "triangles": 5760,
+          "vertices": 4160
+        },
+        {
+          "node": "S543_1_lower_S543_machined_steel_visible",
+          "mesh": 94,
+          "triangles": 5760,
+          "vertices": 4160
+        },
+        {
+          "node": "S543_1_upper_S543_machined_steel_visible",
+          "mesh": 106,
+          "triangles": 5760,
+          "vertices": 4160
+        }
+      ]
+    },
+    {
+      "name": "maz543a-starting",
+      "bytes": 792512,
+      "meshNodes": 52,
+      "uniqueMeshes": 52,
+      "instanceTriangles": 101964,
+      "topMeshes": [
+        {
+          "node": "MZN_rotor_D12_machined_steel_internal",
+          "mesh": 51,
+          "triangles": 6688,
+          "vertices": 11168
+        },
+        {
+          "node": "MN1_field_pole_1_MN1_field_coil_woven_insulation_internal",
+          "mesh": 23,
+          "triangles": 6528,
+          "vertices": 3506
+        },
+        {
+          "node": "MN1_field_pole_2_MN1_field_coil_woven_insulation_internal",
+          "mesh": 27,
+          "triangles": 6528,
+          "vertices": 3506
+        },
+        {
+          "node": "MN1_field_pole_3_MN1_field_coil_woven_insulation_internal",
+          "mesh": 31,
+          "triangles": 6528,
+          "vertices": 3506
+        },
+        {
+          "node": "MN1_field_pole_4_MN1_field_coil_woven_insulation_internal",
+          "mesh": 35,
+          "triangles": 6528,
+          "vertices": 3506
+        },
+        {
+          "node": "C5_flywheel_involute_ring",
+          "mesh": 0,
+          "triangles": 6508,
+          "vertices": 9806
+        },
+        {
+          "node": "C5_pinion_D12_machined_steel_internal",
+          "mesh": 8,
+          "triangles": 6204,
+          "vertices": 8522
+        },
+        {
+          "node": "MZN_driven_D12_machined_steel_internal",
+          "mesh": 40,
+          "triangles": 5392,
+          "vertices": 8624
+        },
+        {
+          "node": "C5_rotor_D12_machined_steel_internal",
+          "mesh": 12,
+          "triangles": 5376,
+          "vertices": 5592
+        },
+        {
+          "node": "C5_STARTER_D12_cover_enamel_cover",
+          "mesh": 14,
+          "triangles": 3840,
+          "vertices": 4580
+        },
+        {
+          "node": "C5_drive_D12_forged_steel_internal",
+          "mesh": 2,
+          "triangles": 3836,
+          "vertices": 3019
+        },
+        {
+          "node": "MZN_PREOIL_D12_cast_aluminium_cover",
+          "mesh": 42,
+          "triangles": 2908,
+          "vertices": 4754
+        },
+        {
+          "node": "C5_drive_Starting_friction_fibre_internal",
+          "mesh": 3,
+          "triangles": 2688,
+          "vertices": 2800
+        },
+        {
+          "node": "MN1_field_pole_1_MN1_pole_lamination_stack_internal",
+          "mesh": 24,
+          "triangles": 2312,
+          "vertices": 3864
+        },
+        {
+          "node": "MN1_field_pole_2_MN1_pole_lamination_stack_internal",
+          "mesh": 28,
+          "triangles": 2312,
+          "vertices": 3864
+        },
+        {
+          "node": "MN1_field_pole_3_MN1_pole_lamination_stack_internal",
+          "mesh": 32,
+          "triangles": 2312,
+          "vertices": 3864
+        },
+        {
+          "node": "MN1_field_pole_4_MN1_pole_lamination_stack_internal",
+          "mesh": 36,
+          "triangles": 2312,
+          "vertices": 3864
+        },
+        {
+          "node": "C5_spring_10",
+          "mesh": 10,
+          "triangles": 2304,
+          "vertices": 1351
+        },
+        {
+          "node": "C5_pinion_D12_forged_steel_internal",
+          "mesh": 7,
+          "triangles": 1904,
+          "vertices": 1904
+        },
+        {
+          "node": "MZN_PREOIL_D12_machined_steel_visible",
+          "mesh": 48,
+          "triangles": 1536,
+          "vertices": 1664
+        }
+      ]
+    },
+    {
+      "name": "maz543a-cooling",
+      "bytes": 15673480,
+      "meshNodes": 372,
+      "uniqueMeshes": 372,
+      "instanceTriangles": 1338716,
+      "topMeshes": [
+        {
+          "node": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+          "mesh": 254,
+          "triangles": 738276,
+          "vertices": 438655
+        },
+        {
+          "node": "COOL_radiator_COOL_radiator_black_radiator",
+          "mesh": 339,
+          "triangles": 87336,
+          "vertices": 117492
+        },
+        {
+          "node": "COOL_upper_output_0_D12_machined_steel_upper-internal",
+          "mesh": 124,
+          "triangles": 17792,
+          "vertices": 22266
+        },
+        {
+          "node": "COOL_upper_output_1_D12_machined_steel_upper-internal",
+          "mesh": 250,
+          "triangles": 17792,
+          "vertices": 22266
+        },
+        {
+          "node": "COOL_lower_input_D12_machined_steel_lower-internal",
+          "mesh": 278,
+          "triangles": 17664,
+          "vertices": 22346
+        },
+        {
+          "node": "COOL_upper_input_0_D12_machined_steel_upper-internal",
+          "mesh": 95,
+          "triangles": 15696,
+          "vertices": 18574
+        },
+        {
+          "node": "COOL_upper_input_1_D12_machined_steel_upper-internal",
+          "mesh": 221,
+          "triangles": 15696,
+          "vertices": 18574
+        },
+        {
+          "node": "COOL_lower_output_0_D12_machined_steel_lower-internal",
+          "mesh": 303,
+          "triangles": 15696,
+          "vertices": 18580
+        },
+        {
+          "node": "COOL_lower_output_1_D12_machined_steel_lower-internal",
+          "mesh": 329,
+          "triangles": 15696,
+          "vertices": 18568
+        },
+        {
+          "node": "COOL_fan_0_D12_machined_steel_fan-fastener",
+          "mesh": 11,
+          "triangles": 12288,
+          "vertices": 12672
+        },
+        {
+          "node": "COOL_fan_1_D12_machined_steel_fan-fastener",
+          "mesh": 137,
+          "triangles": 12288,
+          "vertices": 12672
+        },
+        {
+          "node": "COOL_fan_0_COOL_fan_cast_aluminium_fan-blade",
+          "mesh": 8,
+          "triangles": 11808,
+          "vertices": 7496
+        },
+        {
+          "node": "COOL_fan_1_COOL_fan_cast_aluminium_fan-blade",
+          "mesh": 134,
+          "triangles": 11808,
+          "vertices": 7496
+        },
+        {
+          "node": "COOL_release_spring_0",
+          "mesh": 67,
+          "triangles": 10268,
+          "vertices": 5168
+        },
+        {
+          "node": "COOL_release_spring_1",
+          "mesh": 193,
+          "triangles": 10268,
+          "vertices": 5168
+        },
+        {
+          "node": "COOL_upper_input_mount_0_D12_machined_steel_bearing-cover",
+          "mesh": 102,
+          "triangles": 9472,
+          "vertices": 6088
+        },
+        {
+          "node": "COOL_upper_output_mount_0_D12_machined_steel_bearing-cover",
+          "mesh": 126,
+          "triangles": 9472,
+          "vertices": 6088
+        },
+        {
+          "node": "COOL_upper_input_mount_1_D12_machined_steel_bearing-cover",
+          "mesh": 228,
+          "triangles": 9472,
+          "vertices": 6088
+        },
+        {
+          "node": "COOL_upper_output_mount_1_D12_machined_steel_bearing-cover",
+          "mesh": 252,
+          "triangles": 9472,
+          "vertices": 6088
+        },
+        {
+          "node": "COOL_lower_input_mount_D12_machined_steel_bearing-cover",
+          "mesh": 282,
+          "triangles": 9472,
+          "vertices": 6088
+        }
+      ]
+    },
+    {
+      "name": "maz543a-cardan",
+      "bytes": 907380,
+      "meshNodes": 213,
+      "uniqueMeshes": 213,
+      "instanceTriangles": 101040,
+      "topMeshes": [
+        {
+          "node": "CJ_flange_fork_0",
+          "mesh": 12,
+          "triangles": 14348,
+          "vertices": 16939
+        },
+        {
+          "node": "CJ_flange_fork_1",
+          "mesh": 63,
+          "triangles": 14308,
+          "vertices": 16872
+        },
+        {
+          "node": "CJ_spider_0",
+          "mesh": 0,
+          "triangles": 5502,
+          "vertices": 4746
+        },
+        {
+          "node": "CJ_spider_1",
+          "mesh": 3,
+          "triangles": 5502,
+          "vertices": 4746
+        },
+        {
+          "node": "CJ_sliding_fork_1",
+          "mesh": 212,
+          "triangles": 4640,
+          "vertices": 6747
+        },
+        {
+          "node": "CJ_sliding_fork_0",
+          "mesh": 160,
+          "triangles": 4624,
+          "vertices": 6721
+        },
+        {
+          "node": "CJ_female_spline",
+          "mesh": 167,
+          "triangles": 2208,
+          "vertices": 3888
+        },
+        {
+          "node": "CJ_cap_0_flange_-1_circlip",
+          "mesh": 7,
+          "triangles": 1596,
+          "vertices": 2208
+        },
+        {
+          "node": "CJ_cap_0_flange_1_circlip",
+          "mesh": 10,
+          "triangles": 1596,
+          "vertices": 2208
+        },
+        {
+          "node": "CJ_cap_1_flange_-1_circlip",
+          "mesh": 58,
+          "triangles": 1596,
+          "vertices": 2208
+        },
+        {
+          "node": "CJ_cap_1_flange_1_circlip",
+          "mesh": 61,
+          "triangles": 1596,
+          "vertices": 2208
+        },
+        {
+          "node": "CJ_cap_0_shaft_-1_circlip",
+          "mesh": 109,
+          "triangles": 1596,
+          "vertices": 2208
+        },
+        {
+          "node": "CJ_cap_0_shaft_1_circlip",
+          "mesh": 112,
+          "triangles": 1596,
+          "vertices": 2208
+        },
+        {
+          "node": "CJ_cap_1_shaft_-1_circlip",
+          "mesh": 162,
+          "triangles": 1596,
+          "vertices": 2208
+        },
+        {
+          "node": "CJ_cap_1_shaft_1_circlip",
+          "mesh": 165,
+          "triangles": 1596,
+          "vertices": 2208
+        },
+        {
+          "node": "CJ_cap_0_flange_-1",
+          "mesh": 6,
+          "triangles": 1536,
+          "vertices": 1512
+        },
+        {
+          "node": "CJ_cap_0_flange_1",
+          "mesh": 9,
+          "triangles": 1536,
+          "vertices": 1512
+        },
+        {
+          "node": "CJ_cap_1_flange_-1",
+          "mesh": 57,
+          "triangles": 1536,
+          "vertices": 1512
+        },
+        {
+          "node": "CJ_cap_1_flange_1",
+          "mesh": 60,
+          "triangles": 1536,
+          "vertices": 1512
+        },
+        {
+          "node": "CJ_cap_0_shaft_-1",
+          "mesh": 108,
+          "triangles": 1536,
+          "vertices": 1512
+        }
+      ]
+    },
+    {
+      "name": "maz543a-transmission",
+      "bytes": 19204280,
+      "meshNodes": 1449,
+      "uniqueMeshes": 917,
+      "instanceTriangles": 1575448,
+      "topMeshes": [
+        {
+          "node": "TX_18_reverse_ring",
+          "mesh": 573,
+          "triangles": 22864,
+          "vertices": 34492
+        },
+        {
+          "node": "TX_reverse_disc_01",
+          "mesh": 662,
+          "triangles": 21228,
+          "vertices": 32734
+        },
+        {
+          "node": "TX_reverse_disc_11",
+          "mesh": 663,
+          "triangles": 21228,
+          "vertices": 32662
+        },
+        {
+          "node": "TX_reverse_disc_13",
+          "mesh": 664,
+          "triangles": 21228,
+          "vertices": 32668
+        },
+        {
+          "node": "TX_reverse_disc_03",
+          "mesh": 665,
+          "triangles": 21228,
+          "vertices": 32746
+        },
+        {
+          "node": "TX_reverse_disc_05",
+          "mesh": 666,
+          "triangles": 21228,
+          "vertices": 32780
+        },
+        {
+          "node": "TX_reverse_disc_07",
+          "mesh": 667,
+          "triangles": 21228,
+          "vertices": 32744
+        },
+        {
+          "node": "TX_reverse_disc_09",
+          "mesh": 668,
+          "triangles": 21228,
+          "vertices": 32700
+        },
+        {
+          "node": "TX_first_disc_01",
+          "mesh": 729,
+          "triangles": 21228,
+          "vertices": 33330
+        },
+        {
+          "node": "TX_first_disc_11",
+          "mesh": 730,
+          "triangles": 21228,
+          "vertices": 33744
+        },
+        {
+          "node": "TX_first_disc_13",
+          "mesh": 731,
+          "triangles": 21228,
+          "vertices": 33590
+        },
+        {
+          "node": "TX_first_disc_03",
+          "mesh": 732,
+          "triangles": 21228,
+          "vertices": 33350
+        },
+        {
+          "node": "TX_first_disc_05",
+          "mesh": 733,
+          "triangles": 21228,
+          "vertices": 33390
+        },
+        {
+          "node": "TX_first_disc_07",
+          "mesh": 734,
+          "triangles": 21228,
+          "vertices": 33544
+        },
+        {
+          "node": "TX_first_disc_09",
+          "mesh": 735,
+          "triangles": 21228,
+          "vertices": 33576
+        },
+        {
+          "node": "TX_40_first_ring",
+          "mesh": 727,
+          "triangles": 19504,
+          "vertices": 29256
+        },
+        {
+          "node": "TX_direct_disc_01",
+          "mesh": 903,
+          "triangles": 16008,
+          "vertices": 25126
+        },
+        {
+          "node": "TX_direct_disc_03",
+          "mesh": 904,
+          "triangles": 16008,
+          "vertices": 25078
+        },
+        {
+          "node": "TX_direct_disc_05",
+          "mesh": 905,
+          "triangles": 16008,
+          "vertices": 25032
+        },
+        {
+          "node": "TX_direct_disc_07",
+          "mesh": 906,
+          "triangles": 16008,
+          "vertices": 24986
+        }
+      ]
+    }
+  ],
+  "limits": "Counts before runtime removal, visibility and render passes. Shared meshes count once per scene node; no detail was removed."
+}

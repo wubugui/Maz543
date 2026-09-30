@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "beforeGeometryBufferBytes": 420111944,
+  "afterGeometryBufferBytes": 418689800,
+  "removedExclusiveBufferReferencesBytes": 1422144,
+  "retainedResourceCensusUnchanged": true,
+  "frameComparison": {
+    "width": true,
+    "height": true,
+    "pixelRatio": true,
+    "meshes": true,
+    "draws": true,
+    "triangles": true,
+    "view": true,
+    "ao": true,
+    "sceneInputSha256": true,
+    "noiseSha256": true,
+    "pixelSha256": true,
+    "drawSequenceSha256": true
+  },
+  "frameBaseline": "E:\\Maz543\\restoration\\context-draw-order-20260909\\outputs\\context-draw-order\\main-canonical-side-trace.json",
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "limits": "One complete identical-input fixed-sort side pose and resource identity/buffer census. Does not prove immediate GC/driver release, all poses or improved dynamic FPS."
+}

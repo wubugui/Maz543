@@ -1,0 +1,171 @@
+{
+  "scope": "Boxed front bumper, central single hook and underside shield",
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "seedTowVerticesArchived": 930,
+      "parts": [
+        {
+          "name": "BL_Front_box_bumper",
+          "bounds": {
+            "min": [
+              -5.610000133514404,
+              0.699999988079071,
+              -1.5149999856948853
+            ],
+            "max": [
+              -5.360000133514404,
+              1.190000057220459,
+              1.5149999856948853
+            ]
+          },
+          "modifiers": [
+            "BOOLEAN",
+            "BOOLEAN",
+            "BOOLEAN",
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_hook_mount",
+          "bounds": {
+            "min": [
+              -5.549999713897705,
+              0.8899999856948853,
+              -0.07500000298023224
+            ],
+            "max": [
+              -5.389999866485596,
+              1.0399999618530273,
+              0.07500000298023224
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_single_recovery_hook",
+          "bounds": {
+            "min": [
+              -5.749101161956787,
+              0.7220476865768433,
+              -0.03800000995397568
+            ],
+            "max": [
+              -5.520852565765381,
+              1.0028235912322998,
+              0.03800000995397568
+            ]
+          },
+          "modifiers": []
+        },
+        {
+          "name": "BL_Front_lower_shield",
+          "bounds": {
+            "min": [
+              -5.483702659606934,
+              0.5723613500595093,
+              -0.6000000238418579
+            ],
+            "max": [
+              -5.036297798156738,
+              0.7276386022567749,
+              0.6000000238418579
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        }
+      ],
+      "status": "Photo fit; dimensional/load rating acceptance OPEN"
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "seedTowVerticesArchived": 930,
+      "parts": [
+        {
+          "name": "BL_Front_box_bumper",
+          "bounds": {
+            "min": [
+              -5.610000133514404,
+              0.699999988079071,
+              -1.5149999856948853
+            ],
+            "max": [
+              -5.360000133514404,
+              1.190000057220459,
+              1.5149999856948853
+            ]
+          },
+          "modifiers": [
+            "BOOLEAN",
+            "BOOLEAN",
+            "BOOLEAN",
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_hook_mount",
+          "bounds": {
+            "min": [
+              -5.549999713897705,
+              0.8899999856948853,
+              -0.07500000298023224
+            ],
+            "max": [
+              -5.389999866485596,
+              1.0399999618530273,
+              0.07500000298023224
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        },
+        {
+          "name": "BL_Front_single_recovery_hook",
+          "bounds": {
+            "min": [
+              -5.749101161956787,
+              0.7220476865768433,
+              -0.03800000995397568
+            ],
+            "max": [
+              -5.520852565765381,
+              1.0028235912322998,
+              0.03800000995397568
+            ]
+          },
+          "modifiers": []
+        },
+        {
+          "name": "BL_Front_lower_shield",
+          "bounds": {
+            "min": [
+              -5.483702659606934,
+              0.5723613500595093,
+              -0.6000000238418579
+            ],
+            "max": [
+              -5.036297798156738,
+              0.7276386022567749,
+              0.6000000238418579
+            ]
+          },
+          "modifiers": [
+            "BEVEL",
+            "WEIGHTED_NORMAL"
+          ]
+        }
+      ],
+      "status": "Photo fit; dimensional/load rating acceptance OPEN"
+    }
+  ]
+}

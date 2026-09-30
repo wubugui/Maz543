@@ -1,0 +1,85 @@
+{
+  "phase": "after",
+  "url": "http://localhost:3000/?quality=full&debug-handle=1",
+  "httpStatus": 200,
+  "errors": [],
+  "parts": [
+    {
+      "name": "BL_Searchlight_housing",
+      "parent": "cab_pivot_005",
+      "min": [
+        -5.110000014305115,
+        2.755000114440918,
+        0.7799999713897705
+      ],
+      "max": [
+        -4.929999947547913,
+        2.994999885559082,
+        1.019999921321869
+      ]
+    },
+    {
+      "name": "BL_Searchlight_lens",
+      "parent": "cab_pivot_005",
+      "min": [
+        -5.1269999742507935,
+        2.7720000743865967,
+        0.7969999313354492
+      ],
+      "max": [
+        -5.116999983787537,
+        2.9779999256134033,
+        1.0029999613761902
+      ]
+    },
+    {
+      "name": "BL_Searchlight_stand",
+      "parent": "cab_pivot_005",
+      "min": [
+        -5.054999947547913,
+        2.6649999618530273,
+        0.8649998903274536
+      ],
+      "max": [
+        -4.985000014305115,
+        2.815000057220459,
+        0.934999942779541
+      ]
+    }
+  ],
+  "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 970 (0x000013C2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "meshCount": 3258,
+  "openDoor": [
+    {
+      "name": "BL_Searchlight_housing",
+      "parent": "cab_pivot_005",
+      "position": [
+        -1.600000023841858,
+        0,
+        1.9299999475479126
+      ]
+    },
+    {
+      "name": "BL_Searchlight_lens",
+      "parent": "cab_pivot_005",
+      "position": [
+        -1.600000023841858,
+        0,
+        1.9299999475479126
+      ]
+    },
+    {
+      "name": "BL_Searchlight_stand",
+      "parent": "cab_pivot_005",
+      "position": [
+        -1.600000023841858,
+        0,
+        1.9299999475479126
+      ]
+    }
+  ],
+  "export": {
+    "filename": "MAZ543-reference-current-pose.glb",
+    "failure": null
+  }
+}

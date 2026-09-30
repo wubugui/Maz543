@@ -1,0 +1,32 @@
+{
+  "host": "denghong01",
+  "service": "Inference Hub :8765",
+  "pid": 42948,
+  "failedTask": "6e95834d-f419-495b-9e5b-9e6b9b561d87",
+  "state": "failed",
+  "execution": "finished",
+  "attempts": 1,
+  "retries": 0,
+  "files": [],
+  "stdoutBytes": 0,
+  "stderrBytes": 0,
+  "blenderSample": 100,
+  "observedPermissionFailures": [
+    "6e95834d-f419-495b-9e5b-9e6b9b561d87"
+  ],
+  "blenderAfterFailure": [],
+  "otherBackendCompletedAfterFailure": [
+    {
+      "id": "70dd115e-519f-4bb9-8055-9b90da4de75b",
+      "backend": "h3",
+      "finished": 1790777746.6339219
+    },
+    {
+      "id": "cf33d279-53b4-4424-82e5-6ddafaeb0a2f",
+      "backend": "h3",
+      "finished": 1790777175.3066225
+    }
+  ],
+  "retryDecision": "No retry: transient lock clearance not established by read-only APIs",
+  "productionChanged": false
+}

@@ -1,0 +1,155 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "count": 29,
+  "bytes": 323551,
+  "files": [
+    {
+      "file": "AGENT_START_HERE.md",
+      "bytes": 27343,
+      "sha256": "6e27d49b75bf8318c52c3b4c09a87c4e48f43c5704dcfd4b9dde6d3a1132fd07"
+    },
+    {
+      "file": "NEXT_AGENT_PROMPT.md",
+      "bytes": 19745,
+      "sha256": "d275041c9c066e7af943c30b67e7e3e2657674592ad78d5f40b714e68b614d0f"
+    },
+    {
+      "file": "components/vehicle-viewer.tsx",
+      "bytes": 3526,
+      "sha256": "a239dfa7158bff77d7f7ece18467e438769f49e85ac5bc6033e82a1b3de6c467"
+    },
+    {
+      "file": "docs/ACCEPTANCE.md",
+      "bytes": 32560,
+      "sha256": "42d8b627fde9d8c705680310ba2225b2812f9fa0c2147ff9a9b91da803fba1c7"
+    },
+    {
+      "file": "docs/CONTINUATION_20260908.md",
+      "bytes": 20624,
+      "sha256": "c895dc6cdb85e45926968b6c277a4cbb15875bc70902209edc3d6106fb7fb341"
+    },
+    {
+      "file": "docs/VIEWPORT_DOCUMENT_LIFETIME_20260909.md",
+      "bytes": 4275,
+      "sha256": "9336332b53f687bca1838e9f96341aa30029f4751171900f3e7c986f0d598fa3"
+    },
+    {
+      "file": "lib/renderWorkerClient.ts",
+      "bytes": 10805,
+      "sha256": "ceee89f8e64aceaee640d531a2789f64c26d102c5a9518c3449071c191a18eb0"
+    },
+    {
+      "file": "lib/vehicleViewport.ts",
+      "bytes": 61906,
+      "sha256": "414a86f7d9984d371a9fdffa1b8edbea60111ef556008ec3cc23369762a1e76f"
+    },
+    {
+      "file": "lib/viewportDocumentLifetime.ts",
+      "bytes": 884,
+      "sha256": "89d3d3910217036ce9d9f3e036ec7340e10125b4044e78ce43130be4e2a92fcb"
+    },
+    {
+      "file": "lib/viewportLifecycleAudit.ts",
+      "bytes": 4173,
+      "sha256": "3b56152f96f67d292170eea979f0d2519b74e4b6e2d9560976aae8ecfe178167"
+    },
+    {
+      "file": "outputs/context-frame-audit/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "file": "outputs/viewport-lifecycle-audit/after-fixed-main-exit.json",
+      "bytes": 11160,
+      "sha256": "92acb52a916a9b0b5c955b7a7eda83f504e9ce32bfc2a7d99d9a74738bb7edcb"
+    },
+    {
+      "file": "outputs/viewport-lifecycle-audit/after-main-to-worker.json",
+      "bytes": 3772,
+      "sha256": "0331e4a5eccb4cc7098d6449f27d33809c3dfda33614731b3f9a016a404ff4d3"
+    },
+    {
+      "file": "outputs/viewport-lifecycle-audit/document-lifetime-tests.json",
+      "bytes": 370,
+      "sha256": "c825194dfba3a822ca1f6814c784843b251f7f7bd80705710bd5d304a289a9ed"
+    },
+    {
+      "file": "outputs/viewport-lifecycle-audit/final-normal-door-ax.txt",
+      "bytes": 7527,
+      "sha256": "3000ade96301b361d122d26872d59824fef6571e2c403c11b11482a9b2691272"
+    },
+    {
+      "file": "outputs/viewport-lifecycle-audit/final-normal-door.png",
+      "bytes": 75803,
+      "sha256": "c10b90d4d859ad92b8bb43307377349b189b63280396c0323f8e4201d9c82f43"
+    },
+    {
+      "file": "outputs/viewport-lifecycle-audit/fixed-main-before-exit.json",
+      "bytes": 8653,
+      "sha256": "d94501abaf3aded7e4bc88b03a1e791a704faca939f6c25cf1fd60e61c864e26"
+    },
+    {
+      "file": "outputs/viewport-lifecycle-audit/fixed-worker-before-exit.json",
+      "bytes": 6180,
+      "sha256": "d6c5f16fdc1a14c9e189e14ec82b548f7d9d405b4a71274b2a16a832701e8e5f"
+    },
+    {
+      "file": "outputs/viewport-lifecycle-audit/main-loaded.json",
+      "bytes": 1805,
+      "sha256": "c2b8d10941b7c1b43e11051656f913409e22eab2241cdf9d706bc7e099595a2d"
+    },
+    {
+      "file": "outputs/viewport-lifecycle-audit/memory-after-fixed-worker-exit.json",
+      "bytes": 404,
+      "sha256": "e4a1134d0ecdf2d9b752cb3a1d5e9abaee35efb4a707b1c92f1a2a5e941d65ae"
+    },
+    {
+      "file": "outputs/viewport-lifecycle-audit/render-client-tests.json",
+      "bytes": 918,
+      "sha256": "961e638adc5481d09ff7f75432d0a3c2377083652255b248d776a7d3d49a68fe"
+    },
+    {
+      "file": "outputs/viewport-lifecycle-audit/summary.json",
+      "bytes": 6762,
+      "sha256": "b0ecba4494bc5af6ea375fa5197547370434c8b709b4cda9789c70b761491beb"
+    },
+    {
+      "file": "scripts/archive-viewport-document-lifetime.py",
+      "bytes": 2816,
+      "sha256": "4744513f944e149e2084aecfc58a0ee68c7181b93803abf2f1d8f2258d5a0222"
+    },
+    {
+      "file": "scripts/summarize-viewport-lifecycle.py",
+      "bytes": 2396,
+      "sha256": "9909ac207276e499035804759cce04dee66dfc3f794cc9f4d6d591eb21a26290"
+    },
+    {
+      "file": "scripts/verify-viewport-document-lifetime.mjs",
+      "bytes": 2165,
+      "sha256": "f59e351cb92156997e3bec1fd5e19199eab6fd32492709f772713ca921f05463"
+    },
+    {
+      "file": "work/viewport-lifecycle-audit/build.log",
+      "bytes": 2556,
+      "sha256": "c95f418bd6ff0a6b07de685fe0758febd3c31fa7503aaa05dfa9c6e2aa3fe689"
+    },
+    {
+      "file": "work/viewport-lifecycle-audit/document-tests.log",
+      "bytes": 380,
+      "sha256": "eb94332ce1784a0d58231e7792e2095138d410b3e3bb607de8cef7caf654ef42"
+    },
+    {
+      "file": "work/viewport-lifecycle-audit/render-client-tests.log",
+      "bytes": 953,
+      "sha256": "ba616513d6b126ece0452151a043bd6f9113f5b74f8824e397f908a62973f840"
+    },
+    {
+      "file": "work/viewport-lifecycle-audit/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "verification": "Every copy byte-equal and SHA-256 recorded",
+  "limits": "Observed non-persisted main document now executes viewport cleanup. Does not prove sustained memory, worker hard-navigation disposal, real BFCache restoration, dynamic FPS or full mechanical product completion."
+}

@@ -1,0 +1,199 @@
+{
+  "files": 38,
+  "bytes": 347659,
+  "sha256Verified": true,
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "manifest": [
+    {
+      "path": "AGENT_START_HERE.md",
+      "bytes": 25544,
+      "sha256": "a723ab6c1475c6bb15b15e255b5615f3ac4e9e766adadfee7a90a887a976211a"
+    },
+    {
+      "path": "NEXT_AGENT_PROMPT.md",
+      "bytes": 17946,
+      "sha256": "c34bfd9679c42a84acd8352b0a9d6cd07a92a55c93f33c4ee8db99d885474dc8"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 30776,
+      "sha256": "794ab66c6ba89750e14d8167fb4c96c4e58a0462538fef4262ab0a704f2329eb"
+    },
+    {
+      "path": "docs/CONTINUATION_20260908.md",
+      "bytes": 18840,
+      "sha256": "a3679edc80afafb8811f0602845f42caff72399af7bc4ea08e34cad9731f62eb"
+    },
+    {
+      "path": "docs/PARTITIONED_SHADOW_EXPERIMENT_20260909.md",
+      "bytes": 6871,
+      "sha256": "bc4802aaa675e4c2aa36a5c723d289eea5832ebc1a196d673f9df4805a27fe5e"
+    },
+    {
+      "path": "lib/compositedShadows.ts",
+      "bytes": 2958,
+      "sha256": "395417ce69a7d7fde54343f59ed6ccc3ac76132cf13116407f958cac776a1e9a"
+    },
+    {
+      "path": "lib/directionalShadowCache.ts",
+      "bytes": 11964,
+      "sha256": "44799b803df21a8c10d068008d21d7b193f2b2170279d8371148a37492a0285e"
+    },
+    {
+      "path": "lib/partitionedShadowCache.ts",
+      "bytes": 6867,
+      "sha256": "b905ae0c98a7b48491a846e39aedf79d365d6008df07c44598ff4dfd821162b0"
+    },
+    {
+      "path": "lib/vehicleViewport.ts",
+      "bytes": 60762,
+      "sha256": "20fe53a011573f48e96f5ff9c91e3beabf01405cbff0f98f9ca55e74587d46b0"
+    },
+    {
+      "path": "outputs/partitioned-shadow/final-normal-ax.txt",
+      "bytes": 7416,
+      "sha256": "f822554248eb14973091694a993184d2606e78b29ce05d9a19b0c51a75450d29"
+    },
+    {
+      "path": "outputs/partitioned-shadow/final-normal.png",
+      "bytes": 70577,
+      "sha256": "b692df673f2197247a1fa4d30a7d13d96c14958696c53ce368321884eac8e0a3"
+    },
+    {
+      "path": "outputs/partitioned-shadow/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "path": "outputs/partitioned-shadow/summary.json",
+      "bytes": 6327,
+      "sha256": "3171783e3794ed85c25a71f4904fcc658f47c6c163fda3d4de0312894b9dcee0"
+    },
+    {
+      "path": "outputs/partitioned-shadow/tests.json",
+      "bytes": 443,
+      "sha256": "0258d8470151fcadf93d0ec5e19a084ab5a8e0059c8c273065d6060e2ba0ed30"
+    },
+    {
+      "path": "outputs/partitioned-shadow/whole-clip-ax.txt",
+      "bytes": 8657,
+      "sha256": "3cdc7e2d679fe2056f9eb2ba687ad2306a0b818b824c4635eb16e2a0cd375ecf"
+    },
+    {
+      "path": "outputs/partitioned-shadow/whole-clip.json",
+      "bytes": 1193,
+      "sha256": "88f7504a8c81f2358ba429bb4da8229ef6334cdaf0e9405c74e051f237307812"
+    },
+    {
+      "path": "outputs/partitioned-shadow/whole-cold-ax.txt",
+      "bytes": 8711,
+      "sha256": "94c186976db1fa320096bf74419924b29e2fab0300d7a88efe5d99b91b0929af"
+    },
+    {
+      "path": "outputs/partitioned-shadow/whole-cold.json",
+      "bytes": 1159,
+      "sha256": "68a5dd5d506229d7c16b25c7a396ae290920c1e6dddbe356ad49e618193ed73a"
+    },
+    {
+      "path": "outputs/partitioned-shadow/whole-engine-ax.txt",
+      "bytes": 8620,
+      "sha256": "04a5e9e264adb2a8155cb914896500e70c5d5a8216d6f737f337368cb9e5fe13"
+    },
+    {
+      "path": "outputs/partitioned-shadow/whole-engine.json",
+      "bytes": 1175,
+      "sha256": "d9148c296ed792942e958197528172b878318a1a3912e9008bf979d942787fbb"
+    },
+    {
+      "path": "outputs/partitioned-shadow/whole-side-door-engine-ax.txt",
+      "bytes": 8819,
+      "sha256": "9bf23d3133f26282be09a00c12d957e3171758c07f8ca821fe1b0a615b0791ad"
+    },
+    {
+      "path": "outputs/partitioned-shadow/whole-side-door-engine.json",
+      "bytes": 1163,
+      "sha256": "4ac5e9a8b5d2c333b5fdc1c135a2667739b4bbe7f791f7fa7f25d9ffa8732ad4"
+    },
+    {
+      "path": "outputs/partitioned-shadow/whole-warm-ax.txt",
+      "bytes": 8635,
+      "sha256": "dd2632d75ccfd40649ef023056a90b99fe30f865cc8b3499ae6da712ce5b7863"
+    },
+    {
+      "path": "outputs/partitioned-shadow/whole-warm.json",
+      "bytes": 1171,
+      "sha256": "4cac64523003d4377b9233d7eeae1d46c2767ed63b78a67480b39799450be408"
+    },
+    {
+      "path": "scripts/archive-partitioned-shadow-stage.py",
+      "bytes": 2735,
+      "sha256": "55121eab029c833f8559cf4ed2e50c616b64728fe5f618ec90c1ab73c61a0537"
+    },
+    {
+      "path": "scripts/summarize-partitioned-shadow.py",
+      "bytes": 864,
+      "sha256": "971ff8b7bde4bb9a55055bf92c778342278f86761bafe25304c5791b1bd69979"
+    },
+    {
+      "path": "scripts/verify-directional-shadow-cache.mjs",
+      "bytes": 4408,
+      "sha256": "3a13d1b9faa6b2d72c92e81f95b9a1289be93690cd6971089cd20ca2f6bd8eb0"
+    },
+    {
+      "path": "scripts/verify-partitioned-shadow-integrity.py",
+      "bytes": 2033,
+      "sha256": "bf02fc15fa673ac7fcab199fd02a14d6e9fe4cc1cf07c94fc1fe1e3e98d6eb73"
+    },
+    {
+      "path": "scripts/verify-partitioned-shadow.mjs",
+      "bytes": 5728,
+      "sha256": "5bd0cacc75496192cf2cac804337e172cea30ad356ae013d755fd2bf793b7e7f"
+    },
+    {
+      "path": "work/partitioned-shadow/base-cache-tests.log",
+      "bytes": 781,
+      "sha256": "4a54051ab2cfe0dff2c99263f629efe8a1134f55b3364500607d70953015a4cc"
+    },
+    {
+      "path": "work/partitioned-shadow/build.log",
+      "bytes": 3180,
+      "sha256": "de7002ecb8dc631ad28dd29e89b02c1784da2ae0e77dd2c623d527a6881c584e"
+    },
+    {
+      "path": "work/partitioned-shadow/final-build.log",
+      "bytes": 3544,
+      "sha256": "808bf365bfea2b476c78eba8566d116cb9889a9949c05202cb731ff5ee16dd03"
+    },
+    {
+      "path": "work/partitioned-shadow/final-tests.log",
+      "bytes": 455,
+      "sha256": "26225687ef7e06f7a28cb3b2617a199e3dc9e85f1d3008ccd2e205c9df445a58"
+    },
+    {
+      "path": "work/partitioned-shadow/final-types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/partitioned-shadow/integrity.log",
+      "bytes": 74,
+      "sha256": "11932fc03938f487caa7b8bb703092740d1a64da0f1d6d44a20acf6072fda199"
+    },
+    {
+      "path": "work/partitioned-shadow/summary.log",
+      "bytes": 2951,
+      "sha256": "311ad2defacf0f15b6f92f2ab26b91f5cc1124d4d9002bdd0bb8385927e9bf65"
+    },
+    {
+      "path": "work/partitioned-shadow/tests.log",
+      "bytes": 455,
+      "sha256": "26225687ef7e06f7a28cb3b2617a199e3dc9e85f1d3008ccd2e205c9df445a58"
+    },
+    {
+      "path": "work/partitioned-shadow/types.log",
+      "bytes": 767,
+      "sha256": "b9f1be4452d427f9e58741aea42ffe3d0155ba7980fe25abd4346cd3171c3dc2"
+    }
+  ]
+}

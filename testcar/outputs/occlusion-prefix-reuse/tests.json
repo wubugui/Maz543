@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "invalidations": [
+    "preceding object matrix",
+    "target matrix",
+    "camera projection",
+    "attribute version",
+    "preceding depth write",
+    "morph influence",
+    "MSAA samples",
+    "scissor clear",
+    "global clipping",
+    "custom shader callback",
+    "custom shader define",
+    "shader precision",
+    "missing preceding draw",
+    "nonfinite transform"
+  ],
+  "pendingResultsNeverRead": true,
+  "queriesAndHooksReleasedOnFailure": true,
+  "colorOnlyDepthProofSafe": true,
+  "missingDepthClearFallsBack": true,
+  "contextLossInvalidates": true,
+  "epochStorageBounded": true,
+  "changingPrefixesAvoidQuerySpam": true,
+  "limits": "Actual Three scene objects with deterministic WebGL query/coverage transport. Tests proof invalidation and lifecycle; actual complete-frame raster pixels and performance require browser evidence."
+}

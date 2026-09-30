@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "mode": "throws",
+      "messages": [
+        "fatal"
+      ],
+      "closedPorts": 0
+    },
+    {
+      "mode": "no-disposer",
+      "messages": [
+        "fatal"
+      ],
+      "closedPorts": 0
+    },
+    {
+      "mode": "asset-fatal",
+      "messages": [
+        "fatal"
+      ],
+      "closedPorts": 0
+    },
+    {
+      "mode": "recoverable-error",
+      "messages": [
+        "error"
+      ],
+      "closedPorts": 0
+    },
+    {
+      "mode": "normal-dispose",
+      "messages": [
+        "disposed"
+      ],
+      "closedPorts": 1
+    },
+    {
+      "mode": "dispose-throws",
+      "messages": [
+        "disposed",
+        "fatal"
+      ],
+      "closedPorts": 1
+    }
+  ],
+  "limits": "Actual worker entry and host protocol with an injected viewport constructor; no WebGL allocation or whole-model browser performance is measured."
+}

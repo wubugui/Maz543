@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-c0289d6a-430f-4817-915f-38735c1ac627",
+  "upload": {
+    "upload_id": "92ca516a-8e2f-4c6c-8360-a3af95ab52fc",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "92ca516a-8e2f-4c6c-8360-a3af95ab52fc",
+    "name": "hub-rear-box-frame.py",
+    "mime": "text/x-python",
+    "size": 9659,
+    "sha256": "5bba1550e0c031ad38200b0ac63d74aa3bbcf2ec3509b9ac44f8a3374e0a1d69",
+    "created": 1790789577.2368715,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/92ca516a-8e2f-4c6c-8360-a3af95ab52fc/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A actual rear boxes between axles and scoped dark frame",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "87d83d96b97bc85043bac0d4bf143a01",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "5f977cc236876cc1dd6bfbced3ff91e2",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "92ca516a-8e2f-4c6c-8360-a3af95ab52fc",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "62cbbfbe-da54-4513-a598-e1ecd57e1557",
+    "task_ids": [
+      "48aad07d-787d-4401-a723-f6317dd5a894"
+    ],
+    "task_id": "48aad07d-787d-4401-a723-f6317dd5a894"
+  }
+}

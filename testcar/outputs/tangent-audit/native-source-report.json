@@ -1,0 +1,737 @@
+{
+  "readOnly": true,
+  "savedNativeFiles": false,
+  "cases": [
+    {
+      "file": "MAZ543A_Textured.blend",
+      "name": "BL_Merged_body_OD_green_aged_enamel",
+      "mesh": "BL_Bay_door_-1_Topology",
+      "vertices": 5192,
+      "loops": 20664,
+      "triangles": 10072,
+      "minimumLength": 0.0,
+      "maximumLength": 1.0000001381994108,
+      "tinyLoopCount": 3,
+      "nonUnitAt1e4": 3,
+      "uvLayer": "SurfaceUV",
+      "tinyIncidentTriangles": 6,
+      "tinyIncidentMinArea": 5.185609097679844e-08,
+      "tinyIncidentMaxArea": 5.662442603693307e-08,
+      "tinyIncidentZeroAreas": 0,
+      "samples": [
+        {
+          "loop": 18092,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                18092,
+                18093,
+                18094
+              ],
+              "uvDeterminant": 1.0685852203096147e-10,
+              "surfaceArea": 5.185609097679844e-08
+            },
+            {
+              "loops": [
+                18092,
+                18094,
+                18095
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 5.185609097679844e-08
+            }
+          ]
+        },
+        {
+          "loop": 18852,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                18852,
+                18853,
+                18854
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 5.662442603693307e-08
+            },
+            {
+              "loops": [
+                18852,
+                18854,
+                18855
+              ],
+              "uvDeterminant": 5.834310812247168e-11,
+              "surfaceArea": 5.662442603693307e-08
+            }
+          ]
+        },
+        {
+          "loop": 19230,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                19228,
+                19229,
+                19230
+              ],
+              "uvDeterminant": 1.0685852203096147e-10,
+              "surfaceArea": 5.185609097679844e-08
+            },
+            {
+              "loops": [
+                19228,
+                19230,
+                19231
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 5.185609097679844e-08
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "name": "BL_Merged_body_Rubber_window_seals",
+      "mesh": "BL_Bay_door_gasket_-1_Topology",
+      "vertices": 576,
+      "loops": 2376,
+      "triangles": 1136,
+      "minimumLength": 0.0,
+      "maximumLength": 1.0000001467542547,
+      "tinyLoopCount": 1,
+      "nonUnitAt1e4": 1,
+      "uvLayer": "SurfaceUV",
+      "tinyIncidentTriangles": 2,
+      "tinyIncidentMinArea": 2.3365018364529533e-08,
+      "tinyIncidentMaxArea": 2.3365018364529533e-08,
+      "tinyIncidentZeroAreas": 0,
+      "samples": [
+        {
+          "loop": 1052,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                1050,
+                1051,
+                1052
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 2.3365018364529533e-08
+            },
+            {
+              "loops": [
+                1050,
+                1052,
+                1053
+              ],
+              "uvDeterminant": 9.261036382213206e-11,
+              "surfaceArea": 2.3365018364529533e-08
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "name": "BL_Merged_wheels_pivot_002_Tyre_rubber",
+      "mesh": "BL_Tyre_0_curved_tread_blocks_Topology",
+      "vertices": 67168,
+      "loops": 263068,
+      "triangles": 126804,
+      "minimumLength": 0.0,
+      "maximumLength": 1.0000001696233893,
+      "tinyLoopCount": 21,
+      "nonUnitAt1e4": 21,
+      "uvLayer": "SurfaceUV",
+      "tinyIncidentTriangles": 33,
+      "tinyIncidentMinArea": 1.7016580566265032e-09,
+      "tinyIncidentMaxArea": 8.745603826270645e-09,
+      "tinyIncidentZeroAreas": 0,
+      "samples": [
+        {
+          "loop": 124637,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                124637,
+                124638,
+                124640
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 4.06249967050226e-09
+            }
+          ]
+        },
+        {
+          "loop": 124778,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                124777,
+                124778,
+                124780
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 2.6743691707143205e-09
+            },
+            {
+              "loops": [
+                124778,
+                124779,
+                124780
+              ],
+              "uvDeterminant": 2.716049607442983e-12,
+              "surfaceArea": 6.229957691670409e-09
+            }
+          ]
+        },
+        {
+          "loop": 126737,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                126737,
+                126738,
+                126739
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 4.04651318650928e-09
+            },
+            {
+              "loops": [
+                126737,
+                126739,
+                126740
+              ],
+              "uvDeterminant": 8.957279362675763e-13,
+              "surfaceArea": 8.125141489170132e-09
+            }
+          ]
+        },
+        {
+          "loop": 127160,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                127157,
+                127158,
+                127160
+              ],
+              "uvDeterminant": 1.0658141036401503e-13,
+              "surfaceArea": 5.527496683287853e-09
+            },
+            {
+              "loops": [
+                127158,
+                127159,
+                127160
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 8.66805320600739e-09
+            }
+          ]
+        },
+        {
+          "loop": 127647,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                127647,
+                127648,
+                127650
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 5.5474525407192125e-09
+            }
+          ]
+        },
+        {
+          "loop": 128558,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                128557,
+                128558,
+                128560
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 3.005453663886057e-09
+            },
+            {
+              "loops": [
+                128558,
+                128559,
+                128560
+              ],
+              "uvDeterminant": 2.630784479151771e-12,
+              "surfaceArea": 6.427776147497571e-09
+            }
+          ]
+        },
+        {
+          "loop": 128978,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                128977,
+                128978,
+                128980
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 5.3283173432230036e-09
+            },
+            {
+              "loops": [
+                128978,
+                128979,
+                128980
+              ],
+              "uvDeterminant": 1.2092549184217205e-12,
+              "surfaceArea": 5.457088080730106e-09
+            }
+          ]
+        },
+        {
+          "loop": 129748,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                129747,
+                129748,
+                129750
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 1.7016580566265032e-09
+            },
+            {
+              "loops": [
+                129748,
+                129749,
+                129750
+              ],
+              "uvDeterminant": 4.058975378029572e-12,
+              "surfaceArea": 7.322305133614928e-09
+            }
+          ]
+        },
+        {
+          "loop": 130170,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                130167,
+                130168,
+                130170
+              ],
+              "uvDeterminant": -7.219114195322618e-12,
+              "surfaceArea": 5.05241410609787e-09
+            },
+            {
+              "loops": [
+                130168,
+                130169,
+                130170
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 7.708899275806487e-09
+            }
+          ]
+        },
+        {
+          "loop": 131007,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                131007,
+                131008,
+                131010
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 3.2969121539513886e-09
+            }
+          ]
+        },
+        {
+          "loop": 132618,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                132617,
+                132618,
+                132620
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 2.243012886943209e-09
+            },
+            {
+              "loops": [
+                132618,
+                132619,
+                132620
+              ],
+              "uvDeterminant": 1.035260766002466e-11,
+              "surfaceArea": 8.20219910274481e-09
+            }
+          ]
+        },
+        {
+          "loop": 133038,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                133037,
+                133038,
+                133040
+              ],
+              "uvDeterminant": 0.0,
+              "surfaceArea": 3.949166327778263e-09
+            },
+            {
+              "loops": [
+                133038,
+                133039,
+                133040
+              ],
+              "uvDeterminant": 4.6203041392800515e-12,
+              "surfaceArea": 8.745603826270645e-09
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "MAZ543A_Cooling_Master.blend",
+      "name": "COOL_upper_input_flange_0",
+      "mesh": "COOL_upper_input_flange_0_mesh",
+      "vertices": 3904,
+      "loops": 16384,
+      "triangles": 7824,
+      "minimumLength": 0.0,
+      "maximumLength": 1.0000001498960338,
+      "tinyLoopCount": 16,
+      "nonUnitAt1e4": 16,
+      "uvLayer": "UVMap",
+      "tinyIncidentTriangles": 16,
+      "tinyIncidentMinArea": 4.2793551420112334e-10,
+      "tinyIncidentMaxArea": 4.2793551420112334e-10,
+      "tinyIncidentZeroAreas": 0,
+      "samples": [
+        {
+          "loop": 15406,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15404,
+                15405,
+                15406
+              ],
+              "uvDeterminant": -5.410660719462612e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        },
+        {
+          "loop": 15411,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15411,
+                15412,
+                15413
+              ],
+              "uvDeterminant": -5.493901653608191e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        },
+        {
+          "loop": 15431,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15431,
+                15432,
+                15433
+              ],
+              "uvDeterminant": -5.410667540672875e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        },
+        {
+          "loop": 15440,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15438,
+                15439,
+                15440
+              ],
+              "uvDeterminant": -5.327424332790542e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        },
+        {
+          "loop": 15689,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15687,
+                15688,
+                15689
+              ],
+              "uvDeterminant": -5.431482463791326e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        },
+        {
+          "loop": 15690,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15690,
+                15691,
+                15692
+              ],
+              "uvDeterminant": -5.431477916317817e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        },
+        {
+          "loop": 15707,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15706,
+                15707,
+                15708
+              ],
+              "uvDeterminant": -5.57714258775377e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        },
+        {
+          "loop": 15711,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15709,
+                15710,
+                15711
+              ],
+              "uvDeterminant": -5.577147135227278e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        },
+        {
+          "loop": 15958,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15956,
+                15957,
+                15958
+              ],
+              "uvDeterminant": -5.369042241909483e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        },
+        {
+          "loop": 15960,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15959,
+                15960,
+                15961
+              ],
+              "uvDeterminant": -5.493915864462906e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        },
+        {
+          "loop": 15978,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15976,
+                15977,
+                15978
+              ],
+              "uvDeterminant": -5.493920411936415e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        },
+        {
+          "loop": 15986,
+          "tangent": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "triangles": [
+            {
+              "loops": [
+                15986,
+                15987,
+                15988
+              ],
+              "uvDeterminant": -5.41066981440963e-07,
+              "surfaceArea": 4.2793551420112334e-10
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "D12A525A_Engine_Master.blend",
+      "name": "D12_cover_L_D12_cover_enamel_cover",
+      "missing": true,
+      "candidates": []
+    }
+  ]
+}

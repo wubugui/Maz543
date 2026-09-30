@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "browser": "IAB, existing tab 3, localhost:3000",
+  "scenario": "Full model ready, click development fault inside actual render worker, click existing reload control, same-page component recreated, open right front door",
+  "failed": {
+    "canvasAbsent": true,
+    "exportDisabled": true,
+    "staleSimulationAndRenderStatsRemoved": true,
+    "reloadAvailable": true
+  },
+  "recovered": {
+    "viewportImageCount": 1,
+    "geometryInstances": 8868,
+    "cachedIdle": true,
+    "mechanicalHz": 240,
+    "backlogSeconds": 0,
+    "rightFrontDoorDegrees": 99
+  },
+  "limits": "Actual UI fault injection and recovery, not a GPU driver crash, hardware memory measurement, many-cycle leak soak, or dynamic FPS benchmark. The full physical/product acceptance gates remain open."
+}

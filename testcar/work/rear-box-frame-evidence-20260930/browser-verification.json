@@ -1,0 +1,91 @@
+{
+  "timeUTC": "2026-09-30T17:41:31.372Z",
+  "status": "PASS actual browser rear position/material and identical-camera checks",
+  "http": 200,
+  "renderer": "ANGLE (NVIDIA, NVIDIA GeForce GTX 970 (0x000013C2) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "meshCount": 3297,
+  "cameras": [
+    {
+      "name": "left-side",
+      "cameraDifference": 0,
+      "projectionDifference": 0
+    },
+    {
+      "name": "right-side",
+      "cameraDifference": 0,
+      "projectionDifference": 0
+    },
+    {
+      "name": "rear-oblique",
+      "cameraDifference": 0,
+      "projectionDifference": 0
+    },
+    {
+      "name": "rear-opposite",
+      "cameraDifference": 0,
+      "projectionDifference": 0
+    },
+    {
+      "name": "rear-top",
+      "cameraDifference": 0,
+      "projectionDifference": 0
+    },
+    {
+      "name": "box-mount",
+      "cameraDifference": 0,
+      "projectionDifference": 0
+    }
+  ],
+  "parts": [
+    {
+      "name": "BL_RearRestoration_Rear_box_-1",
+      "maxBoundsDifferenceM": 1.1920928955078125e-7
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_1",
+      "maxBoundsDifferenceM": 1.1920928955078125e-7
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_lid_-1",
+      "maxBoundsDifferenceM": 1.1920928955078125e-7
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_lid_1",
+      "maxBoundsDifferenceM": 1.1920928955078125e-7
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_latch_-1_4.94",
+      "maxBoundsDifferenceM": 1.1920928955078125e-7
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_latch_-1_5.24",
+      "maxBoundsDifferenceM": 1.1920928955078125e-7
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_latch_1_4.94",
+      "maxBoundsDifferenceM": 1.1920928955078125e-7
+    },
+    {
+      "name": "BL_RearRestoration_Rear_box_latch_1_5.24",
+      "maxBoundsDifferenceM": 1.1920928955078125e-7
+    },
+    {
+      "name": "BL_RearRestoration_mount_-1_3.37",
+      "maxBoundsDifferenceM": 5.960464477539063e-8
+    },
+    {
+      "name": "BL_RearRestoration_mount_-1_3.67",
+      "maxBoundsDifferenceM": 5.960464477539063e-8
+    },
+    {
+      "name": "BL_RearRestoration_mount_1_3.37",
+      "maxBoundsDifferenceM": 5.960464477539063e-8
+    },
+    {
+      "name": "BL_RearRestoration_mount_1_3.67",
+      "maxBoundsDifferenceM": 5.960464477539063e-8
+    }
+  ],
+  "maxBoundsDifferenceM": 1.1920928955078125e-7,
+  "limits": "Photo fitted original dimensions; subjective visual acceptance, internal/lid mechanics, suspension travel and full undercarriage paint remain OPEN"
+}

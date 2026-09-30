@@ -1,0 +1,51 @@
+{
+  "idempotency_key": "maz-front-2610bbf1-95cf-42d9-91ae-8917dea9199b",
+  "upload": {
+    "upload_id": "001e0b25-9f8c-4581-9df9-56a065a118d8",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "001e0b25-9f8c-4581-9df9-56a065a118d8",
+    "name": "hub-front-installation-audit.py",
+    "mime": "text/x-python",
+    "size": 7019,
+    "sha256": "0c6cb5a6618e6b42634974bca2adf16b0d4ef8255224091d137049003a580e59",
+    "created": 1790783421.4835055,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/001e0b25-9f8c-4581-9df9-56a065a118d8/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A read-only front mounting surface audit",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "6943eb2996cda5a5f22fb21bd820f061",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "001e0b25-9f8c-4581-9df9-56a065a118d8",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "5bb44b17-6e65-4bf6-ae2a-bf0a7903fb94",
+    "task_ids": [
+      "4ff911eb-dede-4f4a-b779-a4a0df52643e"
+    ],
+    "task_id": "4ff911eb-dede-4f4a-b779-a4a0df52643e"
+  }
+}

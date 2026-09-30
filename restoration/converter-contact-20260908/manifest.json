@@ -1,0 +1,77 @@
+[
+  {
+    "file": "lib/converterFreewheel.ts",
+    "bytes": 7297,
+    "sha256": "7defd71f584034f3cd8306ef344f318ce28fb47fd07fd2227b0bdf9a88eafaf7"
+  },
+  {
+    "file": "scripts/measure-converter-freewheel-inertia.py",
+    "bytes": 1538,
+    "sha256": "af28e86c2b3bfeb14633c68ef485eb92c2dd3604dd66502b413ae11005c9104b"
+  },
+  {
+    "file": "scripts/diagnose-converter-freewheel-contact.mjs",
+    "bytes": 4032,
+    "sha256": "29af225898d53f04c84475c565d6814b55e5460c31dbff6707b6593a4624da9e"
+  },
+  {
+    "file": "scripts/verify-freewheel-contact-native.py",
+    "bytes": 4692,
+    "sha256": "6c0e8bf50b6df63cbc2311fcde97329728fb688c966a7d6d3dfda69849061a89"
+  },
+  {
+    "file": "docs/CONVERTER_CONTACT_20260908.md",
+    "bytes": 4913,
+    "sha256": "c95bdf6e0f6585de67ad93667ec8711cf81180a7cc31d2167996cdd2675579e3"
+  },
+  {
+    "file": "outputs/converter-freewheel-inertia.json",
+    "bytes": 1209,
+    "sha256": "9db25311edae2f92f7527b598543cb2606dd0f4f7f4adbc7655bd7126781b3de"
+  },
+  {
+    "file": "outputs/converter-freewheel-contact-native.json",
+    "bytes": 67294,
+    "sha256": "512fd47e4a6c324c3557e45bcc271ced6f5ed60d9e576cf65884aeb040788812"
+  },
+  {
+    "file": "outputs/converter-freewheel-timestep-comparison.json",
+    "bytes": 1032,
+    "sha256": "ae4a043aea99b9395d367b6255ea8f159d9726c7c3f965ad02e267da74eb3d2b"
+  },
+  {
+    "file": "outputs/converter-freewheel-contact-diagnostic.json",
+    "bytes": 205271,
+    "sha256": "2e55eb1454b053c1ec4e3ab68f2d3ab77e34be25e1384e876e13c1055e30ca02"
+  },
+  {
+    "file": "outputs/converter-freewheel-contact-diagnostic-8000hz.json",
+    "bytes": 203806,
+    "sha256": "d5a8778a173d66aebfa8a16ce342afc8610539f1bd5ab7409cf327d085f47f69"
+  },
+  {
+    "file": "outputs/converter-freewheel-contact-diagnostic-16000hz.json",
+    "bytes": 204086,
+    "sha256": "36d68c5c011541d0c6235b8ec6ca50d9b9d955187dbf13d60dffc5869ed05bfc"
+  },
+  {
+    "file": "work/transmission/converter-freewheel-contact.log",
+    "bytes": 3202,
+    "sha256": "4b347ffbe528c3413af795228253205d24641990cc8b3bcd23d980654a810e1e"
+  },
+  {
+    "file": "work/transmission/converter-freewheel-contact-8000hz.log",
+    "bytes": 3191,
+    "sha256": "d870e0f8a92e89b6c34ba37cc823b788a324c882d465a09cfbf679400831268a"
+  },
+  {
+    "file": "work/transmission/converter-freewheel-contact-16000hz.log",
+    "bytes": 3196,
+    "sha256": "0cc39aa09e70f3b36c3b1ea55fb4699514c4129082d9712e6c386eff05558acc"
+  },
+  {
+    "file": "work/transmission/converter-freewheel-contact-native.log",
+    "bytes": 697,
+    "sha256": "735e9ec7497241d52e19becf58ee42b30389652b85d956916687d9ca960ae1cc"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-cd7d9305-62fa-4733-bc0d-551f961c47f1",
+  "upload": {
+    "upload_id": "2d396458-d56c-4e97-b762-b2a0bbe37e93",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "2d396458-d56c-4e97-b762-b2a0bbe37e93",
+    "name": "hub-front-assembly-audit.py",
+    "mime": "text/x-python",
+    "size": 967,
+    "sha256": "ab23d21b43853321fdc46f1630737b1e4e16efb02829b630c511b3dada2b2198",
+    "created": 1790775911.6342967,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/2d396458-d56c-4e97-b762-b2a0bbe37e93/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A front assembly read-only space audit",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "4d28289c72ba6fa94712f94df1d49e7f",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "96223522b9749b711e4fa4e9394aedf0",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "2d396458-d56c-4e97-b762-b2a0bbe37e93",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "f0e468fe-bbf3-4e6e-bba4-5a2f678321c7",
+    "task_ids": [
+      "b4a0a428-c7c6-4357-9d93-fc4e85651150"
+    ],
+    "task_id": "b4a0a428-c7c6-4357-9d93-fc4e85651150"
+  }
+}

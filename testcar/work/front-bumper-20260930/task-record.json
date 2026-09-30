@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-946a7eb7-484c-43f2-b9c9-1377145fb826",
+  "upload": {
+    "upload_id": "1e775643-9180-494e-a125-b4156359a7e6",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "1e775643-9180-494e-a125-b4156359a7e6",
+    "name": "hub-front-bumper.py",
+    "mime": "text/x-python",
+    "size": 9394,
+    "sha256": "85ef63c90ed063edfac181465b5283d1f01fa7243686dd6f0e8c300c09d47719",
+    "created": 1790781557.6782944,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/1e775643-9180-494e-a125-b4156359a7e6/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A boxed bumper and single recovery hook",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "968f3ce10d3be66c50e7f8e9664b6189",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "9775409cd56f666e9b39bd5ce93432b1",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "1e775643-9180-494e-a125-b4156359a7e6",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "7c40c57c-af94-422f-aa88-c95d6e40ff08",
+    "task_ids": [
+      "295147ac-d2d6-44d1-91d5-e53517201f3c"
+    ],
+    "task_id": "295147ac-d2d6-44d1-91d5-e53517201f3c"
+  }
+}

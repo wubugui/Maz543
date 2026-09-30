@@ -1,0 +1,164 @@
+{
+  "stage": "CAD presentation optimization and software-rendering evidence",
+  "wholeGoal": "ACTIVE; all 16 gates OPEN",
+  "status": "Safe shadow/cache/lifecycle improvements enabled. Full-vehicle dynamic performance not accepted. Experimental batching disabled by default.",
+  "files": [
+    {
+      "path": "AGENT_START_HERE.md",
+      "bytes": 20734,
+      "sha256": "f3942363bafc367ebd006b52a8d03d00b1804b486b9c0b33b404123ed65ca5d6"
+    },
+    {
+      "path": "NEXT_AGENT_PROMPT.md",
+      "bytes": 13136,
+      "sha256": "1181dc03464b4b6b8ae7e68b9af164aa721273682c27fb337477ebdb966c2237"
+    },
+    {
+      "path": "docs/CONTINUATION_20260908.md",
+      "bytes": 14080,
+      "sha256": "4334306eb19148a35ac4b46b088899c9c04cf6c7aff96c6f4fe9e0fd630cbdaa"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 26016,
+      "sha256": "ec6378a89890cd97cde159cd64d62147939da23535a6d7290aeeb1f2a330ce5e"
+    },
+    {
+      "path": "docs/PERFORMANCE_CAD_DISPLAY_20260908.md",
+      "bytes": 6383,
+      "sha256": "e89fcf35d5af3034ce03be6a80377b5c9b607391360794a2dec68ab468c25a2e"
+    },
+    {
+      "path": "components/vehicle-viewer.tsx",
+      "bytes": 53412,
+      "sha256": "ed6eaf1d984a68669b73f41c614ef52df55445e1031673b1cc3dee3be69101ec"
+    },
+    {
+      "path": "components/workshop.tsx",
+      "bytes": 48294,
+      "sha256": "ad24154f49f277e290f01d3beab825a95aba3b71a30d04d821de6e76253a962c"
+    },
+    {
+      "path": "lib/compositedShadows.ts",
+      "bytes": 2958,
+      "sha256": "395417ce69a7d7fde54343f59ed6ccc3ac76132cf13116407f958cac776a1e9a"
+    },
+    {
+      "path": "lib/displayInstances.ts",
+      "bytes": 4285,
+      "sha256": "c60a2e5df5f59dbf7ff29d5bafb103426ad3a67cfa0e1bf100457a25312905fc"
+    },
+    {
+      "path": "lib/displayBatches.ts",
+      "bytes": 6929,
+      "sha256": "69a6356cff46df33d5928aa97c6303ecea1c1f4feb70512b4eda9d79cf439bed"
+    },
+    {
+      "path": "lib/displayFrameCache.ts",
+      "bytes": 2819,
+      "sha256": "b98ebe6d892955f81fdf2a26f4ee5a0057855aeaac58a2370b585ff9318a4253"
+    },
+    {
+      "path": "lib/renderResources.ts",
+      "bytes": 1530,
+      "sha256": "37396b2639bb74b86b71d5843e7bb85ef3af0cd791fba6d43c3a2dfc5f9c5d44"
+    },
+    {
+      "path": "lib/mechanics.ts",
+      "bytes": 5634,
+      "sha256": "0fafa0071dbe7fa6baa1ff0922c1ea2acfda197e3cc563fb2438048cab54c228"
+    },
+    {
+      "path": "lib/export-model.ts",
+      "bytes": 1039,
+      "sha256": "efa5da8c3970e76e88850ce0ee1aa08f689c55960846ab1d7b283e89c1dc3809"
+    },
+    {
+      "path": "scripts/inventory-render-assets.py",
+      "bytes": 1614,
+      "sha256": "ca8c59ff56dbe52c64f8ae3a5f801f6f5789c08b907a97b4ab0934e3194996a4"
+    },
+    {
+      "path": "scripts/verify-display-presentation.mjs",
+      "bytes": 8316,
+      "sha256": "81c337b15aafb417e45dae914275c4ba66597c601a39e01ff4b3461f4651c86c"
+    },
+    {
+      "path": "scripts/summarize-render-performance.py",
+      "bytes": 1999,
+      "sha256": "bf09980739ecd9822666983ed244334bd5ca039be1969e67dcab925429e05c22"
+    },
+    {
+      "path": "scripts/archive-render-performance-stage.py",
+      "bytes": 2017,
+      "sha256": "d3a2d772770bb56bb5c43b537fbf741a46b0e53e49406293971e4be65ad2c6c7"
+    },
+    {
+      "path": "outputs/render-asset-inventory.json",
+      "bytes": 24195,
+      "sha256": "0b8ec4b4f11b57100cecd2ac6306f387f8be6a0e1c09e599bac612e06455aa3e"
+    },
+    {
+      "path": "outputs/render-performance-results.json",
+      "bytes": 7626,
+      "sha256": "fd0f324c8f5dc59df9ad3486857d3ab3967c1c62f4cfab1303b6a5c909d83430"
+    },
+    {
+      "path": "work/render-performance-build.log",
+      "bytes": 2872,
+      "sha256": "fca42d0d1f8975dc165bab6a6886a2a6b8890bec01c0d2a0b0ba68dd67b15eee"
+    },
+    {
+      "path": "outputs/render-performance-evidence/batch-initial-ax.txt",
+      "bytes": 8556,
+      "sha256": "46a66fc03e810aba541bf8571a3988a469c39ec96366232fed3f17bd8654c3ad"
+    },
+    {
+      "path": "outputs/render-performance-evidence/batch-warm-ax.txt",
+      "bytes": 8511,
+      "sha256": "946b14dfad92a22e3bbeca2ab6057f0008551784c1a2e730aabaa9d16617358d"
+    },
+    {
+      "path": "outputs/render-performance-evidence/cache-invalidated-by-start-ax.txt",
+      "bytes": 8762,
+      "sha256": "3dd9b5249c85ac9532ec055994b588b1bdd3a6cfd25845102c5b6cdcbc6e09c0"
+    },
+    {
+      "path": "outputs/render-performance-evidence/cached-drive-ax.txt",
+      "bytes": 8832,
+      "sha256": "5087fa1194f3bb7c0bf0afbd271347de8939c3b0dce67d258cf63ca69b02f82f"
+    },
+    {
+      "path": "outputs/render-performance-evidence/cached-drive.png",
+      "bytes": 62432,
+      "sha256": "1a520d4d7588b29ac12ca06658c6699d8674e8d75afb34522c61bedab89edc5c"
+    },
+    {
+      "path": "outputs/render-performance-evidence/final-inspection-ax.txt",
+      "bytes": 8799,
+      "sha256": "59189bbabfc639009fe39acbac095a251d46d2ea516f0455d2adea5c9c2a7f05"
+    },
+    {
+      "path": "outputs/render-performance-evidence/instance-door-ax.txt",
+      "bytes": 8569,
+      "sha256": "949efdffcf44ecf9061b826d1ab4be2a12a8ebd95d6441bd18b159300bcd3741"
+    },
+    {
+      "path": "outputs/render-performance-evidence/instance-initial-ax.txt",
+      "bytes": 8381,
+      "sha256": "03d4f37a390de056cd75d361c68cf3b2a81908afdbb23409d11ceb21c4ed8967"
+    },
+    {
+      "path": "outputs/render-performance-evidence/presentation-tests.json",
+      "bytes": 1527,
+      "sha256": "bd4e32ce07d0e413bd4514829bbda6d2a9da7893ae5e48d72d4e4c50c461e2b1"
+    },
+    {
+      "path": "outputs/render-performance-evidence/shadow-audit-ax.txt",
+      "bytes": 8254,
+      "sha256": "cd19af0bb479fec3d329160422ea47fcdf262c5496a68f4a438dbe3fab217b2c"
+    }
+  ],
+  "fileCount": 31,
+  "totalBytes": 388511
+}

@@ -1,0 +1,22 @@
+{
+  "large": {
+    "vertices": 10614,
+    "faces": 14158,
+    "cells": 57,
+    "area": 0.03897116638886209,
+    "meanRadius": 0.19003989701108753,
+    "grooveArea": 0.0029031678188861446,
+    "depth": 0.00018,
+    "liningThickness": 0.0003
+  },
+  "small": {
+    "vertices": 8004,
+    "faces": 10468,
+    "cells": 30,
+    "area": 0.013879754524318708,
+    "meanRadius": 0.06571316233794625,
+    "grooveArea": 0.0006220904279671845,
+    "depth": 0.00018,
+    "liningThickness": 0.0003
+  }
+}

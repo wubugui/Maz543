@@ -1,0 +1,37 @@
+{
+  "status": "Source reconciliation in progress; whole goal active",
+  "sources": {
+    "manual1973": "https://sinref.ru/avtomobili/MAZ/011-Maz-543-shassi-tehopisanie-1973-g-04600_raznie_13/009.htm",
+    "catalog2008": "https://www.autoopt.ru/auto/catalog/special/maz/maz-543_7310/109",
+    "catalogImageCopy": "https://drivermanuals.ru/Maz/maz-543_%287310%29_zapchasti/page-016.html"
+  },
+  "verifiedTopology": [
+    "Pump connected to input shaft through lockup body and casing",
+    "Turbine hub connected to turbine shaft and planetary gearbox input",
+    "Two independent reactors each coupled through a roller freewheel",
+    "Two freewheels share a bolted fixed inner race",
+    "Outer freewheel races attached to reactors with screws and splines"
+  ],
+  "catalog2008Counts": {
+    "535-1501092 spring": 24,
+    "0000-1709202 roller": 24,
+    "535-1501088-01 outer race": 2,
+    "543-1709144-01 thrust ring": 2,
+    "221608 M6x22 screw": 24
+  },
+  "rollerDesignation": {
+    "raw543Text": "Ролик Б4125х22Н",
+    "interpretation": "Nominal diameter 12.5 mm, length 22 mm; decimal comma absent in the copied 543 text",
+    "corroboration": "Related factory catalog transcriptions explicitly show Б4 12,5х22Н or Б-IV 12,5Х22А; grade suffix/variant applicability remains to verify",
+    "oldModel": "Diameter 12 mm and length 16 mm were fitted, not sourced"
+  },
+  "springGeometryFinding": {
+    "manualImage": "000-0687.jpg, figure 43 callout 4",
+    "catalogImage": "catalog-converter-pump-reactors.gif, callout 25",
+    "observation": "Both drawings show a curled/bent form; they do not substantiate the current long round-wire compression helix",
+    "implementationDirection": "Replace the unsupported helical-spring assumption with a source-guided curved-strip contact study",
+    "unverified": "Exact three-dimensional strip outline, thickness, axial width, free curvature, material, seating and preload"
+  },
+  "variantCaution": "The 2008 543/7310 catalog is later than the 1973/1977 543A manuals. Do not import KZKT nine-spring or MAZ537 thirty-six-spring counts into this component. Factory variant equivalence is not proven.",
+  "invalidatedClaims": "Prior numeric/native/browser coil parity is still a true statement about that experimental model, but does not validate the spring as original MAZ geometry or its stiffness. Do not extend that model into a factory-faithful converter assembly unchanged."
+}

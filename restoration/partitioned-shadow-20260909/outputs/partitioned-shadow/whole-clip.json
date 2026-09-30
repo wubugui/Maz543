@@ -1,0 +1,38 @@
+{
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "partitionedShadow": {
+    "kind": "partitioned-shadow-depth",
+    "eligible": false,
+    "reasons": [
+      "shadow clipping"
+    ],
+    "staticCasters": 0,
+    "dynamicCasters": 0,
+    "staticRefreshed": false,
+    "staticDraws": 0,
+    "dynamicDraws": 0,
+    "depthCopies": 0,
+    "extraBytes": 0,
+    "limits": "Development experiment; all original color/normal/transmission draws remain. No stable FPS claim."
+  },
+  "width": 1212,
+  "height": 773,
+  "order": "optimized-then-baseline",
+  "baseline": {
+    "calls": 9138,
+    "triangles": 20352995,
+    "synchronizedMs": 1752.9000000022352
+  },
+  "optimized": {
+    "calls": 9138,
+    "triangles": 20352995,
+    "synchronizedMs": 1728.3999999985099
+  },
+  "optimizedReadbackError": 0,
+  "baselineReadbackError": 0,
+  "differentPixels": 0,
+  "maxChannelDifference": 0,
+  "rmsChannelDifference": 0,
+  "identicalPixels": true,
+  "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+}

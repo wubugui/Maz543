@@ -1,0 +1,480 @@
+{
+  "solids": [
+    {
+      "name": "TX_direct_body46_sleeve",
+      "badEdges": 0,
+      "volumeM3": 0.00017658658510943465
+    },
+    {
+      "name": "TX_direct_annular_piston",
+      "badEdges": 0,
+      "volumeM3": 0.0002303605327455877
+    },
+    {
+      "name": "TX_direct_booster_back_wall",
+      "badEdges": 0,
+      "volumeM3": 5.763546490924228e-05
+    },
+    {
+      "name": "TX_direct_booster_inner_guide",
+      "badEdges": 0,
+      "volumeM3": 1.7562175942689195e-06
+    },
+    {
+      "name": "TX_direct_piston_seal_outer_moving",
+      "badEdges": 0,
+      "volumeM3": 4.95092365664106e-07
+    },
+    {
+      "name": "TX_direct_piston_seal_inner_fixed",
+      "badEdges": 0,
+      "volumeM3": 2.1462125545349247e-07
+    },
+    {
+      "name": "TX_direct_support50_journal",
+      "badEdges": 0,
+      "volumeM3": 0.00011440218287395084
+    },
+    {
+      "name": "TX_direct_support50_inlet",
+      "badEdges": 0,
+      "volumeM3": 8.728761502927886e-07
+    },
+    {
+      "name": "TX_direct_feed_seal_0",
+      "badEdges": 0,
+      "volumeM3": 1.2228685603724714e-06
+    },
+    {
+      "name": "TX_direct_feed_seal_1",
+      "badEdges": 0,
+      "volumeM3": 1.2228685603727278e-06
+    },
+    {
+      "name": "TX_direct_feed_bearing_inner",
+      "badEdges": 0,
+      "volumeM3": 6.738726167391543e-06
+    },
+    {
+      "name": "TX_direct_feed_bearing_outer",
+      "badEdges": 0,
+      "volumeM3": 7.06638914757367e-06
+    },
+    {
+      "name": "TX_case47_front_web",
+      "badEdges": 0,
+      "volumeM3": 0.0008395189561044169
+    },
+    {
+      "name": "TX_end_cover_-0.25",
+      "badEdges": 0,
+      "volumeM3": 0.0029333594111991502
+    },
+    {
+      "name": "TX_feed_ball_0_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_1_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_2_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_3_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_4_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_5_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_6_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_7_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_8_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_9_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_10_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_11_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_12_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_ball_13_surface",
+      "badEdges": 0,
+      "volumeM3": 1.3658642918197588e-08
+    },
+    {
+      "name": "TX_feed_cage_rail_-1",
+      "badEdges": 0,
+      "volumeM3": 1.198288581860171e-07
+    },
+    {
+      "name": "TX_feed_cage_rail_1",
+      "badEdges": 0,
+      "volumeM3": 1.1983600063463945e-07
+    },
+    {
+      "name": "TX_feed_cage_bridge_0",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_1",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_2",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_3",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_4",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_5",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_6",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_7",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_8",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_9",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_10",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_11",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_12",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    },
+    {
+      "name": "TX_feed_cage_bridge_13",
+      "badEdges": 0,
+      "volumeM3": 1.188004066860253e-09
+    }
+  ],
+  "routes": [
+    {
+      "angleDegrees": 0,
+      "travelMM": 0,
+      "segments": 14,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 15,
+      "travelMM": 4.5,
+      "segments": 9,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 30,
+      "travelMM": 0,
+      "segments": 9,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 45,
+      "travelMM": 4.5,
+      "segments": 14,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 60,
+      "travelMM": 0,
+      "segments": 20,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 75,
+      "travelMM": 4.5,
+      "segments": 25,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 90,
+      "travelMM": 0,
+      "segments": 30,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 105,
+      "travelMM": 4.5,
+      "segments": 35,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 120,
+      "travelMM": 0,
+      "segments": 41,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 135,
+      "travelMM": 4.5,
+      "segments": 46,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 150,
+      "travelMM": 0,
+      "segments": 51,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 165,
+      "travelMM": 4.5,
+      "segments": 56,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 180,
+      "travelMM": 0,
+      "segments": 61,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 195,
+      "travelMM": 4.5,
+      "segments": 67,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 210,
+      "travelMM": 0,
+      "segments": 67,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 225,
+      "travelMM": 4.5,
+      "segments": 61,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 240,
+      "travelMM": 0,
+      "segments": 56,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 255,
+      "travelMM": 4.5,
+      "segments": 51,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 270,
+      "travelMM": 0,
+      "segments": 46,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 285,
+      "travelMM": 4.5,
+      "segments": 41,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 300,
+      "travelMM": 0,
+      "segments": 35,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 315,
+      "travelMM": 4.5,
+      "segments": 30,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 330,
+      "travelMM": 0,
+      "segments": 25,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    },
+    {
+      "angleDegrees": 345,
+      "travelMM": 4.5,
+      "segments": 20,
+      "blocked": 0,
+      "pressureFace": "TX_direct_annular_piston"
+    }
+  ],
+  "sealStates": [
+    {
+      "frame": 0,
+      "travelMM": 0
+    },
+    {
+      "frame": 120,
+      "travelMM": 0
+    },
+    {
+      "frame": 240,
+      "travelMM": 0
+    },
+    {
+      "frame": 360,
+      "travelMM": 4.5
+    },
+    {
+      "frame": 480,
+      "travelMM": 0
+    }
+  ],
+  "stepJointChecks": [
+    {
+      "ring": 0,
+      "axialOffsetMM": -0.4,
+      "angle": 3.1315926535897933,
+      "open": true
+    },
+    {
+      "ring": 0,
+      "axialOffsetMM": -0.4,
+      "angle": 3.151592653589793,
+      "open": false
+    },
+    {
+      "ring": 0,
+      "axialOffsetMM": 0,
+      "angle": 3.141592653589793,
+      "open": true
+    },
+    {
+      "ring": 0,
+      "axialOffsetMM": 0.4,
+      "angle": 3.151592653589793,
+      "open": true
+    },
+    {
+      "ring": 0,
+      "axialOffsetMM": 0.4,
+      "angle": 3.1315926535897933,
+      "open": false
+    },
+    {
+      "ring": 1,
+      "axialOffsetMM": -0.4,
+      "angle": 3.1315926535897933,
+      "open": true
+    },
+    {
+      "ring": 1,
+      "axialOffsetMM": -0.4,
+      "angle": 3.151592653589793,
+      "open": false
+    },
+    {
+      "ring": 1,
+      "axialOffsetMM": 0,
+      "angle": 3.141592653589793,
+      "open": true
+    },
+    {
+      "ring": 1,
+      "axialOffsetMM": 0.4,
+      "angle": 3.151592653589793,
+      "open": true
+    },
+    {
+      "ring": 1,
+      "axialOffsetMM": 0.4,
+      "angle": 3.1315926535897933,
+      "open": false
+    }
+  ],
+  "failures": [],
+  "limits": "Reconstructed dimensions/routes. 24 angular samples and 5 seal states; no flow, pressure, leakage, elastic ring squeeze, bearing loads or factory dimensional acceptance."
+}

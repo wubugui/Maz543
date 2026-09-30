@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "unavailableQueriesNeverRead": true,
+  "positiveAndNegativeControlsChecked": true,
+  "sourceGeometryAndMaterialsNeverDisposed": true,
+  "targetsAndQueriesReleasedOnSuccessFailureContextLossAndDisposal": true,
+  "rendererMasksClearStateTargetAndHooksRestored": true,
+  "limits": "Controlled WebGL transport with real Three resource objects; actual raster controls and potential occlusion counts require browser validation."
+}

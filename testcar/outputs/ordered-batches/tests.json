@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "clonedMaterialReorderingReproduced": true,
+  "sourceMaterialOrderRestored": true,
+  "actualBatchIndirectOrderMatchesNative": true,
+  "originalWorldFrustumCulling": true,
+  "shadowTraversalOrderWithinMaterial": true,
+  "partialMaterialAndParentOrderFallback": true,
+  "splitMaterialGroupsAllocateNoCopies": true,
+  "originalSelectionAndGlbBytesPreserved": true,
+  "sourceGeometryCopyExact": true,
+  "limits": "Constructed CPU renderer-list and batch tests plus actual GLB export. Whole-vehicle shader pixels and throughput require browser verification."
+}

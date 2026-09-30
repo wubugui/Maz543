@@ -1,0 +1,317 @@
+{
+  "kind": "static-occluder-volume-probe",
+  "boundsMode": "correlated-corners",
+  "width": 1212,
+  "height": 773,
+  "snapshotMeshes": 2315,
+  "stableOccluders": 1934,
+  "movingOrNew": 381,
+  "unsupportedMeshes": 8,
+  "queryCandidates": 2314,
+  "passes": [
+    {
+      "requestedSamples": 4,
+      "actualSamples": 4,
+      "depthBits": 24,
+      "depthDraws": 1934,
+      "depthTriangles": 4236729
+    },
+    {
+      "requestedSamples": 2,
+      "actualSamples": 2,
+      "depthBits": 24,
+      "depthDraws": 1934,
+      "depthTriangles": 4236729
+    },
+    {
+      "requestedSamples": 0,
+      "actualSamples": 0,
+      "depthBits": 24,
+      "depthDraws": 1934,
+      "depthTriangles": 4236729
+    }
+  ],
+  "snapshotAndQuerySubmitMs": 2624.39999999851,
+  "beforeReadbackError": 0,
+  "afterReadbackError": 0,
+  "displayDifferentPixels": 0,
+  "estimatedTemporaryTargetBytes": 67455072,
+  "limits": "Finite isolated depth snapshot using stock normal materials and full shared geometry. No product draw skipped. Stable means two observed equal input frames only; not future immobility. Volume zero results do not yet authorize color/transmission/shadow culling, cross-frame reuse, shader precision parity or steady-state FPS gains.",
+  "controlsPassed": true,
+  "controlResults": [
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "near-control",
+      "triangles": 0,
+      "stableFrames": 0,
+      "control": "near-pass",
+      "anySamplesPassed": true
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "far-control",
+      "triangles": 0,
+      "stableFrames": 0,
+      "control": "far-fail",
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 2,
+      "actualSamples": 2,
+      "name": "near-control",
+      "triangles": 0,
+      "stableFrames": 0,
+      "control": "near-pass",
+      "anySamplesPassed": true
+    },
+    {
+      "samples": 2,
+      "actualSamples": 2,
+      "name": "far-control",
+      "triangles": 0,
+      "stableFrames": 0,
+      "control": "far-fail",
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 0,
+      "actualSamples": 0,
+      "name": "near-control",
+      "triangles": 0,
+      "stableFrames": 0,
+      "control": "near-pass",
+      "anySamplesPassed": true
+    },
+    {
+      "samples": 0,
+      "actualSamples": 0,
+      "name": "far-control",
+      "triangles": 0,
+      "stableFrames": 0,
+      "control": "far-fail",
+      "anySamplesPassed": false
+    }
+  ],
+  "visibility": [
+    {
+      "requestedSamples": 4,
+      "queried": 2314,
+      "zeroVolumes": 1923,
+      "zeroVolumeTriangles": 3269902,
+      "zeroStableVolumes": 1556,
+      "zeroMovingVolumes": 367
+    },
+    {
+      "requestedSamples": 2,
+      "queried": 2314,
+      "zeroVolumes": 1938,
+      "zeroVolumeTriangles": 3302030,
+      "zeroStableVolumes": 1566,
+      "zeroMovingVolumes": 372
+    },
+    {
+      "requestedSamples": 0,
+      "queried": 2314,
+      "zeroVolumes": 1941,
+      "zeroVolumeTriangles": 3301882,
+      "zeroStableVolumes": 1571,
+      "zeroMovingVolumes": 370
+    }
+  ],
+  "largestZeroVolumes": [
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+      "triangles": 738276,
+      "stableFrames": 55,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 2,
+      "actualSamples": 2,
+      "name": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+      "triangles": 738276,
+      "stableFrames": 55,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 0,
+      "actualSamples": 0,
+      "name": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+      "triangles": 738276,
+      "stableFrames": 55,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+      "triangles": 24220,
+      "stableFrames": 6,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "BL_Merged_wheels_pivot_016_Phosphated_steel",
+      "triangles": 24220,
+      "stableFrames": 6,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 2,
+      "actualSamples": 2,
+      "name": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+      "triangles": 24220,
+      "stableFrames": 6,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 2,
+      "actualSamples": 2,
+      "name": "BL_Merged_wheels_pivot_016_Phosphated_steel",
+      "triangles": 24220,
+      "stableFrames": 6,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 0,
+      "actualSamples": 0,
+      "name": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+      "triangles": 24220,
+      "stableFrames": 6,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 0,
+      "actualSamples": 0,
+      "name": "BL_Merged_wheels_pivot_016_Phosphated_steel",
+      "triangles": 24220,
+      "stableFrames": 6,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "TX_18_reverse_ring",
+      "triangles": 22864,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 2,
+      "actualSamples": 2,
+      "name": "TX_18_reverse_ring",
+      "triangles": 22864,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 0,
+      "actualSamples": 0,
+      "name": "TX_18_reverse_ring",
+      "triangles": 22864,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "TX_40_first_ring",
+      "triangles": 19504,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 2,
+      "actualSamples": 2,
+      "name": "TX_40_first_ring",
+      "triangles": 19504,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 0,
+      "actualSamples": 0,
+      "name": "TX_40_first_ring",
+      "triangles": 19504,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "TX_reverse_disc_01_mesh",
+      "triangles": 19408,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "TX_reverse_disc_11_mesh",
+      "triangles": 19408,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "TX_reverse_disc_13_mesh",
+      "triangles": 19408,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "TX_reverse_disc_03_mesh",
+      "triangles": 19408,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "TX_reverse_disc_05_mesh",
+      "triangles": 19408,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "TX_reverse_disc_07_mesh",
+      "triangles": 19408,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "TX_reverse_disc_09_mesh",
+      "triangles": 19408,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "TX_first_disc_01_mesh",
+      "triangles": 19408,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    },
+    {
+      "samples": 4,
+      "actualSamples": 4,
+      "name": "TX_first_disc_11_mesh",
+      "triangles": 19408,
+      "stableFrames": 1,
+      "anySamplesPassed": false
+    }
+  ]
+}

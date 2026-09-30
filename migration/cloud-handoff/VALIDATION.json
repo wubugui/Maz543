@@ -1,13 +1,40 @@
 {
   "environment": "Isolated migration snapshot on original Windows workstation; cloud Linux runtime not tested",
-  "checkedUTC": "2026-09-30T18:43:00Z",
   "npmCi": "PASS on normal retry after first ECONNRESET; 568 packages installed from retained lockfile",
   "typescriptNoEmit": "PASS, exit 0",
   "productionBuild": "PASS, exit 0; large chunk, experimental glob and route-classification warnings retained",
-  "currentGltf": {"errors": 0, "warnings": 0, "infos": 565, "hints": 0},
-  "fullOriginalFileHashes": {"files": 3486, "expectedBytes": 10000026585, "failures": 0},
-  "knownPatternPublicAudit": {"textFilesScanned": 2707, "findings": 0, "forbiddenTrackedPaths": 0},
-  "evidenceArchives": {"zipFilesScanned": 5, "secretFindings": 0, "privateDeliveryFindingsAfterRedaction": 0},
+  "currentGltf": {
+    "errors": 0,
+    "warnings": 0,
+    "infos": 565,
+    "hints": 0
+  },
+  "fullOriginalFileHashes": {
+    "files": 3484,
+    "expectedBytes": 10000025394,
+    "failures": 0
+  },
+  "knownPatternPublicAudit": {
+    "textFilesScanned": 2707,
+    "findings": 0,
+    "forbiddenTrackedPaths": 0
+  },
+  "evidenceArchives": {
+    "zipFilesScanned": 5,
+    "secretFindings": 0,
+    "privateDeliveryFindingsAfterRedaction": 0
+  },
   "cloudHubConnectivity": "UNTESTED; original workflow restricted to authorized LAN Hub",
-  "wholeVehicleAcceptance": {"openGates": 16, "userSubjectiveAcceptance": "NOT GIVEN"}
+  "wholeVehicleAcceptance": {
+    "openGates": 16,
+    "userSubjectiveAcceptance": "NOT GIVEN"
+  },
+  "manifestDuplicateEntriesRemoved": 2,
+  "reportUpdatedUTC": "2026-09-30T19:47:30.939Z",
+  "originalDocumentEncoding": "Four main documents valid UTF-8; 0 replacement characters",
+  "staticActiveImportPathCaseAudit": {
+    "checked": 212,
+    "failures": 0
+  },
+  "originalGitBaselineKnownSecretPatternFindings": 0
 }

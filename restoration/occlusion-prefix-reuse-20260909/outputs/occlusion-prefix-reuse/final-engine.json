@@ -1,0 +1,56 @@
+{
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "occlusionPrefix": {
+    "kind": "exact-depth-prefix-occlusion",
+    "queried": 0,
+    "skipped": 1,
+    "savedTriangles": 768,
+    "reusedPositive": 5,
+    "waitingForStablePrefix": 6947,
+    "pending": 0,
+    "unsupported": 1,
+    "passes": 3,
+    "queryError": 0,
+    "prefixNodes": 41694,
+    "proofEntries": 6953,
+    "epochReset": false,
+    "firstChangedDepthDraws": [
+      {
+        "pass": "1/2/1212.5/773.75/4/24/0/0/1212/773/0/0/0",
+        "object": "C5_flywheel_involute_ring",
+        "material": "D12_machined_steel"
+      },
+      {
+        "pass": "2/2/1212.5/773.75/2/24/0/0/1212/773/0/0/0",
+        "object": "C5_flywheel_involute_ring",
+        "material": "D12_machined_steel"
+      },
+      {
+        "pass": "3/2/1212.5/773.75/0/24/0/0/1212/773/4/1/1020",
+        "object": "C5_flywheel_involute_ring",
+        "material": ""
+      }
+    ],
+    "limits": "Development-only exact ordered-depth-prefix proofs, original query coverage/MSAA. No shadow culling, moving-target inference, spatial bounds or steady-state FPS claim."
+  },
+  "width": 1212,
+  "height": 773,
+  "order": "optimized-then-baseline",
+  "baseline": {
+    "calls": 9305,
+    "triangles": 21582915,
+    "synchronizedMs": 1324.3000000044703
+  },
+  "optimized": {
+    "calls": 9304,
+    "triangles": 21582147,
+    "synchronizedMs": 1273.8999999985099
+  },
+  "optimizedReadbackError": 0,
+  "baselineReadbackError": 0,
+  "differentPixels": 0,
+  "maxChannelDifference": 0,
+  "rmsChannelDifference": 0,
+  "identicalPixels": true,
+  "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+}

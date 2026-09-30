@@ -1,0 +1,511 @@
+{
+  "closedPositiveVolumeSolids": 68,
+  "rollerStates": 72,
+  "rows": [
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 0,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 1,
+      "wedgeGapM": 1.807231456041336e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 2,
+      "wedgeGapM": 1.8049031496047974e-06,
+      "innerRayDistanceM": 0.005999999586492777
+    },
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 3,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 4,
+      "wedgeGapM": 1.8049031496047974e-06,
+      "innerRayDistanceM": 0.005999999586492777
+    },
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 5,
+      "wedgeGapM": 1.8086284399032593e-06,
+      "innerRayDistanceM": 0.005999999586492777
+    },
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 6,
+      "wedgeGapM": 1.8058344721794128e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 7,
+      "wedgeGapM": 1.8081627786159515e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 8,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.005999998189508915
+    },
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 9,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 10,
+      "wedgeGapM": 1.8076971173286438e-06,
+      "innerRayDistanceM": 0.005999998655170202
+    },
+    {
+      "frame": 0,
+      "row": "front",
+      "roller": 11,
+      "wedgeGapM": 1.8058344721794128e-06,
+      "innerRayDistanceM": 0.0060000005178153515
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 0,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 1,
+      "wedgeGapM": 1.807231456041336e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 2,
+      "wedgeGapM": 1.8063001334667206e-06,
+      "innerRayDistanceM": 0.006000000052154064
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 3,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 4,
+      "wedgeGapM": 1.8058344721794128e-06,
+      "innerRayDistanceM": 0.005999999586492777
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 5,
+      "wedgeGapM": 1.8081627786159515e-06,
+      "innerRayDistanceM": 0.005999999586492777
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 6,
+      "wedgeGapM": 1.805368810892105e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 7,
+      "wedgeGapM": 1.8086284399032593e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 8,
+      "wedgeGapM": 1.8063001334667206e-06,
+      "innerRayDistanceM": 0.005999998655170202
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 9,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 10,
+      "wedgeGapM": 1.8076971173286438e-06,
+      "innerRayDistanceM": 0.005999998189508915
+    },
+    {
+      "frame": 0,
+      "row": "rear",
+      "roller": 11,
+      "wedgeGapM": 1.8063001334667206e-06,
+      "innerRayDistanceM": 0.006000000052154064
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 0,
+      "wedgeGapM": 0.0004815841093659401,
+      "innerRayDistanceM": 0.006007198244333267
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 1,
+      "wedgeGapM": 0.000481585506349802,
+      "innerRayDistanceM": 0.006007196847349405
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 2,
+      "wedgeGapM": 0.000481585506349802,
+      "innerRayDistanceM": 0.0060071940533816814
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 3,
+      "wedgeGapM": 0.0004815841093659401,
+      "innerRayDistanceM": 0.006007198244333267
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 4,
+      "wedgeGapM": 0.00048158178105950356,
+      "innerRayDistanceM": 0.0060071987099945545
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 5,
+      "wedgeGapM": 0.00048158736899495125,
+      "innerRayDistanceM": 0.006007194519042969
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 6,
+      "wedgeGapM": 0.0004815841093659401,
+      "innerRayDistanceM": 0.00600719777867198
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 7,
+      "wedgeGapM": 0.00048158690333366394,
+      "innerRayDistanceM": 0.006007196381688118
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 8,
+      "wedgeGapM": 0.00048158783465623856,
+      "innerRayDistanceM": 0.006007192190736532
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 9,
+      "wedgeGapM": 0.0004815841093659401,
+      "innerRayDistanceM": 0.006007198244333267
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 10,
+      "wedgeGapM": 0.00048158736899495125,
+      "innerRayDistanceM": 0.006007198244333267
+    },
+    {
+      "frame": 60,
+      "row": "front",
+      "roller": 11,
+      "wedgeGapM": 0.0004815831780433655,
+      "innerRayDistanceM": 0.006007199175655842
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 0,
+      "wedgeGapM": 0.0004815841093659401,
+      "innerRayDistanceM": 0.00600719777867198
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 1,
+      "wedgeGapM": 0.0004815850406885147,
+      "innerRayDistanceM": 0.006007195916026831
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 2,
+      "wedgeGapM": 0.000481585506349802,
+      "innerRayDistanceM": 0.0060071940533816814
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 3,
+      "wedgeGapM": 0.0004815841093659401,
+      "innerRayDistanceM": 0.006007198244333267
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 4,
+      "wedgeGapM": 0.00048158271238207817,
+      "innerRayDistanceM": 0.0060071987099945545
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 5,
+      "wedgeGapM": 0.00048158690333366394,
+      "innerRayDistanceM": 0.006007195450365543
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 6,
+      "wedgeGapM": 0.0004815831780433655,
+      "innerRayDistanceM": 0.006007198244333267
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 7,
+      "wedgeGapM": 0.00048158690333366394,
+      "innerRayDistanceM": 0.006007196381688118
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 8,
+      "wedgeGapM": 0.00048158690333366394,
+      "innerRayDistanceM": 0.0060071926563978195
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 9,
+      "wedgeGapM": 0.0004815841093659401,
+      "innerRayDistanceM": 0.00600719777867198
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 10,
+      "wedgeGapM": 0.00048158643767237663,
+      "innerRayDistanceM": 0.006007198244333267
+    },
+    {
+      "frame": 60,
+      "row": "rear",
+      "roller": 11,
+      "wedgeGapM": 0.00048158271238207817,
+      "innerRayDistanceM": 0.006007199175655842
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 0,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 1,
+      "wedgeGapM": 1.807231456041336e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 2,
+      "wedgeGapM": 1.8049031496047974e-06,
+      "innerRayDistanceM": 0.005999999586492777
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 3,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 4,
+      "wedgeGapM": 1.8049031496047974e-06,
+      "innerRayDistanceM": 0.005999999586492777
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 5,
+      "wedgeGapM": 1.8086284399032593e-06,
+      "innerRayDistanceM": 0.005999999586492777
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 6,
+      "wedgeGapM": 1.8058344721794128e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 7,
+      "wedgeGapM": 1.8081627786159515e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 8,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.005999998189508915
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 9,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 10,
+      "wedgeGapM": 1.8076971173286438e-06,
+      "innerRayDistanceM": 0.005999998655170202
+    },
+    {
+      "frame": 120,
+      "row": "front",
+      "roller": 11,
+      "wedgeGapM": 1.8058344721794128e-06,
+      "innerRayDistanceM": 0.0060000005178153515
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 0,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 1,
+      "wedgeGapM": 1.807231456041336e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 2,
+      "wedgeGapM": 1.8063001334667206e-06,
+      "innerRayDistanceM": 0.006000000052154064
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 3,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 4,
+      "wedgeGapM": 1.8058344721794128e-06,
+      "innerRayDistanceM": 0.005999999586492777
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 5,
+      "wedgeGapM": 1.8081627786159515e-06,
+      "innerRayDistanceM": 0.005999999586492777
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 6,
+      "wedgeGapM": 1.805368810892105e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 7,
+      "wedgeGapM": 1.8086284399032593e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 8,
+      "wedgeGapM": 1.8063001334667206e-06,
+      "innerRayDistanceM": 0.005999998655170202
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 9,
+      "wedgeGapM": 1.8067657947540283e-06,
+      "innerRayDistanceM": 0.00599999725818634
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 10,
+      "wedgeGapM": 1.8076971173286438e-06,
+      "innerRayDistanceM": 0.005999998189508915
+    },
+    {
+      "frame": 120,
+      "row": "rear",
+      "roller": 11,
+      "wedgeGapM": 1.8063001334667206e-06,
+      "innerRayDistanceM": 0.006000000052154064
+    }
+  ],
+  "limits": "Saved static endpoints only; approximate faceted contact to fitted 7-degree ramps. No roller friction, wedging load, spring force, blade flow or strength acceptance. Roller count remains fitted."
+}

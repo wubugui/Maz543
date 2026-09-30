@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-9ba24af9-db29-4bf9-83db-45fa3f4ec1be",
+  "upload": {
+    "upload_id": "3dbac5b0-332f-424e-9a42-cb681b78d3c5",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "3dbac5b0-332f-424e-9a42-cb681b78d3c5",
+    "name": "hub-front-export-tangents.py",
+    "mime": "text/x-python",
+    "size": 2165,
+    "sha256": "b8d3af1609946c0169535cd9fd0414282461e965c2379bdc3bc88e8b0c5363ad",
+    "created": 1790786017.8386936,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/3dbac5b0-332f-424e-9a42-cb681b78d3c5/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A preserve actual normal-map tangent export",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "0f6144dde212cbcada00fe6578f8b45e",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "fdbaf8d6500eb4a8812e7699d3989376",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "3dbac5b0-332f-424e-9a42-cb681b78d3c5",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "d4fc37ea-c50a-49f1-be18-914f401d32b9",
+    "task_ids": [
+      "10ddf009-945c-4149-b440-38f620ddd6e7"
+    ],
+    "task_id": "10ddf009-945c-4149-b440-38f620ddd6e7"
+  }
+}

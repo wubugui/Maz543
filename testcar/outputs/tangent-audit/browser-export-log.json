@@ -1,0 +1,68 @@
+[
+  {
+    "level": "info",
+    "message": "MAZ worker export: load-exporter",
+    "timestamp": "2026-09-08T17:36:42.953Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: probe:blob-array-buffer:4",
+    "timestamp": "2026-09-08T17:36:46.685Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: probe:file-reader:4",
+    "timestamp": "2026-09-08T17:36:46.686Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: probe:canvas-png:88",
+    "timestamp": "2026-09-08T17:36:46.686Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: copy-model",
+    "timestamp": "2026-09-08T17:36:53.361Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: export-tangents:repaired=632:unresolved=98",
+    "timestamp": "2026-09-08T17:36:53.770Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: encode-geometry",
+    "timestamp": "2026-09-08T17:36:53.770Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: encode-images:9",
+    "timestamp": "2026-09-08T17:36:57.292Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: assemble-binary-blob:346418624",
+    "timestamp": "2026-09-08T17:37:06.748Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: encoded:349722392",
+    "timestamp": "2026-09-08T17:37:06.829Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: probe:textured-glb-byte-equality:true:2420",
+    "timestamp": "2026-09-08T17:37:22.870Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "conservativeContainmentAndNearPlaneFallback": true,
+  "exactNormalMaterialBorrowed": true,
+  "unavailableQueriesNeverRead": true,
+  "controlsRequired": true,
+  "poseGeometrySphereLayersVisibilityCameraChangesRestoreDrawing": true,
+  "unsupportedPassFallback": true,
+  "drawExceptionsRestoreHookAndInvalidate": true,
+  "ownedResourcesReleasedOnFailureContextLossAndDisposal": true,
+  "sourceResourcesRetained": true,
+  "limits": "Real Three objects with controlled WebGL query transport; no claim of actual raster equality or speed without browser evidence."
+}

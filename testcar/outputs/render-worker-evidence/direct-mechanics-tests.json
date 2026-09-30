@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "renderThreadBlockedMs": 2000,
+  "directControlWhileRenderBlocked": true,
+  "doorReachedDegrees": 40.62500000000002,
+  "doorResponseMs": 632.6251,
+  "directResetWhileRenderBlocked": true,
+  "generationIsolation": true,
+  "fullStatePortEquality": true,
+  "stepHz": 240,
+  "limits": "Real Node workers execute the browser mechanics module. This verifies scheduling and state equality, not browser GPU throughput or factory physics."
+}

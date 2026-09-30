@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "unchangedPoseBlock": {
+    "characters": 16735,
+    "sha256": "2c5f2f173d2409ab471cbbd518732a395d34c1efdfb1b2ab51489b73f7773eb1"
+  },
+  "mechanicalSources": [
+    {
+      "file": "lib/mechanics.ts",
+      "sha256": "4db4fbc850535a0feece60bd2309312322e79778ab7d8e1db2210a91f882d89e",
+      "unchanged": true
+    },
+    {
+      "file": "lib/mechanicalTimeline.ts",
+      "sha256": "2274170d87b522aa5d76e5b7d22b9cf45f7a444f5f9a03b0360cd7e63061adbb",
+      "unchanged": true
+    },
+    {
+      "file": "lib/starting.ts",
+      "sha256": "9b2ed3b37ad48bcfcb6a4d3412e6858556c89dd159f2b221c82d95ef6f584a63",
+      "unchanged": true
+    },
+    {
+      "file": "lib/suspension.ts",
+      "sha256": "e293e07136fa3600ccb43e7b41133fefd7d99550698c5e355d3620da33611ec6",
+      "unchanged": true
+    },
+    {
+      "file": "lib/transmission.ts",
+      "sha256": "9f4cbb54a1cd9bb372d10e9ea080410b7d9e05263b936b81bca6249a8fa79bb7",
+      "unchanged": true
+    },
+    {
+      "file": "lib/transmissionDynamics.ts",
+      "sha256": "c65036b031f24cddcd5fbf6773b48f9dfb680ef18b95a6048992574385716bdf",
+      "unchanged": true
+    },
+    {
+      "file": "lib/transmissionHydraulics.ts",
+      "sha256": "50cd133bb1ca8558c53ec447f7fa9f4198768254db2c6bb6ad27957d582baade",
+      "unchanged": true
+    },
+    {
+      "file": "lib/cooling.ts",
+      "sha256": "34b5edb068b844220eb043f4c0638738d62571a6c40e0bb33eb0bf109a9e986e",
+      "unchanged": true
+    }
+  ],
+  "limits": "Source preservation and native asset hashes do not replace cross-context pixel comparison, calibration or full vehicle acceptance. Worker host, scheduling and export diagnostics are separate changes."
+}

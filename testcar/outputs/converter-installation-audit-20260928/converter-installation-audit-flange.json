@@ -1,0 +1,1038 @@
+{
+  "status": "AUDIT ONLY - nothing saved; installation OPEN",
+  "blender": "4.5.13 LTS",
+  "method": "Fixed-support flange rear face placed on the gearbox housing front face (source: reactor hub 52 -> casing 14). Axes: both modules revolve about their local X.",
+  "fixedSupportFlangeConverterFrameM": {
+    "xMin": 0.03449999913573265,
+    "xMax": 0.04450000077486038,
+    "rMin": 0.029999999105907123,
+    "rMax": 0.08000000338809662,
+    "axisCentroidYZ": [
+      0.0,
+      0.0
+    ],
+    "lengthM": 0.010000001639127731
+  },
+  "gearboxHousingFrontXM": -0.26499998569488525,
+  "turbineHub2FrontInTransmissionFrameM": -0.3984999880194664,
+  "gearboxShaft15ShortfallToTurbineHubMM": 113.49999159574509,
+  "placementXInTransmissionFrameM": -0.30949998646974564,
+  "converterRootMatrixBeforeInstall": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "shaft15": {
+    "gearbox_TX_15_input_shaft": {
+      "xMin": -0.2849999964237213,
+      "xMax": 0.054999999701976776,
+      "rMin": 0.014999999552953561,
+      "rMax": 0.03400000184774399,
+      "axisCentroidYZ": [
+        0.0,
+        0.0
+      ],
+      "lengthM": 0.3399999961256981
+    },
+    "converter_CA_15_turbine_shaft_installed": {
+      "xMin": -0.3984999656677246,
+      "xMax": -0.06949998438358307,
+      "rMin": 0.009999999670806607,
+      "rMax": 0.024000000893120776,
+      "axisCentroidYZ": [
+        0.0,
+        0.0
+      ],
+      "lengthM": 0.32899998128414154
+    },
+    "outerRadiusDifferenceMM": 10.000000954623212,
+    "boreRadiusDifferenceMM": 4.9999998821469545,
+    "lengthDifferenceMM": 11.000014841556549,
+    "rearEndDifferenceMM": 124.49998408555984
+  },
+  "converterEnvelopeTransmissionFrameM": {
+    "xMin": -0.5295000076293945,
+    "xMax": -0.06949998438358307,
+    "rMax": 0.3120000147631944
+  },
+  "gearboxHousingEnvelopeTransmissionFrameM": {
+    "xMin": -0.26499998569488525,
+    "xMax": 0.257999986410141,
+    "rMax": 0.29605109430013266,
+    "meshes": 48
+  },
+  "gearboxModuleEnvelopeTransmissionFrameM": {
+    "xMin": -0.2849999964237213,
+    "xMax": 0.28999999165534973,
+    "rMax": 0.29605109430013266
+  },
+  "axialOverlapConverterVsGearboxHousingMM": 195.50000131130219,
+  "gearboxAxisWorld": {
+    "origin": [
+      -0.36000001430511475,
+      0.0,
+      1.0499999523162842
+    ],
+    "direction": [
+      1.0,
+      0.0,
+      0.0
+    ]
+  },
+  "converterAlongGearboxAxisM": [
+    -0.5295000076293945,
+    -0.06949996948242188
+  ],
+  "engine": {
+    "D12_flywheel": {
+      "alongGearboxAxisM": [
+        -3.0900001525878906,
+        -2.9549999237060547
+      ],
+      "centroidOffAxisM": 0.3399989551990949,
+      "localXAxisAngleToGearboxDeg": 0.0
+    },
+    "D12_flywheel_bellhousing": {
+      "alongGearboxAxisM": [
+        -3.123000144958496,
+        -3.0329999923706055
+      ],
+      "centroidOffAxisM": 0.3400003905329145,
+      "localXAxisAngleToGearboxDeg": 0.0
+    },
+    "D12_crankshaft": null
+  },
+  "interference": {
+    "aabbCandidates": 945,
+    "meshesWithSurfaceCrossings": 57,
+    "conflicts": [
+      {
+        "vehicleMesh": "drive_0040",
+        "hiddenInRender": false,
+        "trianglePairs": 9802,
+        "converterMeshes": 58,
+        "topConverterMeshes": [
+          [
+            "CA_front_reactor_outer_race",
+            1482
+          ],
+          [
+            "CA_front_reactor_strip_06",
+            770
+          ],
+          [
+            "CA_front_reactor_strip_07",
+            705
+          ],
+          [
+            "CA_turbine_outer_shroud",
+            548
+          ],
+          [
+            "CA_pump_core_ring",
+            474
+          ],
+          [
+            "CA_front_reactor_outer_shroud",
+            458
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_end_cover_-0.25",
+        "hiddenInRender": false,
+        "trianglePairs": 9302,
+        "converterMeshes": 34,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            2500
+          ],
+          [
+            "CA_52_fixed_hub",
+            1096
+          ],
+          [
+            "CA_pump_blade_02",
+            350
+          ],
+          [
+            "CA_pump_blade_01",
+            320
+          ],
+          [
+            "CA_pump_blade_00",
+            298
+          ],
+          [
+            "CA_pump_blade_03",
+            202
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_case47_front_web",
+        "hiddenInRender": false,
+        "trianglePairs": 9202,
+        "converterMeshes": 34,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            2886
+          ],
+          [
+            "CA_52_fixed_hub",
+            1370
+          ],
+          [
+            "CA_pump_blade_02",
+            280
+          ],
+          [
+            "CA_pump_blade_01",
+            278
+          ],
+          [
+            "CA_pump_blade_00",
+            270
+          ],
+          [
+            "CA_pump_blade_23",
+            142
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "drive_0041",
+        "hiddenInRender": false,
+        "trianglePairs": 4431,
+        "converterMeshes": 19,
+        "topConverterMeshes": [
+          [
+            "CA_01_input_shaft",
+            688
+          ],
+          [
+            "CA_turbine_core_ring",
+            594
+          ],
+          [
+            "CA_turbine_outer_shroud",
+            545
+          ],
+          [
+            "CA_09_rotating_casing",
+            503
+          ],
+          [
+            "CA_02_turbine_hub",
+            278
+          ],
+          [
+            "CA_05_lockup_piston",
+            273
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "BL_Final_drive_1_cast_housing",
+        "hiddenInRender": false,
+        "trianglePairs": 4106,
+        "converterMeshes": 31,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            1026
+          ],
+          [
+            "CA_52_fixed_hub",
+            520
+          ],
+          [
+            "CA_09_rotating_casing",
+            416
+          ],
+          [
+            "CA_15_turbine_shaft",
+            387
+          ],
+          [
+            "CA_turbine_outer_shroud",
+            285
+          ],
+          [
+            "CA_pump_cover_joint",
+            248
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "drive_0046",
+        "hiddenInRender": false,
+        "trianglePairs": 3871,
+        "converterMeshes": 29,
+        "topConverterMeshes": [
+          [
+            "CA_rear_reactor_core_ring",
+            394
+          ],
+          [
+            "CA_front_reactor_core_ring",
+            394
+          ],
+          [
+            "CA_turbine_core_ring",
+            392
+          ],
+          [
+            "CA_pump_core_ring",
+            386
+          ],
+          [
+            "CA_turbine_outer_shroud",
+            296
+          ],
+          [
+            "CA_pump_outer_shroud",
+            295
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_case47_outer_bridge",
+        "hiddenInRender": false,
+        "trianglePairs": 3327,
+        "converterMeshes": 33,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            2559
+          ],
+          [
+            "CA_pump_blade_23",
+            24
+          ],
+          [
+            "CA_pump_blade_22",
+            24
+          ],
+          [
+            "CA_pump_blade_21",
+            24
+          ],
+          [
+            "CA_pump_blade_20",
+            24
+          ],
+          [
+            "CA_pump_blade_19",
+            24
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_booster_inner_guide",
+        "hiddenInRender": false,
+        "trianglePairs": 2750,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            2750
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_disc_09",
+        "hiddenInRender": false,
+        "trianglePairs": 1326,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1326
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_disc_07",
+        "hiddenInRender": false,
+        "trianglePairs": 1326,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1326
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_disc_05",
+        "hiddenInRender": false,
+        "trianglePairs": 1326,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1326
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_disc_03",
+        "hiddenInRender": false,
+        "trianglePairs": 1326,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1326
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_disc_01",
+        "hiddenInRender": false,
+        "trianglePairs": 1326,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1326
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_disc_07",
+        "hiddenInRender": false,
+        "trianglePairs": 1326,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1326
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_disc_05",
+        "hiddenInRender": false,
+        "trianglePairs": 1326,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1326
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_disc_03",
+        "hiddenInRender": false,
+        "trianglePairs": 1326,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1326
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_disc_01",
+        "hiddenInRender": false,
+        "trianglePairs": 1326,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1326
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_booster_back_wall",
+        "hiddenInRender": false,
+        "trianglePairs": 1319,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1319
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_booster_back_wall",
+        "hiddenInRender": false,
+        "trianglePairs": 1282,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1282
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "frame_0002",
+        "hiddenInRender": false,
+        "trianglePairs": 1280,
+        "converterMeshes": 2,
+        "topConverterMeshes": [
+          [
+            "CA_15_turbine_shaft",
+            768
+          ],
+          [
+            "CA_52_fixed_hub",
+            512
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_annular_piston",
+        "hiddenInRender": false,
+        "trianglePairs": 1280,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1280
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_annular_piston",
+        "hiddenInRender": false,
+        "trianglePairs": 1205,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1205
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_piston_seal_inner_fixed",
+        "hiddenInRender": false,
+        "trianglePairs": 1181,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1181
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_reaction_stop",
+        "hiddenInRender": false,
+        "trianglePairs": 1024,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1024
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_disc_08",
+        "hiddenInRender": false,
+        "trianglePairs": 1024,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1024
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_disc_06",
+        "hiddenInRender": false,
+        "trianglePairs": 1024,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1024
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_disc_04",
+        "hiddenInRender": false,
+        "trianglePairs": 1024,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1024
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_disc_02",
+        "hiddenInRender": false,
+        "trianglePairs": 1024,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1024
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_direct_disc_00",
+        "hiddenInRender": false,
+        "trianglePairs": 1024,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            1024
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_21_hollow_reaction_sleeve",
+        "hiddenInRender": false,
+        "trianglePairs": 960,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            960
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_reaction_stop",
+        "hiddenInRender": false,
+        "trianglePairs": 868,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            868
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_carrier_hub_-0.108",
+        "hiddenInRender": false,
+        "trianglePairs": 855,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            855
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "drive_0026",
+        "hiddenInRender": false,
+        "trianglePairs": 665,
+        "converterMeshes": 4,
+        "topConverterMeshes": [
+          [
+            "CA_09_rotating_casing",
+            292
+          ],
+          [
+            "CA_04_lockup_body",
+            132
+          ],
+          [
+            "CA_05_lockup_piston",
+            121
+          ],
+          [
+            "CA_piston_seal_0_156",
+            120
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "drive_0027",
+        "hiddenInRender": false,
+        "trianglePairs": 649,
+        "converterMeshes": 12,
+        "topConverterMeshes": [
+          [
+            "CA_turbine_outer_shroud",
+            120
+          ],
+          [
+            "CA_09_rotating_casing",
+            108
+          ],
+          [
+            "CA_07_driven_disc_carrier",
+            58
+          ],
+          [
+            "CA_04_lockup_body",
+            58
+          ],
+          [
+            "CA_05_lockup_piston",
+            58
+          ],
+          [
+            "CA_07_friction_face_-0_0993",
+            54
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_case47_reverse_oil_gallery",
+        "hiddenInRender": false,
+        "trianglePairs": 530,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            530
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_15_input_shaft",
+        "hiddenInRender": false,
+        "trianglePairs": 522,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_15_turbine_shaft",
+            522
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_disc_06",
+        "hiddenInRender": false,
+        "trianglePairs": 469,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            469
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_disc_00",
+        "hiddenInRender": false,
+        "trianglePairs": 446,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            446
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_disc_10",
+        "hiddenInRender": false,
+        "trianglePairs": 445,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            445
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_disc_08",
+        "hiddenInRender": false,
+        "trianglePairs": 445,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            445
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_disc_04",
+        "hiddenInRender": false,
+        "trianglePairs": 445,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            445
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_second_disc_02",
+        "hiddenInRender": false,
+        "trianglePairs": 445,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_52_fixed_hub",
+            445
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "drive_0001",
+        "hiddenInRender": false,
+        "trianglePairs": 388,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_01_input_shaft",
+            388
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "BL_Final_drive_1_cover_bolt_0.31_0",
+        "hiddenInRender": false,
+        "trianglePairs": 104,
+        "converterMeshes": 4,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            42
+          ],
+          [
+            "CA_pump_cover_joint",
+            32
+          ],
+          [
+            "CA_09_rotating_casing",
+            24
+          ],
+          [
+            "CA_pump_blade_07",
+            6
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "BL_Final_drive_1_cover_bolt_-0.31_0",
+        "hiddenInRender": false,
+        "trianglePairs": 102,
+        "converterMeshes": 4,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            40
+          ],
+          [
+            "CA_pump_cover_joint",
+            32
+          ],
+          [
+            "CA_09_rotating_casing",
+            24
+          ],
+          [
+            "CA_pump_blade_23",
+            6
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_8",
+        "hiddenInRender": false,
+        "trianglePairs": 82,
+        "converterMeshes": 2,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ],
+          [
+            "CA_pump_blade_21",
+            36
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_5",
+        "hiddenInRender": false,
+        "trianglePairs": 82,
+        "converterMeshes": 2,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ],
+          [
+            "CA_pump_blade_13",
+            36
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_2",
+        "hiddenInRender": false,
+        "trianglePairs": 82,
+        "converterMeshes": 2,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ],
+          [
+            "CA_pump_blade_05",
+            36
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_11",
+        "hiddenInRender": false,
+        "trianglePairs": 82,
+        "converterMeshes": 2,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ],
+          [
+            "CA_pump_blade_29",
+            36
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_9",
+        "hiddenInRender": false,
+        "trianglePairs": 46,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_7",
+        "hiddenInRender": false,
+        "trianglePairs": 46,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_6",
+        "hiddenInRender": false,
+        "trianglePairs": 46,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_4",
+        "hiddenInRender": false,
+        "trianglePairs": 46,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_3",
+        "hiddenInRender": false,
+        "trianglePairs": 46,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_10",
+        "hiddenInRender": false,
+        "trianglePairs": 46,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_1",
+        "hiddenInRender": false,
+        "trianglePairs": 46,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ]
+        ]
+      },
+      {
+        "vehicleMesh": "TX_housing_rib_0",
+        "hiddenInRender": false,
+        "trianglePairs": 46,
+        "converterMeshes": 1,
+        "topConverterMeshes": [
+          [
+            "CA_pump_outer_shroud",
+            46
+          ]
+        ]
+      }
+    ]
+  },
+  "limits": [
+    "Only one converter pose (as saved) and the master neutral pose are checked.",
+    "Surface-crossing test only; enclosed-volume overlaps without crossings are not detected.",
+    "Duplicate shaft 15 (gearbox and converter models) is expected to overlap itself; it is reported, not excused.",
+    "All converter dimensions except 12.5x22 mm rollers are fitted reconstruction parameters."
+  ]
+}

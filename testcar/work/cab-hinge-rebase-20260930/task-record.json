@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-c0ed59f4-83f3-4467-81d8-f099ef46bae7",
+  "upload": {
+    "upload_id": "f9ee8d05-6d28-4b59-9c77-3bb1d567c772",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "f9ee8d05-6d28-4b59-9c77-3bb1d567c772",
+    "name": "hub-cab-hinge-rebase.py",
+    "mime": "text/x-python",
+    "size": 7958,
+    "sha256": "15594befb0286ed99e2b18f463e59e1ab183d6c74bf66f3c95930b53484a7576",
+    "created": 1790787635.824046,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/f9ee8d05-6d28-4b59-9c77-3bb1d567c772/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A native/runtime door hinge correction preserving closed surfaces",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "20cfedb60cbb9cd637865e861b5e3571",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "a58b0b2381190a20c44b857388fbf530",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "f9ee8d05-6d28-4b59-9c77-3bb1d567c772",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "ab3c4464-d394-4d1e-9e09-5a409db4dec9",
+    "task_ids": [
+      "e22f799b-9782-464b-b11a-e0c29b8a18a4"
+    ],
+    "task_id": "e22f799b-9782-464b-b11a-e0c29b8a18a4"
+  }
+}

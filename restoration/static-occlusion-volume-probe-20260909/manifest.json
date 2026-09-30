@@ -1,0 +1,210 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "count": 40,
+  "bytes": 5648003,
+  "files": [
+    {
+      "file": "AGENT_START_HERE.md",
+      "bytes": 29597,
+      "sha256": "274dc47335603bb14dfeb49bef8241f23f1a1a037ddb9aaf91f9d84afe2a294d"
+    },
+    {
+      "file": "NEXT_AGENT_PROMPT.md",
+      "bytes": 21999,
+      "sha256": "118e8d2aaa5c34ba5f37bdf5a1f05b75a54b981d9929d43f0a76a39ee5ba732e"
+    },
+    {
+      "file": "docs/ACCEPTANCE.md",
+      "bytes": 34794,
+      "sha256": "ecd1b633115258e4b493e818ec0f6a1f280648e5e2d0d3249c2091b9655cd702"
+    },
+    {
+      "file": "docs/CONTINUATION_20260908.md",
+      "bytes": 22858,
+      "sha256": "957941938f2e3fd355c14d3d807abb72da75a0d4800e95fdce04306aebe9c3d4"
+    },
+    {
+      "file": "docs/STATIC_OCCLUSION_VOLUME_PROBE_20260909.md",
+      "bytes": 6123,
+      "sha256": "35b7d7a3aa73bcdd3cd555338970a857abd76928d4f1c06516a64fabba28a4ac"
+    },
+    {
+      "file": "lib/conservativeRasterBounds.ts",
+      "bytes": 10779,
+      "sha256": "8a50c84fd5c23a46e1a3bee4e28c9d8e28acf00acc3a0633e44801f7bbb0fd18"
+    },
+    {
+      "file": "lib/staticOccluderScene.ts",
+      "bytes": 5841,
+      "sha256": "1359890f2dc2466e640776c91df1a0c01257b749e139fb44fe19a1e60663f1f1"
+    },
+    {
+      "file": "lib/staticOcclusionProbe.ts",
+      "bytes": 10967,
+      "sha256": "3131e27a2e9120552d9d46e4933928f926acb8f27d48d3af40f7cffaa8b1f507"
+    },
+    {
+      "file": "lib/vehicleViewport.ts",
+      "bytes": 64448,
+      "sha256": "d51011f6b02e073c71fafead11e8b44081a5a349f481ab1a0bc0245f7f4b7cef"
+    },
+    {
+      "file": "outputs/context-frame-audit/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/bounds-tests.json",
+      "bytes": 453,
+      "sha256": "0788c46f44d41320a2c15244d5591037863fa11cff9a94cc3d0cb6abfcef7ede"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/engine-after-capture-ax.txt",
+      "bytes": 15162,
+      "sha256": "402d9fb7d72b73960705afb128487ee2317fad5301abcce13cabc4368891fce1"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/engine-before-capture-ax.txt",
+      "bytes": 7578,
+      "sha256": "87046c82fa656b9f9a2f2235ba4c148602daf79918f52b2fe9517a16cd4646fc"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/engine-correlated.json",
+      "bytes": 1312125,
+      "sha256": "9742564c87c202120594f7a5bcc0ab3623a61dbd46ba5e86a08454286a981008"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/engine-summary.json",
+      "bytes": 7676,
+      "sha256": "51056be5fd5eb82e19afbfa1b14447cedf514fceb1d642aa5cabafb1566a2855"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/lifecycle-tests.json",
+      "bytes": 446,
+      "sha256": "41dd28ccc6e007dd978d018c6f1528653298b67e4b6bd741804abc55538e9c07"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/normal-restored-ax.txt",
+      "bytes": 7328,
+      "sha256": "e3194edb3705182e7bad11f862ef9ebadd44ab70262d3bf5f4225534911a3a02"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/normal-side-final-ax.txt",
+      "bytes": 7296,
+      "sha256": "e2c7259e80ad99ce1240561f8203e0b5c26223dfdb59573f668674e75d73c921"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/normal-side-final.png",
+      "bytes": 83392,
+      "sha256": "b370aab2667d96b491a7a22323f55d9298822721339c198b655a08c6de9422d5"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/process-after-close.json",
+      "bytes": 1514,
+      "sha256": "0973682c9af732db3cf6a1cf11ba8fcf8d413693e03e378c0db049e985d9be51"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/process-before-close.json",
+      "bytes": 1674,
+      "sha256": "2099b381e75604c48c4d4634289d396aa3f2d8bfdf801eabe4480835f21b915c"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/process-close-comparison.json",
+      "bytes": 422,
+      "sha256": "8ec52b43aae861a4f39409860328d53415a15a41978a724cd81621286a1110ef"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/scene-tests.json",
+      "bytes": 445,
+      "sha256": "2c236ad5df3bbed5d820fb4b6edea85313afe15afd8dad17eba14efd981c3761"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/side-door-before-capture-ax.txt",
+      "bytes": 15386,
+      "sha256": "d6eb5172d53ae039b4fb5737980d3f98c09e2cce7eadf4f69b8d4371ba0c78eb"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/side-door-correlated.json",
+      "bytes": 1313544,
+      "sha256": "15a748ef509dda337d99941f571bdf43760292f1d791dff0c9b88b992779ecb1"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/side-door-summary.json",
+      "bytes": 8111,
+      "sha256": "22bc5a15ee0b8af66cbe4e0ad21069fabbdb1879a692afcb74e673110bb90432"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/still-correlated.json",
+      "bytes": 1314130,
+      "sha256": "b58219fad6a81238958e154392c13b1af29a57fe41f13e6366551aa126fd833e"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/still-loose-depth.json",
+      "bytes": 1308705,
+      "sha256": "507042c97c60c332adb3de11d30ac7237b83ccef4ccc44c39d04ff94b5fa954b"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/summary.json",
+      "bytes": 6511,
+      "sha256": "db9a6da957d8d0ffa70e1d3e2c601f3d714b1e38b75e05caf33b62d1ea932088"
+    },
+    {
+      "file": "scripts/archive-static-occlusion-probe.py",
+      "bytes": 2821,
+      "sha256": "531bfeb3a19c0d9fa1bd1501aee4bedda662ec7d5955487cb1188ddc20cbe67c"
+    },
+    {
+      "file": "scripts/summarize-static-occlusion-probe.py",
+      "bytes": 1708,
+      "sha256": "74c2c29ccf32992a434858ea3e50816830d035b2ec228e6303404f73cc281afd"
+    },
+    {
+      "file": "scripts/verify-conservative-raster-bounds.mjs",
+      "bytes": 5948,
+      "sha256": "80281fe90c689a3a42e246c9ff1e0410ca24ae73b28050515dea604186555c83"
+    },
+    {
+      "file": "scripts/verify-static-occluder-scene.mjs",
+      "bytes": 3793,
+      "sha256": "a79a5db4e832fa831e6a5997c5dc79a12b72cd5de23619feff37a28685af8eb5"
+    },
+    {
+      "file": "scripts/verify-static-occlusion-probe.mjs",
+      "bytes": 6349,
+      "sha256": "d36e6ceef3ffc2319cffa7a7e9f53270e0dc1f10c68891eb3f118cf7000e03e6"
+    },
+    {
+      "file": "work/static-occlusion-probe/bounds-tests.log",
+      "bytes": 466,
+      "sha256": "41865f7ee4f50a55d8036a60248b1729a2212208d7e6ae63e35eec5b9f2189e5"
+    },
+    {
+      "file": "work/static-occlusion-probe/build.log",
+      "bytes": 3524,
+      "sha256": "7e8b3ddf63fcdd21db39545f7c607503a4ec8876049252736a6286870d138b25"
+    },
+    {
+      "file": "work/static-occlusion-probe/lifecycle-tests.log",
+      "bytes": 456,
+      "sha256": "9666e52018215ea3ba058889456a1ec7212b534cabd6bb9e2a01d8027243b69c"
+    },
+    {
+      "file": "work/static-occlusion-probe/scene-tests.log",
+      "bytes": 457,
+      "sha256": "f0fc6763a45a3c9dda1a8207bb30d40f8eab9dce5bb60b1ae34783d278f0150d"
+    },
+    {
+      "file": "work/static-occlusion-probe/summary.log",
+      "bytes": 87,
+      "sha256": "a04ae01397448ed2e0828fe65c8583038d947a8b3f387a544278c0e28e260956"
+    },
+    {
+      "file": "work/static-occlusion-probe/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "verification": "Every copy byte-equal and SHA-256 recorded",
+  "limits": "Finite snapshot potential only; no product draw skipped and no sustained FPS improvement established. Complete product precision/performance/mechanical acceptance remains unfinished."
+}

@@ -1,0 +1,33 @@
+{
+  "packs": [
+    {
+      "pack": "first",
+      "nativeContactAreaM2": 0.03897116649896927,
+      "nativeMeanRadiusM": 0.1900398397035986,
+      "areaErrorM2": 1.1010718031778666e-10,
+      "radiusErrorM": 5.730748892096571e-08
+    },
+    {
+      "pack": "second",
+      "nativeContactAreaM2": 0.013879754453500173,
+      "nativeMeanRadiusM": 0.06571313870706874,
+      "areaErrorM2": 7.081853506396563e-11,
+      "radiusErrorM": 2.3630877504787762e-08
+    },
+    {
+      "pack": "direct",
+      "nativeContactAreaM2": 0.013879754453500173,
+      "nativeMeanRadiusM": 0.06571313870706874,
+      "areaErrorM2": 7.081853506396563e-11,
+      "radiusErrorM": 2.3630877504787762e-08
+    },
+    {
+      "pack": "reverse",
+      "nativeContactAreaM2": 0.03897116649896927,
+      "nativeMeanRadiusM": 0.1900398397035986,
+      "areaErrorM2": 1.1010718031778666e-10,
+      "radiusErrorM": 5.730748892096571e-08
+    }
+  ],
+  "limits": "Native face triangles intersected with native steel counterface; independent subdivided-centroid radius integration. Uniform land pressure is assumed, not measured."
+}

@@ -1,0 +1,2411 @@
+{
+  "poseChecks": 400,
+  "maxWedgeGapErrorM": 1.8146820366521377e-06,
+  "nominalInnerContacts": 80,
+  "maximumNominalInnerDepthM": 1.99675560114132e-09,
+  "checks": [
+    {
+      "t": 0.010000000000000007,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -2.9494786510458962e-18
+    },
+    {
+      "t": 0.010000000000000007,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -2.9494786510458962e-18
+    },
+    {
+      "t": 0.020000000000000014,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.8895474495756156e-18
+    },
+    {
+      "t": 0.020000000000000014,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.8895474495756156e-18
+    },
+    {
+      "t": 0.030000000000000023,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -4.1002031503554056e-18
+    },
+    {
+      "t": 0.030000000000000023,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -4.1002031503554056e-18
+    },
+    {
+      "t": 0.04000000000000003,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.526000717380783e-18
+    },
+    {
+      "t": 0.04000000000000003,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.526000717380783e-18
+    },
+    {
+      "t": 0.05000000000000004,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.7594172232549365e-18
+    },
+    {
+      "t": 0.05000000000000004,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.7594172232549365e-18
+    },
+    {
+      "t": 0.060000000000000046,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.5725581875551424e-18
+    },
+    {
+      "t": 0.060000000000000046,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.5725581875551424e-18
+    },
+    {
+      "t": 0.07000000000000005,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.2900675914972034e-18
+    },
+    {
+      "t": 0.07000000000000005,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.2900675914972034e-18
+    },
+    {
+      "t": 0.08000000000000006,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -9.838459591432866e-18
+    },
+    {
+      "t": 0.08000000000000006,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -9.838459591432866e-18
+    },
+    {
+      "t": 0.09000000000000007,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -1.0167144838076242e-18
+    },
+    {
+      "t": 0.09000000000000007,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -1.0167144838076242e-18
+    },
+    {
+      "t": 0.10000000000000007,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -4.366901887146419e-19
+    },
+    {
+      "t": 0.10000000000000007,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -4.366901887146419e-19
+    },
+    {
+      "t": 0.11000000000000008,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -3.129102404218593e-18
+    },
+    {
+      "t": 0.11000000000000008,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -3.129102404218593e-18
+    },
+    {
+      "t": 0.12000000000000009,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -2.726233484376499e-18
+    },
+    {
+      "t": 0.12000000000000009,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -2.726233484376499e-18
+    },
+    {
+      "t": 0.1300000000000001,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 1.838019722304269e-18
+    },
+    {
+      "t": 0.1300000000000001,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 1.838019722304269e-18
+    },
+    {
+      "t": 0.1400000000000001,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -8.386474705161788e-18
+    },
+    {
+      "t": 0.1400000000000001,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -8.386474705161788e-18
+    },
+    {
+      "t": 0.1500000000000001,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -1.1498226417649103e-19
+    },
+    {
+      "t": 0.1500000000000001,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -1.1498226417649103e-19
+    },
+    {
+      "t": 0.16000000000000011,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -1.2436297213240205e-19
+    },
+    {
+      "t": 0.16000000000000011,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -1.2436297213240205e-19
+    },
+    {
+      "t": 0.17000000000000012,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.84519202190951e-18
+    },
+    {
+      "t": 0.17000000000000012,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.84519202190951e-18
+    },
+    {
+      "t": 0.18000000000000013,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -3.397122435222333e-18
+    },
+    {
+      "t": 0.18000000000000013,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -3.397122435222333e-18
+    },
+    {
+      "t": 0.19000000000000014,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.494857544764159e-18
+    },
+    {
+      "t": 0.19000000000000014,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.494857544764159e-18
+    },
+    {
+      "t": 0.20000000000000015,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -5.321393009928809e-18
+    },
+    {
+      "t": 0.20000000000000015,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -5.321393009928809e-18
+    },
+    {
+      "t": 0.21000000000000016,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -5.770714540778208e-18
+    },
+    {
+      "t": 0.21000000000000016,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -5.770714540778208e-18
+    },
+    {
+      "t": 0.22000000000000017,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 1.1291717529829347e-18
+    },
+    {
+      "t": 0.22000000000000017,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 1.1291717529829347e-18
+    },
+    {
+      "t": 0.23000000000000018,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -2.9374198468340565e-18
+    },
+    {
+      "t": 0.23000000000000018,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -2.9374198468340565e-18
+    },
+    {
+      "t": 0.24000000000000019,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -7.850805837734728e-19
+    },
+    {
+      "t": 0.24000000000000019,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -7.850805837734728e-19
+    },
+    {
+      "t": 0.25000000000000017,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -1.1288508083529802e-19
+    },
+    {
+      "t": 0.25000000000000017,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -1.1288508083529802e-19
+    },
+    {
+      "t": 0.25999999999999907,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -5.259630960530838e-18
+    },
+    {
+      "t": 0.25999999999999907,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -5.259630960530838e-18
+    },
+    {
+      "t": 0.26999999999999796,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -2.0295491784340453e-18
+    },
+    {
+      "t": 0.26999999999999796,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -2.0295491784340453e-18
+    },
+    {
+      "t": 0.27999999999999686,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 1.717026985638325e-19
+    },
+    {
+      "t": 0.27999999999999686,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 1.717026985638325e-19
+    },
+    {
+      "t": 0.28999999999999576,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.96263428901601e-18
+    },
+    {
+      "t": 0.28999999999999576,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.96263428901601e-18
+    },
+    {
+      "t": 0.29999999999999466,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -7.116896527486392e-18
+    },
+    {
+      "t": 0.29999999999999466,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -7.116896527486392e-18
+    },
+    {
+      "t": 0.30999999999999356,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -1.7062201243024265e-18
+    },
+    {
+      "t": 0.30999999999999356,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -1.7062201243024265e-18
+    },
+    {
+      "t": 0.31999999999999246,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 3.204858964923151e-18
+    },
+    {
+      "t": 0.31999999999999246,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 3.204858964923151e-18
+    },
+    {
+      "t": 0.32999999999999136,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.2748630122736123e-18
+    },
+    {
+      "t": 0.32999999999999136,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.2748630122736123e-18
+    },
+    {
+      "t": 0.33999999999999025,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 1.814845846384161e-18
+    },
+    {
+      "t": 0.33999999999999025,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 1.814845846384161e-18
+    },
+    {
+      "t": 0.34999999999998915,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.0310654488605832e-18
+    },
+    {
+      "t": 0.34999999999998915,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.0310654488605832e-18
+    },
+    {
+      "t": 0.35999999999998805,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -5.308600191547558e-18
+    },
+    {
+      "t": 0.35999999999998805,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -5.308600191547558e-18
+    },
+    {
+      "t": 0.36999999999998695,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.608315163522406e-18
+    },
+    {
+      "t": 0.36999999999998695,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.608315163522406e-18
+    },
+    {
+      "t": 0.37999999999998585,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -3.0789797223642024e-18
+    },
+    {
+      "t": 0.37999999999998585,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -3.0789797223642024e-18
+    },
+    {
+      "t": 0.38999999999998475,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -2.0702345352530796e-18
+    },
+    {
+      "t": 0.38999999999998475,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -2.0702345352530796e-18
+    },
+    {
+      "t": 0.39999999999998365,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -9.232793042497941e-18
+    },
+    {
+      "t": 0.39999999999998365,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -9.232793042497941e-18
+    },
+    {
+      "t": 0.40999999999998255,
+      "row": "front",
+      "actualWedgeGapM": 1.812819391489029e-06,
+      "solverWedgeGapM": 3.6591823321385775e-19
+    },
+    {
+      "t": 0.40999999999998255,
+      "row": "rear",
+      "actualWedgeGapM": 1.8123537302017212e-06,
+      "solverWedgeGapM": 3.6591823321385775e-19
+    },
+    {
+      "t": 0.41999999999998144,
+      "row": "front",
+      "actualWedgeGapM": 1.8044374883174896e-06,
+      "solverWedgeGapM": 9.432558900623889e-18
+    },
+    {
+      "t": 0.41999999999998144,
+      "row": "rear",
+      "actualWedgeGapM": 1.8039718270301819e-06,
+      "solverWedgeGapM": 9.432558900623889e-18
+    },
+    {
+      "t": 0.42999999999998034,
+      "row": "front",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": -9.75781955236954e-18
+    },
+    {
+      "t": 0.42999999999998034,
+      "row": "rear",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": -9.75781955236954e-18
+    },
+    {
+      "t": 0.43999999999997924,
+      "row": "front",
+      "actualWedgeGapM": 1.8039718270301819e-06,
+      "solverWedgeGapM": -3.903127820947816e-18
+    },
+    {
+      "t": 0.43999999999997924,
+      "row": "rear",
+      "actualWedgeGapM": 1.8039718270301819e-06,
+      "solverWedgeGapM": -3.903127820947816e-18
+    },
+    {
+      "t": 0.44999999999997814,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 1.734723475976807e-18
+    },
+    {
+      "t": 0.44999999999997814,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 1.734723475976807e-18
+    },
+    {
+      "t": 0.45999999999997704,
+      "row": "front",
+      "actualWedgeGapM": 1.8044374883174896e-06,
+      "solverWedgeGapM": 1.734723475976807e-18
+    },
+    {
+      "t": 0.45999999999997704,
+      "row": "rear",
+      "actualWedgeGapM": 1.805368810892105e-06,
+      "solverWedgeGapM": 1.734723475976807e-18
+    },
+    {
+      "t": 0.46999999999997594,
+      "row": "front",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": 3.469446951953614e-18
+    },
+    {
+      "t": 0.46999999999997594,
+      "row": "rear",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": 3.469446951953614e-18
+    },
+    {
+      "t": 0.47999999999997484,
+      "row": "front",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 3.469446951953614e-18
+    },
+    {
+      "t": 0.47999999999997484,
+      "row": "rear",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": 3.469446951953614e-18
+    },
+    {
+      "t": 0.48999999999997373,
+      "row": "front",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.48999999999997373,
+      "row": "rear",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.49999999999997263,
+      "row": "front",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 0.49999999999997263,
+      "row": "rear",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 0.5099999999999716,
+      "row": "front",
+      "actualWedgeGapM": 1.8104910850524902e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.5099999999999716,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.5199999999999705,
+      "row": "front",
+      "actualWedgeGapM": 1.8142163753509521e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 0.5199999999999705,
+      "row": "rear",
+      "actualWedgeGapM": 1.8146820366382599e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 0.5299999999999694,
+      "row": "front",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.5299999999999694,
+      "row": "rear",
+      "actualWedgeGapM": 1.809094101190567e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.5399999999999683,
+      "row": "front",
+      "actualWedgeGapM": 1.8035061657428741e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 0.5399999999999683,
+      "row": "rear",
+      "actualWedgeGapM": 1.8035061657428741e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 0.5499999999999672,
+      "row": "front",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.5499999999999672,
+      "row": "rear",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.5599999999999661,
+      "row": "front",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": 1.0408340855860843e-17
+    },
+    {
+      "t": 0.5599999999999661,
+      "row": "rear",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": 1.0408340855860843e-17
+    },
+    {
+      "t": 0.569999999999965,
+      "row": "front",
+      "actualWedgeGapM": 1.809094101190567e-06,
+      "solverWedgeGapM": 8.673617379884035e-19
+    },
+    {
+      "t": 0.569999999999965,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 8.673617379884035e-19
+    },
+    {
+      "t": 0.5799999999999639,
+      "row": "front",
+      "actualWedgeGapM": 1.8104910850524902e-06,
+      "solverWedgeGapM": 8.646512325571898e-18
+    },
+    {
+      "t": 0.5799999999999639,
+      "row": "rear",
+      "actualWedgeGapM": 1.810956746339798e-06,
+      "solverWedgeGapM": 8.646512325571898e-18
+    },
+    {
+      "t": 0.5899999999999628,
+      "row": "front",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": -1.0408340855860843e-17
+    },
+    {
+      "t": 0.5899999999999628,
+      "row": "rear",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": -1.0408340855860843e-17
+    },
+    {
+      "t": 0.5999999999999617,
+      "row": "front",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 0.5999999999999617,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 0.6099999999999606,
+      "row": "front",
+      "actualWedgeGapM": 1.8118880689144135e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 0.6099999999999606,
+      "row": "rear",
+      "actualWedgeGapM": 1.8118880689144135e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 0.6199999999999595,
+      "row": "front",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 0.6199999999999595,
+      "row": "rear",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 0.6299999999999584,
+      "row": "front",
+      "actualWedgeGapM": 1.810956746339798e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 0.6299999999999584,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 0.6399999999999573,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 0.6399999999999573,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 0.6499999999999562,
+      "row": "front",
+      "actualWedgeGapM": 1.8123537302017212e-06,
+      "solverWedgeGapM": -9.540979117872439e-18
+    },
+    {
+      "t": 0.6499999999999562,
+      "row": "rear",
+      "actualWedgeGapM": 1.8123537302017212e-06,
+      "solverWedgeGapM": -9.540979117872439e-18
+    },
+    {
+      "t": 0.6599999999999551,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -8.673617379884035e-19
+    },
+    {
+      "t": 0.6599999999999551,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -8.673617379884035e-19
+    },
+    {
+      "t": 0.669999999999954,
+      "row": "front",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 0.669999999999954,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 0.6799999999999529,
+      "row": "front",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.6799999999999529,
+      "row": "rear",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.6899999999999518,
+      "row": "front",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 0.6899999999999518,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 0.6999999999999507,
+      "row": "front",
+      "actualWedgeGapM": 1.8118880689144135e-06,
+      "solverWedgeGapM": 3.469446951953614e-18
+    },
+    {
+      "t": 0.6999999999999507,
+      "row": "rear",
+      "actualWedgeGapM": 1.8114224076271057e-06,
+      "solverWedgeGapM": 3.469446951953614e-18
+    },
+    {
+      "t": 0.7099999999999496,
+      "row": "front",
+      "actualWedgeGapM": 1.8030405044555664e-06,
+      "solverWedgeGapM": 6.684784019730938e-18
+    },
+    {
+      "t": 0.7099999999999496,
+      "row": "rear",
+      "actualWedgeGapM": 1.802109181880951e-06,
+      "solverWedgeGapM": 6.684784019730938e-18
+    },
+    {
+      "t": 0.7199999999999485,
+      "row": "front",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.7199999999999485,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.7299999999999474,
+      "row": "front",
+      "actualWedgeGapM": 1.805368810892105e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 0.7299999999999474,
+      "row": "rear",
+      "actualWedgeGapM": 1.805368810892105e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 0.7399999999999463,
+      "row": "front",
+      "actualWedgeGapM": 1.809094101190567e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 0.7399999999999463,
+      "row": "rear",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 0.7499999999999452,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 1.0408340855860843e-17
+    },
+    {
+      "t": 0.7499999999999452,
+      "row": "rear",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": 1.0408340855860843e-17
+    },
+    {
+      "t": 0.759999999999944,
+      "row": "front",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": -6.2341624917916505e-18
+    },
+    {
+      "t": 0.759999999999944,
+      "row": "rear",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": -6.2341624917916505e-18
+    },
+    {
+      "t": 0.769999999999943,
+      "row": "front",
+      "actualWedgeGapM": 1.809094101190567e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 0.769999999999943,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 0.7799999999999419,
+      "row": "front",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 0.7799999999999419,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 0.7899999999999407,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 0.7899999999999407,
+      "row": "rear",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 0.7999999999999396,
+      "row": "front",
+      "actualWedgeGapM": 1.805368810892105e-06,
+      "solverWedgeGapM": 6.396792817664476e-18
+    },
+    {
+      "t": 0.7999999999999396,
+      "row": "rear",
+      "actualWedgeGapM": 1.805368810892105e-06,
+      "solverWedgeGapM": 6.396792817664476e-18
+    },
+    {
+      "t": 0.8099999999999385,
+      "row": "front",
+      "actualWedgeGapM": 1.8104910850524902e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.8099999999999385,
+      "row": "rear",
+      "actualWedgeGapM": 1.8104910850524902e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.8199999999999374,
+      "row": "front",
+      "actualWedgeGapM": 1.809094101190567e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 0.8199999999999374,
+      "row": "rear",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 0.8299999999999363,
+      "row": "front",
+      "actualWedgeGapM": 1.8114224076271057e-06,
+      "solverWedgeGapM": -3.469446951953614e-18
+    },
+    {
+      "t": 0.8299999999999363,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": -3.469446951953614e-18
+    },
+    {
+      "t": 0.8399999999999352,
+      "row": "front",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": 1.6534083130403943e-17
+    },
+    {
+      "t": 0.8399999999999352,
+      "row": "rear",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": 1.6534083130403943e-17
+    },
+    {
+      "t": 0.8499999999999341,
+      "row": "front",
+      "actualWedgeGapM": 1.8039718270301819e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.8499999999999341,
+      "row": "rear",
+      "actualWedgeGapM": 1.8044374883174896e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.859999999999933,
+      "row": "front",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": 3.469446951953614e-17
+    },
+    {
+      "t": 0.859999999999933,
+      "row": "rear",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": 3.469446951953614e-17
+    },
+    {
+      "t": 0.8699999999999319,
+      "row": "front",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": 3.729655473350135e-17
+    },
+    {
+      "t": 0.8699999999999319,
+      "row": "rear",
+      "actualWedgeGapM": 1.8039718270301819e-06,
+      "solverWedgeGapM": 3.729655473350135e-17
+    },
+    {
+      "t": 0.8799999999999308,
+      "row": "front",
+      "actualWedgeGapM": 1.8114224076271057e-06,
+      "solverWedgeGapM": -1.734723475976807e-17
+    },
+    {
+      "t": 0.8799999999999308,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": -1.734723475976807e-17
+    },
+    {
+      "t": 0.8899999999999297,
+      "row": "front",
+      "actualWedgeGapM": 1.810956746339798e-06,
+      "solverWedgeGapM": -2.7755575615628914e-17
+    },
+    {
+      "t": 0.8899999999999297,
+      "row": "rear",
+      "actualWedgeGapM": 1.809094101190567e-06,
+      "solverWedgeGapM": -2.7755575615628914e-17
+    },
+    {
+      "t": 0.8999999999999286,
+      "row": "front",
+      "actualWedgeGapM": 1.8044374883174896e-06,
+      "solverWedgeGapM": 1.734723475976807e-17
+    },
+    {
+      "t": 0.8999999999999286,
+      "row": "rear",
+      "actualWedgeGapM": 1.8049031496047974e-06,
+      "solverWedgeGapM": 1.734723475976807e-17
+    },
+    {
+      "t": 0.9099999999999275,
+      "row": "front",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": 1.734723475976807e-18
+    },
+    {
+      "t": 0.9099999999999275,
+      "row": "rear",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": 1.734723475976807e-18
+    },
+    {
+      "t": 0.9199999999999264,
+      "row": "front",
+      "actualWedgeGapM": 1.8039718270301819e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 0.9199999999999264,
+      "row": "rear",
+      "actualWedgeGapM": 1.8039718270301819e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 0.9299999999999253,
+      "row": "front",
+      "actualWedgeGapM": 1.8104910850524902e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 0.9299999999999253,
+      "row": "rear",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 0.9399999999999242,
+      "row": "front",
+      "actualWedgeGapM": 1.8035061657428741e-06,
+      "solverWedgeGapM": -3.469446951953614e-18
+    },
+    {
+      "t": 0.9399999999999242,
+      "row": "rear",
+      "actualWedgeGapM": 1.8030405044555664e-06,
+      "solverWedgeGapM": -3.469446951953614e-18
+    },
+    {
+      "t": 0.9499999999999231,
+      "row": "front",
+      "actualWedgeGapM": 1.5790574252605438e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.9499999999999231,
+      "row": "rear",
+      "actualWedgeGapM": 1.5795230865478516e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 0.959999999999922,
+      "row": "front",
+      "actualWedgeGapM": 1.453794538974762e-06,
+      "solverWedgeGapM": 5.204170427930421e-18
+    },
+    {
+      "t": 0.959999999999922,
+      "row": "rear",
+      "actualWedgeGapM": 1.453794538974762e-06,
+      "solverWedgeGapM": 5.204170427930421e-18
+    },
+    {
+      "t": 0.9699999999999209,
+      "row": "front",
+      "actualWedgeGapM": 8.14441591501236e-07,
+      "solverWedgeGapM": 2.42861286636753e-17
+    },
+    {
+      "t": 0.9699999999999209,
+      "row": "rear",
+      "actualWedgeGapM": 8.14441591501236e-07,
+      "solverWedgeGapM": 2.42861286636753e-17
+    },
+    {
+      "t": 0.9799999999999198,
+      "row": "front",
+      "actualWedgeGapM": 5.182810127735138e-07,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 0.9799999999999198,
+      "row": "rear",
+      "actualWedgeGapM": 5.178153514862061e-07,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 0.9899999999999187,
+      "row": "front",
+      "actualWedgeGapM": 4.936009645462036e-07,
+      "solverWedgeGapM": 7.535205098774256e-18
+    },
+    {
+      "t": 0.9899999999999187,
+      "row": "rear",
+      "actualWedgeGapM": 4.940666258335114e-07,
+      "solverWedgeGapM": 7.535205098774256e-18
+    },
+    {
+      "t": 0.9999999999999176,
+      "row": "front",
+      "actualWedgeGapM": 8.479692041873932e-07,
+      "solverWedgeGapM": -2.7755575615628914e-17
+    },
+    {
+      "t": 0.9999999999999176,
+      "row": "rear",
+      "actualWedgeGapM": 8.475035429000854e-07,
+      "solverWedgeGapM": -2.7755575615628914e-17
+    },
+    {
+      "t": 1.009999999999921,
+      "row": "front",
+      "actualWedgeGapM": 1.4780089259147644e-06,
+      "solverWedgeGapM": 1.0408340855860843e-17
+    },
+    {
+      "t": 1.009999999999921,
+      "row": "rear",
+      "actualWedgeGapM": 1.4789402484893799e-06,
+      "solverWedgeGapM": 1.0408340855860843e-17
+    },
+    {
+      "t": 1.0199999999999243,
+      "row": "front",
+      "actualWedgeGapM": 1.6689300537109375e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 1.0199999999999243,
+      "row": "rear",
+      "actualWedgeGapM": 1.667998731136322e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 1.0299999999999276,
+      "row": "front",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 2.7755575615628914e-17
+    },
+    {
+      "t": 1.0299999999999276,
+      "row": "rear",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": 2.7755575615628914e-17
+    },
+    {
+      "t": 1.039999999999931,
+      "row": "front",
+      "actualWedgeGapM": 1.7397105693817139e-06,
+      "solverWedgeGapM": -1.2305694657710475e-17
+    },
+    {
+      "t": 1.039999999999931,
+      "row": "rear",
+      "actualWedgeGapM": 1.737847924232483e-06,
+      "solverWedgeGapM": -1.2305694657710475e-17
+    },
+    {
+      "t": 1.0499999999999343,
+      "row": "front",
+      "actualWedgeGapM": 1.368112862110138e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 1.0499999999999343,
+      "row": "rear",
+      "actualWedgeGapM": 1.3690441846847534e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 1.0599999999999377,
+      "row": "front",
+      "actualWedgeGapM": 9.331852197647095e-07,
+      "solverWedgeGapM": -1.9081958235744878e-17
+    },
+    {
+      "t": 1.0599999999999377,
+      "row": "rear",
+      "actualWedgeGapM": 9.331852197647095e-07,
+      "solverWedgeGapM": -1.9081958235744878e-17
+    },
+    {
+      "t": 1.069999999999941,
+      "row": "front",
+      "actualWedgeGapM": 4.0978193283081055e-08,
+      "solverWedgeGapM": -3.469446951953614e-17
+    },
+    {
+      "t": 1.069999999999941,
+      "row": "rear",
+      "actualWedgeGapM": 4.0978193283081055e-08,
+      "solverWedgeGapM": -3.469446951953614e-17
+    },
+    {
+      "t": 1.0799999999999443,
+      "row": "front",
+      "actualWedgeGapM": 7.213093340396881e-07,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 1.0799999999999443,
+      "row": "rear",
+      "actualWedgeGapM": 7.213093340396881e-07,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 1.0899999999999477,
+      "row": "front",
+      "actualWedgeGapM": 1.3746321201324463e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 1.0899999999999477,
+      "row": "rear",
+      "actualWedgeGapM": 1.3746321201324463e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 1.099999999999951,
+      "row": "front",
+      "actualWedgeGapM": 1.723412424325943e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.099999999999951,
+      "row": "rear",
+      "actualWedgeGapM": 1.723412424325943e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.1099999999999544,
+      "row": "front",
+      "actualWedgeGapM": 1.8035061657428741e-06,
+      "solverWedgeGapM": -6.591949208711867e-17
+    },
+    {
+      "t": 1.1099999999999544,
+      "row": "rear",
+      "actualWedgeGapM": 1.8030405044555664e-06,
+      "solverWedgeGapM": -6.591949208711867e-17
+    },
+    {
+      "t": 1.1199999999999577,
+      "row": "front",
+      "actualWedgeGapM": 1.5604309737682343e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.1199999999999577,
+      "row": "rear",
+      "actualWedgeGapM": 1.560896635055542e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.129999999999961,
+      "row": "front",
+      "actualWedgeGapM": 1.073349267244339e-06,
+      "solverWedgeGapM": 3.5019730171281793e-17
+    },
+    {
+      "t": 1.129999999999961,
+      "row": "rear",
+      "actualWedgeGapM": 1.073349267244339e-06,
+      "solverWedgeGapM": 3.5019730171281793e-17
+    },
+    {
+      "t": 1.1399999999999644,
+      "row": "front",
+      "actualWedgeGapM": 6.51925802230835e-08,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 1.1399999999999644,
+      "row": "rear",
+      "actualWedgeGapM": 6.51925802230835e-08,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 1.1499999999999677,
+      "row": "front",
+      "actualWedgeGapM": 7.962808012962341e-07,
+      "solverWedgeGapM": -2.0288133152635002e-17
+    },
+    {
+      "t": 1.1499999999999677,
+      "row": "rear",
+      "actualWedgeGapM": 7.958151400089264e-07,
+      "solverWedgeGapM": -2.0288133152635002e-17
+    },
+    {
+      "t": 1.159999999999971,
+      "row": "front",
+      "actualWedgeGapM": 1.553911715745926e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.159999999999971,
+      "row": "rear",
+      "actualWedgeGapM": 1.553911715745926e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.1699999999999744,
+      "row": "front",
+      "actualWedgeGapM": 1.7886050045490265e-06,
+      "solverWedgeGapM": -3.0357660829594124e-17
+    },
+    {
+      "t": 1.1699999999999744,
+      "row": "rear",
+      "actualWedgeGapM": 1.7890706658363342e-06,
+      "solverWedgeGapM": -3.0357660829594124e-17
+    },
+    {
+      "t": 1.1799999999999777,
+      "row": "front",
+      "actualWedgeGapM": 1.6475096344947815e-06,
+      "solverWedgeGapM": -4.163336342344337e-17
+    },
+    {
+      "t": 1.1799999999999777,
+      "row": "rear",
+      "actualWedgeGapM": 1.6479752957820892e-06,
+      "solverWedgeGapM": -4.163336342344337e-17
+    },
+    {
+      "t": 1.189999999999981,
+      "row": "front",
+      "actualWedgeGapM": 1.178588718175888e-06,
+      "solverWedgeGapM": 8.673617379884035e-19
+    },
+    {
+      "t": 1.189999999999981,
+      "row": "rear",
+      "actualWedgeGapM": 1.1781230568885803e-06,
+      "solverWedgeGapM": 8.673617379884035e-19
+    },
+    {
+      "t": 1.1999999999999844,
+      "row": "front",
+      "actualWedgeGapM": 5.122274160385132e-09,
+      "solverWedgeGapM": -4.163336342344337e-17
+    },
+    {
+      "t": 1.1999999999999844,
+      "row": "rear",
+      "actualWedgeGapM": 5.122274160385132e-09,
+      "solverWedgeGapM": -4.163336342344337e-17
+    },
+    {
+      "t": 1.2099999999999878,
+      "row": "front",
+      "actualWedgeGapM": 1.7257407307624817e-06,
+      "solverWedgeGapM": 1.0234868508263162e-16
+    },
+    {
+      "t": 1.2099999999999878,
+      "row": "rear",
+      "actualWedgeGapM": 1.7262063920497894e-06,
+      "solverWedgeGapM": 1.0234868508263162e-16
+    },
+    {
+      "t": 1.219999999999991,
+      "row": "front",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.219999999999991,
+      "row": "rear",
+      "actualWedgeGapM": 1.8104910850524902e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.2299999999999944,
+      "row": "front",
+      "actualWedgeGapM": 1.4193356037139893e-06,
+      "solverWedgeGapM": -1.0408340855860843e-17
+    },
+    {
+      "t": 1.2299999999999944,
+      "row": "rear",
+      "actualWedgeGapM": 1.4188699424266815e-06,
+      "solverWedgeGapM": -1.0408340855860843e-17
+    },
+    {
+      "t": 1.2399999999999978,
+      "row": "front",
+      "actualWedgeGapM": 4.996545612812042e-07,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 1.2399999999999978,
+      "row": "rear",
+      "actualWedgeGapM": 4.996545612812042e-07,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 1.250000000000001,
+      "row": "front",
+      "actualWedgeGapM": 1.193024218082428e-06,
+      "solverWedgeGapM": -9.71445146547012e-17
+    },
+    {
+      "t": 1.250000000000001,
+      "row": "rear",
+      "actualWedgeGapM": 1.1920928955078125e-06,
+      "solverWedgeGapM": -9.71445146547012e-17
+    },
+    {
+      "t": 1.2600000000000044,
+      "row": "front",
+      "actualWedgeGapM": 1.6600824892520905e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 1.2600000000000044,
+      "row": "rear",
+      "actualWedgeGapM": 1.6596168279647827e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 1.2700000000000078,
+      "row": "front",
+      "actualWedgeGapM": 9.308569133281708e-07,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 1.2700000000000078,
+      "row": "rear",
+      "actualWedgeGapM": 9.308569133281708e-07,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 1.2800000000000111,
+      "row": "front",
+      "actualWedgeGapM": 9.755603969097137e-07,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.2800000000000111,
+      "row": "rear",
+      "actualWedgeGapM": 9.75094735622406e-07,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.2900000000000145,
+      "row": "front",
+      "actualWedgeGapM": 4.046596586704254e-07,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.2900000000000145,
+      "row": "rear",
+      "actualWedgeGapM": 4.0512531995773315e-07,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.3000000000000178,
+      "row": "front",
+      "actualWedgeGapM": 1.7313286662101746e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.3000000000000178,
+      "row": "rear",
+      "actualWedgeGapM": 1.7313286662101746e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.3100000000000211,
+      "row": "front",
+      "actualWedgeGapM": 5.32250851392746e-07,
+      "solverWedgeGapM": 7.612454503563848e-17
+    },
+    {
+      "t": 1.3100000000000211,
+      "row": "rear",
+      "actualWedgeGapM": 5.32250851392746e-07,
+      "solverWedgeGapM": 7.612454503563848e-17
+    },
+    {
+      "t": 1.3200000000000245,
+      "row": "front",
+      "actualWedgeGapM": 1.8579885363578796e-07,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 1.3200000000000245,
+      "row": "rear",
+      "actualWedgeGapM": 1.862645149230957e-07,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 1.3300000000000278,
+      "row": "front",
+      "actualWedgeGapM": 1.3988465070724487e-06,
+      "solverWedgeGapM": 6.418476861114186e-17
+    },
+    {
+      "t": 1.3300000000000278,
+      "row": "rear",
+      "actualWedgeGapM": 1.398380845785141e-06,
+      "solverWedgeGapM": 6.418476861114186e-17
+    },
+    {
+      "t": 1.3400000000000312,
+      "row": "front",
+      "actualWedgeGapM": 1.4463439583778381e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.3400000000000312,
+      "row": "rear",
+      "actualWedgeGapM": 1.4472752809524536e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.3500000000000345,
+      "row": "front",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.3500000000000345,
+      "row": "rear",
+      "actualWedgeGapM": 1.805368810892105e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.3600000000000378,
+      "row": "front",
+      "actualWedgeGapM": 1.7783604562282562e-06,
+      "solverWedgeGapM": -3.469446951953614e-18
+    },
+    {
+      "t": 1.3600000000000378,
+      "row": "rear",
+      "actualWedgeGapM": 1.778826117515564e-06,
+      "solverWedgeGapM": -3.469446951953614e-18
+    },
+    {
+      "t": 1.3700000000000412,
+      "row": "front",
+      "actualWedgeGapM": 1.1832453310489655e-06,
+      "solverWedgeGapM": 1.0408340855860843e-16
+    },
+    {
+      "t": 1.3700000000000412,
+      "row": "rear",
+      "actualWedgeGapM": 1.1832453310489655e-06,
+      "solverWedgeGapM": 1.0408340855860843e-16
+    },
+    {
+      "t": 1.3800000000000445,
+      "row": "front",
+      "actualWedgeGapM": 1.6079284250736237e-06,
+      "solverWedgeGapM": -9.27534958561349e-17
+    },
+    {
+      "t": 1.3800000000000445,
+      "row": "rear",
+      "actualWedgeGapM": 1.6083940863609314e-06,
+      "solverWedgeGapM": -9.27534958561349e-17
+    },
+    {
+      "t": 1.3900000000000479,
+      "row": "front",
+      "actualWedgeGapM": 1.6195699572563171e-06,
+      "solverWedgeGapM": -5.551115123125783e-17
+    },
+    {
+      "t": 1.3900000000000479,
+      "row": "rear",
+      "actualWedgeGapM": 1.6195699572563171e-06,
+      "solverWedgeGapM": -5.551115123125783e-17
+    },
+    {
+      "t": 1.4000000000000512,
+      "row": "front",
+      "actualWedgeGapM": 1.7848797142505646e-06,
+      "solverWedgeGapM": -2.7755575615628914e-17
+    },
+    {
+      "t": 1.4000000000000512,
+      "row": "rear",
+      "actualWedgeGapM": 1.7848797142505646e-06,
+      "solverWedgeGapM": -2.7755575615628914e-17
+    },
+    {
+      "t": 1.4100000000000545,
+      "row": "front",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": 3.469446951953614e-17
+    },
+    {
+      "t": 1.4100000000000545,
+      "row": "rear",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": 3.469446951953614e-17
+    },
+    {
+      "t": 1.4200000000000579,
+      "row": "front",
+      "actualWedgeGapM": 1.8137507140636444e-06,
+      "solverWedgeGapM": -6.245004513516506e-17
+    },
+    {
+      "t": 1.4200000000000579,
+      "row": "rear",
+      "actualWedgeGapM": 1.8132850527763367e-06,
+      "solverWedgeGapM": -6.245004513516506e-17
+    },
+    {
+      "t": 1.4300000000000612,
+      "row": "front",
+      "actualWedgeGapM": 1.8104910850524902e-06,
+      "solverWedgeGapM": -8.673617379884035e-19
+    },
+    {
+      "t": 1.4300000000000612,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": -8.673617379884035e-19
+    },
+    {
+      "t": 1.4400000000000646,
+      "row": "front",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.4400000000000646,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.450000000000068,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": -2.7755575615628914e-17
+    },
+    {
+      "t": 1.450000000000068,
+      "row": "rear",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": -2.7755575615628914e-17
+    },
+    {
+      "t": 1.4600000000000712,
+      "row": "front",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": -5.252959525692269e-17
+    },
+    {
+      "t": 1.4600000000000712,
+      "row": "rear",
+      "actualWedgeGapM": 1.809094101190567e-06,
+      "solverWedgeGapM": -5.252959525692269e-17
+    },
+    {
+      "t": 1.4700000000000746,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 1.3183898417423734e-16
+    },
+    {
+      "t": 1.4700000000000746,
+      "row": "rear",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": 1.3183898417423734e-16
+    },
+    {
+      "t": 1.480000000000078,
+      "row": "front",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.480000000000078,
+      "row": "rear",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.4900000000000813,
+      "row": "front",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": -3.859759734048396e-17
+    },
+    {
+      "t": 1.4900000000000813,
+      "row": "rear",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": -3.859759734048396e-17
+    },
+    {
+      "t": 1.5000000000000846,
+      "row": "front",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": -4.163336342344337e-17
+    },
+    {
+      "t": 1.5000000000000846,
+      "row": "rear",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": -4.163336342344337e-17
+    },
+    {
+      "t": 1.510000000000088,
+      "row": "front",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": 4.163336342344337e-17
+    },
+    {
+      "t": 1.510000000000088,
+      "row": "rear",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": 4.163336342344337e-17
+    },
+    {
+      "t": 1.5200000000000913,
+      "row": "front",
+      "actualWedgeGapM": 1.8132850527763367e-06,
+      "solverWedgeGapM": -7.948557177034354e-17
+    },
+    {
+      "t": 1.5200000000000913,
+      "row": "rear",
+      "actualWedgeGapM": 1.8132850527763367e-06,
+      "solverWedgeGapM": -7.948557177034354e-17
+    },
+    {
+      "t": 1.5300000000000946,
+      "row": "front",
+      "actualWedgeGapM": 1.8049031496047974e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.5300000000000946,
+      "row": "rear",
+      "actualWedgeGapM": 1.8049031496047974e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.540000000000098,
+      "row": "front",
+      "actualWedgeGapM": 1.8039718270301819e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.540000000000098,
+      "row": "rear",
+      "actualWedgeGapM": 1.8039718270301819e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.5500000000001013,
+      "row": "front",
+      "actualWedgeGapM": 1.8035061657428741e-06,
+      "solverWedgeGapM": 1.0581813203458523e-16
+    },
+    {
+      "t": 1.5500000000001013,
+      "row": "rear",
+      "actualWedgeGapM": 1.8039718270301819e-06,
+      "solverWedgeGapM": 1.0581813203458523e-16
+    },
+    {
+      "t": 1.5600000000001046,
+      "row": "front",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": -8.673617379884035e-18
+    },
+    {
+      "t": 1.5600000000001046,
+      "row": "rear",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": -8.673617379884035e-18
+    },
+    {
+      "t": 1.570000000000108,
+      "row": "front",
+      "actualWedgeGapM": 1.8030405044555664e-06,
+      "solverWedgeGapM": 9.020562075079397e-17
+    },
+    {
+      "t": 1.570000000000108,
+      "row": "rear",
+      "actualWedgeGapM": 1.8030405044555664e-06,
+      "solverWedgeGapM": 9.020562075079397e-17
+    },
+    {
+      "t": 1.5800000000001113,
+      "row": "front",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.5800000000001113,
+      "row": "rear",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.5900000000001147,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": -4.683753385137379e-17
+    },
+    {
+      "t": 1.5900000000001147,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": -4.683753385137379e-17
+    },
+    {
+      "t": 1.600000000000118,
+      "row": "front",
+      "actualWedgeGapM": 1.8104910850524902e-06,
+      "solverWedgeGapM": -3.469446951953614e-18
+    },
+    {
+      "t": 1.600000000000118,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": -3.469446951953614e-18
+    },
+    {
+      "t": 1.6100000000001213,
+      "row": "front",
+      "actualWedgeGapM": 1.810956746339798e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 1.6100000000001213,
+      "row": "rear",
+      "actualWedgeGapM": 1.810956746339798e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 1.6200000000001247,
+      "row": "front",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": -4.163336342344337e-17
+    },
+    {
+      "t": 1.6200000000001247,
+      "row": "rear",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": -4.163336342344337e-17
+    },
+    {
+      "t": 1.630000000000128,
+      "row": "front",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 8.326672684688674e-17
+    },
+    {
+      "t": 1.630000000000128,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 8.326672684688674e-17
+    },
+    {
+      "t": 1.6400000000001314,
+      "row": "front",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": -2.3201926491189795e-17
+    },
+    {
+      "t": 1.6400000000001314,
+      "row": "rear",
+      "actualWedgeGapM": 1.809094101190567e-06,
+      "solverWedgeGapM": -2.3201926491189795e-17
+    },
+    {
+      "t": 1.6500000000001347,
+      "row": "front",
+      "actualWedgeGapM": 1.809094101190567e-06,
+      "solverWedgeGapM": 3.469446951953614e-17
+    },
+    {
+      "t": 1.6500000000001347,
+      "row": "rear",
+      "actualWedgeGapM": 1.809094101190567e-06,
+      "solverWedgeGapM": 3.469446951953614e-17
+    },
+    {
+      "t": 1.660000000000138,
+      "row": "front",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 1.660000000000138,
+      "row": "rear",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 1.6700000000001414,
+      "row": "front",
+      "actualWedgeGapM": 1.812819391489029e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 1.6700000000001414,
+      "row": "rear",
+      "actualWedgeGapM": 1.812819391489029e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 1.6800000000001447,
+      "row": "front",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": 1.1102230246251565e-16
+    },
+    {
+      "t": 1.6800000000001447,
+      "row": "rear",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": 1.1102230246251565e-16
+    },
+    {
+      "t": 1.690000000000148,
+      "row": "front",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": -1.0722759485881639e-16
+    },
+    {
+      "t": 1.690000000000148,
+      "row": "rear",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": -1.0722759485881639e-16
+    },
+    {
+      "t": 1.7000000000001514,
+      "row": "front",
+      "actualWedgeGapM": 1.8039718270301819e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 1.7000000000001514,
+      "row": "rear",
+      "actualWedgeGapM": 1.8030405044555664e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 1.7100000000001547,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 8.326672684688674e-17
+    },
+    {
+      "t": 1.7100000000001547,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 8.326672684688674e-17
+    },
+    {
+      "t": 1.720000000000158,
+      "row": "front",
+      "actualWedgeGapM": 1.805368810892105e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.720000000000158,
+      "row": "rear",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.7300000000001614,
+      "row": "front",
+      "actualWedgeGapM": 1.810956746339798e-06,
+      "solverWedgeGapM": 7.632783294297951e-17
+    },
+    {
+      "t": 1.7300000000001614,
+      "row": "rear",
+      "actualWedgeGapM": 1.8118880689144135e-06,
+      "solverWedgeGapM": 7.632783294297951e-17
+    },
+    {
+      "t": 1.7400000000001647,
+      "row": "front",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 1.7400000000001647,
+      "row": "rear",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 1.750000000000168,
+      "row": "front",
+      "actualWedgeGapM": 1.8095597624778748e-06,
+      "solverWedgeGapM": 2.42861286636753e-17
+    },
+    {
+      "t": 1.750000000000168,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 2.42861286636753e-17
+    },
+    {
+      "t": 1.7600000000001714,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 7.589415207398531e-17
+    },
+    {
+      "t": 1.7600000000001714,
+      "row": "rear",
+      "actualWedgeGapM": 1.8076971173286438e-06,
+      "solverWedgeGapM": 7.589415207398531e-17
+    },
+    {
+      "t": 1.7700000000001748,
+      "row": "front",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 8.933825901280557e-17
+    },
+    {
+      "t": 1.7700000000001748,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 8.933825901280557e-17
+    },
+    {
+      "t": 1.780000000000178,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -4.85722573273506e-17
+    },
+    {
+      "t": 1.780000000000178,
+      "row": "rear",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": -4.85722573273506e-17
+    },
+    {
+      "t": 1.7900000000001814,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": -3.469446951953614e-18
+    },
+    {
+      "t": 1.7900000000001814,
+      "row": "rear",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": -3.469446951953614e-18
+    },
+    {
+      "t": 1.8000000000001848,
+      "row": "front",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": 4.163336342344337e-17
+    },
+    {
+      "t": 1.8000000000001848,
+      "row": "rear",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": 4.163336342344337e-17
+    },
+    {
+      "t": 1.8100000000001881,
+      "row": "front",
+      "actualWedgeGapM": 1.810956746339798e-06,
+      "solverWedgeGapM": 2.7755575615628914e-17
+    },
+    {
+      "t": 1.8100000000001881,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 2.7755575615628914e-17
+    },
+    {
+      "t": 1.8200000000001915,
+      "row": "front",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.8200000000001915,
+      "row": "rear",
+      "actualWedgeGapM": 1.805368810892105e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.8300000000001948,
+      "row": "front",
+      "actualWedgeGapM": 1.810956746339798e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 1.8300000000001948,
+      "row": "rear",
+      "actualWedgeGapM": 1.810956746339798e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 1.8400000000001981,
+      "row": "front",
+      "actualWedgeGapM": 1.8044374883174896e-06,
+      "solverWedgeGapM": -1.0408340855860843e-16
+    },
+    {
+      "t": 1.8400000000001981,
+      "row": "rear",
+      "actualWedgeGapM": 1.8049031496047974e-06,
+      "solverWedgeGapM": -1.0408340855860843e-16
+    },
+    {
+      "t": 1.8500000000002015,
+      "row": "front",
+      "actualWedgeGapM": 1.8104910850524902e-06,
+      "solverWedgeGapM": 5.551115123125783e-17
+    },
+    {
+      "t": 1.8500000000002015,
+      "row": "rear",
+      "actualWedgeGapM": 1.8100254237651825e-06,
+      "solverWedgeGapM": 5.551115123125783e-17
+    },
+    {
+      "t": 1.8600000000002048,
+      "row": "front",
+      "actualWedgeGapM": 1.8058344721794128e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 1.8600000000002048,
+      "row": "rear",
+      "actualWedgeGapM": 1.8067657947540283e-06,
+      "solverWedgeGapM": -2.0816681711721685e-17
+    },
+    {
+      "t": 1.8700000000002082,
+      "row": "front",
+      "actualWedgeGapM": 1.807231456041336e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.8700000000002082,
+      "row": "rear",
+      "actualWedgeGapM": 1.8063001334667206e-06,
+      "solverWedgeGapM": 4.85722573273506e-17
+    },
+    {
+      "t": 1.8800000000002115,
+      "row": "front",
+      "actualWedgeGapM": 1.805368810892105e-06,
+      "solverWedgeGapM": -2.7755575615628914e-17
+    },
+    {
+      "t": 1.8800000000002115,
+      "row": "rear",
+      "actualWedgeGapM": 1.805368810892105e-06,
+      "solverWedgeGapM": -2.7755575615628914e-17
+    },
+    {
+      "t": 1.8900000000002148,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 1.8900000000002148,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 6.938893903907228e-18
+    },
+    {
+      "t": 1.9000000000002182,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 4.163336342344337e-17
+    },
+    {
+      "t": 1.9000000000002182,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 4.163336342344337e-17
+    },
+    {
+      "t": 1.9100000000002215,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.9100000000002215,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 1.3877787807814457e-17
+    },
+    {
+      "t": 1.9200000000002249,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 1.1796119636642288e-16
+    },
+    {
+      "t": 1.9200000000002249,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 1.1796119636642288e-16
+    },
+    {
+      "t": 1.9300000000002282,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 9.020562075079397e-17
+    },
+    {
+      "t": 1.9300000000002282,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 9.020562075079397e-17
+    },
+    {
+      "t": 1.9400000000002315,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": -6.938893903907228e-17
+    },
+    {
+      "t": 1.9400000000002315,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": -6.938893903907228e-17
+    },
+    {
+      "t": 1.9500000000002349,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 1.9500000000002349,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": -1.3877787807814457e-17
+    },
+    {
+      "t": 1.9600000000002382,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 1.9600000000002382,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": -6.938893903907228e-18
+    },
+    {
+      "t": 1.9700000000002416,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.9700000000002416,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 2.0816681711721685e-17
+    },
+    {
+      "t": 1.980000000000245,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 1.980000000000245,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 0
+    },
+    {
+      "t": 1.9900000000002482,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": 6.938893903907228e-17
+    },
+    {
+      "t": 1.9900000000002482,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": 6.938893903907228e-17
+    },
+    {
+      "t": 2.0000000000002514,
+      "row": "front",
+      "actualWedgeGapM": 1.8086284399032593e-06,
+      "solverWedgeGapM": -1.0408340855860843e-16
+    },
+    {
+      "t": 2.0000000000002514,
+      "row": "rear",
+      "actualWedgeGapM": 1.8081627786159515e-06,
+      "solverWedgeGapM": -1.0408340855860843e-16
+    }
+  ],
+  "nominalWedgeContacts": 6,
+  "maximumNominalWedgeDepthM": 2.5538170883576683e-09,
+  "limits": "Two row representatives; other rollers are periodic copies. Actual saved cylinder/ramp/inner-race meshes replayed at 100 Hz. Springs are NOT continuously rebuilt by this reader. No full native animation, spring force/geometry parity, blade flow or full 3D assembly acceptance."
+}

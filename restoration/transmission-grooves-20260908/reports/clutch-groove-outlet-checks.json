@@ -1,0 +1,33 @@
+{
+  "packs": [
+    {
+      "pack": "first",
+      "closedFrame": 120,
+      "testedSegments": 1114,
+      "radialOutletsBothFaces": 24,
+      "candidateSolids": 25
+    },
+    {
+      "pack": "second",
+      "closedFrame": 240,
+      "testedSegments": 748,
+      "radialOutletsBothFaces": 16,
+      "candidateSolids": 44
+    },
+    {
+      "pack": "direct",
+      "closedFrame": 360,
+      "testedSegments": 748,
+      "radialOutletsBothFaces": 16,
+      "candidateSolids": 47
+    },
+    {
+      "pack": "reverse",
+      "closedFrame": 480,
+      "testedSegments": 1114,
+      "radialOutletsBothFaces": 24,
+      "candidateSolids": 44
+    }
+  ],
+  "limits": "Closed-pack centreline surface clearance through spiral/radial grooves to the outer annular gap. No inner spline outlet, solid-containment, finite-width fluid flow or oil-film pressure claim."
+}

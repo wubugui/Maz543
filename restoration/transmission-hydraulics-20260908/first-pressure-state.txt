@@ -1,0 +1,13 @@
+Browser tab: 9, Title: "MAZ–543A · 机械解构", URL: "http://localhost:3000/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~				232 checkbox 继续机构运动 1 挡, Value: 1
+~						245 text 主油路  11.75  kgf/cm² ·  摩擦滑动
+~						247 text 当前盘组  2.03  kgf/cm² · 行程  6.30  mm
+~						249 text 压紧力  4149  N · 扭矩容量  1130  N·m
+~						251 text 盘间滑差  -49.0  RPM
+~				283 text 537
+~					292 text 8.05  kgf/cm²
+~					349 text 2.6 km/h
+~			190 container ANGLE (NVIDIA, NVIDIA GeForce GTX 970 (0x000013C2) Direct3D11 vs_5_0 ps_5_0, D3D11) · 115 draws · 220,157 triangles · GPU 2.52 ms
+~				191 text 36  FPS
+The focused UI element is 232 checkbox 继续机构运动 1 挡, Value: 1

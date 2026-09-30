@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "unchangedFiles": [
+    {
+      "file": "lib/mechanics.ts",
+      "baseline": "E:\\Maz543\\restoration\\render-worker-and-blob-20260909\\lib\\mechanics.ts",
+      "sha256": "4db4fbc850535a0feece60bd2309312322e79778ab7d8e1db2210a91f882d89e"
+    },
+    {
+      "file": "lib/mechanicalTimeline.ts",
+      "baseline": "E:\\Maz543\\restoration\\render-worker-and-blob-20260909\\lib\\mechanicalTimeline.ts",
+      "sha256": "2274170d87b522aa5d76e5b7d22b9cf45f7a444f5f9a03b0360cd7e63061adbb"
+    },
+    {
+      "file": "lib/starting.ts",
+      "baseline": "E:\\Maz543\\restoration\\render-worker-and-blob-20260909\\lib\\starting.ts",
+      "sha256": "9b2ed3b37ad48bcfcb6a4d3412e6858556c89dd159f2b221c82d95ef6f584a63"
+    },
+    {
+      "file": "lib/suspension.ts",
+      "baseline": "E:\\Maz543\\restoration\\display-neutral-cache-20260909\\lib\\suspension.ts",
+      "sha256": "06af7ce5a0d277df3f90072a7a9228fff6fc2bd9e593205f60c1f463e0d11d89"
+    },
+    {
+      "file": "lib/transmission.ts",
+      "baseline": "E:\\Maz543\\restoration\\render-worker-and-blob-20260909\\lib\\transmission.ts",
+      "sha256": "9f4cbb54a1cd9bb372d10e9ea080410b7d9e05263b936b81bca6249a8fa79bb7"
+    },
+    {
+      "file": "lib/transmissionDynamics.ts",
+      "baseline": "E:\\Maz543\\restoration\\render-worker-and-blob-20260909\\lib\\transmissionDynamics.ts",
+      "sha256": "c65036b031f24cddcd5fbf6773b48f9dfb680ef18b95a6048992574385716bdf"
+    },
+    {
+      "file": "lib/transmissionHydraulics.ts",
+      "baseline": "E:\\Maz543\\restoration\\render-worker-and-blob-20260909\\lib\\transmissionHydraulics.ts",
+      "sha256": "50cd133bb1ca8558c53ec447f7fa9f4198768254db2c6bb6ad27957d582baade"
+    },
+    {
+      "file": "lib/cooling.ts",
+      "baseline": "E:\\Maz543\\restoration\\render-worker-and-blob-20260909\\lib\\cooling.ts",
+      "sha256": "34b5edb068b844220eb043f4c0638738d62571a6c40e0bb33eb0bf109a9e986e"
+    },
+    {
+      "file": "lib/export-model.ts",
+      "baseline": "E:\\Maz543\\restoration\\display-asset-precision-20260909\\lib\\export-model.ts",
+      "sha256": "c18088c50afb60f98ef98b7779018047a7348a0857e84149b648391b6f4f014b"
+    },
+    {
+      "file": "lib/binaryGltfBlob.ts",
+      "baseline": "E:\\Maz543\\restoration\\display-asset-precision-20260909\\lib\\binaryGltfBlob.ts",
+      "sha256": "b829b6c0da17186f13c97105f17946f443fde0e9cc6b8cc8878ad88fbde3639f"
+    },
+    {
+      "file": "lib/exportTangents.ts",
+      "baseline": "E:\\Maz543\\restoration\\display-asset-precision-20260909\\lib\\exportTangents.ts",
+      "sha256": "a92e66e01b50f8084b51d358816c718c62e1429b13176b9252cca57334343ed8"
+    }
+  ],
+  "unchangedPoseBlock": {
+    "characters": 16735,
+    "sha256": "2c5f2f173d2409ab471cbbd518732a395d34c1efdfb1b2ab51489b73f7773eb1"
+  },
+  "rendererQualitySettingsUnchanged": true,
+  "limits": "Source comparison against the latest applicable immutable checkpoints. Does not establish calibrated physical fidelity, cross-context pixels, hardware memory release or dynamic performance."
+}

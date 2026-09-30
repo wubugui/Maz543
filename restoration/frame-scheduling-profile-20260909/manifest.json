@@ -1,0 +1,213 @@
+{
+  "wholeGoal": "ACTIVE; all 16 gates OPEN",
+  "status": "Finite real browser profile; optional native worker RAF; whole model remains slow; no reduction in source geometry or mechanical solver. Production browser and full worker default gates remain open.",
+  "files": [
+    {
+      "path": "AGENT_START_HERE.md",
+      "bytes": 22576,
+      "sha256": "8a555627ff185b09a6ccf01a7f927456a296ef5885cd5778fec02c848e67e5b6"
+    },
+    {
+      "path": "NEXT_AGENT_PROMPT.md",
+      "bytes": 14978,
+      "sha256": "45eec03a2700756bfc583fa77efba5fc8c26d328381844194852226397c35396"
+    },
+    {
+      "path": "docs/CONTINUATION_20260908.md",
+      "bytes": 15902,
+      "sha256": "df66c8257489cf994f47f7697df6d8784a2b716cb5892062c408bf9c3c2a201f"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 27838,
+      "sha256": "d4a4d22a34ba0fd2a3c6c02c7629beb5a2bf068ebb440161c7921ce92783803e"
+    },
+    {
+      "path": "docs/FRAME_SCHEDULING_PROFILE_20260909.md",
+      "bytes": 6951,
+      "sha256": "d7279dae7a071983f988dc9c3fd2d1bca8f88caf941930ae9cfc9c03e28ae1f1"
+    },
+    {
+      "path": "lib/framePhaseProfile.ts",
+      "bytes": 1789,
+      "sha256": "639c57f4671e615eb70684af20662b58e9c8df67e19162b14ae4d45982f790fe"
+    },
+    {
+      "path": "lib/vehicleViewport.ts",
+      "bytes": 57188,
+      "sha256": "d351f94590054189eebab9471508924ab81767808249187df5a0ecae01031208"
+    },
+    {
+      "path": "lib/viewportEnvironment.ts",
+      "bytes": 1542,
+      "sha256": "57306c7f897d02944d6141a8e9b851db7841702b7d8b2fc3d9745b70f11d4011"
+    },
+    {
+      "path": "lib/workerViewportHost.ts",
+      "bytes": 6287,
+      "sha256": "a0d22c92b39dc9969addab20fdfef36c211aaf2ac5c3331f05f2fcdb12ec83e7"
+    },
+    {
+      "path": "lib/viewport.worker.ts",
+      "bytes": 3990,
+      "sha256": "085ec41cd37d86c806314b0df8c7071717e2082b01c18ec5f71be75ad381249a"
+    },
+    {
+      "path": "lib/mechanics.worker.ts",
+      "bytes": 1938,
+      "sha256": "99dd1c89f1796038a9d7ffac2e345f199085651e106de30d2f93afaf6bc8d79d"
+    },
+    {
+      "path": "lib/renderWorkerClient.ts",
+      "bytes": 8570,
+      "sha256": "9d2108ba39ef5da343b976a1d7fc9d3aa324596538822e0ba80e9a2506e545c0"
+    },
+    {
+      "path": "lib/viewportProtocol.ts",
+      "bytes": 1560,
+      "sha256": "a0ad903802a38ab103433cdb0a71f115628faf706744d011c2dcecbef97e22a9"
+    },
+    {
+      "path": "scripts/verify-native-worker-frames.mjs",
+      "bytes": 2946,
+      "sha256": "57eb236fad54472dcd1999f36d30d181919df5f12f7e3d2ab422858228ea5106"
+    },
+    {
+      "path": "scripts/verify-worker-viewport-host.mjs",
+      "bytes": 5187,
+      "sha256": "024f9171913b0e1e686ad602a3f3f34b7f45b08d2de4dd2c9f8c93fb4f331038"
+    },
+    {
+      "path": "scripts/verify-direct-mechanics-channel.mjs",
+      "bytes": 3836,
+      "sha256": "13cf34d7f4cd133353e3cb7c2606feeb054b54cbf66bcc24f9b9ab71974c2785"
+    },
+    {
+      "path": "scripts/verify-frame-profile-integrity.py",
+      "bytes": 1443,
+      "sha256": "02b2a46240a35d1c235e8e0d0c16acdf7640af51006654cf9700970f898d2d7d"
+    },
+    {
+      "path": "scripts/summarize-frame-profile.py",
+      "bytes": 1763,
+      "sha256": "ffb681d37a605bd5905c2d88a9c87cdcc2381ee0c7cb66be4c838f96ffaf1660"
+    },
+    {
+      "path": "scripts/archive-frame-scheduling-stage.py",
+      "bytes": 2860,
+      "sha256": "cb470b19431b971a4a3ac635939ecb57b26cee214dc557be0875415efba954f0"
+    },
+    {
+      "path": "outputs/render-worker-evidence/host-tests.json",
+      "bytes": 1846,
+      "sha256": "746bc46d45b7e7bc32159ee079460ed21254779d532c7b5e56fc68f5c1727a89"
+    },
+    {
+      "path": "outputs/render-worker-evidence/direct-mechanics-tests.json",
+      "bytes": 454,
+      "sha256": "c559fe3a84c31eea50b967fd001ede726818ebc043bfdc7aeab9140e7738938f"
+    },
+    {
+      "path": "outputs/frame-profile/bridge-drive-age-ax.txt",
+      "bytes": 16713,
+      "sha256": "67bf0e7f7df1b4e8f013964045e728b70b4c4ed2ac541f270057cdb70d4969b1"
+    },
+    {
+      "path": "outputs/frame-profile/bridge-drive-age.json",
+      "bytes": 7707,
+      "sha256": "6baa9aab0dbd60ad90154bd6347eefa5377a736a5bd0bc737ead499a04924e42"
+    },
+    {
+      "path": "outputs/frame-profile/drive-running-ax.txt",
+      "bytes": 15654,
+      "sha256": "a3bf4f6d911a38b016c617a00e4e5a7ac7529f38c40eecd14079989e0e991c7d"
+    },
+    {
+      "path": "outputs/frame-profile/drive-running.json",
+      "bytes": 6648,
+      "sha256": "ae27e502998cc893307524e3c77af26a2d412875e27f9ed3095bf2159575ea78"
+    },
+    {
+      "path": "outputs/frame-profile/final-native-whole-ax.txt",
+      "bytes": 7408,
+      "sha256": "07c55974f1906aea5c5524277eb28d26b6f57405ab757360c28a368bddd33c97"
+    },
+    {
+      "path": "outputs/frame-profile/native-drive-running-ax.txt",
+      "bytes": 16624,
+      "sha256": "9336a2aa244c8c335c6b5e524ce94ef039f75266640d1959e1b4eb83efa8d39a"
+    },
+    {
+      "path": "outputs/frame-profile/native-drive-running.json",
+      "bytes": 7592,
+      "sha256": "541b8e27fa80abc5a6b1076cd802867a4b81ccec507ad6734e1288b6d14f43dd"
+    },
+    {
+      "path": "outputs/frame-profile/native-scheduler-tests.json",
+      "bytes": 327,
+      "sha256": "ede6884cfa4e8f951816e8fa3edf8aac7927ffead6dd257e927e6250acb29366"
+    },
+    {
+      "path": "outputs/frame-profile/native-whole-ax.txt",
+      "bytes": 14561,
+      "sha256": "6aefea737e7481983007fb193b3039b9eb42f52b00c4c3c3fed1246ca6a7871b"
+    },
+    {
+      "path": "outputs/frame-profile/native-whole.json",
+      "bytes": 7085,
+      "sha256": "f9319dea27376f6e5254ec04b35b0bf8caab22cdb2447e84337463df3fc6e94e"
+    },
+    {
+      "path": "outputs/frame-profile/source-integrity.json",
+      "bytes": 1515,
+      "sha256": "dc303e1f0ada494c4c532e44ad58fa871a7f847f543e45b0346380b34a25cf23"
+    },
+    {
+      "path": "outputs/frame-profile/summary.json",
+      "bytes": 7010,
+      "sha256": "6f72f9441e004fb89c906681a9a8e04f3ce79c1b3179f5045aa0e209afe88a5a"
+    },
+    {
+      "path": "outputs/frame-profile/whole-ax.txt",
+      "bytes": 14095,
+      "sha256": "1fbdd4f345482f0bc324edf5c077788c59d393e7a740ece0100a7df22a6ce0d0"
+    },
+    {
+      "path": "outputs/frame-profile/whole.json",
+      "bytes": 6644,
+      "sha256": "26675fe560576aaa038ee375afea0abfc35a968887102cdfc6a98ede4dcdc319"
+    },
+    {
+      "path": "work/frame-profile/build.log",
+      "bytes": 2856,
+      "sha256": "28d1ac314757dbee82efd98a104f4ac322955ba4508558478cb22d74c18c978f"
+    },
+    {
+      "path": "work/frame-profile/direct-channel.log",
+      "bytes": 467,
+      "sha256": "49dc5cc20bc530d87d6da8842a957e16af2847940e06c44bcf4957010bea9ff7"
+    },
+    {
+      "path": "work/frame-profile/summary.log",
+      "bytes": 7012,
+      "sha256": "4163579466a28ef051fe5969b1098b85dc4eb4676616986073781f1d7b6b4bdd"
+    },
+    {
+      "path": "work/frame-profile/types-age.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/frame-profile/types-native.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/frame-profile/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "fileCount": 41,
+  "totalBytes": 331362
+}

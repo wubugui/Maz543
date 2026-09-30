@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "name": "disjoint moving predecessor",
+      "skipped": 1,
+      "spatialBounds": 2,
+      "fullViewportBounds": 0
+    },
+    {
+      "name": "predecessor enters target tiles",
+      "skipped": 0,
+      "spatialBounds": 2,
+      "fullViewportBounds": 0
+    },
+    {
+      "name": "exact target motion inside same tile",
+      "skipped": 0,
+      "spatialBounds": 2,
+      "fullViewportBounds": 0
+    },
+    {
+      "name": "unknown predecessor shader covers every tile",
+      "skipped": 0,
+      "spatialBounds": 0,
+      "fullViewportBounds": 0
+    },
+    {
+      "name": "mediump predecessor bounds cover every tile",
+      "skipped": 0,
+      "spatialBounds": 1,
+      "fullViewportBounds": 1
+    },
+    {
+      "name": "camera change invalidates local proof",
+      "skipped": 0,
+      "spatialBounds": 2,
+      "fullViewportBounds": 0
+    }
+  ],
+  "limits": "Deterministic proof transport, not actual rasterization. Full browser pixels tested separately.",
+  "perFrameBudgetPreservesAllDraws": true
+}

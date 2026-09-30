@@ -1,0 +1,51 @@
+{
+  "base_url": "http://denghong01:8765",
+  "prior_task_id": "6e95834d-f419-495b-9e5b-9e6b9b561d87",
+  "idempotency_key": "maz-authorized-front-retry-eec7890c-798f-4497-bbb5-93bea4dfdafd",
+  "authorization": "User replaces prior clearance prerequisite; one controlled normal retry after terminal/no-output/service checks",
+  "endpoint": "/v1/tasks/6e95834d-f419-495b-9e5b-9e6b9b561d87/retry",
+  "preflight": {
+    "oldState": "failed",
+    "execution": "finished",
+    "outputCount": 0,
+    "resourceHeld": 0,
+    "health": "ok",
+    "blender": "ready",
+    "pid": 42948
+  },
+  "originalParams": {
+    "version": "4.5.13",
+    "project_file": null,
+    "files": [
+      {
+        "file_id": "4d28289c72ba6fa94712f94df1d49e7f",
+        "path": "MAZ543A_Master.blend"
+      },
+      {
+        "file_id": "96223522b9749b711e4fa4e9394aedf0",
+        "path": "MAZ543A_Textured.blend"
+      },
+      {
+        "file_id": "34f9e419-7218-4a89-8ff7-7e712271190e",
+        "path": "main.py"
+      }
+    ],
+    "script": "main.py",
+    "blend_file": null,
+    "args": [],
+    "device": "cpu",
+    "gpu_policy": "auto",
+    "threads": 4,
+    "ram_mb": 4096,
+    "vram_mb": 1024,
+    "timeout_seconds": 900
+  },
+  "scriptSha256": "8222daa5dca57122f631ead8de3e31e6ec141c435217b2bc69ce07d14500d68d",
+  "response": {
+    "batch_id": "709f971f-e01b-40b9-a537-3da4e6db846d",
+    "task_ids": [
+      "a474180c-fde7-4acc-b82f-19a100987e4d"
+    ],
+    "task_id": "a474180c-fde7-4acc-b82f-19a100987e4d"
+  }
+}

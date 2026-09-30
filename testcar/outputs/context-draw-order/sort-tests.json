@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "modes": {
+    "opaque": {
+      "forward": {
+        "stock": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "canonical": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ]
+      },
+      "reverse": {
+        "stock": [
+          "b2",
+          "b1",
+          "a2",
+          "a1"
+        ],
+        "canonical": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ]
+      }
+    },
+    "transparent": {
+      "forward": {
+        "stock": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "canonical": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ]
+      },
+      "reverse": {
+        "stock": [
+          "b2",
+          "b1",
+          "a2",
+          "a1"
+        ],
+        "canonical": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ]
+      }
+    },
+    "transmissive": {
+      "forward": {
+        "stock": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ],
+        "canonical": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ]
+      },
+      "reverse": {
+        "stock": [
+          "b2",
+          "b1",
+          "a2",
+          "a1"
+        ],
+        "canonical": [
+          "a1",
+          "a2",
+          "b1",
+          "b2"
+        ]
+      }
+    }
+  },
+  "exactDepthPreserved": true,
+  "groupRenderVariantPrecedencePreserved": true,
+  "limits": "Actual installed r183 render-list sorting under controlled allocation permutations. Audit-only comparator; does not establish identical pixels, calibrated geometry, physical behavior or performance."
+}

@@ -1,0 +1,28 @@
+Browser tab: 5, Title: "MAZ 显示后端可用性检查", URL: "http://localhost:3000/maz-backend-probe.html".
+0 AXWebArea MAZ 显示后端可用性检查, URL: localhost:3000/maz-backend-probe.html
+	1 heading 显示后端可用性检查, Value: 1
+		2 text 显示后端可用性检查
+	3 text 独立探针：仅请求浏览器公开的 WebGPU 接口并绘制 64 × 64、4 倍采样三角形。结果不代表整车兼容性或性能。
+	4 button 检查 WebGPU, ID: run
+	5 image WebGPU 三角形
+	6 container Description: 后端检查结果, ID: result
+		7 text {
+  "secureContext": true,
+  "webgpu": true,
+  "attempts": [
+    {
+      "options": {},
+      "available": false
+    },
+    {
+      "options": {
+        "powerPreference": "high-performance"
+      },
+      "available": false
+    }
+  ],
+  "status": "adapter-unavailable",
+  "resourcesReleased": true
+}
+
+The focused UI element is 0 AXWebArea MAZ 显示后端可用性检查, URL: localhost:3000/maz-backend-probe.html

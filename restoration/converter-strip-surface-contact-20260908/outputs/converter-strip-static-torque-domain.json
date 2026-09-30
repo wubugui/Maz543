@@ -1,0 +1,52 @@
+{
+  "staticTorqueIntervalNm": [
+    null,
+    4.504829734584178
+  ],
+  "bounds": [
+    {
+      "contact": 0,
+      "constraint": "normal",
+      "coefficient": -291.9617049303513,
+      "constant": 2058.4813732035927,
+      "boundaryNm": 7.050518401701526
+    },
+    {
+      "contact": 0,
+      "constraint": "positive-friction",
+      "coefficient": -52.89254744878502,
+      "constant": 247.0177647844311,
+      "boundaryNm": 4.670180898804587
+    },
+    {
+      "contact": 0,
+      "constraint": "negative-friction",
+      "coefficient": -17.178261734499294,
+      "constant": 247.0177647844311,
+      "boundaryNm": 14.37967173875006
+    },
+    {
+      "contact": 1,
+      "constraint": "normal",
+      "coefficient": -291.9617049303513,
+      "constant": 1985.5993373765941,
+      "boundaryNm": 6.8008896504090055
+    },
+    {
+      "contact": 1,
+      "constraint": "positive-friction",
+      "coefficient": -52.89254744878502,
+      "constant": 238.2719204851913,
+      "boundaryNm": 4.504829734584178
+    },
+    {
+      "contact": 1,
+      "constraint": "negative-friction",
+      "coefficient": -17.178261734499294,
+      "constant": 238.2719204851913,
+      "boundaryNm": 13.870548962859678
+    }
+  ],
+  "initialForceN": 21.448307839522815,
+  "limits": "Fitted initial geometry, spring and friction. Null lower means unbounded negative torque only in this rigid Coulomb abstraction, not actual strength. A 6 Nm follow-up is an external test load above the computed 4.50 Nm breakaway, not a factory reactor torque or a tuned spring."
+}

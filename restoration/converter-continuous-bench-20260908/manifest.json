@@ -1,0 +1,252 @@
+{
+  "stage": "continuous freewheel native and browser bench",
+  "goalStatus": "active",
+  "wholeVehicleGates": "16 OPEN",
+  "files": [
+    {
+      "path": "app/freewheel/page.tsx",
+      "bytes": 117,
+      "sha256": "9a5eb2731790b9880eb3c9593bebc64b25ccb147039e01e1d49f7f88a8f19307"
+    },
+    {
+      "path": "browser-both-rotated.png",
+      "bytes": 56744,
+      "sha256": "903dbbd4cd4afb4ec6aef85efaa38bfd2e62c7309345db506116947dc7c99cc1"
+    },
+    {
+      "path": "browser-locked.png",
+      "bytes": 58448,
+      "sha256": "4889ed87f7c2da84d7390dca5436b9a1813efcd1ba475ed750998c7665c047db"
+    },
+    {
+      "path": "browser-overrunning-ax.txt",
+      "bytes": 2576,
+      "sha256": "d19802bfec38961002dd8880a6fb03974893908378cae07ba6b759f1d79ee0a9"
+    },
+    {
+      "path": "browser-overrunning.png",
+      "bytes": 58073,
+      "sha256": "dd7f36d1f54d0d82f862c89ce99ae1cee296d81eb47ac39e66dede36636246ed"
+    },
+    {
+      "path": "browser-relocked-ax.txt",
+      "bytes": 2516,
+      "sha256": "097af69f77aaef20231488c5a5210db433e1c97b36e467671de0762d3a8f0c15"
+    },
+    {
+      "path": "browser-relocked-rear-retainers.png",
+      "bytes": 51645,
+      "sha256": "f10acc1ac344ac1ee369f644d1928322247c70cc0cd62aa099d8bec109cdd6b7"
+    },
+    {
+      "path": "components/freewheel-bench.module.css",
+      "bytes": 3080,
+      "sha256": "0e9cb2f3bebd0efa8806dd7cc205cdc8e4df0862f67bdb0fc66da2352339facf"
+    },
+    {
+      "path": "components/freewheel-bench.tsx",
+      "bytes": 10962,
+      "sha256": "d78a1147ebe90c0e96273d765534c7c76a329ca0be9046f38f2145ba661550b0"
+    },
+    {
+      "path": "components/workshop.tsx",
+      "bytes": 47671,
+      "sha256": "3b898474dfd11a526214247bae1c625ca256664b434237acd443748d41be09cf"
+    },
+    {
+      "path": "docs/CONVERTER_CONTINUOUS_BENCH_20260908.md",
+      "bytes": 5602,
+      "sha256": "c7815442565ca8cfedc6c1e9860fe037c3df8b4d337809f39b1a1453a3bd720a"
+    },
+    {
+      "path": "lib/converterFreewheel.ts",
+      "bytes": 8345,
+      "sha256": "a01734b98ba5851760ed26fb9ebb4c3a7279baaeb9d5f11a07678ee2d23f61ca"
+    },
+    {
+      "path": "lib/converterFreewheelGeometry.ts",
+      "bytes": 1555,
+      "sha256": "32062b516885543f8c36858aea6e50d5b2743ca173d14d924e572f1cf44203bc"
+    },
+    {
+      "path": "outputs/converter-freewheel-contact-diagnostic-16000hz.json",
+      "bytes": 222375,
+      "sha256": "7b08e6e48eed825262e335d9686d10a3c7cc7290521eb668c2074e1de6770c7f"
+    },
+    {
+      "path": "outputs/converter-freewheel-contact-diagnostic-8000hz.json",
+      "bytes": 222098,
+      "sha256": "dff361090b8560905ffd2ac704c1d1ed4c495896b8db496defc5fa43913aa2be"
+    },
+    {
+      "path": "outputs/converter-freewheel-contact-diagnostic.json",
+      "bytes": 223510,
+      "sha256": "c9e09ea752fce265f235701a234ec50b10ae832dd220c3ac331b21f2a30c411a"
+    },
+    {
+      "path": "outputs/converter-freewheel-contact-initial.png",
+      "bytes": 896542,
+      "sha256": "01f474624b09bf696c90665524f6e57e44cb2f3b1c5a6911ebb79e5c792dbdbc"
+    },
+    {
+      "path": "outputs/converter-freewheel-contact-native.json",
+      "bytes": 67388,
+      "sha256": "450b30c6bbc78ad56a959a9ee2d13558c92973e4add0306f620a2457b937419f"
+    },
+    {
+      "path": "outputs/converter-freewheel-contact-overrunning.png",
+      "bytes": 896011,
+      "sha256": "e99ab308943f010ab971dac5ba6ee324f61e438c6c811731b188937854d3d5d3"
+    },
+    {
+      "path": "outputs/converter-freewheel-contact-relocked.png",
+      "bytes": 895362,
+      "sha256": "05576e050a9f636fe2bcc81040b9f6a61ca1083462b1031f68cdfc8fe37581ee"
+    },
+    {
+      "path": "outputs/converter-freewheel-timestep-comparison.json",
+      "bytes": 1006,
+      "sha256": "a68d99013167d8f0beecda3b4f8122b008d76f13efb03a7e8da0a66499f2dc5e"
+    },
+    {
+      "path": "outputs/freewheel-bench-interpolation.json",
+      "bytes": 640,
+      "sha256": "b1f23c334211f656430c6542fa6a3f318627c14dfa0ed58b83309d59feefe123"
+    },
+    {
+      "path": "outputs/freewheel-browser-geometry.json",
+      "bytes": 8613,
+      "sha256": "deafdc1c2c17de33b9d52e3fab473bd5f27ba9e8d6bded2e488309a4ce5afea4"
+    },
+    {
+      "path": "outputs/freewheel-http-verification.json",
+      "bytes": 770,
+      "sha256": "cf5fb9c5070218faa240fc47cb0b97e0cf22e04b6c827f420dfefdcd225939cc"
+    },
+    {
+      "path": "outputs/freewheel-native-bench-verification.json",
+      "bytes": 42453,
+      "sha256": "25fc611e388347f722712953808de180b89699a44e655a003d4d2e5a2aa25a5c"
+    },
+    {
+      "path": "outputs/MAZ543A_Converter_Freewheel_ContactBench.blend",
+      "bytes": 2871013,
+      "sha256": "754ea5f87d9ff9373d4deb50a08a00e81be3c3a818f7d22e478da5b531d8fb47"
+    },
+    {
+      "path": "public/models/maz543a-freewheel-bench.glb",
+      "bytes": 1935512,
+      "sha256": "0f8a95773908195d98933e411a5efc9be3ef02db3c623abfa952588c9f9b9bb0"
+    },
+    {
+      "path": "public/models/maz543a-freewheel-bench.json",
+      "bytes": 159855,
+      "sha256": "0b78c2de16daa81fc4221275424d91bc4f420c8524ea53a24162af844eb4181c"
+    },
+    {
+      "path": "scripts/bake-freewheel-native-bench.py",
+      "bytes": 5623,
+      "sha256": "1ffcea8201f107be18c172c116546d9d72aaa552be492dfcf7567f6dfe5191ad"
+    },
+    {
+      "path": "scripts/compare-freewheel-timesteps.mjs",
+      "bytes": 993,
+      "sha256": "656094a42a073c84d95b4587005865105bb314bbe491da4a5ca527ce346cb763"
+    },
+    {
+      "path": "scripts/converter_continuous_spring.py",
+      "bytes": 1316,
+      "sha256": "682533ec266bf809b2e32ca302c8eac79d76dc9b6b287e2ff41be279aeb097e3"
+    },
+    {
+      "path": "scripts/diagnose-converter-freewheel-contact.mjs",
+      "bytes": 4032,
+      "sha256": "29af225898d53f04c84475c565d6814b55e5460c31dbff6707b6593a4624da9e"
+    },
+    {
+      "path": "scripts/export-freewheel-bench.py",
+      "bytes": 1726,
+      "sha256": "2ac94a651f3ca498daea73a037d1763c2a2b80f7e645ae0e100074110091f56d"
+    },
+    {
+      "path": "scripts/prepare-freewheel-native-bench.mjs",
+      "bytes": 1427,
+      "sha256": "9f4cb3eb60cccf9c81dbbc9b9b33028e2e776aa51c8856bb4de3dfc4be6833cd"
+    },
+    {
+      "path": "scripts/render-converter-freewheels.py",
+      "bytes": 1972,
+      "sha256": "1a108733fe1ada6aa06ac3893dbeaa37bfdc71574acf38ee2b55d49b9f540580"
+    },
+    {
+      "path": "scripts/verify-freewheel-bench-interpolation.py",
+      "bytes": 3598,
+      "sha256": "aadcc3e272839f8624377317304c1cf0857de443661df8db1721851701cd9402"
+    },
+    {
+      "path": "scripts/verify-freewheel-browser-geometry.mjs",
+      "bytes": 2729,
+      "sha256": "4b6b204b2c61a30825b1b43044605eb84ff6c58454879afd5718fe9c6b175727"
+    },
+    {
+      "path": "scripts/verify-freewheel-contact-native.py",
+      "bytes": 4692,
+      "sha256": "6c0e8bf50b6df63cbc2311fcde97329728fb688c966a7d6d3dfda69849061a89"
+    },
+    {
+      "path": "scripts/verify-freewheel-native-bench.py",
+      "bytes": 6956,
+      "sha256": "0475c12c66c9b7889d9fa0a9678d199f753a8f03d41c4bc19a55b825dba849e3"
+    },
+    {
+      "path": "work/freewheel-contact/browser-coil-reference.bin",
+      "bytes": 4659984,
+      "sha256": "8b9449daa88f330acb286fe567388a5a6e73bcde5613a76e3e15e858aa5ea95f"
+    },
+    {
+      "path": "work/freewheel-contact/native-bench.json",
+      "bytes": 223247,
+      "sha256": "996517db79bfb1767b11ea9690f18de5312aecf3a664219567b80239aa25bc57"
+    },
+    {
+      "path": "work/transmission/freewheel-bench-interpolation.log",
+      "bytes": 812,
+      "sha256": "a55dadb4012011db243080b0fa2891c41afcff815b730f7587cf279e5df41fe1"
+    },
+    {
+      "path": "work/transmission/freewheel-browser-build.log",
+      "bytes": 2488,
+      "sha256": "cebface1aceb413217091d575ca8f2f998d97cb00daad60652f3f3d32c7a7d07"
+    },
+    {
+      "path": "work/transmission/freewheel-browser-geometry.log",
+      "bytes": 8894,
+      "sha256": "2c8024bc59e6550e64a5fc38ea28f67bb8c4039fd839d19a05d908174d4b0699"
+    },
+    {
+      "path": "work/transmission/freewheel-browser-tsc.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/transmission/freewheel-contact-native.log",
+      "bytes": 676,
+      "sha256": "fa319649ed568c1083d0c7d2bf4c296b53a68c7af45e6a4af0b5be84f3ff6fee"
+    },
+    {
+      "path": "work/transmission/freewheel-contact-render.log",
+      "bytes": 37755,
+      "sha256": "f57b0d925d44c0efc90b473de2ce8cf6314fba2df8b3e1731facc61e9b053769"
+    },
+    {
+      "path": "work/transmission/freewheel-export.log",
+      "bytes": 5273,
+      "sha256": "6c89727ad2642a66c69a9cfdd5fd27f65bea2f5d6da1dd1d20d96402d873a1cc"
+    },
+    {
+      "path": "work/transmission/freewheel-native-bench-verification.log",
+      "bytes": 998,
+      "sha256": "8fe7f407bee18c2f9f10a70b6e1b805a944ea0d4d543d04431513a0cb04cc18e"
+    }
+  ]
+}

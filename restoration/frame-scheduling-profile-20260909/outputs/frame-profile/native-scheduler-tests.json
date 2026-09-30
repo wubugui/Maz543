@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "nativeWithoutMainBridge": true,
+  "workerClock": true,
+  "exactlyOnce": true,
+  "cancellation": true,
+  "nativeHandleZero": true,
+  "unsupportedFallback": true,
+  "unexpectedErrorPreserved": true,
+  "limits": "Host scheduler contract test. Browser capture and visual/interaction evidence are separate."
+}

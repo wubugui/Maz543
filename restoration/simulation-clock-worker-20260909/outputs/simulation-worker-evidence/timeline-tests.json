@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "stepHz": 240,
+  "delayedCallbacks": {
+    "ticks": 1440,
+    "exactStateEquality": true
+  },
+  "unchangedSolverEquality": true,
+  "hiddenPause": true,
+  "controlsAtNextBoundary": true,
+  "resetGenerationIsolation": true,
+  "retainedBacklog": {
+    "initialSeconds": 9.75,
+    "completedTicks": 2400
+  },
+  "actualWorker": {
+    "mainThreadBlockedMs": 1200,
+    "simulationBefore": 0.09166666666666666,
+    "simulationAfter": 1.4833333333333294,
+    "advancedSeconds": 1.3916666666666628,
+    "mode": "worker",
+    "stepHz": 240,
+    "backlogSeconds": 0
+  },
+  "limits": "No geometry changes. Existing mechanical parameter/fidelity limits remain. Browser integration requires its own evidence."
+}

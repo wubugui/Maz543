@@ -1,0 +1,10 @@
+{
+  "preservedMeshNodes": 258,
+  "nativeCandidate": "work/cab-hinge-rebase-20260930/maz543a-blender.glb",
+  "source": "work/cab-hinge-rebase-20260930/windshield-baseline.glb",
+  "output": "work/cab-hinge-rebase-20260930/maz543a-preserved.glb",
+  "sha256": "4544afcc653c87f6fb40be1c9c21483aeeff87b989d46e366e1a1d220076bfe2",
+  "bytes": 20501168,
+  "changedMeshes": [],
+  "scope": "Preserve every existing compressed geometry stream; only explicit dark rubber assignments, paired hinge/child translation rebases keeping closed world geometry, and four new complete upper mirror nodes."
+}

@@ -1,0 +1,25 @@
+{
+  "url": "http://localhost:3000/",
+  "tab": "4",
+  "loaded": true,
+  "controls": [
+    "guided start in neutral",
+    "first gear",
+    "second gear",
+    "third gear",
+    "slow motion",
+    "pause",
+    "gear-only view",
+    "longitudinal section"
+  ],
+  "finalState": "third gear, paused, slow on, core longitudinal section",
+  "screenshots": [
+    "screenshots/first-gear-paused.png",
+    "screenshots/third-gear-paused.png"
+  ],
+  "visibleGearInspection": {
+    "drawCalls": 45,
+    "triangles": 393445
+  },
+  "limitations": "Visual and interaction observations; no browser mesh-transform extraction or full assembly/contact proof"
+}

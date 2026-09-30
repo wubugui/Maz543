@@ -1,0 +1,27 @@
+{
+  "assemblies": [
+    {
+      "file": "MAZ543A_Cooling_Master.blend",
+      "authoredParts": 1241,
+      "poseBindings": 254,
+      "geometryAndProvenanceSha256": "c4df953c969ad4570813b194a28c6982ed01b3e240be24562b5a4775a20bfc40",
+      "missingUnpackedImages": []
+    },
+    {
+      "file": "MAZ543A_Master.blend",
+      "authoredParts": 1241,
+      "poseBindings": 254,
+      "geometryAndProvenanceSha256": "c4df953c969ad4570813b194a28c6982ed01b3e240be24562b5a4775a20bfc40",
+      "missingUnpackedImages": []
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "authoredParts": 1241,
+      "poseBindings": 254,
+      "geometryAndProvenanceSha256": "c4df953c969ad4570813b194a28c6982ed01b3e240be24562b5a4775a20bfc40",
+      "missingUnpackedImages": []
+    }
+  ],
+  "passed": true,
+  "scope": "Final saved cooling local geometry and provenance parity; no complete vehicle collision or factory dimensional acceptance."
+}

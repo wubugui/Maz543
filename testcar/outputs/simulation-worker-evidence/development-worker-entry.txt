@@ -1,0 +1,6 @@
+export default function WorkerWrapper(options) {
+	return new Worker("/lib/mechanics.worker.ts?worker_file&type=module", {
+		type: "module",
+		name: options?.name
+	});
+}

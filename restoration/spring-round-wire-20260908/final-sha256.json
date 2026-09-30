@@ -1,0 +1,52 @@
+[
+  {
+    "path": "outputs/MAZ543A_Cooling_Master.blend",
+    "bytes": 31570189,
+    "sha256": "74a47e8241fed507c37649eeca72590e999f63fb494944e2132e142b124f1afd"
+  },
+  {
+    "path": "outputs/MAZ543A_Master.blend",
+    "bytes": 66863901,
+    "sha256": "8476d868545534e4776875ab3db7b14d5d4fcca04163d3097f3aea3fdb307b65"
+  },
+  {
+    "path": "outputs/MAZ543A_Textured.blend",
+    "bytes": 100066416,
+    "sha256": "892afded133e09a9fd51ec72ea17e500b1539bb590066acb96814118c9b86aab"
+  },
+  {
+    "path": "outputs/MAZ543A_Starting_Master.blend",
+    "bytes": 2241682,
+    "sha256": "9468b129bab906c7896d129f0d590a00d01fb88feef341049ee5b13c8dfa0784"
+  },
+  {
+    "path": "outputs/MAZ543A_Cardan_Master.blend",
+    "bytes": 2014873,
+    "sha256": "8756bee288a9e99d8fa693ba6df2e443b9d0ae205d95acfbd16502607a9d8a93"
+  },
+  {
+    "path": "public/models/maz543a-cooling.glb",
+    "bytes": 15673480,
+    "sha256": "0bdddd0688c9e6f62c06586afdf6d7e2b6e33f61abf89292172634f25b9159ce"
+  },
+  {
+    "path": "lib/cooling.ts",
+    "bytes": 12321,
+    "sha256": "34b5edb068b844220eb043f4c0638738d62571a6c40e0bb33eb0bf109a9e986e"
+  },
+  {
+    "path": "components/vehicle-viewer.tsx",
+    "bytes": 41317,
+    "sha256": "6c94ec3d3af24585ac8aaa5a5f93c34f45a82be1bceed68f22e674214c90fab5"
+  },
+  {
+    "path": "components/workshop.tsx",
+    "bytes": 38344,
+    "sha256": "7459216401cef43352b1c3b93d37fddc2cdc0bd3627b208a7444c9391d14a045"
+  },
+  {
+    "path": "lib/mechanics.ts",
+    "bytes": 5037,
+    "sha256": "68bc7e85bfcb97771de1fdd7c41346ac8b18f741df37dfc333e3c441adc619f4"
+  }
+]

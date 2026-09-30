@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checkedFloat32MorphVertexReferences": 71280,
+  "morphed": 71280,
+  "sourceIndexAndPositionBytesUnchanged": true,
+  "nonIndexedInterleavedAndDrawRangesCovered": true,
+  "originalElementOrderPreserved": true,
+  "alignedGroupsRequired": true,
+  "budgetAndUnsupportedInputsFallBack": true,
+  "attributeVersionInvalidates": true,
+  "proxyResourcesDisposedExactlyOnce": true,
+  "sourceResourcesNeverDisposed": true,
+  "bytesPerUnmorphedRange": 96,
+  "limits": "CPU extrema and highp-style transform coverage; not actual GPU occlusion, image equivalence or performance acceptance."
+}

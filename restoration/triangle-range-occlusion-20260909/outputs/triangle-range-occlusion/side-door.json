@@ -1,0 +1,493 @@
+{
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "originalOcclusion": {
+    "kind": "original-program-occlusion-cache",
+    "generation": 9,
+    "rebuilt": false,
+    "pending": false,
+    "ready": true,
+    "occluders": 1649,
+    "excludedChanged": 0,
+    "skipped": 3633,
+    "savedTriangles": 7013846,
+    "programFallbacks": 0,
+    "rangeMode": true,
+    "rangeMeshes": 10,
+    "rangeProxyBytes": 86400,
+    "rangeSourceDraws": 11,
+    "rangeSubmittedDraws": 35,
+    "rangeSavedTriangles": 296272,
+    "depthControls": {
+      "kind": "original-program-static-depth-volume-queries",
+      "initializationDraws": 1,
+      "passes": [
+        {
+          "samples": 4,
+          "depthBits": 24,
+          "viewport": [
+            0,
+            0,
+            1212,
+            773
+          ],
+          "normalOverride": false,
+          "queried": 3214,
+          "rangeQueried": 900,
+          "rangeZeroTriangles": 842380,
+          "zeroCountsOverlap": true,
+          "zeroVolumes": 1762,
+          "zeroTriangles": 3170290,
+          "movingZeroVolumes": 274,
+          "controlsPassed": true,
+          "largestZero": [
+            {
+              "name": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+              "triangles": 738276,
+              "stable": true,
+              "meshUuid": "8ab6dff0-2944-4e2b-af28-79002fab5bc0",
+              "volume": {
+                "left": 212.7494766879619,
+                "right": 252.18560744737323,
+                "bottom": 286.7118668191946,
+                "top": 323.8770759490271,
+                "nearDepth": 0.997157020105564
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_output_0_D12_machined_steel_upper-internal",
+              "triangles": 17792,
+              "stable": false,
+              "meshUuid": "64ccb714-8848-4d93-8c6f-62ac10b19c55",
+              "volume": {
+                "left": 203.0485343680239,
+                "right": 240.6311004975234,
+                "bottom": 303.44347820453686,
+                "top": 324.96922594526933,
+                "nearDepth": 0.9971028151800638
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_output_1_D12_machined_steel_upper-internal",
+              "triangles": 17792,
+              "stable": false,
+              "meshUuid": "dc496601-ae73-4abe-acd9-6ccf0ff33d17",
+              "volume": {
+                "left": 218.52322268560425,
+                "right": 254.81080593892437,
+                "bottom": 314.40097212947654,
+                "top": 335.3594349637335,
+                "nearDepth": 0.9972308422925039
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_lower_input_D12_machined_steel_lower-internal",
+              "triangles": 17664,
+              "stable": false,
+              "meshUuid": "085a4448-c836-4fc9-a0d3-e97c2da0d356",
+              "volume": {
+                "left": 218.05779157252215,
+                "right": 243.25030828761268,
+                "bottom": 295.5807193911707,
+                "top": 317.57660385227354,
+                "nearDepth": 0.997172589213793
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "D12A_525A_D12_cast_aluminium_water-pipe",
+              "triangles": 16640,
+              "stable": true,
+              "meshUuid": "5659d72b-f9cb-4b8a-8275-adffb4627678",
+              "volume": {
+                "left": 230.68108934664036,
+                "right": 269.9011890028352,
+                "bottom": 262.72970481372084,
+                "top": 341.0399065069275,
+                "nearDepth": 0.9971158687163159
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_input_0_D12_machined_steel_upper-internal",
+              "triangles": 15696,
+              "stable": false,
+              "meshUuid": "85f1754c-2e23-4793-b116-df89da78cb9d",
+              "volume": {
+                "left": 218.28684761251824,
+                "right": 235.346305242858,
+                "bottom": 294.64685900562426,
+                "top": 315.73799379305507,
+                "nearDepth": 0.9971101497248654
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_input_1_D12_machined_steel_upper-internal",
+              "triangles": 15696,
+              "stable": false,
+              "meshUuid": "8e71d4c5-482e-46a1-aa19-37943efd13c7",
+              "volume": {
+                "left": 233.07531010504488,
+                "right": 249.78662580689917,
+                "bottom": 305.9385470906978,
+                "top": 326.46381168899745,
+                "nearDepth": 0.9972376197421768
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_lower_output_0_D12_machined_steel_lower-internal",
+              "triangles": 15696,
+              "stable": false,
+              "meshUuid": "232e4783-0f09-4a3d-becf-0eacee56e206",
+              "volume": {
+                "left": 227.12979346682516,
+                "right": 246.6477017023331,
+                "bottom": 300.6417647555395,
+                "top": 322.5301325739188,
+                "nearDepth": 0.9971510969443185
+              },
+              "pass": 0,
+              "anySamplesPassed": false
+            }
+          ]
+        },
+        {
+          "samples": 2,
+          "depthBits": 24,
+          "viewport": [
+            0,
+            0,
+            1212,
+            773
+          ],
+          "normalOverride": false,
+          "queried": 3214,
+          "rangeQueried": 900,
+          "rangeZeroTriangles": 842380,
+          "zeroCountsOverlap": true,
+          "zeroVolumes": 1783,
+          "zeroTriangles": 3179346,
+          "movingZeroVolumes": 281,
+          "controlsPassed": true,
+          "largestZero": [
+            {
+              "name": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+              "triangles": 738276,
+              "stable": true,
+              "meshUuid": "8ab6dff0-2944-4e2b-af28-79002fab5bc0",
+              "volume": {
+                "left": 212.7494766879619,
+                "right": 252.18560744737323,
+                "bottom": 286.7118668191946,
+                "top": 323.8770759490271,
+                "nearDepth": 0.997157020105564
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_output_0_D12_machined_steel_upper-internal",
+              "triangles": 17792,
+              "stable": false,
+              "meshUuid": "64ccb714-8848-4d93-8c6f-62ac10b19c55",
+              "volume": {
+                "left": 203.0485343680239,
+                "right": 240.6311004975234,
+                "bottom": 303.44347820453686,
+                "top": 324.96922594526933,
+                "nearDepth": 0.9971028151800638
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_output_1_D12_machined_steel_upper-internal",
+              "triangles": 17792,
+              "stable": false,
+              "meshUuid": "dc496601-ae73-4abe-acd9-6ccf0ff33d17",
+              "volume": {
+                "left": 218.52322268560425,
+                "right": 254.81080593892437,
+                "bottom": 314.40097212947654,
+                "top": 335.3594349637335,
+                "nearDepth": 0.9972308422925039
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_lower_input_D12_machined_steel_lower-internal",
+              "triangles": 17664,
+              "stable": false,
+              "meshUuid": "085a4448-c836-4fc9-a0d3-e97c2da0d356",
+              "volume": {
+                "left": 218.05779157252215,
+                "right": 243.25030828761268,
+                "bottom": 295.5807193911707,
+                "top": 317.57660385227354,
+                "nearDepth": 0.997172589213793
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "D12A_525A_D12_cast_aluminium_water-pipe",
+              "triangles": 16640,
+              "stable": true,
+              "meshUuid": "5659d72b-f9cb-4b8a-8275-adffb4627678",
+              "volume": {
+                "left": 230.68108934664036,
+                "right": 269.9011890028352,
+                "bottom": 262.72970481372084,
+                "top": 341.0399065069275,
+                "nearDepth": 0.9971158687163159
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_input_0_D12_machined_steel_upper-internal",
+              "triangles": 15696,
+              "stable": false,
+              "meshUuid": "85f1754c-2e23-4793-b116-df89da78cb9d",
+              "volume": {
+                "left": 218.28684761251824,
+                "right": 235.346305242858,
+                "bottom": 294.64685900562426,
+                "top": 315.73799379305507,
+                "nearDepth": 0.9971101497248654
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_input_1_D12_machined_steel_upper-internal",
+              "triangles": 15696,
+              "stable": false,
+              "meshUuid": "8e71d4c5-482e-46a1-aa19-37943efd13c7",
+              "volume": {
+                "left": 233.07531010504488,
+                "right": 249.78662580689917,
+                "bottom": 305.9385470906978,
+                "top": 326.46381168899745,
+                "nearDepth": 0.9972376197421768
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_lower_output_0_D12_machined_steel_lower-internal",
+              "triangles": 15696,
+              "stable": false,
+              "meshUuid": "232e4783-0f09-4a3d-becf-0eacee56e206",
+              "volume": {
+                "left": 227.12979346682516,
+                "right": 246.6477017023331,
+                "bottom": 300.6417647555395,
+                "top": 322.5301325739188,
+                "nearDepth": 0.9971510969443185
+              },
+              "pass": 1,
+              "anySamplesPassed": false
+            }
+          ]
+        },
+        {
+          "samples": 0,
+          "depthBits": 24,
+          "viewport": [
+            0,
+            0,
+            1212,
+            773
+          ],
+          "normalOverride": true,
+          "queried": 3214,
+          "rangeQueried": 900,
+          "rangeZeroTriangles": 826340,
+          "zeroCountsOverlap": true,
+          "zeroVolumes": 1759,
+          "zeroTriangles": 3123314,
+          "movingZeroVolumes": 274,
+          "controlsPassed": true,
+          "largestZero": [
+            {
+              "name": "COOL_lower_drive_COOL_lower_black_storage_enamel_housing",
+              "triangles": 738276,
+              "stable": true,
+              "meshUuid": "8ab6dff0-2944-4e2b-af28-79002fab5bc0",
+              "volume": {
+                "left": 212.7494766879619,
+                "right": 252.18560744737323,
+                "bottom": 286.7118668191946,
+                "top": 323.8770759490271,
+                "nearDepth": 0.997157020105564
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_output_0_D12_machined_steel_upper-internal",
+              "triangles": 17792,
+              "stable": false,
+              "meshUuid": "64ccb714-8848-4d93-8c6f-62ac10b19c55",
+              "volume": {
+                "left": 203.0485343680239,
+                "right": 240.6311004975234,
+                "bottom": 303.44347820453686,
+                "top": 324.96922594526933,
+                "nearDepth": 0.9971028151800638
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_output_1_D12_machined_steel_upper-internal",
+              "triangles": 17792,
+              "stable": false,
+              "meshUuid": "dc496601-ae73-4abe-acd9-6ccf0ff33d17",
+              "volume": {
+                "left": 218.52322268560425,
+                "right": 254.81080593892437,
+                "bottom": 314.40097212947654,
+                "top": 335.3594349637335,
+                "nearDepth": 0.9972308422925039
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_lower_input_D12_machined_steel_lower-internal",
+              "triangles": 17664,
+              "stable": false,
+              "meshUuid": "085a4448-c836-4fc9-a0d3-e97c2da0d356",
+              "volume": {
+                "left": 218.05779157252215,
+                "right": 243.25030828761268,
+                "bottom": 295.5807193911707,
+                "top": 317.57660385227354,
+                "nearDepth": 0.997172589213793
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "D12A_525A_D12_cast_aluminium_water-pipe",
+              "triangles": 16640,
+              "stable": true,
+              "meshUuid": "5659d72b-f9cb-4b8a-8275-adffb4627678",
+              "volume": {
+                "left": 230.68108934664036,
+                "right": 269.9011890028352,
+                "bottom": 262.72970481372084,
+                "top": 341.0399065069275,
+                "nearDepth": 0.9971158687163159
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_input_0_D12_machined_steel_upper-internal",
+              "triangles": 15696,
+              "stable": false,
+              "meshUuid": "85f1754c-2e23-4793-b116-df89da78cb9d",
+              "volume": {
+                "left": 218.28684761251824,
+                "right": 235.346305242858,
+                "bottom": 294.64685900562426,
+                "top": 315.73799379305507,
+                "nearDepth": 0.9971101497248654
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_upper_input_1_D12_machined_steel_upper-internal",
+              "triangles": 15696,
+              "stable": false,
+              "meshUuid": "8e71d4c5-482e-46a1-aa19-37943efd13c7",
+              "volume": {
+                "left": 233.07531010504488,
+                "right": 249.78662580689917,
+                "bottom": 305.9385470906978,
+                "top": 326.46381168899745,
+                "nearDepth": 0.9972376197421768
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            },
+            {
+              "name": "COOL_lower_output_0_D12_machined_steel_lower-internal",
+              "triangles": 15696,
+              "stable": false,
+              "meshUuid": "232e4783-0f09-4a3d-becf-0eacee56e206",
+              "volume": {
+                "left": 227.12979346682516,
+                "right": 246.6477017023331,
+                "bottom": 300.6417647555395,
+                "top": 322.5301325739188,
+                "nearDepth": 0.9971510969443185
+              },
+              "pass": 2,
+              "anySamplesPassed": false
+            }
+          ]
+        }
+      ],
+      "controlsPassed": true,
+      "queryError": 0,
+      "limits": "Actual conservative volume queries on exact-program snapshots. Potential only: no source product draw skipped, no cross-frame reuse or FPS gain established."
+    },
+    "passes": [
+      {
+        "samples": 4,
+        "skipped": 1203,
+        "savedTriangles": 2350946
+      },
+      {
+        "samples": 2,
+        "skipped": 1219,
+        "savedTriangles": 2359250
+      },
+      {
+        "samples": 0,
+        "skipped": 1211,
+        "savedTriangles": 2303650
+      }
+    ],
+    "prepareMs": 17.600000001490116,
+    "error": "",
+    "limits": "DEV only; original program/uniform setup retained. Only proven camera-pass GL triangle submissions omitted. Original shadows/transparent draws and full mechanical solver retained. Stable FPS and full-product acceptance remain open."
+  },
+  "width": 1212,
+  "height": 773,
+  "order": "optimized-then-baseline",
+  "baseline": {
+    "calls": 9306,
+    "triangles": 21582915,
+    "synchronizedMs": 1257.6000000014901
+  },
+  "optimized": {
+    "calls": 5673,
+    "triangles": 14569069,
+    "synchronizedMs": 980.2000000029802
+  },
+  "optimizedReadbackError": 0,
+  "baselineReadbackError": 0,
+  "differentPixels": 0,
+  "maxChannelDifference": 0,
+  "rmsChannelDifference": 0,
+  "identicalPixels": true,
+  "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+}

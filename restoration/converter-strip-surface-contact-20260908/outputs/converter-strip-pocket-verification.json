@@ -1,0 +1,239 @@
+{
+  "ribbonDerivativeChecks": [
+    {
+      "node": 0,
+      "director": 0,
+      "gradientErrorM": 5.379980857513067e-13,
+      "hessianErrorM": 1.2800714264613045e-14
+    },
+    {
+      "node": 0,
+      "director": 175,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "node": 1,
+      "director": 0,
+      "gradientErrorM": 1.7071963688639752e-12,
+      "hessianErrorM": 6.4695292309110974e-15
+    },
+    {
+      "node": 1,
+      "director": 1,
+      "gradientErrorM": 3.9782349100072126e-13,
+      "hessianErrorM": 3.4937195280901334e-15
+    },
+    {
+      "node": 1,
+      "director": 175,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "node": 48,
+      "director": 0,
+      "gradientErrorM": 5.477896402542731e-12,
+      "hessianErrorM": 9.241332742451758e-16
+    },
+    {
+      "node": 48,
+      "director": 47,
+      "gradientErrorM": 3.4655480118635576e-12,
+      "hessianErrorM": 4.045686854102504e-15
+    },
+    {
+      "node": 48,
+      "director": 48,
+      "gradientErrorM": 4.518038504083832e-14,
+      "hessianErrorM": 3.0307177665937768e-15
+    },
+    {
+      "node": 48,
+      "director": 175,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "node": 143,
+      "director": 0,
+      "gradientErrorM": 2.008449450589117e-12,
+      "hessianErrorM": 9.241332742451758e-16
+    },
+    {
+      "node": 143,
+      "director": 142,
+      "gradientErrorM": 3.32331002452467e-12,
+      "hessianErrorM": 5.3290840707279075e-15
+    },
+    {
+      "node": 143,
+      "director": 143,
+      "gradientErrorM": 7.93379953375258e-15,
+      "hessianErrorM": 8.6113435176019e-15
+    },
+    {
+      "node": 143,
+      "director": 175,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "node": 176,
+      "director": 0,
+      "gradientErrorM": 4.930444453318111e-12,
+      "hessianErrorM": 9.241332742451758e-16
+    },
+    {
+      "node": 176,
+      "director": 175,
+      "gradientErrorM": 8.871855886657259e-13,
+      "hessianErrorM": 1.6144901984326693e-14
+    }
+  ],
+  "bodyBalances": [
+    {
+      "index": 12,
+      "wedgeContacts": 0,
+      "forceBalanceErrorN": 0.0,
+      "momentBalanceErrorNm": 0.0,
+      "rootCoupleErrorNm": 3.530509218307998e-14,
+      "wedgeLoadsWorld": []
+    },
+    {
+      "index": 25,
+      "wedgeContacts": 0,
+      "forceBalanceErrorN": 0.0,
+      "momentBalanceErrorNm": 0.0,
+      "rootCoupleErrorNm": 1.4921397450962104e-13,
+      "wedgeLoadsWorld": []
+    },
+    {
+      "index": 38,
+      "wedgeContacts": 1,
+      "forceBalanceErrorN": 0.0,
+      "momentBalanceErrorNm": 8.881784197001252e-16,
+      "rootCoupleErrorNm": 2.3823498729313997e-11,
+      "wedgeLoadsWorld": [
+        {
+          "pointWorldM": [
+            0.07869339533767511,
+            0.024644910504985504
+          ],
+          "forceWorldN": [
+            29.17198594538248,
+            27.29516757066123
+          ]
+        }
+      ]
+    }
+  ],
+  "virtualWorkChecks": [
+    {
+      "index": 12,
+      "coordinate": 0,
+      "energyDerivativeLoad": -59.00472651310107,
+      "reportedLoad": -59.00472651021109,
+      "error": 2.8899762583023403e-09
+    },
+    {
+      "index": 12,
+      "coordinate": 1,
+      "energyDerivativeLoad": -9.035034283719213,
+      "reportedLoad": -9.035034288981826,
+      "error": 5.262613456125109e-09
+    },
+    {
+      "index": 12,
+      "coordinate": 2,
+      "energyDerivativeLoad": 59.00472651310107,
+      "reportedLoad": 59.00472651021109,
+      "error": 2.8899762583023403e-09
+    },
+    {
+      "index": 12,
+      "coordinate": 3,
+      "energyDerivativeLoad": 9.035034283719213,
+      "reportedLoad": 9.035034288981826,
+      "error": 5.262613456125109e-09
+    },
+    {
+      "index": 12,
+      "coordinate": 4,
+      "energyDerivativeLoad": -1.508581270334708,
+      "reportedLoad": -1.5085812702551076,
+      "error": 7.960032633036462e-11
+    },
+    {
+      "index": 25,
+      "coordinate": 0,
+      "energyDerivativeLoad": -62.51838627291395,
+      "reportedLoad": -62.518386269621935,
+      "error": 3.29201554905012e-09
+    },
+    {
+      "index": 25,
+      "coordinate": 1,
+      "energyDerivativeLoad": -8.500234045111243,
+      "reportedLoad": -8.500234048836129,
+      "error": 3.724885289102531e-09
+    },
+    {
+      "index": 25,
+      "coordinate": 2,
+      "energyDerivativeLoad": 62.51838627291395,
+      "reportedLoad": 62.518386269621935,
+      "error": 3.29201554905012e-09
+    },
+    {
+      "index": 25,
+      "coordinate": 3,
+      "energyDerivativeLoad": 8.500234045111243,
+      "reportedLoad": 8.500234048836129,
+      "error": 3.724885289102531e-09
+    },
+    {
+      "index": 25,
+      "coordinate": 4,
+      "energyDerivativeLoad": -1.6622905466556759,
+      "reportedLoad": -1.6622905468149134,
+      "error": 1.592375120651468e-10
+    },
+    {
+      "index": 38,
+      "coordinate": 0,
+      "energyDerivativeLoad": -85.1389239753253,
+      "reportedLoad": -85.13892447673281,
+      "error": 5.014075128428885e-07
+    },
+    {
+      "index": 38,
+      "coordinate": 1,
+      "energyDerivativeLoad": -9.497856677948002,
+      "reportedLoad": -9.497856606715626,
+      "error": 7.12323764417988e-08
+    },
+    {
+      "index": 38,
+      "coordinate": 2,
+      "energyDerivativeLoad": 85.1389239753253,
+      "reportedLoad": 85.13892447673281,
+      "error": 5.014075128428885e-07
+    },
+    {
+      "index": 38,
+      "coordinate": 3,
+      "energyDerivativeLoad": 9.497856677948002,
+      "reportedLoad": 9.497856606715626,
+      "error": 7.12323764417988e-08
+    },
+    {
+      "index": 38,
+      "coordinate": 4,
+      "energyDerivativeLoad": -2.384071149386102,
+      "reportedLoad": -2.3840711165754485,
+      "error": 3.281065374949321e-08
+    }
+  ],
+  "limits": "Exact current ribbon offsets and fitted wedge plane. Clamped seat, linear elastic material and full operating-envelope acceptance remain open."
+}

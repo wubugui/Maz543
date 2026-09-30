@@ -2,7 +2,7 @@
 
 Build a precise MAZ-543A product demonstration with editable Blender engineering assets and an interactive application: original proportions, actual variant-specific parts and installation, detailed mechanical internals, real mechanical operation and product functions, engineering simulation, accurate materials and photorealistic presentation. Compare the actual model with the retained factory/museum references from multiple views. Preserve reference provenance and distinguish confirmed dimensions from fitted or assumed values.
 
-The original user requirements and detailed acceptance standards are retained in `testcar/MIGRATION_HANDOFF.md`, `testcar/docs/ACCEPTANCE.md`, source registers and historical progress notes. Some older text already has encoding damage; its original bytes are retained. This entry point does not replace or relax those standards.
+The original user requirements and detailed acceptance standards are retained in `testcar/MIGRATION_HANDOFF.md`, `testcar/docs/ACCEPTANCE.md`, source registers and historical progress notes. The requirement, acceptance, README and original handoff files were verified as valid UTF-8 with no replacement characters; terminal display errors do not indicate document loss. This entry point does not replace or relax those standards.
 
 All **16 whole-vehicle acceptance gates remain OPEN**. Partial geometry improvements, glTF validation, browser operation and successful cloud migration do not establish whole-vehicle accuracy, physics, performance, photorealism or user acceptance. Mark each future check as passed, failed or untested and retain actual evidence. Do not manufacture acceptance by swapping tested objects or using a single favorable view.
 

@@ -1,0 +1,37 @@
+{
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "multiDraw": true,
+  "displayInstances": {
+    "instances": 1906,
+    "batches": 51,
+    "savedDrawsPerPass": 1855,
+    "bufferBytes": 393131760
+  },
+  "geometryCopy": {
+    "geometries": 2558,
+    "components": 80659352,
+    "indices": 18507990,
+    "mismatches": 0,
+    "exactCopy": true
+  },
+  "width": 1212,
+  "height": 773,
+  "order": "optimized-then-baseline",
+  "baseline": {
+    "calls": 9305,
+    "triangles": 21582915,
+    "synchronizedMs": 2316
+  },
+  "optimized": {
+    "calls": 1885,
+    "triangles": 21582915,
+    "synchronizedMs": 3382.39999999851
+  },
+  "optimizedReadbackError": 0,
+  "baselineReadbackError": 0,
+  "differentPixels": 332,
+  "maxChannelDifference": 141,
+  "rmsChannelDifference": 0.6388382483459892,
+  "identicalPixels": false,
+  "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+}

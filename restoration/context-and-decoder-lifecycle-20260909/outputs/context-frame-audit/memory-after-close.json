@@ -1,0 +1,59 @@
+{
+  "time": "2026-09-09T05:46:05.8281058+08:00",
+  "os": {
+    "TotalVisibleMemorySize": 33490956,
+    "FreePhysicalMemory": 18821248,
+    "TotalVirtualMemorySize": 67045388,
+    "FreeVirtualMemory": 38352072
+  },
+  "processes": [
+    {
+      "Id": 11136,
+      "ProcessName": "codex",
+      "PrivateMemorySize64": 1558614016,
+      "WorkingSet64": 1111617536
+    },
+    {
+      "Id": 15892,
+      "ProcessName": "ChatGPT",
+      "PrivateMemorySize64": 672391168,
+      "WorkingSet64": 609300480
+    },
+    {
+      "Id": 14864,
+      "ProcessName": "chrome",
+      "PrivateMemorySize64": 402812928,
+      "WorkingSet64": 229490688
+    },
+    {
+      "Id": 19036,
+      "ProcessName": "ChatGPT",
+      "PrivateMemorySize64": 369352704,
+      "WorkingSet64": 306425856
+    },
+    {
+      "Id": 24976,
+      "ProcessName": "chrome",
+      "PrivateMemorySize64": 347729920,
+      "WorkingSet64": 326225920
+    },
+    {
+      "Id": 5356,
+      "ProcessName": "ChatGPT",
+      "PrivateMemorySize64": 283242496,
+      "WorkingSet64": 309100544
+    },
+    {
+      "Id": 3196,
+      "ProcessName": "chrome",
+      "PrivateMemorySize64": 226418688,
+      "WorkingSet64": 135311360
+    },
+    {
+      "Id": 7360,
+      "ProcessName": "ChatGPT",
+      "PrivateMemorySize64": 222060544,
+      "WorkingSet64": 167411712
+    }
+  ]
+}

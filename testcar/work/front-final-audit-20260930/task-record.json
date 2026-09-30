@@ -1,0 +1,59 @@
+{
+  "idempotency_key": "maz-front-b382494a-6c02-4cb1-b21a-3e61518029c6",
+  "upload": {
+    "upload_id": "129cd89b-2ed7-49e5-a7da-03000efcdb22",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "129cd89b-2ed7-49e5-a7da-03000efcdb22",
+    "name": "hub-front-final-audit.py",
+    "mime": "text/x-python",
+    "size": 6155,
+    "sha256": "1a44f38b9778cce9060138319cbc81aed7f1315847248c7d96cb2acf7a85c8e9",
+    "created": 1790785267.23779,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/129cd89b-2ed7-49e5-a7da-03000efcdb22/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A original and final baked shell topology read-only audit",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "fdbaf8d6500eb4a8812e7699d3989376",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "0f6144dde212cbcada00fe6578f8b45e",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "54701e9265ba805803df6b520796f86a",
+          "path": "Baseline_Textured.blend"
+        },
+        {
+          "file_id": "129cd89b-2ed7-49e5-a7da-03000efcdb22",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "f99379bc-c6a7-45b2-9afc-eaaf80feb3cb",
+    "task_ids": [
+      "3269933a-a72f-4a8f-a8cc-9f1d172359b9"
+    ],
+    "task_id": "3269933a-a72f-4a8f-a8cc-9f1d172359b9"
+  }
+}

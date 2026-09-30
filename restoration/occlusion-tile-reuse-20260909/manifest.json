@@ -1,0 +1,220 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "count": 42,
+  "bytes": 413131,
+  "files": [
+    {
+      "file": "AGENT_START_HERE.md",
+      "bytes": 28973,
+      "sha256": "8863eab7ce6cd892205064e3b2dd01a24da39d1c8554371a33c5e6ca8d8a8416"
+    },
+    {
+      "file": "NEXT_AGENT_PROMPT.md",
+      "bytes": 21375,
+      "sha256": "5ddcfbdaf2fdc9996fc546b575c973c643e9a123b670a82c80cac21e4f304177"
+    },
+    {
+      "file": "docs/ACCEPTANCE.md",
+      "bytes": 34175,
+      "sha256": "2a5fa8cb84163225dd8f9fa312b0a236bf6188fa0ec3876be2d45c6af7900e76"
+    },
+    {
+      "file": "docs/CONTINUATION_20260908.md",
+      "bytes": 22239,
+      "sha256": "5ee2dc8d126c26032e5e082f0cfd2d8e38c7f3c30cd0165f592e10ef8b74aaa6"
+    },
+    {
+      "file": "docs/OCCLUSION_TILE_REUSE_20260909.md",
+      "bytes": 5877,
+      "sha256": "75a9fbb22294448eb3fe84a1836a5b3e80cb7057399bc4e936b06eddee3e2006"
+    },
+    {
+      "file": "lib/conservativeRasterBounds.ts",
+      "bytes": 7496,
+      "sha256": "532ea491e951acac1327071d6e524b8bfca28cc06c3d14c001d0f2e61989df12"
+    },
+    {
+      "file": "lib/framePhaseProfile.ts",
+      "bytes": 1789,
+      "sha256": "64c4360ebebef9cb23657ff947f91c6dc466eebb00af78f41e0f4335ea8ea5fb"
+    },
+    {
+      "file": "lib/occlusionPrefixReuse.ts",
+      "bytes": 13684,
+      "sha256": "a15c670e567584aa70b7607504fd827c4affeb314533d1e3bf41016a0b61c14c"
+    },
+    {
+      "file": "lib/vehicleViewport.ts",
+      "bytes": 64053,
+      "sha256": "19b7f9cde892aec551d161267d3df346c2c1661018a3204a55e497fc7cebc947"
+    },
+    {
+      "file": "outputs/context-frame-audit/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/bounds-tests.json",
+      "bytes": 382,
+      "sha256": "5f934c86e06e888d22d69b54b90bc2b6ed5ff3aa9fdb4c9bbcd00c01e45bd0e4"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/cold-final.json",
+      "bytes": 1441,
+      "sha256": "dc60538e730e0e2449ad978f426471a8070764dceace994c53abd8d84c25e025"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/cold.json",
+      "bytes": 1381,
+      "sha256": "527f792c1587d99f6d44d039b9e22f4f031170432db088fb49e3168e87ee432d"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/dependencies-tests.json",
+      "bytes": 1051,
+      "sha256": "ff2bfacc4ad3c0503c8acd3a55da38b2e270550e916564ff69a01ae9ac8116a9"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/engine-12frames.json",
+      "bytes": 33525,
+      "sha256": "4f03700e95be04e0ce6c4ef1d6dc3eef53a67e76d90b7cce44fd1536b43a2a99"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/engine-before-morph-second.json",
+      "bytes": 1445,
+      "sha256": "a952b1bf123eccda60155029a20c0c55c8ad756dc9ddd326a2ef0424dee5c3da"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/engine-before-morph.json",
+      "bytes": 1445,
+      "sha256": "f876da3791da8c1e5cfe0b215a8e27bc833a32a661ade7df8d86db58c25c1b67"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/engine-pair.json",
+      "bytes": 1428,
+      "sha256": "9e4803c134644dba2a4d035483c4e726ddb6d89f122038edb98ec35543b858e3"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/engine-verified.json",
+      "bytes": 1939,
+      "sha256": "757b04a7281ac9e87b395991a9e31e8bbbcef118fc5ab04354c7c0fd90f644b5"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/first-gear-ax.txt",
+      "bytes": 9843,
+      "sha256": "d5f3599781fb5ef40b4e0efb3b65532f187ba7c3527e35ec394a34697e8ef4b4"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/first-gear-pair.json",
+      "bytes": 1938,
+      "sha256": "8b6f4a6d3456c418fb4162b0520d4daad99bae79c7687b63f4c3bc5e75b57c22"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/normal-final-ax.txt",
+      "bytes": 7329,
+      "sha256": "da8e7ce24971535350d591bad80a70735d3be6c13dc1efe23186317ec350c116"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/normal-side-final-ax.txt",
+      "bytes": 7296,
+      "sha256": "4706e2bfb4b30411a840e01ad3ea412d259d456b34acf00be6fc55d9fa7b9d0e"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/normal-side-final.png",
+      "bytes": 83308,
+      "sha256": "f2c0926192098d65fac26ae92c987e8170f37186b51e660390cadb7af2d265cd"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/post-budget-pair.json",
+      "bytes": 1472,
+      "sha256": "f00bc352b0c375551727543ae864e61eca69482a1af492ffdb95d42cb8d236f3"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/section-ax.txt",
+      "bytes": 9318,
+      "sha256": "a11cd89f3a6ec96fc580b221e269768b0136b1bd0f723ee9c174530d042cee9f"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/section-pair.json",
+      "bytes": 1432,
+      "sha256": "c080417a2f407ec6fd7c3209c7b61a8bb957013bb1f4f45158efc6be94f0a085"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/side-door-ax.txt",
+      "bytes": 9835,
+      "sha256": "9e30e657b85d437d702aebd6cb4e21c73166e5869d0da4d5fed350f3577645d7"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/side-door-pair.json",
+      "bytes": 1923,
+      "sha256": "5e0d955770bb31c4f214c7cc23f6825267cf1bb8abf6fede89f9f353f323ab90"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/summary.json",
+      "bytes": 3029,
+      "sha256": "6e561cfa8e930717fcf3092be55a24d8eaadbfbf8b61db88287412b6d99c6a80"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/warm-before-morph.json",
+      "bytes": 1455,
+      "sha256": "4445c8fab172164dae9bbc9cc06e21a577491fd2d75e59e69eef1a8644c76d78"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/warm-final.json",
+      "bytes": 1444,
+      "sha256": "9e76f0940f1c29d86504076770168308529af8c93348e7560d8eb7c5da7888a4"
+    },
+    {
+      "file": "outputs/occlusion-tile-reuse/warm-verified.json",
+      "bytes": 1440,
+      "sha256": "61eeb111b1294b524aefd1b0a7ab71aeed7159382877b10931c61c76f0362429"
+    },
+    {
+      "file": "scripts/archive-occlusion-tile-reuse.py",
+      "bytes": 2651,
+      "sha256": "7974206302483b4c969f342e51c0055195c02adcb0a85d8afd639b21b9fa87cb"
+    },
+    {
+      "file": "scripts/summarize-occlusion-tile-reuse.py",
+      "bytes": 1908,
+      "sha256": "2d2c430a5ba3d216a0caeb6e90164e0079e994ed5ce76dd7def66ef8043dc395"
+    },
+    {
+      "file": "scripts/verify-conservative-raster-bounds.mjs",
+      "bytes": 4926,
+      "sha256": "f9b66177d0a6ba0716b3c0a01192a4ecedcf1375462ef2ba7cbb5ed018724d9a"
+    },
+    {
+      "file": "scripts/verify-occlusion-prefix-reuse.mjs",
+      "bytes": 8312,
+      "sha256": "b6418bb4dd090204ccfd55230fe3516778e11793db04d0453c829bb543d6c4c5"
+    },
+    {
+      "file": "work/occlusion-tile-reuse/bounds-tests.log",
+      "bytes": 393,
+      "sha256": "4f0ef93b5a44d219320c4494f1dde0ca916fd03c68f1cc0dd9527e1bdfe7539d"
+    },
+    {
+      "file": "work/occlusion-tile-reuse/build.log",
+      "bytes": 2910,
+      "sha256": "7546e29bb0cd9ef03ae11b9230d89e758d99154557574770fd726895b5d4885c"
+    },
+    {
+      "file": "work/occlusion-tile-reuse/dependencies-tests.log",
+      "bytes": 1995,
+      "sha256": "7deda3ab250d588014849b6666bbcafbfd8b20be3a8c3e88eb2120b4e701b5a9"
+    },
+    {
+      "file": "work/occlusion-tile-reuse/summary.log",
+      "bytes": 2186,
+      "sha256": "1e5e9964ec247579e668d19a57c60dd599244bb4847f388343dc0de4bebe9fd4"
+    },
+    {
+      "file": "work/occlusion-tile-reuse/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "verification": "Every copy byte-equal and SHA-256 recorded",
+  "limits": "DEV-only conservative spatial dependency experiment, dynamic savings inadequate. Complete product precision/performance/mechanical acceptance remains unfinished."
+}

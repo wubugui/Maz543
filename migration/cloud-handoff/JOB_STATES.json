@@ -1,0 +1,111 @@
+{
+  "checkedUTC": "2026-09-30T18:46:58.416Z",
+  "scope": "Read-only project-specific existing job checks; no submit/retry/stop requested",
+  "newJobsSubmitted": 0,
+  "jobs": [
+    {
+      "id": "48aad07d-787d-4401-a723-f6317dd5a894",
+      "state": "succeeded",
+      "created": 1790789577.3078704,
+      "started": 1790789577.4772434,
+      "finished": 1790789629.1652048,
+      "error": null,
+      "outputFiles": [
+        {
+          "path": "maz543a-blender.glb",
+          "size": 20544288,
+          "sha256": "489ec44974c8c7f1f767b0de8aa66be896b415f875528d7c37e48752669687a1"
+        },
+        {
+          "path": "MAZ543A_Master.blend",
+          "size": 64847547,
+          "sha256": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3"
+        },
+        {
+          "path": "MAZ543A_Textured.blend",
+          "size": 98107810,
+          "sha256": "f927cfffae77e443fe6f7c8536bb2344d6b7694f335a071a26d4bba22e350f5d"
+        },
+        {
+          "path": "rear-box-frame-verification.json",
+          "size": 13897,
+          "sha256": "9f62b5320847cb29db7a2e83e10d454734abbc122780b5195d5997a9d216124e"
+        }
+      ],
+      "exitCode": 0
+    },
+    {
+      "id": "0b6e697f-ee60-4415-bad1-49bb203b834e",
+      "state": "succeeded",
+      "created": 1790790293.770264,
+      "started": 1790790293.8618698,
+      "finished": 1790790300.556036,
+      "error": null,
+      "outputFiles": [
+        {
+          "path": "rear-static-hood-audit.json",
+          "size": 19222,
+          "sha256": "a13ff4c5275e1f33b98a1eb7981f47259a8ad8319e01dc6202fcbe54f246247a"
+        }
+      ],
+      "exitCode": 0
+    },
+    {
+      "id": "e22f799b-9782-464b-b11a-e0c29b8a18a4",
+      "state": "succeeded",
+      "created": 1790787635.8844671,
+      "started": 1790787636.002146,
+      "finished": 1790787660.2868156,
+      "error": null,
+      "outputFiles": [
+        {
+          "path": "cab-hinge-rebase-verification.json",
+          "size": 7884,
+          "sha256": "511e2143a362e8353c1ba93116cff7e1f0f389142a7333e4d6723b837a21ebb5"
+        },
+        {
+          "path": "maz543a-blender.glb",
+          "size": 20501096,
+          "sha256": "391d18ea9e1c029f99a8f34b4e09b9379a3b9f8a1a0996a371c5b2584bc962fb"
+        },
+        {
+          "path": "MAZ543A_Master.blend",
+          "size": 64716353,
+          "sha256": "bf997f4c465255907310d0dd0a8d6bed38ca331a5edab9bccfd2314a5f5b6579"
+        },
+        {
+          "path": "MAZ543A_Textured.blend",
+          "size": 98147658,
+          "sha256": "14b88267725824a7f0a7bedc2bf5145ca794fb08a637d0fdeb2dba98bbacd542"
+        }
+      ],
+      "exitCode": 0
+    },
+    {
+      "id": "68e36a53-73d3-4396-ba32-2ab9aee05c1b",
+      "state": "succeeded",
+      "created": 1790788142.3932436,
+      "started": 1790788142.7371416,
+      "finished": 1790788151.5395386,
+      "error": null,
+      "outputFiles": [
+        {
+          "path": "front-door-sweep-verification.json",
+          "size": 87962,
+          "sha256": "f2a668f2dc0668f67357a53856de1d7c80c155b267d19b11a58909912c16047e"
+        }
+      ],
+      "exitCode": 0
+    },
+    {
+      "id": "f7e5773e-efd6-47c8-ad72-850e6bf10ddd",
+      "state": "failed",
+      "created": 1790791406.700774,
+      "started": 1790791407.017689,
+      "finished": 1790791429.5570076,
+      "error": "Blender exited 1",
+      "outputFiles": [],
+      "exitCode": 1
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "passed": true,
+  "source": "whole-actual-targets.json",
+  "passes": [
+    {
+      "id": 0,
+      "kind": "auxiliary-camera",
+      "samples": 4,
+      "actualSamples": 4,
+      "viewport": [
+        0,
+        0,
+        1212,
+        773
+      ],
+      "draws": 2315,
+      "triangles": 5393928,
+      "zeroSampleDraws": 1723,
+      "zeroSampleTriangles": 2177586,
+      "zeroSampleTriangleFraction": 0.40371061682692094,
+      "largestZeroSampleDraws": [
+        {
+          "targetId": 0,
+          "name": "BL_Merged_wheels_pivot_002_Tyre_rubber",
+          "material": "MAZ543A_Baked_PBR",
+          "triangles": 126804,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 0,
+          "name": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+          "material": "MAZ543A_Baked_PBR",
+          "triangles": 24220,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 0,
+          "name": "BL_Merged_wheels_pivot_016_Phosphated_steel",
+          "material": "MAZ543A_Baked_PBR",
+          "triangles": 24220,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 0,
+          "name": "BL_Merged_wheels_pivot_030_Phosphated_steel",
+          "material": "MAZ543A_Baked_PBR",
+          "triangles": 24220,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 0,
+          "name": "BL_Merged_wheels_pivot_044_Phosphated_steel",
+          "material": "MAZ543A_Baked_PBR",
+          "triangles": 24220,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 0,
+          "name": "TX_18_reverse_ring",
+          "material": "TX_ground_steel",
+          "triangles": 22864,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 0,
+          "name": "TX_40_first_ring",
+          "material": "TX_ground_steel",
+          "triangles": 19504,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 0,
+          "name": "TX_reverse_disc_01_mesh",
+          "material": "TX_sintered_friction",
+          "triangles": 19408,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 0,
+          "name": "TX_reverse_disc_03_mesh",
+          "material": "TX_sintered_friction",
+          "triangles": 19408,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 0,
+          "name": "TX_reverse_disc_05_mesh",
+          "material": "TX_sintered_friction",
+          "triangles": 19408,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 0,
+          "name": "TX_reverse_disc_07_mesh",
+          "material": "TX_sintered_friction",
+          "triangles": 19408,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 0,
+          "name": "TX_reverse_disc_09_mesh",
+          "material": "TX_sintered_friction",
+          "triangles": 19408,
+          "castShadow": true,
+          "anySamplesPassed": false
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "kind": "main-color",
+      "samples": 2,
+      "actualSamples": 2,
+      "viewport": [
+        0,
+        0,
+        1212,
+        773
+      ],
+      "draws": 2315,
+      "triangles": 5393928,
+      "zeroSampleDraws": 1738,
+      "zeroSampleTriangles": 2217842,
+      "zeroSampleTriangleFraction": 0.411173823603133,
+      "largestZeroSampleDraws": [
+        {
+          "targetId": 1,
+          "name": "BL_Merged_wheels_pivot_002_Tyre_rubber",
+          "material": "MAZ543A_Baked_PBR",
+          "triangles": 126804,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 1,
+          "name": "BL_Merged_wheels_pivot_002_Phosphated_steel",
+          "material": "MAZ543A_Baked_PBR",
+          "triangles": 24220,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 1,
+          "name": "BL_Merged_wheels_pivot_016_Phosphated_steel",
+          "material": "MAZ543A_Baked_PBR",
+          "triangles": 24220,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 1,
+          "name": "BL_Merged_wheels_pivot_030_Phosphated_steel",
+          "material": "MAZ543A_Baked_PBR",
+          "triangles": 24220,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 1,
+          "name": "BL_Merged_wheels_pivot_044_Phosphated_steel",
+          "material": "MAZ543A_Baked_PBR",
+          "triangles": 24220,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 1,
+          "name": "TX_18_reverse_ring",
+          "material": "TX_ground_steel",
+          "triangles": 22864,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 1,
+          "name": "TX_40_first_ring",
+          "material": "TX_ground_steel",
+          "triangles": 19504,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 1,
+          "name": "TX_reverse_disc_01_mesh",
+          "material": "TX_sintered_friction",
+          "triangles": 19408,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 1,
+          "name": "TX_reverse_disc_03_mesh",
+          "material": "TX_sintered_friction",
+          "triangles": 19408,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 1,
+          "name": "TX_reverse_disc_05_mesh",
+          "material": "TX_sintered_friction",
+          "triangles": 19408,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 1,
+          "name": "TX_reverse_disc_07_mesh",
+          "material": "TX_sintered_friction",
+          "triangles": 19408,
+          "castShadow": true,
+          "anySamplesPassed": false
+        },
+        {
+          "targetId": 1,
+          "name": "TX_reverse_disc_09_mesh",
+          "material": "TX_sintered_friction",
+          "triangles": 19408,
+          "castShadow": true,
+          "anySamplesPassed": false
+        }
+      ]
+    }
+  ],
+  "queryError": 0,
+  "drawsPreserved": true,
+  "limits": "Unchanged opaque camera draws, separated by actual render target; may include transmission prepass. Conservative ANY_SAMPLES query may report false visibility. Zero samples is not cross-frame visibility, complete occlusion, shadow/AO eligibility, saved work, or steady-state FPS. No source or draw modified."
+}

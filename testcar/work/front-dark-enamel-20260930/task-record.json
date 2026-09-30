@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-fe768943-c27a-4d58-9c7b-c000e7a7b9c7",
+  "upload": {
+    "upload_id": "523a7c53-8874-4205-8aae-fa09aec7f773",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "523a7c53-8874-4205-8aae-fa09aec7f773",
+    "name": "hub-front-dark-enamel.py",
+    "mime": "text/x-python",
+    "size": 7397,
+    "sha256": "25b06f026741dd5517a105bc4597e893c808e91ef8ef35b03ce4c4e5b1d19cf6",
+    "created": 1790784556.7655158,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/523a7c53-8874-4205-8aae-fa09aec7f773/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A dark front metal with actual enlarged glazing and mounts",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "323d6b6aa321c8396e59dfaf79b9b26b",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "005b69ce470c137c556390fe578f6e00",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "523a7c53-8874-4205-8aae-fa09aec7f773",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "6c8b9771-98e7-4d40-833d-30221bb5af9b",
+    "task_ids": [
+      "c3fa8966-7798-41c7-956d-75b26952c9d8"
+    ],
+    "task_id": "c3fa8966-7798-41c7-956d-75b26952c9d8"
+  }
+}

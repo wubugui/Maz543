@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "F:\InferenceHub\blender_bootstrap.py", line 79, in <module>
+    runpy.run_path(str(script),run_name='__main__')
+  File "<frozen runpy>", line 291, in run_path
+  File "<frozen runpy>", line 98, in _run_module_code
+  File "<frozen runpy>", line 88, in _run_code
+  File "F:\InferenceHub\data\blender\f7e5773e-efd6-47c8-ad72-850e6bf10ddd\b08da397-828f-4ad0-a3c0-5c659e7c618a\work\main.py", line 114, in <module>
+    b=bounds(o);t=tree(o)
+      ^^^^^^^^^
+  File "F:\InferenceHub\data\blender\f7e5773e-efd6-47c8-ad72-850e6bf10ddd\b08da397-828f-4ad0-a3c0-5c659e7c618a\work\main.py", line 27, in bounds
+    return {'min':[min(p.x for p in ps),min(p.z for p in ps),-max(p.y for p in ps)],'max':[max(p.x for p in ps),max(p.z for p in ps),-min(p.y for p in ps)]}
+                   ^^^^^^^^^^^^^^^^^^^^
+ValueError: min() arg is an empty sequence
+
+Error: script failed, file: 'F:\InferenceHub\blender_bootstrap.py', exiting.

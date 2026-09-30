@@ -1,0 +1,13 @@
+{
+  "preservedMeshNodes": 260,
+  "nativeCandidate": "work/rear-box-frame-20260930/maz543a-blender.glb",
+  "source": "work/rear-box-frame-20260930/baseline.glb",
+  "output": "work/rear-box-frame-20260930/packaged.glb",
+  "sha256": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698",
+  "bytes": 20544268,
+  "changedMeshes": [
+    "BL_Merged_body_OD_green_aged_enamel",
+    "BL_Merged_body_Phosphated_steel"
+  ],
+  "scope": "Two merged body streams remove archived original box pieces; twelve restored rear parts come from native export. All 260 other original compressed mesh streams and three textures retained; three frame materials explicitly replaced."
+}

@@ -1,0 +1,184 @@
+{
+  "stage": "Independent fixed-step mechanical clock",
+  "wholeGoal": "ACTIVE; all 16 gates OPEN",
+  "status": "Browser Worker and fixed-step tests passed; rendering remains slow and full physical fidelity unaccepted",
+  "files": [
+    {
+      "path": "AGENT_START_HERE.md",
+      "bytes": 21179,
+      "sha256": "b035653bf2e51c282bdc7d5ccfdcf9eb3047d37bed74c27cad9015b319dfa28b"
+    },
+    {
+      "path": "NEXT_AGENT_PROMPT.md",
+      "bytes": 13581,
+      "sha256": "2ffd9b49aa598f6928a96bcb156b1f4065ee2df87d02e6fcc5ffafee69323e93"
+    },
+    {
+      "path": "docs/CONTINUATION_20260908.md",
+      "bytes": 14520,
+      "sha256": "08890bb5945d8dde1586e4d23667396d983e238d9416b22d03ee6fa32b6290ec"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 26456,
+      "sha256": "91c83faf6da99f4ba02a7c400b6cd8394c41f413575d3c87a5d05c88f83b48c3"
+    },
+    {
+      "path": "docs/SIMULATION_DISPLAY_SCHEDULING_20260909.md",
+      "bytes": 4151,
+      "sha256": "6cf00842664cf53ed3703378960eaf6ea9c27d69d7371a2742e6fd1a8509b7b6"
+    },
+    {
+      "path": "docs/PERFORMANCE_CAD_DISPLAY_20260908.md",
+      "bytes": 6383,
+      "sha256": "e89fcf35d5af3034ce03be6a80377b5c9b607391360794a2dec68ab468c25a2e"
+    },
+    {
+      "path": "components/vehicle-viewer.tsx",
+      "bytes": 55232,
+      "sha256": "ac3d9318c3a64b0725d40c4324ef2e4b2e1ee249fce2189bfe99509a3f203218"
+    },
+    {
+      "path": "components/workshop.tsx",
+      "bytes": 48580,
+      "sha256": "78e563a93fd7b06dfe3e8a2d1fd7de91da516d039290ce15404002e8fedb8c08"
+    },
+    {
+      "path": "lib/mechanics.ts",
+      "bytes": 5729,
+      "sha256": "4db4fbc850535a0feece60bd2309312322e79778ab7d8e1db2210a91f882d89e"
+    },
+    {
+      "path": "lib/mechanicalTimeline.ts",
+      "bytes": 1825,
+      "sha256": "2274170d87b522aa5d76e5b7d22b9cf45f7a444f5f9a03b0360cd7e63061adbb"
+    },
+    {
+      "path": "lib/mechanics.worker.ts",
+      "bytes": 1469,
+      "sha256": "e8ea3f21a1d0123a22c0957df69654709b65f618e511c08333536b8e8265583a"
+    },
+    {
+      "path": "lib/starting.ts",
+      "bytes": 10341,
+      "sha256": "9b2ed3b37ad48bcfcb6a4d3412e6858556c89dd159f2b221c82d95ef6f584a63"
+    },
+    {
+      "path": "lib/suspension.ts",
+      "bytes": 8007,
+      "sha256": "e293e07136fa3600ccb43e7b41133fefd7d99550698c5e355d3620da33611ec6"
+    },
+    {
+      "path": "lib/transmission.ts",
+      "bytes": 8934,
+      "sha256": "9f4cbb54a1cd9bb372d10e9ea080410b7d9e05263b936b81bca6249a8fa79bb7"
+    },
+    {
+      "path": "lib/transmissionDynamics.ts",
+      "bytes": 5799,
+      "sha256": "c65036b031f24cddcd5fbf6773b48f9dfb680ef18b95a6048992574385716bdf"
+    },
+    {
+      "path": "lib/transmissionHydraulics.ts",
+      "bytes": 7077,
+      "sha256": "50cd133bb1ca8558c53ec447f7fa9f4198768254db2c6bb6ad27957d582baade"
+    },
+    {
+      "path": "lib/cooling.ts",
+      "bytes": 12321,
+      "sha256": "34b5edb068b844220eb043f4c0638738d62571a6c40e0bb33eb0bf109a9e986e"
+    },
+    {
+      "path": "lib/compositedShadows.ts",
+      "bytes": 2958,
+      "sha256": "395417ce69a7d7fde54343f59ed6ccc3ac76132cf13116407f958cac776a1e9a"
+    },
+    {
+      "path": "lib/displayFrameCache.ts",
+      "bytes": 2819,
+      "sha256": "b98ebe6d892955f81fdf2a26f4ee5a0057855aeaac58a2370b585ff9318a4253"
+    },
+    {
+      "path": "lib/renderResources.ts",
+      "bytes": 1530,
+      "sha256": "37396b2639bb74b86b71d5843e7bb85ef3af0cd791fba6d43c3a2dfc5f9c5d44"
+    },
+    {
+      "path": "types/worker.d.ts",
+      "bytes": 129,
+      "sha256": "d6a5d8d9086f26f8a9a2b29d80722c9bda9108cd7e392e8464660a02ae865788"
+    },
+    {
+      "path": "scripts/verify-mechanical-timeline.mjs",
+      "bytes": 4481,
+      "sha256": "0248d43b29e8109c2391fc8bb4f5ed949fd7439174f5716c9f73e6963dd6b476"
+    },
+    {
+      "path": "scripts/mechanics-worker-node.mjs",
+      "bytes": 402,
+      "sha256": "e06acfb709b9d7e670a79965ce11f7461e385f09060bb2491a85a83bf92cca14"
+    },
+    {
+      "path": "scripts/archive-simulation-worker-stage.py",
+      "bytes": 2121,
+      "sha256": "a7bf8b0ce5a63ccd27ac156ef6c34221e178b364b505ddac9e8c12653c64786a"
+    },
+    {
+      "path": "work/simulation-worker-types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/simulation-worker-build.log",
+      "bytes": 3539,
+      "sha256": "50fddb10cc6b1f76b410409954faf436fcc5985fe3a18f632b466b1b3b7f22b2"
+    },
+    {
+      "path": "work/simulation-worker-test.log",
+      "bytes": 745,
+      "sha256": "199841fc00225ace2414cb1ebdde520c270006bed33cce074f4b2e8b3ae84e49"
+    },
+    {
+      "path": "outputs/simulation-worker-evidence/asset-integrity.json",
+      "bytes": 1641,
+      "sha256": "a3b21733cc792c7d710aa82dee50254520f394e4b0ff74f1296860e4b32d3652"
+    },
+    {
+      "path": "outputs/simulation-worker-evidence/development-worker-entry.txt",
+      "bytes": 169,
+      "sha256": "5588c507ef9e816c9afa4b901a4139e8a9f09d1c286c440707f636823fa8e792"
+    },
+    {
+      "path": "outputs/simulation-worker-evidence/timeline-tests.json",
+      "bytes": 718,
+      "sha256": "297759b11eac6b4ff2654ae45074d43cbb415a06223ff051703789e07fdcb8ca"
+    },
+    {
+      "path": "outputs/simulation-worker-evidence/worker-final-idle-ax.txt",
+      "bytes": 8932,
+      "sha256": "fa833c02a6dcc3073034138be54d22f60b26a1bc4bc5fd60a538047afe20d11b"
+    },
+    {
+      "path": "outputs/simulation-worker-evidence/worker-idle-ax.txt",
+      "bytes": 8896,
+      "sha256": "d8bebfe975a6df603ba4026d8ea02c0a71398b4b72a2e918205ad6fb35eeac11"
+    },
+    {
+      "path": "outputs/simulation-worker-evidence/worker-running.png",
+      "bytes": 65100,
+      "sha256": "755cbb9d3ab19052903e0835703b4125529e8cb09f1a337f7783daf4816ffc4a"
+    },
+    {
+      "path": "outputs/simulation-worker-evidence/worker-started-ax.txt",
+      "bytes": 8860,
+      "sha256": "a0b168fa50afa4911311e3fdd1d28cacc8bf0ad4ede184d114166c276336cb7f"
+    },
+    {
+      "path": "dist/client/_next/static/mechanics.worker-DAkom6SJ.js",
+      "bytes": 25933,
+      "sha256": "927ddaddba650ec41bfe6e16a6f7dcffde2f664d074ec77911acb99d9f178686"
+    }
+  ],
+  "fileCount": 35,
+  "totalBytes": 390557
+}

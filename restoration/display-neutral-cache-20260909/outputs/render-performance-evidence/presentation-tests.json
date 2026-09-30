@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "class": "DisplayInstances",
+      "selection": true,
+      "actualGlbBytesIdentical": true,
+      "pose": true,
+      "parentVisibility": true,
+      "transparentFallback": true,
+      "sectionFallback": true,
+      "reflectionFallback": true,
+      "sourceBuffersUntouched": true,
+      "disposalDoesNotDestroySources": true
+    },
+    {
+      "class": "DisplayBatches",
+      "selection": true,
+      "actualGlbBytesIdentical": true,
+      "pose": true,
+      "parentVisibility": true,
+      "transparentFallback": true,
+      "sectionFallback": true,
+      "reflectionFallback": true,
+      "sourceBuffersUntouched": true,
+      "disposalDoesNotDestroySources": true,
+      "geometryCopy": {
+        "geometries": 1,
+        "components": 192,
+        "indices": 36,
+        "mismatches": 0,
+        "exactCopy": true
+      }
+    },
+    {
+      "class": "DisplayFrameCache",
+      "exactNumericInvalidation": true,
+      "hiddenPoseContinues": true,
+      "revealLatestPose": true,
+      "attributeReplacement": true,
+      "attributeUpdate": true,
+      "materialUpdate": true,
+      "cameraUpdate": true,
+      "explicitInvalidation": true
+    },
+    {
+      "class": "RenderResources",
+      "sharedResourcesDisposedOnce": true,
+      "materialTexturesDisposed": true,
+      "lateAsyncLoadDisposed": true
+    }
+  ],
+  "limits": "Small constructed scene invariants and actual GLB byte equality. Whole vehicle pixels and performance require separate real-browser evidence."
+}

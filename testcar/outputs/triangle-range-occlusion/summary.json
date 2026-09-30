@@ -1,0 +1,130 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "passed": true,
+  "measurements": [
+    {
+      "file": "still.json",
+      "skippedNetCalls": 5322,
+      "savedTriangles": 9755810,
+      "additionalRangeSavedTriangles": 1478620,
+      "rangeSourceDraws": 25,
+      "rangeSubmittedDraws": 80,
+      "rangeProxyBytes": 86400,
+      "differentPixels": 0,
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1365.3999999985099
+      },
+      "candidate": {
+        "calls": 3983,
+        "triangles": 11827105,
+        "synchronizedMs": 1117.0999999940395
+      }
+    },
+    {
+      "file": "engine.json",
+      "skippedNetCalls": 4796,
+      "savedTriangles": 8620266,
+      "additionalRangeSavedTriangles": 1226716,
+      "rangeSourceDraws": 19,
+      "rangeSubmittedDraws": 64,
+      "rangeProxyBytes": 86400,
+      "differentPixels": 0,
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1232.3999999985099
+      },
+      "candidate": {
+        "calls": 4509,
+        "triangles": 12962649,
+        "synchronizedMs": 980.8999999985099
+      }
+    },
+    {
+      "file": "side-door.json",
+      "skippedNetCalls": 3633,
+      "savedTriangles": 7013846,
+      "additionalRangeSavedTriangles": 296272,
+      "rangeSourceDraws": 11,
+      "rangeSubmittedDraws": 35,
+      "rangeProxyBytes": 86400,
+      "differentPixels": 0,
+      "baseline": {
+        "calls": 9306,
+        "triangles": 21582915,
+        "synchronizedMs": 1257.6000000014901
+      },
+      "candidate": {
+        "calls": 5673,
+        "triangles": 14569069,
+        "synchronizedMs": 980.2000000029802
+      }
+    },
+    {
+      "file": "section.json",
+      "skippedNetCalls": 0,
+      "savedTriangles": 0,
+      "additionalRangeSavedTriangles": 0,
+      "rangeSourceDraws": 0,
+      "rangeSubmittedDraws": 0,
+      "rangeProxyBytes": 0,
+      "differentPixels": 0,
+      "baseline": {
+        "calls": 9139,
+        "triangles": 20352995,
+        "synchronizedMs": 1242.6999999955297
+      },
+      "candidate": {
+        "calls": 9139,
+        "triangles": 20352995,
+        "synchronizedMs": 1314.6000000014901
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "file": "engine-range-profile.json",
+      "frames": 12,
+      "meanFrameGapMs": 1003.5636363639073,
+      "medianFrameGapMs": 1004.1999999955297,
+      "meanWorkMs": 339.5249999991308,
+      "callsRange": [
+        4152,
+        4593
+      ],
+      "trianglesRange": [
+        12222573,
+        12996633
+      ],
+      "rangeSavedTrianglesRange": [
+        1226716,
+        1226716
+      ],
+      "allBacklogZero": true
+    },
+    {
+      "file": "engine-whole-profile.json",
+      "frames": 12,
+      "meanFrameGapMs": 1019.9727272729982,
+      "medianFrameGapMs": 1013.2000000029802,
+      "meanWorkMs": 405.3083333335817,
+      "callsRange": [
+        4035,
+        4503
+      ],
+      "trianglesRange": [
+        13467749,
+        13715549
+      ],
+      "rangeSavedTrianglesRange": [
+        0,
+        0
+      ],
+      "allBacklogZero": true
+    }
+  ],
+  "limits": "DEV-only exact original triangle-range submission reuse. Sequential finite samples, not universal performance or default enable acceptance. Complete geometry, original element order, materials and mechanical solver retained; usable preview and full product fidelity unfinished."
+}

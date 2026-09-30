@@ -1,0 +1,138 @@
+{
+  "files": 26,
+  "bytes": 7321386,
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "manifest": [
+    {
+      "path": "AGENT_START_HERE.md",
+      "bytes": 24017,
+      "sha256": "4c86baf17a2a1ac780418b8b602a0ea0f3eb89db0699ec588cd5ff23bdf28981"
+    },
+    {
+      "path": "NEXT_AGENT_PROMPT.md",
+      "bytes": 16419,
+      "sha256": "83708305379091edfd8356c6be6ae2d6009468aa3acd28cde118db1610500e28"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 29264,
+      "sha256": "e65d31e85b2cac7153cf3111574cc278260d5eeb6f307496dba7a8cac70a2dff"
+    },
+    {
+      "path": "docs/CONTINUATION_20260908.md",
+      "bytes": 17328,
+      "sha256": "630fe8f8632c1edf29872873a6f089a80b2849848299d9a110954e3e6c26ad8b"
+    },
+    {
+      "path": "docs/OCCLUSION_AND_TRANSMISSION_PROFILE_20260909.md",
+      "bytes": 6677,
+      "sha256": "c79611caf29320581f42b95060382ae0eed425b80273df7fd8f03c94e18012f6"
+    },
+    {
+      "path": "lib/occlusionProfile.ts",
+      "bytes": 5973,
+      "sha256": "8e5a78dedd308474782617c0fb92c0a96ec16effbdfcf16f5ff1469acf99e0f0"
+    },
+    {
+      "path": "lib/vehicleViewport.ts",
+      "bytes": 58536,
+      "sha256": "12180ddec26a394095b8be6ef40079a7ab69c317356ff5185c060c6e4a3b58c9"
+    },
+    {
+      "path": "outputs/occlusion-profile/README.md",
+      "bytes": 1099,
+      "sha256": "d82eede0244e675e5ae7acf7b0a8edf0c4c0bb0d500f16d6473afbca30760483"
+    },
+    {
+      "path": "outputs/occlusion-profile/final-normal-ax.txt",
+      "bytes": 7417,
+      "sha256": "bcec0a7f8ad97af79d14e5e273a41bf82389c4ac961b8f39c5611b630b5b89ef"
+    },
+    {
+      "path": "outputs/occlusion-profile/summary.json",
+      "bytes": 7189,
+      "sha256": "e1574103b9f3ead30f6c3874035a6aa93e883b7c184a8b6e2f119889fa17057e"
+    },
+    {
+      "path": "outputs/occlusion-profile/tests.json",
+      "bytes": 485,
+      "sha256": "609d768436fe4d661f90551828c19710fb8e006c0c044fe085975221a0ab4873"
+    },
+    {
+      "path": "outputs/occlusion-profile/whole-actual-targets-ax.txt",
+      "bytes": 945186,
+      "sha256": "6aeff446879394881c34da60ae4d79f6ae2a40d586decf6dfa17444a98bbf679"
+    },
+    {
+      "path": "outputs/occlusion-profile/whole-actual-targets.json",
+      "bytes": 937689,
+      "sha256": "23c3e40485f56f81c53ae8736006b561fdb41114bba4cb4fc8f33de6e05fb33e"
+    },
+    {
+      "path": "outputs/occlusion-profile/whole-classified-ax.txt",
+      "bytes": 944989,
+      "sha256": "de4d705f92da3709d19f619e8ac74ccbb47c131a4c10f26ef61079612ce6e954"
+    },
+    {
+      "path": "outputs/occlusion-profile/whole-classified.json",
+      "bytes": 937492,
+      "sha256": "f634f51212306807909467c09457f7a0cfe1abea9c8f58dfd8cd71ad9db42fc0"
+    },
+    {
+      "path": "outputs/occlusion-profile/whole-main-ax.txt",
+      "bytes": 844240,
+      "sha256": "c61ce3c43fd9260e11e37231d53c6ee936b1559dab36e3a26beef2c511d02414"
+    },
+    {
+      "path": "outputs/occlusion-profile/whole-main.json",
+      "bytes": 836744,
+      "sha256": "b45e99c7c3133a0ceb6815ede0bc53e82e9a7463cbaa957ee6aa84b9e42fa87e"
+    },
+    {
+      "path": "outputs/occlusion-profile/whole-unclassified-ax.txt",
+      "bytes": 844240,
+      "sha256": "c61ce3c43fd9260e11e37231d53c6ee936b1559dab36e3a26beef2c511d02414"
+    },
+    {
+      "path": "outputs/occlusion-profile/whole-unclassified.json",
+      "bytes": 836744,
+      "sha256": "b45e99c7c3133a0ceb6815ede0bc53e82e9a7463cbaa957ee6aa84b9e42fa87e"
+    },
+    {
+      "path": "scripts/archive-occlusion-profile-stage.py",
+      "bytes": 2906,
+      "sha256": "a7fd0fa84247678d3e6ee7ee1bd10dd8485be6c87fd8f2913b61eeadf3a91a69"
+    },
+    {
+      "path": "scripts/summarize-occlusion-profile.py",
+      "bytes": 1322,
+      "sha256": "879d139cb1b64b693992fc3ad3bfe14257b3ca75483112b496af6e54011b3d04"
+    },
+    {
+      "path": "scripts/verify-occlusion-profile.mjs",
+      "bytes": 4581,
+      "sha256": "620d6d004431a38aad585dd8f412e9b5afcbcb4260785ba31168ebe7781b9b89"
+    },
+    {
+      "path": "work/occlusion-profile/build.log",
+      "bytes": 3159,
+      "sha256": "72b3a0af46341880a2d17a59d7d3f990d1610278cc3703226e54b140ff2ffa46"
+    },
+    {
+      "path": "work/occlusion-profile/summary.log",
+      "bytes": 7191,
+      "sha256": "b4fa4b338ccf6720751bd9b8b20cdc31988b444cb45e60cce66f6cb8ef6a2f24"
+    },
+    {
+      "path": "work/occlusion-profile/tests.log",
+      "bytes": 499,
+      "sha256": "5d02431d0786b3e736d25e85abc06953df9e90444c83ced29d465790ee33e2ef"
+    },
+    {
+      "path": "work/occlusion-profile/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ]
+}

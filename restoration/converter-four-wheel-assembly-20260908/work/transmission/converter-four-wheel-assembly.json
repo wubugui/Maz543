@@ -1,0 +1,63 @@
+{
+  "fit": {
+    "meridianCentreRadiusM": 0.195,
+    "outerAxialRadiusM": 0.086,
+    "outerRadialRadiusM": 0.105,
+    "coreAxialRadiusM": 0.033,
+    "coreRadialRadiusM": 0.045,
+    "shellThicknessM": 0.003,
+    "bladeTangentialThicknessM": 0.002,
+    "bladeCounts": {
+      "pump": 32,
+      "turbine": 28,
+      "front_reactor": 20,
+      "rear_reactor": 20
+    },
+    "wheelMeridianDegrees": {
+      "pump": [
+        -1,
+        156
+      ],
+      "rear_reactor": [
+        158,
+        179
+      ],
+      "front_reactor": [
+        181,
+        202
+      ],
+      "turbine": [
+        204,
+        357
+      ]
+    },
+    "sourceNominalRollerM": [
+      0.0125,
+      0.022
+    ],
+    "freewheelRowX": [
+      -0.016,
+      0.016
+    ],
+    "wedgeAngleDeg": 7,
+    "limits": "Except interpreted 12.5 x 22 mm rollers, all dimensions and blade numbers/angles are reconstruction parameters. Early 543A compatibility with 2008 catalog remains unverified."
+  },
+  "sourceTopology": {
+    "pump": "Input shaft 1 -> lockup body 4 -> casing 9 -> pump 12; thrust plate 8 also pump-side.",
+    "turbine": "Turbine 11 -> hub 2 -> turbine shaft 15 and gearbox input; driven lockup disc 7 via hub 3.",
+    "front_reactor": "Independent reactor 6 -> outer race 53 -> roller freewheel -> common fixed inner race 13 -> fixed hub 52 -> casing 14.",
+    "rear_reactor": "Independent reactor 6 -> outer race 53 -> roller freewheel -> common fixed inner race 13 -> fixed hub 52 -> casing 14."
+  },
+  "notComplete": [
+    "Factory blade geometry/counts and installation",
+    "Actual fluid torque map and both reactor releases",
+    "Lockup hydraulic seals, spline/fastener fits and force integration",
+    "Bearing and pump-drive hardware",
+    "Whole-vehicle and browser final realism acceptance"
+  ],
+  "sourceImages": [
+    "000-3024.jpg",
+    "catalog-converter-pump-reactors.gif"
+  ],
+  "meshCount": 180
+}

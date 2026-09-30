@@ -2,6 +2,8 @@
 import pathlib,json,hashlib,sys
 root=pathlib.Path(__file__).resolve().parents[2]
 m=json.loads((root/'migration/cloud-handoff/MANIFEST.json').read_text(encoding='utf8'))
+baseline=root/'migration/cloud-handoff/BASELINE_MANIFEST.json'
+if baseline.exists():m['files']+=json.loads(baseline.read_text(encoding='utf8'))['files']
 all_files='--all' in sys.argv
 prefixes=[a for a in sys.argv[1:] if a!='--all']
 current={'testcar/outputs/MAZ543A_Master.blend','testcar/outputs/MAZ543A_Textured.blend'}

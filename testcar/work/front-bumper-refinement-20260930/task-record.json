@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-7dd1892d-c87e-41ad-b872-7784884863e2",
+  "upload": {
+    "upload_id": "a29084ae-1611-49fc-ad74-0f8de3efb422",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "a29084ae-1611-49fc-ad74-0f8de3efb422",
+    "name": "hub-front-bumper-refinement.py",
+    "mime": "text/x-python",
+    "size": 7271,
+    "sha256": "669044b4f214bb2051a2f683b171cc28cecc3e0decb510829bd3e36e4324e22a",
+    "created": 1790782846.2333426,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/a29084ae-1611-49fc-ad74-0f8de3efb422/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A bumper review and redundant marker archive",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "80ad15175207239a965b8eed900b5dc9",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "5dc27299ac8f48af0e23ba9a5b2877b6",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "a29084ae-1611-49fc-ad74-0f8de3efb422",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "14bcaa65-51e5-4e96-b969-669a530dd312",
+    "task_ids": [
+      "e43fdcaa-f042-4e63-95d1-f5afd9162e3a"
+    ],
+    "task_id": "e43fdcaa-f042-4e63-95d1-f5afd9162e3a"
+  }
+}

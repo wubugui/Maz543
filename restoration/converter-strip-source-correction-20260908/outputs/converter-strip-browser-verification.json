@@ -1,0 +1,354 @@
+{
+  "modelSha256": "e2e673a73790541effdcd58fc74f90cc546e0d1910b59cde30e53a161357accd",
+  "nativeSha256": "a5bf5073bd3034c07efc6c9f496a99a5dcbcd949d95eb140f05840e8dfd91a35",
+  "independentEquilibria": 26,
+  "comparedVertices": 41098,
+  "maxNativeDistanceM": 3.754281321679498e-9,
+  "rollerSizeM": [
+    0.02199999988079071,
+    0.012500000186264515,
+    0.012500000186264515
+  ],
+  "states": [
+    {
+      "index": 0,
+      "nativeVertices": 772,
+      "exportedVertices": 1570,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 1,
+      "nativeVertices": 772,
+      "exportedVertices": 1592,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 2,
+      "nativeVertices": 772,
+      "exportedVertices": 1588,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 3,
+      "nativeVertices": 772,
+      "exportedVertices": 1578,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 4,
+      "nativeVertices": 772,
+      "exportedVertices": 1586,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 5,
+      "nativeVertices": 772,
+      "exportedVertices": 1571,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 6,
+      "nativeVertices": 772,
+      "exportedVertices": 1581,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 7,
+      "nativeVertices": 772,
+      "exportedVertices": 1582,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 8,
+      "nativeVertices": 772,
+      "exportedVertices": 1593,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 9,
+      "nativeVertices": 772,
+      "exportedVertices": 1580,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 10,
+      "nativeVertices": 772,
+      "exportedVertices": 1584,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 11,
+      "nativeVertices": 772,
+      "exportedVertices": 1580,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 12,
+      "nativeVertices": 772,
+      "exportedVertices": 1581,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 13,
+      "nativeVertices": 772,
+      "exportedVertices": 1578,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 14,
+      "nativeVertices": 772,
+      "exportedVertices": 1568,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 15,
+      "nativeVertices": 772,
+      "exportedVertices": 1584,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 16,
+      "nativeVertices": 772,
+      "exportedVertices": 1581,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 17,
+      "nativeVertices": 772,
+      "exportedVertices": 1588,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 18,
+      "nativeVertices": 772,
+      "exportedVertices": 1584,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 19,
+      "nativeVertices": 772,
+      "exportedVertices": 1584,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 20,
+      "nativeVertices": 772,
+      "exportedVertices": 1578,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 21,
+      "nativeVertices": 772,
+      "exportedVertices": 1579,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 22,
+      "nativeVertices": 772,
+      "exportedVertices": 1583,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 23,
+      "nativeVertices": 772,
+      "exportedVertices": 1571,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 24,
+      "nativeVertices": 772,
+      "exportedVertices": 1582,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    },
+    {
+      "index": 25,
+      "nativeVertices": 772,
+      "exportedVertices": 1572,
+      "maxNativeDistanceM": 3.754281321679498e-9
+    }
+  ],
+  "glTF": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 29,
+    "numHints": 0,
+    "messages": [
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/9/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/10/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/11/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/12/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/13/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/14/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/15/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/16/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/17/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/18/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/19/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/20/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/21/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/22/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/23/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/24/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/25/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/26/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/27/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/28/primitives/0/attributes/TEXCOORD_0"
+      }
+    ],
+    "truncated": false
+  },
+  "limits": "Saved static equilibria only. No interpolated motion, factory seating, strength or vehicle acceptance."
+}

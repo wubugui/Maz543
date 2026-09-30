@@ -1,0 +1,6319 @@
+{
+  "comparisons": {
+    "main-canonical-side-door-trace vs main-canonical-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": false,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            14526,
+            null
+          ],
+          "otherExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            14412,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2333,
+            2332
+          ],
+          "sameMembers": false,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            14526,
+            null
+          ],
+          "otherExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            14412,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            14526,
+            null
+          ],
+          "otherExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            14412,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": true,
+      "firstMaterialOrderDifference": null,
+      "materialOrderExamples": null
+    },
+    "main-canonical-side-door-trace vs main-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": false,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2333,
+            2332
+          ],
+          "sameMembers": false,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 56,
+      "materialOrderExamples": [
+        [
+          [
+            783,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            784,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            787,
+            0,
+            "CJ_ground_bearing_steel"
+          ]
+        ],
+        [
+          [
+            263,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            264,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            315,
+            0,
+            "COOL_upper_cast_alloy"
+          ]
+        ]
+      ]
+    },
+    "main-canonical-side-door-trace vs worker-canonical-side-door-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "noiseSha256": true,
+        "pixelSha256": true,
+        "drawSequenceSha256": true
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2333,
+            2333
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 56,
+      "materialOrderExamples": [
+        [
+          [
+            783,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            784,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            787,
+            0,
+            "CJ_ground_bearing_steel"
+          ]
+        ],
+        [
+          [
+            263,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            264,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            315,
+            0,
+            "COOL_upper_cast_alloy"
+          ]
+        ]
+      ]
+    },
+    "main-canonical-side-door-trace vs worker-canonical-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": false,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            14526,
+            null
+          ],
+          "otherExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            14412,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2333,
+            2332
+          ],
+          "sameMembers": false,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            14526,
+            null
+          ],
+          "otherExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            14412,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            14526,
+            null
+          ],
+          "otherExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            14412,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 30,
+      "materialOrderExamples": [
+        [
+          [
+            140,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            144,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            154,
+            0,
+            "D12_forged_steel"
+          ]
+        ],
+        [
+          [
+            19,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3732,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3733,
+            0,
+            "Amber_signal_glass"
+          ]
+        ]
+      ]
+    },
+    "main-canonical-side-door-trace vs worker-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": false,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2333,
+            2332
+          ],
+          "sameMembers": false,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 56,
+      "materialOrderExamples": [
+        [
+          [
+            783,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            784,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            787,
+            0,
+            "CJ_ground_bearing_steel"
+          ]
+        ],
+        [
+          [
+            263,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            264,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            315,
+            0,
+            "COOL_upper_cast_alloy"
+          ]
+        ]
+      ]
+    },
+    "main-canonical-side-door-trace vs worker-stock-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": false,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2333,
+            2332
+          ],
+          "sameMembers": false,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 30,
+      "materialOrderExamples": [
+        [
+          [
+            140,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            144,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            154,
+            0,
+            "D12_forged_steel"
+          ]
+        ],
+        [
+          [
+            19,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3732,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3733,
+            0,
+            "Amber_signal_glass"
+          ]
+        ]
+      ]
+    },
+    "main-canonical-side-trace vs main-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2332
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 56,
+      "materialOrderExamples": [
+        [
+          [
+            783,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            784,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            787,
+            0,
+            "CJ_ground_bearing_steel"
+          ]
+        ],
+        [
+          [
+            263,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            264,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            315,
+            0,
+            "COOL_upper_cast_alloy"
+          ]
+        ]
+      ]
+    },
+    "main-canonical-side-trace vs worker-canonical-side-door-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": false,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            14412,
+            null
+          ],
+          "otherExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            14526,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2333
+          ],
+          "sameMembers": false,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            14412,
+            null
+          ],
+          "otherExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            14526,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            14412,
+            null
+          ],
+          "otherExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            14526,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 56,
+      "materialOrderExamples": [
+        [
+          [
+            783,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            784,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            787,
+            0,
+            "CJ_ground_bearing_steel"
+          ]
+        ],
+        [
+          [
+            263,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            264,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            315,
+            0,
+            "COOL_upper_cast_alloy"
+          ]
+        ]
+      ]
+    },
+    "main-canonical-side-trace vs worker-canonical-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "noiseSha256": true,
+        "pixelSha256": true,
+        "drawSequenceSha256": true
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2332
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 30,
+      "materialOrderExamples": [
+        [
+          [
+            140,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            144,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            154,
+            0,
+            "D12_forged_steel"
+          ]
+        ],
+        [
+          [
+            19,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3732,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3733,
+            0,
+            "Amber_signal_glass"
+          ]
+        ]
+      ]
+    },
+    "main-canonical-side-trace vs worker-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2332
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 56,
+      "materialOrderExamples": [
+        [
+          [
+            783,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            784,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            787,
+            0,
+            "CJ_ground_bearing_steel"
+          ]
+        ],
+        [
+          [
+            263,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            264,
+            0,
+            "COOL_upper_cast_alloy"
+          ],
+          [
+            315,
+            0,
+            "COOL_upper_cast_alloy"
+          ]
+        ]
+      ]
+    },
+    "main-canonical-side-trace vs worker-stock-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2332
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 30,
+      "materialOrderExamples": [
+        [
+          [
+            140,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            144,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            154,
+            0,
+            "D12_forged_steel"
+          ]
+        ],
+        [
+          [
+            19,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3732,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3733,
+            0,
+            "Amber_signal_glass"
+          ]
+        ]
+      ]
+    },
+    "main-side-trace vs worker-canonical-side-door-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": false,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ],
+          "otherExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2333
+          ],
+          "sameMembers": false,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ],
+          "otherExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ],
+          "otherExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": true,
+      "firstMaterialOrderDifference": null,
+      "materialOrderExamples": null
+    },
+    "main-side-trace vs worker-canonical-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ],
+          "otherExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2332
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ],
+          "otherExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ],
+          "otherExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 30,
+      "materialOrderExamples": [
+        [
+          [
+            140,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            144,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            154,
+            0,
+            "D12_forged_steel"
+          ]
+        ],
+        [
+          [
+            19,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3732,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3733,
+            0,
+            "Amber_signal_glass"
+          ]
+        ]
+      ]
+    },
+    "main-side-trace vs worker-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "noiseSha256": true,
+        "pixelSha256": true,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 23,
+          "mainExample": [
+            3080,
+            "D12_liner_seat_R1_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            7296,
+            null
+          ],
+          "otherExample": [
+            3090,
+            "D12_liner_seat_R6_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            7296,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2332
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 23,
+          "mainExample": [
+            3080,
+            "D12_liner_seat_R1_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            7296,
+            null
+          ],
+          "otherExample": [
+            3090,
+            "D12_liner_seat_R6_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            7296,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 23,
+          "mainExample": [
+            3080,
+            "D12_liner_seat_R1_D12_cast_aluminium_housing",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            7296,
+            null
+          ],
+          "otherExample": [
+            3090,
+            "D12_liner_seat_R6_D12_cast_aluminium_housing",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            7296,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 57,
+      "materialOrderExamples": [
+        [
+          [
+            585,
+            0,
+            "COOL_lower_black_storage_enamel"
+          ],
+          [
+            586,
+            0,
+            "COOL_lower_black_storage_enamel"
+          ],
+          [
+            631,
+            0,
+            "COOL_lower_black_storage_enamel"
+          ]
+        ],
+        [
+          [
+            783,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            784,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            787,
+            0,
+            "CJ_ground_bearing_steel"
+          ]
+        ]
+      ]
+    },
+    "main-side-trace vs worker-stock-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "noiseSha256": true,
+        "pixelSha256": true,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 21,
+          "mainExample": [
+            3082,
+            "D12_liner_seat_R2_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            7296,
+            null
+          ],
+          "otherExample": [
+            3080,
+            "D12_liner_seat_R1_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            7296,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2332
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 21,
+          "mainExample": [
+            3082,
+            "D12_liner_seat_R2_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            7296,
+            null
+          ],
+          "otherExample": [
+            3080,
+            "D12_liner_seat_R1_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            7296,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 21,
+          "mainExample": [
+            3082,
+            "D12_liner_seat_R2_D12_cast_aluminium_housing",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            7296,
+            null
+          ],
+          "otherExample": [
+            3080,
+            "D12_liner_seat_R1_D12_cast_aluminium_housing",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            7296,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 30,
+      "materialOrderExamples": [
+        [
+          [
+            140,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            144,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            154,
+            0,
+            "D12_forged_steel"
+          ]
+        ],
+        [
+          [
+            19,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3732,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3733,
+            0,
+            "Amber_signal_glass"
+          ]
+        ]
+      ]
+    },
+    "worker-canonical-side-door-trace vs worker-canonical-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": false,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            14526,
+            null
+          ],
+          "otherExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            14412,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2333,
+            2332
+          ],
+          "sameMembers": false,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            14526,
+            null
+          ],
+          "otherExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "MAZ543A_Baked_PBR",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            14412,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 70,
+          "mainExample": [
+            105,
+            "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            14526,
+            null
+          ],
+          "otherExample": [
+            99,
+            "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            14412,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 30,
+      "materialOrderExamples": [
+        [
+          [
+            140,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            144,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            154,
+            0,
+            "D12_forged_steel"
+          ]
+        ],
+        [
+          [
+            19,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3732,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3733,
+            0,
+            "Amber_signal_glass"
+          ]
+        ]
+      ]
+    },
+    "worker-canonical-side-door-trace vs worker-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": false,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2333,
+            2332
+          ],
+          "sameMembers": false,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 57,
+      "materialOrderExamples": [
+        [
+          [
+            585,
+            0,
+            "COOL_lower_black_storage_enamel"
+          ],
+          [
+            586,
+            0,
+            "COOL_lower_black_storage_enamel"
+          ],
+          [
+            631,
+            0,
+            "COOL_lower_black_storage_enamel"
+          ]
+        ],
+        [
+          [
+            783,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            784,
+            0,
+            "CJ_ground_bearing_steel"
+          ],
+          [
+            787,
+            0,
+            "CJ_ground_bearing_steel"
+          ]
+        ]
+      ]
+    },
+    "worker-canonical-side-door-trace vs worker-stock-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": false,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2333,
+            2332
+          ],
+          "sameMembers": false,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 30,
+      "materialOrderExamples": [
+        [
+          [
+            140,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            144,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            154,
+            0,
+            "D12_forged_steel"
+          ]
+        ],
+        [
+          [
+            19,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3732,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3733,
+            0,
+            "Amber_signal_glass"
+          ]
+        ]
+      ]
+    },
+    "worker-canonical-side-trace vs worker-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2332
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 30,
+      "materialOrderExamples": [
+        [
+          [
+            19,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3732,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3733,
+            0,
+            "Amber_signal_glass"
+          ]
+        ],
+        [
+          [
+            140,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            144,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            154,
+            0,
+            "D12_forged_steel"
+          ]
+        ]
+      ]
+    },
+    "worker-canonical-side-trace vs worker-stock-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "noiseSha256": true,
+        "pixelSha256": false,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2332
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "Amber_signal_glass",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "D12_machined_steel",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 1,
+          "mainExample": [
+            3733,
+            "BL_Bumper_signal_1",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            2292,
+            null
+          ],
+          "otherExample": [
+            4466,
+            "C5_flywheel_involute_ring",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            19524,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": true,
+      "firstMaterialOrderDifference": null,
+      "materialOrderExamples": null
+    },
+    "worker-side-trace vs worker-stock-side-trace": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "noiseSha256": true,
+        "pixelSha256": true,
+        "drawSequenceSha256": false
+      },
+      "segmentCounts": [
+        7,
+        7
+      ],
+      "segments": [
+        {
+          "segment": 0,
+          "mainPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            2048,
+            2048,
+            0
+          ],
+          "counts": [
+            2322,
+            2322
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 1,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 21,
+          "mainExample": [
+            3082,
+            "D12_liner_seat_R2_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            7296,
+            null
+          ],
+          "otherExample": [
+            3080,
+            "D12_liner_seat_R1_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            4,
+            7296,
+            null
+          ]
+        },
+        {
+          "segment": 2,
+          "mainPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2332,
+            2332
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 21,
+          "mainExample": [
+            3082,
+            "D12_liner_seat_R2_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            7296,
+            null
+          ],
+          "otherExample": [
+            3080,
+            "D12_liner_seat_R1_D12_cast_aluminium_housing",
+            "D12_cast_aluminium",
+            "MeshStandardMaterial",
+            2,
+            "main",
+            false,
+            1212.5,
+            773.75,
+            2,
+            7296,
+            null
+          ]
+        },
+        {
+          "segment": 3,
+          "mainPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2323,
+            2323
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": 21,
+          "mainExample": [
+            3082,
+            "D12_liner_seat_R2_D12_cast_aluminium_housing",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            7296,
+            null
+          ],
+          "otherExample": [
+            3080,
+            "D12_liner_seat_R1_D12_cast_aluminium_housing",
+            "",
+            "MeshNormalMaterial",
+            0,
+            "main",
+            true,
+            1212.5,
+            773.75,
+            0,
+            7296,
+            null
+          ]
+        },
+        {
+          "segment": 4,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            0
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 5,
+          "mainPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "otherPass": [
+            "other",
+            false,
+            1212.5,
+            773.75,
+            2
+          ],
+          "counts": [
+            2,
+            2
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        },
+        {
+          "segment": 6,
+          "mainPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "otherPass": [
+            "other",
+            false,
+            0,
+            0,
+            0
+          ],
+          "counts": [
+            1,
+            1
+          ],
+          "sameMembers": true,
+          "firstDifferentDraw": null,
+          "mainExample": null,
+          "otherExample": null
+        }
+      ],
+      "sameRelativeMaterialAllocationOrder": false,
+      "firstMaterialOrderDifference": 30,
+      "materialOrderExamples": [
+        [
+          [
+            140,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            144,
+            0,
+            "D12_forged_steel"
+          ],
+          [
+            154,
+            0,
+            "D12_forged_steel"
+          ]
+        ],
+        [
+          [
+            19,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3732,
+            0,
+            "Amber_signal_glass"
+          ],
+          [
+            3733,
+            0,
+            "Amber_signal_glass"
+          ]
+        ]
+      ]
+    }
+  },
+  "limits": "Finite complete-frame traces with raw allocation IDs excluded from frame hashes. Sequence/membership and input subset comparison does not itself prove the cause of pixel differences or physical/model fidelity.",
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN"
+}

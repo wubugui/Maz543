@@ -1,0 +1,68 @@
+Browser tab: 9, Title: "MAZ–543A · 机械解构", URL: "http://localhost:3000/freewheel".
+1 AXWebArea MAZ–543A · 机械解构, URL: localhost:3000/freewheel
+	2 container
+		3 link Description: ← 整车工作台, Value: localhost:3000/
+		4 text MAZ–543A · 变矩器机构
+		5 container 单向离合器检查
+			6 container
+				7 heading 滚柱单向离合器, Value: 1
+					8 text 滚柱单向离合器
+				9 text 共用固定内圈 · 两套独立外圈
+			66 image 双排滚柱单向离合器三维台架
+			11 container
+				12 text 拖动旋转 · 滚轮缩放
+				13 button 复位视角
+		14 heading 受力运动回放, Value: 2
+			15 text 受力运动回放
+		16 text 楔紧保持
+		17 text 两排分别回放同一外载试验：反向保持 → 正向越程 → 减速楔紧。尺寸、材料和弹簧参数仍为重建值；尚未接入导轮流体与整车。
+		18 button 播放运动
+		19 button 回到起点
+		20 container
+			21 text 试验时刻
+			22 container 试验时刻 2
+				23 text 2.000  s / 2.000 s
+			24 slider (settable, integer) Description: 试验时刻, Value: 2
+		25 container
+			26 text 回放速度
+			27 pop up button (collapsed, settable) Description: 回放速度, Value: 0.1 ×, Secondary Actions: Expand
+				28 menu
+					29 (selected) 0.1 ×
+					30 0.25 ×
+					31 1 ×
+		32 container
+			33 text 观察排
+			34 pop up button (collapsed, settable) Description: 观察排, Value: 后排, Secondary Actions: Expand
+				35 menu
+					36 前排
+					37 (selected) 后排
+					38 两排
+		39 checkbox (settable, integer) Description: 显示轴向保持环, Value: 1
+		40 definition list
+			41 container 外载扭矩 / 每排
+				42 text 外载扭矩 / 每排
+			43 container
+				44 text -2.0 N·m
+			45 container 外圈转速
+				46 text 外圈转速
+			47 container
+				48 text 0.0 RPM
+			49 container 单根弹簧轴向力
+				50 text 单根弹簧轴向力
+			51 container
+				52 text 1.439 N
+			53 container 弹簧轴向长度
+				54 text 弹簧轴向长度
+			55 container
+				56 text 7.829 mm
+			57 container 滚柱与楔面间隙
+				58 text 滚柱与楔面间隙
+			59 container
+				60 text 0.0000 mm
+			61 container 单滚柱楔面法向力
+				62 text 单滚柱楔面法向力
+			63 container
+				64 text 60.48 N
+		65 text 固定内圈提供支承反力。滚柱在弹簧作用下靠向楔面，接触摩擦产生单向保持；正向外载超过当前预载后连续越程。
+
+The focused UI element is 24 slider (settable, integer) Description: 试验时刻, Value: 2

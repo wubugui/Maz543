@@ -1,0 +1,6 @@
+from pathlib import Path
+import json
+p=Path('README.md');s=p.read_text(encoding='utf-8');s=s.replace('716 个网格/曲线对象和 119 个姿态绑定','973 个网格/曲线对象和 178 个姿态绑定');s=s.replace('以及左风扇离合器内构近景。','以及左风扇离合器和下传动箱的独立内构近景。');s += '\n下传动箱重建：先用项目 Python 执行 `scripts/prepare-cooling-lower.py`，再执行启动姿态准备与 `scripts/blender-cooling.py`。建模脚本会调用 `cooling-lower-detail.py` 和 `cooling-lower-surfaces.py`，生成原生几何并烘焙铸壳法线/粗糙度。`verify-cooling-lower.py` 检查实际齿轮与铸壳网格、轴承外廓并渲染检查图。只重新导出已有母版时使用 `export-cooling-native.py`，无需重新烘焙；最后运行 `install-cooling-assets.py`、`verify-cooling-install.py` 和 `sync-cooling-notes.py`。32:20 齿数、局部尺寸仍是拟合值。\n';p.write_text(s,encoding='utf-8')
+scope='Original twin 12-blade fan/clutch topology; photo-guided lower gearbox with fitted 32:20 gears; uncalibrated thermal model; upper gears, Cardans and complete passages remain incomplete'
+p=Path('scripts/verify-model.mjs');s=p.read_text(encoding='utf-8').replace('Original twin 12-blade fan and electromagnetic clutch topology; uncalibrated hydraulic/thermal model; detailed gearbox and full passages remain incomplete',scope);p.write_text(s,encoding='utf-8')
+p=Path('public/models/model-info.json');j=json.loads(p.read_text());j['cooling_scope']=scope;p.write_text(json.dumps(j,indent=2)+'\n')

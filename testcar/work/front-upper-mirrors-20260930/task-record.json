@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-ab94bc3b-21eb-4512-87eb-f60c4ef6fdb1",
+  "upload": {
+    "upload_id": "69851908-924b-4a7d-8bee-48eb158f626f",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "69851908-924b-4a7d-8bee-48eb158f626f",
+    "name": "hub-front-upper-mirrors.py",
+    "mime": "text/x-python",
+    "size": 7850,
+    "sha256": "9da62274f39541e8f76a5d03f75e1cf10b9feed2657298db0840da9389d0ca11",
+    "created": 1790786717.1330543,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/69851908-924b-4a7d-8bee-48eb158f626f/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A complete upper mirrors bare-chassis reference candidate",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "4f5caa7d6016e4520d9e4f75f1e1c906",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "e0c0e122c9eabb99a022daed997feff6",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "69851908-924b-4a7d-8bee-48eb158f626f",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "df9d1127-f269-40e6-b41d-b95b267a908c",
+    "task_ids": [
+      "544a34ef-cbb4-4c68-b7e9-def0bd7914f2"
+    ],
+    "task_id": "544a34ef-cbb4-4c68-b7e9-def0bd7914f2"
+  }
+}

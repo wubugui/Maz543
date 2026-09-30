@@ -1,0 +1,285 @@
+{
+  "rows": [
+    {
+      "file": "bridge-drive-age.json",
+      "samples": 12,
+      "focus": [
+        "drive"
+      ],
+      "mode": [
+        "section"
+      ],
+      "frameSource": [
+        "main-thread-bridge"
+      ],
+      "milliseconds": {
+        "updateMs": {
+          "min": 3.400000002235174,
+          "median": 3.949999999254942,
+          "max": 12.099999997764826
+        },
+        "queryPollMs": {
+          "min": 0,
+          "median": 0.0,
+          "max": 0
+        },
+        "cacheMs": {
+          "min": 6.900000002235174,
+          "median": 10.149999998509884,
+          "max": 35
+        },
+        "submitMs": {
+          "min": 24.700000002980232,
+          "median": 46.30000000074506,
+          "max": 81.80000000074506
+        },
+        "frameWorkMs": {
+          "min": 35.400000002235174,
+          "median": 63.65000000037253,
+          "max": 99.89999999850988
+        }
+      },
+      "frameStartGapMs": {
+        "min": 598.1000000014901,
+        "median": 992.2000000029802,
+        "max": 1096.8999999985099
+      },
+      "drawCalls": [
+        2849
+      ],
+      "triangles": [
+        3139593
+      ],
+      "renderedFrames": 12,
+      "maxReportedSimulationBacklog": 0,
+      "gpuTimersAvailable": false,
+      "stateAgeAtUpdateMs": {
+        "min": 0.199951171875,
+        "median": 12.199951171875,
+        "max": 522.300048828125
+      }
+    },
+    {
+      "file": "drive-running.json",
+      "samples": 12,
+      "focus": [
+        "drive"
+      ],
+      "mode": [
+        "section"
+      ],
+      "frameSource": [
+        "main-thread-bridge (original capture)"
+      ],
+      "milliseconds": {
+        "updateMs": {
+          "min": 2.399999998509884,
+          "median": 3.799999998882413,
+          "max": 5.300000000745058
+        },
+        "queryPollMs": {
+          "min": 0,
+          "median": 0.0,
+          "max": 0
+        },
+        "cacheMs": {
+          "min": 5.800000000745058,
+          "median": 10.599999999627471,
+          "max": 15.700000002980232
+        },
+        "submitMs": {
+          "min": 34.29999999701977,
+          "median": 57.34999999962747,
+          "max": 392.5999999977648
+        },
+        "frameWorkMs": {
+          "min": 49.79999999701977,
+          "median": 70.19999999925494,
+          "max": 412.19999999925494
+        }
+      },
+      "frameStartGapMs": {
+        "min": 785.6999999992549,
+        "median": 990.1999999992549,
+        "max": 1046.5
+      },
+      "drawCalls": [
+        2849
+      ],
+      "triangles": [
+        3139593
+      ],
+      "renderedFrames": 12,
+      "maxReportedSimulationBacklog": 0,
+      "gpuTimersAvailable": false
+    },
+    {
+      "file": "native-drive-running.json",
+      "samples": 12,
+      "focus": [
+        "drive"
+      ],
+      "mode": [
+        "section"
+      ],
+      "frameSource": [
+        "native-worker"
+      ],
+      "milliseconds": {
+        "updateMs": {
+          "min": 3,
+          "median": 3.100000001490116,
+          "max": 3.7999999970197678
+        },
+        "queryPollMs": {
+          "min": 0,
+          "median": 0.0,
+          "max": 0
+        },
+        "cacheMs": {
+          "min": 8,
+          "median": 9.049999998882413,
+          "max": 10
+        },
+        "submitMs": {
+          "min": 26.399999998509884,
+          "median": 28.049999998882413,
+          "max": 42.900000002235174
+        },
+        "frameWorkMs": {
+          "min": 37.899999998509884,
+          "median": 40.100000001490116,
+          "max": 56.69999999925494
+        }
+      },
+      "frameStartGapMs": {
+        "min": 511.3999999985099,
+        "median": 550.0,
+        "max": 583.3000000007451
+      },
+      "drawCalls": [
+        2849
+      ],
+      "triangles": [
+        3139593
+      ],
+      "renderedFrames": 12,
+      "maxReportedSimulationBacklog": 0,
+      "gpuTimersAvailable": false,
+      "stateAgeAtUpdateMs": {
+        "min": 0.89990234375,
+        "median": 10.0499267578125,
+        "max": 453.999755859375
+      }
+    },
+    {
+      "file": "native-whole.json",
+      "samples": 12,
+      "focus": [
+        ""
+      ],
+      "mode": [
+        "solid"
+      ],
+      "frameSource": [
+        "native-worker"
+      ],
+      "milliseconds": {
+        "updateMs": {
+          "min": 2.199999999254942,
+          "median": 3.200000001117587,
+          "max": 4.199999999254942
+        },
+        "queryPollMs": {
+          "min": 0,
+          "median": 0.0,
+          "max": 0
+        },
+        "cacheMs": {
+          "min": 8.399999998509884,
+          "median": 13.349999999627471,
+          "max": 24.599999997764826
+        },
+        "submitMs": {
+          "min": 237.40000000223517,
+          "median": 278.50000000186265,
+          "max": 326.69999999925494
+        },
+        "frameWorkMs": {
+          "min": 252.90000000223517,
+          "median": 289.94999999925494,
+          "max": 353.79999999701977
+        }
+      },
+      "frameStartGapMs": {
+        "min": 1818.2999999970198,
+        "median": 1917.0,
+        "max": 2053.400000002235
+      },
+      "drawCalls": [
+        9305
+      ],
+      "triangles": [
+        21582915
+      ],
+      "renderedFrames": 12,
+      "maxReportedSimulationBacklog": 0,
+      "gpuTimersAvailable": false
+    },
+    {
+      "file": "whole.json",
+      "samples": 12,
+      "focus": [
+        ""
+      ],
+      "mode": [
+        "solid"
+      ],
+      "frameSource": [
+        "main-thread-bridge (original capture)"
+      ],
+      "milliseconds": {
+        "updateMs": {
+          "min": 2.800000000745058,
+          "median": 4.000000001862645,
+          "max": 40.100000001490116
+        },
+        "queryPollMs": {
+          "min": 0,
+          "median": 0.0,
+          "max": 0
+        },
+        "cacheMs": {
+          "min": 14.599999997764826,
+          "median": 20.59999999962747,
+          "max": 40.599999997764826
+        },
+        "submitMs": {
+          "min": 221.10000000149012,
+          "median": 302.84999999962747,
+          "max": 1874.699999999255
+        },
+        "frameWorkMs": {
+          "min": 242.5,
+          "median": 330.0,
+          "max": 1929.1000000014901
+        }
+      },
+      "frameStartGapMs": {
+        "min": 340.5999999977648,
+        "median": 1938.4000000022352,
+        "max": 3557.099999997765
+      },
+      "drawCalls": [
+        9305
+      ],
+      "triangles": [
+        21582915
+      ],
+      "renderedFrames": 12,
+      "maxReportedSimulationBacklog": 0,
+      "gpuTimersAvailable": false
+    }
+  ],
+  "limits": "Finite same-application captures, not a controlled GPU benchmark. Frame start gaps include presentation and scheduling delays. Do not subtract clocks with different time origins or infer GPU duration from submission time."
+}

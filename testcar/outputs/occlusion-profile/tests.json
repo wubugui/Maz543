@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "originalDrawsAndOrderPreserved": true,
+  "sourceGeometryAndMaterialUntouched": true,
+  "opaqueCameraPassesOnly": true,
+  "renderTargetsSeparated": true,
+  "noUnavailableResultsRead": true,
+  "rangeCounts": true,
+  "queryCleanup": true,
+  "rendererRestoredAfterException": true,
+  "idempotentDispose": true,
+  "limits": "Mock WebGL control-flow tests with real Three geometry; actual query support, visibility and performance require separate browser evidence."
+}

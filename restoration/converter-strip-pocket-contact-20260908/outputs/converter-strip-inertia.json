@@ -1,0 +1,19 @@
+{
+  "nativeSha256": "a5bf5073bd3034c07efc6c9f496a99a5dcbcd949d95eb140f05840e8dfd91a35",
+  "densityKgM3": 7850.0,
+  "roller": {
+    "name": "CS_roller_12_5x22",
+    "volumeM3": 2.6995349894830806e-06,
+    "massKg": 0.021191349667442183,
+    "axialInertiaKgM2": 4.138520005196303e-07
+  },
+  "sector": {
+    "name": "CS_outer_pocket",
+    "volumeM3": 1.5523863994203513e-05,
+    "massKg": 0.12186233235449757,
+    "axialInertiaKgM2": 0.0007042982149003048
+  },
+  "repeatedSectors": 12,
+  "outerInertiaKgM2": 0.008451578578803657,
+  "limits": "Current fitted sector repeated twelve times; uniform fitted steel density. No reactors, actual thrust rings, screws, fluid or factory assembly-inertia acceptance."
+}

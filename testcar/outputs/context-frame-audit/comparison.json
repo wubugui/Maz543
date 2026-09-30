@@ -1,0 +1,84 @@
+{
+  "comparisons": {
+    "perspective": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": false,
+        "ao": true,
+        "sceneInputSha256": true,
+        "drawSequenceSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": true
+      },
+      "mainReadbackError": 0,
+      "workerReadbackError": 0,
+      "mainFrameSource": "window",
+      "workerFrameSource": "native-worker",
+      "allZeroBufferRejected": true,
+      "samePixels": true,
+      "sameViewAndInputs": false
+    },
+    "side": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "drawSequenceSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false
+      },
+      "mainReadbackError": 0,
+      "workerReadbackError": 0,
+      "mainFrameSource": "window",
+      "workerFrameSource": "native-worker",
+      "allZeroBufferRejected": true,
+      "samePixels": false,
+      "sameViewAndInputs": true
+    },
+    "side-door": {
+      "equal": {
+        "width": true,
+        "height": true,
+        "pixelRatio": true,
+        "meshes": true,
+        "draws": true,
+        "triangles": true,
+        "view": true,
+        "ao": true,
+        "sceneInputSha256": true,
+        "drawSequenceSha256": false,
+        "noiseSha256": true,
+        "pixelSha256": false
+      },
+      "mainReadbackError": 0,
+      "workerReadbackError": 0,
+      "mainFrameSource": "window",
+      "workerFrameSource": "native-worker",
+      "allZeroBufferRejected": true,
+      "samePixels": false,
+      "sameViewAndInputs": true
+    }
+  },
+  "captures": [
+    "main-perspective",
+    "main-side",
+    "main-side-door",
+    "worker-perspective",
+    "worker-side",
+    "worker-side-door"
+  ],
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "limits": "Current actual RGBA SHA-256 equality only at tested identical-input poses. Not all interactions, all shader inputs, production lifecycle, GPU memory release or dynamic FPS evidence. Geometry layouts/pose fingerprints do not replace complete source asset verification."
+}

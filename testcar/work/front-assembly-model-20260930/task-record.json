@@ -1,0 +1,55 @@
+{
+  "idempotency_key": "maz-front-985e261f-1c85-4474-ad2d-e27f06d7792f",
+  "upload": {
+    "upload_id": "6df0947f-632e-49eb-93e3-71018a7649b9",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "6df0947f-632e-49eb-93e3-71018a7649b9",
+    "name": "hub-front-assembly-model.py",
+    "mime": "text/x-python",
+    "size": 9006,
+    "sha256": "80ab49e8f070f006ee2d3075d5559c9868f5616d0c4eb979e465f612e18f2314",
+    "created": 1790776316.992908,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/6df0947f-632e-49eb-93e3-71018a7649b9/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A native central cover and low mirrors",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "files": [
+        {
+          "file_id": "4d28289c72ba6fa94712f94df1d49e7f",
+          "path": "MAZ543A_Master.blend"
+        },
+        {
+          "file_id": "96223522b9749b711e4fa4e9394aedf0",
+          "path": "MAZ543A_Textured.blend"
+        },
+        {
+          "file_id": "6df0947f-632e-49eb-93e3-71018a7649b9",
+          "path": "main.py"
+        }
+      ],
+      "script": "main.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 4096,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "27e4da5c-70fd-472f-a9c3-db9a0d54a1c6",
+    "task_ids": [
+      "e226a00a-c1e8-4584-9b3f-32ffeea35c11"
+    ],
+    "task_id": "e226a00a-c1e8-4584-9b3f-32ffeea35c11"
+  }
+}

@@ -1,0 +1,64 @@
+NEXT EXPERIMENT — NOT IMPLEMENTED, NOT ACCEPTED
+
+Keep the full MAZ goal ACTIVE and all 16 gates OPEN. Dynamic FPS still ~0.8.
+Normal-only depth cache has actual zero-pixel pairs but no stable FPS gain.
+Next: prove a static depth snapshot using the exact ORIGINAL linked programs
+of the color/transmission passes, without multisample depth blits or shaders
+borrowed from a different pass.
+
+Local Three r183 evidence:
+- WebGLRenderer renderObject computes object.modelViewMatrix/normalMatrix at
+  lines 2094–2095; renderBufferDirect sets modelViewMatrix uniform at 2663.
+- renderer.properties.get(material).currentProgram is the linked program
+  selected for a draw (assigned at 2224). Capture after each original draw.
+- scene.onAfterRender is called at 1765 AFTER source target resolve/mipmap
+  and BEFORE renderStateStack.pop/currentRenderState=null at ~1773–1783.
+  Thus it is a possible bounded replay window with original light state.
+- renderTransmissionPass uses a 4-sample target and NoToneMapping; main
+  offscreen target is 2 samples. See function starting at 1939.
+- ShadowMap calls renderBufferDirect(shadowCamera, null,...); do not classify
+  shadow calls by equality of passScene with original scene.
+
+Proposed finite proof first (no culling):
+1. Record original eligible camera/scene opaque draws, grouped by actual
+   render target, with argument identities, exact matrices/morph weights,
+   material side/version and renderer.properties currentProgram identity.
+   Continue every original draw in its original order.
+2. In a temporary wrapper around the original no-op scene.onAfterRender,
+   while currentRenderState is still valid, replay stable eligible geometry
+   into owned depth targets with matching viewport, size, texture type/color
+   space, samples and depth bits. Use the ORIGINAL renderBufferDirect and
+   original material. Temporarily colorWrite=false, restore it afterwards.
+   Do not recursively call renderer.render or reparent original objects.
+3. Verify linked program identity after EVERY replayed draw against the
+   recorded original program. Any mismatch invalidates that target; never
+   equate visually similar shader source with bit-exact vertex execution.
+4. Preserve/restore original target/cube/mip, viewport/scissor, clear/masks,
+   material fields and all hooks. Borrow source geometry/material only.
+   Replay changes object/material program bookkeeping; require final paired
+   original pixels and original subsequent drawing to remain exact.
+5. Then use conservative volume queries on those owned snapshots. Positive
+   and negative controls must match sample/depth configuration. MSAA DRAW
+   framebuffer blits were already rejected: do not retry them.
+
+Hazards to prove before actual reuse:
+- Scene.onAfterRender temporary callback must be identified as ours; require
+  original callbacks default and restore in all failure/disposal paths.
+- Static observation alone is not future stability. Any retained occluder
+  change invalidates snapshot/certificates before any skip.
+- Invalidate on program-affecting material/version, renderer, scene env/fog/
+  light-layout changes. currentProgram alone can be stale until the next draw.
+- A shared material may switch programs across geometries/morph features;
+  record per original draw, and prefer conservative fallback to assumptions.
+- Same material/geometry/linked program/matrices and matching raster target
+  are all required. No source attribute, index, topology or precision edits.
+- Do not leave resource/query Maps holding removed candidates.
+- Initial capture may duplicate several million triangles but should batch
+  replay per target; avoid thousands of framebuffer switches per draw.
+- The first finite probe is not optimization acceptance. Only after exact
+  programs/targets/controls/restoration/pixels pass should cache reuse be built.
+
+Timing caveat: Chromium public HEAD WebGL finish() calls Flush(). GPU timer
+extension is unavailable here. renderTargetTiming measures intrusive command
+and state round-trip wall times, NOT proven GPU durations. All final totals
+are accounted; earlier incomplete-boundary data is rejected and retained.

@@ -1,0 +1,397 @@
+{
+  "scope": "Repair actual static mounting gaps revealed by native surface audit",
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "added": [
+        {
+          "name": "BL_Front_bumper_frame_mount_-1",
+          "parent": "frame",
+          "bounds": {
+            "min": [
+              -5.420000076293945,
+              0.8849999904632568,
+              -0.7400000095367432
+            ],
+            "max": [
+              -5.180000305175781,
+              1.0049999952316284,
+              -0.6399999856948853
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_shield_stay_-1",
+          "parent": "frame",
+          "bounds": {
+            "min": [
+              -5.369999885559082,
+              0.5799999833106995,
+              -0.5099999904632568
+            ],
+            "max": [
+              -5.329999923706055,
+              0.800000011920929,
+              -0.44999998807907104
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_mirror_root_mount_-1",
+          "parent": "cab_pivot_001",
+          "bounds": {
+            "min": [
+              -5.307499885559082,
+              1.290000081062317,
+              -1.5444999933242798
+            ],
+            "max": [
+              -5.232500076293945,
+              1.3700000047683716,
+              -1.4794999361038208
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_upper_fine_rod_-1",
+          "parent": "cab_pivot_001",
+          "bounds": {
+            "min": [
+              -5.522938251495361,
+              2.175888776779175,
+              -1.5309998989105225
+            ],
+            "max": [
+              -5.3019938468933105,
+              2.5787312984466553,
+              -1.5130000114440918
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_bumper_frame_mount_1",
+          "parent": "frame",
+          "bounds": {
+            "min": [
+              -5.420000076293945,
+              0.8849999904632568,
+              0.6399999856948853
+            ],
+            "max": [
+              -5.180000305175781,
+              1.0049999952316284,
+              0.7400000095367432
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_shield_stay_1",
+          "parent": "frame",
+          "bounds": {
+            "min": [
+              -5.369999885559082,
+              0.5799999833106995,
+              0.44999998807907104
+            ],
+            "max": [
+              -5.329999923706055,
+              0.800000011920929,
+              0.5099999904632568
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_mirror_root_mount_1",
+          "parent": "cab_pivot_005",
+          "bounds": {
+            "min": [
+              -5.307499885559082,
+              1.290000081062317,
+              1.4794999361038208
+            ],
+            "max": [
+              -5.232500076293945,
+              1.3700000047683716,
+              1.5444999933242798
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_upper_fine_rod_1",
+          "parent": "cab_pivot_005",
+          "bounds": {
+            "min": [
+              -5.522938251495361,
+              2.175888776779175,
+              1.5130000114440918
+            ],
+            "max": [
+              -5.3019938468933105,
+              2.5787312984466553,
+              1.5309998989105225
+            ]
+          }
+        }
+      ],
+      "staticSurfaceConnections": [
+        {
+          "a": "BL_Front_bumper_frame_mount_-1",
+          "b": "BL_Front_box_bumper",
+          "intersectionPairs": 36
+        },
+        {
+          "a": "BL_Front_bumper_frame_mount_-1",
+          "b": "frame_0002",
+          "intersectionPairs": 69
+        },
+        {
+          "a": "BL_Front_shield_stay_-1",
+          "b": "BL_Front_box_bumper",
+          "intersectionPairs": 45
+        },
+        {
+          "a": "BL_Front_shield_stay_-1",
+          "b": "BL_Front_lower_shield",
+          "intersectionPairs": 64
+        },
+        {
+          "a": "BL_Front_mirror_root_mount_-1",
+          "b": "BL_Front_mirror_arm_-1",
+          "intersectionPairs": 28
+        },
+        {
+          "a": "BL_Front_mirror_root_mount_-1",
+          "b": "BL_Cab_-1_side_monocoque",
+          "intersectionPairs": 60
+        },
+        {
+          "a": "BL_Front_bumper_frame_mount_1",
+          "b": "BL_Front_box_bumper",
+          "intersectionPairs": 34
+        },
+        {
+          "a": "BL_Front_bumper_frame_mount_1",
+          "b": "frame_0002",
+          "intersectionPairs": 67
+        },
+        {
+          "a": "BL_Front_shield_stay_1",
+          "b": "BL_Front_box_bumper",
+          "intersectionPairs": 43
+        },
+        {
+          "a": "BL_Front_shield_stay_1",
+          "b": "BL_Front_lower_shield",
+          "intersectionPairs": 64
+        },
+        {
+          "a": "BL_Front_mirror_root_mount_1",
+          "b": "BL_Front_mirror_arm_1",
+          "intersectionPairs": 30
+        },
+        {
+          "a": "BL_Front_mirror_root_mount_1",
+          "b": "BL_Cab_1_side_monocoque",
+          "intersectionPairs": 63
+        }
+      ],
+      "limits": "Intentional static mount overlap verified; fabricated mount dimensions, bolts/load rating/full motion clearance remain OPEN"
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "added": [
+        {
+          "name": "BL_Front_bumper_frame_mount_-1",
+          "parent": "frame",
+          "bounds": {
+            "min": [
+              -5.420000076293945,
+              0.8849999904632568,
+              -0.7400000095367432
+            ],
+            "max": [
+              -5.180000305175781,
+              1.0049999952316284,
+              -0.6399999856948853
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_shield_stay_-1",
+          "parent": "frame",
+          "bounds": {
+            "min": [
+              -5.369999885559082,
+              0.5799999833106995,
+              -0.5099999904632568
+            ],
+            "max": [
+              -5.329999923706055,
+              0.800000011920929,
+              -0.44999998807907104
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_mirror_root_mount_-1",
+          "parent": "cab_pivot_001",
+          "bounds": {
+            "min": [
+              -5.307499885559082,
+              1.290000081062317,
+              -1.5444999933242798
+            ],
+            "max": [
+              -5.232500076293945,
+              1.3700000047683716,
+              -1.4794999361038208
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_upper_fine_rod_-1",
+          "parent": "cab_pivot_001",
+          "bounds": {
+            "min": [
+              -5.522938251495361,
+              2.175888776779175,
+              -1.5309998989105225
+            ],
+            "max": [
+              -5.3019938468933105,
+              2.5787312984466553,
+              -1.5130000114440918
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_bumper_frame_mount_1",
+          "parent": "frame",
+          "bounds": {
+            "min": [
+              -5.420000076293945,
+              0.8849999904632568,
+              0.6399999856948853
+            ],
+            "max": [
+              -5.180000305175781,
+              1.0049999952316284,
+              0.7400000095367432
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_shield_stay_1",
+          "parent": "frame",
+          "bounds": {
+            "min": [
+              -5.369999885559082,
+              0.5799999833106995,
+              0.44999998807907104
+            ],
+            "max": [
+              -5.329999923706055,
+              0.800000011920929,
+              0.5099999904632568
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_mirror_root_mount_1",
+          "parent": "cab_pivot_005",
+          "bounds": {
+            "min": [
+              -5.307499885559082,
+              1.290000081062317,
+              1.4794999361038208
+            ],
+            "max": [
+              -5.232500076293945,
+              1.3700000047683716,
+              1.5444999933242798
+            ]
+          }
+        },
+        {
+          "name": "BL_Front_upper_fine_rod_1",
+          "parent": "cab_pivot_005",
+          "bounds": {
+            "min": [
+              -5.522938251495361,
+              2.175888776779175,
+              1.5130000114440918
+            ],
+            "max": [
+              -5.3019938468933105,
+              2.5787312984466553,
+              1.5309998989105225
+            ]
+          }
+        }
+      ],
+      "staticSurfaceConnections": [
+        {
+          "a": "BL_Front_bumper_frame_mount_-1",
+          "b": "BL_Front_box_bumper",
+          "intersectionPairs": 36
+        },
+        {
+          "a": "BL_Front_bumper_frame_mount_-1",
+          "b": "frame_0002",
+          "intersectionPairs": 69
+        },
+        {
+          "a": "BL_Front_shield_stay_-1",
+          "b": "BL_Front_box_bumper",
+          "intersectionPairs": 45
+        },
+        {
+          "a": "BL_Front_shield_stay_-1",
+          "b": "BL_Front_lower_shield",
+          "intersectionPairs": 64
+        },
+        {
+          "a": "BL_Front_mirror_root_mount_-1",
+          "b": "BL_Front_mirror_arm_-1",
+          "intersectionPairs": 28
+        },
+        {
+          "a": "BL_Front_mirror_root_mount_-1",
+          "b": "BL_Merged_cab_pivot_001_OD_green_aged_enamel",
+          "intersectionPairs": 58
+        },
+        {
+          "a": "BL_Front_bumper_frame_mount_1",
+          "b": "BL_Front_box_bumper",
+          "intersectionPairs": 34
+        },
+        {
+          "a": "BL_Front_bumper_frame_mount_1",
+          "b": "frame_0002",
+          "intersectionPairs": 67
+        },
+        {
+          "a": "BL_Front_shield_stay_1",
+          "b": "BL_Front_box_bumper",
+          "intersectionPairs": 43
+        },
+        {
+          "a": "BL_Front_shield_stay_1",
+          "b": "BL_Front_lower_shield",
+          "intersectionPairs": 64
+        },
+        {
+          "a": "BL_Front_mirror_root_mount_1",
+          "b": "BL_Front_mirror_arm_1",
+          "intersectionPairs": 30
+        },
+        {
+          "a": "BL_Front_mirror_root_mount_1",
+          "b": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+          "intersectionPairs": 57
+        }
+      ],
+      "limits": "Intentional static mount overlap verified; fabricated mount dimensions, bolts/load rating/full motion clearance remain OPEN"
+    }
+  ]
+}

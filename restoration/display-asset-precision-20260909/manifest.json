@@ -1,0 +1,273 @@
+{
+  "wholeGoal": "ACTIVE; all 16 gates OPEN",
+  "status": "Whole preview still slow; actual export has 82 tangent errors. Two zero-quantization sample surfaces verified bit-exact; original runtime assets unchanged.",
+  "files": [
+    {
+      "path": "AGENT_START_HERE.md",
+      "bytes": 22116,
+      "sha256": "9f30951d4ea08db5a11e4e46c3cc8bda7f04d62d40f686a39ea326a11bb0aecb"
+    },
+    {
+      "path": "NEXT_AGENT_PROMPT.md",
+      "bytes": 14518,
+      "sha256": "59dfb3083f75e22cc9d5d16516a72a508afd2800f7ed2a022d8eef95a72b9e6b"
+    },
+    {
+      "path": "docs/CONTINUATION_20260908.md",
+      "bytes": 15447,
+      "sha256": "cb535599b667e54420c36c17b9c59cf03b80c4f4a8dceeebd28e22c391a4a2b5"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "bytes": 27383,
+      "sha256": "3241c01315d9eed35daf06ec96b8518d9f40c8d6fb2f288f1d86f7d053315c36"
+    },
+    {
+      "path": "docs/DISPLAY_ASSET_PRECISION_20260909.md",
+      "bytes": 6624,
+      "sha256": "aa1f233297f14f79932868cb60f10f19c14e6d6c7b029e1cbf85a82344077ff8"
+    },
+    {
+      "path": "lib/exportTangents.ts",
+      "bytes": 3756,
+      "sha256": "a92e66e01b50f8084b51d358816c718c62e1429b13176b9252cca57334343ed8"
+    },
+    {
+      "path": "lib/export-model.ts",
+      "bytes": 3193,
+      "sha256": "c18088c50afb60f98ef98b7779018047a7348a0857e84149b648391b6f4f014b"
+    },
+    {
+      "path": "lib/binaryGltfBlob.ts",
+      "bytes": 3502,
+      "sha256": "b829b6c0da17186f13c97105f17946f443fde0e9cc6b8cc8878ad88fbde3639f"
+    },
+    {
+      "path": "scripts/audit-decoded-tangents.mjs",
+      "bytes": 5673,
+      "sha256": "e4e513153b699216f7cb7bf0e4b3f73c47a32e989e7d5d4a95e6c6715ad51ad2"
+    },
+    {
+      "path": "scripts/audit-native-tangents.py",
+      "bytes": 3160,
+      "sha256": "a30ad5ae8f57f2e014a5d0a70ef26fc4d2ee5b618f9b9cc1cc974839792b1624"
+    },
+    {
+      "path": "scripts/verify-export-tangents.mjs",
+      "bytes": 2725,
+      "sha256": "dcb9ff3bb0fd4ce1d893f7e6ee81a3f28e8d9f30fedf92f52c6607c491741d1f"
+    },
+    {
+      "path": "scripts/audit-full-export-tangent-repair.mjs",
+      "bytes": 3323,
+      "sha256": "d0574f46e2d2a941dcf8768428b95fa862e426c6dc196fbc1744145c45783552"
+    },
+    {
+      "path": "scripts/export-lossless-samples.py",
+      "bytes": 1636,
+      "sha256": "f4de44a62ea562d5339a7569d7ef8bf220e0a441efe39d0313bfae1e33898d8c"
+    },
+    {
+      "path": "scripts/verify-lossless-draco.mjs",
+      "bytes": 5822,
+      "sha256": "f1800946de735a6f2caae9441de6049e0af533e897a4ed2b953fc3a6bf168881"
+    },
+    {
+      "path": "scripts/compare-worker-exports.py",
+      "bytes": 3376,
+      "sha256": "cb5e89330bbfd65bb4ff2d0aa5abb048552aefc92b8cbc1e80b917940f25cf64"
+    },
+    {
+      "path": "scripts/validate-worker-export.mjs",
+      "bytes": 1376,
+      "sha256": "e81e42087d77f68c94004d943504be3c054ecc3787eb5de31d0f633928cb84c5"
+    },
+    {
+      "path": "scripts/verify-binary-gltf-blob.mjs",
+      "bytes": 3661,
+      "sha256": "b16efda31ac0936d5015c1a7126e3bb0e88d2affa033e9fc385277991c8e04b5"
+    },
+    {
+      "path": "scripts/archive-display-precision-stage.py",
+      "bytes": 3111,
+      "sha256": "e303480b60d6bdeacbf17ad5d07278b36836bbab8836d68b6aa9759e7b4dc162"
+    },
+    {
+      "path": "outputs/tangent-audit/BL_Merged_body_OD_green_aged_enamel-indices.bin",
+      "bytes": 120864,
+      "sha256": "b2d9455432cd6382fd4c374efaee45e9ab4fdcf4f0fdc16cb5093dc734a06c30"
+    },
+    {
+      "path": "outputs/tangent-audit/BL_Merged_body_OD_green_aged_enamel-NORMAL.bin",
+      "bytes": 232968,
+      "sha256": "e2390329c11c6188bca61404997c25390492b3e528fa9af32d101ff990dc555a"
+    },
+    {
+      "path": "outputs/tangent-audit/BL_Merged_body_OD_green_aged_enamel-POSITION.bin",
+      "bytes": 232968,
+      "sha256": "b651b1088ebb2ce936fc40fc9e21c5e119840c5c93e4732c17563ed380f08099"
+    },
+    {
+      "path": "outputs/tangent-audit/BL_Merged_body_OD_green_aged_enamel-TANGENT.bin",
+      "bytes": 310624,
+      "sha256": "ebfa4b5d8d347b1aebab49dcdd0c0461657ae7697c1e3c7054086cad56a8a7cb"
+    },
+    {
+      "path": "outputs/tangent-audit/BL_Merged_body_OD_green_aged_enamel-TEXCOORD_0.bin",
+      "bytes": 155312,
+      "sha256": "0ff1a1a77739f47b4cc8c9014bb9616681a1f0a29b4b4aaab28a9ec32fabf719"
+    },
+    {
+      "path": "outputs/tangent-audit/BL_Merged_body_Rubber_window_seals-indices.bin",
+      "bytes": 13632,
+      "sha256": "1f09d8cc03be4a911a7141af73f4d568a70af4b65671725013b27210d0ee217a"
+    },
+    {
+      "path": "outputs/tangent-audit/BL_Merged_body_Rubber_window_seals-NORMAL.bin",
+      "bytes": 27624,
+      "sha256": "627435a633cbe11f54ecb433eda21f630e87898253d6d8e3d7b30b8c1f3bea3a"
+    },
+    {
+      "path": "outputs/tangent-audit/BL_Merged_body_Rubber_window_seals-POSITION.bin",
+      "bytes": 27624,
+      "sha256": "634085e879b0cd59eebbc3ff79dee3e94dc6aacb3368d5975c600d9160d598a8"
+    },
+    {
+      "path": "outputs/tangent-audit/BL_Merged_body_Rubber_window_seals-TANGENT.bin",
+      "bytes": 36832,
+      "sha256": "a72b841f6be8e09a35d9b1f35316fbafde1e0c37f6d7ccef203f9df93a9f00e7"
+    },
+    {
+      "path": "outputs/tangent-audit/BL_Merged_body_Rubber_window_seals-TEXCOORD_0.bin",
+      "bytes": 18416,
+      "sha256": "70949f6f5e1ae548105eb286d718022efa9cbb31767760d126e67c88ba76f7c4"
+    },
+    {
+      "path": "outputs/tangent-audit/browser-export-log.json",
+      "bytes": 2339,
+      "sha256": "064fb6bb3f2e4a39b304d9acf2786365e000a4e1e20e5fee481029085db1dd33"
+    },
+    {
+      "path": "outputs/tangent-audit/COOL_upper_input_flange_0-indices.bin",
+      "bytes": 93888,
+      "sha256": "9de47acf0fad875ce49b3bbc55fe1d8e549d2700ac69464791ff0109d1c0599c"
+    },
+    {
+      "path": "outputs/tangent-audit/COOL_upper_input_flange_0-NORMAL.bin",
+      "bytes": 181272,
+      "sha256": "0a11a888a06509d564702eaa8dc4ed9d10a851b6a9a36f602b7a7be11aed1053"
+    },
+    {
+      "path": "outputs/tangent-audit/COOL_upper_input_flange_0-POSITION.bin",
+      "bytes": 181272,
+      "sha256": "54a1f3931f56d6c01ee765bcf5c13ef533776cf5001b2c463f513eee8f9fe335"
+    },
+    {
+      "path": "outputs/tangent-audit/COOL_upper_input_flange_0-TANGENT.bin",
+      "bytes": 241696,
+      "sha256": "f6a8f799f55945684333a9f21e4b8da9e21fcd6cc18b8f3e5adf6b49e44b0b1f"
+    },
+    {
+      "path": "outputs/tangent-audit/COOL_upper_input_flange_0-TEXCOORD_0.bin",
+      "bytes": 120848,
+      "sha256": "8b47d17d63058641448dc00ceb7a81d87892525f1b5ac6dc03df33a11f77267d"
+    },
+    {
+      "path": "outputs/tangent-audit/decoded-source-report.json",
+      "bytes": 5391,
+      "sha256": "1bc5bbbc9d42db42268fe1f893e8dd6c8b340b4199e887c09f8f5660af5a0414"
+    },
+    {
+      "path": "outputs/tangent-audit/decoded-tiny-triangle-areas.json",
+      "bytes": 744,
+      "sha256": "684d553d9da1cc71a6c7e975edc7fb75fd936eed6c96242063e9b0ad3663b9bf"
+    },
+    {
+      "path": "outputs/tangent-audit/full-repair-audit.json",
+      "bytes": 43228,
+      "sha256": "a82aa9f5e6ed80c66c761b361f31711da5691857cdabba91662eecfb5401e46b"
+    },
+    {
+      "path": "outputs/tangent-audit/guarded-export-comparison.json",
+      "bytes": 1936,
+      "sha256": "7e605ceffd2f2cfaec16f765e719346986d67dd967ab30493bb4de22e4ff4a18"
+    },
+    {
+      "path": "outputs/tangent-audit/lossless-draco-verification.json",
+      "bytes": 2986,
+      "sha256": "b1251ea7426ee494d3081a63c05c884f6f8bd52cd3d02650fd82a90042ff169e"
+    },
+    {
+      "path": "outputs/tangent-audit/lossless-sample-export.json",
+      "bytes": 357,
+      "sha256": "66915b8cda4c2d4aed7a97992301d43e5210c8ffdec5c6c72556da0fca9e15d4"
+    },
+    {
+      "path": "outputs/tangent-audit/native-samples-draco-lossless.glb",
+      "bytes": 16285152,
+      "sha256": "5e8997aa9f080babfed232f29ea2b51b3e4a73f118f7ccaf03e1e9d51f1ea954"
+    },
+    {
+      "path": "outputs/tangent-audit/native-samples-plain.glb",
+      "bytes": 17807964,
+      "sha256": "259d41e17dc55bd2bd19a9fd5f72a3a84d186e6a5d1aac17243ea592c13c6288"
+    },
+    {
+      "path": "outputs/tangent-audit/native-source-report.json",
+      "bytes": 17788,
+      "sha256": "2da550ab06ee06119b6f2c137a26d1be0d83f1f9bf780c4b0636fd0423634130"
+    },
+    {
+      "path": "outputs/tangent-audit/repair-contract-tests.json",
+      "bytes": 271,
+      "sha256": "a836994533fa9e5dc7c57479ce51f6284e421290699c29f37f660c7e6ada88d7"
+    },
+    {
+      "path": "outputs/tangent-audit/runtime-asset-integrity.json",
+      "bytes": 2014,
+      "sha256": "682f844655822609d73d40beeabe6d0016766110be0560f99db04c51b52ab271"
+    },
+    {
+      "path": "outputs/tangent-audit/whole-guarded-tangents-validation.json",
+      "bytes": 449794,
+      "sha256": "f284fad1c67761b50b789875ebdb4aba471f817ef153b682364b11de9c332dd4"
+    },
+    {
+      "path": "outputs/tangent-audit/whole-guarded-tangents.glb",
+      "bytes": 349722392,
+      "sha256": "68eb2f2c8368fdde88c64f477b8400637d436eb271bc608644ebd1dc6339c4e3"
+    },
+    {
+      "path": "work/tangent-audit/build.log",
+      "bytes": 3195,
+      "sha256": "7ff0b0f1e0d97d5572788c6e649f169a901b1d5b0aa7cf545f4204689b40199c"
+    },
+    {
+      "path": "work/tangent-audit/guarded-validation.log",
+      "bytes": 632,
+      "sha256": "9c1e663303162a178f75d0340306a8ceba0768b8b79a2f217322799937ee1395"
+    },
+    {
+      "path": "work/tangent-audit/lossless-samples.log",
+      "bytes": 1906,
+      "sha256": "db7aaad4a12fbf45a8170af7773acec51ded9abff6201571bd75c3e336176d38"
+    },
+    {
+      "path": "work/tangent-audit/lossless-verification.log",
+      "bytes": 3056,
+      "sha256": "8a7dfc6177ba4ef4274e45b99814d5c0adc83b25e05370f50268abf065e3d45b"
+    },
+    {
+      "path": "work/tangent-audit/native-audit.log",
+      "bytes": 2233,
+      "sha256": "c1478274667b49179c0ef34f9ad638d2f011148b6273770df06debfb5740139a"
+    },
+    {
+      "path": "work/tangent-audit/types.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "fileCount": 53,
+  "totalBytes": 386479620
+}

@@ -1,0 +1,505 @@
+{
+  "scope": "Rear toolbox assembly moved between actual third/fourth axles; original box dimensions retained; only frame paint corrected",
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "parts": [
+        {
+          "name": "BL_RearRestoration_Rear_box_-1",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.234999656677246,
+              1.1950000524520874,
+              -1.284999966621399
+            ],
+            "max": [
+              3.804999828338623,
+              1.625,
+              -0.675000011920929
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_1",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.234999656677246,
+              1.1950000524520874,
+              0.675000011920929
+            ],
+            "max": [
+              3.804999828338623,
+              1.625,
+              1.284999966621399
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_lid_-1",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.2274999618530273,
+              1.6295000314712524,
+              -1.2925000190734863
+            ],
+            "max": [
+              3.8125,
+              1.6644999980926514,
+              -0.6675000190734863
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_lid_1",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.2274999618530273,
+              1.6295000314712524,
+              0.6675000190734863
+            ],
+            "max": [
+              3.8125,
+              1.6644999980926514,
+              1.2925000190734863
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_-1_4.94",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.3504996299743652,
+              1.5175000429153442,
+              -1.3114999532699585
+            ],
+            "max": [
+              3.3894996643066406,
+              1.6024999618530273,
+              -1.284500002861023
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_-1_5.24",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.6504998207092285,
+              1.5175000429153442,
+              -1.3114999532699585
+            ],
+            "max": [
+              3.689499855041504,
+              1.6024999618530273,
+              -1.284500002861023
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_1_4.94",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.3504996299743652,
+              1.5175000429153442,
+              1.284500002861023
+            ],
+            "max": [
+              3.3894996643066406,
+              1.6024999618530273,
+              1.3114999532699585
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_1_5.24",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.6504998207092285,
+              1.5175000429153442,
+              1.284500002861023
+            ],
+            "max": [
+              3.689499855041504,
+              1.6024999618530273,
+              1.3114999532699585
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_mount_-1_3.37",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.309999942779541,
+              1.1349999904632568,
+              -1.2850000858306885
+            ],
+            "max": [
+              3.429999828338623,
+              1.2149999141693115,
+              -0.675000011920929
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_mount_-1_3.67",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.6100001335144043,
+              1.1349999904632568,
+              -1.2850000858306885
+            ],
+            "max": [
+              3.7300000190734863,
+              1.2149999141693115,
+              -0.675000011920929
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_mount_1_3.37",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.309999942779541,
+              1.1349999904632568,
+              0.675000011920929
+            ],
+            "max": [
+              3.429999828338623,
+              1.2149999141693115,
+              1.2850000858306885
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_mount_1_3.67",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.6100001335144043,
+              1.1349999904632568,
+              0.675000011920929
+            ],
+            "max": [
+              3.7300000190734863,
+              1.2149999141693115,
+              1.2850000858306885
+            ]
+          }
+        }
+      ],
+      "connections": [
+        {
+          "mount": "BL_RearRestoration_mount_-1_3.37",
+          "mate": "BL_RearRestoration_Rear_box_-1",
+          "intersectionPairs": 66
+        },
+        {
+          "mount": "BL_RearRestoration_mount_-1_3.37",
+          "mate": "frame_0002",
+          "intersectionPairs": 32
+        },
+        {
+          "mount": "BL_RearRestoration_mount_-1_3.67",
+          "mate": "BL_RearRestoration_Rear_box_-1",
+          "intersectionPairs": 66
+        },
+        {
+          "mount": "BL_RearRestoration_mount_-1_3.67",
+          "mate": "frame_0002",
+          "intersectionPairs": 32
+        },
+        {
+          "mount": "BL_RearRestoration_mount_1_3.37",
+          "mate": "BL_RearRestoration_Rear_box_1",
+          "intersectionPairs": 66
+        },
+        {
+          "mount": "BL_RearRestoration_mount_1_3.37",
+          "mate": "frame_0002",
+          "intersectionPairs": 32
+        },
+        {
+          "mount": "BL_RearRestoration_mount_1_3.67",
+          "mate": "BL_RearRestoration_Rear_box_1",
+          "intersectionPairs": 66
+        },
+        {
+          "mount": "BL_RearRestoration_mount_1_3.67",
+          "mate": "frame_0002",
+          "intersectionPairs": 32
+        }
+      ],
+      "frameMaterials": [
+        "frame_0002",
+        "frame_0003",
+        "frame_0004"
+      ],
+      "axleCentersX": [
+        2.42,
+        4.62
+      ],
+      "boxCenterX": 3.52,
+      "limits": "Photographic position correction; existing approximate box proportions retained. Mount geometry is fitted, not factory calibrated; lid internals, suspension travel and whole undercarriage paint remain OPEN"
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "parts": [
+        {
+          "name": "BL_RearRestoration_Rear_box_-1",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.234999656677246,
+              1.1950000524520874,
+              -1.284999966621399
+            ],
+            "max": [
+              3.804999828338623,
+              1.625,
+              -0.675000011920929
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_1",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.234999656677246,
+              1.1950000524520874,
+              0.675000011920929
+            ],
+            "max": [
+              3.804999828338623,
+              1.625,
+              1.284999966621399
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_lid_-1",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.2274999618530273,
+              1.6295000314712524,
+              -1.2925000190734863
+            ],
+            "max": [
+              3.8125,
+              1.6644999980926514,
+              -0.6675000190734863
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_lid_1",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.2274999618530273,
+              1.6295000314712524,
+              0.6675000190734863
+            ],
+            "max": [
+              3.8125,
+              1.6644999980926514,
+              1.2925000190734863
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_-1_4.94",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.3504996299743652,
+              1.5175000429153442,
+              -1.3114999532699585
+            ],
+            "max": [
+              3.3894996643066406,
+              1.6024999618530273,
+              -1.284500002861023
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_-1_5.24",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.6504998207092285,
+              1.5175000429153442,
+              -1.3114999532699585
+            ],
+            "max": [
+              3.689499855041504,
+              1.6024999618530273,
+              -1.284500002861023
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_1_4.94",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.3504996299743652,
+              1.5175000429153442,
+              1.284500002861023
+            ],
+            "max": [
+              3.3894996643066406,
+              1.6024999618530273,
+              1.3114999532699585
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_Rear_box_latch_1_5.24",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.6504998207092285,
+              1.5175000429153442,
+              1.284500002861023
+            ],
+            "max": [
+              3.689499855041504,
+              1.6024999618530273,
+              1.3114999532699585
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_mount_-1_3.37",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.309999942779541,
+              1.1349999904632568,
+              -1.2850000858306885
+            ],
+            "max": [
+              3.429999828338623,
+              1.2149999141693115,
+              -0.675000011920929
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_mount_-1_3.67",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.6100001335144043,
+              1.1349999904632568,
+              -1.2850000858306885
+            ],
+            "max": [
+              3.7300000190734863,
+              1.2149999141693115,
+              -0.675000011920929
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_mount_1_3.37",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.309999942779541,
+              1.1349999904632568,
+              0.675000011920929
+            ],
+            "max": [
+              3.429999828338623,
+              1.2149999141693115,
+              1.2850000858306885
+            ]
+          }
+        },
+        {
+          "name": "BL_RearRestoration_mount_1_3.67",
+          "parent": "body",
+          "bounds": {
+            "min": [
+              3.6100001335144043,
+              1.1349999904632568,
+              0.675000011920929
+            ],
+            "max": [
+              3.7300000190734863,
+              1.2149999141693115,
+              1.2850000858306885
+            ]
+          }
+        }
+      ],
+      "connections": [
+        {
+          "mount": "BL_RearRestoration_mount_-1_3.37",
+          "mate": "BL_RearRestoration_Rear_box_-1",
+          "intersectionPairs": 66
+        },
+        {
+          "mount": "BL_RearRestoration_mount_-1_3.37",
+          "mate": "frame_0002",
+          "intersectionPairs": 32
+        },
+        {
+          "mount": "BL_RearRestoration_mount_-1_3.67",
+          "mate": "BL_RearRestoration_Rear_box_-1",
+          "intersectionPairs": 66
+        },
+        {
+          "mount": "BL_RearRestoration_mount_-1_3.67",
+          "mate": "frame_0002",
+          "intersectionPairs": 32
+        },
+        {
+          "mount": "BL_RearRestoration_mount_1_3.37",
+          "mate": "BL_RearRestoration_Rear_box_1",
+          "intersectionPairs": 66
+        },
+        {
+          "mount": "BL_RearRestoration_mount_1_3.37",
+          "mate": "frame_0002",
+          "intersectionPairs": 32
+        },
+        {
+          "mount": "BL_RearRestoration_mount_1_3.67",
+          "mate": "BL_RearRestoration_Rear_box_1",
+          "intersectionPairs": 66
+        },
+        {
+          "mount": "BL_RearRestoration_mount_1_3.67",
+          "mate": "frame_0002",
+          "intersectionPairs": 32
+        }
+      ],
+      "frameMaterials": [
+        "frame_0002",
+        "frame_0003",
+        "frame_0004"
+      ],
+      "axleCentersX": [
+        2.42,
+        4.62
+      ],
+      "boxCenterX": 3.52,
+      "limits": "Photographic position correction; existing approximate box proportions retained. Mount geometry is fitted, not factory calibrated; lid internals, suspension travel and whole undercarriage paint remain OPEN"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "normalOcclusion": {
+    "kind": "static-normal-occlusion-cache",
+    "rebuilt": false,
+    "occluders": 2315,
+    "excludedChanged": 0,
+    "queried": 0,
+    "pendingBatches": 0,
+    "certificates": 2314,
+    "skipped": 1797,
+    "savedTriangles": 3021766,
+    "controlsFailed": false,
+    "prepareMs": 14.5,
+    "error": "",
+    "limits": "DEV-only normal-material camera pass. Original main/transmission/shadow draws and full mechanics retained. Query regions are conservative; leaving a certified region restores original drawing. Not full product performance acceptance."
+  },
+  "width": 1212,
+  "height": 773,
+  "order": "optimized-then-baseline",
+  "baseline": {
+    "calls": 9305,
+    "triangles": 21582915,
+    "synchronizedMs": 1238.1000000014901
+  },
+  "optimized": {
+    "calls": 7508,
+    "triangles": 18561149,
+    "synchronizedMs": 1198.7999999970198
+  },
+  "optimizedReadbackError": 0,
+  "baselineReadbackError": 0,
+  "differentPixels": 0,
+  "maxChannelDifference": 0,
+  "rmsChannelDifference": 0,
+  "identicalPixels": true,
+  "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+}

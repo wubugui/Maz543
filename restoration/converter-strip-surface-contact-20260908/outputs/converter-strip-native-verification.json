@@ -1,0 +1,180 @@
+{
+  "baseClosedSolids": 4,
+  "savedEquilibria": 26,
+  "closedStripMeshes": 26,
+  "stripVertices": 772,
+  "maxNeutralCoordinateErrorM": 7.769859044354233e-10,
+  "maxSegmentLengthErrorM": 7.937465520198739e-10,
+  "maxGeometricEnergyRelativeError": 2.542054139829573e-05,
+  "stripCylinderGapRangeM": [
+    5.044880303436972e-10,
+    1.732100842191317e-07
+  ],
+  "volumeRangeM3": [
+    7.055639813842633e-08,
+    7.055641351555013e-08
+  ],
+  "rootSeatIntersectionFrames": 26,
+  "maxIntersectingRootArcM": 0.00012048185696846338,
+  "blendBytes": 399096,
+  "blendSha256": "a5bf5073bd3034c07efc6c9f496a99a5dcbcd949d95eb140f05840e8dfd91a35",
+  "rows": [
+    {
+      "frame": 0,
+      "actualStripRollerGapM": 5.044880303436972e-10,
+      "bendingEnergyFromMeshJ": 0.003346801606125177,
+      "forceN": 21.446656857827623
+    },
+    {
+      "frame": 1,
+      "actualStripRollerGapM": 7.2706129085158e-08,
+      "bendingEnergyFromMeshJ": 0.004691917975593924,
+      "forceN": 24.606536132690078
+    },
+    {
+      "frame": 2,
+      "actualStripRollerGapM": 1.0618010927096466e-07,
+      "bendingEnergyFromMeshJ": 0.0061996389815796105,
+      "forceN": 27.383020988091218
+    },
+    {
+      "frame": 3,
+      "actualStripRollerGapM": 2.2660175203262356e-09,
+      "bendingEnergyFromMeshJ": 0.007845758330425025,
+      "forceN": 29.811018600528325
+    },
+    {
+      "frame": 4,
+      "actualStripRollerGapM": 4.721916055556996e-08,
+      "bendingEnergyFromMeshJ": 0.009608626709548844,
+      "forceN": 31.930783379951958
+    },
+    {
+      "frame": 5,
+      "actualStripRollerGapM": 1.3709430778455212e-07,
+      "bendingEnergyFromMeshJ": 0.011469353831683876,
+      "forceN": 33.783499808477806
+    },
+    {
+      "frame": 6,
+      "actualStripRollerGapM": 8.193007567519617e-09,
+      "bendingEnergyFromMeshJ": 0.013411608089208799,
+      "forceN": 35.40815121059909
+    },
+    {
+      "frame": 7,
+      "actualStripRollerGapM": 3.2375782024057775e-08,
+      "bendingEnergyFromMeshJ": 0.015421661004802474,
+      "forceN": 36.83976710989983
+    },
+    {
+      "frame": 8,
+      "actualStripRollerGapM": 1.732100842191317e-07,
+      "bendingEnergyFromMeshJ": 0.017487718360942,
+      "forceN": 38.1087547905073
+    },
+    {
+      "frame": 9,
+      "actualStripRollerGapM": 2.3428474590914128e-08,
+      "bendingEnergyFromMeshJ": 0.019600102889989538,
+      "forceN": 39.240926359845425
+    },
+    {
+      "frame": 10,
+      "actualStripRollerGapM": 1.2436389537975878e-08,
+      "bendingEnergyFromMeshJ": 0.021750442465789836,
+      "forceN": 40.25789536757136
+    },
+    {
+      "frame": 11,
+      "actualStripRollerGapM": 1.3159223255856944e-07,
+      "bendingEnergyFromMeshJ": 0.023931771159326515,
+      "forceN": 41.17762271568281
+    },
+    {
+      "frame": 12,
+      "actualStripRollerGapM": 6.120250205850913e-08,
+      "bendingEnergyFromMeshJ": 0.026138102754674895,
+      "forceN": 42.014983998930134
+    },
+    {
+      "frame": 13,
+      "actualStripRollerGapM": 1.4370769609028944e-09,
+      "bendingEnergyFromMeshJ": 0.02836445162052855,
+      "forceN": 42.78229432260525
+    },
+    {
+      "frame": 14,
+      "actualStripRollerGapM": 5.190517010297824e-08,
+      "bendingEnergyFromMeshJ": 0.030606417499026158,
+      "forceN": 43.48976510020075
+    },
+    {
+      "frame": 15,
+      "actualStripRollerGapM": 1.539032037723223e-07,
+      "bendingEnergyFromMeshJ": 0.032860163336138164,
+      "forceN": 44.1458880395721
+    },
+    {
+      "frame": 16,
+      "actualStripRollerGapM": 2.7065403978773772e-08,
+      "bendingEnergyFromMeshJ": 0.03512247366705439,
+      "forceN": 44.75775139271934
+    },
+    {
+      "frame": 17,
+      "actualStripRollerGapM": 5.38848892589483e-10,
+      "bendingEnergyFromMeshJ": 0.03739058178022197,
+      "forceN": 45.33129736975261
+    },
+    {
+      "frame": 18,
+      "actualStripRollerGapM": 7.562036733778366e-08,
+      "bendingEnergyFromMeshJ": 0.03966189945780708,
+      "forceN": 45.871530356642104
+    },
+    {
+      "frame": 19,
+      "actualStripRollerGapM": 1.3460750500609436e-07,
+      "bendingEnergyFromMeshJ": 0.04193422706585596,
+      "forceN": 46.38268489650071
+    },
+    {
+      "frame": 20,
+      "actualStripRollerGapM": 2.711782281020203e-08,
+      "bendingEnergyFromMeshJ": 0.04420563414497099,
+      "forceN": 46.86836118231061
+    },
+    {
+      "frame": 21,
+      "actualStripRollerGapM": 2.433840087801009e-09,
+      "bendingEnergyFromMeshJ": 0.046474279639459305,
+      "forceN": 47.331634502072724
+    },
+    {
+      "frame": 22,
+      "actualStripRollerGapM": 6.186775384272453e-08,
+      "bendingEnergyFromMeshJ": 0.04873862082620052,
+      "forceN": 47.77514385772149
+    },
+    {
+      "frame": 23,
+      "actualStripRollerGapM": 1.6682119340603874e-07,
+      "bendingEnergyFromMeshJ": 0.05099724827952308,
+      "forceN": 48.201164023960054
+    },
+    {
+      "frame": 24,
+      "actualStripRollerGapM": 4.457503069866392e-08,
+      "bendingEnergyFromMeshJ": 0.05324875556775364,
+      "forceN": 48.61166419891511
+    },
+    {
+      "frame": 25,
+      "actualStripRollerGapM": 1.7832869634096249e-09,
+      "bendingEnergyFromMeshJ": 0.05549202610289059,
+      "forceN": 49.00835615078033
+    }
+  ],
+  "limits": "Actual strip/roller/inner-race meshes checked. Outer-race intersection is confined to the first 1 mm of the explicitly fitted clamped root seat; the seat geometry is not factory accepted. Full assembly, strength and factory spring identification remain unaccepted."
+}

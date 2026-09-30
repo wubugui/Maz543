@@ -1,0 +1,128 @@
+[
+  {
+    "level": "info",
+    "message": "MAZ worker export: load-exporter",
+    "timestamp": "2026-09-08T16:58:32.268Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886679935"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: copy-model",
+    "timestamp": "2026-09-08T16:58:41.734Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886679935"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: encode-geometry",
+    "timestamp": "2026-09-08T16:58:41.769Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886679935"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: encode-images-and-binary",
+    "timestamp": "2026-09-08T16:58:46.429Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886679935"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: load-exporter",
+    "timestamp": "2026-09-08T17:01:41.419Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: probe:blob-array-buffer:4",
+    "timestamp": "2026-09-08T17:01:42.255Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: probe:file-reader:4",
+    "timestamp": "2026-09-08T17:01:42.255Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: probe:canvas-png:88",
+    "timestamp": "2026-09-08T17:01:42.255Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: copy-model",
+    "timestamp": "2026-09-08T17:01:43.068Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: encode-geometry",
+    "timestamp": "2026-09-08T17:01:43.135Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: encode-images-and-binary:0",
+    "timestamp": "2026-09-08T17:01:43.868Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: images-settled:0/0",
+    "timestamp": "2026-09-08T17:01:43.886Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: encoded:71503480",
+    "timestamp": "2026-09-08T17:01:44.365Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: load-exporter",
+    "timestamp": "2026-09-08T17:05:49.354Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: probe:blob-array-buffer:4",
+    "timestamp": "2026-09-08T17:05:50.588Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: probe:file-reader:4",
+    "timestamp": "2026-09-08T17:05:50.589Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: probe:canvas-png:88",
+    "timestamp": "2026-09-08T17:05:50.589Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: copy-model",
+    "timestamp": "2026-09-08T17:05:50.811Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: encode-geometry",
+    "timestamp": "2026-09-08T17:05:50.959Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: encode-images-and-binary:9",
+    "timestamp": "2026-09-08T17:05:54.496Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  },
+  {
+    "level": "info",
+    "message": "MAZ worker export: images-settled:9/9",
+    "timestamp": "2026-09-08T17:05:59.837Z",
+    "url": "http://localhost:3000/lib/renderWorkerClient.ts?t=1788886850506"
+  }
+]

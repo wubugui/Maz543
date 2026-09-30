@@ -1,0 +1,49 @@
+{
+  "base_url": "http://denghong01:8765",
+  "idempotency_key": "maz543a-searchlight-correction-0b0b6af2-715a-4e06-b742-dff19ac15fdc",
+  "upload": {
+    "upload_id": "2e1999ae-994d-4d9f-a6b9-08fbeab84bcc",
+    "offset": 0,
+    "chunk_bytes": 4194304
+  },
+  "script_file": {
+    "id": "2e1999ae-994d-4d9f-a6b9-08fbeab84bcc",
+    "name": "hub-searchlight-correction.py",
+    "mime": "text/x-python",
+    "size": 6773,
+    "sha256": "eabb715d9c700f035ee7b40a9f2454fd180f30c68673aee473e42e8fd38fa1c7",
+    "created": 1790772721.4974768,
+    "origin": "uploaded",
+    "producer_task_id": null,
+    "producer_backend": null,
+    "origin_basis": "registration",
+    "url": "/v1/files/2e1999ae-994d-4d9f-a6b9-08fbeab84bcc/content"
+  },
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A driver front searchlight correction",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "project_file": "79701385-4164-4f93-bd1b-5c610f84213d",
+      "files": [
+        {
+          "file_id": "2e1999ae-994d-4d9f-a6b9-08fbeab84bcc",
+          "path": "correction.py"
+        }
+      ],
+      "script": "correction.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 8192,
+      "timeout_seconds": 900
+    }
+  },
+  "response": {
+    "batch_id": "ee2f9727-5a75-4bc3-bda3-59238f766f3c",
+    "task_ids": [
+      "79536e85-3810-4857-aaa0-fe3e1a80e29b"
+    ],
+    "task_id": "79536e85-3810-4857-aaa0-fe3e1a80e29b"
+  }
+}

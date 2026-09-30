@@ -1,0 +1,22 @@
+{
+  "manifoldPositiveVolumeSplineSolids": 90,
+  "packs": [
+    {
+      "pack": "first",
+      "minimumNativeAxialEngagementMM": 0.6999969482421875
+    },
+    {
+      "pack": "second",
+      "minimumNativeAxialEngagementMM": 1.4999806880950928
+    },
+    {
+      "pack": "direct",
+      "minimumNativeAxialEngagementMM": 1.4999955892562866
+    },
+    {
+      "pack": "reverse",
+      "minimumNativeAxialEngagementMM": 0.6999969482421875
+    }
+  ],
+  "limits": "Discrete native axial geometry and parent topology. No spline flank force, fatigue, backlash dynamics or factory dimensional acceptance."
+}

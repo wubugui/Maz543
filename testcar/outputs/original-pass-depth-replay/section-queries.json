@@ -1,0 +1,122 @@
+{
+  "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "originalDepthReplay": {
+    "kind": "original-linked-program-depth-replay",
+    "threeRevision": "183",
+    "eligibleMeshes": 1,
+    "recordedDraws": 2,
+    "replayedDraws": 2,
+    "replayedTriangles": 4,
+    "programMatches": 2,
+    "programMismatches": 0,
+    "matrixMismatches": 0,
+    "errors": [],
+    "passes": [
+      {
+        "requestedSamples": 4,
+        "originalSamples": 4,
+        "originalDepthBits": 24,
+        "viewport": [
+          0,
+          0,
+          1212,
+          773
+        ],
+        "normalOverride": false,
+        "draws": 1,
+        "programMatches": 1,
+        "programMismatches": 0,
+        "matrixMismatches": 0,
+        "triangles": 2,
+        "actualSamples": 4,
+        "actualDepthBits": 24,
+        "error": ""
+      },
+      {
+        "requestedSamples": 2,
+        "originalSamples": 2,
+        "originalDepthBits": 24,
+        "viewport": [
+          0,
+          0,
+          1212,
+          773
+        ],
+        "normalOverride": false,
+        "draws": 1,
+        "programMatches": 1,
+        "programMismatches": 0,
+        "matrixMismatches": 0,
+        "triangles": 2,
+        "actualSamples": 2,
+        "actualDepthBits": 24,
+        "error": ""
+      }
+    ],
+    "sourceCallsUnchanged": true,
+    "limits": "Finite depth-snapshot proof only; original product draws retained. Captured linked handle, source geometry/material, world/model-view/normal matrices and morph weights checked per replay. Not cross-frame validity, actual culling or performance acceptance."
+  },
+  "width": 1212,
+  "height": 773,
+  "order": "optimized-then-baseline",
+  "baseline": {
+    "calls": 9139,
+    "triangles": 20352995,
+    "synchronizedMs": 1252.3999999985099
+  },
+  "optimized": {
+    "calls": 9146,
+    "triangles": 20353009,
+    "synchronizedMs": 1259.5
+  },
+  "optimizedReadbackError": 0,
+  "baselineReadbackError": 0,
+  "differentPixels": 0,
+  "maxChannelDifference": 0,
+  "rmsChannelDifference": 0,
+  "identicalPixels": true,
+  "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose.",
+  "depthQueries": {
+    "kind": "original-program-static-depth-volume-queries",
+    "initializationDraws": 1,
+    "passes": [
+      {
+        "samples": 4,
+        "depthBits": 24,
+        "viewport": [
+          0,
+          0,
+          1212,
+          773
+        ],
+        "normalOverride": false,
+        "queried": 0,
+        "zeroVolumes": 0,
+        "zeroTriangles": 0,
+        "movingZeroVolumes": 0,
+        "controlsPassed": true,
+        "largestZero": []
+      },
+      {
+        "samples": 2,
+        "depthBits": 24,
+        "viewport": [
+          0,
+          0,
+          1212,
+          773
+        ],
+        "normalOverride": false,
+        "queried": 0,
+        "zeroVolumes": 0,
+        "zeroTriangles": 0,
+        "movingZeroVolumes": 0,
+        "controlsPassed": true,
+        "largestZero": []
+      }
+    ],
+    "controlsPassed": false,
+    "queryError": 0,
+    "limits": "Actual conservative volume queries on exact-program snapshots. Potential only: no source product draw skipped, no cross-frame reuse or FPS gain established."
+  }
+}

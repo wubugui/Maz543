@@ -1,0 +1,46 @@
+{
+  "straightCantilever": [
+    {
+      "segments": 16,
+      "deflectionM": 3.534226190476187e-07,
+      "EulerBernoulliDeflectionM": 3.5273368606701956e-07,
+      "relativeError": 0.0019531249999984936
+    },
+    {
+      "segments": 32,
+      "deflectionM": 3.529059193121634e-07,
+      "EulerBernoulliDeflectionM": 3.5273368606701956e-07,
+      "relativeError": 0.00048828124998285155
+    },
+    {
+      "segments": 64,
+      "deflectionM": 3.527767443782892e-07,
+      "EulerBernoulliDeflectionM": 3.5273368606701956e-07,
+      "relativeError": 0.0001220703124494496
+    }
+  ],
+  "curvedStripRefinement": [
+    {
+      "segments": 44,
+      "forceN": 21.45490945033168,
+      "energyJ": 0.0033480750625244017,
+      "stressPa": 514154746.6530748,
+      "relativeForceDifferenceToFine": 0.00038479622063077105
+    },
+    {
+      "segments": 88,
+      "forceN": 21.448307839522815,
+      "energyJ": 0.0033469883108874334,
+      "stressPa": 513974053.21088624,
+      "relativeForceDifferenceToFine": 7.698084163592249e-05
+    },
+    {
+      "segments": 176,
+      "forceN": 21.446656857827623,
+      "energyJ": 0.003346716530779058,
+      "stressPa": 513928862.2949274,
+      "relativeForceDifferenceToFine": 0.0
+    }
+  ],
+  "limits": "Checks the discretized inextensible bending formulation. Does not validate original MAZ spring shape, seating, constitutive material, preload or strength."
+}

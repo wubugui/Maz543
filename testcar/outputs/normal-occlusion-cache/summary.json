@@ -1,0 +1,184 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "passed": true,
+  "pairs": [
+    {
+      "file": "still.json",
+      "pixelsDifferent": 0,
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1236.1000000014901
+      },
+      "candidate": {
+        "calls": 7508,
+        "triangles": 18561149,
+        "synchronizedMs": 1238.4000000059605
+      },
+      "cache": {
+        "kind": "static-normal-occlusion-cache",
+        "rebuilt": false,
+        "occluders": 2315,
+        "excludedChanged": 0,
+        "queried": 0,
+        "pendingBatches": 0,
+        "certificates": 2314,
+        "skipped": 1797,
+        "savedTriangles": 3021766,
+        "controlsFailed": false,
+        "prepareMs": 27.900000005960464,
+        "error": "",
+        "limits": "DEV-only normal-material camera pass. Original main/transmission/shadow draws and full mechanics retained. Query regions are conservative; leaving a certified region restores original drawing. Not full product performance acceptance."
+      }
+    },
+    {
+      "file": "engine.json",
+      "pixelsDifferent": 0,
+      "baseline": {
+        "calls": 9305,
+        "synchronizedMs": 1246.2000000029802,
+        "triangles": 21582915
+      },
+      "candidate": {
+        "calls": 7601,
+        "synchronizedMs": 1229.4000000059605,
+        "triangles": 18613181
+      },
+      "cache": {
+        "certificates": 2314,
+        "controlsFailed": false,
+        "error": "",
+        "excludedChanged": 0,
+        "kind": "static-normal-occlusion-cache",
+        "limits": "DEV-only normal-material camera pass. Original main/transmission/shadow draws and full mechanics retained. Query regions are conservative; leaving a certified region restores original drawing. Not full product performance acceptance.",
+        "occluders": 1649,
+        "pendingBatches": 1,
+        "prepareMs": 31.200000002980232,
+        "queried": 28,
+        "rebuilt": false,
+        "savedTriangles": 2969794,
+        "skipped": 1734
+      }
+    },
+    {
+      "file": "side-door.json",
+      "pixelsDifferent": 0,
+      "baseline": {
+        "calls": 9306,
+        "synchronizedMs": 1351.7999999970198,
+        "triangles": 21582915
+      },
+      "candidate": {
+        "calls": 8245,
+        "synchronizedMs": 1299.6999999955297,
+        "triangles": 19372647
+      },
+      "cache": {
+        "certificates": 2314,
+        "controlsFailed": false,
+        "error": "",
+        "excludedChanged": 0,
+        "kind": "static-normal-occlusion-cache",
+        "limits": "DEV-only normal-material camera pass. Original main/transmission/shadow draws and full mechanics retained. Query regions are conservative; leaving a certified region restores original drawing. Not full product performance acceptance.",
+        "occluders": 1649,
+        "pendingBatches": 1,
+        "prepareMs": 26.900000005960464,
+        "queried": 155,
+        "rebuilt": false,
+        "savedTriangles": 2210582,
+        "skipped": 1218
+      }
+    },
+    {
+      "file": "section.json",
+      "pixelsDifferent": 0,
+      "baseline": {
+        "calls": 9139,
+        "synchronizedMs": 1226.2000000029802,
+        "triangles": 20352995
+      },
+      "candidate": {
+        "calls": 9139,
+        "synchronizedMs": 1359.1999999955297,
+        "triangles": 20352995
+      },
+      "cache": {
+        "certificates": 0,
+        "controlsFailed": false,
+        "error": "",
+        "excludedChanged": 0,
+        "kind": "static-normal-occlusion-cache",
+        "limits": "DEV-only normal-material camera pass. Original main/transmission/shadow draws and full mechanics retained. Query regions are conservative; leaving a certified region restores original drawing. Not full product performance acceptance.",
+        "occluders": 0,
+        "pendingBatches": 0,
+        "prepareMs": 0,
+        "queried": 0,
+        "rebuilt": false,
+        "savedTriangles": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "file": "final-still.json",
+      "pixelsDifferent": 0,
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1238.1000000014901
+      },
+      "candidate": {
+        "calls": 7508,
+        "triangles": 18561149,
+        "synchronizedMs": 1198.7999999970198
+      },
+      "cache": {
+        "kind": "static-normal-occlusion-cache",
+        "rebuilt": false,
+        "occluders": 2315,
+        "excludedChanged": 0,
+        "queried": 0,
+        "pendingBatches": 0,
+        "certificates": 2314,
+        "skipped": 1797,
+        "savedTriangles": 3021766,
+        "controlsFailed": false,
+        "prepareMs": 14.5,
+        "error": "",
+        "limits": "DEV-only normal-material camera pass. Original main/transmission/shadow draws and full mechanics retained. Query regions are conservative; leaving a certified region restores original drawing. Not full product performance acceptance."
+      }
+    }
+  ],
+  "profiles": [
+    {
+      "file": "side-door-12frames.json",
+      "frames": 12,
+      "meanWorkMs": 838.84166666617,
+      "meanFrameGapMs": 1300.1727272732692,
+      "meanSubmitMs": 836.1333333322158,
+      "meanCalls": 8239.083333333334,
+      "meanTriangles": 19367580,
+      "meanPreparationMs": 32.82499999925494,
+      "skipRange": [
+        1214,
+        1228
+      ],
+      "totalQueries": 1828,
+      "backlogZero": true
+    },
+    {
+      "file": "baseline-side-door-12frames.json",
+      "frames": 12,
+      "meanWorkMs": 70.81666666766007,
+      "meanFrameGapMs": 1304.7727272727273,
+      "meanSubmitMs": 67.88333333407839,
+      "meanCalls": 9306,
+      "meanTriangles": 21582915,
+      "meanPreparationMs": null,
+      "skipRange": null,
+      "totalQueries": 0,
+      "backlogZero": true
+    }
+  ],
+  "limits": "Exact normal-material camera pass only. Source assets, main color, transmission, shadow passes and mechanics retained. Five same-pose pairs establish only tested pixel equality. Sequential 12-frame profiles are not randomized or identical-pose benchmarks, and do not establish final product performance. Default OFF."
+}

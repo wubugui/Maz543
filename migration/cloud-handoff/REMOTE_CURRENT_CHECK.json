@@ -1,0 +1,30 @@
+{
+  "checkedUTC": "2026-09-30T19:01:26.982Z",
+  "source": "Fresh HTTPS GitHub clone and normal Git LFS download, not local file copies",
+  "remoteCloneCommit": "571b25bf0b1860e1ccf1abc61eda7e55488e7b13",
+  "files": [
+    {
+      "path": "testcar/public/models/maz543a-blender.glb",
+      "bytes": 20544268,
+      "sha256": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698",
+      "expectedSha256": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698",
+      "pass": true
+    },
+    {
+      "path": "testcar/outputs/MAZ543A_Master.blend",
+      "bytes": 64847547,
+      "sha256": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3",
+      "expectedSha256": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3",
+      "pass": true
+    },
+    {
+      "path": "testcar/outputs/MAZ543A_Textured.blend",
+      "bytes": 98107810,
+      "sha256": "f927cfffae77e443fe6f7c8536bb2344d6b7694f335a071a26d4bba22e350f5d",
+      "expectedSha256": "f927cfffae77e443fe6f7c8536bb2344d6b7694f335a071a26d4bba22e350f5d",
+      "pass": true
+    }
+  ],
+  "allPass": true,
+  "fullHistoricalRemoteDownload": "Not performed; complete LFS uploads and manifest/index mapping are verified separately"
+}

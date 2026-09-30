@@ -858,8 +858,8 @@
     },
     {
       "path": "README.md",
-      "size": 867,
-      "sha256": "a6afc3d3141a1299ab2fa351ff8a901f4a0d362b4e5c7877a70a9b0191b6e557",
+      "size": 2039,
+      "sha256": "05e700f50dc60f4851a8a3b88e31f6a1385e2aff6a3d8b65955d786bffd4c189",
       "sourceSha256": "a6afc3d3141a1299ab2fa351ff8a901f4a0d362b4e5c7877a70a9b0191b6e557"
     },
     {
@@ -20907,18 +20907,6 @@
       "size": 8882,
       "sha256": "a00921c94a03e7b53c9c210358ebc0ed453b7c919f0955ea5a20f3b73cc5d954",
       "sourceSha256": "a00921c94a03e7b53c9c210358ebc0ed453b7c919f0955ea5a20f3b73cc5d954"
-    },
-    {
-      "path": "testcar/work/three-cover-20260930/stdout.txt",
-      "size": 222,
-      "sha256": "f834672e8f2904d89245de162ad4d9f295caee7c223660860c5b87c30a030097",
-      "sourceSha256": "f834672e8f2904d89245de162ad4d9f295caee7c223660860c5b87c30a030097"
-    },
-    {
-      "path": "testcar/work/three-cover-20260930/stderr.txt",
-      "size": 969,
-      "sha256": "527f9f0d424cfec8e1eaf4745be12f6a8e9ff2e15aa2e1dcd92f3ba476bf73da",
-      "sourceSha256": "527f9f0d424cfec8e1eaf4745be12f6a8e9ff2e15aa2e1dcd92f3ba476bf73da"
     }
   ],
   "excluded": [
@@ -27730,5 +27718,29 @@
     }
   ],
   "localOriginalsPreserved": true,
-  "liveDevelopmentStopped": true
+  "liveDevelopmentStopped": true,
+  "manifestNormalization": {
+    "reason": "Two terminal task logs were both in the initial inventory and appended by log-capture step; duplicate list entries removed, no file or content omitted",
+    "duplicates": [
+      {
+        "path": "testcar/work/three-cover-20260930/stdout.txt",
+        "size": 222,
+        "sha256": "f834672e8f2904d89245de162ad4d9f295caee7c223660860c5b87c30a030097"
+      },
+      {
+        "path": "testcar/work/three-cover-20260930/stderr.txt",
+        "size": 969,
+        "sha256": "527f9f0d424cfec8e1eaf4745be12f6a8e9ff2e15aa2e1dcd92f3ba476bf73da"
+      }
+    ]
+  },
+  "publicCopyAdaptations": [
+    {
+      "path": "README.md",
+      "reason": "Prepend cloud entry instructions; entire original README preserved as suffix and separate handoff copy",
+      "originalPreservedAt": "migration/cloud-handoff/ORIGINAL_ROOT_README.md",
+      "sourceSha256": "a6afc3d3141a1299ab2fa351ff8a901f4a0d362b4e5c7877a70a9b0191b6e557",
+      "resultSha256": "05e700f50dc60f4851a8a3b88e31f6a1385e2aff6a3d8b65955d786bffd4c189"
+    }
+  ]
 }

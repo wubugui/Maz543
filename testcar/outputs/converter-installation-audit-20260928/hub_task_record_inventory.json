@@ -1,0 +1,30 @@
+{
+  "idempotency_key": "maz543-drive-inventory-8967638cb6f249e093e42de262c665e2",
+  "body": {
+    "backend": "blender",
+    "name": "MAZ543A drive holder inventory (read-only)",
+    "priority": 50,
+    "params": {
+      "version": "4.5.13",
+      "project_file": "e894f974-9bbe-4ebe-b8f1-b9441c41e782",
+      "files": [
+        {
+          "file_id": "b9fa0d52-00af-4e9f-83eb-665ade3e9a93",
+          "path": "main3.py"
+        }
+      ],
+      "script": "main3.py",
+      "device": "cpu",
+      "threads": 4,
+      "ram_mb": 8192,
+      "timeout_seconds": 1800
+    }
+  },
+  "response": {
+    "batch_id": "5c848cb1-fbb2-45cd-b8b4-258a962e7eaa",
+    "task_ids": [
+      "7d2d9def-f2d1-4b87-8afa-87c42327c25e"
+    ],
+    "task_id": "7d2d9def-f2d1-4b87-8afa-87c42327c25e"
+  }
+}

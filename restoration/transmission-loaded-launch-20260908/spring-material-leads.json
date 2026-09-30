@@ -1,0 +1,19 @@
+{
+  "status": "Unverified cross-model research leads; not used as factory dimensions in the current geometry.",
+  "leads": [
+    {
+      "part": "535A-1511058",
+      "url": "https://araon.by/index.php?acat=3&group=81&mark=145&model=1056&typeauto=5",
+      "indexedNote": "Wire 2.5 mm, truncated GOST reference; same table mentions plate 1511044 stock sheet 4.0 mm. Stock is not proof of finished thickness.",
+      "provenance": "Cross-model KZKT-74281 catalogue reproduction. Direct web tool open succeeded during loaded-launch research; visible note still truncates the GOST designation. Local original catalogue/drawing not obtained.",
+      "bodyAccessVerified": true
+    },
+    {
+      "part": "535A-1511264",
+      "url": "https://araon.by/index.php?acat=3&group=94&mark=145&model=1056&part=2633140&typeauto=0",
+      "indexedNote": "Wire B-2-2.5, truncated standard designation.",
+      "provenance": "Search-index text from a KZKT-74281 catalogue reproduction; direct web open timed out."
+    }
+  ],
+  "next": "Obtain the original applicable MAZ543A catalogue/drawing or a trustworthy measured part. Check model/year, wire diameter, coil diameter, turns, free length, installed length and preload together; do not change one dimension simply to restore prior timing."
+}

@@ -1,0 +1,190 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "count": 36,
+  "bytes": 496828,
+  "files": [
+    {
+      "file": "AGENT_START_HERE.md",
+      "bytes": 30194,
+      "sha256": "49f3d68782db3377065db602e068e890a5a5509374ebaabab7575957126fedc7"
+    },
+    {
+      "file": "NEXT_AGENT_PROMPT.md",
+      "bytes": 22596,
+      "sha256": "c16438e55f91193f1e5e6c5c05cea121f38e4b4bf54484b07915c37e7e2b13cd"
+    },
+    {
+      "file": "docs/ACCEPTANCE.md",
+      "bytes": 35386,
+      "sha256": "00ad9aa101077dcf3034b0be462b4b6988fa9e088263a7549b6a5332d9e8b4c3"
+    },
+    {
+      "file": "docs/CONTINUATION_20260908.md",
+      "bytes": 23450,
+      "sha256": "5860d993b1e6d0910e279db419b9d88a61196305b76aa641253c4809d4d39aac"
+    },
+    {
+      "file": "docs/NORMAL_OCCLUSION_CACHE_20260909.md",
+      "bytes": 5459,
+      "sha256": "885538434f4f2899181627ad83211dd7896170896b60a5529cd88469f1da88df"
+    },
+    {
+      "file": "lib/compositedShadows.ts",
+      "bytes": 2958,
+      "sha256": "395417ce69a7d7fde54343f59ed6ccc3ac76132cf13116407f958cac776a1e9a"
+    },
+    {
+      "file": "lib/conservativeRasterBounds.ts",
+      "bytes": 10779,
+      "sha256": "8a50c84fd5c23a46e1a3bee4e28c9d8e28acf00acc3a0633e44801f7bbb0fd18"
+    },
+    {
+      "file": "lib/framePhaseProfile.ts",
+      "bytes": 1789,
+      "sha256": "64c4360ebebef9cb23657ff947f91c6dc466eebb00af78f41e0f4335ea8ea5fb"
+    },
+    {
+      "file": "lib/normalOcclusionCache.ts",
+      "bytes": 14386,
+      "sha256": "cb19f574a34144dd3b62a4b5af903d8a7cc4683e7f614a5d7e7fb974defa8816"
+    },
+    {
+      "file": "lib/staticOccluderScene.ts",
+      "bytes": 6155,
+      "sha256": "3b4db44da60b4fe27c75daed94d555e0c887da2ef221bf2ed04b500b656a3914"
+    },
+    {
+      "file": "lib/vehicleViewport.ts",
+      "bytes": 65676,
+      "sha256": "10f01987fb898a362e998b52ae2f6f352a3fa403d5ff0c63013fd3bd4c570424"
+    },
+    {
+      "file": "outputs/context-frame-audit/source-integrity.json",
+      "bytes": 3090,
+      "sha256": "923a265fcf8a88d4f33462044fef15eab09edf3f82c0b3c5f3b724ddfb7dce57"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/baseline-side-door-12frames.json",
+      "bytes": 17803,
+      "sha256": "aed64e4310cf3d56575680dcdaf9eeffb4eeecb5a7cdbc9cf0d92fcdf19c24c9"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/baseline-side-door.png",
+      "bytes": 82046,
+      "sha256": "729d9e41737ec9403cbde7f9c16db1ee9c8d238d53e62ef4a7c65cdb9ce01ac3"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/engine.json",
+      "bytes": 4481,
+      "sha256": "07d25423d22d5a7ada115cb51cfdf4eee399c5baac30cfb0a50c84e19c70dffa"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/final-still.json",
+      "bytes": 1318,
+      "sha256": "67d20e7db4385928c779464efe098376d47b9e89f072b27baa026485da90f9e0"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/normal-final-ax.txt",
+      "bytes": 7297,
+      "sha256": "8fd4d1e11d1f7c18c60866db9138d5b2513aa9cb64d0581aa32bf4b4ec96fba0"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/normal-final-side.png",
+      "bytes": 83398,
+      "sha256": "0825818107b9f9718d9e30bdadfe61eec3e385b055bc6b629c1dc0074c2542a6"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/section.json",
+      "bytes": 4488,
+      "sha256": "2b9d5437bd2c150b3b6c1b2ec2b02b37784873da2c6a0cb9e148e0d8a9813bbb"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/side-door-12frames.json",
+      "bytes": 25572,
+      "sha256": "88cf4a13b2c41585d655682060bf1c2eab2a06f969065fed69bbc9256d4d03c9"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/side-door.json",
+      "bytes": 4519,
+      "sha256": "7451cf6f4e33e4863b212f457434eb7be03f33795406f395fe6d7c47f39ae5ac"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/still.json",
+      "bytes": 1332,
+      "sha256": "77e52110b6c825cdbe71b811d5674ce31428dea542c66b414b347a959fcd165f"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/summary.json",
+      "bytes": 6259,
+      "sha256": "98f8a6531d3b3861eef6ddeb51245eff09687f82b33f3f7dbc08ee8fbe365951"
+    },
+    {
+      "file": "outputs/normal-occlusion-cache/tests.json",
+      "bytes": 582,
+      "sha256": "de01d8c29bff577710fbc1aa729ce48063d758a6b6de7907c7d5d0e2d3de787c"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/lifecycle-tests.json",
+      "bytes": 446,
+      "sha256": "41dd28ccc6e007dd978d018c6f1528653298b67e4b6bd741804abc55538e9c07"
+    },
+    {
+      "file": "outputs/static-occlusion-probe/scene-tests.json",
+      "bytes": 445,
+      "sha256": "2c236ad5df3bbed5d820fb4b6edea85313afe15afd8dad17eba14efd981c3761"
+    },
+    {
+      "file": "scripts/archive-normal-occlusion-cache.py",
+      "bytes": 2977,
+      "sha256": "a68228a96c687cf755d667b92855357276ff6c6767f63478bc97c3207c55aaa1"
+    },
+    {
+      "file": "scripts/summarize-normal-occlusion-cache.py",
+      "bytes": 2965,
+      "sha256": "0d1ec19a85b5d9a80b6c8504f82ecb189ea299f3ee89ff965767b8ab9109a160"
+    },
+    {
+      "file": "scripts/verify-conservative-raster-bounds.mjs",
+      "bytes": 5948,
+      "sha256": "80281fe90c689a3a42e246c9ff1e0410ca24ae73b28050515dea604186555c83"
+    },
+    {
+      "file": "scripts/verify-normal-occlusion-cache.mjs",
+      "bytes": 8187,
+      "sha256": "b4cfb39e2680e4d246a1c0423efab4549da208fb259482a67f3d2e6c13d09270"
+    },
+    {
+      "file": "scripts/verify-static-occluder-scene.mjs",
+      "bytes": 3793,
+      "sha256": "a79a5db4e832fa831e6a5997c5dc79a12b72cd5de23619feff37a28685af8eb5"
+    },
+    {
+      "file": "scripts/verify-static-occlusion-probe.mjs",
+      "bytes": 6349,
+      "sha256": "d36e6ceef3ffc2319cffa7a7e9f53270e0dc1f10c68891eb3f118cf7000e03e6"
+    },
+    {
+      "file": "work/normal-occlusion-cache/build.log",
+      "bytes": 3236,
+      "sha256": "bb7ca8e8512162b31efe746c107f97e0e20657ea233740242c91417636848fa2"
+    },
+    {
+      "file": "work/normal-occlusion-cache/summary.log",
+      "bytes": 873,
+      "sha256": "d69ffc20a45166d77ff4ebe551d9af9cee9482a32e5bbc53a5988bf3108d9923"
+    },
+    {
+      "file": "work/normal-occlusion-cache/tests.log",
+      "bytes": 596,
+      "sha256": "1e243ff34c5552be3527cee5e5ab6d631aca34c1ef6596e7cd08064e5bff0e8c"
+    },
+    {
+      "file": "work/normal-occlusion-cache/typecheck.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "verification": "Every copy byte-equal and SHA-256 recorded",
+  "limits": "Actual DEV normal-pass reuse only, default OFF. Tested frames equal but no stable FPS gain established. Complete mechanical/product/visual/performance acceptance remains unfinished."
+}

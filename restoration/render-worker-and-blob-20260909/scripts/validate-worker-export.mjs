@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
+import validator from 'gltf-validator';
+const file=process.argv[2]??'outputs/render-worker-evidence/drive-current-pose.glb';
+const buffer=await fs.readFile(file);assert.equal(buffer.readUInt32LE(0),0x46546c67);assert.equal(buffer.readUInt32LE(8),buffer.length);
+const json=JSON.parse(buffer.subarray(20,20+buffer.readUInt32LE(12)).toString());
+const validation=await validator.validateBytes(new Uint8Array(buffer),{maxIssues:0});
+const report={file,bytes:buffer.length,sha256:crypto.createHash('sha256').update(buffer).digest('hex'),nodes:json.nodes.length,meshes:json.meshes.length,images:json.images?.length??0,morphMeshes:json.meshes.filter(mesh=>mesh.primitives.some(p=>p.targets?.length)).length,validation};
+const output=file.replace(/\.glb$/,'-validation.json');await fs.writeFile(output,JSON.stringify(report,null,2));
+console.log(JSON.stringify({file,bytes:report.bytes,nodes:report.nodes,meshes:report.meshes,images:report.images,morphMeshes:report.morphMeshes,errors:validation.issues.numErrors,warnings:validation.issues.numWarnings,infos:validation.issues.numInfos,truncated:validation.issues.truncated},null,2));
+assert.equal(validation.issues.numErrors,0);assert.equal(validation.issues.numWarnings,0);assert.equal(validation.issues.truncated,false);

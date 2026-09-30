@@ -1,0 +1,116 @@
+{
+  "goal": "ACTIVE",
+  "wholeVehicleGates": "16 OPEN",
+  "pairs": [
+    {
+      "file": "warm-verified.json",
+      "skipped": 5231,
+      "savedTriangles": 8915001,
+      "differentPixels": 0,
+      "candidate": {
+        "calls": 4074,
+        "triangles": 12667914,
+        "synchronizedMs": 1052.5
+      },
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1307.3999999985099
+      }
+    },
+    {
+      "file": "engine-verified.json",
+      "skipped": 150,
+      "savedTriangles": 204720,
+      "differentPixels": 0,
+      "candidate": {
+        "calls": 9155,
+        "triangles": 21378195,
+        "synchronizedMs": 1458.3999999985099
+      },
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1465.1000000014901
+      }
+    },
+    {
+      "file": "side-door-pair.json",
+      "skipped": 67,
+      "savedTriangles": 56061,
+      "differentPixels": 0,
+      "candidate": {
+        "calls": 9239,
+        "triangles": 21526854,
+        "synchronizedMs": 1284
+      },
+      "baseline": {
+        "calls": 9306,
+        "triangles": 21582915,
+        "synchronizedMs": 1260.1999999955297
+      }
+    },
+    {
+      "file": "first-gear-pair.json",
+      "skipped": 57,
+      "savedTriangles": 54829,
+      "differentPixels": 0,
+      "candidate": {
+        "calls": 9249,
+        "triangles": 21528086,
+        "synchronizedMs": 1284.7999999970198
+      },
+      "baseline": {
+        "calls": 9306,
+        "triangles": 21582915,
+        "synchronizedMs": 1271.8000000044703
+      }
+    },
+    {
+      "file": "section-pair.json",
+      "skipped": 0,
+      "savedTriangles": 0,
+      "differentPixels": 0,
+      "candidate": {
+        "calls": 9139,
+        "triangles": 20352995,
+        "synchronizedMs": 1255.1999999955297
+      },
+      "baseline": {
+        "calls": 9139,
+        "triangles": 20352995,
+        "synchronizedMs": 1234.1000000014901
+      }
+    },
+    {
+      "file": "post-budget-pair.json",
+      "skipped": 5231,
+      "savedTriangles": 8915001,
+      "differentPixels": 0,
+      "candidate": {
+        "calls": 4074,
+        "triangles": 12667914,
+        "synchronizedMs": 1014.5
+      },
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1251.7999999970198
+      }
+    }
+  ],
+  "engineProfile": {
+    "frames": 12,
+    "meanFrameWorkMs": 1126.483333332464,
+    "meanStartGapMs": 1338.2636363635008,
+    "skippedRange": [
+      0,
+      152
+    ],
+    "queryTotal": 1892,
+    "epochResets": 1,
+    "maxBacklogSeconds": 0,
+    "maxPrefixNodes": 100240
+  },
+  "limits": "Finite diagnostic samples, not sustained performance acceptance. Paired readbacks are synchronized; 12-frame profile contains no readback and has no contemporaneous baseline series. Exact model/display/solver precision retained, optimization remains default OFF."
+}
