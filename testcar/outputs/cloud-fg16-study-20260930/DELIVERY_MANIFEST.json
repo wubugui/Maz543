@@ -1,0 +1,188 @@
+{
+  "date_utc": "2026-09-30",
+  "status": "REVIEWABLE_INDEPENDENT_STUDY; NOT_PRODUCTION",
+  "stop_condition": "Independent editable source-guided structure, actual renders, readback and explicit failure handoff completed. No further geometry changes or production promotion.",
+  "known_failure": "Optical element versus cap/base: 617 rigid surface triangle intersections; actual seat/socket construction unresolved. All assembly connectivity and all 16 vehicle gates remain OPEN.",
+  "source_model": "ФГ16, no suffix, 1977 3rd edition table p27, structural Fig.137 p217 and text p216",
+  "source_reference_metadata": [
+    {
+      "filename": "1977-original-p216-217.png",
+      "source_url": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+      "title": "Колесное шасси МАЗ-543 и его модификации. Техническое описание",
+      "edition": "3rd edition, Moscow 1977, Военное издательство Министерства обороны СССР",
+      "source_sha256": "174b10865dbb243ae0e06ffb162fbc81d9b9ea345585f801d5ae709d144ce3c8",
+      "rights_status": "Local research reference; public redistribution license not established. Shareable edition omits scan pixels.",
+      "scan_pixels_in_this_file": false
+    },
+    {
+      "filename": "1977-original-p26-27.png",
+      "source_url": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+      "title": "Колесное шасси МАЗ-543 и его модификации. Техническое описание",
+      "edition": "3rd edition, Moscow 1977, Военное издательство Министерства обороны СССР",
+      "source_sha256": "4160ffdf45094a9f17b33abad87aed2c5ef117e9adf7de009d4682ec47fc86e2",
+      "rights_status": "Local research reference; public redistribution license not established. Shareable edition omits scan pixels.",
+      "scan_pixels_in_this_file": false
+    }
+  ],
+  "public_ready_whitelist": [
+    {
+      "file": "FG16_Native_Structural_Study_SHAREABLE.blend",
+      "bytes": 185537,
+      "sha256": "d3035f7709bc522ace746057eced4e4d076d2c664dfe0551805c567ae5eb7e20"
+    },
+    {
+      "file": "cycles-assembled.png",
+      "bytes": 1603523,
+      "sha256": "01f9e5f4d9cabde5767b17a6ae3aae2fca0a4377c13ed9274dc00b210509c1bd"
+    },
+    {
+      "file": "cycles-section.png",
+      "bytes": 1651526,
+      "sha256": "14b3dae7203787672bb9c842055ad63994c59a13644c04d322dc8002d0fda98e"
+    },
+    {
+      "file": "README.md",
+      "bytes": 8331,
+      "sha256": "b6d5c10dafb583641a15ffeb807b5a564ba91d570c76229d667d6d5a62b35ae7",
+      "evidence_role": "FINAL_AUTHORITATIVE"
+    },
+    {
+      "file": "build_fg16.py",
+      "bytes": 26114,
+      "sha256": "62fc08703e7de46c64c81879bd6777945fce86cd9544935d933ac5ac9cf31462"
+    },
+    {
+      "file": "verify_fg16_readback.py",
+      "bytes": 12404,
+      "sha256": "f539bed0e9d34d3ae5b844c13404eb8eb62d190d9e2217104055c9b0164153ac"
+    },
+    {
+      "file": "export_shareable.py",
+      "bytes": 3607,
+      "sha256": "4e0e098f3090a81ac0066c2834e9eea856bc90b226e354422e2d36fbf5b33e24"
+    },
+    {
+      "file": "write_study_report.py",
+      "bytes": 8837,
+      "sha256": "3c88811f2e700a0257b36b2d73f71e3efe92b52d97a04ac48cd49316d043459e"
+    },
+    {
+      "file": "diagnose_body.py",
+      "bytes": 980,
+      "sha256": "01d95dc9b4072582f5a802391fd176d7e9008d41a3e93f95c1e8e5dcdc48f6a4"
+    },
+    {
+      "file": "parts-register.json",
+      "bytes": 4019,
+      "sha256": "d74b438ebb07441a9b5ffa3ae2aed3e90b2a619e06046817acf4115f6df414d1"
+    },
+    {
+      "file": "native-audit-build.json",
+      "bytes": 11064,
+      "sha256": "a847212de44db17a043c4ef39224672fbdf562bbb0d304ad5707a99e4a0eeab0",
+      "evidence_role": "BUILD_INVENTORY; final independent readback adds rigid-interface failure classification"
+    },
+    {
+      "file": "readback-audit.json",
+      "bytes": 22278,
+      "sha256": "fdc45d08faec85c5d03bad76699863e3aac4ac60b7ac61b7f5f45dfbc5089853",
+      "evidence_role": "FINAL_AUTHORITATIVE"
+    },
+    {
+      "file": "shareable-readback.json",
+      "bytes": 13651,
+      "sha256": "6c08a9743d10fd9d523826832747d6791f1066607ec377e298633f47fedb70c7",
+      "evidence_role": "FINAL_AUTHORITATIVE"
+    },
+    {
+      "file": "containment-ray-diagnostics.json",
+      "bytes": 31136,
+      "sha256": "739206d7fcc4c6fa229005ae1dd2b09d917483ed4b2978041ea5ecf731ebe4c8"
+    },
+    {
+      "file": "body-self-intersection-diagnostic.json",
+      "bytes": 767,
+      "sha256": "bc5aee0bcc7204828518515b9572386a6f10ffa74bd17676a237d9802d25d766",
+      "evidence_role": "RETAINED_ITERATION_04_DIAGNOSTIC; superseded by final readback, not final geometry"
+    },
+    {
+      "file": "readback-preflight.json",
+      "bytes": 23342,
+      "sha256": "4e4e78bb9ae28720c0c6ec96044e5921db69aa829504a9d4f848533f9a5f22d7",
+      "evidence_role": "RETAINED_ITERATION_04_DIAGNOSTIC; superseded by final readback, not final geometry"
+    },
+    {
+      "file": "build.log",
+      "bytes": 21316,
+      "sha256": "11b89a7956b05142341ff64e8adddb06fe8f8eb78cde4b137e7dc35b62352a00"
+    },
+    {
+      "file": "readback.log",
+      "bytes": 706,
+      "sha256": "cd250482958e6eb2ba2f8c29273866a17c6a866420094e8637a6f91b5d70f090"
+    },
+    {
+      "file": "shareable-export.log",
+      "bytes": 583,
+      "sha256": "912accff34c794e2e445bf11e8c663a7442cc7e842f85e29cd7583185051522c"
+    },
+    {
+      "file": "build-interrupted-missing-tool.log",
+      "bytes": 107,
+      "sha256": "77e396bb90ed2fc6b5abec0fb2e7aab00d6b2e25f1c9e6d58fc7d012c019cae6",
+      "evidence_role": "RETAINED_FAILED_LAUNCH; later recovered"
+    }
+  ],
+  "local_research_only": [
+    {
+      "file": "FG16_Native_Structural_Study.blend",
+      "bytes": 914650,
+      "sha256": "a72d32f0d28c496efd7c78794b7a50a1dd400a08caea561866366f21d0b414f1"
+    }
+  ],
+  "retain_local_history_do_not_bulk_publish": [
+    "iteration-01-retained-failed",
+    "iteration-02-retained-not-accepted",
+    "iteration-03-retained-not-accepted",
+    "iteration-04-retained-diagnostics"
+  ],
+  "render_provenance": {
+    "engine": "Actual Cycles CPU, 64 samples",
+    "blender": "Official Blender 4.5.13 LTS, build daeeeca98fb0",
+    "threads": 4,
+    "manually_inspected_views": [
+      "cycles-assembled.png",
+      "cycles-section.png"
+    ],
+    "note": "These are actual model renders; no generative image used. Fit/stand disclaimers are native scene text."
+  },
+  "limited_checks": {
+    "all_closed_positive_volume": true,
+    "source_geometry_self_intersection_pass": true,
+    "unclassified_contact_count": 0,
+    "unresolved_rigid_interface_count": 1,
+    "unresolved_contact_pairs_count": 1,
+    "display_fixture_intersections": [],
+    "horizontal_axis_pass": true,
+    "containment_disagreement_count": 0,
+    "production_files_byte_unchanged": true
+  },
+  "shareable": {
+    "shareable_bytes": 185537,
+    "shareable_sha256": "d3035f7709bc522ace746057eced4e4d076d2c664dfe0551805c567ae5eb7e20",
+    "geometry_transforms_identical_after_reopen": true,
+    "evaluated_object_instances_checked": 53,
+    "image_datablocks_after_reopen": 0,
+    "local_source_unchanged": true
+  },
+  "production_sha256_unchanged": {
+    "testcar/outputs/MAZ543A_Master.blend": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3",
+    "testcar/outputs/MAZ543A_Textured.blend": "f927cfffae77e443fe6f7c8536bb2344d6b7694f335a071a26d4bba22e350f5d",
+    "testcar/public/models/maz543a-blender.glb": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698"
+  },
+  "actions_not_taken": [
+    "No production write",
+    "No website update",
+    "No public source scan publishing"
+  ]
+}

@@ -1,0 +1,131 @@
+Extensions: writing cache failed ([Errno 30] Read-only file system: '/home/agent/.config/blender').
+FG16_NATIVE_TOPOLOGY [{"name": "FG16_06_Hollow_curved_body", "type": "MESH", "vertices": 13960, "faces": 13976, "edges": 27936, "boundary_edges": 0, "non_manifold_edges": 0, "loose_vertices": 0, "volume_m3_signed": 0.00022077512286381037, "modifiers": ["SCREW", "SOLIDIFY", "BOOLEAN", "WELD"], "bounds": {"min": [-0.07199999690055847, -0.11783349514007568, 0.12016651034355164], "max": [0.0860000029206276, 0.11783349514007568, 0.355833500623703]}}, {"name": "FG16_01_Colorless_smooth_glass", "type": "MESH", "vertices": 6914, "faces": 7008, "edges": 13920, "boundary_edges": 0, "non_manifold_edges": 0, "loose_vertices": 0, "volume_m3_signed": 0.00011108385736338163, "modifiers": ["SCREW", "SOLIDIFY"], "bounds": {"min": [-0.09399999678134918, -0.1080000028014183, 0.12999999523162842], "max": [-0.07808826118707657, 0.1080000028014183, 0.3460000157356262]}}, {"name": "FG16_02_Independent_front_rim", "type": "MESH", "vertices": 3552, "faces": 3552, "edges": 7104, "boundary_edges": 0, "non_manifold_edges": 0, "loose_vertices": 0, "volume_m3_signed": 9.19775252692869e-05, "modifiers": ["SCREW", "BEVEL"], "bounds": {"min": [-0.08900000154972076, -0.11999999731779099, 0.11800000816583633], "max": [-0.0729999989271164, 0.11999999731779099, 0.3580000102519989]}}, {"name": "FG16_03_Sealing_ring", "type": "MESH", "vertices": 480, "faces": 480, "edges": 960, "boundary_edges": 0, "non_manifold_edges": 0, "loose_vertices": 0, "volume_m3_signed": 1.580987921025256e-05, "modifiers": ["SCREW"], "bounds": {"min": [-0.08100000023841858, -0.11299999803304672, 0.125], "max": [-0.07500000298023224, 0.11299999803304672, 0.35100001096725464]}}, {"name": "FG16_05_Hollow_optical_element", "type": "MESH", "vertices": 11712, "faces": 11712, "edges": 23424, "boundary_edges": 0, "non_manifold_edges": 0, "loose_vertices": 0, "volume_m3_signed": 7.711987971205836e-05, "modifiers": ["SCREW", "SOLIDIFY"], "bounds": {"min": [-0.0768217146396637, -0.10899999737739563, 0.1290000081062317], "max": [0.008999999612569809, 0.10899999737739563, 0.34700000286102295]}}, {"name": "FG16_04_Lamp_glass", "type": "MESH", "vertices": 13826, "faces": 13920, "edges": 27744, "boundary_edges": 0, "non_manifold_edges": 0, "loose_vertices": 0, "volume_m3_signed": 3.96582526472744e-06, "modifiers": ["SCREW", "SOLIDIFY"], "bounds": {"min": [-0.07000000029802322, -0.023277999833226204, 0.21472200751304626], "max": [0.0010076661128550768, 0.023277999833226204, 0.2612780034542084]}}, {"name": "FG16_04_Lamp_metal_base", "type": "MESH", "vertices": 770, "faces": 864, "edges": 1632, "boundary_edges": 0, "non_manifold_edges": 0, "loose_vertices": 0, "volume_m3_signed": 2.548367761102962e-06, "modifiers": ["SCREW"], "bounds": {"min": [-0.0010000000474974513, -0.014000000432133675, 0.2240000069141388], "max": [0.02199999988079071, 0.014000000432133675, 0.25200000405311584]}}, {"name": "FG16_07_Cap_base", "type": "MESH", "vertices": 2976, "faces": 2976, "edges": 5952, "boundary_edges": 0, "non_manifold_edges": 0, "loose_vertices": 0, "volume_m3_signed": 4.295358471139289e-05, "modifiers": ["SCREW", "BEVEL"], "bounds": {"min": [0.004000000189989805, -0.026962077245116234, 0.21103793382644653], "max": [0.03400000184774399, 0.026962077245116234, 0.2649620771408081]}}, {"name": "FG16_08_Wiring_route_envelope", "type": "MESH", "vertices": 1164, "faces": 1172, "edges": 2334, "boundary_edges": 0, "non_manifold_edges": 0, "loose_vertices": 0, "volume_m3_signed": 5.6959881374029546e-06, "modifiers": ["WELD"], "bounds": {"min": [-0.003416883060708642, -0.0030000009573996067, 0.05500000715255737], "max": [0.04951484501361847, 0.0030000009573996067, 0.2422395795583725]}}]
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/MAZ543A_Master.blend"
+Fra:1 Mem:44.15M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | FG16_06_Hollow_curved_body
+Fra:1 Mem:44.15M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | FG16_02_Independent_front_rim
+Fra:1 Mem:44.90M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | LABEL_title
+Fra:1 Mem:47.53M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | LABEL_footer
+Fra:1 Mem:48.14M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | Front glass strip
+Fra:1 Mem:48.14M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | Rear contour
+Fra:1 Mem:48.14M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | Key softbox
+Fra:1 Mem:48.28M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | Studio_ground
+Fra:1 Mem:48.36M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | BENCH_collar_NOT_VEHICLE_PART
+Fra:1 Mem:48.90M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | BENCH_support_NOT_VEHICLE_PART
+Fra:1 Mem:49.19M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | BENCH_pedestal_NOT_VEHICLE_PART
+Fra:1 Mem:49.20M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | FG16_08_Wiring_route_envelope
+Fra:1 Mem:49.30M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | FG16_07_Cap_base
+Fra:1 Mem:49.82M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | FG16_03_Sealing_ring
+Fra:1 Mem:50.12M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | FG16_05_Hollow_optical_element
+Fra:1 Mem:50.56M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | FG16_04_Lamp_metal_base
+Fra:1 Mem:51.70M (Peak 75.55M) | Time:00:00.13 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Synchronizing object | FG16_04_Lamp_glass
+Fra:1 Mem:55.92M (Peak 75.55M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Initializing
+Fra:1 Mem:42.34M (Peak 75.55M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Waiting for render to start
+Fra:1 Mem:42.34M (Peak 75.55M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Scene
+Fra:1 Mem:42.34M (Peak 75.55M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Shaders
+Fra:1 Mem:42.34M (Peak 75.55M) | Time:00:00.14 | Mem:0.00M, Peak:0.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:42.43M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Procedurals
+Fra:1 Mem:42.43M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Background
+Fra:1 Mem:42.43M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Camera
+Fra:1 Mem:42.43M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:42.43M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Objects
+Fra:1 Mem:42.43M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:42.44M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Particle Systems
+Fra:1 Mem:42.44M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:42.44M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Meshes
+Fra:1 Mem:42.44M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:42.44M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:43.31M (Peak 75.55M) | Time:00:00.14 | Mem:0.01M, Peak:0.01M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:43.31M (Peak 75.55M) | Time:00:00.14 | Mem:0.88M, Peak:0.88M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:43.31M (Peak 75.55M) | Time:00:00.14 | Mem:0.88M, Peak:0.88M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:43.31M (Peak 75.55M) | Time:00:00.14 | Mem:5.61M, Peak:5.61M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:43.31M (Peak 75.55M) | Time:00:00.16 | Mem:10.27M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:43.31M (Peak 75.55M) | Time:00:00.16 | Mem:10.27M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:47.49M (Peak 75.55M) | Time:00:00.16 | Mem:10.27M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:47.49M (Peak 75.55M) | Time:00:00.16 | Mem:14.45M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Objects Flags
+Fra:1 Mem:47.49M (Peak 75.55M) | Time:00:00.16 | Mem:14.45M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:47.49M (Peak 75.55M) | Time:00:00.16 | Mem:14.45M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Images
+Fra:1 Mem:47.49M (Peak 75.55M) | Time:00:00.16 | Mem:14.45M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Camera Volume
+Fra:1 Mem:47.49M (Peak 75.55M) | Time:00:00.16 | Mem:14.45M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.49M (Peak 75.55M) | Time:00:00.16 | Mem:14.53M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Lights
+Fra:1 Mem:47.49M (Peak 75.55M) | Time:00:00.16 | Mem:14.53M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:47.78M (Peak 75.55M) | Time:00:00.17 | Mem:14.82M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Integrator
+Fra:1 Mem:47.78M (Peak 75.55M) | Time:00:00.17 | Mem:14.82M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Film
+Fra:1 Mem:47.78M (Peak 75.55M) | Time:00:00.17 | Mem:14.74M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:47.78M (Peak 75.55M) | Time:00:00.17 | Mem:14.83M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Baking
+Fra:1 Mem:47.78M (Peak 75.55M) | Time:00:00.17 | Mem:14.83M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:47.79M (Peak 75.55M) | Time:00:00.17 | Mem:14.83M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:47.79M (Peak 75.55M) | Time:00:00.17 | Mem:14.83M, Peak:15.00M | FG16_ASSEMBLED_STUDY, ViewLayer | Sample 0/64
+Fra:1 Mem:159.45M (Peak 159.45M) | Time:00:01.51 | Remaining:01:24.17 | Mem:126.45M, Peak:126.45M | FG16_ASSEMBLED_STUDY, ViewLayer | Sample 1/64
+Fra:1 Mem:159.45M (Peak 159.45M) | Time:00:21.20 | Remaining:00:58.14 | Mem:126.45M, Peak:126.45M | FG16_ASSEMBLED_STUDY, ViewLayer | Sample 17/64
+Fra:1 Mem:159.45M (Peak 159.45M) | Time:01:00.38 | Remaining:00:18.43 | Mem:126.45M, Peak:126.45M | FG16_ASSEMBLED_STUDY, ViewLayer | Sample 49/64
+Fra:1 Mem:206.45M (Peak 276.94M) | Time:01:26.77 | Mem:126.45M, Peak:126.45M | FG16_ASSEMBLED_STUDY, ViewLayer | Sample 64/64
+Fra:1 Mem:206.45M (Peak 276.94M) | Time:01:26.77 | Mem:126.45M, Peak:126.45M | FG16_ASSEMBLED_STUDY, ViewLayer | Finished
+Saved: '/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-fg16-study-20260930/cycles-assembled.png'
+Time: 01:26.97 (Saving: 00:00.19)
+
+Fra:1 Mem:95.29M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | FG16_06_Hollow_curved_body.001
+Fra:1 Mem:95.55M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | LABEL_title.001
+Fra:1 Mem:96.88M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | LABEL_footer.001
+Fra:1 Mem:97.82M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | Front glass strip.001
+Fra:1 Mem:97.78M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | Rear contour.001
+Fra:1 Mem:97.78M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | Key softbox.001
+Fra:1 Mem:97.78M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | Studio_ground.001
+Fra:1 Mem:97.78M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | BENCH_collar_NOT_VEHICLE_PART.001
+Fra:1 Mem:97.91M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | FG16_03_Sealing_ring.001
+Fra:1 Mem:98.09M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | BENCH_support_NOT_VEHICLE_PART.001
+Fra:1 Mem:98.47M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | FG16_05_Hollow_optical_element.001
+Fra:1 Mem:98.57M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | FG16_04_Lamp_glass.001
+Fra:1 Mem:99.07M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | BENCH_pedestal_NOT_VEHICLE_PART.001
+Fra:1 Mem:99.62M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | FG16_04_Lamp_metal_base.001
+Fra:1 Mem:101.05M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | FG16_08_Wiring_route_envelope.001
+Fra:1 Mem:101.92M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Synchronizing object | FG16_07_Cap_base.001
+Fra:1 Mem:103.44M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Initializing
+Fra:1 Mem:93.12M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Waiting for render to start
+Fra:1 Mem:93.12M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Scene
+Fra:1 Mem:93.12M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Shaders
+Fra:1 Mem:93.12M (Peak 169.75M) | Time:00:00.30 | Mem:0.00M, Peak:0.00M | FG16_SECTION_PRESENTATION, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:93.21M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Procedurals
+Fra:1 Mem:93.21M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Background
+Fra:1 Mem:93.21M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Camera
+Fra:1 Mem:93.21M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:93.21M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Objects
+Fra:1 Mem:93.21M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:93.21M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Particle Systems
+Fra:1 Mem:93.21M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:93.21M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Meshes
+Fra:1 Mem:93.21M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:93.21M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:93.81M (Peak 169.75M) | Time:00:00.30 | Mem:0.01M, Peak:0.01M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:93.81M (Peak 169.75M) | Time:00:00.30 | Mem:0.61M, Peak:0.61M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:93.81M (Peak 169.75M) | Time:00:00.30 | Mem:0.61M, Peak:0.61M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:93.81M (Peak 169.75M) | Time:00:00.30 | Mem:3.89M, Peak:3.89M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:1 Mem:93.81M (Peak 169.75M) | Time:00:00.31 | Mem:7.11M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:93.81M (Peak 169.75M) | Time:00:00.31 | Mem:7.11M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:96.71M (Peak 169.75M) | Time:00:00.31 | Mem:7.11M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:96.71M (Peak 169.75M) | Time:00:00.31 | Mem:10.01M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Objects Flags
+Fra:1 Mem:96.71M (Peak 169.75M) | Time:00:00.31 | Mem:10.01M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:96.71M (Peak 169.75M) | Time:00:00.31 | Mem:10.01M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Images
+Fra:1 Mem:96.71M (Peak 169.75M) | Time:00:00.31 | Mem:10.01M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Camera Volume
+Fra:1 Mem:96.71M (Peak 169.75M) | Time:00:00.31 | Mem:10.01M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:96.71M (Peak 169.75M) | Time:00:00.31 | Mem:10.09M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Lights
+Fra:1 Mem:96.71M (Peak 169.75M) | Time:00:00.31 | Mem:10.09M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:96.87M (Peak 169.75M) | Time:00:00.32 | Mem:10.25M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Integrator
+Fra:1 Mem:96.87M (Peak 169.75M) | Time:00:00.32 | Mem:10.25M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Film
+Fra:1 Mem:96.88M (Peak 169.75M) | Time:00:00.32 | Mem:10.17M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:96.88M (Peak 169.75M) | Time:00:00.32 | Mem:10.26M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Baking
+Fra:1 Mem:96.88M (Peak 169.75M) | Time:00:00.32 | Mem:10.26M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:96.88M (Peak 169.75M) | Time:00:00.32 | Mem:10.26M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:96.88M (Peak 169.75M) | Time:00:00.32 | Mem:10.26M, Peak:10.39M | FG16_SECTION_PRESENTATION, ViewLayer | Sample 0/64
+Fra:1 Mem:208.54M (Peak 208.54M) | Time:00:01.50 | Remaining:01:14.84 | Mem:121.88M, Peak:121.88M | FG16_SECTION_PRESENTATION, ViewLayer | Sample 1/64
+Fra:1 Mem:208.54M (Peak 208.54M) | Time:00:37.69 | Remaining:00:35.10 | Mem:121.88M, Peak:121.88M | FG16_SECTION_PRESENTATION, ViewLayer | Sample 33/64
+Fra:1 Mem:255.54M (Peak 326.04M) | Time:01:21.75 | Mem:121.88M, Peak:121.88M | FG16_SECTION_PRESENTATION, ViewLayer | Sample 64/64
+Fra:1 Mem:255.54M (Peak 326.04M) | Time:01:21.75 | Mem:121.88M, Peak:121.88M | FG16_SECTION_PRESENTATION, ViewLayer | Finished
+Saved: '/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-fg16-study-20260930/cycles-section.png'
+Time: 01:21.91 (Saving: 00:00.15)
+
+Info: Saved as "FG16_Native_Structural_Study.blend"
+Info: Saved as "FG16_Native_Structural_Study.blend"
+FG16_STUDY_COMPLETE {"blend": "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-fg16-study-20260930/FG16_Native_Structural_Study.blend", "axis_pass": true, "unresolved_intersections": []}
+
+Blender quit

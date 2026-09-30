@@ -1,0 +1,303 @@
+{
+  "packed_local_source_sha256_before": "a72d32f0d28c496efd7c78794b7a50a1dd400a08caea561866366f21d0b414f1",
+  "packed_local_source_sha256_after": "a72d32f0d28c496efd7c78794b7a50a1dd400a08caea561866366f21d0b414f1",
+  "local_source_unchanged": true,
+  "shareable_file": "FG16_Native_Structural_Study_SHAREABLE.blend",
+  "shareable_bytes": 185537,
+  "shareable_sha256": "d3035f7709bc522ace746057eced4e4d076d2c664dfe0551805c567ae5eb7e20",
+  "source_reference_metadata": [
+    {
+      "filename": "1977-original-p216-217.png",
+      "source_url": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+      "title": "Колесное шасси МАЗ-543 и его модификации. Техническое описание",
+      "edition": "3rd edition, Moscow 1977, Военное издательство Министерства обороны СССР",
+      "source_sha256": "174b10865dbb243ae0e06ffb162fbc81d9b9ea345585f801d5ae709d144ce3c8",
+      "rights_status": "Local research reference; public redistribution license not established. Shareable edition omits scan pixels.",
+      "scan_pixels_in_this_file": false
+    },
+    {
+      "filename": "1977-original-p26-27.png",
+      "source_url": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+      "title": "Колесное шасси МАЗ-543 и его модификации. Техническое описание",
+      "edition": "3rd edition, Moscow 1977, Военное издательство Министерства обороны СССР",
+      "source_sha256": "4160ffdf45094a9f17b33abad87aed2c5ef117e9adf7de009d4682ec47fc86e2",
+      "rights_status": "Local research reference; public redistribution license not established. Shareable edition omits scan pixels.",
+      "scan_pixels_in_this_file": false
+    }
+  ],
+  "image_datablocks_after_reopen": 0,
+  "geometry_transforms_identical_after_reopen": true,
+  "evaluated_object_instances_checked": 53,
+  "scene_names": [
+    "FG16_ASSEMBLED_STUDY",
+    "FG16_SECTION_PRESENTATION"
+  ],
+  "signatures": {
+    "FG16_ASSEMBLED_STUDY/FG16_06_Hollow_curved_body": {
+      "geometry_transform_sha256": "51c81f2729fe84c8bbbd08320977a6d10bed97c9d9f7c3560c919818835c689b",
+      "vertices": 13960,
+      "polygons": 13976
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_01_Colorless_smooth_glass": {
+      "geometry_transform_sha256": "cac259e4c77de41cde84d567a808f44edbd080be19edfdec3fa32ec21f8031c2",
+      "vertices": 6914,
+      "polygons": 7008
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_02_Independent_front_rim": {
+      "geometry_transform_sha256": "32d1e6c93636eaf9268422c93ae2e3cb78c5417bc5fae8103264eca92439a649",
+      "vertices": 3552,
+      "polygons": 3552
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_03_Sealing_ring": {
+      "geometry_transform_sha256": "a7b9d3edb945022ef6213771fe30841116eda0d27e2289a38df248860054ce8a",
+      "vertices": 480,
+      "polygons": 480
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_05_Hollow_optical_element": {
+      "geometry_transform_sha256": "992ef7aa5f4a20c3c67cb25389d7060a79249b1450386afbd5aecbe52b1ef2d4",
+      "vertices": 11712,
+      "polygons": 11712
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_04_Lamp_glass": {
+      "geometry_transform_sha256": "50c702e3f69489eaf23035bcb7753880d8bb4f16bf8f9cfe51ac13793204c930",
+      "vertices": 13826,
+      "polygons": 13920
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_04_Lamp_metal_base": {
+      "geometry_transform_sha256": "d0602388b3c765dbcc5d01cc7c15595d84771bc5693c40aebd99b761d561debe",
+      "vertices": 770,
+      "polygons": 864
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_07_Cap_base": {
+      "geometry_transform_sha256": "7e177b8ed05143bb6f00430fc9c3942fb148234faeea1666a7d373f63e5c45d7",
+      "vertices": 2976,
+      "polygons": 2976
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_08_Wiring_route_envelope": {
+      "geometry_transform_sha256": "bf628c41160d350763334602e4d9dde003b82e266437f7cbe9f285c8401af654",
+      "vertices": 1164,
+      "polygons": 1172
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_06_Hollow_curved_body_PROFILE": {
+      "geometry_transform_sha256": "e475adf1537731af7f46602f84ea4d88df96e9a0f44368960850b3f87b02243a",
+      "vertices": 73,
+      "polygons": 0
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_01_Colorless_smooth_glass_PROFILE": {
+      "geometry_transform_sha256": "97fdb03424fbdd50dbd3688f244f5e4c0bdeceada5be85068ede70102036d542",
+      "vertices": 37,
+      "polygons": 0
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_02_Independent_front_rim_PROFILE": {
+      "geometry_transform_sha256": "c02b023475a1bd5aadc5a44c47f4a26a05142fa87a770f3093a12830fa6116f6",
+      "vertices": 10,
+      "polygons": 0
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_03_Sealing_ring_PROFILE": {
+      "geometry_transform_sha256": "9ebe1a7b281aa18bc5a15dacf3e482c5dd688df51dbdf1dc9cee2f9a631a4b53",
+      "vertices": 5,
+      "polygons": 0
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_05_Hollow_optical_element_PROFILE": {
+      "geometry_transform_sha256": "f44aa7cd56d7b1e0c22b3983c56c1fdfaf8307b1ec5770e81b490e417143b231",
+      "vertices": 61,
+      "polygons": 0
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_04_Lamp_glass_PROFILE": {
+      "geometry_transform_sha256": "e0c9a8ab3ea77a1c8b0ce012fe7af590b5780519367ff4f2fd1c55191c8a82f8",
+      "vertices": 73,
+      "polygons": 0
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_04_Lamp_metal_base_PROFILE": {
+      "geometry_transform_sha256": "ead52eadb51610a62acfaffc10fa7da398bb79adf4bb34a33fcbe4aa348f063d",
+      "vertices": 10,
+      "polygons": 0
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_07_Cap_base_PROFILE": {
+      "geometry_transform_sha256": "0c55b37e37e4c8d7ecdbb866995c8b4834f79fad5d63999a1e75bc764b9c4c2c",
+      "vertices": 11,
+      "polygons": 0
+    },
+    "FG16_ASSEMBLED_STUDY/FG16_08_Wiring_route_PROFILE": {
+      "geometry_transform_sha256": "80ff44e308122a9baa647e0108ec40eb31519adad506f1c2941addde668ac99f",
+      "vertices": 1188,
+      "polygons": 1172
+    },
+    "FG16_ASSEMBLED_STUDY/BENCH_pedestal_NOT_VEHICLE_PART": {
+      "geometry_transform_sha256": "61f88ff3e86922de7609d312826104afcdc55fe4787a05d0952e8961e36fdc09",
+      "vertices": 512,
+      "polygons": 450
+    },
+    "FG16_ASSEMBLED_STUDY/BENCH_support_NOT_VEHICLE_PART": {
+      "geometry_transform_sha256": "ff91c8b74f5cda94f9e3f2586e54c8f807bbcd40c68f08a641876a8430f1c3f3",
+      "vertices": 1024,
+      "polygons": 900
+    },
+    "FG16_ASSEMBLED_STUDY/BENCH_collar_NOT_VEHICLE_PART": {
+      "geometry_transform_sha256": "ee5df3cff42c3a818d03da6ddb127206b70e0daf9c512eeaba59e3ad1daa2826",
+      "vertices": 1024,
+      "polygons": 900
+    },
+    "FG16_ASSEMBLED_STUDY/TOOL_wire_exit_clearance": {
+      "geometry_transform_sha256": "54e4cc5b8578faa4cd4710e3e6a1f92130a8189f4c9b5bfa90145f4cf0c3a1f9",
+      "vertices": 128,
+      "polygons": 66
+    },
+    "FG16_ASSEMBLED_STUDY/TOOL_bench_wire_bore": {
+      "geometry_transform_sha256": "8514e56b7d61f1b92fa6891074021a44f809bfe06ac22a0be832f794fe13380a",
+      "vertices": 128,
+      "polygons": 66
+    },
+    "FG16_ASSEMBLED_STUDY/Studio_ground": {
+      "geometry_transform_sha256": "ca3f80c452948b6b84df9b968486739c388c338c96156bc25c791afa3e8c074c",
+      "vertices": 4,
+      "polygons": 1
+    },
+    "FG16_ASSEMBLED_STUDY/LABEL_title": {
+      "geometry_transform_sha256": "d233b1f3b60bde8c75caa31db90189e9e232b52c228c1c654799d8565920b4c8",
+      "vertices": 1604,
+      "polygons": 1566
+    },
+    "FG16_ASSEMBLED_STUDY/LABEL_footer": {
+      "geometry_transform_sha256": "9014ad0128980a9c70b4a58382a249be26fd655e6cd2cfbf747fc0c0e204e66a",
+      "vertices": 1708,
+      "polygons": 1638
+    },
+    "FG16_SECTION_PRESENTATION/SECTION_TOOL_REMOVE_Y_NEGATIVE": {
+      "geometry_transform_sha256": "7beccc54d92d43d04a34255e9b7452dd8ae3069c5acd67c3603145cfe3a62b0d",
+      "vertices": 8,
+      "polygons": 6
+    },
+    "FG16_SECTION_PRESENTATION/FG16_06_Hollow_curved_body.001": {
+      "geometry_transform_sha256": "5dbec9919829392c469104ca6f1e2b687b0a7e90c33e3cc1f407e3f53a006c07",
+      "vertices": 7313,
+      "polygons": 7172
+    },
+    "FG16_SECTION_PRESENTATION/FG16_01_Colorless_smooth_glass.001": {
+      "geometry_transform_sha256": "6c328f7e708f0cb5ec329595bf4c19ce6e2facc4975e6cffd20a8aae08f7f8d9",
+      "vertices": 3650,
+      "polygons": 3623
+    },
+    "FG16_SECTION_PRESENTATION/FG16_02_Independent_front_rim.001": {
+      "geometry_transform_sha256": "5598830fa2044add5d7e5b00b27e85e1a6fdf2b8b509ce881b9ec682c0643fab",
+      "vertices": 1850,
+      "polygons": 1815
+    },
+    "FG16_SECTION_PRESENTATION/FG16_03_Sealing_ring.001": {
+      "geometry_transform_sha256": "82ff15f819b4efc1f27fc82b68c6a4199ee9c90efd6912fdcb59b91afc061104",
+      "vertices": 250,
+      "polygons": 247
+    },
+    "FG16_SECTION_PRESENTATION/FG16_05_Hollow_optical_element.001": {
+      "geometry_transform_sha256": "9301217d78dbafb910dca1c9657bcee37cd88d1395d6af5b9e8651d5443f3f2d",
+      "vertices": 6090,
+      "polygons": 5968
+    },
+    "FG16_SECTION_PRESENTATION/FG16_04_Lamp_glass.001": {
+      "geometry_transform_sha256": "5b8f9da13a16dec4245dcdd378ab7df628bd6fdf65295289c58adbdcd6a5d68c",
+      "vertices": 13826,
+      "polygons": 13920
+    },
+    "FG16_SECTION_PRESENTATION/FG16_04_Lamp_metal_base.001": {
+      "geometry_transform_sha256": "c402e590de3ac6ba29a5c7ef47bfa6ca23fce34dee7afed5b0ab0a9da2c52aa4",
+      "vertices": 770,
+      "polygons": 864
+    },
+    "FG16_SECTION_PRESENTATION/FG16_07_Cap_base.001": {
+      "geometry_transform_sha256": "816a8764d6ceb286246bfb7e65fff21ec69edf63d7ea58fb02b21592affde1a5",
+      "vertices": 2976,
+      "polygons": 2976
+    },
+    "FG16_SECTION_PRESENTATION/FG16_08_Wiring_route_envelope.001": {
+      "geometry_transform_sha256": "8abd7ad3b5209a92c910911f7b522fddc216dfee36130b1c2081e8cab3e9453b",
+      "vertices": 1164,
+      "polygons": 1172
+    },
+    "FG16_SECTION_PRESENTATION/FG16_06_Hollow_curved_body_PROFILE.001": {
+      "geometry_transform_sha256": "e475adf1537731af7f46602f84ea4d88df96e9a0f44368960850b3f87b02243a",
+      "vertices": 73,
+      "polygons": 0
+    },
+    "FG16_SECTION_PRESENTATION/FG16_01_Colorless_smooth_glass_PROFILE.001": {
+      "geometry_transform_sha256": "97fdb03424fbdd50dbd3688f244f5e4c0bdeceada5be85068ede70102036d542",
+      "vertices": 37,
+      "polygons": 0
+    },
+    "FG16_SECTION_PRESENTATION/FG16_02_Independent_front_rim_PROFILE.001": {
+      "geometry_transform_sha256": "c02b023475a1bd5aadc5a44c47f4a26a05142fa87a770f3093a12830fa6116f6",
+      "vertices": 10,
+      "polygons": 0
+    },
+    "FG16_SECTION_PRESENTATION/FG16_03_Sealing_ring_PROFILE.001": {
+      "geometry_transform_sha256": "9ebe1a7b281aa18bc5a15dacf3e482c5dd688df51dbdf1dc9cee2f9a631a4b53",
+      "vertices": 5,
+      "polygons": 0
+    },
+    "FG16_SECTION_PRESENTATION/FG16_05_Hollow_optical_element_PROFILE.001": {
+      "geometry_transform_sha256": "f44aa7cd56d7b1e0c22b3983c56c1fdfaf8307b1ec5770e81b490e417143b231",
+      "vertices": 61,
+      "polygons": 0
+    },
+    "FG16_SECTION_PRESENTATION/FG16_04_Lamp_glass_PROFILE.001": {
+      "geometry_transform_sha256": "e0c9a8ab3ea77a1c8b0ce012fe7af590b5780519367ff4f2fd1c55191c8a82f8",
+      "vertices": 73,
+      "polygons": 0
+    },
+    "FG16_SECTION_PRESENTATION/FG16_04_Lamp_metal_base_PROFILE.001": {
+      "geometry_transform_sha256": "ead52eadb51610a62acfaffc10fa7da398bb79adf4bb34a33fcbe4aa348f063d",
+      "vertices": 10,
+      "polygons": 0
+    },
+    "FG16_SECTION_PRESENTATION/FG16_07_Cap_base_PROFILE.001": {
+      "geometry_transform_sha256": "0c55b37e37e4c8d7ecdbb866995c8b4834f79fad5d63999a1e75bc764b9c4c2c",
+      "vertices": 11,
+      "polygons": 0
+    },
+    "FG16_SECTION_PRESENTATION/FG16_08_Wiring_route_PROFILE.001": {
+      "geometry_transform_sha256": "80ff44e308122a9baa647e0108ec40eb31519adad506f1c2941addde668ac99f",
+      "vertices": 1188,
+      "polygons": 1172
+    },
+    "FG16_SECTION_PRESENTATION/BENCH_pedestal_NOT_VEHICLE_PART.001": {
+      "geometry_transform_sha256": "62183b1074c26a0d91debccde35bd0b488be9ed930955ecbd968a5becd87598e",
+      "vertices": 512,
+      "polygons": 450
+    },
+    "FG16_SECTION_PRESENTATION/BENCH_support_NOT_VEHICLE_PART.001": {
+      "geometry_transform_sha256": "54c573e94214d89e9c000302cea99666195a2f2616548a7e6af824e11c866fd8",
+      "vertices": 1024,
+      "polygons": 900
+    },
+    "FG16_SECTION_PRESENTATION/BENCH_collar_NOT_VEHICLE_PART.001": {
+      "geometry_transform_sha256": "b478097849b65adcdffe6276d0888f0b5fdccc32b4bff5252251f6c1d5dad656",
+      "vertices": 1024,
+      "polygons": 900
+    },
+    "FG16_SECTION_PRESENTATION/TOOL_wire_exit_clearance.001": {
+      "geometry_transform_sha256": "66e9384292ea6ef979ae945146f5faf243116d839e0f6c21acceab7c36bbf891",
+      "vertices": 128,
+      "polygons": 66
+    },
+    "FG16_SECTION_PRESENTATION/TOOL_bench_wire_bore.001": {
+      "geometry_transform_sha256": "502d30f26ef91b5aca50b3f7fecc7ea7d0ded56124d645fbba26df77967b064b",
+      "vertices": 128,
+      "polygons": 66
+    },
+    "FG16_SECTION_PRESENTATION/Studio_ground.001": {
+      "geometry_transform_sha256": "fd213c0095270a938441b6c2194a7d15d3cc62d839e9e276d577541bd54cd722",
+      "vertices": 4,
+      "polygons": 1
+    },
+    "FG16_SECTION_PRESENTATION/LABEL_title.001": {
+      "geometry_transform_sha256": "ba7dda41141af798da698c3509a8feae6bb6aa6187f72c7206533347395174af",
+      "vertices": 901,
+      "polygons": 867
+    },
+    "FG16_SECTION_PRESENTATION/LABEL_footer.001": {
+      "geometry_transform_sha256": "8e5978edcb69763e3201f6817fa8d73447596c8b96b81eb0e08d8d28740b4fc2",
+      "vertices": 1708,
+      "polygons": 1638
+    }
+  },
+  "publication": "NOT PUBLISHED; candidate only, no production promotion"
+}

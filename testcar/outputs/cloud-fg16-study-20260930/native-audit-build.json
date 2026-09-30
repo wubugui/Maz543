@@ -1,0 +1,387 @@
+{
+  "scope": "Independent structural study only; all 16 gates OPEN",
+  "blender_version": "4.5.13 LTS",
+  "production_sha256_before": {
+    "testcar/outputs/MAZ543A_Master.blend": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3",
+    "testcar/outputs/MAZ543A_Textured.blend": "f927cfffae77e443fe6f7c8536bb2344d6b7694f335a071a26d4bba22e350f5d",
+    "testcar/public/models/maz543a-blender.glb": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698"
+  },
+  "production_three_parts_geometry_before": {
+    "BL_Searchlight_housing": {
+      "vertices": 128,
+      "polygons": 66,
+      "geometry_matrix_sha256": "32f8401bc6cc084cd88dfd679da9288bcc585861e2f87ff0d527620b26f3b230"
+    },
+    "BL_Searchlight_lens": {
+      "vertices": 128,
+      "polygons": 66,
+      "geometry_matrix_sha256": "7cd58ba67ac33dfd1fab3382f52ad2182ad86e9a0d38252e94e81ecb0e912222"
+    },
+    "BL_Searchlight_stand": {
+      "vertices": 64,
+      "polygons": 34,
+      "geometry_matrix_sha256": "efc61042f37e4984df72fbaa6d57eb04783ca27c693291c0504ce9e31c3dc4f3"
+    }
+  },
+  "source": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+  "source_image_sha256": "174b10865dbb243ae0e06ffb162fbc81d9b9ea345585f801d5ae709d144ce3c8",
+  "topology": [
+    {
+      "name": "FG16_06_Hollow_curved_body",
+      "type": "MESH",
+      "vertices": 13960,
+      "faces": 13976,
+      "edges": 27936,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "volume_m3_signed": 0.00022077512286381037,
+      "modifiers": [
+        "SCREW",
+        "SOLIDIFY",
+        "BOOLEAN",
+        "WELD"
+      ],
+      "bounds": {
+        "min": [
+          -0.07199999690055847,
+          -0.11783349514007568,
+          0.12016651034355164
+        ],
+        "max": [
+          0.0860000029206276,
+          0.11783349514007568,
+          0.355833500623703
+        ]
+      }
+    },
+    {
+      "name": "FG16_01_Colorless_smooth_glass",
+      "type": "MESH",
+      "vertices": 6914,
+      "faces": 7008,
+      "edges": 13920,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "volume_m3_signed": 0.00011108385736338163,
+      "modifiers": [
+        "SCREW",
+        "SOLIDIFY"
+      ],
+      "bounds": {
+        "min": [
+          -0.09399999678134918,
+          -0.1080000028014183,
+          0.12999999523162842
+        ],
+        "max": [
+          -0.07808826118707657,
+          0.1080000028014183,
+          0.3460000157356262
+        ]
+      }
+    },
+    {
+      "name": "FG16_02_Independent_front_rim",
+      "type": "MESH",
+      "vertices": 3552,
+      "faces": 3552,
+      "edges": 7104,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "volume_m3_signed": 9.19775252692869e-05,
+      "modifiers": [
+        "SCREW",
+        "BEVEL"
+      ],
+      "bounds": {
+        "min": [
+          -0.08900000154972076,
+          -0.11999999731779099,
+          0.11800000816583633
+        ],
+        "max": [
+          -0.0729999989271164,
+          0.11999999731779099,
+          0.3580000102519989
+        ]
+      }
+    },
+    {
+      "name": "FG16_03_Sealing_ring",
+      "type": "MESH",
+      "vertices": 480,
+      "faces": 480,
+      "edges": 960,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "volume_m3_signed": 1.580987921025256e-05,
+      "modifiers": [
+        "SCREW"
+      ],
+      "bounds": {
+        "min": [
+          -0.08100000023841858,
+          -0.11299999803304672,
+          0.125
+        ],
+        "max": [
+          -0.07500000298023224,
+          0.11299999803304672,
+          0.35100001096725464
+        ]
+      }
+    },
+    {
+      "name": "FG16_05_Hollow_optical_element",
+      "type": "MESH",
+      "vertices": 11712,
+      "faces": 11712,
+      "edges": 23424,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "volume_m3_signed": 7.711987971205836e-05,
+      "modifiers": [
+        "SCREW",
+        "SOLIDIFY"
+      ],
+      "bounds": {
+        "min": [
+          -0.0768217146396637,
+          -0.10899999737739563,
+          0.1290000081062317
+        ],
+        "max": [
+          0.008999999612569809,
+          0.10899999737739563,
+          0.34700000286102295
+        ]
+      }
+    },
+    {
+      "name": "FG16_04_Lamp_glass",
+      "type": "MESH",
+      "vertices": 13826,
+      "faces": 13920,
+      "edges": 27744,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "volume_m3_signed": 3.96582526472744e-06,
+      "modifiers": [
+        "SCREW",
+        "SOLIDIFY"
+      ],
+      "bounds": {
+        "min": [
+          -0.07000000029802322,
+          -0.023277999833226204,
+          0.21472200751304626
+        ],
+        "max": [
+          0.0010076661128550768,
+          0.023277999833226204,
+          0.2612780034542084
+        ]
+      }
+    },
+    {
+      "name": "FG16_04_Lamp_metal_base",
+      "type": "MESH",
+      "vertices": 770,
+      "faces": 864,
+      "edges": 1632,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "volume_m3_signed": 2.548367761102962e-06,
+      "modifiers": [
+        "SCREW"
+      ],
+      "bounds": {
+        "min": [
+          -0.0010000000474974513,
+          -0.014000000432133675,
+          0.2240000069141388
+        ],
+        "max": [
+          0.02199999988079071,
+          0.014000000432133675,
+          0.25200000405311584
+        ]
+      }
+    },
+    {
+      "name": "FG16_07_Cap_base",
+      "type": "MESH",
+      "vertices": 2976,
+      "faces": 2976,
+      "edges": 5952,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "volume_m3_signed": 4.295358471139289e-05,
+      "modifiers": [
+        "SCREW",
+        "BEVEL"
+      ],
+      "bounds": {
+        "min": [
+          0.004000000189989805,
+          -0.026962077245116234,
+          0.21103793382644653
+        ],
+        "max": [
+          0.03400000184774399,
+          0.026962077245116234,
+          0.2649620771408081
+        ]
+      }
+    },
+    {
+      "name": "FG16_08_Wiring_route_envelope",
+      "type": "MESH",
+      "vertices": 1164,
+      "faces": 1172,
+      "edges": 2334,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "loose_vertices": 0,
+      "volume_m3_signed": 5.6959881374029546e-06,
+      "modifiers": [
+        "WELD"
+      ],
+      "bounds": {
+        "min": [
+          -0.003416883060708642,
+          -0.0030000009573996067,
+          0.05500000715255737
+        ],
+        "max": [
+          0.04951484501361847,
+          0.0030000009573996067,
+          0.2422395795583725
+        ]
+      }
+    }
+  ],
+  "contacts": [
+    {
+      "a": "FG16_06_Hollow_curved_body",
+      "b": "FG16_02_Independent_front_rim",
+      "surface_triangle_pairs": 0,
+      "intended_interface": "Rim/housing retaining interface; fitted",
+      "classification": "INTENDED_ASSEMBLY_INTERFACE_REQUIRES_CALIBRATION"
+    },
+    {
+      "a": "FG16_01_Colorless_smooth_glass",
+      "b": "FG16_03_Sealing_ring",
+      "surface_triangle_pairs": 95,
+      "intended_interface": "Glass edge/gasket seat; fitted seal compression, not calibrated",
+      "classification": "INTENDED_ASSEMBLY_INTERFACE_REQUIRES_CALIBRATION"
+    },
+    {
+      "a": "FG16_02_Independent_front_rim",
+      "b": "FG16_03_Sealing_ring",
+      "surface_triangle_pairs": 636,
+      "intended_interface": "Rim clamps gasket; fitted seal compression",
+      "classification": "INTENDED_ASSEMBLY_INTERFACE_REQUIRES_CALIBRATION"
+    },
+    {
+      "a": "FG16_03_Sealing_ring",
+      "b": "FG16_05_Hollow_optical_element",
+      "surface_triangle_pairs": 596,
+      "intended_interface": "Gasket/optical-element seat; uncalibrated",
+      "classification": "INTENDED_ASSEMBLY_INTERFACE_REQUIRES_CALIBRATION"
+    },
+    {
+      "a": "FG16_05_Hollow_optical_element",
+      "b": "FG16_07_Cap_base",
+      "surface_triangle_pairs": 617,
+      "intended_interface": "Optical bowl central cap interface; approximate",
+      "classification": "INTENDED_ASSEMBLY_INTERFACE_REQUIRES_CALIBRATION"
+    },
+    {
+      "a": "FG16_04_Lamp_glass",
+      "b": "FG16_04_Lamp_metal_base",
+      "surface_triangle_pairs": 0,
+      "intended_interface": "Bulb envelope to mounting base; attachment seam",
+      "classification": "INTENDED_ASSEMBLY_INTERFACE_REQUIRES_CALIBRATION"
+    },
+    {
+      "a": "FG16_04_Lamp_metal_base",
+      "b": "FG16_07_Cap_base",
+      "surface_triangle_pairs": 0,
+      "intended_interface": "Bulb cap seat in lamp base; contact geometry approximate",
+      "classification": "INTENDED_ASSEMBLY_INTERFACE_REQUIRES_CALIBRATION"
+    },
+    {
+      "a": "FG16_07_Cap_base",
+      "b": "FG16_08_Wiring_route_envelope",
+      "surface_triangle_pairs": 0,
+      "intended_interface": "Wiring enters cap, route envelope only",
+      "classification": "INTENDED_ASSEMBLY_INTERFACE_REQUIRES_CALIBRATION"
+    }
+  ],
+  "contact_audit_limit": "Triangle surface overlaps only; full containment and physical seal compression are not certified. Named interfaces are identified, never waived into a general pass. Fitted bench and unsupported screw installation are excluded from a vehicle assembly acceptance.",
+  "horizontal_axis": [
+    {
+      "input_deg": -210,
+      "evaluated_deg": -169.99999334703236,
+      "expected_deg": -170
+    },
+    {
+      "input_deg": -170,
+      "evaluated_deg": -169.99999334703236,
+      "expected_deg": -170
+    },
+    {
+      "input_deg": -90,
+      "evaluated_deg": -90.00000250447816,
+      "expected_deg": -90
+    },
+    {
+      "input_deg": 0,
+      "evaluated_deg": 0.0,
+      "expected_deg": 0
+    },
+    {
+      "input_deg": 90,
+      "evaluated_deg": 90.00000250447816,
+      "expected_deg": 90
+    },
+    {
+      "input_deg": 170,
+      "evaluated_deg": 169.99999334703236,
+      "expected_deg": 170
+    },
+    {
+      "input_deg": 210,
+      "evaluated_deg": 169.99999334703236,
+      "expected_deg": 170
+    }
+  ],
+  "horizontal_axis_pass": true,
+  "unresolved": [
+    "All metric geometry and material parameters fitted",
+    "Original support/yoke, vertical pivot, cab control linkage and vertical stops not reconstructed",
+    "Fastening screw shape/axis and installed contact remain unresolved",
+    "No calibrated seal compression, optical prescription or electrical circuit",
+    "No in-vehicle motion/clearance/AO/browser/installed-height acceptance"
+  ],
+  "production_sha256_after": {
+    "testcar/outputs/MAZ543A_Master.blend": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3",
+    "testcar/outputs/MAZ543A_Textured.blend": "f927cfffae77e443fe6f7c8536bb2344d6b7694f335a071a26d4bba22e350f5d",
+    "testcar/public/models/maz543a-blender.glb": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698"
+  },
+  "production_files_byte_unchanged": true,
+  "render_engine": "Cycles CPU, 64 samples, actual Blender renders",
+  "rendered_views": [
+    "cycles-assembled.png",
+    "cycles-section.png"
+  ]
+}

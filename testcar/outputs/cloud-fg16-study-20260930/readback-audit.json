@@ -1,0 +1,762 @@
+{
+  "status": "LIMITED_NATIVE_STUDY_ONLY_NOT_PRODUCTION",
+  "blender_version": "4.5.13 LTS",
+  "all_16_vehicle_gates": "OPEN",
+  "source_components_meshes": 9,
+  "unmodeled_source_fastener_locator": "UNMODELED_SOURCE_IDENTIFIED",
+  "native_source_curves": 9,
+  "topology": [
+    {
+      "name": "FG16_06_Hollow_curved_body",
+      "vertices": 13960,
+      "faces": 13976,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 0.00022077512286381037,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "FG16_01_Colorless_smooth_glass",
+      "vertices": 6914,
+      "faces": 7008,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 0.00011108385736338163,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "FG16_02_Independent_front_rim",
+      "vertices": 3552,
+      "faces": 3552,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 9.19775252692869e-05,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "FG16_03_Sealing_ring",
+      "vertices": 480,
+      "faces": 480,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.580987921025256e-05,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "FG16_05_Hollow_optical_element",
+      "vertices": 11712,
+      "faces": 11712,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 7.711987971205836e-05,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "FG16_04_Lamp_glass",
+      "vertices": 13826,
+      "faces": 13920,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 3.96582526472744e-06,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "FG16_04_Lamp_metal_base",
+      "vertices": 770,
+      "faces": 864,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 2.548367761102962e-06,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "FG16_07_Cap_base",
+      "vertices": 2976,
+      "faces": 2976,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.295358471139289e-05,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "FG16_08_Wiring_route_envelope",
+      "vertices": 1164,
+      "faces": 1172,
+      "boundary_edges": 0,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 5.6959881374029546e-06,
+      "degenerate_faces": 0,
+      "loose_vertices": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    }
+  ],
+  "readback_comparison": [
+    {
+      "object": "FG16_06_Hollow_curved_body",
+      "vertices_equal": true,
+      "faces_equal": true,
+      "volume_difference_m3": 0.0
+    },
+    {
+      "object": "FG16_01_Colorless_smooth_glass",
+      "vertices_equal": true,
+      "faces_equal": true,
+      "volume_difference_m3": 0.0
+    },
+    {
+      "object": "FG16_02_Independent_front_rim",
+      "vertices_equal": true,
+      "faces_equal": true,
+      "volume_difference_m3": 0.0
+    },
+    {
+      "object": "FG16_03_Sealing_ring",
+      "vertices_equal": true,
+      "faces_equal": true,
+      "volume_difference_m3": 0.0
+    },
+    {
+      "object": "FG16_05_Hollow_optical_element",
+      "vertices_equal": true,
+      "faces_equal": true,
+      "volume_difference_m3": 0.0
+    },
+    {
+      "object": "FG16_04_Lamp_glass",
+      "vertices_equal": true,
+      "faces_equal": true,
+      "volume_difference_m3": 0.0
+    },
+    {
+      "object": "FG16_04_Lamp_metal_base",
+      "vertices_equal": true,
+      "faces_equal": true,
+      "volume_difference_m3": 0.0
+    },
+    {
+      "object": "FG16_07_Cap_base",
+      "vertices_equal": true,
+      "faces_equal": true,
+      "volume_difference_m3": 0.0
+    },
+    {
+      "object": "FG16_08_Wiring_route_envelope",
+      "vertices_equal": true,
+      "faces_equal": true,
+      "volume_difference_m3": 0.0
+    }
+  ],
+  "all_closed_positive_volume": true,
+  "contact_pairs": [
+    {
+      "a": "FG16_06_Hollow_curved_body",
+      "b": "FG16_02_Independent_front_rim",
+      "surface_triangle_intersections": 0,
+      "nearest_vertex_to_surface": {
+        "distance_mm": 1.0000020265579224,
+        "sample_point": [
+          -0.07199999690055847,
+          0.11500000208616257,
+          0.23800000548362732
+        ],
+        "nearest_point": [
+          -0.0729999989271164,
+          0.11500000208616257,
+          0.23800000548362732
+        ]
+      },
+      "containment_samples": {
+        "FG16_06_Hollow_curved_body": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 0
+        },
+        "FG16_02_Independent_front_rim": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 0
+        }
+      },
+      "intended_interface": "Rim/housing retaining interface; fitted",
+      "status": "FITTED_INTERFACE_UNCALIBRATED"
+    },
+    {
+      "a": "FG16_01_Colorless_smooth_glass",
+      "b": "FG16_03_Sealing_ring",
+      "surface_triangle_intersections": 95,
+      "nearest_vertex_to_surface": {
+        "distance_mm": 0.0,
+        "sample_point": [
+          -0.08100000023841858,
+          0.1080000028014183,
+          0.23800000548362732
+        ],
+        "nearest_point": [
+          -0.08100000023841858,
+          0.1080000028014183,
+          0.23800000548362732
+        ]
+      },
+      "containment_samples": {
+        "FG16_01_Colorless_smooth_glass": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 32
+        },
+        "FG16_03_Sealing_ring": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 26
+        }
+      },
+      "intended_interface": "Glass edge/gasket seat; fitted seal compression, not calibrated",
+      "status": "FITTED_INTERFACE_UNCALIBRATED"
+    },
+    {
+      "a": "FG16_02_Independent_front_rim",
+      "b": "FG16_03_Sealing_ring",
+      "surface_triangle_intersections": 636,
+      "nearest_vertex_to_surface": {
+        "distance_mm": 0.0628158450126648,
+        "sample_point": [
+          -0.08093718439340591,
+          0.10931330174207687,
+          0.23800000548362732
+        ],
+        "nearest_point": [
+          -0.08100000023841858,
+          0.10931330174207687,
+          0.23800000548362732
+        ]
+      },
+      "containment_samples": {
+        "FG16_02_Independent_front_rim": {
+          "sampled_vertices": 128,
+          "inside_other_material": 4,
+          "on_surface_or_ambiguous_skipped": 0
+        },
+        "FG16_03_Sealing_ring": {
+          "sampled_vertices": 128,
+          "inside_other_material": 26,
+          "on_surface_or_ambiguous_skipped": 0
+        }
+      },
+      "intended_interface": "Rim clamps gasket; fitted seal compression",
+      "status": "FITTED_INTERFACE_UNCALIBRATED"
+    },
+    {
+      "a": "FG16_03_Sealing_ring",
+      "b": "FG16_05_Hollow_optical_element",
+      "surface_triangle_intersections": 596,
+      "nearest_vertex_to_surface": {
+        "distance_mm": 0.2873342018574476,
+        "sample_point": [
+          -0.07599999755620956,
+          0.028211278840899467,
+          0.3432859182357788
+        ],
+        "nearest_point": [
+          -0.07591743022203445,
+          0.02814004383981228,
+          0.34302008152008057
+        ]
+      },
+      "containment_samples": {
+        "FG16_03_Sealing_ring": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 0
+        },
+        "FG16_05_Hollow_optical_element": {
+          "sampled_vertices": 128,
+          "inside_other_material": 2,
+          "on_surface_or_ambiguous_skipped": 0
+        }
+      },
+      "intended_interface": "Gasket/optical-element seat; uncalibrated",
+      "status": "FITTED_INTERFACE_UNCALIBRATED"
+    },
+    {
+      "a": "FG16_05_Hollow_optical_element",
+      "b": "FG16_07_Cap_base",
+      "surface_triangle_intersections": 617,
+      "nearest_vertex_to_surface": {
+        "distance_mm": 0.0,
+        "sample_point": [
+          0.004000000189989805,
+          0.020999999716877937,
+          0.23800000548362732
+        ],
+        "nearest_point": [
+          0.004000000189989805,
+          0.020999999716877937,
+          0.23800000548362732
+        ]
+      },
+      "containment_samples": {
+        "FG16_05_Hollow_optical_element": {
+          "sampled_vertices": 128,
+          "inside_other_material": 23,
+          "on_surface_or_ambiguous_skipped": 1
+        },
+        "FG16_07_Cap_base": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 0
+        }
+      },
+      "intended_interface": "Optical bowl central cap interface; approximate",
+      "status": "UNRESOLVED_RIGID_INTERFACE_INTERFERENCE"
+    },
+    {
+      "a": "FG16_04_Lamp_glass",
+      "b": "FG16_04_Lamp_metal_base",
+      "surface_triangle_intersections": 0,
+      "nearest_vertex_to_surface": {
+        "distance_mm": 0.024512150048394687,
+        "sample_point": [
+          0.0,
+          0.0058334870263934135,
+          0.24673043191432953
+        ],
+        "nearest_point": [
+          1.1692900443449616e-06,
+          0.005819879937916994,
+          0.24671007692813873
+        ]
+      },
+      "containment_samples": {
+        "FG16_04_Lamp_glass": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 0
+        },
+        "FG16_04_Lamp_metal_base": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 0
+        }
+      },
+      "intended_interface": "Bulb envelope to mounting base; attachment seam",
+      "status": "FITTED_INTERFACE_UNCALIBRATED"
+    },
+    {
+      "a": "FG16_04_Lamp_metal_base",
+      "b": "FG16_07_Cap_base",
+      "surface_triangle_intersections": 0,
+      "nearest_vertex_to_surface": {
+        "distance_mm": 0.07847152301110327,
+        "sample_point": [
+          0.021778037771582603,
+          0.0020158563274890184,
+          0.24813440442085266
+        ],
+        "nearest_point": [
+          0.021722547709941864,
+          0.0020050304010510445,
+          0.24807998538017273
+        ]
+      },
+      "containment_samples": {
+        "FG16_04_Lamp_metal_base": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 0
+        },
+        "FG16_07_Cap_base": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 0
+        }
+      },
+      "intended_interface": "Bulb cap seat in lamp base; contact geometry approximate",
+      "status": "FITTED_INTERFACE_UNCALIBRATED"
+    },
+    {
+      "a": "FG16_07_Cap_base",
+      "b": "FG16_08_Wiring_route_envelope",
+      "surface_triangle_intersections": 0,
+      "nearest_vertex_to_surface": {
+        "distance_mm": 1.5922010643407702,
+        "sample_point": [
+          0.03360000252723694,
+          -2.1855693643768603e-10,
+          0.24300000071525574
+        ],
+        "nearest_point": [
+          0.033964261412620544,
+          1.5599953551159729e-09,
+          0.24145002663135529
+        ]
+      },
+      "containment_samples": {
+        "FG16_07_Cap_base": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 0
+        },
+        "FG16_08_Wiring_route_envelope": {
+          "sampled_vertices": 128,
+          "inside_other_material": 0,
+          "on_surface_or_ambiguous_skipped": 0
+        }
+      },
+      "intended_interface": "Wiring enters cap, route envelope only",
+      "status": "FITTED_INTERFACE_UNCALIBRATED"
+    }
+  ],
+  "unclassified_contact_count": 0,
+  "contact_scope": "36 source-geometry pairs at rest. Triangle intersections plus at most 128 vertices per side sampled for material containment. Nearest-vertex-to-surface distances are mesh diagnostics; they are not exact minimum gap, manufacturing tolerance or proof that a load-bearing/sealed connection exists.",
+  "assembly_connection_status": "OPEN: retaining lip engagement, lamp seating, wire termination and seal compression need actual construction/reference dimensions. Zero triangle intersections does not establish connectivity.",
+  "body_hollow_probes": [
+    {
+      "ray": "front_open",
+      "hit": false,
+      "distance_mm": null,
+      "location": null
+    },
+    {
+      "ray": "rear_wall",
+      "hit": true,
+      "distance_mm": 83.96484702825546,
+      "location": [
+        0.08396484702825546,
+        0.0,
+        0.23800000548362732
+      ]
+    },
+    {
+      "ray": "side_wall",
+      "hit": true,
+      "distance_mm": 108.27221721410751,
+      "location": [
+        0.0,
+        0.10827221721410751,
+        0.23800000548362732
+      ]
+    },
+    {
+      "ray": "upper_wall",
+      "hit": true,
+      "distance_mm": 108.2722395658493,
+      "location": [
+        0.0,
+        0.0,
+        0.34627223014831543
+      ]
+    },
+    {
+      "ray": "wire_exit",
+      "hit": false,
+      "distance_mm": null,
+      "location": null
+    }
+  ],
+  "horizontal_axis_samples": [
+    {
+      "requested_deg": -1000,
+      "evaluated_deg": -169.99999334703236,
+      "error_deg": 6.6529676416848815e-06
+    },
+    {
+      "requested_deg": -210,
+      "evaluated_deg": -169.99999334703236,
+      "error_deg": 6.6529676416848815e-06
+    },
+    {
+      "requested_deg": -170.0,
+      "evaluated_deg": -169.99999334703236,
+      "error_deg": 6.6529676416848815e-06
+    },
+    {
+      "requested_deg": -161.5,
+      "evaluated_deg": -161.50000050986992,
+      "error_deg": -5.098699205063895e-07
+    },
+    {
+      "requested_deg": -153.0,
+      "evaluated_deg": -152.99999401232913,
+      "error_deg": 5.9876708746742224e-06
+    },
+    {
+      "requested_deg": -144.5,
+      "evaluated_deg": -144.5000011751667,
+      "error_deg": -1.1751666875170486e-06
+    },
+    {
+      "requested_deg": -136.0,
+      "evaluated_deg": -135.9999946776259,
+      "error_deg": 5.322374107663563e-06
+    },
+    {
+      "requested_deg": -127.5,
+      "evaluated_deg": -127.50000184046344,
+      "error_deg": -1.840463440316853e-06
+    },
+    {
+      "requested_deg": -119.0,
+      "evaluated_deg": -118.99999534292266,
+      "error_deg": 4.657077340652904e-06
+    },
+    {
+      "requested_deg": -110.5,
+      "evaluated_deg": -110.50000250576021,
+      "error_deg": -2.505760207327512e-06
+    },
+    {
+      "requested_deg": -102.0,
+      "evaluated_deg": -102.00000283840859,
+      "error_deg": -2.8384085908328416e-06
+    },
+    {
+      "requested_deg": -93.5,
+      "evaluated_deg": -93.50000317105697,
+      "error_deg": -3.171056974338171e-06
+    },
+    {
+      "requested_deg": -85.0,
+      "evaluated_deg": -84.99999667351618,
+      "error_deg": 3.3264838208424408e-06
+    },
+    {
+      "requested_deg": -76.5,
+      "evaluated_deg": -76.49999700616456,
+      "error_deg": 2.9938354373371112e-06
+    },
+    {
+      "requested_deg": -68.0,
+      "evaluated_deg": -67.99999733881295,
+      "error_deg": 2.6611870538317817e-06
+    },
+    {
+      "requested_deg": -59.5,
+      "evaluated_deg": -59.49999767146133,
+      "error_deg": 2.328538670326452e-06
+    },
+    {
+      "requested_deg": -51.0,
+      "evaluated_deg": -51.000001419204295,
+      "error_deg": -1.4192042954164208e-06
+    },
+    {
+      "requested_deg": -42.5,
+      "evaluated_deg": -42.49999833675809,
+      "error_deg": 1.6632419104212204e-06
+    },
+    {
+      "requested_deg": -34.0,
+      "evaluated_deg": -33.99999866940647,
+      "error_deg": 1.3305935269158908e-06
+    },
+    {
+      "requested_deg": -25.5,
+      "evaluated_deg": -25.500000709602148,
+      "error_deg": -7.096021477082104e-07
+    },
+    {
+      "requested_deg": -17.0,
+      "evaluated_deg": -16.999999334703237,
+      "error_deg": 6.652967634579454e-07
+    },
+    {
+      "requested_deg": -8.5,
+      "evaluated_deg": -8.499999667351618,
+      "error_deg": 3.326483817289727e-07
+    },
+    {
+      "requested_deg": 0.0,
+      "evaluated_deg": 0.0,
+      "error_deg": 0.0
+    },
+    {
+      "requested_deg": 8.5,
+      "evaluated_deg": 8.499999667351618,
+      "error_deg": -3.326483817289727e-07
+    },
+    {
+      "requested_deg": 17.0,
+      "evaluated_deg": 16.999999334703237,
+      "error_deg": -6.652967634579454e-07
+    },
+    {
+      "requested_deg": 25.5,
+      "evaluated_deg": 25.500000709602148,
+      "error_deg": 7.096021477082104e-07
+    },
+    {
+      "requested_deg": 34.0,
+      "evaluated_deg": 33.99999866940647,
+      "error_deg": -1.3305935269158908e-06
+    },
+    {
+      "requested_deg": 42.5,
+      "evaluated_deg": 42.49999833675809,
+      "error_deg": -1.6632419104212204e-06
+    },
+    {
+      "requested_deg": 51.0,
+      "evaluated_deg": 51.000001419204295,
+      "error_deg": 1.4192042954164208e-06
+    },
+    {
+      "requested_deg": 59.5,
+      "evaluated_deg": 59.49999767146133,
+      "error_deg": -2.328538670326452e-06
+    },
+    {
+      "requested_deg": 68.0,
+      "evaluated_deg": 67.99999733881295,
+      "error_deg": -2.6611870538317817e-06
+    },
+    {
+      "requested_deg": 76.5,
+      "evaluated_deg": 76.49999700616456,
+      "error_deg": -2.9938354373371112e-06
+    },
+    {
+      "requested_deg": 85.0,
+      "evaluated_deg": 84.99999667351618,
+      "error_deg": -3.3264838208424408e-06
+    },
+    {
+      "requested_deg": 93.5,
+      "evaluated_deg": 93.50000317105697,
+      "error_deg": 3.171056974338171e-06
+    },
+    {
+      "requested_deg": 102.0,
+      "evaluated_deg": 102.00000283840859,
+      "error_deg": 2.8384085908328416e-06
+    },
+    {
+      "requested_deg": 110.5,
+      "evaluated_deg": 110.50000250576021,
+      "error_deg": 2.505760207327512e-06
+    },
+    {
+      "requested_deg": 119.0,
+      "evaluated_deg": 118.99999534292266,
+      "error_deg": -4.657077340652904e-06
+    },
+    {
+      "requested_deg": 127.5,
+      "evaluated_deg": 127.50000184046344,
+      "error_deg": 1.840463440316853e-06
+    },
+    {
+      "requested_deg": 136.0,
+      "evaluated_deg": 135.9999946776259,
+      "error_deg": -5.322374107663563e-06
+    },
+    {
+      "requested_deg": 144.5,
+      "evaluated_deg": 144.5000011751667,
+      "error_deg": 1.1751666875170486e-06
+    },
+    {
+      "requested_deg": 153.0,
+      "evaluated_deg": 152.99999401232913,
+      "error_deg": -5.9876708746742224e-06
+    },
+    {
+      "requested_deg": 161.5,
+      "evaluated_deg": 161.50000050986992,
+      "error_deg": 5.098699205063895e-07
+    },
+    {
+      "requested_deg": 170.0,
+      "evaluated_deg": 169.99999334703236,
+      "error_deg": -6.6529676416848815e-06
+    },
+    {
+      "requested_deg": 210,
+      "evaluated_deg": 169.99999334703236,
+      "error_deg": -6.6529676416848815e-06
+    },
+    {
+      "requested_deg": 1000,
+      "evaluated_deg": 169.99999334703236,
+      "error_deg": -6.6529676416848815e-06
+    }
+  ],
+  "horizontal_axis_pass": true,
+  "vertical_axis": "NOT MODELED; source provides no angular limit",
+  "packed_reference_images": [
+    {
+      "name": "1977-original-p216-217.png",
+      "packed": true
+    },
+    {
+      "name": "1977-original-p26-27.png",
+      "packed": true
+    }
+  ],
+  "render_files": [
+    {
+      "file": "cycles-assembled.png",
+      "exists": true,
+      "bytes": 1603523,
+      "sha256": "01f9e5f4d9cabde5767b17a6ae3aae2fca0a4377c13ed9274dc00b210509c1bd"
+    },
+    {
+      "file": "cycles-section.png",
+      "exists": true,
+      "bytes": 1651526,
+      "sha256": "14b3dae7203787672bb9c842055ad63994c59a13644c04d322dc8002d0fda98e"
+    }
+  ],
+  "candidate_bytes": 914650,
+  "candidate_sha256": "a72d32f0d28c496efd7c78794b7a50a1dd400a08caea561866366f21d0b414f1",
+  "display_fixture_intersections": [],
+  "unresolved_rigid_interface_count": 1,
+  "unresolved_contact_pairs_count": 1,
+  "source_geometry_self_intersection_pass": true,
+  "containment_method": "Up to 128 vertices per side, three non-axis directions with 0.01 mm post-hit offset; classify inside/outside only on unanimous votes. Disagreements remain OPEN. Prior 0.0001 mm single-ray results and changed classifications are retained with exact intersections and target bounds. No claim that sampling proves complete volumetric separation.",
+  "containment_disagreement_count": 0,
+  "containment_diagnostic_count": 12,
+  "production_three_parts_geometry_after": {
+    "BL_Searchlight_housing": {
+      "geometry_matrix_sha256": "32f8401bc6cc084cd88dfd679da9288bcc585861e2f87ff0d527620b26f3b230",
+      "unchanged": true
+    },
+    "BL_Searchlight_lens": {
+      "geometry_matrix_sha256": "7cd58ba67ac33dfd1fab3382f52ad2182ad86e9a0d38252e94e81ecb0e912222",
+      "unchanged": true
+    },
+    "BL_Searchlight_stand": {
+      "geometry_matrix_sha256": "efc61042f37e4984df72fbaa6d57eb04783ca27c693291c0504ce9e31c3dc4f3",
+      "unchanged": true
+    }
+  },
+  "production_sha256_after": {
+    "testcar/outputs/MAZ543A_Master.blend": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3",
+    "testcar/outputs/MAZ543A_Textured.blend": "f927cfffae77e443fe6f7c8536bb2344d6b7694f335a071a26d4bba22e350f5d",
+    "testcar/public/models/maz543a-blender.glb": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698"
+  },
+  "production_files_byte_unchanged": true
+}
