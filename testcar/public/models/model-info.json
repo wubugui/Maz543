@@ -1,0 +1,107 @@
+{
+  "created_with": "4.5.13 LTS",
+  "file": "maz543a-blender.glb",
+  "bytes": 20284632,
+  "objects": 332,
+  "mesh_objects": 235,
+  "triangles": 1458152,
+  "texture_atlas": "4096 base color / 2048 normal and ORM",
+  "accuracy": "Photographic reference reconstruction; mechanical interior simplified; not factory CAD",
+  "native_motion_nodes": 594,
+  "engine_module": "d12a525a-engine.glb",
+  "engine_joint_count": 169,
+  "engine_scope": "Source-guided reconstruction; dimensions and physical simulation incomplete",
+  "body_motion_nodes": 84,
+  "suspension_module": "maz543a-suspension.glb",
+  "suspension_joint_count": 80,
+  "suspension_scope": "Source-guided double-torsion geometry and uncalibrated vertical force model",
+  "starting_module": "maz543a-starting.glb",
+  "starting_joint_count": 7,
+  "starting_native_piece_count": 167,
+  "starting_scope": "Source-guided C5 inertia drive, MZN-2 pump and photo-fitted MN-1 stator; uncalibrated lumped starting model; armature/brush/commutator details remain incomplete",
+  "engine_native_piece_count": 2046,
+  "suspension_native_piece_count": 1716,
+  "verification": "Partial checks only; all full-vehicle acceptance gates remain OPEN",
+  "module_bytes": {
+    "maz543a-blender.glb": 20284632,
+    "d12a525a-engine.glb": 9996432,
+    "maz543a-suspension.glb": 8154920,
+    "maz543a-starting.glb": 792512,
+    "maz543a-cooling.glb": 15673480,
+    "maz543a-cardan.glb": 907380
+  },
+  "mesh_definitions": 203,
+  "triangle_count_basis": "Instantiated body triangles, before shadow and postprocessing passes; independent modules excluded",
+  "engine_cam_authored_objects": 248,
+  "engine_timing_gear_count": 25,
+  "engine_timing_mating_pairs": 15,
+  "cooling_module": "maz543a-cooling.glb",
+  "cooling_joint_count": 254,
+  "cooling_native_piece_count": 1241,
+  "cooling_scope": "Original twin 12-blade fan/clutch topology; photo-guided lower gearbox with fitted 32:20 gears; uncalibrated thermal model; upper local gears/bearings rebuilt; four-hole interfaces corrected with fitted dimensions; installed Cardan drive and complete passages remain incomplete",
+  "cardan_module": "maz543a-cardan.glb",
+  "cardan_joint_count": 190,
+  "cardan_native_piece_count": 213,
+  "cardan_scope": "Independent double-Cardan inspection module: 408-family bearing envelope, fitted forks/splines/length, ideal rolling kinematics. Vehicle installation and loads remain unverified.",
+  "searchlight_placement": {
+    "revision": "front-left-20260930",
+    "parent": "cab_pivot_005",
+    "housing_center_browser_m": [
+      -5.02,
+      2.875,
+      0.9
+    ],
+    "dimension_status": "photographic fit; exact mounting dimensions and electrical/optical functions unaccepted",
+    "geometry_export": "Original unaffected compressed streams preserved; six changed cab/lamp streams from native export"
+  },
+  "front_restoration": {
+    "date": "2026-09-30",
+    "hubTask": "1c34f882-6a28-410e-9f74-a48c649c6f4e",
+    "scope": "Central NURBS-derived cover with expansion-cap clearance port; low round mirrors and native curve arms",
+    "dimensionStatus": "Photographic fit; factory dimensions OPEN",
+    "clearanceStatus": "Native cover surface tested against installed D12/COOL and cab shell objects at frame zero; no intersections",
+    "runtimeVerification": "Cover/mirror: real full quality GTX970 multi-view and four doors opened; HTTP200/no pageerror. Complete motion sweep OPEN",
+    "otherAcceptance": "16 full-vehicle gates OPEN",
+    "bumper": {
+      "hubTask": "e43fdcaa-f042-4e63-95d1-f5afd9162e3a",
+      "scope": "Box beam with central recess, single recovery hook, lower shield and redundant marker archive",
+      "streamVerification": "239 unrelated mesh streams and original 3 embedded textures byte-preserved; glTF 0 errors/0 warnings",
+      "installation": "Both native masters: 24 actual static surface connections checked in repaired mounts; dimensions/load/bolts/full travel OPEN",
+      "browserVerification": "Previous bumper stage HTTP200/GTX970/3267 meshes/no errors; four doors opened; latest assembled stage pending"
+    },
+    "windshield": {
+      "hubTask": "afce2dc6-0897-46c4-a44b-844131b2c597",
+      "colorTask": "c3fa8966-7798-41c7-956d-75b26952c9d8",
+      "exportTask": "10ddf009-945c-4149-b440-38f620ddd6e7",
+      "scope": "Native actual aperture Boolean, hollow seals/glazing/wipers, repaired mounts and dark enamel",
+      "nativeGlassHeightM": 0.6991300582885742,
+      "nativeGlassToFacadeHeightRatio": 0.4692148042205196,
+      "status": "Master front shells non-manifold edges 0; 20 facade rays passed across both native files. Factory dimensions/photo calibration/user acceptance OPEN",
+      "streamVerification": "230 unrelated mesh streams and 3 original textures byte-preserved; glTF 0 errors/0 warnings including native tangents",
+      "doorSweep": "Earlier native sampling used obsolete native axes; not runtime clearance proof. Rebased sweep pending",
+      "runtimeVerification": "Pending"
+    },
+    "hingeRubber": {
+      "hubTask": "e22f799b-9782-464b-b11a-e0c29b8a18a4",
+      "scope": "Actual four native hinges rebased to runtime authored door leading edge, all closed world child geometry preserved; four explicit dark rubber assignments; four upper mirror nodes",
+      "preservation": "All 258 preexisting mesh streams and 3 textures unchanged; only 24 explicit paired translation changes; glTF 0 errors/0 warnings",
+      "nativeClosedWorldBoundsDriftM": 0,
+      "runtimeVerification": {
+        "status": "PASS scoped",
+        "closedMaxDifferenceM": 1.5258789076710855e-7,
+        "poseMaxDifference": 1.5258789076710855e-7,
+        "sampledFrontClearancePairs": 0,
+        "limits": "3 degree samples, front components only; full vehicle and continuous travel OPEN"
+      },
+      "upperMirrors": "Complete bare-chassis reference assumption; user preference/factory dimensions/optical behavior OPEN"
+    },
+    "rearBoxFrame": {
+      "hubTask": "48aad07d-787d-4401-a723-f6317dd5a894",
+      "scope": "Original eight box pieces archived and retained duplicates moved -1.57m to center3.52m between axles3/4; four fitted native mounting pads; three frame objects use explicit dark enamel",
+      "preservation": "260 unaffected compressed streams and three embedded images retained; original box dimensions retained; glTF0 errors/0 warnings",
+      "nativeMountInterfaces": 16,
+      "sha256": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698",
+      "status": "PASS scoped native/browser position and dark frame materials;12 rear parts vs432 tyre components no rest-pose intersections; full suspension travel/factory dims/lid internals and full vehicle16 gates OPEN"
+    }
+  }
+}

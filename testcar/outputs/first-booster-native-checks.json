@@ -1,0 +1,128 @@
+{
+  "manifoldPressureParts": 8,
+  "sealStates": [
+    {
+      "frame": 0,
+      "strokeMM": 0,
+      "fixedSealXMM": 221.500001847744,
+      "movingSealXMM": 228.99999469518661
+    },
+    {
+      "frame": 120,
+      "strokeMM": 6.3,
+      "fixedSealXMM": 221.500001847744,
+      "movingSealXMM": 222.69999235868454
+    },
+    {
+      "frame": 240,
+      "strokeMM": 0,
+      "fixedSealXMM": 221.500001847744,
+      "movingSealXMM": 228.99999469518661
+    },
+    {
+      "frame": 360,
+      "strokeMM": 0,
+      "fixedSealXMM": 221.500001847744,
+      "movingSealXMM": 228.99999469518661
+    },
+    {
+      "frame": 480,
+      "strokeMM": 0,
+      "fixedSealXMM": 221.500001847744,
+      "movingSealXMM": 228.99999469518661
+    }
+  ],
+  "feedRayChecks": [
+    {
+      "frame": 0,
+      "offsetMM": [
+        0,
+        0
+      ],
+      "firstHit": "TX_first_annular_piston",
+      "hitXMM": 230.4999977350235
+    },
+    {
+      "frame": 0,
+      "offsetMM": [
+        1.0,
+        0
+      ],
+      "firstHit": "TX_first_annular_piston",
+      "hitXMM": 230.4999977350235
+    },
+    {
+      "frame": 0,
+      "offsetMM": [
+        -1.0,
+        0
+      ],
+      "firstHit": "TX_first_annular_piston",
+      "hitXMM": 230.4999977350235
+    },
+    {
+      "frame": 0,
+      "offsetMM": [
+        0,
+        1.0
+      ],
+      "firstHit": "TX_first_annular_piston",
+      "hitXMM": 230.4999977350235
+    },
+    {
+      "frame": 0,
+      "offsetMM": [
+        0,
+        -1.0
+      ],
+      "firstHit": "TX_first_annular_piston",
+      "hitXMM": 230.4999977350235
+    },
+    {
+      "frame": 120,
+      "offsetMM": [
+        0,
+        0
+      ],
+      "firstHit": "TX_first_annular_piston",
+      "hitXMM": 224.19999539852142
+    },
+    {
+      "frame": 120,
+      "offsetMM": [
+        1.0,
+        0
+      ],
+      "firstHit": "TX_first_annular_piston",
+      "hitXMM": 224.19999539852142
+    },
+    {
+      "frame": 120,
+      "offsetMM": [
+        -1.0,
+        0
+      ],
+      "firstHit": "TX_first_annular_piston",
+      "hitXMM": 224.19999539852142
+    },
+    {
+      "frame": 120,
+      "offsetMM": [
+        0,
+        1.0
+      ],
+      "firstHit": "TX_first_annular_piston",
+      "hitXMM": 224.19999539852142
+    },
+    {
+      "frame": 120,
+      "offsetMM": [
+        0,
+        -1.0
+      ],
+      "firstHit": "TX_first_annular_piston",
+      "hitXMM": 224.19999539852142
+    }
+  ],
+  "limits": "Nominal surfaces and five discrete states. No elastic seal compression, leakage, pressure, fluid network or full booster manufacturing acceptance."
+}

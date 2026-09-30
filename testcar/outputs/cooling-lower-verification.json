@@ -1,0 +1,57 @@
+{
+  "samples": 49,
+  "meshSurfaceIntersections": [],
+  "lowerAuthoredMeshes": 274,
+  "bearingNativeEnvelopes": [
+    {
+      "index": 0,
+      "nominalMM": [
+        50.0,
+        110.0,
+        27.0
+      ]
+    },
+    {
+      "index": 1,
+      "nominalMM": [
+        50.0,
+        110.0,
+        27.00001
+      ]
+    },
+    {
+      "index": 2,
+      "nominalMM": [
+        35.0,
+        80.0,
+        21.00001
+      ]
+    },
+    {
+      "index": 3,
+      "nominalMM": [
+        35.0,
+        80.0,
+        21.0
+      ]
+    },
+    {
+      "index": 4,
+      "nominalMM": [
+        35.0,
+        80.0,
+        21.00001
+      ]
+    },
+    {
+      "index": 5,
+      "nominalMM": [
+        35.0,
+        80.0,
+        21.0
+      ]
+    }
+  ],
+  "idealBearingRollingError": 8.881784197001252e-16,
+  "limits": "Sampled surface intersection check only; original tooth counts and dimensions, loaded contact, lubrication and full installation are not validated."
+}

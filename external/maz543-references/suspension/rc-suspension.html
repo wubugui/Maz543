@@ -1,0 +1,554 @@
+<!DOCTYPE html><html class="no-js" itemscope itemtype="http://schema.org/WebPage"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>9П117 (SCUD-B), мпу на шасси МАЗ-543</title><meta name="title" content="9П117 (SCUD-B), мпу на шасси МАЗ-543"><link rel="canonical" href="https://rcopen.com/forum/f108/topic296304/page2"><link rel="prev" href="https://rcopen.com/forum/f108/topic296304"><link rel="next" href="https://rcopen.com/forum/f108/topic296304/page3"><meta property="og:url" content="https://rcopen.com/forum/f108/topic296304/page2"><meta property="og:title" content="9П117 (SCUD-B), мпу на шасси МАЗ-543"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="9П117 (SCUD-B), мпу на шасси МАЗ-543"><meta name="twitter:url" content="https://rcopen.com/forum/f108/topic296304/page2"><link rel="stylesheet" href="/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=A0RR7gMem5">
+<link rel="icon" type="image/png" href="/favicon-32x32.png?v=A0RR7gMem5" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png?v=A0RR7gMem5" sizes="16x16">
+<link rel="manifest" href="/manifest.json?v=A0RR7gMem5">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=A0RR7gMem5" color="#5bbad5">
+<link rel="shortcut icon" href="/favicon.ico?v=A0RR7gMem5">
+<meta name="apple-mobile-web-app-title" content="RC open">
+<meta name="application-name" content="RC open">
+<meta name="msapplication-TileColor" content="#b91d47">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png?v=A0RR7gMem5">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:image" content="/snippet.jpg">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5G6TM2D');</script>
+<script type="text/javascript">/*eslint-disable no-alert, object-shorthand*/
+
+(function (window) {
+  'use strict';
+
+  // Needed because we can't enable only `global` in browserify. Used by Faye.
+  window.global = window.global || window;
+
+  //////////////////////////////////////////////////////////////////////////////
+  // features testing & setup no-cookies/no-js styles
+  //
+
+  function testCookies() {
+    if (navigator.cookieEnabled) return true; // Quick test
+
+    document.cookie = 'cookietest=1';
+    var ret = document.cookie.indexOf('cookietest=') !== -1;
+    document.cookie = 'cookietest=1; expires=Thu, 01-Jan-1970 00:00:01 GMT';
+    return ret;
+  }
+
+  var docElement = document.documentElement,
+      className = docElement.className;
+
+  className = className.replace('no-js', '');
+  className += ' js';
+  className += testCookies() ? '' : ' no-cookies';
+  className = className
+                .replace(/^\s+/, '')
+                .replace(/\s+$/, '')
+                .replace(/\s+/g, ' ');
+
+  docElement.className = className;
+
+  //////////////////////////////////////////////////////////////////////////////
+
+  var NodecaLoader = window.NodecaLoader = { booted: false };
+  var alert = window.alert;
+  var prelude = 
+// modules are defined as an array
+// [ module function, map of requireuires ]
+//
+// map of requireuires is short require name -> numeric require
+//
+// anything defined in a previous bundle is accessed via the
+// orig method which is the requireuire for previous bundles
+
+(function() {
+
+function outer(modules, cache, entry) {
+    // Save the require from previous bundle to this closure if any
+    var previousRequire = typeof require == "function" && require;
+
+    function newRequire(name, jumped){
+        if(!cache[name]) {
+            if(!modules[name]) {
+                // if we cannot find the module within our internal map or
+                // cache jump to the current global require ie. the last bundle
+                // that was added to the page.
+                var currentRequire = typeof require == "function" && require;
+                if (!jumped && currentRequire) return currentRequire(name, true);
+
+                // If there are other bundles on this page the require from the
+                // previous one is saved to 'previousRequire'. Repeat this as
+                // many times as there are bundles until the module is found or
+                // we exhaust the require chain.
+                if (previousRequire) return previousRequire(name, true);
+                var err = new Error('Cannot find module \'' + name + '\'');
+                err.code = 'MODULE_NOT_FOUND';
+                throw err;
+            }
+            var m = cache[name] = {exports:{}};
+            modules[name][0].call(m.exports, function(x){
+                var id = modules[name][1][x];
+                return newRequire(id ? id : x);
+            },m,m.exports,outer,modules,cache,entry);
+        }
+        return cache[name].exports;
+    }
+    for(var i=0;i<entry.length;i++) newRequire(entry[i]);
+
+    // Override the current require with this new one
+    return newRequire;
+}
+
+return outer;
+
+})()
+;
+  var require = prelude({}, {}, []);
+
+
+  NodecaLoader.wrap = function (modules, cache, entry) {
+    require = prelude(modules, cache, entry);
+  };
+
+
+  function uniq(array) { return array.filter((x, i, a) => a.indexOf(x) === i); }
+
+  // Cached non-operable function.
+  function noop() {}
+
+  function get_script(source) {
+    return new Promise(function (resolve) {
+      var script = document.createElement('script');
+
+      script.onload = script.onreadystatechange = function (_, isAbort) {
+        if (isAbort || !script.readyState || /loaded|complete/.test(script.readyState)) {
+          script.onload = script.onreadystatechange = null;
+          /* eslint-disable no-undefined */
+          script = undefined;
+          if (!isAbort) setTimeout(resolve, 0);
+        }
+      };
+
+      script.src = source;
+      document.getElementsByTagName('head')[0].appendChild(script);
+    });
+  }
+
+  function get_style(source) {
+    var link = document.createElement('link');
+    link.href = source;
+    link.type = 'text/css';
+    link.rel = 'stylesheet';
+    link.media = 'screen,print';
+    document.getElementsByTagName('head')[0].appendChild(link);
+  }
+
+  // Mapping of package names to package metadata for all available packages at
+  // the currect locale. The metadata is an object consists of three keys:
+  //
+  //   `js`            - URL to bundle, containing this package's JS
+  //   `css`           - URL to bundle, containing this package's CSS
+  //   `packagesQueue` - sorted list of dependencies, including this
+  //                     package (just list of package names)
+  //
+  // This variable is initialized by `loadAssets.init()`.
+  var assets;
+
+
+  // Track loaded URLs of bundles (as keys, values are just `true`)
+  var loaded_urls = {};
+
+  // Track loaded packages, true/false
+  var loaded_packages = {};
+
+  // Initialization functions for those packages
+  var loaded_packages_init_fn = {};
+
+
+  // Sandbox object passed as an argument to each module.
+  // It should be filled in `NodecaLoader.package_load`.
+  var N = { loader: NodecaLoader };
+
+  // For easy debugging only.
+  NodecaLoader.N = N;
+
+  // Returns route match data for the given method (e.g. GET) on the given URL
+  // or null if none is found. Requires N to be initialized.
+  function findRoute(url, method) {
+    var matchArray = N.router.matchAll(url),
+        match,
+        index,
+        length;
+
+    for (index = 0, length = matchArray.length; index < length; index += 1) {
+      match = matchArray[index];
+
+      if (match.meta.methods[method]) return match;
+    }
+
+    // Not found.
+    return null;
+  }
+
+  // Storage of registered client modules.
+  // Keys are API paths like 'app.method.submethod'
+  var clientModules = {};
+
+  function registerClientModule(apiPath, func) {
+    if (clientModules[apiPath] && clientModules[apiPath].initialized) return;
+
+    var module = clientModules[apiPath] = {
+      initialized: true,
+      func: func,
+      internal: { exports: {}, apiPath: apiPath }
+    };
+
+    /*eslint-disable no-use-before-define*/
+    initSingleClientModule(module);
+  }
+
+  // Initialize client module. Used once per module.
+  function initSingleClientModule(module) {
+    function resolveI18nPath(path) {
+      if (path.charAt(0) === '@') return path.slice(1);
+      return module.internal.apiPath + '.' + path;
+    }
+
+    // Local `t` (translate) function for use only within this module.
+    // It allows to use phrase strings relative to the module's API path.
+    function translationHelper(phrase, params) {
+      return N.runtime.t(resolveI18nPath(phrase), params);
+    }
+
+    translationHelper.exists = function translationExistsHelper(phrase) {
+      return N.runtime.t.exists(resolveI18nPath(phrase));
+    };
+
+    // Execute the module's `func` function. It will populate the exports. Require
+    // function passed through `NodecaLoader.wrap()`.
+    module.func.call(
+      window, // this object
+      N,
+      module.internal.exports,
+      module.internal,
+      translationHelper
+    );
+  }
+
+  // Really needed export.
+  NodecaLoader.registerClientModule = registerClientModule;
+
+  // Load a package with all of its associated assets and dependencies.
+  // `preload` parameter is an optional array of URLs which are needed to load
+  // before the given package.
+  function loadAssets(pkgNames, preload) {
+    var resources = [];
+    var scheduled = {};
+    var loadQueue = [];
+
+    pkgNames = Array.isArray(pkgNames) ? pkgNames : [ pkgNames ];
+
+    if (!pkgNames.length) {
+      return Promise.resolve();
+    }
+
+    for (var i = 0; i < pkgNames.length; i++) {
+      if (!assets[pkgNames[i]]) {
+        return Promise.reject(new Error('Unknown package (' + pkgNames[i] + ')'));
+      }
+
+      loadQueue = loadQueue.concat(assets[pkgNames[i]].packagesQueue.slice(0).reverse());
+    }
+
+    uniq(loadQueue).forEach(function (dependency) {
+      var alreadyLoaded, pkgDist = assets[dependency];
+
+      if (pkgDist.css.length) {
+        alreadyLoaded = pkgDist.css.reduce(function (acc, css) {
+          return acc || loaded_urls[css] || scheduled[css];
+        }, false);
+
+        if (!alreadyLoaded) {
+          resources.unshift(pkgDist.css[0]);
+          scheduled[pkgDist.css[0]] = true;
+        }
+      }
+
+      if (pkgDist.js.length) {
+        alreadyLoaded = pkgDist.js.reduce(function (acc, js) {
+          return acc || loaded_urls[js] || scheduled[js];
+        }, false);
+
+        if (!alreadyLoaded) {
+          resources.unshift(pkgDist.js[0]);
+          scheduled[pkgDist.js[0]] = true;
+        }
+      }
+    });
+
+    // Copy the preload array to allow pushing without side-effects.
+    if (preload) {
+      resources = preload.concat(resources);
+    }
+
+    // Inject CSS
+    resources.forEach(function (file) {
+      if (/[.]css$/.test(file)) { get_style(file); }
+    });
+
+    // Inject JS
+    var wait_js = [];
+    resources.forEach(function (file) {
+      if (/[.]js$/.test(file)) { wait_js.push(get_script(file)); }
+    });
+
+    return Promise.all(wait_js)
+      .then(function () {
+        resources.forEach(function (url) { loaded_urls[url] = true; });
+
+        [ ...loadQueue ].reverse().forEach(function (pkg) {
+          if (loaded_packages[pkg]) return;
+          if (loaded_packages_init_fn[pkg]) loaded_packages_init_fn[pkg].call({}, N, require);
+          loaded_packages[pkg] = true;
+        });
+
+        if (!N.wire) { throw new Error('Asset load error: "N.Wire" unavailable.'); }
+
+        // make sure DOM is loaded
+        return new Promise(function (resolve) {
+          if (document.readyState !== 'loading') {
+            resolve();
+            return;
+          }
+
+          function onload() {
+            document.removeEventListener('DOMContentLoaded', onload);
+            resolve();
+          }
+
+          document.addEventListener('DOMContentLoaded', onload);
+        });
+      })
+      .then(function () {
+        return N.wire.emit('init:assets', {}).catch(function (err) {
+          throw new Error('Asset load error: "init:assets" failed. ' + (err.message || err));
+        });
+      });
+  }
+
+
+  // Loads all necessary shims and libraries and assets for given package.
+  loadAssets.init = function init(assetsMap, pkgName, shims) {
+    shims = shims || [];
+
+    // Set internal assets map.
+    assets = assetsMap;
+
+    // Init can be called only once.
+    loadAssets.init = noop;
+
+    // Mark all stylesheets of the given package as loaded, since they are
+    // included to head of the page.
+    assets[pkgName].packagesQueue.forEach(function (dependency) {
+      assets[dependency].css.forEach(function (file) { loaded_urls[file] = true; });
+    });
+
+    loadAssets(pkgName, shims).then(function () {
+      if (!N.wire) {
+        throw new Error('Assets init error. Refresh page & try again. ' +
+                        'If problem still exists - contact administrator.');
+      }
+
+      // First try to match full URL, if not matched - try without anchor.
+      var baseUrl = location.protocol + '//' + location.host + location.pathname + location.search,
+          route   = findRoute(baseUrl + location.hash, 'get') ||
+                    findRoute(baseUrl, 'get');
+
+      if (!route) {
+        throw new Error('Init error: failed to detect internal identifier (route) of ' +
+                        'this page. Refresh page & try again. If problem still exists ' +
+                        '- contact administrator.');
+      }
+
+      var page_env = {
+        url:        location.href,
+        anchor:     location.hash,
+        apiPath:    route.meta.methods.get,
+        params:     route.params,
+        state:      window.history.state,
+        first_load: true
+      };
+
+      var preload = [];
+
+      Promise.resolve()
+      .then(function () { return N.wire.emit('navigate.preload:' + route.meta.methods.get, preload); })
+      .then(function () { return loadAssets(preload); })
+      .then(function () { return N.wire.emit('navigate.done', page_env); })
+      .then(function () { return N.wire.emit('navigate.done:' + route.meta.methods.get, page_env); })
+      .then(function () { NodecaLoader.booted = true; })
+      .catch(function (err) {
+        /*eslint-disable no-console*/
+        try { console.error(err); } catch (__) {}
+        alert('Init error: ' + err);
+      });
+    })
+    .catch(function (err) {
+      alert(err.message || err);
+    });
+  };
+
+  // Helper for dynamic components load.
+  NodecaLoader.loadAssets = loadAssets;
+
+  // Package wrapper
+  NodecaLoader.package_load = function package_load(name, fn) {
+    loaded_packages_init_fn[name] = fn;
+  };
+
+})(window);
+
+
+var shims = [];
+
+NodecaLoader.loadAssets.init(
+  {"admin":{"packagesQueue":["lib","l10n","lib-admin","vendor.pikaday","vendor.knockout","vendor.typeahead","admin"],"css":["/assets/bundle-backend-47e774ea8ec2fb246ae7603b4e1bf78d.css"],"js":["/assets/bundle-backend.en-US-a5801991b9863297358c83265fe6b9b4.js"]},"common":{"packagesQueue":["lib","lib-frontend","l10n","common"],"css":["/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css"],"js":["/assets/bundle-frontend.en-US-748d4e2c3b7af164e40b46329bbd670a.js"]},"lib":{"packagesQueue":["lib"],"css":[],"js":["/assets/bundle-lib.en-US-23d1d64ef71e003d8c8394bfb7013abc.js"]},"vendor.diff":{"packagesQueue":["vendor.diff"],"css":["/assets/bundle-vendor.diff-e77724bbcf63e405b1d341c6281ebed0.css"],"js":["/assets/bundle-vendor.diff.en-US-1305b7fcbe11f798d0bf93de6b8b7f65.js"]},"vendor.knockout":{"packagesQueue":["vendor.knockout"],"css":[],"js":["/assets/bundle-vendor.knockout.en-US-ed9f23268bc9b7a32d550f28d069d288.js"]},"vendor.leaflet":{"packagesQueue":["vendor.leaflet"],"css":["/assets/bundle-vendor.leaflet-1ff8a3af2654644bde12c0be0273b854.css"],"js":["/assets/bundle-vendor.leaflet.en-US-ed9f23268bc9b7a32d550f28d069d288.js"]},"vendor.pikaday":{"packagesQueue":["vendor.pikaday"],"css":["/assets/bundle-vendor.pikaday-623f42ea71721ab35564d0ac99e67b7f.css"],"js":["/assets/bundle-vendor.pikaday.en-US-ed9f23268bc9b7a32d550f28d069d288.js"]},"vendor.image-blob-reduce":{"packagesQueue":["vendor.image-blob-reduce"],"css":[],"js":["/assets/bundle-vendor.image-blob-reduce.en-US-ed9f23268bc9b7a32d550f28d069d288.js"]},"vendor.typeahead":{"packagesQueue":["vendor.typeahead"],"css":["/assets/bundle-vendor.typeahead-31ee205ac6dda59d186c677e7a687304.css"],"js":["/assets/bundle-vendor.typeahead.en-US-cfd1da9c7b52e371f3b6b65d86dc1a6b.js"]},"lib-admin":{"packagesQueue":["lib-admin"],"css":["/assets/bundle-backend-47e774ea8ec2fb246ae7603b4e1bf78d.css"],"js":["/assets/bundle-backend.en-US-a5801991b9863297358c83265fe6b9b4.js"]},"lib-frontend":{"packagesQueue":["lib-frontend"],"css":["/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css"],"js":["/assets/bundle-frontend.en-US-748d4e2c3b7af164e40b46329bbd670a.js"]},"l10n":{"packagesQueue":["l10n"],"css":["/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css","/assets/bundle-backend-47e774ea8ec2fb246ae7603b4e1bf78d.css"],"js":["/assets/bundle-frontend.en-US-748d4e2c3b7af164e40b46329bbd670a.js","/assets/bundle-backend.en-US-a5801991b9863297358c83265fe6b9b4.js"]},"mdedit":{"packagesQueue":["mdedit"],"css":["/assets/bundle-mdedit-e463660c6dd1d75151102a3331a38f63.css"],"js":["/assets/bundle-mdedit.en-US-269d1b03f2c08ab0573b4312d9ff6b17.js"]},"users":{"packagesQueue":["lib","lib-frontend","l10n","common","users"],"css":["/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css"],"js":["/assets/bundle-frontend.en-US-748d4e2c3b7af164e40b46329bbd670a.js"]},"forum":{"packagesQueue":["lib","lib-frontend","l10n","common","forum"],"css":["/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css"],"js":["/assets/bundle-frontend.en-US-748d4e2c3b7af164e40b46329bbd670a.js"]},"nntp":{"packagesQueue":["nntp"],"css":["/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css"],"js":["/assets/bundle-frontend.en-US-748d4e2c3b7af164e40b46329bbd670a.js"]},"search":{"packagesQueue":["lib","lib-frontend","l10n","common","search"],"css":["/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css"],"js":["/assets/bundle-frontend.en-US-748d4e2c3b7af164e40b46329bbd670a.js"]},"blogs":{"packagesQueue":["lib","lib-frontend","l10n","common","blogs"],"css":["/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css"],"js":["/assets/bundle-frontend.en-US-748d4e2c3b7af164e40b46329bbd670a.js"]},"clubs":{"packagesQueue":["lib","lib-frontend","l10n","common","clubs"],"css":["/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css"],"js":["/assets/bundle-frontend.en-US-748d4e2c3b7af164e40b46329bbd670a.js"]},"market":{"packagesQueue":["lib","lib-frontend","l10n","common","market"],"css":["/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css"],"js":["/assets/bundle-frontend.en-US-748d4e2c3b7af164e40b46329bbd670a.js"]},"rco-nodeca":{"packagesQueue":["lib","lib-frontend","l10n","common","rco-nodeca"],"css":["/assets/bundle-frontend-6ecd3a7bf530ca0b6c1a79417f2e7f8a.css"],"js":["/assets/bundle-frontend.en-US-748d4e2c3b7af164e40b46329bbd670a.js"]}},
+  'forum',
+  shims
+);
+</script></head><body><!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5G6TM2D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div class="notifications-container"><div class="layout__container container-fluid"><div style="position:relative"><div class="notifications"></div></div></div></div><article class="forum-topic-root forum-topic-root__m-open" id="content" data-keymap="{&quot;home&quot;:&quot;forum.topic:nav_to_start&quot;,&quot;end&quot;:&quot;forum.topic:nav_to_end&quot;}"><nav class="navbar-primary navbar navbar-dark bg-primary fixed-top navbar-expand-md"><div class="navbar-inner layout__container container-fluid"><div class="navbar-nav navbar__m-hide-on-search"><a class="navbar__level-up nav-link icon icon-level-up" href="https://rcopen.com/forum/f108/296304"></a></div><ul class="navbar-nav page-progress" data-current="51" data-total="70"><li class="nav-item page-progress__item"><a class="nav-link page-progress__button-first icon icon-to-top" href="https://rcopen.com/forum/f108/topic296304" data-on-click="common.blocks.navbar.blocks.page_progress:nav_to_top"></a></li><li class="nav-item page-progress__item dropdown"><a class="nav-link page-progress__info dropdown-toggle" href="#" data-bs-toggle="dropdown"><span class="page-progress__label"><span class="page-progress__label-current">51</span><span class="page-progress__label-total">70</span></span><div class="page-progress__bar"><div class="page-progress__bar-fill" style="width: 72.86%"></div></div></a><form class="dropdown-menu page-progress__menu" data-on-submit="forum.topic:nav_to_post"><label class="input" for="pgmids0">Jump to:</label><div class="input-group"><input class="page-progress__jump-input form-control" id="pgmids0" name="post" type="number" min="1" max="70" value="51"><span class="input-group-btn"><button class="btn btn-secondary" type="submit">Go!</button></span></div></form></li><li class="nav-item page-progress__item"><a class="nav-link page-progress__button-last icon icon-to-bottom" href="https://rcopen.com/forum/f108/topic296304/70" data-on-click="common.blocks.navbar.blocks.page_progress:nav_to_bottom"></a></li></ul><div class="navbar__right-burger"><button class="navbar-toggler navbar-toggler-right icon icon-menu" type="button" data-on-click="common.blocks.navbar:toggle_menu"></button></div><div class="navbar-collapse collapse"><ul class="navbar-nav navbar__m-hide-on-search"><li class="nav-item" data-api-path="users.tracker" data-autoselect="0"><a class="nav-link" href="https://rcopen.com/tracker">Tracker</a></li><li class="nav-item" data-api-path="forum.index" data-autoselect="1"><a class="nav-link" href="https://rcopen.com/">Forum</a></li><li class="nav-item" data-api-path="blogs.index" data-autoselect="1"><a class="nav-link" href="https://rcopen.com/blogs">Blogs</a></li><li class="nav-item" data-api-path="clubs.index" data-autoselect="1"><a class="nav-link" href="https://rcopen.com/clubs">Clubs</a></li><li class="nav-item" data-api-path="market.index.buy" data-autoselect="1"><a class="nav-link" href="https://rcopen.com/market">Market</a></li></ul><div class="navbar__right navbar-nav"><div class="nav-item nav-search nav-search__m-wide" data-method="search.general" data-params="{&quot;type&quot;:&quot;forum_topics&quot;}"><a class="nav-link nav-search__btn icon icon-search" href="https://rcopen.com/search?type=forum_topics" title="Search" data-on-click="common.blocks.navbar.search:show"></a><form class="nav-search__form" data-on-submit="common.blocks.navbar.search:submit"><div class="input-group"><span class="input-group-btn"><button class="btn nav-search__go icon icon-search" title="Go!" type="submit"></button></span><input class="form-control nav-search__input" placeholder="Search" name="query"><span class="input-group-btn"><button class="btn nav-search__select dropdown-toggle" id="rnds1" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">everywhere</button><div class="dropdown-menu dropdown-menu-end" aria-labelledby="rnds1"><div class="dropdown-header">Where to search:</div><button class="dropdown-item" data-method="search.general" data-params="{&quot;type&quot;:&quot;forum_topics&quot;}" data-on-click="common.blocks.navbar.search:change_area">everywhere</button><button class="dropdown-item" data-method="search.forum_section" data-params="{&quot;hid&quot;:&quot;108&quot;}" data-on-click="common.blocks.navbar.search:change_area">in section</button><button class="dropdown-item" data-method="search.forum_topic" data-params="{&quot;hid&quot;:&quot;296304&quot;}" data-on-click="common.blocks.navbar.search:change_area">in topic</button></div></span><span class="input-group-btn"><button class="btn nav-search__close icon icon-x" data-on-click="common.blocks.navbar.search:hide"></button></span></div></form></div><div class="nav-item nav-search nav-search__m-narrow"><a class="nav-link dropdown-toggle" href="https://rcopen.com/search?type=forum_topics" id="rnds2" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">Search</a><div class="dropdown-menu dropdown-menu-end" aria-labelledby="rnds2"><div class="dropdown-header">Where to search:</div><a class="dropdown-item" href="https://rcopen.com/search?type=forum_topics">everywhere</a><a class="dropdown-item" href="https://rcopen.com/search_forum_section?hid=108">in section</a><a class="dropdown-item" href="https://rcopen.com/search_forum_topic?hid=296304">in topic</a></div></div><div class="nav-item navbar-auth__guest-login" data-api-path="users.auth.login"><a class="nav-link icon icon-login navbar-guest" href="https://rcopen.com/auth/login" title="Login / Register"></a></div></div></div></div></nav><nav class="navbar-alt navbar navbar-dark bg-primary fixed-top navbar-expand-md"><div class="navbar-inner layout__container container-fluid"><div class="navbar-nav"><a class="navbar__level-up nav-link icon icon-level-up" href="https://rcopen.com/forum/f108/296304"></a></div><ul class="navbar-nav page-progress" data-current="51" data-total="70"><li class="nav-item page-progress__item"><a class="nav-link page-progress__button-first icon icon-to-top" href="https://rcopen.com/forum/f108/topic296304" data-on-click="common.blocks.navbar.blocks.page_progress:nav_to_top"></a></li><li class="nav-item page-progress__item dropdown"><a class="nav-link page-progress__info dropdown-toggle" href="#" data-bs-toggle="dropdown"><span class="page-progress__label"><span class="page-progress__label-current">51</span><span class="page-progress__label-total">70</span></span><div class="page-progress__bar"><div class="page-progress__bar-fill" style="width: 72.86%"></div></div></a><form class="dropdown-menu page-progress__menu" data-on-submit="forum.topic:nav_to_post"><label class="input" for="pgmids3">Jump to:</label><div class="input-group"><input class="page-progress__jump-input form-control" id="pgmids3" name="post" type="number" min="1" max="70" value="51"><span class="input-group-btn"><button class="btn btn-secondary" type="submit">Go!</button></span></div></form></li><li class="nav-item page-progress__item"><a class="nav-link page-progress__button-last icon icon-to-bottom" href="https://rcopen.com/forum/f108/topic296304/70" data-on-click="common.blocks.navbar.blocks.page_progress:nav_to_bottom"></a></li></ul><div class="navbar-text navbar__title d-none d-sm-block d-md-none">9П117 (SCUD-B), мпу на шасси МАЗ-543</div><div class="navbar__right-burger"><div class="page-actions__dropdown"><button class="btn btn-secondary btn-square icon icon-dropdown dropdown-toggle" type="button" id="rnds4" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown"></button><div class="dropdown-menu dropdown-menu-end" aria-labelledby="rnds4"><a class="dropdown-item" href="https://rcopen.com/search_forum_topic?hid=296304">Search in topic</a></div></div><button class="navbar-toggler navbar-toggler-right icon icon-menu" type="button" data-on-click="common.blocks.navbar:toggle_menu"></button></div><div class="navbar-collapse collapse"><div class="navbar__hover-swap-container"><div class="navbar__hover-hide navbar-text navbar__title">9П117 (SCUD-B), мпу на шасси МАЗ-543</div><ul class="navbar__hover-show navbar-nav"><li class="nav-item" data-api-path="users.tracker" data-autoselect="0"><a class="nav-link" href="https://rcopen.com/tracker">Tracker</a></li><li class="nav-item" data-api-path="forum.index" data-autoselect="1"><a class="nav-link" href="https://rcopen.com/">Forum</a></li><li class="nav-item" data-api-path="blogs.index" data-autoselect="1"><a class="nav-link" href="https://rcopen.com/blogs">Blogs</a></li><li class="nav-item" data-api-path="clubs.index" data-autoselect="1"><a class="nav-link" href="https://rcopen.com/clubs">Clubs</a></li><li class="nav-item" data-api-path="market.index.buy" data-autoselect="1"><a class="nav-link" href="https://rcopen.com/market">Market</a></li></ul></div><div class="navbar__right navbar-nav"><div class="page-actions__dropdown"><button class="btn btn-secondary btn-square icon icon-dropdown dropdown-toggle" type="button" id="rnds5" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown"></button><div class="dropdown-menu dropdown-menu-end" aria-labelledby="rnds5"><a class="dropdown-item" href="https://rcopen.com/search_forum_topic?hid=296304">Search in topic</a></div></div><div class="nav-item navbar-auth__guest-login" data-api-path="users.auth.login"><a class="nav-link icon icon-login navbar-guest" href="https://rcopen.com/auth/login" title="Login / Register"></a></div></div></div></div></nav><nav class="breadcrumbs-container"><div class="layout__container container-fluid"><div class="breadcrumbs" itemprop="breadcrumb" itemscope itemtype="http://schema.org/Breadcrumb"><span class="breadcrumbs__item"><a class="breadcrumbs__link" href="https://rcopen.com/">Forum</a></span><span class="breadcrumbs__item"><a class="breadcrumbs__link" href="https://rcopen.com/forum/f33">Автомодели</a></span><span class="breadcrumbs__item"><a class="breadcrumbs__link" href="https://rcopen.com/forum/f108">Грузовики, спецтехника</a></span></div></div></nav><div class="layout__container container-fluid"><header class="page-head"><h1 class="forum-topic-title page-head__title" itemprop="name"><div class="float-end"><div class="page-actions"><div class="page-actions__dropdown"><button class="btn btn-secondary btn-square icon icon-dropdown dropdown-toggle" type="button" id="rnds6" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown"></button><div class="dropdown-menu dropdown-menu-end" aria-labelledby="rnds6"><a class="dropdown-item" href="https://rcopen.com/search_forum_topic?hid=296304">Search in topic</a></div></div></div></div><span class="forum-topic__closed-mark icon icon-closed icon-space-after" title="Topic closed"></span><span class="forum-topic-title__text">9П117 (SCUD-B), мпу на шасси МАЗ-543</span></h1></header><div class="forum-topic__loading-prev nojs-hide"><span class="icon icon-loading-placeholder"></span></div><div class="forum-postlist"><article class="forum-post clearfix" id="post5149c50b3df95500772cc901" data-post-hid="46" data-post-id="5149c50b3df95500772cc901" data-post-ts="2013-03-20T14:17:47.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:5149c50b3df95500772cc901">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/46"><time datetime="2013-03-20T14:17:47Z" data-format="relative" title="20 March 2013, 14:17">Mar 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/46"><p>Подумав-подумав, таки купил набор вышеуказанных редукторов, как никак для 8го и 5го масштаба. 2 ремкомплекта шестренок для дифов и чашек для переделки в проходные и по одному в запас. Так как дифы большие, то, скорее всего, придется переделывать рулевое с нуля но уже после их установки в раму.<br>
+Осталось дождаться посылок с шинами и дифами <span class="emoji emoji-wink" data-nd-emoji-src=":wink:">😉</span></p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="5149c50b3df95500772cc901" title="Click to see details" data-votes-count="0"></button></li></ul></footer></article><footer class="forum-postlist__datediff forum-post__before"><span class="icon icon-clock icon-space-after">1 month later</span></footer><article class="forum-post clearfix" id="post518d43f73df95500772cc903" data-post-hid="47" data-post-id="518d43f73df95500772cc903" data-post-ts="2013-05-10T19:01:11.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:518d43f73df95500772cc903">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/47"><time datetime="2013-05-10T19:01:11Z" data-format="relative" title="10 May 2013, 19:01">May 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/47"><p>Пост не особо информативный, особо не пинайте <span class="emoji emoji-wink" data-nd-emoji-src=":wink:">😉</span></p>
+<p>Приехали, приползли, и шины и дифы с запчастями мелкими для них - не удержался примерить <span class="emoji emoji-laughing" data-nd-emoji-src=":laughing:">😆</span></p>
+<p>В первом приближении перепилил 2 глухих редуктора в проходные.</p>
+<p><a href="http://fotki.yandex.ru/users/cx75sw25/view/812830/" class="link link-ext" data-nd-link-orig="http://fotki.yandex.ru/users/cx75sw25/view/812830/" target="_blank" rel="nofollow noopener"><span class="image" style="width: 800px" data-nd-image-orig="https://img-fotki.yandex.ru/get/5629/24323485.1/0_c671e_59ee956f_XL.jpg"><img src="https://img-fotki.yandex.ru/get/5629/24323485.1/0_c671e_59ee956f_XL.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 66.6250%;"></span></span></a></p>
+<p><a href="http://fotki.yandex.ru/users/cx75sw25/view/812837/" class="link link-ext" data-nd-link-orig="http://fotki.yandex.ru/users/cx75sw25/view/812837/" target="_blank" rel="nofollow noopener"><span class="image" style="width: 800px" data-nd-image-orig="https://img-fotki.yandex.ru/get/6441/24323485.1/0_c6725_3d1285ad_XL.jpg"><img src="https://img-fotki.yandex.ru/get/6441/24323485.1/0_c6725_3d1285ad_XL.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 66.6250%;"></span></span></a></p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="518d43f73df95500772cc903" title="Click to see details" data-votes-count="+28"></button></li></ul></footer></article><footer class="forum-postlist__datediff forum-post__before"><span class="icon icon-clock icon-space-after">2 months later</span></footer><article class="forum-post clearfix" id="post51ee94613df95500772cc905" data-post-hid="48" data-post-id="51ee94613df95500772cc905" data-post-ts="2013-07-23T14:34:09.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:51ee94613df95500772cc905">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/48"><time datetime="2013-07-23T14:34:09Z" data-format="relative" title="23 July 2013, 14:34">Jul 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/48"><p>Спустя “небольшой” промежуток времени изза сессии и покатушек до дома таки руки добрались и до машинки <span class="emoji emoji-wink" data-nd-emoji-src=":wink:">😉</span></p>
+<p>Достижений не много но тем не менее. Проинсталлировал дифференциалы в раму, долго думал как их лепить в уже готовую раму - налицо косяк проектировочный вышел. Если бы они были у меня изначально и знать бы их все установочные размеры тогда, вышло бы изящнее. Но и так не плохо <span class="emoji emoji-grin" data-nd-emoji-src=":grin:">😁</span></p>
+<p><a href="http://fotki.yandex.ru/users/cx75sw25/view/827205/" class="link link-ext" data-nd-link-orig="http://fotki.yandex.ru/users/cx75sw25/view/827205/" target="_blank" rel="nofollow noopener"><span class="image" style="width: 1024px" data-nd-image-orig="https://img-fotki.yandex.ru/get/9093/24323485.1/0_c9f45_963945da_XXL.jpg"><img src="https://img-fotki.yandex.ru/get/9093/24323485.1/0_c9f45_963945da_XXL.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 20.5078%;"></span></span></a></p>
+<p><a href="http://fotki.yandex.ru/users/cx75sw25/view/827204/" class="link link-ext" data-nd-link-orig="http://fotki.yandex.ru/users/cx75sw25/view/827204/" target="_blank" rel="nofollow noopener"><span class="image" style="width: 800px" data-nd-image-orig="https://img-fotki.yandex.ru/get/9107/24323485.1/0_c9f44_acd633bc_XL.jpg"><img src="https://img-fotki.yandex.ru/get/9107/24323485.1/0_c9f44_acd633bc_XL.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 68.5000%;"></span></span></a></p>
+<p><a href="http://fotki.yandex.ru/users/cx75sw25/view/827203/" class="link link-ext" data-nd-link-orig="http://fotki.yandex.ru/users/cx75sw25/view/827203/" target="_blank" rel="nofollow noopener"><span class="image" style="width: 800px" data-nd-image-orig="https://img-fotki.yandex.ru/get/9474/24323485.1/0_c9f43_bb70ac4c_XL.jpg"><img src="https://img-fotki.yandex.ru/get/9474/24323485.1/0_c9f43_bb70ac4c_XL.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 58.6250%;"></span></span></a></p>
+<p>Займусь дисками и самым веселым - торсионами…</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="51ee94613df95500772cc905" title="Click to see details" data-votes-count="+15"></button></li></ul></footer></article><article class="forum-post clearfix" id="post51eebc2d3df95500772cc907" data-post-hid="49" data-post-id="51eebc2d3df95500772cc907" data-post-ts="2013-07-23T17:23:57.000Z" data-user-hid="52761" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member52761"><img class="forum-post__userpic-img-sm _identicon" alt="Holodilnik" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="4a96b1913df955007776ab8a" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member52761" data-user-id="4a96b1913df955007776ab8a" data-user-ref="fp:51eebc2d3df95500772cc907">Holodilnik</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/49"><time datetime="2013-07-23T17:23:57Z" data-format="relative" title="23 July 2013, 17:23">Jul 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member52761"><img class="forum-post__userpic-img _identicon" alt="Holodilnik" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="4a96b1913df955007776ab8a" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/49"><p>От чего будете использовать колесные привода?</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="51eebc2d3df95500772cc907" title="Click to see details" data-votes-count="0"></button></li></ul></footer></article><article class="forum-post clearfix" id="post51eebd843df95500772cc909" data-post-hid="50" data-post-id="51eebd843df95500772cc909" data-post-ts="2013-07-23T17:29:40.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:51eebd843df95500772cc909">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/50"><time datetime="2013-07-23T17:29:40Z" data-format="relative" title="23 July 2013, 17:29">Jul 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/50"><p>Не совсем понял вопроса. Да и на Вы не стоит)</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="51eebd843df95500772cc909" title="Click to see details" data-votes-count="0"></button></li></ul></footer></article><article class="forum-post clearfix" id="post51ef79bb3df95500772cc90b" data-post-hid="51" data-post-id="51ef79bb3df95500772cc90b" data-post-ts="2013-07-24T06:52:43.000Z" data-user-hid="52761" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member52761"><img class="forum-post__userpic-img-sm _identicon" alt="Holodilnik" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="4a96b1913df955007776ab8a" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member52761" data-user-id="4a96b1913df955007776ab8a" data-user-ref="fp:51ef79bb3df95500772cc90b">Holodilnik</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/51"><time datetime="2013-07-24T06:52:43Z" data-format="relative" title="24 July 2013, 06:52">Jul 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member52761"><img class="forum-post__userpic-img _identicon" alt="Holodilnik" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="4a96b1913df955007776ab8a" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/51"><p>Я имел ввиду привод от дифференциала к колесу. Полуось еще можно назвать или карданный вал.</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="51ef79bb3df95500772cc90b" title="Click to see details" data-votes-count="0"></button></li></ul></footer></article><article class="forum-post clearfix" id="post51ef81d53df95500772cc90d" data-post-hid="52" data-post-id="51ef81d53df95500772cc90d" data-post-ts="2013-07-24T07:27:17.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:51ef81d53df95500772cc90d">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/52"><time datetime="2013-07-24T07:27:17Z" data-format="relative" title="24 July 2013, 07:27">Jul 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/52"><p>Понял о чем речь) Самопал будет конечно, косточки по принципу этих  <a href="https://rcopen.com/forum/f108/topic310732/37" class="link link-int link-auto" data-nd-link-type="autolink" data-nd-link-orig="https://rcopen.com/forum/f108/topic310732/37">rcopen.com/forum/f108/topic310732/37</a><br>
+Намереваюсь такие ставить везде. Не хотелось бы тратиться сильно, а у alexshura1980 очень работоспособная реализация.</p>
+<p>Хотя это не конечный вариант, есть вероятность того что придется придумывать иные схемы…</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="51ef81d53df95500772cc90d" title="Click to see details" data-votes-count="0"></button></li></ul></footer></article><article class="forum-post clearfix" id="post51f2a96b3df95500772cc90f" data-post-hid="53" data-post-id="51f2a96b3df95500772cc90f" data-post-ts="2013-07-26T16:52:59.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:51f2a96b3df95500772cc90f">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/53"><time datetime="2013-07-26T16:52:59Z" data-format="relative" title="26 July 2013, 16:52">Jul 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/53"><p>Небольшое обновление) Поставил двигатель на законное место. Теперь все боле-менее на месте, видно что с рулевым придется изголятся. Но это на потом… Ну и ритуальное прикладывание к рисунку общего вида <span class="emoji emoji-heart_eyes" data-nd-emoji-src=":heart_eyes:">😍</span></p>
+<p><a href="http://fotki.yandex.ru/users/cx75sw25/view/827776/" class="link link-ext" data-nd-link-orig="http://fotki.yandex.ru/users/cx75sw25/view/827776/" target="_blank" rel="nofollow noopener"><span class="image" style="width: 1024px" data-nd-image-orig="https://img-fotki.yandex.ru/get/9513/24323485.1/0_ca180_60e092c1_XXL.jpg"><img src="https://img-fotki.yandex.ru/get/9513/24323485.1/0_ca180_60e092c1_XXL.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 31.5430%;"></span></span></a></p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="51f2a96b3df95500772cc90f" title="Click to see details" data-votes-count="+20"></button></li></ul></footer></article><article class="forum-post clearfix" id="post51f7e8893df95500772cc911" data-post-hid="54" data-post-id="51f7e8893df95500772cc911" data-post-ts="2013-07-30T16:23:37.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:51f7e8893df95500772cc911">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/54"><time datetime="2013-07-30T16:23:37Z" data-format="relative" title="30 July 2013, 16:23">Jul 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/54"><p>Так как были вопросы по реализации торсионов - родил опытную версию.<br>
+Проволока пока что находится на одой половине. На видео - весы-кантарики. Дают 1,2 кг перед верхним упором, в предполагаемом нейтральном положении дают около 0,8 кг - 8*0,8=6,4 кг, и что-то подсказывает что этого достаточно. В противном случае придется ставить симметрично еще по одной проволоке…</p>
+<div class="ez-player ez-domain-youtube_com ez-block" data-placeholder="&lt;iframe class=&quot;ez-player-frame&quot; src=&quot;https://www.youtube.com/embed/eeAWyhsAiRw?feature=oembed&amp;amp;autoplay=1&quot; allowfullscreen&gt;&lt;/iframe&gt;" data-nd-link-orig="http://www.youtube.com/watch?v=eeAWyhsAiRw&amp;feature=youtu.be" data-nd-link-type="linkify">
+  <div class="ez-player-container" style="padding-bottom: 75%;">
+    <a class="ez-player-placeholder" target="_blank" href="http://www.youtube.com/watch?v=eeAWyhsAiRw&amp;feature=youtu.be" rel="nofollow">
+      <div class="ez-player-picture" style="background-image: url(&apos;https://i.ytimg.com/vi/eeAWyhsAiRw/hqdefault.jpg&apos;);"></div>
+      
+        <div class="ez-player-header">
+          <div class="ez-player-title">
+            подвеска скада, опытная версия
+          </div>
+        </div>
+      
+      <div class="ez-player-button"></div>
+      <div class="ez-player-logo"></div>
+      
+    </a>
+  </div>
+</div>
+<p><a href="http://fotki.yandex.ru/users/cx75sw25/view/828153/" class="link link-ext" data-nd-link-orig="http://fotki.yandex.ru/users/cx75sw25/view/828153/" target="_blank" rel="nofollow noopener"><span class="image" style="width: 800px" data-nd-image-orig="https://img-fotki.yandex.ru/get/9506/24323485.1/0_ca2f9_4593b383_XL.jpg"><img src="https://img-fotki.yandex.ru/get/9506/24323485.1/0_ca2f9_4593b383_XL.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 78.5000%;"></span></span></a></p>
+<p><a href="http://fotki.yandex.ru/users/cx75sw25/view/828154/" class="link link-ext" data-nd-link-orig="http://fotki.yandex.ru/users/cx75sw25/view/828154/" target="_blank" rel="nofollow noopener"><span class="image" style="width: 800px" data-nd-image-orig="https://img-fotki.yandex.ru/get/9060/24323485.1/0_ca2fa_22c0fee1_XL.jpg"><img src="https://img-fotki.yandex.ru/get/9060/24323485.1/0_ca2fa_22c0fee1_XL.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 55.5000%;"></span></span></a></p>
+<p>Добавлю пару винтиков для того что бы выпрямить проволоку внутри рамы, ее перекосило слегка <span class="emoji emoji-wink" data-nd-emoji-src=":wink:">😉</span></p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="51f7e8893df95500772cc911" title="Click to see details" data-votes-count="+14"></button></li></ul></footer></article><footer class="forum-postlist__datediff forum-post__before"><span class="icon icon-clock icon-space-after">26 days later</span></footer><article class="forum-post clearfix" id="post521b16c73df95500772cc913" data-post-hid="55" data-post-id="521b16c73df95500772cc913" data-post-ts="2013-08-26T08:50:15.000Z" data-user-hid="131578" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member131578"><img class="forum-post__userpic-img-sm _identicon" alt="SergeyIP" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="50d590713df955007773c7c1" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member131578" data-user-id="50d590713df955007773c7c1" data-user-ref="fp:521b16c73df95500772cc913">SergeyIP</a></div><div class="forum-post__meta-info"><a class="forum-post__reply-to-link" href="https://rcopen.com/forum/f108/topic296304/41"><span class="icon icon-reply-for icon-space-after"></span><img class="forum-post__reply-to-avatar _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="sm">John_Bon_Jovi</a><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/55"><time datetime="2013-08-26T08:50:15Z" data-format="relative" title="26 August 2013, 08:50">Aug 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member131578"><img class="forum-post__userpic-img _identicon" alt="SergeyIP" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="50d590713df955007773c7c1" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/55"><p>Привет! Сфоткал подвеску Маза 7310 - может пригодиться?!<br>
+<a href="http://photo.qip.ru/users/ipivanovsv/4232664/104499824/" class="link link-ext" data-nd-link-orig="http://photo.qip.ru/users/ipivanovsv/4232664/104499824/" target="_blank" rel="nofollow noopener"><img class="image" data-nd-image-orig="http://photo.qip.ru/photo/ipivanovsv/4232664/small/104499824.jpg" src="http://photo.qip.ru/photo/ipivanovsv/4232664/small/104499824.jpg" alt title referrerpolicy="no-referrer"></a></p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="521b16c73df95500772cc913" title="Click to see details" data-votes-count="0"></button></li></ul></footer></article><article class="forum-post clearfix" id="post521b1ffe3df95500772cc915" data-post-hid="56" data-post-id="521b1ffe3df95500772cc915" data-post-ts="2013-08-26T09:29:34.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:521b1ffe3df95500772cc915">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/56"><time datetime="2013-08-26T09:29:34Z" data-format="relative" title="26 August 2013, 09:29">Aug 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/56"><p>Привет! Не, не стоит, у меня подеска лишь принципиально похожа да я и ее почти закончил, лишь не могу найти подходящую проволоку без заметных остаточных деформаций) Спицы от зонтика дома нашлись, всем одходят коме малого количества, нашел колеса от велика - гнутся сильно, немного закалил и все без толку. Вернусь в самару - пойду по рынкам)<br>
+Кстати, сам облазил скад (и много других штук на 543 шасси) полностью в музее.</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="521b1ffe3df95500772cc915" title="Click to see details" data-votes-count="0"></button></li></ul></footer></article><article class="forum-post clearfix" id="post521c62163df95500772cc917" data-post-hid="57" data-post-id="521c62163df95500772cc917" data-post-ts="2013-08-27T08:23:50.000Z" data-user-hid="131578" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member131578"><img class="forum-post__userpic-img-sm _identicon" alt="SergeyIP" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="50d590713df955007773c7c1" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member131578" data-user-id="50d590713df955007773c7c1" data-user-ref="fp:521c62163df95500772cc917">SergeyIP</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/57"><time datetime="2013-08-27T08:23:50Z" data-format="relative" title="27 August 2013, 08:23">Aug 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member131578"><img class="forum-post__userpic-img _identicon" alt="SergeyIP" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="50d590713df955007773c7c1" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/57"><p>Привет! Посмотрел фото вашей модели - для реализации копийной подвески масштаб маловат или редуктора большие! Я если буду делать модель, то в 10 масштабе! А вот редуктора буду использовать такие же! А видели модель маз 537 из польши?</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="521c62163df95500772cc917" title="Click to see details" data-votes-count="0"></button></li></ul></footer></article><article class="forum-post clearfix" id="post521dd5353df95500772cc919" data-post-hid="58" data-post-id="521dd5353df95500772cc919" data-post-ts="2013-08-28T10:47:17.000Z" data-user-hid="117911" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member117911"><img class="forum-post__userpic-img-sm _identicon" alt="Den4" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="4f8c05c03df9550077745621" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member117911" data-user-id="4f8c05c03df9550077745621" data-user-ref="fp:521dd5353df95500772cc919">Den4</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/58"><time datetime="2013-08-28T10:47:17Z" data-format="relative" title="28 August 2013, 10:47">Aug 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member117911"><img class="forum-post__userpic-img _identicon" alt="Den4" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="4f8c05c03df9550077745621" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/58"><p>В 10-ом масштабе есть одна засада, на МАЗ 537 стоят шины марки И-170 (1600*500*610), на МАЗ 543 В-77 размер (1500х600-635). самая высокая резина, которая хоть как то будет напоминать оригинальный протектор, это вот эта (<a href="http://store.rc4wd.com/Mickey-Thompson-22-Baja-Claw-TTC-Scale-Tires-pair-_p_1502.html" class="link link-ext link-auto" data-nd-link-type="autolink" data-nd-link-orig="http://store.rc4wd.com/Mickey-Thompson-22-Baja-Claw-TTC-Scale-Tires-pair-_p_1502.html" target="_blank" rel="nofollow noopener">…rc4wd.com/Mickey-Thompson-22-Baja-Claw-TTC-Scale-…</a>) НЕ РЕКЛАМА! Она по внешнему диаметру  145мм, вот интересно эти пол сантиметра (на 537 вообще полтара) будут в глаза бросаться?</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="521dd5353df95500772cc919" title="Click to see details" data-votes-count="0"></button></li></ul></footer></article><footer class="forum-postlist__datediff forum-post__before"><span class="icon icon-clock icon-space-after">9 days later</span></footer><article class="forum-post clearfix" id="post5229c1963df95500772cc91b" data-post-hid="59" data-post-id="5229c1963df95500772cc91b" data-post-ts="2013-09-06T11:50:46.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:5229c1963df95500772cc91b">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/59"><time datetime="2013-09-06T11:50:46Z" data-format="relative" title=" 6 September 2013, 11:50">Sep 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/59"><p>Сергей, да, масштаб мал и редуктора большие - и то и другое) А вот если делать рям основательно то мне кажтся надо использовать дифы от саммита с блокировкой - будет идеал! Польский? Если этот <a href="http://rc-trial.ayz.pl/phpBB/viewtopic.php?t=2369&amp;postdays=0&amp;postorder=asc&amp;start=0" class="link link-ext link-auto" data-nd-link-type="autolink" data-nd-link-orig="http://rc-trial.ayz.pl/phpBB/viewtopic.php?t=2369&amp;postdays=0&amp;postorder=asc&amp;start=0" target="_blank" rel="nofollow noopener">rc-trial.ayz.pl/phpBB/viewtopic.php?t=2369&amp;postday…</a> то да, атас-модель!<br>
+Денис, наверно не сильно, меньше чем надо - приемлемей, чем на те же полсантиметра больше) Ксати а рок крашеры не подходят на 2.2? Они же используются в той модели что по ссылке?</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="5229c1963df95500772cc91b" title="Click to see details" data-votes-count="0"></button></li></ul></footer></article><article class="forum-post clearfix" id="post522ce8db3df95500772cc91d" data-post-hid="60" data-post-id="522ce8db3df95500772cc91d" data-post-ts="2013-09-08T21:15:07.000Z" data-user-hid="131578" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member131578"><img class="forum-post__userpic-img-sm _identicon" alt="SergeyIP" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="50d590713df955007773c7c1" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member131578" data-user-id="50d590713df955007773c7c1" data-user-ref="fp:522ce8db3df95500772cc91d">SergeyIP</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/60"><time datetime="2013-09-08T21:15:07Z" data-format="relative" title=" 8 September 2013, 21:15">Sep 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member131578"><img class="forum-post__userpic-img _identicon" alt="SergeyIP" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="50d590713df955007773c7c1" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/60"><p>надо использовать дифы от саммита с блокировкой - будет идеал</p>
+<p>Я Ваши перепутал с саммитовскими - во всех магазинах Москвы узнавал про дифы с/без блокировки желательно с пульта - такими как раз и оказались с саммита. Даже нашел сайт где их продают, где 40 зелененьких. А почему Вы на них не остановились? Только ли из-за невозможности переделки в проходные? А  как будете делать кабину и остальные элементы?</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="522ce8db3df95500772cc91d" title="Click to see details" data-votes-count="0"></button></li></ul></footer></article><article class="forum-post clearfix" id="post522d5edc3df95500772cc91f" data-post-hid="61" data-post-id="522d5edc3df95500772cc91f" data-post-ts="2013-09-09T05:38:36.000Z" data-user-hid="41540" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member41540"><img class="forum-post__userpic-img-sm _identicon" alt="E-speed" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="493a6f8e3df9550077774c16" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member41540" data-user-id="493a6f8e3df9550077774c16" data-user-ref="fp:522d5edc3df95500772cc91f">E-speed</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/61"><time datetime="2013-09-09T05:38:36Z" data-format="relative" title=" 9 September 2013, 05:38">Sep 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member41540"><img class="forum-post__userpic-img _identicon" alt="E-speed" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="493a6f8e3df9550077774c16" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/61"><p>вот тут можно посмотреть резину, может что и подойдёт…<br>
+<a href="http://www.barnhausen.de/modellbaureifen-lkwso.html" class="link link-ext link-auto" data-nd-link-type="autolink" data-nd-link-orig="http://www.barnhausen.de/modellbaureifen-lkwso.html" target="_blank" rel="nofollow noopener">www.barnhausen.de/modellbaureifen-lkwso.html</a></p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="522d5edc3df95500772cc91f" title="Click to see details" data-votes-count="+1"></button></li></ul></footer></article><article class="forum-post clearfix" id="post522d5ee23df95500772cc921" data-post-hid="62" data-post-id="522d5ee23df95500772cc921" data-post-ts="2013-09-09T05:38:42.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:522d5ee23df95500772cc921">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/62"><time datetime="2013-09-09T05:38:42Z" data-format="relative" title=" 9 September 2013, 05:38">Sep 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/62"><p>Да все банально - дорого стоят, потому и эти. Достаточно дешевы и вроде не должно вsyих слизывать шесрени (для 8го масштаба как-никак). Да и первый автопроект, а начинать лучше с протого) Пластик пвх, традиционно.</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="522d5ee23df95500772cc921" title="Click to see details" data-votes-count="+1"></button></li></ul></footer></article><footer class="forum-postlist__datediff forum-post__before"><span class="icon icon-clock icon-space-after">2 months later</span></footer><article class="forum-post clearfix" id="post527e93ed3df95500772cc923" data-post-hid="63" data-post-id="527e93ed3df95500772cc923" data-post-ts="2013-11-09T19:58:37.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:527e93ed3df95500772cc923">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/63"><time datetime="2013-11-09T19:58:37Z" data-format="relative" title=" 9 November 2013, 19:58">Nov 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/63"><p>После непродолжительной паузы продолжим-с <span class="emoji emoji-wink" data-nd-emoji-src=":wink:">😉</span></p>
+<p>наконец смог найти подходящую проволоку, что б не имела больших остаточных деформаций и этом довольно мягко пружинила. Собрал в итоге всю подвеску.<br>
+Видосик ниже прилагается. Поставил на покрышки, но дисков все еще нет, потому выглядит не очень но принцип вроде виден - оно работает, кажется <span class="emoji emoji-grin" data-nd-emoji-src=":grin:">😁</span></p>
+<div class="ez-player ez-domain-youtube_com ez-block" data-placeholder="&lt;iframe class=&quot;ez-player-frame&quot; src=&quot;https://www.youtube.com/embed/JIi9k4QNAoU?feature=oembed&amp;amp;autoplay=1&quot; allowfullscreen&gt;&lt;/iframe&gt;" data-nd-link-orig="http://www.youtube.com/watch?v=JIi9k4QNAoU&amp;hd=1" data-nd-link-type="linkify">
+  <div class="ez-player-container" style="padding-bottom: 56.5%;">
+    <a class="ez-player-placeholder" target="_blank" href="http://www.youtube.com/watch?v=JIi9k4QNAoU&amp;hd=1" rel="nofollow">
+      <div class="ez-player-picture" style="background-image: url(&apos;https://i.ytimg.com/vi/JIi9k4QNAoU/hqdefault.jpg&apos;);"></div>
+      
+        <div class="ez-player-header">
+          <div class="ez-player-title">
+            подвеска 2
+          </div>
+        </div>
+      
+      <div class="ez-player-button"></div>
+      <div class="ez-player-logo"></div>
+      
+    </a>
+  </div>
+</div>
+<p>Будут диски, станет нагляднее как движется каждое в отдельности. Приглядел подходящую болванку заодно под них, так что продолжение следует!</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="527e93ed3df95500772cc923" title="Click to see details" data-votes-count="+17"></button></li></ul></footer></article><footer class="forum-postlist__datediff forum-post__before"><span class="icon icon-clock icon-space-after">1 month later</span></footer><article class="forum-post clearfix" id="post52be03603df95500772cc925" data-post-hid="64" data-post-id="52be03603df95500772cc925" data-post-ts="2013-12-27T22:46:56.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:52be03603df95500772cc925">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/64"><time datetime="2013-12-27T22:46:56Z" data-format="relative" title="27 December 2013, 22:46">Dec 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/64"><p>Продолжаем-с <span class="emoji emoji-stuck_out_tongue" data-nd-emoji-src=":stuck_out_tongue:">😛</span></p>
+<p>Теперь тачила стоит уверенно (ну почти уверенно) на ногах! Получил я диски сегодня, так сказать прям из под станка фотки. Надо будет соединять их с рамой, но в силу всяких Новых Годов это случится не ранее чем через пару недель.<br>
+Потому что обнаружилась неприятность такого плана, трубки дюралевые из леруа мерелена обладают весьма большими допусками в минус, и вместо 8 имеют диаметр 7,8 что в сочетании с не самой точной обработкой деталей диска и ступицы дают знатные такие люфты. Потому решил на каникулах вернувшись домой, выточить стальные оси заодно с ответной чашкой для косточки кардана, подогнав к каждому диску свою ось индивидуально.</p>
+<p>Ну а пока видосики работы подвески. Она работает <span class="emoji emoji-laughing" data-nd-emoji-src=":laughing:">😆</span> Артикуляция у нее соответсвует маштабу, хотя на видео смотрится не очень внушающе.</p>
+<p>Ко всему, промыл редуктор от старой смазки, засуну новую силиконовую, что надеюсь снизит шум немного</p>
+<p><span class="image" style="width: 2560px" data-nd-image-orig="https://pp.vk.me/c310530/v310530753/5a0b/IOK2wtpSe1o.jpg"><img src="https://pp.vk.me/c310530/v310530753/5a0b/IOK2wtpSe1o.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 57.8125%;"></span></span></p>
+<p><span class="image" style="width: 2560px" data-nd-image-orig="https://pp.vk.me/c310530/v310530753/5a01/TKKZDF4bzuk.jpg"><img src="https://pp.vk.me/c310530/v310530753/5a01/TKKZDF4bzuk.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 57.8906%;"></span></span></p>
+<p><span class="image" style="width: 2560px" data-nd-image-orig="https://pp.vk.me/c310530/v310530753/5a15/-JaKHEwX2v4.jpg"><img src="https://pp.vk.me/c310530/v310530753/5a15/-JaKHEwX2v4.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 68.2031%;"></span></span></p>
+<p><span class="image" style="width: 1280px" data-nd-image-orig="https://pp.vk.me/c407222/v407222753/a6e3/nTY8mBqj54Y.jpg"><img src="https://pp.vk.me/c407222/v407222753/a6e3/nTY8mBqj54Y.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 62.5000%;"></span></span></p>
+<p><span class="image" style="width: 1280px" data-nd-image-orig="https://pp.vk.me/c407222/v407222753/a6da/MWUAkYdpJJU.jpg"><img src="https://pp.vk.me/c407222/v407222753/a6da/MWUAkYdpJJU.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 62.5000%;"></span></span></p>
+<p><span class="image" style="width: 1280px" data-nd-image-orig="https://pp.vk.me/c407222/v407222753/a6f5/b3-bMBRNiuk.jpg"><img src="https://pp.vk.me/c407222/v407222753/a6f5/b3-bMBRNiuk.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 62.5000%;"></span></span></p>
+<p><a href="http://fotki.yandex.ru/users/cx75sw25/view/853560/" class="link link-ext" data-nd-link-orig="http://fotki.yandex.ru/users/cx75sw25/view/853560/" target="_blank" rel="nofollow noopener"><span class="image" style="width: 800px" data-nd-image-orig="https://img-fotki.yandex.ru/get/9759/24323485.1/0_d0638_20d34b7b_XL.jpg"><img src="https://img-fotki.yandex.ru/get/9759/24323485.1/0_d0638_20d34b7b_XL.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 33.0000%;"></span></span></a></p>
+<p><a href="http://fotki.yandex.ru/users/cx75sw25/view/853561/" class="link link-ext" data-nd-link-orig="http://fotki.yandex.ru/users/cx75sw25/view/853561/" target="_blank" rel="nofollow noopener"><span class="image" style="width: 800px" data-nd-image-orig="https://img-fotki.yandex.ru/get/9493/24323485.1/0_d0639_ade91e16_XL.jpg"><img src="https://img-fotki.yandex.ru/get/9493/24323485.1/0_d0639_ade91e16_XL.jpg" alt title referrerpolicy="no-referrer"><span class="image__spacer" style="padding-bottom: 54.5000%;"></span></span></a></p>
+<div class="ez-player ez-domain-youtube_com ez-block" data-placeholder="&lt;iframe class=&quot;ez-player-frame&quot; src=&quot;https://www.youtube.com/embed/a0VFFrvxzmg?feature=oembed&amp;amp;autoplay=1&quot; allowfullscreen&gt;&lt;/iframe&gt;" data-nd-link-orig="http://www.youtube.com/watch?v=a0VFFrvxzmg" data-nd-link-type="linkify">
+  <div class="ez-player-container" style="padding-bottom: 56.5%;">
+    <a class="ez-player-placeholder" target="_blank" href="http://www.youtube.com/watch?v=a0VFFrvxzmg" rel="nofollow">
+      <div class="ez-player-picture" style="background-image: url(&apos;https://i.ytimg.com/vi/a0VFFrvxzmg/hqdefault.jpg&apos;);"></div>
+      
+        <div class="ez-player-header">
+          <div class="ez-player-title">
+            MVI 5923
+          </div>
+        </div>
+      
+      <div class="ez-player-button"></div>
+      <div class="ez-player-logo"></div>
+      
+    </a>
+  </div>
+</div>
+<div class="ez-player ez-domain-youtube_com ez-block" data-placeholder="&lt;iframe class=&quot;ez-player-frame&quot; src=&quot;https://www.youtube.com/embed/dTV3Fp6zJ1E?feature=oembed&amp;amp;autoplay=1&quot; allowfullscreen&gt;&lt;/iframe&gt;" data-nd-link-orig="http://www.youtube.com/watch?v=dTV3Fp6zJ1E" data-nd-link-type="linkify">
+  <div class="ez-player-container" style="padding-bottom: 56.5%;">
+    <a class="ez-player-placeholder" target="_blank" href="http://www.youtube.com/watch?v=dTV3Fp6zJ1E" rel="nofollow">
+      <div class="ez-player-picture" style="background-image: url(&apos;https://i.ytimg.com/vi/dTV3Fp6zJ1E/hqdefault.jpg&apos;);"></div>
+      
+        <div class="ez-player-header">
+          <div class="ez-player-title">
+            MVI 5922
+          </div>
+        </div>
+      
+      <div class="ez-player-button"></div>
+      <div class="ez-player-logo"></div>
+      
+    </a>
+  </div>
+</div>
+<p>Немного офтопа! С Наступающим Новым Годом прочитавших этот пост! <span class="emoji emoji-smiley" data-nd-emoji-src=":smiley:">😃</span></p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="52be03603df95500772cc925" title="Click to see details" data-votes-count="+30"></button></li></ul></footer></article><article class="forum-post clearfix" id="post52bee0c33df95500772cc927" data-post-hid="65" data-post-id="52bee0c33df95500772cc927" data-post-ts="2013-12-28T14:31:31.000Z" data-user-hid="138388" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member138388"><img class="forum-post__userpic-img-sm _identicon" alt="alexshura1980" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="512200a93df9550077739dd3" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member138388" data-user-id="512200a93df9550077739dd3" data-user-ref="fp:52bee0c33df95500772cc927">alexshura1980</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/65"><time datetime="2013-12-28T14:31:31Z" data-format="relative" title="28 December 2013, 14:31">Dec 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member138388"><img class="forum-post__userpic-img _identicon" alt="alexshura1980" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="512200a93df9550077739dd3" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/65"><blockquote class="quote" cite="https://rcopen.com/forum/f108/topic296304/64"><footer class="quote__title"><div class="quote__controls float-end"><button class="quote__expand btn btn-sm icon icon-expand" data-i18n-title="expand"></button><button class="quote__collapse btn btn-sm icon icon-collapse" data-i18n-title="collapse"></button><a class="quote__ref-local btn btn-sm icon icon-ref-local" href="https://rcopen.com/forum/f108/topic296304/64" data-i18n-title="jump"></a><a class="quote__ref-outer btn btn-sm icon icon-ref-outer" href="https://rcopen.com/forum/f108/topic296304/64" data-i18n-title="jump"></a></div><cite class="quote__author"><img class="quote__author-avatar _identicon" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="sm"><span class="quote__author-name" data-user-id="507875f63df955007773ed4f">John_Bon_Jovi</span></cite>:</footer><div class="quote__content">
+<p>Ко всему, промыл редуктор от старой смазки, засуну новую силиконовую, что надеюсь снизит шум немного</p>
+</div></blockquote>
+<p>Из личного опыта…не поможет!!!Нужно прикреплять редуктор через резиновые подушки или сайлентблоки. Лучше Вам над этим поработать сейчас пока ещё есть хороший доступ к редуктору и раме. Вот тогда шум от редуктора  уменьшится в разы!!!</p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="52bee0c33df95500772cc927" title="Click to see details" data-votes-count="+3"></button></li></ul></footer></article><article class="forum-post clearfix" id="post52bee1dd3df95500772cc929" data-post-hid="66" data-post-id="52bee1dd3df95500772cc929" data-post-ts="2013-12-28T14:36:13.000Z" data-user-hid="127166" itemscope itemtype="http://schema.org/WebPageElement"><footer class="forum-post__meta"><div class="forum-post__meta-avatar"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img-sm _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__meta-flex"><div class="forum-post__meta-author"><span class="forum-post__ignored-mark icon icon-ignore icon-space-after"></span><a class="forum-post__author _ucard-popover" href="https://rcopen.com/member127166" data-user-id="507875f63df955007773ed4f" data-user-ref="fp:52bee1dd3df95500772cc929">John_Bon_Jovi</a></div><div class="forum-post__meta-info"><a class="forum-post__link" href="https://rcopen.com/forum/f108/topic296304/66"><time datetime="2013-12-28T14:36:13Z" data-format="relative" title="28 December 2013, 14:36">Dec 2013</time></a></div></div></footer><div class="forum-post__aside"><a class="forum-post__userpic" href="https://rcopen.com/member127166"><img class="forum-post__userpic-img _identicon" alt="John_Bon_Jovi" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-user-id="507875f63df955007773ed4f" data-avatar-size="md"></a></div><div class="forum-post__content"><div class="forum-post__message markup" data-nd-src="https://rcopen.com/forum/f108/topic296304/66"><p>Может и правда, пока не поздно, подумать как его на подушки поставить. Но смазку все равно сменить надо было, как ни крути <span class="emoji emoji-smiley" data-nd-emoji-src=":smiley:">😃</span></p>
+</div></div><footer class="forum-post__controls"><ul class="forum-post__controls-blk"><li class="forum-post__control-item forum-post__votes"><button class="btn forum-post__action" data-on-click="common.votes_popover" data-votes-popover-placement="left" data-votes-popover-for="52bee1dd3df95500772cc929" title="Click to see details" data-votes-count="+3"></button></li></ul></footer></article></div><div class="forum-topic__loading-next nojs-hide"><span class="icon icon-loading-placeholder"></span></div><nav class="forum-topic__footer-pagination js-hide"><ul class="pagination"><li class="page-item"><a class="page-link" href="https://rcopen.com/forum/f108/topic296304">1</a></li><!-- current page always dispayed--><li class="page-item active"><span class="page-link">2</span></li><li class="page-item"><a class="page-link" href="https://rcopen.com/forum/f108/topic296304/page3">3</a></li></ul></nav><footer class="similar_topics"><div class="similar_topics__header">Similar topics</div><div class="similar_topics__item" data-weight="528"><div class="similar_topics__item-title"><a class="similar_topics__item-link" href="https://rcopen.com/forum/f87/topic295897">управление шасси, дверками шасси и закрылками (по шагам плавно и с паузами ) на arduino</a></div><div class="similar_topics__item-stat">3 replies, 11 Oct 2012</div></div><div class="similar_topics__item" data-weight="528"><div class="similar_topics__item-title"><a class="similar_topics__item-link" href="https://rcopen.com/forum/f3/topic53345">Шасси ТТ-01 делае все шасси Alpha 3</a></div><div class="similar_topics__item-stat">13 replies, 24 Nov 2006</div></div><div class="similar_topics__item" data-weight="525"><div class="similar_topics__item-title"><a class="similar_topics__item-link" href="https://rcopen.com/forum/f108/topic480187">МАЗ-543 (7410) &quot;Ураган&quot;</a></div><div class="similar_topics__item-stat">7 replies, 28 Nov 2016</div></div><div class="similar_topics__item" data-weight="525"><div class="similar_topics__item-title"><a class="similar_topics__item-link" href="https://rcopen.com/forum/f108/topic571397">Кто знает ширину верхней части рамы МЗКТ7930 и МАЗ-543?</a></div><div class="similar_topics__item-stat">9 replies, 23 Aug 2022</div></div><div class="similar_topics__item" data-weight="522"><div class="similar_topics__item-title"><a class="similar_topics__item-link" href="https://rcopen.com/forum/f6/topic40134">Кто знает по Мп 3 плеерам?</a></div><div class="similar_topics__item-stat">5 replies, 21 Apr 2006</div></div></footer></div></article><footer class="layout__container container-fluid page-footer"><ul class="page-footer-nav"><li class="page-footer-nav__item"><a class="page-footer-nav__item-link" href="https://rcopen.com/rules">Rules</a></li><li class="page-footer-nav__item"><a class="page-footer-nav__item-link" href="https://rcopen.com/contacts">Contacts</a></li><li class="page-footer-nav__item dropup"><a class="page-footer-nav__item-link dropdown-toggle" href="#" id="rnds7" aria-haspopup="true" aria-expanded="false" data-bs-toggle="dropdown">Language</a><div class="dropdown-menu dropdown-menu-start" aria-labelledby="rnds7"><button class="dropdown-item" data-on-click="common.set_language" data-locale="en-US">English</button><button class="dropdown-item" data-on-click="common.set_language" data-locale="ru-RU">Русский</button></div></li></ul><div class="nojs-alert js-hide"><div class="alert alert-danger">This site will not work without javascript!</div></div><div class="nocookies-alert"><div class="alert alert-danger">This site will not work if cookies are completely disabled.</div></div><div class="site-offline-msg text-center"><div class="alert alert-danger">Site is offline</div></div><div class="debug"><div class="layout__container container-fluid"><div class="debug-timeline" id="debug_timeline"></div></div></div></footer><div id="runtime" style="display: none">{&quot;assets_hash&quot;:&quot;a8b26fa7f6e768b07a72c8c9aadb9422&quot;,&quot;page_data&quot;:{&quot;users&quot;:{&quot;493a6f8e3df9550077774c16&quot;:{&quot;_id&quot;:&quot;493a6f8e3df9550077774c16&quot;,&quot;hid&quot;:41540,&quot;name&quot;:&quot;E-speed&quot;,&quot;nick&quot;:&quot;E-speed&quot;,&quot;avatar_id&quot;:null,&quot;css&quot;:&quot;&quot;},&quot;4a96b1913df955007776ab8a&quot;:{&quot;_id&quot;:&quot;4a96b1913df955007776ab8a&quot;,&quot;hid&quot;:52761,&quot;name&quot;:&quot;Holodilnik&quot;,&quot;nick&quot;:&quot;Holodilnik&quot;,&quot;avatar_id&quot;:null,&quot;css&quot;:&quot;&quot;},&quot;4f8c05c03df9550077745621&quot;:{&quot;_id&quot;:&quot;4f8c05c03df9550077745621&quot;,&quot;hid&quot;:117911,&quot;name&quot;:&quot;Den4&quot;,&quot;nick&quot;:&quot;Den4&quot;,&quot;avatar_id&quot;:null,&quot;css&quot;:&quot;&quot;},&quot;507875f63df955007773ed4f&quot;:{&quot;_id&quot;:&quot;507875f63df955007773ed4f&quot;,&quot;hid&quot;:127166,&quot;name&quot;:&quot;John_Bon_Jovi&quot;,&quot;nick&quot;:&quot;John_Bon_Jovi&quot;,&quot;avatar_id&quot;:null,&quot;css&quot;:&quot;&quot;},&quot;50d590713df955007773c7c1&quot;:{&quot;_id&quot;:&quot;50d590713df955007773c7c1&quot;,&quot;hid&quot;:131578,&quot;name&quot;:&quot;SergeyIP&quot;,&quot;nick&quot;:&quot;SergeyIP&quot;,&quot;avatar_id&quot;:null,&quot;css&quot;:&quot;&quot;},&quot;512200a93df9550077739dd3&quot;:{&quot;_id&quot;:&quot;512200a93df9550077739dd3&quot;,&quot;hid&quot;:138388,&quot;name&quot;:&quot;alexshura1980&quot;,&quot;nick&quot;:&quot;alexshura1980&quot;,&quot;avatar_id&quot;:null,&quot;css&quot;:&quot;&quot;}},&quot;settings&quot;:{&quot;can_see_ip&quot;:false,&quot;can_report_abuse&quot;:false,&quot;can_see_hellbanned&quot;:false,&quot;forum_can_view&quot;:true,&quot;forum_can_reply&quot;:false,&quot;forum_edit_max_time&quot;:30,&quot;forum_can_close_topic&quot;:false,&quot;forum_show_ignored&quot;:false,&quot;forum_mod_can_delete_topics&quot;:false,&quot;forum_mod_can_hard_delete_topics&quot;:false,&quot;forum_mod_can_see_hard_deleted_topics&quot;:false,&quot;forum_mod_can_edit_posts&quot;:false,&quot;forum_mod_can_pin_topic&quot;:false,&quot;forum_mod_can_edit_titles&quot;:false,&quot;forum_mod_can_close_topic&quot;:false,&quot;can_vote&quot;:false,&quot;forum_mod_can_add_infractions&quot;:false,&quot;forum_topic_title_min_length&quot;:10,&quot;forum_reply_old_post_threshold&quot;:30,&quot;votes_add_max_time&quot;:168,&quot;forum_show_post_interval&quot;:7,&quot;can_see_deleted_users&quot;:false},&quot;section&quot;:{&quot;_id&quot;:&quot;61c9a54c3df9550077bb51b6&quot;,&quot;hid&quot;:108,&quot;title&quot;:&quot;Грузовики, спецтехника&quot;,&quot;parent&quot;:&quot;61c9a54c3df9550077bb50ff&quot;,&quot;description&quot;:&quot;Модели грузовиков, тракторов и т.д.&quot;,&quot;is_category&quot;:false,&quot;is_votable&quot;:true,&quot;is_writable&quot;:true,&quot;cache&quot;:{&quot;topic_count&quot;:438,&quot;post_count&quot;:18089,&quot;last_post&quot;:&quot;653f453cc68e4ffcbc1fefc6&quot;,&quot;last_topic&quot;:&quot;6535524ec68e4ffcbc120611&quot;,&quot;last_topic_hid&quot;:572199,&quot;last_topic_title&quot;:&quot;БМД-1. М 1:12&quot;,&quot;last_ts&quot;:&quot;2023-10-30T05:55:08.666Z&quot;,&quot;last_user&quot;:&quot;527941e93df955007773025d&quot;}},&quot;topic&quot;:{&quot;_id&quot;:&quot;5079eb293df95500772cc604&quot;,&quot;hid&quot;:296304,&quot;title&quot;:&quot;9П117 (SCUD-B), мпу на шасси МАЗ-543&quot;,&quot;views_count&quot;:24691,&quot;last_post_counter&quot;:70,&quot;cache&quot;:{&quot;post_count&quot;:69,&quot;first_post&quot;:&quot;5079eb293df95500772cc8a7&quot;,&quot;first_ts&quot;:&quot;2012-10-13T22:28:57.000Z&quot;,&quot;first_user&quot;:&quot;507875f63df955007773ed4f&quot;,&quot;last_post&quot;:&quot;539203db3df95500772cc931&quot;,&quot;last_post_hid&quot;:70,&quot;last_ts&quot;:&quot;2014-06-06T18:09:31.000Z&quot;,&quot;last_user&quot;:&quot;507875f63df955007773ed4f&quot;},&quot;st&quot;:1,&quot;section&quot;:&quot;61c9a54c3df9550077bb51b6&quot;},&quot;subscription&quot;:null,&quot;pagination&quot;:{&quot;total&quot;:69,&quot;per_page&quot;:25,&quot;chunk_offset&quot;:44},&quot;posts_list_before_post&quot;:[&quot;paginator&quot;,&quot;datediff&quot;]},&quot;locale&quot;:&quot;en-US&quot;,&quot;user_id&quot;:&quot;000000000000000000000000&quot;,&quot;user_hid&quot;:0,&quot;user_name&quot;:&quot;&quot;,&quot;user_nick&quot;:&quot;&quot;,&quot;user_avatar&quot;:null,&quot;is_member&quot;:false,&quot;settings&quot;:{&quot;can_access_acp&quot;:false,&quot;can_use_dialogs&quot;:false,&quot;hide_heavy_content&quot;:false},&quot;unread_dialogs&quot;:false,&quot;footer&quot;:{&quot;rules&quot;:{&quot;to&quot;:&quot;common.rules&quot;},&quot;contacts&quot;:{&quot;to&quot;:&quot;rco-nodeca.contacts&quot;}},&quot;navbar&quot;:{&quot;tracker&quot;:{&quot;to&quot;:&quot;users.tracker&quot;,&quot;autoselect&quot;:false,&quot;priority&quot;:10},&quot;forum&quot;:{&quot;to&quot;:&quot;forum.index&quot;},&quot;blogs&quot;:{&quot;to&quot;:&quot;blogs.index&quot;},&quot;clubs&quot;:{&quot;to&quot;:&quot;clubs.index&quot;},&quot;market&quot;:{&quot;to&quot;:&quot;market.index.buy&quot;}},&quot;recaptcha&quot;:{&quot;public_key&quot;:&quot;6LcyTs0dAAAAADW_1wxPfl0IHuXxBG7vMSSX26Z4&quot;},&quot;layout&quot;:&quot;common.layout&quot;}</div></body></html>

@@ -1,0 +1,205 @@
+{
+  "samples": [
+    {
+      "fan": 0,
+      "travelMM": 0,
+      "frictionGapMM": 1.5001296997070312,
+      "magneticGapMM": 2.0999908447265625,
+      "wireDiameterMM": [
+        1.3999984991209604,
+        1.400002423008412
+      ],
+      "maxWireDiameterErrorMM": 2.423008411966965e-06,
+      "centrelineArcLengthMM": 769.7551614110944,
+      "arcLengthErrorMM": 2.821436861921711e-06,
+      "checkedObstacles": [
+        "COOL_upper_output_stepped_shaft_0",
+        "COOL_magnet_0",
+        "COOL_needle_outer_race_0_0",
+        "COOL_needle_outer_race_0_1"
+      ],
+      "springObstacleIntersections": []
+    },
+    {
+      "fan": 0,
+      "travelMM": 0.375,
+      "frictionGapMM": 1.125335693359375,
+      "magneticGapMM": 1.7251968383789062,
+      "wireDiameterMM": [
+        1.399997898374296,
+        1.400002423008412
+      ],
+      "maxWireDiameterErrorMM": 2.423008411966965e-06,
+      "centrelineArcLengthMM": 769.7551467685133,
+      "arcLengthErrorMM": -1.1821144174639642e-05,
+      "checkedObstacles": [
+        "COOL_upper_output_stepped_shaft_0",
+        "COOL_magnet_0",
+        "COOL_needle_outer_race_0_0",
+        "COOL_needle_outer_race_0_1"
+      ],
+      "springObstacleIntersections": []
+    },
+    {
+      "fan": 0,
+      "travelMM": 0.75,
+      "frictionGapMM": 0.7500648498535156,
+      "magneticGapMM": 1.3499259948730469,
+      "wireDiameterMM": [
+        1.3999977029747368,
+        1.4000029203873778
+      ],
+      "maxWireDiameterErrorMM": 2.920387377888453e-06,
+      "centrelineArcLengthMM": 769.7551619689693,
+      "arcLengthErrorMM": 3.379311830364884e-06,
+      "checkedObstacles": [
+        "COOL_upper_output_stepped_shaft_0",
+        "COOL_magnet_0",
+        "COOL_needle_outer_race_0_0",
+        "COOL_needle_outer_race_0_1"
+      ],
+      "springObstacleIntersections": []
+    },
+    {
+      "fan": 0,
+      "travelMM": 1.125,
+      "frictionGapMM": 0.3752708435058594,
+      "magneticGapMM": 0.9751319885253906,
+      "wireDiameterMM": [
+        1.3999974771232642,
+        1.400002671697917
+      ],
+      "maxWireDiameterErrorMM": 2.671697916937013e-06,
+      "centrelineArcLengthMM": 769.7551514533525,
+      "arcLengthErrorMM": -7.136304991384179e-06,
+      "checkedObstacles": [
+        "COOL_upper_output_stepped_shaft_0",
+        "COOL_magnet_0",
+        "COOL_needle_outer_race_0_0",
+        "COOL_needle_outer_race_0_1"
+      ],
+      "springObstacleIntersections": []
+    },
+    {
+      "fan": 0,
+      "travelMM": 1.5,
+      "frictionGapMM": 0.0,
+      "magneticGapMM": 0.5998611450195312,
+      "wireDiameterMM": [
+        1.3999973775202155,
+        1.400002801117948
+      ],
+      "maxWireDiameterErrorMM": 2.801117948052559e-06,
+      "centrelineArcLengthMM": 769.7551557798037,
+      "arcLengthErrorMM": -2.8098537940834944e-06,
+      "checkedObstacles": [
+        "COOL_upper_output_stepped_shaft_0",
+        "COOL_magnet_0",
+        "COOL_needle_outer_race_0_0",
+        "COOL_needle_outer_race_0_1"
+      ],
+      "springObstacleIntersections": []
+    },
+    {
+      "fan": 1,
+      "travelMM": 0,
+      "frictionGapMM": 1.5001296997070312,
+      "magneticGapMM": 2.0999908447265625,
+      "wireDiameterMM": [
+        1.3999984991209604,
+        1.400002423008412
+      ],
+      "maxWireDiameterErrorMM": 2.423008411966965e-06,
+      "centrelineArcLengthMM": 769.7551614110944,
+      "arcLengthErrorMM": 2.821436861921711e-06,
+      "checkedObstacles": [
+        "COOL_upper_output_stepped_shaft_1",
+        "COOL_magnet_1",
+        "COOL_needle_outer_race_1_0",
+        "COOL_needle_outer_race_1_1"
+      ],
+      "springObstacleIntersections": []
+    },
+    {
+      "fan": 1,
+      "travelMM": 0.375,
+      "frictionGapMM": 1.125335693359375,
+      "magneticGapMM": 1.7251968383789062,
+      "wireDiameterMM": [
+        1.399997898374296,
+        1.400002423008412
+      ],
+      "maxWireDiameterErrorMM": 2.423008411966965e-06,
+      "centrelineArcLengthMM": 769.7551467685133,
+      "arcLengthErrorMM": -1.1821144174639642e-05,
+      "checkedObstacles": [
+        "COOL_upper_output_stepped_shaft_1",
+        "COOL_magnet_1",
+        "COOL_needle_outer_race_1_0",
+        "COOL_needle_outer_race_1_1"
+      ],
+      "springObstacleIntersections": []
+    },
+    {
+      "fan": 1,
+      "travelMM": 0.75,
+      "frictionGapMM": 0.7500648498535156,
+      "magneticGapMM": 1.3499259948730469,
+      "wireDiameterMM": [
+        1.3999977029747368,
+        1.4000029203873778
+      ],
+      "maxWireDiameterErrorMM": 2.920387377888453e-06,
+      "centrelineArcLengthMM": 769.7551619689693,
+      "arcLengthErrorMM": 3.379311830364884e-06,
+      "checkedObstacles": [
+        "COOL_upper_output_stepped_shaft_1",
+        "COOL_magnet_1",
+        "COOL_needle_outer_race_1_0",
+        "COOL_needle_outer_race_1_1"
+      ],
+      "springObstacleIntersections": []
+    },
+    {
+      "fan": 1,
+      "travelMM": 1.125,
+      "frictionGapMM": 0.3752708435058594,
+      "magneticGapMM": 0.9751319885253906,
+      "wireDiameterMM": [
+        1.3999974771232642,
+        1.400002671697917
+      ],
+      "maxWireDiameterErrorMM": 2.671697916937013e-06,
+      "centrelineArcLengthMM": 769.7551514533525,
+      "arcLengthErrorMM": -7.136304991384179e-06,
+      "checkedObstacles": [
+        "COOL_upper_output_stepped_shaft_1",
+        "COOL_magnet_1",
+        "COOL_needle_outer_race_1_0",
+        "COOL_needle_outer_race_1_1"
+      ],
+      "springObstacleIntersections": []
+    },
+    {
+      "fan": 1,
+      "travelMM": 1.5,
+      "frictionGapMM": 0.0,
+      "magneticGapMM": 0.5998611450195312,
+      "wireDiameterMM": [
+        1.3999973775202155,
+        1.400002801117948
+      ],
+      "maxWireDiameterErrorMM": 2.801117948052559e-06,
+      "centrelineArcLengthMM": 769.7551557798037,
+      "arcLengthErrorMM": -2.8098537940834944e-06,
+      "checkedObstacles": [
+        "COOL_upper_output_stepped_shaft_1",
+        "COOL_magnet_1",
+        "COOL_needle_outer_race_1_0",
+        "COOL_needle_outer_race_1_1"
+      ],
+      "springObstacleIntersections": []
+    }
+  ],
+  "limits": "Evaluated native contact planes, circular wire diameters and selected spring surface interference only; fitted analytic helix/seat dimensions, no elastic stress solve, measured tolerances or complete clutch/cab collision acceptance."
+}

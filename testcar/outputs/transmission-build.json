@@ -1,0 +1,22 @@
+{
+  "objects": 1755,
+  "parts": 1449,
+  "spec": {
+    "sun41": 60,
+    "sun21": 48,
+    "ring40": 132,
+    "ring18": 156,
+    "long43": 36,
+    "short20": 54,
+    "module": 0.0025,
+    "longRadius": 0.12,
+    "shortRadius": 0.1275,
+    "planetOffset": 0.9419214012998448,
+    "position": [
+      -0.36,
+      1.05,
+      0
+    ]
+  },
+  "limits": "MAZ 1973 figs.42/44. Two coupled rows, common carrier, 15/11/9/15 friction discs. Four booster geometries, support50/body46 rotary feed, stepped cast rings and pure-rolling bearing reference. Direct piston broad annulus follows catalogue 535A-1511036-A1/1511038-B; see work/reference-docs/transmission/catalog-intermediate-source.json. Tooth counts inferred from ratios; profiles, dimensions, drilled routes and bearing ball count fitted. This file keeps the kinematic reference sequence. A separate HydraulicBench file uses coupled fitted hydraulics/dynamics. Driving discs now have source-specified spiral and radial grooves, with fitted groove dimensions and lining thickness. Native contact-land metrics feed runtime torque capacity. Spring quantities follow the later MAZ543/7310 catalogue at 30/16/16/30. Large-clutch telescoping pushers, two guide bushes and transverse retaining pins are fitted functional reconstructions. Spring wire/coil sizes, assembly preload, implied free length and strength remain unverified; the fitted pressure-rise diagnostic exceeds the prior 3-second criterion. Factory performance, elastic seals, bearing loads, complete internal bearings, manufacturing routes and casing accuracy remain OPEN.\n"
+}

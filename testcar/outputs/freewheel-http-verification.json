@@ -1,0 +1,23 @@
+{
+  "assets": [
+    {
+      "url": "http://localhost:3000/models/maz543a-freewheel-bench.glb?v=continuous-freewheel-20260908",
+      "status": 200,
+      "bytes": 1935512,
+      "sha256": "0f8a95773908195d98933e411a5efc9be3ef02db3c623abfa952588c9f9b9bb0",
+      "matchesLocal": true
+    },
+    {
+      "url": "http://localhost:3000/models/maz543a-freewheel-bench.json?v=continuous-freewheel-20260908",
+      "status": 200,
+      "bytes": 159855,
+      "sha256": "0b78c2de16daa81fc4221275424d91bc4f420c8524ea53a24162af844eb4181c",
+      "matchesLocal": true
+    }
+  ],
+  "route": {
+    "status": 200,
+    "serverRenderedHeading": true
+  },
+  "limits": "HTTP asset integrity and route availability. Actual browser interaction evidence is separate."
+}

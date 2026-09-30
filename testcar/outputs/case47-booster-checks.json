@@ -1,0 +1,238 @@
+{
+  "solids": 17,
+  "seals": [
+    {
+      "pack": "second",
+      "frame": 0,
+      "travelMM": 0
+    },
+    {
+      "pack": "reverse",
+      "frame": 0,
+      "travelMM": 0
+    },
+    {
+      "pack": "second",
+      "frame": 120,
+      "travelMM": 0
+    },
+    {
+      "pack": "reverse",
+      "frame": 120,
+      "travelMM": 0
+    },
+    {
+      "pack": "second",
+      "frame": 240,
+      "travelMM": 5.1
+    },
+    {
+      "pack": "reverse",
+      "frame": 240,
+      "travelMM": 0
+    },
+    {
+      "pack": "second",
+      "frame": 360,
+      "travelMM": 0
+    },
+    {
+      "pack": "reverse",
+      "frame": 360,
+      "travelMM": 0
+    },
+    {
+      "pack": "second",
+      "frame": 480,
+      "travelMM": 0
+    },
+    {
+      "pack": "reverse",
+      "frame": 480,
+      "travelMM": 6.3
+    }
+  ],
+  "inletRays": [
+    {
+      "pack": "second",
+      "frame": 0,
+      "offsetMM": [
+        0,
+        0
+      ],
+      "hit": "TX_second_annular_piston"
+    },
+    {
+      "pack": "second",
+      "frame": 0,
+      "offsetMM": [
+        1.0,
+        0
+      ],
+      "hit": "TX_second_annular_piston"
+    },
+    {
+      "pack": "second",
+      "frame": 0,
+      "offsetMM": [
+        -1.0,
+        0
+      ],
+      "hit": "TX_second_annular_piston"
+    },
+    {
+      "pack": "second",
+      "frame": 0,
+      "offsetMM": [
+        0,
+        1.0
+      ],
+      "hit": "TX_second_annular_piston"
+    },
+    {
+      "pack": "second",
+      "frame": 0,
+      "offsetMM": [
+        0,
+        -1.0
+      ],
+      "hit": "TX_second_annular_piston"
+    },
+    {
+      "pack": "reverse",
+      "frame": 0,
+      "offsetMM": [
+        0,
+        0
+      ],
+      "hit": "TX_reverse_annular_piston"
+    },
+    {
+      "pack": "reverse",
+      "frame": 0,
+      "offsetMM": [
+        1.0,
+        0
+      ],
+      "hit": "TX_reverse_annular_piston"
+    },
+    {
+      "pack": "reverse",
+      "frame": 0,
+      "offsetMM": [
+        -1.0,
+        0
+      ],
+      "hit": "TX_reverse_annular_piston"
+    },
+    {
+      "pack": "reverse",
+      "frame": 0,
+      "offsetMM": [
+        0,
+        1.0
+      ],
+      "hit": "TX_reverse_annular_piston"
+    },
+    {
+      "pack": "reverse",
+      "frame": 0,
+      "offsetMM": [
+        0,
+        -1.0
+      ],
+      "hit": "TX_reverse_annular_piston"
+    },
+    {
+      "pack": "second",
+      "frame": 240,
+      "offsetMM": [
+        0,
+        0
+      ],
+      "hit": "TX_second_annular_piston"
+    },
+    {
+      "pack": "second",
+      "frame": 240,
+      "offsetMM": [
+        1.0,
+        0
+      ],
+      "hit": "TX_second_annular_piston"
+    },
+    {
+      "pack": "second",
+      "frame": 240,
+      "offsetMM": [
+        -1.0,
+        0
+      ],
+      "hit": "TX_second_annular_piston"
+    },
+    {
+      "pack": "second",
+      "frame": 240,
+      "offsetMM": [
+        0,
+        1.0
+      ],
+      "hit": "TX_second_annular_piston"
+    },
+    {
+      "pack": "second",
+      "frame": 240,
+      "offsetMM": [
+        0,
+        -1.0
+      ],
+      "hit": "TX_second_annular_piston"
+    },
+    {
+      "pack": "reverse",
+      "frame": 480,
+      "offsetMM": [
+        0,
+        0
+      ],
+      "hit": "TX_reverse_annular_piston"
+    },
+    {
+      "pack": "reverse",
+      "frame": 480,
+      "offsetMM": [
+        1.0,
+        0
+      ],
+      "hit": "TX_reverse_annular_piston"
+    },
+    {
+      "pack": "reverse",
+      "frame": 480,
+      "offsetMM": [
+        -1.0,
+        0
+      ],
+      "hit": "TX_reverse_annular_piston"
+    },
+    {
+      "pack": "reverse",
+      "frame": 480,
+      "offsetMM": [
+        0,
+        1.0
+      ],
+      "hit": "TX_reverse_annular_piston"
+    },
+    {
+      "pack": "reverse",
+      "frame": 480,
+      "offsetMM": [
+        0,
+        -1.0
+      ],
+      "hit": "TX_reverse_annular_piston"
+    }
+  ],
+  "limits": "Fitted gallery routes and five discrete states. No pressure, elastic sealing, leakage, continuous collision or casting accuracy acceptance."
+}

@@ -1,0 +1,11 @@
+{
+  "fractionalFrames": 600,
+  "maxWireRadiusErrorM": 1.8846036019872512e-08,
+  "maxHelixLengthErrorM": 8.079412561756705e-07,
+  "maximumRollerPenetrationM": 3.5000586890571173e-09,
+  "maximumSpringSkinGapM": 2.194498329582961e-09,
+  "minimumSpringSkinGapM": -1.385678528344203e-08,
+  "maxOuterInterpolationAngleErrorRad": 9.438112112905736e-06,
+  "blendSha256": "754ea5f87d9ff9373d4deb50a08a00e81be3c3a818f7d22e478da5b531d8fb47",
+  "limits": "Quarter, half and three-quarter frame samples only. Analytic roller/race gaps and evaluated coil vertices; not a new high-frequency physical trajectory or an all-time collision proof."
+}

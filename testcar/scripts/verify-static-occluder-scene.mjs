@@ -1,0 +1,21 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import * as T from 'three';
+import {StaticOccluderObservations,createStaticOccluderScene} from '../lib/staticOccluderScene.ts';
+const scene=new T.Scene(),parent=new T.Group(),camera=new T.PerspectiveCamera(35,1,.05,100),geometry=new T.BoxGeometry(),material=new T.MeshStandardMaterial();
+parent.position.set(2,3,4);scene.add(parent);const mesh=new T.Mesh(geometry,material);mesh.position.set(1,2,3);parent.add(mesh);camera.position.z=20;
+const observations=new StaticOccluderObservations();const observe=()=>{scene.updateMatrixWorld(true);camera.updateMatrixWorld(true);return observations.observe(scene,camera);};
+assert.equal(observe().rows[0].stableFrames,1);assert.equal(observe().rows[0].stableFrames,2);
+for(const change of [()=>mesh.position.x+=4*Number.EPSILON,()=>geometry.attributes.position.needsUpdate=true,()=>mesh.morphTargetInfluences=[Number.EPSILON],()=>camera.projectionMatrix.elements[0]+=4*Number.EPSILON,()=>material.side=T.DoubleSide]){change();assert.equal(observe().rows[0].stableFrames,1);assert.equal(observe().rows[0].stableFrames,2);}
+mesh.visible=false;assert.equal(observe().rows.length,0);mesh.visible=true;assert.equal(observe().rows[0].stableFrames,1,'Reappearing mesh needs new observation');observe();
+const sourceWorld=mesh.matrixWorld.elements.slice(),sourcePose=mesh.position.toArray(),sourceArray=geometry.attributes.position.array,sourceMaterial=mesh.material,sourceMorph=mesh.morphTargetInfluences.slice();
+let geometryDisposals=0,materialDisposals=0;geometry.addEventListener('dispose',()=>geometryDisposals++);material.addEventListener('dispose',()=>materialDisposals++);
+const snapshot=createStaticOccluderScene(observe().rows);assert.equal(snapshot.clones.length,1);const clone=snapshot.clones[0];
+snapshot.scene.updateMatrixWorld(true);assert.deepEqual(clone.matrixWorld.elements,sourceWorld);assert.equal(clone.geometry,geometry);assert.equal(clone.geometry.attributes.position.array,sourceArray);assert.notEqual(clone.material,material);assert.deepEqual(clone.morphTargetInfluences,sourceMorph);assert.notEqual(clone.morphTargetInfluences,mesh.morphTargetInfluences);
+snapshot.dispose();snapshot.dispose();assert.equal(geometryDisposals,0);assert.equal(materialDisposals,0);assert.equal(snapshot.scene.children.length,0);assert.equal(snapshot.clones.length,0);assert.deepEqual(mesh.matrixWorld.elements,sourceWorld);assert.deepEqual(mesh.position.toArray(),sourcePose);assert.equal(mesh.material,sourceMaterial);assert.deepEqual(mesh.morphTargetInfluences,sourceMorph);
+material.transparent=true;assert.equal(observe().rows.length,0);material.transparent=false;material.clippingPlanes=[new T.Plane()];assert.equal(observe().rows.length,0);material.clippingPlanes=null;material.polygonOffset=true;assert.equal(observe().rows.length,0);material.polygonOffset=false;material.onBeforeCompile=()=>{};assert.equal(observe().rows.length,0);material.onBeforeCompile=T.Material.prototype.onBeforeCompile;
+mesh.material=[material,material];assert.equal(observe().rows[0].triangles,4,'Count only visible original groups');
+observations.clear();assert.equal(observe().rows[0].stableFrames,1);
+geometry.dispose();material.dispose();
+const report={passed:true,exactInputChangesResetObservation:true,reappearingMeshRequiresObservation:true,sharedGeometryAndAttributesRetained:true,sourcePoseAndMaterialsUnchanged:true,ownedClonesAndMaterialsOnlyDisposed:true,visibleGroupsCounted:true,unsupportedDepthPathsExcluded:true,limits:'Actual Three object/resource tests; real WebGL queries and restored display pixels require browser evidence.'};
+await fs.writeFile('outputs/static-occlusion-probe/scene-tests.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

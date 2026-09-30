@@ -1,0 +1,19 @@
+**/node_modules/
+**/.next/
+**/.vinext/
+**/.wrangler/
+**/dist/
+**/__pycache__/
+**/.env*
+**/*.pem
+**/*.key
+**/*.pyc
+**/*.tsbuildinfo
+**/.codex/
+**/.claude/
+**/.aws/
+**/.DS_Store
+**/npm-debug.log*
+# Only the non-secret placeholder below is part of the cloud snapshot.
+**/.openai/*
+!testcar/.openai/hosting.json

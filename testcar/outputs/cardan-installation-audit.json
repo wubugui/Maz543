@@ -1,0 +1,178 @@
+{
+  "status": "OPEN",
+  "coordinateSystem": "Browser: X longitudinal, Y up, Z lateral; values are authored model metres.",
+  "sourceMaster": "MAZ543A_Master.blend",
+  "sampledFrames": [
+    0,
+    60,
+    120,
+    300,
+    600
+  ],
+  "maximumInterfacePositionOrUnitAxisDrift": 0.0,
+  "angleDefinition": "Directed: lower outward normal to lower-to-upper cross line; negative upper outward normal to that line. Not the acute angle between unoriented shaft lines.",
+  "nativeForkSeatOffsetsMM": [
+    50.00000074505806,
+    50.00000074505806
+  ],
+  "verifiedIndependentCrossRangeMM": [
+    230.0,
+    270.0
+  ],
+  "verifiedIndependentMaximumBendDegrees": 30,
+  "connections": [
+    {
+      "side": 0,
+      "lowerFace": [
+        -4.78000020980835,
+        1.520107626914978,
+        0.13010765612125397
+      ],
+      "lowerOutward": [
+        -7.587615868942521e-08,
+        0.7071067690849304,
+        0.7071067690849304
+      ],
+      "upperFace": [
+        -4.840000152587891,
+        1.3849999904632568,
+        0.3100000023841858
+      ],
+      "upperOutward": [
+        -1.3435884227419592e-07,
+        -1.0,
+        -0.0
+      ],
+      "lowerCross": [
+        -4.78000020980835,
+        1.5554629564285278,
+        0.16546300053596497
+      ],
+      "upperCross": [
+        -4.840000152587891,
+        1.3350000381469727,
+        0.3100000023841858
+      ],
+      "faceSeparationMM": 232.84184405753504,
+      "crossDistanceMM": 270.36057133333594,
+      "directedJointAnglesDegrees": [
+        101.45383135323797,
+        144.63092960959167
+      ],
+      "splineOverlapMM": 24.63942866666405,
+      "splineEndGapMM": 56.36057133333597,
+      "independentRigAngleRangePass": false,
+      "independentRigLengthRangePass": false,
+      "installableInCurrentVerifiedRig": false,
+      "native": {
+        "lowerFace": [
+          -4.78000020980835,
+          -0.13010765612125397,
+          1.520107626914978
+        ],
+        "upperFace": [
+          -4.840000152587891,
+          -0.3100000023841858,
+          1.3849999904632568
+        ],
+        "lowerCross": [
+          -4.78000020980835,
+          -0.16546300053596497,
+          1.5554629564285278
+        ],
+        "upperCross": [
+          -4.840000152587891,
+          -0.3100000023841858,
+          1.3350000381469727
+        ],
+        "lowerAxis": [
+          -7.587615868942521e-08,
+          -0.7071067690849304,
+          0.7071067690849304
+        ],
+        "upperAxis": [
+          -1.3435884227419592e-07,
+          0.0,
+          -1.0
+        ]
+      }
+    },
+    {
+      "side": 1,
+      "lowerFace": [
+        -4.78000020980835,
+        1.520107626914978,
+        -0.13010765612125397
+      ],
+      "lowerOutward": [
+        -7.587615868942521e-08,
+        0.7071067690849304,
+        -0.7071067690849304
+      ],
+      "upperFace": [
+        -4.840000152587891,
+        1.3849999904632568,
+        -0.3100000023841858
+      ],
+      "upperOutward": [
+        -1.3435884227419592e-07,
+        -1.0,
+        -0.0
+      ],
+      "lowerCross": [
+        -4.78000020980835,
+        1.5554629564285278,
+        -0.16546300053596497
+      ],
+      "upperCross": [
+        -4.840000152587891,
+        1.3350000381469727,
+        -0.3100000023841858
+      ],
+      "faceSeparationMM": 232.84184405753504,
+      "crossDistanceMM": 270.36057133333594,
+      "directedJointAnglesDegrees": [
+        101.45383135323797,
+        144.63092960959167
+      ],
+      "splineOverlapMM": 24.63942866666405,
+      "splineEndGapMM": 56.36057133333597,
+      "independentRigAngleRangePass": false,
+      "independentRigLengthRangePass": false,
+      "installableInCurrentVerifiedRig": false,
+      "native": {
+        "lowerFace": [
+          -4.78000020980835,
+          0.13010765612125397,
+          1.520107626914978
+        ],
+        "upperFace": [
+          -4.840000152587891,
+          0.3100000023841858,
+          1.3849999904632568
+        ],
+        "lowerCross": [
+          -4.78000020980835,
+          0.16546300053596497,
+          1.5554629564285278
+        ],
+        "upperCross": [
+          -4.840000152587891,
+          0.3100000023841858,
+          1.3350000381469727
+        ],
+        "lowerAxis": [
+          -7.587615868942521e-08,
+          0.7071067690849304,
+          0.7071067690849304
+        ],
+        "upperAxis": [
+          -1.3435884227419592e-07,
+          0.0,
+          -1.0
+        ]
+      }
+    }
+  ],
+  "limits": "Rigid flange seats and current fork offsets only. Exceeding this inspection-rig envelope does not establish original MAZ joint limits. No installation dimension has been inferred from the exploded view; no geometry moved to manufacture a passing result."
+}

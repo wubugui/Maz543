@@ -1,0 +1,42 @@
+[
+  {
+    "pack": "first",
+    "minAxialEngagementMM": 0.7000000000000339,
+    "innerSlipInterferenceMM2": 45.2826904368793,
+    "outerSlipInterferenceMM2": 75.4675644851695,
+    "innerCount": 24,
+    "outerCount": 32,
+    "flankClearance": 8e-05,
+    "status": "Fitted straight-flank spline dimensions; not factory count or manufacturing tolerance."
+  },
+  {
+    "pack": "second",
+    "minAxialEngagementMM": 1.500000000000029,
+    "innerSlipInterferenceMM2": 8.920597941302622,
+    "outerSlipInterferenceMM2": 27.35043299064238,
+    "innerCount": 24,
+    "outerCount": 32,
+    "flankClearance": 8e-05,
+    "status": "Fitted straight-flank spline dimensions; not factory count or manufacturing tolerance."
+  },
+  {
+    "pack": "direct",
+    "minAxialEngagementMM": 1.500000000000029,
+    "innerSlipInterferenceMM2": 8.920597941302622,
+    "outerSlipInterferenceMM2": 27.35043299064238,
+    "innerCount": 24,
+    "outerCount": 32,
+    "flankClearance": 8e-05,
+    "status": "Fitted straight-flank spline dimensions; not factory count or manufacturing tolerance."
+  },
+  {
+    "pack": "reverse",
+    "minAxialEngagementMM": 0.7000000000000062,
+    "innerSlipInterferenceMM2": 45.2826904368793,
+    "outerSlipInterferenceMM2": 75.4675644851695,
+    "innerCount": 24,
+    "outerCount": 32,
+    "flankClearance": 8e-05,
+    "status": "Fitted straight-flank spline dimensions; not factory count or manufacturing tolerance."
+  }
+]

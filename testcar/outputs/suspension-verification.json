@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "rigid four-bar closure through 400 mm geometric envelope",
+    "torsion energy derivative equals wheel force",
+    "static gravitational equilibrium",
+    "8 unilateral tire contacts",
+    "heave pitch and roll force integration",
+    "response decays without road excitation",
+    "damper telescoping envelope"
+  ],
+  "maxClosure": 2.7755575615628914e-16,
+  "maxEnergyError": 0.0004374870695755817,
+  "maxTravel": 0.10687103830955837,
+  "minNormal": 0,
+  "maxBody": 0.05028186580270194,
+  "remainingResponse": 3.517842393790708e-9,
+  "scope": "Numerical model validation only; MAZ geometry and force parameters remain uncalibrated"
+}

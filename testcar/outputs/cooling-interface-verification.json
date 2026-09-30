@@ -1,0 +1,37 @@
+{
+  "flanges": [
+    {
+      "name": "COOL_lower_cardan_flange_0",
+      "throughHoleRays": 36,
+      "surroundingSolidRays": 32,
+      "centralBoreOpen": true,
+      "nonManifoldEdges": 0,
+      "thicknessMM": 10.00001
+    },
+    {
+      "name": "COOL_lower_cardan_flange_1",
+      "throughHoleRays": 36,
+      "surroundingSolidRays": 32,
+      "centralBoreOpen": true,
+      "nonManifoldEdges": 0,
+      "thicknessMM": 10.00001
+    },
+    {
+      "name": "COOL_upper_input_flange_0",
+      "throughHoleRays": 36,
+      "surroundingSolidRays": 32,
+      "centralBoreOpen": true,
+      "nonManifoldEdges": 0,
+      "thicknessMM": 9.0
+    },
+    {
+      "name": "COOL_upper_input_flange_1",
+      "throughHoleRays": 36,
+      "surroundingSolidRays": 32,
+      "centralBoreOpen": true,
+      "nonManifoldEdges": 0,
+      "thicknessMM": 9.0
+    }
+  ],
+  "limits": "Four-hole topology from catalog; hole centres, OD, axial dimensions and year compatibility remain reconstructed. No installed Cardan clearance acceptance."
+}

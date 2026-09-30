@@ -1,0 +1,59 @@
+{
+  "status": "local geometry checks passed; dimensions still fitted",
+  "facades": [
+    {
+      "side": -1,
+      "nonManifoldEdges": 0,
+      "positiveVolumeM3": 0.03838951781189236,
+      "rays": [
+        {
+          "height": 2.3,
+          "lateral": 0.95,
+          "hitFacade": false
+        },
+        {
+          "height": 2.4,
+          "lateral": 1.12,
+          "hitFacade": false
+        },
+        {
+          "height": 1.5,
+          "lateral": 1.05,
+          "hitFacade": true
+        },
+        {
+          "height": 1.5,
+          "lateral": 0.65,
+          "hitFacade": false
+        }
+      ]
+    },
+    {
+      "side": 1,
+      "nonManifoldEdges": 0,
+      "positiveVolumeM3": 0.038389467329665264,
+      "rays": [
+        {
+          "height": 2.3,
+          "lateral": 0.95,
+          "hitFacade": false
+        },
+        {
+          "height": 2.4,
+          "lateral": 1.12,
+          "hitFacade": false
+        },
+        {
+          "height": 1.5,
+          "lateral": 1.05,
+          "hitFacade": true
+        },
+        {
+          "height": 1.5,
+          "lateral": 0.65,
+          "hitFacade": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {pathToFileURL} from 'node:url';
+import ts from 'typescript';
+await fs.mkdir('work/compiled',{recursive:true});
+await fs.writeFile('work/compiled/suspension.mjs',ts.transpileModule(await fs.readFile('lib/suspension.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText);
+const mod=await import(pathToFileURL(path.resolve('work/compiled/suspension.mjs')));
+const frames=Array.from({length:121},(_,i)=>{const travel=Array.from({length:8},(_,k)=>.14*Math.sin(i/120*Math.PI*2+k*.65));return {frame:i*2+1,travel,pose:mod.suspensionPose(travel)};});
+await fs.writeFile('work/suspension-poses.json',JSON.stringify({spec:mod.SUSPENSION,neutral:mod.SUSPENSION_NEUTRAL,rest:mod.suspensionPose(Array(8).fill(0)),frames}));
+console.log({joints:Object.keys(frames[0].pose).length,damperLengths:[-.16,0,.175].map(q=>mod.wheelGeometry(q).damperLength),barStiffness:mod.BAR_STIFFNESS});

@@ -1,0 +1,123 @@
+{
+  "discs": [
+    {
+      "name": "TX_first_disc_01",
+      "volumeM3": 7.946593706817212e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_first_disc_03",
+      "volumeM3": 7.94659370681717e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_first_disc_05",
+      "volumeM3": 7.946593706817177e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_first_disc_07",
+      "volumeM3": 7.946593706817144e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_first_disc_09",
+      "volumeM3": 7.94658938075948e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_first_disc_11",
+      "volumeM3": 7.9465937068172e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_first_disc_13",
+      "volumeM3": 7.946593706817167e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_second_disc_01",
+      "volumeM3": 2.7059782178976912e-05,
+      "vertices": 8004
+    },
+    {
+      "name": "TX_second_disc_03",
+      "volumeM3": 2.7059782178976726e-05,
+      "vertices": 8004
+    },
+    {
+      "name": "TX_second_disc_05",
+      "volumeM3": 2.70597729091065e-05,
+      "vertices": 8004
+    },
+    {
+      "name": "TX_second_disc_07",
+      "volumeM3": 2.70597821789767e-05,
+      "vertices": 8004
+    },
+    {
+      "name": "TX_second_disc_09",
+      "volumeM3": 2.7059565582651235e-05,
+      "vertices": 8004
+    },
+    {
+      "name": "TX_direct_disc_01",
+      "volumeM3": 2.7059782178976637e-05,
+      "vertices": 8004
+    },
+    {
+      "name": "TX_direct_disc_03",
+      "volumeM3": 2.7059782178976715e-05,
+      "vertices": 8004
+    },
+    {
+      "name": "TX_direct_disc_05",
+      "volumeM3": 2.7059782178976797e-05,
+      "vertices": 8004
+    },
+    {
+      "name": "TX_direct_disc_07",
+      "volumeM3": 2.705978217897669e-05,
+      "vertices": 8004
+    },
+    {
+      "name": "TX_reverse_disc_01",
+      "volumeM3": 7.946593706817173e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_reverse_disc_03",
+      "volumeM3": 7.946589380759509e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_reverse_disc_05",
+      "volumeM3": 7.946591543788348e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_reverse_disc_07",
+      "volumeM3": 7.946593706817232e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_reverse_disc_09",
+      "volumeM3": 7.946560381595619e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_reverse_disc_11",
+      "volumeM3": 7.946593706817217e-05,
+      "vertices": 10614
+    },
+    {
+      "name": "TX_reverse_disc_13",
+      "volumeM3": 7.946591543788327e-05,
+      "vertices": 10614
+    }
+  ],
+  "manifoldPositiveVolumeDiscs": 23,
+  "grooveDepthRayChecks": 5420,
+  "maxDepthErrorM": 8.286610245645393e-09,
+  "limits": "Native manifold volume and both-face channel depths. Fitted dimensions; no fluid film, thermal or wear simulation."
+}

@@ -1,0 +1,18 @@
+{
+  "rotationChecks": [
+    {
+      "rotationRad": 0.47,
+      "poseDifference": 1.3877787807814457e-17,
+      "speedDifference": 2.0463630789890885e-12,
+      "energyDifferenceJ": 6.583622536027178e-13
+    },
+    {
+      "rotationRad": -1.23,
+      "poseDifference": 0.0,
+      "speedDifference": 3.865352482534945e-12,
+      "energyDifferenceJ": 6.583622536027178e-13
+    }
+  ],
+  "stationaryHoldMaximumSpeed": 2.1313021111411588e-12,
+  "limits": "Interface invariants only. Large-step numerical dissipation and full trajectory accuracy remain unaccepted."
+}

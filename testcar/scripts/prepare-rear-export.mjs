@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+const dir='work/rear-box-frame-20260930',out='outputs/rear-box-frame-20260930';fs.mkdirSync(out,{recursive:true});
+const bytes=fs.readFileSync(dir+'/maz543a-blender.glb'),j=JSON.parse(bytes.subarray(20,20+bytes.readUInt32LE(12)));
+const newNodes=j.nodes.filter(n=>n.name.startsWith('BL_RearRestoration_')).map(n=>n.name);
+if(newNodes.length!==12)throw Error('Expected eight original relocated box parts plus four native mounts');
+const changedMaterialNodes=Object.fromEntries(['frame_0002','frame_0003','frame_0004'].map(n=>[n,'MAZ543A_Frame_dark_enamel']));
+const materialSpecs=Object.fromEntries(Object.keys(changedMaterialNodes).map(n=>[n,{baseColorFactor:[.006,.008,.007,1],metallicFactor:.15,roughnessFactor:.76}]));
+const common={source:dir+'/baseline.glb',changedMeshes:['BL_Merged_body_OD_green_aged_enamel','BL_Merged_body_Phosphated_steel'],changedMaterialNodes,materialSpecs};
+fs.writeFileSync(dir+'/packaging-config.json',JSON.stringify({...common,candidate:dir+'/maz543a-blender.glb',output:dir+'/packaged.glb',newMeshes:newNodes,report:out+'/stream-preservation.json',scope:'Two merged body streams remove archived original box pieces; twelve restored rear parts come from native export. All 260 other original compressed mesh streams and three textures retained; three frame materials explicitly replaced.'},null,2));
+fs.writeFileSync(dir+'/verification-config.json',JSON.stringify({...common,result:dir+'/packaged.glb',newNodes,removedNodes:[],report:out+'/export-verification.json'},null,2));
+fs.copyFileSync(dir+'/rear-box-frame-verification.json',out+'/native-verification.json');

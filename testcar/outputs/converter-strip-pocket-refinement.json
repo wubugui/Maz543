@@ -1,0 +1,46 @@
+{
+  "centreM": [
+    0.06271256328194237,
+    -0.0037672756129996437
+  ],
+  "rows": [
+    {
+      "segments": 44,
+      "forceN": 85.80565526918417,
+      "energyJ": 0.15632664976957186,
+      "wedgeForceN": 39.18085913952368,
+      "minimumPlaneGapM": 1.6220748702555632e-15,
+      "stableStiffnessNm": 0.25479105863539275,
+      "relativeForceDifferenceToFinestSolved": 0.0020701508348850463
+    },
+    {
+      "segments": 88,
+      "forceN": 85.20114870516426,
+      "energyJ": 0.15627539018914066,
+      "wedgeForceN": 37.995657414790784,
+      "minimumPlaneGapM": 3.0094199701680147e-15,
+      "stableStiffnessNm": 0.12811342796831293,
+      "relativeForceDifferenceToFinestSolved": 0.004989500208950784
+    },
+    {
+      "segments": 176,
+      "forceN": 85.66706333924722,
+      "energyJ": 0.15628321804353904,
+      "wedgeForceN": 39.950355902095076,
+      "minimumPlaneGapM": 1.1626198051159498e-14,
+      "stableStiffnessNm": 0.06118538436610432,
+      "relativeForceDifferenceToFinestSolved": 0.0004516230618526547
+    },
+    {
+      "segments": 352,
+      "forceN": 85.62839158285905,
+      "energyJ": 0.15627996658640714,
+      "wedgeForceN": 39.87251021221272,
+      "minimumPlaneGapM": 1.2441219929271163e-17,
+      "stableStiffnessNm": 0.03060307292100617,
+      "relativeForceDifferenceToFinestSolved": 0.0
+    }
+  ],
+  "failures": [],
+  "limits": "Discretization comparison only. Does not establish original spring, clamped support, material or strength."
+}

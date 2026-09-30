@@ -1,0 +1,37 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
+import {PerspectiveCamera,Vector3} from 'three';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {createWorkerViewportHost} from '../lib/workerViewportHost.ts';
+
+const output=[],metrics={width:1212,height:773,left:17.125,top:69.75,innerWidth:1552,devicePixelRatio:1.75};
+const host=createWorkerViewportHost({},metrics,false,'?render-worker=1',data=>output.push(data));
+const camera=new PerspectiveCamera(35,metrics.width/metrics.height,.05,120);camera.position.set(-12,7.5,12);
+const orbit=new OrbitControls(camera,host.environment.input);orbit.target.set(-.2,1.1,0);orbit.update();
+const initial=camera.position.clone();
+const pointer=(type,x,y,extra={})=>({type,pointerId:17,pointerType:'mouse',clientX:x,clientY:y,pageX:x,pageY:y,button:0,buttons:type==='pointerup'?0:1,ctrlKey:false,metaKey:false,shiftKey:false,...extra});
+host.input('canvas',pointer('pointerdown',317.125,269.75));
+host.input('document',pointer('pointermove',426.8125,311.3125));
+host.input('document',pointer('pointerup',426.8125,311.3125));
+assert.ok(camera.position.distanceTo(initial)>1,'real OrbitControls rotates through the proxy with document-level dragging');
+const released=camera.position.clone();host.input('document',pointer('pointermove',650.5,540.125));assert.deepEqual(camera.position.toArray(),released.toArray(),'pointerup removes the document drag listener');
+const radius=camera.position.distanceTo(orbit.target);
+host.input('canvas',{type:'wheel',deltaX:0,deltaY:-112.125,deltaMode:0,clientX:550.375,clientY:350.625,ctrlKey:false,metaKey:false,shiftKey:false});
+assert.ok(camera.position.distanceTo(orbit.target)<radius,'real OrbitControls wheel dolly remains enabled');
+const beforePan=orbit.target.clone();host.input('canvas',pointer('pointerdown',310,290,{button:2,buttons:2}));host.input('document',pointer('pointermove',357.25,321.125,{button:2,buttons:2}));host.input('document',pointer('pointerup',357.25,321.125,{button:2}));assert.ok(orbit.target.distanceTo(beforePan)>.01,'right-button pan preserved');
+assert.deepEqual(host.environment.input.getBoundingClientRect(),{left:17.125,top:69.75,width:1212,height:773,right:1229.125,bottom:842.75,x:17.125,y:69.75});
+let resize=0,visibleChanges=0;const observer=new host.environment.ResizeObserver(()=>resize++);observer.observe(host.host);
+host.updateMetrics({...metrics,left:22.5});assert.equal(resize,0,'position changes do not resize camera');
+host.updateMetrics({...metrics,width:1067});assert.equal(resize,1);assert.equal(host.host.clientWidth,1067);
+host.environment.document.addEventListener('visibilitychange',()=>visibleChanges++);host.visibility(true);host.visibility(true);host.visibility(false);assert.equal(visibleChanges,2);
+let frameCalls=0,frameTime=0;const frameId=host.environment.requestAnimationFrame(now=>{frameCalls++;frameTime=now;});host.frame(frameId);host.frame(frameId);assert.equal(frameCalls,1);assert.ok(frameTime>0);
+const canceled=host.environment.requestAnimationFrame(()=>frameCalls++);host.environment.cancelAnimationFrame(canceled);host.frame(canceled);assert.equal(frameCalls,1);
+const label=host.environment.document.createElement('button');let clicks=0;label.onclick=()=>clicks++;label.textContent='真实零件';label.style.left='123.456789px';label.style.left='123.456789px';host.host.appendChild(label);host.flush();
+const commands=output.filter(data=>data.type==='dom').flatMap(data=>data.commands);const id=commands.find(data=>data.op==='create'&&data.tag==='button').id;host.click(id);assert.equal(clicks,1);assert.equal(commands.filter(data=>data.op==='set'&&data.key==='left').length,1);
+label.remove();host.click(id);assert.equal(clicks,1,'removed labels cannot dispatch stale clicks');
+orbit.dispose();observer.disconnect();const afterDispose=camera.position.clone();host.input('canvas',{type:'wheel',deltaY:100,deltaMode:0});assert.deepEqual(camera.position.toArray(),afterDispose.toArray());
+const baseline=JSON.parse(await fs.readFile('outputs/simulation-worker-evidence/asset-integrity.json','utf8'));
+const nativeAssets=[];for(const asset of baseline.nativeAssets){const buffer=await fs.readFile('public/models/'+asset.file),sha256=crypto.createHash('sha256').update(buffer).digest('hex');assert.equal(sha256,asset.sha256);nativeAssets.push({...asset,bytes:buffer.length,sha256});}
+const report={passed:true,realOrbitControls:{rotate:true,documentPointerUp:true,wheel:true,rightButtonPan:true,dispose:true},fractionalCoordinates:true,resize:true,visibility:true,frameCallbackOnce:true,cancellation:true,workerClock:true,overlayClicks:true,unchangedStyleSuppression:true,nativeAssets,limits:'Tests host event/ownership contracts with real OrbitControls and hashes. Full browser rendering/export and UI latency require separate evidence.'};
+await fs.mkdir('outputs/render-worker-evidence',{recursive:true});await fs.writeFile('outputs/render-worker-evidence/host-tests.json',JSON.stringify(report,null,2));console.log('Worker viewport host: real OrbitControls input, sizing, visibility, RAF, overlay lifecycle and 7 native asset hashes passed.');

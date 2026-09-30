@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const d='outputs/rear-box-frame-20260930',w='work/rear-box-frame-evidence-20260930';fs.mkdirSync(w,{recursive:true});
+for(const n of fs.readdirSync(d))if(n.endsWith('.json'))fs.copyFileSync(d+'/'+n,w+'/'+n);
+for(const phase of ['before','after'])fs.copyFileSync(d+'/'+phase+'/browser-evidence.json',w+'/'+phase+'-browser-evidence.json');
+fs.copyFileSync('docs/REAR_BOX_FRAME_STAGE_20260930.md',w+'/REPORT.md');
+const p='public/models/model-info.json',j=JSON.parse(fs.readFileSync(p));j.front_restoration.rearBoxFrame.status='PASS scoped native/browser position and dark frame materials;12 rear parts vs432 tyre components no rest-pose intersections; full suspension travel/factory dims/lid internals and full vehicle16 gates OPEN';fs.writeFileSync(p,JSON.stringify(j,null,2));
+const update='2026-09-30 latest: rear boxes moved fromX5.09 to3.52 between actual3/4axles; original fitted sizes retained; four native mounts, three dark frame assignments. Two masters andproduction GLB promoted SHA4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698;260 other streams+3textures unchanged;0glTFerrors/warnings. Actual full-quality webpage3297meshes, six identical before/after camera pairs,12 new rear bounds max1.192093e-7m;12parts vs432 native tyre parts no rest intersections. See docs/REAR_BOX_FRAME_STAGE_20260930.md. Prior front hinge/rubber proof retained. All16 OPEN. Next: source identifies rear hood as equipment covers, missing right battery box/left filtered ventilation/fuel mount and actual asymmetric outer panels; continue source-backed whole restoration, do not shrink hood blindly. Original SlackPRIVATE_SLACK_DESTINATION.\n\n';
+for(const p of ['AGENT_START_HERE.md','NEXT_AGENT_PROMPT.md','docs/ACCEPTANCE.md']){const s=fs.readFileSync(p,'utf8');if(!s.startsWith(update))fs.writeFileSync(p,update+s);}
+const a=[];for(const phase of ['before','after'])for(const n of fs.readdirSync(d+'/'+phase).filter(n=>n.endsWith('.png')))a.push({name:phase+'-'+n,path:d+'/'+phase+'/'+n,n:fs.statSync(d+'/'+phase+'/'+n).size,mime:'image/png'});
+fs.writeFileSync('work/rear-box-frame-slack-files.json',JSON.stringify(a));

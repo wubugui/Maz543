@@ -1,0 +1,115 @@
+{
+  "samples": [
+    {
+      "side": 0,
+      "travelMM": 0,
+      "webWeights": [
+        0,
+        0
+      ],
+      "nativeVertices": 5136,
+      "decodedVertices": 5168,
+      "maxSurfaceDistanceMM": 0.0006445803819588036
+    },
+    {
+      "side": 0,
+      "travelMM": 0.375,
+      "webWeights": [
+        0.25,
+        0.2652049846652127
+      ],
+      "nativeVertices": 5136,
+      "decodedVertices": 5168,
+      "maxSurfaceDistanceMM": 0.0006445803819588036
+    },
+    {
+      "side": 0,
+      "travelMM": 0.75,
+      "webWeights": [
+        0.5,
+        0.5202731929814406
+      ],
+      "nativeVertices": 5136,
+      "decodedVertices": 5168,
+      "maxSurfaceDistanceMM": 0.0006448553335758334
+    },
+    {
+      "side": 0,
+      "travelMM": 1.125,
+      "webWeights": [
+        0.7499999999999999,
+        0.765204806619362
+      ],
+      "nativeVertices": 5136,
+      "decodedVertices": 5168,
+      "maxSurfaceDistanceMM": 0.0006445803819588036
+    },
+    {
+      "side": 0,
+      "travelMM": 1.5,
+      "webWeights": [
+        1,
+        1
+      ],
+      "nativeVertices": 5136,
+      "decodedVertices": 5168,
+      "maxSurfaceDistanceMM": 0.0006445803819588036
+    },
+    {
+      "side": 1,
+      "travelMM": 0,
+      "webWeights": [
+        0,
+        0
+      ],
+      "nativeVertices": 5136,
+      "decodedVertices": 5168,
+      "maxSurfaceDistanceMM": 0.0006445803819588036
+    },
+    {
+      "side": 1,
+      "travelMM": 0.375,
+      "webWeights": [
+        0.25,
+        0.2652049846652127
+      ],
+      "nativeVertices": 5136,
+      "decodedVertices": 5168,
+      "maxSurfaceDistanceMM": 0.0006445803819588036
+    },
+    {
+      "side": 1,
+      "travelMM": 0.75,
+      "webWeights": [
+        0.5,
+        0.5202731929814406
+      ],
+      "nativeVertices": 5136,
+      "decodedVertices": 5168,
+      "maxSurfaceDistanceMM": 0.0006448553335758334
+    },
+    {
+      "side": 1,
+      "travelMM": 1.125,
+      "webWeights": [
+        0.7499999999999999,
+        0.765204806619362
+      ],
+      "nativeVertices": 5136,
+      "decodedVertices": 5168,
+      "maxSurfaceDistanceMM": 0.0006445803819588036
+    },
+    {
+      "side": 1,
+      "travelMM": 1.5,
+      "webWeights": [
+        1,
+        1
+      ],
+      "nativeVertices": 5136,
+      "decodedVertices": 5168,
+      "maxSurfaceDistanceMM": 0.0006445803819588036
+    }
+  ],
+  "limits": "Decoded exported mesh point set comparison at five travel positions per side, using web-solver weights. Does not prove elastic stress, original spring dimensions, all continuous poses or complete clutch acceptance."
+}

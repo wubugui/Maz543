@@ -1,0 +1,28 @@
+{
+  "gearMeshes": 25,
+  "gearPairs": 15,
+  "samplesPerPair": 73,
+  "surfaceIntersections": [],
+  "unrelatedGearIntersectionsAtDatum": [],
+  "maxAxisError": 1.9758857784093048e-07,
+  "newAnimatedShafts": 10,
+  "rates": {
+    "crank": 1,
+    "upper": -1.5,
+    "lower": -1.5,
+    "generator_takeoff": -1.5000000000000004,
+    "generator": -1.7500000000000002,
+    "injection": -0.5,
+    "oil_idler": 0.9583333333333333,
+    "oil_pump": -1.7249999999999999,
+    "fuel_takeoff": 1.5,
+    "fuel_feed": 0.7857142857142858,
+    "inclined_L": 1,
+    "intake_L": 0.5,
+    "exhaust_L": -0.5,
+    "inclined_R": 1,
+    "intake_R": 0.5,
+    "exhaust_R": -0.5
+  },
+  "limits": "Rigid ideal kinematic ratios only. Fitted dimensions and spherical tooth form; not original cutter data. Housing, load, backlash, lubrication and accessory internals not accepted."
+}

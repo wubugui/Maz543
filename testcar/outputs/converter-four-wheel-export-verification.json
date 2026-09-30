@@ -1,0 +1,1219 @@
+{
+  "meshes": 180,
+  "comparedVertices": 274996,
+  "maxNativeErrorM": 3.488641871042463e-8,
+  "modelSha256": "668eaf3e6cf5ef73c95c565371a6f7155a9a4f8af936f2b381ce5e86f8dc86cc",
+  "nativeSha256": "d7a46e2fe4eb5f1d54c7a94ef21568aebac9e3b1a8ac9ee51ac0e35ae30a7e87",
+  "glTF": {
+    "numErrors": 0,
+    "numWarnings": 0,
+    "numInfos": 20,
+    "numHints": 0,
+    "messages": [
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/0/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/1/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/2/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/5/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/7/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/8/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/9/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/10/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/11/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/12/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/13/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/14/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/15/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/16/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/17/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/18/primitives/0/attributes/TEXCOORD_0"
+      },
+      {
+        "code": "UNUSED_OBJECT",
+        "message": "This object may be unused.",
+        "severity": 2,
+        "pointer": "/meshes/19/primitives/0/attributes/TEXCOORD_0"
+      }
+    ],
+    "truncated": true
+  },
+  "rows": [
+    {
+      "name": "CA_01_input_shaft",
+      "nativeVertices": 576,
+      "exportedVertices": 1176,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_02_turbine_hub",
+      "nativeVertices": 720,
+      "exportedVertices": 1304,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_03_lockup_turbine_hub",
+      "nativeVertices": 576,
+      "exportedVertices": 1176,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_04_lockup_body",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_05_lockup_piston",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_07_driven_disc_carrier",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_07_friction_face_-0_0993",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_07_friction_face_-0_1027",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_08_thrust_disc",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_09_rotating_casing",
+      "nativeVertices": 2688,
+      "exportedVertices": 4256,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_13_shared_inner_race",
+      "nativeVertices": 768,
+      "exportedVertices": 1552,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_15_turbine_shaft",
+      "nativeVertices": 384,
+      "exportedVertices": 784,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_52_fixed_hub",
+      "nativeVertices": 512,
+      "exportedVertices": 1040,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_fixed_support_flange",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_00",
+      "nativeVertices": 294,
+      "exportedVertices": 440,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_01",
+      "nativeVertices": 294,
+      "exportedVertices": 442,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_02",
+      "nativeVertices": 294,
+      "exportedVertices": 438,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_03",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_04",
+      "nativeVertices": 294,
+      "exportedVertices": 440,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_05",
+      "nativeVertices": 294,
+      "exportedVertices": 440,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_06",
+      "nativeVertices": 294,
+      "exportedVertices": 442,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_07",
+      "nativeVertices": 294,
+      "exportedVertices": 438,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_08",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_09",
+      "nativeVertices": 294,
+      "exportedVertices": 440,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_10",
+      "nativeVertices": 294,
+      "exportedVertices": 440,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_11",
+      "nativeVertices": 294,
+      "exportedVertices": 442,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_12",
+      "nativeVertices": 294,
+      "exportedVertices": 438,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_13",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_14",
+      "nativeVertices": 294,
+      "exportedVertices": 440,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_15",
+      "nativeVertices": 294,
+      "exportedVertices": 440,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_16",
+      "nativeVertices": 294,
+      "exportedVertices": 442,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_17",
+      "nativeVertices": 294,
+      "exportedVertices": 438,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_18",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_blade_19",
+      "nativeVertices": 294,
+      "exportedVertices": 440,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_core_ring",
+      "nativeVertices": 14112,
+      "exportedVertices": 15368,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_hub_sleeve",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_outer_race",
+      "nativeVertices": 5760,
+      "exportedVertices": 11584,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_outer_shroud",
+      "nativeVertices": 14112,
+      "exportedVertices": 15368,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_roller_00",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_roller_01",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 9.701530628081998e-9
+    },
+    {
+      "name": "CA_front_reactor_roller_02",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 7.490851394640589e-9
+    },
+    {
+      "name": "CA_front_reactor_roller_03",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 1.1137059999749986e-8
+    },
+    {
+      "name": "CA_front_reactor_roller_04",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 1.1244882747627888e-8
+    },
+    {
+      "name": "CA_front_reactor_roller_05",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 6.3662874292757395e-9
+    },
+    {
+      "name": "CA_front_reactor_roller_06",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 5.836334753636906e-10
+    },
+    {
+      "name": "CA_front_reactor_roller_07",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 3.193553808295523e-8
+    },
+    {
+      "name": "CA_front_reactor_roller_08",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 8.554674467384378e-9
+    },
+    {
+      "name": "CA_front_reactor_roller_09",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 1.360569875097271e-8
+    },
+    {
+      "name": "CA_front_reactor_roller_10",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 1.1329150884606515e-8
+    },
+    {
+      "name": "CA_front_reactor_roller_11",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 4.870022112784991e-9
+    },
+    {
+      "name": "CA_front_reactor_strip_00",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_front_reactor_strip_01",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 9.303650781093812e-9
+    },
+    {
+      "name": "CA_front_reactor_strip_02",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 8.651234070909462e-9
+    },
+    {
+      "name": "CA_front_reactor_strip_03",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 1.1540980245886327e-8
+    },
+    {
+      "name": "CA_front_reactor_strip_04",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 1.2104349528355051e-8
+    },
+    {
+      "name": "CA_front_reactor_strip_05",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 5.919938822822192e-9
+    },
+    {
+      "name": "CA_front_reactor_strip_06",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 1.3814478430368905e-9
+    },
+    {
+      "name": "CA_front_reactor_strip_07",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 3.488641871042463e-8
+    },
+    {
+      "name": "CA_front_reactor_strip_08",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 9.186563153147259e-9
+    },
+    {
+      "name": "CA_front_reactor_strip_09",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 1.3742032116183274e-8
+    },
+    {
+      "name": "CA_front_reactor_strip_10",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 1.1684100488492213e-8
+    },
+    {
+      "name": "CA_front_reactor_strip_11",
+      "nativeVertices": 772,
+      "exportedVertices": 1587,
+      "maxErrorM": 4.911092058379179e-9
+    },
+    {
+      "name": "CA_front_reactor_thrust_ring",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_input_flange",
+      "nativeVertices": 384,
+      "exportedVertices": 784,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_piston_seal_0_053",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_piston_seal_0_156",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_00",
+      "nativeVertices": 294,
+      "exportedVertices": 426,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_01",
+      "nativeVertices": 294,
+      "exportedVertices": 448,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_02",
+      "nativeVertices": 294,
+      "exportedVertices": 437,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_03",
+      "nativeVertices": 294,
+      "exportedVertices": 426,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_04",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_05",
+      "nativeVertices": 294,
+      "exportedVertices": 416,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_06",
+      "nativeVertices": 294,
+      "exportedVertices": 414,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_07",
+      "nativeVertices": 294,
+      "exportedVertices": 414,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_08",
+      "nativeVertices": 294,
+      "exportedVertices": 426,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_09",
+      "nativeVertices": 294,
+      "exportedVertices": 448,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_10",
+      "nativeVertices": 294,
+      "exportedVertices": 437,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_11",
+      "nativeVertices": 294,
+      "exportedVertices": 426,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_12",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_13",
+      "nativeVertices": 294,
+      "exportedVertices": 416,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_14",
+      "nativeVertices": 294,
+      "exportedVertices": 414,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_15",
+      "nativeVertices": 294,
+      "exportedVertices": 414,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_16",
+      "nativeVertices": 294,
+      "exportedVertices": 426,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_17",
+      "nativeVertices": 294,
+      "exportedVertices": 448,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_18",
+      "nativeVertices": 294,
+      "exportedVertices": 437,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_19",
+      "nativeVertices": 294,
+      "exportedVertices": 426,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_20",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_21",
+      "nativeVertices": 294,
+      "exportedVertices": 416,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_22",
+      "nativeVertices": 294,
+      "exportedVertices": 414,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_23",
+      "nativeVertices": 294,
+      "exportedVertices": 414,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_24",
+      "nativeVertices": 294,
+      "exportedVertices": 426,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_25",
+      "nativeVertices": 294,
+      "exportedVertices": 448,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_26",
+      "nativeVertices": 294,
+      "exportedVertices": 437,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_27",
+      "nativeVertices": 294,
+      "exportedVertices": 426,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_28",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_29",
+      "nativeVertices": 294,
+      "exportedVertices": 416,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_30",
+      "nativeVertices": 294,
+      "exportedVertices": 414,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_blade_31",
+      "nativeVertices": 294,
+      "exportedVertices": 414,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_core_ring",
+      "nativeVertices": 14112,
+      "exportedVertices": 17744,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_cover_joint",
+      "nativeVertices": 768,
+      "exportedVertices": 1552,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_pump_outer_shroud",
+      "nativeVertices": 14112,
+      "exportedVertices": 17760,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_00",
+      "nativeVertices": 294,
+      "exportedVertices": 450,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_01",
+      "nativeVertices": 294,
+      "exportedVertices": 442,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_02",
+      "nativeVertices": 294,
+      "exportedVertices": 438,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_03",
+      "nativeVertices": 294,
+      "exportedVertices": 446,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_04",
+      "nativeVertices": 294,
+      "exportedVertices": 449,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_05",
+      "nativeVertices": 294,
+      "exportedVertices": 450,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_06",
+      "nativeVertices": 294,
+      "exportedVertices": 442,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_07",
+      "nativeVertices": 294,
+      "exportedVertices": 438,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_08",
+      "nativeVertices": 294,
+      "exportedVertices": 446,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_09",
+      "nativeVertices": 294,
+      "exportedVertices": 449,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_10",
+      "nativeVertices": 294,
+      "exportedVertices": 450,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_11",
+      "nativeVertices": 294,
+      "exportedVertices": 442,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_12",
+      "nativeVertices": 294,
+      "exportedVertices": 438,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_13",
+      "nativeVertices": 294,
+      "exportedVertices": 446,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_14",
+      "nativeVertices": 294,
+      "exportedVertices": 449,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_15",
+      "nativeVertices": 294,
+      "exportedVertices": 450,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_16",
+      "nativeVertices": 294,
+      "exportedVertices": 442,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_17",
+      "nativeVertices": 294,
+      "exportedVertices": 438,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_18",
+      "nativeVertices": 294,
+      "exportedVertices": 446,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_blade_19",
+      "nativeVertices": 294,
+      "exportedVertices": 449,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_core_ring",
+      "nativeVertices": 14112,
+      "exportedVertices": 15368,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_hub_sleeve",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_outer_race",
+      "nativeVertices": 5760,
+      "exportedVertices": 11584,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_outer_shroud",
+      "nativeVertices": 14112,
+      "exportedVertices": 15368,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_roller_00",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_roller_01",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 9.701530628081998e-9
+    },
+    {
+      "name": "CA_rear_reactor_roller_02",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 7.490851394640589e-9
+    },
+    {
+      "name": "CA_rear_reactor_roller_03",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 1.1137059999749986e-8
+    },
+    {
+      "name": "CA_rear_reactor_roller_04",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 1.1244882747627888e-8
+    },
+    {
+      "name": "CA_rear_reactor_roller_05",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 6.3662874292757395e-9
+    },
+    {
+      "name": "CA_rear_reactor_roller_06",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 5.836334753636906e-10
+    },
+    {
+      "name": "CA_rear_reactor_roller_07",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 3.193553808295523e-8
+    },
+    {
+      "name": "CA_rear_reactor_roller_08",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 8.554674467384378e-9
+    },
+    {
+      "name": "CA_rear_reactor_roller_09",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 1.360569875097271e-8
+    },
+    {
+      "name": "CA_rear_reactor_roller_10",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 1.1329150884606515e-8
+    },
+    {
+      "name": "CA_rear_reactor_roller_11",
+      "nativeVertices": 194,
+      "exportedVertices": 394,
+      "maxErrorM": 4.870022112784991e-9
+    },
+    {
+      "name": "CA_rear_reactor_strip_00",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_rear_reactor_strip_01",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 9.303650781093812e-9
+    },
+    {
+      "name": "CA_rear_reactor_strip_02",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 8.651234070909462e-9
+    },
+    {
+      "name": "CA_rear_reactor_strip_03",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 1.1540980245886327e-8
+    },
+    {
+      "name": "CA_rear_reactor_strip_04",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 1.2104349528355051e-8
+    },
+    {
+      "name": "CA_rear_reactor_strip_05",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 5.919938822822192e-9
+    },
+    {
+      "name": "CA_rear_reactor_strip_06",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 1.3814478430368905e-9
+    },
+    {
+      "name": "CA_rear_reactor_strip_07",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 3.488641871042463e-8
+    },
+    {
+      "name": "CA_rear_reactor_strip_08",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 9.186563153147259e-9
+    },
+    {
+      "name": "CA_rear_reactor_strip_09",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 1.3742032116183274e-8
+    },
+    {
+      "name": "CA_rear_reactor_strip_10",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 1.1684100488492213e-8
+    },
+    {
+      "name": "CA_rear_reactor_strip_11",
+      "nativeVertices": 772,
+      "exportedVertices": 1595,
+      "maxErrorM": 4.911092058379179e-9
+    },
+    {
+      "name": "CA_rear_reactor_thrust_ring",
+      "nativeVertices": 576,
+      "exportedVertices": 1168,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_00",
+      "nativeVertices": 294,
+      "exportedVertices": 457,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_01",
+      "nativeVertices": 294,
+      "exportedVertices": 453,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_02",
+      "nativeVertices": 294,
+      "exportedVertices": 423,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_03",
+      "nativeVertices": 294,
+      "exportedVertices": 432,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_04",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_05",
+      "nativeVertices": 294,
+      "exportedVertices": 416,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_06",
+      "nativeVertices": 294,
+      "exportedVertices": 436,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_07",
+      "nativeVertices": 294,
+      "exportedVertices": 457,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_08",
+      "nativeVertices": 294,
+      "exportedVertices": 453,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_09",
+      "nativeVertices": 294,
+      "exportedVertices": 423,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_10",
+      "nativeVertices": 294,
+      "exportedVertices": 432,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_11",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_12",
+      "nativeVertices": 294,
+      "exportedVertices": 416,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_13",
+      "nativeVertices": 294,
+      "exportedVertices": 436,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_14",
+      "nativeVertices": 294,
+      "exportedVertices": 457,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_15",
+      "nativeVertices": 294,
+      "exportedVertices": 453,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_16",
+      "nativeVertices": 294,
+      "exportedVertices": 423,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_17",
+      "nativeVertices": 294,
+      "exportedVertices": 432,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_18",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_19",
+      "nativeVertices": 294,
+      "exportedVertices": 416,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_20",
+      "nativeVertices": 294,
+      "exportedVertices": 436,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_21",
+      "nativeVertices": 294,
+      "exportedVertices": 457,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_22",
+      "nativeVertices": 294,
+      "exportedVertices": 453,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_23",
+      "nativeVertices": 294,
+      "exportedVertices": 423,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_24",
+      "nativeVertices": 294,
+      "exportedVertices": 432,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_25",
+      "nativeVertices": 294,
+      "exportedVertices": 430,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_26",
+      "nativeVertices": 294,
+      "exportedVertices": 416,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_blade_27",
+      "nativeVertices": 294,
+      "exportedVertices": 436,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_core_ring",
+      "nativeVertices": 14112,
+      "exportedVertices": 17448,
+      "maxErrorM": 0
+    },
+    {
+      "name": "CA_turbine_outer_shroud",
+      "nativeVertices": 14112,
+      "exportedVertices": 17464,
+      "maxErrorM": 0
+    }
+  ],
+  "limits": "Export and rigid assembly hierarchy only; no fluid dynamics, freewheel trajectory, factory geometry or full-vehicle acceptance."
+}

@@ -1,0 +1,10 @@
+{
+  "timeUTC": "2026-09-30T18:42:28.272Z",
+  "textFilesScanned": 2707,
+  "knownSecretPatternFindings": [],
+  "forbiddenTrackedPaths": [],
+  "indexedFiles": 875,
+  "archiveScan": "Five retained ZIPs scanned; no secret/private delivery/config members after public-copy redaction",
+  "fullOriginalHashValidation": "3486 files / 10000026585 bytes, 0 failures",
+  "scope": "Known-pattern scan is not a guarantee against all unknown secrets; personal configs, credentials, session exports and signed uploads excluded separately."
+}

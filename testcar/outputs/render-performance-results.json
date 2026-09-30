@@ -1,0 +1,208 @@
+{
+  "wholeGoal": "ACTIVE; all 16 gates OPEN",
+  "enabled": [
+    "One shadow update per rendered frame",
+    "Exact visible-presentation invalidation",
+    "Exact-angle torsion buffer reuse",
+    "Elapsed-time camera easing",
+    "Explicit native texture/late-load/shadow-target cleanup"
+  ],
+  "experimentalOnly": [
+    "DisplayInstances: inspect=instance-audit",
+    "DisplayBatches: inspect=batch-audit"
+  ],
+  "audits": {
+    "shadow-audit": {
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "width": 1212,
+      "height": 773,
+      "order": "optimized-then-baseline",
+      "baseline": {
+        "calls": 11627,
+        "triangles": 26978281,
+        "synchronizedMs": 1614.9000000003725
+      },
+      "optimized": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 2095.899999999441
+      },
+      "optimizedReadbackError": 0,
+      "baselineReadbackError": 0,
+      "differentPixels": 0,
+      "maxChannelDifference": 0,
+      "rmsChannelDifference": 0,
+      "identicalPixels": true,
+      "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+    },
+    "instance-initial": {
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "displayInstances": {
+        "instances": 328,
+        "batches": 16,
+        "savedDrawsPerPass": 312
+      },
+      "width": 1212,
+      "height": 773,
+      "order": "optimized-then-baseline",
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1439.9000000003725
+      },
+      "optimized": {
+        "calls": 8057,
+        "triangles": 21582915,
+        "synchronizedMs": 2241.7000000011176
+      },
+      "optimizedReadbackError": 0,
+      "baselineReadbackError": 0,
+      "differentPixels": 25,
+      "maxChannelDifference": 1,
+      "rmsChannelDifference": 0.003012093202313045,
+      "identicalPixels": false,
+      "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+    },
+    "instance-door": {
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "multiDraw": true,
+      "displayInstances": {
+        "instances": 328,
+        "batches": 16,
+        "savedDrawsPerPass": 312
+      },
+      "width": 1212,
+      "height": 773,
+      "order": "optimized-then-baseline",
+      "baseline": {
+        "calls": 9306,
+        "triangles": 21582915,
+        "synchronizedMs": 1411
+      },
+      "optimized": {
+        "calls": 8058,
+        "triangles": 21582915,
+        "synchronizedMs": 1967.4000000003725
+      },
+      "optimizedReadbackError": 0,
+      "baselineReadbackError": 0,
+      "differentPixels": 11,
+      "maxChannelDifference": 1,
+      "rmsChannelDifference": 0.0018625186218766334,
+      "identicalPixels": false,
+      "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+    },
+    "batch-initial": {
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "multiDraw": true,
+      "displayInstances": {
+        "instances": 1906,
+        "batches": 51,
+        "savedDrawsPerPass": 1855,
+        "bufferBytes": 392645360
+      },
+      "geometryCopy": {
+        "geometries": 2558,
+        "components": 80659352,
+        "indices": 18507990,
+        "mismatches": 0,
+        "exactCopy": true
+      },
+      "width": 1212,
+      "height": 773,
+      "order": "optimized-then-baseline",
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1629.300000000745
+      },
+      "optimized": {
+        "calls": 1885,
+        "triangles": 21582915,
+        "synchronizedMs": 2938
+      },
+      "optimizedReadbackError": 0,
+      "baselineReadbackError": 0,
+      "differentPixels": 307,
+      "maxChannelDifference": 59,
+      "rmsChannelDifference": 0.11175469902178027,
+      "identicalPixels": false,
+      "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+    },
+    "batch-warm": {
+      "gpu": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "multiDraw": true,
+      "displayInstances": {
+        "instances": 1906,
+        "batches": 51,
+        "savedDrawsPerPass": 1855,
+        "bufferBytes": 392645360
+      },
+      "geometryCopy": {
+        "geometries": 2558,
+        "components": 80659352,
+        "indices": 18507990,
+        "mismatches": 0,
+        "exactCopy": true
+      },
+      "width": 1212,
+      "height": 773,
+      "order": "optimized-then-baseline",
+      "baseline": {
+        "calls": 9305,
+        "triangles": 21582915,
+        "synchronizedMs": 1553.5
+      },
+      "optimized": {
+        "calls": 1885,
+        "triangles": 21582915,
+        "synchronizedMs": 1546.7999999988824
+      },
+      "optimizedReadbackError": 0,
+      "baselineReadbackError": 0,
+      "differentPixels": 335,
+      "maxChannelDifference": 67,
+      "rmsChannelDifference": 0.33883666329362583,
+      "identicalPixels": false,
+      "limits": "Paired frame, not steady-state FPS. Synchronized times include readback and compilation/cache effects. Same complete scene and current mechanical pose."
+    }
+  },
+  "currentNativeAssetHashes": {
+    "d12a525a-engine.glb": {
+      "bytes": 9996432,
+      "sha256": "4e8cc7f9f79527bd854658a62b90761953b1996cedde2b1543d586e8dc96e070"
+    },
+    "maz543a-blender.glb": {
+      "bytes": 20332232,
+      "sha256": "9d1831e61230413198dadd62d26d1eb2fe0047976dab6589d9b78d4c1606d47d"
+    },
+    "maz543a-cardan.glb": {
+      "bytes": 907380,
+      "sha256": "947f83011dea5b478d16e7aedd66a5af1b6b6f428b8e557ccb3424077c3fa6e0"
+    },
+    "maz543a-cooling.glb": {
+      "bytes": 15673480,
+      "sha256": "0bdddd0688c9e6f62c06586afdf6d7e2b6e33f61abf89292172634f25b9159ce"
+    },
+    "maz543a-starting.glb": {
+      "bytes": 792512,
+      "sha256": "fc7e57bade4d6107d2b9d55292edc223bfd6e9b0fb2f635584a2142a72f5b9d4"
+    },
+    "maz543a-suspension.glb": {
+      "bytes": 8154920,
+      "sha256": "02820335705e230b5a70a4debbc9649e4a2cf66eb180117c8d65a17f19e2ba18"
+    },
+    "maz543a-transmission.glb": {
+      "bytes": 19204280,
+      "sha256": "0fb959900cf4b37b215c1f47463323faea8fba6e0c08b2e8f0515f22243e9faa"
+    }
+  },
+  "limits": [
+    "Full-vehicle software rendering remains slow. No frame-rate acceptance.",
+    "Batch warm readback was 1546.8 ms vs 1553.5 ms baseline; insufficient benefit for 392645360 additional buffer bytes.",
+    "Batch and instance pixels are not identical; neither enabled by default.",
+    "Frame cache uses exact comparisons; continuous motion, including tiny body movement, correctly invalidates it.",
+    "Existing mechanical timestep cap remains: physics still follows RAF with maximum 0.05 seconds. Separate accurate simulation scheduling remains to be done.",
+    "chrome://gpu was blocked by browser security policy; no attempt to bypass. No OS, driver or Codex settings changed."
+  ]
+}

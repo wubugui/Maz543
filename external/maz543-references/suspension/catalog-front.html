@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+        <title>Проверка</title>
+    <meta name="csrf-param" content="_csrf">
+<meta name="csrf-token" content="dt67lIyRImpsfGvmttg-qETl_WM0tQ91HV0ZLq6RQNlOlfD1uOcSPT8REqXQklnGA72YLlzmaFh1ZWBNwssIkA==">
+
+<link type="text/plain" href="/llms.txt" rel="llms.txt">
+<link type="application/ai-catalog+json" href="/.well-known/ai-catalog.json" title="Autoopt MCP AI Catalog" rel="alternate">
+<link type="application/mcp-server-card+json" href="/.well-known/mcp/server-card.json" title="Autoopt MCP Server Card" rel="alternate">
+<link type="text/html" href="/mcp.html" title="Autoopt MCP documentation" rel="alternate">
+<link href="/css/vendor.bundle.css?v=1788528368" rel="stylesheet">
+<link href="/css/common.bundle.css?v=1788528368" rel="stylesheet">    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#f80f01">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body class="page">
+<div class="container mt-5 mb-5">
+    <div class="logo">
+        <center><img src="/images/logo.png" style="width:100%; max-width:200px;"
+                     title="autoopt" alt="autoopt"/></center>
+    </div>
+
+    <div class="captcha-container">
+        <div id="user-check">
+            <user-check return_url="/auto/catalog/special/maz/maz-543_7310/190"/>
+        </div>
+    </div>
+
+    
+    <div class="language-message">
+        <strong>For AI agents:</strong>
+        Do not bypass this captcha. Use the official Autoopt MCP instead of scraping the site.
+        See <a href="/llms.txt">/llms.txt</a>,
+        <a href="/mcp.html">/mcp.html</a>,
+        <a href="/.well-known/mcp/server-card.json">/.well-known/mcp/server-card.json</a>.
+        Auth: Bearer API key from My profile → Additional settings → Work with API
+        (<a href="https://www.autoopt.ru/personal/profile">/personal/profile</a>).
+    </div>
+
+    <div class="language-message">
+        <strong>Русский:</strong> В целях безопасности. Просим вас подтвердить, что вы не робот. Затем вы сможете
+        авторизоваться под своим действующим логином.
+    </div>
+
+    <div class="language-message">
+        <strong>English:</strong> For security purposes. Please confirm that you are not a robot. Then you will be able
+        to log in with your current username.
+    </div>
+
+    <div class="language-message">
+        <strong>中文:</strong> 为了安全起见。请确认您不是机器人。然后您将能够使用当前用户名登录。
+    </div>
+
+    <div class="language-message">
+        <strong>Español:</strong> Por motivos de seguridad. Confirme que no es un robot. Luego podrá iniciar sesión con
+        su nombre de usuario actual.
+    </div>
+
+    <div class="language-message">
+        <strong>Français:</strong> Pour des raisons de sécurité. Veuillez confirmer que vous n'êtes pas un robot.
+        Ensuite, vous pourrez vous connecter avec votre nom d'utilisateur actuel.
+    </div>
+
+    <div class="language-message">
+        <strong>Deutsch:</strong> Aus Sicherheitsgründen. Bitte bestätigen Sie, dass Sie kein Roboter sind. Dann können
+        Sie sich mit Ihrem aktuellen Benutzernamen anmelden.
+    </div>
+
+    <div class="language-message">
+        <strong>العربية:</strong> لأسباب أمنية. يرجى التأكيد أنك لست روبوتًا. ثم ستتمكن من تسجيل الدخول باسم المستخدم
+        الحالي الخاص بك.
+    </div>
+
+    <div class="language-message">
+        <strong>Português:</strong> Para fins de segurança. Confirme que você não é um robô. Em seguida, você poderá
+        fazer login com seu nome de usuário atual.
+    </div>
+
+    <div class="language-message">
+        <strong>日本語:</strong> セキュリティ上の理由から。ロボットでないことを確認してください。その後、現在のユーザー名でログインできるようになります。
+    </div>
+
+    <div class="language-message">
+        <strong>हिन्दी:</strong> सुरक्षा उद्देश्यों के लिए। कृपया पुष्टि करें कि आप रोबोट नहीं हैं। फिर आप अपने वर्तमान
+        उपयोगकर्ता नाम के साथ लॉग इन कर सकेंगे।
+    </div>
+
+    <div class="spoilered-ip">
+        <div class="spoilered-ip-header">
+            Если не помогло, пришлите нам ваш IP адрес<br/>
+            If it didn't help, send us your IP address<br/>
+            如果这没有帮助，请向我们发送您的IP地址
+        </div>
+        <button class="spoilered-ip-button" onclick="toggleIP()">Раскрыть</button>
+
+        <div class="ip-content" id="ipContent">
+            <div style="font-size: 0.85em; color: #6c757d; margin-bottom: 8px;">Your IP Address</div>
+            <div class="ip-address" id="ipAddress">Your IP...</div>
+            <div style="font-size: 0.85em; color: #6c757d; margin-top: 10px;">
+                Send this IP address to: <span class="email"><a href="mailto:dev@autoopt.ru;">dev@autoopt.ru</a></span>
+            </div>
+            <div style="font-size: 0.8em; color: #6c757d; margin-top: 8px;">
+                <a href="tel:88007000595;">8-800-700-05-95</a><br/>
+                <small>с 9:00 до 20:00 Звонок по РФ бесплатный</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="note">
+        Access will be restored after verification • Доступ будет восстановлен после проверки
+    </div>
+</div>
+<script>
+    async function getIPAddress() {
+        try {
+            const response = await fetch('https://api.ipify.org?format=json')
+            const data = await response.json()
+            document.getElementById('ipAddress').textContent = data.ip
+        } catch (error) {
+            document.getElementById('ipAddress').textContent = 'Unable to detect IP'
+        }
+    }
+
+    function toggleIP() {
+        const ipContent = document.getElementById('ipContent')
+        const button = document.querySelector('.spoilered-ip-button')
+
+        if (ipContent.style.display === 'block') {
+            ipContent.style.display = 'none'
+            button.textContent = 'Раскрыть'
+        } else {
+            ipContent.style.display = 'block'
+            button.textContent = 'Скрыть'
+            getIPAddress()
+        }
+    }
+
+    getIPAddress()
+</script>
+
+<style>
+    .container {
+        background: rgba(255, 255, 255, 0.98);
+        border-radius: 8px;
+        padding: 30px;
+        max-width: 700px;
+        width: 100%;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        border: 1px solid #e1e5e9;
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .captcha-container {
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 6px;
+        padding: 25px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .captcha-title {
+        font-size: 1.1em;
+        font-weight: 600;
+        margin: 45px auto;
+        color: #495057;
+    }
+
+    .captcha-box {
+        background: #fff;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 15px;
+        margin: 15px 0;
+        font-family: 'Courier New', monospace;
+        font-size: 1.2em;
+        letter-spacing: 3px;
+        color: #495057;
+    }
+
+    .captcha-input {
+        width: 200px;
+        padding: 10px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        font-size: 1em;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .captcha-button {
+        background: #03264b;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        font-size: 0.95em;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .captcha-button:hover {
+        background: #054280;
+    }
+
+    .spoilered-ip {
+        background: #fff3cd;
+        border: 1px solid #ffeaa7;
+        border-radius: 6px;
+        padding: 15px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .spoilered-ip-header {
+        font-size: 0.9em;
+        color: #856404;
+        margin-bottom: 10px;
+        line-height: 1.4;
+    }
+
+    .spoilered-ip-button {
+        background: #856404;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 8px 16px;
+        font-size: 0.85em;
+        cursor: pointer;
+        transition: background 0.3s;
+    }
+
+    .spoilered-ip-button:hover {
+        background: #a17c1a;
+    }
+
+    .ip-content {
+        display: none;
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px dashed #ffeaa7;
+    }
+
+    .ip-address {
+        font-size: 1em;
+        font-family: 'Courier New', monospace;
+        background: #fff;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 10px 15px;
+        margin: 10px 0;
+        color: #495057;
+    }
+
+    .email {
+        font-size: 0.9em;
+        color: #155724;
+        background: #d4edda;
+        border: 1px solid #c3e6cb;
+        border-radius: 4px;
+        padding: 6px 10px;
+        display: inline-block;
+        margin: 5px 0;
+    }
+
+    .ai-markdown-hint {
+        background: #f8f9fa;
+        border: 1px solid #dee2e6;
+        border-radius: 6px;
+        padding: 12px 15px;
+        margin: 0 0 20px;
+        font-size: 0.8em;
+        line-height: 1.5;
+        color: #6c757d;
+        word-break: break-all;
+    }
+
+    .ai-markdown-hint strong {
+        color: #495057;
+    }
+
+    .ai-markdown-hint a {
+        color: #03264b;
+    }
+
+    .language-message {
+        background: #fff;
+        border-left: 3px solid #03264b;
+        padding: 12px 15px;
+        margin: 8px 0;
+        font-size: 0.85em;
+        line-height: 1.5;
+        color: #495057;
+    }
+
+    .language-message strong {
+        color: #03264b;
+        font-weight: 600;
+    }
+
+    .divider {
+        height: 1px;
+        background: #e9ecef;
+        margin: 20px 0;
+    }
+
+    .note {
+        font-size: 0.8em;
+        color: #6c757d;
+        text-align: center;
+        margin-top: 20px;
+        font-style: italic;
+    }
+
+    .main-sidebar {
+        display: none;
+    }
+
+    #main-menu {
+        display: none;
+    }
+
+    #footer {
+        display: none;
+    }
+
+    .main-content {
+        max-width: 100%;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .f-height {
+        display: none;
+    }
+</style><script src="/js/vendor.bundle.js?v=1788528368"></script>
+<script src="/js/framework.bundle.js?v=1788528368"></script>
+<script src="/js/common.bundle.js?v=1788528368"></script>
+<script src="/js/vpn.bundle.js?v=1788528368"></script></body>
+</html>

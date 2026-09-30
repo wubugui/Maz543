@@ -1,0 +1,92 @@
+{
+  "created_utc": "2026-09-06T04:35:51.434212+00:00",
+  "files": 263947,
+  "directories": 29469,
+  "bytes": 9612686208,
+  "source_roots": [
+    {
+      "source": "D:\\testcar",
+      "archive_prefix": "testcar"
+    },
+    {
+      "source": "D:\\testcar\\MIGRATION_20260906\\support\\conversation",
+      "archive_prefix": "conversation"
+    },
+    {
+      "source": "D:\\maz543-references",
+      "archive_prefix": "external/maz543-references"
+    },
+    {
+      "source": "C:\\Program Files\\nodejs",
+      "archive_prefix": "external/nodejs"
+    },
+    {
+      "source": "C:\\Users\\wubugui\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies",
+      "archive_prefix": "external/codex-dependencies"
+    },
+    {
+      "source": "C:\\Users\\wubugui\\AppData\\Local\\Programs\\Python\\Python310",
+      "archive_prefix": "external/python310"
+    },
+    {
+      "source": "C:\\Users\\wubugui\\AppData\\Local\\Temp\\browser-use\\assets\\6bfab5ec-12f6-4b9a-b020-dd5570b837f8",
+      "archive_prefix": "external/browser-reference-downloads"
+    },
+    {
+      "source": "C:\\Users\\wubugui\\.codex\\visualizations\\2026\\09\\05\\01a06f8d-9cc1-7f81-a2a0-70ff399252b9",
+      "archive_prefix": "external/thread-visualizations"
+    },
+    {
+      "source": "D:\\maz543-interior.jpg",
+      "archive_prefix": "external/early-reference-files/maz543-interior.jpg"
+    },
+    {
+      "source": "D:\\maz543-reference.html",
+      "archive_prefix": "external/early-reference-files/maz543-reference.html"
+    },
+    {
+      "source": "D:\\maz543-reference.txt",
+      "archive_prefix": "external/early-reference-files/maz543-reference.txt"
+    },
+    {
+      "source": "D:\\testcar\\MIGRATION_20260906\\support\\capture.json",
+      "archive_prefix": "migration/capture.json"
+    },
+    {
+      "source": "D:\\testcar\\MIGRATION_20260906\\support\\discovery.json",
+      "archive_prefix": "migration/discovery.json"
+    },
+    {
+      "source": "D:\\testcar\\MIGRATION_20260906\\support\\git-head.txt",
+      "archive_prefix": "migration/git-head.txt"
+    },
+    {
+      "source": "D:\\testcar\\MIGRATION_20260906\\support\\git-remotes.txt",
+      "archive_prefix": "migration/git-remotes.txt"
+    },
+    {
+      "source": "D:\\testcar\\MIGRATION_20260906\\support\\git-status.txt",
+      "archive_prefix": "migration/git-status.txt"
+    },
+    {
+      "source": "D:\\testcar\\MIGRATION_20260906\\support\\READ_ME_FIRST.md",
+      "archive_prefix": "migration/READ_ME_FIRST.md"
+    },
+    {
+      "source": "D:\\testcar\\MIGRATION_20260906\\support\\RESTORE_REFERENCES.ps1",
+      "archive_prefix": "migration/RESTORE_REFERENCES.ps1"
+    },
+    {
+      "source": "D:\\testcar\\MIGRATION_20260906\\support\\START_LOCAL.cmd",
+      "archive_prefix": "migration/START_LOCAL.cmd"
+    },
+    {
+      "source": "D:\\testcar\\MIGRATION_20260906\\support\\VERIFY_ARCHIVE.ps1",
+      "archive_prefix": "migration/VERIFY_ARCHIVE.ps1"
+    }
+  ],
+  "excluded": [
+    "D:/testcar/MIGRATION_20260906 (self archive excluded; support explicitly included at conversation/ and migration/)"
+  ],
+  "errors": []
+}

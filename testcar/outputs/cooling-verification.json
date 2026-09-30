@@ -1,0 +1,21 @@
+{
+  "coolingJoints": 254,
+  "bytes": 15673480,
+  "fanRPM": [
+    1498.9706050085738,
+    1498.9706050085738
+  ],
+  "leftOffRPM": [
+    394.08879655371356,
+    1498.9706050085738
+  ],
+  "flowLmin": 252.43632353694863,
+  "pumpWatts": 366.93929356049676,
+  "openOutletC": 62.771011155722825,
+  "closedOutletC": 78.61558945133677,
+  "maxThermalEnergyResidualJ": 2.1635194258351476e-7,
+  "rollingContactError": 4.440892098500626e-16,
+  "errors": 0,
+  "warnings": 0,
+  "limits": "Fitted parameters. Checks verify numerical and assembly behavior, not original cooling performance."
+}

@@ -1,0 +1,24 @@
+{
+  "meshSamples": 60,
+  "maxMeshError": 1.9539925233402755e-14,
+  "maxHelixError": 6.442022673055794e-16,
+  "minStartPressureKgf": 2.5135008217715176,
+  "idleRPM": 549.3210416504025,
+  "coastStopRPM": 0,
+  "unpoweredRPM": 0,
+  "manualNoFuelRPM": 286.3867103427871,
+  "failedAttemptReleased": true,
+  "frameRateDifferenceRPM": 0,
+  "maz543a-starting.glb": {
+    "bytes": 792512,
+    "nodes": 66,
+    "errors": 0,
+    "warnings": 0
+  },
+  "d12a525a-engine.glb": {
+    "bytes": 9996432,
+    "nodes": 696,
+    "errors": 0,
+    "warnings": 0
+  }
+}

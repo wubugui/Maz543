@@ -1,0 +1,17 @@
+{
+  "samples": 776,
+  "joints": 190,
+  "worstOrthogonal": 1.1102230246251565e-16,
+  "worstPhase": 4.440892098500626e-16,
+  "worstRolling": 9.992007221626409e-13,
+  "minimumSplineOverlapMM": 25,
+  "minimumSplineEndGapMM": 16,
+  "middleSpeedRatioAt30Degrees": [
+    0.8660254037844387,
+    1.1547005383792515
+  ],
+  "bytes": 907380,
+  "errors": 0,
+  "warnings": 0,
+  "limits": "Independent fitted equal-angle Cardan rig; no vehicle installation, bearing load capacity, measured spline fits or exact 543 suffix interchangeability acceptance."
+}

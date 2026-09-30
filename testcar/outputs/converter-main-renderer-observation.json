@@ -1,0 +1,15 @@
+{
+  "stage": "four-wheel assembly browser entry check, 2026-09-08",
+  "uiEvidence": "outputs/converter-browser-evidence/main-entry-ax.txt",
+  "mainPageReportedRenderer": "ANGLE (Microsoft, Microsoft Basic Render Driver (0x0000008C) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "mainPageReportedDrawCalls": 11627,
+  "mainPageReportedTriangles": 26978281,
+  "mainPageDisplayedFps": 0,
+  "hardwareObservationCommand": "Get-CimInstance Win32_VideoController | Select-Object Name,DriverVersion,Status",
+  "hardwareObservation": [
+    {"name": "GameViewer Virtual Display Adapter", "driverVersion": "15.6.5.199", "status": "OK"},
+    {"name": "NVIDIA GeForce GTX 970", "driverVersion": "32.0.15.8266", "status": "OK"}
+  ],
+  "appContextRequest": "components/vehicle-viewer.tsx requests WebGLRenderer powerPreference high-performance",
+  "limits": "Observed reports only. Presence of an OK NVIDIA device does not prove this browser uses it. No settings or drivers changed. Displayed 0 FPS is not an independently timed long-run average. Cause remains to investigate."
+}

@@ -1,0 +1,21 @@
+{
+  "checks": [
+    "axle dimensions",
+    "legacy control-rig consistency (not rendered engine acceptance)",
+    "common steering centre",
+    "outside wheel speed",
+    "acceleration and brake hold",
+    "finite transforms",
+    "eight wheels and four doors",
+    "independent continuous door opening and closing",
+    "Blender body pivot bindings",
+    "separate engine asset without obsolete engine meshes",
+    "embedded PBR textures",
+    "glTF validation"
+  ],
+  "glbBytes": 20284632,
+  "nodes": 332,
+  "meshes": 203,
+  "errors": 0,
+  "warnings": 0
+}

@@ -1,0 +1,138 @@
+## main
+ M .gitignore
+ M README.md
+ M app/globals.css
+ M components/vehicle-viewer.tsx
+ M components/workshop.tsx
+ M lib/maz543.ts
+ M lib/mechanics.ts
+ M public/models/maz543a-blender.glb
+ M public/models/model-info.json
+ M public/models/textures/MAZ543A_BaseColor.png
+ M public/models/textures/MAZ543A_Metallic.png
+ M public/models/textures/MAZ543A_Normal.png
+ M public/models/textures/MAZ543A_ORM.png
+ M public/models/textures/MAZ543A_Occlusion.png
+ M public/models/textures/MAZ543A_Roughness.png
+ M scripts/bake-animation.mjs
+ M scripts/blender-export.py
+ M scripts/blender-model.py
+ M scripts/prepare-blender.mjs
+ M scripts/verify-model.mjs
+ M tsconfig.tsbuildinfo
+ M vite.config.ts
+?? MIGRATION_20260906/
+?? MIGRATION_20260906_discovery.log
+?? MIGRATION_DEPENDENCY_AUDIT.md
+?? MIGRATION_HANDOFF.md
+?? NEXT_AGENT_PROMPT.md
+?? docs/ACCEPTANCE.md
+?? docs/BROWSER_QA.md
+?? docs/CAB_PHOTO_FIT_NOTES.md
+?? docs/CARDAN_REFERENCE_NOTES.md
+?? docs/COOLING_REFERENCE_NOTES.md
+?? docs/D12_REFERENCE_REGISTER.md
+?? docs/D12_TIMING_SOURCE_NOTES.md
+?? docs/D12_WATER_PUMP_NOTES.md
+?? docs/PART_PHOTO_WORKFLOW.md
+?? docs/STARTING_REFERENCE_REGISTER.md
+?? docs/SUSPENSION_REFERENCE_REGISTER.md
+?? lib/cardan.ts
+?? lib/cooling.ts
+?? lib/d12-timing.ts
+?? lib/d12.ts
+?? lib/starting.ts
+?? lib/suspension.ts
+?? public/models/d12a525a-engine.glb
+?? public/models/maz543a-cardan.glb
+?? public/models/maz543a-cooling.glb
+?? public/models/maz543a-starting.glb
+?? public/models/maz543a-suspension.glb
+?? scripts/attach-d12.py
+?? scripts/attach-starting.py
+?? scripts/attach-suspension.py
+?? scripts/audit-cardan-installation.py
+?? scripts/audit-cooling-installation.py
+?? scripts/bevel_geometry.py
+?? scripts/blender-cardan.py
+?? scripts/blender-cooling.py
+?? scripts/blender-d12.py
+?? scripts/blender-starting.py
+?? scripts/blender-suspension.py
+?? scripts/cab_front_profile.py
+?? scripts/cardan_references.py
+?? scripts/cooling-clutch-spring.py
+?? scripts/cooling-lower-detail.py
+?? scripts/cooling-lower-surfaces.py
+?? scripts/cooling-upper-detail.py
+?? scripts/cooling_asset.py
+?? scripts/cooling_interfaces.py
+?? scripts/cooling_references.py
+?? scripts/d12-cam-detail.py
+?? scripts/d12-cam-finish.py
+?? scripts/d12-timing-detail.py
+?? scripts/d12-water-detail.py
+?? scripts/d12_asset.py
+?? scripts/debug-timing-contact.py
+?? scripts/export-cooling-native.py
+?? scripts/finalize-suspension.py
+?? scripts/finish-cooling-upper.py
+?? scripts/inspect-cab-front.py
+?? scripts/install-cooling-assets.py
+?? scripts/migration-discover.py
+?? scripts/migration-native-package.py
+?? scripts/migration-package.py
+?? scripts/patch-suspension-damper.py
+?? scripts/prepare-cab-profile.py
+?? scripts/prepare-cam-profiles.py
+?? scripts/prepare-cardan.mjs
+?? scripts/prepare-cooling-lower.py
+?? scripts/prepare-cooling-references.py
+?? scripts/prepare-cooling-upper.py
+?? scripts/prepare-d12.mjs
+?? scripts/prepare-gear-profiles.py
+?? scripts/prepare-starting.mjs
+?? scripts/prepare-suspension.mjs
+?? scripts/prepare-timing-caps.py
+?? scripts/prepare-timing-spurs.py
+?? scripts/promote-cab-profile.py
+?? scripts/rebake-powertrain.py
+?? scripts/rebake-starting-native.py
+?? scripts/repair-starting-action-slots.py
+?? scripts/repair-suspension-tangents.py
+?? scripts/starting-motor-detail.py
+?? scripts/starting_asset.py
+?? scripts/suspension_asset.py
+?? scripts/sync-cooling-notes.py
+?? scripts/sync-d12-source-notes.py
+?? scripts/triangulate-body-export.py
+?? scripts/update-cooling-interfaces.py
+?? scripts/update-cooling-upper.py
+?? scripts/update-d12-cams.py
+?? scripts/update-d12-timing.py
+?? scripts/update-d12-water.py
+?? scripts/update-starting-assets.py
+?? scripts/verify-cab-apertures.py
+?? scripts/verify-cab-profile.py
+?? scripts/verify-cam-native.py
+?? scripts/verify-cardan-native.py
+?? scripts/verify-cardan.mjs
+?? scripts/verify-clutch-contact-native.py
+?? scripts/verify-cooling-install.py
+?? scripts/verify-cooling-interfaces.py
+?? scripts/verify-cooling-lower.py
+?? scripts/verify-cooling-native.py
+?? scripts/verify-cooling-upper.py
+?? scripts/verify-cooling.mjs
+?? scripts/verify-d12-native.py
+?? scripts/verify-d12.mjs
+?? scripts/verify-starting-installation.py
+?? scripts/verify-starting-native.py
+?? scripts/verify-starting.mjs
+?? scripts/verify-suspension-glb.mjs
+?? scripts/verify-suspension-native.py
+?? scripts/verify-suspension.mjs
+?? scripts/verify-timing-native.py
+?? scripts/verify-timing-web.mjs
+?? scripts/verify-water-native.py
+?? scripts/verify-water-web.mjs

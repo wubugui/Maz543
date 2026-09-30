@@ -1,0 +1,402 @@
+{
+  "slidingFaceFraction": 0.11991777244943276,
+  "derivatives": [
+    {
+      "kind": "vertex",
+      "node": 17,
+      "side": 1,
+      "director": 0,
+      "gradientErrorM": 3.5541995778778923e-13,
+      "hessianErrorM": 1.376203025236361e-13
+    },
+    {
+      "kind": "vertex",
+      "node": 17,
+      "side": 1,
+      "director": 16,
+      "gradientErrorM": 5.345830928534662e-13,
+      "hessianErrorM": 9.39490227218451e-14
+    },
+    {
+      "kind": "vertex",
+      "node": 17,
+      "side": 1,
+      "director": 17,
+      "gradientErrorM": 1.7610660312298264e-14,
+      "hessianErrorM": 1.1560654853459197e-13
+    },
+    {
+      "kind": "vertex",
+      "node": 17,
+      "side": 1,
+      "director": 18,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "kind": "vertex",
+      "node": 17,
+      "side": 1,
+      "director": 87,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "kind": "vertex",
+      "node": 0,
+      "side": -1,
+      "director": 0,
+      "gradientErrorM": 1.0721547618903343e-12,
+      "hessianErrorM": 6.534698251806949e-15
+    },
+    {
+      "kind": "vertex",
+      "node": 0,
+      "side": -1,
+      "director": 16,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "kind": "vertex",
+      "node": 0,
+      "side": -1,
+      "director": 17,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "kind": "vertex",
+      "node": 0,
+      "side": -1,
+      "director": 18,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "kind": "vertex",
+      "node": 0,
+      "side": -1,
+      "director": 87,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "kind": "vertex",
+      "node": 88,
+      "side": 1,
+      "director": 0,
+      "gradientErrorM": 3.681389286296077e-12,
+      "hessianErrorM": 1.8339951838457452e-14
+    },
+    {
+      "kind": "vertex",
+      "node": 88,
+      "side": 1,
+      "director": 16,
+      "gradientErrorM": 3.0342079556885428e-12,
+      "hessianErrorM": 1.5332371044824445e-14
+    },
+    {
+      "kind": "vertex",
+      "node": 88,
+      "side": 1,
+      "director": 17,
+      "gradientErrorM": 3.711916360491386e-12,
+      "hessianErrorM": 2.858218532797549e-14
+    },
+    {
+      "kind": "vertex",
+      "node": 88,
+      "side": 1,
+      "director": 18,
+      "gradientErrorM": 1.443536716755952e-12,
+      "hessianErrorM": 2.7536856462054803e-14
+    },
+    {
+      "kind": "vertex",
+      "node": 88,
+      "side": 1,
+      "director": 87,
+      "gradientErrorM": 3.2978891359859534e-12,
+      "hessianErrorM": 2.5977809313404432e-14
+    },
+    {
+      "kind": "face",
+      "node": 17,
+      "side": 1,
+      "director": 0,
+      "gradientErrorM": 6.65271874047968e-14,
+      "hessianErrorM": 3.2571935383238215e-11
+    },
+    {
+      "kind": "face",
+      "node": 17,
+      "side": 1,
+      "director": 16,
+      "gradientErrorM": 3.434595815220154e-13,
+      "hessianErrorM": 6.040733144003097e-11
+    },
+    {
+      "kind": "face",
+      "node": 17,
+      "side": 1,
+      "director": 17,
+      "gradientErrorM": 1.891718762702093e-13,
+      "hessianErrorM": 3.860524920573649e-11
+    },
+    {
+      "kind": "face",
+      "node": 17,
+      "side": 1,
+      "director": 18,
+      "gradientErrorM": 4.707747593125389e-20,
+      "hessianErrorM": 2.293594346667097e-11
+    },
+    {
+      "kind": "face",
+      "node": 17,
+      "side": 1,
+      "director": 87,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "kind": "face",
+      "node": 0,
+      "side": 1,
+      "director": 0,
+      "gradientErrorM": 2.337330226283643e-13,
+      "hessianErrorM": 5.920063701411737e-14
+    },
+    {
+      "kind": "face",
+      "node": 0,
+      "side": 1,
+      "director": 16,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "kind": "face",
+      "node": 0,
+      "side": 1,
+      "director": 17,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "kind": "face",
+      "node": 0,
+      "side": 1,
+      "director": 18,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    },
+    {
+      "kind": "face",
+      "node": 0,
+      "side": 1,
+      "director": 87,
+      "gradientErrorM": 0.0,
+      "hessianErrorM": 0.0
+    }
+  ],
+  "bodyBalances": [
+    {
+      "beta": -0.11,
+      "fraction": 0.0,
+      "contacts": 2,
+      "rootCoupleErrorNm": 2.381261854367267e-10,
+      "netMomentErrorNm": 1.7763568394002505e-15,
+      "frictionlessRollerSpinTorqueNm": 6.782768791069316e-16
+    },
+    {
+      "beta": -0.11,
+      "fraction": 1.0,
+      "contacts": 2,
+      "rootCoupleErrorNm": 2.7222224474598988e-11,
+      "netMomentErrorNm": 0.0,
+      "frictionlessRollerSpinTorqueNm": 1.8596235662471372e-15
+    },
+    {
+      "beta": -0.115,
+      "fraction": 0.0,
+      "contacts": 2,
+      "rootCoupleErrorNm": 3.86646270555957e-12,
+      "netMomentErrorNm": 7.105427357601002e-15,
+      "frictionlessRollerSpinTorqueNm": 2.0816681711721685e-17
+    },
+    {
+      "beta": -0.115,
+      "fraction": 1.0,
+      "contacts": 2,
+      "rootCoupleErrorNm": 4.4853010194856324e-14,
+      "netMomentErrorNm": 7.105427357601002e-15,
+      "frictionlessRollerSpinTorqueNm": -1.1102230246251565e-16
+    }
+  ],
+  "virtualWork": [
+    {
+      "beta": -0.11,
+      "fraction": 0.0,
+      "coordinate": 0,
+      "energyDerivativeLoad": -249.0643077693311,
+      "reportedLoad": -249.06430715837513,
+      "error": 6.109559649303264e-07
+    },
+    {
+      "beta": -0.11,
+      "fraction": 0.0,
+      "coordinate": 1,
+      "energyDerivativeLoad": 156.20594301768432,
+      "reportedLoad": 156.20593400705232,
+      "error": 9.01063199876262e-06
+    },
+    {
+      "beta": -0.11,
+      "fraction": 0.0,
+      "coordinate": 2,
+      "energyDerivativeLoad": 249.06430776378,
+      "reportedLoad": 249.06430715837513,
+      "error": 6.054048640180554e-07
+    },
+    {
+      "beta": -0.11,
+      "fraction": 0.0,
+      "coordinate": 3,
+      "energyDerivativeLoad": -156.20594301768432,
+      "reportedLoad": -156.20593400705232,
+      "error": 9.01063199876262e-06
+    },
+    {
+      "beta": -0.11,
+      "fraction": 0.0,
+      "coordinate": 4,
+      "energyDerivativeLoad": -14.562240934351545,
+      "reportedLoad": -14.562240563499032,
+      "error": 3.7085251314294965e-07
+    },
+    {
+      "beta": -0.11,
+      "fraction": 1.0,
+      "coordinate": 0,
+      "energyDerivativeLoad": -454.7425908030256,
+      "reportedLoad": -454.7425900931739,
+      "error": 7.098517471604282e-07
+    },
+    {
+      "beta": -0.11,
+      "fraction": 1.0,
+      "coordinate": 1,
+      "energyDerivativeLoad": 31.63124983052157,
+      "reportedLoad": 31.631255424181273,
+      "error": 5.593659704317133e-06
+    },
+    {
+      "beta": -0.11,
+      "fraction": 1.0,
+      "coordinate": 2,
+      "energyDerivativeLoad": 454.74259080080515,
+      "reportedLoad": 454.7425900931739,
+      "error": 7.076312726894685e-07
+    },
+    {
+      "beta": -0.11,
+      "fraction": 1.0,
+      "coordinate": 3,
+      "energyDerivativeLoad": -31.63124983052157,
+      "reportedLoad": -31.631255424181273,
+      "error": 5.593659704317133e-06
+    },
+    {
+      "beta": -0.11,
+      "fraction": 1.0,
+      "coordinate": 4,
+      "energyDerivativeLoad": -12.05016105060297,
+      "reportedLoad": -12.050161210794197,
+      "error": 1.6019122739407976e-07
+    },
+    {
+      "beta": -0.115,
+      "fraction": 0.0,
+      "coordinate": 0,
+      "energyDerivativeLoad": -586.9083175988333,
+      "reportedLoad": -586.9083176308077,
+      "error": 3.197442310920451e-08
+    },
+    {
+      "beta": -0.115,
+      "fraction": 0.0,
+      "coordinate": 1,
+      "energyDerivativeLoad": 481.93453809186605,
+      "reportedLoad": 481.9345299883925,
+      "error": 8.103473533083161e-06
+    },
+    {
+      "beta": -0.115,
+      "fraction": 0.0,
+      "coordinate": 2,
+      "energyDerivativeLoad": 586.9083175721879,
+      "reportedLoad": 586.9083176308077,
+      "error": 5.8619775700208265e-08
+    },
+    {
+      "beta": -0.115,
+      "fraction": 0.0,
+      "coordinate": 3,
+      "energyDerivativeLoad": -481.93453809186605,
+      "reportedLoad": -481.9345299883925,
+      "error": 8.103473533083161e-06
+    },
+    {
+      "beta": -0.115,
+      "fraction": 0.0,
+      "coordinate": 4,
+      "energyDerivativeLoad": -40.82902188512483,
+      "reportedLoad": -40.82902154900958,
+      "error": 3.361152494107955e-07
+    },
+    {
+      "beta": -0.115,
+      "fraction": 1.0,
+      "coordinate": 0,
+      "energyDerivativeLoad": -673.461705603673,
+      "reportedLoad": -673.4617053046707,
+      "error": 2.990022949234117e-07
+    },
+    {
+      "beta": -0.115,
+      "fraction": 1.0,
+      "coordinate": 1,
+      "energyDerivativeLoad": 685.6732779997321,
+      "reportedLoad": 685.6732831325379,
+      "error": 5.132805767971149e-06
+    },
+    {
+      "beta": -0.115,
+      "fraction": 1.0,
+      "coordinate": 2,
+      "energyDerivativeLoad": 673.4617055886849,
+      "reportedLoad": 673.4617053046707,
+      "error": 2.840142769855447e-07
+    },
+    {
+      "beta": -0.115,
+      "fraction": 1.0,
+      "coordinate": 3,
+      "energyDerivativeLoad": -685.6732779997321,
+      "reportedLoad": -685.6732831325379,
+      "error": 5.132805767971149e-06
+    },
+    {
+      "beta": -0.115,
+      "fraction": 1.0,
+      "coordinate": 4,
+      "energyDerivativeLoad": -55.74740004504753,
+      "reportedLoad": -55.747400181719236,
+      "error": 1.3667170861708655e-07
+    }
+  ],
+  "limits": "Fitted full ribbon surface contact, including eliminated sliding-point coordinate. No factory seating, material, strength or full dynamic trajectory acceptance."
+}

@@ -1,0 +1,27 @@
+{
+  "assemblies": [
+    {
+      "file": "MAZ543A_Cooling_Master.blend",
+      "parts": 1241,
+      "parametricSpringMeshes": 2,
+      "geometryTopologyMorphProvenanceSha256": "a3d7c1856557dc6cd6907daef139229b5443245375467ac827ea295fde197bbe",
+      "missingUnpackedImages": []
+    },
+    {
+      "file": "MAZ543A_Master.blend",
+      "parts": 1241,
+      "parametricSpringMeshes": 2,
+      "geometryTopologyMorphProvenanceSha256": "a3d7c1856557dc6cd6907daef139229b5443245375467ac827ea295fde197bbe",
+      "missingUnpackedImages": []
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "parts": 1241,
+      "parametricSpringMeshes": 2,
+      "geometryTopologyMorphProvenanceSha256": "a3d7c1856557dc6cd6907daef139229b5443245375467ac827ea295fde197bbe",
+      "missingUnpackedImages": []
+    }
+  ],
+  "passed": true,
+  "scope": "Saved cooling mesh/curve points, mesh faces, morph bases and source provenance parity. Animation checks are separate; no factory dimensional acceptance."
+}
