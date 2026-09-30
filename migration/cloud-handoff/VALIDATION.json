@@ -1,6 +1,5 @@
 {
   "environment": "Isolated migration snapshot on original Windows workstation; cloud Linux runtime not tested",
-  "checkedUTC": "2026-09-30T18:43:00Z",
   "npmCi": "PASS on normal retry after first ECONNRESET; 568 packages installed from retained lockfile",
   "typescriptNoEmit": "PASS, exit 0",
   "productionBuild": "PASS, exit 0; large chunk, experimental glob and route-classification warnings retained",
@@ -30,5 +29,12 @@
     "openGates": 16,
     "userSubjectiveAcceptance": "NOT GIVEN"
   },
-  "manifestDuplicateEntriesRemoved": 2
+  "manifestDuplicateEntriesRemoved": 2,
+  "reportUpdatedUTC": "2026-09-30T19:47:30.939Z",
+  "originalDocumentEncoding": "Four main documents valid UTF-8; 0 replacement characters",
+  "staticActiveImportPathCaseAudit": {
+    "checked": 212,
+    "failures": 0
+  },
+  "originalGitBaselineKnownSecretPatternFindings": 0
 }

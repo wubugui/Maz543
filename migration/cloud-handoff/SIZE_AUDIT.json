@@ -1,122 +1,13 @@
 {
-  "fileCount": 3484,
-  "totalWorkingBytes": 10000025394,
-  "lfsPathCount": 813,
-  "lfsUniqueObjects": 659,
-  "lfsUniqueBytes": 7499403100,
-  "ordinaryUniqueBytes": 55443122,
-  "groups": {
-    "external": {
-      "files": 130,
-      "bytes": 32355329
-    },
-    "migration": {
-      "files": 12,
-      "bytes": 438396
-    },
-    "README.md": {
-      "files": 1,
-      "bytes": 867
-    },
-    "restoration": {
-      "files": 1422,
-      "bytes": 5073611584
-    },
-    "testcar/.gitignore": {
-      "files": 1,
-      "bytes": 397
-    },
-    "testcar/.oxfmtrc.json": {
-      "files": 1,
-      "bytes": 260
-    },
-    "testcar/.oxlintrc.json": {
-      "files": 1,
-      "bytes": 1370
-    },
-    "testcar/AGENT_START_HERE.md": {
-      "files": 1,
-      "bytes": 39140
-    },
-    "testcar/app": {
-      "files": 6,
-      "bytes": 23667
-    },
-    "testcar/components": {
-      "files": 66,
-      "bytes": 320087
-    },
-    "testcar/components.json": {
-      "files": 1,
-      "bytes": 516
-    },
-    "testcar/docs": {
-      "files": 72,
-      "bytes": 471560
-    },
-    "testcar/hooks": {
-      "files": 1,
-      "bytes": 585
-    },
-    "testcar/lib": {
-      "files": 56,
-      "bytes": 424270
-    },
-    "testcar/MIGRATION_DEPENDENCY_AUDIT.md": {
-      "files": 1,
-      "bytes": 57841
-    },
-    "testcar/MIGRATION_HANDOFF.md": {
-      "files": 1,
-      "bytes": 15794
-    },
-    "testcar/next.config.ts": {
-      "files": 1,
-      "bytes": 104
-    },
-    "testcar/NEXT_AGENT_PROMPT.md": {
-      "files": 1,
-      "bytes": 30170
-    },
-    "testcar/outputs": {
-      "files": 695,
-      "bytes": 2239349036
-    },
-    "testcar/package-lock.json": {
-      "files": 1,
-      "bytes": 350283
-    },
-    "testcar/package.json": {
-      "files": 1,
-      "bytes": 1556
-    },
-    "testcar/public": {
-      "files": 27,
-      "bytes": 99108805
-    },
-    "testcar/README.md": {
-      "files": 1,
-      "bytes": 13402
-    },
-    "testcar/scripts": {
-      "files": 343,
-      "bytes": 1383878
-    },
-    "testcar/tsconfig.json": {
-      "files": 1,
-      "bytes": 671
-    },
-    "testcar/types": {
-      "files": 1,
-      "bytes": 129
-    },
-    "testcar/vite.config.ts": {
-      "files": 1,
-      "bytes": 2044
-    },
-    "testcar/work": {
-      "files": 638,
-      "bytes": 2552023653
-    }
-  }
+  "physicalOriginalFiles": 3484,
+  "originalGitBaselineFiles": 100,
+  "fileCount": 3584,
+  "totalWorkingBytes": 10031960439,
+  "physicalSnapshotBytesBeforeEntryAdaptation": 10000025394,
+  "baselineSnapshotBytes": 31933873,
+  "lfsPathCount": 820,
+  "lfsUniqueObjects": 666,
+  "lfsUniqueBytes": 7529826544,
+  "ordinaryUniqueBytes": 55583734,
+  "scope": "Audited original engineering files plus original Git baseline; small migration documents/tools are additional"
 }

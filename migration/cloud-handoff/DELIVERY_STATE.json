@@ -1,17 +1,18 @@
 {
-  "phase": "FULL_AUDITED_SNAPSHOT",
-  "repositorySnapshotComplete": true,
+  "phase": "FULL_AUDITED_SNAPSHOT_AND_ORIGINAL_GIT_BASELINE",
   "migrationComplete": true,
   "remoteDeliveryRequiresMatchingCommit": true,
-  "firstBatchCommit": "571b25bf0b1860e1ccf1abc61eda7e55488e7b13",
-  "includedOriginalFiles": 3484,
-  "includedOriginalBytes": 10000025394,
+  "includedSourceFiles": 3584,
+  "physicalOriginalFiles": 3484,
+  "originalGitBaselineFiles": 100,
+  "includedAuditedPublicBytes": 10031960439,
   "pendingFiles": 0,
   "pendingBytes": 0,
-  "pending": [],
-  "excludedEntries": 1213,
-  "exclusionsAreExplicitAndOriginalsPreserved": true,
-  "allOriginalFileHashesValidated": true,
+  "previousFullSnapshotCommit": "d14c34641ee2ed5c2b1ab93e138727c2b607a83a",
+  "originalLocalCommit": "4b89e61c2c99fe01fa251df1e5de3e3fc54ccfbd",
+  "publicCopyRedactions": 15,
   "all16AcceptanceGates": "OPEN",
-  "newLocalDevelopmentStopped": true
+  "newLocalDevelopmentStopped": true,
+  "cloudDevelopmentIsIndependent": true,
+  "failedR2CandidatePromoted": false
 }
