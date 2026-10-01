@@ -64,6 +64,14 @@ replacement for the production masters or production GLB.
   Fresh actual Cycles renders fit all measured vehicle-envelope corners in the
   image and use the unchanged production Master. They do not depict the cloud
   component candidates as installed.
+- Battery enclosure forms: `testcar/outputs/cloud-12st70-enclosure-20261001/README.md`.
+  The original73 parts are retained exactly; two native fitted forms add the
+  documented pressed-wood overall lid and terminal hood. Generic1983 fig4 does
+  not identify a production variant or provide fastener locations. Initial
+  lid/hood intersection was retained and corrected in this independent study.
+  Current147 new-part pairs have whole-box separation or empty native Boolean
+  intersections; this excludes fasteners, retention and actual removal motion.
+  The two display offsets are not a factory service mechanism. All16 remain OPEN.
 
 ## Verified environment and remaining access limits
 

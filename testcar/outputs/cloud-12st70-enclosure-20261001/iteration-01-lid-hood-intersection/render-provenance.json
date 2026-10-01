@@ -1,0 +1,122 @@
+{
+  "engine": "Actual Cycles CPU,48samples,4threads",
+  "records": [
+    {
+      "file": "enclosure-fitted-forms.png",
+      "part_world_matrices": {
+        "FITTED_pressed_wood_overall_lid": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.23100000619888306
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FITTED_terminal_protective_hood": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.29113122820854187
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.20184600353240967
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "display_offsets_only_not_factory_service_motion": false
+    },
+    {
+      "file": "enclosure-separated-inspection.png",
+      "part_world_matrices": {
+        "FITTED_pressed_wood_overall_lid": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.335999995470047
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "FITTED_terminal_protective_hood": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.3661312162876129
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.20184600353240967
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "display_offsets_only_not_factory_service_motion": true
+    }
+  ],
+  "not_installed_on_vehicle": true
+}

@@ -1,0 +1,22 @@
+{
+  "status": "SOURCE_SUPPORTED_FORMS_WITH_FITTED_DIMENSIONS_NOT_ASSEMBLY_ACCEPTANCE",
+  "source_blend": "outputs/cloud-12st70-structure-20261001/12ST70_Family_Structure_Study.blend",
+  "source_sha256": "8aec227e6f2d562cd2d416e740db67ed7487846f5bb6f69029b62a5be43fa30c",
+  "preserved_old_parts": 73,
+  "new_parts": [
+    "FITTED_pressed_wood_overall_lid",
+    "FITTED_terminal_protective_hood"
+  ],
+  "fitted_parameters_m": {
+    "hood_wall": 0.0015,
+    "hood_internal_clearance": 0.003,
+    "hood_vertical_margin": 0.005,
+    "hood_rear_gap_to_wood": 0.001,
+    "lid_overhang": 0.002,
+    "lid_gap_above_existing_parts": 0.001,
+    "lid_thickness": 0.004
+  },
+  "attachment_unmodeled": true,
+  "generic_figure_cannot_identify_variant": true,
+  "all16VehicleGates": "OPEN"
+}

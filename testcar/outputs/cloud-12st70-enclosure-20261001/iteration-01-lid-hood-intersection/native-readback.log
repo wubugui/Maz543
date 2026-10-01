@@ -1,0 +1,12 @@
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-12st70-structure-20261001/12ST70_Family_Structure_Study.blend"
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-12st70-enclosure-20261001/12ST70_Enclosure_Form_Study.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/verify-12st70-enclosure-study.py", line 64, in <module>
+    assert not uncovered and all(x['status']=='SUFFICIENT_STATIC_DISJOINT_SOLIDS' for x in checks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'testcar/scripts/verify-12st70-enclosure-study.py', exiting.
+
+Blender quit

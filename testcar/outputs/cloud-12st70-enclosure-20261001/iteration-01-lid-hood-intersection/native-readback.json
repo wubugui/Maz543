@@ -1,0 +1,2032 @@
+{
+  "status": "UNACCEPTED_ENCLOSURE_FORM_STUDY",
+  "source_sha256": "8aec227e6f2d562cd2d416e740db67ed7487846f5bb6f69029b62a5be43fa30c",
+  "candidate_sha256": "f5e2ded536f2f1b38a7037882df13ee04c1f1d193f075bc1b5035a3ecfaca58e",
+  "preserved_parts": [
+    {
+      "part": "WOOD_bottom",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "WOOD_long_side_-1",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "WOOD_end_-1",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "WOOD_long_side_1",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "WOOD_end_1",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "EBONITE_block_1_FOUR_CHAMBERS",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "EBONITE_block_2_FOUR_CHAMBERS",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "EBONITE_block_3_FOUR_CHAMBERS",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "STEEL_tie_band_1",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "STEEL_tie_band_2",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_01_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_01_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_01_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_01_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_02_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_02_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_02_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_02_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_03_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_03_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_03_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_03_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_04_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_04_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_04_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_04_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_05_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_05_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_05_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_05_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_06_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_06_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_06_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_06_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_07_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_07_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_07_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_07_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_08_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_08_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_08_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_08_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_09_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_09_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_09_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_09_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_10_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_10_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_10_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_10_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_11_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_11_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_11_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_11_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_12_separate_lid",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_12_negative_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_12_positive_post",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "CELL_12_filler_plug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "SERIES_LINK_01_02",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "SERIES_LINK_02_03",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "SERIES_LINK_03_04",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "SERIES_LINK_04_05",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "SERIES_LINK_05_06",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "SERIES_LINK_06_07",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "SERIES_LINK_07_08",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "SERIES_LINK_08_09",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "SERIES_LINK_09_10",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "SERIES_LINK_10_11",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "SERIES_LINK_11_12",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "FRONT_negative_terminal_lug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "negative_front_lead",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "FRONT_positive_terminal_lug",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    },
+    {
+      "part": "positive_front_lead",
+      "same_vertex_count": true,
+      "same_triangle_indices": true,
+      "max_world_vertex_difference_m": 0.0
+    }
+  ],
+  "new_part_topology": {
+    "FITTED_pressed_wood_overall_lid": {
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 0.0005321891863851618,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    "FITTED_terminal_protective_hood": {
+      "vertices": 192,
+      "triangles": 380,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.5631797912742226e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    }
+  },
+  "hood_covering_piece_boxes_m": [
+    [
+      [
+        -0.2987624406814575,
+        -0.07225000113248825,
+        0.17149998247623444
+      ],
+      [
+        -0.2972622406814575,
+        0.07225000113248825,
+        0.2321920245885849
+      ]
+    ],
+    [
+      [
+        -0.2987624406814575,
+        -0.07225000113248825,
+        0.17149998247623444
+      ],
+      [
+        -0.2835000157356262,
+        -0.07074980113248824,
+        0.2321920245885849
+      ]
+    ],
+    [
+      [
+        -0.2987624406814575,
+        0.07074980113248824,
+        0.17149998247623444
+      ],
+      [
+        -0.2835000157356262,
+        0.07225000113248825,
+        0.2321920245885849
+      ]
+    ]
+  ],
+  "hood_triangles_outside_piece_box_cover": [
+    156,
+    158,
+    159,
+    161,
+    168,
+    170,
+    177,
+    179,
+    180,
+    181,
+    183,
+    190,
+    192,
+    193,
+    194,
+    195,
+    197,
+    198,
+    200,
+    207,
+    340,
+    341,
+    342,
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351
+  ],
+  "new_part_static_pairs": [
+    {
+      "a": "WOOD_bottom",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.2209600017657876
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "WOOD_bottom",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.1634599820962548,
+        0.1634599820962548,
+        0.1634599820962548
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "WOOD_long_side_-1",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.011460000953674316
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "WOOD_long_side_-1",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.03470999964237213,
+        0.03470999964237213,
+        0.1777098019073486
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "WOOD_end_-1",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.011460000953674316
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "WOOD_end_-1",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.014722241873550408,
+        0.0009600169277191162,
+        0.0009600169277191162
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "WOOD_long_side_1",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.011460000953674316
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "WOOD_long_side_1",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.03470999964237213,
+        0.1777098019073486,
+        0.03470999964237213
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "WOOD_end_1",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.011460000953674316
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "WOOD_end_1",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.5717222232769013,
+        0.5579599983310699,
+        0.5579599983310699
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "EBONITE_block_1_FOUR_CHAMBERS",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.022960001907348634
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "EBONITE_block_1_FOUR_CHAMBERS",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0227222282836914,
+        0.008960003337860107,
+        0.008960003337860107
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "EBONITE_block_2_FOUR_CHAMBERS",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.022960001907348634
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "EBONITE_block_2_FOUR_CHAMBERS",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.21105557572345732,
+        0.19729335077762603,
+        0.19729335077762603
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "EBONITE_block_3_FOUR_CHAMBERS",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.022960001907348634
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "EBONITE_block_3_FOUR_CHAMBERS",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.3993889082620621,
+        0.3856266833162308,
+        0.3856266833162308
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "STEEL_tie_band_1",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.009959990463256836
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "STEEL_tie_band_1",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.19805557172994612,
+        0.18429334678411483,
+        0.18429334678411483
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "STEEL_tie_band_2",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.009959990463256836
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "STEEL_tie_band_2",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.3863889042685509,
+        0.3726266793227196,
+        0.3726266793227196
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_01_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_01_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.02482224893074035,
+        0.011060023984909058,
+        0.07130980383853912
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_01_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_01_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.03855557631950378,
+        0.024793351373672487,
+        0.11695980172853469
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_01_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_01_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0825555760810852,
+        0.06879335113525391,
+        0.11695980172853469
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_01_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_01_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.05555556606750488,
+        0.041793341121673586,
+        0.11195980277161598
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_02_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_02_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.10948891829948425,
+        0.09572669335365296,
+        0.09572669335365296
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_02_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_02_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.12322224568824768,
+        0.10946002074241638,
+        0.11695980172853469
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_02_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_02_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.16722224544982908,
+        0.1534600205039978,
+        0.1534600205039978
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_02_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_02_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.14022223543624876,
+        0.12646001049041747,
+        0.12646001049041747
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_03_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_03_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.21315557401876448,
+        0.19939334907293318,
+        0.19939334907293318
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_03_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_03_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.2268889088581085,
+        0.2131266839122772,
+        0.2131266839122772
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_03_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_03_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.27088890861968995,
+        0.25712668367385866,
+        0.25712668367385866
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_03_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_03_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.2438889060566902,
+        0.2301266811108589,
+        0.2301266811108589
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_04_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_04_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.2978222433875084,
+        0.2840600184416771,
+        0.2840600184416771
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_04_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_04_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.31155557357023955,
+        0.29779334862440826,
+        0.29779334862440826
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_04_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_04_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.35555557426314355,
+        0.34179334931731226,
+        0.34179334931731226
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_04_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_04_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.3285555754254341,
+        0.31479335047960283,
+        0.31479335047960283
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_05_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_05_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.40148890655736924,
+        0.38772668161153795,
+        0.38772668161153795
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_05_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_05_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.41522224139671327,
+        0.401460016450882,
+        0.401460016450882
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_05_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_05_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.4592222411582947,
+        0.4454600162124634,
+        0.4454600162124634
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_05_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_05_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.43222223114471436,
+        0.41846000619888307,
+        0.41846000619888307
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_06_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_06_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.48615558337669373,
+        0.47239335843086244,
+        0.47239335843086244
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_06_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_06_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.49988891076545716,
+        0.48612668581962587,
+        0.48612668581962587
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_06_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_06_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.5438888956258774,
+        0.530126670680046,
+        0.530126670680046
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_06_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_06_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.5168889005134583,
+        0.5031266755676269,
+        0.5031266755676269
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_07_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_07_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.48615558337669373,
+        0.47239335843086244,
+        0.47239335843086244
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_07_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_07_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.5438888956258774,
+        0.530126670680046,
+        0.530126670680046
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_07_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_07_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.49988891076545716,
+        0.48612668581962587,
+        0.48612668581962587
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_07_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_07_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.5168889005134583,
+        0.5031266755676269,
+        0.5031266755676269
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_08_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_08_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.40148890655736924,
+        0.38772668161153795,
+        0.38772668161153795
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_08_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_08_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.4592222411582947,
+        0.4454600162124634,
+        0.4454600162124634
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_08_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_08_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.41522224139671327,
+        0.401460016450882,
+        0.401460016450882
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_08_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_08_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.43222223114471436,
+        0.41846000619888307,
+        0.41846000619888307
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_09_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_09_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.2978222433875084,
+        0.2840600184416771,
+        0.2840600184416771
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_09_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_09_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.35555557426314355,
+        0.34179334931731226,
+        0.34179334931731226
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_09_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_09_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.31155557357023955,
+        0.29779334862440826,
+        0.29779334862440826
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_09_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_09_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.3285555754254341,
+        0.31479335047960283,
+        0.31479335047960283
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_10_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_10_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.21315557401876448,
+        0.19939334907293318,
+        0.19939334907293318
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_10_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_10_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.27088890861968995,
+        0.25712668367385866,
+        0.25712668367385866
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_10_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_10_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.2268889088581085,
+        0.2131266839122772,
+        0.2131266839122772
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_10_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_10_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.2438889060566902,
+        0.2301266811108589,
+        0.2301266811108589
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_11_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_11_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.10948891829948425,
+        0.09572669335365296,
+        0.09572669335365296
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_11_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_11_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.16722224544982908,
+        0.1534600205039978,
+        0.1534600205039978
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_11_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_11_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.12322224568824768,
+        0.11695980172853469,
+        0.10946002074241638
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_11_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_11_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.14022223543624876,
+        0.12646001049041747,
+        0.12646001049041747
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_12_separate_lid",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0169599897480011
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_12_separate_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.02482224893074035,
+        0.07130980383853912,
+        0.011060023984909058
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_12_negative_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_12_negative_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0825555760810852,
+        0.11695980172853469,
+        0.06879335113525391
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_12_positive_post",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.007460007748603821
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_12_positive_post",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.03855557631950378,
+        0.11695980172853469,
+        0.024793351373672487
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_12_filler_plug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0009600020265579224
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "CELL_12_filler_plug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.05555556606750488,
+        0.11195980277161598,
+        0.041793341121673586
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_01_02",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.005060011825561523
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_01_02",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.07815363895397186,
+        0.06439141400814057,
+        0.11255980175237655
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_02_03",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.005060011825561523
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_02_03",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.16282030832271574,
+        0.14905808337688445,
+        0.14905808337688445
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_03_04",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.005060011825561523
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_03_04",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.26648697335522176,
+        0.25272474840939047,
+        0.25272474840939047
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_04_05",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.005060011825561523
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_04_05",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.3511536371360302,
+        0.3373914121901989,
+        0.3373914121901989
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_05_06",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.005060011825561523
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_05_06",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.45482030403118134,
+        0.44105807908535005,
+        0.44105807908535005
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_06_07",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.005060011825561523
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_06_07",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.5394888956497192,
+        0.5257266707038879,
+        0.5257266707038879
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_07_08",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.005060011825561523
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_07_08",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.45482030403118134,
+        0.44105807908535005,
+        0.44105807908535005
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_08_09",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.005060011825561523
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_08_09",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.3511536371360302,
+        0.3373914121901989,
+        0.3373914121901989
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_09_10",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.005060011825561523
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_09_10",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.26648697335522176,
+        0.25272474840939047,
+        0.25272474840939047
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_10_11",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.005060011825561523
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_10_11",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.16282030832271574,
+        0.14905808337688445,
+        0.14905808337688445
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_11_12",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.005060011825561523
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "SERIES_LINK_11_12",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.07815363895397186,
+        0.11255980175237655,
+        0.06439141400814057
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "FRONT_negative_terminal_lug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.023459995470047
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "FRONT_negative_terminal_lug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0037222344825744557,
+        0.0029598016689300465,
+        0.10745980482797622
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "negative_front_lead",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0017679727888107299
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "negative_front_lead",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0029598016689300465,
+        0.014459798897314064,
+        0.11895980205636024
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "FRONT_positive_terminal_lug",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.023459995470047
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "FRONT_positive_terminal_lug",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0037222344825744557,
+        0.10745980482797622,
+        0.0029598016689300465
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "positive_front_lead",
+      "b": "FITTED_pressed_wood_overall_lid",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0017679727888107299
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "positive_front_lead",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 0,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.0029598016689300465,
+        0.11895980205636024,
+        0.014459798897314064
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    },
+    {
+      "a": "FITTED_pressed_wood_overall_lid",
+      "b": "FITTED_terminal_protective_hood",
+      "surface_triangle_intersections": 93,
+      "piece_box_gaps_after_20um_expansion_each_m": [
+        0.012722237820434563,
+        -0.0010399871253967286,
+        -0.0010399871253967286
+      ],
+      "status": "UNRESOLVED_OR_INTERSECTING"
+    }
+  ],
+  "modeled_bounds_m": {
+    "min": [
+      -0.2987624406814575,
+      -0.11699999868869781,
+      -0.0015000030398368835
+    ],
+    "max": [
+      0.28450000286102295,
+      0.11699999868869781,
+      0.2330000102519989
+    ],
+    "extent": [
+      0.5832624435424805,
+      0.23399999737739563,
+      0.23450001329183578
+    ]
+  },
+  "source_boundary": "Generic1983 fig4 form; p11 confirms family cover/hood. Factory dimensions, fasteners, retention interaction, carrying hardware, insulation, vehicle installation and actual removal trajectory remain OPEN.",
+  "inspection_offsets_are_not_kinematics": true,
+  "source_images_embedded": false,
+  "all16VehicleGates": "OPEN",
+  "files_unchanged": true
+}
