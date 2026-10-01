@@ -1,5 +1,15 @@
 # Cloud development continuation, through 2026-10-01
 
+2026-10-01 correction: the `b9fb590` cab-panel fit trials used a defective
+vertex-only Separate selection and inadvertently archived all four seat bases.
+The saved second trial has 0 remaining seat-base vertices and 5,400 archived
+vertices instead of the intended 1,800. Its complete-cabin preservation claim
+is withdrawn; its images/contact counts cannot establish an assembly improvement.
+Original production and the independent panel study are unaffected. Preserve the
+old files/backup; corrected trials require per-seat identity, geometry/UV and
+actual render-path checks. See the corrected fit-study README and saved
+`separation-inspection.json`.
+
 The original full migration remains commit
 `4f28bd4618ca7e272f6049b9f615821b8e0bb8f1` on
 `migration/maz543a-20260930`. Subsequent cloud work is on the separate local
@@ -197,3 +207,12 @@ mesh geometry, authored UVs and transforms remain unchanged. Source metadata
 and the fit trials remain unaccepted. No browser asset or production was changed.
 The old steering-column/seat intersections are separately retained in
 `cloud-left-driver-rest-audit-20261001`, not solved by a new instrument layout.
+
+
+Third panel trial restores the exact four seat bases and adds independent
+saved-file identity and ViewLayer/camera eligibility checks (7,708 original
+meshes, 362 study descendants, 248 eligible objects, zero scoped failures).
+Panel installation still has 15 rest surface-intersection pairs. Two actual same-camera seat-base comparison images are now complete and
+inspected. They show the restored front-left base, including the still-failing
+legacy steering-rod intersection. The earlier exit137/no-PNG attempt is retained;
+its cause is not established. No whole-vehicle gate passes.

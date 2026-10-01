@@ -1,0 +1,40 @@
+{
+  "study": "Steering column/wheel axis investigation; no model modification yet",
+  "original_manual": {
+    "url": "https://djvu.online/file/zjMdLY3MFjmTL",
+    "edition": 1977,
+    "pages_inspected": [
+      178,
+      179,
+      180,
+      181
+    ],
+    "facts": [
+      "Steering reducer located below left cab floor",
+      "Column tube welded to reducer mounting bracket",
+      "Input shaft passes inside the tube",
+      "Bevel pair changes transmission direction by 90 degrees"
+    ],
+    "limits": [
+      "Figures do not publish installed column pitch, shaft length, bracket hardpoint or tube bore dimensions"
+    ]
+  },
+  "photograph": {
+    "page": "https://en.volmaz.ru/articles/maz-543.html",
+    "image": "https://en.volmaz.ru/assets/uploads/content_images/012/image012.jpg",
+    "sha256": "a90a0445ecec91c2d7dee05bfdcec95cfdea340652dd18fd930d8a073323545c",
+    "pixels_inspected": true,
+    "observations": [
+      "Two doors with fore-aft seat arrangement",
+      "Steering column and wheel visible beside front seat"
+    ],
+    "hypothesis": "Column appears to rise towards rear of vehicle; apparent direction will be compared to native axes, not treated as a measured pitch",
+    "limits": [
+      "Original photographer, exact chassis variant and date not independently verified",
+      "Uncalibrated oblique photograph; perspective and occlusion matter",
+      "Secondary mixed-variant article cannot establish target MAZ543A original installation"
+    ],
+    "article_context": "Article captions the image generically as MAZ543 cabin before discussing multiple variants; its numerical/history prose is not used as a technical authority."
+  },
+  "proposed_test": "Compare legacy pose to two coaxial hypotheses retaining legacy angle magnitude and bottom height. Record all failures. No factory dimension or final installation acceptance."
+}

@@ -1,0 +1,169 @@
+{
+  "source_sha256": "1427de4198b72f994920173b79feb68d4bd82a04d2d9000d14507b4b16c5c0ff",
+  "study_sha256": "d6a5e8ab83202ac9368acda79fdd41120a62bdce2ebbf23728852d20183beda3",
+  "status": "FITTED_INSTALLATION_CANDIDATE_NOT_ACCEPTED",
+  "file": "MAZ543A_Master.blend",
+  "archived_originals": [
+    "cab_0066",
+    "cab_0067",
+    "cab_0068",
+    "BL_PanelFit_original_dashboard_blocks_retained"
+  ],
+  "old_dashboard_vertices_separated": 1800,
+  "remaining_visible_seat_base_vertices": 3600,
+  "seat_bases_before": [
+    {
+      "legacy_seat_centre": [
+        -4.45,
+        -1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "world_geometry_uv_material_sha256": "cee63bcc7a41e627c17ca9d46526ae62f33b39bb46f9a95be1cd87dcf84d8b2e"
+    },
+    {
+      "legacy_seat_centre": [
+        -4.45,
+        1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "world_geometry_uv_material_sha256": "7aca6974af8355eb60ced88515196415d90d9560a0bf6e8c5190f91708ee2181"
+    },
+    {
+      "legacy_seat_centre": [
+        -3.38,
+        -1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "world_geometry_uv_material_sha256": "c04bbcae8cd19ef5f8bc024590fa06e8f2d7231bd18d8ef938b772ac90127b77"
+    },
+    {
+      "legacy_seat_centre": [
+        -3.38,
+        1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "world_geometry_uv_material_sha256": "ebca4adc96de113e8cd01862ab58745b4d64f3c99b5ecfc388ebae09f538189f"
+    }
+  ],
+  "seat_bases_after": [
+    {
+      "legacy_seat_centre": [
+        -4.45,
+        -1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "world_geometry_uv_material_sha256": "cee63bcc7a41e627c17ca9d46526ae62f33b39bb46f9a95be1cd87dcf84d8b2e"
+    },
+    {
+      "legacy_seat_centre": [
+        -4.45,
+        1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "world_geometry_uv_material_sha256": "7aca6974af8355eb60ced88515196415d90d9560a0bf6e8c5190f91708ee2181"
+    },
+    {
+      "legacy_seat_centre": [
+        -3.38,
+        -1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "world_geometry_uv_material_sha256": "c04bbcae8cd19ef5f8bc024590fa06e8f2d7231bd18d8ef938b772ac90127b77"
+    },
+    {
+      "legacy_seat_centre": [
+        -3.38,
+        1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "world_geometry_uv_material_sha256": "ebca4adc96de113e8cd01862ab58745b4d64f3c99b5ecfc388ebae09f538189f"
+    }
+  ],
+  "unrelated_original_meshes_unchanged": 7708,
+  "placements": [
+    {
+      "root": "LEFT DISPLAY ROOT \u2014 not vehicle datum",
+      "world_matrix": [
+        [
+          0.0,
+          0.14943823218345642,
+          0.9887710809707642,
+          -4.806403636932373
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.024999976158142
+        ],
+        [
+          0.0,
+          0.9887710809707642,
+          -0.14943823218345642,
+          1.9613202810287476
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "anchor_source": "Existing lib/maz543.ts 0.25 m deep dashboard block and tilt; not a factory dimension",
+      "anchor": "rear-face"
+    },
+    {
+      "root": "RIGHT DISPLAY ROOT \u2014 not vehicle datum",
+      "world_matrix": [
+        [
+          0.0,
+          0.14943823218345642,
+          0.9887710809707642,
+          -4.806403636932373
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.024999976158142
+        ],
+        [
+          0.0,
+          0.9887710809707642,
+          -0.14943823218345642,
+          1.9613202810287476
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "anchor_source": "Existing lib/maz543.ts 0.25 m deep dashboard block and tilt; not a factory dimension",
+      "anchor": "rear-face"
+    }
+  ],
+  "source_geometry_or_dimensions_newly_calibrated": false,
+  "factory_mounts_and_installation": "OPEN",
+  "native_rest_clearance": "PENDING_FRESH_READBACK",
+  "existing_steering_column_seat_interference": "NOT_FIXED",
+  "all16VehicleGates": "OPEN",
+  "candidate_sha256": "f708068d0781d79a732ed4e3a0b29e47966d3c79e9e455c8f4281bd3c23037e2"
+}

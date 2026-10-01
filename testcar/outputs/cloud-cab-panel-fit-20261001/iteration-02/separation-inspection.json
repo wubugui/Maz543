@@ -1,0 +1,36 @@
+{
+  "source_sha256": "637eb679d3e86ac0d2e44b166b24b528cc7262c449d967d5635a3faedca0ae02",
+  "records": [
+    {
+      "name": "cab_0064",
+      "vertices": 0,
+      "polygons": 0,
+      "hide_render": false,
+      "bounds": null,
+      "vertices_outside_dashboard_selection": 0
+    },
+    {
+      "name": "BL_PanelFit_original_dashboard_blocks_retained",
+      "vertices": 5400,
+      "polygons": 1800,
+      "hide_render": true,
+      "bounds": [
+        [
+          -5.069287300109863,
+          -3.1500000953674316
+        ],
+        [
+          -1.3899999856948853,
+          1.3899999856948853
+        ],
+        [
+          1.475000023841858,
+          2.1234841346740723
+        ]
+      ],
+      "vertices_outside_dashboard_selection": 3600
+    }
+  ],
+  "expected_archived_dashboard_vertices": 1800,
+  "saved_file_unchanged": true
+}

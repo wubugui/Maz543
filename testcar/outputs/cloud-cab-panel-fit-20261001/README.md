@@ -1,3 +1,21 @@
+# Correction: prior fit trials omit visible seat bases
+
+The saved second trial was independently inspected after its initial report.
+The remaining `cab_0064` object has zero vertices, while the hidden archive has
+5,400 vertices. Only 1,800 dashboard-block vertices were intended to be archived;
+the extra 3,600 vertices are the four seat bases. Stale edge/face selection survived
+the vertex-only selection setup. The total-face conservation check did not detect
+this semantic partition error. The first trial was subsequently inspected too and has the same 0 / 5,400 partition error.
+
+The earlier claim below that the seat bases remained visible is withdrawn. Neither
+the images nor collision counts establish complete-cabin preservation or an
+assembly improvement. Original files, reports and the already saved b9fb590 backup
+remain retained. Corrected builds must verify the exact selected partition, each
+seat base's world geometry/UV/material identity, and its actual render-visible path.
+No wall or seat may be removed to reduce interference.
+
+## Historical report, superseded where noted
+
 # Cab-panel installation trials: not accepted
 
 These two independent native trials place the source-traced panel study in the
@@ -72,3 +90,43 @@ placement; `--anchor rear-face` reproduces the second. Then run
 `readback-cab-panel-fit-candidate.py --input` on the saved file in a new verified
 Blender 4.5.13 process. Keep failed outputs. Neither command writes a production
 path, exports a browser asset or publishes a website.
+
+## Corrected third trial
+
+`iteration-03` resets vertex, edge and face selection coherently before Separate.
+Fresh saved-file inspection confirms exactly 1,800 archived dashboard vertices
+and 3,600 visible seat-base vertices. All four seat bases independently match the
+original source: 900 vertices and 300 faces each, with identical world geometry,
+authored UVs and material identity. Each has a live render-visible scene path.
+The 247 new solids and 57 plate openings retain the scoped structure checks.
+The 15 panel-to-existing rest surface intersection pairs remain, and the reader
+still exits 2. This fixes preservation only, not the installation failure.
+
+
+The additional `MAZ543A_Master.identity.json` reopens the source vehicle, original
+study and saved third trial. It checks 7,708 unrelated original meshes, 362 source
+study descendants and 248 primary-camera-eligible objects, with no failures.
+Source descendant checks include authored geometry/UVs, material-slot identity,
+parentage, modifier parameters and fitted relative/world transforms. Eligibility
+checks every enabled ViewLayer, collection exclusion/holdout/indirect flags,
+object camera visibility and object holdout/indirect status. All four seat bases
+share the preserved cab_0064 mesh. Eligibility is not proof of unoccluded or
+opaque image pixels. Material shader node contents, custom normals and unlisted
+attributes are not covered by this identity check.
+
+The older readback's `matches_source_and_render_visible` field checks only the
+Object/Scene Collection render path. Its label overstates its scope; use the
+separate identity report for ViewLayer and primary-ray eligibility. Existing
+reports remain unchanged as historical evidence.
+
+
+Two independent Cycles processes completed the same-camera footwell comparison
+in `preservation-comparison-recovery/`. The actual pixels show the missing front
+left seat base in trial02 and its restoration in trial03. No extra body object
+was hidden for these images. The other three seat bases are source-matched and
+camera-eligible, but are not claimed visibly demonstrated by this single view.
+The old steering rod visibly intersects the restored base and remains an open
+legacy installation defect. This comparison certifies neither accurate seat
+construction nor steering geometry. Both use CPU2, 32 samples, identical bounded
+bounce settings and no denoising; these are inspection images, not material
+acceptance. The earlier exit137/no-PNG attempt remains in `preservation-comparison`.

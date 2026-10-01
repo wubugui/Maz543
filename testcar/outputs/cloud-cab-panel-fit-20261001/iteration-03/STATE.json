@@ -1,0 +1,26 @@
+{
+  "status": "SELECTION_PRESERVATION_FIXED_INSTALLATION_STILL_FAILED",
+  "source": "Previous left-driver Master, not the invalid b9 fit model",
+  "new_master_sha256": "f708068d0781d79a732ed4e3a0b29e47966d3c79e9e455c8f4281bd3c23037e2",
+  "actual_archived_dashboard_vertices": 1800,
+  "actual_remaining_visible_seat_base_vertices": 3600,
+  "individually_source_matched_render_visible_seat_bases": 4,
+  "seat_world_geometry_uv_material_unchanged": true,
+  "new_panel_closed_solids": 247,
+  "real_plate_holes": 57,
+  "panel_to_existing_rest_surface_intersection_pairs": 15,
+  "readback_exit_code": 2,
+  "visual_comparison": "Two actual same-camera Cycles renders inspected: front-left seat base absent in invalid trial02 and present in corrected03. Other three bases verified numerically, not claimed visible in this frame.",
+  "factory_dimensions_mounts_and_complete_clearance": "OPEN",
+  "production_changed": false,
+  "all16VehicleGates": "OPEN",
+  "primary_camera_eligibility": "PASS across enabled ViewLayers, collection flags and camera/holdout/indirect flags; does not imply unoccluded pixels",
+  "saved_source_identity_check": {
+    "old_meshes": 7708,
+    "study_descendants": 362,
+    "camera_eligible_objects": 248,
+    "failures": 0,
+    "report": "MAZ543A_Master.identity.json"
+  },
+  "identity_limits": "Material shader node contents, custom normals and unlisted attributes are not certified"
+}

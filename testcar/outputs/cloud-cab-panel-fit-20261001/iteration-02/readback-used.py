@@ -40,28 +40,6 @@ hidden=[]
 for name in build['archived_originals']:
  o=bpy.data.objects[name];hidden.append({'name':name,'exists':True,'hide_render':o.hide_render})
  if not o.hide_render:fail.append({'object':name,'failure':'superseded proxy still rendered'})
-seat_object=bpy.data.objects['cab_0064']
-archived_dashboard=bpy.data.objects['BL_PanelFit_original_dashboard_blocks_retained']
-def render_path_visible(obj,collection,blocked=False):
- blocked=blocked or collection.hide_render
- if not blocked and obj.name in collection.objects:return not obj.hide_render
- return any(render_path_visible(obj,c,blocked) for c in collection.children)
-seat_visibility=render_path_visible(seat_object,bpy.context.scene.collection)
-seat_records=[]
-if len(seat_object.data.vertices)!=3600 or len(archived_dashboard.data.vertices)!=1800 or not seat_visibility:
- fail.append({'failure':'semantic dashboard/seat partition or actual render path','remaining_seat_vertices':len(seat_object.data.vertices),'archived_vertices':len(archived_dashboard.data.vertices),'seat_render_path_visible':seat_visibility})
-for expected in build.get('seat_bases_before',[]):
- m=seat_object.data;x,y,z=expected['legacy_seat_centre']
- ids={v.index for v in m.vertices if all(abs((seat_object.matrix_world@v.co)[k]-c)<=r+3e-6 for k,c,r in [(0,x,.23),(1,y,.23),(2,z,.125)])}
- polys=[p for p in m.polygons if set(p.vertices)<=ids];data=[]
- for p in polys:
-  corners=[tuple(seat_object.matrix_world@m.vertices[m.loops[i].vertex_index].co)+tuple(v for uv in m.uv_layers for v in uv.uv[i].vector) for i in p.loop_indices]
-  data.append((m.materials[p.material_index].name,min(tuple(corners[i:]+corners[:i]) for i in range(len(corners)))))
- digest=hashlib.sha256(json.dumps(sorted(data),separators=(',',':')).encode()).hexdigest()
- ok=len(ids)==900 and len(polys)==300 and digest==expected['world_geometry_uv_material_sha256'] and seat_visibility
- seat_records.append({'legacy_seat_centre':[x,y,z],'vertices':len(ids),'faces':len(polys),'world_geometry_uv_material_sha256':digest,'matches_source_and_render_visible':ok})
- if not ok:fail.append({'failure':'individual seat-base source correspondence','centre':[x,y,z]})
-if len(seat_records)!=4:fail.append({'failure':'four independently identified seat bases required'})
 all_imported=set()
 for name in ['LEFT DISPLAY ROOT — not vehicle datum','RIGHT DISPLAY ROOT — not vehicle datum']:
  root=bpy.data.objects[name];all_imported.add(root.name);all_imported.update(x.name for x in root.children_recursive)
@@ -77,7 +55,7 @@ for o in bpy.context.scene.objects:
   pairs+=1;hits=solids[name][0].overlap(fixed)
   if hits:overlaps.append({'panel_part':name,'existing_part':o.name,'triangle_pairs':len(hits),'sample_pairs':hits[:5]})
 assert hashlib.sha256(path.read_bytes()).hexdigest()==build['candidate_sha256']
-r={'candidate_sha256':build['candidate_sha256'],'fresh_open':True,'native_structure_failures':fail,'new_solids':rows,'plate_holes':holes,'retained_superseded_proxies':hidden,'seat_base_semantic_preservation':seat_records,'seat_base_render_path_visible':seat_visibility,'panel_to_existing_object_flag_visible_rest_surface_pairs_checked':pairs,'fixed_objects_in_narrow_phase':fixed_count,'panel_to_existing_rest_surface_intersections':overlaps,'status':'STRUCTURE_FAIL' if fail else ('REST_SURFACE_INTERFERENCE_OPEN' if overlaps else 'SCOPED_STRUCTURE_PASS_REST_SURFACE_TEST_NO_HITS'),'limits':['Fitted placement and dimensions, no source hardpoint calibration','No full-containment or continuous swept-volume test','Old steering/seat interference remains unresolved','Not full visual or vehicle acceptance'],'all16VehicleGates':'OPEN'}
+r={'candidate_sha256':build['candidate_sha256'],'fresh_open':True,'native_structure_failures':fail,'new_solids':rows,'plate_holes':holes,'retained_superseded_proxies':hidden,'panel_to_existing_object_flag_visible_rest_surface_pairs_checked':pairs,'fixed_objects_in_narrow_phase':fixed_count,'panel_to_existing_rest_surface_intersections':overlaps,'status':'STRUCTURE_FAIL' if fail else ('REST_SURFACE_INTERFERENCE_OPEN' if overlaps else 'SCOPED_STRUCTURE_PASS_REST_SURFACE_TEST_NO_HITS'),'limits':['Fitted placement and dimensions, no source hardpoint calibration','No full-containment or continuous swept-volume test','Old steering/seat interference remains unresolved','Not full visual or vehicle acceptance'],'all16VehicleGates':'OPEN'}
 path.with_suffix('.readback.json').write_text(json.dumps(r,indent=2)+'\n')
 print('PANEL_FIT_READBACK',len(rows),len(holes),'structure_failures',len(fail),'rest_surface_interference_pairs',len(overlaps),flush=True)
 if fail:raise SystemExit(1)

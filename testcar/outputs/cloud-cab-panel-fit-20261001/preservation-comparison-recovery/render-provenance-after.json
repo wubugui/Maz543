@@ -1,0 +1,42 @@
+[
+  {
+    "file": "native-seat-base-after-selection-fix.png",
+    "bytes": 1225567,
+    "sha256": "fa962e635d1ab8d684c59bf7ca0bca38f3e57631dcd052d3b2114282456b0172",
+    "source_sha256": "f708068d0781d79a732ed4e3a0b29e47966d3c79e9e455c8f4281bd3c23037e2",
+    "source_trial": "iteration-03",
+    "remaining_visible_seat_base_vertices": 3600,
+    "camera_world": [
+      [
+        0.5144957900047302,
+        1.0247839554722304e-07,
+        -0.8574929237365723,
+        -4.949999809265137
+      ],
+      [
+        -0.8574929237365723,
+        -2.405578314323975e-08,
+        -0.5144957900047302,
+        -1.3250000476837158
+      ],
+      [
+        -7.33523677354242e-08,
+        1.0,
+        7.549790126404332e-08,
+        1.600000023841858
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "renderer": "Cycles CPU2threads32samples no denoise, max bounces4 glossy2 transmission4 transparent4",
+    "view": "Inside left front footwell, aimed at front seat base; other seat bases are verified by source hashes and render paths, not claimed visible in this image",
+    "additional_geometry_hidden_for_image": false,
+    "source_file_changed": false,
+    "panel_installation": "STILL FAILED / 15 rest surface pairs",
+    "all16VehicleGates": "OPEN"
+  }
+]
