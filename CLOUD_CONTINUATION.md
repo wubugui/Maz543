@@ -337,3 +337,12 @@ about the wheel's local axis across721 synthetic actual-loop states, while480
 legacy states and30 selector cases pass. TypeScript/build pass. No real browser
 validation is claimed. Existing installation failures, fitted dimensions, source
 caption conflict and all16 vehicle gates remain OPEN.
+
+Follow-up `work/cloud-va180-uv-20261001` now checks the two inherited re-encoded
+meshes' actual native triangle-corner UVs against decoded Draco data. All1200
+seat-base and96 column triangles have a bijective position+UV/winding match;
+maximum UV-coordinate errors0.0000893511/0.0001221895 fit the declared12-bit
+quantization allowance. UV seams are not averaged or wrapped. Four synthetic
+controls cover cyclic reorder and rejected position/UV/winding corruption. This
+narrows the earlier UV transport uncertainty only; rendered-pixel equality and
+actual browser validation remain unverified. No geometry changes, all16 OPEN.
