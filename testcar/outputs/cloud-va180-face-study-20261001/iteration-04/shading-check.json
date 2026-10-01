@@ -1,0 +1,47 @@
+{
+  "scope": "Source builder changed only cylinder side polygon smoothing; camera rendering additionally enables native OIDN",
+  "all10_evaluated_counts_signed_volumes_euler_equal_to_iteration03": true,
+  "objects": [
+    {
+      "object": "CASE \u2014 fitted hollow cylindrical envelope",
+      "same_counts_volume_euler": true
+    },
+    {
+      "object": "FRONT \u2014 opaque lower mask and upper opening",
+      "same_counts_volume_euler": true
+    },
+    {
+      "object": "GLASS \u2014 separate fitted flat cover",
+      "same_counts_volume_euler": true
+    },
+    {
+      "object": "DIAL \u2014 backing beneath real window",
+      "same_counts_volume_euler": true
+    },
+    {
+      "object": "ZERO CORRECTOR \u2014 slotted front head",
+      "same_counts_volume_euler": true
+    },
+    {
+      "object": "ZERO CORRECTOR \u2014 retained separate shank",
+      "same_counts_volume_euler": true
+    },
+    {
+      "object": "BUTTON \u2014 stationary hollow sleeve",
+      "same_counts_volume_euler": true
+    },
+    {
+      "object": "BUTTON \u2014 movable stem",
+      "same_counts_volume_euler": true
+    },
+    {
+      "object": "BUTTON \u2014 movable cap",
+      "same_counts_volume_euler": true
+    },
+    {
+      "object": "POINTER \u2014 fitted photo pose, not a measured value",
+      "same_counts_volume_euler": true
+    }
+  ],
+  "limits": "Not a complete arbitrary-attribute or per-vertex equivalence proof; all metric inputs remain explicitly fitted"
+}

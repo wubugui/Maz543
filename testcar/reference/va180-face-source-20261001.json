@@ -1,0 +1,56 @@
+{
+  "study": "VA180 independent front-face study; not installed",
+  "manual": {
+    "url": "https://djvu.online/file/zjMdLY3MFjmTL",
+    "edition": 1977,
+    "facts": [
+      "VA180 is named for the target instrument inventory",
+      "Metal case; front zero-adjustment screw beside pushbutton",
+      "Press button to measure battery/generator voltage; release to indicate current",
+      "Engine stopped with consumers active: discharge current; generator working: charge current"
+    ],
+    "numeric_scale_or_geometry_claim": "No scale endpoints, tick angles, front dimensions or pushbutton travel adopted from this passage"
+  },
+  "photo_page": "https://zapadpribor.com/va-180/",
+  "photos": [
+    {
+      "url": "https://zapadpribor.com/static/images/catalog/8330/800x600/va-180-photo-1.jpg",
+      "sha256": "25d57abdc98c22944b0b453c4a2eb8dc9d0e2e71bb25b7f95e53649221822c80",
+      "pixels_inspected": true,
+      "role": "Firsthand seller product photograph, not manufacturer dimensional drawing",
+      "redistributed": false
+    },
+    {
+      "url": "https://zapadpribor.com/static/images/catalog/8330/800x600/va-180-photo-2.jpg",
+      "sha256": "52e54b0909296925a8119a7050d87563c5ed1458090c9019206b900e32f7bf52",
+      "pixels_inspected": true,
+      "role": "Firsthand seller product photograph, not manufacturer dimensional drawing",
+      "redistributed": false
+    },
+    {
+      "url": "https://zapadpribor.com/static/images/catalog/8330/800x600/va-180-photo-3.jpg",
+      "sha256": "c0e323ddf241c1d686fd665a330c40c4405685abe2267c556fc2f8a58f11a944",
+      "pixels_inspected": true,
+      "role": "Firsthand seller product photograph, not manufacturer dimensional drawing",
+      "redistributed": false
+    }
+  ],
+  "observations": [
+    "Rounded/circular front body with upper dark curved display window and lower opaque face region",
+    "Visible white current numerals in left-to-right order60,0,60,120,180 and letterA; first60 has no reliably readable sign",
+    "A separate warmer-color upper scale exists, but exact character sequence and minor ticks are not yet reliably transcribed from available photograph",
+    "Front correction screw left of a lower protruding pushbutton; Cyrillic push instruction visible",
+    "Side photo shows cylindrical case; rear photo shows circular connector and a separate mounting ring/shunt, not represented by a generic pair of rear terminals"
+  ],
+  "limits": [
+    "Unknown manufacturing date and target543A batch compatibility",
+    "Oblique small product photographs are not dimensional calibration",
+    "Supplier text60x93.5mm and15A/2.5V increments are not adopted as manufacturer-certified evidence",
+    "Only clearly readable characters will be reproduced; unresolved minor ticks/voltage marks omitted rather than invented",
+    "Metric dimensions, glyph font, window contour, pointer angle and1mm button review travel remain fitted",
+    "No internal coil/spring or electrical simulation is established",
+    "Photographs alone do not establish full face section architecture; separate opaque cover/flat window/restricted backing is a study construction hypothesis"
+  ],
+  "plan": "Build an independent native-curve/Boolean front-face study with actual upper window, distinct glass, opaque lower plate, clearly observed current labels, separate correction screw and pushbutton. Preserve source curves; do not load photo texture or modify existing panel/vehicle.",
+  "all16VehicleGates": "OPEN"
+}

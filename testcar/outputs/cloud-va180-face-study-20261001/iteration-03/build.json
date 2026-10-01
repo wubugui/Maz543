@@ -1,0 +1,120 @@
+{
+  "status": "INDEPENDENT_PARTIAL_PHOTO_FORM_STUDY",
+  "model_sha256": "b08cb90716e38a7193960a211bf67af55196cc190b7e276b32bc0ae3ffd8c5f3",
+  "reference_registry": "reference/va180-face-source-20261001.json",
+  "closed_solids": [
+    "CASE — fitted hollow cylindrical envelope",
+    "FRONT — opaque lower mask and upper opening",
+    "GLASS — separate fitted flat cover",
+    "DIAL — backing beneath real window",
+    "ZERO CORRECTOR — slotted front head",
+    "ZERO CORRECTOR — retained separate shank",
+    "BUTTON — stationary hollow sleeve",
+    "BUTTON — movable stem",
+    "BUTTON — movable cap",
+    "POINTER — fitted photo pose, not a measured value"
+  ],
+  "editable_contours": [
+    "WINDOW through-cut tool EDITABLE SOURCE",
+    "GLASS — separate fitted flat cover EDITABLE SOURCE",
+    "DIAL — backing beneath real window EDITABLE SOURCE"
+  ],
+  "readable_marks": [
+    {
+      "object": "OBSERVED A scale label 0",
+      "text": "60",
+      "location": [
+        -0.028,
+        0.009,
+        -0.00275
+      ]
+    },
+    {
+      "object": "OBSERVED A scale label 1",
+      "text": "0",
+      "location": [
+        -0.012,
+        0.024,
+        -0.00275
+      ]
+    },
+    {
+      "object": "OBSERVED A scale label 2",
+      "text": "60",
+      "location": [
+        0.005,
+        0.021,
+        -0.00275
+      ]
+    },
+    {
+      "object": "OBSERVED A scale label 3",
+      "text": "120",
+      "location": [
+        0.019,
+        0.015,
+        -0.00275
+      ]
+    },
+    {
+      "object": "OBSERVED A scale label 4",
+      "text": "180",
+      "location": [
+        0.029,
+        0.006,
+        -0.00275
+      ]
+    },
+    {
+      "object": "OBSERVED current unit",
+      "text": "A",
+      "location": [
+        0.001,
+        0.01,
+        -0.00275
+      ]
+    },
+    {
+      "object": "OBSERVED push instruction",
+      "text": "Нажать",
+      "location": [
+        0.013,
+        -0.023,
+        0.0017
+      ]
+    }
+  ],
+  "omitted_uncertain_marks": [
+    "all minor tick counts/positions",
+    "upper voltage numerals/ticks",
+    "unreadable signs and manufacturer details"
+  ],
+  "button_review_travel_mm": [
+    0,
+    1
+  ],
+  "button_pressed_centres": [
+    [
+      0.010400000028312206,
+      -0.032999999821186066,
+      0.0
+    ],
+    [
+      0.010400000028312206,
+      -0.032999999821186066,
+      0.007999999448657036
+    ]
+  ],
+  "physical_dimensions": "ALL_FITTED",
+  "packed_font": "DejaVu Sans, fitted typography; full license embedded and adjacent",
+  "source_pixels_loaded": false,
+  "factory_match": "UNVERIFIED",
+  "installed_in_vehicle": false,
+  "limits": [
+    "Not complete VA180 marking/calibration reproduction",
+    "No coils, springs, shunt, rear connector or clamp modeled",
+    "Flat glass and casing envelope are fitted",
+    "Button review travel is not original mechanism stroke"
+  ],
+  "all16VehicleGates": "OPEN"
+}

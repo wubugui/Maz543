@@ -13,8 +13,8 @@ actual render-path checks. See the corrected fit-study README and saved
 The original full migration remains commit
 `4f28bd4618ca7e272f6049b9f615821b8e0bb8f1` on
 `migration/maz543a-20260930`. Subsequent cloud work is on the separate local
-branch `development/cloud-maz543a-20260930`. These local development commits
-have **not been confirmed pushed**. Keep the original migration history and
+branch `development/cloud-maz543a-20260930`. Development commits through `63fe135bf1b1c9237c6158519fb77203a9f9a6be`
+have now been published by normal Git/LFS push and independently verified. Keep the original migration history and
 all failed candidates. All 16 whole-vehicle acceptance gates remain OPEN.
 
 ## Production still unchanged
@@ -236,3 +236,41 @@ remain failed; reader exits2. Two actual native Master inspection images (matche
 have been rendered and inspected; blank gauges and prototype materials remain
 unaccepted. No production or
 browser changes. All16 gates remain OPEN.
+
+
+Checkpoint `63fe135bf1b1c9237c6158519fb77203a9f9a6be` and its complete
+increment after8cb82c9 are externally saved. The official single-archive route
+and whole-file readback succeeded, including all3 new LFS payload SHA checks.
+Recovery chain now ends `... -> b9fb590 -> 8cb82c9 -> 63fe135`. Begin future
+increments after63fe135. Desktop sync/GitHub push remain unconfirmed.
+
+
+In-progress independent VA180 front study: `cloud-va180-face-study-20261001`.
+Original1977 operation paragraph plus three inspected firsthand product photos
+support a curved upper display, opaque lower cover, correction screw and
+independent pushbutton. Unknown manufacturer/batch dimensions, font, button
+stroke and minor/voltage markings are not claimed calibrated. Root trial and
+iteration02 retain backing/control and backing/case contact failures. Iteration03
+has10 closed study solids,3 actual openings,45 scoped rest pairs with no unexpected
+intersections, and sampled independent button return. Its two native images were
+inspected; side-face shading is being refined in iteration04. No vehicle/panel
+installation or production change, all16 OPEN. Latest externally saved checkpoint
+remains63fe135 until this new study has been committed and fully archived.
+
+
+## Verified GitHub publication, 2026-10-01
+
+Normal non-force push published `63fe135bf1b1c9237c6158519fb77203a9f9a6be` to
+`development/cloud-maz543a-20260930`. Independent remote ref and GitHub commit/tree
+reads match root tree `7255a6709fa28f2c58c59340cb200a64caf0317e`; migration remains
+`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`. All91 newly reachable LFS objects
+(1,838,047,263 bytes) completed standard Git LFS upload/existence confirmation.
+Four representative production/candidate Master and GLB entities were freshly
+downloaded by official Git LFS into an initially empty separate store; all four
+byte counts and SHA256 values matched (171,551,481 bytes). The remaining87 were
+not individually re-downloaded. The first scan failure is retained; normal Git
+metadata refetch resolved it before successful remote retrieval.
+
+The user's latest workflow is cloud development -> normal GitHub push -> stage
+Slack report. Desktop synchronization is cancelled. Historical Library backups
+remain retained. No production asset was promoted, and all16 gates remain OPEN.

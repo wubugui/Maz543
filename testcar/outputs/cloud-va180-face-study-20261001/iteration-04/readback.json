@@ -1,0 +1,158 @@
+{
+  "source_sha256": "5f22280d7f2f9f56ec06ae333a4e46f9632860b534ad540a9bda6bae1223d670",
+  "fresh_open": true,
+  "physical_solids": [
+    {
+      "name": "CASE \u2014 fitted hollow cylindrical envelope",
+      "vertices": 1536,
+      "triangles": 3068,
+      "closed": true,
+      "finite": true,
+      "signed_volume_m3": 3.172431046801088e-05,
+      "euler": 2,
+      "hide_render": false
+    },
+    {
+      "name": "FRONT \u2014 opaque lower mask and upper opening",
+      "vertices": 3980,
+      "triangles": 7968,
+      "closed": true,
+      "finite": true,
+      "signed_volume_m3": 9.69782627640538e-06,
+      "euler": -4,
+      "hide_render": false
+    },
+    {
+      "name": "GLASS \u2014 separate fitted flat cover",
+      "vertices": 1664,
+      "triangles": 3324,
+      "closed": true,
+      "finite": true,
+      "signed_volume_m3": 1.8786852142692354e-06,
+      "euler": 2,
+      "hide_render": false
+    },
+    {
+      "name": "DIAL \u2014 backing beneath real window",
+      "vertices": 2544,
+      "triangles": 5084,
+      "closed": true,
+      "finite": true,
+      "signed_volume_m3": 1.6092050511135e-06,
+      "euler": 2,
+      "hide_render": false
+    },
+    {
+      "name": "ZERO CORRECTOR \u2014 slotted front head",
+      "vertices": 864,
+      "triangles": 1724,
+      "closed": true,
+      "finite": true,
+      "signed_volume_m3": 3.667850785879741e-08,
+      "euler": 2,
+      "hide_render": false
+    },
+    {
+      "name": "ZERO CORRECTOR \u2014 retained separate shank",
+      "vertices": 768,
+      "triangles": 1532,
+      "closed": true,
+      "finite": true,
+      "signed_volume_m3": 8.017236475966005e-08,
+      "euler": 2,
+      "hide_render": false
+    },
+    {
+      "name": "BUTTON \u2014 stationary hollow sleeve",
+      "vertices": 1536,
+      "triangles": 3072,
+      "closed": true,
+      "finite": true,
+      "signed_volume_m3": 2.814803094761588e-07,
+      "euler": 0,
+      "hide_render": false
+    },
+    {
+      "name": "BUTTON \u2014 movable stem",
+      "vertices": 768,
+      "triangles": 1532,
+      "closed": true,
+      "finite": true,
+      "signed_volume_m3": 1.755583537165273e-07,
+      "euler": 2,
+      "hide_render": false
+    },
+    {
+      "name": "BUTTON \u2014 movable cap",
+      "vertices": 768,
+      "triangles": 1532,
+      "closed": true,
+      "finite": true,
+      "signed_volume_m3": 1.44742289731112e-07,
+      "euler": 2,
+      "hide_render": false
+    },
+    {
+      "name": "POINTER \u2014 fitted photo pose, not a measured value",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume_m3": 6.0353273327772204e-09,
+      "euler": 2,
+      "hide_render": false
+    }
+  ],
+  "front_openings": [
+    {
+      "name": "upper_window",
+      "front_plate_ray_clear": true
+    },
+    {
+      "name": "button_hole",
+      "front_plate_ray_clear": true
+    },
+    {
+      "name": "correction_hole",
+      "front_plate_ray_clear": true
+    }
+  ],
+  "disabled_boolean_negative_controls": [
+    true,
+    true,
+    true
+  ],
+  "button_review_poses": [
+    {
+      "review_press_mm": 0,
+      "max_matrix_error": 0.0,
+      "all_other_object_matrices_unchanged": true
+    },
+    {
+      "review_press_mm": 0.5,
+      "max_matrix_error": 0.0,
+      "all_other_object_matrices_unchanged": true
+    },
+    {
+      "review_press_mm": 1,
+      "max_matrix_error": 4.7497450417210985e-11,
+      "all_other_object_matrices_unchanged": true
+    },
+    {
+      "review_press_mm": 0,
+      "max_matrix_error": 0.0,
+      "all_other_object_matrices_unchanged": true
+    }
+  ],
+  "readable_marks_checked": 7,
+  "failures": [],
+  "status": "PARTIAL_STRUCTURAL_CHECK_PASS",
+  "limits": [
+    "No real instrument metrology or electrical calibration",
+    "Minor ticks and voltage markings omitted as unreadable",
+    "Button travel is fitted and sampled, not a continuous mechanism/clearance proof",
+    "No rear clamp, connector, shunt or internal mechanism acceptance",
+    "Not installed or accepted for the vehicle"
+  ],
+  "all16VehicleGates": "OPEN"
+}
