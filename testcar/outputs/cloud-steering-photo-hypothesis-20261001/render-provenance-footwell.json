@@ -1,0 +1,39 @@
+{
+  "file": "native-steering-photo-hypothesis-footwell.png",
+  "bytes": 1234291,
+  "sha256": "df81f6578818ed1d322d031592a589b75fadf727e981240f19f2cfb90f7b17b7",
+  "source_sha256": "ba622e6dad9a74b7ee39058d1ca88b6f75fd85bd3923ab0629b87e812c9b7864",
+  "camera_world": [
+    [
+      0.5144957900047302,
+      1.0247839554722304e-07,
+      -0.8574929237365723,
+      -4.949999809265137
+    ],
+    [
+      -0.8574929237365723,
+      -2.405578314323975e-08,
+      -0.5144957900047302,
+      -1.3250000476837158
+    ],
+    [
+      -7.33523677354242e-08,
+      1.0,
+      7.549790126404332e-08,
+      1.600000023841858
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "renderer": "Cycles CPU2threads32samples no denoise, max bounces4 glossy2 transmission4 transparent4",
+  "comparison": "Same camera and lighting as cloud-cab-panel-fit-20261001/preservation-comparison-recovery; compare its after-selection-fix image",
+  "all_seat_bases_retained": true,
+  "additional_geometry_hidden_for_image": false,
+  "source_file_changed": false,
+  "installation": "FAILED: one scoped steering/cushion and two separate panel/wall object pairs",
+  "all16VehicleGates": "OPEN"
+}

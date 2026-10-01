@@ -1,0 +1,39 @@
+{
+  "file": "native-steering-photo-hypothesis-cab.png",
+  "bytes": 2268233,
+  "sha256": "92ac6ae3eddfb386e29002032a62a8ef92cddb50d4f9f1ee657128c57119cb3c",
+  "source_sha256": "ba622e6dad9a74b7ee39058d1ca88b6f75fd85bd3923ab0629b87e812c9b7864",
+  "camera_world": [
+    [
+      -1.6292068494294654e-07,
+      -0.6401841044425964,
+      0.7682215571403503,
+      -4.400000095367432
+    ],
+    [
+      1.0,
+      -1.904084854231769e-07,
+      5.34015143216493e-08,
+      -1.024999976158142
+    ],
+    [
+      1.1208910422055851e-07,
+      0.7682215571403503,
+      0.6401841044425964,
+      2.319999933242798
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "renderer": "Cycles CPU2threads32samples no denoise, max bounces4 glossy2 transmission4 transparent4",
+  "comparison": "General left-cab view; not a matched before/after photometric comparison",
+  "all_seat_bases_retained": true,
+  "additional_geometry_hidden_for_image": false,
+  "source_file_changed": false,
+  "installation": "FAILED: one scoped steering/cushion and two separate panel/wall object pairs",
+  "all16VehicleGates": "OPEN"
+}

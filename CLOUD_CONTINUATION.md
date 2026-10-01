@@ -232,5 +232,7 @@ whole wheel/column coaxial. It preserves the old wheel centre, angle magnitude
 and column bottom Z as FITTED; bottom X and length are refitted, not factory
 mounts. Fresh readback retains all10,405 objects and four seat bases in the stated
 identity scope. One column/cushion and two unchanged panel/wall object pairs
-remain failed; reader exits2. Actual render review is pending. No production or
+remain failed; reader exits2. Two actual native Master inspection images (matched footwell and left-cab overview)
+have been rendered and inspected; blank gauges and prototype materials remain
+unaccepted. No production or
 browser changes. All16 gates remain OPEN.

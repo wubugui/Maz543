@@ -37,3 +37,16 @@ Production and browser assets are unchanged. All16 whole-vehicle gates are OPEN.
 Source URLs, attribution, variant limits and independent pixel review are in
 reference/steering-column-source-20261001.json; source photo pixels are not
 redistributed in this repository or packed into the blend.
+
+The retained seats, pedals and floor-side lever are still simplified legacy
+prototypes. Restoring their presence is not a claim that the solid green seat
+base reproduces the photographed frame or original torsion/slider mechanism.
+Do not remove that proxy solely to obtain fewer contacts; any replacement must
+be separately source-grounded, semantically inventoried and verified.
+
+Two actual Cycles Master images were inspected: the footwell uses the exact
+8cb correction camera/light settings, and the second shows the left-cab wheel
+and panel arrangement. Geometry remains visibly a prototype, including blank
+dials, uncalibrated wheel/seat scale and unfinished materials. The general-cab
+image is not a photometric A/B comparison. Camera/light-only changes were not
+saved into the model; both source hash checks passed.
