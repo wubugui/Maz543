@@ -36,5 +36,54 @@
     ],
     "article_context": "Article captions the image generically as MAZ543 cabin before discussing multiple variants; its numerical/history prose is not used as a technical authority."
   },
-  "proposed_test": "Compare legacy pose to two coaxial hypotheses retaining legacy angle magnitude and bottom height. Record all failures. No factory dimension or final installation acceptance."
+  "proposed_test": "Compare legacy pose to two coaxial hypotheses retaining legacy angle magnitude and bottom height. Record all failures. No factory dimension or final installation acceptance.",
+  "additional_cab_photo": {
+    "article": "https://k.sina.cn/article_1618776221_607c909d0010026zc.html",
+    "image": "https://k.sinaimg.cn/n/sinacn/20170120/56ac-fxzvcvf8340795.jpg/w700d1q75cms.jpg",
+    "publisher": "卡车之家 via Sina",
+    "article_date": "2016-10-27",
+    "attribution": "Article credits photos to the internet; image carries 360che watermark; original photographer not established",
+    "sha256": "5b60ec41ce4b46ea692ed19b7bc89d0e0c53b8dc2d5db34ffd0b2ea0cf8e0787",
+    "pixels": [
+      600,
+      460
+    ],
+    "pixels_inspected": true,
+    "observed": [
+      "Wheel hub and inclined column are approximately coaxial",
+      "Column-mounted mechanism visible immediately below wheel",
+      "Seat cushion carried above narrow frame/support members; no full-size solid rectangular pedestal visible in this view"
+    ],
+    "limits": [
+      "Generic MAZ543 TEL article, not verified target543A batch",
+      "Oblique/composite-looking crop; not calibrated for pitch or coordinates",
+      "Part occlusion prevents proving complete frame topology",
+      "Photograph not redistributed in public repository or included in the asset"
+    ]
+  },
+  "new_reference_leads_not_adopted": [
+    {
+      "url": "https://dokumen.pub/543-w-3136844.html",
+      "title": "Основные узлы и агрегаты колесного шасси МАЗ-543 и его модификаций",
+      "edition": 2016,
+      "publisher": "Ural University",
+      "basis": "Publisher front matter transcription explicitly identifies the 1990 5th-edition manufacturer manual as basis",
+      "status": "Text lead only, not original-page visual verification; different edition from target1977. Do not replace caption mapping or dimensions. Primary publisher elar.urfu.ru search access returned non-retryable robots block; no alternate access to that blocked host attempted."
+    },
+    {
+      "url": "https://www.autoopt.ru/auto/catalog/special/maz/maz-543_7310/14?sort=number",
+      "status": "Search excerpt only;2008 seat catalogue names5551-6800010/543B support, not proven1977A. Site already has CAPTCHA restriction, not opened/retried."
+    }
+  ],
+  "independent_pixel_review": {
+    "manual": "Fig105 supports tube4 containing straight input shaft6 and 90-degree lower bevel transmission. The broad upper-left element in the diagram is bracket5, not a wheel-plane orientation datum.",
+    "photo_direction": "With native front=-X, observed lower-column-forward / upper-hub-rearward trend is consistent with upward-axis +X. No calibrated pitch magnitude or target543A batch proof.",
+    "hypothesis_limits": [
+      "The probe rotates the entire wheel group about its centre by about34.377 degrees, not a180-degree face inversion",
+      "The probe preserves wheel centre and column bottom Z only; bottom X changes and the tube is axially scaled, so it does not preserve a known reducer hardpoint",
+      "PCA gives an unoriented ring plane normal; choosing positive Z does not verify wheel front/back, hub dish or actual mechanical input direction",
+      "The offset column-mounted selector/lever hardware visible in the photograph must not be parented as a wheel-rotation child without source evidence"
+    ],
+    "decision": "Retain opposite-lean as an independent photo-consistent hypothesis only; no factory installation repair accepted"
+  }
 }

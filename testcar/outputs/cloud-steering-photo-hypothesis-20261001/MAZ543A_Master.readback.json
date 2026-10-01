@@ -1,0 +1,53 @@
+{
+  "candidate_sha256": "ba622e6dad9a74b7ee39058d1ca88b6f75fd85bd3923ab0629b87e812c9b7864",
+  "fresh_open": true,
+  "saved_objects_checked": 10405,
+  "max_world_matrix_error": 0,
+  "saved_identity_failures": [],
+  "actual_upward_ring_axis": [
+    0.2955202094886968,
+    -1.2397971660416118e-07,
+    0.9553364882509939
+  ],
+  "actual_upward_column_axis": [
+    0.295520389293289,
+    -1.752210739836002e-07,
+    0.9553364326308885
+  ],
+  "coaxial_angle_error_degrees": 1.1176197088647798e-05,
+  "coaxial_line_error_m": 1.79494878719677e-07,
+  "remaining_seat_vertices": 3600,
+  "narrow_phase_pairs": 54,
+  "rest_surface_intersections": [
+    {
+      "moving": "BL_Left_driver_steering_column_retained",
+      "fixed": "cab_0065",
+      "triangle_pairs": 40
+    }
+  ],
+  "additional_known_panel_wall_intersections": [
+    {
+      "panel": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "fixed": "BL_Cab_1_inner_wall",
+      "triangle_pairs": 795
+    },
+    {
+      "panel": "L C22 front base",
+      "fixed": "BL_Cab_1_inner_wall",
+      "triangle_pairs": 44
+    }
+  ],
+  "status": "SCOPED_IDENTITY_PASS_INSTALLATION_STILL_FAILED",
+  "limits": [
+    "World transforms changed only for full wheel hierarchy and column",
+    "Angle magnitude and wheel centre inherit uncalibrated legacy geometry",
+    "Bottom Z retained, bottom X and column length refitted for coaxiality",
+    "No measured reducer mount or input connection established",
+    "Material-node content/custom normals are outside this signature scope",
+    "One column/cushion surface intersection remains in the four-steering-mesh scope; unchanged panel/wall contacts are additional and not removed",
+    "No full clearance/sweep acceptance",
+    "Rest surface test is not containment or continuous sweep; object hide_render filtering only",
+    "PCA axis sign does not certify wheel front/back or gearbox input connection"
+  ],
+  "all16VehicleGates": "OPEN"
+}

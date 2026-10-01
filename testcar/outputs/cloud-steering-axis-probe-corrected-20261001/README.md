@@ -9,3 +9,11 @@ Legacy and same-lean coaxial each retain 15 detected object surface-intersection
 This is not a containment, full clearance or continuous sweep proof. The collision loop uses object hide_render flags, not every old object's ViewLayer state. Source eligibility is separately verified for the four-seat mesh and new panel solids. No gearbox internals, real mounting brackets or original seat mechanism is established. Production and all 16 whole-vehicle gates remain unchanged/OPEN.
 
 The earlier diagnostic under cloud-steering-axis-probe-20261001 used the defective b9 cabin and must not be treated as preserved-cabin or assembly-improvement evidence.
+
+Independent reference review: native front is -X. The photographs qualitatively
+support a top-rearward column (+X upwards), but do not establish a target543A
+pitch or mount. The opposite-lean transformation is about34.377 degrees around
+the wheel centre, not a180-degree face reversal. It changes column bottom X and
+length while retaining bottom Z, so it does not preserve a measured reducer
+hardpoint. PCA normals are unoriented and do not verify front/back hub dish.
+Photo-visible offset selector/lever mechanisms require separate assembly evidence.

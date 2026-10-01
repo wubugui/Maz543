@@ -224,3 +224,13 @@ four official read-back parts and the reassembled archive SHA-256 passed. Curren
 complete incremental recovery chain is `4f28bd4 -> 01097c9 -> f619cb6 -> b9fb590
 -> 8cb82c9`. The defective b9 trials remain as withdrawn historical evidence.
 External storage does not confirm desktop synchronization or GitHub publication.
+
+
+The independent `cloud-steering-photo-hypothesis-20261001` native candidate
+follows the photograph-supported upper-rearward column direction and makes the
+whole wheel/column coaxial. It preserves the old wheel centre, angle magnitude
+and column bottom Z as FITTED; bottom X and length are refitted, not factory
+mounts. Fresh readback retains all10,405 objects and four seat bases in the stated
+identity scope. One column/cushion and two unchanged panel/wall object pairs
+remain failed; reader exits2. Actual render review is pending. No production or
+browser changes. All16 gates remain OPEN.
