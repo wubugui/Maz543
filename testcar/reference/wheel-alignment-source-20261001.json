@@ -3,16 +3,35 @@
   "source_url": "https://djvu.online/file/zjMdLY3MFjmTL",
   "edition": 1977,
   "source_djvu_sha256": "cf8ebb65dcbfca6dd3b6c55a3174cfe9d628a206cb8c846eceee0041a2bb1bde",
-  "printed_pages_inspected_as_pixels": [24, 25, 316, 317],
+  "printed_pages_inspected_as_pixels": [
+    24,
+    25,
+    316,
+    317,
+    320,
+    321
+  ],
   "selected_model_column": "MAZ-543A",
   "steered_wheel_camber_degrees": 1,
   "camber_limits": "Table gives nominal magnitude; sign convention and tolerance not established. Do not apply to rear axles.",
   "toe_reference_diameter_mm": 1040,
   "toe_A_minus_B_mm": {
-    "loaded_first_axle": [8, 14],
-    "loaded_second_axle": [5, 12],
-    "unloaded_first_axle": [8, 14],
-    "unloaded_second_axle": [8, 14]
+    "loaded_first_axle": [
+      8,
+      14
+    ],
+    "loaded_second_axle": [
+      5,
+      12
+    ],
+    "unloaded_first_axle": [
+      8,
+      14
+    ],
+    "unloaded_second_axle": [
+      8,
+      14
+    ]
   },
   "loaded_condition_original": "не менее 80–90% от полной нагрузки",
   "nominal_tyre_pressure_kgf_per_cm2": 3.5,
@@ -29,5 +48,6 @@
     "This does not define wheel travel or unladen ride height.",
     "The current native model does not simulate tyre pressure, compliance or qualified vehicle load. A static geometry comparison cannot satisfy the physical procedure.",
     "No dimensions or material points are inferred from diagram scale."
-  ]
+  ],
+  "suspension_dependency": "Printed p320 explicitly says torsion-bar permanent set can lower the chassis, change steered-wheel camber and reduce the support-bolt/upper-arm gap. Thus camber must be related to suspension state, not treated as a fixed cosmetic tyre tilt."
 }

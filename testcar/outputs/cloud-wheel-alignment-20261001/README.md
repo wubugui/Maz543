@@ -36,6 +36,20 @@ share an alignment transform before attempting an independent assembled candidat
 Rotating only tyres to match the table would not establish a correct wheel-carrier
 or tie-rod assembly.
 
+Subsequent native topology readback records 196 descendants under each front wheel
+carrier. Carrier and spin objects have retained animation actions covering frames
+0–241. The separate S543 wheel marker has no children: the existing attach script
+bakes its poses onto the carrier, while the webpage consumes `suspensionPose`.
+Absence of a direct parent/constraint between the marker and wheel is therefore
+not evidence that animation is absent. Merely finding names containing `tie_rod`
+is also insufficient: C5/MN1 matches are starter/pre-oil components.
+
+Original page 320 explicitly connects torsion-bar permanent set and chassis
+settlement with changes in steered-wheel camber. Nominal alignment must therefore
+be considered with suspension state. The inspected source does not justify
+turning four tyres by a constant 1° while leaving supports and links untouched.
+The topology report is an inventory, not a fresh validation of the full animation.
+
 Run from `testcar` with the matching official Blender 4.5.13:
 
     blender -b -t 2 --python scripts/audit-wheel-alignment-native.py
