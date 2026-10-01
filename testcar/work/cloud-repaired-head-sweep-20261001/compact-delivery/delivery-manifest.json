@@ -1,0 +1,116 @@
+{
+  "format": "maz-lossless-native-evidence-bundle-v1",
+  "note": "Native hashes identify exact reconstructed original files; compact hashes identify differently named transport files. Restore before consuming native detail_file/detail_sha256 references.",
+  "files": [
+    {
+      "native_filename": "cab_pivot_002.json",
+      "native_bytes": 695144,
+      "native_sha256": "498e14b45280333ff925912e8de5ec515b3c07e0bc94dd8c6076e2a85c1ae825",
+      "compact_filename": "cab_pivot_002.json.compact.json",
+      "compact_bytes": 56701,
+      "compact_sha256": "e376a861b61bde975f38e14cc35af569664afc00db49ebe7abc8556dcba53885",
+      "encoding": "maz-head-sweep-pair-table-v1",
+      "parsed_data_equal": true,
+      "exact_original_byte_restore_verified": true
+    },
+    {
+      "native_filename": "cab_pivot_003.json",
+      "native_bytes": 695213,
+      "native_sha256": "0717e0b0c24e2704670b4c138401de3e9233d0a6e0152e826f8796c62f6d73f1",
+      "compact_filename": "cab_pivot_003.json.compact.json",
+      "compact_bytes": 56316,
+      "compact_sha256": "8cf30c93d169bc6ce5995e1af7396d6912ef7361a0d6e1269b0d53817803cd58",
+      "encoding": "maz-head-sweep-pair-table-v1",
+      "parsed_data_equal": true,
+      "exact_original_byte_restore_verified": true
+    },
+    {
+      "native_filename": "cab_pivot_006.json",
+      "native_bytes": 698216,
+      "native_sha256": "54137b9d65846f76985c7dc31ddf9b80712bcb3f25993c922a784c3c080c21be",
+      "compact_filename": "cab_pivot_006.json.compact.json",
+      "compact_bytes": 56422,
+      "compact_sha256": "87bfe0eaa1ec3b8017c33debae7237c2dd0bfb7983005fb463f1ee2cd50fec59",
+      "encoding": "maz-head-sweep-pair-table-v1",
+      "parsed_data_equal": true,
+      "exact_original_byte_restore_verified": true
+    },
+    {
+      "native_filename": "cab_pivot_007.json",
+      "native_bytes": 698285,
+      "native_sha256": "ba7df5b223744acb89f0c9a049a6d59b0b32ba75ef818e235b63efecc48d082d",
+      "compact_filename": "cab_pivot_007.json.compact.json",
+      "compact_bytes": 56037,
+      "compact_sha256": "53868db67fdc7e7136b47cdce7ae68808e37f6a285c6739ea3eeb20f533febb1",
+      "encoding": "maz-head-sweep-pair-table-v1",
+      "parsed_data_equal": true,
+      "exact_original_byte_restore_verified": true
+    },
+    {
+      "native_filename": "native-repair-replay/attachment-report.json",
+      "native_bytes": 5032,
+      "native_sha256": "1b1ec3f3e8c8a0a03fdfef16888644b511d73812be0c7d27e26e4d073f7a5131",
+      "compact_filename": "native-repair-replay/attachment-report.json.compact.json",
+      "compact_bytes": 3527,
+      "compact_sha256": "28fb192712a406c875e011bed3068ef3eee7fa650dc2bfdfcbc0a01e12cac4f2",
+      "encoding": "native-json-data-v1",
+      "parsed_data_equal": true,
+      "exact_original_byte_restore_verified": true
+    },
+    {
+      "native_filename": "native-repair-replay/coverage_-1.json",
+      "native_bytes": 185996,
+      "native_sha256": "5f9701e979675666cee4ca28386b4d26b2f9867c4056ac3c2059608de1b69d2b",
+      "compact_filename": "native-repair-replay/coverage_-1.json.compact.json",
+      "compact_bytes": 186251,
+      "compact_sha256": "0f07e41761be4f1bc7740a6122b2fe0942be5ca477e0e639079200d92397ce68",
+      "encoding": "native-json-data-v1",
+      "parsed_data_equal": true,
+      "exact_original_byte_restore_verified": true
+    },
+    {
+      "native_filename": "native-repair-replay/coverage_1.json",
+      "native_bytes": 189444,
+      "native_sha256": "130db465f2b3f89468efc79f043315408876ecf23914be398e3eed5616c140a6",
+      "compact_filename": "native-repair-replay/coverage_1.json.compact.json",
+      "compact_bytes": 189698,
+      "compact_sha256": "2283d38a30a508acc98ac06d1ca8ddbbfb25831bcc4a79a7fd0e989681c3d3fe",
+      "encoding": "native-json-data-v1",
+      "parsed_data_equal": true,
+      "exact_original_byte_restore_verified": true
+    },
+    {
+      "native_filename": "process.json",
+      "native_bytes": 3002,
+      "native_sha256": "2d028f65a30e717712ea42d37f3e477b1f316b78d1c08ed34556db0279a118e1",
+      "compact_filename": "process.json.compact.json",
+      "compact_bytes": 2810,
+      "compact_sha256": "d56cd4feca1de3e8a9c8b2444eff483d8c111743188d1e1e6193a8342bfa998a",
+      "encoding": "native-json-data-v1",
+      "parsed_data_equal": true,
+      "exact_original_byte_restore_verified": true
+    },
+    {
+      "native_filename": "read.log",
+      "native_bytes": 2599,
+      "native_sha256": "80e418973a27795dac84d073b6913ae59984b28b8cc92884fdc19cfd1ff04ad9",
+      "compact_filename": "read.log",
+      "compact_bytes": 2599,
+      "compact_sha256": "80e418973a27795dac84d073b6913ae59984b28b8cc92884fdc19cfd1ff04ad9",
+      "encoding": "raw",
+      "parsed_data_equal": true,
+      "exact_original_byte_restore_verified": true
+    },
+    {
+      "native_filename": "sweep-report.json",
+      "native_bytes": 238741,
+      "native_sha256": "f70b9999c08604a1b754469b5243452b9d0bc4c65d378c0d21975758784e3e3c",
+      "compact_filename": "sweep-report.json.compact.json",
+      "compact_bytes": 107021,
+      "compact_sha256": "48d6949e731fdd56db1a11022c6ca6a839be5a4030c4057b75239107853a495a",
+      "encoding": "native-json-data-v1",
+      "parsed_data_equal": true,
+      "exact_original_byte_restore_verified": true
+    }
+  ]
+}

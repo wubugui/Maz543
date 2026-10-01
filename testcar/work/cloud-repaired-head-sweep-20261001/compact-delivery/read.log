@@ -1,0 +1,15 @@
+BEFORE_CLOSED_SNAPSHOT 44 door_parts
+COVERAGE_READY [(-1, 70), (1, 70)]
+NATIVE_ATTACHMENT -1 70 inward 0.011999964714050293 base_error 0.0
+NATIVE_ATTACHMENT 1 70 inward 0.011999964714050293 base_error 0.0
+ATTACHMENT_FINISHED FITTED_NATIVE_HEAD_ATTACHMENT_TRIAL_PASS unmodified_native_meshes 7468 objects 10434 retained_contacts 6
+HEAD_SWEEP_DOOR {"hinge": "cab_pivot_002", "pairs": 1540, "before_separated": 1540, "before_unresolved": 0, "after_separated": 1540, "after_unresolved": 0, "newly_unresolved": 0, "max_cells_before": 1, "max_cells_after": 1, "minimum_proved_padded_gap_before_m": 0.06619769760873151, "minimum_proved_padded_gap_after_m": 0.06619769760873151, "detail_file": "cab_pivot_002.json", "detail_sha256": "498e14b45280333ff925912e8de5ec515b3c07e0bc94dd8c6076e2a85c1ae825"}
+HEAD_SWEEP_DOOR {"hinge": "cab_pivot_003", "pairs": 1540, "before_separated": 1540, "before_unresolved": 0, "after_separated": 1540, "after_unresolved": 0, "newly_unresolved": 0, "max_cells_before": 1, "max_cells_after": 1, "minimum_proved_padded_gap_before_m": 0.013511261445376288, "minimum_proved_padded_gap_after_m": 0.013511261445376288, "detail_file": "cab_pivot_003.json", "detail_sha256": "0717e0b0c24e2704670b4c138401de3e9233d0a6e0152e826f8796c62f6d73f1"}
+HEAD_SWEEP_DOOR {"hinge": "cab_pivot_006", "pairs": 1540, "before_separated": 1540, "before_unresolved": 0, "after_separated": 1540, "after_unresolved": 0, "newly_unresolved": 0, "max_cells_before": 1, "max_cells_after": 1, "minimum_proved_padded_gap_before_m": 0.06619769760873151, "minimum_proved_padded_gap_after_m": 0.06619769760873151, "detail_file": "cab_pivot_006.json", "detail_sha256": "54137b9d65846f76985c7dc31ddf9b80712bcb3f25993c922a784c3c080c21be"}
+HEAD_SWEEP_DOOR {"hinge": "cab_pivot_007", "pairs": 1540, "before_separated": 1540, "before_unresolved": 0, "after_separated": 1540, "after_unresolved": 0, "newly_unresolved": 0, "max_cells_before": 1, "max_cells_after": 1, "minimum_proved_padded_gap_before_m": 0.013511261445376288, "minimum_proved_padded_gap_after_m": 0.013511261445376288, "detail_file": "cab_pivot_007.json", "detail_sha256": "ba7df5b223744acb89f0c9a049a6d59b0b32ba75ef818e235b63efecc48d082d"}
+HEAD_SWEEP_FINISHED ALL_6160_PAIRS_SEPARATED_BEFORE_AND_AFTER pairs 6160 newly_unresolved 0
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend"
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend"
+
+Blender quit

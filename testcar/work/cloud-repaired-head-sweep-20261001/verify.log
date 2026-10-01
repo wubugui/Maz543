@@ -1,0 +1,64 @@
+{
+  "status": "READBACK_HASH_COVERAGE_AND_INTERVAL_SEMANTICS_PASS",
+  "unique_pairs": 6160,
+  "totals": {
+    "same_side_pairs": 3080,
+    "before_separated": 6160,
+    "after_separated": 6160,
+    "opposite_side_pairs": 3080
+  },
+  "signed_angle_intervals_radians": {
+    "cab_pivot_002": [
+      0.0,
+      1.7278759594743862
+    ],
+    "cab_pivot_003": [
+      0.0,
+      1.7278759594743862
+    ],
+    "cab_pivot_006": [
+      -1.7278759594743862,
+      0.0
+    ],
+    "cab_pivot_007": [
+      -1.7278759594743862,
+      0.0
+    ]
+  },
+  "minimum_padded_axis_gap": {
+    "before": {
+      "m": 0.013511261445376288,
+      "pair": [
+        "BL_Door_-1_1_gap",
+        "BL_Cab_-1_side_rivets",
+        49
+      ]
+    },
+    "after": {
+      "m": 0.013511261445376288,
+      "pair": [
+        "BL_Door_-1_1_gap",
+        "BL_Cab_-1_side_rivets",
+        49
+      ]
+    }
+  },
+  "chosen_separation_axes": {
+    "before_x": 1808,
+    "after_x": 1808,
+    "before_z": 1272,
+    "after_z": 1272,
+    "before_y": 3080,
+    "after_y": 3080
+  },
+  "pair_padded_gap_changes": {
+    "greater": 0,
+    "equal": 3080,
+    "smaller": 3080,
+    "minimum_delta_m": -0.011999964714050293,
+    "maximum_delta_m": 0.0
+  },
+  "note": "Readback checks saved conditional results and their identities/coverage; it is not a second native evaluation or floating error proof",
+  "process_sha256": "2d028f65a30e717712ea42d37f3e477b1f316b78d1c08ed34556db0279a118e1",
+  "report_sha256": "f70b9999c08604a1b754469b5243452b9d0bc4c65d378c0d21975758784e3e3c"
+}

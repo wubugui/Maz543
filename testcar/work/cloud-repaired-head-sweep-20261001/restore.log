@@ -1,0 +1,48 @@
+{
+  "action": "unpack",
+  "files": 10,
+  "native_total_bytes": 3411672,
+  "compact_total_bytes": 717382,
+  "file_sizes": {
+    "cab_pivot_002.json": [
+      695144,
+      56701
+    ],
+    "cab_pivot_003.json": [
+      695213,
+      56316
+    ],
+    "cab_pivot_006.json": [
+      698216,
+      56422
+    ],
+    "cab_pivot_007.json": [
+      698285,
+      56037
+    ],
+    "native-repair-replay/attachment-report.json": [
+      5032,
+      3527
+    ],
+    "native-repair-replay/coverage_-1.json": [
+      185996,
+      186251
+    ],
+    "native-repair-replay/coverage_1.json": [
+      189444,
+      189698
+    ],
+    "process.json": [
+      3002,
+      2810
+    ],
+    "read.log": [
+      2599,
+      2599
+    ],
+    "sweep-report.json": [
+      238741,
+      107021
+    ]
+  }
+}
