@@ -1,0 +1,23 @@
+ADDED_DEPENDENCY SCOPED_ADDED_CAB_DEPENDENCY_FAIL_CLOSED fixed 145 checks 153 issues 10 unsupported 10
+DEPENDENCY_OPEN BL_Cab_-1_crowned_roof: unsupported active modifier SUBSURF
+DEPENDENCY_OPEN BL_Cab_1_crowned_roof: unsupported active modifier SUBSURF
+DEPENDENCY_OPEN BL_Front_windshield_gasket_-1: unsupported active modifier NODES
+DEPENDENCY_OPEN BL_Front_windshield_gasket_1: unsupported active modifier NODES
+DEPENDENCY_OPEN BL_Front_windshield_glass_-1: unsupported active modifier NODES
+DEPENDENCY_OPEN BL_Front_windshield_glass_1: unsupported active modifier NODES
+DEPENDENCY_OPEN TOOL_Windshield_gasket_inner_-1: unsupported active modifier NODES
+DEPENDENCY_OPEN TOOL_Windshield_gasket_inner_1: unsupported active modifier NODES
+DEPENDENCY_OPEN TOOL_Windshield_opening_-1: unsupported active modifier NODES
+DEPENDENCY_OPEN TOOL_Windshield_opening_1: unsupported active modifier NODES
+NODE_GRAPH BL_Front_windshield_gasket_-1_Front_slope_map 13 15 ['GeometryNodeInputPosition', 'GeometryNodeSetPosition', 'NodeGroupInput', 'NodeGroupOutput', 'ShaderNodeCombineXYZ', 'ShaderNodeMath', 'ShaderNodeSeparateXYZ']
+NODE_GRAPH BL_Front_windshield_gasket_1_Front_slope_map 13 15 ['GeometryNodeInputPosition', 'GeometryNodeSetPosition', 'NodeGroupInput', 'NodeGroupOutput', 'ShaderNodeCombineXYZ', 'ShaderNodeMath', 'ShaderNodeSeparateXYZ']
+NODE_GRAPH BL_Front_windshield_glass_-1_Front_slope_map 13 15 ['GeometryNodeInputPosition', 'GeometryNodeSetPosition', 'NodeGroupInput', 'NodeGroupOutput', 'ShaderNodeCombineXYZ', 'ShaderNodeMath', 'ShaderNodeSeparateXYZ']
+NODE_GRAPH BL_Front_windshield_glass_1_Front_slope_map 13 15 ['GeometryNodeInputPosition', 'GeometryNodeSetPosition', 'NodeGroupInput', 'NodeGroupOutput', 'ShaderNodeCombineXYZ', 'ShaderNodeMath', 'ShaderNodeSeparateXYZ']
+NODE_GRAPH TOOL_Windshield_gasket_inner_-1_Front_slope_map 13 15 ['GeometryNodeInputPosition', 'GeometryNodeSetPosition', 'NodeGroupInput', 'NodeGroupOutput', 'ShaderNodeCombineXYZ', 'ShaderNodeMath', 'ShaderNodeSeparateXYZ']
+NODE_GRAPH TOOL_Windshield_gasket_inner_1_Front_slope_map 13 15 ['GeometryNodeInputPosition', 'GeometryNodeSetPosition', 'NodeGroupInput', 'NodeGroupOutput', 'ShaderNodeCombineXYZ', 'ShaderNodeMath', 'ShaderNodeSeparateXYZ']
+NODE_GRAPH TOOL_Windshield_opening_-1_Front_slope_map 13 15 ['GeometryNodeInputPosition', 'GeometryNodeSetPosition', 'NodeGroupInput', 'NodeGroupOutput', 'ShaderNodeCombineXYZ', 'ShaderNodeMath', 'ShaderNodeSeparateXYZ']
+NODE_GRAPH TOOL_Windshield_opening_1_Front_slope_map 13 15 ['GeometryNodeInputPosition', 'GeometryNodeSetPosition', 'NodeGroupInput', 'NodeGroupOutput', 'ShaderNodeCombineXYZ', 'ShaderNodeMath', 'ShaderNodeSeparateXYZ']
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend"
+
+Blender quit
