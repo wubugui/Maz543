@@ -11,7 +11,7 @@ INPUTS={
  'inventory':ROOT/'work/cloud-cab-door-dependencies-20261001/inventory.json',
  'poses':ROOT/'work/cloud-cab-door-poses-20261001/pose-report.json',
  'intervals':ROOT/'work/cloud-cab-frozen-intervals-20261001/interval-report.json'}
-OUT=ROOT/'work/cloud-cab-static-dependencies-20261001';OUT.mkdir(parents=True,exist_ok=True)
+OUT=ROOT/'work/cloud-cab-static-dependencies-guarded-20261001';OUT.mkdir(parents=True,exist_ok=True)
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 EXPECTED='8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70'
 assert sha(SOURCE)==EXPECTED and bpy.app.version[:3]==(4,5,13)
