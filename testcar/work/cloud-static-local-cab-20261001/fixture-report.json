@@ -1,0 +1,499 @@
+{
+  "status": "EXACT_LOCAL_MODIFIER_FIXTURE_PASS_NOT_SOURCE_ACCEPTANCE",
+  "blender_version": "4.5.13 LTS",
+  "positive_cases": 10,
+  "negative_cases": 49,
+  "cases": [
+    {
+      "case": "positive_BL_Cab_-1_crowned_roof",
+      "expected_reject": false,
+      "rejected": false,
+      "issues": []
+    },
+    {
+      "case": "positive_BL_Cab_1_crowned_roof",
+      "expected_reject": false,
+      "rejected": false,
+      "issues": []
+    },
+    {
+      "case": "positive_BL_Front_windshield_gasket_-1",
+      "expected_reject": false,
+      "rejected": false,
+      "issues": []
+    },
+    {
+      "case": "positive_BL_Front_windshield_gasket_1",
+      "expected_reject": false,
+      "rejected": false,
+      "issues": []
+    },
+    {
+      "case": "positive_BL_Front_windshield_glass_-1",
+      "expected_reject": false,
+      "rejected": false,
+      "issues": []
+    },
+    {
+      "case": "positive_BL_Front_windshield_glass_1",
+      "expected_reject": false,
+      "rejected": false,
+      "issues": []
+    },
+    {
+      "case": "positive_TOOL_Windshield_gasket_inner_-1",
+      "expected_reject": false,
+      "rejected": false,
+      "issues": []
+    },
+    {
+      "case": "positive_TOOL_Windshield_gasket_inner_1",
+      "expected_reject": false,
+      "rejected": false,
+      "issues": []
+    },
+    {
+      "case": "positive_TOOL_Windshield_opening_-1",
+      "expected_reject": false,
+      "rejected": false,
+      "issues": []
+    },
+    {
+      "case": "positive_TOOL_Windshield_opening_1",
+      "expected_reject": false,
+      "rejected": false,
+      "issues": []
+    },
+    {
+      "case": "wrong_object_name",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "Other: local static modifier rejected: Ineligible: object/modifier outside exact reviewed scope"
+      ]
+    },
+    {
+      "case": "missing_group",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: missing node group"
+      ]
+    },
+    {
+      "case": "scene_time_disconnected",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed"
+      ]
+    },
+    {
+      "case": "object_info_disconnected",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed"
+      ]
+    },
+    {
+      "case": "collection_info_disconnected",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed"
+      ]
+    },
+    {
+      "case": "named_attribute_disconnected",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed"
+      ]
+    },
+    {
+      "case": "nested_group_disconnected",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed"
+      ]
+    },
+    {
+      "case": "second_group_output",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed"
+      ]
+    },
+    {
+      "case": "extra_parameter",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present"
+      ]
+    },
+    {
+      "case": "modifier_attribute_input",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present"
+      ]
+    },
+    {
+      "case": "modifier_id_custom_input",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present"
+      ]
+    },
+    {
+      "case": "tree_custom_property",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present"
+      ]
+    },
+    {
+      "case": "node_custom_property",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present"
+      ]
+    },
+    {
+      "case": "socket_custom_property",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present"
+      ]
+    },
+    {
+      "case": "empty_tree_animation",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists"
+      ]
+    },
+    {
+      "case": "tree_action",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists"
+      ]
+    },
+    {
+      "case": "tree_nla_track",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists"
+      ]
+    },
+    {
+      "case": "modifier_bake_target",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: modifier settings changed"
+      ]
+    },
+    {
+      "case": "output_muted",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: muted node"
+      ]
+    },
+    {
+      "case": "unused_socket_driver",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists"
+      ]
+    },
+    {
+      "case": "constant_modifier_driver",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists"
+      ]
+    },
+    {
+      "case": "mesh_animation",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists"
+      ]
+    },
+    {
+      "case": "mesh_shape_keys",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: requires unkeyed mesh"
+      ]
+    },
+    {
+      "case": "muted_math",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: muted node"
+      ]
+    },
+    {
+      "case": "different_allowed_math_op",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: node semantic properties changed: Math"
+      ]
+    },
+    {
+      "case": "unsupported_math_op",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: math operation or clamp changed"
+      ]
+    },
+    {
+      "case": "math_clamp",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: math operation or clamp changed"
+      ]
+    },
+    {
+      "case": "constant_changed",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: socket/default signature changed: Math.inputs"
+      ]
+    },
+    {
+      "case": "nonfinite_constant",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: non-finite numeric value"
+      ]
+    },
+    {
+      "case": "set_position_offset",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: socket/default signature changed: Set Position.inputs"
+      ]
+    },
+    {
+      "case": "set_position_selection",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: socket/default signature changed: Set Position.inputs"
+      ]
+    },
+    {
+      "case": "geometry_path_removed",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed"
+      ]
+    },
+    {
+      "case": "field_cycle",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: invalid or muted link"
+      ]
+    },
+    {
+      "case": "duplicate_link",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed"
+      ]
+    },
+    {
+      "case": "bake_directory",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: modifier settings changed"
+      ]
+    },
+    {
+      "case": "scene_simplify",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: scene simplification is not frozen"
+      ]
+    },
+    {
+      "case": "scene_animation",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: scene animation"
+      ]
+    },
+    {
+      "case": "frame_handler",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: active evaluation handler: frame_change_post"
+      ]
+    },
+    {
+      "case": "interface_default_attribute",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: interface setting changed: default_attribute_name"
+      ]
+    },
+    {
+      "case": "interface_force_non_field",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: interface setting changed: force_non_field"
+      ]
+    },
+    {
+      "case": "same_size_rewire",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph wiring changed (including cycles or bypass)"
+      ]
+    },
+    {
+      "case": "owner_constraint",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: dynamic object inputs"
+      ]
+    },
+    {
+      "case": "render_context",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: fixed viewport context required"
+      ]
+    },
+    {
+      "case": "subsurf_level",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Cab_-1_crowned_roof: local static modifier rejected: Ineligible: modifier settings changed"
+      ]
+    },
+    {
+      "case": "subsurf_simple",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Cab_-1_crowned_roof: local static modifier rejected: Ineligible: modifier settings changed"
+      ]
+    },
+    {
+      "case": "subsurf_limit_surface",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Cab_-1_crowned_roof: local static modifier rejected: Ineligible: modifier settings changed"
+      ]
+    },
+    {
+      "case": "subsurf_driver",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Cab_-1_crowned_roof: local static modifier rejected: Ineligible: datablock animation exists"
+      ]
+    },
+    {
+      "case": "moving_context",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: fixed viewport context required"
+      ]
+    },
+    {
+      "case": "linked_library_tree",
+      "expected_reject": true,
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: library-linked or overridden datablock"
+      ]
+    }
+  ],
+  "fixture_frame_samples": [
+    0,
+    1,
+    31
+  ],
+  "fixture_analytic_max_error_m": 1.8998980522155762e-07,
+  "master_opened": false,
+  "vehicle_assets_modified": false,
+  "rendered": false,
+  "composition_controls": [
+    {
+      "case": "baseline",
+      "rejected": false,
+      "issues": []
+    },
+    {
+      "case": "animated_parent",
+      "rejected": true,
+      "issues": [
+        "__LOCAL_GUARD_PARENT: animation not eligible"
+      ]
+    },
+    {
+      "case": "moving_boolean_operand",
+      "rejected": true,
+      "issues": [
+        "__LOCAL_GUARD_MOVING: fixed dependency enters moving hierarchy"
+      ]
+    },
+    {
+      "case": "unsupported_upstream_modifier",
+      "rejected": true,
+      "issues": [
+        "BL_Front_windshield_gasket_-1: unsupported active modifier WAVE"
+      ]
+    }
+  ],
+  "profiles_sha256": "e2893870a7edf3243d0f75c0fd0b4849b9f121eeec99ec2264cf3f67dae7f762",
+  "module_sha256": "dc94191941cb254961727831399177eec2a064b8c1964b1b458dcbcba66c63ed"
+}

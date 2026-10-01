@@ -1,0 +1,62 @@
+Extensions: writing cache failed ([Errno 30] Read-only file system: '/home/agent/.config/blender').
+positive_BL_Cab_-1_crowned_roof ELIGIBLE
+positive_BL_Cab_1_crowned_roof ELIGIBLE
+positive_BL_Front_windshield_gasket_-1 ELIGIBLE
+positive_BL_Front_windshield_gasket_1 ELIGIBLE
+positive_BL_Front_windshield_glass_-1 ELIGIBLE
+positive_BL_Front_windshield_glass_1 ELIGIBLE
+positive_TOOL_Windshield_gasket_inner_-1 ELIGIBLE
+positive_TOOL_Windshield_gasket_inner_1 ELIGIBLE
+positive_TOOL_Windshield_opening_-1 ELIGIBLE
+positive_TOOL_Windshield_opening_1 ELIGIBLE
+wrong_object_name ['Other: local static modifier rejected: Ineligible: object/modifier outside exact reviewed scope']
+missing_group ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: missing node group']
+scene_time_disconnected ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed']
+object_info_disconnected ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed']
+collection_info_disconnected ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed']
+named_attribute_disconnected ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed']
+nested_group_disconnected ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed']
+second_group_output ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed']
+extra_parameter ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present']
+modifier_attribute_input ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present']
+modifier_id_custom_input ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present']
+tree_custom_property ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present']
+node_custom_property ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present']
+socket_custom_property ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: custom properties or modifier inputs present']
+empty_tree_animation ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists']
+tree_action ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists']
+tree_nla_track ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists']
+modifier_bake_target ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: modifier settings changed']
+output_muted ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: muted node']
+unused_socket_driver ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists']
+constant_modifier_driver ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists']
+mesh_animation ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: datablock animation exists']
+mesh_shape_keys ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: requires unkeyed mesh']
+muted_math ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: muted node']
+different_allowed_math_op ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: node semantic properties changed: Math']
+unsupported_math_op ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: math operation or clamp changed']
+math_clamp ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: math operation or clamp changed']
+constant_changed ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: socket/default signature changed: Math.inputs']
+nonfinite_constant ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: non-finite numeric value']
+set_position_offset ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: socket/default signature changed: Set Position.inputs']
+set_position_selection ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: socket/default signature changed: Set Position.inputs']
+geometry_path_removed ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed']
+field_cycle ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: invalid or muted link']
+duplicate_link ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph size changed']
+bake_directory ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: modifier settings changed']
+scene_simplify ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: scene simplification is not frozen']
+scene_animation ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: scene animation']
+frame_handler ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: active evaluation handler: frame_change_post']
+interface_default_attribute ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: interface setting changed: default_attribute_name']
+interface_force_non_field ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: interface setting changed: force_non_field']
+same_size_rewire ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: graph wiring changed (including cycles or bypass)']
+owner_constraint ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: dynamic object inputs']
+render_context ['BL_Front_windshield_gasket_-1: local static modifier rejected: Ineligible: fixed viewport context required']
+subsurf_level ['BL_Cab_-1_crowned_roof: local static modifier rejected: Ineligible: modifier settings changed']
+subsurf_simple ['BL_Cab_-1_crowned_roof: local static modifier rejected: Ineligible: modifier settings changed']
+subsurf_limit_surface ['BL_Cab_-1_crowned_roof: local static modifier rejected: Ineligible: modifier settings changed']
+subsurf_driver ['BL_Cab_-1_crowned_roof: local static modifier rejected: Ineligible: datablock animation exists']
+SUMMARY EXACT_LOCAL_MODIFIER_FIXTURE_PASS_NOT_SOURCE_ACCEPTANCE 10 49
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+
+Blender quit
