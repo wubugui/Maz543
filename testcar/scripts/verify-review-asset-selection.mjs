@@ -13,6 +13,10 @@ const source=await fs.readFile(path.join(root,'lib/reviewVehicleAsset.ts'),'utf8
 const compiled=ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText;
 const {selectReviewVehicleAsset,PRODUCTION_VEHICLE_ASSET,reviewCandidateMetadata}=await import('data:text/javascript;base64,'+Buffer.from(compiled).toString('base64'));
 const cases=[
+ ['?asset-review=cab-va180-axis-v1',true,'cab-va180-axis-v1'],['?asset-review=cab-va180-axis-v1',false,'production'],
+ ['?asset-review=cab-va180-axis-v1&render-worker=1',true,'production'],['?asset-review=cab-va180-axis-v1&worker-build=1',true,'production'],
+ ['?asset-review=cab-va180-axis-v1&asset-review=cab-va180-axis-v1',true,'production'],
+ ['?asset-review=cab-va180-axis-v1&asset-review=cab-va180-v1',true,'production'],
  ['?asset-review=cab-va180-v1',true,'cab-va180-v1'],['?asset-review=cab-va180-v1',false,'production'],
  ['?asset-review=cab-va180-v1&render-worker=1',true,'production'],['?asset-review=cab-va180-v1&worker-build=1',true,'production'],
  ['?asset-review=cab-va180-v1&asset-review=cab-va180-v1',true,'production'],
@@ -44,13 +48,15 @@ const driver=await fs.readFile(path.join(root,'public/models/review/maz543a-left
 assert.equal(hash(driver),selectReviewVehicleAsset('?asset-review=left-driver-v1',true).sha256);
 const cab=await fs.readFile(path.join(root,'public/models/review/maz543a-cab-va180-v1.glb'));
 assert.equal(hash(cab),selectReviewVehicleAsset('?asset-review=cab-va180-v1',true).sha256);
+assert.equal(hash(cab),selectReviewVehicleAsset('?asset-review=cab-va180-axis-v1',true).sha256);
+assert.equal(selectReviewVehicleAsset('?asset-review=cab-va180-axis-v1',true).url,selectReviewVehicleAsset('?asset-review=cab-va180-v1',true).url);
 const runtime=await fs.readFile(path.join(root,'lib/vehicleViewport.ts'),'utf8'),ui=await fs.readFile(path.join(root,'components/workshop.tsx'),'utf8');
 assert.ok(runtime.includes('loadNative(reviewAsset.url)'));assert.ok(runtime.includes('a.download=reviewAsset.exportFilename'));
 assert.ok(runtime.includes('renderedRoot.userData.reviewCandidate=reviewCandidateMetadata(reviewAsset)'));assert.ok(ui.includes('reviewAsset.notice&&'));
 registerHooks({resolve(specifier,context,next){try{return next(specifier,context);}catch(error){if(specifier.startsWith('.')&&!/\.[a-z]+$/i.test(specifier))return next(specifier+'.ts',context);throw error;}}});
 const {exportGLBBlob}=await import('../lib/export-model.ts');
 const metadataExports=[];
-for(const asset of [PRODUCTION_VEHICLE_ASSET,selectReviewVehicleAsset('?asset-review=tyre-v2',true),selectReviewVehicleAsset('?asset-review=hood-tyre-v1',true),selectReviewVehicleAsset('?asset-review=left-driver-v1',true),selectReviewVehicleAsset('?asset-review=cab-va180-v1',true)]){
+for(const asset of [PRODUCTION_VEHICLE_ASSET,selectReviewVehicleAsset('?asset-review=tyre-v2',true),selectReviewVehicleAsset('?asset-review=hood-tyre-v1',true),selectReviewVehicleAsset('?asset-review=left-driver-v1',true),selectReviewVehicleAsset('?asset-review=cab-va180-v1',true),selectReviewVehicleAsset('?asset-review=cab-va180-axis-v1',true)]){
  // A metadata-only unit fixture through the real exporter, never a replacement vehicle test.
  const object=new T.Group();object.name='MAZ543_REFERENCE_CHASSIS';const metadata=reviewCandidateMetadata(asset);if(metadata)object.userData.reviewCandidate=metadata;
  const prior=JSON.stringify(object.userData),blob=await exportGLBBlob(object,new Map()),bytes=Buffer.from(await blob.arrayBuffer());

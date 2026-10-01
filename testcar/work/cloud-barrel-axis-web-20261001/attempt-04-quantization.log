@@ -1,0 +1,18 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+0 !== 12
+
+    at file:///workspace/scratch/a29d03198654/Maz543/testcar/scripts/verify-barrel-axis-pose-binding.mjs:118:40 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 0,
+  expected: 12,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

@@ -1,5 +1,5 @@
 /** Explicit development-only asset review. Never changes the ordinary production selection. */
-export type ReviewVehicleAsset={kind:'production'|'tyre-v2'|'hood-tyre-v1'|'left-driver-v1'|'cab-va180-v1';url:string;sha256:string;exportFilename:string;notice:string|null};
+export type ReviewVehicleAsset={kind:'production'|'tyre-v2'|'hood-tyre-v1'|'left-driver-v1'|'cab-va180-v1'|'cab-va180-axis-v1';url:string;sha256:string;exportFilename:string;notice:string|null};
 export const PRODUCTION_VEHICLE_ASSET:Readonly<ReviewVehicleAsset>=Object.freeze({
  kind:'production',url:'/models/maz543a-blender.glb?v=rear-box-frame-20260930',
  sha256:'4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698',
@@ -8,8 +8,12 @@ export const PRODUCTION_VEHICLE_ASSET:Readonly<ReviewVehicleAsset>=Object.freeze
 export function selectReviewVehicleAsset(search:string,development:boolean):Readonly<ReviewVehicleAsset>{
  const query=new URLSearchParams(search),requested=query.getAll('asset-review');
  if(requested.length===0)return PRODUCTION_VEHICLE_ASSET;
- if(requested.length!==1||!['tyre-v2','hood-tyre-v1','left-driver-v1','cab-va180-v1'].includes(requested[0]))return {...PRODUCTION_VEHICLE_ASSET,notice:'候选参数无效，当前选择生产资产。'};
+ if(requested.length!==1||!['tyre-v2','hood-tyre-v1','left-driver-v1','cab-va180-v1','cab-va180-axis-v1'].includes(requested[0]))return {...PRODUCTION_VEHICLE_ASSET,notice:'候选参数无效，当前选择生产资产。'};
  if(!development||query.get('render-worker')==='1'||query.get('worker-build')==='1')return {...PRODUCTION_VEHICLE_ASSET,notice:'候选审查仅支持开发环境的普通显示；当前选择生产资产。'};
+ if(requested[0]==='cab-va180-axis-v1')return {kind:'cab-va180-axis-v1',url:'/models/review/maz543a-cab-va180-v1.glb?v=fde04e480978d065',
+  sha256:'fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e',
+  exportFilename:'MAZ543-CANDIDATE-cab-va180-barrel-axis-v1-current-pose.glb',
+  notice:'候选审查：按现有铰链圆柱共轴开门｜未替换生产模型；闭门接触、厂家安装尺寸、网页和整车验收仍开放。'};
  if(requested[0]==='cab-va180-v1')return {kind:'cab-va180-v1',url:'/models/review/maz543a-cab-va180-v1.glb?v=fde04e480978d065',
   sha256:'fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e',
   exportFilename:'MAZ543-CANDIDATE-cab-va180-v1-current-pose.glb',
@@ -32,11 +36,34 @@ export function reviewCandidateMetadata(asset:Readonly<ReviewVehicleAsset>){
  return asset.kind==='production'?undefined:{id:asset.kind,sourceSHA256:asset.sha256,status:'UNACCEPTED_CANDIDATE'};
 }
 
+const BARREL_AXIS_REVIEW_OFFSETS:Record<string,readonly[number,number]>={
+ cab_pivot_002:[0.017999867598216035,-0.06799999872843432],
+ cab_pivot_003:[0.018000036478042603,-0.06799999872843432],
+ cab_pivot_006:[0.017999867598216035,0.06799999872843432],
+ cab_pivot_007:[0.018000036478042603,0.06799999872843432],
+};
+
 /** Apply after the ordinary source-pose copy, so repeated frames cannot accumulate it. */
-export function applyReviewNativePoseOffset(target:{name:string;position:{z:number};quaternion?:{x:number;y:number;z:number;w:number;set:(x:number,y:number,z:number,w:number)=>unknown}},asset:Readonly<ReviewVehicleAsset>){
+export function applyReviewNativePoseOffset(target:{name:string;position:{x:number;z:number};quaternion?:{x:number;y:number;z:number;w:number;set:(x:number,y:number,z:number,w:number)=>unknown}},asset:Readonly<ReviewVehicleAsset>){
+ // Review-only kinematic repair for the exact cab-va180 source bytes. The
+ // fitted barrel axes were measured from native rings in 8e962d6; see the
+ // published axis/trial/interval evidence. No geometry or source pose is edited.
+ // C(native->glTF)=(x,z,-y), so the native lateral offset becomes local Z.
+ if(asset.kind==='cab-va180-axis-v1'&&target.quaternion){
+  const axis=BARREL_AXIS_REVIEW_OFFSETS[target.name];
+  if(axis){
+   const [px,pz]=axis,q=target.quaternion;
+   // Translation(p-R*p) followed by the source rotation. The ordinary binding
+   // recopies source position before each call, preventing frame accumulation.
+   const rx=(1-2*(q.y*q.y+q.z*q.z))*px+2*(q.x*q.z+q.y*q.w)*pz;
+   const rz=2*(q.x*q.z-q.y*q.w)*px+(1-2*(q.x*q.x+q.y*q.y))*pz;
+   target.position.x+=px-rx;target.position.z+=pz-rz;
+   return;
+  }
+ }
  if(target.name!=='cab_pivot_004')return;
- if(asset.kind==='left-driver-v1'||asset.kind==='cab-va180-v1')target.position.z+=2.05;
- if(asset.kind!=='cab-va180-v1'||!target.quaternion)return;
+ if(asset.kind==='left-driver-v1'||asset.kind==='cab-va180-v1'||asset.kind==='cab-va180-axis-v1')target.position.z+=2.05;
+ if((asset.kind!=='cab-va180-v1'&&asset.kind!=='cab-va180-axis-v1')||!target.quaternion)return;
  // Legacy model.update produces Qy(spin) * Qz(+0.3), from Euler XYZ.
  // Remove that rest tilt on the right, then apply the independently verified
  // native candidate rest tilt on the left: Qnew * Qspin. This keeps the wheel

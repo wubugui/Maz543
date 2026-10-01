@@ -1,0 +1,666 @@
+{
+  "status": "PASS_REVIEW_BARREL_AXIS_REAL_GLB_BINDING_ONLY",
+  "assetSHA256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e",
+  "sourceAxisReportSHA256": "523f0a0936a30042411db574a9a507b505bd0b5b85770d39f6618095895dcd27",
+  "sourceTrialReportSHA256": "ce03060e60a7cb0749c18452bb623311383a896b6923ec5941724d3387bc4dd9",
+  "sourceDoorInventorySHA256": "40e771f244ef6a49f90699f3e60c0e01c6a7885baaea77852fac7d75c891a570",
+  "selectorCases": 9,
+  "frames": 2069,
+  "sourceModel": "Actual createMAZ543 and model.update; delivered GLB node graph and20 decoded door mesh payloads",
+  "bindingStatementSHA256": "1513946fd404a255d9a7b038225355bb3e63e092a38c0ce63547c7c11527b357",
+  "decoded": [
+    {
+      "node": "BL_Door_-1_0_handle",
+      "door": "cab_pivot_002",
+      "vertices": 24,
+      "triangles": 16
+    },
+    {
+      "node": "BL_Door_-1_0_lock",
+      "door": "cab_pivot_002",
+      "vertices": 314,
+      "triangles": 316
+    },
+    {
+      "node": "BL_Door_-1_0_window",
+      "door": "cab_pivot_002",
+      "vertices": 324,
+      "triangles": 188
+    },
+    {
+      "node": "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+      "door": "cab_pivot_002",
+      "vertices": 6398,
+      "triangles": 4804
+    },
+    {
+      "node": "BL_Merged_cab_pivot_002_Rubber_window_seals",
+      "door": "cab_pivot_002",
+      "vertices": 4135,
+      "triangles": 2940
+    },
+    {
+      "node": "BL_Door_-1_1_handle",
+      "door": "cab_pivot_003",
+      "vertices": 24,
+      "triangles": 16
+    },
+    {
+      "node": "BL_Door_-1_1_lock",
+      "door": "cab_pivot_003",
+      "vertices": 312,
+      "triangles": 316
+    },
+    {
+      "node": "BL_Door_-1_1_window",
+      "door": "cab_pivot_003",
+      "vertices": 314,
+      "triangles": 188
+    },
+    {
+      "node": "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+      "door": "cab_pivot_003",
+      "vertices": 6410,
+      "triangles": 4842
+    },
+    {
+      "node": "BL_Merged_cab_pivot_003_Rubber_window_seals",
+      "door": "cab_pivot_003",
+      "vertices": 4125,
+      "triangles": 2940
+    },
+    {
+      "node": "BL_Door_1_0_handle",
+      "door": "cab_pivot_006",
+      "vertices": 24,
+      "triangles": 16
+    },
+    {
+      "node": "BL_Door_1_0_lock",
+      "door": "cab_pivot_006",
+      "vertices": 314,
+      "triangles": 316
+    },
+    {
+      "node": "BL_Door_1_0_window",
+      "door": "cab_pivot_006",
+      "vertices": 328,
+      "triangles": 188
+    },
+    {
+      "node": "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+      "door": "cab_pivot_006",
+      "vertices": 6302,
+      "triangles": 4804
+    },
+    {
+      "node": "BL_Merged_cab_pivot_006_Rubber_window_seals",
+      "door": "cab_pivot_006",
+      "vertices": 4119,
+      "triangles": 2940
+    },
+    {
+      "node": "BL_Door_1_1_handle",
+      "door": "cab_pivot_007",
+      "vertices": 24,
+      "triangles": 16
+    },
+    {
+      "node": "BL_Door_1_1_lock",
+      "door": "cab_pivot_007",
+      "vertices": 312,
+      "triangles": 316
+    },
+    {
+      "node": "BL_Door_1_1_window",
+      "door": "cab_pivot_007",
+      "vertices": 316,
+      "triangles": 188
+    },
+    {
+      "node": "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+      "door": "cab_pivot_007",
+      "vertices": 6306,
+      "triangles": 4842
+    },
+    {
+      "node": "BL_Merged_cab_pivot_007_Rubber_window_seals",
+      "door": "cab_pivot_007",
+      "vertices": 4045,
+      "triangles": 2940
+    }
+  ],
+  "barrels": [
+    {
+      "door": "cab_pivot_002",
+      "sourceName": "BL_Door_-1_0_hinge_2.38",
+      "node": "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        0.9099998772144318,
+        -0.06800577913721402
+      ],
+      "boxCenter": [
+        0.017984390258789062,
+        0.9099998474121094,
+        -0.068015456199646
+      ],
+      "size": [
+        0.035968780517578125,
+        0.10294580459594727,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.000008067656748615436,
+      "nativeBoxCenterErrorM": 0.000021874543717578764,
+      "nativeSizeErrorsM": [
+        0.00003121948242187228,
+        0.00005412101745604081,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -4.909999847412109,
+          1.2799999713897705,
+          -1.565999984741211
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    },
+    {
+      "door": "cab_pivot_002",
+      "sourceName": "BL_Door_-1_0_hinge_1.94",
+      "node": "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        0.46999992430210114,
+        -0.06800577913721402
+      ],
+      "boxCenter": [
+        0.017984390258789062,
+        0.46999990940093994,
+        -0.068015456199646
+      ],
+      "size": [
+        0.035968780517578125,
+        0.10294556617736816,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.000008065798744812277,
+      "nativeBoxCenterErrorM": 0.0000218743000964883,
+      "nativeSizeErrorsM": [
+        0.00003121948242187228,
+        0.00005447864532470703,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -4.909999847412109,
+          1.2799999713897705,
+          -1.565999984741211
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    },
+    {
+      "door": "cab_pivot_002",
+      "sourceName": "BL_Door_-1_0_hinge_1.47",
+      "node": "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        -5.960464477539063e-8,
+        -0.06800577913721402
+      ],
+      "boxCenter": [
+        0.017984390258789062,
+        -5.960464477539063e-8,
+        -0.068015456199646
+      ],
+      "size": [
+        0.035968780517578125,
+        0.10294568538665771,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.000008065674862673982,
+      "nativeBoxCenterErrorM": 0.000021874218888855193,
+      "nativeSizeErrorsM": [
+        0.00003121948242187228,
+        0.00005435943603515625,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -4.909999847412109,
+          1.2799999713897705,
+          -1.565999984741211
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    },
+    {
+      "door": "cab_pivot_003",
+      "sourceName": "BL_Door_-1_1_hinge_2.38",
+      "node": "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        0.9099998772144318,
+        -0.06800577913721402
+      ],
+      "boxCenter": [
+        0.017984509468078613,
+        0.9099998474121094,
+        -0.068015456199646
+      ],
+      "size": [
+        0.03596901893615723,
+        0.10294580459594727,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.000008206610007008507,
+      "nativeBoxCenterErrorM": 0.000021909716235870536,
+      "nativeSizeErrorsM": [
+        0.00003098106384277072,
+        0.00005412101745605469,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -3.9600000381469727,
+          1.2799999713897705,
+          -1.565999984741211
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    },
+    {
+      "door": "cab_pivot_003",
+      "sourceName": "BL_Door_-1_1_hinge_1.94",
+      "node": "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        0.46999992430210114,
+        -0.06800577913721402
+      ],
+      "boxCenter": [
+        0.017984509468078613,
+        0.46999990940093994,
+        -0.068015456199646
+      ],
+      "size": [
+        0.03596901893615723,
+        0.10294556617736816,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.000008204783469749053,
+      "nativeBoxCenterErrorM": 0.00002190947300587882,
+      "nativeSizeErrorsM": [
+        0.00003098106384277072,
+        0.00005447864532470703,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -3.9600000381469727,
+          1.2799999713897705,
+          -1.565999984741211
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    },
+    {
+      "door": "cab_pivot_003",
+      "sourceName": "BL_Door_-1_1_hinge_1.47",
+      "node": "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        -5.960464477539063e-8,
+        -0.06800577913721402
+      ],
+      "boxCenter": [
+        0.017984509468078613,
+        -5.960464477539063e-8,
+        -0.068015456199646
+      ],
+      "size": [
+        0.03596901893615723,
+        0.10294568538665771,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.000008204661686140567,
+      "nativeBoxCenterErrorM": 0.000021909391928614857,
+      "nativeSizeErrorsM": [
+        0.00003098106384277072,
+        0.00005435943603515625,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -3.9600000381469727,
+          1.2799999713897705,
+          -1.565999984741211
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    },
+    {
+      "door": "cab_pivot_006",
+      "sourceName": "BL_Door_1_0_hinge_2.38",
+      "node": "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        0.9099998772144318,
+        0.06800450260440508
+      ],
+      "boxCenter": [
+        0.017984390258789062,
+        0.9099998474121094,
+        0.0680077075958252
+      ],
+      "size": [
+        0.035968780517578125,
+        0.10294580459594727,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.000007208689140174422,
+      "nativeBoxCenterErrorM": 0.00001729129500767804,
+      "nativeSizeErrorsM": [
+        0.00003121948242187228,
+        0.00005412101745605469,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -4.909999847412109,
+          1.2799999713897705,
+          1.4769999980926514
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    },
+    {
+      "door": "cab_pivot_006",
+      "sourceName": "BL_Door_1_0_hinge_1.94",
+      "node": "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        0.46999992430210114,
+        0.06800450260440508
+      ],
+      "boxCenter": [
+        0.017984390258789062,
+        0.46999990940093994,
+        0.0680077075958252
+      ],
+      "size": [
+        0.035968780517578125,
+        0.10294556617736816,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.000007206609681258155,
+      "nativeBoxCenterErrorM": 0.000017290986811096557,
+      "nativeSizeErrorsM": [
+        0.00003121948242187228,
+        0.00005447864532470703,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -4.909999847412109,
+          1.2799999713897705,
+          1.4769999980926514
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    },
+    {
+      "door": "cab_pivot_006",
+      "sourceName": "BL_Door_1_0_hinge_1.47",
+      "node": "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        -5.960464477539063e-8,
+        0.06800450260440508
+      ],
+      "boxCenter": [
+        0.017984390258789062,
+        -5.960464477539063e-8,
+        0.0680077075958252
+      ],
+      "size": [
+        0.035968780517578125,
+        0.10294568538665771,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.000007206471029329088,
+      "nativeBoxCenterErrorM": 0.000017290884077681985,
+      "nativeSizeErrorsM": [
+        0.00003121948242187228,
+        0.00005435943603515625,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -4.909999847412109,
+          1.2799999713897705,
+          1.4769999980926514
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    },
+    {
+      "door": "cab_pivot_007",
+      "sourceName": "BL_Door_1_1_hinge_2.38",
+      "node": "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        0.9099998772144318,
+        0.06800450260440508
+      ],
+      "boxCenter": [
+        0.017984509468078613,
+        0.9099998474121094,
+        0.0680077075958252
+      ],
+      "size": [
+        0.03596901893615723,
+        0.10294580459594727,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.000007364083908893521,
+      "nativeBoxCenterErrorM": 0.00001733576896842641,
+      "nativeSizeErrorsM": [
+        0.00003098106384277072,
+        0.00005412101745605469,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -3.9600000381469727,
+          1.2799999713897705,
+          1.4769999980926514
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    },
+    {
+      "door": "cab_pivot_007",
+      "sourceName": "BL_Door_1_1_hinge_1.94",
+      "node": "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        0.46999992430210114,
+        0.06800450260440508
+      ],
+      "boxCenter": [
+        0.017984509468078613,
+        0.46999990940093994,
+        0.0680077075958252
+      ],
+      "size": [
+        0.03596901893615723,
+        0.10294556617736816,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.0000073620483423813234,
+      "nativeBoxCenterErrorM": 0.000017335461562520323,
+      "nativeSizeErrorsM": [
+        0.00003098106384277072,
+        0.00005447864532470703,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -3.9600000381469727,
+          1.2799999713897705,
+          1.4769999980926514
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    },
+    {
+      "door": "cab_pivot_007",
+      "sourceName": "BL_Door_1_1_hinge_1.47",
+      "node": "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+      "vertices": 368,
+      "uniqueVertices": 192,
+      "triangles": 380,
+      "center": [
+        0.01799418528874715,
+        -5.960464477539063e-8,
+        0.06800450260440508
+      ],
+      "boxCenter": [
+        0.017984509468078613,
+        -5.960464477539063e-8,
+        0.0680077075958252
+      ],
+      "size": [
+        0.03596901893615723,
+        0.10294568538665771,
+        0.03596901893615723
+      ],
+      "nativeCentroidErrorM": 0.000007361912617935319,
+      "nativeBoxCenterErrorM": 0.000017335359092673588,
+      "nativeSizeErrorsM": [
+        0.00003098106384277072,
+        0.00005435943603515625,
+        0.00003098106384277072
+      ],
+      "quantization": {
+        "bits": 14,
+        "range": 1.2699999809265137,
+        "min": [
+          -3.9600000381469727,
+          1.2799999713897705,
+          1.4769999980926514
+        ]
+      },
+      "positionQuantizationStepM": 0.00007751937868073697
+    }
+  ],
+  "movingNodes": 24,
+  "stationaryNodes": 826,
+  "stationaryMatrixComparisons": 1708994,
+  "closedDoorChecks": 30816,
+  "maxMatrixError": 4.440892098500626e-16,
+  "maxBarrelCenterDrift": 0.000012508577994018518,
+  "oldMaximumBarrelOrbit": 0.10698321970366993,
+  "legacyRows": [
+    {
+      "kind": "production",
+      "states": 8,
+      "unchanged": true
+    },
+    {
+      "kind": "tyre-v2",
+      "states": 8,
+      "unchanged": true
+    },
+    {
+      "kind": "hood-tyre-v1",
+      "states": 8,
+      "unchanged": true
+    },
+    {
+      "kind": "left-driver-v1",
+      "states": 8,
+      "unchanged": true
+    },
+    {
+      "kind": "cab-va180-v1",
+      "states": 8,
+      "unchanged": true
+    }
+  ],
+  "initialBoxFilterMatches": 0,
+  "inheritedDoorBoxTransport20umAccepted": false,
+  "centroidMotionGateM": 0.00002,
+  "centroidMetric": "Exact-coordinate unique positions: 192 per decoded barrel, matching 192 native evaluated vertices; not a physical mass centroid",
+  "closedGeometryExactAgainstLegacyBinding": true,
+  "sourcePosesUnchanged": true,
+  "repeatedBindingAccumulates": false,
+  "assetBytesUnchanged": true,
+  "productionSelectionUnchanged": true,
+  "limits": [
+    "Numerical sampled actual source-update/binding regression; no browser, camera, render or full loaded-vehicle assembly test",
+    "Twelve decoded barrel components identified by connectivity, 192 unique positions / 380 triangles, native centroid and recorded 14-bit quantization grid; inherited box/size transport 20um check remains failed",
+    "The 20um sampled centroid-motion gate is unchanged and is not a formal whole-angle floating-point bound",
+    "Six closed contact candidates and 52 unresolved frozen pairs remain; no collision or factory-axis acceptance",
+    "Development-only same-GLB motion review; no native master replacement or new asset upload"
+  ],
+  "wholeVehicleAcceptance": "16 OPEN"
+}
