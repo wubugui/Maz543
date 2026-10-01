@@ -1,0 +1,210 @@
+{
+  "status": "PASS_READ_ONLY_FORMULA_AND_STORED_EVIDENCE_REVIEW",
+  "checker_sha256": "040cdd429651790d9314ecdb0ee45b54acb2654612a00ed66d8cefb86d712ce5",
+  "numpy_version": "2.3.5",
+  "python_version": "3.12.14",
+  "committed_input_ref": "a8e72d60f096eed8d4d711887e8af2e83381352f",
+  "input_sha256": {
+    "testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+    "testcar/scripts/door_interval_bounds.py": "b62f1fa79ba988a3874370c0d64565c3c0f023b2c6ba6fb197bb686cd3c41d16",
+    "testcar/scripts/audit-barrel-axis-frozen-intervals.py": "31f4893d65ec6815372291f877f2d5f3838a3df1db0465a777d8307066ec4c78",
+    "testcar/work/cloud-barrel-axis-frozen-intervals-20261001/interval-report.json": "02f9cdfa1c6355322246818990e8eaf77062016f85cb5b8041e5b7bf128e8422",
+    "testcar/work/cloud-barrel-axis-frozen-intervals-20261001/process.json": "f23da0ee1a82effd0a161f6c1d1078a0711f1e58cd7df2e94ea9c763fb90202b",
+    "testcar/work/cloud-barrel-axis-frozen-intervals-20261001/read.log": "7fae46b24df10dfcfc5236428fb7a94e8ede5609bdab94e2a98a20a5b3e1fe2f",
+    "testcar/work/cloud-cab-door-dependencies-20261001/inventory.json": "40e771f244ef6a49f90699f3e60c0e01c6a7885baaea77852fac7d75c891a570",
+    "testcar/work/cloud-original-cab-contact-location-20261001/location-report.json": "21f7325c8fb668c20248dded63a6554c17eb89da46e2f57dbabcd0f796293d60",
+    "testcar/work/cloud-door-barrel-axis-20261001/axis-report.json": "523f0a0936a30042411db574a9a507b505bd0b5b85770d39f6618095895dcd27",
+    "testcar/work/cloud-door-barrel-motion-trial-20261001/trial-report.json": "ce03060e60a7cb0749c18452bb623311383a896b6923ec5941724d3387bc4dd9",
+    "testcar/work/cloud-barrel-axis-frozen-intervals-20261001/cab_pivot_002.json": "43202067fa764969635ca4fd112f7122a723ad45fe452f2417c057989b98bacf",
+    "testcar/work/cloud-barrel-axis-frozen-intervals-20261001/cab_pivot_003.json": "7c1701a293bb78db1223b59d11dab27c3dc7a18cd1e4de1a4f2bdc1cac3df3ad",
+    "testcar/work/cloud-barrel-axis-frozen-intervals-20261001/cab_pivot_006.json": "849792ef66fd25760f324ca84e01fc64edbf194c67d45b9ecb67deb5a4badb9e",
+    "testcar/work/cloud-barrel-axis-frozen-intervals-20261001/cab_pivot_007.json": "26b695bf8d6b0a3b3f68c10b55bd33f0d8f3089a7ac7f0c1fbe8e95dbdec70b5"
+  },
+  "input_hashes_match_reports_and_four_published_inputs": true,
+  "source_sha256_verified": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "complete_cartesian_rows": 17864,
+  "unique_moving_names": 44,
+  "unique_fixed_names": 406,
+  "all_signed_domains_match_trial": true,
+  "refined_interval_partitions_checked": 58,
+  "refined_interval_leaves_checked": 2204,
+  "all_refined_partitions_exactly_cover_closed_request": true,
+  "all_separation_witness_gaps_strictly_positive": true,
+  "counts": {
+    "pairs": 17864,
+    "certified_frozen_pairs": 17812,
+    "unresolved_pairs": 52,
+    "prior261_unresolved": 0,
+    "added145_unresolved": 52,
+    "retained_closed_surface_candidates": 6
+  },
+  "doors": [
+    {
+      "hinge": "cab_pivot_002",
+      "angle_radians": [
+        0.0,
+        1.7278759594743862
+      ],
+      "counts": {
+        "pairs": 4466,
+        "certified_frozen_pairs": 4453,
+        "unresolved_pairs": 13,
+        "prior261_unresolved": 0,
+        "added145_unresolved": 13,
+        "retained_closed_surface_candidates": 1
+      },
+      "refined_pairs": 16,
+      "certified_refined_pairs": 3,
+      "minimum_gap_among_certified_pairs_m": 0.000798705886394302,
+      "stored_closed_reconstruction_error_m": 0.0
+    },
+    {
+      "hinge": "cab_pivot_003",
+      "angle_radians": [
+        0.0,
+        1.7278759594743862
+      ],
+      "counts": {
+        "pairs": 4466,
+        "certified_frozen_pairs": 4453,
+        "unresolved_pairs": 13,
+        "prior261_unresolved": 0,
+        "added145_unresolved": 13,
+        "retained_closed_surface_candidates": 2
+      },
+      "refined_pairs": 13,
+      "certified_refined_pairs": 0,
+      "minimum_gap_among_certified_pairs_m": 0.0026799694854675593,
+      "stored_closed_reconstruction_error_m": 0.0
+    },
+    {
+      "hinge": "cab_pivot_006",
+      "angle_radians": [
+        -1.7278759594743862,
+        0.0
+      ],
+      "counts": {
+        "pairs": 4466,
+        "certified_frozen_pairs": 4453,
+        "unresolved_pairs": 13,
+        "prior261_unresolved": 0,
+        "added145_unresolved": 13,
+        "retained_closed_surface_candidates": 1
+      },
+      "refined_pairs": 16,
+      "certified_refined_pairs": 3,
+      "minimum_gap_among_certified_pairs_m": 0.000798705886394302,
+      "stored_closed_reconstruction_error_m": 0.0
+    },
+    {
+      "hinge": "cab_pivot_007",
+      "angle_radians": [
+        -1.7278759594743862,
+        0.0
+      ],
+      "counts": {
+        "pairs": 4466,
+        "certified_frozen_pairs": 4453,
+        "unresolved_pairs": 13,
+        "prior261_unresolved": 0,
+        "added145_unresolved": 13,
+        "retained_closed_surface_candidates": 2
+      },
+      "refined_pairs": 13,
+      "certified_refined_pairs": 0,
+      "minimum_gap_among_certified_pairs_m": 0.0026799694854675593,
+      "stored_closed_reconstruction_error_m": 0.0
+    }
+  ],
+  "retained_closed_candidates": [
+    {
+      "hinge": "cab_pivot_002",
+      "moving": "BL_Door_-1_0_pressed_shell",
+      "fixed": "cab_0063",
+      "zero_angle_unresolved": true
+    },
+    {
+      "hinge": "cab_pivot_003",
+      "moving": "BL_Door_-1_1_pressed_shell",
+      "fixed": "BL_Cab_-1_side_rivets",
+      "zero_angle_unresolved": true
+    },
+    {
+      "hinge": "cab_pivot_003",
+      "moving": "BL_Door_-1_1_pressed_shell",
+      "fixed": "cab_0063",
+      "zero_angle_unresolved": true
+    },
+    {
+      "hinge": "cab_pivot_006",
+      "moving": "BL_Door_1_0_pressed_shell",
+      "fixed": "cab_0063",
+      "zero_angle_unresolved": true
+    },
+    {
+      "hinge": "cab_pivot_007",
+      "moving": "BL_Door_1_1_pressed_shell",
+      "fixed": "BL_Cab_1_side_rivets",
+      "zero_angle_unresolved": true
+    },
+    {
+      "hinge": "cab_pivot_007",
+      "moving": "BL_Door_1_1_pressed_shell",
+      "fixed": "cab_0063",
+      "zero_angle_unresolved": true
+    }
+  ],
+  "closed_and_stationary_restore_claims_verified_against_committed_trial": true,
+  "unknown_fixed_distribution": {
+    "cab_0062": 32,
+    "BL_Cab_-1_side_rivets": 6,
+    "BL_Cab_-1_side_monocoque": 2,
+    "cab_0063": 4,
+    "BL_Cab_1_side_rivets": 6,
+    "BL_Cab_1_side_monocoque": 2
+  },
+  "unresolved_interval_reasons": {
+    "OVERLAPPING_BOUNDS": 2058
+  },
+  "formula_random_check": {
+    "rng_seed": 913,
+    "points_per_door": 300,
+    "angles_per_door": 123,
+    "point_angle_comparisons": 147600,
+    "maximum_absolute_difference_m": 8.881784197001252e-16,
+    "description": "Direct p+Rz(local-p) compared with analytic coefficients using saved hinge transforms and axis points"
+  },
+  "independent_scalar_extrema_check": {
+    "cases": 1000,
+    "vertices_per_case": 7,
+    "rng_stream": "Continuation of the seed-913 formula-check RNG",
+    "lo_domain_radians": [
+      -20,
+      20
+    ],
+    "width_domain_radians": [
+      0,
+      15
+    ],
+    "all_enclosed": true,
+    "maximum_bound_difference_m": 8.881784197001252e-16,
+    "description": "Independently enumerate phase+k*pi interior stationary points and endpoints per scalar coordinate"
+  },
+  "stock_synthetic_controls": {
+    "between_sample_collision_not_certified": true,
+    "disjoint_full_rotation_certified": true,
+    "budget_exhaustion_unresolved": true,
+    "interior_extrema_retained": true,
+    "random_enclosure_regression": true,
+    "note": "Synthetic regression supports implementation; the analytic enclosure argument establishes interval scope."
+  },
+  "formal_run_terminal_marker_verified": true,
+  "limits": [
+    "No Blender was executed; native evaluated vertices or all pairwise gaps were not independently re-extracted",
+    "Formula random tests use synthetic points and saved actual hinge transforms; they are regression evidence, not native clearance tests",
+    "Analytic enclosure reasoning applies to frozen frame-zero rigid vertex/triangle geometry",
+    "20 micrometre padding is not proved to bound all Blender floating-point error",
+    "Strict dependency eligibility of the previous261fixed parts is not extended to the added145",
+    "Unresolved pairs are not collision counts; no containment test, native promotion, runtime change or whole-vehicle acceptance"
+  ]
+}
