@@ -1,0 +1,112 @@
+[
+  {
+    "file": "MAZ543A_Master.blend",
+    "source_sha256": "d4aa7d9ae0097cb079868bc657e793671688e2e76b6c2035ee3a70bb9454f1a8",
+    "iteration": "02 broad lands and troughs",
+    "fitted_amplitude_m": 0.045,
+    "fitted_transverse_period_m": 0.49,
+    "cosine_to_plateau_smootherstep_range": [
+      -0.5,
+      0.5
+    ],
+    "front_runout_x_m": [
+      -5.56,
+      -5.47
+    ],
+    "rear_runout_x_m": [
+      -4.82,
+      -4.58
+    ],
+    "existing_modifier_stack": [
+      "Hollow stamped cover 8mm",
+      "Expansion filler clearance port",
+      "Manufactured edge radii",
+      "Weighted corner normals",
+      "Separate manufactured cover panel"
+    ],
+    "new_modifier_stack": [
+      "PHOTO fitted continuous relief before shell thickness",
+      "Hollow stamped cover 8mm",
+      "Expansion filler clearance port",
+      "Manufactured edge radii",
+      "Weighted corner normals",
+      "Separate manufactured cover panel"
+    ],
+    "geometry_node_group": "Photo fitted broad front-cover relief | local coordinates",
+    "amplitude_socket_identifier": "Socket_2",
+    "grip_foot_refits": [
+      {
+        "grip": "BL_Photo_front_cover_top_grip_-1",
+        "endpoint_z_shifts_m": [
+          0.0004906864166258629,
+          0.0019171447753905113
+        ]
+      },
+      {
+        "grip": "BL_Photo_front_cover_top_grip_1",
+        "endpoint_z_shifts_m": [
+          0.0019173831939696129,
+          0.0004906864166258629
+        ]
+      }
+    ],
+    "scope": "Only front surface and two grips; all original r3 latch, lip/grille and factory mounting failures remain",
+    "all16VehicleGates": "OPEN",
+    "candidate_sha256": "e86d43f4fee2487accfceb7a73e7112d39c46edfae16b18c7fe08cd3d8ac1476"
+  },
+  {
+    "file": "MAZ543A_Textured.blend",
+    "source_sha256": "d1627ea2cd721b9d7587d284a4bea8aa427bb8d11ea1df8212f904e685afd0dc",
+    "iteration": "02 broad lands and troughs",
+    "fitted_amplitude_m": 0.045,
+    "fitted_transverse_period_m": 0.49,
+    "cosine_to_plateau_smootherstep_range": [
+      -0.5,
+      0.5
+    ],
+    "front_runout_x_m": [
+      -5.56,
+      -5.47
+    ],
+    "rear_runout_x_m": [
+      -4.82,
+      -4.58
+    ],
+    "existing_modifier_stack": [
+      "Hollow stamped cover 8mm",
+      "Expansion filler clearance port",
+      "Manufactured edge radii",
+      "Weighted corner normals",
+      "Separate manufactured cover panel"
+    ],
+    "new_modifier_stack": [
+      "PHOTO fitted continuous relief before shell thickness",
+      "Hollow stamped cover 8mm",
+      "Expansion filler clearance port",
+      "Manufactured edge radii",
+      "Weighted corner normals",
+      "Separate manufactured cover panel"
+    ],
+    "geometry_node_group": "Photo fitted broad front-cover relief | local coordinates",
+    "amplitude_socket_identifier": "Socket_2",
+    "grip_foot_refits": [
+      {
+        "grip": "BL_Photo_front_cover_top_grip_-1",
+        "endpoint_z_shifts_m": [
+          0.0004906864166258629,
+          0.0019171447753905113
+        ]
+      },
+      {
+        "grip": "BL_Photo_front_cover_top_grip_1",
+        "endpoint_z_shifts_m": [
+          0.0019173831939696129,
+          0.0004906864166258629
+        ]
+      }
+    ],
+    "scope": "Only front surface and two grips; all original r3 latch, lip/grille and factory mounting failures remain",
+    "all16VehicleGates": "OPEN",
+    "candidate_sha256": "eb1f0807901e9d2671051bc2c5e071ed43e57be3336f2f275374964bde85fb59"
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "file": "MAZ543A_Master.blend",
+    "candidate_sha256": "e9761a5dec6a8a8b2771e63d47be4bfb86d2a08a68c465edb8bdba518a44aeba",
+    "unchanged_original_geometry_objects_except_front_panel": 8711,
+    "unexpected_changed_original_geometry_objects": [],
+    "zero_amplitude_bidirectional_vertex_set_difference_m": 0.0,
+    "zero_amplitude_source_triangle_index_match": true,
+    "restored_default_exact": true,
+    "modified_parts_topology": {
+      "BL_Front_cover_front_panel": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 0.00830418411333588,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      },
+      "BL_Photo_front_cover_top_grip_-1": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 4.524023282292585e-05,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      },
+      "BL_Photo_front_cover_top_grip_1": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 4.5240275564315995e-05,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      }
+    },
+    "closed_selected_interface_surface_intersections": [
+      {
+        "a": "BL_Front_cover_front_panel",
+        "b": "BL_Photo_front_cover_top_grip_-1",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Front_cover_front_panel",
+        "b": "BL_Photo_front_cover_top_grip_1",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Photo_front_cover_top_grip_-1",
+        "b": "BL_Front_cover_front_panel",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Photo_front_cover_top_grip_1",
+        "b": "BL_Front_cover_front_panel",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      }
+    ],
+    "scope": "Three modified geometries and selected closed interfaces only; not full clearance, containment or continuous service sweep. Inherited r3 failures remain OPEN.",
+    "source_photo_calibration": "Fitted broad relief; no manufacturer pressing dimensions",
+    "file_unchanged": true,
+    "all16VehicleGates": "OPEN"
+  },
+  {
+    "file": "MAZ543A_Textured.blend",
+    "candidate_sha256": "1120bd2f4750c46273216c54e829df27480e0e8ac00a5577e3603df0305b10c1",
+    "unchanged_original_geometry_objects_except_front_panel": 6931,
+    "unexpected_changed_original_geometry_objects": [],
+    "zero_amplitude_bidirectional_vertex_set_difference_m": 0.0,
+    "zero_amplitude_source_triangle_index_match": true,
+    "restored_default_exact": true,
+    "modified_parts_topology": {
+      "BL_Front_cover_front_panel": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 0.00830418411333588,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      },
+      "BL_Photo_front_cover_top_grip_-1": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 4.524023282292585e-05,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      },
+      "BL_Photo_front_cover_top_grip_1": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 4.5240275564315995e-05,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      }
+    },
+    "closed_selected_interface_surface_intersections": [
+      {
+        "a": "BL_Front_cover_front_panel",
+        "b": "BL_Photo_front_cover_top_grip_-1",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Front_cover_front_panel",
+        "b": "BL_Photo_front_cover_top_grip_1",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Photo_front_cover_top_grip_-1",
+        "b": "BL_Front_cover_front_panel",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Photo_front_cover_top_grip_1",
+        "b": "BL_Front_cover_front_panel",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      }
+    ],
+    "scope": "Three modified geometries and selected closed interfaces only; not full clearance, containment or continuous service sweep. Inherited r3 failures remain OPEN.",
+    "source_photo_calibration": "Fitted broad relief; no manufacturer pressing dimensions",
+    "file_unchanged": true,
+    "all16VehicleGates": "OPEN"
+  }
+]

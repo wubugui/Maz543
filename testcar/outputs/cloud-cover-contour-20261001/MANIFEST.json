@@ -1,0 +1,190 @@
+{
+  "stage": "Photo-guided hood relief; independent unaccepted candidate",
+  "files": [
+    {
+      "path": "MAZ543A_Master.blend",
+      "bytes": 65659687,
+      "sha256": "e86d43f4fee2487accfceb7a73e7112d39c46edfae16b18c7fe08cd3d8ac1476"
+    },
+    {
+      "path": "MAZ543A_Master.blend.source-panel.json",
+      "bytes": 419811,
+      "sha256": "3a3a832297579d420e9716bf8d7bb404f11f91137f00a443f766a9792ec1a05e"
+    },
+    {
+      "path": "MAZ543A_Master.blend1",
+      "bytes": 65672080,
+      "sha256": "e9761a5dec6a8a8b2771e63d47be4bfb86d2a08a68c465edb8bdba518a44aeba"
+    },
+    {
+      "path": "MAZ543A_Textured.blend",
+      "bytes": 98655859,
+      "sha256": "eb1f0807901e9d2671051bc2c5e071ed43e57be3336f2f275374964bde85fb59"
+    },
+    {
+      "path": "MAZ543A_Textured.blend.source-panel.json",
+      "bytes": 419811,
+      "sha256": "b8a42d7f145bd0ae0bd1bb1b7298cae06130d5f4062e48b3fea5df66d86e0300"
+    },
+    {
+      "path": "MAZ543A_Textured.blend1",
+      "bytes": 98627081,
+      "sha256": "1120bd2f4750c46273216c54e829df27480e0e8ac00a5577e3603df0305b10c1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4381,
+      "sha256": "9705fb6c65af81a4d32306c12456ede81c4e62007a6ccb8ca2ec3e9efcd18d18"
+    },
+    {
+      "path": "STATE.json",
+      "bytes": 403,
+      "sha256": "126058c11d3a02efb62495c8ca97d1655306e881d58553aa4f52338de1f69269"
+    },
+    {
+      "path": "build-manifest.json",
+      "bytes": 3430,
+      "sha256": "e43f8d9021acb68df0b29a91a605500a5e7b8d60035a6260f13dd114b60f82af"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/MAZ543A_Master.blend",
+      "bytes": 65672080,
+      "sha256": "e9761a5dec6a8a8b2771e63d47be4bfb86d2a08a68c465edb8bdba518a44aeba"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/MAZ543A_Master.blend.source-panel.json",
+      "bytes": 419811,
+      "sha256": "3a3a832297579d420e9716bf8d7bb404f11f91137f00a443f766a9792ec1a05e"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/MAZ543A_Textured.blend",
+      "bytes": 98627081,
+      "sha256": "1120bd2f4750c46273216c54e829df27480e0e8ac00a5577e3603df0305b10c1"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/MAZ543A_Textured.blend.source-panel.json",
+      "bytes": 419811,
+      "sha256": "b8a42d7f145bd0ae0bd1bb1b7298cae06130d5f4062e48b3fea5df66d86e0300"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/STATE.json",
+      "bytes": 524,
+      "sha256": "1601ed9b3282b2a9a44ebb2c47f1b8844066e778d6ff34e5c241cc84a1169ed0"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/build-manifest.json",
+      "bytes": 3174,
+      "sha256": "ae9ae922bcfdf269b9c3463d2cb9cd3085a67a73abf052d724a8a1ea33f4b38e"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/build-script-used.py",
+      "bytes": 6885,
+      "sha256": "bb31f3ee27db3da28afb1821c4012a59b519fb36a5b4ada16aae6c3e8e15e229"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/native-build-master.log",
+      "bytes": 275,
+      "sha256": "e742e2426f43100434dd82c41b7d8a2d3629666cb297b3a2a1376fdfd012cdbb"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/native-build-textured.log",
+      "bytes": 281,
+      "sha256": "a6be95a32541f651f5472608fb612d05f17387c8e34482c29d05b34cf360f34e"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/native-readback-master.log",
+      "bytes": 290,
+      "sha256": "5c7f839518f6fcdd7c600b30eab4d53e728229c9de46fcd4f93443156388b930"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/native-readback-textured.log",
+      "bytes": 294,
+      "sha256": "4686b76a19799826565b0da22340607e574b0a89d4f1dffc315c7f9614003af7"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/native-readback.json",
+      "bytes": 4708,
+      "sha256": "9e6068a95b1893915a7559d04e7ea75d7e9849778cb507d42452023994714f0b"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/native-render.log",
+      "bytes": 2279810,
+      "sha256": "f8992cbda5ef2e939e6d8d5693a4982d03f5b46fd9a4373db1b51392a196bc20"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/photo-contour-front-cover-detail.png",
+      "bytes": 1793550,
+      "sha256": "1754793a359147980ff20e2d69c261d705870d84cbfa37e9e6913e44cf09bda3"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/photo-contour-whole-front.png",
+      "bytes": 2089269,
+      "sha256": "fccd7756c5740edbaabf80a0bd66ceb32b43b78dec141c8188288a30b2335ef6"
+    },
+    {
+      "path": "iteration-01-shallow-cosine/render-provenance.json",
+      "bytes": 3125,
+      "sha256": "51aad601bea2539e99ff62c4b9aff485e9c006a5f154215c70eb3e6ef5ef08f4"
+    },
+    {
+      "path": "native-build-iteration02.log",
+      "bytes": 477,
+      "sha256": "c1cb5c755549f4c90c70f038f0b59686f15a170d3e079331625a9c873e8e65a2"
+    },
+    {
+      "path": "native-build-master.log",
+      "bytes": 275,
+      "sha256": "e742e2426f43100434dd82c41b7d8a2d3629666cb297b3a2a1376fdfd012cdbb"
+    },
+    {
+      "path": "native-build-textured.log",
+      "bytes": 281,
+      "sha256": "a6be95a32541f651f5472608fb612d05f17387c8e34482c29d05b34cf360f34e"
+    },
+    {
+      "path": "native-readback-iteration02.log",
+      "bytes": 505,
+      "sha256": "ba7cddc91933d8e0194e3831e97efb3cfbe7c5917682d4983234815db0d87ccc"
+    },
+    {
+      "path": "native-readback-master.log",
+      "bytes": 290,
+      "sha256": "5c7f839518f6fcdd7c600b30eab4d53e728229c9de46fcd4f93443156388b930"
+    },
+    {
+      "path": "native-readback-textured.log",
+      "bytes": 294,
+      "sha256": "4686b76a19799826565b0da22340607e574b0a89d4f1dffc315c7f9614003af7"
+    },
+    {
+      "path": "native-readback.json",
+      "bytes": 10906,
+      "sha256": "7eb7748e32891394e4242492c0234f3db99fcc96a9e65e24cf7e97dd8003d0db"
+    },
+    {
+      "path": "native-render-iteration02.log",
+      "bytes": 2278937,
+      "sha256": "dfef4828a4318755b99d30ba7e54e11932fd18505edcfac85abff8616e6a6fbb"
+    },
+    {
+      "path": "native-render.log",
+      "bytes": 2279810,
+      "sha256": "f8992cbda5ef2e939e6d8d5693a4982d03f5b46fd9a4373db1b51392a196bc20"
+    },
+    {
+      "path": "photo-contour-front-cover-detail.png",
+      "bytes": 1796527,
+      "sha256": "b430864bc96975cb24cac5363ed6e9f2bdd33d70fda3b5746f487cf1b687537d"
+    },
+    {
+      "path": "photo-contour-whole-front.png",
+      "bytes": 2089191,
+      "sha256": "904cf86c924474592a2d0bf2965f71930a930cb6d274a8710088baaf5dbaa7aa"
+    },
+    {
+      "path": "render-provenance.json",
+      "bytes": 3125,
+      "sha256": "8b13bb7a0f7215c8f7543dbb4248efc1ab97bbbd2358eee9add6847cf16833f6"
+    }
+  ]
+}

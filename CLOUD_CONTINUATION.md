@@ -81,6 +81,18 @@ replacement for the production masters or production GLB.
   OPEN. Same-camera before/after plus a whole-candidate native view are saved.
   The source register has URLs/attribution/limits, without newly obtained photo
   pixels. Continue photo-guided broad cover contours; do not invent latch axes.
+- Photo-guided continuous hood relief:
+  `testcar/outputs/cloud-cover-contour-20261001/README.md`. Two editable vehicle
+  candidates use native local-position Geometry Nodes before the original
+  Solidify to add broad lands and grip troughs. The45mm fit is not an OEM
+  dimension. The28mm shallow-cosine first iteration is retained because its
+  actual images expressed the source shape too weakly. Both new files reopen;
+  zero amplitude recovers the input panel vertices/indices exactly. Five
+  discrete diagnostic states show at most2.173um local vertex-set variation;
+  existing lock/lip failures and all16 gates remain OPEN. Current detail/whole
+  native images were completed and source-SHA-checked; no repeated rendering
+  is needed on continuation. Sources remain the normally obtained A-labelled
+  Flickr/Fototruck photographs, without photo pixels in new public assets.
 
 ## Verified environment and remaining access limits
 

@@ -1,0 +1,306 @@
+[
+  {
+    "file": "MAZ543A_Master.blend",
+    "candidate_sha256": "e86d43f4fee2487accfceb7a73e7112d39c46edfae16b18c7fe08cd3d8ac1476",
+    "unchanged_original_geometry_objects_except_front_panel": 8711,
+    "unexpected_changed_original_geometry_objects": [],
+    "zero_amplitude_bidirectional_vertex_set_difference_m": 0.0,
+    "zero_amplitude_source_triangle_index_match": true,
+    "restored_default_exact": true,
+    "modified_parts_topology": {
+      "BL_Front_cover_front_panel": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 0.00860981673631463,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      },
+      "BL_Photo_front_cover_top_grip_-1": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 4.525245319896848e-05,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      },
+      "BL_Photo_front_cover_top_grip_1": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 4.525246079702351e-05,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      }
+    },
+    "closed_selected_interface_surface_intersections": [
+      {
+        "a": "BL_Front_cover_front_panel",
+        "b": "BL_Photo_front_cover_top_grip_-1",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Front_cover_front_panel",
+        "b": "BL_Photo_front_cover_top_grip_1",
+        "surface_triangle_pairs": 67,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Photo_front_cover_top_grip_-1",
+        "b": "BL_Front_cover_front_panel",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Photo_front_cover_top_grip_1",
+        "b": "BL_Front_cover_front_panel",
+        "surface_triangle_pairs": 67,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      }
+    ],
+    "additional_selected_diagnostic_poses": [
+      {
+        "diagnostic_service_stage": 0.5,
+        "local_vertex_set_deformation_m": {
+          "BL_Front_cover_front_panel": 0.0,
+          "BL_Photo_front_cover_top_grip_-1": 0.0,
+          "BL_Photo_front_cover_top_grip_1": 0.0
+        },
+        "selected_surface_intersections": [
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_-1",
+            "surface_triangle_pairs": 62,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          },
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_1",
+            "surface_triangle_pairs": 67,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          }
+        ]
+      },
+      {
+        "diagnostic_service_stage": 1,
+        "local_vertex_set_deformation_m": {
+          "BL_Front_cover_front_panel": 0.0,
+          "BL_Photo_front_cover_top_grip_-1": 0.0,
+          "BL_Photo_front_cover_top_grip_1": 0.0
+        },
+        "selected_surface_intersections": [
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_-1",
+            "surface_triangle_pairs": 62,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          },
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_1",
+            "surface_triangle_pairs": 67,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          }
+        ]
+      },
+      {
+        "diagnostic_service_stage": 1.5,
+        "local_vertex_set_deformation_m": {
+          "BL_Front_cover_front_panel": 0.0,
+          "BL_Photo_front_cover_top_grip_-1": 0.0,
+          "BL_Photo_front_cover_top_grip_1": 0.0
+        },
+        "selected_surface_intersections": [
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_-1",
+            "surface_triangle_pairs": 62,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          },
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_1",
+            "surface_triangle_pairs": 67,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          }
+        ]
+      },
+      {
+        "diagnostic_service_stage": 2,
+        "local_vertex_set_deformation_m": {
+          "BL_Front_cover_front_panel": 2.1729142645199317e-06,
+          "BL_Photo_front_cover_top_grip_-1": 0.0,
+          "BL_Photo_front_cover_top_grip_1": 0.0
+        },
+        "selected_surface_intersections": [
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_-1",
+            "surface_triangle_pairs": 62,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          },
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_1",
+            "surface_triangle_pairs": 67,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          }
+        ]
+      }
+    ],
+    "scope": "Three modified geometries and selected interfaces in five discrete states only; not full clearance, containment or continuous service sweep. Inherited r3 failures remain OPEN.",
+    "source_photo_calibration": "Fitted broad relief; no manufacturer pressing dimensions",
+    "file_unchanged": true,
+    "all16VehicleGates": "OPEN"
+  },
+  {
+    "file": "MAZ543A_Textured.blend",
+    "candidate_sha256": "eb1f0807901e9d2671051bc2c5e071ed43e57be3336f2f275374964bde85fb59",
+    "unchanged_original_geometry_objects_except_front_panel": 6931,
+    "unexpected_changed_original_geometry_objects": [],
+    "zero_amplitude_bidirectional_vertex_set_difference_m": 0.0,
+    "zero_amplitude_source_triangle_index_match": true,
+    "restored_default_exact": true,
+    "modified_parts_topology": {
+      "BL_Front_cover_front_panel": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 0.00860981673631463,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      },
+      "BL_Photo_front_cover_top_grip_-1": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 4.525245319896848e-05,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      },
+      "BL_Photo_front_cover_top_grip_1": {
+        "non_manifold_edges": 0,
+        "non_manifold_vertices": 0,
+        "volume_m3": 4.525246079702351e-05,
+        "degenerate_faces": 0,
+        "nonadjacent_self_intersections": 0
+      }
+    },
+    "closed_selected_interface_surface_intersections": [
+      {
+        "a": "BL_Front_cover_front_panel",
+        "b": "BL_Photo_front_cover_top_grip_-1",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Front_cover_front_panel",
+        "b": "BL_Photo_front_cover_top_grip_1",
+        "surface_triangle_pairs": 67,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Photo_front_cover_top_grip_-1",
+        "b": "BL_Front_cover_front_panel",
+        "surface_triangle_pairs": 62,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      },
+      {
+        "a": "BL_Photo_front_cover_top_grip_1",
+        "b": "BL_Front_cover_front_panel",
+        "surface_triangle_pairs": 67,
+        "status": "REPORTED_UNVALIDATED_INTERFACE"
+      }
+    ],
+    "additional_selected_diagnostic_poses": [
+      {
+        "diagnostic_service_stage": 0.5,
+        "local_vertex_set_deformation_m": {
+          "BL_Front_cover_front_panel": 0.0,
+          "BL_Photo_front_cover_top_grip_-1": 0.0,
+          "BL_Photo_front_cover_top_grip_1": 0.0
+        },
+        "selected_surface_intersections": [
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_-1",
+            "surface_triangle_pairs": 62,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          },
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_1",
+            "surface_triangle_pairs": 67,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          }
+        ]
+      },
+      {
+        "diagnostic_service_stage": 1,
+        "local_vertex_set_deformation_m": {
+          "BL_Front_cover_front_panel": 0.0,
+          "BL_Photo_front_cover_top_grip_-1": 0.0,
+          "BL_Photo_front_cover_top_grip_1": 0.0
+        },
+        "selected_surface_intersections": [
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_-1",
+            "surface_triangle_pairs": 62,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          },
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_1",
+            "surface_triangle_pairs": 67,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          }
+        ]
+      },
+      {
+        "diagnostic_service_stage": 1.5,
+        "local_vertex_set_deformation_m": {
+          "BL_Front_cover_front_panel": 0.0,
+          "BL_Photo_front_cover_top_grip_-1": 0.0,
+          "BL_Photo_front_cover_top_grip_1": 0.0
+        },
+        "selected_surface_intersections": [
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_-1",
+            "surface_triangle_pairs": 62,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          },
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_1",
+            "surface_triangle_pairs": 67,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          }
+        ]
+      },
+      {
+        "diagnostic_service_stage": 2,
+        "local_vertex_set_deformation_m": {
+          "BL_Front_cover_front_panel": 2.1729142645199317e-06,
+          "BL_Photo_front_cover_top_grip_-1": 0.0,
+          "BL_Photo_front_cover_top_grip_1": 0.0
+        },
+        "selected_surface_intersections": [
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_-1",
+            "surface_triangle_pairs": 62,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          },
+          {
+            "a": "BL_Front_cover_front_panel",
+            "b": "BL_Photo_front_cover_top_grip_1",
+            "surface_triangle_pairs": 67,
+            "status": "REPORTED_UNVALIDATED_INTERFACE"
+          }
+        ]
+      }
+    ],
+    "scope": "Three modified geometries and selected interfaces in five discrete states only; not full clearance, containment or continuous service sweep. Inherited r3 failures remain OPEN.",
+    "source_photo_calibration": "Fitted broad relief; no manufacturer pressing dimensions",
+    "file_unchanged": true,
+    "all16VehicleGates": "OPEN"
+  }
+]
