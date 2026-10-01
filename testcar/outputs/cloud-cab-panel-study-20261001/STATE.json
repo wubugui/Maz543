@@ -1,0 +1,41 @@
+{
+  "stage": "independent-cab-panel-layout-study-20261001",
+  "status": "SCOPED_NATIVE_STRUCTURE_PASS_WITH_SOURCE_AND_INSTALLATION_UNKNOWNS",
+  "study_file": "study.blend",
+  "study_sha256": "d6a5e8ab83202ac9368acda79fdd41120a62bdce2ebbf23728852d20183beda3",
+  "production_opened_or_modified": false,
+  "installed_in_vehicle": false,
+  "promoted": false,
+  "rendered_by_builder": false,
+  "visual_review": "THREE_NATIVE_VIEWS_INSPECTED_STRUCTURE_ONLY",
+  "builder": "testcar/scripts/build-cloud-cab-panel-study.py",
+  "fresh_readback_script": "testcar/scripts/readback-cloud-cab-panel-study.py",
+  "readback": "native-readback.json",
+  "source_registry": "source-registry.json",
+  "closed_finite_positive_volume_solids": 247,
+  "claimed_closed_solids": 247,
+  "actual_open_holes": 57,
+  "left_major_instruments": 14,
+  "left_small_control_proxies": 32,
+  "right_physical_control_and_lamp_positions": 9,
+  "right_caption_functions": 8,
+  "caption_drawing_conflicts": [
+    56,
+    57,
+    63,
+    64
+  ],
+  "dimensions_and_materials": "FITTED",
+  "calibrated_scale_graduations": false,
+  "exact_internal_mechanisms": false,
+  "electrical_or_mechanical_simulation": false,
+  "source_pixels_packed_or_copied_to_artifact": false,
+  "failed_geometry_candidates": [],
+  "all_16_whole_vehicle_acceptance_gates": "OPEN",
+  "actual_render_provenance": "render-provenance.json",
+  "visual_review_limits": [
+    "Front, oblique and rear views show complete study without cropped solids",
+    "Strong glass reflections and blank faces do not establish original dial printing or material appearance",
+    "Rear housings are fitted proxies; no connectors, wiring, internal mechanisms or cabin installation validated"
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "status": "SUPPLEMENTARY_REFERENCE_ONLY_NOT_FACTORY_INSTALLATION_ACCEPTANCE",
+  "retrieved_utc_date": "2026-10-01",
+  "source_pixels_publication": "Original photos/PDF stay in local research cache; no new source pixels packed into models or public repository. Metadata and own observations only.",
+  "sources": [
+    {
+      "id": "avtopribor-sp110",
+      "url": "https://avtopribor.ru/upload/pdf/katalog_npk_avtopribor.pdf",
+      "role": "Manufacturer catalogue, actual PDF physicalpage24/printedpage23 viewed",
+      "file": "avtopribor-manufacturer-catalog.pdf",
+      "facts": {
+        "part": "СП110-3802010",
+        "indication_speed_kmh": [
+          0,
+          100
+        ],
+        "measurement_speed_kmh": ">20–80",
+        "case_installation_diameter_mm": 85,
+        "drive_sensor": "МЭ302В"
+      },
+      "limits": "Diameter is case mounting size, not front bezel. Publication revision and equivalence to the1977SP110 installation are not established."
+    },
+    {
+      "id": "va180-device-photo",
+      "url": "https://zapadpribor.com/va-180/",
+      "image_url": "https://zapadpribor.com/static/images/catalog/8330/800x600/va-180-photo-1.jpg",
+      "file": "va180-direct-device-photo.jpg",
+      "role": "Direct supplier device photograph, pixels viewed",
+      "observed": "Gray housing, upper arc-shaped window, adjustment screw and lower pushbutton; supports a VA180-style reading of drawing slotB4 only as an inference.",
+      "limits": "Photographed rating/version and provenance to a1977MAZ543A not independently established; no metric calibration from photo."
+    },
+    {
+      "id": "dtf-removed-panel",
+      "url": "https://dtf.ru/snowrunner/4141704-snowrunner-sravnenie-zikz-612h-s-maz-543",
+      "image_url": "https://leonardo.osnova.io/5fb29829-af12-50e6-951b-e98c416576b0/-/scale_crop/592x/",
+      "file": "dtf-panel-explanation.webp",
+      "actual_mime": "image/png",
+      "author_attribution": "WolfPRo article dated2025-11-17; original photographer not established",
+      "observed": "Real removed panel shows lower-left speedometer with odometer, lower-middle VA180-style button face, and upper-middle pressure-style face. One upper-left instrument is absent.",
+      "limits": "Specific vehicle variant/year unknown. Upper edge differs from1977U-notch drawing; cannot overwrite baseline contour or silently resolve caption-number conflicts."
+    },
+    {
+      "id": "dtf-installed-panel",
+      "url": "https://dtf.ru/snowrunner/4141704-snowrunner-sravnenie-zikz-612h-s-maz-543",
+      "image_url": "https://leonardo.osnova.io/8467a86c-f0d9-5f6f-8b0c-22204ed4ba7d/-/scale_crop/592x/",
+      "file": "dtf-switch-placement.webp",
+      "observed": "Actual installed panel close-up exposes lower controls and adjacent column-mounted mechanism/pipes.",
+      "limits": "Variant/year and exact mechanism identity not established; no assumed mounting angle, hole dimensions or pipe functions."
+    }
+  ],
+  "file_integrity": {
+    "va180-direct-device-photo.jpg": {
+      "bytes": 23178,
+      "sha256": "25d57abdc98c22944b0b453c4a2eb8dc9d0e2e71bb25b7f95e53649221822c80"
+    },
+    "avtopribor-manufacturer-catalog.pdf": {
+      "bytes": 2115725,
+      "sha256": "4588576a51875016c9721ae63652e7352c0a5484afc181a2f22c2c16db36bca8"
+    },
+    "dtf-panel-explanation.webp": {
+      "bytes": 418361,
+      "sha256": "562904639d5554b7d44510abec951b8131d500ca8b794aa12d03b8ffaf480a57"
+    },
+    "dtf-switch-placement.webp": {
+      "bytes": 64407,
+      "sha256": "2a43639be85365c47e58442aa0e480797f48e47dc31a7bec7eb0c2a057dcedf0"
+    }
+  },
+  "rejected_or_unavailable_leads": [
+    {
+      "url": "https://www.valka.cz/SOV-MAZ-543-t14557#157966",
+      "reason": "Cab photos explicitly captionedMAZ543M; not accepted as543A installation evidence."
+    },
+    {
+      "url": "https://muromteplovoz.ru/en/product/sim_maz-543.php",
+      "reason": "Web decoding failure then normal HTTPS fetch returned500. No simulator screenshot accepted as real-cab evidence."
+    }
+  ],
+  "all16VehicleGates": "OPEN"
+}

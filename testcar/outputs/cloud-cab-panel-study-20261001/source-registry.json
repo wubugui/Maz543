@@ -1,0 +1,528 @@
+{
+  "study": "MAZ543A cab panels — independent fitted native layout study",
+  "status": "NOT INSTALLED; no promotion; all 16 whole-vehicle acceptance gates OPEN",
+  "scope": "Two panel silhouettes, through-holes, separate instrument/control proxy bodies; no calibrated instrument faces or functional simulation",
+  "sources": [
+    {
+      "id": "M1977-F101",
+      "title": "MAZ543 technical description, 1977, Fig101, pp174–175",
+      "url": "https://djvu.online/file/zjMdLY3MFjmTL",
+      "local_research_file": "testcar/work/cloud-cab-reference-20261001/p174-175.png",
+      "sha256": "4cafc236312b65f7a43214dddfa55bd5a16f5a105f083100d1ba397e539a2ef9",
+      "pixels_inspected": true,
+      "pixels_embedded": false,
+      "observed": "14 circular instrument positions, 2 rows of7; central upper U cutout; asymmetric lower/right extension; numerous smaller control silhouettes",
+      "source_review_plane": [
+        1376,
+        1818
+      ],
+      "scan_native_pixels": [
+        3327,
+        4397
+      ],
+      "limits": "Undimensioned scan, fitted projected layout, not metrology or a factory fabrication drawing"
+    },
+    {
+      "id": "M1977-F102",
+      "title": "MAZ543 technical description, 1977, Fig102, p176",
+      "url": "https://djvu.online/file/zjMdLY3MFjmTL",
+      "local_research_file": "testcar/work/cloud-cab-reference-20261001/p176-177.png",
+      "sha256": "15274f072b216942d4183404c8bb1d6de9ffaa1ed394bd19f952febefaf60da7",
+      "pixels_inspected": true,
+      "pixels_embedded": false,
+      "source_review_plane": [
+        1818,
+        1376
+      ],
+      "scan_native_pixels": [
+        4397,
+        3327
+      ],
+      "observed": "Auxiliary controls, two thermal fuses, large task lamp; no engine-gauge cluster; tall unidentified two-slot strip",
+      "limits": "Undimensioned, no scale transfer between left/right figures; right width is independently fitted"
+    },
+    {
+      "id": "VA180-supplement",
+      "local_research_file": "testcar/work/cloud-cab-reference-20261001/va180-direct-device-photo.jpg",
+      "sha256": "25d57abdc98c22944b0b453c4a2eb8dc9d0e2e71bb25b7f95e53649221822c80",
+      "pixels_inspected": true,
+      "pixels_embedded": false,
+      "observed": "Gray round housing, upper arcuate window, lower button",
+      "inference": "B4 drawing silhouette resembles VA180; this does not reconcile manual leader64 with caption64 fan switch",
+      "unknown": "Photographed rating/version, exact1977 vehicle compatibility and physical dimensions unverified",
+      "url": "https://zapadpribor.com/va-180/",
+      "image_url": "https://zapadpribor.com/static/images/catalog/8330/800x600/va-180-photo-1.jpg"
+    },
+    {
+      "id": "DTF-removed-panel",
+      "url": "https://dtf.ru/snowrunner/4141704-snowrunner-sravnenie-zikz-612h-s-maz-543",
+      "local_research_file": "testcar/work/cloud-cab-reference-20261001/dtf-panel-explanation.webp",
+      "sha256": "562904639d5554b7d44510abec951b8131d500ca8b794aa12d03b8ffaf480a57",
+      "pixels_inspected": true,
+      "pixels_embedded": false,
+      "observed": "Real removed panel shows lower-left speedometer with odometer, lower-middle VA180-style button face, and upper-middle pressure-style face. One upper-left instrument is absent.",
+      "limits": "Specific vehicle variant/year unknown. Upper edge differs from1977U-notch drawing; cannot overwrite baseline contour or silently resolve caption-number conflicts.",
+      "attribution": "WolfPRo article dated2025-11-17; original photographer not established"
+    },
+    {
+      "id": "DTF-installed-panel",
+      "url": "https://dtf.ru/snowrunner/4141704-snowrunner-sravnenie-zikz-612h-s-maz-543",
+      "local_research_file": "testcar/work/cloud-cab-reference-20261001/dtf-switch-placement.webp",
+      "sha256": "2a43639be85365c47e58442aa0e480797f48e47dc31a7bec7eb0c2a057dcedf0",
+      "pixels_inspected": true,
+      "pixels_embedded": false,
+      "observed": "Actual installed panel close-up exposes lower controls and adjacent column-mounted mechanism/pipes.",
+      "limits": "Variant/year and exact mechanism identity not established; no assumed mounting angle, hole dimensions or pipe functions."
+    }
+  ],
+  "caption_functions": {
+    "56": "speedometer",
+    "57": "pneumatic air pressure",
+    "58": "engine tachometer",
+    "59": "coolant temperature",
+    "60": "engine oil pressure",
+    "61": "engine oil temperature",
+    "62": "gearbox lubrication pressure",
+    "63": "voltammeter",
+    "64": "fan switch",
+    "65": "fuel level",
+    "66": "gearbox oil temperature",
+    "67": "gearbox boosters oil pressure",
+    "68": "converter oil temperature",
+    "69": "converter outlet oil pressure",
+    "70": "engine running hours"
+  },
+  "physical_instruments": [
+    {
+      "slot_id": "A1",
+      "drawing_leader": 58,
+      "caption_function_id": 58,
+      "caption_function": "engine tachometer",
+      "source_review_plane_xy": [
+        347,
+        1078
+      ],
+      "source_review_plane_radius": 34,
+      "center_local_m": [
+        -0.37394919168591223,
+        0.1066974595842956
+      ],
+      "fitted_face_radius_m": 0.03454965357967667,
+      "visual_kind": "round_pointer",
+      "mapping_conflict": false,
+      "root_object": "LEFT A1 / drawing leader 58",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "A2",
+      "drawing_leader": 59,
+      "caption_function_id": 59,
+      "caption_function": "coolant temperature",
+      "source_review_plane_xy": [
+        432,
+        1078
+      ],
+      "source_review_plane_radius": 32,
+      "center_local_m": [
+        -0.28757505773672054,
+        0.1066974595842956
+      ],
+      "fitted_face_radius_m": 0.03251732101616628,
+      "visual_kind": "round_pointer",
+      "mapping_conflict": false,
+      "root_object": "LEFT A2 / drawing leader 59",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "A3",
+      "drawing_leader": 61,
+      "caption_function_id": 61,
+      "caption_function": "engine oil temperature",
+      "source_review_plane_xy": [
+        519,
+        1078
+      ],
+      "source_review_plane_radius": 32,
+      "center_local_m": [
+        -0.19916859122401845,
+        0.1066974595842956
+      ],
+      "fitted_face_radius_m": 0.03251732101616628,
+      "visual_kind": "round_pointer",
+      "mapping_conflict": false,
+      "root_object": "LEFT A3 / drawing leader 61",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "A4",
+      "drawing_leader": 63,
+      "caption_function_id": 63,
+      "caption_function": "voltammeter",
+      "source_review_plane_xy": [
+        608,
+        1078
+      ],
+      "source_review_plane_radius": 32,
+      "center_local_m": [
+        -0.108729792147806,
+        0.1066974595842956
+      ],
+      "fitted_face_radius_m": 0.03251732101616628,
+      "visual_kind": "pressure_style_unassigned",
+      "mapping_conflict": true,
+      "root_object": "LEFT A4 / drawing leader 63",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "A5",
+      "drawing_leader": 66,
+      "caption_function_id": 66,
+      "caption_function": "gearbox oil temperature",
+      "source_review_plane_xy": [
+        785,
+        1078
+      ],
+      "source_review_plane_radius": 32,
+      "center_local_m": [
+        0.07113163972286374,
+        0.1066974595842956
+      ],
+      "fitted_face_radius_m": 0.03251732101616628,
+      "visual_kind": "round_pointer",
+      "mapping_conflict": false,
+      "root_object": "LEFT A5 / drawing leader 66",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "A6",
+      "drawing_leader": 68,
+      "caption_function_id": 68,
+      "caption_function": "converter oil temperature",
+      "source_review_plane_xy": [
+        875,
+        1078
+      ],
+      "source_review_plane_radius": 32,
+      "center_local_m": [
+        0.1625866050808314,
+        0.1066974595842956
+      ],
+      "fitted_face_radius_m": 0.03251732101616628,
+      "visual_kind": "round_pointer",
+      "mapping_conflict": false,
+      "root_object": "LEFT A6 / drawing leader 68",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "A7",
+      "drawing_leader": 70,
+      "caption_function_id": 70,
+      "caption_function": "engine running hours",
+      "source_review_plane_xy": [
+        960,
+        1082
+      ],
+      "source_review_plane_radius": 32,
+      "center_local_m": [
+        0.24896073903002308,
+        0.10263279445727481
+      ],
+      "fitted_face_radius_m": 0.03251732101616628,
+      "visual_kind": "counter_window_unmarked",
+      "mapping_conflict": false,
+      "root_object": "LEFT A7 / drawing leader 70",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "B1",
+      "drawing_leader": 57,
+      "caption_function_id": 57,
+      "caption_function": "pneumatic air pressure",
+      "source_review_plane_xy": [
+        355,
+        1188
+      ],
+      "source_review_plane_radius": 42,
+      "center_local_m": [
+        -0.3658198614318706,
+        -0.005080831408775981
+      ],
+      "fitted_face_radius_m": 0.04267898383371824,
+      "visual_kind": "speedometer_style_unassigned",
+      "mapping_conflict": true,
+      "root_object": "LEFT B1 / drawing leader 57",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "B2",
+      "drawing_leader": 60,
+      "caption_function_id": 60,
+      "caption_function": "engine oil pressure",
+      "source_review_plane_xy": [
+        451,
+        1188
+      ],
+      "source_review_plane_radius": 31,
+      "center_local_m": [
+        -0.2682678983833718,
+        -0.005080831408775981
+      ],
+      "fitted_face_radius_m": 0.031501154734411084,
+      "visual_kind": "round_pointer",
+      "mapping_conflict": false,
+      "root_object": "LEFT B2 / drawing leader 60",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "B3",
+      "drawing_leader": 62,
+      "caption_function_id": 62,
+      "caption_function": "gearbox lubrication pressure",
+      "source_review_plane_xy": [
+        540,
+        1188
+      ],
+      "source_review_plane_radius": 31,
+      "center_local_m": [
+        -0.17782909930715934,
+        -0.005080831408775981
+      ],
+      "fitted_face_radius_m": 0.031501154734411084,
+      "visual_kind": "round_pointer",
+      "mapping_conflict": false,
+      "root_object": "LEFT B3 / drawing leader 62",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "B4",
+      "drawing_leader": 64,
+      "caption_function_id": 64,
+      "caption_function": "fan switch",
+      "source_review_plane_xy": [
+        627,
+        1188
+      ],
+      "source_review_plane_radius": 32,
+      "center_local_m": [
+        -0.08942263279445727,
+        -0.005080831408775981
+      ],
+      "fitted_face_radius_m": 0.03251732101616628,
+      "visual_kind": "VA180_style_inference_unassigned",
+      "mapping_conflict": true,
+      "root_object": "LEFT B4 / drawing leader 64",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "B5",
+      "drawing_leader": 65,
+      "caption_function_id": 65,
+      "caption_function": "fuel level",
+      "source_review_plane_xy": [
+        715,
+        1188
+      ],
+      "source_review_plane_radius": 31,
+      "center_local_m": [
+        0.0,
+        -0.005080831408775981
+      ],
+      "fitted_face_radius_m": 0.031501154734411084,
+      "visual_kind": "round_pointer",
+      "mapping_conflict": false,
+      "root_object": "LEFT B5 / drawing leader 65",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "B6",
+      "drawing_leader": 67,
+      "caption_function_id": 67,
+      "caption_function": "gearbox boosters oil pressure",
+      "source_review_plane_xy": [
+        802,
+        1188
+      ],
+      "source_review_plane_radius": 31,
+      "center_local_m": [
+        0.08840646651270206,
+        -0.005080831408775981
+      ],
+      "fitted_face_radius_m": 0.031501154734411084,
+      "visual_kind": "round_pointer",
+      "mapping_conflict": false,
+      "root_object": "LEFT B6 / drawing leader 67",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    },
+    {
+      "slot_id": "B7",
+      "drawing_leader": 69,
+      "caption_function_id": 69,
+      "caption_function": "converter outlet oil pressure",
+      "source_review_plane_xy": [
+        890,
+        1188
+      ],
+      "source_review_plane_radius": 31,
+      "center_local_m": [
+        0.17782909930715934,
+        -0.005080831408775981
+      ],
+      "fitted_face_radius_m": 0.031501154734411084,
+      "visual_kind": "round_pointer",
+      "mapping_conflict": false,
+      "root_object": "LEFT B7 / drawing leader 69",
+      "scale_graduations": "NOT MODELED",
+      "dimension_status": "FITTED"
+    }
+  ],
+  "conflicts": [
+    {
+      "drawing_leader": 56,
+      "physical_position": "C01 small control",
+      "caption": "speedometer",
+      "resolution": "OPEN"
+    },
+    {
+      "drawing_leader": 57,
+      "physical_position": "B1 speedometer-like silhouette",
+      "caption": "pneumatic air pressure",
+      "resolution": "OPEN"
+    },
+    {
+      "drawing_leader": 63,
+      "physical_position": "A4 pressure-style silhouette",
+      "caption": "voltammeter",
+      "resolution": "OPEN"
+    },
+    {
+      "drawing_leader": 64,
+      "physical_position": "B4 VA180-like silhouette",
+      "caption": "fan switch",
+      "resolution": "OPEN"
+    }
+  ],
+  "right_caption_layout": [
+    {
+      "slot": "R1",
+      "source_review_plane_xy": [
+        457,
+        379
+      ],
+      "caption": "Fig102:1 fan switch"
+    },
+    {
+      "slot": "R2",
+      "source_review_plane_xy": [
+        440,
+        466
+      ],
+      "caption": "Fig102:2 water-heater switch"
+    },
+    {
+      "slot": "R3",
+      "source_review_plane_xy": [
+        377,
+        466
+      ],
+      "caption": "Fig102:3 cab ceiling-light switch"
+    },
+    {
+      "slot": "R4",
+      "source_review_plane_xy": [
+        313,
+        466
+      ],
+      "caption": "Fig102:4 panel illumination switch"
+    },
+    {
+      "slot": "R5",
+      "source_review_plane_xy": [
+        326,
+        280
+      ],
+      "caption": "Fig102:5 plug socket"
+    },
+    {
+      "slot": "R6a",
+      "source_review_plane_xy": [
+        328,
+        380
+      ],
+      "caption": "Fig102:6 thermal fuse, left"
+    },
+    {
+      "slot": "R6b",
+      "source_review_plane_xy": [
+        392,
+        380
+      ],
+      "caption": "Fig102:6 thermal fuse, right"
+    },
+    {
+      "slot": "R8",
+      "source_review_plane_xy": [
+        500,
+        288
+      ],
+      "caption": "Fig102:8 driver-signal button"
+    },
+    {
+      "slot": "R7",
+      "source_review_plane_xy": [
+        421,
+        231
+      ],
+      "caption": "Fig102:7 task lamp, not gauge"
+    }
+  ],
+  "model_range_data": {
+    "status": "Not independently pixel-checked by this builder; parent researcher has pp29 and218–220 evidence. No calibrated scales were created."
+  },
+  "fitted_parameters": {
+    "left_nominal_review_width_m": 0.88,
+    "left_thickness_m": 0.003,
+    "right_nominal_review_width_m": 0.335,
+    "right_thickness_m": 0.003,
+    "left_review_px_to_m": 0.0010161662817551962,
+    "right_review_px_to_m": 0.0009029649595687332,
+    "all_hole_centers_and_diameters": "FITTED",
+    "all_body_depths": "FITTED",
+    "display_separation": "NOT installation",
+    "materials": "FITTED DISPLAY"
+  },
+  "unknowns": [
+    "factory dimensions and tolerance",
+    "exact part diameters and rear depths",
+    "correct ambiguous caption-to-position mapping",
+    "legible scale graduation locations",
+    "exact internal mechanisms",
+    "electrical connections and causal simulation",
+    "original finish/material specification",
+    "fasteners and rear mounting construction",
+    "panel fold angles and bend radii",
+    "true cab installation and clearance"
+  ],
+  "omissions": [
+    "No calibrated graduations, numerals, units or factory markings",
+    "No inferred electrical operation or internal mechanism",
+    "No mounting fasteners or guessed threads",
+    "No claim every left small control is functionally identified",
+    "No vehicle installation"
+  ],
+  "geometry_method": "Blender native primitives and 2D source curves, native convert, Solidify, Boolean, Bevel; no scripted manual mesh construction",
+  "source_pixel_policy": "Local research only; no images loaded into Blender or copied to output",
+  "supplementary_register": "testcar/reference/cab-panel-supplementary-20261001.json; includes manufacturer SP110-3802010 later catalogue mounting diameter85mm (not bezel), without asserting1977 compatibility"
+}

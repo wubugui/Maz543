@@ -1,0 +1,918 @@
+{
+  "blender": "4.5.13 LTS",
+  "blender_build_hash": "daeeeca98fb0",
+  "study_axes": "XY panel plane; +Z outward; display separation is not vehicle installation",
+  "panel_objects": [
+    "LEFT PANEL — real openings / fitted silhouette",
+    "RIGHT PANEL — real openings / fitted silhouette"
+  ],
+  "auxiliary_plate_objects": [
+    "RIGHT UNIDENTIFIED VERTICAL STRIP — fitted"
+  ],
+  "claimed_closed_solids": [
+    "LEFT PANEL — real openings / fitted silhouette",
+    "RIGHT PANEL — real openings / fitted silhouette",
+    "LEFT A1 separate rear body",
+    "LEFT A1 blank face",
+    "LEFT A1 independent bezel",
+    "LEFT A1 uncalibrated pointer",
+    "LEFT A1 uncalibrated pointer pivot",
+    "LEFT A1 separate cover glass",
+    "LEFT A2 separate rear body",
+    "LEFT A2 blank face",
+    "LEFT A2 independent bezel",
+    "LEFT A2 uncalibrated pointer",
+    "LEFT A2 uncalibrated pointer pivot",
+    "LEFT A2 separate cover glass",
+    "LEFT A2 observed upper arch proxy",
+    "LEFT A3 separate rear body",
+    "LEFT A3 blank face",
+    "LEFT A3 independent bezel",
+    "LEFT A3 uncalibrated pointer",
+    "LEFT A3 uncalibrated pointer pivot",
+    "LEFT A3 separate cover glass",
+    "LEFT A3 observed upper arch proxy",
+    "LEFT A4 separate rear body",
+    "LEFT A4 blank face",
+    "LEFT A4 independent bezel",
+    "LEFT A4 uncalibrated pointer",
+    "LEFT A4 uncalibrated pointer pivot",
+    "LEFT A4 separate cover glass",
+    "LEFT A4 observed upper arch proxy",
+    "LEFT A5 separate rear body",
+    "LEFT A5 blank face",
+    "LEFT A5 independent bezel",
+    "LEFT A5 uncalibrated pointer",
+    "LEFT A5 uncalibrated pointer pivot",
+    "LEFT A5 separate cover glass",
+    "LEFT A5 observed upper arch proxy",
+    "LEFT A6 separate rear body",
+    "LEFT A6 blank face",
+    "LEFT A6 independent bezel",
+    "LEFT A6 uncalibrated pointer",
+    "LEFT A6 uncalibrated pointer pivot",
+    "LEFT A6 separate cover glass",
+    "LEFT A6 observed upper arch proxy",
+    "LEFT A7 separate rear body",
+    "LEFT A7 blank face",
+    "LEFT A7 independent bezel",
+    "LEFT A7 empty counter window",
+    "LEFT A7 counter aperture proxy",
+    "LEFT A7 separate cover glass",
+    "LEFT B1 separate rear body",
+    "LEFT B1 blank face",
+    "LEFT B1 independent bezel",
+    "LEFT B1 empty counter window",
+    "LEFT B1 counter aperture proxy",
+    "LEFT B1 uncalibrated pointer",
+    "LEFT B1 uncalibrated pointer pivot",
+    "LEFT B1 separate cover glass",
+    "LEFT B2 separate rear body",
+    "LEFT B2 blank face",
+    "LEFT B2 independent bezel",
+    "LEFT B2 uncalibrated pointer",
+    "LEFT B2 uncalibrated pointer pivot",
+    "LEFT B2 separate cover glass",
+    "LEFT B2 observed upper arch proxy",
+    "LEFT B3 separate rear body",
+    "LEFT B3 blank face",
+    "LEFT B3 independent bezel",
+    "LEFT B3 uncalibrated pointer",
+    "LEFT B3 uncalibrated pointer pivot",
+    "LEFT B3 separate cover glass",
+    "LEFT B3 observed upper arch proxy",
+    "LEFT B4 separate rear body",
+    "LEFT B4 blank face",
+    "LEFT B4 independent bezel",
+    "LEFT B4 uncalibrated arc-window silhouette",
+    "LEFT B4 observed lower-button proxy",
+    "LEFT B4 uncalibrated pointer",
+    "LEFT B4 uncalibrated pointer pivot",
+    "LEFT B4 separate cover glass",
+    "LEFT B5 separate rear body",
+    "LEFT B5 blank face",
+    "LEFT B5 independent bezel",
+    "LEFT B5 uncalibrated pointer",
+    "LEFT B5 uncalibrated pointer pivot",
+    "LEFT B5 separate cover glass",
+    "LEFT B6 separate rear body",
+    "LEFT B6 blank face",
+    "LEFT B6 independent bezel",
+    "LEFT B6 uncalibrated pointer",
+    "LEFT B6 uncalibrated pointer pivot",
+    "LEFT B6 separate cover glass",
+    "LEFT B6 observed upper arch proxy",
+    "LEFT B7 separate rear body",
+    "LEFT B7 blank face",
+    "LEFT B7 independent bezel",
+    "LEFT B7 uncalibrated pointer",
+    "LEFT B7 uncalibrated pointer pivot",
+    "LEFT B7 separate cover glass",
+    "LEFT B7 observed upper arch proxy",
+    "L M1 separate rear body",
+    "L M1 front base",
+    "L M1 indicator proxy",
+    "L M2 separate rear body",
+    "L M2 front base",
+    "L M2 indicator proxy",
+    "L M3 separate rear body",
+    "L M3 front base",
+    "L M3 indicator proxy",
+    "L M4 separate rear body",
+    "L M4 front base",
+    "L M4 indicator proxy",
+    "L M5 separate rear body",
+    "L M5 front base",
+    "L M5 indicator proxy",
+    "L M6 separate rear body",
+    "L M6 front base",
+    "L M6 indicator proxy",
+    "L C01 separate rear body",
+    "L C01 front base",
+    "L C01 fuse button",
+    "L C02 separate rear body",
+    "L C02 front base",
+    "L C02 indicator proxy",
+    "L C03 separate rear body",
+    "L C03 front base",
+    "L C03 indicator proxy",
+    "L C04 separate rear body",
+    "L C04 front base",
+    "L C04 fuse button",
+    "L C05 separate rear body",
+    "L C05 front base",
+    "L C05 fuse button",
+    "L C06 separate rear body",
+    "L C06 front base",
+    "L C06 observed hexagonal mount",
+    "L C06 switch or button silhouette",
+    "L C07 separate rear body",
+    "L C07 front base",
+    "L C07 observed hexagonal mount",
+    "L C07 switch or button silhouette",
+    "L C08 separate rear body",
+    "L C08 front base",
+    "L C08 observed hexagonal mount",
+    "L C08 switch or button silhouette",
+    "L C09 separate rear body",
+    "L C09 front base",
+    "L C09 observed hexagonal mount",
+    "L C09 switch or button silhouette",
+    "L C10 separate rear body",
+    "L C10 front base",
+    "L C10 observed hexagonal mount",
+    "L C10 switch or button silhouette",
+    "L C11 separate rear body",
+    "L C11 front base",
+    "L C11 observed hexagonal mount",
+    "L C11 switch or button silhouette",
+    "L C12 separate rear body",
+    "L C12 front base",
+    "L C12 observed hexagonal mount",
+    "L C12 switch or button silhouette",
+    "L C13 separate rear body",
+    "L C13 front base",
+    "L C13 observed hexagonal mount",
+    "L C13 switch or button silhouette",
+    "L C14 separate rear body",
+    "L C14 front base",
+    "L C14 observed hexagonal mount",
+    "L C14 switch or button silhouette",
+    "L C15 separate rear body",
+    "L C15 front base",
+    "L C15 fuse button",
+    "L C16 separate rear body",
+    "L C16 front base",
+    "L C16 fuse button",
+    "L C17 separate rear body",
+    "L C17 front base",
+    "L C17 fuse button",
+    "L C18 separate rear body",
+    "L C18 front base",
+    "L C18 observed hexagonal mount",
+    "L C18 switch or button silhouette",
+    "L C19 separate rear body",
+    "L C19 front base",
+    "L C19 observed hexagonal mount",
+    "L C19 switch or button silhouette",
+    "L C20 separate rear body",
+    "L C20 front base",
+    "L C20 observed hexagonal mount",
+    "L C20 switch or button silhouette",
+    "L C21 separate rear body",
+    "L C21 front base",
+    "L C21 observed hexagonal mount",
+    "L C21 switch or button silhouette",
+    "L C22 separate rear body",
+    "L C22 front base",
+    "L C22 fuse button",
+    "L C23 separate rear body",
+    "L C23 front base",
+    "L C23 socket blank face",
+    "L C23 socket rim",
+    "L C24 separate rear body",
+    "L C24 front base",
+    "L C24 observed hexagonal mount",
+    "L C24 switch or button silhouette",
+    "L C25 separate rear body",
+    "L C25 front base",
+    "L C25 observed hexagonal mount",
+    "L C25 switch or button silhouette",
+    "L C26 separate rear body",
+    "L C26 front base",
+    "L C26 indicator proxy",
+    "R R1 separate rear body",
+    "R R1 front base",
+    "R R1 observed hexagonal mount",
+    "R R1 switch or button silhouette",
+    "R R2 separate rear body",
+    "R R2 front base",
+    "R R2 observed hexagonal mount",
+    "R R2 switch or button silhouette",
+    "R R3 separate rear body",
+    "R R3 front base",
+    "R R3 observed hexagonal mount",
+    "R R3 switch or button silhouette",
+    "R R4 separate rear body",
+    "R R4 front base",
+    "R R4 observed hexagonal mount",
+    "R R4 switch or button silhouette",
+    "R R5 separate rear body",
+    "R R5 front base",
+    "R R5 socket blank face",
+    "R R5 socket rim",
+    "R R6a separate rear body",
+    "R R6a front base",
+    "R R6a fuse button",
+    "R R6b separate rear body",
+    "R R6b front base",
+    "R R6b fuse button",
+    "R R8 separate rear body",
+    "R R8 front base",
+    "R R8 observed hexagonal mount",
+    "R R8 switch or button silhouette",
+    "RIGHT R7 fitted rear lamp body",
+    "RIGHT R7 dark reflector proxy",
+    "RIGHT R7 task-lamp rolled rim",
+    "RIGHT R7 shallow lamp lens proxy",
+    "RIGHT R7 observed bell-form shield proxy",
+    "RIGHT UNIDENTIFIED VERTICAL STRIP — fitted"
+  ],
+  "source_curves": [
+    "LEFT PANEL — real openings / fitted silhouette SOURCE CURVE",
+    "RIGHT PANEL — real openings / fitted silhouette SOURCE CURVE",
+    "RIGHT UNIDENTIFIED VERTICAL STRIP — fitted SOURCE CURVE"
+  ],
+  "through_holes": [
+    {
+      "id": "L-HOLE-A1",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.37394919168591223,
+        0.1066974595842956
+      ],
+      "radius_m": 0.030585450346420316,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-A1"
+    },
+    {
+      "id": "L-HOLE-A2",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.28757505773672054,
+        0.1066974595842956
+      ],
+      "radius_m": 0.02882748267898383,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-A2"
+    },
+    {
+      "id": "L-HOLE-A3",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.19916859122401845,
+        0.1066974595842956
+      ],
+      "radius_m": 0.02882748267898383,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-A3"
+    },
+    {
+      "id": "L-HOLE-A4",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.108729792147806,
+        0.1066974595842956
+      ],
+      "radius_m": 0.02882748267898383,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-A4"
+    },
+    {
+      "id": "L-HOLE-A5",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.07113163972286374,
+        0.1066974595842956
+      ],
+      "radius_m": 0.02882748267898383,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-A5"
+    },
+    {
+      "id": "L-HOLE-A6",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.1625866050808314,
+        0.1066974595842956
+      ],
+      "radius_m": 0.02882748267898383,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-A6"
+    },
+    {
+      "id": "L-HOLE-A7",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.24896073903002308,
+        0.10263279445727481
+      ],
+      "radius_m": 0.02882748267898383,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-A7"
+    },
+    {
+      "id": "L-HOLE-B1",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.3658198614318706,
+        -0.005080831408775981
+      ],
+      "radius_m": 0.03761732101616627,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-B1"
+    },
+    {
+      "id": "L-HOLE-B2",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.2682678983833718,
+        -0.005080831408775981
+      ],
+      "radius_m": 0.027948498845265585,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-B2"
+    },
+    {
+      "id": "L-HOLE-B3",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.17782909930715934,
+        -0.005080831408775981
+      ],
+      "radius_m": 0.027948498845265585,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-B3"
+    },
+    {
+      "id": "L-HOLE-B4",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.08942263279445727,
+        -0.005080831408775981
+      ],
+      "radius_m": 0.02882748267898383,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-B4"
+    },
+    {
+      "id": "L-HOLE-B5",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.0,
+        -0.005080831408775981
+      ],
+      "radius_m": 0.027948498845265585,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-B5"
+    },
+    {
+      "id": "L-HOLE-B6",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.08840646651270206,
+        -0.005080831408775981
+      ],
+      "radius_m": 0.027948498845265585,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-B6"
+    },
+    {
+      "id": "L-HOLE-B7",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.17782909930715934,
+        -0.005080831408775981
+      ],
+      "radius_m": 0.027948498845265585,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-B7"
+    },
+    {
+      "id": "L-HOLE-M1",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.33330254041570434,
+        0.06503464203233256
+      ],
+      "radius_m": 0.009379676674364896,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-M1"
+    },
+    {
+      "id": "L-HOLE-M2",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.2459122401847575,
+        0.06198614318706697
+      ],
+      "radius_m": 0.009379676674364896,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-M2"
+    },
+    {
+      "id": "L-HOLE-M3",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.1564896073903002,
+        0.06198614318706697
+      ],
+      "radius_m": 0.009379676674364896,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-M3"
+    },
+    {
+      "id": "L-HOLE-M4",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.04775981524249422,
+        0.058937644341801376
+      ],
+      "radius_m": 0.009379676674364896,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-M4"
+    },
+    {
+      "id": "L-HOLE-M5",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.11889145496535795,
+        0.05690531177829099
+      ],
+      "radius_m": 0.009379676674364896,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-M5"
+    },
+    {
+      "id": "L-HOLE-M6",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.21034642032332562,
+        0.0548729792147806
+      ],
+      "radius_m": 0.009379676674364896,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-M6"
+    },
+    {
+      "id": "L-HOLE-C01",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.36785219399538105,
+        -0.08434180138568129
+      ],
+      "radius_m": 0.007916397228637413,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C01"
+    },
+    {
+      "id": "L-HOLE-C02",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.36785219399538105,
+        -0.11076212471131638
+      ],
+      "radius_m": 0.007916397228637413,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C02"
+    },
+    {
+      "id": "L-HOLE-C03",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.36785219399538105,
+        -0.13819861431870667
+      ],
+      "radius_m": 0.007916397228637413,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C03"
+    },
+    {
+      "id": "L-HOLE-C04",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.3251732101616628,
+        -0.08637413394919168
+      ],
+      "radius_m": 0.007916397228637413,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C04"
+    },
+    {
+      "id": "L-HOLE-C05",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.27639722863741334,
+        -0.08637413394919168
+      ],
+      "radius_m": 0.007916397228637413,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C05"
+    },
+    {
+      "id": "L-HOLE-C06",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.22457274826789836,
+        -0.0802771362586605
+      ],
+      "radius_m": 0.008902078521939954,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C06"
+    },
+    {
+      "id": "L-HOLE-C07",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.17884526558891453,
+        -0.0812933025404157
+      ],
+      "radius_m": 0.008902078521939954,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C07"
+    },
+    {
+      "id": "L-HOLE-C08",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.13210161662817552,
+        -0.0812933025404157
+      ],
+      "radius_m": 0.008902078521939954,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C08"
+    },
+    {
+      "id": "L-HOLE-C09",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.08434180138568129,
+        -0.08332563510392609
+      ],
+      "radius_m": 0.008902078521939954,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C09"
+    },
+    {
+      "id": "L-HOLE-C10",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.03658198614318706,
+        -0.08434180138568129
+      ],
+      "radius_m": 0.008902078521939954,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C10"
+    },
+    {
+      "id": "L-HOLE-C11",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.011177829099307158,
+        -0.08739030023094688
+      ],
+      "radius_m": 0.008902078521939954,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C11"
+    },
+    {
+      "id": "L-HOLE-C12",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.3251732101616628,
+        -0.1361662817551963
+      ],
+      "radius_m": 0.008465127020785218,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C12"
+    },
+    {
+      "id": "L-HOLE-C13",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.27639722863741334,
+        -0.1361662817551963
+      ],
+      "radius_m": 0.008465127020785218,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C13"
+    },
+    {
+      "id": "L-HOLE-C14",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.16665127020785217,
+        -0.1300692840646651
+      ],
+      "radius_m": 0.010212933025404155,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C14"
+    },
+    {
+      "id": "L-HOLE-C15",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.10060046189376443,
+        -0.1351501154734411
+      ],
+      "radius_m": 0.00645311778290993,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C15"
+    },
+    {
+      "id": "L-HOLE-C16",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.03861431870669746,
+        -0.1351501154734411
+      ],
+      "radius_m": 0.00645311778290993,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C16"
+    },
+    {
+      "id": "L-HOLE-C17",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.023371824480369514,
+        -0.1351501154734411
+      ],
+      "radius_m": 0.00645311778290993,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C17"
+    },
+    {
+      "id": "L-HOLE-C18",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.08739030023094688,
+        -0.1351501154734411
+      ],
+      "radius_m": 0.0040956120092378746,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C18"
+    },
+    {
+      "id": "L-HOLE-C19",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.1564896073903002,
+        -0.1361662817551963
+      ],
+      "radius_m": 0.008465127020785218,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C19"
+    },
+    {
+      "id": "L-HOLE-C20",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.160554272517321,
+        -0.08535796766743647
+      ],
+      "radius_m": 0.009339030023094688,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C20"
+    },
+    {
+      "id": "L-HOLE-C21",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.20729792147806003,
+        -0.1351501154734411
+      ],
+      "radius_m": 0.009339030023094688,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C21"
+    },
+    {
+      "id": "L-HOLE-C22",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.2652193995381062,
+        -0.1341339491916859
+      ],
+      "radius_m": 0.007184757505773671,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C22"
+    },
+    {
+      "id": "L-HOLE-C23",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.326189376443418,
+        -0.1351501154734411
+      ],
+      "radius_m": 0.01742771362586605,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C23"
+    },
+    {
+      "id": "L-HOLE-C24",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.36277136258660503,
+        -0.10364896073903002
+      ],
+      "radius_m": 0.004532563510392609,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C24"
+    },
+    {
+      "id": "L-HOLE-C25",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.3129792147806004,
+        -0.07621247113163972
+      ],
+      "radius_m": 0.008465127020785218,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C25"
+    },
+    {
+      "id": "L-HOLE-C26",
+      "plate": "LEFT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.27639722863741334,
+        0.0010161662817551962
+      ],
+      "radius_m": 0.013769515011547342,
+      "dimension_status": "FITTED",
+      "cutter": "L-HOLE-C26"
+    },
+    {
+      "id": "R-HOLE-R1",
+      "plate": "RIGHT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.009029649595687332,
+        -0.03160377358490566
+      ],
+      "radius_m": 0.009530323450134772,
+      "dimension_status": "FITTED",
+      "cutter": "R-HOLE-R1"
+    },
+    {
+      "id": "R-HOLE-R2",
+      "plate": "RIGHT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.006320754716981132,
+        -0.11016172506738545
+      ],
+      "radius_m": 0.010306873315363882,
+      "dimension_status": "FITTED",
+      "cutter": "R-HOLE-R2"
+    },
+    {
+      "id": "R-HOLE-R3",
+      "plate": "RIGHT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.06320754716981132,
+        -0.11016172506738545
+      ],
+      "radius_m": 0.010306873315363882,
+      "dimension_status": "FITTED",
+      "cutter": "R-HOLE-R3"
+    },
+    {
+      "id": "R-HOLE-R4",
+      "plate": "RIGHT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.12099730458221025,
+        -0.11016172506738545
+      ],
+      "radius_m": 0.010306873315363882,
+      "dimension_status": "FITTED",
+      "cutter": "R-HOLE-R4"
+    },
+    {
+      "id": "R-HOLE-R5",
+      "plate": "RIGHT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.10925876010781671,
+        0.057789757412398925
+      ],
+      "radius_m": 0.020104043126684637,
+      "dimension_status": "FITTED",
+      "cutter": "R-HOLE-R5"
+    },
+    {
+      "id": "R-HOLE-R6a",
+      "plate": "RIGHT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.10745283018867925,
+        -0.032506738544474396
+      ],
+      "radius_m": 0.008401617250673855,
+      "dimension_status": "FITTED",
+      "cutter": "R-HOLE-R6a"
+    },
+    {
+      "id": "R-HOLE-R6b",
+      "plate": "RIGHT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.04966307277628033,
+        -0.032506738544474396
+      ],
+      "radius_m": 0.008401617250673855,
+      "dimension_status": "FITTED",
+      "cutter": "R-HOLE-R6b"
+    },
+    {
+      "id": "R-HOLE-R8",
+      "plate": "RIGHT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        0.04785714285714286,
+        0.050566037735849056
+      ],
+      "radius_m": 0.010695148247978436,
+      "dimension_status": "FITTED",
+      "cutter": "R-HOLE-R8"
+    },
+    {
+      "id": "R-HOLE-R7",
+      "plate": "RIGHT PANEL — real openings / fitted silhouette",
+      "center_local_m": [
+        -0.023477088948787063,
+        0.10203504043126685
+      ],
+      "radius_m": 0.03462870619946092,
+      "dimension_status": "FITTED",
+      "cutter": "R-HOLE-R7"
+    },
+    {
+      "id": "RIGHT STRIP oblong cutter 1",
+      "plate": "RIGHT UNIDENTIFIED VERTICAL STRIP — fitted",
+      "center_local_m": [
+        0.10654986522911052,
+        0.060498652291105126
+      ],
+      "radius_m": 0.0035,
+      "dimension_status": "FITTED oblong opening",
+      "cutter": "RIGHT STRIP oblong cutter 1"
+    },
+    {
+      "id": "RIGHT STRIP oblong cutter 2",
+      "plate": "RIGHT UNIDENTIFIED VERTICAL STRIP — fitted",
+      "center_local_m": [
+        0.10654986522911052,
+        -0.0704312668463612
+      ],
+      "radius_m": 0.0035,
+      "dimension_status": "FITTED oblong opening",
+      "cutter": "RIGHT STRIP oblong cutter 2"
+    }
+  ],
+  "instrument_roots": [
+    "LEFT A1 / drawing leader 58",
+    "LEFT A2 / drawing leader 59",
+    "LEFT A3 / drawing leader 61",
+    "LEFT A4 / drawing leader 63",
+    "LEFT A5 / drawing leader 66",
+    "LEFT A6 / drawing leader 68",
+    "LEFT A7 / drawing leader 70",
+    "LEFT B1 / drawing leader 57",
+    "LEFT B2 / drawing leader 60",
+    "LEFT B3 / drawing leader 62",
+    "LEFT B4 / drawing leader 64",
+    "LEFT B5 / drawing leader 65",
+    "LEFT B6 / drawing leader 67",
+    "LEFT B7 / drawing leader 69"
+  ],
+  "left_main_instrument_count": 14,
+  "left_control_proxy_count": 32,
+  "right_caption_function_count": 8,
+  "right_physical_control_lamp_count": 9,
+  "rendered": false,
+  "production_opened": false,
+  "all_16_gates": "OPEN"
+}

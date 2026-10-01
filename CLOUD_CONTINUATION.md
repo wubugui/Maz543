@@ -136,13 +136,27 @@ preview route. Do not change network/security settings or use a different
 browser to bypass that denial.
 
 Normal cloud Git write authentication is unavailable. The original `ed97cf3` transfer and later incremental bundle remain historical
-archives. Current delivery is cloud-direct GitHub only; do not restart desktop
-file-transfer instructions. No local bundle proves remote delivery. Keep exact snapshot heads
+archives. Current authorized workflow is dot-cloud development, complete incremental
+backup through Library, synchronization to the designated non-C Windows drive,
+then push from that already authorized desktop. The parent task coordinates
+that executor; do not create overlapping desktop tasks or develop there.
+Never place project files, archives or temporary recovery copies on C:. No local bundle proves remote delivery. Keep exact snapshot heads
 and prerequisites; don't rewrite bundles under an existing filename or claim
 later commits are included. The incremental bundle through `613c1cb` requires
 both `ed97cf3` and the complete migration `4f28bd4`. Later documentation and
 door-review hardening commits need a subsequent transfer. No credentials,
 private communication receipts or signed upload links belong in this repository.
+
+## External recovery checkpoint
+
+The complete incremental backup through `01097c9c0ccf50497214bac421b569621f36e533`
+was externally saved and officially downloaded/reassembled for SHA verification.
+Recovery chain: original migration `4f28bd4` -> backed-up cloud `01097c9`.
+Its77 new LFS objects contain actual model/image bytes, alongside the Git bundle.
+This does not mean the development branch was pushed to GitHub. Subsequent
+verified milestones should back up only the increment after this checkpoint,
+including every newly reachable LFS object, without resending the old archive.
+Private storage receipts are kept outside the public repository.
 
 ## Next concrete work
 
@@ -151,3 +165,14 @@ the remaining lamp, hood-lock and equipment installation failures. Targeted
 source-backed geometry and mechanical work can continue while browser and Git
 handoff limitations remain open. Preserve the distinction between published
 dimensions, fitted geometry, conditional checks, failures and untested states.
+
+## Independent cab-panel study, 2026-10-01
+
+`testcar/outputs/cloud-cab-panel-study-20261001/` retains an editable standalone
+study of the distinct Fig101 left and Fig102 right panels. Fresh native readback
+checks 247 closed finite positive-volume solids and 57 real through-holes with
+positive/negative controls. Three actual Cycles views were inspected; appearance,
+factory dimensions, conflicting source captions and cabin installation remain
+OPEN. No vehicle master or browser asset was changed. All 16 vehicle gates stay
+OPEN. This stage follows externally backed-up checkpoint `01097c9`; its next
+complete increment must include the new blend and all image LFS entities.
