@@ -1,0 +1,2301 @@
+{
+  "candidate_sha256": "22dff40fa6256636b2033037abcae38e9cce1ddb41ed0e7e681bf315110c050b",
+  "fresh_open": true,
+  "native_structure_failures": [],
+  "new_solids": [
+    {
+      "name": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "vertices": 24896,
+      "triangles": 49972,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 0.000695591517457359
+    },
+    {
+      "name": "RIGHT PANEL \u2014 real openings / fitted silhouette",
+      "vertices": 4848,
+      "triangles": 9728,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 0.00032868282016416847
+    },
+    {
+      "name": "LEFT A1 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 0.00010083062258033652
+    },
+    {
+      "name": "LEFT A1 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.190766048631987e-06
+    },
+    {
+      "name": "LEFT A1 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.983228887652682e-06
+    },
+    {
+      "name": "LEFT A1 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.261428847132129e-08
+    },
+    {
+      "name": "LEFT A1 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.749140468263104e-08
+    },
+    {
+      "name": "LEFT A1 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.436329814405472e-06
+    },
+    {
+      "name": "LEFT A2 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.931604254524208e-05
+    },
+    {
+      "name": "LEFT A2 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.483304436476059e-06
+    },
+    {
+      "name": "LEFT A2 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6534311491942093e-06
+    },
+    {
+      "name": "LEFT A2 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.7748443951979476e-08
+    },
+    {
+      "name": "LEFT A2 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.322065049727536e-08
+    },
+    {
+      "name": "LEFT A2 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.0437526856886837e-06
+    },
+    {
+      "name": "LEFT A2 observed upper arch proxy",
+      "vertices": 476,
+      "triangles": 948,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.581583597471329e-07
+    },
+    {
+      "name": "LEFT A3 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.931604254524208e-05
+    },
+    {
+      "name": "LEFT A3 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.483304436476059e-06
+    },
+    {
+      "name": "LEFT A3 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6534311491942093e-06
+    },
+    {
+      "name": "LEFT A3 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.7748372324538637e-08
+    },
+    {
+      "name": "LEFT A3 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.322065049727536e-08
+    },
+    {
+      "name": "LEFT A3 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.0437526856886837e-06
+    },
+    {
+      "name": "LEFT A3 observed upper arch proxy",
+      "vertices": 476,
+      "triangles": 948,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.581581949457614e-07
+    },
+    {
+      "name": "LEFT A4 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.931604254524208e-05
+    },
+    {
+      "name": "LEFT A4 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.483304436476059e-06
+    },
+    {
+      "name": "LEFT A4 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6534311491942093e-06
+    },
+    {
+      "name": "LEFT A4 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.774832871595317e-08
+    },
+    {
+      "name": "LEFT A4 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.322065049727536e-08
+    },
+    {
+      "name": "LEFT A4 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.0437526856886837e-06
+    },
+    {
+      "name": "LEFT A4 observed upper arch proxy",
+      "vertices": 476,
+      "triangles": 948,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.58158290116446e-07
+    },
+    {
+      "name": "LEFT A5 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.931604254524208e-05
+    },
+    {
+      "name": "LEFT A5 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.483304436476059e-06
+    },
+    {
+      "name": "LEFT A5 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6534311491942093e-06
+    },
+    {
+      "name": "LEFT A5 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.774832871595317e-08
+    },
+    {
+      "name": "LEFT A5 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.322065049727536e-08
+    },
+    {
+      "name": "LEFT A5 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.0437526856886837e-06
+    },
+    {
+      "name": "LEFT A5 observed upper arch proxy",
+      "vertices": 476,
+      "triangles": 948,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.5815840904412e-07
+    },
+    {
+      "name": "LEFT A6 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.931604254524208e-05
+    },
+    {
+      "name": "LEFT A6 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.483304436476059e-06
+    },
+    {
+      "name": "LEFT A6 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6534311491942093e-06
+    },
+    {
+      "name": "LEFT A6 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.774837232453877e-08
+    },
+    {
+      "name": "LEFT A6 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.322065049727536e-08
+    },
+    {
+      "name": "LEFT A6 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.0437526856886837e-06
+    },
+    {
+      "name": "LEFT A6 observed upper arch proxy",
+      "vertices": 476,
+      "triangles": 948,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.581583850267238e-07
+    },
+    {
+      "name": "LEFT A7 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.931604254524208e-05
+    },
+    {
+      "name": "LEFT A7 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.483304436476059e-06
+    },
+    {
+      "name": "LEFT A7 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6534311491942093e-06
+    },
+    {
+      "name": "LEFT A7 empty counter window",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.918848714515696e-07
+    },
+    {
+      "name": "LEFT A7 counter aperture proxy",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.357901347758772e-08
+    },
+    {
+      "name": "LEFT A7 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.0437526856886837e-06
+    },
+    {
+      "name": "LEFT B1 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 0.00015386813728276942
+    },
+    {
+      "name": "LEFT B1 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.449739104140994e-06
+    },
+    {
+      "name": "LEFT B1 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.7383858038934977e-06
+    },
+    {
+      "name": "LEFT B1 empty counter window",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.312371501927783e-07
+    },
+    {
+      "name": "LEFT B1 counter aperture proxy",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6154466713933373e-07
+    },
+    {
+      "name": "LEFT B1 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.502733100045819e-08
+    },
+    {
+      "name": "LEFT B1 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.7139292922558686e-08
+    },
+    {
+      "name": "LEFT B1 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.244687841184856e-06
+    },
+    {
+      "name": "LEFT B2 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.38204729070855e-05
+    },
+    {
+      "name": "LEFT B2 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.145666384400994e-06
+    },
+    {
+      "name": "LEFT B2 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.5032153329423426e-06
+    },
+    {
+      "name": "LEFT B2 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.542592602893373e-08
+    },
+    {
+      "name": "LEFT B2 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.118161574701115e-08
+    },
+    {
+      "name": "LEFT B2 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.856391093627938e-06
+    },
+    {
+      "name": "LEFT B2 observed upper arch proxy",
+      "vertices": 476,
+      "triangles": 948,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.992339547825728e-07
+    },
+    {
+      "name": "LEFT B3 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.38204729070855e-05
+    },
+    {
+      "name": "LEFT B3 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.145666384400994e-06
+    },
+    {
+      "name": "LEFT B3 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.5032153329423426e-06
+    },
+    {
+      "name": "LEFT B3 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.5425910926399174e-08
+    },
+    {
+      "name": "LEFT B3 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.118161574701115e-08
+    },
+    {
+      "name": "LEFT B3 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.856391093627938e-06
+    },
+    {
+      "name": "LEFT B3 observed upper arch proxy",
+      "vertices": 476,
+      "triangles": 948,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.992338321939817e-07
+    },
+    {
+      "name": "LEFT B4 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.931604254524208e-05
+    },
+    {
+      "name": "LEFT B4 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.483304436476059e-06
+    },
+    {
+      "name": "LEFT B4 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6534311491942093e-06
+    },
+    {
+      "name": "LEFT B4 uncalibrated arc-window silhouette",
+      "vertices": 476,
+      "triangles": 948,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.4196644251735733e-06
+    },
+    {
+      "name": "LEFT B4 observed lower-button proxy",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.783078680070639e-07
+    },
+    {
+      "name": "LEFT B4 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.774830475226274e-08
+    },
+    {
+      "name": "LEFT B4 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.322065049727536e-08
+    },
+    {
+      "name": "LEFT B4 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.0437526856886837e-06
+    },
+    {
+      "name": "LEFT B5 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.38204729070855e-05
+    },
+    {
+      "name": "LEFT B5 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.145666384400994e-06
+    },
+    {
+      "name": "LEFT B5 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.5032153329423426e-06
+    },
+    {
+      "name": "LEFT B5 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.542592434435214e-08
+    },
+    {
+      "name": "LEFT B5 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.118161574701115e-08
+    },
+    {
+      "name": "LEFT B5 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.856391093627938e-06
+    },
+    {
+      "name": "LEFT B6 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.38204729070855e-05
+    },
+    {
+      "name": "LEFT B6 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.145666384400994e-06
+    },
+    {
+      "name": "LEFT B6 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.5032153329423426e-06
+    },
+    {
+      "name": "LEFT B6 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.54259184776664e-08
+    },
+    {
+      "name": "LEFT B6 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.118161574701115e-08
+    },
+    {
+      "name": "LEFT B6 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.856391093627938e-06
+    },
+    {
+      "name": "LEFT B6 observed upper arch proxy",
+      "vertices": 476,
+      "triangles": 948,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.992338683366255e-07
+    },
+    {
+      "name": "LEFT B7 separate rear body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.38204729070855e-05
+    },
+    {
+      "name": "LEFT B7 blank face",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.145666384400994e-06
+    },
+    {
+      "name": "LEFT B7 independent bezel",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.5032153329423426e-06
+    },
+    {
+      "name": "LEFT B7 uncalibrated pointer",
+      "vertices": 6,
+      "triangles": 8,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.5425926028933625e-08
+    },
+    {
+      "name": "LEFT B7 uncalibrated pointer pivot",
+      "vertices": 256,
+      "triangles": 508,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.118161574701115e-08
+    },
+    {
+      "name": "LEFT B7 separate cover glass",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.856391093627938e-06
+    },
+    {
+      "name": "LEFT B7 observed upper arch proxy",
+      "vertices": 476,
+      "triangles": 948,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 8.99233822881615e-07
+    },
+    {
+      "name": "L M1 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.824172841563528e-06
+    },
+    {
+      "name": "L M1 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.389706380199397e-06
+    },
+    {
+      "name": "L M1 indicator proxy",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1363821901603071e-06
+    },
+    {
+      "name": "L M2 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.824172841563528e-06
+    },
+    {
+      "name": "L M2 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.389706380199397e-06
+    },
+    {
+      "name": "L M2 indicator proxy",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1363821901603071e-06
+    },
+    {
+      "name": "L M3 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.824172841563528e-06
+    },
+    {
+      "name": "L M3 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.389706380199397e-06
+    },
+    {
+      "name": "L M3 indicator proxy",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1363821901603071e-06
+    },
+    {
+      "name": "L M4 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.824172841563528e-06
+    },
+    {
+      "name": "L M4 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.389706380199397e-06
+    },
+    {
+      "name": "L M4 indicator proxy",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1363821901603071e-06
+    },
+    {
+      "name": "L M5 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.824172841563528e-06
+    },
+    {
+      "name": "L M5 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.389706380199397e-06
+    },
+    {
+      "name": "L M5 indicator proxy",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1363821901603071e-06
+    },
+    {
+      "name": "L M6 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.824172841563528e-06
+    },
+    {
+      "name": "L M6 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.389706380199397e-06
+    },
+    {
+      "name": "L M6 indicator proxy",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1363821901603071e-06
+    },
+    {
+      "name": "L C01 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.350728494944897e-06
+    },
+    {
+      "name": "L C01 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.640162237303737e-07
+    },
+    {
+      "name": "L C01 fuse button",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.482154365313453e-07
+    },
+    {
+      "name": "L C02 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.350728494944897e-06
+    },
+    {
+      "name": "L C02 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.640162237303737e-07
+    },
+    {
+      "name": "L C02 indicator proxy",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 7.897134894680104e-07
+    },
+    {
+      "name": "L C03 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.350728494944897e-06
+    },
+    {
+      "name": "L C03 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.640162237303737e-07
+    },
+    {
+      "name": "L C03 indicator proxy",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 7.897134894680104e-07
+    },
+    {
+      "name": "L C04 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.350728494944897e-06
+    },
+    {
+      "name": "L C04 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.640162237303737e-07
+    },
+    {
+      "name": "L C04 fuse button",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.482154365313453e-07
+    },
+    {
+      "name": "L C05 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.350728494944897e-06
+    },
+    {
+      "name": "L C05 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.640162237303737e-07
+    },
+    {
+      "name": "L C05 fuse button",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.482154365313453e-07
+    },
+    {
+      "name": "L C06 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.3138521277094155e-06
+    },
+    {
+      "name": "L C06 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.4909858948622744e-06
+    },
+    {
+      "name": "L C06 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.4331101393471958e-06
+    },
+    {
+      "name": "L C06 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1891375023629948e-06
+    },
+    {
+      "name": "L C07 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.3138521277094155e-06
+    },
+    {
+      "name": "L C07 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.4909858948622744e-06
+    },
+    {
+      "name": "L C07 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.4331101393471958e-06
+    },
+    {
+      "name": "L C07 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1891375023629948e-06
+    },
+    {
+      "name": "L C08 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.3138521277094155e-06
+    },
+    {
+      "name": "L C08 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.4909858948622744e-06
+    },
+    {
+      "name": "L C08 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.4331101393471958e-06
+    },
+    {
+      "name": "L C08 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1891375023629948e-06
+    },
+    {
+      "name": "L C09 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.3138521277094155e-06
+    },
+    {
+      "name": "L C09 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.4909858948622744e-06
+    },
+    {
+      "name": "L C09 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.4331101393471958e-06
+    },
+    {
+      "name": "L C09 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1891375023629948e-06
+    },
+    {
+      "name": "L C10 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.3138521277094155e-06
+    },
+    {
+      "name": "L C10 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.4909858948622744e-06
+    },
+    {
+      "name": "L C10 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.4331101393471958e-06
+    },
+    {
+      "name": "L C10 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1891375023629948e-06
+    },
+    {
+      "name": "L C11 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.3138521277094155e-06
+    },
+    {
+      "name": "L C11 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.4909858948622744e-06
+    },
+    {
+      "name": "L C11 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.4331101393471958e-06
+    },
+    {
+      "name": "L C11 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.1891375023629948e-06
+    },
+    {
+      "name": "L C12 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.871922186402535e-06
+    },
+    {
+      "name": "L C12 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.132577888629064e-06
+    },
+    {
+      "name": "L C12 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.2857704220537647e-06
+    },
+    {
+      "name": "L C12 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.0652245584815367e-06
+    },
+    {
+      "name": "L C13 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.871922186402535e-06
+    },
+    {
+      "name": "L C13 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.132577888629064e-06
+    },
+    {
+      "name": "L C13 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.2857704220537647e-06
+    },
+    {
+      "name": "L C13 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.0652245584815367e-06
+    },
+    {
+      "name": "L C14 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.783574673873236e-06
+    },
+    {
+      "name": "L C14 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.682660734399913e-06
+    },
+    {
+      "name": "L C14 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.9230456946286763e-06
+    },
+    {
+      "name": "L C14 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6014693702235488e-06
+    },
+    {
+      "name": "L C15 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.1448558488838174e-06
+    },
+    {
+      "name": "L C15 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.168950277860732e-07
+    },
+    {
+      "name": "L C15 fuse button",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.072158381262764e-07
+    },
+    {
+      "name": "L C16 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.1448558488838174e-06
+    },
+    {
+      "name": "L C16 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.168950277860732e-07
+    },
+    {
+      "name": "L C16 fuse button",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.072158381262764e-07
+    },
+    {
+      "name": "L C17 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.1448558488838174e-06
+    },
+    {
+      "name": "L C17 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.168950277860732e-07
+    },
+    {
+      "name": "L C17 fuse button",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.072158381262764e-07
+    },
+    {
+      "name": "L C18 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 7.652388803938003e-07
+    },
+    {
+      "name": "L C18 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.168950277860732e-07
+    },
+    {
+      "name": "L C18 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.543330581389887e-07
+    },
+    {
+      "name": "L C18 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.982012624404035e-07
+    },
+    {
+      "name": "L C19 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.871922186402535e-06
+    },
+    {
+      "name": "L C19 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.132577888629064e-06
+    },
+    {
+      "name": "L C19 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.2857704220537647e-06
+    },
+    {
+      "name": "L C19 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.0652245584815367e-06
+    },
+    {
+      "name": "L C20 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.779632006762709e-06
+    },
+    {
+      "name": "L C20 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.868802164770402e-06
+    },
+    {
+      "name": "L C20 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.5884358917223224e-06
+    },
+    {
+      "name": "L C20 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.3198159001948226e-06
+    },
+    {
+      "name": "L C21 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.779632006762709e-06
+    },
+    {
+      "name": "L C21 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.868802164770402e-06
+    },
+    {
+      "name": "L C21 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.5884358917223224e-06
+    },
+    {
+      "name": "L C21 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.3198159001948226e-06
+    },
+    {
+      "name": "L C22 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.714336702970523e-06
+    },
+    {
+      "name": "L C22 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 7.802838952689118e-07
+    },
+    {
+      "name": "L C22 fuse button",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 7.682810119095142e-07
+    },
+    {
+      "name": "L C23 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.773079982146095e-05
+    },
+    {
+      "name": "L C23 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.118702120878068e-06
+    },
+    {
+      "name": "L C23 socket blank face",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.817179824094376e-06
+    },
+    {
+      "name": "L C23 socket rim",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.7125719849716577e-06
+    },
+    {
+      "name": "L C24 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.684530368966725e-07
+    },
+    {
+      "name": "L C24 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 7.802838952689118e-07
+    },
+    {
+      "name": "L C24 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.2174002864284106e-07
+    },
+    {
+      "name": "L C24 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.544585937091483e-07
+    },
+    {
+      "name": "L C25 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.871922186402535e-06
+    },
+    {
+      "name": "L C25 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.132577888629064e-06
+    },
+    {
+      "name": "L C25 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.2857704220537647e-06
+    },
+    {
+      "name": "L C25 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.0652245584815367e-06
+    },
+    {
+      "name": "L C26 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.0857899351909163e-05
+    },
+    {
+      "name": "L C26 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.132577888629064e-06
+    },
+    {
+      "name": "L C26 indicator proxy",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.5596443054322258e-06
+    },
+    {
+      "name": "R R1 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.99105189354737e-06
+    },
+    {
+      "name": "R R1 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.0403152331449135e-06
+    },
+    {
+      "name": "R R1 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6589496660434848e-06
+    },
+    {
+      "name": "R R1 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.3791550837054002e-06
+    },
+    {
+      "name": "R R2 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.897223863066493e-06
+    },
+    {
+      "name": "R R2 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.774767624791322e-06
+    },
+    {
+      "name": "R R2 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.9609159313882325e-06
+    },
+    {
+      "name": "R R2 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6333567571165236e-06
+    },
+    {
+      "name": "R R3 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.897223863066493e-06
+    },
+    {
+      "name": "R R3 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.774767624791322e-06
+    },
+    {
+      "name": "R R3 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.9609159313882325e-06
+    },
+    {
+      "name": "R R3 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6333567571165236e-06
+    },
+    {
+      "name": "R R4 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.897223863066493e-06
+    },
+    {
+      "name": "R R4 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 4.774767624791322e-06
+    },
+    {
+      "name": "R R4 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.9609159313882325e-06
+    },
+    {
+      "name": "R R4 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.6333567571165236e-06
+    },
+    {
+      "name": "R R5 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.3821162369451124e-05
+    },
+    {
+      "name": "R R5 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.879085963294436e-06
+    },
+    {
+      "name": "R R5 socket blank face",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.473588335282257e-06
+    },
+    {
+      "name": "R R5 socket rim",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.666535886995044e-06
+    },
+    {
+      "name": "R R6a separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.809673898907049e-06
+    },
+    {
+      "name": "R R6a front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.0965707670314605e-06
+    },
+    {
+      "name": "R R6a fuse button",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.0779455650510614e-06
+    },
+    {
+      "name": "R R6b separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 3.809673898907049e-06
+    },
+    {
+      "name": "R R6b front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.0965707670314605e-06
+    },
+    {
+      "name": "R R6b fuse button",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.0779455650510614e-06
+    },
+    {
+      "name": "R R8 separate rear body",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 6.378688701310709e-06
+    },
+    {
+      "name": "R R8 front base",
+      "vertices": 384,
+      "triangles": 764,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 5.164980751088396e-06
+    },
+    {
+      "name": "R R8 observed hexagonal mount",
+      "vertices": 144,
+      "triangles": 284,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.1213582125506842e-06
+    },
+    {
+      "name": "R R8 switch or button silhouette",
+      "vertices": 96,
+      "triangles": 188,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.7684708580108846e-06
+    },
+    {
+      "name": "RIGHT R7 fitted rear lamp body",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 9.891074213144821e-05
+    },
+    {
+      "name": "RIGHT R7 dark reflector proxy",
+      "vertices": 512,
+      "triangles": 1020,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.3067087865382533e-05
+    },
+    {
+      "name": "RIGHT R7 task-lamp rolled rim",
+      "vertices": 768,
+      "triangles": 1536,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 7.30974652764787e-06
+    },
+    {
+      "name": "RIGHT R7 shallow lamp lens proxy",
+      "vertices": 1474,
+      "triangles": 2944,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 0.00011702379453959489
+    },
+    {
+      "name": "RIGHT R7 observed bell-form shield proxy",
+      "vertices": 128,
+      "triangles": 252,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 1.907546343893004e-06
+    },
+    {
+      "name": "RIGHT UNIDENTIFIED VERTICAL STRIP \u2014 fitted",
+      "vertices": 720,
+      "triangles": 1444,
+      "closed": true,
+      "finite": true,
+      "signed_volume": 2.1752968220659837e-05
+    }
+  ],
+  "plate_holes": [
+    {
+      "id": "L-HOLE-A1",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-A2",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-A3",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-A4",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-A5",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-A6",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-A7",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-B1",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-B2",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-B3",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-B4",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-B5",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-B6",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-B7",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-M1",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-M2",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-M3",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-M4",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-M5",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-M6",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C01",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C02",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C03",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C04",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C05",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C06",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C07",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C08",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C09",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C10",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C11",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C12",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C13",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C14",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C15",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C16",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C17",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C18",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C19",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C20",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C21",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C22",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C23",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C24",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C25",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "L-HOLE-C26",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "R-HOLE-R1",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "R-HOLE-R2",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "R-HOLE-R3",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "R-HOLE-R4",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "R-HOLE-R5",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "R-HOLE-R6a",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "R-HOLE-R6b",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "R-HOLE-R8",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "R-HOLE-R7",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "RIGHT STRIP oblong cutter 1",
+      "nine_plate_rays_open": true
+    },
+    {
+      "id": "RIGHT STRIP oblong cutter 2",
+      "nine_plate_rays_open": true
+    }
+  ],
+  "retained_superseded_proxies": [
+    {
+      "name": "cab_0066",
+      "exists": true,
+      "hide_render": true
+    },
+    {
+      "name": "cab_0067",
+      "exists": true,
+      "hide_render": true
+    },
+    {
+      "name": "cab_0068",
+      "exists": true,
+      "hide_render": true
+    },
+    {
+      "name": "BL_PanelFit_original_dashboard_blocks_retained",
+      "exists": true,
+      "hide_render": true
+    }
+  ],
+  "panel_to_existing_object_flag_visible_rest_surface_pairs_checked": 374,
+  "fixed_objects_in_narrow_phase": 3,
+  "panel_to_existing_rest_surface_intersections": [
+    {
+      "panel_part": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "existing_part": "BL_Cab_1_inner_wall",
+      "triangle_pairs": 689,
+      "sample_pairs": [
+        [
+          39697,
+          637
+        ],
+        [
+          39700,
+          637
+        ],
+        [
+          34063,
+          637
+        ],
+        [
+          34061,
+          637
+        ],
+        [
+          49308,
+          637
+        ]
+      ]
+    },
+    {
+      "panel_part": "L C22 front base",
+      "existing_part": "BL_Cab_1_inner_wall",
+      "triangle_pairs": 44,
+      "sample_pairs": [
+        [
+          618,
+          637
+        ],
+        [
+          621,
+          637
+        ],
+        [
+          612,
+          637
+        ],
+        [
+          670,
+          637
+        ],
+        [
+          667,
+          637
+        ]
+      ]
+    }
+  ],
+  "status": "REST_SURFACE_INTERFERENCE_OPEN",
+  "limits": [
+    "Fitted placement and dimensions, no source hardpoint calibration",
+    "No full-containment or continuous swept-volume test",
+    "Old steering/seat interference remains unresolved",
+    "Not full visual or vehicle acceptance"
+  ],
+  "all16VehicleGates": "OPEN"
+}

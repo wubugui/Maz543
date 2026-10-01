@@ -1,0 +1,80 @@
+[
+  {
+    "file": "native-panel-fit-left.png",
+    "bytes": 1768446,
+    "sha256": "f84f71d33cd1f4fc855e5d334b3f622294af9bcfea6923b8474c21d0399e75c1",
+    "source_sha256": "637eb679d3e86ac0d2e44b166b24b528cc7262c449d967d5635a3faedca0ae02",
+    "renderer": "Cycles CPU4threads64samples no denoise",
+    "camera_world": [
+      [
+        -1.6292068494294654e-07,
+        -0.6401841044425964,
+        0.7682215571403503,
+        -4.400000095367432
+      ],
+      [
+        1.0,
+        -1.904084854231769e-07,
+        5.34015143216493e-08,
+        -1.024999976158142
+      ],
+      [
+        1.1208910422055851e-07,
+        0.7682215571403503,
+        0.6401841044425964,
+        2.319999933242798
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "focal_length_mm": 17,
+    "view": "left cabin fitted inspection",
+    "further_geometry_hidden_for_render": false,
+    "source_saved_or_changed": false,
+    "fit_status": "FAILED: 15 new-to-existing rest surface intersection pairs; original steering/seat intersections unresolved",
+    "all16VehicleGates": "OPEN"
+  },
+  {
+    "file": "native-panel-fit-right.png",
+    "bytes": 1621164,
+    "sha256": "b75a11a7b5192588efd89ddb15453e52877ecb32762b8e866da4447019d05583",
+    "source_sha256": "637eb679d3e86ac0d2e44b166b24b528cc7262c449d967d5635a3faedca0ae02",
+    "renderer": "Cycles CPU4threads64samples no denoise",
+    "camera_world": [
+      [
+        -1.6292068494294654e-07,
+        -0.6401841044425964,
+        0.7682215571403503,
+        -4.400000095367432
+      ],
+      [
+        1.0,
+        -1.904084854231769e-07,
+        5.34015143216493e-08,
+        1.024999976158142
+      ],
+      [
+        1.1208910422055851e-07,
+        0.7682215571403503,
+        0.6401841044425964,
+        2.319999933242798
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "focal_length_mm": 17,
+    "view": "right cabin fitted inspection",
+    "further_geometry_hidden_for_render": false,
+    "source_saved_or_changed": false,
+    "fit_status": "FAILED: 15 new-to-existing rest surface intersection pairs; original steering/seat intersections unresolved",
+    "all16VehicleGates": "OPEN"
+  }
+]

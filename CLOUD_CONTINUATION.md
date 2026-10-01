@@ -176,3 +176,24 @@ factory dimensions, conflicting source captions and cabin installation remain
 OPEN. No vehicle master or browser asset was changed. All 16 vehicle gates stay
 OPEN. This stage follows externally backed-up checkpoint `01097c9`; its next
 complete increment must include the new blend and all image LFS entities.
+
+The subsequent panel-study checkpoint `f619cb66959533f13ddee5aba53739ebbab98d5c`
+was also externally saved and officially read back, with its full archive hash
+and all four new LFS payload hashes verified. Current recovery chain is
+`4f28bd4 -> 01097c9 -> f619cb6`. Later increments start after `f619cb6`.
+Desktop synchronization and remote publication remain separately unconfirmed.
+
+## Cab-panel fit trials, 2026-10-01
+
+Two independent Master installation trials are retained in
+`testcar/outputs/cloud-cab-panel-fit-20261001/`. Both keep the new study size
+and inherit a legacy dashboard proxy anchor, never a factory datum. The first
+centre-plane trial has 2 panel-to-existing rest surface intersection pairs. The
+second driver-facing-plane trial has 15, including steering-wheel interference.
+Both preserve 247 closed solids / 57 through-holes in fresh readback; that does
+not accept either installation. The second reader exits 2 on surface contacts.
+Old dashboard/gauge proxies are retained in hidden editable objects; unrelated
+mesh geometry, authored UVs and transforms remain unchanged. Source metadata
+and the fit trials remain unaccepted. No browser asset or production was changed.
+The old steering-column/seat intersections are separately retained in
+`cloud-left-driver-rest-audit-20261001`, not solved by a new instrument layout.

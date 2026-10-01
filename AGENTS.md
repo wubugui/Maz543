@@ -14,4 +14,4 @@ On 2026-09-30 the user explicitly authorized Blender execution on the dot cloud 
 
 The user authorized continued development in the cloud and Git pushes to wubugui/Maz543. No force pushes, history replacement, deployments, paid services, or new credentials. No further development on the original Windows workstation after this migration.
 
-User-authorized progress reports and real screenshot attachments belong in the already established private Slack MAZ543 thread. Its private destination is intentionally absent from this public repository; obtain it from the delegation/session context. Never publish signed upload URLs or private delivery metadata here.
+User-authorized progress reports and real screenshot attachments belong in the already established dedicated private Slack MAZ543 progress channel. Its private destination is intentionally absent from this public repository; obtain it from the delegation/session context. Never publish signed upload URLs or private delivery metadata here.

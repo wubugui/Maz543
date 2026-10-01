@@ -1,0 +1,13 @@
+{
+  "status": "RETAINED_FITTED_INSTALLATION_FAILURE",
+  "source_sha256": "1427de4198b72f994920173b79feb68d4bd82a04d2d9000d14507b4b16c5c0ff",
+  "placement": "original dashboard solid proxy centre",
+  "structure": "247 solids and 57 holes passed fresh readback",
+  "failure": "left sheet and one lower control intersect current left inner wall; 2 object pairs / 733 triangle pairs",
+  "scope": "rest-pose surface check; no full containment or continuous sweep",
+  "reader_exit_code": 0,
+  "reader_exit_code_limit": "First diagnostic version returned 0 for topology pass while explicitly reporting rest interference OPEN. Later reader exits 2 on rest intersections. Neither outcome accepts the candidate.",
+  "next": "Use inherited driver-facing surface of original 0.25m deep dashboard proxy, preserving tilt and panel size. Do not shrink source-traced study or wall to force a fit.",
+  "production_changed": false,
+  "all16VehicleGates": "OPEN"
+}

@@ -1,0 +1,41 @@
+{
+  "date_utc": "2026-10-01",
+  "purpose": "Additional first-hand chassis photographs; no metric calibration",
+  "sources": [
+    {
+      "url": "https://fototruck.ru/photo/315347/",
+      "photographer": "alextown",
+      "capture_date": "2022-08-14",
+      "site_model_label": "MAZ-543A",
+      "pixels_inspected_in_dot_cloud_browser": true,
+      "observations": [
+        "Front/side view of preserved converted platform vehicle",
+        "Both cabs and engine/equipment covers closed",
+        "Separate top handles and broad front-cover relief visible"
+      ],
+      "limits": [
+        "Site comments record an earlier 7310 identification being corrected to 543; exact A batch not independently proven",
+        "Modified rear platform and added structures do not define the target factory chassis",
+        "No cabin hinge, tank mounting or cover internal hardpoints visible"
+      ]
+    },
+    {
+      "url": "https://fototruck.ru/photo/65129/",
+      "photographer": "Alexey Benera",
+      "capture_date": "2016-04-10",
+      "site_model_label": "MAZ-543A",
+      "pixels_inspected_in_dot_cloud_browser": true,
+      "observations": [
+        "Front/side view with platform body",
+        "Cabins and rear enclosures closed",
+        "Front-cover relief and two top handles visible"
+      ],
+      "limits": [
+        "No dimensions or batch verification",
+        "No exposed cabin tilt or tank mounting hardware"
+      ]
+    }
+  ],
+  "rights": "Source photographs not copied into public repository or model assets; links and factual observations only",
+  "model_modified_from_these_photos": false
+}

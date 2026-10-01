@@ -1,0 +1,50 @@
+{
+  "stage": "FG16 holder reference cross-check",
+  "timestamp_utc": "2026-10-01T06:37:00Z",
+  "production_modified": false,
+  "model_modified": false,
+  "new_reference": {
+    "page": "https://retrozakaz.ru/product/opticheskiy-element-fara-iskatelya-fg-16-zil-ural-raf",
+    "image": "https://cdn.insales-shop.ru/images/products/1/3536/523054544/DSC03886.JPG",
+    "sha256": "c9fc25089f789a9b8d8023cea2d3975313a771dc9fdc1eb0af5a4883847562b1",
+    "pixels_inspected": true,
+    "observed": [
+      "Round rear holder with two visible terminal screws",
+      "OSVAR stamp and separate DS/BS markings",
+      "Metal cylindrical holder around optical bowl centre"
+    ],
+    "limits": [
+      "Seller identifies FG16-3711201; exact year and MAZ543A original compatibility not established",
+      "Do not infer circuit or original voltage from terminal count",
+      "Photo does not resolve current fitted optical bowl/cap interior interface dimensions"
+    ],
+    "rights": "Research only; raw image not in public repository or progress attachments"
+  },
+  "original_reference": {
+    "source": "1977 Fig137 p217",
+    "pixels_inspected": true,
+    "observed": "Section shows optical element transitioning to cylindrical neck inside separate rear holder",
+    "limits": "No metric neck or holder bore dimension"
+  },
+  "next": "Inspect manufacturer catalogue variants before deciding whether photographed rear holder is compatible; preserve existing rigid interference failure",
+  "manufacturer_catalogue": {
+    "url": "https://www.td-oat.ru/site/images/catalog-svet.pdf",
+    "sha256": "578783fad04dd07aa6cd513ce24a52ba706b45e56614ba860b03450c090188b6",
+    "physical_pdf_page": 27,
+    "printed_pages": [
+      52,
+      53
+    ],
+    "pixels_inspected": true,
+    "observations": [
+      "Later OSVAR catalogue distinguishes FG16 and suffixed variants rather than one interchangeable assembly",
+      "FG16 row: smooth glass, 12 V, handle attachment bolt",
+      "FG16K row: ribbed glass, 24 V, handle attachment bolt"
+    ],
+    "limits": [
+      "Later catalogue does not establish the exact 1977 MAZ543A assembly or original installed lamp voltage",
+      "No holder-bore dimensions or optical prescription supplied by the inspected page"
+    ]
+  },
+  "decision": "Retain photo as an explicitly unverified specimen reference. Do not replace the Fig137 holder, install terminal hardware, assign voltage, or erase the 617 rigid surface overlaps from these data alone."
+}

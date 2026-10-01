@@ -1,0 +1,84 @@
+{
+  "source_sha256": "1427de4198b72f994920173b79feb68d4bd82a04d2d9000d14507b4b16c5c0ff",
+  "study_sha256": "d6a5e8ab83202ac9368acda79fdd41120a62bdce2ebbf23728852d20183beda3",
+  "status": "FITTED_INSTALLATION_CANDIDATE_NOT_ACCEPTED",
+  "file": "MAZ543A_Master.blend",
+  "archived_originals": [
+    "cab_0066",
+    "cab_0067",
+    "cab_0068",
+    "BL_PanelFit_original_dashboard_blocks_retained"
+  ],
+  "old_dashboard_vertices_separated": 1800,
+  "unrelated_original_meshes_unchanged": 7708,
+  "placements": [
+    {
+      "root": "LEFT DISPLAY ROOT \u2014 not vehicle datum",
+      "world_matrix": [
+        [
+          0.0,
+          0.14943823218345642,
+          0.9887710809707642,
+          -4.806403636932373
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.024999976158142
+        ],
+        [
+          0.0,
+          0.9887710809707642,
+          -0.14943823218345642,
+          1.9613202810287476
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "anchor_source": "Existing lib/maz543.ts 0.25 m deep dashboard block and tilt; not a factory dimension",
+      "anchor": "rear-face"
+    },
+    {
+      "root": "RIGHT DISPLAY ROOT \u2014 not vehicle datum",
+      "world_matrix": [
+        [
+          0.0,
+          0.14943823218345642,
+          0.9887710809707642,
+          -4.806403636932373
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.024999976158142
+        ],
+        [
+          0.0,
+          0.9887710809707642,
+          -0.14943823218345642,
+          1.9613202810287476
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "anchor_source": "Existing lib/maz543.ts 0.25 m deep dashboard block and tilt; not a factory dimension",
+      "anchor": "rear-face"
+    }
+  ],
+  "source_geometry_or_dimensions_newly_calibrated": false,
+  "factory_mounts_and_installation": "OPEN",
+  "native_rest_clearance": "PENDING_FRESH_READBACK",
+  "existing_steering_column_seat_interference": "NOT_FIXED",
+  "all16VehicleGates": "OPEN",
+  "candidate_sha256": "637eb679d3e86ac0d2e44b166b24b528cc7262c449d967d5635a3faedca0ae02"
+}

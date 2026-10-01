@@ -1,0 +1,609 @@
+{
+  "source_sha256": "1427de4198b72f994920173b79feb68d4bd82a04d2d9000d14507b4b16c5c0ff",
+  "source_file_unchanged": true,
+  "scope": "Saved native Master rest pose; fixed mesh objects whose own hide_render flag is false. Collection visibility is not separately filtered.",
+  "comparison": "Same retained controls translated back +2.05 m in Blender Y; no source save",
+  "results": [
+    {
+      "pose": "candidate_left_rest",
+      "moving_meshes": 10,
+      "fixed_mesh_candidates": 7,
+      "narrow_phase_pairs": 35,
+      "surface_intersections": [
+        {
+          "moving": "BL_Left_driver_steering_column_retained",
+          "fixed": "cab_0064",
+          "triangle_pairs": 120,
+          "first_triangle_pairs": [
+            [
+              38,
+              994
+            ],
+            [
+              38,
+              955
+            ],
+            [
+              39,
+              994
+            ],
+            [
+              39,
+              955
+            ],
+            [
+              39,
+              995
+            ],
+            [
+              39,
+              954
+            ],
+            [
+              47,
+              1072
+            ],
+            [
+              47,
+              1073
+            ],
+            [
+              47,
+              1022
+            ],
+            [
+              47,
+              1023
+            ]
+          ],
+          "fixed_triangles": 1800
+        },
+        {
+          "moving": "cab_0029",
+          "fixed": "cab_0064",
+          "triangle_pairs": 50,
+          "first_triangle_pairs": [
+            [
+              54,
+              1515
+            ],
+            [
+              54,
+              1514
+            ],
+            [
+              55,
+              1514
+            ],
+            [
+              55,
+              1505
+            ],
+            [
+              149,
+              1515
+            ],
+            [
+              148,
+              1515
+            ],
+            [
+              243,
+              1524
+            ],
+            [
+              242,
+              1524
+            ],
+            [
+              712,
+              1505
+            ],
+            [
+              713,
+              1504
+            ]
+          ],
+          "fixed_triangles": 1800
+        },
+        {
+          "moving": "BL_Left_driver_steering_column_retained",
+          "fixed": "cab_0065",
+          "triangle_pairs": 104,
+          "first_triangle_pairs": [
+            [
+              38,
+              1323
+            ],
+            [
+              38,
+              1372
+            ],
+            [
+              38,
+              1373
+            ],
+            [
+              39,
+              1323
+            ],
+            [
+              39,
+              1373
+            ],
+            [
+              47,
+              1324
+            ],
+            [
+              47,
+              1374
+            ],
+            [
+              46,
+              1324
+            ],
+            [
+              46,
+              1374
+            ],
+            [
+              7,
+              1324
+            ]
+          ],
+          "fixed_triangles": 2400
+        },
+        {
+          "moving": "cab_0029",
+          "fixed": "cab_0066",
+          "triangle_pairs": 103,
+          "first_triangle_pairs": [
+            [
+              730,
+              784
+            ],
+            [
+              730,
+              785
+            ],
+            [
+              730,
+              783
+            ],
+            [
+              59,
+              848
+            ],
+            [
+              59,
+              785
+            ],
+            [
+              155,
+              847
+            ],
+            [
+              154,
+              847
+            ],
+            [
+              58,
+              848
+            ],
+            [
+              58,
+              847
+            ],
+            [
+              729,
+              781
+            ]
+          ],
+          "fixed_triangles": 1344
+        },
+        {
+          "moving": "cab_0029",
+          "fixed": "cab_0067",
+          "triangle_pairs": 52,
+          "first_triangle_pairs": [
+            [
+              730,
+              6831
+            ],
+            [
+              730,
+              6830
+            ],
+            [
+              730,
+              6734
+            ],
+            [
+              59,
+              6157
+            ],
+            [
+              59,
+              6829
+            ],
+            [
+              59,
+              6828
+            ],
+            [
+              59,
+              6830
+            ],
+            [
+              59,
+              6638
+            ],
+            [
+              59,
+              6734
+            ],
+            [
+              59,
+              6735
+            ]
+          ],
+          "fixed_triangles": 10752
+        }
+      ]
+    },
+    {
+      "pose": "old_right_position_comparison",
+      "moving_meshes": 10,
+      "fixed_mesh_candidates": 8,
+      "narrow_phase_pairs": 38,
+      "surface_intersections": [
+        {
+          "moving": "BL_Left_driver_steering_column_retained",
+          "fixed": "cab_0064",
+          "triangle_pairs": 120,
+          "first_triangle_pairs": [
+            [
+              38,
+              94
+            ],
+            [
+              38,
+              55
+            ],
+            [
+              39,
+              94
+            ],
+            [
+              39,
+              54
+            ],
+            [
+              39,
+              95
+            ],
+            [
+              39,
+              55
+            ],
+            [
+              47,
+              123
+            ],
+            [
+              47,
+              122
+            ],
+            [
+              47,
+              172
+            ],
+            [
+              47,
+              173
+            ]
+          ],
+          "fixed_triangles": 1800
+        },
+        {
+          "moving": "cab_0029",
+          "fixed": "cab_0064",
+          "triangle_pairs": 50,
+          "first_triangle_pairs": [
+            [
+              54,
+              614
+            ],
+            [
+              54,
+              615
+            ],
+            [
+              55,
+              614
+            ],
+            [
+              55,
+              605
+            ],
+            [
+              149,
+              615
+            ],
+            [
+              148,
+              615
+            ],
+            [
+              243,
+              624
+            ],
+            [
+              242,
+              624
+            ],
+            [
+              712,
+              605
+            ],
+            [
+              713,
+              604
+            ]
+          ],
+          "fixed_triangles": 1800
+        },
+        {
+          "moving": "BL_Left_driver_steering_column_retained",
+          "fixed": "cab_0065",
+          "triangle_pairs": 104,
+          "first_triangle_pairs": [
+            [
+              38,
+              123
+            ],
+            [
+              38,
+              172
+            ],
+            [
+              38,
+              173
+            ],
+            [
+              39,
+              123
+            ],
+            [
+              39,
+              173
+            ],
+            [
+              47,
+              124
+            ],
+            [
+              47,
+              174
+            ],
+            [
+              46,
+              124
+            ],
+            [
+              46,
+              174
+            ],
+            [
+              7,
+              124
+            ]
+          ],
+          "fixed_triangles": 2400
+        },
+        {
+          "moving": "cab_0029",
+          "fixed": "cab_0066",
+          "triangle_pairs": 103,
+          "first_triangle_pairs": [
+            [
+              59,
+              176
+            ],
+            [
+              59,
+              113
+            ],
+            [
+              730,
+              111
+            ],
+            [
+              730,
+              112
+            ],
+            [
+              730,
+              113
+            ],
+            [
+              155,
+              175
+            ],
+            [
+              154,
+              175
+            ],
+            [
+              58,
+              175
+            ],
+            [
+              58,
+              176
+            ],
+            [
+              729,
+              111
+            ]
+          ],
+          "fixed_triangles": 1344
+        },
+        {
+          "moving": "cab_0029",
+          "fixed": "cab_0067",
+          "triangle_pairs": 52,
+          "first_triangle_pairs": [
+            [
+              59,
+              877
+            ],
+            [
+              59,
+              780
+            ],
+            [
+              59,
+              781
+            ],
+            [
+              59,
+              1452
+            ],
+            [
+              59,
+              876
+            ],
+            [
+              59,
+              1454
+            ],
+            [
+              59,
+              1453
+            ],
+            [
+              59,
+              1358
+            ],
+            [
+              59,
+              1359
+            ],
+            [
+              59,
+              1262
+            ]
+          ],
+          "fixed_triangles": 10752
+        },
+        {
+          "moving": "BL_Left_driver_floor_side_lever_proxy_retained",
+          "fixed": "BL_Cab_-1_inner_wall",
+          "triangle_pairs": 110,
+          "first_triangle_pairs": [
+            [
+              12,
+              666
+            ],
+            [
+              10,
+              662
+            ],
+            [
+              10,
+              494
+            ],
+            [
+              10,
+              495
+            ],
+            [
+              10,
+              666
+            ],
+            [
+              10,
+              498
+            ],
+            [
+              10,
+              497
+            ],
+            [
+              10,
+              496
+            ],
+            [
+              11,
+              666
+            ],
+            [
+              11,
+              499
+            ]
+          ],
+          "fixed_triangles": 668
+        },
+        {
+          "moving": "BL_Left_driver_floor_side_lever_knob_proxy_retained",
+          "fixed": "BL_Cab_-1_inner_wall",
+          "triangle_pairs": 94,
+          "first_triangle_pairs": [
+            [
+              84,
+              493
+            ],
+            [
+              83,
+              493
+            ],
+            [
+              82,
+              493
+            ],
+            [
+              85,
+              493
+            ],
+            [
+              80,
+              493
+            ],
+            [
+              81,
+              493
+            ],
+            [
+              87,
+              493
+            ],
+            [
+              86,
+              493
+            ],
+            [
+              13,
+              491
+            ],
+            [
+              13,
+              490
+            ]
+          ],
+          "fixed_triangles": 668
+        }
+      ]
+    }
+  ],
+  "left_only_surface_pairs": [],
+  "limitations": [
+    "No full-containment test",
+    "No swept-motion or steering-angle test",
+    "No factory dimensions or intended joint-contact classification",
+    "Not an assembly pass"
+  ],
+  "all16VehicleGates": "OPEN",
+  "classification_note": "cab_0064 contains seat bases and dashboard blocks; cab_0065 is seat upholstery; cab_0066 and cab_0067 include old instrument faces/rims. This is an unresolved contact report, not a generic dashboard clearance pass."
+}
