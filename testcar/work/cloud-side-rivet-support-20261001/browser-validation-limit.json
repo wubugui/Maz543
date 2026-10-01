@@ -1,0 +1,71 @@
+{
+  "status": "BLOCKED_BEFORE_ACTUAL_BROWSER_PAGE_LOAD_NOT_UI_ACCEPTANCE",
+  "source_head": "800738a2794b658e2f1f96afadfb26557fea3cf7",
+  "browser": "dot cloud Chrome",
+  "target": "http://127.0.0.1:3000/?asset-review=cab-va180-axis-v1",
+  "browser_error": "net::ERR_BLOCKED_BY_CLIENT",
+  "page_loaded": false,
+  "screenshots_taken": 0,
+  "ui_flows_run": false,
+  "network_or_client_bypass_attempted": false,
+  "published_assets_verified": [
+    {
+      "path": "testcar/public/models/maz543a-blender.glb",
+      "sha256": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698",
+      "size": 20544268,
+      "matched": true,
+      "magic": "glTF"
+    },
+    {
+      "path": "testcar/public/models/review/maz543a-cab-va180-v1.glb",
+      "sha256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e",
+      "size": 24743400,
+      "matched": true,
+      "magic": "glTF"
+    },
+    {
+      "path": "testcar/public/models/d12a525a-engine.glb",
+      "sha256": "4e8cc7f9f79527bd854658a62b90761953b1996cedde2b1543d586e8dc96e070",
+      "size": 9996432,
+      "matched": true,
+      "magic": "glTF"
+    },
+    {
+      "path": "testcar/public/models/maz543a-suspension.glb",
+      "sha256": "02820335705e230b5a70a4debbc9649e4a2cf66eb180117c8d65a17f19e2ba18",
+      "size": 8154920,
+      "matched": true,
+      "magic": "glTF"
+    },
+    {
+      "path": "testcar/public/models/maz543a-starting.glb",
+      "sha256": "fc7e57bade4d6107d2b9d55292edc223bfd6e9b0fb2f635584a2142a72f5b9d4",
+      "size": 792512,
+      "matched": true,
+      "magic": "glTF"
+    },
+    {
+      "path": "testcar/public/models/maz543a-cooling.glb",
+      "sha256": "0bdddd0688c9e6f62c06586afdf6d7e2b6e33f61abf89292172634f25b9159ce",
+      "size": 15673480,
+      "matched": true,
+      "magic": "glTF"
+    },
+    {
+      "path": "testcar/public/models/maz543a-cardan.glb",
+      "sha256": "947f83011dea5b478d16e7aedd66a5af1b6b6f428b8e557ccb3424077c3fa6e0",
+      "size": 907380,
+      "matched": true,
+      "magic": "glTF"
+    },
+    {
+      "path": "testcar/public/models/maz543a-transmission.glb",
+      "sha256": "0fb959900cf4b37b215c1f47463323faea8fba6e0c08b2e8f0515f22243e9faa",
+      "size": 19204280,
+      "matched": true,
+      "magic": "glTF"
+    }
+  ],
+  "service_outcome": "Original bounded local server command was interrupted with exit130. A subsequent startup found a generated lock and local HTTP connection was refused. No process outside the original command scope was killed; broader listener/lock termination remains unverified.",
+  "whole_vehicle_acceptance": "16 OPEN"
+}

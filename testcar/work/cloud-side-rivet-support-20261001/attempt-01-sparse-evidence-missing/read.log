@@ -1,0 +1,16 @@
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Traceback (most recent call last):
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/inspect-side-rivet-support.py", line 20, in <module>
+    components=json.loads(COMPONENTS.read_text());assert components['source_sha256']==EXPECTED
+                          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/pathlib.py", line 1058, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-closed-door-contact-components-20261001/component-report.json'
+
+Error: script failed, file: '/workspace/scratch/a29d03198654/Maz543/testcar/scripts/inspect-side-rivet-support.py', exiting.
+
+Blender quit

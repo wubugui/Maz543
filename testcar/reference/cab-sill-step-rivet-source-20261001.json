@@ -1,0 +1,90 @@
+{
+  "status": "QUALITATIVE_PHOTO_TOPOLOGY_REFERENCE_NOT_FACTORY_MEASUREMENTS",
+  "target": "MAZ-543A; target year/batch not established by these images",
+  "sources": [
+    {
+      "file": "iwm07.jpg",
+      "page": "https://www.cybermodeler.com/armor/scud/pages/iwm_scud_07.shtml",
+      "image": "https://cybermodeler.com/armor/scud/images/iwm_scud_07.jpg",
+      "creator": "Michael Benolkin",
+      "view": "Vehicle right cab, close side view, front toward image right",
+      "observations": [
+        "A continuous lower step spans beneath both closed doors. Three visible suspending members descend below the fixed lower cab edge; two end members curve into the lower step while one central member remains comparatively straight.",
+        "Each visible suspension member has changes in section/appearance. Bright diagonal or twisted texture is visible on intermediate portions; flexible wire-rope construction is a hypothesis, not a confirmed part specification.",
+        "There is a broad continuous fixed sill between the door lower outlines and cab bottom. Visible suspension members begin below that lower body edge; no visible member continues upward across the closed door surface.",
+        "Multiple raised heads follow the fixed lower/rear diagonal side-skin margin outside the rear door gap. Other heads form a lower fixed-sill row; small points are also present near door edges. They must not all be indiscriminately mapped to one generic rivet pattern."
+      ],
+      "limits": [
+        "Gallery identifies MAZ-543 SCUD TEL at Imperial War Museum, Duxford; does not independently prove MAZ-543A or target 1977 batch.",
+        "Oblique single-view image; no metric calibration, exact head type/count, fastener shanks, hidden upper attachments, cable material or suspension stiffness established.",
+        "Museum rope crosses lower hanging structure; some details are occluded."
+      ],
+      "bytes": 468829,
+      "sha256": "e20d18e0de71b0faab0ac273c15eb823ac99171144498faa07c298594352038f",
+      "pixels": [
+        1800,
+        1350
+      ],
+      "pixels_inspected": true
+    },
+    {
+      "file": "iwm12.jpg",
+      "page": "https://www.cybermodeler.com/armor/scud/pages/iwm_scud_12.shtml",
+      "image": "https://www.cybermodeler.com/armor/scud/images/iwm_scud_12.jpg",
+      "creator": "Michael Benolkin",
+      "view": "Same vehicle left side, front toward image left",
+      "observations": [
+        "The opposite cab has the same visible overall arrangement of a continuous step under two doors and three hanging members below the fixed sill.",
+        "Fixed lower sill and diagonal rear margin remain distinct from both door shells."
+      ],
+      "limits": [
+        "Same preserved vehicle as image07, not independent batch evidence.",
+        "Lower resolution on cab at this view; no exact head counts or hardware dimensions established."
+      ],
+      "bytes": 470284,
+      "sha256": "f1ab0df4fa4803994dc8c7761394fd99f92ba798ecbbaa1d2205c8ea8a2ec64c",
+      "pixels": [
+        1800,
+        1350
+      ],
+      "pixels_inspected": true
+    },
+    {
+      "file": "cab.jpg",
+      "page": "https://en.volmaz.ru/articles/maz-543.html",
+      "image": "https://en.volmaz.ru/assets/uploads/content_images/012/image012.jpg",
+      "creator": "Original photographer not established",
+      "view": "Open left-cab doors, uncalibrated oblique",
+      "observations": [
+        "Distinct jamb/gasket perimeter and surrounding fixed lower sill/side skin are visible.",
+        "Fastener-like heads are visible in the skin outside the sealing perimeter."
+      ],
+      "limits": [
+        "Mixed-variant secondary article; specific vehicle/batch and originality unproven.",
+        "Lower step and upper suspension attachments cropped/occluded."
+      ],
+      "bytes": 116606,
+      "sha256": "a90a0445ecec91c2d7dee05bfdcec95cfdea340652dd18fd930d8a073323545c",
+      "pixels": [
+        700,
+        466
+      ],
+      "pixels_inspected": true
+    }
+  ],
+  "primary_manual_status": {
+    "1977": "https://djvu.online/file/zjMdLY3MFjmTL",
+    "1977_scope": "Printed cab description pp171-173 and figures101/102 are relevant leads. Only indexed transcription was accessible during this pass; scan pixels were NOT verified. Browser stopped on plain Continue gate, then transport timed out; public linked scan fetches failed.",
+    "1973": "https://sinref.ru/avtomobili/MAZ/011-Maz-543-shassi-tehopisanie-1973-g-04600_raznie_13/018.htm",
+    "1973_scope": "Figures92/93 are linked; 1197/1204/1211/1218 JPGs returned 246-byte HTML cookie redirects and are NOT reference images."
+  },
+  "recommendation": [
+    "Treat the photographed continuous fixed sill and below-sill hanging step as qualitative topology constraints. Do not force a step hanger through a door shell merely to preserve inherited fitted coordinates.",
+    "Do not delete original parts to reduce contact counts. The photos cannot establish that the historical cylinders were formally superseded. Preserve source identities and old geometry, then study a traceable candidate assembly with separately justified hangers, step and fixed sill.",
+    "Resolve sill and door-aperture contour before fastener placement. Place each candidate fastener only on its supported fixed or moving substrate with a documented attachment relation, not floating beyond the side wall; verify sealing sweep and motion separately.",
+    "Keep metric sizes, support section/material, hidden hardpoints, fastener count/type and exact 1977 MAZ543A applicability OPEN. Current model coordinates and the photographic visual fit are not factory dimensions."
+  ],
+  "source_pixels_published": false,
+  "rights": "Research-local photographs and crops only. Do not add source pixels to public repository or assets. Cite creator and exact source page if publishing factual observations.",
+  "whole_vehicle_acceptance": "16 OPEN"
+}
