@@ -2,6 +2,10 @@
 
 Read `CLOUD_HANDOFF.md` first. Its 2026-09-30 snapshot status supersedes older progress and migration notes; keep historical evidence intact. Read `testcar/docs/ACCEPTANCE.md` and the original requirement files before development. All 16 whole-vehicle acceptance gates remain OPEN. A successful upload or a local numerical check does not establish engineering accuracy or user visual acceptance.
 
+Then read `CLOUD_CONTINUATION.md` for subsequent independent cloud candidates,
+actual limited checks, current tool recovery and unresolved delivery/preview
+limits. It does not promote a candidate or supersede the production SHA values.
+
 The current editable vehicle is `testcar/outputs/MAZ543A_Master.blend` with `MAZ543A_Textured.blend`; the current browser asset is `testcar/public/models/maz543a-blender.glb`, rear-box-frame-20260930. Do not promote failed candidates or rebuild everything from old scripts.
 
 The user requires actual reference comparison from multiple views, native structure and installation checks, retained original references and historical candidates. Preserve unrelated uncommitted work. Do not lower acceptance standards or replace game objects in tests to manufacture a pass.
