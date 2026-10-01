@@ -1,10 +1,21 @@
 # Cloud continuation rules
 
-Read `CLOUD_HANDOFF.md` first. Its 2026-09-30 snapshot status supersedes older progress and migration notes; keep historical evidence intact. Read `testcar/docs/ACCEPTANCE.md` and the original requirement files before development. All 16 whole-vehicle acceptance gates remain OPEN. A successful upload or a local numerical check does not establish engineering accuracy or user visual acceptance.
+At the start of every task, read `CLOUD_CONTINUATION.md` first. It is the single
+maintained progress record: current published checkpoint, exact inputs, completed
+checks, failed candidates, recovery state and the next concrete action. Check the
+actual working tree, running jobs and remote status before acting. Then consult
+`CLOUD_HANDOFF.md` for the immutable migration/production baseline and
+`testcar/docs/ACCEPTANCE.md` for the original requirements. All16 whole-vehicle
+gates remain OPEN unless their complete evidence is independently established.
 
-Then read `CLOUD_CONTINUATION.md` for subsequent independent cloud candidates,
-actual limited checks, current tool recovery and unresolved delivery/preview
-limits. It does not promote a candidate or supersede the production SHA values.
+For each completed, verifiable work item, update that same progress document in
+the same commit and immediately make a normal push; do not accumulate multiple
+items until a stage ends. Verify remote SHA/tree and relevant LFS payloads before
+marking delivery complete. Explicitly preserve failed candidates and limits. If
+write authentication is unavailable, coordinate its authorized restoration and
+avoid accumulating substantial unpushed work. Never create credentials yourself.
+Stage reports and actual images still go to the existing project Slack channel.
+GitHub Git/LFS is the version source; no new separate backup ZIPs or desktop sync.
 
 The current editable vehicle is `testcar/outputs/MAZ543A_Master.blend` with `MAZ543A_Textured.blend`; the current browser asset is `testcar/public/models/maz543a-blender.glb`, rear-box-frame-20260930. Do not promote failed candidates or rebuild everything from old scripts.
 

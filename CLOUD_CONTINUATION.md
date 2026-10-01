@@ -1,4 +1,195 @@
-# Cloud development continuation, through 2026-10-01
+# MAZ543 云开发权威进度记录
+
+更新时间：2026-10-01 15:23 UTC。**每次开始任务先读本文件。**
+本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
+迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
+独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
+
+## 开工与完成一项时的固定流程
+
+1. 先读本文件、`git status --short`、`git log -5 --oneline`，再检查正在运行的
+   作业与已有终态报告。核实际环境和文件实体，不重复已完成的渲染/检查。
+2. 只选择一个可明确验证的小项，写明输入SHA、具体改动、通过/失败条件及证据位置。
+   不改生产默认，不把未知车型/批次、拟合尺寸或采样检查当原厂/连续证明。
+3. 一项完成后，立即更新本文件和对应证据，**同一个提交记录改动与进度，立即
+   正常push**，不等待整个阶段结束。失败但有价值的候选也明确标FAIL并及时提交。
+4. 推送后核对远端分支SHA和树；新增LFS须有实体、上传终态以及针对性远端回取
+   SHA验证。只有本地commit、LFS指针或准备上传不算已交付。认证/网络受阻时标明
+   阻碍，先协调恢复推送，避免继续累积大量未推送成果。
+5. 阶段报告和真实图片仍发项目既有Slack频道；区分原生/网页、生产/独立候选。
+   私人目的地、凭据、签名URL和交付收据不进入这个公开仓库。
+
+不再同步用户本机，不再为同步制作独立ZIP/分卷备份。GitHub的完整Git历史和LFS
+是版本来源。只在证明远端可恢复后清理同内容缓存；不删除唯一未推材料、原工程
+或改写历史。禁止强推、自动部署、付费扩容和擅自创建认证。
+
+## 当前目标、发布依据与资产选择
+
+目标仍是准确还原MAZ-543A：原比例与批次特征、真实零部件及装配、可编辑原生
+机械、机械/电气功能、交互展示和实际画面。完整要求见`GOAL.md`、
+`testcar/docs/ACCEPTANCE.md`、`testcar/MIGRATION_HANDOFF.md`。
+
+- 独立开发分支：`development/cloud-maz543a-20260930`
+- 最近已核实发布的工程HEAD：`cc47bf6a3188e50b9d7cbe2d8c546886b6ea1ae0`
+- 该提交根树：`174bb1e8e883c173c3bc2de4101dd32108211027`
+- 2026-10-01 15:23 UTC再次`ls-remote`确认分支仍指向上述HEAD
+- 原迁移分支保持：`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`
+- `migration/cloud-handoff/DELIVERY_STATE.json`确认完整快照，无待迁移文件；
+  包含3484个实物源文件及100个原Git基线文件。稀疏检出不等于这些历史文件丢失
+- **本次进度文档整理在写入本条时尚未推送**。它是上述工程HEAD之后的文档改动，
+  不能提前称已交付。后续应以本地HEAD与实际远端相等为发布判据，不能只信此处旧SHA
+- 本次文档检查：27个明确路径引用均在Git树中，4个候选OID逐项匹配，
+  `git diff --check`通过；仅改本进度文档和AGENTS/GOAL入口，无新LFS或模型改动
+
+生产依旧为`rear-box-frame-20260930`，未被任何云候选替换：
+
+| 资产 | SHA-256 |
+|---|---|
+| `testcar/outputs/MAZ543A_Master.blend` | `0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3` |
+| `testcar/outputs/MAZ543A_Textured.blend` | `f927cfffae77e443fe6f7c8536bb2344d6b7694f335a071a26d4bba22e350f5d` |
+| `testcar/public/models/maz543a-blender.glb` | `4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698` |
+
+下一项装配检查应使用独立候选，不能误用独立仪表小场景作为整车：
+
+| 用途 | 已发布文件及SHA-256 |
+|---|---|
+| 当前舱内/VA180 Master候选 | `testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend`；`8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70` |
+| 对应Textured候选 | `testcar/outputs/cloud-va180-textured-20261001/MAZ543A_Textured.blend`；`6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266` |
+| 开发专用GLB候选 | `testcar/public/models/review/maz543a-cab-va180-v1.glb`；`fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e` |
+| 独立TEM15前脸iteration02 | `testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/study.blend`；`a65ec84c7a03de257ad5971b9675bd4d83c5515a6429875e6d02418c760b3def` |
+
+## 最近完成的小项、验证边界与证据
+
+| 已发布提交 | 完成内容 | 实际检查与证据路径（均在testcar下） |
+|---|---|---|
+| `1b89f0d` | VA180局部研究装入原B4拟合孔的独立Master | `outputs/cloud-va180-panel-fit-20261001/`：四座椅保留、28追加对象身份、20宽阶段配对、192孔射线及192命中负控；已有3处装配干涉仍失败。原生全车/同机位近图已留存；4新LFS共71100371B全部远端回取SHA通过 |
+| `43fc91e`、`139f671` | 原1977轮定位值和真实轮架拓扑只读诊断 | `outputs/cloud-wheel-alignment-20261001/`、`reference/wheel-alignment-source-20261001.json`：名义外倾幅值1°；1040mm参考直径前束，第一轴8–14mm，第二轴满载5–12/空载8–14mm。当前中性几何约0°/0mm，尚非载荷/胎压/滚动合格试验，未调车轮 |
+| `664353c` | 支承螺栓原轴方向不足以接触上摆臂的定位 | `outputs/cloud-suspension-stop-axis-20261001/`：8站×136/138.5/141mm共24状态，完整螺栓XY投影与各上臂三角投影间隔4.0202–4.0488mm。仅这些状态的充分条件，不能称全行程证明；4新LFS共2975156B全部远端回取SHA通过 |
+| `d1aa9ba` | Textured舱内/VA180和开发GLB，修正候选方向盘每帧姿态 | `outputs/cloud-va180-textured-20261001/`、`work/cloud-va180-web-20261001/`：261件/321姿态，顶点误差最大8.191µm；432原网格节点压缩流与原图像/纹理绑定/采样器保留；Khronos0错误0警告，Draco另解码。721候选姿态、480旧姿态、30选择条件、tsc/build通过。6新LFS共182630610B全部远端回取SHA通过；不等于真实网页验收 |
+| `e4d3fec` | 补两件重编码原网格的UV检查 | `work/cloud-va180-uv-20261001/`：1200座椅底座三角+96方向柱三角，位置/UV角点与绕序一一匹配；最大UV误差0.0000893511/0.0001221895在12bit量化允许范围内。无像素一致性或网页声明，无新LFS |
+| `cc47bf6` | 参考带1978护照照片的独立TEM15旧kg/cm²前脸 | `outputs/cloud-tem15-face-study-20261001/`、`reference/tem15-face-source-20261001.json`：iteration02九个闭合研究实体（含5个刻线/单位线实体，不是原厂部件数量）、36静态表面配对、腔体负控及可编辑曲线读回通过。真实正/斜图已看；未装车。6新LFS共3959535B在重置后全新Git/LFS恢复中逐SHA通过 |
+
+最新开发GLB只在开发环境`?asset-review=cab-va180-v1`选择；生产及render-worker
+入口回退生产。仪表/按钮仍是静态外观。云浏览器实际预览仍未通过，不能把代码
+绑定测试或原生Cycles图叫作网页运行验证。
+
+## 保留的失败、未解决事项
+
+- `b9fb590`的顶点级Separate错误归档四个座椅基座，其“完整舱体保留/碰撞改善”
+  结论已撤回。失败原件在Git历史中保留；修复版检查V/E/F选择和四个座椅语义身份
+- 当前Master仍有方向柱/坐垫、左面板/内壁和LC22底座/内壁三处已知接触失败。
+  不允许为降低碰撞计数移走应保留的车体；B4图注64与仪表识别冲突仍注明推断
+- 旧三盖r3锁扣释放、前唇/格栅以及独立FG16的617三角对相交未解决；不能把
+  盖面/轮胎/仪表的局部进步当作全车通过
+- `work/cloud-va180-web-20261001/iteration-01-tangent-fallback/`保留首轮切线错误
+  导出；最终临时原生三角化修复，源blend未保存。继承的多图像采样器警告仍记录，
+  最终图像/绑定/采样器逐字保留已验证
+- TEM15根目录首版指针帽缝重复顶点非流形；iteration02用原生Weld修复，独立位置
+  集合完全不变，编辑Curve保留。首96sample图噪声/反光不合格，双图任务触发明确
+  180秒截止；首斜图灯块遮挡刻度也保留。最终分段64sample原生去噪图只改善审图，
+  没改几何；细刻线、字体、尺寸、1977批次和内部机构仍未验收
+- 原厂11500±25mm长度与当前11269.1mm包络、非等轴载荷、悬架止挡/预载、右后电池箱
+  和左过滤通风设备/543A油箱架的真实安装、多个机械内构及全车性能仍开放
+- 现代UK143A厂家目录的24V/40–120℃/60mm/M5只属于该现代型号，不能直接当1977
+  UK143的尺寸或用多型号分类配图替代已确认实物
+- 现有1496门区间结果只覆盖生产四门44件对34个BL_Front件。新增仪表板、VA180和
+  方向柱没有因此自动得到全连续装配证明；它们是下一个明确检查范围
+
+## 2026-10-01环境变化与已恢复状态
+
+13:26 UTC执行环境标识及工作目录创建时间发生变化，原工作区/工具/私有认证配置
+不再存在。此前精确清理仅处理已核远端可恢复的重复包/回读缓存；项目随后仍成功
+建模、渲染，并在13:23提交cc47bf6。不能据此杜撰环境变化的触发原因。
+
+- cc47bf6普通Git+6个LFS上传会话已返回exit0，远端ref/tree匹配；项目成果保住
+- 已正常从公开仓库重新稀疏clone到同名Maz543目录，当前分支cc47bf6；普通Git对象
+  refetch后检查4017个可达对象，无缺失。没有展开整份LFS历史
+- TEM15本轮6个实体已实际恢复、SHA/字节数核对并checkout；其他生产/历史/候选
+  大文件仍需按本次任务选择性恢复。**不要把指针文件当实体，或把此状态写成全仓库
+  已物化恢复**
+- 官方Blender4.5.13精确归档SHA匹配并恢复；系统Blender4.3.2不是已验证替代版
+- Node24.19.0；使用锁文件和工作区npm缓存恢复577依赖成功。重置前tsc/build通过，
+  不自动等同于新恢复环境重新通过完整运行/浏览器检查
+- 未提交损失仅指已知的“候选四门对新舱内部件区间检查”草稿修改，尚未运行/验收，
+  不在cc47bf6中，需从已发布原脚本重建。不要声称这项已完成或已恢复
+- 新取得的原始参考照片/PDF不公开转载；若本地副本缺失，按已保存来源URL和SHA
+  正常获取。未取得的源图不能靠文字猜测重建
+- 15:21只读`gh auth status`显示未登录。旧私有配置未恢复，不读取/搬运凭据、
+  不自行重新登录；由已授权主线程协调认证。公开仓库只读恢复不等于有写入认证
+- TEM15正视图及阶段报告已分享；斜视图13:42前字节POST成功，尚未完成分享。
+  接续时先查该上传与线程，不重复发送或提前声称两图都已交付
+
+## 下一个具体动作与完成条件
+
+1. 先提交本次进度入口整理。认证确认后立即正常push，核远端SHA/tree；本项无新LFS。
+   认证受阻期间不再叠加大批未推模型/代码
+2. 完成已上传TEM15斜视图的既有分享收尾，先核记录再操作；这不产生新模型版本
+3. 按需恢复`cloud-va180-panel-fit-20261001/MAZ543A_Master.blend`并核8e962d6…SHA。
+   从`testcar/scripts/audit-door-interval-clearance.py`重建独立candidate-cab范围：
+   四门0–99°对当前新面板/VA180/方向柱及保留座椅底座，旧production-front不改输入。
+   对隐藏归档/Boolean工具逐项列清，不能静默漏掉应有实体
+4. 在实际新母版核依赖：静态Boolean集合不得引用移动门层级；只有明确自引用常量
+   的按钮驱动可按“按钮释放且固定”的范围处理。逐实际门姿态检查静态顶点不变，
+   记录原生刚体匹配误差；无法证明的依赖保留为不合格，不为通过而关闭
+5. 复用`door_interval_bounds.py`的保守闭区间极值及20µm外扩。包围盒重叠只记
+   UNRESOLVED，不冒充碰撞/通过；不把原生有限采样改称全连续扫掠。结果、范围、
+   失败与源码SHA更新到本文件，同提交立即push并核相应LFS
+
+## 精确版本与恢复命令
+
+以下用于新的空目录，正常官方读取；已有目录先读进度/检查状态，禁止覆盖现有未提交
+成果。共享磁盘有限，不使用`git lfs fetch --all`或全历史无筛选checkout。
+
+```bash
+GIT_LFS_SKIP_SMUDGE=1 GIT_TERMINAL_PROMPT=0 git clone --filter=blob:none --no-checkout --single-branch --branch development/cloud-maz543a-20260930 https://github.com/wubugui/Maz543.git Maz543
+cd Maz543
+git lfs install --local
+GIT_LFS_SKIP_SMUDGE=1 git sparse-checkout init --no-cone
+GIT_LFS_SKIP_SMUDGE=1 git sparse-checkout set --no-cone '/AGENTS.md' '/CLOUD_HANDOFF.md' '/CLOUD_CONTINUATION.md' '/GOAL.md' '/.gitattributes' '/.gitignore' '/testcar/*' '!/testcar/outputs/' '!/testcar/work/' '!/testcar/public/models/' '/testcar/outputs/cloud-tem15-face-study-20261001/' '/migration/cloud-handoff/'
+GIT_LFS_SKIP_SMUDGE=1 git checkout development/cloud-maz543a-20260930
+git rev-parse HEAD 'HEAD^{tree}'
+GIT_TERMINAL_PROMPT=0 git ls-remote origin refs/heads/development/cloud-maz543a-20260930
+```
+
+如果部分克隆导致LFS扫描逐个获取小Git指针，可正常一次补齐普通Git对象：
+
+```bash
+GIT_TERMINAL_PROMPT=0 git -c pack.threads=1 -c gc.auto=0 -c maintenance.auto=false fetch --refetch --no-filter --no-tags --no-write-fetch-head origin cc47bf6a3188e50b9d7cbe2d8c546886b6ea1ae0
+GIT_TERMINAL_PROMPT=0 git -c lfs.concurrenttransfers=2 -c lfs.fetchrecentalways=false lfs fetch --include='testcar/outputs/cloud-tem15-face-study-20261001/**' --exclude='' origin cc47bf6a3188e50b9d7cbe2d8c546886b6ea1ae0
+# checkout使用明确文件；仅目录尾斜杠不会物化这些文件。
+git lfs checkout testcar/outputs/cloud-tem15-face-study-20261001/study.blend testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/study.blend testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/front.png testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/front-lighting02.png testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/oblique-lighting02.png testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/oblique-lighting03.png
+```
+
+每个恢复实体应以`git show REV:path`中的LFS oid/size为准核SHA/字节数。
+其他任务只添加实际需要的稀疏路径和LFS include。远端完整性验证应从新的空LFS
+校验目录实际获取相关新OID；不能用本地`.git/lfs`已有对象冒充远端回取。
+
+Blender官方精确归档：
+`https://download.blender.org/release/Blender4.5/blender-4.5.13-linux-x64.tar.xz`，
+378033952B，SHA-256
+`da4e69b06b75b9e642d106496c50e7e240218b411d2f6e18271c1d1d819cef91`。
+先校验再解包到项目外专属工具目录。当前路径为
+`../maz543-tools/blender-4.5.13-linux-x64/blender`，版本4.5.13、build`daeeeca98fb0`。
+官方目录页曾返回402而精确归档正常返回；不要把具体工具错误泛化为政策拒绝，
+也不绕过真正认证/TLS/访问拒绝。
+
+```bash
+# 从仓库根目录；缓存放在允许写入的工作区，避免默认home目录缺失。
+cd testcar
+npm_config_cache="$PWD/../../maz543-tools/npm-cache" npm ci
+node node_modules/typescript/bin/tsc --noEmit
+npm run build
+# Native脚本从testcar运行，例如：
+../../maz543-tools/blender-4.5.13-linux-x64/blender -b --threads 2 --python scripts/verify-tem15-face-study.py -- --directory outputs/cloud-tem15-face-study-20261001/iteration-02
+```
+
+新环境的认证检查只用已授权配置中的`gh auth status`，不打印token，不把凭据放进
+仓库。写入认证由主线程确认后，用正常pre-push钩子上传LFS，再非force推独立分支；
+匹配远端SHA/tree和实体回取后才报告发布成功。
+
+---
+
+# 历史工程记录（保留证据，不作为旧流程的执行授权）
 
 2026-10-01 correction: the `b9fb590` cab-panel fit trials used a defective
 vertex-only Separate selection and inadvertently archived all four seat bases.
@@ -6,15 +197,16 @@ The saved second trial has 0 remaining seat-base vertices and 5,400 archived
 vertices instead of the intended 1,800. Its complete-cabin preservation claim
 is withdrawn; its images/contact counts cannot establish an assembly improvement.
 Original production and the independent panel study are unaffected. Preserve the
-old files/backup; corrected trials require per-seat identity, geometry/UV and
+failed model files and their Git history; corrected trials require per-seat identity, geometry/UV and
 actual render-path checks. See the corrected fit-study README and saved
 `separation-inspection.json`.
 
 The original full migration remains commit
 `4f28bd4618ca7e272f6049b9f615821b8e0bb8f1` on
-`migration/maz543a-20260930`. Subsequent cloud work is on the separate local
-branch `development/cloud-maz543a-20260930`. Development commits through `63fe135bf1b1c9237c6158519fb77203a9f9a6be`
-have now been published by normal Git/LFS push and independently verified. Keep the original migration history and
+`migration/maz543a-20260930`. Subsequent cloud work is on the separate
+branch `development/cloud-maz543a-20260930`. At the original publication checkpoint, commits through
+`63fe135bf1b1c9237c6158519fb77203a9f9a6be` were published by normal Git/LFS push
+and independently verified. Later published checkpoints are recorded above. Keep the original migration history and
 all failed candidates. All 16 whole-vehicle acceptance gates remain OPEN.
 
 ## Production still unchanged
@@ -130,7 +322,8 @@ replacement for the production masters or production GLB.
 
 ## Verified environment and remaining access limits
 
-Official Blender4.5.13 LTS, build `daeeeca98fb0`, is used with four threads.
+Official Blender4.5.13 LTS, build `daeeeca98fb0`, was verified. Thread limits are
+recorded per run; recent Cycles work used two CPU threads.
 After the former shared tools directory became unavailable, the same official
 archive was downloaded and verified at a MAZ-specific tools location outside
 this repository. Archive SHA-256:
@@ -145,36 +338,14 @@ for the local preview, so browser checks remain blocked pending a supported
 preview route. Do not change network/security settings or use a different
 browser to bypass that denial.
 
-Normal cloud Git write authentication is unavailable. The original `ed97cf3` transfer and later incremental bundle remain historical
-archives. Current authorized workflow is dot-cloud development, complete incremental
-backup through Library, synchronization to the designated non-C Windows drive,
-then push from that already authorized desktop. The parent task coordinates
-that executor; do not create overlapping desktop tasks or develop there.
-Never place project files, archives or temporary recovery copies on C:. No local bundle proves remote delivery. Keep exact snapshot heads
-and prerequisites; don't rewrite bundles under an existing filename or claim
-later commits are included. The incremental bundle through `613c1cb` requires
-both `ed97cf3` and the complete migration `4f28bd4`. Later documentation and
-door-review hardening commits need a subsequent transfer. No credentials,
-private communication receipts or signed upload links belong in this repository.
-
-## External recovery checkpoint
-
-The complete incremental backup through `01097c9c0ccf50497214bac421b569621f36e533`
-was externally saved and officially downloaded/reassembled for SHA verification.
-Recovery chain: original migration `4f28bd4` -> backed-up cloud `01097c9`.
-Its77 new LFS objects contain actual model/image bytes, alongside the Git bundle.
-This does not mean the development branch was pushed to GitHub. Subsequent
-verified milestones should back up only the increment after this checkpoint,
-including every newly reachable LFS object, without resending the old archive.
-Private storage receipts are kept outside the public repository.
-
-## Next concrete work
-
-Obtain or verify variant-specific seat/lock/mount construction before removing
-the remaining lamp, hood-lock and equipment installation failures. Targeted
-source-backed geometry and mechanical work can continue while browser and Git
-handoff limitations remain open. Preserve the distinction between published
-dimensions, fitted geometry, conditional checks, failures and untested states.
+The earlier Library/bundle-to-Windows transfer plan is cancelled. It is retained
+only as historical context: five incremental checkpoints were backed up before
+normal cloud Git authentication became available. All five are now ancestors of
+the published development branch. All91 associated new LFS entities were actually
+recovered from GitHub and SHA-verified on2026-10-01 before deleting duplicate local
+packages. Historical Library deliveries were not deleted. Do not recreate that
+transfer plan, make new independent backup ZIPs or resume desktop synchronization.
+The current workflow, authentication boundary and recovery commands are above.
 
 ## Independent cab-panel study, 2026-10-01
 
@@ -184,14 +355,14 @@ checks 247 closed finite positive-volume solids and 57 real through-holes with
 positive/negative controls. Three actual Cycles views were inspected; appearance,
 factory dimensions, conflicting source captions and cabin installation remain
 OPEN. No vehicle master or browser asset was changed. All 16 vehicle gates stay
-OPEN. This stage follows externally backed-up checkpoint `01097c9`; its next
-complete increment must include the new blend and all image LFS entities.
+OPEN. This stage originally followed externally backed-up checkpoint `01097c9`; its
+model and image entities are now retained in the published Git/LFS history.
 
 The subsequent panel-study checkpoint `f619cb66959533f13ddee5aba53739ebbab98d5c`
 was also externally saved and officially read back, with its full archive hash
-and all four new LFS payload hashes verified. Current recovery chain is
-`4f28bd4 -> 01097c9 -> f619cb6`. Later increments start after `f619cb6`.
-Desktop synchronization and remote publication remain separately unconfirmed.
+and all four new LFS payload hashes verified. The historical archive chain was
+`4f28bd4 -> 01097c9 -> f619cb6`. This checkpoint is now in the published Git/LFS
+history; the former desktop-transfer plan is cancelled.
 
 ## Cab-panel fit trials, 2026-10-01
 
@@ -202,9 +373,11 @@ centre-plane trial has 2 panel-to-existing rest surface intersection pairs. The
 second driver-facing-plane trial has 15, including steering-wheel interference.
 Both preserve 247 closed solids / 57 through-holes in fresh readback; that does
 not accept either installation. The second reader exits 2 on surface contacts.
-Old dashboard/gauge proxies are retained in hidden editable objects; unrelated
-mesh geometry, authored UVs and transforms remain unchanged. Source metadata
-and the fit trials remain unaccepted. No browser asset or production was changed.
+The early report claimed only dashboard/gauge proxies were archived and unrelated
+geometry was unchanged. That claim was withdrawn: defective Separate selection
+also archived all four seat bases. Preserve these failed trials, but do not reuse
+their lower contact counts as an improvement. Source metadata and the fit trials
+remain unaccepted. No browser asset or production was changed.
 The old steering-column/seat intersections are separately retained in
 `cloud-left-driver-rest-audit-20261001`, not solved by a new instrument layout.
 
@@ -220,8 +393,8 @@ its cause is not established. No whole-vehicle gate passes.
 
 Corrective checkpoint `8cb82c90245f92c9d0fdb9ad7da3053aa77f0d18`
 was externally saved with all three new LFS entities. All archive payload hashes,
-four official read-back parts and the reassembled archive SHA-256 passed. Current
-complete incremental recovery chain is `4f28bd4 -> 01097c9 -> f619cb6 -> b9fb590
+four official read-back parts and the reassembled archive SHA-256 passed. The historical
+external recovery chain was `4f28bd4 -> 01097c9 -> f619cb6 -> b9fb590
 -> 8cb82c9`. The defective b9 trials remain as withdrawn historical evidence.
 External storage does not confirm desktop synchronization or GitHub publication.
 
@@ -241,11 +414,11 @@ browser changes. All16 gates remain OPEN.
 Checkpoint `63fe135bf1b1c9237c6158519fb77203a9f9a6be` and its complete
 increment after8cb82c9 are externally saved. The official single-archive route
 and whole-file readback succeeded, including all3 new LFS payload SHA checks.
-Recovery chain now ends `... -> b9fb590 -> 8cb82c9 -> 63fe135`. Begin future
-increments after63fe135. Desktop sync/GitHub push remain unconfirmed.
+Recovery chain now ends `... -> b9fb590 -> 8cb82c9 -> 63fe135`. This describes the historical backup state only. Normal Git/LFS publication
+was subsequently completed; current delivery state is at the top of this file.
 
 
-In-progress independent VA180 front study: `cloud-va180-face-study-20261001`.
+Historical independent VA180 front study before504c1d5: `cloud-va180-face-study-20261001`.
 Original1977 operation paragraph plus three inspected firsthand product photos
 support a curved upper display, opaque lower cover, correction screw and
 independent pushbutton. Unknown manufacturer/batch dimensions, font, button
@@ -253,9 +426,9 @@ stroke and minor/voltage markings are not claimed calibrated. Root trial and
 iteration02 retain backing/control and backing/case contact failures. Iteration03
 has10 closed study solids,3 actual openings,45 scoped rest pairs with no unexpected
 intersections, and sampled independent button return. Its two native images were
-inspected; side-face shading is being refined in iteration04. No vehicle/panel
-installation or production change, all16 OPEN. Latest externally saved checkpoint
-remains63fe135 until this new study has been committed and fully archived.
+inspected; side-face shading was subsequently refined in iteration04. No vehicle/panel
+installation or production change, all16 OPEN. The later504c1d5 publication and remote entity checks are recorded below;
+this paragraph does not prescribe a new archive workflow.
 
 
 ## Verified GitHub publication, 2026-10-01
@@ -271,9 +444,10 @@ byte counts and SHA256 values matched (171,551,481 bytes). The remaining87 were
 not individually re-downloaded. The first scan failure is retained; normal Git
 metadata refetch resolved it before successful remote retrieval.
 
-The user's latest workflow is cloud development -> normal GitHub push -> stage
-Slack report. Desktop synchronization is cancelled. Historical Library backups
-remain retained. No production asset was promoted, and all16 gates remain OPEN.
+The workflow after normal Git publication became cloud development -> GitHub ->
+stage Slack report. The latest requirement above now makes the push immediate
+after each completed verifiable item. Desktop synchronization is cancelled. Historical Library deliveries remain retained; new duplicate backup packages
+are not part of the current workflow. No production asset was promoted, and all16 gates remain OPEN.
 
 ## Subsequent verified checkpoint and wheel-alignment diagnosis
 
