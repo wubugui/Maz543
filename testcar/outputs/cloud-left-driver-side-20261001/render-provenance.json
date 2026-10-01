@@ -1,0 +1,78 @@
+[
+  {
+    "file": "left-cab-before.png",
+    "source_sha256": "d4a4273dfeac60ff6a43088518dbff19dccf49fd408390ef10cec016783f4fa0",
+    "actual_renderer": "Cycles CPU4 threads64samples,denoise off",
+    "camera_world": [
+      [
+        -1.6292068494294654e-07,
+        -0.6401841044425964,
+        0.7682215571403503,
+        -4.400000095367432
+      ],
+      [
+        1.0,
+        -1.904084854231769e-07,
+        5.34015143216493e-08,
+        -1.024999976158142
+      ],
+      [
+        1.1208910422055851e-07,
+        0.7682215571403503,
+        0.6401841044425964,
+        2.319999933242798
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "focal_length_mm": 17,
+    "view": "Inside vehicle LEFT cab, facing forward from driver eye vicinity; fitted inspection camera",
+    "geometry_hidden_for_render": false,
+    "source_saved_or_changed": false,
+    "all16VehicleGates": "OPEN",
+    "bytes": 1674666,
+    "sha256": "ea1594f0d62d15192ca9aa9750a7f064e8e595a730ac7264d7426967db482987"
+  },
+  {
+    "file": "left-cab-after.png",
+    "source_sha256": "1427de4198b72f994920173b79feb68d4bd82a04d2d9000d14507b4b16c5c0ff",
+    "actual_renderer": "Cycles CPU4 threads64samples,denoise off",
+    "camera_world": [
+      [
+        -1.6292068494294654e-07,
+        -0.6401841044425964,
+        0.7682215571403503,
+        -4.400000095367432
+      ],
+      [
+        1.0,
+        -1.904084854231769e-07,
+        5.34015143216493e-08,
+        -1.024999976158142
+      ],
+      [
+        1.1208910422055851e-07,
+        0.7682215571403503,
+        0.6401841044425964,
+        2.319999933242798
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "focal_length_mm": 17,
+    "view": "Inside vehicle LEFT cab, facing forward from driver eye vicinity; fitted inspection camera",
+    "geometry_hidden_for_render": false,
+    "source_saved_or_changed": false,
+    "all16VehicleGates": "OPEN",
+    "bytes": 1748076,
+    "sha256": "3c4dbd403d46101da7f6204b2b795bc94aa67b28b979ceecd175b7925c4b666e"
+  }
+]

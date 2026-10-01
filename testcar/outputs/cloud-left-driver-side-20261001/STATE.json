@@ -4,7 +4,22 @@
   "source": "cloud-hood-tyre-composite-20261001",
   "all16VehicleGates": "OPEN",
   "production_promoted": false,
-  "render": "PENDING_SHARED_RENDER_WINDOW",
+  "render": {
+    "status": "PASS_TWO_ACTUAL_NATIVE_IMAGES_VIEWED",
+    "files": [
+      "left-cab-before.png",
+      "left-cab-after.png"
+    ],
+    "resolution": [
+      1000,
+      1000
+    ],
+    "samples": 64,
+    "denoise": false,
+    "first_24_sample_denoise_run": "EXIT137_NO_IMAGE_CAUSE_UNCONFIRMED",
+    "geometry_hidden_or_replaced_for_image": false,
+    "limits": "Simplified retained interior, inspection lighting; material/shape accuracy not accepted"
+  },
   "browser_actual": "NOT_RUN_ACCESS_BLOCKED",
   "runtime_pose_binding": "480 real binding-statement synthetic-pose checks passed; actual browser untested",
   "files": [
