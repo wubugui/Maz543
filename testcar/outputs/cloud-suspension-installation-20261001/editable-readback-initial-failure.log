@@ -1,0 +1,12 @@
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/MAZ543A_Suspension_Master.blend"
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-suspension-installation-20261001/MAZ543A_Installation_Reference_Scenes.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/verify-installation-reference-scenes.py", line 42, in <module>
+    assert abs(actual-row['target_drop_m'])<2e-6
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'testcar/scripts/verify-installation-reference-scenes.py', exiting.
+
+Blender quit

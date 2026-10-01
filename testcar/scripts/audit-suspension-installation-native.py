@@ -36,7 +36,8 @@ for measurement in mapping['measurements']:
     bpy.context.view_layer.update()
     for i in range(8):
         name=f'S543_{i}';lower=bpy.data.objects[name+'_lower'];upright=bpy.data.objects[name+'_upright'];upper=bpy.data.objects[name+'_upper']
-        inner=lower.matrix_world.translation;outer=upright.matrix_world.translation
+        dg=bpy.context.evaluated_depsgraph_get()
+        inner=lower.evaluated_get(dg).matrix_world.translation;outer=upright.evaluated_get(dg).matrix_world.translation
         achieved=inner.z-outer.z;target=measurement['requestedVerticalDropM']
         assert abs(achieved-target)<2e-6,(name,achieved,target)
         parts=[o for o in descendants(upper) if o.type in {'MESH','CURVE'}]

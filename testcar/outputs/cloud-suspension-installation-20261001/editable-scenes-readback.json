@@ -1,0 +1,4165 @@
+{
+  "status": "SAVED_EDITABLE_REFERENCE_SCENES_VERIFIED; NOT_REPAIRED_ASSEMBLY",
+  "candidate_sha256": "5eb493903ea9c9d05ad677eee461855a7471561ddc9ce79296598992c1988578",
+  "source_sha256": "1332163b7c99da0bf3b11d3e9c250b451ceba3430b8935bde919ae4a55b6a51d",
+  "scenes": [
+    {
+      "scene": "01_CURRENT_DECLARED_ZERO",
+      "target_drop_m": 0.0,
+      "frames": [
+        {
+          "frame": 0,
+          "actual_lower_head_drop_m": 0.0,
+          "parts": [
+            {
+              "source_object": "S543_0_damper_lower_clevis_-0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_damper_lower_clevis_0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_limit_bolt",
+              "vertices": 192,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_locknut",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.03",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.27",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_damper_pin",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_steering_kingpin",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_casting",
+              "vertices": 82,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0.397",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            }
+          ]
+        },
+        {
+          "frame": 17,
+          "actual_lower_head_drop_m": 0.0,
+          "parts": [
+            {
+              "source_object": "S543_0_damper_lower_clevis_-0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_damper_lower_clevis_0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_limit_bolt",
+              "vertices": 192,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_locknut",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.03",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.27",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_damper_pin",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_steering_kingpin",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_casting",
+              "vertices": 82,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0.397",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "02_INSTALLATION_1360",
+      "target_drop_m": 0.136,
+      "frames": [
+        {
+          "frame": 0,
+          "actual_lower_head_drop_m": 0.13600003719329834,
+          "parts": [
+            {
+              "source_object": "S543_0_damper_lower_clevis_-0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_damper_lower_clevis_0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_limit_bolt",
+              "vertices": 192,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_locknut",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.03",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.27",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_damper_pin",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_steering_kingpin",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_casting",
+              "vertices": 82,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0.397",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            }
+          ]
+        },
+        {
+          "frame": 17,
+          "actual_lower_head_drop_m": 0.13600003719329834,
+          "parts": [
+            {
+              "source_object": "S543_0_damper_lower_clevis_-0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_damper_lower_clevis_0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_limit_bolt",
+              "vertices": 192,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_locknut",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.03",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.27",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_damper_pin",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_steering_kingpin",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_casting",
+              "vertices": 82,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0.397",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "03_INSTALLATION_1385",
+      "target_drop_m": 0.1385,
+      "frames": [
+        {
+          "frame": 0,
+          "actual_lower_head_drop_m": 0.13850003480911255,
+          "parts": [
+            {
+              "source_object": "S543_0_damper_lower_clevis_-0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_damper_lower_clevis_0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_limit_bolt",
+              "vertices": 192,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_locknut",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.03",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.27",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_damper_pin",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_steering_kingpin",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_casting",
+              "vertices": 82,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0.397",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            }
+          ]
+        },
+        {
+          "frame": 17,
+          "actual_lower_head_drop_m": 0.13850003480911255,
+          "parts": [
+            {
+              "source_object": "S543_0_damper_lower_clevis_-0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_damper_lower_clevis_0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_limit_bolt",
+              "vertices": 192,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_locknut",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.03",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.27",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_damper_pin",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_steering_kingpin",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_casting",
+              "vertices": 82,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0.397",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scene": "04_INSTALLATION_1410",
+      "target_drop_m": 0.141,
+      "frames": [
+        {
+          "frame": 0,
+          "actual_lower_head_drop_m": 0.14100003242492676,
+          "parts": [
+            {
+              "source_object": "S543_0_damper_lower_clevis_-0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_damper_lower_clevis_0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_limit_bolt",
+              "vertices": 192,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_locknut",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.03",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.27",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_damper_pin",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_steering_kingpin",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_casting",
+              "vertices": 82,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0.397",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            }
+          ]
+        },
+        {
+          "frame": 17,
+          "actual_lower_head_drop_m": 0.14100003242492676,
+          "parts": [
+            {
+              "source_object": "S543_0_damper_lower_clevis_-0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_damper_lower_clevis_0.049",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_limit_bolt",
+              "vertices": 192,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_droop_locknut",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.03",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_kingpin_seal_0.27",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_damper_pin",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_lower_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_steering_kingpin",
+              "vertices": 384,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_axis_sleeve",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_-1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_0_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_2_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_cap_fastener_1_3_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_-1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_bolt_1_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_-1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_clamp_ear_1",
+              "vertices": 56,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_-1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_fork_1",
+              "vertices": 184,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_boss_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_-1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_outer_bush_1",
+              "vertices": 576,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_-1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_pin_cap_1",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_-1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upper_rib_1",
+              "vertices": 136,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_casting",
+              "vertices": 82,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_upright_pin_0.397",
+              "vertices": 320,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0.397_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_-0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_hex",
+              "vertices": 96,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            },
+            {
+              "source_object": "S543_0_wedge_retainer_0_0.057_washer",
+              "vertices": 288,
+              "max_world_vertex_difference_m": 0.0,
+              "triangles_identical": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "post_render_midpoint_drop_m": 0.13850003480911255,
+  "render_file": "editable-reference-readback.png",
+  "render_sha256": "c1e999dc9df8edef0540449635ab023480aa0e4ccf1c43026be8fd70d8b0b456",
+  "original_archive_present": true,
+  "source_and_candidate_files_unchanged_during_readback": true,
+  "scope": "Four isolated copied scenes retain the actual source geometry at diagnostic poses, independent of old illustration animation. Stop contact, support adjustment, preload and whole-vehicle acceptance remain OPEN."
+}

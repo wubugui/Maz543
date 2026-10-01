@@ -52,7 +52,8 @@ for label,filename,measurement in [('CURRENT DECLARED ZERO','native-zero-links.p
         for name,pose in measurement['pose'].items():
             o=bpy.data.objects[name];p=pose['p'];o.location=(p[0],-p[2],p[1]);o.rotation_euler.x=pose['rx']
     bpy.context.view_layer.update();texts[0].body=label;scene.render.filepath=str(OUT/filename);bpy.ops.render.render(write_still=True)
-    actual_drop=bpy.data.objects['S543_0_lower'].matrix_world.translation.z-bpy.data.objects['S543_0_upright'].matrix_world.translation.z
+    dg=bpy.context.evaluated_depsgraph_get()
+    actual_drop=bpy.data.objects['S543_0_lower'].evaluated_get(dg).matrix_world.translation.z-bpy.data.objects['S543_0_upright'].evaluated_get(dg).matrix_world.translation.z
     expected_drop=measurement['requestedVerticalDropM'] if measurement else 0.
     assert abs(actual_drop-expected_drop)<2e-6,('Rendered pose reset',actual_drop,expected_drop)
     records.append({'file':filename,'sha256':sha(OUT/filename),'camera_matrix_world':[list(r) for r in camera.matrix_world],'diagnostic_drop_m':expected_drop,'post_render_actual_rig_drop_m':actual_drop})

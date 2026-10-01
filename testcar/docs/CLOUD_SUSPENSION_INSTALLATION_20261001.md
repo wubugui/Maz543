@@ -48,6 +48,17 @@
 
 ## 复现与下一步
 
+另存了可编辑`MAZ543A_Installation_Reference_Scenes.blend`：四个独立局部场景
+对应当前零位及136/138.5/141 mm，原完整悬架模块保留在归档场景。单位显示
+为毫米，实际坐标比例仍为1 Blender单位=1 m；没有新建支承座或擅自调整
+螺栓。它是可检查的诊断母版，不是已修好的悬架。
+
+新进程读回四场景，在frame 0/17核对680个对象姿态的全部实际求值顶点和
+三角形：世界顶点差0，拓扑相同，安装基准保持；保存后真实Cycles渲染也
+保持138.500035 mm。首次跨场景核对取用了非求值对象的过期matrix_world，
+导致误报，失败日志已保留；改为各场景依赖图的evaluated矩阵后通过，未改
+公差，也未移动模型来制造通过。原八站24状态亦改用求值矩阵复核。
+
 在`testcar`运行`node scripts/compare-suspension-installation.mjs`生成当前
 模型映射，再用官方Blender4.5.13执行
 `scripts/audit-suspension-installation-native.py`。可选运行
