@@ -216,3 +216,11 @@ Panel installation still has 15 rest surface-intersection pairs. Two actual same
 inspected. They show the restored front-left base, including the still-failing
 legacy steering-rod intersection. The earlier exit137/no-PNG attempt is retained;
 its cause is not established. No whole-vehicle gate passes.
+
+
+Corrective checkpoint `8cb82c90245f92c9d0fdb9ad7da3053aa77f0d18`
+was externally saved with all three new LFS entities. All archive payload hashes,
+four official read-back parts and the reassembled archive SHA-256 passed. Current
+complete incremental recovery chain is `4f28bd4 -> 01097c9 -> f619cb6 -> b9fb590
+-> 8cb82c9`. The defective b9 trials remain as withdrawn historical evidence.
+External storage does not confirm desktop synchronization or GitHub publication.
