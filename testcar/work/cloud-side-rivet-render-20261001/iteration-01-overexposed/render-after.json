@@ -1,0 +1,67 @@
+{
+  "status": "ACTUAL_NATIVE_RENDER_COMPLETED_NOT_VISUALLY_ACCEPTED_YET",
+  "mode": "after",
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "source_sha256_after": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "saved_blend": false,
+  "native_asset_published": false,
+  "png_lfs_published": false,
+  "image_filename": "native-rivet-after.png",
+  "image_bytes": 898353,
+  "image_sha256": "a2a781dd3afca00c21637f850975df0ebffe6704d127564f710223ef66ed4c02",
+  "shown_objects": [
+    "BL_Cab_-1_side_monocoque",
+    "BL_Cab_-1_side_rivets"
+  ],
+  "inspected_component": 60,
+  "diagnostic_material_override": {
+    "skin": "green",
+    "original_retained_heads": "gold"
+  },
+  "camera_world_matrix": [
+    [
+      -0.35112297534942627,
+      -0.1878800094127655,
+      0.9172860980033875,
+      -3.650358200073242
+    ],
+    [
+      0.9363293647766113,
+      -0.07045488804578781,
+      0.3439817726612091,
+      1.5719999074935913
+    ],
+    [
+      -1.1098442165291544e-08,
+      0.979661762714386,
+      0.20065590739250183,
+      1.1794999837875366
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "ortho_scale": 0.08500000089406967,
+  "target": [
+    -3.8103582859039307,
+    1.5119999647140503,
+    1.1445000171661377
+  ],
+  "engine": "Cycles CPU2 32samples native denoise",
+  "resolution": [
+    1200,
+    900
+  ],
+  "evaluated_geometry_signature_before_after_exact": "5b68bf0c1817327f2c07e5c1f8ae74af81c7bca60d3ce79772b43b73e9449d4a",
+  "replay_report_sha256": "1b1ec3f3e8c8a0a03fdfef16888644b511d73812be0c7d27e26e4d073f7a5131",
+  "limits": [
+    "Isolated geometry and diagnostic finish, not full vehicle appearance or original paint",
+    "Native Blender render, not browser execution or screenshot",
+    "Fitted attachment repair, not factory head/fastener/batch acceptance",
+    "All10 unsupported heads and known6 closed contacts retained in replay; local view does not show all of them",
+    "Source remains unchanged; PNG exists locally only until explicit authorized delivery"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "ACTUAL_NATIVE_PAIR_INSPECTED_LOCAL_VIEW_ONLY",
+  "same_camera_exact": true,
+  "same_light_color_material_setup": true,
+  "source_unchanged": true,
+  "new_blend_saved": false,
+  "new_png_lfs_published": false,
+  "images": [
+    {
+      "file": "native-rivet-before.png",
+      "sha256": "27bcb092edef9b30d630a5a1016dd9cf88ea7483e888f62529de70700024d0eb",
+      "bytes": 1094170,
+      "pixels": [
+        1200,
+        900
+      ],
+      "near_white_rgb_ge250_fraction": 0.0,
+      "native_process_exit_code": 0,
+      "elapsed_seconds": 70.97986727900206
+    },
+    {
+      "file": "native-rivet-after.png",
+      "sha256": "3b0aed9f5f571803dd8ec23ab03841a89e0b97260c22aefa2d110a79296c9843",
+      "bytes": 1090464,
+      "pixels": [
+        1200,
+        900
+      ],
+      "near_white_rgb_ge250_fraction": 0.0,
+      "native_process_exit_code": 0,
+      "elapsed_seconds": 75.23778295499869
+    }
+  ],
+  "pixel_inspection": [
+    "Both iteration02 images were actually viewed: central retained head60 is fully framed, native labels are legible, green skin/gold diagnostic head distinguish surfaces",
+    "Before image shows an offset head and displaced soft shadow; after image shows changed projected position and contact-area shadow, consistent with independently verified11.999964714mm native translation",
+    "No pixel-based distance or full mounting-contact proof is inferred; the geometric report supplies the measurement",
+    "Other heads are outside this close-up or partially at the edge; this is not whole-vehicle framing or appearance acceptance"
+  ],
+  "failures_retained": "iteration01 excessive exposure and foreground occlusion of caption, plus after process metadata script-hash timing caveat, are explicitly preserved",
+  "limits": [
+    "Original paint/material appearance is not represented by diagnostic finish",
+    "No browser validation",
+    "Images exist locally and are intended for authorized progress delivery; no image LFS entity upload is claimed",
+    "All16 whole-vehicle gates remain OPEN"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "VISUAL_QA_FAIL_EXPOSURE_AND_CAPTION_OCCLUSION",
+  "observed": "Before image pixels were inspected: excessive brightness obscures head/skin geometry and original front caption portions. Not delivered as accepted evidence. Both native images retained locally, not Git/LFS-published.",
+  "image_digests": {
+    "native-rivet-before.png": "33e9c0ba8f67b8704d07b899ffef376897e9697c6c1db6659b10c022607fe69a",
+    "native-rivet-after.png": "a2a781dd3afca00c21637f850975df0ebffe6704d127564f710223ef66ed4c02"
+  },
+  "source_unchanged": true,
+  "metadata_correction": "The first runner hashed its script after process completion. The after process started before the script was refined, but its recorded script_sha256 is the later on-disk revision, not executed bytes. Use the retained render-script.py hash below for both initial invocations. Final runner now hashes before and after and freezes script while running.",
+  "actual_initial_script_sha256": "db935c47d2576f99a08eb67e5f40b06a73a4dfa34ce1eee3bf0963b1257c51a8",
+  "geometry_change_for_render_refinement": false,
+  "next_change": "Explicit AgX/exposure/gamma, disable inherited compositor/sequencer, lower diagnostic light powers, move native caption in front of all geometry; preserve camera and mesh geometry"
+}

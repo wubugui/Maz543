@@ -1,0 +1,79 @@
+{
+  "status": "ACTUAL_NATIVE_RENDER_COMPLETED_NOT_VISUALLY_ACCEPTED_YET",
+  "mode": "before",
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "source_sha256_after": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "saved_blend": false,
+  "native_asset_published": false,
+  "png_lfs_published": false,
+  "image_filename": "native-rivet-before.png",
+  "image_bytes": 1094170,
+  "image_sha256": "27bcb092edef9b30d630a5a1016dd9cf88ea7483e888f62529de70700024d0eb",
+  "shown_objects": [
+    "BL_Cab_-1_side_monocoque",
+    "BL_Cab_-1_side_rivets"
+  ],
+  "inspected_component": 60,
+  "diagnostic_material_override": {
+    "skin": "green",
+    "original_retained_heads": "gold"
+  },
+  "camera_world_matrix": [
+    [
+      -0.35112297534942627,
+      -0.1878800094127655,
+      0.9172860980033875,
+      -3.650358200073242
+    ],
+    [
+      0.9363293647766113,
+      -0.07045488804578781,
+      0.3439817726612091,
+      1.5719999074935913
+    ],
+    [
+      -1.1098442165291544e-08,
+      0.979661762714386,
+      0.20065590739250183,
+      1.1794999837875366
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "ortho_scale": 0.08500000089406967,
+  "target": [
+    -3.8103582859039307,
+    1.5119999647140503,
+    1.1445000171661377
+  ],
+  "engine": "Cycles CPU2 32samples native denoise",
+  "explicit_color_management": {
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0.0,
+    "gamma": 1.0,
+    "compositor_enabled": false
+  },
+  "key_fill_power_watts": [
+    0.09,
+    0.03
+  ],
+  "caption_camera_depth_m": 0.005,
+  "resolution": [
+    1200,
+    900
+  ],
+  "evaluated_geometry_signature_before_after_exact": "ee91319d7dd3720ec5e4b7a02aa3fb8ab3f9e3500c7dd3c0bae91200a28fd5b6",
+  "replay_report_sha256": null,
+  "limits": [
+    "Isolated geometry and diagnostic finish, not full vehicle appearance or original paint",
+    "Native Blender render, not browser execution or screenshot",
+    "Fitted attachment repair, not factory head/fastener/batch acceptance",
+    "All10 unsupported heads and known6 closed contacts retained in replay; local view does not show all of them",
+    "Source remains unchanged; PNG exists locally only until explicit authorized delivery"
+  ]
+}
