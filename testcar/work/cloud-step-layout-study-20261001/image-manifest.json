@@ -1,0 +1,22 @@
+{
+  "status": "ACTUAL_NATIVE_IMAGES_INSPECTED_NOT_GIT_LFS_PUBLISHED",
+  "images": [
+    {
+      "view": "oblique",
+      "filename": "oblique.png",
+      "bytes": 1630258,
+      "sha256": "e370743200dbb45f5c8ad85d343238e8d907201dd066b6f558ac7da80a129394",
+      "native_report_file": "iteration-02-oblique/layout-report.json",
+      "png_git_lfs_published": false
+    },
+    {
+      "view": "elevation",
+      "filename": "elevation.png",
+      "bytes": 1613160,
+      "sha256": "0081e97d3e0f548681f63cc4f8d118b453a1868d1e570fc646fa77350673ad53",
+      "native_report_file": "iteration-02-elevation/layout-report.json",
+      "png_git_lfs_published": false
+    }
+  ],
+  "parent_pixel_review": "Both final images directly viewed: two separated tread regions, one connected frame, three dashed support stations and cyan interface envelopes are visible; labels distinguish unknown interfaces from physical hardware. This is one-side fitted layout only, not an installed model or full vehicle."
+}

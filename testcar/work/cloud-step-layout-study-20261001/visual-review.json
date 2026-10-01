@@ -1,0 +1,67 @@
+{
+  "status": "FINAL_NATIVE_PIXELS_INSPECTED_LAYOUT_ONLY",
+  "actual_images_inspected": [
+    {
+      "path": "iteration-01-oblique/native/oblique.png",
+      "verdict": "FAILED_LOW_CONTRAST_ANNOTATIONS",
+      "sha256": "8f8827630f5065be32f28459e333cb240f9fbe5921974427a67e32a2fee1e3fe",
+      "retained": true
+    },
+    {
+      "path": "iteration-02-oblique/native/oblique.png",
+      "verdict": "ACCEPTED_FOR_BOUNDED_LAYOUT_REVIEW",
+      "sha256": "e370743200dbb45f5c8ad85d343238e8d907201dd066b6f558ac7da80a129394",
+      "observations": [
+        "Two separate unperforated tread envelopes visible on one connected lower frame",
+        "Three dashed orange centerlines and cyan interface wire envelopes visible",
+        "Gap and shared middle station are readable",
+        "All layout geometry in frame; title, units, fitted status and limits readable",
+        "Oblique projection can visually overlay the datum line and depth-offset wire envelope; elevation resolves below-datum ordering"
+      ]
+    },
+    {
+      "path": "iteration-02-elevation/native/elevation.png",
+      "verdict": "ACCEPTED_FOR_BOUNDED_LAYOUT_REVIEW",
+      "sha256": "0081e97d3e0f548681f63cc4f8d118b453a1868d1e570fc646fa77350673ad53",
+      "observations": [
+        "All three interface envelopes visibly below horizontal sill datum",
+        "Three dashed station guides; lower frame uninterrupted; separate tread regions visible",
+        "Full native study in frame and annotations readable",
+        "Elevation is thin in depth; oblique view supplies the width and open-gap relationship"
+      ]
+    }
+  ],
+  "oblique_elevation_report_field_equality": {
+    "params_m": true,
+    "parameter_provenance": true,
+    "model_objects": true,
+    "measurements": true
+  },
+  "failed_final_oblique_geometry_report_field_equality": {
+    "params_m": true,
+    "model_objects": true,
+    "measurements": true
+  },
+  "comparison_scope": "Exact report parameters, bounds, component/count/modifier summaries; not a separately encoded full mesh identity or image equality claim",
+  "viewing_method": "Direct view_image of each actual PNG; no image generation, raster editing or composited annotation",
+  "source_pixels_inspected_before_design": [
+    {
+      "path": "manual1973-1204.jpg",
+      "sha256": "04bbeca86303512ba7e0450a922d5f49b0c1ed486c4e1d74a715a053dd9e4c5b",
+      "observed": "Figure92: connected lower step with separate tread areas and three hanging/support positions"
+    },
+    {
+      "path": "manual1973-1218.jpg",
+      "sha256": "fa644b96c68c536a39b2c934ce7ad2fa7f52d7ab2b141b5f9f146ce063fb0ccc",
+      "observed": "Figure93: connected lower step, two tread areas, three support positions; label17 is in cab tilt inset"
+    },
+    {
+      "path": "catalog-2008-84.6.png",
+      "sha256": "39e9df6252f6b95cab2cf6ad310fe03ecb54e78c7b554f74ac80a7f94e9c3920",
+      "observed": "Later drawing: two tread areas on each continuous lower frame with three hanging positions and braced upper mounting forms; hardware not copied"
+    }
+  ],
+  "source_reference_pixels_republished": false,
+  "all_six_original_closed_contact_pairs": "UNCHANGED OPEN; no vehicle geometry loaded",
+  "all_sixteen_vehicle_gates": "OPEN"
+}
