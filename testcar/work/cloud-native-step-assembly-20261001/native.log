@@ -1,0 +1,9 @@
+NATIVE_STEP_ASSEMBLY old_platform_exact 4 lower_curves 2 tread_bars 40 missing []
+OLD_PLATFORM seed_side_-1_door_0 exact True contacts [('BL_Cab_-1_side_monocoque', 110)]
+OLD_PLATFORM seed_side_-1_door_1 exact True contacts [('BL_Cab_-1_side_monocoque', 64)]
+OLD_PLATFORM seed_side_+1_door_0 exact True contacts [('BL_Cab_1_side_monocoque', 102)]
+OLD_PLATFORM seed_side_+1_door_1 exact True contacts [('BL_Cab_1_side_monocoque', 60)]
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend"
+
+Blender quit

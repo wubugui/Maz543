@@ -1,0 +1,436 @@
+{
+  "status": "FOUR_EXACT_SEED_BOX_COMPONENTS_IDENTIFIED_NATIVE_RETENTION_NOT_TESTED",
+  "seed": {
+    "sha256": "5c5849b68a5fa62e903b46b5554b8eb942495eabb3a12cb26caf24742cd9681c",
+    "bytes": 8588120,
+    "unchanged_after_read": true
+  },
+  "source": {
+    "git_blob": "5fc9408952de9549eb3d513071f6706d6df882aa",
+    "sha256": "bbdc06ed7bee43d6ac2a1f38170b9761e34a0e149a1f7486dd895ee9785aab06",
+    "path": "testcar/work/compiled/maz543.mjs",
+    "box_creation_line": 173,
+    "support_link_lines": [
+      174,
+      175
+    ],
+    "fixed_batch_merge_lines": [
+      503,
+      530
+    ]
+  },
+  "coordinate_convention": {
+    "seed": "X longitudinal, Y up, Z lateral",
+    "native": "(seed.x, -seed.z, seed.y)",
+    "winding_preserved": true,
+    "determinant": 1
+  },
+  "cab_ancestry": [
+    {
+      "node": 6,
+      "name": "cab",
+      "transform": "identity"
+    },
+    {
+      "node": 0,
+      "name": "MAZ543_REFERENCE_CHASSIS",
+      "transform": "identity"
+    }
+  ],
+  "index_convention": "All node/mesh/primitive/accessor/component/vertex/triangle indices are zero-based; ranges inclusive. Components sorted by minimum used primitive vertex index after exact-coordinate seam equivalence.",
+  "exact_identity_boundary": "Exact seed component geometry, source-derived Float32 corner equality and outward closed-box topology. A match in a native master must still be independently demonstrated using all 12 oriented triangles; object names or AABB alone are insufficient.",
+  "semantic_boundary": "The fixed under-door step-platform interpretation follows the source placement beside support links; it is not an explicit component name or a manufacturer hardware, dimension, batch or material certification. dark is a rendering material name.",
+  "signature_encoding": "Cyclic-canonicalize each oriented triangle lexicographically, sort triangle records lexicographically, then SHA256 concatenated struct.pack(<9d, 9 coordinates) records. Reversal is not admitted.",
+  "controls": {
+    "cyclic_rotation_accepted": true,
+    "single_reversed_triangle_rejected": true,
+    "single_100um_corner_change_rejected": true
+  },
+  "matches": [
+    {
+      "node": 75,
+      "node_name": "cab_0062",
+      "mesh": 40,
+      "primitive": 0,
+      "material": 1,
+      "material_name": "dark",
+      "extras": {
+        "fixedDetailCount": 9
+      },
+      "position_accessor": 142,
+      "index_accessor": 145,
+      "node_transform_identity": true,
+      "component": 0,
+      "vertex_count": 24,
+      "unique_position_count": 8,
+      "triangle_count": 12,
+      "vertex_index_spans_inclusive": [
+        [
+          0,
+          23
+        ]
+      ],
+      "triangle_index_spans_inclusive": [
+        [
+          0,
+          11
+        ]
+      ],
+      "seed_bounds": {
+        "min": [
+          -5.150000095367432,
+          1.2024999856948853,
+          -1.559999942779541
+        ],
+        "max": [
+          -4.119999885559082,
+          1.2575000524520874,
+          -1.350000023841858
+        ]
+      },
+      "native_bounds": {
+        "min": [
+          -5.150000095367432,
+          1.350000023841858,
+          1.2024999856948853
+        ],
+        "max": [
+          -4.119999885559082,
+          1.559999942779541,
+          1.2575000524520874
+        ]
+      },
+      "target": {
+        "id": "seed_side_-1_door_0",
+        "source_side": -1,
+        "source_door_index": 0,
+        "source_interval": [
+          -5.19,
+          -4.08
+        ],
+        "source_dimensions": [
+          1.0300000000000002,
+          0.055,
+          0.21
+        ],
+        "source_center": [
+          -4.635,
+          1.23,
+          -1.4549999999999998
+        ],
+        "float32_local_half_extents": [
+          0.5149999856948853,
+          0.027499999850988388,
+          0.10499999672174454
+        ]
+      },
+      "exact_source_float32_corner_match": true,
+      "source_match_method": "Exact equality to 8 corners from recorded source box dimensions/translation with Float32 storage before and after translation",
+      "actual_geometry_checks": {
+        "unique_corners": 8,
+        "triangles": 12,
+        "faces": 6,
+        "triangles_per_face": 2,
+        "unique_triangulated_edges": 18,
+        "closed_two_incident_edges": true,
+        "outward_winding_all_triangles": true
+      },
+      "seed_oriented_triangle_sha256": "5f943fd7aaada98dd088cc5093627c94c694e00fe11edad9ee0e0feb5209397a",
+      "native_oriented_triangle_sha256": "4f2ed2d670d8a1bd0711ecb8283fe196dce14df40e51fa15020884bb2aa97b64",
+      "triangle_payload_file": "box-triangles.json",
+      "triangle_payload_id": "seed_side_-1_door_0"
+    },
+    {
+      "node": 75,
+      "node_name": "cab_0062",
+      "mesh": 40,
+      "primitive": 0,
+      "material": 1,
+      "material_name": "dark",
+      "extras": {
+        "fixedDetailCount": 9
+      },
+      "position_accessor": 142,
+      "index_accessor": 145,
+      "node_transform_identity": true,
+      "component": 1,
+      "vertex_count": 24,
+      "unique_position_count": 8,
+      "triangle_count": 12,
+      "vertex_index_spans_inclusive": [
+        [
+          24,
+          47
+        ]
+      ],
+      "triangle_index_spans_inclusive": [
+        [
+          12,
+          23
+        ]
+      ],
+      "seed_bounds": {
+        "min": [
+          -3.950000047683716,
+          1.2024999856948853,
+          -1.559999942779541
+        ],
+        "max": [
+          -2.950000047683716,
+          1.2575000524520874,
+          -1.350000023841858
+        ]
+      },
+      "native_bounds": {
+        "min": [
+          -3.950000047683716,
+          1.350000023841858,
+          1.2024999856948853
+        ],
+        "max": [
+          -2.950000047683716,
+          1.559999942779541,
+          1.2575000524520874
+        ]
+      },
+      "target": {
+        "id": "seed_side_-1_door_1",
+        "source_side": -1,
+        "source_door_index": 1,
+        "source_interval": [
+          -3.99,
+          -2.91
+        ],
+        "source_dimensions": [
+          1.0,
+          0.055,
+          0.21
+        ],
+        "source_center": [
+          -3.45,
+          1.23,
+          -1.4549999999999998
+        ],
+        "float32_local_half_extents": [
+          0.5,
+          0.027499999850988388,
+          0.10499999672174454
+        ]
+      },
+      "exact_source_float32_corner_match": true,
+      "source_match_method": "Exact equality to 8 corners from recorded source box dimensions/translation with Float32 storage before and after translation",
+      "actual_geometry_checks": {
+        "unique_corners": 8,
+        "triangles": 12,
+        "faces": 6,
+        "triangles_per_face": 2,
+        "unique_triangulated_edges": 18,
+        "closed_two_incident_edges": true,
+        "outward_winding_all_triangles": true
+      },
+      "seed_oriented_triangle_sha256": "8041b59cd6de79a77aedf8f3690551ea786a3ecf2f876ef6bda6706b8b95e2e8",
+      "native_oriented_triangle_sha256": "ae4969bfa8f552d078dc037c93a49f84c1c7bd2367224bc2fff20190853b7393",
+      "triangle_payload_file": "box-triangles.json",
+      "triangle_payload_id": "seed_side_-1_door_1"
+    },
+    {
+      "node": 75,
+      "node_name": "cab_0062",
+      "mesh": 40,
+      "primitive": 0,
+      "material": 1,
+      "material_name": "dark",
+      "extras": {
+        "fixedDetailCount": 9
+      },
+      "position_accessor": 142,
+      "index_accessor": 145,
+      "node_transform_identity": true,
+      "component": 6,
+      "vertex_count": 24,
+      "unique_position_count": 8,
+      "triangle_count": 12,
+      "vertex_index_spans_inclusive": [
+        [
+          933,
+          956
+        ]
+      ],
+      "triangle_index_spans_inclusive": [
+        [
+          1080,
+          1091
+        ]
+      ],
+      "seed_bounds": {
+        "min": [
+          -5.150000095367432,
+          1.2024999856948853,
+          1.350000023841858
+        ],
+        "max": [
+          -4.119999885559082,
+          1.2575000524520874,
+          1.559999942779541
+        ]
+      },
+      "native_bounds": {
+        "min": [
+          -5.150000095367432,
+          -1.559999942779541,
+          1.2024999856948853
+        ],
+        "max": [
+          -4.119999885559082,
+          -1.350000023841858,
+          1.2575000524520874
+        ]
+      },
+      "target": {
+        "id": "seed_side_+1_door_0",
+        "source_side": 1,
+        "source_door_index": 0,
+        "source_interval": [
+          -5.19,
+          -4.08
+        ],
+        "source_dimensions": [
+          1.0300000000000002,
+          0.055,
+          0.21
+        ],
+        "source_center": [
+          -4.635,
+          1.23,
+          1.4549999999999998
+        ],
+        "float32_local_half_extents": [
+          0.5149999856948853,
+          0.027499999850988388,
+          0.10499999672174454
+        ]
+      },
+      "exact_source_float32_corner_match": true,
+      "source_match_method": "Exact equality to 8 corners from recorded source box dimensions/translation with Float32 storage before and after translation",
+      "actual_geometry_checks": {
+        "unique_corners": 8,
+        "triangles": 12,
+        "faces": 6,
+        "triangles_per_face": 2,
+        "unique_triangulated_edges": 18,
+        "closed_two_incident_edges": true,
+        "outward_winding_all_triangles": true
+      },
+      "seed_oriented_triangle_sha256": "b918202e0663ad923a6b5c1b3785db67505683111e63773088a41b716c563efd",
+      "native_oriented_triangle_sha256": "229b44326fef6e28e23a455a058e84efa825158f3c28fb03a334bd7c85bbada2",
+      "triangle_payload_file": "box-triangles.json",
+      "triangle_payload_id": "seed_side_+1_door_0"
+    },
+    {
+      "node": 75,
+      "node_name": "cab_0062",
+      "mesh": 40,
+      "primitive": 0,
+      "material": 1,
+      "material_name": "dark",
+      "extras": {
+        "fixedDetailCount": 9
+      },
+      "position_accessor": 142,
+      "index_accessor": 145,
+      "node_transform_identity": true,
+      "component": 7,
+      "vertex_count": 24,
+      "unique_position_count": 8,
+      "triangle_count": 12,
+      "vertex_index_spans_inclusive": [
+        [
+          957,
+          980
+        ]
+      ],
+      "triangle_index_spans_inclusive": [
+        [
+          1092,
+          1103
+        ]
+      ],
+      "seed_bounds": {
+        "min": [
+          -3.950000047683716,
+          1.2024999856948853,
+          1.350000023841858
+        ],
+        "max": [
+          -2.950000047683716,
+          1.2575000524520874,
+          1.559999942779541
+        ]
+      },
+      "native_bounds": {
+        "min": [
+          -3.950000047683716,
+          -1.559999942779541,
+          1.2024999856948853
+        ],
+        "max": [
+          -2.950000047683716,
+          -1.350000023841858,
+          1.2575000524520874
+        ]
+      },
+      "target": {
+        "id": "seed_side_+1_door_1",
+        "source_side": 1,
+        "source_door_index": 1,
+        "source_interval": [
+          -3.99,
+          -2.91
+        ],
+        "source_dimensions": [
+          1.0,
+          0.055,
+          0.21
+        ],
+        "source_center": [
+          -3.45,
+          1.23,
+          1.4549999999999998
+        ],
+        "float32_local_half_extents": [
+          0.5,
+          0.027499999850988388,
+          0.10499999672174454
+        ]
+      },
+      "exact_source_float32_corner_match": true,
+      "source_match_method": "Exact equality to 8 corners from recorded source box dimensions/translation with Float32 storage before and after translation",
+      "actual_geometry_checks": {
+        "unique_corners": 8,
+        "triangles": 12,
+        "faces": 6,
+        "triangles_per_face": 2,
+        "unique_triangulated_edges": 18,
+        "closed_two_incident_edges": true,
+        "outward_winding_all_triangles": true
+      },
+      "seed_oriented_triangle_sha256": "ececab3918e3dc3e997d057cbca7b9fb79b38fb90858fbf5b930a8243d57cb66",
+      "native_oriented_triangle_sha256": "ae91cd6e02cc297412675053d28e4ad4ed337e5de97e821c14c8266ec7e99c7c",
+      "triangle_payload_file": "box-triangles.json",
+      "triangle_payload_id": "seed_side_+1_door_1"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "direct-cab-components.json",
+      "sha256": "3a62f5a5cb2efafd5dc84c6609613b7b54596009eecb5a6eff753f461b9ab8f5",
+      "bytes": 87300
+    },
+    {
+      "file": "box-triangles.json",
+      "sha256": "b68ff41a2ca9cdb2eb326eca4591bc5b0855558b182ba797cc4400701a78b931",
+      "bytes": 74560
+    }
+  ],
+  "script_sha256": "83182955ea0abc1ca4fa8cf6dc096f385a293233e624b2640f248cec17cf4616"
+}

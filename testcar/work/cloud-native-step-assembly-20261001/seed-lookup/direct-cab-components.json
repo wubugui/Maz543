@@ -1,0 +1,3916 @@
+[
+  {
+    "node": 42,
+    "node_name": "cab_0032",
+    "mesh": 30,
+    "primitive": 0,
+    "material": 9,
+    "material_name": "red",
+    "extras": {},
+    "position_accessor": 106,
+    "index_accessor": 109,
+    "node_transform_identity": false,
+    "total_position_count": 148,
+    "total_triangle_count": 96,
+    "components": [
+      {
+        "component": 0,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            0,
+            147
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            0,
+            95
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.015000002980232,
+            1.720000005364418,
+            -0.8700000029802322
+          ],
+          "max": [
+            -2.8649999970197677,
+            2.199999994635582,
+            -0.7199999970197677
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.015000002980232,
+            0.7199999970197677,
+            1.720000005364418
+          ],
+          "max": [
+            -2.8649999970197677,
+            0.8700000029802322,
+            2.199999994635582
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "node": 74,
+    "node_name": "cab_0061",
+    "mesh": 30,
+    "primitive": 0,
+    "material": 9,
+    "material_name": "red",
+    "extras": {},
+    "position_accessor": 106,
+    "index_accessor": 109,
+    "node_transform_identity": false,
+    "total_position_count": 148,
+    "total_triangle_count": 96,
+    "components": [
+      {
+        "component": 0,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            0,
+            147
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            0,
+            95
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.015000002980232,
+            1.720000005364418,
+            0.7199999970197677
+          ],
+          "max": [
+            -2.8649999970197677,
+            2.199999994635582,
+            0.8700000029802322
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.015000002980232,
+            -0.8700000029802322,
+            1.720000005364418
+          ],
+          "max": [
+            -2.8649999970197677,
+            -0.7199999970197677,
+            2.199999994635582
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "node": 75,
+    "node_name": "cab_0062",
+    "mesh": 40,
+    "primitive": 0,
+    "material": 1,
+    "material_name": "dark",
+    "extras": {
+      "fixedDetailCount": 9
+    },
+    "position_accessor": 142,
+    "index_accessor": 145,
+    "node_transform_identity": true,
+    "total_position_count": 1422,
+    "total_triangle_count": 1872,
+    "components": [
+      {
+        "component": 0,
+        "vertex_count": 24,
+        "unique_position_count": 8,
+        "triangle_count": 12,
+        "vertex_index_spans_inclusive": [
+          [
+            0,
+            23
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            0,
+            11
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -5.150000095367432,
+            1.2024999856948853,
+            -1.559999942779541
+          ],
+          "max": [
+            -4.119999885559082,
+            1.2575000524520874,
+            -1.350000023841858
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -5.150000095367432,
+            1.350000023841858,
+            1.2024999856948853
+          ],
+          "max": [
+            -4.119999885559082,
+            1.559999942779541,
+            1.2575000524520874
+          ]
+        }
+      },
+      {
+        "component": 1,
+        "vertex_count": 24,
+        "unique_position_count": 8,
+        "triangle_count": 12,
+        "vertex_index_spans_inclusive": [
+          [
+            24,
+            47
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            12,
+            23
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.950000047683716,
+            1.2024999856948853,
+            -1.559999942779541
+          ],
+          "max": [
+            -2.950000047683716,
+            1.2575000524520874,
+            -1.350000023841858
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.950000047683716,
+            1.350000023841858,
+            1.2024999856948853
+          ],
+          "max": [
+            -2.950000047683716,
+            1.559999942779541,
+            1.2575000524520874
+          ]
+        }
+      },
+      {
+        "component": 2,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            48,
+            195
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            24,
+            119
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.675000190734863,
+            1.4700000286102295,
+            -1.0499999523162842
+          ],
+          "max": [
+            -4.625,
+            2.109999895095825,
+            -1.0
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.675000190734863,
+            1.0,
+            1.4700000286102295
+          ],
+          "max": [
+            -4.625,
+            1.0499999523162842,
+            2.109999895095825
+          ]
+        }
+      },
+      {
+        "component": 3,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            196,
+            343
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            120,
+            215
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.911641597747803,
+            1.477089524269104,
+            -1.1970000267028809
+          ],
+          "max": [
+            -4.838358402252197,
+            1.682910442352295,
+            -1.1729999780654907
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.911641597747803,
+            1.1729999780654907,
+            1.477089524269104
+          ],
+          "max": [
+            -4.838358402252197,
+            1.1970000267028809,
+            1.682910442352295
+          ]
+        }
+      },
+      {
+        "component": 4,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            344,
+            491
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            216,
+            311
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.911641597747803,
+            1.477089524269104,
+            -0.9169999957084656
+          ],
+          "max": [
+            -4.838358402252197,
+            1.682910442352295,
+            -0.8930000066757202
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.911641597747803,
+            0.8930000066757202,
+            1.477089524269104
+          ],
+          "max": [
+            -4.838358402252197,
+            0.9169999957084656,
+            1.682910442352295
+          ]
+        }
+      },
+      {
+        "component": 5,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            492,
+            932
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            312,
+            1079
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.0230000019073486,
+            1.9019999504089355,
+            -0.878000020980835
+          ],
+          "max": [
+            -2.8570001125335693,
+            1.9179999828338623,
+            -0.7120000123977661
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.0230000019073486,
+            0.7120000123977661,
+            1.9019999504089355
+          ],
+          "max": [
+            -2.8570001125335693,
+            0.878000020980835,
+            1.9179999828338623
+          ]
+        }
+      },
+      {
+        "component": 6,
+        "vertex_count": 24,
+        "unique_position_count": 8,
+        "triangle_count": 12,
+        "vertex_index_spans_inclusive": [
+          [
+            933,
+            956
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1080,
+            1091
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -5.150000095367432,
+            1.2024999856948853,
+            1.350000023841858
+          ],
+          "max": [
+            -4.119999885559082,
+            1.2575000524520874,
+            1.559999942779541
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -5.150000095367432,
+            -1.559999942779541,
+            1.2024999856948853
+          ],
+          "max": [
+            -4.119999885559082,
+            -1.350000023841858,
+            1.2575000524520874
+          ]
+        }
+      },
+      {
+        "component": 7,
+        "vertex_count": 24,
+        "unique_position_count": 8,
+        "triangle_count": 12,
+        "vertex_index_spans_inclusive": [
+          [
+            957,
+            980
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1092,
+            1103
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.950000047683716,
+            1.2024999856948853,
+            1.350000023841858
+          ],
+          "max": [
+            -2.950000047683716,
+            1.2575000524520874,
+            1.559999942779541
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.950000047683716,
+            -1.559999942779541,
+            1.2024999856948853
+          ],
+          "max": [
+            -2.950000047683716,
+            -1.350000023841858,
+            1.2575000524520874
+          ]
+        }
+      },
+      {
+        "component": 8,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            981,
+            1421
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1104,
+            1871
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.0230000019073486,
+            1.9019999504089355,
+            0.7120000123977661
+          ],
+          "max": [
+            -2.8570001125335693,
+            1.9179999828338623,
+            0.878000020980835
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.0230000019073486,
+            -0.878000020980835,
+            1.9019999504089355
+          ],
+          "max": [
+            -2.8570001125335693,
+            -0.7120000123977661,
+            1.9179999828338623
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "node": 76,
+    "node_name": "cab_0063",
+    "mesh": 41,
+    "primitive": 0,
+    "material": 2,
+    "material_name": "steel",
+    "extras": {
+      "fixedDetailCount": 17
+    },
+    "position_accessor": 146,
+    "index_accessor": 149,
+    "node_transform_identity": true,
+    "total_position_count": 2516,
+    "total_triangle_count": 1632,
+    "components": [
+      {
+        "component": 0,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            0,
+            147
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            0,
+            95
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -5.114999771118164,
+            1.2300000190734863,
+            -1.4800000190734863
+          ],
+          "max": [
+            -5.065000057220459,
+            1.4500000476837158,
+            -1.4299999475479126
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -5.114999771118164,
+            1.4299999475479126,
+            1.2300000190734863
+          ],
+          "max": [
+            -5.065000057220459,
+            1.4800000190734863,
+            1.4500000476837158
+          ]
+        }
+      },
+      {
+        "component": 1,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            148,
+            295
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            96,
+            191
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.204999923706055,
+            1.2300000190734863,
+            -1.4800000190734863
+          ],
+          "max": [
+            -4.15500020980835,
+            1.4500000476837158,
+            -1.4299999475479126
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.204999923706055,
+            1.4299999475479126,
+            1.2300000190734863
+          ],
+          "max": [
+            -4.15500020980835,
+            1.4800000190734863,
+            1.4500000476837158
+          ]
+        }
+      },
+      {
+        "component": 2,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            296,
+            443
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            192,
+            287
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.9149999618530273,
+            1.2300000190734863,
+            -1.4800000190734863
+          ],
+          "max": [
+            -3.865000009536743,
+            1.4500000476837158,
+            -1.4299999475479126
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.9149999618530273,
+            1.4299999475479126,
+            1.2300000190734863
+          ],
+          "max": [
+            -3.865000009536743,
+            1.4800000190734863,
+            1.4500000476837158
+          ]
+        }
+      },
+      {
+        "component": 3,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            444,
+            591
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            288,
+            383
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.0350000858306885,
+            1.2300000190734863,
+            -1.4800000190734863
+          ],
+          "max": [
+            -2.984999895095825,
+            1.4500000476837158,
+            -1.4299999475479126
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.0350000858306885,
+            1.4299999475479126,
+            1.2300000190734863
+          ],
+          "max": [
+            -2.984999895095825,
+            1.4800000190734863,
+            1.4500000476837158
+          ]
+        }
+      },
+      {
+        "component": 4,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            592,
+            739
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            384,
+            479
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.465325832366943,
+            1.7726435661315918,
+            -1.2319999933242798
+          ],
+          "max": [
+            -4.194674015045166,
+            2.287356376647949,
+            -1.1979999542236328
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.465325832366943,
+            1.1979999542236328,
+            1.7726435661315918
+          ],
+          "max": [
+            -4.194674015045166,
+            1.2319999933242798,
+            2.287356376647949
+          ]
+        }
+      },
+      {
+        "component": 5,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            740,
+            887
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            480,
+            575
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.465325832366943,
+            1.7726435661315918,
+            -0.8519999980926514
+          ],
+          "max": [
+            -4.194674015045166,
+            2.287356376647949,
+            -0.8180000185966492
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.465325832366943,
+            0.8180000185966492,
+            1.7726435661315918
+          ],
+          "max": [
+            -4.194674015045166,
+            0.8519999980926514,
+            2.287356376647949
+          ]
+        }
+      },
+      {
+        "component": 6,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            888,
+            1035
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            576,
+            671
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.3953258991241455,
+            1.7726435661315918,
+            -1.2319999933242798
+          ],
+          "max": [
+            -3.124674081802368,
+            2.287356376647949,
+            -1.1979999542236328
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.3953258991241455,
+            1.1979999542236328,
+            1.7726435661315918
+          ],
+          "max": [
+            -3.124674081802368,
+            1.2319999933242798,
+            2.287356376647949
+          ]
+        }
+      },
+      {
+        "component": 7,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1036,
+            1183
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            672,
+            767
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.3953258991241455,
+            1.7726435661315918,
+            -0.8519999980926514
+          ],
+          "max": [
+            -3.124674081802368,
+            2.287356376647949,
+            -0.8180000185966492
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.3953258991241455,
+            0.8180000185966492,
+            1.7726435661315918
+          ],
+          "max": [
+            -3.124674081802368,
+            0.8519999980926514,
+            2.287356376647949
+          ]
+        }
+      },
+      {
+        "component": 8,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1184,
+            1331
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            768,
+            863
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.281641483306885,
+            1.4970896244049072,
+            -0.7570000290870667
+          ],
+          "max": [
+            -4.148358345031738,
+            1.9429104328155518,
+            -0.7329999804496765
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.281641483306885,
+            0.7329999804496765,
+            1.4970896244049072
+          ],
+          "max": [
+            -4.148358345031738,
+            0.7570000290870667,
+            1.9429104328155518
+          ]
+        }
+      },
+      {
+        "component": 9,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1332,
+            1479
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            864,
+            959
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -5.114999771118164,
+            1.2300000190734863,
+            1.4299999475479126
+          ],
+          "max": [
+            -5.065000057220459,
+            1.4500000476837158,
+            1.4800000190734863
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -5.114999771118164,
+            -1.4800000190734863,
+            1.2300000190734863
+          ],
+          "max": [
+            -5.065000057220459,
+            -1.4299999475479126,
+            1.4500000476837158
+          ]
+        }
+      },
+      {
+        "component": 10,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1480,
+            1627
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            960,
+            1055
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.204999923706055,
+            1.2300000190734863,
+            1.4299999475479126
+          ],
+          "max": [
+            -4.15500020980835,
+            1.4500000476837158,
+            1.4800000190734863
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.204999923706055,
+            -1.4800000190734863,
+            1.2300000190734863
+          ],
+          "max": [
+            -4.15500020980835,
+            -1.4299999475479126,
+            1.4500000476837158
+          ]
+        }
+      },
+      {
+        "component": 11,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1628,
+            1775
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1056,
+            1151
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.9149999618530273,
+            1.2300000190734863,
+            1.4299999475479126
+          ],
+          "max": [
+            -3.865000009536743,
+            1.4500000476837158,
+            1.4800000190734863
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.9149999618530273,
+            -1.4800000190734863,
+            1.2300000190734863
+          ],
+          "max": [
+            -3.865000009536743,
+            -1.4299999475479126,
+            1.4500000476837158
+          ]
+        }
+      },
+      {
+        "component": 12,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1776,
+            1923
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1152,
+            1247
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.0350000858306885,
+            1.2300000190734863,
+            1.4299999475479126
+          ],
+          "max": [
+            -2.984999895095825,
+            1.4500000476837158,
+            1.4800000190734863
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.0350000858306885,
+            -1.4800000190734863,
+            1.2300000190734863
+          ],
+          "max": [
+            -2.984999895095825,
+            -1.4299999475479126,
+            1.4500000476837158
+          ]
+        }
+      },
+      {
+        "component": 13,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1924,
+            2071
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1248,
+            1343
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.465325832366943,
+            1.7726435661315918,
+            0.8180000185966492
+          ],
+          "max": [
+            -4.194674015045166,
+            2.287356376647949,
+            0.8519999980926514
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.465325832366943,
+            -0.8519999980926514,
+            1.7726435661315918
+          ],
+          "max": [
+            -4.194674015045166,
+            -0.8180000185966492,
+            2.287356376647949
+          ]
+        }
+      },
+      {
+        "component": 14,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            2072,
+            2219
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1344,
+            1439
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.465325832366943,
+            1.7726435661315918,
+            1.1979999542236328
+          ],
+          "max": [
+            -4.194674015045166,
+            2.287356376647949,
+            1.2319999933242798
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.465325832366943,
+            -1.2319999933242798,
+            1.7726435661315918
+          ],
+          "max": [
+            -4.194674015045166,
+            -1.1979999542236328,
+            2.287356376647949
+          ]
+        }
+      },
+      {
+        "component": 15,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            2220,
+            2367
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1440,
+            1535
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.3953258991241455,
+            1.7726435661315918,
+            0.8180000185966492
+          ],
+          "max": [
+            -3.124674081802368,
+            2.287356376647949,
+            0.8519999980926514
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.3953258991241455,
+            -0.8519999980926514,
+            1.7726435661315918
+          ],
+          "max": [
+            -3.124674081802368,
+            -0.8180000185966492,
+            2.287356376647949
+          ]
+        }
+      },
+      {
+        "component": 16,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            2368,
+            2515
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1536,
+            1631
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.3953258991241455,
+            1.7726435661315918,
+            1.1979999542236328
+          ],
+          "max": [
+            -3.124674081802368,
+            2.287356376647949,
+            1.2319999933242798
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.3953258991241455,
+            -1.2319999933242798,
+            1.7726435661315918
+          ],
+          "max": [
+            -3.124674081802368,
+            -1.1979999542236328,
+            2.287356376647949
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "node": 77,
+    "node_name": "cab_0064",
+    "mesh": 42,
+    "primitive": 0,
+    "material": 8,
+    "material_name": "engine",
+    "extras": {
+      "fixedDetailCount": 6
+    },
+    "position_accessor": 150,
+    "index_accessor": null,
+    "node_transform_identity": true,
+    "total_position_count": 5400,
+    "total_triangle_count": 1800,
+    "components": [
+      {
+        "component": 0,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            0,
+            899
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            0,
+            299
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.679999828338623,
+            1.475000023841858,
+            -1.2549999952316284
+          ],
+          "max": [
+            -4.21999979019165,
+            1.725000023841858,
+            -0.7950000166893005
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.679999828338623,
+            0.7950000166893005,
+            1.475000023841858
+          ],
+          "max": [
+            -4.21999979019165,
+            1.2549999952316284,
+            1.725000023841858
+          ]
+        }
+      },
+      {
+        "component": 1,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            900,
+            1799
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            300,
+            599
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.609999895095825,
+            1.475000023841858,
+            -1.2549999952316284
+          ],
+          "max": [
+            -3.1500000953674316,
+            1.725000023841858,
+            -0.7950000166893005
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.609999895095825,
+            0.7950000166893005,
+            1.475000023841858
+          ],
+          "max": [
+            -3.1500000953674316,
+            1.2549999952316284,
+            1.725000023841858
+          ]
+        }
+      },
+      {
+        "component": 2,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            1800,
+            2699
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            600,
+            899
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -5.069287300109863,
+            1.8365159034729004,
+            -1.3899999856948853
+          ],
+          "max": [
+            -4.790712833404541,
+            2.1234841346740723,
+            -0.6599999666213989
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -5.069287300109863,
+            0.6599999666213989,
+            1.8365159034729004
+          ],
+          "max": [
+            -4.790712833404541,
+            1.3899999856948853,
+            2.1234841346740723
+          ]
+        }
+      },
+      {
+        "component": 3,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            2700,
+            3599
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            900,
+            1199
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.679999828338623,
+            1.475000023841858,
+            0.7950000166893005
+          ],
+          "max": [
+            -4.21999979019165,
+            1.725000023841858,
+            1.2549999952316284
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.679999828338623,
+            -1.2549999952316284,
+            1.475000023841858
+          ],
+          "max": [
+            -4.21999979019165,
+            -0.7950000166893005,
+            1.725000023841858
+          ]
+        }
+      },
+      {
+        "component": 4,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            3600,
+            4499
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1200,
+            1499
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.609999895095825,
+            1.475000023841858,
+            0.7950000166893005
+          ],
+          "max": [
+            -3.1500000953674316,
+            1.725000023841858,
+            1.2549999952316284
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.609999895095825,
+            -1.2549999952316284,
+            1.475000023841858
+          ],
+          "max": [
+            -3.1500000953674316,
+            -0.7950000166893005,
+            1.725000023841858
+          ]
+        }
+      },
+      {
+        "component": 5,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            4500,
+            5399
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1500,
+            1799
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -5.069287300109863,
+            1.8365159034729004,
+            0.6599999666213989
+          ],
+          "max": [
+            -4.790712833404541,
+            2.1234841346740723,
+            1.3899999856948853
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -5.069287300109863,
+            -1.3899999856948853,
+            1.8365159034729004
+          ],
+          "max": [
+            -4.790712833404541,
+            -0.6599999666213989,
+            2.1234841346740723
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "node": 78,
+    "node_name": "cab_0065",
+    "mesh": 43,
+    "primitive": 0,
+    "material": 10,
+    "material_name": "seat",
+    "extras": {
+      "fixedDetailCount": 8
+    },
+    "position_accessor": 153,
+    "index_accessor": null,
+    "node_transform_identity": true,
+    "total_position_count": 7200,
+    "total_triangle_count": 2400,
+    "components": [
+      {
+        "component": 0,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            0,
+            899
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            0,
+            299
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.704999923706055,
+            1.725000023841858,
+            -1.284999966621399
+          ],
+          "max": [
+            -4.195000171661377,
+            1.8350000381469727,
+            -0.7649999856948853
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.704999923706055,
+            0.7649999856948853,
+            1.725000023841858
+          ],
+          "max": [
+            -4.195000171661377,
+            1.284999966621399,
+            1.8350000381469727
+          ]
+        }
+      },
+      {
+        "component": 1,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            900,
+            1799
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            300,
+            599
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.3027119636535645,
+            1.7698264122009277,
+            -1.2799999713897705
+          ],
+          "max": [
+            -4.157288074493408,
+            2.30017352104187,
+            -0.7699999809265137
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.3027119636535645,
+            0.7699999809265137,
+            1.7698264122009277
+          ],
+          "max": [
+            -4.157288074493408,
+            1.2799999713897705,
+            2.30017352104187
+          ]
+        }
+      },
+      {
+        "component": 2,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            1800,
+            2699
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            600,
+            899
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.634999990463257,
+            1.725000023841858,
+            -1.284999966621399
+          ],
+          "max": [
+            -3.125,
+            1.8350000381469727,
+            -0.7649999856948853
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.634999990463257,
+            0.7649999856948853,
+            1.725000023841858
+          ],
+          "max": [
+            -3.125,
+            1.284999966621399,
+            1.8350000381469727
+          ]
+        }
+      },
+      {
+        "component": 3,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            2700,
+            3599
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            900,
+            1199
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.2327117919921875,
+            1.7698264122009277,
+            -1.2799999713897705
+          ],
+          "max": [
+            -3.0872881412506104,
+            2.30017352104187,
+            -0.7699999809265137
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.2327117919921875,
+            0.7699999809265137,
+            1.7698264122009277
+          ],
+          "max": [
+            -3.0872881412506104,
+            1.2799999713897705,
+            2.30017352104187
+          ]
+        }
+      },
+      {
+        "component": 4,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            3600,
+            4499
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1200,
+            1499
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.704999923706055,
+            1.725000023841858,
+            0.7649999856948853
+          ],
+          "max": [
+            -4.195000171661377,
+            1.8350000381469727,
+            1.284999966621399
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.704999923706055,
+            -1.284999966621399,
+            1.725000023841858
+          ],
+          "max": [
+            -4.195000171661377,
+            -0.7649999856948853,
+            1.8350000381469727
+          ]
+        }
+      },
+      {
+        "component": 5,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            4500,
+            5399
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1500,
+            1799
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.3027119636535645,
+            1.7698264122009277,
+            0.7699999809265137
+          ],
+          "max": [
+            -4.157288074493408,
+            2.30017352104187,
+            1.2799999713897705
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.3027119636535645,
+            -1.2799999713897705,
+            1.7698264122009277
+          ],
+          "max": [
+            -4.157288074493408,
+            -0.7699999809265137,
+            2.30017352104187
+          ]
+        }
+      },
+      {
+        "component": 6,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            5400,
+            6299
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1800,
+            2099
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.634999990463257,
+            1.725000023841858,
+            0.7649999856948853
+          ],
+          "max": [
+            -3.125,
+            1.8350000381469727,
+            1.284999966621399
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.634999990463257,
+            -1.284999966621399,
+            1.725000023841858
+          ],
+          "max": [
+            -3.125,
+            -0.7649999856948853,
+            1.8350000381469727
+          ]
+        }
+      },
+      {
+        "component": 7,
+        "vertex_count": 900,
+        "unique_position_count": 152,
+        "triangle_count": 300,
+        "vertex_index_spans_inclusive": [
+          [
+            6300,
+            7199
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            2100,
+            2399
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.2327117919921875,
+            1.7698264122009277,
+            0.7699999809265137
+          ],
+          "max": [
+            -3.0872881412506104,
+            2.30017352104187,
+            1.2799999713897705
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.2327117919921875,
+            -1.2799999713897705,
+            1.7698264122009277
+          ],
+          "max": [
+            -3.0872881412506104,
+            -0.7699999809265137,
+            2.30017352104187
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "node": 79,
+    "node_name": "cab_0066",
+    "mesh": 44,
+    "primitive": 0,
+    "material": 4,
+    "material_name": "black",
+    "extras": {
+      "fixedDetailCount": 15
+    },
+    "position_accessor": 156,
+    "index_accessor": 159,
+    "node_transform_identity": true,
+    "total_position_count": 2220,
+    "total_triangle_count": 1440,
+    "components": [
+      {
+        "component": 0,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            0,
+            147
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            0,
+            95
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.9859999418258667,
+            -1.3489999771118164
+          ],
+          "max": [
+            -4.762499809265137,
+            2.0940001010894775,
+            -1.2410000562667847
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.2410000562667847,
+            1.9859999418258667
+          ],
+          "max": [
+            -4.762499809265137,
+            1.3489999771118164,
+            2.0940001010894775
+          ]
+        }
+      },
+      {
+        "component": 1,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            148,
+            295
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            96,
+            191
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.9859999418258667,
+            -1.1790000200271606
+          ],
+          "max": [
+            -4.762499809265137,
+            2.0940001010894775,
+            -1.0709999799728394
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.0709999799728394,
+            1.9859999418258667
+          ],
+          "max": [
+            -4.762499809265137,
+            1.1790000200271606,
+            2.0940001010894775
+          ]
+        }
+      },
+      {
+        "component": 2,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            296,
+            443
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            192,
+            287
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            2.003999948501587,
+            -0.9909999966621399
+          ],
+          "max": [
+            -4.762499809265137,
+            2.0759999752044678,
+            -0.9190000295639038
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            0.9190000295639038,
+            2.003999948501587
+          ],
+          "max": [
+            -4.762499809265137,
+            0.9909999966621399,
+            2.0759999752044678
+          ]
+        }
+      },
+      {
+        "component": 3,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            444,
+            591
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            288,
+            383
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            2.003999948501587,
+            -0.8209999799728394
+          ],
+          "max": [
+            -4.762499809265137,
+            2.0759999752044678,
+            -0.7490000128746033
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            0.7490000128746033,
+            2.003999948501587
+          ],
+          "max": [
+            -4.762499809265137,
+            0.8209999799728394,
+            2.0759999752044678
+          ]
+        }
+      },
+      {
+        "component": 4,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            592,
+            739
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            384,
+            479
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.8839999437332153,
+            -1.3309999704360962
+          ],
+          "max": [
+            -4.762499809265137,
+            1.9559999704360962,
+            -1.2589999437332153
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.2589999437332153,
+            1.8839999437332153
+          ],
+          "max": [
+            -4.762499809265137,
+            1.3309999704360962,
+            1.9559999704360962
+          ]
+        }
+      },
+      {
+        "component": 5,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            740,
+            887
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            480,
+            575
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.8839999437332153,
+            -1.1610000133514404
+          ],
+          "max": [
+            -4.762499809265137,
+            1.9559999704360962,
+            -1.0889999866485596
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.0889999866485596,
+            1.8839999437332153
+          ],
+          "max": [
+            -4.762499809265137,
+            1.1610000133514404,
+            1.9559999704360962
+          ]
+        }
+      },
+      {
+        "component": 6,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            888,
+            1035
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            576,
+            671
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.8839999437332153,
+            -0.9909999966621399
+          ],
+          "max": [
+            -4.762499809265137,
+            1.9559999704360962,
+            -0.9190000295639038
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            0.9190000295639038,
+            1.8839999437332153
+          ],
+          "max": [
+            -4.762499809265137,
+            0.9909999966621399,
+            1.9559999704360962
+          ]
+        }
+      },
+      {
+        "component": 7,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1036,
+            1183
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            672,
+            767
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.302000045776367,
+            1.9175000190734863,
+            -0.7770000100135803
+          ],
+          "max": [
+            -4.23799991607666,
+            1.962499976158142,
+            -0.7129999995231628
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.302000045776367,
+            0.7129999995231628,
+            1.9175000190734863
+          ],
+          "max": [
+            -4.23799991607666,
+            0.7770000100135803,
+            1.962499976158142
+          ]
+        }
+      },
+      {
+        "component": 8,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1184,
+            1331
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            768,
+            863
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.9859999418258667,
+            0.7009999752044678
+          ],
+          "max": [
+            -4.762499809265137,
+            2.0940001010894775,
+            0.8090000152587891
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            -0.8090000152587891,
+            1.9859999418258667
+          ],
+          "max": [
+            -4.762499809265137,
+            -0.7009999752044678,
+            2.0940001010894775
+          ]
+        }
+      },
+      {
+        "component": 9,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1332,
+            1479
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            864,
+            959
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.9859999418258667,
+            0.8709999918937683
+          ],
+          "max": [
+            -4.762499809265137,
+            2.0940001010894775,
+            0.9789999723434448
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            -0.9789999723434448,
+            1.9859999418258667
+          ],
+          "max": [
+            -4.762499809265137,
+            -0.8709999918937683,
+            2.0940001010894775
+          ]
+        }
+      },
+      {
+        "component": 10,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1480,
+            1627
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            960,
+            1055
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            2.003999948501587,
+            1.059000015258789
+          ],
+          "max": [
+            -4.762499809265137,
+            2.0759999752044678,
+            1.13100004196167
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            -1.13100004196167,
+            2.003999948501587
+          ],
+          "max": [
+            -4.762499809265137,
+            -1.059000015258789,
+            2.0759999752044678
+          ]
+        }
+      },
+      {
+        "component": 11,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1628,
+            1775
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1056,
+            1151
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            2.003999948501587,
+            1.2289999723434448
+          ],
+          "max": [
+            -4.762499809265137,
+            2.0759999752044678,
+            1.3009999990463257
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            -1.3009999990463257,
+            2.003999948501587
+          ],
+          "max": [
+            -4.762499809265137,
+            -1.2289999723434448,
+            2.0759999752044678
+          ]
+        }
+      },
+      {
+        "component": 12,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1776,
+            1923
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1152,
+            1247
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.8839999437332153,
+            0.718999981880188
+          ],
+          "max": [
+            -4.762499809265137,
+            1.9559999704360962,
+            0.7910000085830688
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            -0.7910000085830688,
+            1.8839999437332153
+          ],
+          "max": [
+            -4.762499809265137,
+            -0.718999981880188,
+            1.9559999704360962
+          ]
+        }
+      },
+      {
+        "component": 13,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1924,
+            2071
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1248,
+            1343
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.8839999437332153,
+            0.8889999985694885
+          ],
+          "max": [
+            -4.762499809265137,
+            1.9559999704360962,
+            0.9610000252723694
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            -0.9610000252723694,
+            1.8839999437332153
+          ],
+          "max": [
+            -4.762499809265137,
+            -0.8889999985694885,
+            1.9559999704360962
+          ]
+        }
+      },
+      {
+        "component": 14,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            2072,
+            2219
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1344,
+            1439
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.787499904632568,
+            1.8839999437332153,
+            1.059000015258789
+          ],
+          "max": [
+            -4.762499809265137,
+            1.9559999704360962,
+            1.13100004196167
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.787499904632568,
+            -1.13100004196167,
+            1.8839999437332153
+          ],
+          "max": [
+            -4.762499809265137,
+            -1.059000015258789,
+            1.9559999704360962
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "node": 80,
+    "node_name": "cab_0067",
+    "mesh": 45,
+    "primitive": 0,
+    "material": 6,
+    "material_name": "bright",
+    "extras": {
+      "fixedDetailCount": 14
+    },
+    "position_accessor": 160,
+    "index_accessor": 163,
+    "node_transform_identity": true,
+    "total_position_count": 6174,
+    "total_triangle_count": 10752,
+    "components": [
+      {
+        "component": 0,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            0,
+            440
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            0,
+            767
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.9800000190734863,
+            -1.3550000190734863
+          ],
+          "max": [
+            -4.749000072479248,
+            2.0999999046325684,
+            -1.2350000143051147
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.2350000143051147,
+            1.9800000190734863
+          ],
+          "max": [
+            -4.749000072479248,
+            1.3550000190734863,
+            2.0999999046325684
+          ]
+        }
+      },
+      {
+        "component": 1,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            441,
+            881
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            768,
+            1535
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.9800000190734863,
+            -1.184999942779541
+          ],
+          "max": [
+            -4.749000072479248,
+            2.0999999046325684,
+            -1.065000057220459
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.065000057220459,
+            1.9800000190734863
+          ],
+          "max": [
+            -4.749000072479248,
+            1.184999942779541,
+            2.0999999046325684
+          ]
+        }
+      },
+      {
+        "component": 2,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            882,
+            1322
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1536,
+            2303
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.9980000257492065,
+            -0.996999979019165
+          ],
+          "max": [
+            -4.749000072479248,
+            2.0820000171661377,
+            -0.9129999876022339
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            0.9129999876022339,
+            1.9980000257492065
+          ],
+          "max": [
+            -4.749000072479248,
+            0.996999979019165,
+            2.0820000171661377
+          ]
+        }
+      },
+      {
+        "component": 3,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            1323,
+            1763
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            2304,
+            3071
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.9980000257492065,
+            -0.8270000219345093
+          ],
+          "max": [
+            -4.749000072479248,
+            2.0820000171661377,
+            -0.7429999709129333
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            0.7429999709129333,
+            1.9980000257492065
+          ],
+          "max": [
+            -4.749000072479248,
+            0.8270000219345093,
+            2.0820000171661377
+          ]
+        }
+      },
+      {
+        "component": 4,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            1764,
+            2204
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            3072,
+            3839
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.878000020980835,
+            -1.3370000123977661
+          ],
+          "max": [
+            -4.749000072479248,
+            1.9620000123977661,
+            -1.253000020980835
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.253000020980835,
+            1.878000020980835
+          ],
+          "max": [
+            -4.749000072479248,
+            1.3370000123977661,
+            1.9620000123977661
+          ]
+        }
+      },
+      {
+        "component": 5,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            2205,
+            2645
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            3840,
+            4607
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.878000020980835,
+            -1.1670000553131104
+          ],
+          "max": [
+            -4.749000072479248,
+            1.9620000123977661,
+            -1.0829999446868896
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.0829999446868896,
+            1.878000020980835
+          ],
+          "max": [
+            -4.749000072479248,
+            1.1670000553131104,
+            1.9620000123977661
+          ]
+        }
+      },
+      {
+        "component": 6,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            2646,
+            3086
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            4608,
+            5375
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.878000020980835,
+            -0.996999979019165
+          ],
+          "max": [
+            -4.749000072479248,
+            1.9620000123977661,
+            -0.9129999876022339
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            0.9129999876022339,
+            1.878000020980835
+          ],
+          "max": [
+            -4.749000072479248,
+            0.996999979019165,
+            1.9620000123977661
+          ]
+        }
+      },
+      {
+        "component": 7,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            3087,
+            3527
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            5376,
+            6143
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.9800000190734863,
+            0.6949999928474426
+          ],
+          "max": [
+            -4.749000072479248,
+            2.0999999046325684,
+            0.8149999976158142
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            -0.8149999976158142,
+            1.9800000190734863
+          ],
+          "max": [
+            -4.749000072479248,
+            -0.6949999928474426,
+            2.0999999046325684
+          ]
+        }
+      },
+      {
+        "component": 8,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            3528,
+            3968
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            6144,
+            6911
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.9800000190734863,
+            0.8650000095367432
+          ],
+          "max": [
+            -4.749000072479248,
+            2.0999999046325684,
+            0.9850000143051147
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            -0.9850000143051147,
+            1.9800000190734863
+          ],
+          "max": [
+            -4.749000072479248,
+            -0.8650000095367432,
+            2.0999999046325684
+          ]
+        }
+      },
+      {
+        "component": 9,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            3969,
+            4409
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            6912,
+            7679
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.9980000257492065,
+            1.0529999732971191
+          ],
+          "max": [
+            -4.749000072479248,
+            2.0820000171661377,
+            1.1369999647140503
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            -1.1369999647140503,
+            1.9980000257492065
+          ],
+          "max": [
+            -4.749000072479248,
+            -1.0529999732971191,
+            2.0820000171661377
+          ]
+        }
+      },
+      {
+        "component": 10,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            4410,
+            4850
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            7680,
+            8447
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.9980000257492065,
+            1.2230000495910645
+          ],
+          "max": [
+            -4.749000072479248,
+            2.0820000171661377,
+            1.3070000410079956
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            -1.3070000410079956,
+            1.9980000257492065
+          ],
+          "max": [
+            -4.749000072479248,
+            -1.2230000495910645,
+            2.0820000171661377
+          ]
+        }
+      },
+      {
+        "component": 11,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            4851,
+            5291
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            8448,
+            9215
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.878000020980835,
+            0.7129999995231628
+          ],
+          "max": [
+            -4.749000072479248,
+            1.9620000123977661,
+            0.796999990940094
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            -0.796999990940094,
+            1.878000020980835
+          ],
+          "max": [
+            -4.749000072479248,
+            -0.7129999995231628,
+            1.9620000123977661
+          ]
+        }
+      },
+      {
+        "component": 12,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            5292,
+            5732
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            9216,
+            9983
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.878000020980835,
+            0.8830000162124634
+          ],
+          "max": [
+            -4.749000072479248,
+            1.9620000123977661,
+            0.9670000076293945
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            -0.9670000076293945,
+            1.878000020980835
+          ],
+          "max": [
+            -4.749000072479248,
+            -0.8830000162124634,
+            1.9620000123977661
+          ]
+        }
+      },
+      {
+        "component": 13,
+        "vertex_count": 441,
+        "unique_position_count": 384,
+        "triangle_count": 768,
+        "vertex_index_spans_inclusive": [
+          [
+            5733,
+            6173
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            9984,
+            10751
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.761000156402588,
+            1.878000020980835,
+            1.0529999732971191
+          ],
+          "max": [
+            -4.749000072479248,
+            1.9620000123977661,
+            1.1369999647140503
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.761000156402588,
+            -1.1369999647140503,
+            1.878000020980835
+          ],
+          "max": [
+            -4.749000072479248,
+            -1.0529999732971191,
+            1.9620000123977661
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "node": 81,
+    "node_name": "cab_0068",
+    "mesh": 46,
+    "primitive": 0,
+    "material": 5,
+    "material_name": "brass",
+    "extras": {
+      "fixedDetailCount": 14
+    },
+    "position_accessor": 164,
+    "index_accessor": 167,
+    "node_transform_identity": true,
+    "total_position_count": 2072,
+    "total_triangle_count": 1344,
+    "components": [
+      {
+        "component": 0,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            0,
+            147
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            0,
+            95
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            2.038456439971924,
+            -1.2975724935531616
+          ],
+          "max": [
+            -4.735000133514404,
+            2.0665435791015625,
+            -1.2774275541305542
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            1.2774275541305542,
+            2.038456439971924
+          ],
+          "max": [
+            -4.735000133514404,
+            1.2975724935531616,
+            2.0665435791015625
+          ]
+        }
+      },
+      {
+        "component": 1,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            148,
+            295
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            96,
+            191
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            2.038456439971924,
+            -1.1275725364685059
+          ],
+          "max": [
+            -4.735000133514404,
+            2.0665435791015625,
+            -1.1074274778366089
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            1.1074274778366089,
+            2.038456439971924
+          ],
+          "max": [
+            -4.735000133514404,
+            1.1275725364685059,
+            2.0665435791015625
+          ]
+        }
+      },
+      {
+        "component": 2,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            296,
+            443
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            192,
+            287
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            2.038456439971924,
+            -0.9575724601745605
+          ],
+          "max": [
+            -4.735000133514404,
+            2.0665435791015625,
+            -0.9374275207519531
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            0.9374275207519531,
+            2.038456439971924
+          ],
+          "max": [
+            -4.735000133514404,
+            0.9575724601745605,
+            2.0665435791015625
+          ]
+        }
+      },
+      {
+        "component": 3,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            444,
+            591
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            288,
+            383
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            2.038456439971924,
+            -0.7875725030899048
+          ],
+          "max": [
+            -4.735000133514404,
+            2.0665435791015625,
+            -0.7674275040626526
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            0.7674275040626526,
+            2.038456439971924
+          ],
+          "max": [
+            -4.735000133514404,
+            0.7875725030899048,
+            2.0665435791015625
+          ]
+        }
+      },
+      {
+        "component": 4,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            592,
+            739
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            384,
+            479
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            1.9184565544128418,
+            -1.2975724935531616
+          ],
+          "max": [
+            -4.735000133514404,
+            1.9465434551239014,
+            -1.2774275541305542
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            1.2774275541305542,
+            1.9184565544128418
+          ],
+          "max": [
+            -4.735000133514404,
+            1.2975724935531616,
+            1.9465434551239014
+          ]
+        }
+      },
+      {
+        "component": 5,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            740,
+            887
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            480,
+            575
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            1.9184565544128418,
+            -1.1275725364685059
+          ],
+          "max": [
+            -4.735000133514404,
+            1.9465434551239014,
+            -1.1074274778366089
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            1.1074274778366089,
+            1.9184565544128418
+          ],
+          "max": [
+            -4.735000133514404,
+            1.1275725364685059,
+            1.9465434551239014
+          ]
+        }
+      },
+      {
+        "component": 6,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            888,
+            1035
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            576,
+            671
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            1.9184565544128418,
+            -0.9575724601745605
+          ],
+          "max": [
+            -4.735000133514404,
+            1.9465434551239014,
+            -0.9374275207519531
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            0.9374275207519531,
+            1.9184565544128418
+          ],
+          "max": [
+            -4.735000133514404,
+            0.9575724601745605,
+            1.9465434551239014
+          ]
+        }
+      },
+      {
+        "component": 7,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1036,
+            1183
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            672,
+            767
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            2.038456439971924,
+            0.7524275183677673
+          ],
+          "max": [
+            -4.735000133514404,
+            2.0665435791015625,
+            0.7725724577903748
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            -0.7725724577903748,
+            2.038456439971924
+          ],
+          "max": [
+            -4.735000133514404,
+            -0.7524275183677673,
+            2.0665435791015625
+          ]
+        }
+      },
+      {
+        "component": 8,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1184,
+            1331
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            768,
+            863
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            2.038456439971924,
+            0.9224275350570679
+          ],
+          "max": [
+            -4.735000133514404,
+            2.0665435791015625,
+            0.9425724744796753
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            -0.9425724744796753,
+            2.038456439971924
+          ],
+          "max": [
+            -4.735000133514404,
+            -0.9224275350570679,
+            2.0665435791015625
+          ]
+        }
+      },
+      {
+        "component": 9,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1332,
+            1479
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            864,
+            959
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            2.038456439971924,
+            1.0924274921417236
+          ],
+          "max": [
+            -4.735000133514404,
+            2.0665435791015625,
+            1.112572431564331
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            -1.112572431564331,
+            2.038456439971924
+          ],
+          "max": [
+            -4.735000133514404,
+            -1.0924274921417236,
+            2.0665435791015625
+          ]
+        }
+      },
+      {
+        "component": 10,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1480,
+            1627
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            960,
+            1055
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            2.038456439971924,
+            1.262427568435669
+          ],
+          "max": [
+            -4.735000133514404,
+            2.0665435791015625,
+            1.2825725078582764
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            -1.2825725078582764,
+            2.038456439971924
+          ],
+          "max": [
+            -4.735000133514404,
+            -1.262427568435669,
+            2.0665435791015625
+          ]
+        }
+      },
+      {
+        "component": 11,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1628,
+            1775
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1056,
+            1151
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            1.9184565544128418,
+            0.7524275183677673
+          ],
+          "max": [
+            -4.735000133514404,
+            1.9465434551239014,
+            0.7725724577903748
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            -0.7725724577903748,
+            1.9184565544128418
+          ],
+          "max": [
+            -4.735000133514404,
+            -0.7524275183677673,
+            1.9465434551239014
+          ]
+        }
+      },
+      {
+        "component": 12,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1776,
+            1923
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1152,
+            1247
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            1.9184565544128418,
+            0.9224275350570679
+          ],
+          "max": [
+            -4.735000133514404,
+            1.9465434551239014,
+            0.9425724744796753
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            -0.9425724744796753,
+            1.9184565544128418
+          ],
+          "max": [
+            -4.735000133514404,
+            -0.9224275350570679,
+            1.9465434551239014
+          ]
+        }
+      },
+      {
+        "component": 13,
+        "vertex_count": 148,
+        "unique_position_count": 50,
+        "triangle_count": 96,
+        "vertex_index_spans_inclusive": [
+          [
+            1924,
+            2071
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            1248,
+            1343
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.741000175476074,
+            1.9184565544128418,
+            1.0924274921417236
+          ],
+          "max": [
+            -4.735000133514404,
+            1.9465434551239014,
+            1.112572431564331
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.741000175476074,
+            -1.112572431564331,
+            1.9184565544128418
+          ],
+          "max": [
+            -4.735000133514404,
+            -1.0924274921417236,
+            1.9465434551239014
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "node": 82,
+    "node_name": "cab_0069",
+    "mesh": 47,
+    "primitive": 0,
+    "material": 11,
+    "material_name": "rubber",
+    "extras": {
+      "fixedDetailCount": 4
+    },
+    "position_accessor": 168,
+    "index_accessor": 171,
+    "node_transform_identity": true,
+    "total_position_count": 336,
+    "total_triangle_count": 504,
+    "components": [
+      {
+        "component": 0,
+        "vertex_count": 24,
+        "unique_position_count": 8,
+        "triangle_count": 12,
+        "vertex_index_spans_inclusive": [
+          [
+            0,
+            23
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            0,
+            11
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.940000057220459,
+            1.6660000085830688,
+            -1.2300000190734863
+          ],
+          "max": [
+            -4.860000133514404,
+            1.694000005722046,
+            -1.1399999856948853
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.940000057220459,
+            1.1399999856948853,
+            1.6660000085830688
+          ],
+          "max": [
+            -4.860000133514404,
+            1.2300000190734863,
+            1.694000005722046
+          ]
+        }
+      },
+      {
+        "component": 1,
+        "vertex_count": 24,
+        "unique_position_count": 8,
+        "triangle_count": 12,
+        "vertex_index_spans_inclusive": [
+          [
+            24,
+            47
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            12,
+            23
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -4.940000057220459,
+            1.6660000085830688,
+            -0.949999988079071
+          ],
+          "max": [
+            -4.860000133514404,
+            1.694000005722046,
+            -0.8600000143051147
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -4.940000057220459,
+            0.8600000143051147,
+            1.6660000085830688
+          ],
+          "max": [
+            -4.860000133514404,
+            0.949999988079071,
+            1.694000005722046
+          ]
+        }
+      },
+      {
+        "component": 2,
+        "vertex_count": 144,
+        "unique_position_count": 128,
+        "triangle_count": 240,
+        "vertex_index_spans_inclusive": [
+          [
+            48,
+            191
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            24,
+            263
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.094238758087158,
+            1.849999189376831,
+            -0.8080000281333923
+          ],
+          "max": [
+            -2.935887575149536,
+            2.2974212169647217,
+            -0.7820000052452087
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.094238758087158,
+            0.7820000052452087,
+            1.849999189376831
+          ],
+          "max": [
+            -2.935887575149536,
+            0.8080000281333923,
+            2.2974212169647217
+          ]
+        }
+      },
+      {
+        "component": 3,
+        "vertex_count": 144,
+        "unique_position_count": 128,
+        "triangle_count": 240,
+        "vertex_index_spans_inclusive": [
+          [
+            192,
+            335
+          ]
+        ],
+        "triangle_index_spans_inclusive": [
+          [
+            264,
+            503
+          ]
+        ],
+        "seed_bounds": {
+          "min": [
+            -3.094238758087158,
+            1.849999189376831,
+            0.7820000052452087
+          ],
+          "max": [
+            -2.935887575149536,
+            2.2974212169647217,
+            0.8080000281333923
+          ]
+        },
+        "native_bounds": {
+          "min": [
+            -3.094238758087158,
+            -0.8080000281333923,
+            1.849999189376831
+          ],
+          "max": [
+            -2.935887575149536,
+            -0.7820000052452087,
+            2.2974212169647217
+          ]
+        }
+      }
+    ]
+  }
+]

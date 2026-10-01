@@ -1,0 +1,125 @@
+{
+  "status": "FOUR_EXACT_SEED_BOX_COMPONENTS_IDENTIFIED_NATIVE_RETENTION_NOT_TESTED",
+  "matches": [
+    {
+      "node_name": "cab_0062",
+      "component": 0,
+      "vertex_count": 24,
+      "triangle_count": 12,
+      "vertex_index_spans_inclusive": [
+        [
+          0,
+          23
+        ]
+      ],
+      "triangle_index_spans_inclusive": [
+        [
+          0,
+          11
+        ]
+      ],
+      "native_bounds": {
+        "min": [
+          -5.150000095367432,
+          1.350000023841858,
+          1.2024999856948853
+        ],
+        "max": [
+          -4.119999885559082,
+          1.559999942779541,
+          1.2575000524520874
+        ]
+      }
+    },
+    {
+      "node_name": "cab_0062",
+      "component": 1,
+      "vertex_count": 24,
+      "triangle_count": 12,
+      "vertex_index_spans_inclusive": [
+        [
+          24,
+          47
+        ]
+      ],
+      "triangle_index_spans_inclusive": [
+        [
+          12,
+          23
+        ]
+      ],
+      "native_bounds": {
+        "min": [
+          -3.950000047683716,
+          1.350000023841858,
+          1.2024999856948853
+        ],
+        "max": [
+          -2.950000047683716,
+          1.559999942779541,
+          1.2575000524520874
+        ]
+      }
+    },
+    {
+      "node_name": "cab_0062",
+      "component": 6,
+      "vertex_count": 24,
+      "triangle_count": 12,
+      "vertex_index_spans_inclusive": [
+        [
+          933,
+          956
+        ]
+      ],
+      "triangle_index_spans_inclusive": [
+        [
+          1080,
+          1091
+        ]
+      ],
+      "native_bounds": {
+        "min": [
+          -5.150000095367432,
+          -1.559999942779541,
+          1.2024999856948853
+        ],
+        "max": [
+          -4.119999885559082,
+          -1.350000023841858,
+          1.2575000524520874
+        ]
+      }
+    },
+    {
+      "node_name": "cab_0062",
+      "component": 7,
+      "vertex_count": 24,
+      "triangle_count": 12,
+      "vertex_index_spans_inclusive": [
+        [
+          957,
+          980
+        ]
+      ],
+      "triangle_index_spans_inclusive": [
+        [
+          1092,
+          1103
+        ]
+      ],
+      "native_bounds": {
+        "min": [
+          -3.950000047683716,
+          -1.559999942779541,
+          1.2024999856948853
+        ],
+        "max": [
+          -2.950000047683716,
+          -1.350000023841858,
+          1.2575000524520874
+        ]
+      }
+    }
+  ]
+}
