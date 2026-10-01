@@ -1,0 +1,40 @@
+{
+  "view": "after-detail",
+  "file": "after-detail.png",
+  "sha256": "c0830d19293c127774a2f45dae8c82145b7e1062e7a311307b84e0cb49d54d12",
+  "bytes": 1838968,
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "renderer": "Blender4.5.13 actual Cycles CPU2threads32samples, no denoise",
+  "camera_world": [
+    [
+      7.549790126404332e-08,
+      0.0619528703391552,
+      0.9980790615081787,
+      -4.634240627288818
+    ],
+    [
+      1.0,
+      -6.229520721490189e-08,
+      -7.177641236921772e-08,
+      -1.1144225597381592
+    ],
+    [
+      5.772879063670189e-08,
+      0.9980790615081787,
+      -0.0619528703391552,
+      1.9453322887420654
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "lens_mm": 45.0,
+  "extra_geometry_hidden": false,
+  "source_saved": false,
+  "production_changed": false,
+  "installation": "FITTED B4 visual study; caption conflict and existing three assembly collision pairs remain unresolved",
+  "whole_vehicle_acceptance": "16 OPEN"
+}

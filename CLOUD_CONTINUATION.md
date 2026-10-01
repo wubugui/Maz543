@@ -293,3 +293,18 @@ rear-minus-front separations approximately0mm on both front axles. This exposes 
 nominal geometry gap, not a load/pressure/rolling-qualified alignment test. Source
 SHA is unchanged. No adjustment is made until native carrier/hub/suspension
 semantics and measurement conventions are resolved. All16 gates remain OPEN.
+
+The next independent `cloud-va180-panel-fit-20261001/MAZ543A_Master.blend`
+appends the retained partial VA180 study at the existing B4 fitted hole. All10,405
+old objects are retained; exactly8 B4 proxies are hidden and preserved. Fresh
+readback retains all four seat-base regions and reports no scoped identity
+failures. All28 appended objects match their source identities and expected
+uniformly scaled world transforms. New-vs-existing static surface contacts are0
+across20 broad-phase pairs;192 actual plate-opening rays pass with a192-hit
+disabled-Boolean negative control. These are scoped checks, not assembly
+acceptance. Existing column/cushion and two panel/wall failures, caption64 conflict,
+fitted dimensions and incomplete calibration marks remain unresolved. Two actual
+same-camera native close-up images and one current-candidate whole-vehicle image
+have been rendered and inspected. The whole view retains the complete vehicle
+envelope in frame; its small internal instrument is not visible at that scale.
+Production remains unchanged and all16 gates remain OPEN.

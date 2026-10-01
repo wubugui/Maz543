@@ -1,0 +1,85 @@
+{
+  "view": "after-whole",
+  "file": "after-whole.png",
+  "sha256": "66981f41d45024863d40e1251f4467ef30ac0aa2b342c6c661b4add675c43d97",
+  "bytes": 1276899,
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "renderer": "Blender4.5.13 actual Cycles CPU2threads, no denoise",
+  "samples": 24,
+  "camera_world": [
+    [
+      0.6372042298316956,
+      0.27985408902168274,
+      -0.7180894613265991,
+      -11.0
+    ],
+    [
+      -0.7706950306892395,
+      0.23138104379177094,
+      -0.5937103629112244,
+      -9.0
+    ],
+    [
+      7.878790952986492e-09,
+      0.9317427277565002,
+      0.36311912536621094,
+      7.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "lens_mm": 50.0,
+  "extra_geometry_hidden": false,
+  "source_saved": false,
+  "production_changed": false,
+  "installation": "FITTED B4 visual study; caption conflict and existing three assembly collision pairs remain unresolved",
+  "whole_vehicle_acceptance": "16 OPEN",
+  "outer_extent_camera_coordinates": [
+    [
+      0.3438727855682373,
+      0.17100925743579865,
+      10.5512056350708
+    ],
+    [
+      0.3438727855682373,
+      0.4409877061843872,
+      9.46221923828125
+    ],
+    [
+      0.13578514754772186,
+      0.2543064057826996,
+      12.763370513916016
+    ],
+    [
+      0.13578514754772186,
+      0.5242848992347717,
+      11.674384117126465
+    ],
+    [
+      0.8642147183418274,
+      0.47571495175361633,
+      18.643428802490234
+    ],
+    [
+      0.8642147183418274,
+      0.7456934452056885,
+      17.554441452026367
+    ],
+    [
+      0.6561270356178284,
+      0.5590121150016785,
+      20.855592727661133
+    ],
+    [
+      0.6561270356178284,
+      0.8289905786514282,
+      19.7666072845459
+    ]
+  ],
+  "ortho_scale": 13.800000190734863,
+  "scope": "Whole current candidate appearance. Small internal B4 detail is not visible at this scale."
+}
