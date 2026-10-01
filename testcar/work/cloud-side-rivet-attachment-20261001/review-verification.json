@@ -1,0 +1,14 @@
+{
+  "trial_script_sha256": "ec3237350de3f7443048993f56e8945b6a1b51e3a1d9285fae10d15dd2b4ec01",
+  "helper_sha256": "a7e000b97ab5ee6ae393d4250529bc21f81e3bf705704dd864cf3983c2aa852b",
+  "source_sha256_expected": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "reviewed_native_first_run_exit_code": 0,
+  "reviewer_executed_blender": false,
+  "final_report_sha256": "1b1ec3f3e8c8a0a03fdfef16888644b511d73812be0c7d27e26e4d073f7a5131",
+  "final_invocation_exit_code": 0,
+  "final_report_status": "FITTED_NATIVE_HEAD_ATTACHMENT_TRIAL_PASS",
+  "stale_pass_hardening": "Verified IN_PROGRESS_NOT_ACCEPTED is written before source/input/helper validation and geometry operations",
+  "conclusion": "No blocking defect found for pinned-source in-memory replay; final invocation passed with matching script and report hashes",
+  "final_native_translation_error_m": 0.0,
+  "final_base_plane_error_m": 0.0
+}

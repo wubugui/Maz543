@@ -1,6 +1,6 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-01 21:08 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-01 21:25 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
@@ -30,13 +30,13 @@
 `testcar/docs/ACCEPTANCE.md`、`testcar/MIGRATION_HANDOFF.md`。
 
 - 独立开发分支：`development/cloud-maz543a-20260930`
-- 最近已核实发布的HEAD：`800738a2794b658e2f1f96afadfb26557fea3cf7`（精确局部依赖扩展；模型资产仍cc47bf6）
-- 该提交根树：`0b0e5296a62267561208703c22bba1c85a78a711`
+- 最近已核实发布的HEAD：`ea9329f0f25a9c602f7b671b467be07e4e6181be`（侧壁安装诊断与来源；模型资产仍cc47bf6）
+- 该提交根树：`feff666a2233b01eb447f5f7da89c298b9de1edc`
 - 插件原生Git对象发布后远端ref/tree/parent及文件字节已核实，本地分支已对齐
 - 原迁移分支保持：`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`
 - `migration/cloud-handoff/DELIVERY_STATE.json`确认完整快照，无待迁移文件；
   包含3484个实物源文件及100个原Git基线文件。稀疏检出不等于这些历史文件丢失
-- 精确静态局部依赖扩展已插件发布；本轮侧壁头部支承诊断与来源记录待立即发布。
+- 侧壁支承诊断与来源记录已插件发布；本轮140头部原生安装试验/证据待立即发布。
   文档不能预先包含自身commit SHA，应以实际远端ref/tree核验为交付依据
 - CLI设备登录仍被网络策略中断，不能声称恢复。代码/JSON/文档使用已授权GitHub
   插件原生blob/tree/commit/ref发布，不等待CLI；插件没有LFS上传接口，新大资产须
@@ -871,3 +871,35 @@ source. Nine closed solids,36 static physical pairs, cavity/control and portable
 text checks pass; no installation, internal mechanism or calibration acceptance.
 Modern official UK143A catalog dimensions were also read as original pixels but
 are not silently applied to the1977 non-suffixed UK143. All16 remain OPEN.
+
+## 最新完成小项：140头部完整底面覆盖与原生安装修复试验
+
+侧壁支承诊断ea9329f已验证完整tree/parent/ref和12文本。此轮对原8e962d6…母版
+执行可重放`scripts/trial-side-rivet-native-attachment.py`，不是只写检查或新造替代件。
+先用实际原蒙皮外平面三角做完整8边底面数值覆盖，两侧各70个头部通过后，才通过
+Blender原生EDIT/Translate将原24顶点/38三角头部沿法向内移11.999964714mm。
+
+- 140底面以凸多边形差集核未覆盖区域，不能用总三角面积或9点探测假装完整覆盖。
+  1e-14m²显式门槛，局部最多64三角/4096碎片；实际最多27三角，保留各底面/
+  原三角ID/未覆盖多边形/重叠重复判定。这里是Float64数值判据，不是形式证明
+- 3360已动顶点原生读回平移误差0，1120底环顶点对原蒙皮平面误差0；原形状、
+  X/Z位置、拓扑/UV/材质绑定保持。10个不支持头部（四个跨倒角、六个投影后门）
+  共240顶点精确未动，不删不藏。没有移动车体或四原柱以消除接触
+- 7468其他原生mesh的位置/索引拓扑/材质/UV签名精确不变；10434对象的矩阵、
+  父级、data身份和可见性精确不变。此签名不声称覆盖全部custom attribute或RNA
+- 44闭门评估网格/三角索引精确不变；88门/两原铆钉对象配对仍104接触三角对；
+  全部六个原闭门对象对及190三角对精确保留，不能报告净空通过
+- coverage helper固定SHA a7e000b9…，20主测（含300随机）通过；独立55例中42例
+  以精确有理数竖向分片并集对照。早期helper审计查出的下溢、循环排列重复及
+  聚合溢出问题已在原生试验前修复并以测试保留，没有用失败helper动模型
+
+最终固定输入/失败失效版本4.5.13实际23.333秒、线程1、峰1921356KiB，exit0；
+不是隔离性能基准。进程记录script/report SHA，开始即写IN_PROGRESS，不让失败复跑
+沿用旧PASS。证据`work/cloud-side-rivet-attachment-20261001/`。源文件SHA前后精确不变；只在
+运行进程内做拟合安装修复，没有保存新blend、导出新GLB或声称LFS实体已上传。
+GitHub发布的是重放脚本和证据，可在既有已发布源上恢复这一步；新实体官方上传
+路线仍缺，不能更改LFS规则、编码资产或只推空指针。照片只支持固定蒙皮表面
+安装关系，不认证现有头型/数量/间距、12mm改量、铆杆/孔或目标1977/543A批次。
+
+后续：对该原生试验作明确标注的真实局部同机位审图；继续查10个疑难安装头部与
+原柱的参考语义，不能为追求零接触擅移。整车动态/浏览器/连续净空未验收，16项OPEN。

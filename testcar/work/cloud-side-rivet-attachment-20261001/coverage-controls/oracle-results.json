@@ -1,0 +1,1137 @@
+{
+  "module_sha256": "a7e000b97ab5ee6ae393d4250529bc21f81e3bf705704dd864cf3983c2aa852b",
+  "results": [
+    {
+      "name": "full_tiling",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": true,
+        "rejection_reasons": [],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.0,
+        "covered_union_area": 14.0,
+        "summed_clipped_support_area": 14.0,
+        "pairwise_overlap_area_sum": 0.0,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "14",
+        "uncovered_area": "0",
+        "summed_clipped_support_area": "14",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "empty_support",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 14.0,
+        "covered_union_area": 0.0,
+        "summed_clipped_support_area": 0.0,
+        "pairwise_overlap_area_sum": 0.0,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "0",
+        "uncovered_area": "14",
+        "summed_clipped_support_area": "0",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "center_and_corners_clear_interior_hole",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.06250000000000085,
+        "covered_union_area": 13.9375,
+        "summed_clipped_support_area": 13.9375,
+        "pairwise_overlap_area_sum": 6.453171330633723e-16,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "223/16",
+        "uncovered_area": "1/16",
+        "summed_clipped_support_area": "223/16",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "duplicate_triangle_cannot_mask_hole",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance",
+          "duplicate_positive_area_support_regions"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.06250000000000085,
+        "covered_union_area": 13.9375,
+        "summed_clipped_support_area": 15.4375,
+        "pairwise_overlap_area_sum": 3.0000000000000004,
+        "duplicate_clipped_region_pairs": [
+          [
+            0,
+            66
+          ],
+          [
+            0,
+            67
+          ],
+          [
+            0,
+            68
+          ],
+          [
+            66,
+            67
+          ],
+          [
+            66,
+            68
+          ],
+          [
+            67,
+            68
+          ]
+        ],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "223/16",
+        "uncovered_area": "1/16",
+        "summed_clipped_support_area": "247/16",
+        "pairwise_overlap_area_sum": "3"
+      }
+    },
+    {
+      "name": "reversed_winding_full",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": true,
+        "rejection_reasons": [],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.0,
+        "covered_union_area": 14.0,
+        "summed_clipped_support_area": 14.0,
+        "pairwise_overlap_area_sum": 0.0,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "14",
+        "uncovered_area": "0",
+        "summed_clipped_support_area": "14",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "reversed_winding_hole",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.06250000000000085,
+        "covered_union_area": 13.9375,
+        "summed_clipped_support_area": 13.9375,
+        "pairwise_overlap_area_sum": 6.453171330633723e-16,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "223/16",
+        "uncovered_area": "1/16",
+        "summed_clipped_support_area": "223/16",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "large_offset_full_1000000000.0",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": true,
+        "rejection_reasons": [],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.0,
+        "covered_union_area": 14.0,
+        "summed_clipped_support_area": 14.0,
+        "pairwise_overlap_area_sum": 0.0,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "14",
+        "uncovered_area": "0",
+        "summed_clipped_support_area": "14",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "large_offset_hole_1000000000.0",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.06250000000000085,
+        "covered_union_area": 13.9375,
+        "summed_clipped_support_area": 13.9375,
+        "pairwise_overlap_area_sum": 6.453171330633723e-16,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "223/16",
+        "uncovered_area": "1/16",
+        "summed_clipped_support_area": "223/16",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "large_offset_full_1099511627776",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": true,
+        "rejection_reasons": [],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.0,
+        "covered_union_area": 14.0,
+        "summed_clipped_support_area": 14.0,
+        "pairwise_overlap_area_sum": 0.0,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "14",
+        "uncovered_area": "0",
+        "summed_clipped_support_area": "14",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "large_offset_hole_1099511627776",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.06250000000000085,
+        "covered_union_area": 13.9375,
+        "summed_clipped_support_area": 13.9375,
+        "pairwise_overlap_area_sum": 6.453171330633723e-16,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "223/16",
+        "uncovered_area": "1/16",
+        "summed_clipped_support_area": "223/16",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "large_offset_full_281474976710656",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": true,
+        "rejection_reasons": [],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.0,
+        "covered_union_area": 14.0,
+        "summed_clipped_support_area": 14.0,
+        "pairwise_overlap_area_sum": 0.0,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "14",
+        "uncovered_area": "0",
+        "summed_clipped_support_area": "14",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "large_offset_hole_281474976710656",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.06250000000000085,
+        "covered_union_area": 13.9375,
+        "summed_clipped_support_area": 13.9375,
+        "pairwise_overlap_area_sum": 6.453171330633723e-16,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "223/16",
+        "uncovered_area": "1/16",
+        "summed_clipped_support_area": "223/16",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "tiny_scale_hole_1e-155",
+      "kwargs": {
+        "area_tolerance": 0
+      },
+      "exception": "InvalidGeometry: Subnormal coordinate/arithmetic is unsupported: cross product"
+    },
+    {
+      "name": "tiny_scale_full_1e-155",
+      "kwargs": {
+        "area_tolerance": 0
+      },
+      "exception": "InvalidGeometry: Subnormal coordinate/arithmetic is unsupported: cross product"
+    },
+    {
+      "name": "tiny_scale_hole_1e-160",
+      "kwargs": {
+        "area_tolerance": 0
+      },
+      "exception": "InvalidGeometry: Subnormal coordinate/arithmetic is unsupported: cross product"
+    },
+    {
+      "name": "tiny_scale_full_1e-160",
+      "kwargs": {
+        "area_tolerance": 0
+      },
+      "exception": "InvalidGeometry: Subnormal coordinate/arithmetic is unsupported: cross product"
+    },
+    {
+      "name": "tiny_scale_hole_1e-161",
+      "kwargs": {
+        "area_tolerance": 0
+      },
+      "exception": "InvalidGeometry: Subnormal coordinate/arithmetic is unsupported: cross product"
+    },
+    {
+      "name": "tiny_scale_full_1e-161",
+      "kwargs": {
+        "area_tolerance": 0
+      },
+      "exception": "InvalidGeometry: Subnormal coordinate/arithmetic is unsupported: cross product"
+    },
+    {
+      "name": "tiny_scale_hole_1e-162",
+      "kwargs": {
+        "area_tolerance": 0
+      },
+      "exception": "InvalidGeometry: Multiplication underflow is unsupported: cross product"
+    },
+    {
+      "name": "tiny_scale_full_1e-162",
+      "kwargs": {
+        "area_tolerance": 0
+      },
+      "exception": "InvalidGeometry: Multiplication underflow is unsupported: cross product"
+    },
+    {
+      "name": "duplicate_fp_vertex",
+      "kwargs": {},
+      "exception": "InvalidGeometry: footprint contains repeated vertices"
+    },
+    {
+      "name": "concave_fp",
+      "kwargs": {},
+      "exception": "InvalidGeometry: footprint is not strictly convex in boundary order"
+    },
+    {
+      "name": "crossed_octagon",
+      "kwargs": {},
+      "exception": "InvalidGeometry: footprint is not strictly convex in boundary order"
+    },
+    {
+      "name": "nonfinite_triangle",
+      "kwargs": {},
+      "exception": "InvalidGeometry: triangle[0][2].z is outside finite binary64 range"
+    },
+    {
+      "name": "degenerate_triangle",
+      "kwargs": {},
+      "exception": "InvalidGeometry: triangle[0] is degenerate (zero numerical area)"
+    },
+    {
+      "name": "random_oracle_00",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 7.502532589758709,
+        "covered_union_area": 6.497467410241291,
+        "summed_clipped_support_area": 8.554365922757349,
+        "pairwise_overlap_area_sum": 2.197197993931056,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "5979928320966291617756166600255377/920347566736655702552466253094400",
+        "uncovered_area": "6904937613346888217978360943066223/920347566736655702552466253094400",
+        "summed_clipped_support_area": "1579502312303/184642827600",
+        "pairwise_overlap_area_sum": "42910629607880760405473236627728363668111/19529705436836115721262340934257360478720"
+      }
+    },
+    {
+      "name": "random_oracle_01",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 6.53494028138377,
+        "covered_union_area": 7.46505971861623,
+        "summed_clipped_support_area": 10.80943816732571,
+        "pairwise_overlap_area_sum": 4.113791650434116,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "246925575710243072469901517/33077508421595688646041600",
+        "uncovered_area": "216159542192096568574680883/33077508421595688646041600",
+        "summed_clipped_support_area": "12875713777821/1191154764800",
+        "pairwise_overlap_area_sum": "16881458962676879653907075062971447307940478428993811332476606460783/4103625170442317851641621535592182479622765415153416556425046630400"
+      }
+    },
+    {
+      "name": "random_oracle_02",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 10.78116918354792,
+        "covered_union_area": 3.21883081645208,
+        "summed_clipped_support_area": 3.2729132846320357,
+        "pairwise_overlap_area_sum": 0.06855228728586861,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "35328239/10975488",
+        "uncovered_area": "118328593/10975488",
+        "summed_clipped_support_area": "193547/59136",
+        "pairwise_overlap_area_sum": "63100217441/920468447360"
+      }
+    },
+    {
+      "name": "random_oracle_03",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 3.0957615709671114,
+        "covered_union_area": 10.904238429032889,
+        "summed_clipped_support_area": 17.595756308747408,
+        "pairwise_overlap_area_sum": 8.57009162301953,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "691945896078296705274221/63456599980056224135040",
+        "uncovered_area": "196446503642490432616339/63456599980056224135040",
+        "summed_clipped_support_area": "2135885468551/121386397440",
+        "pairwise_overlap_area_sum": "124657343001669124713089464203934352429588435846349/14545625471125144923639949491629529536100011712512"
+      }
+    },
+    {
+      "name": "random_oracle_04",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 3.1166496060562143,
+        "covered_union_area": 10.883350393943786,
+        "summed_clipped_support_area": 12.328859381220669,
+        "pairwise_overlap_area_sum": 1.4494268891817432,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "26480458081596406907/2433116377134368640",
+        "uncovered_area": "7583171198284754053/2433116377134368640",
+        "summed_clipped_support_area": "26240610169/2128389120",
+        "pairwise_overlap_area_sum": "539122110223038752916587/371955366805285202734080"
+      }
+    },
+    {
+      "name": "random_oracle_05",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 12.101757702919489,
+        "covered_union_area": 1.898242297080511,
+        "summed_clipped_support_area": 2.0247121482398436,
+        "pairwise_overlap_area_sum": 0.1264698511593304,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 2.1094237467877974e-15
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "3146688253/1657685248",
+        "uncovered_area": "20060905219/1657685248",
+        "summed_clipped_support_area": "62127369/30684544",
+        "pairwise_overlap_area_sum": "101692315/804083456"
+      }
+    },
+    {
+      "name": "random_oracle_06",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 5.7657586603780615,
+        "covered_union_area": 8.234241339621938,
+        "summed_clipped_support_area": 9.145557437354311,
+        "pairwise_overlap_area_sum": 0.911316097732374,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "6481891232943019/787187424511488",
+        "uncovered_area": "4538732710217813/787187424511488",
+        "summed_clipped_support_area": "10044017/1098240",
+        "pairwise_overlap_area_sum": "1045129038301/1146834825920"
+      }
+    },
+    {
+      "name": "random_oracle_07",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 3.1985108883619917,
+        "covered_union_area": 10.80148911163801,
+        "summed_clipped_support_area": 22.86116020030676,
+        "pairwise_overlap_area_sum": 17.439908082611836,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "49568920582283828462289909803/4589082122841382276208017920",
+        "uncovered_area": "14678229137495523404622341077/4589082122841382276208017920",
+        "summed_clipped_support_area": "4485801292821/196219319296",
+        "pairwise_overlap_area_sum": "42795988971856670910775516298031885594961683053713/2453911383542536052968447893444283592883138931200"
+      }
+    },
+    {
+      "name": "random_oracle_08",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 4.849214641585436,
+        "covered_union_area": 9.150785358414563,
+        "summed_clipped_support_area": 15.25311845302733,
+        "pairwise_overlap_area_sum": 9.119071129183222,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "55502383426099720849/6065313659123558400",
+        "uncovered_area": "29412007801630096751/6065313659123558400",
+        "summed_clipped_support_area": "10476899875789/686869370880",
+        "pairwise_overlap_area_sum": "28331121246449304079171765323390982053602856949/3106799019889525295210862571038128039702937600"
+      }
+    },
+    {
+      "name": "random_oracle_09",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 10.720462465874643,
+        "covered_union_area": 3.2795375341253568,
+        "summed_clipped_support_area": 3.6591579861111114,
+        "pairwise_overlap_area_sum": 0.3796204519857538,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 8.881784197001252e-16
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "1218581697/371571200",
+        "uncovered_area": "3983415103/371571200",
+        "summed_clipped_support_area": "84307/23040",
+        "pairwise_overlap_area_sum": "634752121/1672070400"
+      }
+    },
+    {
+      "name": "random_oracle_10",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 7.441048646340174,
+        "covered_union_area": 6.558951353659826,
+        "summed_clipped_support_area": 7.648648064031583,
+        "pairwise_overlap_area_sum": 1.1604351212420914,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "110252324916079819058154917526115127/16809443914317212675901761841784320",
+        "uncovered_area": "125079889884361158404469748258865353/16809443914317212675901761841784320",
+        "summed_clipped_support_area": "3508848084877/458754024960",
+        "pairwise_overlap_area_sum": "46510904934130720308550899491069/40080573297667000989606108476160"
+      }
+    },
+    {
+      "name": "random_oracle_11",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 4.20605896040278,
+        "covered_union_area": 9.79394103959722,
+        "summed_clipped_support_area": 12.733648625699802,
+        "pairwise_overlap_area_sum": 3.2602476586675104,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "485976998042481710939515105972127/49620167823929203140290313062400",
+        "uncovered_area": "208705351492527133024549276901473/49620167823929203140290313062400",
+        "summed_clipped_support_area": "857485609857/67340134400",
+        "pairwise_overlap_area_sum": "28659044205918023195784944242134942464651371/8790450053610713514362033116157013505950720"
+      }
+    },
+    {
+      "name": "random_oracle_12",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 9.426135148162057,
+        "covered_union_area": 4.573864851837943,
+        "summed_clipped_support_area": 6.6298382451189894,
+        "pairwise_overlap_area_sum": 2.327129442378273,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "35451494581/7750883712",
+        "uncovered_area": "73060877387/7750883712",
+        "summed_clipped_support_area": "14818641053/2235143680",
+        "pairwise_overlap_area_sum": "96387675713671/41419129489920"
+      }
+    },
+    {
+      "name": "random_oracle_13",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 5.067890522124807,
+        "covered_union_area": 8.932109477875194,
+        "summed_clipped_support_area": 14.813213038790488,
+        "pairwise_overlap_area_sum": 7.088641327725431,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "3533011725738721/395540575772160",
+        "uncovered_area": "2004556335071519/395540575772160",
+        "summed_clipped_support_area": "3017713696186393/203717700426240",
+        "pairwise_overlap_area_sum": "5828328533561221210067/822206719751101850880"
+      }
+    },
+    {
+      "name": "random_oracle_14",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 3.721079894041982,
+        "covered_union_area": 10.278920105958019,
+        "summed_clipped_support_area": 17.90778157519394,
+        "pairwise_overlap_area_sum": 10.704779841609488,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "2560175703795229133172419573080429/249070493534750086639840251371520",
+        "uncovered_area": "926811205691272079785343946120851/249070493534750086639840251371520",
+        "summed_clipped_support_area": "3095054464045151/172832935841280",
+        "pairwise_overlap_area_sum": "2481347530788384126705869691641540061668769580547027862200151990648010410888911/231798090899859903337540322540684687433386244990119936843458370510431192473600"
+      }
+    },
+    {
+      "name": "random_oracle_15",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 13.3984375,
+        "covered_union_area": 0.6015625,
+        "summed_clipped_support_area": 0.6015625,
+        "pairwise_overlap_area_sum": 0.0,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "77/128",
+        "uncovered_area": "1715/128",
+        "summed_clipped_support_area": "77/128",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "random_oracle_16",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 10.130741724753525,
+        "covered_union_area": 3.869258275246475,
+        "summed_clipped_support_area": 4.090491929945055,
+        "pairwise_overlap_area_sum": 0.22123365469858153,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "254189839/65694720",
+        "uncovered_area": "665536241/65694720",
+        "summed_clipped_support_area": "952921/232960",
+        "pairwise_overlap_area_sum": "159713/721920"
+      }
+    },
+    {
+      "name": "random_oracle_17",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 9.716858075123724,
+        "covered_union_area": 4.283141924876276,
+        "summed_clipped_support_area": 5.638965881907299,
+        "pairwise_overlap_area_sum": 1.4125064087680117,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "28458444981258293/6644291849395200",
+        "uncovered_area": "64561640910274507/6644291849395200",
+        "summed_clipped_support_area": "71493752179/12678521856",
+        "pairwise_overlap_area_sum": "24745404647464414757/17518791060953395200"
+      }
+    },
+    {
+      "name": "random_oracle_18",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 13.866847826086957,
+        "covered_union_area": 0.13315217391304301,
+        "summed_clipped_support_area": 0.1331521739130435,
+        "pairwise_overlap_area_sum": 0.0,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 4.718447854656915e-16
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "49/368",
+        "uncovered_area": "5103/368",
+        "summed_clipped_support_area": "49/368",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "random_oracle_19",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 1.9184209022043377,
+        "covered_union_area": 12.081579097795663,
+        "summed_clipped_support_area": 27.542049910999804,
+        "pairwise_overlap_area_sum": 26.26916413766901,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "2444812819951/202358714880",
+        "uncovered_area": "388209188369/202358714880",
+        "summed_clipped_support_area": "84315665641908733/3061343143098240",
+        "pairwise_overlap_area_sum": "73571526921988352788081037651434670063633756370067622120238649/2800680163876608141249966802021303583219768572471115648163840"
+      }
+    },
+    {
+      "name": "random_oracle_20",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 12.438883819211009,
+        "covered_union_area": 1.561116180788991,
+        "summed_clipped_support_area": 1.5683380162646212,
+        "pairwise_overlap_area_sum": 0.007221835475629115,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 1.0408340855860843e-15
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "299097360878251073/191591993317939200",
+        "uncovered_area": "2383190545572897727/191591993317939200",
+        "summed_clipped_support_area": "13731113/8755200",
+        "pairwise_overlap_area_sum": "60686221675/8403157601664"
+      }
+    },
+    {
+      "name": "random_oracle_21",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 0.936499846167415,
+        "covered_union_area": 13.063500153832585,
+        "summed_clipped_support_area": 24.23360511027075,
+        "pairwise_overlap_area_sum": 14.16751093870905,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "56635264011113114993594716208361/4335382044948910051546075225600",
+        "uncovered_area": "4060084618171625728050336950039/4335382044948910051546075225600",
+        "summed_clipped_support_area": "6695909058850901/276306766095360",
+        "pairwise_overlap_area_sum": "8292122285560808859050051995180743147825438720642560404268383536683314339/585291398145649859882695952786760220711785103015576903122865086394134000"
+      }
+    },
+    {
+      "name": "random_oracle_22",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 12.83153044871795,
+        "covered_union_area": 1.1684695512820493,
+        "summed_clipped_support_area": 1.168469551282051,
+        "pairwise_overlap_area_sum": 0.0,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 1.7763568394002505e-15
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "5833/4992",
+        "uncovered_area": "64055/4992",
+        "summed_clipped_support_area": "5833/4992",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "random_oracle_23",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 10.149044855884815,
+        "covered_union_area": 3.8509551441151846,
+        "summed_clipped_support_area": 3.8509551441151846,
+        "pairwise_overlap_area_sum": 0.0,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "2510568899/651934080",
+        "uncovered_area": "6616508221/651934080",
+        "summed_clipped_support_area": "2510568899/651934080",
+        "pairwise_overlap_area_sum": "0"
+      }
+    },
+    {
+      "name": "random_oracle_24",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 7.105662378127708,
+        "covered_union_area": 6.894337621872292,
+        "summed_clipped_support_area": 10.505930397727273,
+        "pairwise_overlap_area_sum": 4.2867679423831895,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "218778073557/31733008384",
+        "uncovered_area": "225484043819/31733008384",
+        "summed_clipped_support_area": "295847/28160",
+        "pairwise_overlap_area_sum": "1728558652149181115723/403231216474061015040"
+      }
+    },
+    {
+      "name": "random_oracle_25",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 12.818788742830797,
+        "covered_union_area": 1.1812112571692026,
+        "summed_clipped_support_area": 1.1844264545076635,
+        "pairwise_overlap_area_sum": 0.003215197338462523,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "982109390183/831442626560",
+        "uncovered_area": "10658087381657/831442626560",
+        "summed_clipped_support_area": "20970223/17704960",
+        "pairwise_overlap_area_sum": "502491/156286208"
+      }
+    },
+    {
+      "name": "random_oracle_26",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 7.287270347303794,
+        "covered_union_area": 6.712729652696206,
+        "summed_clipped_support_area": 6.874318465351075,
+        "pairwise_overlap_area_sum": 0.16544752653528333,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "4946942470301165591987/736949456666141621760",
+        "uncovered_area": "5370349923024817112653/736949456666141621760",
+        "summed_clipped_support_area": "45581021/6630624",
+        "pairwise_overlap_area_sum": "4239097122397387143802187/25622003611479565933251840"
+      }
+    },
+    {
+      "name": "random_oracle_27",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 5.526676354304642,
+        "covered_union_area": 8.47332364569536,
+        "summed_clipped_support_area": 13.09503975066341,
+        "pairwise_overlap_area_sum": 5.678962134756947,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "46164591745263731000855761/5448227127346468701844608",
+        "uncovered_area": "30110588037586830824968751/5448227127346468701844608",
+        "summed_clipped_support_area": "20203469938829/1542833799936",
+        "pairwise_overlap_area_sum": "18395730820176322291980515042263573782974228394613053/3239276893147243467226224479624337416930119546423808"
+      }
+    },
+    {
+      "name": "random_oracle_28",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 2.266177894327449,
+        "covered_union_area": 11.733822105672552,
+        "summed_clipped_support_area": 22.094531015332937,
+        "pairwise_overlap_area_sum": 15.12187339238005,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "253604513876651087570307111392171/21613120737023067593851326136320",
+        "uncovered_area": "48979176441671858743611454516309/21613120737023067593851326136320",
+        "summed_clipped_support_area": "335023266580259/15163176188160",
+        "pairwise_overlap_area_sum": "111112266486649781184951346544577983712779980465315637763312097766036197/7347784471111862089913220207355432830283504222056927217973197167624192"
+      }
+    },
+    {
+      "name": "random_oracle_29",
+      "kwargs": {},
+      "result": {
+        "numerical_coverage_pass": false,
+        "rejection_reasons": [
+          "uncovered_area_exceeds_tolerance",
+          "pairwise_support_overlap_exceeds_tolerance"
+        ],
+        "footprint_area": 14.0,
+        "uncovered_area": 6.229866476621137,
+        "covered_union_area": 7.770133523378863,
+        "summed_clipped_support_area": 11.490505464457653,
+        "pairwise_overlap_area_sum": 3.8703002714951995,
+        "duplicate_clipped_region_pairs": [],
+        "area_accounting_violation": 0.0
+      },
+      "exact_areas": {
+        "footprint_area": "14",
+        "covered_union_area": "4170368505545815984260824659/536717740177561253826028800",
+        "uncovered_area": "3343679856940041569303578541/536717740177561253826028800",
+        "summed_clipped_support_area": "24336383153/2117955840",
+        "pairwise_overlap_area_sum": "114314130881066441055799394728315444717/29536243408035060609257149536020889600"
+      }
+    }
+  ]
+}

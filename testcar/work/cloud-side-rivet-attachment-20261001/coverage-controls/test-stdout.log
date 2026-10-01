@@ -1,0 +1,25 @@
+test_aggregate_overflow_rejects_as_invalid_geometry (__main__.CoverageTests.test_aggregate_overflow_rejects_as_invalid_geometry) ... ok
+test_cyclic_duplicate_below_area_tolerance_rejected (__main__.CoverageTests.test_cyclic_duplicate_below_area_tolerance_rejected) ... ok
+test_disjoint_edge_only_empty (__main__.CoverageTests.test_disjoint_edge_only_empty) ... ok
+test_duplicate_support_cannot_mask_missing_fan (__main__.CoverageTests.test_duplicate_support_cannot_mask_missing_fan) ... ok
+test_full_support_across_diagonal_seam (__main__.CoverageTests.test_full_support_across_diagonal_seam) ... ok
+test_full_support_across_eight_fan_seams (__main__.CoverageTests.test_full_support_across_eight_fan_seams) ... ok
+test_interior_hole_evades_all_nine_points (__main__.CoverageTests.test_interior_hole_evades_all_nine_points) ... ok
+test_invalid_footprints (__main__.CoverageTests.test_invalid_footprints) ... ok
+test_invalid_tolerance_and_limits (__main__.CoverageTests.test_invalid_tolerance_and_limits) ... ok
+test_invalid_triangles (__main__.CoverageTests.test_invalid_triangles) ... ok
+test_large_coordinate_offset_preserves_represented_geometry (__main__.CoverageTests.test_large_coordinate_offset_preserves_represented_geometry) ... ok
+test_notch_evades_all_nine_points (__main__.CoverageTests.test_notch_evades_all_nine_points) ... ok
+test_order_and_winding_invariance_for_hole_and_duplicates (__main__.CoverageTests.test_order_and_winding_invariance_for_hole_and_duplicates) ... ok
+test_partial_overlap_rejected_with_no_hole (__main__.CoverageTests.test_partial_overlap_rejected_with_no_hole) ... ok
+test_random_rectangular_holes_analytic_area (__main__.CoverageTests.test_random_rectangular_holes_analytic_area) ... ok
+test_reversed_and_mixed_winding (__main__.CoverageTests.test_reversed_and_mixed_winding) ... ok
+test_rivet_scale_and_declared_tolerance (__main__.CoverageTests.test_rivet_scale_and_declared_tolerance) ... ok
+test_subnormal_ring_rejected_instead_of_losing_hole (__main__.CoverageTests.test_subnormal_ring_rejected_instead_of_losing_hole) ... ok
+test_tiny_area_is_preserved_and_explicitly_tolerated (__main__.CoverageTests.test_tiny_area_is_preserved_and_explicitly_tolerated) ... ok
+test_triplicate_overlap_is_not_union_overlap (__main__.CoverageTests.test_triplicate_overlap_is_not_union_overlap) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.738s
+
+OK
