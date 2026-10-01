@@ -1,0 +1,764 @@
+{
+  "status": "IN_MEMORY_BARREL_AXIS_TRIAL_NOT_PROMOTED",
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "axis_report_sha256": "523f0a0936a30042411db574a9a507b505bd0b5b85770d39f6618095895dcd27",
+  "original_location_report_sha256": "21f7325c8fb668c20248dded63a6554c17eb89da46e2f57dbabcd0f796293d60",
+  "frame": 0,
+  "fixed_geometry_count": 145,
+  "stationary_object_matrix_count": 10386,
+  "formula": "basis = original_basis @ Translation((I-Rz)*axis_in_original_hinge_space) @ Rz; closed basis copied exactly",
+  "factory_axis_claim": false,
+  "source_saved": false,
+  "doors": [
+    {
+      "hinge": "cab_pivot_002",
+      "measured_local_axis_point": [
+        0.017999867598216035,
+        0.06799999872843432,
+        0.0
+      ],
+      "poses": [
+        {
+          "degrees": 0.0,
+          "closed_geometry_exact": true,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_-1_0_hinge_1.47",
+              "evaluated_center_drift_m": 0.0
+            },
+            {
+              "name": "BL_Door_-1_0_hinge_1.94",
+              "evaluated_center_drift_m": 0.0
+            },
+            {
+              "name": "BL_Door_-1_0_hinge_2.38",
+              "evaluated_center_drift_m": 0.0
+            }
+          ],
+          "old_surface_pair_instances": 1,
+          "trial_surface_overlap_candidates": [
+            {
+              "moving": "BL_Door_-1_0_pressed_shell",
+              "fixed": "cab_0063",
+              "triangle_pair_count": 16,
+              "first_triangle_pairs": [
+                [
+                  1504,
+                  178
+                ],
+                [
+                  1504,
+                  179
+                ],
+                [
+                  1504,
+                  117
+                ],
+                [
+                  757,
+                  179
+                ],
+                [
+                  757,
+                  117
+                ],
+                [
+                  756,
+                  179
+                ],
+                [
+                  756,
+                  117
+                ],
+                [
+                  759,
+                  180
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "degrees": 15.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_-1_0_hinge_1.47",
+              "evaluated_center_drift_m": 1.0015757431413902e-07
+            },
+            {
+              "name": "BL_Door_-1_0_hinge_1.94",
+              "evaluated_center_drift_m": 1.0015757431413902e-07
+            },
+            {
+              "name": "BL_Door_-1_0_hinge_2.38",
+              "evaluated_center_drift_m": 1.0015757431413902e-07
+            }
+          ],
+          "old_surface_pair_instances": 1,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 45.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_-1_0_hinge_1.47",
+              "evaluated_center_drift_m": 2.4225188455185144e-07
+            },
+            {
+              "name": "BL_Door_-1_0_hinge_1.94",
+              "evaluated_center_drift_m": 2.4225188455185144e-07
+            },
+            {
+              "name": "BL_Door_-1_0_hinge_2.38",
+              "evaluated_center_drift_m": 2.4225188455185144e-07
+            }
+          ],
+          "old_surface_pair_instances": 2,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 75.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_-1_0_hinge_1.47",
+              "evaluated_center_drift_m": 1.689178043462715e-07
+            },
+            {
+              "name": "BL_Door_-1_0_hinge_1.94",
+              "evaluated_center_drift_m": 1.689178043462715e-07
+            },
+            {
+              "name": "BL_Door_-1_0_hinge_2.38",
+              "evaluated_center_drift_m": 1.689178043462715e-07
+            }
+          ],
+          "old_surface_pair_instances": 10,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 99.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_-1_0_hinge_1.47",
+              "evaluated_center_drift_m": 2.3524949587832148e-07
+            },
+            {
+              "name": "BL_Door_-1_0_hinge_1.94",
+              "evaluated_center_drift_m": 2.3524949587832148e-07
+            },
+            {
+              "name": "BL_Door_-1_0_hinge_2.38",
+              "evaluated_center_drift_m": 2.3524949587832148e-07
+            }
+          ],
+          "old_surface_pair_instances": 9,
+          "trial_surface_overlap_candidates": []
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_003",
+      "measured_local_axis_point": [
+        0.018000036478042603,
+        0.06799999872843432,
+        0.0
+      ],
+      "poses": [
+        {
+          "degrees": 0.0,
+          "closed_geometry_exact": true,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_-1_1_hinge_1.47",
+              "evaluated_center_drift_m": 0.0
+            },
+            {
+              "name": "BL_Door_-1_1_hinge_1.94",
+              "evaluated_center_drift_m": 0.0
+            },
+            {
+              "name": "BL_Door_-1_1_hinge_2.38",
+              "evaluated_center_drift_m": 0.0
+            }
+          ],
+          "old_surface_pair_instances": 2,
+          "trial_surface_overlap_candidates": [
+            {
+              "moving": "BL_Door_-1_1_pressed_shell",
+              "fixed": "BL_Cab_-1_side_rivets",
+              "triangle_pair_count": 56,
+              "first_triangle_pairs": [
+                [
+                  1270,
+                  1903
+                ],
+                [
+                  1270,
+                  1900
+                ],
+                [
+                  1270,
+                  1901
+                ],
+                [
+                  1270,
+                  1902
+                ],
+                [
+                  1270,
+                  1914
+                ],
+                [
+                  1270,
+                  1915
+                ],
+                [
+                  1270,
+                  1913
+                ],
+                [
+                  1275,
+                  1903
+                ]
+              ]
+            },
+            {
+              "moving": "BL_Door_-1_1_pressed_shell",
+              "fixed": "cab_0063",
+              "triangle_pair_count": 27,
+              "first_triangle_pairs": [
+                [
+                  1523,
+                  219
+                ],
+                [
+                  1522,
+                  219
+                ],
+                [
+                  1525,
+                  276
+                ],
+                [
+                  1525,
+                  275
+                ],
+                [
+                  1525,
+                  212
+                ],
+                [
+                  1524,
+                  277
+                ],
+                [
+                  1524,
+                  219
+                ],
+                [
+                  1524,
+                  276
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "degrees": 15.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_-1_1_hinge_1.47",
+              "evaluated_center_drift_m": 3.2422784969566606e-07
+            },
+            {
+              "name": "BL_Door_-1_1_hinge_1.94",
+              "evaluated_center_drift_m": 3.2422784969566606e-07
+            },
+            {
+              "name": "BL_Door_-1_1_hinge_2.38",
+              "evaluated_center_drift_m": 3.2422784969566606e-07
+            }
+          ],
+          "old_surface_pair_instances": 1,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 45.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_-1_1_hinge_1.47",
+              "evaluated_center_drift_m": 1.3327158590200285e-07
+            },
+            {
+              "name": "BL_Door_-1_1_hinge_1.94",
+              "evaluated_center_drift_m": 1.3327158590200285e-07
+            },
+            {
+              "name": "BL_Door_-1_1_hinge_2.38",
+              "evaluated_center_drift_m": 1.3327158590200285e-07
+            }
+          ],
+          "old_surface_pair_instances": 2,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 75.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_-1_1_hinge_1.47",
+              "evaluated_center_drift_m": 3.336346867682478e-07
+            },
+            {
+              "name": "BL_Door_-1_1_hinge_1.94",
+              "evaluated_center_drift_m": 3.336346867682478e-07
+            },
+            {
+              "name": "BL_Door_-1_1_hinge_2.38",
+              "evaluated_center_drift_m": 3.336346867682478e-07
+            }
+          ],
+          "old_surface_pair_instances": 6,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 99.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_-1_1_hinge_1.47",
+              "evaluated_center_drift_m": 2.2635546364186227e-07
+            },
+            {
+              "name": "BL_Door_-1_1_hinge_1.94",
+              "evaluated_center_drift_m": 2.2635546364186227e-07
+            },
+            {
+              "name": "BL_Door_-1_1_hinge_2.38",
+              "evaluated_center_drift_m": 2.2635546364186227e-07
+            }
+          ],
+          "old_surface_pair_instances": 6,
+          "trial_surface_overlap_candidates": []
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_006",
+      "measured_local_axis_point": [
+        0.017999867598216035,
+        -0.06799999872843432,
+        0.0
+      ],
+      "poses": [
+        {
+          "degrees": 0.0,
+          "closed_geometry_exact": true,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_1_0_hinge_1.47",
+              "evaluated_center_drift_m": 0.0
+            },
+            {
+              "name": "BL_Door_1_0_hinge_1.94",
+              "evaluated_center_drift_m": 0.0
+            },
+            {
+              "name": "BL_Door_1_0_hinge_2.38",
+              "evaluated_center_drift_m": 0.0
+            }
+          ],
+          "old_surface_pair_instances": 1,
+          "trial_surface_overlap_candidates": [
+            {
+              "moving": "BL_Door_1_0_pressed_shell",
+              "fixed": "cab_0063",
+              "triangle_pair_count": 16,
+              "first_triangle_pairs": [
+                [
+                  1505,
+                  936
+                ],
+                [
+                  1505,
+                  937
+                ],
+                [
+                  1505,
+                  867
+                ],
+                [
+                  761,
+                  936
+                ],
+                [
+                  761,
+                  867
+                ],
+                [
+                  759,
+                  959
+                ],
+                [
+                  759,
+                  936
+                ],
+                [
+                  759,
+                  866
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "degrees": 15.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_1_0_hinge_1.47",
+              "evaluated_center_drift_m": 1.0015757168335185e-07
+            },
+            {
+              "name": "BL_Door_1_0_hinge_1.94",
+              "evaluated_center_drift_m": 1.0015757168335185e-07
+            },
+            {
+              "name": "BL_Door_1_0_hinge_2.38",
+              "evaluated_center_drift_m": 1.0015757168335185e-07
+            }
+          ],
+          "old_surface_pair_instances": 1,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 45.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_1_0_hinge_1.47",
+              "evaluated_center_drift_m": 2.422518840884805e-07
+            },
+            {
+              "name": "BL_Door_1_0_hinge_1.94",
+              "evaluated_center_drift_m": 2.422518840884805e-07
+            },
+            {
+              "name": "BL_Door_1_0_hinge_2.38",
+              "evaluated_center_drift_m": 2.422518840884805e-07
+            }
+          ],
+          "old_surface_pair_instances": 2,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 75.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_1_0_hinge_1.47",
+              "evaluated_center_drift_m": 1.689178027823237e-07
+            },
+            {
+              "name": "BL_Door_1_0_hinge_1.94",
+              "evaluated_center_drift_m": 1.689178027823237e-07
+            },
+            {
+              "name": "BL_Door_1_0_hinge_2.38",
+              "evaluated_center_drift_m": 1.689178027823237e-07
+            }
+          ],
+          "old_surface_pair_instances": 10,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 99.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_1_0_hinge_1.47",
+              "evaluated_center_drift_m": 2.352494963062775e-07
+            },
+            {
+              "name": "BL_Door_1_0_hinge_1.94",
+              "evaluated_center_drift_m": 2.352494963062775e-07
+            },
+            {
+              "name": "BL_Door_1_0_hinge_2.38",
+              "evaluated_center_drift_m": 2.352494963062775e-07
+            }
+          ],
+          "old_surface_pair_instances": 9,
+          "trial_surface_overlap_candidates": []
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_007",
+      "measured_local_axis_point": [
+        0.018000036478042603,
+        -0.06799999872843432,
+        0.0
+      ],
+      "poses": [
+        {
+          "degrees": 0.0,
+          "closed_geometry_exact": true,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_1_1_hinge_1.47",
+              "evaluated_center_drift_m": 0.0
+            },
+            {
+              "name": "BL_Door_1_1_hinge_1.94",
+              "evaluated_center_drift_m": 0.0
+            },
+            {
+              "name": "BL_Door_1_1_hinge_2.38",
+              "evaluated_center_drift_m": 0.0
+            }
+          ],
+          "old_surface_pair_instances": 2,
+          "trial_surface_overlap_candidates": [
+            {
+              "moving": "BL_Door_1_1_pressed_shell",
+              "fixed": "BL_Cab_1_side_rivets",
+              "triangle_pair_count": 48,
+              "first_triangle_pairs": [
+                [
+                  1271,
+                  1900
+                ],
+                [
+                  1271,
+                  1901
+                ],
+                [
+                  1271,
+                  1903
+                ],
+                [
+                  1271,
+                  1914
+                ],
+                [
+                  1271,
+                  1915
+                ],
+                [
+                  1271,
+                  1912
+                ],
+                [
+                  1275,
+                  1902
+                ],
+                [
+                  1275,
+                  1905
+                ]
+              ]
+            },
+            {
+              "moving": "BL_Door_1_1_pressed_shell",
+              "fixed": "cab_0063",
+              "triangle_pair_count": 27,
+              "first_triangle_pairs": [
+                [
+                  1522,
+                  1004
+                ],
+                [
+                  1523,
+                  1004
+                ],
+                [
+                  1524,
+                  1055
+                ],
+                [
+                  1524,
+                  963
+                ],
+                [
+                  1524,
+                  1032
+                ],
+                [
+                  1525,
+                  1055
+                ],
+                [
+                  1525,
+                  1005
+                ],
+                [
+                  1525,
+                  1004
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "degrees": 15.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_1_1_hinge_1.47",
+              "evaluated_center_drift_m": 3.242278519406673e-07
+            },
+            {
+              "name": "BL_Door_1_1_hinge_1.94",
+              "evaluated_center_drift_m": 3.242278519406673e-07
+            },
+            {
+              "name": "BL_Door_1_1_hinge_2.38",
+              "evaluated_center_drift_m": 3.242278519406673e-07
+            }
+          ],
+          "old_surface_pair_instances": 1,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 45.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_1_1_hinge_1.47",
+              "evaluated_center_drift_m": 1.3327158695919497e-07
+            },
+            {
+              "name": "BL_Door_1_1_hinge_1.94",
+              "evaluated_center_drift_m": 1.3327158695919497e-07
+            },
+            {
+              "name": "BL_Door_1_1_hinge_2.38",
+              "evaluated_center_drift_m": 1.3327158695919497e-07
+            }
+          ],
+          "old_surface_pair_instances": 2,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 75.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_1_1_hinge_1.47",
+              "evaluated_center_drift_m": 3.3363468696062923e-07
+            },
+            {
+              "name": "BL_Door_1_1_hinge_1.94",
+              "evaluated_center_drift_m": 3.3363468696062923e-07
+            },
+            {
+              "name": "BL_Door_1_1_hinge_2.38",
+              "evaluated_center_drift_m": 3.3363468696062923e-07
+            }
+          ],
+          "old_surface_pair_instances": 6,
+          "trial_surface_overlap_candidates": []
+        },
+        {
+          "degrees": 99.0,
+          "closed_geometry_exact": null,
+          "changed_fixed_geometry": [],
+          "changed_stationary_matrices": [],
+          "moving_rigid_regression_failures": [],
+          "barrel_centers": [
+            {
+              "name": "BL_Door_1_1_hinge_1.47",
+              "evaluated_center_drift_m": 2.263554652583673e-07
+            },
+            {
+              "name": "BL_Door_1_1_hinge_1.94",
+              "evaluated_center_drift_m": 2.263554652583673e-07
+            },
+            {
+              "name": "BL_Door_1_1_hinge_2.38",
+              "evaluated_center_drift_m": 2.263554652583673e-07
+            }
+          ],
+          "old_surface_pair_instances": 6,
+          "trial_surface_overlap_candidates": []
+        }
+      ]
+    }
+  ],
+  "whole_vehicle_acceptance": "16 OPEN",
+  "limits": [
+    "Trial uses fitted existing barrel geometry, not factory coordinates or a reconstructed hinge mechanism",
+    "Only five actual angles per door; no continuous collision proof",
+    "BVH surface overlaps are candidates, not penetration depth; zero samples do not exclude containment",
+    "145 original-cab objects only; 261 previously checked parts have not been re-certified for this different motion, nor other doors/hidden/out-of-root geometry",
+    "No runtime website or native saved asset replacement"
+  ],
+  "all_44_closed_parts_restored_exact": true,
+  "all_stationary_matrices_restored_exact": true,
+  "violations": [],
+  "source_sha256_after": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70"
+}
