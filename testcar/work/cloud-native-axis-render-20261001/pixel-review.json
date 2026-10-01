@@ -1,0 +1,43 @@
+{
+  "status": "ACCEPTED_BOUNDED_NATIVE_ENDPOINT_VISUALS",
+  "review_method": "Both original PNG files opened directly with view_image and visually inspected. Pixel arrays read separately with Pillow; no image edits, crops, compositing, or replacement.",
+  "image_dimensions": [
+    1600,
+    1100
+  ],
+  "closed_observation": "Complete isolated twin cab and front ancillary parts fully inside frame; near-side two doors closed and far-side roof/body retained. Labels readable, green original materials present, no magenta missing textures.",
+  "open_observation": "Both near-side doors swing outward and reveal their apertures; the two opposite open door panels are visible beyond the far cab, partly occluded. All four saved controllers have independent evaluated angle and nonzero tip witnesses in each native report.",
+  "occlusion_limit": "This is a single elevated front-left view; it does not expose all surfaces or hidden contacts. Far-side hinges/interior remain partially occluded.",
+  "diagnostic_quality": "Accepted for native saved-control endpoint illustration, not a detailed material, interference, or photorealistic acceptance image.",
+  "same_camera_settings_equal": [
+    "camera_world",
+    "ortho_scale",
+    "union_bounds_world",
+    "union_corner_projected_coordinates",
+    "render_settings",
+    "outside_scope_temporary_hidden",
+    "geometry_retained",
+    "original_collection_flags_retained",
+    "original_material_bindings_unchanged",
+    "original_material_count"
+  ],
+  "pixel_changed_full_image": 99895,
+  "pixel_changed_body_rows_220_to_899": 87124,
+  "pixel_count": 1760000,
+  "image_files": [
+    {
+      "file": "attempt01/closed.png",
+      "sha256": "87864120692a8ac6fd33cdfdc39b5493e2b304320ed3596494b41b327bfb57ad",
+      "bytes": 1576059
+    },
+    {
+      "file": "attempt01/open99.png",
+      "sha256": "0bbd1ee0462b738ed80b30b4e76937298052eb686a7de3385336bab2f4d99cf3",
+      "bytes": 1585359
+    }
+  ],
+  "six_closed_contacts": "OPEN",
+  "sixteen_vehicle_gates": "OPEN",
+  "browser_acceptance": false,
+  "source_model_saved": false
+}

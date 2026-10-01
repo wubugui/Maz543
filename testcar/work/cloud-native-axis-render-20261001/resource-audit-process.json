@@ -1,0 +1,50 @@
+{
+  "command": [
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "2",
+    "--python-exit-code",
+    "17",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/resource-audit-executed-script.py",
+    "--",
+    "--candidate",
+    "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend",
+    "--out",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/resource-audit.json"
+  ],
+  "cpu_threads": 2,
+  "deadline_s": 240,
+  "timed_out": false,
+  "exit_code": 0,
+  "elapsed_s": 10.988646008001524,
+  "start_utc_system_clock": "2026-10-01T23:09:23.665340+00:00",
+  "peak_child_rss_kib": 1863528,
+  "input_sha256": {
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe",
+    "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/inspect-resources.py": "722ceaccda1928961c31f510c3276505de9621c94c1785a3eeca9af904529c4d",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/resource-audit-executed-script.py": "722ceaccda1928961c31f510c3276505de9621c94c1785a3eeca9af904529c4d"
+  },
+  "post_sha256": {
+    "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/inspect-resources.py": "722ceaccda1928961c31f510c3276505de9621c94c1785a3eeca9af904529c4d",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/resource-audit-executed-script.py": "722ceaccda1928961c31f510c3276505de9621c94c1785a3eeca9af904529c4d"
+  },
+  "candidate_source_unchanged": true,
+  "original_source_unchanged": true,
+  "executed_script_unchanged": true,
+  "log": "resource-audit.log",
+  "log_sha256": "1d57ea1adb5ec6ad53b1a9dddc6e49d7484d0b278ce47a37f6b3ab31a5c57acc",
+  "outputs_at_exit": {
+    "resource-audit.json": {
+      "bytes": 650547,
+      "sha256": "203a12ae90052feb4831bb5fd501537c794c18681f418fe645115f57e0076041"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PARENT_EXACT_REPORT_RESTORE_HASH_AND_PIXEL_REVIEW_PASS",
+  "reports_exact": 3,
+  "original_files_hash_checked": 45,
+  "candidate_sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "actual_pixels_reviewed": [
+    "attempt01/closed.png",
+    "attempt01/open99.png"
+  ],
+  "review": "Both views readable and fully framed. Near-side two door openings are visible when open; opposite door panels partly occluded. Same visual framing and original green materials. No full contact or vehicle clearance conclusion.",
+  "original_native_reports_not_rewritten": true,
+  "transport": "Ordinary JSON evidence shards restore all complete original report bytes; no model data encoded",
+  "images_in_git": false,
+  "candidate_in_git": false
+}

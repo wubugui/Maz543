@@ -1,0 +1,267 @@
+{
+  "status": "TWO_NATIVE_SAVED_CONTROL_ENDPOINT_RENDERS_ACCEPTED",
+  "asset_status": "LOCAL_ONLY_LFS_BLOCKED",
+  "candidate_bytes": 67937160,
+  "candidate_sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+  "original_source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "render_script_sha256": "a15467d582745b46efdcad21edfe8594c327ca54524de99b7251554a19e2237d",
+  "images": [
+    {
+      "file": "attempt01/closed.png",
+      "sha256": "87864120692a8ac6fd33cdfdc39b5493e2b304320ed3596494b41b327bfb57ad",
+      "bytes": 1576059
+    },
+    {
+      "file": "attempt01/open99.png",
+      "sha256": "0bbd1ee0462b738ed80b30b4e76937298052eb686a7de3385336bab2f4d99cf3",
+      "bytes": 1585359
+    }
+  ],
+  "processes": [
+    {
+      "name": "resource-audit",
+      "exit_code": 0,
+      "elapsed_s": 10.988646008001524,
+      "peak_child_rss_kib": 1863528,
+      "threads": 2,
+      "deadline_s": 240
+    },
+    {
+      "name": "closed",
+      "exit_code": 0,
+      "elapsed_s": 65.49014887800149,
+      "peak_child_rss_kib": 3229848,
+      "threads": 2,
+      "deadline_s": 240
+    },
+    {
+      "name": "open99",
+      "exit_code": 0,
+      "elapsed_s": 65.28426073800074,
+      "peak_child_rss_kib": 3229180,
+      "threads": 2,
+      "deadline_s": 240
+    }
+  ],
+  "missing_images": 0,
+  "missing_fonts": 0,
+  "retained_geometry_objects": 556,
+  "retained_originally_render_visible_geometry_objects": 472,
+  "cab_descendants": 598,
+  "included_outside_root_front_geometry": 24,
+  "temporarily_hidden_outside_scope_objects": 9467,
+  "original_scope_render_flags_unchanged": true,
+  "camera_same": true,
+  "native_endpoint_witnesses": [
+    {
+      "pose_deg": 0,
+      "witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "property_deg": 0.0,
+          "requested_signed_angle_deg": 0,
+          "actual_evaluated_signed_angle_deg": 0.0,
+          "shell_tip_object": "BL_Door_-1_0_pressed_shell",
+          "shell_tip_vertex": 477,
+          "shell_tip_world": [
+            -4.03000020980835,
+            1.4850000143051147,
+            2.4194836616516113
+          ],
+          "shell_tip_displacement_from_closed_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "property_deg": 0.0,
+          "requested_signed_angle_deg": 0,
+          "actual_evaluated_signed_angle_deg": 0.0,
+          "shell_tip_object": "BL_Door_-1_1_pressed_shell",
+          "shell_tip_vertex": 477,
+          "shell_tip_world": [
+            -3.009999990463257,
+            1.4850000143051147,
+            2.4194836616516113
+          ],
+          "shell_tip_displacement_from_closed_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "property_deg": 0.0,
+          "requested_signed_angle_deg": 0,
+          "actual_evaluated_signed_angle_deg": 0.0,
+          "shell_tip_object": "BL_Door_1_0_pressed_shell",
+          "shell_tip_vertex": 476,
+          "shell_tip_world": [
+            -4.03000020980835,
+            -1.4850000143051147,
+            2.4194836616516113
+          ],
+          "shell_tip_displacement_from_closed_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "property_deg": 0.0,
+          "requested_signed_angle_deg": 0,
+          "actual_evaluated_signed_angle_deg": 0.0,
+          "shell_tip_object": "BL_Door_1_1_pressed_shell",
+          "shell_tip_vertex": 476,
+          "shell_tip_world": [
+            -3.009999990463257,
+            -1.4850000143051147,
+            2.4194836616516113
+          ],
+          "shell_tip_displacement_from_closed_m": 0.0
+        }
+      ]
+    },
+    {
+      "pose_deg": 99,
+      "witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "property_deg": 99.0,
+          "requested_signed_angle_deg": 99,
+          "actual_evaluated_signed_angle_deg": 98.99999929196937,
+          "shell_tip_object": "BL_Door_-1_0_pressed_shell",
+          "shell_tip_vertex": 477,
+          "shell_tip_world": [
+            -4.964622244322058,
+            2.409242329197699,
+            2.4194836616516113
+          ],
+          "shell_tip_displacement_from_closed_m": 1.3144360783379871
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "property_deg": 99.0,
+          "requested_signed_angle_deg": 99,
+          "actual_evaluated_signed_angle_deg": 98.99999929196937,
+          "shell_tip_object": "BL_Door_-1_1_pressed_shell",
+          "shell_tip_vertex": 477,
+          "shell_tip_world": [
+            -4.025572628800553,
+            2.4783811442843593,
+            2.4194836616516113
+          ],
+          "shell_tip_displacement_from_closed_m": 1.4206314980100285
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "property_deg": 99.0,
+          "requested_signed_angle_deg": -99,
+          "actual_evaluated_signed_angle_deg": -98.99999929196937,
+          "shell_tip_object": "BL_Door_1_0_pressed_shell",
+          "shell_tip_vertex": 476,
+          "shell_tip_world": [
+            -4.964622244322058,
+            -2.409242329197699,
+            2.4194836616516113
+          ],
+          "shell_tip_displacement_from_closed_m": 1.3144360783379871
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "property_deg": 99.0,
+          "requested_signed_angle_deg": -99,
+          "actual_evaluated_signed_angle_deg": -98.99999929196937,
+          "shell_tip_object": "BL_Door_1_1_pressed_shell",
+          "shell_tip_vertex": 476,
+          "shell_tip_world": [
+            -4.025572628800553,
+            -2.4783811442843593,
+            2.4194836616516113
+          ],
+          "shell_tip_displacement_from_closed_m": 1.4206314980100285
+        }
+      ]
+    }
+  ],
+  "render_settings": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "threads": 2,
+    "samples": 32,
+    "denoising": true,
+    "resolution": [
+      1600,
+      1100
+    ],
+    "view_transform": "AgX",
+    "look": "AgX - Medium High Contrast",
+    "exposure": 0,
+    "gamma": 1,
+    "world_rgba": [
+      0.1,
+      0.125,
+      0.16,
+      1
+    ],
+    "world_strength": 0.5,
+    "lights": [
+      {
+        "name": "key",
+        "location": [
+          -7.303050518035889,
+          -5.0,
+          8.78368091583252
+        ],
+        "rotation": [
+          0.6945375800132751,
+          -4.690163279974513e-08,
+          -0.5404194593429565
+        ],
+        "energy_w": 1100,
+        "size_m": 5
+      },
+      {
+        "name": "fill",
+        "location": [
+          -8.303050994873047,
+          5.0,
+          5.7836809158325195
+        ],
+        "rotation": [
+          1.0124163627624512,
+          8.302104248514297e-08,
+          -2.4668517112731934
+        ],
+        "energy_w": 850,
+        "size_m": 5
+      },
+      {
+        "name": "rim",
+        "location": [
+          0.6969494819641113,
+          1.0,
+          6.7836809158325195
+        ],
+        "rotation": [
+          0.7952027916908264,
+          8.524720840341615e-08,
+          1.7681918144226074
+        ],
+        "energy_w": 1000,
+        "size_m": 4
+      }
+    ],
+    "motion_blur": false,
+    "max_bounces": 6,
+    "transmission_bounces": 6,
+    "transparent_bounces": 8
+  },
+  "new_inspection_objects": "Camera, three area lights, six builtin FONT labels; one annotation-only emission material; explicit world. Not saved.",
+  "original_material_mesh_resource_changes": "None",
+  "failed_render_attempts": 0,
+  "model_save_or_export_count": 0,
+  "driver_expression_or_target_writes": 0,
+  "delivery_state": "Files local only; no Git/LFS/Slack actions performed by this rendering task",
+  "evidence_transport": "Three complete JSON reports losslessly split as ordinary array shards, exact bytes restored and verified. Original full reports retained. No model encoding.",
+  "limits": [
+    "Explicit isolated cab hierarchy plus 24 named front parts; outside-cab original render objects temporarily hidden only for the inspection",
+    "All original in-scope geometry and original hidden states retained including old geometry; no collision-improvement claim",
+    "Two endpoint views only, no continuous-clearance, manufacturer, mechanism, physics or browser acceptance",
+    "No 140-head repair or new step layout incorporated",
+    "Original six closed contacts and all sixteen vehicle gates remain OPEN"
+  ],
+  "pixel_review": "pixel-review.json"
+}

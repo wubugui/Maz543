@@ -1,0 +1,68 @@
+{
+  "command": [
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "2",
+    "--python-exit-code",
+    "17",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/closed-attempt01-executed-script.py",
+    "--",
+    "--candidate",
+    "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend",
+    "--verification",
+    "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/verify-report.json",
+    "--resource-audit",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/resource-audit.json",
+    "--out",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/attempt01",
+    "--pose",
+    "closed"
+  ],
+  "cpu_threads": 2,
+  "deadline_s": 240,
+  "timed_out": false,
+  "exit_code": 0,
+  "elapsed_s": 65.49014887800149,
+  "start_utc_system_clock": "2026-10-01T23:12:11.279480+00:00",
+  "peak_child_rss_kib": 3229848,
+  "input_sha256": {
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe",
+    "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/render-native-controls.py": "a15467d582745b46efdcad21edfe8594c327ca54524de99b7251554a19e2237d",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/closed-attempt01-executed-script.py": "a15467d582745b46efdcad21edfe8594c327ca54524de99b7251554a19e2237d"
+  },
+  "post_sha256": {
+    "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/render-native-controls.py": "a15467d582745b46efdcad21edfe8594c327ca54524de99b7251554a19e2237d",
+    "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/closed-attempt01-executed-script.py": "a15467d582745b46efdcad21edfe8594c327ca54524de99b7251554a19e2237d"
+  },
+  "candidate_source_unchanged": true,
+  "original_source_unchanged": true,
+  "executed_script_unchanged": true,
+  "log": "closed-attempt01.log",
+  "log_sha256": "bd5e19e162560e76facd4354e17e39c64d280a7a9ab88197251a947556e9eeae",
+  "outputs_at_exit": {
+    "resource-audit.json": {
+      "bytes": 650547,
+      "sha256": "203a12ae90052feb4831bb5fd501537c794c18681f418fe645115f57e0076041"
+    },
+    "resource-audit-process.json": {
+      "bytes": 2814,
+      "sha256": "2dd019fd6f0ccaf7ce42842a4acce09254f95c170a3009f540e274bbd68acf8b"
+    },
+    "attempt01/closed.png": {
+      "bytes": 1576059,
+      "sha256": "87864120692a8ac6fd33cdfdc39b5493e2b304320ed3596494b41b327bfb57ad"
+    },
+    "attempt01/closed-render-report.json": {
+      "bytes": 1154634,
+      "sha256": "08b632a6828a6e59e885587d0a5b8b449015f470964e866ed4a455fab731be12"
+    }
+  }
+}
