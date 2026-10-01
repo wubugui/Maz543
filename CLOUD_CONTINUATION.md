@@ -104,7 +104,10 @@ replacement for the production masters or production GLB.
   production promotion. A real combined whole-vehicle native image and two raw
   GLB exports are retained. v1 hood quantization fails; v2 raises position
   precision and passes limited decoded hood/glyph transport. Neither is
-  browser-tested or a packed production-preserving asset. See its STATE.
+  browser-tested. A separate packed candidate preserves414 unrelated mesh
+  nodes, with16 new/changed primitive streams checked. Development-only
+  `asset-review=hood-tyre-v1` entry and build checks pass; actual browser remains
+  untested. See its STATE.
 
 ## Verified environment and remaining access limits
 

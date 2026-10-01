@@ -46,5 +46,16 @@
     "native_primitive_streams": 16,
     "browser_qa": "NOT_RUN",
     "promoted": false
+  },
+  "development_entry": {
+    "query": "asset-review=hood-tyre-v1",
+    "production_default_unchanged": true,
+    "development_only": true,
+    "render_worker_selection_refused": true,
+    "selection_cases": 20,
+    "metadata_only_real_exporter_cases": 3,
+    "typescript_no_emit": "PASS",
+    "production_build": "PASS",
+    "actual_browser": "NOT_RUN_ACCESS_BLOCKED"
   }
 }
