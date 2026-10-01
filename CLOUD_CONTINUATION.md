@@ -1,4 +1,4 @@
-# Cloud development continuation, 2026-09-30
+# Cloud development continuation, through 2026-10-01
 
 The original full migration remains commit
 `4f28bd4618ca7e272f6049b9f615821b8e0bb8f1` on
@@ -45,6 +45,25 @@ replacement for the production masters or production GLB.
 - Equipment and suspension sources: `testcar/docs/CLOUD_EQUIPMENT_REFERENCE_20260930.md`
   and `SUSPENSION_REFERENCE_REGISTER.md`. Original variant/revision distinctions
   and remaining hardpoint/stop/installation unknowns must be preserved.
+- Torsion installation datum: `testcar/docs/CLOUD_SUSPENSION_INSTALLATION_20261001.md`.
+  Original p320 resolves136–141mm as the lower-arm head-centre vertical difference
+  during installation, not wheel travel. Existing unadjusted support bolts are
+  separated from the arms in24 actual diagnostic states. Four isolated editable
+  reference scenes and the original module archive are saved;680 object-pose
+  comparisons preserve all evaluated vertices/topology. This does not repair
+  stop support, adjustment or preload.
+- Battery structure: `testcar/outputs/cloud-12st70-structure-20261001/README.md`.
+  Original1977/1983 sources support wood case, two steel bands and three actual
+  four-chamber ebonite tanks. The independent73-part candidate retains12 real
+  cavities and source curves; all73parts closed after native seam welding.
+  Cell plate packs, terminal hood, overall cover, exact carrying hardware and
+  four-unit vehicle installation remain missing. The70/70M figure/text variant
+  distinction and incomplete fitted envelope remain explicit.
+- Complete current-production front/rear views:
+  `testcar/outputs/cloud-whole-production-20261001/render-manifest.json`.
+  Fresh actual Cycles renders fit all measured vehicle-envelope corners in the
+  image and use the unchanged production Master. They do not depict the cloud
+  component candidates as installed.
 
 ## Verified environment and remaining access limits
 
