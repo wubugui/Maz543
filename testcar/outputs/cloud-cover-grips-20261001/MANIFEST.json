@@ -1,0 +1,105 @@
+{
+  "candidate": "Photo-observed hoodgrips only; production unchanged;16OPEN",
+  "files": [
+    {
+      "path": "MAZ543A_Master.blend",
+      "bytes": 65605470,
+      "sha256": "d4aa7d9ae0097cb079868bc657e793671688e2e76b6c2035ee3a70bb9454f1a8"
+    },
+    {
+      "path": "MAZ543A_Master.blend.source-geometry-fingerprints.json",
+      "bytes": 5153234,
+      "sha256": "ae7d71169d4785942608bd2d738e9cb3c64b1c79854fa5fa10a58bc424dedf07"
+    },
+    {
+      "path": "MAZ543A_Textured.blend",
+      "bytes": 98665251,
+      "sha256": "d1627ea2cd721b9d7587d284a4bea8aa427bb8d11ea1df8212f904e685afd0dc"
+    },
+    {
+      "path": "MAZ543A_Textured.blend.source-geometry-fingerprints.json",
+      "bytes": 4209399,
+      "sha256": "1a487eb7e548d34788214292430f4ffaab641498d581db84b9184f549a3c98da"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4475,
+      "sha256": "dbb3928adfebf298911e68ff61f91536a19e51b2178b137e8de397db06d1c6be"
+    },
+    {
+      "path": "build-manifest.json",
+      "bytes": 5118,
+      "sha256": "5d4337f623771dc5c048c76bc23acddc3720bcb4c45c08f32c5b94bb4ab46449"
+    },
+    {
+      "path": "native-build.log",
+      "bytes": 571,
+      "sha256": "c34047eb0d0c727bcc2d05fa22533918194de4fc4567978583c894633cd735b0"
+    },
+    {
+      "path": "native-readback.json",
+      "bytes": 8864,
+      "sha256": "ce5d0f63a40dfeb6e673d3feb68f7c5b5c3e2c56bc326dec497f149bd99fd142"
+    },
+    {
+      "path": "native-readback.log",
+      "bytes": 525,
+      "sha256": "1cb5f2e0cfb3f46c4e6cbdb8d72bee1e1a0e63fdae87b03f806550f425d68628"
+    },
+    {
+      "path": "native-render.log",
+      "bytes": 2307270,
+      "sha256": "eae8188d1be400987c7d72f3e99da16b72e4daf2ac77ce8c72ec43d0704b1a18"
+    },
+    {
+      "path": "native-whole-render-64-no-denoise.log",
+      "bytes": 1151426,
+      "sha256": "0491542b46974091506779159ba846866bdbc667c9f171b911c4815b493c57c5"
+    },
+    {
+      "path": "native-whole-render-recovery.log",
+      "bytes": 1150712,
+      "sha256": "543117a53c199427b7d0d68d0718c144ab864c58d83f5fd8c7b8b741d4ec08f4"
+    },
+    {
+      "path": "native-whole-render.log",
+      "bytes": 1140368,
+      "sha256": "4666022c203097d2a1a74009ef74eb53ad8e1c0ec90d27c245d29e5092c0dff8"
+    },
+    {
+      "path": "photo-grips-candidate-front-cover-detail.png",
+      "bytes": 1795569,
+      "sha256": "26c858fbf5016f6e8130370cba5cd2615e9839ee49e52ce24da10f6493bbfa1d"
+    },
+    {
+      "path": "photo-grips-candidate-whole-front.png",
+      "bytes": 2089411,
+      "sha256": "e0314b57906a4925c7733cc5c95c91b9a68c51faab9c052036300458f1cd895e"
+    },
+    {
+      "path": "r3-before-front-cover-detail.png",
+      "bytes": 1787386,
+      "sha256": "ca2b503e3c0031bb0aaf4612d940bfd8729ad5386f4c9ec350dae57d5dca11a7"
+    },
+    {
+      "path": "render-provenance.json",
+      "bytes": 3865,
+      "sha256": "6828961875871a958a0878bc7f1e67b8158cd23f59256dac5be16aca9080ce20"
+    },
+    {
+      "path": "whole-framing-first-attempt-failed.log",
+      "bytes": 2307270,
+      "sha256": "eae8188d1be400987c7d72f3e99da16b72e4daf2ac77ce8c72ec43d0704b1a18"
+    },
+    {
+      "path": "whole-framing-second-attempt-studio-floor.log",
+      "bytes": 764,
+      "sha256": "686f2d30fcd581dcef14073bec877fc98e37e1041cba9c66dc26df60ccd62a2e"
+    },
+    {
+      "path": "whole-render-exit137.log",
+      "bytes": 1140368,
+      "sha256": "4666022c203097d2a1a74009ef74eb53ad8e1c0ec90d27c245d29e5092c0dff8"
+    }
+  ]
+}

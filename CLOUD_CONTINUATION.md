@@ -72,6 +72,15 @@ replacement for the production masters or production GLB.
   Current147 new-part pairs have whole-box separation or empty native Boolean
   intersections; this excludes fasteners, retention and actual removal motion.
   The two display offsets are not a factory service mechanism. All16 remain OPEN.
+- Photo-observed hood grips: `testcar/outputs/cloud-cover-grips-20261001/README.md`.
+  Four actual photographer-sourced MAZ543A-labelled views distinguish the two
+  transverse top grips from the separate narrow front-edge fasteners. The
+  independent two-vehicle candidate adds only the missing grips. Original8712/
+  6932 geometry-object snapshots match; grip topology and four attachment
+  diagnostic poses were read back. Oldr3 interference and all16 gates remain
+  OPEN. Same-camera before/after plus a whole-candidate native view are saved.
+  The source register has URLs/attribution/limits, without newly obtained photo
+  pixels. Continue photo-guided broad cover contours; do not invent latch axes.
 
 ## Verified environment and remaining access limits
 

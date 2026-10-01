@@ -1,0 +1,236 @@
+{
+  "scope": "New photo-observed grips only; retained r3 latch release and lip/grille failures remain OPEN. Four diagnostic poses are not continuous clearance proof.",
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "candidate_sha256": "d4aa7d9ae0097cb079868bc657e793671688e2e76b6c2035ee3a70bb9454f1a8",
+      "old_geometry_objects_exactly_preserved": 8712,
+      "changed_old_geometry_objects": [],
+      "new_grips": [
+        {
+          "name": "BL_Photo_front_cover_top_grip_-1",
+          "vertices": 850,
+          "non_manifold_edges": 0,
+          "non_manifold_vertices": 0,
+          "volume_m3": 4.5239990847196004e-05,
+          "degenerate_faces": 0,
+          "nonadjacent_self_intersections": 0
+        },
+        {
+          "name": "BL_Photo_front_cover_top_grip_1",
+          "vertices": 850,
+          "non_manifold_edges": 0,
+          "non_manifold_vertices": 0,
+          "volume_m3": 4.5240027720531187e-05,
+          "degenerate_faces": 0,
+          "nonadjacent_self_intersections": 0
+        }
+      ],
+      "diagnostic_poses": [
+        {
+          "service_stage": 0,
+          "grip_attachment_assumption_world_vertex_error_m": {
+            "BL_Photo_front_cover_top_grip_-1": 0.0,
+            "BL_Photo_front_cover_top_grip_1": 0.0
+          },
+          "surface_intersections": [
+            {
+              "grip": "BL_Photo_front_cover_top_grip_-1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            },
+            {
+              "grip": "BL_Photo_front_cover_top_grip_1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            }
+          ]
+        },
+        {
+          "service_stage": 1,
+          "grip_attachment_assumption_world_vertex_error_m": {
+            "BL_Photo_front_cover_top_grip_-1": 0.0,
+            "BL_Photo_front_cover_top_grip_1": 0.0
+          },
+          "surface_intersections": [
+            {
+              "grip": "BL_Photo_front_cover_top_grip_-1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            },
+            {
+              "grip": "BL_Photo_front_cover_top_grip_1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            }
+          ]
+        },
+        {
+          "service_stage": 1.5,
+          "grip_attachment_assumption_world_vertex_error_m": {
+            "BL_Photo_front_cover_top_grip_-1": 0.0,
+            "BL_Photo_front_cover_top_grip_1": 0.0
+          },
+          "surface_intersections": [
+            {
+              "grip": "BL_Photo_front_cover_top_grip_-1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            },
+            {
+              "grip": "BL_Photo_front_cover_top_grip_1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            }
+          ]
+        },
+        {
+          "service_stage": 2,
+          "grip_attachment_assumption_world_vertex_error_m": {
+            "BL_Photo_front_cover_top_grip_-1": 0.0,
+            "BL_Photo_front_cover_top_grip_1": 0.0
+          },
+          "surface_intersections": [
+            {
+              "grip": "BL_Photo_front_cover_top_grip_-1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            },
+            {
+              "grip": "BL_Photo_front_cover_top_grip_1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            }
+          ]
+        }
+      ],
+      "file_unchanged": true,
+      "interior_containment_scope": "Only triangle intersections in the sampled pose broadphase; no general containment or swept-solid claim.",
+      "source_photo_handling": "Build script uses source URLs and metadata only; no new photograph is loaded or packed"
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "candidate_sha256": "d1627ea2cd721b9d7587d284a4bea8aa427bb8d11ea1df8212f904e685afd0dc",
+      "old_geometry_objects_exactly_preserved": 6932,
+      "changed_old_geometry_objects": [],
+      "new_grips": [
+        {
+          "name": "BL_Photo_front_cover_top_grip_-1",
+          "vertices": 850,
+          "non_manifold_edges": 0,
+          "non_manifold_vertices": 0,
+          "volume_m3": 4.5239990847196004e-05,
+          "degenerate_faces": 0,
+          "nonadjacent_self_intersections": 0
+        },
+        {
+          "name": "BL_Photo_front_cover_top_grip_1",
+          "vertices": 850,
+          "non_manifold_edges": 0,
+          "non_manifold_vertices": 0,
+          "volume_m3": 4.5240027720531187e-05,
+          "degenerate_faces": 0,
+          "nonadjacent_self_intersections": 0
+        }
+      ],
+      "diagnostic_poses": [
+        {
+          "service_stage": 0,
+          "grip_attachment_assumption_world_vertex_error_m": {
+            "BL_Photo_front_cover_top_grip_-1": 0.0,
+            "BL_Photo_front_cover_top_grip_1": 0.0
+          },
+          "surface_intersections": [
+            {
+              "grip": "BL_Photo_front_cover_top_grip_-1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            },
+            {
+              "grip": "BL_Photo_front_cover_top_grip_1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            }
+          ]
+        },
+        {
+          "service_stage": 1,
+          "grip_attachment_assumption_world_vertex_error_m": {
+            "BL_Photo_front_cover_top_grip_-1": 0.0,
+            "BL_Photo_front_cover_top_grip_1": 0.0
+          },
+          "surface_intersections": [
+            {
+              "grip": "BL_Photo_front_cover_top_grip_-1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            },
+            {
+              "grip": "BL_Photo_front_cover_top_grip_1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            }
+          ]
+        },
+        {
+          "service_stage": 1.5,
+          "grip_attachment_assumption_world_vertex_error_m": {
+            "BL_Photo_front_cover_top_grip_-1": 0.0,
+            "BL_Photo_front_cover_top_grip_1": 0.0
+          },
+          "surface_intersections": [
+            {
+              "grip": "BL_Photo_front_cover_top_grip_-1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            },
+            {
+              "grip": "BL_Photo_front_cover_top_grip_1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            }
+          ]
+        },
+        {
+          "service_stage": 2,
+          "grip_attachment_assumption_world_vertex_error_m": {
+            "BL_Photo_front_cover_top_grip_-1": 0.0,
+            "BL_Photo_front_cover_top_grip_1": 0.0
+          },
+          "surface_intersections": [
+            {
+              "grip": "BL_Photo_front_cover_top_grip_-1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            },
+            {
+              "grip": "BL_Photo_front_cover_top_grip_1",
+              "other": "BL_Front_cover_front_panel",
+              "triangle_pairs": 56,
+              "classification": "FITTED_FOOT_EMBED_ATTACHMENT_UNVALIDATED"
+            }
+          ]
+        }
+      ],
+      "file_unchanged": true,
+      "interior_containment_scope": "Only triangle intersections in the sampled pose broadphase; no general containment or swept-solid claim.",
+      "source_photo_handling": "Build script uses source URLs and metadata only; no new photograph is loaded or packed"
+    }
+  ],
+  "all16VehicleGates": "OPEN"
+}

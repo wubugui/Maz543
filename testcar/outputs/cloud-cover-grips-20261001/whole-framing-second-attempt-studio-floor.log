@@ -1,0 +1,12 @@
+ACTUAL_WHOLE_GEOMETRY_BOUNDS [-50.0, -50.0, -0.07999999821186066] [50.0, 50.0, 2.994999885559082]
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-cover-grips-20261001/MAZ543A_Master.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/render-photo-guided-cover-grips.py", line 40, in <module>
+    assert all(.06<=p.x<=.94 and .06<=p.y<=.94 for p in uv);corner_proof={'actual_active_bounds':[low,high],'image_corners':[list(p) for p in uv]}
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: 'testcar/scripts/render-photo-guided-cover-grips.py', exiting.
+
+Blender quit
