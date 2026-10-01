@@ -1,0 +1,24 @@
+{
+  "status": "MODERN_UK143A_SOURCE_VERIFIED_NOT_1977_DIMENSION_APPROVAL",
+  "primary_source_url": "https://avtopribor.ru/upload/pdf/katalog_npk_avtopribor.pdf",
+  "pdf_sha256": "4588576a51875016c9721ae63652e7352c0a5484afc181a2f22c2c16db36bca8",
+  "bytes": 2115725,
+  "pdf_page": 31,
+  "printed_page": 30,
+  "actual_page_pixels_reviewed": true,
+  "row_model": "УК143А-3807010",
+  "row_values": {
+    "voltage_v": 24,
+    "range_celsius": [
+      40,
+      120
+    ],
+    "electrical_connector": "M5 screw",
+    "mounting_case_diameter_mm": 60
+  },
+  "photo_scope": "Single category illustration above a table of many gauge models; not explicitly attached to UK143A row. Do not treat its face as verified1977 UK143.",
+  "target1977_manual": "UK143 with TM100 sensor,40–120C; modern suffixA equivalence and source-batch dimensions not established",
+  "supplier_disagreement": "AvtoALL search snippet says12V for143A; official manufacturer table24V governs this modern variant only. Blocked retailer page was not accessed again.",
+  "adoption": "No vehicle geometry modified from this new source; preserve target-year/variant uncertainty",
+  "redistribution": "Downloaded primary PDF and page pixels kept for local review only, not placed in public Git/Slack"
+}

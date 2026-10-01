@@ -1,0 +1,68 @@
+{
+  "status": "INDEPENDENT_PARTIAL_TEM15_FACE_STUDY",
+  "model_sha256": "a65ec84c7a03de257ad5971b9675bd4d83c5515a6429875e6d02418c760b3def",
+  "physical_solids": [
+    "CASE FRONT ENVELOPE — no rear hardware or internals",
+    "GLASS — separate fitted flat disc",
+    "DIAL — fitted front backing only",
+    "POINTER — fitted uncalibrated photo pose",
+    "OBSERVED major mark 0",
+    "OBSERVED major mark 5",
+    "OBSERVED major mark 10",
+    "OBSERVED major mark 15",
+    "OBSERVED unit separator"
+  ],
+  "observed_text": [
+    {
+      "object": "OBSERVED scale 0",
+      "text": "0"
+    },
+    {
+      "object": "OBSERVED scale 5",
+      "text": "5"
+    },
+    {
+      "object": "OBSERVED scale 10",
+      "text": "10"
+    },
+    {
+      "object": "OBSERVED scale 15",
+      "text": "15"
+    },
+    {
+      "object": "OBSERVED unit numerator",
+      "text": "КГ"
+    },
+    {
+      "object": "OBSERVED unit denominator",
+      "text": "СМ²"
+    }
+  ],
+  "reference_registry": "reference/tem15-face-source-20261001.json",
+  "source_images_packed": false,
+  "fitted_face_radius_m": 0.044,
+  "major_mark_angles_deg": [
+    165,
+    115,
+    65,
+    15
+  ],
+  "limits": [
+    "1978 product specimen is not proof of target1977 installation batch",
+    "All dimensions, depth, glass section, font and label angles fitted",
+    "Minor ticks omitted because exact positions/count not resolved from oblique image",
+    "No sensor, hose, rear connector, clamp or internal mechanism modeled",
+    "No electrical response or calibrated pressure-to-angle function",
+    "Not installed, no original-hole claim"
+  ],
+  "whole_vehicle_acceptance": "16 OPEN",
+  "previous_failed_source_sha256": "5724611e2fcd763c0dffae5b5bc916d4b84b9b704937502147c9e5f572bb7eb9",
+  "pointer_cap_repair": {
+    "before_vertices": 12,
+    "after_vertices": 6,
+    "position_set_exact": true,
+    "editable_source_retained": "HIDDEN POINTER EDITABLE CURVE SOURCE",
+    "modifier": "Native Weld,1e-7m"
+  },
+  "solid_count_note": "Includes5 painted-mark solids; not an original manufacturer component count"
+}

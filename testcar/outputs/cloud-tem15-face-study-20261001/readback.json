@@ -1,0 +1,104 @@
+{
+  "status": "FAIL_PARTIAL_TEM15_STRUCTURE",
+  "source_sha256": "5724611e2fcd763c0dffae5b5bc916d4b84b9b704937502147c9e5f572bb7eb9",
+  "fresh_open": true,
+  "physical_solids": [
+    {
+      "name": "CASE FRONT ENVELOPE \u2014 no rear hardware or internals",
+      "closed": true,
+      "volume_m3": 3.173243064851228e-05,
+      "finite": true,
+      "vertices": 2048,
+      "triangles": 4092,
+      "euler": 2
+    },
+    {
+      "name": "GLASS \u2014 separate fitted flat disc",
+      "closed": true,
+      "volume_m3": 3.5251641015565263e-06,
+      "finite": true,
+      "vertices": 1024,
+      "triangles": 2044,
+      "euler": 2
+    },
+    {
+      "name": "DIAL \u2014 fitted front backing only",
+      "closed": true,
+      "volume_m3": 2.9988614421160214e-06,
+      "finite": true,
+      "vertices": 1024,
+      "triangles": 2044,
+      "euler": 2
+    },
+    {
+      "name": "POINTER \u2014 fitted uncalibrated photo pose",
+      "closed": false,
+      "volume_m3": 9.200000944221348e-09,
+      "finite": true,
+      "vertices": 12,
+      "triangles": 8,
+      "euler": 2
+    },
+    {
+      "name": "OBSERVED major mark 0",
+      "closed": true,
+      "volume_m3": 5.760000401660798e-10,
+      "finite": true,
+      "vertices": 8,
+      "triangles": 12,
+      "euler": 2
+    },
+    {
+      "name": "OBSERVED major mark 5",
+      "closed": true,
+      "volume_m3": 5.760000401660798e-10,
+      "finite": true,
+      "vertices": 8,
+      "triangles": 12,
+      "euler": 2
+    },
+    {
+      "name": "OBSERVED major mark 10",
+      "closed": true,
+      "volume_m3": 5.760000401660798e-10,
+      "finite": true,
+      "vertices": 8,
+      "triangles": 12,
+      "euler": 2
+    },
+    {
+      "name": "OBSERVED major mark 15",
+      "closed": true,
+      "volume_m3": 5.760000401660798e-10,
+      "finite": true,
+      "vertices": 8,
+      "triangles": 12,
+      "euler": 2
+    },
+    {
+      "name": "OBSERVED unit separator",
+      "closed": true,
+      "volume_m3": 6.000000185566017e-10,
+      "finite": true,
+      "vertices": 8,
+      "triangles": 12,
+      "euler": 2
+    }
+  ],
+  "static_pair_count": 36,
+  "surface_contacts": [],
+  "cavity_front_ray_clear": true,
+  "disabled_boolean_negative_control": true,
+  "observed_text_checked": 6,
+  "failures": [
+    "POINTER \u2014 fitted uncalibrated photo pose solid gate"
+  ],
+  "source_saved": false,
+  "limits": [
+    "Static pairwise triangle-surface check only, not general containment proof",
+    "Only incomplete front face; fitted dimensions and typography",
+    "No scale calibration, actual pressure mechanism, sensor or rear mounting",
+    "Not installed in vehicle; no whole-vehicle acceptance"
+  ],
+  "whole_vehicle_acceptance": "16 OPEN"
+}

@@ -346,3 +346,14 @@ quantization allowance. UV seams are not averaged or wrapped. Four synthetic
 controls cover cyclic reorder and rejected position/UV/winding corruption. This
 narrows the earlier UV transport uncertainty only; rendered-pixel equality and
 actual browser validation remain unverified. No geometry changes, all16 OPEN.
+
+Reference research has located original TEM15 product photographs, including a
+kg/cm² instrument shown with a1978 passport. A separate MPa×0.1 specimen is kept
+separate. The partial independent `cloud-tem15-face-study-20261001` uses only the
+clearly observed face forms/numerals/units, with all metric geometry and angles
+explicitly fitted. First native pointer cap duplication failed the manifold gate;
+iteration02 repairs exact duplicate seams with native Weld and retains the Curve
+source. Nine closed solids,36 static physical pairs, cavity/control and portable
+text checks pass; no installation, internal mechanism or calibration acceptance.
+Modern official UK143A catalog dimensions were also read as original pixels but
+are not silently applied to the1977 non-suffixed UK143. All16 remain OPEN.

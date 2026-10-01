@@ -1,0 +1,15 @@
+{
+  "status": "FIRST_FRONT_COMPLETED_SECOND_VIEW_TIMED_OUT",
+  "wrapper_exit_code": 1,
+  "reason": "Python subprocess180-second deadline, known TimeoutExpired; not an OOM diagnosis",
+  "source_sha256": "a65ec84c7a03de257ad5971b9675bd4d83c5515a6429875e6d02418c760b3def",
+  "completed_front": {
+    "file": "front.png",
+    "sha256": "9c7dcfaa0861d3b83cba61cf2ce48a4f7bff13b2af4f5d26be6e2e6505807fee",
+    "bytes": 1501413,
+    "pixels_inspected": true
+  },
+  "oblique_image_produced": false,
+  "visual_result": "REJECTED_FOR_PRESENTATION: strong glass noise and overly bright rim reflection; partial face and minor marks not accepted",
+  "script_snapshot": "render-all-first-attempt.py"
+}

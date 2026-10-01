@@ -1,0 +1,37 @@
+{
+  "target_manual": {
+    "url": "https://djvu.online/file/zjMdLY3MFjmTL",
+    "edition": 1977,
+    "established": "TEM15 listed in target instrument registry; upper pressure15kgf/cm²",
+    "not_established": "Exact face batch, mounting diameter, depth, hole locations or calibrated scale angles"
+  },
+  "photo_page": "https://www.dzmd.ru/wheeltag/tem15.html",
+  "old_photo": {
+    "url": "https://www.dzmd.ru/electro/images2/tem-15.jpg",
+    "sha256": "597c5f01125189b87721522cf4c9a468ff4abdd26ffffec55b734c73b2290f29",
+    "pixels_inspected": true,
+    "observations": [
+      "Passport and instrument in same seller photograph, printed year1978 visible",
+      "Black circular face, light numerals0,5,10,15",
+      "Unit shown asКГ overСМ² with separator",
+      "Separate black rim and cylindrical housing",
+      "Minor marks visible but their exact count/angles not adopted"
+    ],
+    "batch_limit": "Same named instrument family close to manual year; not proven1977 factory installation specimen"
+  },
+  "other_photo": {
+    "url": "https://www.dzmd.ru/wheeltag/images/IMGP0259.jpg",
+    "sha256": "cf3a871202a31a9d5cc9b9fd8297b8d90fc24a570810625cec763c3196168b8d",
+    "pixels_inspected": true,
+    "difference": "TEM15 model mark andMPa×0.1 unit, not merged into oldkg/cm² face"
+  },
+  "adoption": "Partial old-unit face study only. All metric geometry, typography and angles FITTED. Do not infer mounting/rear parts from the oblique image.",
+  "copyright": "Original photos with watermarks retained for local source review only; not included in public model or redistributed. Model has no loaded/packed source pixels.",
+  "manufacturer_manual_lead": {
+    "url": "https://rusneb.ru/catalog/000199_000009_009510768/",
+    "title": "Electric remote pressure gaugeTEM15 technical description and operating instructions",
+    "year": 1982,
+    "pages": 11,
+    "status": "Bibliographic record only; no scan link read or source dimensions adopted."
+  }
+}

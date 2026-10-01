@@ -1,0 +1,45 @@
+{
+  "views": [
+    {
+      "view": "oblique",
+      "file": "oblique-lighting02.png",
+      "bytes": 490394,
+      "sha256": "76f26ead33badc47d6aefbce13225570774e1840f34baf8e2164938748b168a3",
+      "camera_world": [
+        [
+          0.62469482421875,
+          -0.6748594045639038,
+          0.39283737540245056,
+          0.07500000298023224
+        ],
+        [
+          0.7808690071105957,
+          0.5398872494697571,
+          -0.3142696022987366,
+          -0.05999999865889549
+        ],
+        [
+          -7.786285038946517e-08,
+          0.5030770897865295,
+          0.8642415404319763,
+          0.1599999964237213
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "source_sha256": "a65ec84c7a03de257ad5971b9675bd4d83c5515a6429875e6d02418c760b3def",
+      "renderer": "Blender4.5.13 actual Cycles CPU2",
+      "samples": 64,
+      "denoising": true,
+      "area_light_factor": 0.15,
+      "source_photograph_pixels_loaded": false,
+      "no_extra_geometry_hidden": true
+    }
+  ],
+  "source_saved": false,
+  "scope": "Independent partial photo-form study, not installed or manufacturing geometry; all16OPEN"
+}

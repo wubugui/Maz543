@@ -1,0 +1,31 @@
+{
+  "status": "PARTIAL_FORM_ONLY_NOT_EXACT_RESTORATION",
+  "source_photo_review": "1978kg/cm\u00b2 front face compared with actual native front PNG",
+  "front_image": "front-lighting02.png",
+  "actual_pixels_inspected": true,
+  "improvements": [
+    "Lower review lighting makes black rim distinguishable from the rejected bright first render",
+    "Denoised64sample actual Cycles view makes observed0/5/10/15 andkg/cm\u00b2 marks readable"
+  ],
+  "remaining": [
+    "Minor ticks and circular calibration line incomplete",
+    "Font weight and exact dial proportions remain fitted",
+    "No rear assembly, sensor or electrical mechanism",
+    "No1977 batch identity or factory dimensions",
+    "No installation or whole-vehicle acceptance"
+  ],
+  "render_filter": "Native Cycles denoising, not a generated/replaced source image; source geometry unchanged",
+  "oblique_lighting02": {
+    "file": "oblique-lighting02.png",
+    "actual_pixels_inspected": true,
+    "result": "REJECTED_FOR_LEGIBILITY: first softbox lies in mirror direction and obscures face",
+    "next": "Move review lights off camera specular direction, preserve geometry/materials and failed image"
+  },
+  "oblique_lighting03": {
+    "file": "oblique-lighting03.png",
+    "actual_pixels_inspected": true,
+    "result": "Readable front marks and front envelope; mirror softbox no longer obscures dial",
+    "model_geometry_and_materials_changed": false,
+    "accuracy_limit": "Partial study only; does not close fitted dimensions, minor ticks or typography"
+  }
+}
