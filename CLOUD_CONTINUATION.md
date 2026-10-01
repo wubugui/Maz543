@@ -94,6 +94,15 @@ replacement for the production masters or production GLB.
   is needed on continuation. Sources remain the normally obtained A-labelled
   Flickr/Fototruck photographs, without photo pixels in new public assets.
 
+- Hood/tyre composite: `testcar/outputs/cloud-hood-tyre-composite-20261001/README.md`.
+  Integrates the second continuous hood candidate with 144 native wheel glyphs.
+  Both saved masters pass scoped glyph geometry checks; 8570 Master and 6926
+  Textured unrelated objects preserve evaluated geometry, authored UVs, modifier
+  inputs, transforms/parents and material slot names. Strict evaluated-UV
+  bitwise preservation remains FAIL (3170/2277 objects); repeated evaluation of
+  the unchanged input also shows small UV variation. No threshold exemption,
+  production promotion or new GLB. See its current STATE for render status.
+
 ## Verified environment and remaining access limits
 
 Official Blender4.5.13 LTS, build `daeeeca98fb0`, is used with four threads.

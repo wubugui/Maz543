@@ -1,0 +1,74 @@
+{
+  "status": "RESEARCH_ONLY_NOT_CAMERA_CALIBRATION_OR_MODEL_ACCEPTANCE",
+  "basis": "1977 nominal axle spacings, independent of the current cab/model geometry",
+  "source_dimensions": "testcar/reference/maz543a-nominal-1977.json",
+  "source_register": "testcar/reference/hood-photo-register-20261001.json",
+  "coordinate_convention": "Original downloaded image pixels; u right, v down; origin at upper-left. Axle 1 is front; station increases toward rear.",
+  "picking_method": "Manually observed central hub/end-cap features in original photos and 2x inspection crops. These are approximate projected hub-face centre features, not surveyed wheel-centre-plane coordinates or fitted tyre ellipse centres.",
+  "picking_uncertainty_px": 3,
+  "uncertainty_qualification": "A working annotation allowance, not a measured statistical confidence interval; steering, protruding hub faces, suspension, lens distortion and point definition add unquantified systematic errors.",
+  "axle_stations_m": [0, 2.2, 5.5, 7.7],
+  "track_m": 2.375,
+  "track_used_in_fit": false,
+  "track_exclusion_reason": "No reliable corresponding opposite-side wheel centre is visible. Hub faces are also offset from the wheel centre planes that define track.",
+  "images": [
+    {
+      "file": "fototruck-1875.jpg",
+      "size_px": [1200, 787],
+      "source_url": "https://fototruck.ru/photo/1875/",
+      "points_front_to_rear_px": [[684, 635], [473, 631], [207, 631], [55, 633]],
+      "role": "Preferred longitudinal projection diagnostic; all four near-side hub centres visible, bare rear chassis",
+      "source_limits": "Page labels MAZ-543A; factory originality is not established. Ground blocks hide tyre contacts. Front steering and the photographed suspension state are not measured.",
+      "observed_exif": {
+        "Make": "Canon",
+        "Model": "Canon EOS 1100D",
+        "FocalLength_mm": 43,
+        "LensModel": "EF-S18-55mm f/3.5-5.6 III",
+        "DateTimeOriginal": "2014:04:12 12:10:14",
+        "Software": "Adobe Photoshop CS5 Windows",
+        "TIFF_ImageWidth": 4272,
+        "TIFF_ImageLength": 2848,
+        "ExifImageWidth": 1200,
+        "ExifImageHeight": 787,
+        "FocalPlaneXResolution_per_inch": 4720.441988950276,
+        "FocalPlaneYResolution_per_inch": 4786.55462184874
+      },
+      "intrinsics_limit": "43 mm is a focal-length prior only. The delivered and original-tag aspect ratios differ; resizing/cropping and principal point are unknown. Do not treat the edited EXIF focal-plane fields as a verified pixel focal length."
+    },
+    {
+      "file": "fototruck-83391.jpg",
+      "size_px": [1200, 800],
+      "source_url": "https://fototruck.ru/photo/83391/",
+      "points_front_to_rear_px": [[575.5, 662.5], [410.5, 643.5], [242.5, 621], [165.5, 610]],
+      "role": "Secondary, more frontal longitudinal projection diagnostic with four visible hub centres",
+      "source_limits": "MAZ-543A-labelled 15V179-bodied vehicle; visible added lamps/trim and painted rims. Do not adopt this entire configuration as a 1977 standard.",
+      "observed_exif": {
+        "FocalLength_mm": 22,
+        "DigitalZoomRatio": 1,
+        "ExifImageWidth": 1200,
+        "ExifImageHeight": 800,
+        "Software": "Adobe Photoshop CS2 Windows"
+      },
+      "intrinsics_limit": "No camera make/model or 35 mm equivalent was present in the inspected EXIF; sensor scale, cropping and distortion are unknown. 22 mm cannot by itself establish focal length in pixels."
+    }
+  ],
+  "other_images_inspected": [
+    {
+      "file": "adrian-kot-8680069876-original.jpg",
+      "size_px": [1936, 1296],
+      "source_url": "https://www.flickr.com/photos/junktimers/8680069876/in/album-72157633346929988/",
+      "observed_exif": {"Make": "NIKON CORPORATION", "Model": "NIKON D80", "FocalLength_mm": 28, "FocalLengthIn35mmFilm_mm": 42, "DigitalZoomRatio": 1, "DateTimeOriginal": "2006:06:18 00:40:17"},
+      "role": "Best front-detail holdout: cab/windscreen contours, grille, two top grips and separate front-edge fittings",
+      "limit": "Wheel centres overlap or are obscured by the fence. EXIF date and crop history are not independently verified. Approx. 2260 px focal length follows from the 42 mm equivalent only if the image retains the uncropped approximately 3:2 field of view; it is not a calibrated intrinsic."
+    },
+    {
+      "file": "fototruck-232059.jpg",
+      "size_px": [1024, 768],
+      "source_url": "https://fototruck.ru/photo/232059/",
+      "observed_exif": {},
+      "role": "Supplementary uncalibrated exterior comparison",
+      "limit": "No EXIF in delivered file; wheel centres darker and less distinct; superstructure, snow and occlusion reduce usable edge evidence. No stronger metric constraint than the preferred photos."
+    }
+  ],
+  "publication": "Original photos and inspection crops remain local research material; no source pixels are approved for public repository publication by this study."
+}

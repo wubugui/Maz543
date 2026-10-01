@@ -1,0 +1,16 @@
+HOOD_TYRE_GEOMETRY_INPUTS_PRESERVED MAZ543A_Master.blend 8570 objects;derivedUVbitwiseDifferences 3170
+HOOD_TYRE_GEOMETRY_INPUTS_PRESERVED MAZ543A_Textured.blend 6926 objects;derivedUVbitwiseDifferences 2277
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-cover-contour-20261001/MAZ543A_Master.blend"
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-hood-tyre-composite-20261001/MAZ543A_Master.blend"
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-cover-contour-20261001/MAZ543A_Textured.blend"
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-hood-tyre-composite-20261001/MAZ543A_Textured.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/verify-hood-tyre-integration.py", line 68, in <module>
+    assert not any(r['derived_uv_bitwise_differences'] for r in rows),'Derived UV exact bitwise preservation remains unresolved; see same-source repeat controls'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Derived UV exact bitwise preservation remains unresolved; see same-source repeat controls
+
+Error: script failed, file: 'testcar/scripts/verify-hood-tyre-integration.py', exiting.
+
+Blender quit

@@ -1,0 +1,208 @@
+{
+  "status": "LIMITED_1D_DIAGNOSTIC_ONLY_ALL_VEHICLE_GATES_STILL_OPEN",
+  "model_geometry_used": false,
+  "track_used": false,
+  "distortion_estimated": false,
+  "point_picking_allowance_px": 3,
+  "method": "Fit u=(a*s+b)/(e*s+1), v=(c*s+d)/(e*s+1) to four nominal axle stations; demonstrate focal-distance ambiguity without assuming cab geometry.",
+  "results": [
+    {
+      "file": "fototruck-1875.jpg",
+      "nominal_axle_cross_ratio": 1.1904761904761905,
+      "observed_cross_ratio_after_line_projection": 1.1916890247598926,
+      "rms_2d_point_residual_px": 1.499053772912424,
+      "individual_2d_point_residuals_px": [
+        1.4937296319649864,
+        1.87937661790131,
+        1.0910831092002504,
+        1.4264998492202472
+      ],
+      "fitted_image_points_px": [
+        [
+          683.9110759767716,
+          633.508919609309
+        ],
+        [
+          473.246015325307,
+          632.8632050159948
+        ],
+        [
+          206.6902044879411,
+          632.0461783270027
+        ],
+        [
+          55.15270420976304,
+          631.5816970548765
+        ]
+      ],
+      "projective_coefficients_a_b_c_d_e": [
+        -79.79694372335236,
+        683.9110759767716,
+        21.049377240306757,
+        633.508919609309,
+        0.03372432415800183
+      ],
+      "longitudinal_vanishing_point_px_not_full_horizon": [
+        -2366.1539768594234,
+        624.1600911463288
+      ],
+      "nonuniqueness_demonstration_NOT_camera_estimates": [
+        {
+          "ASSUMED_focal_length_px": 1000,
+          "ASSUMED_principal_point_px": [
+            600.0,
+            393.5
+          ],
+          "same_projection_max_difference_px": 1.1368683772161603e-13,
+          "conditional_distance_camera_to_front_hub_m": 9.747944271015193,
+          "conditional_axle_line_direction_camera_coordinates": [
+            -0.9450341530617726,
+            0.0734896656013866,
+            0.318605898559042
+          ]
+        },
+        {
+          "ASSUMED_focal_length_px": 1500,
+          "ASSUMED_principal_point_px": [
+            600.0,
+            393.5
+          ],
+          "same_projection_max_difference_px": 1.1368683772161603e-13,
+          "conditional_distance_camera_to_front_hub_m": 13.539810085022273,
+          "conditional_axle_line_direction_camera_coordinates": [
+            -0.89024038338771,
+            0.0692286811731095,
+            0.4501993441673754
+          ]
+        },
+        {
+          "ASSUMED_focal_length_px": 2250,
+          "ASSUMED_principal_point_px": [
+            600.0,
+            393.5
+          ],
+          "same_projection_max_difference_px": 1.1368683772161603e-13,
+          "conditional_distance_camera_to_front_hub_m": 17.99998300875202,
+          "conditional_axle_line_direction_camera_coordinates": [
+            -0.7951905816038611,
+            0.061837225397736534,
+            0.6031982232099351
+          ]
+        },
+        {
+          "ASSUMED_focal_length_px": 3000,
+          "ASSUMED_principal_point_px": [
+            600.0,
+            393.5
+          ],
+          "same_projection_max_difference_px": 1.1368683772161603e-13,
+          "conditional_distance_camera_to_front_hub_m": 21.129905350392708,
+          "conditional_axle_line_direction_camera_coordinates": [
+            -0.7020355266023834,
+            0.054593112770740415,
+            0.7100462741442387
+          ]
+        }
+      ]
+    },
+    {
+      "file": "fototruck-83391.jpg",
+      "nominal_axle_cross_ratio": 1.1904761904761905,
+      "observed_cross_ratio_after_line_projection": 1.184358423531497,
+      "rms_2d_point_residual_px": 1.1015253145161183,
+      "individual_2d_point_residuals_px": [
+        0.857584245415282,
+        1.4442783704923692,
+        1.0523178878523167,
+        0.961596790515017
+      ],
+      "fitted_image_points_px": [
+        [
+          575.5845391986469,
+          663.3534072075373
+        ],
+        [
+          410.0270056905995,
+          642.1353695024854
+        ],
+        [
+          243.53260355774896,
+          620.7972616720544
+        ],
+        [
+          164.85585154568966,
+          610.7139615930415
+        ]
+      ],
+      "projective_coefficients_a_b_c_d_e": [
+        -38.60748744503547,
+        575.5845391986469,
+        47.745930936647866,
+        663.3534072075373,
+        0.0893744469710777
+      ],
+      "longitudinal_vanishing_point_px_not_full_horizon": [
+        -431.97456044152267,
+        534.2235119183321
+      ],
+      "nonuniqueness_demonstration_NOT_camera_estimates": [
+        {
+          "ASSUMED_focal_length_px": 1000,
+          "ASSUMED_principal_point_px": [
+            600.0,
+            400.0
+          ],
+          "same_projection_max_difference_px": 2.842170943040401e-14,
+          "conditional_distance_camera_to_front_hub_m": 8.019093507479706,
+          "conditional_axle_line_direction_camera_coordinates": [
+            -0.715032307982418,
+            0.0930004974845589,
+            0.6928778434969335
+          ]
+        },
+        {
+          "ASSUMED_focal_length_px": 1500,
+          "ASSUMED_principal_point_px": [
+            600.0,
+            400.0
+          ],
+          "same_projection_max_difference_px": 1.1368683772161603e-13,
+          "conditional_distance_camera_to_front_hub_m": 9.33489015913398,
+          "conditional_axle_line_direction_camera_coordinates": [
+            -0.5652650741134503,
+            0.07352105984068284,
+            0.8216264660704512
+          ]
+        },
+        {
+          "ASSUMED_focal_length_px": 2250,
+          "ASSUMED_principal_point_px": [
+            600.0,
+            400.0
+          ],
+          "same_projection_max_difference_px": 1.1368683772161603e-13,
+          "conditional_distance_camera_to_front_hub_m": 10.225177980419325,
+          "conditional_axle_line_direction_camera_coordinates": [
+            -0.41628505883738054,
+            0.05414401158530198,
+            0.9076206122594447
+          ]
+        },
+        {
+          "ASSUMED_focal_length_px": 3000,
+          "ASSUMED_principal_point_px": [
+            600.0,
+            400.0
+          ],
+          "same_projection_max_difference_px": 1.1368683772161603e-13,
+          "conditional_distance_camera_to_front_hub_m": 10.611932841719351,
+          "conditional_axle_line_direction_camera_coordinates": [
+            -0.3249932779556443,
+            0.04227016904214577,
+            0.9447711903380595
+          ]
+        }
+      ]
+    }
+  ]
+}

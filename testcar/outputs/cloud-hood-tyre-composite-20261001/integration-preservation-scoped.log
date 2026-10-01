@@ -1,0 +1,17 @@
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-cover-contour-20261001/MAZ543A_Master.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/verify-hood-tyre-integration.py", line 37, in <module>
+    bpy.ops.wm.open_mainfile(filepath=str(source));bpy.context.scene.frame_set(0);bpy.context.view_layer.update();original=snapshot_all()
+                                                                                                                           ^^^^^^^^^^^^^^
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/verify-hood-tyre-integration.py", line 31, in snapshot_all
+    result[o.name]={'object_type':o.type,'modifier_inputs':modifier_inputs(o),'authored_mesh_uv_layer_sha256':uv_hashes(o.data) if o.type=='MESH' else None,'evaluated_local_position_triangle_sha256':h.hexdigest(),'matrix_world':[list(r) for r in e.matrix_world],'parent':o.parent.name if o.parent else None,'hide_render':o.hide_render,'material_slots':[mat.name if mat else None for mat in o.data.materials],'evaluated_uv_layer_sha256':uv_hashes(m),'vertices':len(m.vertices),'triangles':len(m.loop_triangles)}
+                                                           ^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/verify-hood-tyre-integration.py", line 22, in modifier_inputs
+    rows.append({'type':m.type,'name':m.name,'editable_properties':props,'custom_inputs':{k:value(v) for k,v in m.items() if not k.startswith('_')}})
+                                                                                                                ^^^^^^^^^
+TypeError: bpy_struct.items(): this type doesn't support IDProperties
+
+Error: script failed, file: 'testcar/scripts/verify-hood-tyre-integration.py', exiting.
+
+Blender quit

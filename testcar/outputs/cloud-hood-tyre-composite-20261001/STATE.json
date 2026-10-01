@@ -1,0 +1,36 @@
+{
+  "status": "INDEPENDENT_CANDIDATE_STRICT_DERIVED_UV_FAIL",
+  "production_promoted": false,
+  "all16VehicleGates": "OPEN",
+  "input": "cloud-cover-contour-20261001 second 45mm fitted relief",
+  "native_glyph_geometry": "PASS,144 glyphs per master,maximum correspondence 4.76837158203125e-7m",
+  "unrelated_geometry_input_preservation": "PASS: Master8570/Textured6926 objects;positions,triangles,world,parent,visibility,authored UV,editable modifier inputs,material slot names",
+  "strict_derived_uv": "FAIL: Master3170/Textured2277 evaluated UV hashes differ; representative same-source repeat also varies, no tolerance exemption",
+  "web_export": "NOT_RUN",
+  "native_render": {
+    "status": "PASS_ACTUAL_CYCLES_IMAGE_VIEWED",
+    "file": "hood-tyre-composite-whole-front.png",
+    "bytes": 2089277,
+    "sha256": "b2e6d08bdaad1b680da4f83a4b4103e1e344e504677a70410d233996f276cee0",
+    "resolution": [
+      1400,
+      1000
+    ],
+    "renderer": "Cycles CPU4 threads,64 samples,denoise off",
+    "limits": "Native Master candidate only; strict UV FAIL and all16 OPEN. Grain visible, transparent glass not accepted. No webpage QA."
+  },
+  "files": {
+    "MAZ543A_Master.blend": {
+      "bytes": 65501119,
+      "sha256": "d4a4273dfeac60ff6a43088518dbff19dccf49fd408390ef10cec016783f4fa0"
+    },
+    "lettering-components.blend": {
+      "bytes": 337972,
+      "sha256": "a290e0bf6acbc65aa3630abf77302988631a0c380cd0ef0cc9bc0b53bef0ece0"
+    },
+    "MAZ543A_Textured.blend": {
+      "bytes": 99016253,
+      "sha256": "b4b5681176f48d4c43edfb9308e22ddeae21e58e038ef836bc2b7feef3cd196b"
+    }
+  }
+}

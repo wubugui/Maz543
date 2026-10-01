@@ -1,0 +1,105 @@
+[
+  {
+    "file": "hood-tyre-composite-whole-front.png",
+    "candidate_sha256": "d4a4273dfeac60ff6a43088518dbff19dccf49fd408390ef10cec016783f4fa0",
+    "actual_renderer": "Cycles CPU4threads64samples;denoise=False",
+    "camera_world": [
+      [
+        0.6372042298316956,
+        0.2798546254634857,
+        -0.7180892825126648,
+        -11.0
+      ],
+      [
+        -0.7706950306892395,
+        0.23138143122196198,
+        -0.5937102437019348,
+        -9.0
+      ],
+      [
+        -3.6537286973725713e-08,
+        0.9317424893379211,
+        0.36311978101730347,
+        7.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "ortho_scale": 13.800000190734863,
+    "whole_vehicle_framing": {
+      "retained_verified_vehicle_envelope": [
+        [
+          -5.749101161956787,
+          -1.8629999607801437,
+          -0.003979163244366646
+        ],
+        [
+          5.519999980926514,
+          1.8629999607801437,
+          2.994999885559082
+        ]
+      ],
+      "modified_panel_grips_and_all_glyphs_inside_envelope": true,
+      "unchanged_other_geometry_readback_sha256": "d4a4273dfeac60ff6a43088518dbff19dccf49fd408390ef10cec016783f4fa0",
+      "image_corners": [
+        [
+          0.3438728153705597,
+          0.1545604020357132,
+          10.551206588745117
+        ],
+        [
+          0.3438728153705597,
+          0.4380376935005188,
+          9.462218284606934
+        ],
+        [
+          0.13578514754772186,
+          0.2420225888490677,
+          12.763371467590332
+        ],
+        [
+          0.13578514754772186,
+          0.5254998803138733,
+          11.674382209777832
+        ],
+        [
+          0.8642147183418274,
+          0.4745020270347595,
+          18.6434268951416
+        ],
+        [
+          0.8642147183418274,
+          0.7579792737960815,
+          17.554439544677734
+        ],
+        [
+          0.6561270952224731,
+          0.561964213848114,
+          20.855592727661133
+        ],
+        [
+          0.6561270952224731,
+          0.845441460609436,
+          19.766603469848633
+        ]
+      ],
+      "studio_floor_rendered_not_part_of_vehicle_envelope": true
+    },
+    "comparison_before": null,
+    "all16VehicleGates": "OPEN",
+    "strict_derived_uv_gate": "FAIL_DERIVED_UV_BITWISE_PRESERVATION",
+    "integrated_changes": [
+      "photo-guided45mmfittedhoodrelief",
+      "144nativewheelglyphs"
+    ],
+    "not_integrated": [
+      "FG16lamp",
+      "batterycase",
+      "suspensioninstallationcandidate"
+    ]
+  }
+]

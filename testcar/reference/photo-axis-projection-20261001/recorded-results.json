@@ -1,0 +1,26 @@
+{
+  "status": "Previously computed limited diagnostic, 2026-10-01; no model acceptance",
+  "model_geometry_used": false,
+  "nominal_axle_cross_ratio": 1.1904761904761905,
+  "results": [
+    {
+      "file": "fototruck-1875.jpg",
+      "observed_cross_ratio": 1.1916890247598926,
+      "rms_2d_point_residual_px": 1.4990537729124243,
+      "individual_2d_point_residuals_px": [1.49372963, 1.87937662, 1.09108311, 1.42649985],
+      "approximate_longitudinal_vanishing_point_px": [-2366.15397686, 624.16009115],
+      "ASSUMED_focal_px": [1000, 1500, 2250, 3000],
+      "conditional_camera_to_front_hub_distance_m_NOT_ESTIMATES": [9.747944271015193, 13.539810085022273, 17.99998300875202, 21.129905350392708]
+    },
+    {
+      "file": "fototruck-83391.jpg",
+      "observed_cross_ratio": 1.184358423531497,
+      "rms_2d_point_residual_px": 1.1015253145161183,
+      "individual_2d_point_residuals_px": [0.85758425, 1.44427837, 1.05231789, 0.96159679],
+      "approximate_longitudinal_vanishing_point_px": [-431.97456044, 534.22351192],
+      "ASSUMED_focal_px": [1000, 1500, 2250, 3000],
+      "conditional_camera_to_front_hub_distance_m_NOT_ESTIMATES": [8.019093507479706, 9.33489015913398, 10.225177980419325, 10.611932841719351]
+    }
+  ],
+  "qualification": "Values retain computational digits for reproducibility, not measurement precision. Hand-picked points have an approximate 3 px annotation allowance plus unquantified physical/systematic error. Alternate focal lengths reproduce the same fitted one-dimensional projection; these distances are counterexamples to uniqueness, not a camera solution."
+}

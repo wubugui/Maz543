@@ -7,7 +7,12 @@ are preserved. Shrinkwrap/Solidify fit raised lettering to the existing tyre.
 import bpy,bmesh,json,math,collections,hashlib,os
 from pathlib import Path
 from mathutils import Vector,Matrix
-ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'outputs/cloud-tyre-lettering-20260930';OUT.mkdir(parents=True,exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1]
+SOURCE=Path(os.environ.get('MAZ_TYRE_INPUT_DIR',str(ROOT/'outputs'))).resolve()
+OUT=Path(os.environ.get('MAZ_TYRE_RESTORE_OUTPUT_DIR',str(ROOT/'outputs/cloud-tyre-lettering-20260930'))).resolve()
+if OUT in {SOURCE,(ROOT/'outputs').resolve(),(ROOT/'public/models').resolve()}:raise RuntimeError('Refusing source or production output directory')
+OUT.mkdir(parents=True,exist_ok=True)
+input_hashes={name:hashlib.sha256((SOURCE/name).read_bytes()).hexdigest() for name in ['MAZ543A_Master.blend','MAZ543A_Textured.blend']}
 LEGEND='1500x600-635  VI-203';EXPECTED=144
 
 def C(p):return Vector((p[0],-p[2],p[1]))
@@ -30,7 +35,7 @@ def geometry_check(obj):
  result={'vertices':len(m.vertices),'nonManifoldEdges':sum(not e.is_manifold for e in bm.edges),'volume':bm.calc_volume(signed=True)}
  bm.free();ev.to_mesh_clear();return result
 
-bpy.ops.wm.open_mainfile(filepath=str(ROOT/'outputs/MAZ543A_Master.blend'));bpy.context.scene.frame_set(0);bpy.context.view_layer.update()
+bpy.ops.wm.open_mainfile(filepath=str(SOURCE/'MAZ543A_Master.blend'));bpy.context.scene.frame_set(0);bpy.context.view_layer.update()
 fonts=sorted([o for o in bpy.data.objects if o.name.startswith('BL_Tyre_') and '_emboss_' in o.name],key=lambda o:o.name)
 assert len(fonts)==EXPECTED and all(o.type=='FONT' for o in fonts)
 old_triangles={i:collections.Counter() for i in range(8)};created=[];rows=[]
@@ -81,7 +86,7 @@ for obj in created:
 bpy.context.view_layer.update()
 bpy.data.libraries.write(str(OUT/'lettering-components.blend'),set(exports),compress=True)
 
-bpy.ops.wm.open_mainfile(filepath=str(ROOT/'outputs/MAZ543A_Textured.blend'));bpy.context.scene.frame_set(0);bpy.context.view_layer.update();removed=[]
+bpy.ops.wm.open_mainfile(filepath=str(SOURCE/'MAZ543A_Textured.blend'));bpy.context.scene.frame_set(0);bpy.context.view_layer.update();removed=[]
 for index in range(8):
  spin=bpy.data.objects[f'wheels_pivot_{2+7*index:03d}'];candidates=[o for o in spin.children if o.type=='MESH'];observed=collections.Counter()
  for obj in candidates:observed.update(world_triangles(obj,True))
@@ -114,4 +119,8 @@ for obj in incoming.objects:assert max(abs(obj.matrix_world[r][c]-expectedMatric
 assert len([o for o in bpy.data.objects if o.name.startswith('BL_Tyre_') and '_emboss_' in o.name])==EXPECTED
 bpy.ops.wm.save_as_mainfile(filepath=str(OUT/'MAZ543A_Textured.blend'),compress=True)
 report={'status':'CANDIDATE_NOT_PROMOTED','legend':LEGEND,'glyphs':rows,'oldGlyphTrianglesRemoved':removed,'scope':'Only existing tyre legend transform/face direction/surface attachment; source fonts and old misplaced geometry retained; no tyre-size or historical-fitment calibration, no browser parity or whole-vehicle acceptance'}
+assert all(hashlib.sha256((SOURCE/name).read_bytes()).hexdigest()==digest for name,digest in input_hashes.items()),'Input native files changed'
+report['input_native_sha256']=input_hashes
+report['input_native_directory']=str(SOURCE.relative_to(ROOT)) if SOURCE.is_relative_to(ROOT) else str(SOURCE)
+report['input_files_unchanged']=True
 (OUT/'lettering-verification.json').write_text(json.dumps(report,indent=2));print('TYPOGRAPHY_NATIVE_CANDIDATE',len(rows),len(removed))
