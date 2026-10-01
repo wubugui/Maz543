@@ -274,3 +274,22 @@ metadata refetch resolved it before successful remote retrieval.
 The user's latest workflow is cloud development -> normal GitHub push -> stage
 Slack report. Desktop synchronization is cancelled. Historical Library backups
 remain retained. No production asset was promoted, and all16 gates remain OPEN.
+
+## Subsequent verified checkpoint and wheel-alignment diagnosis
+
+VA180 partial study iteration04 is committed and normally pushed at
+`504c1d5093b1c7f16a1879f41cba44a1ef111633`. Remote ref and root tree
+`558038801839fcae1b86f5aae54dce5887cd0feb` match. All9 new LFS entities
+(15,203,039 bytes) were freshly downloaded by official Git LFS into an empty
+verification store and passed byte/SHA checks. Both actual native study images
+were delivered to the dedicated progress channel. It is still an independent,
+partially referenced device study; not installed or factory-dimension validated.
+
+Original 1977 manual pp24/316–317 now establish a nominal steered-wheel camber
+magnitude1° and positive toe ranges at1040mm reference diameter. The new read-only
+`cloud-wheel-alignment-20261001` diagnosis measures actual production front tyre
+profiles at neutral pose: camber approximately0°, simultaneous static sidewall
+rear-minus-front separations approximately0mm on both front axles. This exposes a
+nominal geometry gap, not a load/pressure/rolling-qualified alignment test. Source
+SHA is unchanged. No adjustment is made until native carrier/hub/suspension
+semantics and measurement conventions are resolved. All16 gates remain OPEN.

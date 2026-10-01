@@ -1,0 +1,179 @@
+{
+  "source_sha256": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3",
+  "source_sha256_after": "0391bfde5b7474a5f1ac4eac955f2fd8dbbb6febd33fb7d772a2cd18575edec3",
+  "saved_blend": false,
+  "object_count": 9716,
+  "wheels": [
+    {
+      "index": 0,
+      "side": "right",
+      "tyre_object": "BL_Tyre_0_VI203_profile",
+      "spin_object": "wheels_pivot_002",
+      "centre_world_m": [
+        -3.0799999237060547,
+        1.1875,
+        0.75
+      ],
+      "outward_axis": [
+        -4.879968037973246e-16,
+        1.0,
+        -1.1102230246251565e-16
+      ],
+      "pca_eigenvalues": [
+        0.060554143625468244,
+        0.17480467364126084,
+        0.17480467505995373
+      ],
+      "profile_centroid_offset_m": 7.560829033962582e-08,
+      "camber_magnitude_degrees": 6.3611093629270335e-15,
+      "axis_horizontal_gate": true,
+      "sidewall_points": {
+        "front": [
+          -3.5999999046325684,
+          0.8859999775886536,
+          0.75
+        ],
+        "rear": [
+          -2.559999942779541,
+          0.8860000371932983,
+          0.75
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "side": "left",
+      "tyre_object": "BL_Tyre_1_VI203_profile",
+      "spin_object": "wheels_pivot_009",
+      "centre_world_m": [
+        -3.0799999237060547,
+        -1.1875,
+        0.75
+      ],
+      "outward_axis": [
+        -4.91342054543387e-16,
+        -1.0,
+        -1.1102230246251565e-16
+      ],
+      "pca_eigenvalues": [
+        0.06055414362546825,
+        0.17480467364126082,
+        0.17480467505995373
+      ],
+      "profile_centroid_offset_m": 7.560829033962582e-08,
+      "camber_magnitude_degrees": 6.3611093629270335e-15,
+      "axis_horizontal_gate": true,
+      "sidewall_points": {
+        "front": [
+          -3.5999999046325684,
+          -0.8859999775886536,
+          0.75
+        ],
+        "rear": [
+          -2.559999942779541,
+          -0.8860000371932983,
+          0.75
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "side": "right",
+      "tyre_object": "BL_Tyre_2_VI203_profile",
+      "spin_object": "wheels_pivot_016",
+      "centre_world_m": [
+        -0.8799999952316284,
+        1.1875,
+        0.75
+      ],
+      "outward_axis": [
+        -0.0,
+        1.0,
+        3.3306690738754696e-16
+      ],
+      "pca_eigenvalues": [
+        0.06055414362546829,
+        0.17480467364126087,
+        0.17480467375652067
+      ],
+      "profile_centroid_offset_m": 9.534662185944301e-09,
+      "camber_magnitude_degrees": 1.90833280887811e-14,
+      "axis_horizontal_gate": true,
+      "sidewall_points": {
+        "front": [
+          -1.399999976158142,
+          0.8860000371932983,
+          0.75
+        ],
+        "rear": [
+          -0.36000001430511475,
+          0.8860000967979431,
+          0.75
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "side": "left",
+      "tyre_object": "BL_Tyre_3_VI203_profile",
+      "spin_object": "wheels_pivot_023",
+      "centre_world_m": [
+        -0.8799999952316284,
+        -1.1875,
+        0.75
+      ],
+      "outward_axis": [
+        0.0,
+        -1.0,
+        -0.0
+      ],
+      "pca_eigenvalues": [
+        0.060554143625468244,
+        0.17480467364126084,
+        0.17480467375652067
+      ],
+      "profile_centroid_offset_m": 9.534662185944301e-09,
+      "camber_magnitude_degrees": 0.0,
+      "axis_horizontal_gate": true,
+      "sidewall_points": {
+        "front": [
+          -1.399999976158142,
+          -0.8860000371932983,
+          0.75
+        ],
+        "rear": [
+          -0.36000001430511475,
+          -0.8860000371932983,
+          0.75
+        ]
+      }
+    }
+  ],
+  "axles": [
+    {
+      "axle": 1,
+      "static_distances_m": {
+        "front": 1.7719999696503372,
+        "rear": 1.7720001041980653
+      },
+      "simultaneous_static_rear_minus_front_mm": 0.00013454772807008908,
+      "status": "STATIC_GEOMETRY_ONLY_NOT_ROLLING_LOADED_MEASUREMENT"
+    },
+    {
+      "axle": 2,
+      "static_distances_m": {
+        "front": 1.7720001041980653,
+        "rear": 1.7720001041980653
+      },
+      "simultaneous_static_rear_minus_front_mm": 0.0,
+      "status": "STATIC_GEOMETRY_ONLY_NOT_ROLLING_LOADED_MEASUREMENT"
+    }
+  ],
+  "whole_vehicle_acceptance": "16 OPEN",
+  "limits": [
+    "No applied tyre pressure, load, deformation or rolling protocol.",
+    "PCA assumes the retained rotational tyre profile; eigenvalues and centroid residual are exposed.",
+    "No steering linkage or suspension assembly fit is validated.",
+    "No production geometry or control was modified."
+  ]
+}
