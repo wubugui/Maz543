@@ -1,0 +1,66 @@
+{
+  "checked_git_commit": "1bee95d10d6f209f4b25bdc358bd2e396dc98b99",
+  "sources": [
+    {
+      "path": "testcar/work/compiled/maz543.mjs",
+      "git_blob": "5fc9408952de9549eb3d513071f6706d6df882aa",
+      "sha256": "bbdc06ed7bee43d6ac2a1f38170b9761e34a0e149a1f7486dd895ee9785aab06",
+      "bytes": 37155
+    },
+    {
+      "path": "testcar/lib/maz543.ts",
+      "git_blob": "e353cdf6d5f7f0a9dab1eaafd0814919d55ccfb4",
+      "sha256": "d1fdc631ff369ab4f7af1c85e828bbd3d053ff35a2ec5291d0d475bbc68f7059",
+      "bytes": 29758
+    },
+    {
+      "path": "testcar/scripts/prepare-blender.mjs",
+      "git_blob": "7284792c89d5b2bcc270ab47e481a8abaec5ea9b",
+      "sha256": "a92a14076e5781086fd65e9f79a350ceb867b8e1ea6f862d2ad2264ff9572992",
+      "bytes": 2809
+    },
+    {
+      "path": "testcar/scripts/blender-model.py",
+      "git_blob": "6da9f6b1ca35c2b1936d8223afd9232875be9aed",
+      "sha256": "847f8849c6f2c258abfbed88449a2e59d7613fbf0fdabb3c7cdcf4bb0decf6e5",
+      "bytes": 35714
+    },
+    {
+      "path": "testcar/work/cloud-closed-door-contact-components-20261001/component-report.json",
+      "git_blob": "3b206e3e38296f330da8e489f64be7b49806280b",
+      "sha256": "41cf1e4c58ce14973f728f352250d92c2e5c7ff49f188881a380f9ee630758d3",
+      "bytes": 195544
+    },
+    {
+      "path": "testcar/reference/cab-sill-step-rivet-source-20261001.json",
+      "git_blob": "ff5763d54f400f3b353df49dcb511f7d094e0caf",
+      "sha256": "4da2f23f89058937ddfeecda030c7e51d46f096ca8d9a275b7e49fd94674ade1",
+      "bytes": 5904
+    }
+  ],
+  "local_binary_read_checks": [
+    {
+      "path": "testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend",
+      "bytes": 66069335,
+      "sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70"
+    },
+    {
+      "path": ".git/lfs/objects/5c/58/5c5849b68a5fa62e903b46b5554b8eb942495eabb3a12cb26caf24742cd9681c",
+      "bytes": 8588120,
+      "sha256": "5c5849b68a5fa62e903b46b5554b8eb942495eabb3a12cb26caf24742cd9681c"
+    },
+    {
+      "path": "../door-source-research/iwm07.jpg",
+      "bytes": 468829,
+      "sha256": "e20d18e0de71b0faab0ac273c15eb823ac99171144498faa07c298594352038f"
+    },
+    {
+      "path": "../door-source-research/iwm12.jpg",
+      "bytes": 470284,
+      "sha256": "f1ab0df4fa4803994dc8c7761394fd99f92ba798ecbbaa1d2205c8ea8a2ec64c"
+    }
+  ],
+  "scope": "Read-only source/seed decoding, no Blender or generation, no repository edits",
+  "verified_against_commit": "82cb96124c5f1ea9844f83912c1a7d3d7b0d37ab",
+  "source_snapshot_fields_rechecked_exact": true
+}

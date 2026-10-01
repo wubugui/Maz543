@@ -1,0 +1,112 @@
+{
+  "seed_sha256": "5c5849b68a5fa62e903b46b5554b8eb942495eabb3a12cb26caf24742cd9681c",
+  "asset": {
+    "version": "2.0",
+    "generator": "THREE.GLTFExporter r183"
+  },
+  "scenes": [
+    {
+      "name": "MAZ543_REFERENCE",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "node_records": [
+    {
+      "index": 76,
+      "node": {
+        "name": "cab_0063",
+        "extras": {
+          "fixedDetailCount": 17
+        },
+        "mesh": 41
+      }
+    },
+    {
+      "index": 6,
+      "node": {
+        "name": "cab",
+        "extras": {
+          "partId": "cab",
+          "base": [
+            0,
+            0,
+            0
+          ]
+        },
+        "children": [
+          7,
+          20,
+          29,
+          38,
+          42,
+          43,
+          56,
+          65,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82
+        ]
+      }
+    },
+    {
+      "index": 0,
+      "node": {
+        "name": "MAZ543_REFERENCE_CHASSIS",
+        "extras": {
+          "units": "metres",
+          "accuracy": "Reference reconstruction; estimated geometry; not factory CAD",
+          "source": "https://djvu.online/file/zjMdLY3MFjmTL"
+        },
+        "children": [
+          1,
+          6,
+          83,
+          93,
+          233,
+          245,
+          322,
+          376,
+          545,
+          590
+        ]
+      }
+    }
+  ],
+  "mesh": {
+    "primitives": [
+      {
+        "mode": 4,
+        "attributes": {
+          "POSITION": 146,
+          "NORMAL": 147,
+          "TEXCOORD_0": 148
+        },
+        "indices": 149,
+        "material": 2
+      }
+    ]
+  },
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.16513219449147767,
+          0.19806931954941637,
+          0.1912016827303171,
+          1
+        ],
+        "metallicFactor": 0.82,
+        "roughnessFactor": 0.34
+      },
+      "name": "steel"
+    }
+  ]
+}
