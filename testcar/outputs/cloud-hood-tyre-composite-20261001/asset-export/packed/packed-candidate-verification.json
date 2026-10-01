@@ -1,0 +1,44 @@
+{
+  "nativeStreams": 16,
+  "status": "PASS for declared scope only",
+  "source": "outputs/cloud-tyre-lettering-portable-20260930/maz543a-blender-portable-reexport-v2.glb",
+  "result": "work/cloud-hood-tyre-packed-20261001/packed-candidate.glb",
+  "preservedMeshNodes": 414,
+  "changedMeshes": [
+    "BL_Front_cover_lip",
+    "BL_Front_cover_latch_-0.46",
+    "BL_Front_cover_latch_0.46"
+  ],
+  "newNodes": [
+    "BL_Front_cover_fixed_hinge_lug_-1_0.438",
+    "BL_Front_cover_fixed_hinge_lug_-1_0.512",
+    "BL_Front_cover_fixed_hinge_lug_1_0.438",
+    "BL_Front_cover_fixed_hinge_lug_1_0.512",
+    "BL_Photo_front_cover_top_grip_-1",
+    "BL_Photo_front_cover_top_grip_1",
+    "BL_Front_cover_front_panel",
+    "BL_Front_cover_hinge_knuckle_-1",
+    "BL_Front_cover_hinge_knuckle_1",
+    "BL_Front_cover_hinge_pin_-1",
+    "BL_Front_cover_hinge_pin_1",
+    "BL_Front_cover_middle_panel",
+    "BL_Front_cover_rear_panel",
+    "BL_Cover_service_DIAGNOSTIC_CONTROL",
+    "BL_Front_cover_hinge",
+    "BL_R3_latch_release_pivot_-0.46",
+    "BL_R3_latch_release_pivot_0.46"
+  ],
+  "removedNodes": [
+    "BL_Front_center_cover_NURBS"
+  ],
+  "declaredHingeRebases": {},
+  "changedMaterialNodes": {},
+  "unchangedTransformsAndParents": false,
+  "declaredDiagnosticLatchReparents": 2,
+  "closedLatchWorldMatricesPreserved": true,
+  "closedWorldGeometryPreservedForOriginalUnchangedStreams": true,
+  "embeddedTexturesUnchanged": true,
+  "effectiveTriangles": 1293102,
+  "fullVehicleAcceptance": "16 OPEN",
+  "limits": "Changed surfaces require separate native geometry/clearance, browser and photographic verification; this does not certify factory dimensions or FPS."
+}

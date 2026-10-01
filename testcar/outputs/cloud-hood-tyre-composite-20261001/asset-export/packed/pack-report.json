@@ -1,0 +1,14 @@
+{
+  "preservedMeshNodes": 414,
+  "nativeCandidate": "outputs/cloud-hood-tyre-composite-20261001/asset-export/v2/native-export.glb",
+  "source": "outputs/cloud-tyre-lettering-portable-20260930/maz543a-blender-portable-reexport-v2.glb",
+  "output": "work/cloud-hood-tyre-packed-20261001/packed-candidate.glb",
+  "sha256": "58deabf47ce2a18dc4cba2dc6ff9ac29576183ff0a7e00a93e305fcc01df304f",
+  "bytes": 20417980,
+  "changedMeshes": [
+    "BL_Front_cover_lip",
+    "BL_Front_cover_latch_-0.46",
+    "BL_Front_cover_latch_0.46"
+  ],
+  "scope": "Independent combined candidate only. Preserve prior tyre-v2 streams outside exactly three changed hood/latch mesh nodes and thirteen new hood/grip meshes. Native evaluated-UV strict failure, mechanical failures and 16 OPEN remain. Not promoted."
+}

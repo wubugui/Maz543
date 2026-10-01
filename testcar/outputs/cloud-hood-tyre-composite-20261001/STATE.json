@@ -36,5 +36,15 @@
       "bytes": 99016253,
       "sha256": "b4b5681176f48d4c43edfb9308e22ddeae21e58e038ef836bc2b7feef3cd196b"
     }
+  },
+  "packed_asset": {
+    "status": "PASS_SCOPED_STATIC_TRANSPORT_ONLY",
+    "file": "asset-export/packed/packed-candidate.glb",
+    "sha256": "58deabf47ce2a18dc4cba2dc6ff9ac29576183ff0a7e00a93e305fcc01df304f",
+    "bytes": 20417980,
+    "unchanged_mesh_nodes": 414,
+    "native_primitive_streams": 16,
+    "browser_qa": "NOT_RUN",
+    "promoted": false
   }
 }

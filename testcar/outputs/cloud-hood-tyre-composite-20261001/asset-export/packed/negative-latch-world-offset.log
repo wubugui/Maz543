@@ -1,0 +1,16 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Unapproved movement of closed world geometry
+    at verifyClosedWorldGeometry (file:///workspace/scratch/a29d03198654/Maz543/testcar/scripts/scoped-body-transforms.mjs:15:89)
+    at file:///workspace/scratch/a29d03198654/Maz543/testcar/scripts/verify-composite-packed-asset.mjs:35:3 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

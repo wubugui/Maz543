@@ -9,7 +9,7 @@ await fs.mkdir('work/cloud-tyre-audit',{recursive:true});
 await fs.copyFile('public/draco/draco_wasm_wrapper.js','work/cloud-tyre-audit/draco-wrapper.cjs');
 const factory=createRequire(import.meta.url)('../work/cloud-tyre-audit/draco-wrapper.cjs');
 const draco=await factory({wasmBinary:await fs.readFile('public/draco/draco_decoder.wasm')});
-const bytes=await fs.readFile(dir+'/native-export.glb'),length=bytes.readUInt32LE(12);
+const bytes=await fs.readFile(process.env.MAZ_COMPOSITE_GLB??dir+'/native-export.glb'),length=bytes.readUInt32LE(12);
 const after={bytes,j:JSON.parse(bytes.subarray(20,20+length)),start:28+length};
 const index=new Map(after.j.nodes.map((n,i)=>[n.name,i]));assert.equal(index.size,after.j.nodes.length);
 const reference=JSON.parse(await fs.readFile(dir+'/glyph-world-reference.json','utf8')),refBytes=await fs.readFile(dir+'/glyph-world-reference.bin');
