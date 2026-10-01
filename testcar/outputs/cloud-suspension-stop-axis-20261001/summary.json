@@ -1,0 +1,13 @@
+{
+  "tested_station_pose_pairs": 24,
+  "minimum_gap_m": 0.004020214080810547,
+  "maximum_gap_m": 0.004048764705657959,
+  "source_unchanged": true,
+  "polygon_helper_sha256": "68997bb6228f72b1e7acd6b947a5c7393e6b38e141e943da589695bcc0104eb7",
+  "synthetic_controls_observed_passed": 7,
+  "each_control_additional_checks": [
+    "operand symmetry",
+    "rigid transform"
+  ],
+  "scope": "Numerical sufficient separation at these sampled poses only; no changed mechanical geometry"
+}

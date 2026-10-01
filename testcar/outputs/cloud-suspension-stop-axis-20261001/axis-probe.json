@@ -1,0 +1,100 @@
+{
+  "status": "READ_ONLY_SAMPLED_ADJUSTMENT_AXIS_DIAGNOSIS",
+  "source_sha256": "1332163b7c99da0bf3b11d3e9c250b451ceba3430b8935bde919ae4a55b6a51d",
+  "source_sha256_after": "1332163b7c99da0bf3b11d3e9c250b451ceba3430b8935bde919ae4a55b6a51d",
+  "reference": "1977 printed p320; support bolt must be screwed to touch upper arm during specified torsion installation setting.",
+  "rows": [
+    {
+      "station": 0,
+      "side": "right",
+      "requested_lower_head_vertical_difference_m": 0.136,
+      "actual_bolt_cap_centre": [
+        -2.9200000762939453,
+        0.6899999976158142,
+        0.7549999952316284
+      ],
+      "actual_cap_radius_m": 0.012394905090332031,
+      "bolt_z_extent_m": [
+        0.6150000095367432,
+        0.7549999952316284
+      ],
+      "bolt_principal_axis": [
+        0.0,
+        3.3306690738754696e-16,
+        1.0
+      ],
+      "retained_nut_z_extent_m": [
+        0.6980000138282776,
+        0.7160000205039978
+      ],
+      "cap_samples": 193,
+      "hit_samples": 0,
+      "sampled_first_translation_m": null,
+      "hits": [],
+      "bolt_nut_axial_interval_overlap_after_sampled_translation_m": null,
+      "limits": "Vertical cap rays only. Positive axial interval overlap does not establish real threads, adequate engagement, cap pressure or full swept-volume clearance."
+    },
+    {
+      "station": 0,
+      "side": "right",
+      "requested_lower_head_vertical_difference_m": 0.1385,
+      "actual_bolt_cap_centre": [
+        -2.9200000762939453,
+        0.6899999976158142,
+        0.7549999952316284
+      ],
+      "actual_cap_radius_m": 0.012394905090332031,
+      "bolt_z_extent_m": [
+        0.6150000095367432,
+        0.7549999952316284
+      ],
+      "bolt_principal_axis": [
+        0.0,
+        3.3306690738754696e-16,
+        1.0
+      ],
+      "retained_nut_z_extent_m": [
+        0.6980000138282776,
+        0.7160000205039978
+      ],
+      "cap_samples": 193,
+      "hit_samples": 0,
+      "sampled_first_translation_m": null,
+      "hits": [],
+      "bolt_nut_axial_interval_overlap_after_sampled_translation_m": null,
+      "limits": "Vertical cap rays only. Positive axial interval overlap does not establish real threads, adequate engagement, cap pressure or full swept-volume clearance."
+    },
+    {
+      "station": 0,
+      "side": "right",
+      "requested_lower_head_vertical_difference_m": 0.141,
+      "actual_bolt_cap_centre": [
+        -2.9200000762939453,
+        0.6899999976158142,
+        0.7549999952316284
+      ],
+      "actual_cap_radius_m": 0.012394905090332031,
+      "bolt_z_extent_m": [
+        0.6150000095367432,
+        0.7549999952316284
+      ],
+      "bolt_principal_axis": [
+        0.0,
+        3.3306690738754696e-16,
+        1.0
+      ],
+      "retained_nut_z_extent_m": [
+        0.6980000138282776,
+        0.7160000205039978
+      ],
+      "cap_samples": 193,
+      "hit_samples": 0,
+      "sampled_first_translation_m": null,
+      "hits": [],
+      "bolt_nut_axial_interval_overlap_after_sampled_translation_m": null,
+      "limits": "Vertical cap rays only. Positive axial interval overlap does not establish real threads, adequate engagement, cap pressure or full swept-volume clearance."
+    }
+  ],
+  "saved_blend": false,
+  "whole_vehicle_acceptance": "16 OPEN"
+}

@@ -308,3 +308,16 @@ same-camera native close-up images and one current-candidate whole-vehicle image
 have been rendered and inspected. The whole view retains the complete vehicle
 envelope in frame; its small internal instrument is not visible at that scale.
 Production remains unchanged and all16 gates remain OPEN.
+
+The retained support-bolt issue is now narrowed in
+`cloud-suspension-stop-axis-20261001`. At all8 stations and each136/138.5/141mm
+installation setting, the full native bolt's XY convex hull is separated from
+every upper-arm triangle projection by4.0202–4.0488mm. Original-axis vertical
+translation therefore cannot make those surfaces touch at those24 sampled poses.
+This is a numerical sufficient condition with20µm guard, not a continuous
+suspension-interval proof. Earlier25.44mm AABB separation remains a lower bound,
+not a screw adjustment distance. Existing simple shaft/nut positioning and actual
+support hardware require reference-grounded revision; no guessed bore locations
+or bolt extension have been applied. Three original sampled pose reports, an
+eight-station readback, native isolated views and a scientific projection plot are
+retained. No geometry is modified and all16 gates remain OPEN.

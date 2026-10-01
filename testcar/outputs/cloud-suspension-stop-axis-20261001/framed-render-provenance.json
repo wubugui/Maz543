@@ -1,0 +1,81 @@
+{
+  "source_sha256": "1332163b7c99da0bf3b11d3e9c250b451ceba3430b8935bde919ae4a55b6a51d",
+  "shown_actual_parts": [
+    "S543_0_droop_limit_bolt",
+    "S543_0_droop_locknut",
+    "S543_0_upper_axis_sleeve",
+    "S543_0_upper_cap_fastener_-1_0_hex",
+    "S543_0_upper_cap_fastener_-1_0_washer",
+    "S543_0_upper_cap_fastener_-1_1_hex",
+    "S543_0_upper_cap_fastener_-1_1_washer",
+    "S543_0_upper_cap_fastener_-1_2_hex",
+    "S543_0_upper_cap_fastener_-1_2_washer",
+    "S543_0_upper_cap_fastener_-1_3_hex",
+    "S543_0_upper_cap_fastener_-1_3_washer",
+    "S543_0_upper_cap_fastener_1_0_hex",
+    "S543_0_upper_cap_fastener_1_0_washer",
+    "S543_0_upper_cap_fastener_1_1_hex",
+    "S543_0_upper_cap_fastener_1_1_washer",
+    "S543_0_upper_cap_fastener_1_2_hex",
+    "S543_0_upper_cap_fastener_1_2_washer",
+    "S543_0_upper_cap_fastener_1_3_hex",
+    "S543_0_upper_cap_fastener_1_3_washer",
+    "S543_0_upper_clamp_bolt_-1_hex",
+    "S543_0_upper_clamp_bolt_-1_washer",
+    "S543_0_upper_clamp_bolt_1_hex",
+    "S543_0_upper_clamp_bolt_1_washer",
+    "S543_0_upper_clamp_ear_-1",
+    "S543_0_upper_clamp_ear_1",
+    "S543_0_upper_fork_-1",
+    "S543_0_upper_fork_1",
+    "S543_0_upper_outer_boss_-1",
+    "S543_0_upper_outer_boss_1",
+    "S543_0_upper_outer_bush_-1",
+    "S543_0_upper_outer_bush_1",
+    "S543_0_upper_pin_cap_-1",
+    "S543_0_upper_pin_cap_1",
+    "S543_0_upper_rib_-1",
+    "S543_0_upper_rib_1"
+  ],
+  "inspection_material_override": [
+    "S543_0_droop_limit_bolt",
+    "S543_0_droop_locknut"
+  ],
+  "source_unchanged": true,
+  "saved_blend": false,
+  "engine": "Actual Cycles CPU2 48samples native denoise",
+  "records": [
+    {
+      "file": "native-stop-oblique-framed.png",
+      "sha256": "73d4ff95da5c1583f200af26e5828c2312671ede41189601d56b587643d10b6f",
+      "camera": [
+        [
+          -0.5911651849746704,
+          -0.5132309794425964,
+          0.6221878528594971,
+          -2.200000047683716
+        ],
+        [
+          0.8065505027770996,
+          -0.3761751055717468,
+          0.45603567361831665,
+          1.4500000476837158
+        ],
+        [
+          -5.0724931810464113e-08,
+          0.7714183330535889,
+          0.6363283395767212,
+          1.75
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "ortho_scale": 1.6623722314834595
+    }
+  ],
+  "scope": "Isolated upper-arm/bolt/nut, not full suspension or original paint. Source dimensions remain FITTED. Contact conclusion comes from full projection data, not these images."
+}
