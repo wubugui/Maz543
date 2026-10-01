@@ -1,0 +1,18 @@
+{
+  "preservedMeshNodes": 423,
+  "nativeCandidate": "work/cloud-left-driver-export-20261001/native-export.glb",
+  "source": "outputs/cloud-hood-tyre-composite-20261001/asset-export/packed/packed-candidate.glb",
+  "output": "work/cloud-left-driver-export-20261001/packed-candidate.glb",
+  "sha256": "ccccdd56fed79d3a77166652beda8c32b02fca820050723f80cd97f99915b1dc",
+  "bytes": 20441680,
+  "changedMeshes": [
+    "cab_0062",
+    "cab_0063",
+    "cab_0066",
+    "cab_0069",
+    "cab_0029",
+    "cab_0030",
+    "cab_0031"
+  ],
+  "scope": "Independent left-driver-side correction, seven existing controls separated without shape changes and shifted with the existing steering group. Unrelated original streams retained. All16 OPEN; no dimensions accepted. Steering wheel encoding now uses actual18-bit native export because preserved14-bit stream exceeded20um transport gate; native wheel shape remains unchanged."
+}

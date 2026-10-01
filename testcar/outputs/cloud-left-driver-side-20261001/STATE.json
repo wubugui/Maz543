@@ -1,0 +1,83 @@
+{
+  "status": "INDEPENDENT_LEFT_DRIVER_CANDIDATE",
+  "native_readback": "PASS_SIDE_AND_PRESERVATION_SCOPE_ONLY",
+  "source": "cloud-hood-tyre-composite-20261001",
+  "all16VehicleGates": "OPEN",
+  "production_promoted": false,
+  "render": "PENDING_SHARED_RENDER_WINDOW",
+  "browser_actual": "NOT_RUN_ACCESS_BLOCKED",
+  "runtime_pose_binding": "480 real binding-statement synthetic-pose checks passed; actual browser untested",
+  "files": [
+    {
+      "file": "MAZ543A_Master.blend",
+      "status": "PASS_NATIVE_SIDE_CORRECTION_ONLY",
+      "candidate_sha256": "1427de4198b72f994920173b79feb68d4bd82a04d2d9000d14507b4b16c5c0ff",
+      "unrelated_geometry_authored_uv_transform_parent_preserved": 8995,
+      "source_faces_uvs_materials_accounted_without_loss": true,
+      "steering_world_translation_m": [
+        0.0,
+        -2.049999952316284,
+        0.0
+      ],
+      "steering_orientation_and_shape_preserved": true,
+      "seven_controls_entirely_in_left_half_space": [
+        "BL_Left_driver_steering_column_retained",
+        "BL_Left_driver_pedal_link_a_retained",
+        "BL_Left_driver_pedal_link_b_retained",
+        "BL_Left_driver_pedal_plate_a_retained",
+        "BL_Left_driver_pedal_plate_b_retained",
+        "BL_Left_driver_floor_side_lever_proxy_retained",
+        "BL_Left_driver_floor_side_lever_knob_proxy_retained"
+      ],
+      "runtime_pose_override": "OPEN; existing web rig must be explicitly reconciled",
+      "factory_internal_dimensions_and_control_identities": "OPEN",
+      "all16VehicleGates": "OPEN"
+    },
+    {
+      "file": "MAZ543A_Textured.blend",
+      "status": "PASS_NATIVE_SIDE_CORRECTION_ONLY",
+      "candidate_sha256": "171e7696421227fca28b8be3c555065381cbc6ca2a4b43ca94d18b83b5a167c7",
+      "unrelated_geometry_authored_uv_transform_parent_preserved": 7079,
+      "source_faces_uvs_materials_accounted_without_loss": true,
+      "steering_world_translation_m": [
+        0.0,
+        -2.049999952316284,
+        0.0
+      ],
+      "steering_orientation_and_shape_preserved": true,
+      "seven_controls_entirely_in_left_half_space": [
+        "BL_Left_driver_steering_column_retained",
+        "BL_Left_driver_pedal_link_a_retained",
+        "BL_Left_driver_pedal_link_b_retained",
+        "BL_Left_driver_pedal_plate_a_retained",
+        "BL_Left_driver_pedal_plate_b_retained",
+        "BL_Left_driver_floor_side_lever_proxy_retained",
+        "BL_Left_driver_floor_side_lever_knob_proxy_retained"
+      ],
+      "runtime_pose_override": "OPEN; existing web rig must be explicitly reconciled",
+      "factory_internal_dimensions_and_control_identities": "OPEN",
+      "all16VehicleGates": "OPEN"
+    }
+  ],
+  "packed_asset": {
+    "sha256": "ccccdd56fed79d3a77166652beda8c32b02fca820050723f80cd97f99915b1dc",
+    "bytes": 20441680,
+    "unchanged_mesh_nodes": 423,
+    "native_new_or_reencoded_primitive_streams": 14,
+    "driver_transport_max_m": 1.3340219688672515e-06,
+    "threshold_m": 2e-05,
+    "first_iteration_retained_failure_m": 2.034439638428977e-05,
+    "gltf_validator_errors": 0,
+    "gltf_validator_warnings": 0,
+    "actual_browser": "NOT_RUN"
+  },
+  "development_entry": {
+    "query": "asset-review=left-driver-v1",
+    "selection_cases": 25,
+    "metadata_only_exporter_cases": 4,
+    "real_binding_statement_synthetic_poses": 480,
+    "typecheck": "PASS",
+    "build": "PASS_FINAL_WHEEL_PRECISION",
+    "browser": "NOT_RUN_ACCESS_BLOCKED"
+  }
+}

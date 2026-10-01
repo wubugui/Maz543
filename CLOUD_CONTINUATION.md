@@ -109,6 +109,15 @@ replacement for the production masters or production GLB.
   `asset-review=hood-tyre-v1` entry and build checks pass; actual browser remains
   untested. See its STATE.
 
+- Left-driver side candidate: `testcar/outputs/cloud-left-driver-side-20261001/README.md`.
+  Original1977 source confirms the inherited steering/pedals were in the right
+  cabin. Seven retained controls (788 vertices) and the steering group move by
+  the existing fitted cabin spacing to the left. Native separation and fresh
+  paired-file preservation checks pass; exact shapes/positions remain fitted.
+  Actual viewport binding-statement tests address the legacy per-frame pose
+  reset without renumbering pivots. Source rig and production remain unchanged.
+  Check this candidate's STATE before rendering or continuing; no browser pass.
+
 ## Verified environment and remaining access limits
 
 Official Blender4.5.13 LTS, build `daeeeca98fb0`, is used with four threads.
@@ -126,9 +135,9 @@ for the local preview, so browser checks remain blocked pending a supported
 preview route. Do not change network/security settings or use a different
 browser to bypass that denial.
 
-Normal cloud Git write authentication is unavailable. A verified original
-`ed97cf3` transfer and a later incremental bundle provide an authorized transfer
-route, but no local bundle proves remote delivery. Keep exact snapshot heads
+Normal cloud Git write authentication is unavailable. The original `ed97cf3` transfer and later incremental bundle remain historical
+archives. Current delivery is cloud-direct GitHub only; do not restart desktop
+file-transfer instructions. No local bundle proves remote delivery. Keep exact snapshot heads
 and prerequisites; don't rewrite bundles under an existing filename or claim
 later commits are included. The incremental bundle through `613c1cb` requires
 both `ed97cf3` and the complete migration `4f28bd4`. Later documentation and

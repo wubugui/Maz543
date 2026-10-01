@@ -1,5 +1,5 @@
 import * as T from 'three';
-import {selectReviewVehicleAsset,reviewCandidateMetadata} from '@/lib/reviewVehicleAsset';
+import {selectReviewVehicleAsset,reviewCandidateMetadata,applyReviewNativePoseOffset} from '@/lib/reviewVehicleAsset';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -437,7 +437,7 @@ export function createVehicleViewport({host,latest,selection,callbacks,api,simul
       if(simulationFallback)t={...advance(t,latest.current,dt),simulationStats:{mode:'fallback',stepHz:0,backlogSeconds:0,error:simulationError}};
       else if(simulationSnapshot)t=simulationSnapshot;
       model.update(latest.current,t);
-      for(const {source,target} of bindings){target.position.copy(source.position);target.quaternion.copy(source.quaternion);target.scale.copy(source.scale);target.visible=source.visible;}
+      for(const {source,target} of bindings){target.position.copy(source.position);target.quaternion.copy(source.quaternion);target.scale.copy(source.scale);target.visible=source.visible;applyReviewNativePoseOffset(target,reviewAsset);}
       if(transmissionRoot){
         for(const [name,pose] of Object.entries(planetaryPose(t.planetary.inputAngle,t.planetary.carrierAngle,latest.current.gear,Object.fromEntries(Object.entries(t.transmission.hydraulics.boosters).map(([name,b])=>[name,b.travel]))))){const joint=transmissionNodes.get(name);if(joint){joint.rotation.x=pose.rx;if(pose.p)joint.position.set(...pose.p);
           if(pose.springPack&&pose.springTravel!==undefined){const spring=transmissionNodes.get(`TX_${pose.springPack}_return_spring_${name.split('_').at(-1)}`);if(spring instanceof T.Mesh&&spring.morphTargetInfluences&&spring.morphTargetDictionary){const weights=transmissionSpringWeights(pose.springPack,pose.springTravel);spring.morphTargetInfluences[spring.morphTargetDictionary.Pitch]=weights[0];spring.morphTargetInfluences[spring.morphTargetDictionary.Radius]=weights[1];}}

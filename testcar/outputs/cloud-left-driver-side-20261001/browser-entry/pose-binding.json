@@ -1,0 +1,38 @@
+{
+  "status": "PASS_ACTUAL_BINDING_STATEMENT_ONLY",
+  "rows": [
+    {
+      "kind": "production",
+      "frames": 120,
+      "sourceUnaffected": true,
+      "accumulation": false,
+      "offsetZ": 0
+    },
+    {
+      "kind": "tyre-v2",
+      "frames": 120,
+      "sourceUnaffected": true,
+      "accumulation": false,
+      "offsetZ": 0
+    },
+    {
+      "kind": "hood-tyre-v1",
+      "frames": 120,
+      "sourceUnaffected": true,
+      "accumulation": false,
+      "offsetZ": 0
+    },
+    {
+      "kind": "left-driver-v1",
+      "frames": 120,
+      "sourceUnaffected": true,
+      "accumulation": false,
+      "offsetZ": 2.05
+    }
+  ],
+  "otherPivotUnaffected": true,
+  "sourceLegacyPivotNamesUnchanged": true,
+  "nativeRestPoseAgreementToleranceM": 5e-7,
+  "scope": "Actual viewport binding statement on real GLB steering transforms with 120 synthetic steering poses per asset. No browser, complete vehicle motion, controls UX or continuous clearance acceptance.",
+  "all16VehicleGates": "OPEN"
+}

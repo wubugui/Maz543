@@ -1,0 +1,234 @@
+[
+  {
+    "file": "MAZ543A_Master.blend",
+    "input_sha256": "d4a4273dfeac60ff6a43088518dbff19dccf49fd408390ef10cec016783f4fa0",
+    "status": "SIDE_OWNERSHIP_CORRECTION_ONLY",
+    "lateral_translation_blender_xyz_m": [
+      0.0,
+      -2.049999952316284,
+      0.0
+    ],
+    "existing_fitted_cab_centres_y_m": [
+      1.025,
+      -1.025
+    ],
+    "separated_parts": [
+      {
+        "name": "BL_Left_driver_steering_column_retained",
+        "vertices": 148,
+        "faces": 96,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_pedal_link_a_retained",
+        "vertices": 148,
+        "faces": 96,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_pedal_link_b_retained",
+        "vertices": 148,
+        "faces": 96,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_pedal_plate_a_retained",
+        "vertices": 24,
+        "faces": 12,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_pedal_plate_b_retained",
+        "vertices": 24,
+        "faces": 12,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_floor_side_lever_proxy_retained",
+        "vertices": 148,
+        "faces": 96,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_floor_side_lever_knob_proxy_retained",
+        "vertices": 148,
+        "faces": 96,
+        "parent": "cab"
+      }
+    ],
+    "selected_vertex_total": 788,
+    "native_separation_original_face_corner_uv_material_records_preserved": true,
+    "unrelated_original_geometry_objects_preserved": 8995,
+    "steering_group_original_matrix": [
+      [
+        0.9553365111351013,
+        0.0,
+        -0.29552021622657776,
+        -4.619999885559082
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.024999976158142
+      ],
+      [
+        0.29552021622657776,
+        0.0,
+        0.9553365111351013,
+        2.130000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "steering_group_candidate_matrix": [
+      [
+        0.9553365111351013,
+        0.0,
+        -0.29552021622657776,
+        -4.619999885559082
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -1.024999976158142
+      ],
+      [
+        0.29552021622657776,
+        0.0,
+        0.9553365111351013,
+        2.130000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "browser_pose_binding": "NOT_UPDATED: existing runtime would reset cab_pivot_004 position; do not promote this native file as browser-ready",
+    "all16VehicleGates": "OPEN",
+    "candidate_sha256": "1427de4198b72f994920173b79feb68d4bd82a04d2d9000d14507b4b16c5c0ff"
+  },
+  {
+    "file": "MAZ543A_Textured.blend",
+    "input_sha256": "b4b5681176f48d4c43edfb9308e22ddeae21e58e038ef836bc2b7feef3cd196b",
+    "status": "SIDE_OWNERSHIP_CORRECTION_ONLY",
+    "lateral_translation_blender_xyz_m": [
+      0.0,
+      -2.049999952316284,
+      0.0
+    ],
+    "existing_fitted_cab_centres_y_m": [
+      1.025,
+      -1.025
+    ],
+    "separated_parts": [
+      {
+        "name": "BL_Left_driver_steering_column_retained",
+        "vertices": 148,
+        "faces": 96,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_pedal_link_a_retained",
+        "vertices": 148,
+        "faces": 96,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_pedal_link_b_retained",
+        "vertices": 148,
+        "faces": 96,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_pedal_plate_a_retained",
+        "vertices": 24,
+        "faces": 12,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_pedal_plate_b_retained",
+        "vertices": 24,
+        "faces": 12,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_floor_side_lever_proxy_retained",
+        "vertices": 148,
+        "faces": 96,
+        "parent": "cab"
+      },
+      {
+        "name": "BL_Left_driver_floor_side_lever_knob_proxy_retained",
+        "vertices": 148,
+        "faces": 96,
+        "parent": "cab"
+      }
+    ],
+    "selected_vertex_total": 788,
+    "native_separation_original_face_corner_uv_material_records_preserved": true,
+    "unrelated_original_geometry_objects_preserved": 7079,
+    "steering_group_original_matrix": [
+      [
+        0.9553365111351013,
+        0.0,
+        -0.29552021622657776,
+        -4.619999885559082
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        1.024999976158142
+      ],
+      [
+        0.29552021622657776,
+        0.0,
+        0.9553365111351013,
+        2.130000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "steering_group_candidate_matrix": [
+      [
+        0.9553365111351013,
+        0.0,
+        -0.29552021622657776,
+        -4.619999885559082
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        -1.024999976158142
+      ],
+      [
+        0.29552021622657776,
+        0.0,
+        0.9553365111351013,
+        2.130000114440918
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "browser_pose_binding": "NOT_UPDATED: existing runtime would reset cab_pivot_004 position; do not promote this native file as browser-ready",
+    "all16VehicleGates": "OPEN",
+    "candidate_sha256": "171e7696421227fca28b8be3c555065381cbc6ca2a4b43ca94d18b83b5a167c7"
+  }
+]

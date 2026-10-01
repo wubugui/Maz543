@@ -1,0 +1,79 @@
+{
+  "status": "PASS_NATIVE_DRIVER_TO_DRACO_TRANSPORT_ONLY",
+  "sha256": "ccccdd56fed79d3a77166652beda8c32b02fca820050723f80cd97f99915b1dc",
+  "results": [
+    {
+      "name": "BL_Left_driver_floor_side_lever_knob_proxy_retained",
+      "decodedVertices": 194,
+      "nativeVertices": 148,
+      "triangles": 96,
+      "maxWorldVertexDeviationM": 2.1490760299348766e-7
+    },
+    {
+      "name": "BL_Left_driver_floor_side_lever_proxy_retained",
+      "decodedVertices": 194,
+      "nativeVertices": 148,
+      "triangles": 96,
+      "maxWorldVertexDeviationM": 0.0000012797659965505533
+    },
+    {
+      "name": "BL_Left_driver_pedal_link_a_retained",
+      "decodedVertices": 194,
+      "nativeVertices": 148,
+      "triangles": 96,
+      "maxWorldVertexDeviationM": 6.9510363278929e-7
+    },
+    {
+      "name": "BL_Left_driver_pedal_link_b_retained",
+      "decodedVertices": 194,
+      "nativeVertices": 148,
+      "triangles": 96,
+      "maxWorldVertexDeviationM": 7.633118912497578e-7
+    },
+    {
+      "name": "BL_Left_driver_pedal_plate_a_retained",
+      "decodedVertices": 24,
+      "nativeVertices": 24,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.1920928955078125e-7
+    },
+    {
+      "name": "BL_Left_driver_pedal_plate_b_retained",
+      "decodedVertices": 24,
+      "nativeVertices": 24,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.3328003749250113e-7
+    },
+    {
+      "name": "BL_Left_driver_steering_column_retained",
+      "decodedVertices": 194,
+      "nativeVertices": 148,
+      "triangles": 96,
+      "maxWorldVertexDeviationM": 0.000001018524616398517
+    },
+    {
+      "name": "cab_0029",
+      "decodedVertices": 441,
+      "nativeVertices": 441,
+      "triangles": 768,
+      "maxWorldVertexDeviationM": 0.0000013340219688672515
+    },
+    {
+      "name": "cab_0030",
+      "decodedVertices": 194,
+      "nativeVertices": 148,
+      "triangles": 96,
+      "maxWorldVertexDeviationM": 3.379193721665409e-7
+    },
+    {
+      "name": "cab_0031",
+      "decodedVertices": 582,
+      "nativeVertices": 444,
+      "triangles": 288,
+      "maxWorldVertexDeviationM": 0.000001100237962032156
+    }
+  ],
+  "maxWorldVertexDeviationM": 0.0000013340219688672515,
+  "scope": "Actual Draco decoding and saved-native vertex correspondence, triangle counts and driver-part identity. No production-stream preservation, whole-car shape comparison, browser rendering or UV acceptance.",
+  "all16VehicleGates": "OPEN"
+}

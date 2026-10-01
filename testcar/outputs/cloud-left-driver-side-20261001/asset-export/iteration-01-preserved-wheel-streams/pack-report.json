@@ -1,0 +1,15 @@
+{
+  "preservedMeshNodes": 426,
+  "nativeCandidate": "work/cloud-left-driver-export-20261001/native-export.glb",
+  "source": "outputs/cloud-hood-tyre-composite-20261001/asset-export/packed/packed-candidate.glb",
+  "output": "work/cloud-left-driver-export-20261001/packed-candidate.glb",
+  "sha256": "2ac683e0a7e152d7fc661643b1a987517ca83a5bc4d3d88e76f0b72015721abc",
+  "bytes": 20439640,
+  "changedMeshes": [
+    "cab_0062",
+    "cab_0063",
+    "cab_0066",
+    "cab_0069"
+  ],
+  "scope": "Independent left-driver-side correction, seven existing controls separated without shape changes and shifted with the existing steering group. Unrelated original streams retained. All16 OPEN; no dimensions accepted."
+}

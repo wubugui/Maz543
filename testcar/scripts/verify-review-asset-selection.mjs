@@ -13,6 +13,9 @@ const source=await fs.readFile(path.join(root,'lib/reviewVehicleAsset.ts'),'utf8
 const compiled=ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ES2022}}).outputText;
 const {selectReviewVehicleAsset,PRODUCTION_VEHICLE_ASSET,reviewCandidateMetadata}=await import('data:text/javascript;base64,'+Buffer.from(compiled).toString('base64'));
 const cases=[
+ ['?asset-review=left-driver-v1',true,'left-driver-v1'],['?asset-review=left-driver-v1',false,'production'],
+ ['?asset-review=left-driver-v1&render-worker=1',true,'production'],['?asset-review=left-driver-v1&worker-build=1',true,'production'],
+ ['?asset-review=left-driver-v1&asset-review=hood-tyre-v1',true,'production'],
  ['?asset-review=hood-tyre-v1',true,'hood-tyre-v1'],['?asset-review=hood-tyre-v1',false,'production'],
  ['?asset-review=hood-tyre-v1&render-worker=1',true,'production'],['?asset-review=hood-tyre-v1&worker-build=1',true,'production'],
  ['?asset-review=hood-tyre-v1&asset-review=tyre-v2',true,'production'],
@@ -34,13 +37,15 @@ assert.equal(hash(production),PRODUCTION_VEHICLE_ASSET.sha256);assert.equal(hash
 const combined=await fs.readFile(path.join(root,'public/models/review/maz543a-hood-tyre-v1.glb'));
 assert.equal(hash(combined),selectReviewVehicleAsset('?asset-review=hood-tyre-v1',true).sha256);
 assert.ok(combined.equals(await fs.readFile(path.join(root,'outputs/cloud-hood-tyre-composite-20261001/asset-export/packed/packed-candidate.glb'))));
+const driver=await fs.readFile(path.join(root,'public/models/review/maz543a-left-driver-v1.glb'));
+assert.equal(hash(driver),selectReviewVehicleAsset('?asset-review=left-driver-v1',true).sha256);
 const runtime=await fs.readFile(path.join(root,'lib/vehicleViewport.ts'),'utf8'),ui=await fs.readFile(path.join(root,'components/workshop.tsx'),'utf8');
 assert.ok(runtime.includes('loadNative(reviewAsset.url)'));assert.ok(runtime.includes('a.download=reviewAsset.exportFilename'));
 assert.ok(runtime.includes('renderedRoot.userData.reviewCandidate=reviewCandidateMetadata(reviewAsset)'));assert.ok(ui.includes('reviewAsset.notice&&'));
 registerHooks({resolve(specifier,context,next){try{return next(specifier,context);}catch(error){if(specifier.startsWith('.')&&!/\.[a-z]+$/i.test(specifier))return next(specifier+'.ts',context);throw error;}}});
 const {exportGLBBlob}=await import('../lib/export-model.ts');
 const metadataExports=[];
-for(const asset of [PRODUCTION_VEHICLE_ASSET,selectReviewVehicleAsset('?asset-review=tyre-v2',true),selectReviewVehicleAsset('?asset-review=hood-tyre-v1',true)]){
+for(const asset of [PRODUCTION_VEHICLE_ASSET,selectReviewVehicleAsset('?asset-review=tyre-v2',true),selectReviewVehicleAsset('?asset-review=hood-tyre-v1',true),selectReviewVehicleAsset('?asset-review=left-driver-v1',true)]){
  // A metadata-only unit fixture through the real exporter, never a replacement vehicle test.
  const object=new T.Group();object.name='MAZ543_REFERENCE_CHASSIS';const metadata=reviewCandidateMetadata(asset);if(metadata)object.userData.reviewCandidate=metadata;
  const prior=JSON.stringify(object.userData),blob=await exportGLBBlob(object,new Map()),bytes=Buffer.from(await blob.arrayBuffer());
@@ -51,8 +56,8 @@ for(const asset of [PRODUCTION_VEHICLE_ASSET,selectReviewVehicleAsset('?asset-re
 const baselineRef='aa04cfd6a30c7ca47f8c5004a9c8adde2b4bbe15';
 const oldRuntime=execFileSync('git',['show',baselineRef+':testcar/lib/vehicleViewport.ts'],{cwd:root,encoding:'utf8'});
 function poseBlock(text){const start=text.indexOf('      model.update(latest.current,t);'),end=text.indexOf('      if(gpuTimer&&pendingTimers.length',start);assert.ok(start>=0&&end>start);return text.slice(start,end);}
-assert.equal(poseBlock(runtime),poseBlock(oldRuntime),'Mechanical presentation changed during asset-selector integration');
+assert.equal(poseBlock(runtime).replace('applyReviewNativePoseOffset(target,reviewAsset);',''),poseBlock(oldRuntime),'Mechanical presentation changed during asset-selector integration');
 const mechanicalSources=[];
 for(const file of ['mechanics.ts','mechanicalTimeline.ts','starting.ts','suspension.ts','transmission.ts','transmissionDynamics.ts','transmissionHydraulics.ts','cooling.ts']){const now=await fs.readFile(path.join(root,'lib',file)),before=execFileSync('git',['show',baselineRef+':testcar/lib/'+file],{cwd:root});assert.ok(now.equals(before),file);mechanicalSources.push({file,sha256:hash(now)});}
-const report={status:'PASS_SELECTION_AND_FILE_CHECKS_ONLY',baselineRef,metadataOnlyRealExporterChecks:metadataExports,mechanicalPoseBlockSHA256:hash(poseBlock(runtime)),mechanicalPoseCharacters:poseBlock(runtime).length,unchangedMechanicalSources:mechanicalSources,cases:results,productionSHA256:hash(production),candidateSHA256:hash(candidate),combinedCandidateSHA256:hash(combined),portableCopyExact:true,browserRuntime:'NOT_RUN_ACCESS_BLOCKED',scope:'Actual selector, file bytes, unchanged mechanical sources, static wiring and real exporter metadata-only fixtures; not a full vehicle export, rendered UI, picking, motion, performance or WebGL test.'};
+const report={status:'PASS_SELECTION_AND_FILE_CHECKS_ONLY',baselineRef,metadataOnlyRealExporterChecks:metadataExports,mechanicalPoseBlockSHA256:hash(poseBlock(runtime)),mechanicalPoseCharacters:poseBlock(runtime).length,unchangedMechanicalSources:mechanicalSources,cases:results,productionSHA256:hash(production),candidateSHA256:hash(candidate),combinedCandidateSHA256:hash(combined),driverCandidateSHA256:hash(driver),portableCopyExact:true,browserRuntime:'NOT_RUN_ACCESS_BLOCKED',scope:'Actual selector, file bytes, unchanged mechanical sources, static wiring and real exporter metadata-only fixtures; not a full vehicle export, rendered UI, picking, motion, performance or WebGL test.'};
 const out=path.resolve(root,process.env.MAZ_REVIEW_REPORT_DIR??'outputs/cloud-review-entry-20260930');await fs.mkdir(out,{recursive:true});await fs.writeFile(path.join(out,'selection-tests.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({...report,cases:results.length},null,2));

@@ -1,0 +1,32 @@
+{
+  "source": "outputs/cloud-hood-tyre-composite-20261001/asset-export/packed/packed-candidate.glb",
+  "candidate": "work/cloud-left-driver-export-20261001/native-export.glb",
+  "output": "work/cloud-left-driver-export-20261001/packed-candidate.glb",
+  "report": "work/cloud-left-driver-export-20261001/pack-report.json",
+  "changedMeshes": [
+    "cab_0062",
+    "cab_0063",
+    "cab_0066",
+    "cab_0069"
+  ],
+  "newMeshes": [
+    "BL_Left_driver_steering_column_retained",
+    "BL_Left_driver_pedal_link_a_retained",
+    "BL_Left_driver_pedal_link_b_retained",
+    "BL_Left_driver_pedal_plate_a_retained",
+    "BL_Left_driver_pedal_plate_b_retained",
+    "BL_Left_driver_floor_side_lever_proxy_retained",
+    "BL_Left_driver_floor_side_lever_knob_proxy_retained"
+  ],
+  "newNodes": [
+    "BL_Left_driver_steering_column_retained",
+    "BL_Left_driver_pedal_link_a_retained",
+    "BL_Left_driver_pedal_link_b_retained",
+    "BL_Left_driver_pedal_plate_a_retained",
+    "BL_Left_driver_pedal_plate_b_retained",
+    "BL_Left_driver_floor_side_lever_proxy_retained",
+    "BL_Left_driver_floor_side_lever_knob_proxy_retained"
+  ],
+  "removedNodes": [],
+  "scope": "Independent left-driver-side correction, seven existing controls separated without shape changes and shifted with the existing steering group. Unrelated original streams retained. All16 OPEN; no dimensions accepted."
+}
