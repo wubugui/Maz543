@@ -1,0 +1,133 @@
+{
+  "engine": "Actual Cycles CPU,48samples,4threads",
+  "records": [
+    {
+      "file": "structure-exterior.png",
+      "hidden_for_structural_inspection": [],
+      "camera_matrix_world": [
+        [
+          0.6281189918518066,
+          0.3302568793296814,
+          -0.7045544385910034,
+          -0.8299999833106995
+        ],
+        [
+          -0.778117299079895,
+          0.2665928900241852,
+          -0.5687369108200073,
+          -0.6700000166893005
+        ],
+        [
+          -5.522229784560295e-08,
+          0.9054604768753052,
+          0.42443063855171204,
+          0.6100000143051147
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "file": "three-four-chamber-layout.png",
+      "hidden_for_structural_inspection": [
+        "WOOD_long_side_-1",
+        "WOOD_end_-1",
+        "CELL_01_separate_lid",
+        "CELL_01_negative_post",
+        "CELL_01_positive_post",
+        "CELL_01_filler_plug",
+        "CELL_02_separate_lid",
+        "CELL_02_negative_post",
+        "CELL_02_positive_post",
+        "CELL_02_filler_plug",
+        "CELL_03_separate_lid",
+        "CELL_03_negative_post",
+        "CELL_03_positive_post",
+        "CELL_03_filler_plug",
+        "CELL_04_separate_lid",
+        "CELL_04_negative_post",
+        "CELL_04_positive_post",
+        "CELL_04_filler_plug",
+        "CELL_05_separate_lid",
+        "CELL_05_negative_post",
+        "CELL_05_positive_post",
+        "CELL_05_filler_plug",
+        "CELL_06_separate_lid",
+        "CELL_06_negative_post",
+        "CELL_06_positive_post",
+        "CELL_06_filler_plug",
+        "CELL_07_separate_lid",
+        "CELL_07_negative_post",
+        "CELL_07_positive_post",
+        "CELL_07_filler_plug",
+        "CELL_08_separate_lid",
+        "CELL_08_negative_post",
+        "CELL_08_positive_post",
+        "CELL_08_filler_plug",
+        "CELL_09_separate_lid",
+        "CELL_09_negative_post",
+        "CELL_09_positive_post",
+        "CELL_09_filler_plug",
+        "CELL_10_separate_lid",
+        "CELL_10_negative_post",
+        "CELL_10_positive_post",
+        "CELL_10_filler_plug",
+        "CELL_11_separate_lid",
+        "CELL_11_negative_post",
+        "CELL_11_positive_post",
+        "CELL_11_filler_plug",
+        "CELL_12_separate_lid",
+        "CELL_12_negative_post",
+        "CELL_12_positive_post",
+        "CELL_12_filler_plug",
+        "SERIES_LINK_01_02",
+        "SERIES_LINK_02_03",
+        "SERIES_LINK_03_04",
+        "SERIES_LINK_04_05",
+        "SERIES_LINK_05_06",
+        "SERIES_LINK_06_07",
+        "SERIES_LINK_07_08",
+        "SERIES_LINK_08_09",
+        "SERIES_LINK_09_10",
+        "SERIES_LINK_10_11",
+        "SERIES_LINK_11_12",
+        "FRONT_negative_terminal_lug",
+        "negative_front_lead",
+        "FRONT_positive_terminal_lug",
+        "positive_front_lead"
+      ],
+      "camera_matrix_world": [
+        [
+          0.6281189918518066,
+          0.3302568793296814,
+          -0.7045544385910034,
+          -0.8299999833106995
+        ],
+        [
+          -0.778117299079895,
+          0.2665928900241852,
+          -0.5687369108200073,
+          -0.6700000166893005
+        ],
+        [
+          -5.522229784560295e-08,
+          0.9054604768753052,
+          0.42443063855171204,
+          0.6100000143051147
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "not_vehicle_installation": true,
+  "all16VehicleGates": "OPEN"
+}

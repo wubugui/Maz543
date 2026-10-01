@@ -1,0 +1,531 @@
+{
+  "status": "UNACCEPTED_STRUCTURE_STUDY",
+  "reference_metadata": {
+    "status": "UNACCEPTED_STRUCTURE_STUDY; NO_VEHICLE_INSTALLATION",
+    "revision_caveat": "1977 p206 prose says12-ST-70; fig128 label says12ST-70M.1983 guide gives common structural description and same nominal envelope; exact production batch not resolved.",
+    "source1977": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk p206 fig128",
+    "source1983": "https://www.compancommand.com/literatura/Avtomob/Akkum_Batarei_1983.pdf PDF pp5,11",
+    "published_nominal_envelope_m": [
+      0.587,
+      0.238,
+      0.239
+    ],
+    "calibration": "Component sizes, wall thickness, can spacing, cap and link profiles, lug holes and shades FITTED. Reference gauge does not certify the incomplete assembly dimensions.",
+    "unmodeled": "Exact plate packs/separators and their count; electrolyte; copper inserts; protective terminal hood; pressed-wood top cover; exact carrying hardware; vehicle battery box and four-unit installation."
+  },
+  "topology": [
+    {
+      "name": "WOOD_bottom",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.0010392071554025733
+    },
+    {
+      "name": "WOOD_long_side_-1",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.0009465571780349054
+    },
+    {
+      "name": "WOOD_end_-1",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.00035845316660608007
+    },
+    {
+      "name": "WOOD_long_side_1",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.0009465571780349054
+    },
+    {
+      "name": "WOOD_end_1",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.00035845316660608007
+    },
+    {
+      "name": "EBONITE_block_1_FOUR_CHAMBERS",
+      "vertices": 280,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.0008346819845904687
+    },
+    {
+      "name": "EBONITE_block_2_FOUR_CHAMBERS",
+      "vertices": 280,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.0008346819845904687
+    },
+    {
+      "name": "EBONITE_block_3_FOUR_CHAMBERS",
+      "vertices": 280,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 0.0008346819845904687
+    },
+    {
+      "name": "STEEL_tie_band_1",
+      "vertices": 112,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.1628331764474526e-05
+    },
+    {
+      "name": "STEEL_tie_band_2",
+      "vertices": 112,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.1628331764474526e-05
+    },
+    {
+      "name": "CELL_01_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.866744016305817e-05
+    },
+    {
+      "name": "CELL_01_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_01_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_01_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "CELL_02_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.8667440162405575e-05
+    },
+    {
+      "name": "CELL_02_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_02_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_02_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "CELL_03_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.8667440151963e-05
+    },
+    {
+      "name": "CELL_03_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_03_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_03_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "CELL_04_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.8667440151791235e-05
+    },
+    {
+      "name": "CELL_04_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_04_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_04_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "CELL_05_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.8667440162405575e-05
+    },
+    {
+      "name": "CELL_05_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_05_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_05_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "CELL_06_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.866744016304886e-05
+    },
+    {
+      "name": "CELL_06_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_06_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_06_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "CELL_07_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.866744234602388e-05
+    },
+    {
+      "name": "CELL_07_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_07_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_07_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "CELL_08_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.86674423444902e-05
+    },
+    {
+      "name": "CELL_08_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_08_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_08_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "CELL_09_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.8667442333716266e-05
+    },
+    {
+      "name": "CELL_09_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_09_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_09_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "CELL_10_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.866744233270962e-05
+    },
+    {
+      "name": "CELL_10_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_10_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_10_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "CELL_11_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.86674423444902e-05
+    },
+    {
+      "name": "CELL_11_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_11_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_11_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "CELL_12_separate_lid",
+      "vertices": 920,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 4.866744234514278e-05
+    },
+    {
+      "name": "CELL_12_negative_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_12_positive_post",
+      "vertices": 96,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 1.9171687866257965e-06
+    },
+    {
+      "name": "CELL_12_filler_plug",
+      "vertices": 288,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 6.039336452228795e-06
+    },
+    {
+      "name": "SERIES_LINK_01_02",
+      "vertices": 340,
+      "non_manifold_edges": 136,
+      "signed_volume_m3": 5.669640182843134e-06
+    },
+    {
+      "name": "SERIES_LINK_02_03",
+      "vertices": 340,
+      "non_manifold_edges": 136,
+      "signed_volume_m3": 7.563559555248455e-06
+    },
+    {
+      "name": "SERIES_LINK_03_04",
+      "vertices": 340,
+      "non_manifold_edges": 136,
+      "signed_volume_m3": 5.669639760271211e-06
+    },
+    {
+      "name": "SERIES_LINK_04_05",
+      "vertices": 340,
+      "non_manifold_edges": 136,
+      "signed_volume_m3": 7.563559555248455e-06
+    },
+    {
+      "name": "SERIES_LINK_05_06",
+      "vertices": 340,
+      "non_manifold_edges": 136,
+      "signed_volume_m3": 5.669640182843134e-06
+    },
+    {
+      "name": "SERIES_LINK_06_07",
+      "vertices": 340,
+      "non_manifold_edges": 136,
+      "signed_volume_m3": 1.2032547282743063e-05
+    },
+    {
+      "name": "SERIES_LINK_07_08",
+      "vertices": 340,
+      "non_manifold_edges": 136,
+      "signed_volume_m3": 5.669640182843134e-06
+    },
+    {
+      "name": "SERIES_LINK_08_09",
+      "vertices": 340,
+      "non_manifold_edges": 136,
+      "signed_volume_m3": 7.563559555248455e-06
+    },
+    {
+      "name": "SERIES_LINK_09_10",
+      "vertices": 340,
+      "non_manifold_edges": 136,
+      "signed_volume_m3": 5.669639760271211e-06
+    },
+    {
+      "name": "SERIES_LINK_10_11",
+      "vertices": 340,
+      "non_manifold_edges": 136,
+      "signed_volume_m3": 7.563559555248455e-06
+    },
+    {
+      "name": "SERIES_LINK_11_12",
+      "vertices": 340,
+      "non_manifold_edges": 136,
+      "signed_volume_m3": 5.669640182843134e-06
+    },
+    {
+      "name": "FRONT_negative_terminal_lug",
+      "vertices": 344,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 7.138435373687884e-06
+    },
+    {
+      "name": "negative_front_lead",
+      "vertices": 270,
+      "non_manifold_edges": 40,
+      "signed_volume_m3": 2.394183382068276e-06
+    },
+    {
+      "name": "FRONT_positive_terminal_lug",
+      "vertices": 344,
+      "non_manifold_edges": 0,
+      "signed_volume_m3": 7.138435373687884e-06
+    },
+    {
+      "name": "positive_front_lead",
+      "vertices": 270,
+      "non_manifold_edges": 40,
+      "signed_volume_m3": 2.3941833820682653e-06
+    }
+  ],
+  "graph": {
+    "cells": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "series_links": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        12
+      ]
+    ],
+    "front_terminals": {
+      "negative_cell": 1,
+      "positive_cell": 12
+    },
+    "nominal_complete_unit_voltage_v": 24,
+    "nominal_complete_unit_capacity_Ah": 70,
+    "four_vehicle_units_parallel_capacity_Ah": 280,
+    "scope": "Documented logical topology, not electrochemical or circuit simulation validation"
+  },
+  "unmodeled": [
+    "PLATE_PACKS_AND_SEPARATORS_UNMODELED",
+    "PRESSED_WOOD_TOP_COVER_UNMODELED",
+    "PROTECTIVE_TERMINAL_HOOD_UNMODELED"
+  ]
+}

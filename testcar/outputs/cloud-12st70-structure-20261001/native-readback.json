@@ -1,0 +1,1232 @@
+{
+  "status": "NATIVE_STRUCTURE_STUDY_ONLY_NOT_ACCEPTED_BATTERY",
+  "source_sha256": "8aec227e6f2d562cd2d416e740db67ed7487846f5bb6f69029b62a5be43fa30c",
+  "topology": [
+    {
+      "name": "WOOD_bottom",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 0.0010392071554025733,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "WOOD_long_side_-1",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 0.0009465571780349054,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "WOOD_end_-1",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 0.00035845316660608007,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "WOOD_long_side_1",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 0.0009465571780349054,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "WOOD_end_1",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 0.00035845316660608007,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "EBONITE_block_1_FOUR_CHAMBERS",
+      "vertices": 280,
+      "triangles": 556,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 0.0008346819845904687,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "EBONITE_block_2_FOUR_CHAMBERS",
+      "vertices": 280,
+      "triangles": 556,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 0.0008346819845904687,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "EBONITE_block_3_FOUR_CHAMBERS",
+      "vertices": 280,
+      "triangles": 556,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 0.0008346819845904687,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "STEEL_tie_band_1",
+      "vertices": 112,
+      "triangles": 224,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.1628331764474526e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "STEEL_tie_band_2",
+      "vertices": 112,
+      "triangles": 224,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.1628331764474526e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_01_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.866744016305817e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_01_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_01_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_01_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_02_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.8667440162405575e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_02_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_02_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_02_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_03_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.8667440151963e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_03_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_03_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_03_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_04_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.8667440151791235e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_04_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_04_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_04_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_05_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.8667440162405575e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_05_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_05_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_05_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_06_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.866744016304886e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_06_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_06_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_06_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_07_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.866744234602388e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_07_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_07_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_07_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_08_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.86674423444902e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_08_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_08_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_08_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_09_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.8667442333716266e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_09_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_09_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_09_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_10_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.866744233270962e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_10_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_10_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_10_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_11_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.86674423444902e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_11_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_11_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_11_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_12_separate_lid",
+      "vertices": 920,
+      "triangles": 1848,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 4.866744234514278e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_12_negative_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_12_positive_post",
+      "vertices": 96,
+      "triangles": 188,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.9171687866257965e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "CELL_12_filler_plug",
+      "vertices": 288,
+      "triangles": 572,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 6.039336452228795e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "SERIES_LINK_01_02",
+      "vertices": 272,
+      "triangles": 540,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 5.669640182843134e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "SERIES_LINK_02_03",
+      "vertices": 272,
+      "triangles": 540,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 7.563559555248455e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "SERIES_LINK_03_04",
+      "vertices": 272,
+      "triangles": 540,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 5.669639760271211e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "SERIES_LINK_04_05",
+      "vertices": 272,
+      "triangles": 540,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 7.563559555248455e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "SERIES_LINK_05_06",
+      "vertices": 272,
+      "triangles": 540,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 5.669640182843134e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "SERIES_LINK_06_07",
+      "vertices": 272,
+      "triangles": 540,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 1.2032547282743063e-05,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "SERIES_LINK_07_08",
+      "vertices": 272,
+      "triangles": 540,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 5.669640182843134e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "SERIES_LINK_08_09",
+      "vertices": 272,
+      "triangles": 540,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 7.563559555248455e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "SERIES_LINK_09_10",
+      "vertices": 272,
+      "triangles": 540,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 5.669639760271211e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "SERIES_LINK_10_11",
+      "vertices": 272,
+      "triangles": 540,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 7.563559555248455e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "SERIES_LINK_11_12",
+      "vertices": 272,
+      "triangles": 540,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 5.669640182843134e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "FRONT_negative_terminal_lug",
+      "vertices": 344,
+      "triangles": 688,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 7.138435373687884e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "negative_front_lead",
+      "vertices": 250,
+      "triangles": 496,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 2.394183382068276e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "FRONT_positive_terminal_lug",
+      "vertices": 344,
+      "triangles": 688,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 7.138435373687884e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    },
+    {
+      "name": "positive_front_lead",
+      "vertices": 250,
+      "triangles": 496,
+      "non_manifold_edges": 0,
+      "non_manifold_vertices": 0,
+      "signed_volume_m3": 2.3941833820682653e-06,
+      "degenerate_faces": 0,
+      "nonadjacent_self_intersection_triangle_pairs": 0
+    }
+  ],
+  "physical_chamber_probes": [
+    {
+      "tank": "EBONITE_block_1_FOUR_CHAMBERS",
+      "grid": [
+        0,
+        0
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.04083332419395447,
+        0.04083332419395447,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    },
+    {
+      "tank": "EBONITE_block_1_FOUR_CHAMBERS",
+      "grid": [
+        0,
+        1
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.04083332419395447,
+        0.04083332419395447,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    },
+    {
+      "tank": "EBONITE_block_1_FOUR_CHAMBERS",
+      "grid": [
+        1,
+        0
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.040833331644535065,
+        0.04083332419395447,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    },
+    {
+      "tank": "EBONITE_block_1_FOUR_CHAMBERS",
+      "grid": [
+        1,
+        1
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.040833331644535065,
+        0.04083332419395447,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    },
+    {
+      "tank": "EBONITE_block_2_FOUR_CHAMBERS",
+      "grid": [
+        0,
+        0
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.040833331644535065,
+        0.040833331644535065,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    },
+    {
+      "tank": "EBONITE_block_2_FOUR_CHAMBERS",
+      "grid": [
+        0,
+        1
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.040833331644535065,
+        0.040833331644535065,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    },
+    {
+      "tank": "EBONITE_block_2_FOUR_CHAMBERS",
+      "grid": [
+        1,
+        0
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.040833331644535065,
+        0.040833331644535065,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    },
+    {
+      "tank": "EBONITE_block_2_FOUR_CHAMBERS",
+      "grid": [
+        1,
+        1
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.040833331644535065,
+        0.040833331644535065,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    },
+    {
+      "tank": "EBONITE_block_3_FOUR_CHAMBERS",
+      "grid": [
+        0,
+        0
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.04083332419395447,
+        0.040833331644535065,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    },
+    {
+      "tank": "EBONITE_block_3_FOUR_CHAMBERS",
+      "grid": [
+        0,
+        1
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.04083332419395447,
+        0.040833331644535065,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    },
+    {
+      "tank": "EBONITE_block_3_FOUR_CHAMBERS",
+      "grid": [
+        1,
+        0
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.04083332419395447,
+        0.04083332419395447,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    },
+    {
+      "tank": "EBONITE_block_3_FOUR_CHAMBERS",
+      "grid": [
+        1,
+        1
+      ],
+      "floor_z_m": 0.012999996542930603,
+      "open_depth_from_tank_rim_m": 0.19300000369548798,
+      "four_side_wall_distances_m": [
+        0.04083332419395447,
+        0.04083332419395447,
+        0.0507499985396862,
+        0.0507499985396862
+      ]
+    }
+  ],
+  "weld_source_comparisons": [
+    {
+      "part": "SERIES_LINK_01_02",
+      "curve_source": "SOURCE_CURVE_SERIES_LINK_01_02",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 340,
+      "welded_vertices": 272
+    },
+    {
+      "part": "SERIES_LINK_02_03",
+      "curve_source": "SOURCE_CURVE_SERIES_LINK_02_03",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 340,
+      "welded_vertices": 272
+    },
+    {
+      "part": "SERIES_LINK_03_04",
+      "curve_source": "SOURCE_CURVE_SERIES_LINK_03_04",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 340,
+      "welded_vertices": 272
+    },
+    {
+      "part": "SERIES_LINK_04_05",
+      "curve_source": "SOURCE_CURVE_SERIES_LINK_04_05",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 340,
+      "welded_vertices": 272
+    },
+    {
+      "part": "SERIES_LINK_05_06",
+      "curve_source": "SOURCE_CURVE_SERIES_LINK_05_06",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 340,
+      "welded_vertices": 272
+    },
+    {
+      "part": "SERIES_LINK_06_07",
+      "curve_source": "SOURCE_CURVE_SERIES_LINK_06_07",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 340,
+      "welded_vertices": 272
+    },
+    {
+      "part": "SERIES_LINK_07_08",
+      "curve_source": "SOURCE_CURVE_SERIES_LINK_07_08",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 340,
+      "welded_vertices": 272
+    },
+    {
+      "part": "SERIES_LINK_08_09",
+      "curve_source": "SOURCE_CURVE_SERIES_LINK_08_09",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 340,
+      "welded_vertices": 272
+    },
+    {
+      "part": "SERIES_LINK_09_10",
+      "curve_source": "SOURCE_CURVE_SERIES_LINK_09_10",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 340,
+      "welded_vertices": 272
+    },
+    {
+      "part": "SERIES_LINK_10_11",
+      "curve_source": "SOURCE_CURVE_SERIES_LINK_10_11",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 340,
+      "welded_vertices": 272
+    },
+    {
+      "part": "SERIES_LINK_11_12",
+      "curve_source": "SOURCE_CURVE_SERIES_LINK_11_12",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 340,
+      "welded_vertices": 272
+    },
+    {
+      "part": "negative_front_lead",
+      "curve_source": "SOURCE_CURVE_negative_front_lead",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 270,
+      "welded_vertices": 250
+    },
+    {
+      "part": "positive_front_lead",
+      "curve_source": "SOURCE_CURVE_positive_front_lead",
+      "maximum_bidirectional_vertex_set_difference_m": 0.0,
+      "original_vertices": 270,
+      "welded_vertices": 250
+    }
+  ],
+  "conductive_surface_contacts": [
+    {
+      "a": "CELL_01_negative_post",
+      "b": "negative_front_lead",
+      "surface_triangle_pairs": 55,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_01_positive_post",
+      "b": "SERIES_LINK_01_02",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_02_negative_post",
+      "b": "SERIES_LINK_01_02",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_02_positive_post",
+      "b": "SERIES_LINK_02_03",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_03_negative_post",
+      "b": "SERIES_LINK_02_03",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_03_positive_post",
+      "b": "SERIES_LINK_03_04",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_04_negative_post",
+      "b": "SERIES_LINK_03_04",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_04_positive_post",
+      "b": "SERIES_LINK_04_05",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_05_negative_post",
+      "b": "SERIES_LINK_04_05",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_05_positive_post",
+      "b": "SERIES_LINK_05_06",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_06_negative_post",
+      "b": "SERIES_LINK_05_06",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_06_positive_post",
+      "b": "SERIES_LINK_06_07",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_07_negative_post",
+      "b": "SERIES_LINK_06_07",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_07_positive_post",
+      "b": "SERIES_LINK_07_08",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_08_negative_post",
+      "b": "SERIES_LINK_07_08",
+      "surface_triangle_pairs": 123,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_08_positive_post",
+      "b": "SERIES_LINK_08_09",
+      "surface_triangle_pairs": 124,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_09_negative_post",
+      "b": "SERIES_LINK_08_09",
+      "surface_triangle_pairs": 123,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_09_positive_post",
+      "b": "SERIES_LINK_09_10",
+      "surface_triangle_pairs": 123,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_10_negative_post",
+      "b": "SERIES_LINK_09_10",
+      "surface_triangle_pairs": 122,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_10_positive_post",
+      "b": "SERIES_LINK_10_11",
+      "surface_triangle_pairs": 124,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_11_negative_post",
+      "b": "SERIES_LINK_10_11",
+      "surface_triangle_pairs": 124,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_11_positive_post",
+      "b": "SERIES_LINK_11_12",
+      "surface_triangle_pairs": 124,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_12_negative_post",
+      "b": "SERIES_LINK_11_12",
+      "surface_triangle_pairs": 123,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "CELL_12_positive_post",
+      "b": "positive_front_lead",
+      "surface_triangle_pairs": 55,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "FRONT_negative_terminal_lug",
+      "b": "negative_front_lead",
+      "surface_triangle_pairs": 12,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    },
+    {
+      "a": "FRONT_positive_terminal_lug",
+      "b": "positive_front_lead",
+      "surface_triangle_pairs": 12,
+      "expected_electrical_joint": true,
+      "status": "FITTED_JOINT_REQUIRES_WELD_DETAIL"
+    }
+  ],
+  "unexpected_conductive_intersections": 0,
+  "missing_expected_surface_contact_checks": 0,
+  "nonjoint_conductor_pairs_disjoint_by_padded_boxes": 794,
+  "unresolved_nonjoint_volume_pairs": [],
+  "modeled_geometry_bounds_m": {
+    "min": [
+      -0.29426243901252747,
+      -0.11649999767541885,
+      -0.0015000030398368835
+    ],
+    "max": [
+      0.2824999988079071,
+      0.11649999767541885,
+      0.2280000001192093
+    ],
+    "extent": [
+      0.5767624378204346,
+      0.2329999953508377,
+      0.22950000315904617
+    ]
+  },
+  "published_complete_unit_envelope_m": [
+    0.587,
+    0.238,
+    0.239
+  ],
+  "dimension_interpretation": "Current fitted wood case/tanks/links are incomplete. Overall published dimensions include an unresolved complete configuration; this smaller study does not pass factory dimension acceptance.",
+  "electrical_scope": "12-cell series graph and modeled contact locations only; no plate packs, separator count, electrolyte, resistance, electrochemistry, thermal/ventilation or insulation-clearance verification. Copper inserts and weld details not modeled.",
+  "omitted_hardware": [
+    "terminal protective hood",
+    "pressed wood overall lid",
+    "precise carrying hardware",
+    "vehicle box/mounts and four-unit placement"
+  ],
+  "no_original_scan_pixels_embedded": true,
+  "all16VehicleGates": "OPEN",
+  "file_unchanged_after_readback": true
+}

@@ -1,0 +1,116 @@
+{
+  "status": "INDEPENDENT_UNACCEPTED_STRUCTURE_STUDY_NOT_VEHICLE_INSTALLATION",
+  "source_scans_included": false,
+  "files": [
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/12ST70_Family_Structure_Study.blend",
+      "bytes": 161585,
+      "sha256": "8aec227e6f2d562cd2d416e740db67ed7487846f5bb6f69029b62a5be43fa30c"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/12ST70_Family_Structure_Study.blend1",
+      "bytes": 136316,
+      "sha256": "636dbab9552733e533c4f93ece7874124657d6a2490f6343a57edec70d4b3322"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/README.md",
+      "bytes": 4355,
+      "sha256": "d93637d15b99f4ad6404abb1a9a1f0cec19484caf51fe4c02172ced1d94dc8e9"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/build-audit.json",
+      "bytes": 13281,
+      "sha256": "a5a80c47eadc124280e672167358c9d52c41319a7b8fd5af47d83d4eac942a56"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/initial-build-serialization-failure.log",
+      "bytes": 1887,
+      "sha256": "319f636531c196ee03967a68c8445d064da89f8b2ac6ad573baa4762e355cee7"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/iteration-01-open-curve-seams/12ST70_Family_Structure_Study.blend",
+      "bytes": 136316,
+      "sha256": "636dbab9552733e533c4f93ece7874124657d6a2490f6343a57edec70d4b3322"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/iteration-01-open-curve-seams/build-12st70-structure-study.py",
+      "bytes": 12910,
+      "sha256": "dd1dd2ceea10bd15797f299fae6b5dab4d9563871211899b97ae72e7439829f8"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/iteration-01-open-curve-seams/build-audit.json",
+      "bytes": 13305,
+      "sha256": "e766eccfee03e27953d98ba519abfaa9fa2a699b04514fcf81255c41b8b7b9ab"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/iteration-01-open-curve-seams/native-run.log",
+      "bytes": 25230,
+      "sha256": "67e141dce351252763fe18552c5d328e2d3fc60785e08f608cf62740944c6c44"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/iteration-01-open-curve-seams/parts-register.json",
+      "bytes": 15937,
+      "sha256": "98a51e3e1ddd3eaf6a9502a73d30f48f7779810e7d6931afd4ee65f1bcd9c689"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/iteration-01-open-curve-seams/render-provenance.json",
+      "bytes": 3504,
+      "sha256": "4c82a31822e3db156ebc7f848163140841951de47d004cd79918188f4e45f710"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/iteration-01-open-curve-seams/structure-exterior.png",
+      "bytes": 1370306,
+      "sha256": "fe66820bb62901e3938a2352dc918c71bc2d6110f1cc0866211e610c0520bd25"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/iteration-01-open-curve-seams/three-four-chamber-layout.png",
+      "bytes": 1341956,
+      "sha256": "63e31f71d6ea0973c22ceef3d5b01c767faed766e70f9ff698635e086562bcad"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/native-readback.json",
+      "bytes": 36144,
+      "sha256": "3390b4f8f70a208016fbc3b9702845a4e160bae18ae59743ae8f9748330d436e"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/native-readback.log",
+      "bytes": 321,
+      "sha256": "dbc837571c0478e7c55bdde40ddf4a1cdbd9c3578a59ae39eac3999eb976f881"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/native-run.log",
+      "bytes": 24745,
+      "sha256": "1dd00b261efa51009a65d283b062e3e68b4f219026aa02c224f4fd8081950df9"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/parts-register.json",
+      "bytes": 15937,
+      "sha256": "98a51e3e1ddd3eaf6a9502a73d30f48f7779810e7d6931afd4ee65f1bcd9c689"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/render-provenance.json",
+      "bytes": 3504,
+      "sha256": "4c82a31822e3db156ebc7f848163140841951de47d004cd79918188f4e45f710"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/structure-exterior.png",
+      "bytes": 1370985,
+      "sha256": "0b5f08f3445aeea1f3116777eaabb95f11eebb93803a771f971c495d21a29572"
+    },
+    {
+      "path": "testcar/outputs/cloud-12st70-structure-20261001/three-four-chamber-layout.png",
+      "bytes": 1341956,
+      "sha256": "ffc549b31a44166973f1999a7d754b9f425f39a169aedabd421314fcbb861a2e"
+    },
+    {
+      "path": "testcar/scripts/build-12st70-structure-study.py",
+      "bytes": 13495,
+      "sha256": "f43f675e64a891e231e34aab1d0938da5a8e0b3215fc6bff8eeeb5450305e783"
+    },
+    {
+      "path": "testcar/scripts/verify-12st70-structure-study.py",
+      "bytes": 7083,
+      "sha256": "e5d0aa396c13ce7a2f43caaa27bc10aefe7476bec797659b4eabe2e140f952aa"
+    }
+  ]
+}

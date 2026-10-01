@@ -1,0 +1,513 @@
+[
+  {
+    "name": "WOOD_bottom",
+    "role": "wood_case",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Five-board layout is a reconstruction, not factory joinery",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "WOOD_long_side_-1",
+    "role": "wood_case",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented wood case, coating BT-783; finish shade fitted",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "WOOD_end_-1",
+    "role": "wood_case",
+    "source": "1977 fig128;1983 p11",
+    "detail": "End board; attachment and carrying hardware unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "WOOD_long_side_1",
+    "role": "wood_case",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented wood case, coating BT-783; finish shade fitted",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "WOOD_end_1",
+    "role": "wood_case",
+    "source": "1977 fig128;1983 p11",
+    "detail": "End board; attachment and carrying hardware unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "EBONITE_block_1_FOUR_CHAMBERS",
+    "role": "four_chamber_tank",
+    "source": "1977 fig128;1983 p11",
+    "detail": "1983 explicitly specifies three four-chamber ebonite tanks, not12 separate pots",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "EBONITE_block_2_FOUR_CHAMBERS",
+    "role": "four_chamber_tank",
+    "source": "1977 fig128;1983 p11",
+    "detail": "1983 explicitly specifies three four-chamber ebonite tanks, not12 separate pots",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "EBONITE_block_3_FOUR_CHAMBERS",
+    "role": "four_chamber_tank",
+    "source": "1977 fig128;1983 p11",
+    "detail": "1983 explicitly specifies three four-chamber ebonite tanks, not12 separate pots",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "STEEL_tie_band_1",
+    "role": "steel_band",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Two steel bands pass between the three tanks; clamp force/joinery unmodeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "STEEL_tie_band_2",
+    "role": "steel_band",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Two steel bands pass between the three tanks; clamp force/joinery unmodeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_01_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_01_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_01_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_01_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_02_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_02_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_02_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_02_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_03_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_03_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_03_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_03_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_04_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_04_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_04_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_04_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_05_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_05_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_05_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_05_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_06_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_06_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_06_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_06_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_07_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_07_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_07_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_07_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_08_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_08_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_08_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_08_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_09_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_09_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_09_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_09_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_10_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_10_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_10_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_10_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_11_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_11_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_11_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_11_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_12_separate_lid",
+    "role": "cell_lid",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Separate cell closure; sealing details unresolved",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_12_negative_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_12_positive_post",
+    "role": "lead_post",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Documented post; copper insert and hermetic feedthrough not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "CELL_12_filler_plug",
+    "role": "filler_plug",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Twelve ports; cap profile, thread and vent revision not calibrated",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "SERIES_LINK_01_02",
+    "role": "series_link",
+    "source": "1977 p206;1983 fig12",
+    "detail": "Fitted welded link envelope; exact weld/copper insert geometry not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "SERIES_LINK_02_03",
+    "role": "series_link",
+    "source": "1977 p206;1983 fig12",
+    "detail": "Fitted welded link envelope; exact weld/copper insert geometry not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "SERIES_LINK_03_04",
+    "role": "series_link",
+    "source": "1977 p206;1983 fig12",
+    "detail": "Fitted welded link envelope; exact weld/copper insert geometry not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "SERIES_LINK_04_05",
+    "role": "series_link",
+    "source": "1977 p206;1983 fig12",
+    "detail": "Fitted welded link envelope; exact weld/copper insert geometry not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "SERIES_LINK_05_06",
+    "role": "series_link",
+    "source": "1977 p206;1983 fig12",
+    "detail": "Fitted welded link envelope; exact weld/copper insert geometry not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "SERIES_LINK_06_07",
+    "role": "series_link",
+    "source": "1977 p206;1983 fig12",
+    "detail": "Fitted welded link envelope; exact weld/copper insert geometry not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "SERIES_LINK_07_08",
+    "role": "series_link",
+    "source": "1977 p206;1983 fig12",
+    "detail": "Fitted welded link envelope; exact weld/copper insert geometry not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "SERIES_LINK_08_09",
+    "role": "series_link",
+    "source": "1977 p206;1983 fig12",
+    "detail": "Fitted welded link envelope; exact weld/copper insert geometry not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "SERIES_LINK_09_10",
+    "role": "series_link",
+    "source": "1977 p206;1983 fig12",
+    "detail": "Fitted welded link envelope; exact weld/copper insert geometry not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "SERIES_LINK_10_11",
+    "role": "series_link",
+    "source": "1977 p206;1983 fig12",
+    "detail": "Fitted welded link envelope; exact weld/copper insert geometry not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "SERIES_LINK_11_12",
+    "role": "series_link",
+    "source": "1977 p206;1983 fig12",
+    "detail": "Fitted welded link envelope; exact weld/copper insert geometry not modeled",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "FRONT_negative_terminal_lug",
+    "role": "front_terminal",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Front-wall bolt-hole lug documented; dimensions and bolted attachment fitted",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "negative_front_lead",
+    "role": "front_lead",
+    "source": "1977 p206",
+    "detail": "Routing fitted; geometry may require weld/contact refinement",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "FRONT_positive_terminal_lug",
+    "role": "front_terminal",
+    "source": "1977 fig128;1983 p11",
+    "detail": "Front-wall bolt-hole lug documented; dimensions and bolted attachment fitted",
+    "dimensions": "FITTED"
+  },
+  {
+    "name": "positive_front_lead",
+    "role": "front_lead",
+    "source": "1977 p206",
+    "detail": "Routing fitted; geometry may require weld/contact refinement",
+    "dimensions": "FITTED"
+  }
+]
