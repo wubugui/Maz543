@@ -1,0 +1,22 @@
+{
+  "variant": "MAZ-543A",
+  "source": {
+    "title": "Колесное шасси МАЗ-543 и его модификации. Техническое описание",
+    "edition": "3rd edition, Moscow 1977",
+    "url": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+    "bookSHA256": "cf8ebb65dcbfca6dd3b6c55a3174cfe9d628a206cb8c846eceee0041a2bb1bde",
+    "printedPages": [165, 320],
+    "djvuPagesOneBased": [84, 162],
+    "verification": "Original-resolution scans directly inspected; prose resolves the fig98 datum and installation condition"
+  },
+  "lowerArmHeadCentersVerticalSeparationM": {
+    "minimum": 0.136,
+    "maximum": 0.141,
+    "condition": "Torsion shaft installation/replacement positioning, front and rear suspensions. Set the support bolts against the upper arms and secure their locknuts. The following removal procedure raises the frame to this lower-arm dimension.",
+    "notEquivalentTo": ["wheel travel", "unloaded ride-height target", "loaded static preload", "torsion bar length", "arm center-to-center length"]
+  },
+  "fullLoadQualitativeCheck": "With correctly installed torsion shafts and fully loaded chassis, upper arms should be close to horizontal; no numeric angular tolerance is supplied in this passage.",
+  "otherVariantExcluded": {"variant": "MAZ-543M", "installationRangeM": [0.138, 0.143]},
+  "remainingUnknowns": ["factory hardpoint coordinates and arm lengths", "numeric fully-loaded arm-angle tolerance", "unloaded ride height", "spring preloads and stiffness calibration", "actual support bolt contact geometry and stop adjustment"],
+  "wholeVehicleAcceptance": "16 OPEN"
+}

@@ -1,0 +1,67 @@
+{
+  "status": "REFERENCE_DATUM_RESOLVED; EXISTING_STOP_CONTACT_FAILS_IN_DIAGNOSTIC_POSES; 16 OPEN",
+  "files": [
+    {
+      "path": "testcar/outputs/cloud-suspension-installation-20261001/native-datum-and-stop-report.json",
+      "bytes": 62941,
+      "sha256": "9a3511c1fe40fcbab0f9c9c3284ae6fe6c52a4a3eb25e7bdaf8ec3691bff3e3d"
+    },
+    {
+      "path": "testcar/outputs/cloud-suspension-installation-20261001/native-installation-links.png",
+      "bytes": 1366290,
+      "sha256": "24ab53dc46cf0d5fb5ac57c8c8f825785aaa8802f26b19820a46f7c75b1d5bb5"
+    },
+    {
+      "path": "testcar/outputs/cloud-suspension-installation-20261001/native-run.log",
+      "bytes": 344,
+      "sha256": "5c084b522a933ecb02888a4e5a5db0d0a2c0ab77f7ead0f707749f8ac69822fe"
+    },
+    {
+      "path": "testcar/outputs/cloud-suspension-installation-20261001/native-zero-links.png",
+      "bytes": 1347247,
+      "sha256": "04c08aed6a74f2c07669f2f3a83b864e67450f7b88f5de66d91ee5e460fd0270"
+    },
+    {
+      "path": "testcar/outputs/cloud-suspension-installation-20261001/reference-mapping.json",
+      "bytes": 45124,
+      "sha256": "617623b6c8564b59c9e278095c6a78a6804fcc63eacb5ae44556c80ee5aeac40"
+    },
+    {
+      "path": "testcar/outputs/cloud-suspension-installation-20261001/render-provenance.json",
+      "bytes": 5156,
+      "sha256": "c36defc3073a920e3c37affc08a966b021f2241e51f01a8cd3942b0c0b5c4d8f"
+    },
+    {
+      "path": "testcar/outputs/cloud-suspension-installation-20261001/render-run.log",
+      "bytes": 36605,
+      "sha256": "ca919a1bdfe6b318646d57a1c7d7c100bc09430eb6a320f2de396f040a996258"
+    },
+    {
+      "path": "testcar/reference/suspension-installation-1977.json",
+      "bytes": 1665,
+      "sha256": "878344aa273f6df4a9d189965062eb656a4897f20ed03e6b1f04bd0b78133e2c"
+    },
+    {
+      "path": "testcar/docs/CLOUD_SUSPENSION_INSTALLATION_20261001.md",
+      "bytes": 3380,
+      "sha256": "53273c27a280e68e8af8413c802e410c52b08f7678ddb64749a872c4f8052c74"
+    },
+    {
+      "path": "testcar/scripts/compare-suspension-installation.mjs",
+      "bytes": 3416,
+      "sha256": "572a543143b03613615bc52d86515fa546aee92ced05c7c3f3b0c56b0def8e6f"
+    },
+    {
+      "path": "testcar/scripts/audit-suspension-installation-native.py",
+      "bytes": 4170,
+      "sha256": "6c838b0fb66cb9a199318c42f22ad72198434e9d772dc1b9f1d1948faa3cb82e"
+    },
+    {
+      "path": "testcar/scripts/render-suspension-installation-diagnosis.py",
+      "bytes": 4843,
+      "sha256": "f35e576eabec58f623d3cc68dd3755f936d573381942e8242bb87ea193b54d98"
+    }
+  ],
+  "original_manual_scan_pixels_included": false,
+  "new_blend_saved": false
+}

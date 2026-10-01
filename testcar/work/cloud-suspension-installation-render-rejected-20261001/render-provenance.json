@@ -1,0 +1,157 @@
+{
+  "engine": "Actual Cycles CPU 48 samples",
+  "source_sha256": "1332163b7c99da0bf3b11d3e9c250b451ceba3430b8935bde919ae4a55b6a51d",
+  "source_unchanged": true,
+  "shown_actual_parts": [
+    "S543_0_damper_lower_clevis_-0.049",
+    "S543_0_damper_lower_clevis_0.049",
+    "S543_0_droop_limit_bolt",
+    "S543_0_droop_locknut",
+    "S543_0_kingpin_seal_0.03",
+    "S543_0_kingpin_seal_0.27",
+    "S543_0_lower_axis_sleeve",
+    "S543_0_lower_cap_fastener_-1_0_hex",
+    "S543_0_lower_cap_fastener_-1_0_washer",
+    "S543_0_lower_cap_fastener_-1_1_hex",
+    "S543_0_lower_cap_fastener_-1_1_washer",
+    "S543_0_lower_cap_fastener_-1_2_hex",
+    "S543_0_lower_cap_fastener_-1_2_washer",
+    "S543_0_lower_cap_fastener_-1_3_hex",
+    "S543_0_lower_cap_fastener_-1_3_washer",
+    "S543_0_lower_cap_fastener_1_0_hex",
+    "S543_0_lower_cap_fastener_1_0_washer",
+    "S543_0_lower_cap_fastener_1_1_hex",
+    "S543_0_lower_cap_fastener_1_1_washer",
+    "S543_0_lower_cap_fastener_1_2_hex",
+    "S543_0_lower_cap_fastener_1_2_washer",
+    "S543_0_lower_cap_fastener_1_3_hex",
+    "S543_0_lower_cap_fastener_1_3_washer",
+    "S543_0_lower_clamp_bolt_-1_hex",
+    "S543_0_lower_clamp_bolt_-1_washer",
+    "S543_0_lower_clamp_bolt_1_hex",
+    "S543_0_lower_clamp_bolt_1_washer",
+    "S543_0_lower_clamp_ear_-1",
+    "S543_0_lower_clamp_ear_1",
+    "S543_0_lower_damper_pin",
+    "S543_0_lower_fork_-1",
+    "S543_0_lower_fork_1",
+    "S543_0_lower_outer_boss_-1",
+    "S543_0_lower_outer_boss_1",
+    "S543_0_lower_outer_bush_-1",
+    "S543_0_lower_outer_bush_1",
+    "S543_0_lower_pin_cap_-1",
+    "S543_0_lower_pin_cap_1",
+    "S543_0_lower_rib_-1",
+    "S543_0_lower_rib_1",
+    "S543_0_steering_kingpin",
+    "S543_0_upper_axis_sleeve",
+    "S543_0_upper_cap_fastener_-1_0_hex",
+    "S543_0_upper_cap_fastener_-1_0_washer",
+    "S543_0_upper_cap_fastener_-1_1_hex",
+    "S543_0_upper_cap_fastener_-1_1_washer",
+    "S543_0_upper_cap_fastener_-1_2_hex",
+    "S543_0_upper_cap_fastener_-1_2_washer",
+    "S543_0_upper_cap_fastener_-1_3_hex",
+    "S543_0_upper_cap_fastener_-1_3_washer",
+    "S543_0_upper_cap_fastener_1_0_hex",
+    "S543_0_upper_cap_fastener_1_0_washer",
+    "S543_0_upper_cap_fastener_1_1_hex",
+    "S543_0_upper_cap_fastener_1_1_washer",
+    "S543_0_upper_cap_fastener_1_2_hex",
+    "S543_0_upper_cap_fastener_1_2_washer",
+    "S543_0_upper_cap_fastener_1_3_hex",
+    "S543_0_upper_cap_fastener_1_3_washer",
+    "S543_0_upper_clamp_bolt_-1_hex",
+    "S543_0_upper_clamp_bolt_-1_washer",
+    "S543_0_upper_clamp_bolt_1_hex",
+    "S543_0_upper_clamp_bolt_1_washer",
+    "S543_0_upper_clamp_ear_-1",
+    "S543_0_upper_clamp_ear_1",
+    "S543_0_upper_fork_-1",
+    "S543_0_upper_fork_1",
+    "S543_0_upper_outer_boss_-1",
+    "S543_0_upper_outer_boss_1",
+    "S543_0_upper_outer_bush_-1",
+    "S543_0_upper_outer_bush_1",
+    "S543_0_upper_pin_cap_-1",
+    "S543_0_upper_pin_cap_1",
+    "S543_0_upper_rib_-1",
+    "S543_0_upper_rib_1",
+    "S543_0_upright_casting",
+    "S543_0_upright_pin_0",
+    "S543_0_upright_pin_0.397",
+    "S543_0_wedge_retainer_0.397_-0.057_hex",
+    "S543_0_wedge_retainer_0.397_-0.057_washer",
+    "S543_0_wedge_retainer_0.397_0.057_hex",
+    "S543_0_wedge_retainer_0.397_0.057_washer",
+    "S543_0_wedge_retainer_0_-0.057_hex",
+    "S543_0_wedge_retainer_0_-0.057_washer",
+    "S543_0_wedge_retainer_0_0.057_hex",
+    "S543_0_wedge_retainer_0_0.057_washer"
+  ],
+  "records": [
+    {
+      "file": "native-zero-links.png",
+      "sha256": "a8ea6b88cc7da110bfcce8dff7c544d15ac564f090f2aabd4042b3edb1d34a0e",
+      "camera_matrix_world": [
+        [
+          -0.4036403298377991,
+          -0.21082435548305511,
+          0.8902963399887085,
+          -1.3799999952316284
+        ],
+        [
+          0.9149177670478821,
+          -0.09301064908504486,
+          0.3927779495716095,
+          1.5700000524520874
+        ],
+        [
+          -1.199202586121828e-07,
+          0.9730889797210693,
+          0.23042979836463928,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "diagnostic_drop_m": null
+    },
+    {
+      "file": "native-installation-links.png",
+      "sha256": "bbe0ff81fb9151bfe3ef60d2e82353ff3057e36c78c8804d5917cc985c73e019",
+      "camera_matrix_world": [
+        [
+          -0.4036403298377991,
+          -0.21082435548305511,
+          0.8902963399887085,
+          -1.3799999952316284
+        ],
+        [
+          0.9149177670478821,
+          -0.09301064908504486,
+          0.3927779495716095,
+          1.5700000524520874
+        ],
+        [
+          -1.199202586121828e-07,
+          0.9730889797210693,
+          0.23042979836463928,
+          1.2699999809265137
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "diagnostic_drop_m": 0.1385
+    }
+  ],
+  "scope": "Isolated arm/upright/bolt details only. Torsion shafts, frame support and full suspension are deliberately not portrayed as a validated installed assembly. No source model saved."
+}

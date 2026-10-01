@@ -27,10 +27,18 @@ The later 7310 front/rear catalog is not copied as proof of early 543A castings.
 The earlier source note's incompletely assigned `130 +5` annotation is not used
 as travel data. A new native-resolution reading of the original 1977 scan,
 printed pages 164–165 / fig.98 (DJVU page 84, 3327×4397 pixels), instead clearly
-shows `136 +5` at the lower-arm/frame region. The exact extension-line datums
-and the depicted loading/setup condition have not been established, so this
-number is not transferred to arm hardpoints, stop travel, or photograph scale.
+shows `136 +5` at the lower-arm/frame region. Subsequent inspection of original
+page320 resolves the datum: the vertical separation of the lower-arm head
+centres during torsion installation is136–141 mm, with the support bolts set
+against the upper arms. This is not wheel travel or unloaded ride height and
+is not transferred to unspecified hardpoints or photograph scale.
 The research render is retained locally as `1977-original-p164-165-full.png`.
+
+See `CLOUD_SUSPENSION_INSTALLATION_20261001.md` and
+`reference/suspension-installation-1977.json` for the resolved condition and
+actual native diagnosis. The retained fitted stop bolt does not contact the
+upper-arm geometry at the three tested installation-datum values; no stop or
+preload is calibrated merely by solving the dimension in the current linkage.
 
 ## Original 1977 scan check (cloud, 2026-09-30)
 

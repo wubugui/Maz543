@@ -1,0 +1,1909 @@
+{
+  "status": "REFERENCE_DATUM_DIAGNOSIS_NOT_ASSEMBLY_ACCEPTANCE",
+  "source_file": "MAZ543A_Suspension_Master.blend",
+  "source_sha256": "1332163b7c99da0bf3b11d3e9c250b451ceba3430b8935bde919ae4a55b6a51d",
+  "input_mapping": "reference-mapping.json",
+  "rows": [
+    {
+      "station": 0,
+      "requestedVerticalDropM": 0.136,
+      "actualRigHeadDatumDropM": 0.13600003719329834,
+      "datumErrorM": 3.719329833007379e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        1.0467182397842407,
+        0.46399998664855957
+      ],
+      "upperArmGeometryParts": [
+        "S543_0_upper_axis_sleeve",
+        "S543_0_upper_cap_fastener_-1_0_hex",
+        "S543_0_upper_cap_fastener_-1_0_washer",
+        "S543_0_upper_cap_fastener_-1_1_hex",
+        "S543_0_upper_cap_fastener_-1_1_washer",
+        "S543_0_upper_cap_fastener_-1_2_hex",
+        "S543_0_upper_cap_fastener_-1_2_washer",
+        "S543_0_upper_cap_fastener_-1_3_hex",
+        "S543_0_upper_cap_fastener_-1_3_washer",
+        "S543_0_upper_cap_fastener_1_0_hex",
+        "S543_0_upper_cap_fastener_1_0_washer",
+        "S543_0_upper_cap_fastener_1_1_hex",
+        "S543_0_upper_cap_fastener_1_1_washer",
+        "S543_0_upper_cap_fastener_1_2_hex",
+        "S543_0_upper_cap_fastener_1_2_washer",
+        "S543_0_upper_cap_fastener_1_3_hex",
+        "S543_0_upper_cap_fastener_1_3_washer",
+        "S543_0_upper_clamp_bolt_-1_hex",
+        "S543_0_upper_clamp_bolt_-1_washer",
+        "S543_0_upper_clamp_bolt_1_hex",
+        "S543_0_upper_clamp_bolt_1_washer",
+        "S543_0_upper_clamp_ear_-1",
+        "S543_0_upper_clamp_ear_1",
+        "S543_0_upper_fork_-1",
+        "S543_0_upper_fork_1",
+        "S543_0_upper_outer_boss_-1",
+        "S543_0_upper_outer_boss_1",
+        "S543_0_upper_outer_bush_-1",
+        "S543_0_upper_outer_bush_1",
+        "S543_0_upper_pin_cap_-1",
+        "S543_0_upper_pin_cap_1",
+        "S543_0_upper_rib_-1",
+        "S543_0_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -3.4290661811828613,
+          0.547048807144165,
+          0.7856401801109314
+        ],
+        "max": [
+          -2.730933666229248,
+          1.0532333850860596,
+          1.0879511833190918
+        ]
+      },
+      "droopBolt": "S543_0_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -2.933000087738037,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          -2.9070000648498535,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.03064018487930298,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 1,
+      "requestedVerticalDropM": 0.136,
+      "actualRigHeadDatumDropM": 0.13600003719329834,
+      "datumErrorM": 3.719329833007379e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        -1.0467182397842407,
+        0.46399998664855957
+      ],
+      "upperArmGeometryParts": [
+        "S543_1_upper_axis_sleeve",
+        "S543_1_upper_cap_fastener_-1_0_hex",
+        "S543_1_upper_cap_fastener_-1_0_washer",
+        "S543_1_upper_cap_fastener_-1_1_hex",
+        "S543_1_upper_cap_fastener_-1_1_washer",
+        "S543_1_upper_cap_fastener_-1_2_hex",
+        "S543_1_upper_cap_fastener_-1_2_washer",
+        "S543_1_upper_cap_fastener_-1_3_hex",
+        "S543_1_upper_cap_fastener_-1_3_washer",
+        "S543_1_upper_cap_fastener_1_0_hex",
+        "S543_1_upper_cap_fastener_1_0_washer",
+        "S543_1_upper_cap_fastener_1_1_hex",
+        "S543_1_upper_cap_fastener_1_1_washer",
+        "S543_1_upper_cap_fastener_1_2_hex",
+        "S543_1_upper_cap_fastener_1_2_washer",
+        "S543_1_upper_cap_fastener_1_3_hex",
+        "S543_1_upper_cap_fastener_1_3_washer",
+        "S543_1_upper_clamp_bolt_-1_hex",
+        "S543_1_upper_clamp_bolt_-1_washer",
+        "S543_1_upper_clamp_bolt_1_hex",
+        "S543_1_upper_clamp_bolt_1_washer",
+        "S543_1_upper_clamp_ear_-1",
+        "S543_1_upper_clamp_ear_1",
+        "S543_1_upper_fork_-1",
+        "S543_1_upper_fork_1",
+        "S543_1_upper_outer_boss_-1",
+        "S543_1_upper_outer_boss_1",
+        "S543_1_upper_outer_bush_-1",
+        "S543_1_upper_outer_bush_1",
+        "S543_1_upper_pin_cap_-1",
+        "S543_1_upper_pin_cap_1",
+        "S543_1_upper_rib_-1",
+        "S543_1_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -3.4290661811828613,
+          -1.0532333850860596,
+          0.7856401801109314
+        ],
+        "max": [
+          -2.730933666229248,
+          -0.547048807144165,
+          1.0879511833190918
+        ]
+      },
+      "droopBolt": "S543_1_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -2.933000087738037,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          -2.9070000648498535,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.03064018487930298,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 2,
+      "requestedVerticalDropM": 0.136,
+      "actualRigHeadDatumDropM": 0.13600003719329834,
+      "datumErrorM": 3.719329833007379e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        1.0467182397842407,
+        0.46399998664855957
+      ],
+      "upperArmGeometryParts": [
+        "S543_2_upper_axis_sleeve",
+        "S543_2_upper_cap_fastener_-1_0_hex",
+        "S543_2_upper_cap_fastener_-1_0_washer",
+        "S543_2_upper_cap_fastener_-1_1_hex",
+        "S543_2_upper_cap_fastener_-1_1_washer",
+        "S543_2_upper_cap_fastener_-1_2_hex",
+        "S543_2_upper_cap_fastener_-1_2_washer",
+        "S543_2_upper_cap_fastener_-1_3_hex",
+        "S543_2_upper_cap_fastener_-1_3_washer",
+        "S543_2_upper_cap_fastener_1_0_hex",
+        "S543_2_upper_cap_fastener_1_0_washer",
+        "S543_2_upper_cap_fastener_1_1_hex",
+        "S543_2_upper_cap_fastener_1_1_washer",
+        "S543_2_upper_cap_fastener_1_2_hex",
+        "S543_2_upper_cap_fastener_1_2_washer",
+        "S543_2_upper_cap_fastener_1_3_hex",
+        "S543_2_upper_cap_fastener_1_3_washer",
+        "S543_2_upper_clamp_bolt_-1_hex",
+        "S543_2_upper_clamp_bolt_-1_washer",
+        "S543_2_upper_clamp_bolt_1_hex",
+        "S543_2_upper_clamp_bolt_1_washer",
+        "S543_2_upper_clamp_ear_-1",
+        "S543_2_upper_clamp_ear_1",
+        "S543_2_upper_fork_-1",
+        "S543_2_upper_fork_1",
+        "S543_2_upper_outer_boss_-1",
+        "S543_2_upper_outer_boss_1",
+        "S543_2_upper_outer_bush_-1",
+        "S543_2_upper_outer_bush_1",
+        "S543_2_upper_pin_cap_-1",
+        "S543_2_upper_pin_cap_1",
+        "S543_2_upper_rib_-1",
+        "S543_2_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -1.229066252708435,
+          0.547048807144165,
+          0.7856401801109314
+        ],
+        "max": [
+          -0.530933678150177,
+          1.0532333850860596,
+          1.0879511833190918
+        ]
+      },
+      "droopBolt": "S543_2_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -0.7329999804496765,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          -0.7070000171661377,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.03064018487930298,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 3,
+      "requestedVerticalDropM": 0.136,
+      "actualRigHeadDatumDropM": 0.13600003719329834,
+      "datumErrorM": 3.719329833007379e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        -1.0467182397842407,
+        0.46399998664855957
+      ],
+      "upperArmGeometryParts": [
+        "S543_3_upper_axis_sleeve",
+        "S543_3_upper_cap_fastener_-1_0_hex",
+        "S543_3_upper_cap_fastener_-1_0_washer",
+        "S543_3_upper_cap_fastener_-1_1_hex",
+        "S543_3_upper_cap_fastener_-1_1_washer",
+        "S543_3_upper_cap_fastener_-1_2_hex",
+        "S543_3_upper_cap_fastener_-1_2_washer",
+        "S543_3_upper_cap_fastener_-1_3_hex",
+        "S543_3_upper_cap_fastener_-1_3_washer",
+        "S543_3_upper_cap_fastener_1_0_hex",
+        "S543_3_upper_cap_fastener_1_0_washer",
+        "S543_3_upper_cap_fastener_1_1_hex",
+        "S543_3_upper_cap_fastener_1_1_washer",
+        "S543_3_upper_cap_fastener_1_2_hex",
+        "S543_3_upper_cap_fastener_1_2_washer",
+        "S543_3_upper_cap_fastener_1_3_hex",
+        "S543_3_upper_cap_fastener_1_3_washer",
+        "S543_3_upper_clamp_bolt_-1_hex",
+        "S543_3_upper_clamp_bolt_-1_washer",
+        "S543_3_upper_clamp_bolt_1_hex",
+        "S543_3_upper_clamp_bolt_1_washer",
+        "S543_3_upper_clamp_ear_-1",
+        "S543_3_upper_clamp_ear_1",
+        "S543_3_upper_fork_-1",
+        "S543_3_upper_fork_1",
+        "S543_3_upper_outer_boss_-1",
+        "S543_3_upper_outer_boss_1",
+        "S543_3_upper_outer_bush_-1",
+        "S543_3_upper_outer_bush_1",
+        "S543_3_upper_pin_cap_-1",
+        "S543_3_upper_pin_cap_1",
+        "S543_3_upper_rib_-1",
+        "S543_3_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -1.2290663719177246,
+          -1.0532333850860596,
+          0.7856401801109314
+        ],
+        "max": [
+          -0.5309337377548218,
+          -0.547048807144165,
+          1.0879511833190918
+        ]
+      },
+      "droopBolt": "S543_3_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -0.7329999804496765,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          -0.7070000171661377,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.03064018487930298,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 4,
+      "requestedVerticalDropM": 0.136,
+      "actualRigHeadDatumDropM": 0.13600003719329834,
+      "datumErrorM": 3.719329833007379e-08,
+      "lowerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        1.0467182397842407,
+        0.46399998664855957
+      ],
+      "upperArmGeometryParts": [
+        "S543_4_upper_axis_sleeve",
+        "S543_4_upper_cap_fastener_-1_0_hex",
+        "S543_4_upper_cap_fastener_-1_0_washer",
+        "S543_4_upper_cap_fastener_-1_1_hex",
+        "S543_4_upper_cap_fastener_-1_1_washer",
+        "S543_4_upper_cap_fastener_-1_2_hex",
+        "S543_4_upper_cap_fastener_-1_2_washer",
+        "S543_4_upper_cap_fastener_-1_3_hex",
+        "S543_4_upper_cap_fastener_-1_3_washer",
+        "S543_4_upper_cap_fastener_1_0_hex",
+        "S543_4_upper_cap_fastener_1_0_washer",
+        "S543_4_upper_cap_fastener_1_1_hex",
+        "S543_4_upper_cap_fastener_1_1_washer",
+        "S543_4_upper_cap_fastener_1_2_hex",
+        "S543_4_upper_cap_fastener_1_2_washer",
+        "S543_4_upper_cap_fastener_1_3_hex",
+        "S543_4_upper_cap_fastener_1_3_washer",
+        "S543_4_upper_clamp_bolt_-1_hex",
+        "S543_4_upper_clamp_bolt_-1_washer",
+        "S543_4_upper_clamp_bolt_1_hex",
+        "S543_4_upper_clamp_bolt_1_washer",
+        "S543_4_upper_clamp_ear_-1",
+        "S543_4_upper_clamp_ear_1",
+        "S543_4_upper_fork_-1",
+        "S543_4_upper_fork_1",
+        "S543_4_upper_outer_boss_-1",
+        "S543_4_upper_outer_boss_1",
+        "S543_4_upper_outer_bush_-1",
+        "S543_4_upper_outer_bush_1",
+        "S543_4_upper_pin_cap_-1",
+        "S543_4_upper_pin_cap_1",
+        "S543_4_upper_rib_-1",
+        "S543_4_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          2.0709338188171387,
+          0.547048807144165,
+          0.7856401801109314
+        ],
+        "max": [
+          2.769066333770752,
+          1.0532333850860596,
+          1.0879511833190918
+        ]
+      },
+      "droopBolt": "S543_4_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          2.566999912261963,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          2.5929999351501465,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.03064018487930298,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 5,
+      "requestedVerticalDropM": 0.136,
+      "actualRigHeadDatumDropM": 0.13600003719329834,
+      "datumErrorM": 3.719329833007379e-08,
+      "lowerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        -1.0467182397842407,
+        0.46399998664855957
+      ],
+      "upperArmGeometryParts": [
+        "S543_5_upper_axis_sleeve",
+        "S543_5_upper_cap_fastener_-1_0_hex",
+        "S543_5_upper_cap_fastener_-1_0_washer",
+        "S543_5_upper_cap_fastener_-1_1_hex",
+        "S543_5_upper_cap_fastener_-1_1_washer",
+        "S543_5_upper_cap_fastener_-1_2_hex",
+        "S543_5_upper_cap_fastener_-1_2_washer",
+        "S543_5_upper_cap_fastener_-1_3_hex",
+        "S543_5_upper_cap_fastener_-1_3_washer",
+        "S543_5_upper_cap_fastener_1_0_hex",
+        "S543_5_upper_cap_fastener_1_0_washer",
+        "S543_5_upper_cap_fastener_1_1_hex",
+        "S543_5_upper_cap_fastener_1_1_washer",
+        "S543_5_upper_cap_fastener_1_2_hex",
+        "S543_5_upper_cap_fastener_1_2_washer",
+        "S543_5_upper_cap_fastener_1_3_hex",
+        "S543_5_upper_cap_fastener_1_3_washer",
+        "S543_5_upper_clamp_bolt_-1_hex",
+        "S543_5_upper_clamp_bolt_-1_washer",
+        "S543_5_upper_clamp_bolt_1_hex",
+        "S543_5_upper_clamp_bolt_1_washer",
+        "S543_5_upper_clamp_ear_-1",
+        "S543_5_upper_clamp_ear_1",
+        "S543_5_upper_fork_-1",
+        "S543_5_upper_fork_1",
+        "S543_5_upper_outer_boss_-1",
+        "S543_5_upper_outer_boss_1",
+        "S543_5_upper_outer_bush_-1",
+        "S543_5_upper_outer_bush_1",
+        "S543_5_upper_pin_cap_-1",
+        "S543_5_upper_pin_cap_1",
+        "S543_5_upper_rib_-1",
+        "S543_5_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          2.0709338188171387,
+          -1.0532333850860596,
+          0.7856401801109314
+        ],
+        "max": [
+          2.769066333770752,
+          -0.547048807144165,
+          1.0879511833190918
+        ]
+      },
+      "droopBolt": "S543_5_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          2.566999912261963,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          2.5929999351501465,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.03064018487930298,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 6,
+      "requestedVerticalDropM": 0.136,
+      "actualRigHeadDatumDropM": 0.13600003719329834,
+      "datumErrorM": 3.719329833007379e-08,
+      "lowerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        1.0467182397842407,
+        0.46399998664855957
+      ],
+      "upperArmGeometryParts": [
+        "S543_6_upper_axis_sleeve",
+        "S543_6_upper_cap_fastener_-1_0_hex",
+        "S543_6_upper_cap_fastener_-1_0_washer",
+        "S543_6_upper_cap_fastener_-1_1_hex",
+        "S543_6_upper_cap_fastener_-1_1_washer",
+        "S543_6_upper_cap_fastener_-1_2_hex",
+        "S543_6_upper_cap_fastener_-1_2_washer",
+        "S543_6_upper_cap_fastener_-1_3_hex",
+        "S543_6_upper_cap_fastener_-1_3_washer",
+        "S543_6_upper_cap_fastener_1_0_hex",
+        "S543_6_upper_cap_fastener_1_0_washer",
+        "S543_6_upper_cap_fastener_1_1_hex",
+        "S543_6_upper_cap_fastener_1_1_washer",
+        "S543_6_upper_cap_fastener_1_2_hex",
+        "S543_6_upper_cap_fastener_1_2_washer",
+        "S543_6_upper_cap_fastener_1_3_hex",
+        "S543_6_upper_cap_fastener_1_3_washer",
+        "S543_6_upper_clamp_bolt_-1_hex",
+        "S543_6_upper_clamp_bolt_-1_washer",
+        "S543_6_upper_clamp_bolt_1_hex",
+        "S543_6_upper_clamp_bolt_1_washer",
+        "S543_6_upper_clamp_ear_-1",
+        "S543_6_upper_clamp_ear_1",
+        "S543_6_upper_fork_-1",
+        "S543_6_upper_fork_1",
+        "S543_6_upper_outer_boss_-1",
+        "S543_6_upper_outer_boss_1",
+        "S543_6_upper_outer_bush_-1",
+        "S543_6_upper_outer_bush_1",
+        "S543_6_upper_pin_cap_-1",
+        "S543_6_upper_pin_cap_1",
+        "S543_6_upper_rib_-1",
+        "S543_6_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          4.270933628082275,
+          0.547048807144165,
+          0.7856401801109314
+        ],
+        "max": [
+          4.969066143035889,
+          1.0532333850860596,
+          1.0879511833190918
+        ]
+      },
+      "droopBolt": "S543_6_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          4.767000198364258,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          4.793000221252441,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.03064018487930298,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 7,
+      "requestedVerticalDropM": 0.136,
+      "actualRigHeadDatumDropM": 0.13600003719329834,
+      "datumErrorM": 3.719329833007379e-08,
+      "lowerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        -1.0467182397842407,
+        0.46399998664855957
+      ],
+      "upperArmGeometryParts": [
+        "S543_7_upper_axis_sleeve",
+        "S543_7_upper_cap_fastener_-1_0_hex",
+        "S543_7_upper_cap_fastener_-1_0_washer",
+        "S543_7_upper_cap_fastener_-1_1_hex",
+        "S543_7_upper_cap_fastener_-1_1_washer",
+        "S543_7_upper_cap_fastener_-1_2_hex",
+        "S543_7_upper_cap_fastener_-1_2_washer",
+        "S543_7_upper_cap_fastener_-1_3_hex",
+        "S543_7_upper_cap_fastener_-1_3_washer",
+        "S543_7_upper_cap_fastener_1_0_hex",
+        "S543_7_upper_cap_fastener_1_0_washer",
+        "S543_7_upper_cap_fastener_1_1_hex",
+        "S543_7_upper_cap_fastener_1_1_washer",
+        "S543_7_upper_cap_fastener_1_2_hex",
+        "S543_7_upper_cap_fastener_1_2_washer",
+        "S543_7_upper_cap_fastener_1_3_hex",
+        "S543_7_upper_cap_fastener_1_3_washer",
+        "S543_7_upper_clamp_bolt_-1_hex",
+        "S543_7_upper_clamp_bolt_-1_washer",
+        "S543_7_upper_clamp_bolt_1_hex",
+        "S543_7_upper_clamp_bolt_1_washer",
+        "S543_7_upper_clamp_ear_-1",
+        "S543_7_upper_clamp_ear_1",
+        "S543_7_upper_fork_-1",
+        "S543_7_upper_fork_1",
+        "S543_7_upper_outer_boss_-1",
+        "S543_7_upper_outer_boss_1",
+        "S543_7_upper_outer_bush_-1",
+        "S543_7_upper_outer_bush_1",
+        "S543_7_upper_pin_cap_-1",
+        "S543_7_upper_pin_cap_1",
+        "S543_7_upper_rib_-1",
+        "S543_7_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          4.270933628082275,
+          -1.0532333850860596,
+          0.7856401801109314
+        ],
+        "max": [
+          4.969066143035889,
+          -0.547048807144165,
+          1.0879511833190918
+        ]
+      },
+      "droopBolt": "S543_7_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          4.767000198364258,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          4.793000221252441,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.03064018487930298,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 0,
+      "requestedVerticalDropM": 0.1385,
+      "actualRigHeadDatumDropM": 0.13850003480911255,
+      "datumErrorM": 3.4809112536837716e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        1.0460269451141357,
+        0.46149998903274536
+      ],
+      "upperArmGeometryParts": [
+        "S543_0_upper_axis_sleeve",
+        "S543_0_upper_cap_fastener_-1_0_hex",
+        "S543_0_upper_cap_fastener_-1_0_washer",
+        "S543_0_upper_cap_fastener_-1_1_hex",
+        "S543_0_upper_cap_fastener_-1_1_washer",
+        "S543_0_upper_cap_fastener_-1_2_hex",
+        "S543_0_upper_cap_fastener_-1_2_washer",
+        "S543_0_upper_cap_fastener_-1_3_hex",
+        "S543_0_upper_cap_fastener_-1_3_washer",
+        "S543_0_upper_cap_fastener_1_0_hex",
+        "S543_0_upper_cap_fastener_1_0_washer",
+        "S543_0_upper_cap_fastener_1_1_hex",
+        "S543_0_upper_cap_fastener_1_1_washer",
+        "S543_0_upper_cap_fastener_1_2_hex",
+        "S543_0_upper_cap_fastener_1_2_washer",
+        "S543_0_upper_cap_fastener_1_3_hex",
+        "S543_0_upper_cap_fastener_1_3_washer",
+        "S543_0_upper_clamp_bolt_-1_hex",
+        "S543_0_upper_clamp_bolt_-1_washer",
+        "S543_0_upper_clamp_bolt_1_hex",
+        "S543_0_upper_clamp_bolt_1_washer",
+        "S543_0_upper_clamp_ear_-1",
+        "S543_0_upper_clamp_ear_1",
+        "S543_0_upper_fork_-1",
+        "S543_0_upper_fork_1",
+        "S543_0_upper_outer_boss_-1",
+        "S543_0_upper_outer_boss_1",
+        "S543_0_upper_outer_bush_-1",
+        "S543_0_upper_outer_bush_1",
+        "S543_0_upper_pin_cap_-1",
+        "S543_0_upper_pin_cap_1",
+        "S543_0_upper_rib_-1",
+        "S543_0_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -3.4290661811828613,
+          0.5470330119132996,
+          0.7830408811569214
+        ],
+        "max": [
+          -2.730933666229248,
+          1.0520808696746826,
+          1.0879669189453125
+        ]
+      },
+      "droopBolt": "S543_0_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -2.933000087738037,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          -2.9070000648498535,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.02804088592529297,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 1,
+      "requestedVerticalDropM": 0.1385,
+      "actualRigHeadDatumDropM": 0.13850003480911255,
+      "datumErrorM": 3.4809112536837716e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        -1.0460269451141357,
+        0.46149998903274536
+      ],
+      "upperArmGeometryParts": [
+        "S543_1_upper_axis_sleeve",
+        "S543_1_upper_cap_fastener_-1_0_hex",
+        "S543_1_upper_cap_fastener_-1_0_washer",
+        "S543_1_upper_cap_fastener_-1_1_hex",
+        "S543_1_upper_cap_fastener_-1_1_washer",
+        "S543_1_upper_cap_fastener_-1_2_hex",
+        "S543_1_upper_cap_fastener_-1_2_washer",
+        "S543_1_upper_cap_fastener_-1_3_hex",
+        "S543_1_upper_cap_fastener_-1_3_washer",
+        "S543_1_upper_cap_fastener_1_0_hex",
+        "S543_1_upper_cap_fastener_1_0_washer",
+        "S543_1_upper_cap_fastener_1_1_hex",
+        "S543_1_upper_cap_fastener_1_1_washer",
+        "S543_1_upper_cap_fastener_1_2_hex",
+        "S543_1_upper_cap_fastener_1_2_washer",
+        "S543_1_upper_cap_fastener_1_3_hex",
+        "S543_1_upper_cap_fastener_1_3_washer",
+        "S543_1_upper_clamp_bolt_-1_hex",
+        "S543_1_upper_clamp_bolt_-1_washer",
+        "S543_1_upper_clamp_bolt_1_hex",
+        "S543_1_upper_clamp_bolt_1_washer",
+        "S543_1_upper_clamp_ear_-1",
+        "S543_1_upper_clamp_ear_1",
+        "S543_1_upper_fork_-1",
+        "S543_1_upper_fork_1",
+        "S543_1_upper_outer_boss_-1",
+        "S543_1_upper_outer_boss_1",
+        "S543_1_upper_outer_bush_-1",
+        "S543_1_upper_outer_bush_1",
+        "S543_1_upper_pin_cap_-1",
+        "S543_1_upper_pin_cap_1",
+        "S543_1_upper_rib_-1",
+        "S543_1_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -3.4290661811828613,
+          -1.0520808696746826,
+          0.7830408811569214
+        ],
+        "max": [
+          -2.730933666229248,
+          -0.5470330119132996,
+          1.0879669189453125
+        ]
+      },
+      "droopBolt": "S543_1_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -2.933000087738037,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          -2.9070000648498535,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.02804088592529297,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 2,
+      "requestedVerticalDropM": 0.1385,
+      "actualRigHeadDatumDropM": 0.13850003480911255,
+      "datumErrorM": 3.4809112536837716e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        1.0460269451141357,
+        0.46149998903274536
+      ],
+      "upperArmGeometryParts": [
+        "S543_2_upper_axis_sleeve",
+        "S543_2_upper_cap_fastener_-1_0_hex",
+        "S543_2_upper_cap_fastener_-1_0_washer",
+        "S543_2_upper_cap_fastener_-1_1_hex",
+        "S543_2_upper_cap_fastener_-1_1_washer",
+        "S543_2_upper_cap_fastener_-1_2_hex",
+        "S543_2_upper_cap_fastener_-1_2_washer",
+        "S543_2_upper_cap_fastener_-1_3_hex",
+        "S543_2_upper_cap_fastener_-1_3_washer",
+        "S543_2_upper_cap_fastener_1_0_hex",
+        "S543_2_upper_cap_fastener_1_0_washer",
+        "S543_2_upper_cap_fastener_1_1_hex",
+        "S543_2_upper_cap_fastener_1_1_washer",
+        "S543_2_upper_cap_fastener_1_2_hex",
+        "S543_2_upper_cap_fastener_1_2_washer",
+        "S543_2_upper_cap_fastener_1_3_hex",
+        "S543_2_upper_cap_fastener_1_3_washer",
+        "S543_2_upper_clamp_bolt_-1_hex",
+        "S543_2_upper_clamp_bolt_-1_washer",
+        "S543_2_upper_clamp_bolt_1_hex",
+        "S543_2_upper_clamp_bolt_1_washer",
+        "S543_2_upper_clamp_ear_-1",
+        "S543_2_upper_clamp_ear_1",
+        "S543_2_upper_fork_-1",
+        "S543_2_upper_fork_1",
+        "S543_2_upper_outer_boss_-1",
+        "S543_2_upper_outer_boss_1",
+        "S543_2_upper_outer_bush_-1",
+        "S543_2_upper_outer_bush_1",
+        "S543_2_upper_pin_cap_-1",
+        "S543_2_upper_pin_cap_1",
+        "S543_2_upper_rib_-1",
+        "S543_2_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -1.229066252708435,
+          0.5470330119132996,
+          0.7830408811569214
+        ],
+        "max": [
+          -0.530933678150177,
+          1.0520808696746826,
+          1.0879669189453125
+        ]
+      },
+      "droopBolt": "S543_2_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -0.7329999804496765,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          -0.7070000171661377,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.02804088592529297,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 3,
+      "requestedVerticalDropM": 0.1385,
+      "actualRigHeadDatumDropM": 0.13850003480911255,
+      "datumErrorM": 3.4809112536837716e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        -1.0460269451141357,
+        0.46149998903274536
+      ],
+      "upperArmGeometryParts": [
+        "S543_3_upper_axis_sleeve",
+        "S543_3_upper_cap_fastener_-1_0_hex",
+        "S543_3_upper_cap_fastener_-1_0_washer",
+        "S543_3_upper_cap_fastener_-1_1_hex",
+        "S543_3_upper_cap_fastener_-1_1_washer",
+        "S543_3_upper_cap_fastener_-1_2_hex",
+        "S543_3_upper_cap_fastener_-1_2_washer",
+        "S543_3_upper_cap_fastener_-1_3_hex",
+        "S543_3_upper_cap_fastener_-1_3_washer",
+        "S543_3_upper_cap_fastener_1_0_hex",
+        "S543_3_upper_cap_fastener_1_0_washer",
+        "S543_3_upper_cap_fastener_1_1_hex",
+        "S543_3_upper_cap_fastener_1_1_washer",
+        "S543_3_upper_cap_fastener_1_2_hex",
+        "S543_3_upper_cap_fastener_1_2_washer",
+        "S543_3_upper_cap_fastener_1_3_hex",
+        "S543_3_upper_cap_fastener_1_3_washer",
+        "S543_3_upper_clamp_bolt_-1_hex",
+        "S543_3_upper_clamp_bolt_-1_washer",
+        "S543_3_upper_clamp_bolt_1_hex",
+        "S543_3_upper_clamp_bolt_1_washer",
+        "S543_3_upper_clamp_ear_-1",
+        "S543_3_upper_clamp_ear_1",
+        "S543_3_upper_fork_-1",
+        "S543_3_upper_fork_1",
+        "S543_3_upper_outer_boss_-1",
+        "S543_3_upper_outer_boss_1",
+        "S543_3_upper_outer_bush_-1",
+        "S543_3_upper_outer_bush_1",
+        "S543_3_upper_pin_cap_-1",
+        "S543_3_upper_pin_cap_1",
+        "S543_3_upper_rib_-1",
+        "S543_3_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -1.2290663719177246,
+          -1.0520808696746826,
+          0.7830408811569214
+        ],
+        "max": [
+          -0.5309337377548218,
+          -0.5470330119132996,
+          1.0879669189453125
+        ]
+      },
+      "droopBolt": "S543_3_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -0.7329999804496765,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          -0.7070000171661377,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.02804088592529297,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 4,
+      "requestedVerticalDropM": 0.1385,
+      "actualRigHeadDatumDropM": 0.13850003480911255,
+      "datumErrorM": 3.4809112536837716e-08,
+      "lowerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        1.0460269451141357,
+        0.46149998903274536
+      ],
+      "upperArmGeometryParts": [
+        "S543_4_upper_axis_sleeve",
+        "S543_4_upper_cap_fastener_-1_0_hex",
+        "S543_4_upper_cap_fastener_-1_0_washer",
+        "S543_4_upper_cap_fastener_-1_1_hex",
+        "S543_4_upper_cap_fastener_-1_1_washer",
+        "S543_4_upper_cap_fastener_-1_2_hex",
+        "S543_4_upper_cap_fastener_-1_2_washer",
+        "S543_4_upper_cap_fastener_-1_3_hex",
+        "S543_4_upper_cap_fastener_-1_3_washer",
+        "S543_4_upper_cap_fastener_1_0_hex",
+        "S543_4_upper_cap_fastener_1_0_washer",
+        "S543_4_upper_cap_fastener_1_1_hex",
+        "S543_4_upper_cap_fastener_1_1_washer",
+        "S543_4_upper_cap_fastener_1_2_hex",
+        "S543_4_upper_cap_fastener_1_2_washer",
+        "S543_4_upper_cap_fastener_1_3_hex",
+        "S543_4_upper_cap_fastener_1_3_washer",
+        "S543_4_upper_clamp_bolt_-1_hex",
+        "S543_4_upper_clamp_bolt_-1_washer",
+        "S543_4_upper_clamp_bolt_1_hex",
+        "S543_4_upper_clamp_bolt_1_washer",
+        "S543_4_upper_clamp_ear_-1",
+        "S543_4_upper_clamp_ear_1",
+        "S543_4_upper_fork_-1",
+        "S543_4_upper_fork_1",
+        "S543_4_upper_outer_boss_-1",
+        "S543_4_upper_outer_boss_1",
+        "S543_4_upper_outer_bush_-1",
+        "S543_4_upper_outer_bush_1",
+        "S543_4_upper_pin_cap_-1",
+        "S543_4_upper_pin_cap_1",
+        "S543_4_upper_rib_-1",
+        "S543_4_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          2.0709338188171387,
+          0.5470330119132996,
+          0.7830408811569214
+        ],
+        "max": [
+          2.769066333770752,
+          1.0520808696746826,
+          1.0879669189453125
+        ]
+      },
+      "droopBolt": "S543_4_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          2.566999912261963,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          2.5929999351501465,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.02804088592529297,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 5,
+      "requestedVerticalDropM": 0.1385,
+      "actualRigHeadDatumDropM": 0.13850003480911255,
+      "datumErrorM": 3.4809112536837716e-08,
+      "lowerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        -1.0460269451141357,
+        0.46149998903274536
+      ],
+      "upperArmGeometryParts": [
+        "S543_5_upper_axis_sleeve",
+        "S543_5_upper_cap_fastener_-1_0_hex",
+        "S543_5_upper_cap_fastener_-1_0_washer",
+        "S543_5_upper_cap_fastener_-1_1_hex",
+        "S543_5_upper_cap_fastener_-1_1_washer",
+        "S543_5_upper_cap_fastener_-1_2_hex",
+        "S543_5_upper_cap_fastener_-1_2_washer",
+        "S543_5_upper_cap_fastener_-1_3_hex",
+        "S543_5_upper_cap_fastener_-1_3_washer",
+        "S543_5_upper_cap_fastener_1_0_hex",
+        "S543_5_upper_cap_fastener_1_0_washer",
+        "S543_5_upper_cap_fastener_1_1_hex",
+        "S543_5_upper_cap_fastener_1_1_washer",
+        "S543_5_upper_cap_fastener_1_2_hex",
+        "S543_5_upper_cap_fastener_1_2_washer",
+        "S543_5_upper_cap_fastener_1_3_hex",
+        "S543_5_upper_cap_fastener_1_3_washer",
+        "S543_5_upper_clamp_bolt_-1_hex",
+        "S543_5_upper_clamp_bolt_-1_washer",
+        "S543_5_upper_clamp_bolt_1_hex",
+        "S543_5_upper_clamp_bolt_1_washer",
+        "S543_5_upper_clamp_ear_-1",
+        "S543_5_upper_clamp_ear_1",
+        "S543_5_upper_fork_-1",
+        "S543_5_upper_fork_1",
+        "S543_5_upper_outer_boss_-1",
+        "S543_5_upper_outer_boss_1",
+        "S543_5_upper_outer_bush_-1",
+        "S543_5_upper_outer_bush_1",
+        "S543_5_upper_pin_cap_-1",
+        "S543_5_upper_pin_cap_1",
+        "S543_5_upper_rib_-1",
+        "S543_5_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          2.0709338188171387,
+          -1.0520808696746826,
+          0.7830408811569214
+        ],
+        "max": [
+          2.769066333770752,
+          -0.5470330119132996,
+          1.0879669189453125
+        ]
+      },
+      "droopBolt": "S543_5_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          2.566999912261963,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          2.5929999351501465,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.02804088592529297,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 6,
+      "requestedVerticalDropM": 0.1385,
+      "actualRigHeadDatumDropM": 0.13850003480911255,
+      "datumErrorM": 3.4809112536837716e-08,
+      "lowerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        1.0460269451141357,
+        0.46149998903274536
+      ],
+      "upperArmGeometryParts": [
+        "S543_6_upper_axis_sleeve",
+        "S543_6_upper_cap_fastener_-1_0_hex",
+        "S543_6_upper_cap_fastener_-1_0_washer",
+        "S543_6_upper_cap_fastener_-1_1_hex",
+        "S543_6_upper_cap_fastener_-1_1_washer",
+        "S543_6_upper_cap_fastener_-1_2_hex",
+        "S543_6_upper_cap_fastener_-1_2_washer",
+        "S543_6_upper_cap_fastener_-1_3_hex",
+        "S543_6_upper_cap_fastener_-1_3_washer",
+        "S543_6_upper_cap_fastener_1_0_hex",
+        "S543_6_upper_cap_fastener_1_0_washer",
+        "S543_6_upper_cap_fastener_1_1_hex",
+        "S543_6_upper_cap_fastener_1_1_washer",
+        "S543_6_upper_cap_fastener_1_2_hex",
+        "S543_6_upper_cap_fastener_1_2_washer",
+        "S543_6_upper_cap_fastener_1_3_hex",
+        "S543_6_upper_cap_fastener_1_3_washer",
+        "S543_6_upper_clamp_bolt_-1_hex",
+        "S543_6_upper_clamp_bolt_-1_washer",
+        "S543_6_upper_clamp_bolt_1_hex",
+        "S543_6_upper_clamp_bolt_1_washer",
+        "S543_6_upper_clamp_ear_-1",
+        "S543_6_upper_clamp_ear_1",
+        "S543_6_upper_fork_-1",
+        "S543_6_upper_fork_1",
+        "S543_6_upper_outer_boss_-1",
+        "S543_6_upper_outer_boss_1",
+        "S543_6_upper_outer_bush_-1",
+        "S543_6_upper_outer_bush_1",
+        "S543_6_upper_pin_cap_-1",
+        "S543_6_upper_pin_cap_1",
+        "S543_6_upper_rib_-1",
+        "S543_6_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          4.270933628082275,
+          0.5470330119132996,
+          0.7830408811569214
+        ],
+        "max": [
+          4.969066143035889,
+          1.0520808696746826,
+          1.0879669189453125
+        ]
+      },
+      "droopBolt": "S543_6_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          4.767000198364258,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          4.793000221252441,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.02804088592529297,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 7,
+      "requestedVerticalDropM": 0.1385,
+      "actualRigHeadDatumDropM": 0.13850003480911255,
+      "datumErrorM": 3.4809112536837716e-08,
+      "lowerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        -1.0460269451141357,
+        0.46149998903274536
+      ],
+      "upperArmGeometryParts": [
+        "S543_7_upper_axis_sleeve",
+        "S543_7_upper_cap_fastener_-1_0_hex",
+        "S543_7_upper_cap_fastener_-1_0_washer",
+        "S543_7_upper_cap_fastener_-1_1_hex",
+        "S543_7_upper_cap_fastener_-1_1_washer",
+        "S543_7_upper_cap_fastener_-1_2_hex",
+        "S543_7_upper_cap_fastener_-1_2_washer",
+        "S543_7_upper_cap_fastener_-1_3_hex",
+        "S543_7_upper_cap_fastener_-1_3_washer",
+        "S543_7_upper_cap_fastener_1_0_hex",
+        "S543_7_upper_cap_fastener_1_0_washer",
+        "S543_7_upper_cap_fastener_1_1_hex",
+        "S543_7_upper_cap_fastener_1_1_washer",
+        "S543_7_upper_cap_fastener_1_2_hex",
+        "S543_7_upper_cap_fastener_1_2_washer",
+        "S543_7_upper_cap_fastener_1_3_hex",
+        "S543_7_upper_cap_fastener_1_3_washer",
+        "S543_7_upper_clamp_bolt_-1_hex",
+        "S543_7_upper_clamp_bolt_-1_washer",
+        "S543_7_upper_clamp_bolt_1_hex",
+        "S543_7_upper_clamp_bolt_1_washer",
+        "S543_7_upper_clamp_ear_-1",
+        "S543_7_upper_clamp_ear_1",
+        "S543_7_upper_fork_-1",
+        "S543_7_upper_fork_1",
+        "S543_7_upper_outer_boss_-1",
+        "S543_7_upper_outer_boss_1",
+        "S543_7_upper_outer_bush_-1",
+        "S543_7_upper_outer_bush_1",
+        "S543_7_upper_pin_cap_-1",
+        "S543_7_upper_pin_cap_1",
+        "S543_7_upper_rib_-1",
+        "S543_7_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          4.270933628082275,
+          -1.0520808696746826,
+          0.7830408811569214
+        ],
+        "max": [
+          4.969066143035889,
+          -0.5470330119132996,
+          1.0879669189453125
+        ]
+      },
+      "droopBolt": "S543_7_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          4.767000198364258,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          4.793000221252441,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.02804088592529297,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 0,
+      "requestedVerticalDropM": 0.141,
+      "actualRigHeadDatumDropM": 0.14100003242492676,
+      "datumErrorM": 3.242492677135722e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        1.045322060585022,
+        0.45899999141693115
+      ],
+      "upperArmGeometryParts": [
+        "S543_0_upper_axis_sleeve",
+        "S543_0_upper_cap_fastener_-1_0_hex",
+        "S543_0_upper_cap_fastener_-1_0_washer",
+        "S543_0_upper_cap_fastener_-1_1_hex",
+        "S543_0_upper_cap_fastener_-1_1_washer",
+        "S543_0_upper_cap_fastener_-1_2_hex",
+        "S543_0_upper_cap_fastener_-1_2_washer",
+        "S543_0_upper_cap_fastener_-1_3_hex",
+        "S543_0_upper_cap_fastener_-1_3_washer",
+        "S543_0_upper_cap_fastener_1_0_hex",
+        "S543_0_upper_cap_fastener_1_0_washer",
+        "S543_0_upper_cap_fastener_1_1_hex",
+        "S543_0_upper_cap_fastener_1_1_washer",
+        "S543_0_upper_cap_fastener_1_2_hex",
+        "S543_0_upper_cap_fastener_1_2_washer",
+        "S543_0_upper_cap_fastener_1_3_hex",
+        "S543_0_upper_cap_fastener_1_3_washer",
+        "S543_0_upper_clamp_bolt_-1_hex",
+        "S543_0_upper_clamp_bolt_-1_washer",
+        "S543_0_upper_clamp_bolt_1_hex",
+        "S543_0_upper_clamp_bolt_1_washer",
+        "S543_0_upper_clamp_ear_-1",
+        "S543_0_upper_clamp_ear_1",
+        "S543_0_upper_fork_-1",
+        "S543_0_upper_fork_1",
+        "S543_0_upper_outer_boss_-1",
+        "S543_0_upper_outer_boss_1",
+        "S543_0_upper_outer_bush_-1",
+        "S543_0_upper_outer_bush_1",
+        "S543_0_upper_pin_cap_-1",
+        "S543_0_upper_pin_cap_1",
+        "S543_0_upper_rib_-1",
+        "S543_0_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -3.4290661811828613,
+          0.5470202565193176,
+          0.7804428935050964
+        ],
+        "max": [
+          -2.730933666229248,
+          1.0509018898010254,
+          1.0879796743392944
+        ]
+      },
+      "droopBolt": "S543_0_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -2.933000087738037,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          -2.9070000648498535,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.025442898273468018,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 1,
+      "requestedVerticalDropM": 0.141,
+      "actualRigHeadDatumDropM": 0.14100003242492676,
+      "datumErrorM": 3.242492677135722e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -3.0799999237060547,
+        -1.045322060585022,
+        0.45899999141693115
+      ],
+      "upperArmGeometryParts": [
+        "S543_1_upper_axis_sleeve",
+        "S543_1_upper_cap_fastener_-1_0_hex",
+        "S543_1_upper_cap_fastener_-1_0_washer",
+        "S543_1_upper_cap_fastener_-1_1_hex",
+        "S543_1_upper_cap_fastener_-1_1_washer",
+        "S543_1_upper_cap_fastener_-1_2_hex",
+        "S543_1_upper_cap_fastener_-1_2_washer",
+        "S543_1_upper_cap_fastener_-1_3_hex",
+        "S543_1_upper_cap_fastener_-1_3_washer",
+        "S543_1_upper_cap_fastener_1_0_hex",
+        "S543_1_upper_cap_fastener_1_0_washer",
+        "S543_1_upper_cap_fastener_1_1_hex",
+        "S543_1_upper_cap_fastener_1_1_washer",
+        "S543_1_upper_cap_fastener_1_2_hex",
+        "S543_1_upper_cap_fastener_1_2_washer",
+        "S543_1_upper_cap_fastener_1_3_hex",
+        "S543_1_upper_cap_fastener_1_3_washer",
+        "S543_1_upper_clamp_bolt_-1_hex",
+        "S543_1_upper_clamp_bolt_-1_washer",
+        "S543_1_upper_clamp_bolt_1_hex",
+        "S543_1_upper_clamp_bolt_1_washer",
+        "S543_1_upper_clamp_ear_-1",
+        "S543_1_upper_clamp_ear_1",
+        "S543_1_upper_fork_-1",
+        "S543_1_upper_fork_1",
+        "S543_1_upper_outer_boss_-1",
+        "S543_1_upper_outer_boss_1",
+        "S543_1_upper_outer_bush_-1",
+        "S543_1_upper_outer_bush_1",
+        "S543_1_upper_pin_cap_-1",
+        "S543_1_upper_pin_cap_1",
+        "S543_1_upper_rib_-1",
+        "S543_1_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -3.4290661811828613,
+          -1.0509018898010254,
+          0.7804428935050964
+        ],
+        "max": [
+          -2.730933666229248,
+          -0.5470202565193176,
+          1.0879796743392944
+        ]
+      },
+      "droopBolt": "S543_1_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -2.933000087738037,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          -2.9070000648498535,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.025442898273468018,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 2,
+      "requestedVerticalDropM": 0.141,
+      "actualRigHeadDatumDropM": 0.14100003242492676,
+      "datumErrorM": 3.242492677135722e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        1.045322060585022,
+        0.45899999141693115
+      ],
+      "upperArmGeometryParts": [
+        "S543_2_upper_axis_sleeve",
+        "S543_2_upper_cap_fastener_-1_0_hex",
+        "S543_2_upper_cap_fastener_-1_0_washer",
+        "S543_2_upper_cap_fastener_-1_1_hex",
+        "S543_2_upper_cap_fastener_-1_1_washer",
+        "S543_2_upper_cap_fastener_-1_2_hex",
+        "S543_2_upper_cap_fastener_-1_2_washer",
+        "S543_2_upper_cap_fastener_-1_3_hex",
+        "S543_2_upper_cap_fastener_-1_3_washer",
+        "S543_2_upper_cap_fastener_1_0_hex",
+        "S543_2_upper_cap_fastener_1_0_washer",
+        "S543_2_upper_cap_fastener_1_1_hex",
+        "S543_2_upper_cap_fastener_1_1_washer",
+        "S543_2_upper_cap_fastener_1_2_hex",
+        "S543_2_upper_cap_fastener_1_2_washer",
+        "S543_2_upper_cap_fastener_1_3_hex",
+        "S543_2_upper_cap_fastener_1_3_washer",
+        "S543_2_upper_clamp_bolt_-1_hex",
+        "S543_2_upper_clamp_bolt_-1_washer",
+        "S543_2_upper_clamp_bolt_1_hex",
+        "S543_2_upper_clamp_bolt_1_washer",
+        "S543_2_upper_clamp_ear_-1",
+        "S543_2_upper_clamp_ear_1",
+        "S543_2_upper_fork_-1",
+        "S543_2_upper_fork_1",
+        "S543_2_upper_outer_boss_-1",
+        "S543_2_upper_outer_boss_1",
+        "S543_2_upper_outer_bush_-1",
+        "S543_2_upper_outer_bush_1",
+        "S543_2_upper_pin_cap_-1",
+        "S543_2_upper_pin_cap_1",
+        "S543_2_upper_rib_-1",
+        "S543_2_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -1.229066252708435,
+          0.5470202565193176,
+          0.7804428935050964
+        ],
+        "max": [
+          -0.530933678150177,
+          1.0509018898010254,
+          1.0879796743392944
+        ]
+      },
+      "droopBolt": "S543_2_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -0.7329999804496765,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          -0.7070000171661377,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.025442898273468018,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 3,
+      "requestedVerticalDropM": 0.141,
+      "actualRigHeadDatumDropM": 0.14100003242492676,
+      "datumErrorM": 3.242492677135722e-08,
+      "lowerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        -0.8799999952316284,
+        -1.045322060585022,
+        0.45899999141693115
+      ],
+      "upperArmGeometryParts": [
+        "S543_3_upper_axis_sleeve",
+        "S543_3_upper_cap_fastener_-1_0_hex",
+        "S543_3_upper_cap_fastener_-1_0_washer",
+        "S543_3_upper_cap_fastener_-1_1_hex",
+        "S543_3_upper_cap_fastener_-1_1_washer",
+        "S543_3_upper_cap_fastener_-1_2_hex",
+        "S543_3_upper_cap_fastener_-1_2_washer",
+        "S543_3_upper_cap_fastener_-1_3_hex",
+        "S543_3_upper_cap_fastener_-1_3_washer",
+        "S543_3_upper_cap_fastener_1_0_hex",
+        "S543_3_upper_cap_fastener_1_0_washer",
+        "S543_3_upper_cap_fastener_1_1_hex",
+        "S543_3_upper_cap_fastener_1_1_washer",
+        "S543_3_upper_cap_fastener_1_2_hex",
+        "S543_3_upper_cap_fastener_1_2_washer",
+        "S543_3_upper_cap_fastener_1_3_hex",
+        "S543_3_upper_cap_fastener_1_3_washer",
+        "S543_3_upper_clamp_bolt_-1_hex",
+        "S543_3_upper_clamp_bolt_-1_washer",
+        "S543_3_upper_clamp_bolt_1_hex",
+        "S543_3_upper_clamp_bolt_1_washer",
+        "S543_3_upper_clamp_ear_-1",
+        "S543_3_upper_clamp_ear_1",
+        "S543_3_upper_fork_-1",
+        "S543_3_upper_fork_1",
+        "S543_3_upper_outer_boss_-1",
+        "S543_3_upper_outer_boss_1",
+        "S543_3_upper_outer_bush_-1",
+        "S543_3_upper_outer_bush_1",
+        "S543_3_upper_pin_cap_-1",
+        "S543_3_upper_pin_cap_1",
+        "S543_3_upper_rib_-1",
+        "S543_3_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          -1.2290663719177246,
+          -1.0509018898010254,
+          0.7804428935050964
+        ],
+        "max": [
+          -0.5309337377548218,
+          -0.5470202565193176,
+          1.0879796743392944
+        ]
+      },
+      "droopBolt": "S543_3_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          -0.7329999804496765,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          -0.7070000171661377,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.025442898273468018,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 4,
+      "requestedVerticalDropM": 0.141,
+      "actualRigHeadDatumDropM": 0.14100003242492676,
+      "datumErrorM": 3.242492677135722e-08,
+      "lowerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        1.045322060585022,
+        0.45899999141693115
+      ],
+      "upperArmGeometryParts": [
+        "S543_4_upper_axis_sleeve",
+        "S543_4_upper_cap_fastener_-1_0_hex",
+        "S543_4_upper_cap_fastener_-1_0_washer",
+        "S543_4_upper_cap_fastener_-1_1_hex",
+        "S543_4_upper_cap_fastener_-1_1_washer",
+        "S543_4_upper_cap_fastener_-1_2_hex",
+        "S543_4_upper_cap_fastener_-1_2_washer",
+        "S543_4_upper_cap_fastener_-1_3_hex",
+        "S543_4_upper_cap_fastener_-1_3_washer",
+        "S543_4_upper_cap_fastener_1_0_hex",
+        "S543_4_upper_cap_fastener_1_0_washer",
+        "S543_4_upper_cap_fastener_1_1_hex",
+        "S543_4_upper_cap_fastener_1_1_washer",
+        "S543_4_upper_cap_fastener_1_2_hex",
+        "S543_4_upper_cap_fastener_1_2_washer",
+        "S543_4_upper_cap_fastener_1_3_hex",
+        "S543_4_upper_cap_fastener_1_3_washer",
+        "S543_4_upper_clamp_bolt_-1_hex",
+        "S543_4_upper_clamp_bolt_-1_washer",
+        "S543_4_upper_clamp_bolt_1_hex",
+        "S543_4_upper_clamp_bolt_1_washer",
+        "S543_4_upper_clamp_ear_-1",
+        "S543_4_upper_clamp_ear_1",
+        "S543_4_upper_fork_-1",
+        "S543_4_upper_fork_1",
+        "S543_4_upper_outer_boss_-1",
+        "S543_4_upper_outer_boss_1",
+        "S543_4_upper_outer_bush_-1",
+        "S543_4_upper_outer_bush_1",
+        "S543_4_upper_pin_cap_-1",
+        "S543_4_upper_pin_cap_1",
+        "S543_4_upper_rib_-1",
+        "S543_4_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          2.0709338188171387,
+          0.5470202565193176,
+          0.7804428935050964
+        ],
+        "max": [
+          2.769066333770752,
+          1.0509018898010254,
+          1.0879796743392944
+        ]
+      },
+      "droopBolt": "S543_4_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          2.566999912261963,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          2.5929999351501465,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.025442898273468018,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 5,
+      "requestedVerticalDropM": 0.141,
+      "actualRigHeadDatumDropM": 0.14100003242492676,
+      "datumErrorM": 3.242492677135722e-08,
+      "lowerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        2.4200000762939453,
+        -1.045322060585022,
+        0.45899999141693115
+      ],
+      "upperArmGeometryParts": [
+        "S543_5_upper_axis_sleeve",
+        "S543_5_upper_cap_fastener_-1_0_hex",
+        "S543_5_upper_cap_fastener_-1_0_washer",
+        "S543_5_upper_cap_fastener_-1_1_hex",
+        "S543_5_upper_cap_fastener_-1_1_washer",
+        "S543_5_upper_cap_fastener_-1_2_hex",
+        "S543_5_upper_cap_fastener_-1_2_washer",
+        "S543_5_upper_cap_fastener_-1_3_hex",
+        "S543_5_upper_cap_fastener_-1_3_washer",
+        "S543_5_upper_cap_fastener_1_0_hex",
+        "S543_5_upper_cap_fastener_1_0_washer",
+        "S543_5_upper_cap_fastener_1_1_hex",
+        "S543_5_upper_cap_fastener_1_1_washer",
+        "S543_5_upper_cap_fastener_1_2_hex",
+        "S543_5_upper_cap_fastener_1_2_washer",
+        "S543_5_upper_cap_fastener_1_3_hex",
+        "S543_5_upper_cap_fastener_1_3_washer",
+        "S543_5_upper_clamp_bolt_-1_hex",
+        "S543_5_upper_clamp_bolt_-1_washer",
+        "S543_5_upper_clamp_bolt_1_hex",
+        "S543_5_upper_clamp_bolt_1_washer",
+        "S543_5_upper_clamp_ear_-1",
+        "S543_5_upper_clamp_ear_1",
+        "S543_5_upper_fork_-1",
+        "S543_5_upper_fork_1",
+        "S543_5_upper_outer_boss_-1",
+        "S543_5_upper_outer_boss_1",
+        "S543_5_upper_outer_bush_-1",
+        "S543_5_upper_outer_bush_1",
+        "S543_5_upper_pin_cap_-1",
+        "S543_5_upper_pin_cap_1",
+        "S543_5_upper_rib_-1",
+        "S543_5_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          2.0709338188171387,
+          -1.0509018898010254,
+          0.7804428935050964
+        ],
+        "max": [
+          2.769066333770752,
+          -0.5470202565193176,
+          1.0879796743392944
+        ]
+      },
+      "droopBolt": "S543_5_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          2.566999912261963,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          2.5929999351501465,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.025442898273468018,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 6,
+      "requestedVerticalDropM": 0.141,
+      "actualRigHeadDatumDropM": 0.14100003242492676,
+      "datumErrorM": 3.242492677135722e-08,
+      "lowerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        1.045322060585022,
+        0.45899999141693115
+      ],
+      "upperArmGeometryParts": [
+        "S543_6_upper_axis_sleeve",
+        "S543_6_upper_cap_fastener_-1_0_hex",
+        "S543_6_upper_cap_fastener_-1_0_washer",
+        "S543_6_upper_cap_fastener_-1_1_hex",
+        "S543_6_upper_cap_fastener_-1_1_washer",
+        "S543_6_upper_cap_fastener_-1_2_hex",
+        "S543_6_upper_cap_fastener_-1_2_washer",
+        "S543_6_upper_cap_fastener_-1_3_hex",
+        "S543_6_upper_cap_fastener_-1_3_washer",
+        "S543_6_upper_cap_fastener_1_0_hex",
+        "S543_6_upper_cap_fastener_1_0_washer",
+        "S543_6_upper_cap_fastener_1_1_hex",
+        "S543_6_upper_cap_fastener_1_1_washer",
+        "S543_6_upper_cap_fastener_1_2_hex",
+        "S543_6_upper_cap_fastener_1_2_washer",
+        "S543_6_upper_cap_fastener_1_3_hex",
+        "S543_6_upper_cap_fastener_1_3_washer",
+        "S543_6_upper_clamp_bolt_-1_hex",
+        "S543_6_upper_clamp_bolt_-1_washer",
+        "S543_6_upper_clamp_bolt_1_hex",
+        "S543_6_upper_clamp_bolt_1_washer",
+        "S543_6_upper_clamp_ear_-1",
+        "S543_6_upper_clamp_ear_1",
+        "S543_6_upper_fork_-1",
+        "S543_6_upper_fork_1",
+        "S543_6_upper_outer_boss_-1",
+        "S543_6_upper_outer_boss_1",
+        "S543_6_upper_outer_bush_-1",
+        "S543_6_upper_outer_bush_1",
+        "S543_6_upper_pin_cap_-1",
+        "S543_6_upper_pin_cap_1",
+        "S543_6_upper_rib_-1",
+        "S543_6_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          4.270933628082275,
+          0.5470202565193176,
+          0.7804428935050964
+        ],
+        "max": [
+          4.969066143035889,
+          1.0509018898010254,
+          1.0879796743392944
+        ]
+      },
+      "droopBolt": "S543_6_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          4.767000198364258,
+          0.6769999861717224,
+          0.6150000095367432
+        ],
+        "max": [
+          4.793000221252441,
+          0.703000009059906,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.025442898273468018,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    },
+    {
+      "station": 7,
+      "requestedVerticalDropM": 0.141,
+      "actualRigHeadDatumDropM": 0.14100003242492676,
+      "datumErrorM": 3.242492677135722e-08,
+      "lowerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        -0.550000011920929,
+        0.6000000238418579
+      ],
+      "outerHeadDatumWorldXYZ": [
+        4.619999885559082,
+        -1.045322060585022,
+        0.45899999141693115
+      ],
+      "upperArmGeometryParts": [
+        "S543_7_upper_axis_sleeve",
+        "S543_7_upper_cap_fastener_-1_0_hex",
+        "S543_7_upper_cap_fastener_-1_0_washer",
+        "S543_7_upper_cap_fastener_-1_1_hex",
+        "S543_7_upper_cap_fastener_-1_1_washer",
+        "S543_7_upper_cap_fastener_-1_2_hex",
+        "S543_7_upper_cap_fastener_-1_2_washer",
+        "S543_7_upper_cap_fastener_-1_3_hex",
+        "S543_7_upper_cap_fastener_-1_3_washer",
+        "S543_7_upper_cap_fastener_1_0_hex",
+        "S543_7_upper_cap_fastener_1_0_washer",
+        "S543_7_upper_cap_fastener_1_1_hex",
+        "S543_7_upper_cap_fastener_1_1_washer",
+        "S543_7_upper_cap_fastener_1_2_hex",
+        "S543_7_upper_cap_fastener_1_2_washer",
+        "S543_7_upper_cap_fastener_1_3_hex",
+        "S543_7_upper_cap_fastener_1_3_washer",
+        "S543_7_upper_clamp_bolt_-1_hex",
+        "S543_7_upper_clamp_bolt_-1_washer",
+        "S543_7_upper_clamp_bolt_1_hex",
+        "S543_7_upper_clamp_bolt_1_washer",
+        "S543_7_upper_clamp_ear_-1",
+        "S543_7_upper_clamp_ear_1",
+        "S543_7_upper_fork_-1",
+        "S543_7_upper_fork_1",
+        "S543_7_upper_outer_boss_-1",
+        "S543_7_upper_outer_boss_1",
+        "S543_7_upper_outer_bush_-1",
+        "S543_7_upper_outer_bush_1",
+        "S543_7_upper_pin_cap_-1",
+        "S543_7_upper_pin_cap_1",
+        "S543_7_upper_rib_-1",
+        "S543_7_upper_rib_1"
+      ],
+      "upperArmBounds": {
+        "min": [
+          4.270933628082275,
+          -1.0509018898010254,
+          0.7804428935050964
+        ],
+        "max": [
+          4.969066143035889,
+          -0.5470202565193176,
+          1.0879796743392944
+        ]
+      },
+      "droopBolt": "S543_7_droop_limit_bolt",
+      "droopBoltBounds": {
+        "min": [
+          4.767000198364258,
+          -0.703000009059906,
+          0.6150000095367432
+        ],
+        "max": [
+          4.793000221252441,
+          -0.6769999861717224,
+          0.7549999952316284
+        ]
+      },
+      "aabbSeparationLowerBoundM": 0.025442898273468018,
+      "separationAxis": 2,
+      "stopContactStatus": "PROVABLY_NOT_IN_CONTACT_AT_THIS_DIAGNOSTIC_POSE"
+    }
+  ],
+  "scope": "Actual retained rig joint origins; actual evaluated upper-arm descendants versus actual retained droop limit bolt. Does not establish casting-hole center measurement, torsion strain/preload, proper stop adjustment, static equilibrium, continuous clearance or entire module acceptance.",
+  "condition": "Original p320 calls for the support bolts to touch the upper arms during the torsion-installation setting. Existing stop geometry has not been adjusted in this diagnosis.",
+  "source_sha256_after": "1332163b7c99da0bf3b11d3e9c250b451ceba3430b8935bde919ae4a55b6a51d",
+  "saved_blend": false,
+  "wholeVehicleAcceptance": "16 OPEN"
+}
