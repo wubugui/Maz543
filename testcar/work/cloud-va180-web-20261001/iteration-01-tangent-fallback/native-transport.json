@@ -1,0 +1,6116 @@
+{
+  "status": "PASS_NATIVE_CAB_TRANSPORT_ONLY",
+  "input": "work/cloud-va180-web-20261001/native-export.glb",
+  "sha256": "51ff5887b5a75f2b1afd7e943b66a7c45310977d328adcebe1482c5ee3c3ccd8",
+  "nativeSourceSHA256": "6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266",
+  "thresholdM": 0.00002,
+  "failures": [],
+  "rows": [
+    {
+      "name": "BL_Left_driver_steering_column_retained",
+      "sourceType": "MESH",
+      "nativeVertices": 148,
+      "decodedVertices": 194,
+      "nativeTriangles": 96,
+      "decodedTriangles": 96,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 0.000001162484559679531,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 0.000001162484559679531,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C01 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.754881155924631e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.754881155924631e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C01 fuse button",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.492351424742137e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.492351424742137e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C01 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.5703768659125223e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.5703768659125223e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C02 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.866072387261046e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.866072387261046e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C02 indicator proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.960332883173888e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.960332883173888e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C02 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.690540378432804e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.690540378432804e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C03 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.593032166585635e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.593032166585635e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C03 indicator proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.4784125079590557e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.4784125079590557e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C03 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.9487563732919057e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.9487563732919057e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C04 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.470548077040398e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.470548077040398e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C04 fuse button",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.099125195891773e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.099125195891773e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C04 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.9565949577729525e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.9565949577729525e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C05 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.4736793227535377e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.4736793227535377e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C05 fuse button",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.083914121082397e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.083914121082397e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C05 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.950302074575178e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.950302074575178e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C06 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.372040200013911e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.372040200013911e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C06 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.4761794742246393e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.4761794742246393e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C06 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.970955223168705e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.970955223168705e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C06 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.2297655074331146e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.2297655074331146e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C07 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.39397298821605e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.39397298821605e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C07 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.3314078771892135e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.3314078771892135e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C07 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.0300566508278366e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.0300566508278366e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C07 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.918126476455616e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.918126476455616e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C08 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.399798043085672e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.399798043085672e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C08 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.328316225141134e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.328316225141134e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C08 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.0239565570186635e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.0239565570186635e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C08 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.9206326925640257e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.9206326925640257e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C09 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.131405910237147e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.131405910237147e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C09 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.8340485428221797e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.8340485428221797e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C09 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.6688988355327596e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.6688988355327596e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C09 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.517994892509277e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.517994892509277e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C10 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.0611657677372913e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.0611657677372913e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C10 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.430049953237899e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.430049953237899e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C10 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.259378298602673e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.259378298602673e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C10 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.531048238346993e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.531048238346993e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C11 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.951590781621693e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.951590781621693e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C11 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.4990420308296913e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.4990420308296913e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C11 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.390622065853632e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.390622065853632e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C11 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.3899137387741977e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.3899137387741977e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C12 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.5750509024893266e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.5750509024893266e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C12 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.8880710615625533e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.8880710615625533e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C12 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.367733161432575e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.367733161432575e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C12 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.498257172478928e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.498257172478928e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C13 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.6054478028413577e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.6054478028413577e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C13 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.9103704228821006e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.9103704228821006e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C13 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.384695441895492e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.384695441895492e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C13 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.538006872761033e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.538006872761033e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C14 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.3649635961127244e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.3649635961127244e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C14 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.302831601314949e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.302831601314949e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C14 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.579930921322773e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.579930921322773e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C14 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.551431341567975e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.551431341567975e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C15 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.2493574022023063e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.2493574022023063e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C15 fuse button",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.8867846369987325e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.8867846369987325e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C15 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.026457273636073e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.026457273636073e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C16 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.281622133456344e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.281622133456344e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C16 fuse button",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.9086291773420486e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.9086291773420486e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C16 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.041776147300964e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.041776147300964e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C17 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.2565000756560374e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.2565000756560374e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C17 fuse button",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.8095060367567537e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.8095060367567537e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C17 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.983768062109968e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.983768062109968e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C18 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.2418406803649215e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.2418406803649215e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C18 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.578160895876885e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.578160895876885e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C18 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.250418288528469e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.250418288528469e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C18 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.896873223315602e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.896873223315602e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C19 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.632669581430689e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.632669581430689e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C19 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.795975866931224e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.795975866931224e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C19 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.201712398277498e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.201712398277498e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C19 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.533094328562603e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.533094328562603e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C20 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.557913678921045e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.557913678921045e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C20 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.116972788460259e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.116972788460259e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C20 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.125964930680294e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.125964930680294e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C20 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.790981471088603e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.790981471088603e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C21 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.578369807445694e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.578369807445694e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C21 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.97876488049432e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.97876488049432e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C21 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.063252407403376e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.063252407403376e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C21 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.0563400295923154e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.0563400295923154e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C22 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.954789257192879e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.954789257192879e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C22 fuse button",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.565189064392973e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.565189064392973e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C22 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.82004579894035e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.82004579894035e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C23 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.441300467572913e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.441300467572913e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C23 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.354259277136934e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.354259277136934e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C23 socket blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.369528749185123e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.369528749185123e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C23 socket rim",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.3515050747278765e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.3515050747278765e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C24 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.7462886644695094e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.7462886644695094e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C24 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.816600675234705e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.816600675234705e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C24 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.665387828880201e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.665387828880201e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C24 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.151965635755912e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.151965635755912e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C25 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.449279849342584e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.449279849342584e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C25 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.769526623884499e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.769526623884499e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C25 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.4744660834905765e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.4744660834905765e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C25 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.564884009787322e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.564884009787322e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C26 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.230224901985748e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.230224901985748e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C26 indicator proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.0117879630048407e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.0117879630048407e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L C26 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.214240169600264e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.214240169600264e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M1 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.111526768314447e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.111526768314447e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M1 indicator proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.0176928117981373e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.0176928117981373e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M1 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.5483773965964906e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.5483773965964906e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M2 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.2659815674011426e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.2659815674011426e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M2 indicator proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.615107688224764e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.615107688224764e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M2 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.4835773880904175e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.4835773880904175e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M3 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.2473241364405986e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.2473241364405986e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M3 indicator proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.615896009917869e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.615896009917869e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M3 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.4882978429804113e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.4882978429804113e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M4 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.474353154954595e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.474353154954595e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M4 indicator proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.8506341501702767e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.8506341501702767e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M4 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.375940331842917e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.375940331842917e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M5 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.203105983635217e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.203105983635217e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M5 indicator proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.176409303608701e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.176409303608701e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M5 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.729981776928517e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.729981776928517e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M6 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.7040053557470684e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.7040053557470684e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M6 indicator proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.125672177873093e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.125672177873093e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "L M6 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.962343622676939e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.962343622676939e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A1 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.976070947903286e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.976070947903286e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A1 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.435776142108306e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.435776142108306e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A1 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.006241058787075e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.006241058787075e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A1 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.42242540518334e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.42242540518334e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A1 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 2.856425367154826e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 2.856425367154826e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A1 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.309366149675906e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.309366149675906e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A2 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.44952107296843e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.44952107296843e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A2 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.258035472210218e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.258035472210218e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A2 observed upper arch proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 476,
+      "decodedVertices": 1756,
+      "nativeTriangles": 948,
+      "decodedTriangles": 948,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.289984915356045e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.289984915356045e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A2 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.708711582155703e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.708711582155703e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A2 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.318892149314073e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.318892149314073e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A2 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.241178858608109e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.241178858608109e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A2 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.345933636141214e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.345933636141214e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A3 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.4583234628242016e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.4583234628242016e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A3 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.258171896346343e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.258171896346343e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A3 observed upper arch proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 476,
+      "decodedVertices": 1756,
+      "nativeTriangles": 948,
+      "decodedTriangles": 948,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.2617212474516965e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.2617212474516965e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A3 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.724646632972951e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.724646632972951e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A3 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.320623858061511e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.320623858061511e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A3 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.2694157964668763e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.2694157964668763e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A3 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.345798076990564e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.345798076990564e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A4 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.487904942896647e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.487904942896647e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A4 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.278021216888864e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.278021216888864e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A4 observed upper arch proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 476,
+      "decodedVertices": 1756,
+      "nativeTriangles": 948,
+      "decodedTriangles": 948,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.253152438225026e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.253152438225026e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A4 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.761389857746007e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.761389857746007e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A4 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.356234111773337e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.356234111773337e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A4 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 1.9751464539817784e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 1.9751464539817784e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A4 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.363669374850597e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.363669374850597e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A5 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.6804327531996317e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.6804327531996317e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A5 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.153751642408819e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.153751642408819e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A5 observed upper arch proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 476,
+      "decodedVertices": 1756,
+      "nativeTriangles": 948,
+      "decodedTriangles": 948,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.6731277054733237e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.6731277054733237e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A5 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.7386025316846887e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.7386025316846887e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A5 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.060110458852083e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.060110458852083e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A5 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 1.9135488794873007e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 1.9135488794873007e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A5 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.199911667339559e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.199911667339559e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A6 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.658873334624459e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.658873334624459e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A6 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.134152291630971e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.134152291630971e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A6 observed upper arch proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 476,
+      "decodedVertices": 1756,
+      "nativeTriangles": 948,
+      "decodedTriangles": 948,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.042705228614648e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.042705228614648e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A6 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.7268422672480916e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.7268422672480916e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A6 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.033541634073841e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.033541634073841e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A6 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 1.9744183328494824e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 1.9744183328494824e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A6 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.194223920551297e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.194223920551297e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A7 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 7.181532826472605e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 7.181532826472605e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A7 counter aperture proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.996829706502484e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.996829706502484e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A7 empty counter window",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.614659439704951e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.614659439704951e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A7 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.707466449171745e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.707466449171745e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A7 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.768150723496454e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.768150723496454e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT A7 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.809121395189494e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.809121395189494e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B1 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.382118703483209e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.382118703483209e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B1 counter aperture proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.878314276147811e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.878314276147811e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B1 empty counter window",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.558094247967885e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.558094247967885e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B1 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.123662207146063e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.123662207146063e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B1 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.98908586689386e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.98908586689386e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B1 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.239579325701409e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.239579325701409e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B1 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 1.8638525693236632e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 1.8638525693236632e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B1 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.23612697553905e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.23612697553905e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B2 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.021640172246542e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.021640172246542e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B2 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.6278870914401916e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.6278870914401916e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B2 observed upper arch proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 476,
+      "decodedVertices": 1756,
+      "nativeTriangles": 948,
+      "decodedTriangles": 948,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.4211379956027116e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.4211379956027116e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B2 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.377059688923144e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.377059688923144e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B2 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.721044400234182e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.721044400234182e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B2 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 2.463273022412064e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 2.463273022412064e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B2 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.2300084433835907e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.2300084433835907e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B3 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.048712413211109e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.048712413211109e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B3 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.659058060551387e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.659058060551387e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B3 observed upper arch proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 476,
+      "decodedVertices": 1756,
+      "nativeTriangles": 948,
+      "decodedTriangles": 948,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.547014254253695e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.547014254253695e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B3 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.404262254614231e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.404262254614231e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B3 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.7932194186375347e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.7932194186375347e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B3 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 2.3750542440670569e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 2.3750542440670569e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B3 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.263196685224638e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.263196685224638e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B5 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.001838124561172e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.001838124561172e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B5 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.610497721079074e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.610497721079074e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B5 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.072420443654752e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.072420443654752e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B5 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.3836933014390876e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.3836933014390876e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B5 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 2.610544949148266e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 2.610544949148266e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B5 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.9372225903970737e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.9372225903970737e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B6 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.162869594133772e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.162869594133772e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B6 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.811078441341363e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.811078441341363e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B6 observed upper arch proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 476,
+      "decodedVertices": 1756,
+      "nativeTriangles": 948,
+      "decodedTriangles": 948,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.668364679446421e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.668364679446421e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B6 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.208702665406855e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.208702665406855e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B6 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.7919277490900013e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.7919277490900013e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B6 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 2.637282723284793e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 2.637282723284793e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B6 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.072138214893412e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.072138214893412e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B7 blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.149350700700015e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.149350700700015e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B7 independent bezel",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.797655194040943e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.797655194040943e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B7 observed upper arch proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 476,
+      "decodedVertices": 1756,
+      "nativeTriangles": 948,
+      "decodedTriangles": 948,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.38976508133301e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.38976508133301e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B7 separate cover glass",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.195922321063851e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.195922321063851e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B7 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.785358555419569e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.785358555419569e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B7 uncalibrated pointer",
+      "sourceType": "MESH",
+      "nativeVertices": 6,
+      "decodedVertices": 18,
+      "nativeTriangles": 8,
+      "decodedTriangles": 8,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 2.658372678459244e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 2.658372678459244e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT B7 uncalibrated pointer pivot",
+      "sourceType": "MESH",
+      "nativeVertices": 256,
+      "decodedVertices": 960,
+      "nativeTriangles": 508,
+      "decodedTriangles": 508,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.059024436520641e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.059024436520641e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "LEFT PANEL — real openings / fitted silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 24896,
+      "decodedVertices": 93076,
+      "nativeTriangles": 49972,
+      "decodedTriangles": 49972,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 0.000002914526041572692,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 0.000002914526041572692,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R1 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.716556001511637e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.716556001511637e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R1 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.827121728987613e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.827121728987613e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R1 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.6219105703761865e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.6219105703761865e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R1 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.225050851733392e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.225050851733392e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R2 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.275390082762987e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.275390082762987e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R2 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.7822198156114413e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.7822198156114413e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R2 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.141344265303335e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.141344265303335e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R2 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.240116417822119e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.240116417822119e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R3 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.403185757759418e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.403185757759418e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R3 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.805097291316106e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.805097291316106e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R3 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.172572894633651e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.172572894633651e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R3 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.297027557423402e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.297027557423402e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R4 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.380622527662627e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.380622527662627e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R4 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.7719168307376553e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.7719168307376553e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R4 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.156140016950976e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.156140016950976e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R4 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.27250230561491e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.27250230561491e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R5 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.613804599165758e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.613804599165758e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R5 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.477772662791503e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.477772662791503e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R5 socket blank face",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 7.023603476024379e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 7.023603476024379e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R5 socket rim",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.084640356401075e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.084640356401075e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R6a front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.304197210131361e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.304197210131361e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R6a fuse button",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.752944211832771e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.752944211832771e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R6a separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.6283612405357876e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.6283612405357876e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R6b front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.302061857846464e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.302061857846464e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R6b fuse button",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.7507297034944747e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.7507297034944747e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R6b separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.626664427114972e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.626664427114972e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R8 front base",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.934297962360865e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.934297962360865e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R8 observed hexagonal mount",
+      "sourceType": "MESH",
+      "nativeVertices": 144,
+      "decodedVertices": 576,
+      "nativeTriangles": 284,
+      "decodedTriangles": 284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.290227993997466e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.290227993997466e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R8 separate rear body",
+      "sourceType": "MESH",
+      "nativeVertices": 384,
+      "decodedVertices": 1440,
+      "nativeTriangles": 764,
+      "decodedTriangles": 764,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.668540359635717e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.668540359635717e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "R R8 switch or button silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.606113530815189e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.606113530815189e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "RIGHT PANEL — real openings / fitted silhouette",
+      "sourceType": "MESH",
+      "nativeVertices": 4848,
+      "decodedVertices": 18148,
+      "nativeTriangles": 9728,
+      "decodedTriangles": 9728,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 0.0000011823217432987827,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 0.0000011823217432987827,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "RIGHT R7 dark reflector proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.979948335432491e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.979948335432491e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "RIGHT R7 fitted rear lamp body",
+      "sourceType": "MESH",
+      "nativeVertices": 512,
+      "decodedVertices": 1920,
+      "nativeTriangles": 1020,
+      "decodedTriangles": 1020,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 7.138238982118488e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 7.138238982118488e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "RIGHT R7 observed bell-form shield proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 128,
+      "decodedVertices": 504,
+      "nativeTriangles": 252,
+      "decodedTriangles": 252,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.5385738266581485e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.5385738266581485e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "RIGHT R7 shallow lamp lens proxy",
+      "sourceType": "MESH",
+      "nativeVertices": 1474,
+      "decodedVertices": 1623,
+      "nativeTriangles": 2944,
+      "decodedTriangles": 2944,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 7.557867259327406e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 7.557867259327406e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "RIGHT R7 task-lamp rolled rim",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 845,
+      "nativeTriangles": 1536,
+      "decodedTriangles": 1536,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.725473267910944e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.725473267910944e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "RIGHT UNIDENTIFIED VERTICAL STRIP — fitted",
+      "sourceType": "MESH",
+      "nativeVertices": 720,
+      "decodedVertices": 2816,
+      "nativeTriangles": 1444,
+      "decodedTriangles": 1444,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 0.0000010430399492490577,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 0.0000010430399492490577,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / BUTTON — movable cap",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 2116,
+      "nativeTriangles": 1532,
+      "decodedTriangles": 1532,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.640820522285217e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.640820522285217e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / BUTTON — movable stem",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 2116,
+      "nativeTriangles": 1532,
+      "decodedTriangles": 1532,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.020050344539155e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.020050344539155e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / BUTTON — stationary hollow sleeve",
+      "sourceType": "MESH",
+      "nativeVertices": 1536,
+      "decodedVertices": 4232,
+      "nativeTriangles": 3072,
+      "decodedTriangles": 3072,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.824071754581075e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.824071754581075e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / CASE — fitted hollow cylindrical envelope",
+      "sourceType": "MESH",
+      "nativeVertices": 1536,
+      "decodedVertices": 3945,
+      "nativeTriangles": 3068,
+      "decodedTriangles": 3068,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.2539207353548473e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.2539207353548473e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / DIAL — backing beneath real window",
+      "sourceType": "MESH",
+      "nativeVertices": 2544,
+      "decodedVertices": 7708,
+      "nativeTriangles": 5084,
+      "decodedTriangles": 5084,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.2820821257872194e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.2820821257872194e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / FRONT — opaque lower mask and upper opening",
+      "sourceType": "MESH",
+      "nativeVertices": 3980,
+      "decodedVertices": 12620,
+      "nativeTriangles": 7968,
+      "decodedTriangles": 7968,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 6.236434145993232e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 6.236434145993232e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / GLASS — separate fitted flat cover",
+      "sourceType": "MESH",
+      "nativeVertices": 1664,
+      "decodedVertices": 6240,
+      "nativeTriangles": 3324,
+      "decodedTriangles": 3324,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.482230193117218e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.482230193117218e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / OBSERVED A scale label 0",
+      "sourceType": "FONT",
+      "nativeVertices": 1284,
+      "decodedVertices": 1292,
+      "nativeTriangles": 1284,
+      "decodedTriangles": 1284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.725759375766568e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.725759375766568e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / OBSERVED A scale label 1",
+      "sourceType": "FONT",
+      "nativeVertices": 512,
+      "decodedVertices": 516,
+      "nativeTriangles": 512,
+      "decodedTriangles": 512,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.2364636686805097e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.2364636686805097e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / OBSERVED A scale label 2",
+      "sourceType": "FONT",
+      "nativeVertices": 1284,
+      "decodedVertices": 1292,
+      "nativeTriangles": 1284,
+      "decodedTriangles": 1284,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.6144733439040406e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.6144733439040406e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / OBSERVED A scale label 3",
+      "sourceType": "FONT",
+      "nativeVertices": 1088,
+      "decodedVertices": 1096,
+      "nativeTriangles": 1080,
+      "decodedTriangles": 1080,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.812557612257054e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.812557612257054e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / OBSERVED A scale label 4",
+      "sourceType": "FONT",
+      "nativeVertices": 1580,
+      "decodedVertices": 1592,
+      "nativeTriangles": 1580,
+      "decodedTriangles": 1580,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.923645470963743e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.923645470963743e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / OBSERVED current unit",
+      "sourceType": "FONT",
+      "nativeVertices": 44,
+      "decodedVertices": 48,
+      "nativeTriangles": 44,
+      "decodedTriangles": 44,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.8601574595865816e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.8601574595865816e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / OBSERVED push instruction",
+      "sourceType": "FONT",
+      "nativeVertices": 1792,
+      "decodedVertices": 1814,
+      "nativeTriangles": 1780,
+      "decodedTriangles": 1780,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 5.73984885254958e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 5.73984885254958e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / POINTER — fitted photo pose, not a measured value",
+      "sourceType": "MESH",
+      "nativeVertices": 96,
+      "decodedVertices": 384,
+      "nativeTriangles": 188,
+      "decodedTriangles": 188,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.2270723177837655e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.2270723177837655e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / ZERO CORRECTOR — retained separate shank",
+      "sourceType": "MESH",
+      "nativeVertices": 768,
+      "decodedVertices": 2116,
+      "nativeTriangles": 1532,
+      "decodedTriangles": 1532,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 4.013981379265506e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 4.013981379265506e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "VA180 B4 / ZERO CORRECTOR — slotted front head",
+      "sourceType": "MESH",
+      "nativeVertices": 864,
+      "decodedVertices": 2500,
+      "nativeTriangles": 1724,
+      "decodedTriangles": 1724,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.9047930164457115e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.9047930164457115e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "cab_0029",
+      "sourceType": "MESH",
+      "nativeVertices": 441,
+      "decodedVertices": 441,
+      "nativeTriangles": 768,
+      "decodedTriangles": 768,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 0.0000013276877268179265,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 0.0000013276877268179265,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "cab_0030",
+      "sourceType": "MESH",
+      "nativeVertices": 148,
+      "decodedVertices": 194,
+      "nativeTriangles": 96,
+      "decodedTriangles": 96,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 3.320115239840536e-7,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 3.320115239840536e-7,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "cab_0031",
+      "sourceType": "MESH",
+      "nativeVertices": 444,
+      "decodedVertices": 582,
+      "nativeTriangles": 288,
+      "decodedTriangles": 288,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 0.000001011024824691646,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 0.000001011024824691646,
+        "outsideThreshold": 0
+      }
+    },
+    {
+      "name": "cab_0064",
+      "sourceType": "MESH",
+      "nativeVertices": 3600,
+      "decodedVertices": 3600,
+      "nativeTriangles": 1200,
+      "decodedTriangles": 1200,
+      "forward": {
+        "maximumFiniteNeighbourErrorM": 0.000008190814679289762,
+        "outsideThreshold": 0
+      },
+      "reverse": {
+        "maximumFiniteNeighbourErrorM": 0.000008190814679289762,
+        "outsideThreshold": 0
+      }
+    }
+  ],
+  "poses": [
+    {
+      "name": "BL_Left_driver_steering_column_retained",
+      "localError": 1.3714351609905862e-7,
+      "worldError": 1.3714351609905862e-7,
+      "parent": "cab"
+    },
+    {
+      "name": "L C01 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C01 front base",
+      "localError": 1.0826624929904938e-7,
+      "worldError": 1.177318820211326e-7,
+      "parent": "L C01 control assembly"
+    },
+    {
+      "name": "L C01 fuse button",
+      "localError": 1.6810372471809387e-7,
+      "worldError": 2.6934604591133393e-7,
+      "parent": "L C01 control assembly"
+    },
+    {
+      "name": "L C01 separate rear body",
+      "localError": 7.078051567077637e-8,
+      "worldError": 1.5228313010595684e-7,
+      "parent": "L C01 control assembly"
+    },
+    {
+      "name": "L C02 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C02 front base",
+      "localError": 1.0826624929904938e-7,
+      "worldError": 1.1569688362911279e-7,
+      "parent": "L C02 control assembly"
+    },
+    {
+      "name": "L C02 indicator proxy",
+      "localError": 1.3830140233039856e-7,
+      "worldError": 3.074437877614855e-7,
+      "parent": "L C02 control assembly"
+    },
+    {
+      "name": "L C02 separate rear body",
+      "localError": 7.078051567077637e-8,
+      "worldError": 1.6091319832156614e-7,
+      "parent": "L C02 control assembly"
+    },
+    {
+      "name": "L C03 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C03 front base",
+      "localError": 1.6787089407444e-7,
+      "worldError": 2.613620875280276e-7,
+      "parent": "L C03 control assembly"
+    },
+    {
+      "name": "L C03 indicator proxy",
+      "localError": 1.9790604710578918e-7,
+      "worldError": 1.1377597886053081e-7,
+      "parent": "L C03 control assembly"
+    },
+    {
+      "name": "L C03 separate rear body",
+      "localError": 4.0978193283081055e-8,
+      "worldError": 1.1295141377765106e-7,
+      "parent": "L C03 control assembly"
+    },
+    {
+      "name": "L C04 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C04 front base",
+      "localError": 2.260785549879074e-7,
+      "worldError": 1.1701534896602084e-7,
+      "parent": "L C04 control assembly"
+    },
+    {
+      "name": "L C04 fuse button",
+      "localError": 2.5564804673194885e-7,
+      "worldError": 2.2549792078052633e-7,
+      "parent": "L C04 control assembly"
+    },
+    {
+      "name": "L C04 separate rear body",
+      "localError": 2.2351741790771484e-8,
+      "worldError": 1.1638317976014889e-7,
+      "parent": "L C04 control assembly"
+    },
+    {
+      "name": "L C05 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C05 front base",
+      "localError": 2.2444874048233032e-7,
+      "worldError": 1.1637536756481381e-7,
+      "parent": "L C05 control assembly"
+    },
+    {
+      "name": "L C05 fuse button",
+      "localError": 2.5425106287002563e-7,
+      "worldError": 2.244022523356648e-7,
+      "parent": "L C05 control assembly"
+    },
+    {
+      "name": "L C05 separate rear body",
+      "localError": 2.2351741790771484e-8,
+      "worldError": 1.1574319813689726e-7,
+      "parent": "L C05 control assembly"
+    },
+    {
+      "name": "L C06 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C06 front base",
+      "localError": 1.0523945093154907e-7,
+      "worldError": 1.941052900633622e-7,
+      "parent": "L C06 control assembly"
+    },
+    {
+      "name": "L C06 observed hexagonal mount",
+      "localError": 7.543712854385376e-8,
+      "worldError": 1.2994766973584149e-7,
+      "parent": "L C06 control assembly"
+    },
+    {
+      "name": "L C06 separate rear body",
+      "localError": 1.6298145055770874e-7,
+      "worldError": 3.2342679645580574e-7,
+      "parent": "L C06 control assembly"
+    },
+    {
+      "name": "L C06 switch or button silhouette",
+      "localError": 1.3504177331924438e-7,
+      "worldError": 1.4021948580023036e-7,
+      "parent": "L C06 control assembly"
+    },
+    {
+      "name": "L C07 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C07 front base",
+      "localError": 4.7264620661735535e-8,
+      "worldError": 1.0058558852499289e-7,
+      "parent": "L C07 control assembly"
+    },
+    {
+      "name": "L C07 observed hexagonal mount",
+      "localError": 1.7695128917694092e-8,
+      "worldError": 1.5309600254198585e-7,
+      "parent": "L C07 control assembly"
+    },
+    {
+      "name": "L C07 separate rear body",
+      "localError": 2.505257725715637e-7,
+      "worldError": 9.99534128798274e-8,
+      "parent": "L C07 control assembly"
+    },
+    {
+      "name": "L C07 switch or button silhouette",
+      "localError": 7.729977369308472e-8,
+      "worldError": 1.2982022745688937e-7,
+      "parent": "L C07 control assembly"
+    },
+    {
+      "name": "L C08 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C08 front base",
+      "localError": 4.889443516731262e-8,
+      "worldError": 1.0380358927974953e-7,
+      "parent": "L C08 control assembly"
+    },
+    {
+      "name": "L C08 observed hexagonal mount",
+      "localError": 1.909211277961731e-8,
+      "worldError": 1.5321694668557484e-7,
+      "parent": "L C08 control assembly"
+    },
+    {
+      "name": "L C08 separate rear body",
+      "localError": 2.4866312742233276e-7,
+      "worldError": 9.934009859158266e-8,
+      "parent": "L C08 control assembly"
+    },
+    {
+      "name": "L C08 switch or button silhouette",
+      "localError": 7.916241884231567e-8,
+      "worldError": 1.2923885073234942e-7,
+      "parent": "L C08 control assembly"
+    },
+    {
+      "name": "L C09 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C09 front base",
+      "localError": 3.888271749019623e-8,
+      "worldError": 3.246112889598862e-7,
+      "parent": "L C09 control assembly"
+    },
+    {
+      "name": "L C09 observed hexagonal mount",
+      "localError": 9.825453162193298e-8,
+      "worldError": 1.1413154199502173e-7,
+      "parent": "L C09 control assembly"
+    },
+    {
+      "name": "L C09 separate rear body",
+      "localError": 1.3969838619232178e-7,
+      "worldError": 1.5108715700762332e-7,
+      "parent": "L C09 control assembly"
+    },
+    {
+      "name": "L C09 switch or button silhouette",
+      "localError": 1.4901161193847656e-8,
+      "worldError": 2.8830969789339633e-7,
+      "parent": "L C09 control assembly"
+    },
+    {
+      "name": "L C10 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C10 front base",
+      "localError": 9.685754776000977e-8,
+      "worldError": 1.0220947510575229e-7,
+      "parent": "L C10 control assembly"
+    },
+    {
+      "name": "L C10 observed hexagonal mount",
+      "localError": 1.564621925354004e-7,
+      "worldError": 2.6626095372961345e-7,
+      "parent": "L C10 control assembly"
+    },
+    {
+      "name": "L C10 separate rear body",
+      "localError": 8.195638656616211e-8,
+      "worldError": 1.4873760623146381e-7,
+      "parent": "L C10 control assembly"
+    },
+    {
+      "name": "L C10 switch or button silhouette",
+      "localError": 6.705522537231445e-8,
+      "worldError": 1.2868969134771646e-7,
+      "parent": "L C10 control assembly"
+    },
+    {
+      "name": "L C11 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C11 front base",
+      "localError": 2.0302832126617432e-7,
+      "worldError": 1.6943963121462957e-7,
+      "parent": "L C11 control assembly"
+    },
+    {
+      "name": "L C11 observed hexagonal mount",
+      "localError": 1.73225998878479e-7,
+      "worldError": 1.0060905908382267e-7,
+      "parent": "L C11 control assembly"
+    },
+    {
+      "name": "L C11 separate rear body",
+      "localError": 9.499490261077881e-8,
+      "worldError": 2.6929346397253084e-7,
+      "parent": "L C11 control assembly"
+    },
+    {
+      "name": "L C11 switch or button silhouette",
+      "localError": 2.4400651454925537e-7,
+      "worldError": 1.3336825599452595e-7,
+      "parent": "L C11 control assembly"
+    },
+    {
+      "name": "L C12 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C12 front base",
+      "localError": 4.7264620661735535e-8,
+      "worldError": 1.2900932944148735e-7,
+      "parent": "L C12 control assembly"
+    },
+    {
+      "name": "L C12 observed hexagonal mount",
+      "localError": 1.0663643479347229e-7,
+      "worldError": 1.1337253980059359e-7,
+      "parent": "L C12 control assembly"
+    },
+    {
+      "name": "L C12 separate rear body",
+      "localError": 1.3131648302078247e-7,
+      "worldError": 1.1254797493975843e-7,
+      "parent": "L C12 control assembly"
+    },
+    {
+      "name": "L C12 switch or button silhouette",
+      "localError": 2.9802322387695312e-8,
+      "worldError": 3.0617185409198555e-7,
+      "parent": "L C12 control assembly"
+    },
+    {
+      "name": "L C13 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C13 front base",
+      "localError": 4.563480615615845e-8,
+      "worldError": 1.2764797752140566e-7,
+      "parent": "L C13 control assembly"
+    },
+    {
+      "name": "L C13 observed hexagonal mount",
+      "localError": 1.0523945093154907e-7,
+      "worldError": 1.1273255928756498e-7,
+      "parent": "L C13 control assembly"
+    },
+    {
+      "name": "L C13 separate rear body",
+      "localError": 1.3317912817001343e-7,
+      "worldError": 1.1190799442672983e-7,
+      "parent": "L C13 control assembly"
+    },
+    {
+      "name": "L C13 switch or button silhouette",
+      "localError": 1.5832483768463135e-8,
+      "worldError": 3.077634218584535e-7,
+      "parent": "L C13 control assembly"
+    },
+    {
+      "name": "L C14 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C14 front base",
+      "localError": 1.9068829715251923e-7,
+      "worldError": 9.666868217017566e-8,
+      "parent": "L C14 control assembly"
+    },
+    {
+      "name": "L C14 observed hexagonal mount",
+      "localError": 2.505257725715637e-7,
+      "worldError": 3.040640281781748e-7,
+      "parent": "L C14 control assembly"
+    },
+    {
+      "name": "L C14 separate rear body",
+      "localError": 1.4901161193847656e-8,
+      "worldError": 1.8654067979184674e-7,
+      "parent": "L C14 control assembly"
+    },
+    {
+      "name": "L C14 switch or button silhouette",
+      "localError": 1.6111880540847778e-7,
+      "worldError": 1.1979419967111937e-7,
+      "parent": "L C14 control assembly"
+    },
+    {
+      "name": "L C15 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C15 front base",
+      "localError": 2.0256265997886658e-8,
+      "worldError": 1.3919976371568055e-7,
+      "parent": "L C15 control assembly"
+    },
+    {
+      "name": "L C15 fuse button",
+      "localError": 3.958120942115784e-8,
+      "worldError": 1.151360455864392e-7,
+      "parent": "L C15 control assembly"
+    },
+    {
+      "name": "L C15 separate rear body",
+      "localError": 2.775341272354126e-7,
+      "worldError": 2.392838132081465e-7,
+      "parent": "L C15 control assembly"
+    },
+    {
+      "name": "L C16 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C16 front base",
+      "localError": 2.2351741790771484e-8,
+      "worldError": 1.4035070350360002e-7,
+      "parent": "L C16 control assembly"
+    },
+    {
+      "name": "L C16 fuse button",
+      "localError": 3.725290298461914e-8,
+      "worldError": 1.1375489084031187e-7,
+      "parent": "L C16 control assembly"
+    },
+    {
+      "name": "L C16 separate rear body",
+      "localError": 2.7567148208618164e-7,
+      "worldError": 2.402045362615013e-7,
+      "parent": "L C16 control assembly"
+    },
+    {
+      "name": "L C17 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C17 front base",
+      "localError": 2.444721758365631e-8,
+      "worldError": 1.3927484499021148e-7,
+      "parent": "L C17 control assembly"
+    },
+    {
+      "name": "L C17 fuse button",
+      "localError": 3.4924596548080444e-8,
+      "worldError": 1.1460053261913572e-7,
+      "parent": "L C17 control assembly"
+    },
+    {
+      "name": "L C17 separate rear body",
+      "localError": 2.738088369369507e-7,
+      "worldError": 2.388984619017265e-7,
+      "parent": "L C17 control assembly"
+    },
+    {
+      "name": "L C18 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C18 front base",
+      "localError": 2.6775524020195007e-8,
+      "worldError": 1.3832599243812638e-7,
+      "parent": "L C18 control assembly"
+    },
+    {
+      "name": "L C18 observed hexagonal mount",
+      "localError": 3.259629011154175e-8,
+      "worldError": 1.155493842830424e-7,
+      "parent": "L C18 control assembly"
+    },
+    {
+      "name": "L C18 separate rear body",
+      "localError": 2.7101486921310425e-7,
+      "worldError": 2.3841004193059234e-7,
+      "parent": "L C18 control assembly"
+    },
+    {
+      "name": "L C18 switch or button silhouette",
+      "localError": 5.681067705154419e-8,
+      "worldError": 1.0248483395258745e-7,
+      "parent": "L C18 control assembly"
+    },
+    {
+      "name": "L C19 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C19 front base",
+      "localError": 3.050081431865692e-8,
+      "worldError": 1.3244016461300134e-7,
+      "parent": "L C19 control assembly"
+    },
+    {
+      "name": "L C19 observed hexagonal mount",
+      "localError": 6.007030606269836e-8,
+      "worldError": 9.682047696912832e-8,
+      "parent": "L C19 control assembly"
+    },
+    {
+      "name": "L C19 separate rear body",
+      "localError": 1.778826117515564e-7,
+      "worldError": 9.132699596570149e-8,
+      "parent": "L C19 control assembly"
+    },
+    {
+      "name": "L C19 switch or button silhouette",
+      "localError": 2.8870999813079834e-8,
+      "worldError": 3.143942626238072e-7,
+      "parent": "L C19 control assembly"
+    },
+    {
+      "name": "L C20 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C20 front base",
+      "localError": 1.494772732257843e-7,
+      "worldError": 2.499294886604275e-7,
+      "parent": "L C20 control assembly"
+    },
+    {
+      "name": "L C20 observed hexagonal mount",
+      "localError": 2.0908191800117493e-7,
+      "worldError": 9.60116933734767e-8,
+      "parent": "L C20 control assembly"
+    },
+    {
+      "name": "L C20 separate rear body",
+      "localError": 2.9802322387695312e-8,
+      "worldError": 1.2123902060068303e-7,
+      "parent": "L C20 control assembly"
+    },
+    {
+      "name": "L C20 switch or button silhouette",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 1.9650411697824666e-7,
+      "parent": "L C20 control assembly"
+    },
+    {
+      "name": "L C21 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C21 front base",
+      "localError": 3.096647560596466e-8,
+      "worldError": 1.3860748904193088e-7,
+      "parent": "L C21 control assembly"
+    },
+    {
+      "name": "L C21 observed hexagonal mount",
+      "localError": 2.8405338525772095e-8,
+      "worldError": 1.1526788856741632e-7,
+      "parent": "L C21 control assembly"
+    },
+    {
+      "name": "L C21 separate rear body",
+      "localError": 2.6728957891464233e-7,
+      "worldError": 2.3823110595344588e-7,
+      "parent": "L C21 control assembly"
+    },
+    {
+      "name": "L C21 switch or button silhouette",
+      "localError": 6.05359673500061e-8,
+      "worldError": 1.0689610485670187e-7,
+      "parent": "L C21 control assembly"
+    },
+    {
+      "name": "L C22 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C22 front base",
+      "localError": 9.266659617424011e-8,
+      "worldError": 1.3884583038858977e-7,
+      "parent": "L C22 control assembly"
+    },
+    {
+      "name": "L C22 fuse button",
+      "localError": 3.306195139884949e-8,
+      "worldError": 1.763605492755005e-7,
+      "parent": "L C22 control assembly"
+    },
+    {
+      "name": "L C22 separate rear body",
+      "localError": 2.0582228899002075e-7,
+      "worldError": 1.2292747331166254e-7,
+      "parent": "L C22 control assembly"
+    },
+    {
+      "name": "L C23 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C23 front base",
+      "localError": 3.5157427191734314e-8,
+      "worldError": 1.3671378162882775e-7,
+      "parent": "L C23 control assembly"
+    },
+    {
+      "name": "L C23 separate rear body",
+      "localError": 2.6263296604156494e-7,
+      "worldError": 2.367978311212937e-7,
+      "parent": "L C23 control assembly"
+    },
+    {
+      "name": "L C23 socket blank face",
+      "localError": 6.472691893577576e-8,
+      "worldError": 2.352204448996531e-7,
+      "parent": "L C23 control assembly"
+    },
+    {
+      "name": "L C23 socket rim",
+      "localError": 8.381903171539307e-8,
+      "worldError": 1.1623144535732877e-7,
+      "parent": "L C23 control assembly"
+    },
+    {
+      "name": "L C24 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C24 front base",
+      "localError": 1.7229467630386353e-7,
+      "worldError": 1.0665838456880294e-7,
+      "parent": "L C24 control assembly"
+    },
+    {
+      "name": "L C24 observed hexagonal mount",
+      "localError": 2.0209699869155884e-7,
+      "worldError": 3.220005702075923e-7,
+      "parent": "L C24 control assembly"
+    },
+    {
+      "name": "L C24 separate rear body",
+      "localError": 3.632158041000366e-8,
+      "worldError": 1.8666279277823605e-7,
+      "parent": "L C24 control assembly"
+    },
+    {
+      "name": "L C24 switch or button silhouette",
+      "localError": 1.424923539161682e-7,
+      "worldError": 1.0712561360204376e-7,
+      "parent": "L C24 control assembly"
+    },
+    {
+      "name": "L C25 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C25 front base",
+      "localError": 1.1431984603404999e-7,
+      "worldError": 3.4124297076942867e-7,
+      "parent": "L C25 control assembly"
+    },
+    {
+      "name": "L C25 observed hexagonal mount",
+      "localError": 1.7415732145309448e-7,
+      "worldError": 1.0961733509784466e-7,
+      "parent": "L C25 control assembly"
+    },
+    {
+      "name": "L C25 separate rear body",
+      "localError": 6.426125764846802e-8,
+      "worldError": 1.087927701259872e-7,
+      "parent": "L C25 control assembly"
+    },
+    {
+      "name": "L C25 switch or button silhouette",
+      "localError": 8.475035429000854e-8,
+      "worldError": 3.0494137881476036e-7,
+      "parent": "L C25 control assembly"
+    },
+    {
+      "name": "L C26 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L C26 front base",
+      "localError": 2.6472844183444977e-7,
+      "worldError": 2.132321546000071e-7,
+      "parent": "L C26 control assembly"
+    },
+    {
+      "name": "L C26 indicator proxy",
+      "localError": 1.825392246246338e-7,
+      "worldError": 8.624344904895054e-8,
+      "parent": "L C26 control assembly"
+    },
+    {
+      "name": "L C26 separate rear body",
+      "localError": 5.587935447692871e-8,
+      "worldError": 3.3387666320550125e-7,
+      "parent": "L C26 control assembly"
+    },
+    {
+      "name": "L M1 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L M1 front base",
+      "localError": 1.9650906324386597e-7,
+      "worldError": 1.3481751048871615e-7,
+      "parent": "L M1 control assembly"
+    },
+    {
+      "name": "L M1 indicator proxy",
+      "localError": 2.2631138563156128e-7,
+      "worldError": 1.0398633687458414e-7,
+      "parent": "L M1 control assembly"
+    },
+    {
+      "name": "L M1 separate rear body",
+      "localError": 2.9802322387695312e-8,
+      "worldError": 1.170531507277417e-7,
+      "parent": "L M1 control assembly"
+    },
+    {
+      "name": "L M2 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L M2 front base",
+      "localError": 1.3434328138828278e-7,
+      "worldError": 1.1250152609498798e-7,
+      "parent": "L M2 control assembly"
+    },
+    {
+      "name": "L M2 indicator proxy",
+      "localError": 1.043081283569336e-7,
+      "worldError": 2.5236149703289357e-7,
+      "parent": "L M2 control assembly"
+    },
+    {
+      "name": "L M2 separate rear body",
+      "localError": 1.341104507446289e-7,
+      "worldError": 1.3483814953474393e-7,
+      "parent": "L M2 control assembly"
+    },
+    {
+      "name": "L M3 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L M3 front base",
+      "localError": 1.3737007975578308e-7,
+      "worldError": 1.1132822885784321e-7,
+      "parent": "L M3 control assembly"
+    },
+    {
+      "name": "L M3 indicator proxy",
+      "localError": 1.0756775736808777e-7,
+      "worldError": 2.521568305269284e-7,
+      "parent": "L M3 control assembly"
+    },
+    {
+      "name": "L M3 separate rear body",
+      "localError": 1.30385160446167e-7,
+      "worldError": 1.350939147215513e-7,
+      "parent": "L M3 control assembly"
+    },
+    {
+      "name": "L M4 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L M4 front base",
+      "localError": 2.2351741790771484e-8,
+      "worldError": 1.4840016149264557e-7,
+      "parent": "L M4 control assembly"
+    },
+    {
+      "name": "L M4 indicator proxy",
+      "localError": 6.752088665962219e-8,
+      "worldError": 1.0280690432296069e-7,
+      "parent": "L M4 control assembly"
+    },
+    {
+      "name": "L M4 separate rear body",
+      "localError": 1.4156103134155273e-7,
+      "worldError": 2.4573818091511157e-7,
+      "parent": "L M4 control assembly"
+    },
+    {
+      "name": "L M5 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L M5 front base",
+      "localError": 1.210719347000122e-7,
+      "worldError": 9.98731033430289e-8,
+      "parent": "L M5 control assembly"
+    },
+    {
+      "name": "L M5 indicator proxy",
+      "localError": 1.5087425708770752e-7,
+      "worldError": 3.212173815825281e-7,
+      "parent": "L M5 control assembly"
+    },
+    {
+      "name": "L M5 separate rear body",
+      "localError": 5.774199962615967e-8,
+      "worldError": 1.742263604498362e-7,
+      "parent": "L M5 control assembly"
+    },
+    {
+      "name": "L M6 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "L M6 front base",
+      "localError": 2.0721927285194397e-7,
+      "worldError": 1.059671674852325e-7,
+      "parent": "L M6 control assembly"
+    },
+    {
+      "name": "L M6 indicator proxy",
+      "localError": 1.802109181880951e-7,
+      "worldError": 2.1845164699385577e-7,
+      "parent": "L M6 control assembly"
+    },
+    {
+      "name": "L M6 separate rear body",
+      "localError": 5.8673322200775146e-8,
+      "worldError": 1.0533499950060587e-7,
+      "parent": "L M6 control assembly"
+    },
+    {
+      "name": "LEFT A1 / drawing leader 58",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT A1 blank face",
+      "localError": 1.2991949915885925e-7,
+      "worldError": 1.0291652730032297e-7,
+      "parent": "LEFT A1 / drawing leader 58"
+    },
+    {
+      "name": "LEFT A1 independent bezel",
+      "localError": 1.6810372471809387e-7,
+      "worldError": 2.4760662409306633e-7,
+      "parent": "LEFT A1 / drawing leader 58"
+    },
+    {
+      "name": "LEFT A1 separate cover glass",
+      "localError": 1.0896474123001099e-7,
+      "worldError": 1.4355075173000387e-7,
+      "parent": "LEFT A1 / drawing leader 58"
+    },
+    {
+      "name": "LEFT A1 separate rear body",
+      "localError": 7.078051567077637e-8,
+      "worldError": 1.569010672497484e-7,
+      "parent": "LEFT A1 / drawing leader 58"
+    },
+    {
+      "name": "LEFT A1 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT A1 / drawing leader 58"
+    },
+    {
+      "name": "LEFT A1 uncalibrated pointer pivot",
+      "localError": 4.936009645462036e-8,
+      "worldError": 3.4414559468842754e-7,
+      "parent": "LEFT A1 / drawing leader 58"
+    },
+    {
+      "name": "LEFT A2 / drawing leader 59",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT A2 blank face",
+      "localError": 1.327134668827057e-7,
+      "worldError": 1.0178322873422019e-7,
+      "parent": "LEFT A2 / drawing leader 59"
+    },
+    {
+      "name": "LEFT A2 independent bezel",
+      "localError": 1.6530975699424744e-7,
+      "worldError": 2.459829353540499e-7,
+      "parent": "LEFT A2 / drawing leader 59"
+    },
+    {
+      "name": "LEFT A2 observed upper arch proxy",
+      "localError": 1.7881393432617188e-7,
+      "worldError": 8.852284838489766e-8,
+      "parent": "LEFT A2 / drawing leader 59"
+    },
+    {
+      "name": "LEFT A2 separate cover glass",
+      "localError": 1.0523945093154907e-7,
+      "worldError": 1.382459902110611e-7,
+      "parent": "LEFT A2 / drawing leader 59"
+    },
+    {
+      "name": "LEFT A2 separate rear body",
+      "localError": 7.264316082000732e-8,
+      "worldError": 1.5435651334883005e-7,
+      "parent": "LEFT A2 / drawing leader 59"
+    },
+    {
+      "name": "LEFT A2 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT A2 / drawing leader 59"
+    },
+    {
+      "name": "LEFT A2 uncalibrated pointer pivot",
+      "localError": 4.563480615615845e-8,
+      "worldError": 3.4344277022313463e-7,
+      "parent": "LEFT A2 / drawing leader 59"
+    },
+    {
+      "name": "LEFT A3 / drawing leader 61",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT A3 blank face",
+      "localError": 1.3597309589385986e-7,
+      "worldError": 1.0062326261106591e-7,
+      "parent": "LEFT A3 / drawing leader 61"
+    },
+    {
+      "name": "LEFT A3 independent bezel",
+      "localError": 1.6205012798309326e-7,
+      "worldError": 2.4582986402066354e-7,
+      "parent": "LEFT A3 / drawing leader 61"
+    },
+    {
+      "name": "LEFT A3 observed upper arch proxy",
+      "localError": 1.7881393432617188e-7,
+      "worldError": 8.852284838489766e-8,
+      "parent": "LEFT A3 / drawing leader 61"
+    },
+    {
+      "name": "LEFT A3 separate cover glass",
+      "localError": 1.0244548320770264e-7,
+      "worldError": 1.4033559248005645e-7,
+      "parent": "LEFT A3 / drawing leader 61"
+    },
+    {
+      "name": "LEFT A3 separate rear body",
+      "localError": 7.636845111846924e-8,
+      "worldError": 1.5466387459639463e-7,
+      "parent": "LEFT A3 / drawing leader 61"
+    },
+    {
+      "name": "LEFT A3 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT A3 / drawing leader 61"
+    },
+    {
+      "name": "LEFT A3 uncalibrated pointer pivot",
+      "localError": 4.284083843231201e-8,
+      "worldError": 3.428292671969757e-7,
+      "parent": "LEFT A3 / drawing leader 61"
+    },
+    {
+      "name": "LEFT A4 / drawing leader 63",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT A4 blank face",
+      "localError": 1.3923272490501404e-7,
+      "worldError": 1.0688721330254225e-7,
+      "parent": "LEFT A4 / drawing leader 63"
+    },
+    {
+      "name": "LEFT A4 independent bezel",
+      "localError": 1.587904989719391e-7,
+      "worldError": 2.455735943485138e-7,
+      "parent": "LEFT A4 / drawing leader 63"
+    },
+    {
+      "name": "LEFT A4 observed upper arch proxy",
+      "localError": 1.7881393432617188e-7,
+      "worldError": 8.852284838489766e-8,
+      "parent": "LEFT A4 / drawing leader 63"
+    },
+    {
+      "name": "LEFT A4 separate cover glass",
+      "localError": 9.96515154838562e-8,
+      "worldError": 1.4231348499649243e-7,
+      "parent": "LEFT A4 / drawing leader 63"
+    },
+    {
+      "name": "LEFT A4 separate rear body",
+      "localError": 8.009374141693115e-8,
+      "worldError": 1.5486803750519584e-7,
+      "parent": "LEFT A4 / drawing leader 63"
+    },
+    {
+      "name": "LEFT A4 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT A4 / drawing leader 63"
+    },
+    {
+      "name": "LEFT A4 uncalibrated pointer pivot",
+      "localError": 4.0046870708465576e-8,
+      "worldError": 3.42112564943875e-7,
+      "parent": "LEFT A4 / drawing leader 63"
+    },
+    {
+      "name": "LEFT A5 / drawing leader 66",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT A5 blank face",
+      "localError": 1.4528632164001465e-7,
+      "worldError": 1.0452728349541474e-7,
+      "parent": "LEFT A5 / drawing leader 66"
+    },
+    {
+      "name": "LEFT A5 independent bezel",
+      "localError": 1.5273690223693848e-7,
+      "worldError": 2.43538814004296e-7,
+      "parent": "LEFT A5 / drawing leader 66"
+    },
+    {
+      "name": "LEFT A5 observed upper arch proxy",
+      "localError": 1.7881393432617188e-7,
+      "worldError": 8.852284838489766e-8,
+      "parent": "LEFT A5 / drawing leader 66"
+    },
+    {
+      "name": "LEFT A5 separate cover glass",
+      "localError": 9.313225746154785e-8,
+      "worldError": 1.3881902516388323e-7,
+      "parent": "LEFT A5 / drawing leader 66"
+    },
+    {
+      "name": "LEFT A5 separate rear body",
+      "localError": 8.568167686462402e-8,
+      "worldError": 1.523728245800271e-7,
+      "parent": "LEFT A5 / drawing leader 66"
+    },
+    {
+      "name": "LEFT A5 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT A5 / drawing leader 66"
+    },
+    {
+      "name": "LEFT A5 uncalibrated pointer pivot",
+      "localError": 3.3527612686157227e-8,
+      "worldError": 3.4053821718060817e-7,
+      "parent": "LEFT A5 / drawing leader 66"
+    },
+    {
+      "name": "LEFT A6 / drawing leader 68",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT A6 blank face",
+      "localError": 1.4854595065116882e-7,
+      "worldError": 9.587673976962918e-8,
+      "parent": "LEFT A6 / drawing leader 68"
+    },
+    {
+      "name": "LEFT A6 independent bezel",
+      "localError": 1.494772732257843e-7,
+      "worldError": 2.4323094027778325e-7,
+      "parent": "LEFT A6 / drawing leader 68"
+    },
+    {
+      "name": "LEFT A6 observed upper arch proxy",
+      "localError": 1.7881393432617188e-7,
+      "worldError": 8.852284838489766e-8,
+      "parent": "LEFT A6 / drawing leader 68"
+    },
+    {
+      "name": "LEFT A6 separate cover glass",
+      "localError": 8.940696716308594e-8,
+      "worldError": 1.4060188124886963e-7,
+      "parent": "LEFT A6 / drawing leader 68"
+    },
+    {
+      "name": "LEFT A6 separate rear body",
+      "localError": 8.940696716308594e-8,
+      "worldError": 1.525253834344653e-7,
+      "parent": "LEFT A6 / drawing leader 68"
+    },
+    {
+      "name": "LEFT A6 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT A6 / drawing leader 68"
+    },
+    {
+      "name": "LEFT A6 uncalibrated pointer pivot",
+      "localError": 2.9802322387695312e-8,
+      "worldError": 3.406907760350464e-7,
+      "parent": "LEFT A6 / drawing leader 68"
+    },
+    {
+      "name": "LEFT A7 / drawing leader 70",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT A7 blank face",
+      "localError": 5.681067705154419e-8,
+      "worldError": 3.0178543841685723e-7,
+      "parent": "LEFT A7 / drawing leader 70"
+    },
+    {
+      "name": "LEFT A7 counter aperture proxy",
+      "localError": 2.0582228899002075e-7,
+      "worldError": 2.086899355546734e-7,
+      "parent": "LEFT A7 / drawing leader 70"
+    },
+    {
+      "name": "LEFT A7 empty counter window",
+      "localError": 9.220093488693237e-8,
+      "worldError": 1.6788042422888338e-7,
+      "parent": "LEFT A7 / drawing leader 70"
+    },
+    {
+      "name": "LEFT A7 independent bezel",
+      "localError": 1.2200325727462769e-7,
+      "worldError": 1.0349956625077539e-7,
+      "parent": "LEFT A7 / drawing leader 70"
+    },
+    {
+      "name": "LEFT A7 separate cover glass",
+      "localError": 1.816079020500183e-7,
+      "worldError": 3.132057289079171e-7,
+      "parent": "LEFT A7 / drawing leader 70"
+    },
+    {
+      "name": "LEFT A7 separate rear body",
+      "localError": 1.471489667892456e-7,
+      "worldError": 1.3921800068317225e-7,
+      "parent": "LEFT A7 / drawing leader 70"
+    },
+    {
+      "name": "LEFT B1 / drawing leader 57",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT B1 blank face",
+      "localError": 1.9790604710578918e-7,
+      "worldError": 2.4018907485157115e-7,
+      "parent": "LEFT B1 / drawing leader 57"
+    },
+    {
+      "name": "LEFT B1 counter aperture proxy",
+      "localError": 1.3783574104309082e-7,
+      "worldError": 9.529639721783667e-8,
+      "parent": "LEFT B1 / drawing leader 57"
+    },
+    {
+      "name": "LEFT B1 empty counter window",
+      "localError": 1.30385160446167e-7,
+      "worldError": 2.436282215967367e-7,
+      "parent": "LEFT B1 / drawing leader 57"
+    },
+    {
+      "name": "LEFT B1 independent bezel",
+      "localError": 2.9802322387695312e-8,
+      "worldError": 9.422777691447948e-8,
+      "parent": "LEFT B1 / drawing leader 57"
+    },
+    {
+      "name": "LEFT B1 separate cover glass",
+      "localError": 7.078051567077637e-8,
+      "worldError": 2.8153747066994583e-7,
+      "parent": "LEFT B1 / drawing leader 57"
+    },
+    {
+      "name": "LEFT B1 separate rear body",
+      "localError": 2.5704503059387207e-7,
+      "worldError": 9.293594294135232e-8,
+      "parent": "LEFT B1 / drawing leader 57"
+    },
+    {
+      "name": "LEFT B1 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT B1 / drawing leader 57"
+    },
+    {
+      "name": "LEFT B1 uncalibrated pointer pivot",
+      "localError": 1.30385160446167e-7,
+      "worldError": 1.688307111891163e-7,
+      "parent": "LEFT B1 / drawing leader 57"
+    },
+    {
+      "name": "LEFT B2 / drawing leader 60",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT B2 blank face",
+      "localError": 1.9418075680732727e-7,
+      "worldError": 2.398232483713514e-7,
+      "parent": "LEFT B2 / drawing leader 60"
+    },
+    {
+      "name": "LEFT B2 independent bezel",
+      "localError": 2.9802322387695312e-8,
+      "worldError": 9.294781588842227e-8,
+      "parent": "LEFT B2 / drawing leader 60"
+    },
+    {
+      "name": "LEFT B2 observed upper arch proxy",
+      "localError": 1.7881393432617188e-7,
+      "worldError": 8.852284838489766e-8,
+      "parent": "LEFT B2 / drawing leader 60"
+    },
+    {
+      "name": "LEFT B2 separate cover glass",
+      "localError": 7.35744833946228e-8,
+      "worldError": 2.8025077991600256e-7,
+      "parent": "LEFT B2 / drawing leader 60"
+    },
+    {
+      "name": "LEFT B2 separate rear body",
+      "localError": 2.5331974029541016e-7,
+      "worldError": 9.165598191529511e-8,
+      "parent": "LEFT B2 / drawing leader 60"
+    },
+    {
+      "name": "LEFT B2 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT B2 / drawing leader 60"
+    },
+    {
+      "name": "LEFT B2 uncalibrated pointer pivot",
+      "localError": 1.3317912817001343e-7,
+      "worldError": 1.6754402043517302e-7,
+      "parent": "LEFT B2 / drawing leader 60"
+    },
+    {
+      "name": "LEFT B3 / drawing leader 62",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT B3 blank face",
+      "localError": 1.909211277961731e-7,
+      "worldError": 2.392886280233597e-7,
+      "parent": "LEFT B3 / drawing leader 62"
+    },
+    {
+      "name": "LEFT B3 independent bezel",
+      "localError": 1.7695128917694092e-8,
+      "worldError": 1.0666234695477783e-7,
+      "parent": "LEFT B3 / drawing leader 62"
+    },
+    {
+      "name": "LEFT B3 observed upper arch proxy",
+      "localError": 1.7881393432617188e-7,
+      "worldError": 8.852284838489766e-8,
+      "parent": "LEFT B3 / drawing leader 62"
+    },
+    {
+      "name": "LEFT B3 separate cover glass",
+      "localError": 7.729977369308472e-8,
+      "worldError": 2.8017659214896184e-7,
+      "parent": "LEFT B3 / drawing leader 62"
+    },
+    {
+      "name": "LEFT B3 separate rear body",
+      "localError": 2.514570951461792e-7,
+      "worldError": 1.0537051275960607e-7,
+      "parent": "LEFT B3 / drawing leader 62"
+    },
+    {
+      "name": "LEFT B3 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT B3 / drawing leader 62"
+    },
+    {
+      "name": "LEFT B3 uncalibrated pointer pivot",
+      "localError": 1.3690441846847534e-7,
+      "worldError": 1.674698317799539e-7,
+      "parent": "LEFT B3 / drawing leader 62"
+    },
+    {
+      "name": "LEFT B4 / drawing leader 64",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT B5 / drawing leader 65",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT B5 blank face",
+      "localError": 1.5506520867347717e-7,
+      "worldError": 2.4949741828095284e-7,
+      "parent": "LEFT B5 / drawing leader 65"
+    },
+    {
+      "name": "LEFT B5 independent bezel",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 8.958643338274896e-8,
+      "parent": "LEFT B5 / drawing leader 65"
+    },
+    {
+      "name": "LEFT B5 separate cover glass",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 2.6045727619106174e-7,
+      "parent": "LEFT B5 / drawing leader 65"
+    },
+    {
+      "name": "LEFT B5 separate rear body",
+      "localError": 2.4400651454925537e-7,
+      "worldError": 4.551673526975719e-8,
+      "parent": "LEFT B5 / drawing leader 65"
+    },
+    {
+      "name": "LEFT B5 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT B5 / drawing leader 65"
+    },
+    {
+      "name": "LEFT B5 uncalibrated pointer pivot",
+      "localError": 1.424923539161682e-7,
+      "worldError": 1.477505167102322e-7,
+      "parent": "LEFT B5 / drawing leader 65"
+    },
+    {
+      "name": "LEFT B6 / drawing leader 67",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT B6 blank face",
+      "localError": 1.51805579662323e-7,
+      "worldError": 2.4906599715990296e-7,
+      "parent": "LEFT B6 / drawing leader 67"
+    },
+    {
+      "name": "LEFT B6 independent bezel",
+      "localError": 5.681067705154419e-8,
+      "worldError": 1.0316911103203097e-7,
+      "parent": "LEFT B6 / drawing leader 67"
+    },
+    {
+      "name": "LEFT B6 observed upper arch proxy",
+      "localError": 1.7881393432617188e-7,
+      "worldError": 8.852284838489766e-8,
+      "parent": "LEFT B6 / drawing leader 67"
+    },
+    {
+      "name": "LEFT B6 separate cover glass",
+      "localError": 8.66129994392395e-8,
+      "worldError": 2.604862876509628e-7,
+      "parent": "LEFT B6 / drawing leader 67"
+    },
+    {
+      "name": "LEFT B6 separate rear body",
+      "localError": 2.421438694000244e-7,
+      "worldError": 1.0187727517152467e-7,
+      "parent": "LEFT B6 / drawing leader 67"
+    },
+    {
+      "name": "LEFT B6 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT B6 / drawing leader 67"
+    },
+    {
+      "name": "LEFT B6 uncalibrated pointer pivot",
+      "localError": 1.4621764421463013e-7,
+      "worldError": 1.477795281701333e-7,
+      "parent": "LEFT B6 / drawing leader 67"
+    },
+    {
+      "name": "LEFT B7 / drawing leader 69",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "LEFT B7 blank face",
+      "localError": 1.4901161193847656e-7,
+      "worldError": 2.4805295684160455e-7,
+      "parent": "LEFT B7 / drawing leader 69"
+    },
+    {
+      "name": "LEFT B7 independent bezel",
+      "localError": 5.960464477539063e-8,
+      "worldError": 1.0199581279568548e-7,
+      "parent": "LEFT B7 / drawing leader 69"
+    },
+    {
+      "name": "LEFT B7 observed upper arch proxy",
+      "localError": 1.7881393432617188e-7,
+      "worldError": 8.852284838489766e-8,
+      "parent": "LEFT B7 / drawing leader 69"
+    },
+    {
+      "name": "LEFT B7 separate cover glass",
+      "localError": 8.940696716308594e-8,
+      "worldError": 2.59473246444486e-7,
+      "parent": "LEFT B7 / drawing leader 69"
+    },
+    {
+      "name": "LEFT B7 separate rear body",
+      "localError": 2.384185791015625e-7,
+      "worldError": 1.0070397704620149e-7,
+      "parent": "LEFT B7 / drawing leader 69"
+    },
+    {
+      "name": "LEFT B7 uncalibrated pointer",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 4.470421499647159e-8,
+      "parent": "LEFT B7 / drawing leader 69"
+    },
+    {
+      "name": "LEFT B7 uncalibrated pointer pivot",
+      "localError": 1.4901161193847656e-7,
+      "worldError": 1.4676648696365646e-7,
+      "parent": "LEFT B7 / drawing leader 69"
+    },
+    {
+      "name": "LEFT DISPLAY ROOT — not vehicle datum",
+      "localError": 3.609727983189259e-8,
+      "worldError": 3.609727983189259e-8,
+      "parent": "cab"
+    },
+    {
+      "name": "LEFT PANEL — real openings / fitted silhouette",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "LEFT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "R R1 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "RIGHT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "R R1 front base",
+      "localError": 1.4272518455982208e-7,
+      "worldError": 4.043948100829198e-7,
+      "parent": "R R1 control assembly"
+    },
+    {
+      "name": "R R1 observed hexagonal mount",
+      "localError": 1.7229467630386353e-7,
+      "worldError": 1.7998710610811486e-7,
+      "parent": "R R1 control assembly"
+    },
+    {
+      "name": "R R1 separate rear body",
+      "localError": 3.632158041000366e-8,
+      "worldError": 1.658915176339093e-7,
+      "parent": "R R1 control assembly"
+    },
+    {
+      "name": "R R1 switch or button silhouette",
+      "localError": 1.126900315284729e-7,
+      "worldError": 3.6855365159738085e-7,
+      "parent": "R R1 control assembly"
+    },
+    {
+      "name": "R R2 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "RIGHT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "R R2 front base",
+      "localError": 5.3783878684043884e-8,
+      "worldError": 1.9853653165924356e-7,
+      "parent": "R R2 control assembly"
+    },
+    {
+      "name": "R R2 observed hexagonal mount",
+      "localError": 8.335337042808533e-8,
+      "worldError": 2.1377046532933264e-7,
+      "parent": "R R2 control assembly"
+    },
+    {
+      "name": "R R2 separate rear body",
+      "localError": 1.5459954738616943e-7,
+      "worldError": 3.23573226879148e-7,
+      "parent": "R R2 control assembly"
+    },
+    {
+      "name": "R R2 switch or button silhouette",
+      "localError": 1.0710209608078003e-8,
+      "worldError": 2.5488806731921443e-7,
+      "parent": "R R2 control assembly"
+    },
+    {
+      "name": "R R3 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "RIGHT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "R R3 front base",
+      "localError": 5.564652383327484e-8,
+      "worldError": 2.019420044518938e-7,
+      "parent": "R R3 control assembly"
+    },
+    {
+      "name": "R R3 observed hexagonal mount",
+      "localError": 8.568167686462402e-8,
+      "worldError": 2.1724552601298797e-7,
+      "parent": "R R3 control assembly"
+    },
+    {
+      "name": "R R3 separate rear body",
+      "localError": 1.5273690223693848e-7,
+      "worldError": 3.24620350156124e-7,
+      "parent": "R R3 control assembly"
+    },
+    {
+      "name": "R R3 switch or button silhouette",
+      "localError": 7.450580596923828e-9,
+      "worldError": 2.5829354011186467e-7,
+      "parent": "R R3 control assembly"
+    },
+    {
+      "name": "R R4 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "RIGHT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "R R4 front base",
+      "localError": 5.774199962615967e-8,
+      "worldError": 1.980649859678607e-7,
+      "parent": "R R4 control assembly"
+    },
+    {
+      "name": "R R4 observed hexagonal mount",
+      "localError": 8.754432201385498e-8,
+      "worldError": 2.1333371336140772e-7,
+      "parent": "R R4 control assembly"
+    },
+    {
+      "name": "R R4 separate rear body",
+      "localError": 1.5087425708770752e-7,
+      "worldError": 3.245999220524709e-7,
+      "parent": "R R4 control assembly"
+    },
+    {
+      "name": "R R4 switch or button silhouette",
+      "localError": 7.450580596923828e-9,
+      "worldError": 2.5438172768232903e-7,
+      "parent": "R R4 control assembly"
+    },
+    {
+      "name": "R R5 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "RIGHT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "R R5 front base",
+      "localError": 8.707866072654724e-8,
+      "worldError": 2.2653589226706572e-7,
+      "parent": "R R5 control assembly"
+    },
+    {
+      "name": "R R5 separate rear body",
+      "localError": 9.12696123123169e-8,
+      "worldError": 3.081148634009878e-7,
+      "parent": "R R5 control assembly"
+    },
+    {
+      "name": "R R5 socket blank face",
+      "localError": 5.727633833885193e-8,
+      "worldError": 3.341799867939699e-7,
+      "parent": "R R5 control assembly"
+    },
+    {
+      "name": "R R5 socket rim",
+      "localError": 2.0675361156463623e-7,
+      "worldError": 2.5439458672948945e-7,
+      "parent": "R R5 control assembly"
+    },
+    {
+      "name": "R R6a control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "RIGHT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "R R6a front base",
+      "localError": 2.407468855381012e-7,
+      "worldError": 3.3530886600630083e-7,
+      "parent": "R R6a control assembly"
+    },
+    {
+      "name": "R R6a fuse button",
+      "localError": 1.8114224076271057e-7,
+      "worldError": 2.6563421928749165e-7,
+      "parent": "R R6a control assembly"
+    },
+    {
+      "name": "R R6a separate rear body",
+      "localError": 5.774199962615967e-8,
+      "worldError": 1.8471914042805793e-7,
+      "parent": "R R6a control assembly"
+    },
+    {
+      "name": "R R6b control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "RIGHT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "R R6b front base",
+      "localError": 2.42842361330986e-7,
+      "worldError": 3.350028094928348e-7,
+      "parent": "R R6b control assembly"
+    },
+    {
+      "name": "R R6b fuse button",
+      "localError": 1.8300488591194153e-7,
+      "worldError": 2.658625726237318e-7,
+      "parent": "R R6b control assembly"
+    },
+    {
+      "name": "R R6b separate rear body",
+      "localError": 5.494803190231323e-8,
+      "worldError": 1.8480831842637713e-7,
+      "parent": "R R6b control assembly"
+    },
+    {
+      "name": "R R8 control assembly",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "RIGHT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "R R8 front base",
+      "localError": 1.5669502317905426e-7,
+      "worldError": 2.078652370229861e-7,
+      "parent": "R R8 control assembly"
+    },
+    {
+      "name": "R R8 observed hexagonal mount",
+      "localError": 6.752088665962219e-8,
+      "worldError": 2.2737235116920829e-7,
+      "parent": "R R8 control assembly"
+    },
+    {
+      "name": "R R8 separate rear body",
+      "localError": 1.7136335372924805e-7,
+      "worldError": 1.3743034621427341e-7,
+      "parent": "R R8 control assembly"
+    },
+    {
+      "name": "R R8 switch or button silhouette",
+      "localError": 1.564621925354004e-7,
+      "worldError": 2.1285004381255135e-7,
+      "parent": "R R8 control assembly"
+    },
+    {
+      "name": "RIGHT DISPLAY ROOT — not vehicle datum",
+      "localError": 3.609727983189259e-8,
+      "worldError": 3.609727983189259e-8,
+      "parent": "cab"
+    },
+    {
+      "name": "RIGHT PANEL — real openings / fitted silhouette",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "RIGHT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "RIGHT R7 TASK LAMP — not an instrument",
+      "localError": 1.1920928955078125e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "RIGHT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "RIGHT R7 dark reflector proxy",
+      "localError": 2.4354085326194763e-7,
+      "worldError": 1.2303136243119184e-7,
+      "parent": "RIGHT R7 TASK LAMP — not an instrument"
+    },
+    {
+      "name": "RIGHT R7 fitted rear lamp body",
+      "localError": 1.2479722499847412e-7,
+      "worldError": 2.8006075059039404e-7,
+      "parent": "RIGHT R7 TASK LAMP — not an instrument"
+    },
+    {
+      "name": "RIGHT R7 observed bell-form shield proxy",
+      "localError": 1.7881393432617188e-7,
+      "worldError": 3.729786701711646e-8,
+      "parent": "RIGHT R7 TASK LAMP — not an instrument"
+    },
+    {
+      "name": "RIGHT R7 shallow lamp lens proxy",
+      "localError": 9.452924132347107e-8,
+      "worldError": 2.886674597135652e-7,
+      "parent": "RIGHT R7 TASK LAMP — not an instrument"
+    },
+    {
+      "name": "RIGHT R7 task-lamp rolled rim",
+      "localError": 9.452924132347107e-8,
+      "worldError": 2.886674597135652e-7,
+      "parent": "RIGHT R7 TASK LAMP — not an instrument"
+    },
+    {
+      "name": "RIGHT UNIDENTIFIED VERTICAL STRIP — fitted",
+      "localError": 1.7881393432617188e-7,
+      "worldError": 3.609727983189259e-8,
+      "parent": "RIGHT DISPLAY ROOT — not vehicle datum"
+    },
+    {
+      "name": "VA180 B4 / BUTTON PRESS REVIEW — travel is fitted",
+      "localError": 2.384185791015625e-7,
+      "worldError": 2.4067556836371296e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / BUTTON — movable cap",
+      "localError": 6.230548024177551e-7,
+      "worldError": 2.0957455326708896e-7,
+      "parent": "VA180 B4 / BUTTON PRESS REVIEW — travel is fitted"
+    },
+    {
+      "name": "VA180 B4 / BUTTON — movable stem",
+      "localError": 4.7427602112293243e-7,
+      "worldError": 2.0927583732621713e-7,
+      "parent": "VA180 B4 / BUTTON PRESS REVIEW — travel is fitted"
+    },
+    {
+      "name": "VA180 B4 / BUTTON — stationary hollow sleeve",
+      "localError": 7.424969226121902e-7,
+      "worldError": 2.092945277087921e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / CASE — fitted hollow cylindrical envelope",
+      "localError": 7.431954145431519e-7,
+      "worldError": 1.0430060570776334e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / DIAL — backing beneath real window",
+      "localError": 7.727649062871933e-7,
+      "worldError": 1.0907277969707252e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / FRONT — opaque lower mask and upper opening",
+      "localError": 2.384185791015625e-7,
+      "worldError": 2.4067556836371296e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / GLASS — separate fitted flat cover",
+      "localError": 3.257300704717636e-7,
+      "worldError": 1.055542304673196e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / OBSERVED A scale label 0",
+      "localError": 6.842892616987228e-7,
+      "worldError": 1.8023198888883485e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / OBSERVED A scale label 1",
+      "localError": 7.431954145431519e-7,
+      "worldError": 2.1943155714687634e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / OBSERVED A scale label 2",
+      "localError": 4.44706529378891e-7,
+      "worldError": 1.8035385362935585e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / OBSERVED A scale label 3",
+      "localError": 3.25031578540802e-7,
+      "worldError": 2.137161410065147e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / OBSERVED A scale label 4",
+      "localError": 3.841705620288849e-7,
+      "worldError": 2.387727786601346e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / OBSERVED current unit",
+      "localError": 6.237532943487167e-7,
+      "worldError": 2.1081785051002555e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / OBSERVED push instruction",
+      "localError": 4.741596058011055e-7,
+      "worldError": 2.3622197975470272e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / POINTER — fitted photo pose, not a measured value",
+      "localError": 3.555323928594589e-7,
+      "worldError": 1.9662972006173618e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / ZERO CORRECTOR — retained separate shank",
+      "localError": 6.237532943487167e-7,
+      "worldError": 2.3828011808113558e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 B4 / ZERO CORRECTOR — slotted front head",
+      "localError": 6.833579391241074e-7,
+      "worldError": 2.3816543293087022e-7,
+      "parent": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW"
+    },
+    {
+      "name": "VA180 PARTIAL — B4 PHOTO-FORM REVIEW",
+      "localError": 2.775341272354126e-7,
+      "worldError": 2.4067556836371296e-7,
+      "parent": "LEFT B4 / drawing leader 64"
+    },
+    {
+      "name": "cab_0029",
+      "localError": 1.6858741247460785e-7,
+      "worldError": 1.6858741247460785e-7,
+      "parent": "cab_pivot_004"
+    },
+    {
+      "name": "cab_0030",
+      "localError": 5.329070518200751e-15,
+      "worldError": 8.0944360547619e-8,
+      "parent": "cab_pivot_004"
+    },
+    {
+      "name": "cab_0031",
+      "localError": 5.329070518200751e-15,
+      "worldError": 8.0944360547619e-8,
+      "parent": "cab_pivot_004"
+    },
+    {
+      "name": "cab_0064",
+      "localError": 0,
+      "worldError": 0,
+      "parent": "cab"
+    },
+    {
+      "name": "cab_pivot_004",
+      "localError": 8.0944360547619e-8,
+      "worldError": 8.0944360547619e-8,
+      "parent": "cab"
+    }
+  ],
+  "scope": "Actual Draco decoding, bidirectional vertex distance within20um, triangle counts and saved-native node rest poses/parents. Does not validate appearance, native UV equivalence, button dynamics, browser rendering or factory accuracy.",
+  "wholeVehicleAcceptance": "16 OPEN"
+}

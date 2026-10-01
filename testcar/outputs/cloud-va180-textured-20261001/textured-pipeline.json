@@ -1,0 +1,468 @@
+{
+  "status": "BUILT_TEXTURED_SIBLING_REQUIRES_FRESH_READBACK",
+  "baseline_textured_sha256": "171e7696421227fca28b8be3c555065381cbc6ca2a4b43ca94d18b83b5a167c7",
+  "reference_master_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "final_candidate_sha256": "6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266",
+  "panel_stage": {
+    "source_sha256": "171e7696421227fca28b8be3c555065381cbc6ca2a4b43ca94d18b83b5a167c7",
+    "study_sha256": "d6a5e8ab83202ac9368acda79fdd41120a62bdce2ebbf23728852d20183beda3",
+    "status": "FITTED_INSTALLATION_CANDIDATE_NOT_ACCEPTED",
+    "file": "panel-intermediate.blend",
+    "archived_originals": [
+      "cab_0066",
+      "cab_0067",
+      "cab_0068",
+      "BL_PanelFit_original_dashboard_blocks_retained"
+    ],
+    "old_dashboard_vertices_separated": 1800,
+    "remaining_visible_seat_base_vertices": 3600,
+    "seat_bases_before": [
+      {
+        "legacy_seat_centre": [
+          -4.45,
+          -1.025,
+          1.6
+        ],
+        "vertices": 900,
+        "faces": 300,
+        "world_geometry_uv_material_sha256": "3b35fd1e857fab43cb2075b232ce3a888d773293fd80e77e28c780348faa46ff"
+      },
+      {
+        "legacy_seat_centre": [
+          -4.45,
+          1.025,
+          1.6
+        ],
+        "vertices": 900,
+        "faces": 300,
+        "world_geometry_uv_material_sha256": "9b2cfce71ff73cdfba8f4fccf7eb423193c24f217d1aecac6c3b738723fd6b41"
+      },
+      {
+        "legacy_seat_centre": [
+          -3.38,
+          -1.025,
+          1.6
+        ],
+        "vertices": 900,
+        "faces": 300,
+        "world_geometry_uv_material_sha256": "272dc0042e8993dfb49437d90e592c1e9ef80d7fdf6381c7e4b5b06e1e2328d1"
+      },
+      {
+        "legacy_seat_centre": [
+          -3.38,
+          1.025,
+          1.6
+        ],
+        "vertices": 900,
+        "faces": 300,
+        "world_geometry_uv_material_sha256": "fe712fd1de3eb6f61c8eea94608ac0dec8cf60ae61904680896bbdfde689f8d6"
+      }
+    ],
+    "seat_bases_after": [
+      {
+        "legacy_seat_centre": [
+          -4.45,
+          -1.025,
+          1.6
+        ],
+        "vertices": 900,
+        "faces": 300,
+        "world_geometry_uv_material_sha256": "3b35fd1e857fab43cb2075b232ce3a888d773293fd80e77e28c780348faa46ff"
+      },
+      {
+        "legacy_seat_centre": [
+          -4.45,
+          1.025,
+          1.6
+        ],
+        "vertices": 900,
+        "faces": 300,
+        "world_geometry_uv_material_sha256": "9b2cfce71ff73cdfba8f4fccf7eb423193c24f217d1aecac6c3b738723fd6b41"
+      },
+      {
+        "legacy_seat_centre": [
+          -3.38,
+          -1.025,
+          1.6
+        ],
+        "vertices": 900,
+        "faces": 300,
+        "world_geometry_uv_material_sha256": "272dc0042e8993dfb49437d90e592c1e9ef80d7fdf6381c7e4b5b06e1e2328d1"
+      },
+      {
+        "legacy_seat_centre": [
+          -3.38,
+          1.025,
+          1.6
+        ],
+        "vertices": 900,
+        "faces": 300,
+        "world_geometry_uv_material_sha256": "fe712fd1de3eb6f61c8eea94608ac0dec8cf60ae61904680896bbdfde689f8d6"
+      }
+    ],
+    "unrelated_original_meshes_unchanged": 6886,
+    "placements": [
+      {
+        "root": "LEFT DISPLAY ROOT \u2014 not vehicle datum",
+        "world_matrix": [
+          [
+            0.0,
+            0.14943823218345642,
+            0.9887710809707642,
+            -4.806403636932373
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            -1.024999976158142
+          ],
+          [
+            0.0,
+            0.9887710809707642,
+            -0.14943823218345642,
+            1.9613202810287476
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "anchor_source": "Existing lib/maz543.ts 0.25 m deep dashboard block and tilt; not a factory dimension",
+        "anchor": "rear-face"
+      },
+      {
+        "root": "RIGHT DISPLAY ROOT \u2014 not vehicle datum",
+        "world_matrix": [
+          [
+            0.0,
+            0.14943823218345642,
+            0.9887710809707642,
+            -4.806403636932373
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            1.024999976158142
+          ],
+          [
+            0.0,
+            0.9887710809707642,
+            -0.14943823218345642,
+            1.9613202810287476
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "anchor_source": "Existing lib/maz543.ts 0.25 m deep dashboard block and tilt; not a factory dimension",
+        "anchor": "rear-face"
+      }
+    ],
+    "source_geometry_or_dimensions_newly_calibrated": false,
+    "factory_mounts_and_installation": "OPEN",
+    "native_rest_clearance": "PENDING_FRESH_READBACK",
+    "existing_steering_column_seat_interference": "NOT_FIXED",
+    "all16VehicleGates": "OPEN",
+    "candidate_sha256": "2c8352c961d38205dc691366c648a2041060fe1d5123704aa4f724965d7ff8cf"
+  },
+  "steering_intermediate_sha256": "6e21ef6d8363826f99f9bc97ffe2dbb94ca0d826dba20d3627ab62913ca1113d",
+  "steering_scope_identity_failures": [],
+  "steering_world_comparison": [
+    {
+      "name": "BL_Left_driver_steering_column_retained",
+      "source_master_world": [
+        [
+          0.9553365111351013,
+          1.9773853665583374e-08,
+          0.3097681701183319,
+          -0.8372061252593994
+        ],
+        [
+          1.9773853665583374e-08,
+          1.0,
+          -1.3714351609905862e-07,
+          -2.049999475479126
+        ],
+        [
+          -0.29552018642425537,
+          1.3083551664294646e-07,
+          1.0013964176177979,
+          -1.376221776008606
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "textured_world": [
+        [
+          0.9553365111351013,
+          1.9773853665583374e-08,
+          0.3097681701183319,
+          -0.8372061252593994
+        ],
+        [
+          1.9773853665583374e-08,
+          1.0,
+          -1.3714351609905862e-07,
+          -2.049999475479126
+        ],
+        [
+          -0.29552018642425537,
+          1.3083551664294646e-07,
+          1.0013964176177979,
+          -1.376221776008606
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_matrix_error": 0.0
+    },
+    {
+      "name": "cab_0029",
+      "source_master_world": [
+        [
+          0.9553365111351013,
+          0.29552018642425537,
+          3.7623355098048705e-08,
+          -4.619999885559082
+        ],
+        [
+          8.0944360547619e-08,
+          -1.3435885648505064e-07,
+          -1.0000001192092896,
+          -1.024999976158142
+        ],
+        [
+          -0.295520156621933,
+          0.9553366303443909,
+          -1.5227861638322793e-07,
+          2.130000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "textured_world": [
+        [
+          0.9553365111351013,
+          0.29552018642425537,
+          3.7623355098048705e-08,
+          -4.619999885559082
+        ],
+        [
+          8.0944360547619e-08,
+          -1.3435885648505064e-07,
+          -1.0000001192092896,
+          -1.024999976158142
+        ],
+        [
+          -0.295520156621933,
+          0.9553366303443909,
+          -1.5227861638322793e-07,
+          2.130000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_matrix_error": 0.0
+    },
+    {
+      "name": "cab_0030",
+      "source_master_world": [
+        [
+          0.9553365111351013,
+          -7.732909779178954e-08,
+          0.295520156621933,
+          -4.619999885559082
+        ],
+        [
+          8.0944360547619e-08,
+          1.0,
+          -6.738280503097152e-16,
+          -1.024999976158142
+        ],
+        [
+          -0.295520156621933,
+          2.392069120560336e-08,
+          0.9553365111351013,
+          2.130000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "textured_world": [
+        [
+          0.9553365111351013,
+          -7.732909779178954e-08,
+          0.295520156621933,
+          -4.619999885559082
+        ],
+        [
+          8.0944360547619e-08,
+          1.0,
+          -6.738280503097152e-16,
+          -1.024999976158142
+        ],
+        [
+          -0.295520156621933,
+          2.392069120560336e-08,
+          0.9553365111351013,
+          2.130000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_matrix_error": 0.0
+    },
+    {
+      "name": "cab_0031",
+      "source_master_world": [
+        [
+          0.9553365111351013,
+          -7.732909779178954e-08,
+          0.295520156621933,
+          -4.619999885559082
+        ],
+        [
+          8.0944360547619e-08,
+          1.0,
+          -6.738280503097152e-16,
+          -1.024999976158142
+        ],
+        [
+          -0.295520156621933,
+          2.392069120560336e-08,
+          0.9553365111351013,
+          2.130000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "textured_world": [
+        [
+          0.9553365111351013,
+          -7.732909779178954e-08,
+          0.295520156621933,
+          -4.619999885559082
+        ],
+        [
+          8.0944360547619e-08,
+          1.0,
+          -6.738280503097152e-16,
+          -1.024999976158142
+        ],
+        [
+          -0.295520156621933,
+          2.392069120560336e-08,
+          0.9553365111351013,
+          2.130000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_matrix_error": 0.0
+    },
+    {
+      "name": "cab_pivot_004",
+      "source_master_world": [
+        [
+          0.9553365111351013,
+          -7.732909779178954e-08,
+          0.295520156621933,
+          -4.619999885559082
+        ],
+        [
+          8.0944360547619e-08,
+          1.0,
+          -6.738280503097152e-16,
+          -1.024999976158142
+        ],
+        [
+          -0.295520156621933,
+          2.392069120560336e-08,
+          0.9553365111351013,
+          2.130000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "textured_world": [
+        [
+          0.9553365111351013,
+          -7.732909779178954e-08,
+          0.295520156621933,
+          -4.619999885559082
+        ],
+        [
+          8.0944360547619e-08,
+          1.0,
+          -6.738280503097152e-16,
+          -1.024999976158142
+        ],
+        [
+          -0.295520156621933,
+          2.392069120560336e-08,
+          0.9553365111351013,
+          2.130000114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "max_matrix_error": 0.0
+    }
+  ],
+  "changed_world_objects": [
+    "BL_Left_driver_steering_column_retained",
+    "cab_0029",
+    "cab_0030",
+    "cab_0031",
+    "cab_pivot_004"
+  ],
+  "old_texture_material_nodes_modified": false,
+  "scope": "Native Separate retains the textured baseline seat UVs/materials, then exact published Master steering poses and retained partial VA180 append. No factory dimensions or whole-vehicle acceptance."
+}

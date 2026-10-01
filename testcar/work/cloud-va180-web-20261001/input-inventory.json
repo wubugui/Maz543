@@ -1,0 +1,1262 @@
+{
+  "textured_baseline": {
+    "source_sha256": "171e7696421227fca28b8be3c555065381cbc6ca2a4b43ca94d18b83b5a167c7",
+    "object_count": 8124,
+    "mesh_count": 6890,
+    "selected_objects": {
+      "cab": {
+        "type": "EMPTY",
+        "vertices": null,
+        "faces": null,
+        "materials": [],
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "MAZ543_REFERENCE_CHASSIS",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0064": {
+        "type": "MESH",
+        "vertices": 5400,
+        "faces": 1800,
+        "materials": [
+          "OD_green_aged_enamel"
+        ],
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0066": {
+        "type": "MESH",
+        "vertices": 2072,
+        "faces": 1344,
+        "materials": [
+          "Phosphated_steel"
+        ],
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0067": {
+        "type": "MESH",
+        "vertices": 6174,
+        "faces": 10752,
+        "materials": [
+          "Worn_steel"
+        ],
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0068": {
+        "type": "MESH",
+        "vertices": 2072,
+        "faces": 1344,
+        "materials": [
+          "brass"
+        ],
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_pivot_004": {
+        "type": "EMPTY",
+        "vertices": null,
+        "faces": null,
+        "materials": [],
+        "world": [
+          [
+            0.9553365111351013,
+            0.0,
+            -0.29552021622657776,
+            -4.619999885559082
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.024999976158142
+          ],
+          [
+            0.29552021622657776,
+            0.0,
+            0.9553365111351013,
+            2.130000114440918
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0029": {
+        "type": "MESH",
+        "vertices": 441,
+        "faces": 768,
+        "materials": [
+          "Phosphated_steel"
+        ],
+        "world": [
+          [
+            0.9553365111351013,
+            -0.29552024602890015,
+            3.9705756904595546e-08,
+            -4.619999885559082
+          ],
+          [
+            0.0,
+            -1.3435885648505064e-07,
+            -1.0000001192092896,
+            -1.024999976158142
+          ],
+          [
+            0.29552021622657776,
+            0.9553366303443909,
+            -1.2835792517762457e-07,
+            2.130000114440918
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab_pivot_004",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0030": {
+        "type": "MESH",
+        "vertices": 148,
+        "faces": 96,
+        "materials": [
+          "Phosphated_steel"
+        ],
+        "world": [
+          [
+            0.9553365111351013,
+            0.0,
+            -0.29552021622657776,
+            -4.619999885559082
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.024999976158142
+          ],
+          [
+            0.29552021622657776,
+            0.0,
+            0.9553365111351013,
+            2.130000114440918
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab_pivot_004",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0031": {
+        "type": "MESH",
+        "vertices": 444,
+        "faces": 288,
+        "materials": [
+          "Worn_steel"
+        ],
+        "world": [
+          [
+            0.9553365111351013,
+            0.0,
+            -0.29552021622657776,
+            -4.619999885559082
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.024999976158142
+          ],
+          [
+            0.29552021622657776,
+            0.0,
+            0.9553365111351013,
+            2.130000114440918
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab_pivot_004",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "BL_Left_driver_steering_column_retained": {
+        "type": "MESH",
+        "vertices": 148,
+        "faces": 96,
+        "materials": [
+          "Phosphated_steel"
+        ],
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -2.049999952316284
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab",
+        "collections": [
+          "Collection"
+        ]
+      }
+    },
+    "modules": {}
+  },
+  "current_master": {
+    "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+    "object_count": 10434,
+    "mesh_count": 8034,
+    "selected_objects": {
+      "cab": {
+        "type": "EMPTY",
+        "vertices": null,
+        "faces": null,
+        "materials": [],
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "MAZ543_REFERENCE_CHASSIS",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0064": {
+        "type": "MESH",
+        "vertices": 3600,
+        "faces": 1200,
+        "materials": [
+          "OD_green_aged_enamel"
+        ],
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0066": {
+        "type": "MESH",
+        "vertices": 2072,
+        "faces": 1344,
+        "materials": [
+          "Phosphated_steel"
+        ],
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": true,
+        "parent": "cab",
+        "collections": [
+          "BL Panel Fit — superseded original proxies / retained",
+          "Collection"
+        ]
+      },
+      "cab_0067": {
+        "type": "MESH",
+        "vertices": 6174,
+        "faces": 10752,
+        "materials": [
+          "Worn_steel"
+        ],
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": true,
+        "parent": "cab",
+        "collections": [
+          "BL Panel Fit — superseded original proxies / retained",
+          "Collection"
+        ]
+      },
+      "cab_0068": {
+        "type": "MESH",
+        "vertices": 2072,
+        "faces": 1344,
+        "materials": [
+          "brass"
+        ],
+        "world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": true,
+        "parent": "cab",
+        "collections": [
+          "BL Panel Fit — superseded original proxies / retained",
+          "Collection"
+        ]
+      },
+      "cab_pivot_004": {
+        "type": "EMPTY",
+        "vertices": null,
+        "faces": null,
+        "materials": [],
+        "world": [
+          [
+            0.9553365111351013,
+            -7.732909779178954e-08,
+            0.295520156621933,
+            -4.619999885559082
+          ],
+          [
+            8.0944360547619e-08,
+            1.0,
+            -6.738280503097152e-16,
+            -1.024999976158142
+          ],
+          [
+            -0.295520156621933,
+            2.392069120560336e-08,
+            0.9553365111351013,
+            2.130000114440918
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0029": {
+        "type": "MESH",
+        "vertices": 441,
+        "faces": 768,
+        "materials": [
+          "Phosphated_steel"
+        ],
+        "world": [
+          [
+            0.9553365111351013,
+            0.29552018642425537,
+            3.7623355098048705e-08,
+            -4.619999885559082
+          ],
+          [
+            8.0944360547619e-08,
+            -1.3435885648505064e-07,
+            -1.0000001192092896,
+            -1.024999976158142
+          ],
+          [
+            -0.295520156621933,
+            0.9553366303443909,
+            -1.5227861638322793e-07,
+            2.130000114440918
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab_pivot_004",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0030": {
+        "type": "MESH",
+        "vertices": 148,
+        "faces": 96,
+        "materials": [
+          "Phosphated_steel"
+        ],
+        "world": [
+          [
+            0.9553365111351013,
+            -7.732909779178954e-08,
+            0.295520156621933,
+            -4.619999885559082
+          ],
+          [
+            8.0944360547619e-08,
+            1.0,
+            -6.738280503097152e-16,
+            -1.024999976158142
+          ],
+          [
+            -0.295520156621933,
+            2.392069120560336e-08,
+            0.9553365111351013,
+            2.130000114440918
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab_pivot_004",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "cab_0031": {
+        "type": "MESH",
+        "vertices": 444,
+        "faces": 288,
+        "materials": [
+          "Worn_steel"
+        ],
+        "world": [
+          [
+            0.9553365111351013,
+            -7.732909779178954e-08,
+            0.295520156621933,
+            -4.619999885559082
+          ],
+          [
+            8.0944360547619e-08,
+            1.0,
+            -6.738280503097152e-16,
+            -1.024999976158142
+          ],
+          [
+            -0.295520156621933,
+            2.392069120560336e-08,
+            0.9553365111351013,
+            2.130000114440918
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab_pivot_004",
+        "collections": [
+          "Collection"
+        ]
+      },
+      "BL_Left_driver_steering_column_retained": {
+        "type": "MESH",
+        "vertices": 148,
+        "faces": 96,
+        "materials": [
+          "Phosphated_steel"
+        ],
+        "world": [
+          [
+            0.9553365111351013,
+            1.9773853665583374e-08,
+            0.3097681701183319,
+            -0.8372061252593994
+          ],
+          [
+            1.9773853665583374e-08,
+            1.0,
+            -1.3714351609905862e-07,
+            -2.049999475479126
+          ],
+          [
+            -0.29552018642425537,
+            1.3083551664294646e-07,
+            1.0013964176177979,
+            -1.376221776008606
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "hide_render": false,
+        "parent": "cab",
+        "collections": [
+          "Collection"
+        ]
+      }
+    },
+    "modules": {
+      "LEFT DISPLAY ROOT — not vehicle datum": {
+        "objects": [
+          "LEFT DISPLAY ROOT — not vehicle datum",
+          "L C01 control assembly",
+          "L C01 front base",
+          "L C01 fuse button",
+          "L C01 separate rear body",
+          "L C02 control assembly",
+          "L C02 front base",
+          "L C02 indicator proxy",
+          "L C02 separate rear body",
+          "L C03 control assembly",
+          "L C03 front base",
+          "L C03 indicator proxy",
+          "L C03 separate rear body",
+          "L C04 control assembly",
+          "L C04 front base",
+          "L C04 fuse button",
+          "L C04 separate rear body",
+          "L C05 control assembly",
+          "L C05 front base",
+          "L C05 fuse button",
+          "L C05 separate rear body",
+          "L C06 control assembly",
+          "L C06 front base",
+          "L C06 observed hexagonal mount",
+          "L C06 separate rear body",
+          "L C06 switch or button silhouette",
+          "L C07 control assembly",
+          "L C07 front base",
+          "L C07 observed hexagonal mount",
+          "L C07 separate rear body",
+          "L C07 switch or button silhouette",
+          "L C08 control assembly",
+          "L C08 front base",
+          "L C08 observed hexagonal mount",
+          "L C08 separate rear body",
+          "L C08 switch or button silhouette",
+          "L C09 control assembly",
+          "L C09 front base",
+          "L C09 observed hexagonal mount",
+          "L C09 separate rear body",
+          "L C09 switch or button silhouette",
+          "L C10 control assembly",
+          "L C10 front base",
+          "L C10 observed hexagonal mount",
+          "L C10 separate rear body",
+          "L C10 switch or button silhouette",
+          "L C11 control assembly",
+          "L C11 front base",
+          "L C11 observed hexagonal mount",
+          "L C11 separate rear body",
+          "L C11 switch or button silhouette",
+          "L C12 control assembly",
+          "L C12 front base",
+          "L C12 observed hexagonal mount",
+          "L C12 separate rear body",
+          "L C12 switch or button silhouette",
+          "L C13 control assembly",
+          "L C13 front base",
+          "L C13 observed hexagonal mount",
+          "L C13 separate rear body",
+          "L C13 switch or button silhouette",
+          "L C14 control assembly",
+          "L C14 front base",
+          "L C14 observed hexagonal mount",
+          "L C14 separate rear body",
+          "L C14 switch or button silhouette",
+          "L C15 control assembly",
+          "L C15 front base",
+          "L C15 fuse button",
+          "L C15 separate rear body",
+          "L C16 control assembly",
+          "L C16 front base",
+          "L C16 fuse button",
+          "L C16 separate rear body",
+          "L C17 control assembly",
+          "L C17 front base",
+          "L C17 fuse button",
+          "L C17 separate rear body",
+          "L C18 control assembly",
+          "L C18 front base",
+          "L C18 observed hexagonal mount",
+          "L C18 separate rear body",
+          "L C18 switch or button silhouette",
+          "L C19 control assembly",
+          "L C19 front base",
+          "L C19 observed hexagonal mount",
+          "L C19 separate rear body",
+          "L C19 switch or button silhouette",
+          "L C20 control assembly",
+          "L C20 front base",
+          "L C20 observed hexagonal mount",
+          "L C20 separate rear body",
+          "L C20 switch or button silhouette",
+          "L C21 control assembly",
+          "L C21 front base",
+          "L C21 observed hexagonal mount",
+          "L C21 separate rear body",
+          "L C21 switch or button silhouette",
+          "L C22 control assembly",
+          "L C22 front base",
+          "L C22 fuse button",
+          "L C22 separate rear body",
+          "L C23 control assembly",
+          "L C23 front base",
+          "L C23 separate rear body",
+          "L C23 socket blank face",
+          "L C23 socket rim",
+          "L C24 control assembly",
+          "L C24 front base",
+          "L C24 observed hexagonal mount",
+          "L C24 separate rear body",
+          "L C24 switch or button silhouette",
+          "L C25 control assembly",
+          "L C25 front base",
+          "L C25 observed hexagonal mount",
+          "L C25 separate rear body",
+          "L C25 switch or button silhouette",
+          "L C26 control assembly",
+          "L C26 front base",
+          "L C26 indicator proxy",
+          "L C26 separate rear body",
+          "L M1 control assembly",
+          "L M1 front base",
+          "L M1 indicator proxy",
+          "L M1 separate rear body",
+          "L M2 control assembly",
+          "L M2 front base",
+          "L M2 indicator proxy",
+          "L M2 separate rear body",
+          "L M3 control assembly",
+          "L M3 front base",
+          "L M3 indicator proxy",
+          "L M3 separate rear body",
+          "L M4 control assembly",
+          "L M4 front base",
+          "L M4 indicator proxy",
+          "L M4 separate rear body",
+          "L M5 control assembly",
+          "L M5 front base",
+          "L M5 indicator proxy",
+          "L M5 separate rear body",
+          "L M6 control assembly",
+          "L M6 front base",
+          "L M6 indicator proxy",
+          "L M6 separate rear body",
+          "L-HOLE-A1",
+          "L-HOLE-A2",
+          "L-HOLE-A3",
+          "L-HOLE-A4",
+          "L-HOLE-A5",
+          "L-HOLE-A6",
+          "L-HOLE-A7",
+          "L-HOLE-B1",
+          "L-HOLE-B2",
+          "L-HOLE-B3",
+          "L-HOLE-B4",
+          "L-HOLE-B5",
+          "L-HOLE-B6",
+          "L-HOLE-B7",
+          "L-HOLE-C01",
+          "L-HOLE-C02",
+          "L-HOLE-C03",
+          "L-HOLE-C04",
+          "L-HOLE-C05",
+          "L-HOLE-C06",
+          "L-HOLE-C07",
+          "L-HOLE-C08",
+          "L-HOLE-C09",
+          "L-HOLE-C10",
+          "L-HOLE-C11",
+          "L-HOLE-C12",
+          "L-HOLE-C13",
+          "L-HOLE-C14",
+          "L-HOLE-C15",
+          "L-HOLE-C16",
+          "L-HOLE-C17",
+          "L-HOLE-C18",
+          "L-HOLE-C19",
+          "L-HOLE-C20",
+          "L-HOLE-C21",
+          "L-HOLE-C22",
+          "L-HOLE-C23",
+          "L-HOLE-C24",
+          "L-HOLE-C25",
+          "L-HOLE-C26",
+          "L-HOLE-M1",
+          "L-HOLE-M2",
+          "L-HOLE-M3",
+          "L-HOLE-M4",
+          "L-HOLE-M5",
+          "L-HOLE-M6",
+          "LEFT A1 / drawing leader 58",
+          "LEFT A1 blank face",
+          "LEFT A1 independent bezel",
+          "LEFT A1 separate cover glass",
+          "LEFT A1 separate rear body",
+          "LEFT A1 uncalibrated pointer",
+          "LEFT A1 uncalibrated pointer pivot",
+          "LEFT A2 / drawing leader 59",
+          "LEFT A2 blank face",
+          "LEFT A2 independent bezel",
+          "LEFT A2 observed upper arch proxy",
+          "LEFT A2 separate cover glass",
+          "LEFT A2 separate rear body",
+          "LEFT A2 uncalibrated pointer",
+          "LEFT A2 uncalibrated pointer pivot",
+          "LEFT A3 / drawing leader 61",
+          "LEFT A3 blank face",
+          "LEFT A3 independent bezel",
+          "LEFT A3 observed upper arch proxy",
+          "LEFT A3 separate cover glass",
+          "LEFT A3 separate rear body",
+          "LEFT A3 uncalibrated pointer",
+          "LEFT A3 uncalibrated pointer pivot",
+          "LEFT A4 / drawing leader 63",
+          "LEFT A4 blank face",
+          "LEFT A4 independent bezel",
+          "LEFT A4 observed upper arch proxy",
+          "LEFT A4 separate cover glass",
+          "LEFT A4 separate rear body",
+          "LEFT A4 uncalibrated pointer",
+          "LEFT A4 uncalibrated pointer pivot",
+          "LEFT A5 / drawing leader 66",
+          "LEFT A5 blank face",
+          "LEFT A5 independent bezel",
+          "LEFT A5 observed upper arch proxy",
+          "LEFT A5 separate cover glass",
+          "LEFT A5 separate rear body",
+          "LEFT A5 uncalibrated pointer",
+          "LEFT A5 uncalibrated pointer pivot",
+          "LEFT A6 / drawing leader 68",
+          "LEFT A6 blank face",
+          "LEFT A6 independent bezel",
+          "LEFT A6 observed upper arch proxy",
+          "LEFT A6 separate cover glass",
+          "LEFT A6 separate rear body",
+          "LEFT A6 uncalibrated pointer",
+          "LEFT A6 uncalibrated pointer pivot",
+          "LEFT A7 / drawing leader 70",
+          "LEFT A7 blank face",
+          "LEFT A7 counter aperture proxy",
+          "LEFT A7 empty counter window",
+          "LEFT A7 independent bezel",
+          "LEFT A7 separate cover glass",
+          "LEFT A7 separate rear body",
+          "LEFT B1 / drawing leader 57",
+          "LEFT B1 blank face",
+          "LEFT B1 counter aperture proxy",
+          "LEFT B1 empty counter window",
+          "LEFT B1 independent bezel",
+          "LEFT B1 separate cover glass",
+          "LEFT B1 separate rear body",
+          "LEFT B1 uncalibrated pointer",
+          "LEFT B1 uncalibrated pointer pivot",
+          "LEFT B2 / drawing leader 60",
+          "LEFT B2 blank face",
+          "LEFT B2 independent bezel",
+          "LEFT B2 observed upper arch proxy",
+          "LEFT B2 separate cover glass",
+          "LEFT B2 separate rear body",
+          "LEFT B2 uncalibrated pointer",
+          "LEFT B2 uncalibrated pointer pivot",
+          "LEFT B3 / drawing leader 62",
+          "LEFT B3 blank face",
+          "LEFT B3 independent bezel",
+          "LEFT B3 observed upper arch proxy",
+          "LEFT B3 separate cover glass",
+          "LEFT B3 separate rear body",
+          "LEFT B3 uncalibrated pointer",
+          "LEFT B3 uncalibrated pointer pivot",
+          "LEFT B4 / drawing leader 64",
+          "LEFT B4 blank face",
+          "LEFT B4 independent bezel",
+          "LEFT B4 observed lower-button proxy",
+          "LEFT B4 separate cover glass",
+          "LEFT B4 separate rear body",
+          "LEFT B4 uncalibrated arc-window silhouette",
+          "LEFT B4 uncalibrated pointer",
+          "LEFT B4 uncalibrated pointer pivot",
+          "VA180 PARTIAL — B4 PHOTO-FORM REVIEW",
+          "VA180 B4 / BUTTON aperture tool",
+          "VA180 B4 / BUTTON PRESS REVIEW — travel is fitted",
+          "VA180 B4 / BUTTON — movable cap",
+          "VA180 B4 / BUTTON — movable stem",
+          "VA180 B4 / BUTTON sleeve bore tool",
+          "VA180 B4 / BUTTON — stationary hollow sleeve",
+          "VA180 B4 / CASE bore tool",
+          "VA180 B4 / CASE — fitted hollow cylindrical envelope",
+          "VA180 B4 / DIAL radial fit tool",
+          "VA180 B4 / DIAL — backing beneath real window",
+          "VA180 B4 / DIAL — backing beneath real window EDITABLE SOURCE",
+          "VA180 B4 / FRONT — opaque lower mask and upper opening",
+          "VA180 B4 / GLASS — separate fitted flat cover",
+          "VA180 B4 / GLASS — separate fitted flat cover EDITABLE SOURCE",
+          "VA180 B4 / OBSERVED A scale label 0",
+          "VA180 B4 / OBSERVED A scale label 1",
+          "VA180 B4 / OBSERVED A scale label 2",
+          "VA180 B4 / OBSERVED A scale label 3",
+          "VA180 B4 / OBSERVED A scale label 4",
+          "VA180 B4 / OBSERVED current unit",
+          "VA180 B4 / OBSERVED push instruction",
+          "VA180 B4 / POINTER — fitted photo pose, not a measured value",
+          "VA180 B4 / WINDOW through-cut tool",
+          "VA180 B4 / WINDOW through-cut tool EDITABLE SOURCE",
+          "VA180 B4 / ZERO CORRECTOR — retained separate shank",
+          "VA180 B4 / ZERO CORRECTOR — slotted front head",
+          "VA180 B4 / ZERO screw aperture tool",
+          "VA180 B4 / ZERO slot cutter",
+          "LEFT B5 / drawing leader 65",
+          "LEFT B5 blank face",
+          "LEFT B5 independent bezel",
+          "LEFT B5 separate cover glass",
+          "LEFT B5 separate rear body",
+          "LEFT B5 uncalibrated pointer",
+          "LEFT B5 uncalibrated pointer pivot",
+          "LEFT B6 / drawing leader 67",
+          "LEFT B6 blank face",
+          "LEFT B6 independent bezel",
+          "LEFT B6 observed upper arch proxy",
+          "LEFT B6 separate cover glass",
+          "LEFT B6 separate rear body",
+          "LEFT B6 uncalibrated pointer",
+          "LEFT B6 uncalibrated pointer pivot",
+          "LEFT B7 / drawing leader 69",
+          "LEFT B7 blank face",
+          "LEFT B7 independent bezel",
+          "LEFT B7 observed upper arch proxy",
+          "LEFT B7 separate cover glass",
+          "LEFT B7 separate rear body",
+          "LEFT B7 uncalibrated pointer",
+          "LEFT B7 uncalibrated pointer pivot",
+          "LEFT PANEL — real openings / fitted silhouette",
+          "LEFT PANEL — real openings / fitted silhouette SOURCE CURVE"
+        ],
+        "collections": [
+          "01 LEFT CAB — Fig101 layout study",
+          "01 PHYSICAL FRONT STUDY",
+          "02 READABLE MARKS — incomplete calibration",
+          "90 EDITABLE SOURCE CURVES — hidden",
+          "90 NATIVE BOOLEAN TOOLS — hidden",
+          "91 EDITABLE CONTOURS — hidden",
+          "91 LEFT THROUGH-HOLE CUTTERS — hidden"
+        ],
+        "world": [
+          [
+            -4.371138828673793e-08,
+            0.14943827688694,
+            0.9887710809707642,
+            -4.806403636932373
+          ],
+          [
+            1.0,
+            6.088581017138495e-08,
+            3.500579737192311e-08,
+            -1.024999976158142
+          ],
+          [
+            -5.4970922036545744e-08,
+            0.9887710809707642,
+            -0.14943827688694,
+            1.9613202810287476
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "RIGHT DISPLAY ROOT — not vehicle datum": {
+        "objects": [
+          "RIGHT DISPLAY ROOT — not vehicle datum",
+          "R R1 control assembly",
+          "R R1 front base",
+          "R R1 observed hexagonal mount",
+          "R R1 separate rear body",
+          "R R1 switch or button silhouette",
+          "R R2 control assembly",
+          "R R2 front base",
+          "R R2 observed hexagonal mount",
+          "R R2 separate rear body",
+          "R R2 switch or button silhouette",
+          "R R3 control assembly",
+          "R R3 front base",
+          "R R3 observed hexagonal mount",
+          "R R3 separate rear body",
+          "R R3 switch or button silhouette",
+          "R R4 control assembly",
+          "R R4 front base",
+          "R R4 observed hexagonal mount",
+          "R R4 separate rear body",
+          "R R4 switch or button silhouette",
+          "R R5 control assembly",
+          "R R5 front base",
+          "R R5 separate rear body",
+          "R R5 socket blank face",
+          "R R5 socket rim",
+          "R R6a control assembly",
+          "R R6a front base",
+          "R R6a fuse button",
+          "R R6a separate rear body",
+          "R R6b control assembly",
+          "R R6b front base",
+          "R R6b fuse button",
+          "R R6b separate rear body",
+          "R R8 control assembly",
+          "R R8 front base",
+          "R R8 observed hexagonal mount",
+          "R R8 separate rear body",
+          "R R8 switch or button silhouette",
+          "R-HOLE-R1",
+          "R-HOLE-R2",
+          "R-HOLE-R3",
+          "R-HOLE-R4",
+          "R-HOLE-R5",
+          "R-HOLE-R6a",
+          "R-HOLE-R6b",
+          "R-HOLE-R7",
+          "R-HOLE-R8",
+          "RIGHT PANEL — real openings / fitted silhouette",
+          "RIGHT PANEL — real openings / fitted silhouette SOURCE CURVE",
+          "RIGHT R7 TASK LAMP — not an instrument",
+          "RIGHT R7 dark reflector proxy",
+          "RIGHT R7 fitted rear lamp body",
+          "RIGHT R7 observed bell-form shield proxy",
+          "RIGHT R7 shallow lamp lens proxy",
+          "RIGHT R7 task-lamp rolled rim",
+          "RIGHT STRIP oblong cutter 1",
+          "RIGHT STRIP oblong cutter 2",
+          "RIGHT UNIDENTIFIED VERTICAL STRIP — fitted",
+          "RIGHT UNIDENTIFIED VERTICAL STRIP — fitted SOURCE CURVE"
+        ],
+        "collections": [
+          "02 RIGHT CAB — Fig102 auxiliary panel",
+          "90 EDITABLE SOURCE CURVES — hidden",
+          "92 RIGHT THROUGH-HOLE CUTTERS — hidden",
+          "94 RIGHT STRIP SLOT CUTTERS — hidden"
+        ],
+        "world": [
+          [
+            -4.371138828673793e-08,
+            0.14943827688694,
+            0.9887710809707642,
+            -4.806403636932373
+          ],
+          [
+            1.0,
+            6.088581017138495e-08,
+            3.500579737192311e-08,
+            1.024999976158142
+          ],
+          [
+            -5.4970922036545744e-08,
+            0.9887710809707642,
+            -0.14943827688694,
+            1.9613202810287476
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      }
+    }
+  }
+}

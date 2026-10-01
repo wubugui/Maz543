@@ -1,0 +1,352 @@
+{
+  "candidate_sha256": "6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266",
+  "identity_failures": [],
+  "seats": [
+    {
+      "centre": [
+        -4.45,
+        -1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "retained_semantic_region": true
+    },
+    {
+      "centre": [
+        -4.45,
+        1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "retained_semantic_region": true
+    },
+    {
+      "centre": [
+        -3.38,
+        -1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "retained_semantic_region": true
+    },
+    {
+      "centre": [
+        -3.38,
+        1.025,
+        1.6
+      ],
+      "vertices": 900,
+      "faces": 300,
+      "retained_semantic_region": true
+    }
+  ],
+  "old_object_count": 8489,
+  "actual_object_count": 8518,
+  "new_to_existing_broadphase_pairs": [
+    {
+      "device": "VA180 B4 / CASE \u2014 fitted hollow cylindrical envelope",
+      "existing": "BL_Merged_body_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / FRONT \u2014 opaque lower mask and upper opening",
+      "existing": "BL_Merged_body_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / GLASS \u2014 separate fitted flat cover",
+      "existing": "BL_Merged_body_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / DIAL \u2014 backing beneath real window",
+      "existing": "BL_Merged_body_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / ZERO CORRECTOR \u2014 slotted front head",
+      "existing": "BL_Merged_body_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / ZERO CORRECTOR \u2014 retained separate shank",
+      "existing": "BL_Merged_body_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 stationary hollow sleeve",
+      "existing": "BL_Merged_body_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 movable stem",
+      "existing": "BL_Merged_body_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 movable cap",
+      "existing": "BL_Merged_body_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / POINTER \u2014 fitted photo pose, not a measured value",
+      "existing": "BL_Merged_body_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / CASE \u2014 fitted hollow cylindrical envelope",
+      "existing": "BL_Merged_body_Phosphated_steel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / FRONT \u2014 opaque lower mask and upper opening",
+      "existing": "BL_Merged_body_Phosphated_steel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / GLASS \u2014 separate fitted flat cover",
+      "existing": "BL_Merged_body_Phosphated_steel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / DIAL \u2014 backing beneath real window",
+      "existing": "BL_Merged_body_Phosphated_steel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / ZERO CORRECTOR \u2014 slotted front head",
+      "existing": "BL_Merged_body_Phosphated_steel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / ZERO CORRECTOR \u2014 retained separate shank",
+      "existing": "BL_Merged_body_Phosphated_steel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 stationary hollow sleeve",
+      "existing": "BL_Merged_body_Phosphated_steel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 movable stem",
+      "existing": "BL_Merged_body_Phosphated_steel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 movable cap",
+      "existing": "BL_Merged_body_Phosphated_steel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / POINTER \u2014 fitted photo pose, not a measured value",
+      "existing": "BL_Merged_body_Phosphated_steel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / CASE \u2014 fitted hollow cylindrical envelope",
+      "existing": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / FRONT \u2014 opaque lower mask and upper opening",
+      "existing": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / GLASS \u2014 separate fitted flat cover",
+      "existing": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / DIAL \u2014 backing beneath real window",
+      "existing": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / ZERO CORRECTOR \u2014 slotted front head",
+      "existing": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / ZERO CORRECTOR \u2014 retained separate shank",
+      "existing": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 stationary hollow sleeve",
+      "existing": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 movable stem",
+      "existing": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 movable cap",
+      "existing": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / POINTER \u2014 fitted photo pose, not a measured value",
+      "existing": "BL_Merged_cab_pivot_005_OD_green_aged_enamel",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / CASE \u2014 fitted hollow cylindrical envelope",
+      "existing": "cab_0063",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / FRONT \u2014 opaque lower mask and upper opening",
+      "existing": "cab_0063",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / GLASS \u2014 separate fitted flat cover",
+      "existing": "cab_0063",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / DIAL \u2014 backing beneath real window",
+      "existing": "cab_0063",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / ZERO CORRECTOR \u2014 slotted front head",
+      "existing": "cab_0063",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / ZERO CORRECTOR \u2014 retained separate shank",
+      "existing": "cab_0063",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 stationary hollow sleeve",
+      "existing": "cab_0063",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 movable stem",
+      "existing": "cab_0063",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 movable cap",
+      "existing": "cab_0063",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / POINTER \u2014 fitted photo pose, not a measured value",
+      "existing": "cab_0063",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / CASE \u2014 fitted hollow cylindrical envelope",
+      "existing": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / FRONT \u2014 opaque lower mask and upper opening",
+      "existing": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / GLASS \u2014 separate fitted flat cover",
+      "existing": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / DIAL \u2014 backing beneath real window",
+      "existing": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / ZERO CORRECTOR \u2014 slotted front head",
+      "existing": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / ZERO CORRECTOR \u2014 retained separate shank",
+      "existing": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 stationary hollow sleeve",
+      "existing": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 movable stem",
+      "existing": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / BUTTON \u2014 movable cap",
+      "existing": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "surface_triangle_pairs": 0
+    },
+    {
+      "device": "VA180 B4 / POINTER \u2014 fitted photo pose, not a measured value",
+      "existing": "LEFT PANEL \u2014 real openings / fitted silhouette",
+      "surface_triangle_pairs": 0
+    }
+  ],
+  "new_to_existing_surface_contacts": [],
+  "button_samples": [
+    {
+      "press_mm_review_input": 0,
+      "cap_world_m": [
+        -4.801878929138184,
+        -1.1073585748672485,
+        1.9328289031982422
+      ],
+      "scaled_translation_error_m": 0.0,
+      "unexpected_changed_count": 0
+    },
+    {
+      "press_mm_review_input": 0.5,
+      "cap_world_m": [
+        -4.802214622497559,
+        -1.1073585748672485,
+        1.9328796863555908
+      ],
+      "scaled_translation_error_m": 0.0,
+      "unexpected_changed_count": 0
+    },
+    {
+      "press_mm_review_input": 1,
+      "cap_world_m": [
+        -4.802550315856934,
+        -1.1073585748672485,
+        1.93293035030365
+      ],
+      "scaled_translation_error_m": 0.0,
+      "unexpected_changed_count": 0
+    },
+    {
+      "press_mm_review_input": 0,
+      "cap_world_m": [
+        -4.801878929138184,
+        -1.1073585748672485,
+        1.9328289031982422
+      ],
+      "scaled_translation_error_m": 0.0,
+      "unexpected_changed_count": 0
+    }
+  ],
+  "saved_blend": false,
+  "status": "PASS_SCOPED_READBACK_ONLY",
+  "limits": [
+    "Contact audit detects surface triangle intersections, not complete solid containment or continuous sweeps.",
+    "Original three cab installation collision pairs and uncertain caption mapping remain unresolved.",
+    "Preserved material slot names do not certify material node internals.",
+    "Button sample inputs are fitted travel, not manufacturer mechanism validation."
+  ],
+  "whole_vehicle_acceptance": "16 OPEN"
+}

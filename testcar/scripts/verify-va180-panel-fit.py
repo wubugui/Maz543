@@ -2,6 +2,8 @@
 import bpy
 import hashlib
 import json
+import argparse
+import sys
 import numpy as np
 from pathlib import Path
 from mathutils import Vector
@@ -9,8 +11,11 @@ from mathutils.bvhtree import BVHTree
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT/'outputs/cloud-va180-panel-fit-20261001'
-SOURCE = OUT/'MAZ543A_Master.blend'
+parser=argparse.ArgumentParser();parser.add_argument('--directory',type=Path)
+args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+if args.directory:OUT=args.directory.resolve()
 build = json.loads((OUT/'build.json').read_text())
+SOURCE = OUT/build.get('candidate_file','MAZ543A_Master.blend')
 sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 assert sha(SOURCE) == build['candidate_sha256']
 # Extract only pure snapshot functions; never execute the construction script.

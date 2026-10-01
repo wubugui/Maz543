@@ -321,3 +321,19 @@ support hardware require reference-grounded revision; no guessed bore locations
 or bolt extension have been applied. Three original sampled pose reports, an
 eight-station readback, native isolated views and a scientific projection plot are
 retained. No geometry is modified and all16 gates remain OPEN.
+
+The independent `cloud-va180-textured-20261001` native sibling now reproduces the
+published cab/VA180 Master edits while retaining its Textured baseline's own seat
+UVs/materials. Fresh native identity and four-seat preservation checks pass. The
+new development-only `cab-va180-v1` GLB transports 261 geometry parts and 321 poses
+(maximum vertex error 8.191 micrometres), preserves 432 existing mesh-node streams
+and the original ordered images/texture bindings/samplers. Native tangent fallback
+from the first export is retained as failed evidence; native temporary n-gon
+triangulation resolves it in the final export. One inherited exporter sampler
+warning remains; final sampler/image preservation is exact. Khronos validation
+has zero errors/warnings, with the Draco payload checked separately by decoding.
+Candidate-only steering binding preserves the fitted native rest tilt and spins
+about the wheel's local axis across721 synthetic actual-loop states, while480
+legacy states and30 selector cases pass. TypeScript/build pass. No real browser
+validation is claimed. Existing installation failures, fitted dimensions, source
+caption conflict and all16 vehicle gates remain OPEN.

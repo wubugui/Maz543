@@ -1,0 +1,25 @@
+{
+  "status": "PASS_CANDIDATE_STEERING_BINDING_ONLY",
+  "frames": 721,
+  "maxNormalError": 1.9467393113851327e-8,
+  "maxQuaternionError": 3.3306690738754696e-16,
+  "maxSpokeError": 3.445728579514449e-9,
+  "nativeRestRotation": [
+    0,
+    0,
+    -0.14943811297416687,
+    0.9887710809707642
+  ],
+  "sourceRestRotation": [
+    0,
+    0,
+    0.14943814277648926,
+    0.9887710809707642
+  ],
+  "unrelatedPivotUnchanged": true,
+  "sourceUnaffected": true,
+  "accumulation": false,
+  "oldLoopNegativeControl": true,
+  "limits": "Synthetic actual binding-loop test with real GLB rest transforms. No browser, full steering linkage, collision, manufacturer geometry or whole-vehicle acceptance.",
+  "wholeVehicleAcceptance": "16 OPEN"
+}

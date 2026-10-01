@@ -7,6 +7,8 @@ import bpy
 import hashlib
 import json
 import shutil
+import argparse
+import sys
 import numpy as np
 from pathlib import Path
 from mathutils import Matrix
@@ -17,10 +19,22 @@ DEVICE = ROOT/'outputs/cloud-va180-face-study-20261001/iteration-04/study.blend'
 OUT = ROOT/'outputs/cloud-va180-panel-fit-20261001'
 BASE_SHA = 'ba622e6dad9a74b7ee39058d1ca88b6f75fd85bd3923ab0629b87e812c9b7864'
 DEVICE_SHA = '5f22280d7f2f9f56ec06ae333a4e46f9632860b534ad540a9bda6bae1223d670'
+parser=argparse.ArgumentParser()
+parser.add_argument('--base',type=Path)
+parser.add_argument('--base-sha')
+parser.add_argument('--output',type=Path)
+parser.add_argument('--candidate-name',choices=['MAZ543A_Master.blend','MAZ543A_Textured.blend'],default='MAZ543A_Master.blend')
+args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+if args.base:
+    assert args.base_sha and len(args.base_sha)==64, 'Explicit alternate source requires its exact identity'
+    BASE=args.base.resolve();BASE_SHA=args.base_sha
+if args.output:OUT=args.output.resolve()
+assert ROOT in OUT.parents and OUT.name.startswith('cloud-'), 'Dedicated candidate directory required'
 sha = lambda p: hashlib.sha256(p.read_bytes()).hexdigest()
 assert sha(BASE) == BASE_SHA and sha(DEVICE) == DEVICE_SHA
 OUT.mkdir(exist_ok=True)
-TARGET = OUT/'MAZ543A_Master.blend'
+TARGET = OUT/args.candidate_name
+assert TARGET not in {BASE,DEVICE,ROOT/'outputs/MAZ543A_Master.blend',ROOT/'outputs/MAZ543A_Textured.blend'}
 assert not TARGET.exists()
 
 def geometry(o):
@@ -130,6 +144,7 @@ shutil.copyfile(DEVICE.parent/'FONT-LICENSE.txt',OUT/'FONT-LICENSE.txt')
 bpy.context.scene['VA180_B4_status'] = 'Partial photo-form review only. Existing cab-panel/seat collision failures remain. All16 OPEN.'
 bpy.ops.wm.save_as_mainfile(filepath=str(TARGET),compress=True)
 report = {'status':'SAVED_UNACCEPTED_CANDIDATE_REQUIRES_FRESH_READBACK',
+          'candidate_file':TARGET.name,
           'base_sha256':BASE_SHA,'device_sha256':DEVICE_SHA,'candidate_sha256':sha(TARGET),
           'old_object_count':len(before),'incoming_object_count':len(incoming),'old_proxy_archive':sorted(old_names),
           'old_object_snapshot':before,'device_object_name_map':name_map,

@@ -1,0 +1,13 @@
+{
+  "preservedMeshNodes": 432,
+  "nativeCandidate": "work/cloud-va180-web-20261001/native-export.glb",
+  "source": "public/models/review/maz543a-left-driver-v1.glb",
+  "output": "work/cloud-va180-web-20261001/packed-candidate.glb",
+  "sha256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e",
+  "bytes": 24743400,
+  "changedMeshes": [
+    "cab_0064",
+    "BL_Left_driver_steering_column_retained"
+  ],
+  "scope": "Partial cab-panel/VA180 candidate. Exactly two old meshes are re-encoded, three obsolete generic instrument nodes omitted, declared steering rest pose changed. Other original streams/materials/textures are retained. Four seat regions retain native UVs; re-encoded GLB UV/pixel identity is not certified. All16 OPEN."
+}

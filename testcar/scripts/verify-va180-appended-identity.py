@@ -3,14 +3,19 @@ import ast
 import bpy
 import hashlib
 import json
+import argparse
+import sys
 import numpy as np
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'outputs/cloud-va180-panel-fit-20261001'
+parser=argparse.ArgumentParser();parser.add_argument('--directory',type=Path)
+args=parser.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else [])
+if args.directory:OUT=args.directory.resolve()
 build=json.loads((OUT/'build.json').read_text())
 DEVICE=ROOT/'outputs/cloud-va180-face-study-20261001/iteration-04/study.blend'
-TARGET=OUT/'MAZ543A_Master.blend'
+TARGET=OUT/build.get('candidate_file','MAZ543A_Master.blend')
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 assert sha(DEVICE)==build['device_sha256'] and sha(TARGET)==build['candidate_sha256']
 tree=ast.parse((ROOT/'scripts/build-va180-panel-fit.py').read_text())

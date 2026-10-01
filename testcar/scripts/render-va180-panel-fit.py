@@ -13,12 +13,16 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT/'outputs/cloud-va180-panel-fit-20261001'
 parser = argparse.ArgumentParser()
 parser.add_argument('--view',required=True,choices=['before-detail','after-detail','after-cab','after-whole'])
+parser.add_argument('--directory', default='outputs/cloud-va180-panel-fit-20261001')
 args = parser.parse_args(sys.argv[sys.argv.index('--')+1:])
+OUT=(ROOT/args.directory).resolve()
+assert OUT.is_relative_to(ROOT/'outputs') and OUT.name.startswith('cloud-')
 build = json.loads((OUT/'build.json').read_text())
 audit = json.loads((OUT/'readback.json').read_text())
 assert not audit['identity_failures']
 source = (ROOT/'outputs/cloud-steering-photo-hypothesis-20261001/MAZ543A_Master.blend'
-          if args.view == 'before-detail' else OUT/'MAZ543A_Master.blend')
+          if args.view == 'before-detail' else OUT/build.get('candidate_file','MAZ543A_Master.blend'))
+assert args.view!='before-detail' or args.directory=='outputs/cloud-va180-panel-fit-20261001'
 expected = build['base_sha256'] if args.view == 'before-detail' else build['candidate_sha256']
 sha = lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 assert sha(source) == expected
