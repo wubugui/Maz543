@@ -1,0 +1,24 @@
+[
+  {
+    "version": "v1",
+    "draco_position_bits": 14,
+    "bytes": 20386744,
+    "sha256": "f6f4af2ed91cf81003eec9eb1e52d414b59f5f4fefba726026287b6c30d36a29",
+    "hood_transport_status": "FAIL_NATIVE_HOOD_TO_DRACO_TRANSPORT",
+    "hood_max_deviation_m": 5.127333450836983e-05,
+    "glyph_max_deviation_m": 1.4994125137664242e-06,
+    "scope": "Raw export, no original compressed-stream preservation or actual browser QA",
+    "all16": "OPEN"
+  },
+  {
+    "version": "v2",
+    "draco_position_bits": 18,
+    "bytes": 23186624,
+    "sha256": "c275a5e37669d751bd86cd633cc7e719abfd928f8dbcc390cd49dace77d9a786",
+    "hood_transport_status": "PASS_NATIVE_HOOD_TO_DRACO_TRANSPORT_ONLY",
+    "hood_max_deviation_m": 3.342787490912114e-06,
+    "glyph_max_deviation_m": 3.0395655378378613e-07,
+    "scope": "Raw export, no original compressed-stream preservation or actual browser QA",
+    "all16": "OPEN"
+  }
+]

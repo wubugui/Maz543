@@ -1,0 +1,1459 @@
+{
+  "status": "PASS_NATIVE_GLYPH_TO_DRACO_TRANSPORT_ONLY",
+  "sha256": "c275a5e37669d751bd86cd633cc7e719abfd928f8dbcc390cd49dace77d9a786",
+  "glyphCounts": [
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18,
+    18
+  ],
+  "results": [
+    {
+      "name": "BL_Tyre_0_emboss_0",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.4806164076050108e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_1",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 732,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.5815522011952292e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_10",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 1406,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.8002464945113218e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_11",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 702,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.7116336454504413e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_14",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 46,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 1.3827573264426712e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_15",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.4281388078752132e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_16",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.1266498574556769e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_17",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 798,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 1.8220588335739646e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_18",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 840,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.7886760680148726e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_19",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 1362,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.837820579399237e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_2",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 880,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.7167166306993398e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_3",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 870,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.8227731027004268e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_4",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 96,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 1.376075043299767e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_5",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 1120,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 1.6503521063443976e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_6",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 852,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.7850211391197116e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_7",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 848,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.8178898231870504e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_8",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.3095938076305236e-7
+    },
+    {
+      "name": "BL_Tyre_0_emboss_9",
+      "spinParent": "wheels_pivot_002",
+      "carrierParent": "wheels_pivot_001",
+      "tyreIndex": 0,
+      "decodedVertices": 1114,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 1.82117280022612e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_0",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.5729378532751208e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_1",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 716,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.8265303254495887e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_10",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 1368,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.7578226741696414e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_11",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 720,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.6668199101769174e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_14",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 50,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 1.3481208318895893e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_15",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 28,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.3851874529100277e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_16",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.1898625865577e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_17",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 810,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 1.7838437082493689e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_18",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 834,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.593033818219872e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_19",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 1430,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.8247392910273544e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_2",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 858,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.7102472999474706e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_3",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 840,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.7731216122687721e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_4",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 72,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 1.310805821661312e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_5",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 1126,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 1.7443604865996382e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_6",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 816,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.7136095822262909e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_7",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 814,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.8299049795087244e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_8",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.23179091014733e-7
+    },
+    {
+      "name": "BL_Tyre_1_emboss_9",
+      "spinParent": "wheels_pivot_009",
+      "carrierParent": "wheels_pivot_008",
+      "tyreIndex": 1,
+      "decodedVertices": 1126,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 1.7324058521706962e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_0",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 6.394651527465546e-8
+    },
+    {
+      "name": "BL_Tyre_2_emboss_1",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 732,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.3377351676009993e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_10",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 1380,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.2406981550265946e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_11",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 700,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.175765745151991e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_14",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 46,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 9.359206573939955e-8
+    },
+    {
+      "name": "BL_Tyre_2_emboss_15",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 7.709002993117798e-8
+    },
+    {
+      "name": "BL_Tyre_2_emboss_16",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 5.435055551977889e-8
+    },
+    {
+      "name": "BL_Tyre_2_emboss_17",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 796,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 1.181829142269066e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_18",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 828,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.1975221805049714e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_19",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 1356,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.2564179208334878e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_2",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 880,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.1173999120588007e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_3",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 872,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.118518117557718e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_4",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 88,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 9.025911707790623e-8
+    },
+    {
+      "name": "BL_Tyre_2_emboss_5",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 1114,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 1.1426454691479158e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_6",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 862,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.313028190598848e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_7",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 834,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.254243322350966e-7
+    },
+    {
+      "name": "BL_Tyre_2_emboss_8",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 6.264028556370915e-8
+    },
+    {
+      "name": "BL_Tyre_2_emboss_9",
+      "spinParent": "wheels_pivot_016",
+      "carrierParent": "wheels_pivot_015",
+      "tyreIndex": 2,
+      "decodedVertices": 1118,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 1.327648929094814e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_0",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 6.435560403678e-8
+    },
+    {
+      "name": "BL_Tyre_3_emboss_1",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 696,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.0473046498102494e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_10",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 1374,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.3060118260496972e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_11",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 720,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.2523580135762694e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_14",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 50,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 9.183612080318256e-8
+    },
+    {
+      "name": "BL_Tyre_3_emboss_15",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 28,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 8.145696428506039e-8
+    },
+    {
+      "name": "BL_Tyre_3_emboss_16",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 3.012631579704573e-8
+    },
+    {
+      "name": "BL_Tyre_3_emboss_17",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 814,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 1.2754151491059735e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_18",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 832,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.088849471472596e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_19",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 1430,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.163531584247576e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_2",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 852,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.1935264433218536e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_3",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 844,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.33008375183263e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_4",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 72,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 8.4257258294796e-8
+    },
+    {
+      "name": "BL_Tyre_3_emboss_5",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 1114,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 1.2873924679329807e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_6",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 828,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.2729372561783696e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_7",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 802,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.06549089466064e-7
+    },
+    {
+      "name": "BL_Tyre_3_emboss_8",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 5.667402309828777e-8
+    },
+    {
+      "name": "BL_Tyre_3_emboss_9",
+      "spinParent": "wheels_pivot_023",
+      "carrierParent": "wheels_pivot_022",
+      "tyreIndex": 3,
+      "decodedVertices": 1122,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 1.2215728907688787e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_0",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.1986636644624104e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_1",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 732,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.6637075010851204e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_10",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 1374,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.7964748073723698e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_11",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 696,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.860555039374109e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_14",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 46,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 1.5583908886647058e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_15",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.0348803522213431e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_16",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.2504864569353033e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_17",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 800,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 1.77066578415614e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_18",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 840,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.7504168178132534e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_19",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 1364,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.9558421359649052e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_2",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 876,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.7931023092645663e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_3",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 856,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.769995324939744e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_4",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 96,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 1.243809085023267e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_5",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 1126,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 1.8111825485812007e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_6",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 848,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.7680481809934114e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_7",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 832,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.8040274234645365e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_8",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.0584410498489621e-7
+    },
+    {
+      "name": "BL_Tyre_4_emboss_9",
+      "spinParent": "wheels_pivot_030",
+      "carrierParent": "wheels_pivot_029",
+      "tyreIndex": 4,
+      "decodedVertices": 1102,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 1.8025093077146242e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_0",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.286282437716112e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_1",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 718,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.881369739986522e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_10",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 1378,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.8255259057227304e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_11",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 722,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 1.7774284061104036e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_14",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 50,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 1.8042282659670991e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_15",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 28,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.455286932906658e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_16",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.0969141842491959e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_17",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 810,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 1.7686421504524135e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_18",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 832,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.8003383612632382e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_19",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 1430,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 1.7464299744036602e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_2",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 864,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.8185563385248035e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_3",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 844,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.7081387161290882e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_4",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 72,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 1.6203966687313304e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_5",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 1122,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 2.1575308313420244e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_6",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 820,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.7539867339513957e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_7",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 816,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 1.8351611321929278e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_8",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.3978587404449395e-7
+    },
+    {
+      "name": "BL_Tyre_5_emboss_9",
+      "spinParent": "wheels_pivot_037",
+      "carrierParent": "wheels_pivot_036",
+      "tyreIndex": 5,
+      "decodedVertices": 1122,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 1.9006237003489555e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_0",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 28,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 2.280544449863425e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_1",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 724,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 2.9183197167180765e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_10",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 1372,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 2.852450877966625e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_11",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 710,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 2.87350154801398e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_14",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 54,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 1.9738629930928306e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_15",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.6077497661760767e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_16",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 1.7694740253397077e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_17",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 790,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 2.807308720720225e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_18",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 816,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 2.895268209671649e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_19",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 1348,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 2.863514808115708e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_2",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 892,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 2.8380267791268193e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_3",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 888,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 2.9220589402661375e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_4",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 88,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 2.80860414714592e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_5",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 1114,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 3.0035197632752136e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_6",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 856,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 2.9163226047186984e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_7",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 852,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 2.970121264537621e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_8",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 2.2283309387529316e-7
+    },
+    {
+      "name": "BL_Tyre_6_emboss_9",
+      "spinParent": "wheels_pivot_044",
+      "carrierParent": "wheels_pivot_043",
+      "tyreIndex": 6,
+      "decodedVertices": 1110,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 2.797540844904125e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_0",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 2.538471465932447e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_1",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 692,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 2.74407262470665e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_10",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 1382,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 2.814595572439482e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_11",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 718,
+      "nativeVertices": 156,
+      "triangles": 308,
+      "maxWorldVertexDeviationM": 2.7816084897757184e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_14",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 50,
+      "nativeVertices": 14,
+      "triangles": 24,
+      "maxWorldVertexDeviationM": 2.4851162315826716e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_15",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 28,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 2.4341031577791396e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_16",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 2.484711098155747e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_17",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 834,
+      "nativeVertices": 178,
+      "triangles": 352,
+      "maxWorldVertexDeviationM": 2.906836521502674e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_18",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 840,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 2.7235983922334754e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_19",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 1418,
+      "nativeVertices": 294,
+      "triangles": 584,
+      "maxWorldVertexDeviationM": 3.0395655378378613e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_2",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 816,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 2.7237314265631243e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_3",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 852,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 2.85568527580365e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_4",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 72,
+      "nativeVertices": 24,
+      "triangles": 44,
+      "maxWorldVertexDeviationM": 2.452028894300843e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_5",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 1106,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 3.009091763105123e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_6",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 804,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 2.91823547032407e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_7",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 858,
+      "nativeVertices": 192,
+      "triangles": 384,
+      "maxWorldVertexDeviationM": 2.8075028589252666e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_8",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 24,
+      "nativeVertices": 8,
+      "triangles": 12,
+      "maxWorldVertexDeviationM": 2.451552416957209e-7
+    },
+    {
+      "name": "BL_Tyre_7_emboss_9",
+      "spinParent": "wheels_pivot_051",
+      "carrierParent": "wheels_pivot_050",
+      "tyreIndex": 7,
+      "decodedVertices": 1090,
+      "nativeVertices": 242,
+      "triangles": 484,
+      "maxWorldVertexDeviationM": 2.9970280154328583e-7
+    }
+  ],
+  "maxWorldVertexDeviationM": 3.0395655378378613e-7,
+  "scope": "Actual Draco decoding and saved-native vertex correspondence, triangle counts and wheel-parent hierarchy. No production-stream preservation, whole-car shape comparison, browser rendering or UV acceptance.",
+  "all16VehicleGates": "OPEN"
+}

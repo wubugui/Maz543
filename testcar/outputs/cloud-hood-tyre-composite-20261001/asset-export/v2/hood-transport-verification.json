@@ -1,0 +1,30 @@
+{
+  "status": "PASS_NATIVE_HOOD_TO_DRACO_TRANSPORT_ONLY",
+  "sha256": "c275a5e37669d751bd86cd633cc7e719abfd928f8dbcc390cd49dace77d9a786",
+  "results": [
+    {
+      "name": "BL_Front_cover_front_panel",
+      "decodedVertices": 5267,
+      "nativeVertices": 4454,
+      "triangles": 8908,
+      "maxWorldVertexDeviationM": 0.000003342787490912114
+    },
+    {
+      "name": "BL_Photo_front_cover_top_grip_-1",
+      "decodedVertices": 955,
+      "nativeVertices": 850,
+      "triangles": 1696,
+      "maxWorldVertexDeviationM": 7.633118912497578e-7
+    },
+    {
+      "name": "BL_Photo_front_cover_top_grip_1",
+      "decodedVertices": 955,
+      "nativeVertices": 850,
+      "triangles": 1696,
+      "maxWorldVertexDeviationM": 7.777207106769019e-7
+    }
+  ],
+  "maxWorldVertexDeviationM": 0.000003342787490912114,
+  "scope": "Actual Draco decoding and saved-native vertex correspondence, triangle counts and hood-part identity. No production-stream preservation, whole-car shape comparison, browser rendering or UV acceptance.",
+  "all16VehicleGates": "OPEN"
+}

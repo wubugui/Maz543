@@ -101,7 +101,10 @@ replacement for the production masters or production GLB.
   inputs, transforms/parents and material slot names. Strict evaluated-UV
   bitwise preservation remains FAIL (3170/2277 objects); repeated evaluation of
   the unchanged input also shows small UV variation. No threshold exemption,
-  production promotion or new GLB. See its current STATE for render status.
+  production promotion. A real combined whole-vehicle native image and two raw
+  GLB exports are retained. v1 hood quantization fails; v2 raises position
+  precision and passes limited decoded hood/glyph transport. Neither is
+  browser-tested or a packed production-preserving asset. See its STATE.
 
 ## Verified environment and remaining access limits
 

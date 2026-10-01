@@ -1,0 +1,16 @@
+FAIL_NATIVE_HOOD_TO_DRACO_TRANSPORT 3 0.00005127333450836983
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Hood transport exceeds unchanged 20 micrometre threshold
+    at file:///workspace/scratch/a29d03198654/Maz543/testcar/scripts/verify-composite-hood-transport.mjs:42:169 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

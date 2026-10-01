@@ -21,5 +21,8 @@ for obj in descendants(root):
  if allowed(obj):obj.hide_set(False);obj.select_set(True);selected.append(obj)
 assert len([o for o in selected if o.name.startswith('BL_Tyre_') and '_emboss_' in o.name])==144
 bpy.context.view_layer.objects.active=root
-bpy.ops.export_scene.gltf(filepath=str(OUT/'native-export.glb'),export_format='GLB',use_selection=True,export_apply=True,export_yup=True,export_tangents=True,export_extras=True,export_animations=False,export_draco_mesh_compression_enable=True,export_draco_mesh_compression_level=6)
+position_bits=int(os.environ.get('MAZ_DRACO_POSITION_BITS','14'))
+property_info=bpy.ops.export_scene.gltf.get_rna_type().properties['export_draco_position_quantization']
+assert property_info.hard_min<=position_bits<=property_info.hard_max
+bpy.ops.export_scene.gltf(filepath=str(OUT/'native-export.glb'),export_format='GLB',use_selection=True,export_apply=True,export_yup=True,export_tangents=True,export_extras=True,export_animations=False,export_draco_mesh_compression_enable=True,export_draco_mesh_compression_level=6,export_draco_position_quantization=position_bits)
 print('CANDIDATE_EXPORT_COMPLETE')

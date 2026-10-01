@@ -1,0 +1,2077 @@
+INFO Draco mesh compression is available, use library at /workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/libextern_draco.so
+12:34:27 | INFO: Starting glTF 2.0 export
+12:34:27 | INFO: Extracting primitive: Cube.024
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: Cube.025
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: Cube.026
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: Cube.027
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: SurfPatch.001
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-hood-tyre-composite-20261001/MAZ543A_Textured.blend"
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:27 | WARNING: SurfPatch.001: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: PHOTO_GRIP_native_bezier_-1
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: PHOTO_GRIP_native_bezier_1
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: Cylinder.009
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:27 | WARNING: Cylinder.009: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: Cylinder.012
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:27 | WARNING: Cylinder.012: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: Cylinder.008
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:27 | WARNING: Cylinder.008: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: Cylinder.011
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:27 | WARNING: Cylinder.011: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: Cube
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:27 | WARNING: Cube: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: SurfPatch.002
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:27 | WARNING: SurfPatch.002: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: SurfPatch.003
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:27 | WARNING: SurfPatch.003: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: BL_Rear_marker_-1_4.79_Topology
+12:34:27 | INFO: Primitives created: 1
+12:34:27 | INFO: Extracting primitive: BL_Bay_door_-1_Topology
+12:34:27 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Radiator_fins_0_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bay_handle_-1_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bay_door_gasket_-1_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Mudflap_-1_-0.88_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bay_bolt_-1_-0.47_1.72_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_cover_latch_-0.46
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_cover_latch_0.46
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.017
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.018
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.019
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.020
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bay_door_-1_Topology.003
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bay_door_-1_Topology.005
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bay_handle_-1_Curve.002
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bay_handle_-1_Curve.004
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bay_handle_-1_Curve.006
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bay_handle_-1_Curve.008
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bay_door_-1_Topology.007
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bay_door_-1_Topology.009
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_201
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_202
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_221
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_222
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_203
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_204
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_205
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_206
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_207
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_208
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_209
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_210
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_211
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_212
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_213
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_214
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_215
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_216
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_217
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_218
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_219
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_220
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_-1_step_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_1_step_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Step_-1_0_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_30
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_40
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_41
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_42
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_43
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_44
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_45
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_46
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_47
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_-1_headlamp_chrome_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_-1_quarterlight_glass_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_mirror_arm_-1
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cylinder.001
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:28 | WARNING: Cylinder.001: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cylinder.002
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:28 | WARNING: Cylinder.002: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.009
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_upper_fine_rod_-1
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.014
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.013
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_windshield_gasket_-1_Editable_outline
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:28 | WARNING: BL_Front_windshield_gasket_-1_Editable_outline: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_windshield_glass_-1_Editable_outline
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_wiper_arm_-1
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_wiper_blade_-1
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_-1_headlamp_lens_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_-1_crowned_roof_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_-1_headlamp_bucket_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_-1_mirror_stalk_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_-1_quarterlight_frame_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_-1_0_handle_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_-1_0_lock_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_-1_0_window_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_-1_0_fasteners_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_-1_0_gap_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_-1_1_handle_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_-1_1_lock_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_-1_1_window_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_-1_1_fasteners_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_-1_1_gap_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_27
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_28
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_29
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_1_headlamp_chrome_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_1_quarterlight_glass_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_mirror_arm_1
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cylinder.003
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:28 | WARNING: Cylinder.003: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cylinder.004
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:28 | WARNING: Cylinder.004: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.012
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_upper_fine_rod_1
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.016
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.015
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_windshield_gasket_1_Editable_outline
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:28 | WARNING: BL_Front_windshield_gasket_1_Editable_outline: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_windshield_glass_1_Editable_outline
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_wiper_arm_1
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_wiper_blade_1
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_1_headlamp_lens_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_1_crowned_roof_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_1_headlamp_bucket_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_1_mirror_stalk_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_1_quarterlight_frame_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_-1_crowned_roof_Topology.001
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_-1_headlamp_lens_Topology.001
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Cab_-1_mirror_stalk_Curve.001
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_1_0_handle_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_1_0_lock_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_1_0_window_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_1_0_fasteners_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_1_0_gap_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_1_1_handle_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_1_1_lock_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_1_1_window_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_1_1_fasteners_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Door_1_1_gap_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_91
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_93
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_94
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_95
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Final_drive_0_cast_housing_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Final_drive_0_casting_rib_-0.2_Curve
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Final_drive_0_cover_bolt_-0.31_0_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_96
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_98
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_117
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_119
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_121
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_123
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_125
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_99
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_113
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_114
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_115
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_116
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_118
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_120
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_122
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_124
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bumper_signal_-1_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bumper_signal_1_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bumper_signal_rim_-1_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Bumper_signal_rim_1_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.001
+Error: Tangent space can only be computed for tris/quads, aborting
+12:34:28 | WARNING: Cube.001: Could not calculate tangents. Please try to triangulate the mesh first.
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.007
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.010
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.005
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.006
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.008
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Cube.011
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Front_single_recovery_hook
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_1
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_2
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_3
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_223
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_224
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_225
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_226
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: Mesh_227
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Hub_0_cover_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Hub_0_planetary_case_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Hub_0_oil_plug_Topology
+12:34:28 | INFO: Primitives created: 1
+12:34:28 | INFO: Extracting primitive: BL_Tyre_0_curved_tread_blocks_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Rim_0_bead_lock_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Rim_0_pressed_dish_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_0.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_1.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_10.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_11.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_14.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_15.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_16.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_17.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_18.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_19.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_2.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_3.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_4.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_5.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_6.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_7.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_8.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_0_9.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_141
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_142
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_143
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_144
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_1_cover_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_1_planetary_case_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_1_oil_plug_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Tyre_1_curved_tread_blocks_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Rim_1_bead_lock_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Rim_1_pressed_dish_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_0.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_1.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_10.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_11.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_14.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_15.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_16.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_17.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_18.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_19.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_2.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_3.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_4.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_5.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_6.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_7.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_8.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_1_9.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_149
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_150
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_151
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_152
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_2_cover_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_2_planetary_case_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_2_oil_plug_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Tyre_2_curved_tread_blocks_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Rim_2_bead_lock_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Rim_2_pressed_dish_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_0.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_1.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_10.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_11.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_14.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_15.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_16.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_17.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_18.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_19.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_2.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_3.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_4.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_5.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_6.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_7.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_8.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_2_9.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_157
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_158
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_159
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_160
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_3_cover_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_3_planetary_case_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_3_oil_plug_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Tyre_3_curved_tread_blocks_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Rim_3_bead_lock_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Rim_3_pressed_dish_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_0.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_1.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_10.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_11.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_14.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_15.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_16.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_17.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_18.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_19.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_2.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_3.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_4.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_5.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_6.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_7.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_8.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Tyre_marking_3_9.001
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_165
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_166
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_167
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: Mesh_168
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_4_cover_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_4_planetary_case_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Hub_4_oil_plug_Topology
+12:34:29 | INFO: Primitives created: 1
+12:34:29 | INFO: Extracting primitive: BL_Tyre_4_curved_tread_blocks_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Rim_4_bead_lock_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Rim_4_pressed_dish_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_0.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_1.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_10.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_11.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_14.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_15.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_16.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_17.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_18.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_19.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_2.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_3.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_4.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_5.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_6.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_7.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_8.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_4_9.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_173
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_174
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_175
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_176
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Hub_5_cover_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Hub_5_planetary_case_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Hub_5_oil_plug_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Tyre_5_curved_tread_blocks_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Rim_5_bead_lock_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Rim_5_pressed_dish_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_0.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_1.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_10.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_11.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_14.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_15.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_16.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_17.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_18.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_19.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_2.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_3.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_4.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_5.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_6.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_7.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_8.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_5_9.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_181
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_182
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_183
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_184
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Hub_6_cover_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Hub_6_planetary_case_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Hub_6_oil_plug_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Tyre_6_curved_tread_blocks_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Rim_6_bead_lock_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Rim_6_pressed_dish_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_0.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_1.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_10.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_11.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_14.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_15.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_16.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_17.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_18.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_19.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_2.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_3.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_4.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_5.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_6.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_7.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_8.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_6_9.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_189
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_190
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_191
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_192
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Hub_7_cover_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Hub_7_planetary_case_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Hub_7_oil_plug_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Tyre_7_curved_tread_blocks_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Rim_7_bead_lock_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: BL_Rim_7_pressed_dish_Topology
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_0.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_1.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_10.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_11.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_14.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_15.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_16.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_17.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_18.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_19.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_2.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_3.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_4.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_5.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_6.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_7.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_8.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Tyre_marking_7_9.001
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_197
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_198
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_199
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Extracting primitive: Mesh_200
+12:34:30 | INFO: Primitives created: 1
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_fixed_hinge_lug_-1_0.438.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_fixed_hinge_lug_-1_0.512.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_fixed_hinge_lug_1_0.438.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_fixed_hinge_lug_1_0.512.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_front_panel.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Photo_front_cover_top_grip_-1.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Photo_front_cover_top_grip_1.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_hinge_knuckle_-1.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_hinge_knuckle_1.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_hinge_pin_-1.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_hinge_pin_1.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_lip.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_middle_panel.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Front_cover_rear_panel.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Merged_body_Amber_signal_glass.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Merged_body_OD_green_aged_enamel.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Merged_body_OD_green_shadow.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Merged_body_Phosphated_steel.
+12:34:30 | INFO: Draco encoder: Encoding mesh BL_Merged_body_Rubber_window_seals.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_body_Tyre_rubber.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_body_Worn_steel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_cover_latch_-0.46.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_cover_latch_0.46.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_mount_-1_3.37.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_mount_-1_3.67.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_mount_1_3.37.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_mount_1_3.67.
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 19080, encoded size: 6383, compression ratio: 2.99
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 18984, encoded size: 6382, compression ratio: 2.97
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 19032, encoded size: 6384, compression ratio: 2.98
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 19080, encoded size: 6383, compression ratio: 2.99
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 5267 vertices, 26724 indices, raw size: 216744, encoded size: 30427, compression ratio: 7.12
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 955 vertices, 5088 indices, raw size: 56016, encoded size: 8877, compression ratio: 6.31
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 955 vertices, 5088 indices, raw size: 56016, encoded size: 8874, compression ratio: 6.31
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 950 vertices, 1920 indices, raw size: 30912, encoded size: 9751, compression ratio: 3.17
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 950 vertices, 1920 indices, raw size: 30912, encoded size: 9750, compression ratio: 3.17
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 700 vertices, 1524 indices, raw size: 21096, encoded size: 6731, compression ratio: 3.13
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 700 vertices, 1524 indices, raw size: 21096, encoded size: 6731, compression ratio: 3.13
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1896 vertices, 2772 indices, raw size: 66216, encoded size: 13882, compression ratio: 4.77
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2343 vertices, 11652 indices, raw size: 98280, encoded size: 10010, compression ratio: 9.82
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2665 vertices, 14796 indices, raw size: 114872, encoded size: 11340, compression ratio: 10.13
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1920 vertices, 6096 indices, raw size: 104352, encoded size: 17759, compression ratio: 5.88
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 17494 vertices, 27396 indices, raw size: 1032328, encoded size: 113561, compression ratio: 9.09
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 13440 vertices, 19740 indices, raw size: 684600, encoded size: 73099, compression ratio: 9.37
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2656 vertices, 4500 indices, raw size: 157736, encoded size: 27156, compression ratio: 5.81
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2302 vertices, 3408 indices, raw size: 116976, encoded size: 19088, compression ratio: 6.13
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2240 vertices, 3384 indices, raw size: 114288, encoded size: 15103, compression ratio: 7.57
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1984 vertices, 6816 indices, raw size: 108864, encoded size: 20431, compression ratio: 5.33
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 453 vertices, 2364 indices, raw size: 26472, encoded size: 4844, compression ratio: 5.46
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 453 vertices, 2364 indices, raw size: 26472, encoded size: 4845, compression ratio: 5.46
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 362 vertices, 564 indices, raw size: 17160, encoded size: 5379, compression ratio: 3.19
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 358 vertices, 564 indices, raw size: 17064, encoded size: 5330, compression ratio: 3.20
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 358 vertices, 564 indices, raw size: 17064, encoded size: 5330, compression ratio: 3.20
+DracoEncoder | Preserve triangle12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_Rear_box_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_Rear_box_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_Rear_box_latch_-1_4.94.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_Rear_box_latch_-1_5.24.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_Rear_box_latch_1_4.94.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_Rear_box_latch_1_5.24.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_Rear_box_lid_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_RearRestoration_Rear_box_lid_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0001.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0002.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0035.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0036.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0003.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0004.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0005.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0006.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0007.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0008.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0009.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0010.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0011.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0012.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0013.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0014.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0015.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0016.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0017.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0018.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0019.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0020.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0021.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0022.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0023.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0024.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0025.
+ order: no
+DracoEncoder | Encoded 358 vertices, 564 indices, raw size: 17016, encoded size: 5330, compression ratio: 3.19
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 22632, encoded size: 3808, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 22632, encoded size: 3773, compression ratio: 6.00
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 22632, encoded size: 4441, compression ratio: 5.10
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 22632, encoded size: 4371, compression ratio: 5.18
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 22632, encoded size: 4440, compression ratio: 5.10
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 22632, encoded size: 4459, compression ratio: 5.08
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 22632, encoded size: 3401, compression ratio: 6.65
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 22632, encoded size: 3463, compression ratio: 6.54
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 144 vertices, 720 indices, raw size: 8352, encoded size: 635, compression ratio: 13.15
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 144 vertices, 720 indices, raw size: 8352, encoded size: 635, compression ratio: 13.15
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1540 vertices, 6336 indices, raw size: 83376, encoded size: 13518, compression ratio: 6.17
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1764 vertices, 9216 indices, raw size: 103104, encoded size: 13541, compression ratio: 7.61
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 194 vertices, 288 indices, raw size: 8064, encoded size: 1863, compression ratio: 4.33
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 194 vertices, 288 indices, raw size: 7680, encoded size: 1746, compression ratio: 4.40
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, com12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0026.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0027.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0028.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0029.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0030.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0031.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0032.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0033.
+12:34:31 | INFO: Draco encoder: Encoding mesh brakes_0034.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Cab_-1_step.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Cab_1_step.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_Worn_steel.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0032.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0061.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0062.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0063.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0064.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0065.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0066.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0067.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0068.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0069.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Cab_-1_headlamp_chrome.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Cab_-1_quarterlight_glass.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_mirror_arm_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_mirror_back_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_mirror_face_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_mirror_root_mount_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_upper_fine_rod_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_upper_mirror_face_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_upper_mirror_housing_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_windshield_gasket_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_windshield_glass_-1.
+pression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 147 vertices, 720 indices, raw size: 8496, encoded size: 1801, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 75 vertices, 192 indices, raw size: 3984, encoded size: 1424, compression ratio: 2.80
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 75 vertices, 192 indices, raw size: 3984, encoded size: 1422, compression ratio: 2.80
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 15360 vertices, 22560 indices, raw size: 782400, encoded size: 76101, compression ratio: 10.28
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 194 vertices, 288 indices, raw size: 7680, encoded size: 1895, compression ratio: 4.05
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1560 vertices, 5616 indices, raw size: 83904, encoded size: 11310, compression ratio: 7.42
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 3298 vertices, 4896 indices, raw size: 152400, encoded size: 19417, compression ratio: 7.85
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 5400 vertices, 5400 indices, raw size: 270000, encoded size: 56247, compression ratio: 4.80
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 7200 vertices, 7200 indices, raw size: 360000, encoded size: 75152, compression ratio: 4.79
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2910 vertices, 4320 indices, raw size: 127728, encoded size: 14838, compression ratio: 8.61
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6174 vertices, 32256 indices, raw size: 360864, encoded size: 40051, compression ratio: 9.01
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2716 vertices, 4032 indices, raw size: 137952, encoded size: 16666, compression ratio: 8.28
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 336 vertices, 1512 indices, raw size: 19152, encoded size: 3546, compression ratio: 5.40
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 936 vertices, 3060 indices, raw size: 51048, encoded size: 10169, compression ratio: 5.02
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 206 vertices, 372 indices, raw size: 10488, encoded size: 1847, compression ratio: 5.68
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 661 vertices, 3516 indices, raw size: 38760, encoded size: 6378, compression ratio: 6.08
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 822 vertices, 2292 indices, raw size: 29096, encoded size: 7820, compression ratio: 3.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1028 vertices, 2292 indices, raw size: 33128, encoded size: 9823, compression ratio: 3.37
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 368 vertices, 564 indices, raw size: 17784, encoded size: 5870, compression ratio: 3.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 453 vertices, 2364 indices, raw size: 26472, encoded size: 4335, compression ratio: 6.11
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 376 vertices, 564 indices, raw size: 18504, encoded size: 5200, compression ratio: 3.56
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 376 vertices, 564 indices, raw size: 18936, encoded size: 5775, compression ratio: 3.28
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 5398 vertices, 14880 indices, raw size: 175392, encoded size: 38921, compression ratio: 4.51
+DracoEncoder | Preserve triangle12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_wiper_arm_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_wiper_blade_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_001_Headlamp_prismatic_glass.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_001_OD_green_aged_enamel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_001_OD_green_shadow.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_001_Phosphated_steel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_001_Rubber_window_seals.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_handle.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_lock.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_window.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_002_OD_green_aged_enamel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_002_Rubber_window_seals.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_handle.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_lock.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_window.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_003_OD_green_aged_enamel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_003_Rubber_window_seals.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0029.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0030.
+12:34:31 | INFO: Draco encoder: Encoding mesh cab_0031.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Cab_1_headlamp_chrome.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Cab_1_quarterlight_glass.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_mirror_arm_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_mirror_back_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_mirror_face_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_mirror_root_mount_1.
+ order: no
+DracoEncoder | Encoded 398 vertices, 1008 indices, raw size: 20688, encoded size: 3853, compression ratio: 5.37
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 245 vertices, 1212 indices, raw size: 14184, encoded size: 1621, compression ratio: 8.75
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 245 vertices, 1212 indices, raw size: 14184, encoded size: 1653, compression ratio: 8.58
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1234 vertices, 3876 indices, raw size: 76856, encoded size: 11437, compression ratio: 6.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 21079 vertices, 35286 indices, raw size: 1243380, encoded size: 193468, compression ratio: 6.43
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 961 vertices, 3156 indices, raw size: 60128, encoded size: 9655, compression ratio: 6.23
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 57 vertices, 144 indices, raw size: 3480, encoded size: 1182, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2876 vertices, 4596 indices, raw size: 169856, encoded size: 25334, compression ratio: 6.70
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 510, compression ratio: 2.45
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 948 indices, raw size: 16968, encoded size: 4238, compression ratio: 4.00
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 324 vertices, 564 indices, raw size: 16536, encoded size: 2736, compression ratio: 6.04
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6398 vertices, 14412 indices, raw size: 334008, encoded size: 66790, compression ratio: 5.00
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4135 vertices, 8820 indices, raw size: 248080, encoded size: 44023, compression ratio: 5.64
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 507, compression ratio: 2.46
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 312 vertices, 948 indices, raw size: 16872, encoded size: 4180, compression ratio: 4.04
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 564 indices, raw size: 16008, encoded size: 2679, compression ratio: 5.98
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6410 vertices, 14526 indices, raw size: 334908, encoded size: 66723, compression ratio: 5.02
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4125 vertices, 8820 indices, raw size: 247744, encoded size: 44092, compression ratio: 5.62
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 441 vertices, 2304 indices, raw size: 25776, encoded size: 4233, compression ratio: 6.09
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 194 vertices, 288 indices, raw size: 7680, encoded size: 1803, compression ratio: 4.26
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 582 vertices, 864 indices, raw size: 25824, encoded size: 4538, compression ratio: 5.69
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 936 vertices, 3060 indices, raw size: 51048, encoded size: 10162, compression ratio: 5.02
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 212 vertices, 372 indices, raw size: 10776, encoded size: 1917, compression ratio: 5.62
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 661 vertices, 3516 indices, raw size: 38760, encoded size: 6395, compression ratio: 6.06
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 822 vertices, 2292 indices, raw size: 29096, encoded size: 7820, compression ratio: 3.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1028 vertices, 2292 indices, raw size: 33128, encoded size: 9823, compression ratio: 3.37
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 368 vertices, 564 indices12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_upper_fine_rod_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_upper_mirror_face_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_upper_mirror_housing_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_windshield_gasket_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_windshield_glass_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_wiper_arm_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_wiper_blade_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_005_Headlamp_prismatic_glass.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_005_OD_green_aged_enamel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_005_OD_green_shadow.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_005_Phosphated_steel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_005_Rubber_window_seals.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Searchlight_housing.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Searchlight_lens.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Searchlight_stand.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_handle.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_lock.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_window.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_006_OD_green_aged_enamel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_006_Rubber_window_seals.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_handle.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_lock.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_window.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_007_OD_green_aged_enamel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_007_Rubber_window_seals.
+12:34:31 | INFO: Draco encoder: Encoding mesh cooling_0005.
+, raw size: 17784, encoded size: 5870, compression ratio: 3.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 453 vertices, 2364 indices, raw size: 26472, encoded size: 4335, compression ratio: 6.11
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 376 vertices, 564 indices, raw size: 18408, encoded size: 5190, compression ratio: 3.55
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 376 vertices, 564 indices, raw size: 18936, encoded size: 5775, compression ratio: 3.28
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 5458 vertices, 14880 indices, raw size: 177088, encoded size: 39429, compression ratio: 4.49
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 398 vertices, 1008 indices, raw size: 20688, encoded size: 3873, compression ratio: 5.34
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 245 vertices, 1212 indices, raw size: 14184, encoded size: 1624, compression ratio: 8.73
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 245 vertices, 1212 indices, raw size: 14184, encoded size: 1641, compression ratio: 8.64
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1234 vertices, 3876 indices, raw size: 76856, encoded size: 11405, compression ratio: 6.74
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 20932 vertices, 35280 indices, raw size: 1236424, encoded size: 189884, compression ratio: 6.51
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 963 vertices, 3156 indices, raw size: 60240, encoded size: 9490, compression ratio: 6.35
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 60 vertices, 144 indices, raw size: 3168, encoded size: 1192, compression ratio: 2.66
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2834 vertices, 4596 indices, raw size: 167504, encoded size: 25232, compression ratio: 6.64
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 875 vertices, 3060 indices, raw size: 48120, encoded size: 9621, compression ratio: 5.00
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 928 vertices, 3060 indices, raw size: 58088, encoded size: 9595, compression ratio: 6.05
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 517 vertices, 1524 indices, raw size: 32000, encoded size: 6985, compression ratio: 4.58
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 510, compression ratio: 2.45
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 948 indices, raw size: 16968, encoded size: 4199, compression ratio: 4.04
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 328 vertices, 564 indices, raw size: 16632, encoded size: 2783, compression ratio: 5.98
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6302 vertices, 14412 indices, raw size: 330360, encoded size: 66234, compression ratio: 4.99
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4119 vertices, 8820 indices, raw size: 247800, encoded size: 44135, compression ratio: 5.61
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 509, compression ratio: 2.45
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 312 vertices, 948 indices, raw size: 16872, encoded size: 4186, compression ratio: 4.03
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 316 vertices, 564 indices, raw size: 16104, encoded size: 2723, compression ratio: 5.91
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6306 vertices, 14526 indices, raw size: 331116, encoded size: 65675, compression ratio: 5.04
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4045 vertices, 8820 indices, raw size: 243544, encoded size: 43525, compression ratio: 5.60
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 900 vertices, 900 indices, raw size: 45000, encoded size: 10942, compression rati12:34:31 | INFO: Draco encoder: Encoding mesh cooling_0007.
+12:34:31 | INFO: Draco encoder: Encoding mesh cooling_0008.
+12:34:31 | INFO: Draco encoder: Encoding mesh cooling_0009.
+12:34:31 | INFO: Draco encoder: Encoding mesh cooling_0010.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_drive_OD_green_shadow.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_drive_OD_green_shadow.001.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_drive_Phosphated_steel.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0001.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0003.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0038.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0040.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0042.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0044.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0046.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0004.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0020.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0021.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0022.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0023.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0024.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0025.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0026.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0027.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0028.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0029.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0030.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0031.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0032.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0033.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0034.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0035.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0036.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0037.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0039.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0041.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0043.
+12:34:31 | INFO: Draco encoder: Encoding mesh drive_0045.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Bumper_signal_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Bumper_signal_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Bumper_signal_rim_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Bumper_signal_rim_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_box_bumper.
+o: 4.11
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 882 vertices, 4608 indices, raw size: 51552, encoded size: 7546, compression ratio: 6.83
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 388 vertices, 576 indices, raw size: 17568, encoded size: 3250, compression ratio: 5.41
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 776 vertices, 1152 indices, raw size: 33360, encoded size: 4582, compression ratio: 7.28
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1900 vertices, 6960 indices, raw size: 105120, encoded size: 22068, compression ratio: 4.76
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 840 vertices, 2304 indices, raw size: 44928, encoded size: 10022, compression ratio: 4.48
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 23344 vertices, 80448 indices, raw size: 1468160, encoded size: 212709, compression ratio: 6.90
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 194 vertices, 288 indices, raw size: 7680, encoded size: 1803, compression ratio: 4.26
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 900 vertices, 900 indices, raw size: 45000, encoded size: 11903, compression ratio: 3.78
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 423 vertices, 2160 indices, raw size: 24624, encoded size: 4548, compression ratio: 5.41
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 423 vertices, 2160 indices, raw size: 24624, encoded size: 4548, compression ratio: 5.41
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 423 vertices, 2160 indices, raw size: 24624, encoded size: 4548, compression ratio: 5.41
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 423 vertices, 2160 indices, raw size: 24624, encoded size: 4548, compression ratio: 5.41
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 776 vertices, 1152 indices, raw size: 34080, encoded size: 4875, compression ratio: 6.99
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 866 vertices, 1296 indices, raw size: 41952, encoded size: 6247, compression ratio: 6.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 674 vertices, 1008 indices, raw size: 32160, encoded size: 5075, compression ratio: 6.34
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 674 vertices, 1008 indices, raw size: 32160, encoded size: 5075, compression ratio: 6.34
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 194 vertices, 288 indices, raw size: 7680, encoded size: 1974, compression ratio: 3.89
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 383, compression ratio: 3.20
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 770 vertices, 1152 indices, raw size: 37056, encoded size: 5687, compression ratio: 6.52
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 770 vertices, 1152 indices, raw size: 37056, encoded size: 5687, compression ratio: 6.52
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 770 vertices, 1152 indices, raw size: 37056, encoded size: 5687, compression ratio: 6.52
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 770 vertices, 1152 indices, raw size: 37056, encoded size: 5687, compression ratio: 6.52
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 704 vertices, 2292 indices, raw size: 38376, encoded size: 8108, compression ratio: 4.73
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 704 vertices, 2292 indices, raw size: 38376, encoded size: 8134, compression ratio: 4.72
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 704 vertices, 2292 indices, raw size: 38376, encoded size: 7985, compression ratio: 4.81
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 702 vertices, 2292 indices, raw size: 38280, encoded size: 7977, compression ratio: 4.80
+DracoEncoder | Preserve triangle order: no
+DracoEncoder |12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_bumper_frame_mount_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_bumper_frame_mount_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_hook_mount.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_lower_shield.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_shield_stay_-1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_shield_stay_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Front_single_recovery_hook.
+12:34:31 | INFO: Draco encoder: Encoding mesh frame_0002.
+12:34:31 | INFO: Draco encoder: Encoding mesh frame_0003.
+12:34:31 | INFO: Draco encoder: Encoding mesh frame_0004.
+12:34:31 | INFO: Draco encoder: Encoding mesh fuel_0001.
+12:34:31 | INFO: Draco encoder: Encoding mesh fuel_0002.
+12:34:31 | INFO: Draco encoder: Encoding mesh fuel_0003.
+12:34:31 | INFO: Draco encoder: Encoding mesh fuel_0004.
+12:34:31 | INFO: Draco encoder: Encoding mesh fuel_0005.
+12:34:31 | INFO: Draco encoder: Encoding mesh fuel_0006.
+12:34:31 | INFO: Draco encoder: Encoding mesh fuel_0007.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Hub_0_cover.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Hub_0_planetary_case.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_002_Phosphated_steel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_002_Tyre_rubber.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Rim_0_bead_lock.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Rim_0_pressed_dish.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_0.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_10.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_11.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_14.
+ Encoded 833 vertices, 1428 indices, raw size: 24360, encoded size: 7854, compression ratio: 3.10
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 376 vertices, 564 indices, raw size: 18600, encoded size: 5709, compression ratio: 3.26
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 376 vertices, 564 indices, raw size: 18648, encoded size: 5709, compression ratio: 3.27
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 564 indices, raw size: 19272, encoded size: 5693, compression ratio: 3.39
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 380 vertices, 564 indices, raw size: 18600, encoded size: 5327, compression ratio: 3.49
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 376 vertices, 564 indices, raw size: 18936, encoded size: 5914, compression ratio: 3.20
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 376 vertices, 564 indices, raw size: 18936, encoded size: 5914, compression ratio: 3.20
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 869 vertices, 4668 indices, raw size: 51048, encoded size: 8510, compression ratio: 6.00
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 384 vertices, 576 indices, raw size: 19584, encoded size: 2279, compression ratio: 8.59
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 7841 vertices, 12960 indices, raw size: 350304, encoded size: 26818, compression ratio: 13.06
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 504 vertices, 756 indices, raw size: 25704, encoded size: 3099, compression ratio: 8.29
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 900 vertices, 900 indices, raw size: 45000, encoded size: 11536, compression ratio: 3.90
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 194 vertices, 288 indices, raw size: 9216, encoded size: 1913, compression ratio: 4.82
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 144 vertices, 720 indices, raw size: 8352, encoded size: 1729, compression ratio: 4.83
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 144 vertices, 720 indices, raw size: 8352, encoded size: 1728, compression ratio: 4.83
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 3600 vertices, 3600 indices, raw size: 180000, encoded size: 35316, compression ratio: 5.10
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 930 vertices, 3060 indices, raw size: 50760, encoded size: 9971, compression ratio: 5.09
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 932 vertices, 3060 indices, raw size: 50856, encoded size: 9932, compression ratio: 5.12
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 22542 vertices, 72660 indices, raw size: 1407672, encoded size: 209644, compression ratio: 6.71
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 170402 vertices, 287232 indices, raw size: 10691216, encoded size: 1633426, compression ratio: 6.55
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 658 vertices, 2304 indices, raw size: 36192, encoded size: 7643, compression ratio: 4.74
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2385 vertices, 9216 indices, raw size: 132912, encoded size: 25950, compression ratio: 5.12
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 417, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 732 vertices, 924 indices, raw size: 35880, encoded size: 5849, compression ratio: 6.13
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1406 vertices, 1752 indices, raw size: 67920, encoded size: 10693, compression ratio: 6.35
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 702 vertices, 924 indices, raw size: 34392, encoded size: 5530, compression ratio: 6.22
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 46 vertices, 72 indices, raw size: 2352, encode12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_15.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_16.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_17.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_18.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_19.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_2.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_3.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_4.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_5.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_6.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_7.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_8.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_0_emboss_9.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0011.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0012.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0013.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0014.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Hub_1_cover.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Hub_1_planetary_case.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_009_Phosphated_steel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_009_Tyre_rubber.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Rim_1_bead_lock.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Rim_1_pressed_dish.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_0.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_10.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_11.
+d size: 646, compression ratio: 3.64
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 418, compression ratio: 2.93
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 416, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 798 vertices, 1056 indices, raw size: 39168, encoded size: 6132, compression ratio: 6.39
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 840 vertices, 1152 indices, raw size: 40416, encoded size: 6662, compression ratio: 6.07
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1362 vertices, 1752 indices, raw size: 67056, encoded size: 10373, compression ratio: 6.46
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 880 vertices, 1152 indices, raw size: 43392, encoded size: 7002, compression ratio: 6.20
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 870 vertices, 1152 indices, raw size: 43584, encoded size: 6931, compression ratio: 6.29
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 96 vertices, 132 indices, raw size: 4872, encoded size: 1020, compression ratio: 4.78
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1120 vertices, 1452 indices, raw size: 55704, encoded size: 8910, compression ratio: 6.25
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 852 vertices, 1152 indices, raw size: 41952, encoded size: 6759, compression ratio: 6.21
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 848 vertices, 1152 indices, raw size: 41760, encoded size: 6715, compression ratio: 6.22
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 422, compression ratio: 2.90
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1114 vertices, 1452 indices, raw size: 53400, encoded size: 8791, compression ratio: 6.07
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 530 vertices, 792 indices, raw size: 24816, encoded size: 4123, compression ratio: 6.02
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 930 vertices, 3060 indices, raw size: 50760, encoded size: 9764, compression ratio: 5.20
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 932 vertices, 3060 indices, raw size: 50856, encoded size: 9925, compression ratio: 5.12
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 22368 vertices, 72660 indices, raw size: 1397928, encoded size: 206952, compression ratio: 6.75
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 170455 vertices, 287232 indices, raw size: 10694296, encoded size: 1635803, compression ratio: 6.54
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 658 vertices, 2304 indices, raw size: 36192, encoded size: 7477, compression ratio: 4.84
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2385 vertices, 9216 indices, raw size: 132912, encoded size: 26620, compression ratio: 4.99
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 417, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 716 vertices, 924 indices, raw size: 34488, encoded size: 5687, compression ratio: 6.06
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1368 vertices, 1752 indices, raw size: 67056, encoded size: 10418, compression ratio: 6.44
+DracoEncoder | Preserve triang12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_14.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_15.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_16.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_17.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_18.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_19.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_2.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_3.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_4.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_5.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_6.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_7.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_8.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_1_emboss_9.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0025.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0026.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0027.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0028.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Hub_2_cover.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Hub_2_planetary_case.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_016_Phosphated_steel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_016_Tyre_rubber.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Rim_2_bead_lock.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Rim_2_pressed_dish.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_0.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_1.
+le order: no
+DracoEncoder | Encoded 720 vertices, 924 indices, raw size: 35160, encoded size: 5707, compression ratio: 6.16
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 50 vertices, 72 indices, raw size: 2544, encoded size: 689, compression ratio: 3.69
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 28 vertices, 36 indices, raw size: 1416, encoded size: 460, compression ratio: 3.08
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 423, compression ratio: 2.89
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 810 vertices, 1056 indices, raw size: 40416, encoded size: 6279, compression ratio: 6.44
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 834 vertices, 1152 indices, raw size: 41472, encoded size: 6622, compression ratio: 6.26
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1430 vertices, 1752 indices, raw size: 71376, encoded size: 10964, compression ratio: 6.51
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 858 vertices, 1152 indices, raw size: 42576, encoded size: 6844, compression ratio: 6.22
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 840 vertices, 1152 indices, raw size: 41280, encoded size: 6711, compression ratio: 6.15
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 72 vertices, 132 indices, raw size: 3720, encoded size: 820, compression ratio: 4.54
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1126 vertices, 1452 indices, raw size: 54744, encoded size: 8922, compression ratio: 6.14
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 816 vertices, 1152 indices, raw size: 40272, encoded size: 6495, compression ratio: 6.20
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 814 vertices, 1152 indices, raw size: 40704, encoded size: 6403, compression ratio: 6.36
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 421, compression ratio: 2.91
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1126 vertices, 1452 indices, raw size: 54648, encoded size: 8973, compression ratio: 6.09
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 530 vertices, 792 indices, raw size: 24816, encoded size: 4123, compression ratio: 6.02
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 928 vertices, 3060 indices, raw size: 50664, encoded size: 10028, compression ratio: 5.05
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 928 vertices, 3060 indices, raw size: 50664, encoded size: 9827, compression ratio: 5.16
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 22390 vertices, 72660 indices, raw size: 1399160, encoded size: 207117, compression ratio: 6.76
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 170392 vertices, 287232 indices, raw size: 10690544, encoded size: 1634573, compression ratio: 6.54
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 658 vertices, 2304 indices, raw size: 36192, encoded size: 7684, compression ratio: 4.71
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2386 vertices, 9216 indices, raw size: 132960, encoded size: 26198, compression ratio: 5.08
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 417, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 732 vertices, 924 indices, raw size: 312:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_10.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_11.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_14.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_15.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_16.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_17.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_18.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_19.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_2.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_3.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_4.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_5.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_6.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_7.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_8.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_2_emboss_9.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0039.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0040.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0041.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0042.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Hub_3_cover.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Hub_3_planetary_case.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_023_Phosphated_steel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_023_Tyre_rubber.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Rim_3_bead_lock.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Rim_3_pressed_dish.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_0.
+6072, encoded size: 5836, compression ratio: 6.18
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1380 vertices, 1752 indices, raw size: 67248, encoded size: 10480, compression ratio: 6.42
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 700 vertices, 924 indices, raw size: 34008, encoded size: 5526, compression ratio: 6.15
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 46 vertices, 72 indices, raw size: 2352, encoded size: 646, compression ratio: 3.64
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 420, compression ratio: 2.91
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 416, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 796 vertices, 1056 indices, raw size: 38976, encoded size: 6125, compression ratio: 6.36
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 828 vertices, 1152 indices, raw size: 40032, encoded size: 6557, compression ratio: 6.11
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1356 vertices, 1752 indices, raw size: 66816, encoded size: 10299, compression ratio: 6.49
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 880 vertices, 1152 indices, raw size: 43296, encoded size: 6999, compression ratio: 6.19
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 872 vertices, 1152 indices, raw size: 43488, encoded size: 6946, compression ratio: 6.26
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 88 vertices, 132 indices, raw size: 4392, encoded size: 958, compression ratio: 4.58
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1114 vertices, 1452 indices, raw size: 55416, encoded size: 8858, compression ratio: 6.26
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 862 vertices, 1152 indices, raw size: 42144, encoded size: 6864, compression ratio: 6.14
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 834 vertices, 1152 indices, raw size: 41088, encoded size: 6586, compression ratio: 6.24
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 417, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1118 vertices, 1452 indices, raw size: 53496, encoded size: 8818, compression ratio: 6.07
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 530 vertices, 792 indices, raw size: 24816, encoded size: 4123, compression ratio: 6.02
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 928 vertices, 3060 indices, raw size: 50664, encoded size: 9936, compression ratio: 5.10
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 928 vertices, 3060 indices, raw size: 50664, encoded size: 9818, compression ratio: 5.16
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 22470 vertices, 72660 indices, raw size: 1403640, encoded size: 209737, compression ratio: 6.69
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 170370 vertices, 287232 indices, raw size: 10689424, encoded size: 1633079, compression ratio: 6.55
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 659 vertices, 2304 indices, raw size: 36240, encoded size: 7530, compression ratio: 4.81
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2386 vertices, 9216 indices, raw size: 132960, encoded size: 26601, compression ratio: 5.00
+DracoEncoder | Pre12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_1.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_10.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_11.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_14.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_15.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_16.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_17.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_18.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_19.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_2.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_3.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_4.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_5.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_6.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_7.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_8.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Tyre_3_emboss_9.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0053.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0054.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0055.
+12:34:31 | INFO: Draco encoder: Encoding mesh wheels_0056.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Hub_4_cover.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Hub_4_planetary_case.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_030_Phosphated_steel.
+12:34:31 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_030_Tyre_rubber.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Rim_4_bead_lock.
+serve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 420, compression ratio: 2.91
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 696 vertices, 924 indices, raw size: 33912, encoded size: 5521, compression ratio: 6.14
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1374 vertices, 1752 indices, raw size: 67104, encoded size: 10493, compression ratio: 6.40
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 720 vertices, 924 indices, raw size: 34968, encoded size: 5713, compression ratio: 6.12
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 50 vertices, 72 indices, raw size: 2544, encoded size: 687, compression ratio: 3.70
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 28 vertices, 36 indices, raw size: 1416, encoded size: 460, compression ratio: 3.08
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 416, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 814 vertices, 1056 indices, raw size: 40416, encoded size: 6297, compression ratio: 6.42
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 832 vertices, 1152 indices, raw size: 41568, encoded size: 6608, compression ratio: 6.29
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1430 vertices, 1752 indices, raw size: 71376, encoded size: 10972, compression ratio: 6.51
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 852 vertices, 1152 indices, raw size: 42336, encoded size: 6788, compression ratio: 6.24
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 844 vertices, 1152 indices, raw size: 41184, encoded size: 6734, compression ratio: 6.12
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 72 vertices, 132 indices, raw size: 3720, encoded size: 819, compression ratio: 4.54
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1114 vertices, 1452 indices, raw size: 54168, encoded size: 8830, compression ratio: 6.13
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 828 vertices, 1152 indices, raw size: 40896, encoded size: 6588, compression ratio: 6.21
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 802 vertices, 1152 indices, raw size: 40080, encoded size: 6342, compression ratio: 6.32
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 417, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1122 vertices, 1452 indices, raw size: 54072, encoded size: 8864, compression ratio: 6.10
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 530 vertices, 792 indices, raw size: 24816, encoded size: 4123, compression ratio: 6.02
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 930 vertices, 3060 indices, raw size: 50760, encoded size: 9731, compression ratio: 5.22
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 932 vertices, 3060 indices, raw size: 50856, encoded size: 9981, compression ratio: 5.10
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 22542 vertices, 72660 indices, raw size: 1407672, encoded size: 209657, compression ratio: 6.71
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 170417 vertices, 287232 indices, raw size: 10692056, encoded size: 1633686, compression ratio: 6.54
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 658 vertices, 2304 indices, r12:34:32 | INFO: Draco encoder: Encoding mesh BL_Rim_4_pressed_dish.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_0.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_1.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_10.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_11.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_14.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_15.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_16.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_17.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_18.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_19.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_2.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_3.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_4.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_5.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_6.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_7.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_8.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_4_emboss_9.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0067.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0068.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0069.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0070.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Hub_5_cover.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Hub_5_planetary_case.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_037_Phosphated_steel.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_037_Tyre_rubber.
+aw size: 36192, encoded size: 7637, compression ratio: 4.74
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2385 vertices, 9216 indices, raw size: 132912, encoded size: 25921, compression ratio: 5.13
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 414, compression ratio: 2.96
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 732 vertices, 924 indices, raw size: 35784, encoded size: 5851, compression ratio: 6.12
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1374 vertices, 1752 indices, raw size: 66912, encoded size: 10419, compression ratio: 6.42
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 696 vertices, 924 indices, raw size: 34200, encoded size: 5446, compression ratio: 6.28
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 46 vertices, 72 indices, raw size: 2352, encoded size: 646, compression ratio: 3.64
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 422, compression ratio: 2.90
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 416, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 800 vertices, 1056 indices, raw size: 39072, encoded size: 6125, compression ratio: 6.38
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 840 vertices, 1152 indices, raw size: 40416, encoded size: 6660, compression ratio: 6.07
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1364 vertices, 1752 indices, raw size: 67296, encoded size: 10409, compression ratio: 6.47
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 876 vertices, 1152 indices, raw size: 43296, encoded size: 6972, compression ratio: 6.21
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 856 vertices, 1152 indices, raw size: 43008, encoded size: 6815, compression ratio: 6.31
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 96 vertices, 132 indices, raw size: 4872, encoded size: 1021, compression ratio: 4.77
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1126 vertices, 1452 indices, raw size: 56088, encoded size: 8961, compression ratio: 6.26
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 848 vertices, 1152 indices, raw size: 41760, encoded size: 6737, compression ratio: 6.20
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 832 vertices, 1152 indices, raw size: 41184, encoded size: 6582, compression ratio: 6.26
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 422, compression ratio: 2.90
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1102 vertices, 1452 indices, raw size: 53112, encoded size: 8669, compression ratio: 6.13
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 530 vertices, 792 indices, raw size: 24816, encoded size: 4123, compression ratio: 6.02
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 930 vertices, 3060 indices, raw size: 50760, encoded size: 9710, compression ratio: 5.23
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 932 vertices, 3060 indices, raw size: 50856, encoded size: 9993, compression ratio: 5.09
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 22329 vertices, 72660 indices, raw size: 1395744, encoded size: 207956, compression ratio: 6.71
+DracoEncoder | Preserve 12:34:32 | INFO: Draco encoder: Encoding mesh BL_Rim_5_bead_lock.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Rim_5_pressed_dish.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_0.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_1.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_10.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_11.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_14.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_15.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_16.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_17.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_18.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_19.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_2.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_3.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_4.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_5.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_6.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_7.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_8.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_5_emboss_9.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0081.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0082.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0083.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0084.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Hub_6_cover.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Hub_6_planetary_case.
+triangle order: no
+DracoEncoder | Encoded 170444 vertices, 287232 indices, raw size: 10693736, encoded size: 1634581, compression ratio: 6.54
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 658 vertices, 2304 indices, raw size: 36192, encoded size: 7482, compression ratio: 4.84
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2385 vertices, 9216 indices, raw size: 132912, encoded size: 26559, compression ratio: 5.00
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 417, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 718 vertices, 924 indices, raw size: 34584, encoded size: 5699, compression ratio: 6.07
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1378 vertices, 1752 indices, raw size: 67632, encoded size: 10496, compression ratio: 6.44
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 722 vertices, 924 indices, raw size: 35256, encoded size: 5728, compression ratio: 6.16
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 50 vertices, 72 indices, raw size: 2544, encoded size: 687, compression ratio: 3.70
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 28 vertices, 36 indices, raw size: 1416, encoded size: 460, compression ratio: 3.08
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 418, compression ratio: 2.93
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 810 vertices, 1056 indices, raw size: 40416, encoded size: 6288, compression ratio: 6.43
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 832 vertices, 1152 indices, raw size: 41472, encoded size: 6606, compression ratio: 6.28
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1430 vertices, 1752 indices, raw size: 71184, encoded size: 10965, compression ratio: 6.49
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 864 vertices, 1152 indices, raw size: 42912, encoded size: 6894, compression ratio: 6.22
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 844 vertices, 1152 indices, raw size: 41472, encoded size: 6740, compression ratio: 6.15
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 72 vertices, 132 indices, raw size: 3720, encoded size: 822, compression ratio: 4.53
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1122 vertices, 1452 indices, raw size: 54744, encoded size: 8901, compression ratio: 6.15
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 820 vertices, 1152 indices, raw size: 40416, encoded size: 6518, compression ratio: 6.20
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 816 vertices, 1152 indices, raw size: 40896, encoded size: 6428, compression ratio: 6.36
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 417, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1122 vertices, 1452 indices, raw size: 54648, encoded size: 8887, compression ratio: 6.15
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 530 vertices, 792 indices, raw size: 24816, encoded size: 4123, compression ratio: 6.02
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 928 vertices, 3060 indices, raw size: 50664, encoded size: 9997, compression ratio: 5.07
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 924 vertices, 3060 indices, raw size: 512:34:32 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_044_Phosphated_steel.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_044_Tyre_rubber.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Rim_6_bead_lock.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Rim_6_pressed_dish.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_0.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_1.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_10.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_11.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_14.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_15.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_16.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_17.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_18.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_19.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_2.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_3.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_4.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_5.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_6.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_7.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_8.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_6_emboss_9.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0095.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0096.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0097.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0098.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Hub_7_cover.
+0472, encoded size: 9972, compression ratio: 5.06
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 22398 vertices, 72660 indices, raw size: 1399608, encoded size: 209143, compression ratio: 6.69
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 170415 vertices, 287232 indices, raw size: 10692112, encoded size: 1633568, compression ratio: 6.55
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 659 vertices, 2304 indices, raw size: 36240, encoded size: 7650, compression ratio: 4.74
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2384 vertices, 9216 indices, raw size: 132864, encoded size: 26166, compression ratio: 5.08
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 28 vertices, 36 indices, raw size: 1416, encoded size: 463, compression ratio: 3.06
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 724 vertices, 924 indices, raw size: 35736, encoded size: 5776, compression ratio: 6.19
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1372 vertices, 1752 indices, raw size: 67296, encoded size: 10484, compression ratio: 6.42
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 710 vertices, 924 indices, raw size: 34872, encoded size: 5582, compression ratio: 6.25
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 54 vertices, 72 indices, raw size: 2640, encoded size: 717, compression ratio: 3.68
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 417, compression ratio: 2.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 418, compression ratio: 2.93
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 790 vertices, 1056 indices, raw size: 39024, encoded size: 6070, compression ratio: 6.43
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 816 vertices, 1152 indices, raw size: 39600, encoded size: 6466, compression ratio: 6.12
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1348 vertices, 1752 indices, raw size: 66240, encoded size: 10271, compression ratio: 6.45
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 892 vertices, 1152 indices, raw size: 44160, encoded size: 7102, compression ratio: 6.22
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 888 vertices, 1152 indices, raw size: 44304, encoded size: 7101, compression ratio: 6.24
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 88 vertices, 132 indices, raw size: 4392, encoded size: 958, compression ratio: 4.58
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1114 vertices, 1452 indices, raw size: 55704, encoded size: 8879, compression ratio: 6.27
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 856 vertices, 1152 indices, raw size: 41760, encoded size: 6811, compression ratio: 6.13
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 852 vertices, 1152 indices, raw size: 41472, encoded size: 6779, compression ratio: 6.12
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 419, compression ratio: 2.92
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1110 vertices, 1452 indices, raw size: 53208, encoded size: 8724, compression ratio: 6.10
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 530 vertices, 792 indices, raw size: 24816, encoded size: 4123, compression ratio: 6.02
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve 12:34:32 | INFO: Draco encoder: Encoding mesh BL_Hub_7_planetary_case.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_051_Phosphated_steel.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Merged_wheels_pivot_051_Tyre_rubber.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Rim_7_bead_lock.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Rim_7_pressed_dish.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_0.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_1.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_10.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_11.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_14.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_15.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_16.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_17.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_18.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_19.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_2.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_3.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_4.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_5.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_6.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_7.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_8.
+12:34:32 | INFO: Draco encoder: Encoding mesh BL_Tyre_7_emboss_9.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0109.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0110.
+12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0111.
+triangle order: no
+DracoEncoder | Encoded 928 vertices, 3060 indices, raw size: 50664, encoded size: 9928, compression ratio: 5.10
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 924 vertices, 3060 indices, raw size: 50472, encoded size: 9796, compression ratio: 5.15
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 22412 vertices, 72660 indices, raw size: 1400392, encoded size: 208634, compression ratio: 6.71
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 170415 vertices, 287232 indices, raw size: 10691944, encoded size: 1633404, compression ratio: 6.55
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 659 vertices, 2304 indices, raw size: 36240, encoded size: 7529, compression ratio: 4.81
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 2384 vertices, 9216 indices, raw size: 132864, encoded size: 26538, compression ratio: 5.01
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 421, compression ratio: 2.91
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 692 vertices, 924 indices, raw size: 33816, encoded size: 5501, compression ratio: 6.15
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1382 vertices, 1752 indices, raw size: 67440, encoded size: 10489, compression ratio: 6.43
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 718 vertices, 924 indices, raw size: 34728, encoded size: 5673, compression ratio: 6.12
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 50 vertices, 72 indices, raw size: 2544, encoded size: 689, compression ratio: 3.69
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 28 vertices, 36 indices, raw size: 1416, encoded size: 460, compression ratio: 3.08
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 422, compression ratio: 2.90
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 834 vertices, 1056 indices, raw size: 40704, encoded size: 6436, compression ratio: 6.32
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 840 vertices, 1152 indices, raw size: 41952, encoded size: 6668, compression ratio: 6.29
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1418 vertices, 1752 indices, raw size: 70800, encoded size: 10906, compression ratio: 6.49
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 816 vertices, 1152 indices, raw size: 40224, encoded size: 6466, compression ratio: 6.22
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 852 vertices, 1152 indices, raw size: 41664, encoded size: 6831, compression ratio: 6.10
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 72 vertices, 132 indices, raw size: 3720, encoded size: 820, compression ratio: 4.54
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1106 vertices, 1452 indices, raw size: 54072, encoded size: 8706, compression ratio: 6.21
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 804 vertices, 1152 indices, raw size: 39168, encoded size: 6362, compression ratio: 6.16
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 858 vertices, 1152 indices, raw size: 42528, encoded size: 6812, compression ratio: 6.24
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 36 indices, raw size: 1224, encoded size: 421, compression ratio: 2.91
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 1090 vertices, 1452 indices, raw size: 52824, encoded size: 8588, compression ratio: 6.15
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 530 vertices, 792 indices, raw size: 24816, encoded size: 4123, compression ratio: 6.02
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw12:34:32 | INFO: Draco encoder: Encoding mesh wheels_0112.
+12:34:32 | INFO: Finished glTF 2.0 export in 5.333166599273682 s
+
+Warning: SurfPatch.001: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: Cylinder.009: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: Cylinder.012: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: Cylinder.008: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: Cylinder.011: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: Cube: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: SurfPatch.002: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: SurfPatch.003: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: Cylinder.001: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: Cylinder.002: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: BL_Front_windshield_gasket_-1_Editable_outline: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: Cylinder.003: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: Cylinder.004: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: BL_Front_windshield_gasket_1_Editable_outline: Could not calculate tangents. Please try to triangulate the mesh first.
+Warning: Cube.001: Could not calculate tangents. Please try to triangulate the mesh first.
+CANDIDATE_EXPORT_COMPLETE
+ size: 23136, encoded size: 3896, compression ratio: 5.94
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 482 vertices, 720 indices, raw size: 23136, encoded size: 3896, compression ratio: 5.94
+
+Blender quit

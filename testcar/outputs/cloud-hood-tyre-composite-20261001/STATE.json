@@ -6,7 +6,11 @@
   "native_glyph_geometry": "PASS,144 glyphs per master,maximum correspondence 4.76837158203125e-7m",
   "unrelated_geometry_input_preservation": "PASS: Master8570/Textured6926 objects;positions,triangles,world,parent,visibility,authored UV,editable modifier inputs,material slot names",
   "strict_derived_uv": "FAIL: Master3170/Textured2277 evaluated UV hashes differ; representative same-source repeat also varies, no tolerance exemption",
-  "web_export": "NOT_RUN",
+  "web_export": {
+    "status": "RAW_CANDIDATE_V2_SCOPED_TRANSPORT_PASS_BROWSER_NOT_RUN",
+    "report": "asset-export/STATE.json",
+    "native_strict_uv_fail_unchanged": true
+  },
   "native_render": {
     "status": "PASS_ACTUAL_CYCLES_IMAGE_VIEWED",
     "file": "hood-tyre-composite-whole-front.png",
