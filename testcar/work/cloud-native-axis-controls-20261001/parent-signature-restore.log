@@ -1,0 +1,28 @@
+{
+  "format": "maz-mesh-signature-columns-v1",
+  "status": "RESTORED_EXACT_ORIGINAL_BYTES",
+  "index_sha256": "0f3974a028392e4838add6f4a89ea7979f8fafc1fa6f83489bb03b55dcf01947",
+  "mesh_count": 7470,
+  "restored_files": [
+    {
+      "file": "build-initial_identity-mesh-signatures.json",
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d"
+    },
+    {
+      "file": "build-final_identity-mesh-signatures.json",
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d"
+    },
+    {
+      "file": "verify-initial_identity-mesh-signatures.json",
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d"
+    },
+    {
+      "file": "verify-final_identity-mesh-signatures.json",
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d"
+    }
+  ]
+}

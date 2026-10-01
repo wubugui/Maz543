@@ -1,0 +1,1974 @@
+{
+  "version": "4.5.13 LTS",
+  "autoexec": false,
+  "hinges": [
+    {
+      "name": "cab_pivot_002",
+      "type": "EMPTY",
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.909999847412109
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.4800000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.4700000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.909999847412109
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.4800000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.4700000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "location": [
+        -4.909999847412109,
+        1.4800000190734863,
+        1.4700000286102295
+      ],
+      "delta_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent_type": "OBJECT",
+      "parent": "cab",
+      "parent_rna": {
+        "name": "cab",
+        "name_full": "cab",
+        "id_type": "OBJECT",
+        "session_uid": 2434,
+        "is_evaluated": false,
+        "original": "cab",
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "data": null,
+        "type": "EMPTY",
+        "mode": "OBJECT",
+        "bound_box": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "parent": "MAZ543_REFERENCE_CHASSIS",
+        "parent_type": "OBJECT",
+        "parent_vertices": [
+          0,
+          0,
+          0
+        ],
+        "parent_bone": "",
+        "use_parent_final_indices": false,
+        "use_camera_lock_parent": false,
+        "track_axis": "POS_Y",
+        "up_axis": "Z",
+        "material_slots": [],
+        "active_material": null,
+        "active_material_index": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "lock_location": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_rotations_4d": true,
+        "lock_scale": [
+          false,
+          false,
+          false
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "modifiers": [],
+        "shader_effects": [],
+        "constraints": [],
+        "vertex_groups": [],
+        "empty_display_type": "PLAIN_AXES",
+        "empty_display_size": 0.0010000000474974513,
+        "empty_image_offset": [
+          -0.5,
+          -0.5
+        ],
+        "image_user": null,
+        "empty_image_depth": "DEFAULT",
+        "show_empty_image_perspective": true,
+        "show_empty_image_orthographic": true,
+        "show_empty_image_only_axis_aligned": false,
+        "use_empty_image_alpha": false,
+        "empty_image_side": "DOUBLE_SIDED",
+        "add_rest_position_attribute": false,
+        "pass_index": 0,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "field": null,
+        "collision": null,
+        "soft_body": null,
+        "particle_systems": [],
+        "rigid_body": null,
+        "rigid_body_constraint": null,
+        "use_simulation_cache": true,
+        "hide_viewport": false,
+        "hide_select": false,
+        "hide_render": false,
+        "hide_probe_volume": false,
+        "hide_probe_sphere": false,
+        "hide_probe_plane": false,
+        "show_instancer_for_render": true,
+        "show_instancer_for_viewport": true,
+        "visible_camera": true,
+        "visible_diffuse": true,
+        "visible_glossy": true,
+        "visible_transmission": true,
+        "visible_volume_scatter": true,
+        "visible_shadow": true,
+        "is_holdout": false,
+        "is_shadow_catcher": false,
+        "instance_type": "NONE",
+        "use_instance_vertices_rotation": false,
+        "use_instance_faces_scale": false,
+        "instance_faces_scale": 1.0,
+        "instance_collection": null,
+        "is_instancer": false,
+        "display_type": "TEXTURED",
+        "show_bounds": false,
+        "display_bounds_type": "BOX",
+        "show_name": false,
+        "show_axis": false,
+        "show_texture_space": false,
+        "show_wire": false,
+        "show_all_edges": false,
+        "use_grease_pencil_lights": false,
+        "show_transparent": false,
+        "show_in_front": false,
+        "pose": null,
+        "show_only_shape_key": false,
+        "use_shape_key_edit_mode": false,
+        "active_shape_key": null,
+        "active_shape_key_index": 0,
+        "use_dynamic_topology_sculpting": false,
+        "is_from_instancer": false,
+        "is_from_set": false,
+        "display": "<bpy_struct, ObjectDisplay at 0x7f1932c51420>",
+        "lineart": "<bpy_struct, ObjectLineArt at 0x7f1932c51880>",
+        "use_mesh_mirror_x": false,
+        "use_mesh_mirror_y": false,
+        "use_mesh_mirror_z": false,
+        "lightgroup": "",
+        "light_linking": "<bpy_struct, ObjectLightLinking at 0x7f1932c51420>",
+        "shadow_terminator_normal_offset": 0.0,
+        "shadow_terminator_geometry_offset": 0.10000000149011612,
+        "shadow_terminator_shading_offset": 0.0,
+        "animation_data": null,
+        "animation_visualization": "<bpy_struct, AnimViz at 0x7f1932c515b8>",
+        "motion_path": null,
+        "selection_sets": [],
+        "active_selection_set": 0,
+        "cycles": "<bpy_struct, CyclesObjectSettings(\"\") at 0x7f18ec095f68>"
+      },
+      "constraints": [],
+      "custom_properties": {
+        "hingeCorrection": "Front/rear leading edge shared by runtime source, matching actual doorway; closed child world geometry preserved",
+        "dimensionStatus": "Authored leading edge, not factory hinge measurement"
+      },
+      "animation_data": null,
+      "children": [
+        "BL_Door_-1_0_fasteners",
+        "BL_Door_-1_0_gap",
+        "BL_Door_-1_0_handle",
+        "BL_Door_-1_0_handle_recess",
+        "BL_Door_-1_0_hinge_1.47",
+        "BL_Door_-1_0_hinge_1.94",
+        "BL_Door_-1_0_hinge_2.38",
+        "BL_Door_-1_0_lock",
+        "BL_Door_-1_0_pressed_shell",
+        "BL_Door_-1_0_rubber_seal",
+        "BL_Door_-1_0_window"
+      ]
+    },
+    {
+      "name": "cab_pivot_003",
+      "type": "EMPTY",
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.9600000381469727
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.4800000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.4700000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.9600000381469727
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          1.4800000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.4700000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "location": [
+        -3.9600000381469727,
+        1.4800000190734863,
+        1.4700000286102295
+      ],
+      "delta_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent_type": "OBJECT",
+      "parent": "cab",
+      "parent_rna": {
+        "name": "cab",
+        "name_full": "cab",
+        "id_type": "OBJECT",
+        "session_uid": 2434,
+        "is_evaluated": false,
+        "original": "cab",
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "data": null,
+        "type": "EMPTY",
+        "mode": "OBJECT",
+        "bound_box": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "parent": "MAZ543_REFERENCE_CHASSIS",
+        "parent_type": "OBJECT",
+        "parent_vertices": [
+          0,
+          0,
+          0
+        ],
+        "parent_bone": "",
+        "use_parent_final_indices": false,
+        "use_camera_lock_parent": false,
+        "track_axis": "POS_Y",
+        "up_axis": "Z",
+        "material_slots": [],
+        "active_material": null,
+        "active_material_index": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "lock_location": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_rotations_4d": true,
+        "lock_scale": [
+          false,
+          false,
+          false
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "modifiers": [],
+        "shader_effects": [],
+        "constraints": [],
+        "vertex_groups": [],
+        "empty_display_type": "PLAIN_AXES",
+        "empty_display_size": 0.0010000000474974513,
+        "empty_image_offset": [
+          -0.5,
+          -0.5
+        ],
+        "image_user": null,
+        "empty_image_depth": "DEFAULT",
+        "show_empty_image_perspective": true,
+        "show_empty_image_orthographic": true,
+        "show_empty_image_only_axis_aligned": false,
+        "use_empty_image_alpha": false,
+        "empty_image_side": "DOUBLE_SIDED",
+        "add_rest_position_attribute": false,
+        "pass_index": 0,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "field": null,
+        "collision": null,
+        "soft_body": null,
+        "particle_systems": [],
+        "rigid_body": null,
+        "rigid_body_constraint": null,
+        "use_simulation_cache": true,
+        "hide_viewport": false,
+        "hide_select": false,
+        "hide_render": false,
+        "hide_probe_volume": false,
+        "hide_probe_sphere": false,
+        "hide_probe_plane": false,
+        "show_instancer_for_render": true,
+        "show_instancer_for_viewport": true,
+        "visible_camera": true,
+        "visible_diffuse": true,
+        "visible_glossy": true,
+        "visible_transmission": true,
+        "visible_volume_scatter": true,
+        "visible_shadow": true,
+        "is_holdout": false,
+        "is_shadow_catcher": false,
+        "instance_type": "NONE",
+        "use_instance_vertices_rotation": false,
+        "use_instance_faces_scale": false,
+        "instance_faces_scale": 1.0,
+        "instance_collection": null,
+        "is_instancer": false,
+        "display_type": "TEXTURED",
+        "show_bounds": false,
+        "display_bounds_type": "BOX",
+        "show_name": false,
+        "show_axis": false,
+        "show_texture_space": false,
+        "show_wire": false,
+        "show_all_edges": false,
+        "use_grease_pencil_lights": false,
+        "show_transparent": false,
+        "show_in_front": false,
+        "pose": null,
+        "show_only_shape_key": false,
+        "use_shape_key_edit_mode": false,
+        "active_shape_key": null,
+        "active_shape_key_index": 0,
+        "use_dynamic_topology_sculpting": false,
+        "is_from_instancer": false,
+        "is_from_set": false,
+        "display": "<bpy_struct, ObjectDisplay at 0x7f1932c51420>",
+        "lineart": "<bpy_struct, ObjectLineArt at 0x7f1932c51880>",
+        "use_mesh_mirror_x": false,
+        "use_mesh_mirror_y": false,
+        "use_mesh_mirror_z": false,
+        "lightgroup": "",
+        "light_linking": "<bpy_struct, ObjectLightLinking at 0x7f1932c51420>",
+        "shadow_terminator_normal_offset": 0.0,
+        "shadow_terminator_geometry_offset": 0.10000000149011612,
+        "shadow_terminator_shading_offset": 0.0,
+        "animation_data": null,
+        "animation_visualization": "<bpy_struct, AnimViz at 0x7f1932c515b8>",
+        "motion_path": null,
+        "selection_sets": [],
+        "active_selection_set": 0,
+        "cycles": "<bpy_struct, CyclesObjectSettings(\"\") at 0x7f18ec095f68>"
+      },
+      "constraints": [],
+      "custom_properties": {
+        "hingeCorrection": "Front/rear leading edge shared by runtime source, matching actual doorway; closed child world geometry preserved",
+        "dimensionStatus": "Authored leading edge, not factory hinge measurement"
+      },
+      "animation_data": null,
+      "children": [
+        "BL_Door_-1_1_fasteners",
+        "BL_Door_-1_1_gap",
+        "BL_Door_-1_1_handle",
+        "BL_Door_-1_1_handle_recess",
+        "BL_Door_-1_1_hinge_1.47",
+        "BL_Door_-1_1_hinge_1.94",
+        "BL_Door_-1_1_hinge_2.38",
+        "BL_Door_-1_1_lock",
+        "BL_Door_-1_1_pressed_shell",
+        "BL_Door_-1_1_rubber_seal",
+        "BL_Door_-1_1_window"
+      ]
+    },
+    {
+      "name": "cab_pivot_006",
+      "type": "EMPTY",
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.909999847412109
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.4800000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.4700000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -4.909999847412109
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.4800000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.4700000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "location": [
+        -4.909999847412109,
+        -1.4800000190734863,
+        1.4700000286102295
+      ],
+      "delta_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent_type": "OBJECT",
+      "parent": "cab",
+      "parent_rna": {
+        "name": "cab",
+        "name_full": "cab",
+        "id_type": "OBJECT",
+        "session_uid": 2434,
+        "is_evaluated": false,
+        "original": "cab",
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "data": null,
+        "type": "EMPTY",
+        "mode": "OBJECT",
+        "bound_box": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "parent": "MAZ543_REFERENCE_CHASSIS",
+        "parent_type": "OBJECT",
+        "parent_vertices": [
+          0,
+          0,
+          0
+        ],
+        "parent_bone": "",
+        "use_parent_final_indices": false,
+        "use_camera_lock_parent": false,
+        "track_axis": "POS_Y",
+        "up_axis": "Z",
+        "material_slots": [],
+        "active_material": null,
+        "active_material_index": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "lock_location": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_rotations_4d": true,
+        "lock_scale": [
+          false,
+          false,
+          false
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "modifiers": [],
+        "shader_effects": [],
+        "constraints": [],
+        "vertex_groups": [],
+        "empty_display_type": "PLAIN_AXES",
+        "empty_display_size": 0.0010000000474974513,
+        "empty_image_offset": [
+          -0.5,
+          -0.5
+        ],
+        "image_user": null,
+        "empty_image_depth": "DEFAULT",
+        "show_empty_image_perspective": true,
+        "show_empty_image_orthographic": true,
+        "show_empty_image_only_axis_aligned": false,
+        "use_empty_image_alpha": false,
+        "empty_image_side": "DOUBLE_SIDED",
+        "add_rest_position_attribute": false,
+        "pass_index": 0,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "field": null,
+        "collision": null,
+        "soft_body": null,
+        "particle_systems": [],
+        "rigid_body": null,
+        "rigid_body_constraint": null,
+        "use_simulation_cache": true,
+        "hide_viewport": false,
+        "hide_select": false,
+        "hide_render": false,
+        "hide_probe_volume": false,
+        "hide_probe_sphere": false,
+        "hide_probe_plane": false,
+        "show_instancer_for_render": true,
+        "show_instancer_for_viewport": true,
+        "visible_camera": true,
+        "visible_diffuse": true,
+        "visible_glossy": true,
+        "visible_transmission": true,
+        "visible_volume_scatter": true,
+        "visible_shadow": true,
+        "is_holdout": false,
+        "is_shadow_catcher": false,
+        "instance_type": "NONE",
+        "use_instance_vertices_rotation": false,
+        "use_instance_faces_scale": false,
+        "instance_faces_scale": 1.0,
+        "instance_collection": null,
+        "is_instancer": false,
+        "display_type": "TEXTURED",
+        "show_bounds": false,
+        "display_bounds_type": "BOX",
+        "show_name": false,
+        "show_axis": false,
+        "show_texture_space": false,
+        "show_wire": false,
+        "show_all_edges": false,
+        "use_grease_pencil_lights": false,
+        "show_transparent": false,
+        "show_in_front": false,
+        "pose": null,
+        "show_only_shape_key": false,
+        "use_shape_key_edit_mode": false,
+        "active_shape_key": null,
+        "active_shape_key_index": 0,
+        "use_dynamic_topology_sculpting": false,
+        "is_from_instancer": false,
+        "is_from_set": false,
+        "display": "<bpy_struct, ObjectDisplay at 0x7f1932c51420>",
+        "lineart": "<bpy_struct, ObjectLineArt at 0x7f1932c51880>",
+        "use_mesh_mirror_x": false,
+        "use_mesh_mirror_y": false,
+        "use_mesh_mirror_z": false,
+        "lightgroup": "",
+        "light_linking": "<bpy_struct, ObjectLightLinking at 0x7f1932c51420>",
+        "shadow_terminator_normal_offset": 0.0,
+        "shadow_terminator_geometry_offset": 0.10000000149011612,
+        "shadow_terminator_shading_offset": 0.0,
+        "animation_data": null,
+        "animation_visualization": "<bpy_struct, AnimViz at 0x7f1932c515b8>",
+        "motion_path": null,
+        "selection_sets": [],
+        "active_selection_set": 0,
+        "cycles": "<bpy_struct, CyclesObjectSettings(\"\") at 0x7f18ec095f68>"
+      },
+      "constraints": [],
+      "custom_properties": {
+        "hingeCorrection": "Front/rear leading edge shared by runtime source, matching actual doorway; closed child world geometry preserved",
+        "dimensionStatus": "Authored leading edge, not factory hinge measurement"
+      },
+      "animation_data": null,
+      "children": [
+        "BL_Door_1_0_fasteners",
+        "BL_Door_1_0_gap",
+        "BL_Door_1_0_handle",
+        "BL_Door_1_0_handle_recess",
+        "BL_Door_1_0_hinge_1.47",
+        "BL_Door_1_0_hinge_1.94",
+        "BL_Door_1_0_hinge_2.38",
+        "BL_Door_1_0_lock",
+        "BL_Door_1_0_pressed_shell",
+        "BL_Door_1_0_rubber_seal",
+        "BL_Door_1_0_window"
+      ]
+    },
+    {
+      "name": "cab_pivot_007",
+      "type": "EMPTY",
+      "matrix_basis": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.9600000381469727
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.4800000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.4700000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -3.9600000381469727
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -1.4800000190734863
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          1.4700000286102295
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "parent_inverse": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotation_mode": "QUATERNION",
+      "rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "location": [
+        -3.9600000381469727,
+        -1.4800000190734863,
+        1.4700000286102295
+      ],
+      "delta_location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_rotation_euler": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_rotation_quaternion": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "parent_type": "OBJECT",
+      "parent": "cab",
+      "parent_rna": {
+        "name": "cab",
+        "name_full": "cab",
+        "id_type": "OBJECT",
+        "session_uid": 2434,
+        "is_evaluated": false,
+        "original": "cab",
+        "users": 1,
+        "use_fake_user": false,
+        "use_extra_user": false,
+        "is_embedded_data": false,
+        "is_missing": false,
+        "is_runtime_data": false,
+        "is_editable": true,
+        "tag": false,
+        "is_library_indirect": false,
+        "library": null,
+        "library_weak_reference": null,
+        "asset_data": null,
+        "override_library": null,
+        "preview": null,
+        "data": null,
+        "type": "EMPTY",
+        "mode": "OBJECT",
+        "bound_box": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "parent": "MAZ543_REFERENCE_CHASSIS",
+        "parent_type": "OBJECT",
+        "parent_vertices": [
+          0,
+          0,
+          0
+        ],
+        "parent_bone": "",
+        "use_parent_final_indices": false,
+        "use_camera_lock_parent": false,
+        "track_axis": "POS_Y",
+        "up_axis": "Z",
+        "material_slots": [],
+        "active_material": null,
+        "active_material_index": 0,
+        "location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_mode": "QUATERNION",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "dimensions": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "lock_location": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation": [
+          false,
+          false,
+          false
+        ],
+        "lock_rotation_w": false,
+        "lock_rotations_4d": true,
+        "lock_scale": [
+          false,
+          false,
+          false
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_local": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "modifiers": [],
+        "shader_effects": [],
+        "constraints": [],
+        "vertex_groups": [],
+        "empty_display_type": "PLAIN_AXES",
+        "empty_display_size": 0.0010000000474974513,
+        "empty_image_offset": [
+          -0.5,
+          -0.5
+        ],
+        "image_user": null,
+        "empty_image_depth": "DEFAULT",
+        "show_empty_image_perspective": true,
+        "show_empty_image_orthographic": true,
+        "show_empty_image_only_axis_aligned": false,
+        "use_empty_image_alpha": false,
+        "empty_image_side": "DOUBLE_SIDED",
+        "add_rest_position_attribute": false,
+        "pass_index": 0,
+        "color": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "field": null,
+        "collision": null,
+        "soft_body": null,
+        "particle_systems": [],
+        "rigid_body": null,
+        "rigid_body_constraint": null,
+        "use_simulation_cache": true,
+        "hide_viewport": false,
+        "hide_select": false,
+        "hide_render": false,
+        "hide_probe_volume": false,
+        "hide_probe_sphere": false,
+        "hide_probe_plane": false,
+        "show_instancer_for_render": true,
+        "show_instancer_for_viewport": true,
+        "visible_camera": true,
+        "visible_diffuse": true,
+        "visible_glossy": true,
+        "visible_transmission": true,
+        "visible_volume_scatter": true,
+        "visible_shadow": true,
+        "is_holdout": false,
+        "is_shadow_catcher": false,
+        "instance_type": "NONE",
+        "use_instance_vertices_rotation": false,
+        "use_instance_faces_scale": false,
+        "instance_faces_scale": 1.0,
+        "instance_collection": null,
+        "is_instancer": false,
+        "display_type": "TEXTURED",
+        "show_bounds": false,
+        "display_bounds_type": "BOX",
+        "show_name": false,
+        "show_axis": false,
+        "show_texture_space": false,
+        "show_wire": false,
+        "show_all_edges": false,
+        "use_grease_pencil_lights": false,
+        "show_transparent": false,
+        "show_in_front": false,
+        "pose": null,
+        "show_only_shape_key": false,
+        "use_shape_key_edit_mode": false,
+        "active_shape_key": null,
+        "active_shape_key_index": 0,
+        "use_dynamic_topology_sculpting": false,
+        "is_from_instancer": false,
+        "is_from_set": false,
+        "display": "<bpy_struct, ObjectDisplay at 0x7f1932c51420>",
+        "lineart": "<bpy_struct, ObjectLineArt at 0x7f1932c51880>",
+        "use_mesh_mirror_x": false,
+        "use_mesh_mirror_y": false,
+        "use_mesh_mirror_z": false,
+        "lightgroup": "",
+        "light_linking": "<bpy_struct, ObjectLightLinking at 0x7f1932c51420>",
+        "shadow_terminator_normal_offset": 0.0,
+        "shadow_terminator_geometry_offset": 0.10000000149011612,
+        "shadow_terminator_shading_offset": 0.0,
+        "animation_data": null,
+        "animation_visualization": "<bpy_struct, AnimViz at 0x7f1932c515b8>",
+        "motion_path": null,
+        "selection_sets": [],
+        "active_selection_set": 0,
+        "cycles": "<bpy_struct, CyclesObjectSettings(\"\") at 0x7f18ec095f68>"
+      },
+      "constraints": [],
+      "custom_properties": {
+        "hingeCorrection": "Front/rear leading edge shared by runtime source, matching actual doorway; closed child world geometry preserved",
+        "dimensionStatus": "Authored leading edge, not factory hinge measurement"
+      },
+      "animation_data": null,
+      "children": [
+        "BL_Door_1_1_fasteners",
+        "BL_Door_1_1_gap",
+        "BL_Door_1_1_handle",
+        "BL_Door_1_1_handle_recess",
+        "BL_Door_1_1_hinge_1.47",
+        "BL_Door_1_1_hinge_1.94",
+        "BL_Door_1_1_hinge_2.38",
+        "BL_Door_1_1_lock",
+        "BL_Door_1_1_pressed_shell",
+        "BL_Door_1_1_rubber_seal",
+        "BL_Door_1_1_window"
+      ]
+    }
+  ]
+}

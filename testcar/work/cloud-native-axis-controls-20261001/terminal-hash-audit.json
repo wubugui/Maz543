@@ -1,0 +1,48 @@
+{
+  "status": "ALL_FINAL_INPUT_SOURCE_SCRIPT_CANDIDATE_HASHES_CONSISTENT",
+  "checked_utc": "2026-10-01T22:49:57.526673+00:00",
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "candidate_sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+  "candidate_bytes": 67937160,
+  "native_replay_script_sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9",
+  "inputs": [
+    {
+      "key": "axis",
+      "testcar_relative_path": "work/cloud-door-barrel-axis-20261001/axis-report.json",
+      "bytes": 42922,
+      "sha256": "523f0a0936a30042411db574a9a507b505bd0b5b85770d39f6618095895dcd27",
+      "script_and_both_terminal_reports_match": true
+    },
+    {
+      "key": "trial",
+      "testcar_relative_path": "work/cloud-door-barrel-motion-trial-20261001/trial-report.json",
+      "bytes": 22957,
+      "sha256": "ce03060e60a7cb0749c18452bb623311383a896b6923ec5941724d3387bc4dd9",
+      "script_and_both_terminal_reports_match": true
+    },
+    {
+      "key": "scope",
+      "testcar_relative_path": "work/cloud-cab-door-dependencies-20261001/inventory.json",
+      "bytes": 243901,
+      "sha256": "40e771f244ef6a49f90699f3e60c0e01c6a7885baaea77852fac7d75c891a570",
+      "script_and_both_terminal_reports_match": true
+    }
+  ],
+  "processes": [
+    {
+      "tag": "build-final",
+      "exit_code": 0,
+      "start_end_source_script_and_frozen_copy_match": true,
+      "log_sha_matches": true
+    },
+    {
+      "tag": "verify-fresh",
+      "exit_code": 0,
+      "start_end_source_script_and_frozen_copy_match": true,
+      "log_sha_matches": true
+    }
+  ],
+  "original_report_manifest_references_unchanged": true,
+  "native_blender_rerun": false,
+  "native_candidate_resaved": false
+}

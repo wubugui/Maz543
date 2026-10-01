@@ -1,0 +1,8 @@
+{
+  "status": "FAILED_NOT_ACCEPTED",
+  "mode": "trial",
+  "asset_status": "LOCAL_ONLY_LFS_BLOCKED",
+  "source_saved": false,
+  "error": "Unsupported shape keys on COOL_release_spring_0_round_wire",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py\", line 342, in run\n    specs=measure_axes(data['axis'],data['trial'],data['scope']);base=baseline(data['scope'])\n                                                                      ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py\", line 269, in baseline\n    'meshes':{m.name:mesh_signature(m) for m in bpy.data.meshes},\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py\", line 269, in <dictcomp>\n    'meshes':{m.name:mesh_signature(m) for m in bpy.data.meshes},\n                     ^^^^^^^^^^^^^^^^^\n  File \"/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py\", line 86, in mesh_signature\n    require(m.shape_keys is None,'Unsupported shape keys on '+m.name)\n  File \"/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py\", line 28, in require\n    if not test:raise ValueError(message)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Unsupported shape keys on COOL_release_spring_0_round_wire\n"
+}

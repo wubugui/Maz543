@@ -1,0 +1,38 @@
+{
+  "status": "PARENT_TEXT_AND_TERMINAL_IDENTITY_READBACK_PASS",
+  "native_rerun": false,
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "candidate_sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+  "candidate_bytes": 67937160,
+  "candidate_publication_status": "LOCAL_ONLY_LFS_BLOCKED",
+  "script_sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9",
+  "signature_manifest_restore": [
+    {
+      "file": "build-initial_identity-mesh-signatures.json",
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+      "matches_actual_native_original": true
+    },
+    {
+      "file": "build-final_identity-mesh-signatures.json",
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+      "matches_actual_native_original": true
+    },
+    {
+      "file": "verify-initial_identity-mesh-signatures.json",
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+      "matches_actual_native_original": true
+    },
+    {
+      "file": "verify-final_identity-mesh-signatures.json",
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+      "matches_actual_native_original": true
+    }
+  ],
+  "evaluated_closed_equality_limit": "Native code uses numpy.array_equal, not an independent bytewise/signed-zero check; stored authored mesh fields are byte-hashed",
+  "six_original_contacts": "OPEN",
+  "vehicle_gates": "16 OPEN"
+}

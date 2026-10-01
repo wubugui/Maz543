@@ -1,0 +1,20 @@
+[
+  {
+    "process": "build-final",
+    "snapshot_file": "build-final-executed-script.py",
+    "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9",
+    "snapshot_created_utc": "2026-10-01T22:37:53.027585+00:00",
+    "launch_script_hash_matches": true,
+    "exit_script_hash_matches": true,
+    "note": "Snapshot copied from unchanged executing file after launch; exact bytes match independently recorded prelaunch hash. Not a claim that the copy existed before launch."
+  },
+  {
+    "process": "verify-fresh",
+    "snapshot_file": "verify-fresh-executed-script.py",
+    "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9",
+    "snapshot_created_utc": "2026-10-01T22:37:53.027684+00:00",
+    "launch_script_hash_matches": true,
+    "exit_script_hash_matches": true,
+    "note": "Snapshot copied from unchanged executing file after launch; exact bytes match independently recorded prelaunch hash. Not a claim that the copy existed before launch."
+  }
+]

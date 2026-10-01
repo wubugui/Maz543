@@ -1,0 +1,33 @@
+{
+  "status": "EXITED",
+  "command": [
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "1",
+    "--python-exit-code",
+    "17",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py",
+    "--",
+    "--testcar-root",
+    "/workspace/scratch/a29d03198654/Maz543/testcar",
+    "--out",
+    "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001",
+    "--mode",
+    "trial"
+  ],
+  "script_sha256_before": "49da159eea7a22f61c3413c176d90ddca063a9d97b4bbf8f4596cdc446c24e3c",
+  "blender_binary_sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe",
+  "deadline_seconds": 240,
+  "started_utc": "2026-10-01T22:27:54.760623+00:00",
+  "not_isolated_performance": true,
+  "exit_code": 17,
+  "elapsed_seconds": 24.79832144700049,
+  "max_rss_kib": 1922520,
+  "script_sha256_after": "49da159eea7a22f61c3413c176d90ddca063a9d97b4bbf8f4596cdc446c24e3c",
+  "log_sha256": "9507c028a87b9f04891a11c58d176c5525f34ade75ece1f570ca8fff09e5cd7c",
+  "ended_utc": "2026-10-01T22:28:19.559503+00:00"
+}

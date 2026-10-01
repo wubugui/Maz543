@@ -1,0 +1,159 @@
+{
+  "status": "LOSSLESS_METADATA_PACK_AND_ACTUAL_RESTORE_PASS",
+  "time_utc": "2026-10-01T22:48:25.781923+00:00",
+  "no_blender_execution": true,
+  "no_native_save": true,
+  "no_model_asset_encoding": true,
+  "before": {
+    "source": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+    "candidate": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+    "replay_script": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9",
+    "pack_script": "c8badc8896263e6fa7438ca3f266361196d6497e9b3023c7fb5648a3128bbdc1",
+    "original_manifests": {
+      "build-initial_identity-mesh-signatures.json": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+      "build-final_identity-mesh-signatures.json": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+      "verify-initial_identity-mesh-signatures.json": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+      "verify-final_identity-mesh-signatures.json": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d"
+    }
+  },
+  "after": {
+    "source": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+    "candidate": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+    "replay_script": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9",
+    "pack_script": "c8badc8896263e6fa7438ca3f266361196d6497e9b3023c7fb5648a3128bbdc1",
+    "original_manifests": {
+      "build-initial_identity-mesh-signatures.json": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+      "build-final_identity-mesh-signatures.json": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+      "verify-initial_identity-mesh-signatures.json": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+      "verify-final_identity-mesh-signatures.json": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d"
+    }
+  },
+  "processes": [
+    {
+      "action": "pack",
+      "command": [
+        "python",
+        "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/pack-mesh-signatures.py",
+        "pack",
+        "--out",
+        "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/signature-pack",
+        "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/build-initial_identity-mesh-signatures.json",
+        "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/build-final_identity-mesh-signatures.json",
+        "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/verify-initial_identity-mesh-signatures.json",
+        "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/verify-final_identity-mesh-signatures.json"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.09494371400069213,
+      "log_sha256": "0d4ef57ac6442048af0e97b02936ae2f09c97465b9de96c2b90f22328a13c811"
+    },
+    {
+      "action": "restore",
+      "command": [
+        "python",
+        "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/pack-mesh-signatures.py",
+        "restore",
+        "--index",
+        "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/signature-pack/index.json",
+        "--out",
+        "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/signature-restore-readback"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.0857059370027855,
+      "log_sha256": "a7edb647bf2926ec3f414d992beac5343be0e15e426e2841f572d1ed7b35146d"
+    }
+  ],
+  "roundtrip": [
+    {
+      "original": "build-initial_identity-mesh-signatures.json",
+      "restored_relative_path": "signature-restore-readback/build-initial_identity-mesh-signatures.json",
+      "byte_equal": true,
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d"
+    },
+    {
+      "original": "build-final_identity-mesh-signatures.json",
+      "restored_relative_path": "signature-restore-readback/build-final_identity-mesh-signatures.json",
+      "byte_equal": true,
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d"
+    },
+    {
+      "original": "verify-initial_identity-mesh-signatures.json",
+      "restored_relative_path": "signature-restore-readback/verify-initial_identity-mesh-signatures.json",
+      "byte_equal": true,
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d"
+    },
+    {
+      "original": "verify-final_identity-mesh-signatures.json",
+      "restored_relative_path": "signature-restore-readback/verify-final_identity-mesh-signatures.json",
+      "byte_equal": true,
+      "bytes": 1664080,
+      "sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d"
+    }
+  ],
+  "pack_files": [
+    {
+      "path": "signature-pack/field-schemas.json",
+      "bytes": 27036,
+      "sha256": "c7118b26994b4691ecc4d0c13c98313a9fc91343c8837004030060712e7fa19d"
+    },
+    {
+      "path": "signature-pack/index.json",
+      "bytes": 3520,
+      "sha256": "0f3974a028392e4838add6f4a89ea7979f8fafc1fa6f83489bb03b55dcf01947"
+    },
+    {
+      "path": "signature-pack/mesh-signatures-000.json",
+      "bytes": 95570,
+      "sha256": "5bd8e40e98afa0869a3b1b69557db88be5d8104635c7340bba95d21bd97e0086"
+    },
+    {
+      "path": "signature-pack/mesh-signatures-001.json",
+      "bytes": 96515,
+      "sha256": "1d46a5a310cddd52eb14ebdd69cfcd1b1f34743d64ac3372177bdfe35db926cd"
+    },
+    {
+      "path": "signature-pack/mesh-signatures-002.json",
+      "bytes": 92631,
+      "sha256": "244a9edc559e973cf1372bc4d951007a96cf9687438eeca291b62dbd41f65d07"
+    },
+    {
+      "path": "signature-pack/mesh-signatures-003.json",
+      "bytes": 95233,
+      "sha256": "0d10f997e296edf6b3a3c1be25a08286f80fef1a02d74eb4852c349f766f2bb6"
+    },
+    {
+      "path": "signature-pack/mesh-signatures-004.json",
+      "bytes": 96644,
+      "sha256": "2f761399fb14c687ad33a4bfdfb34dd047011c782cbf43b8e9a588a6a6406469"
+    },
+    {
+      "path": "signature-pack/mesh-signatures-005.json",
+      "bytes": 96106,
+      "sha256": "f2cc1c0447babe162f8836e9884028d04ce40da0bb2ce45cbeda8813fd06c780"
+    },
+    {
+      "path": "signature-pack/mesh-signatures-006.json",
+      "bytes": 98648,
+      "sha256": "4d36204046af52ae790f62a9a534460bd35ab8b69c037b2624cb0ba0088fc7dc"
+    },
+    {
+      "path": "signature-pack/mesh-signatures-007.json",
+      "bytes": 95943,
+      "sha256": "fc03059c6e9f7a98ea3a9165ad4665daf3015982a6becf3f37d7bbd9e0e609d9"
+    },
+    {
+      "path": "signature-pack/mesh-signatures-008.json",
+      "bytes": 97504,
+      "sha256": "d93749eade4336b7be1a9682dd24d3f9d4743cfe610f963e4ffd97d60001bf09"
+    },
+    {
+      "path": "signature-pack/mesh-signatures-009.json",
+      "bytes": 32125,
+      "sha256": "8511fadb8c3216bf4d964ae5fbe1fabeeab0a59a445dc2d477b46429fed4be02"
+    }
+  ],
+  "largest_pack_file_bytes": 98648,
+  "total_pack_bytes": 927475
+}

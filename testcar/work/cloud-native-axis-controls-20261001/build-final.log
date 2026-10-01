@@ -1,0 +1,54 @@
+POSE individual [0.0, 0.0, 0.0, 0.0] max_error_m 0.0 max_barrel_drift_m 0.0
+POSE individual [0.731, 0.0, 0.0, 0.0] max_error_m 3.8299728254384043e-07 max_barrel_drift_m 3.8243807344819523e-07
+POSE individual [15.0, 0.0, 0.0, 0.0] max_error_m 1.4625361700052013e-07 max_barrel_drift_m 1.4597239763165371e-07
+POSE individual [37.125, 0.0, 0.0, 0.0] max_error_m 9.279717114035903e-08 max_barrel_drift_m 9.888054907020659e-08
+POSE individual [45.0, 0.0, 0.0, 0.0] max_error_m 3.1075302763986036e-07 max_barrel_drift_m 3.399136980263268e-07
+POSE individual [75.0, 0.0, 0.0, 0.0] max_error_m 2.8034882263698737e-07 max_barrel_drift_m 3.010600304231551e-07
+POSE individual [83.61, 0.0, 0.0, 0.0] max_error_m 1.7916156772090926e-07 max_barrel_drift_m 1.4998239903456682e-07
+POSE individual [99.0, 0.0, 0.0, 0.0] max_error_m 2.435888718790716e-07 max_barrel_drift_m 2.3524949587832148e-07
+POSE individual [0.0, 0.0, 0.0, 0.0] max_error_m 0.0 max_barrel_drift_m 0.0
+POSE individual [0.0, 0.731, 0.0, 0.0] max_error_m 7.513581651237368e-08 max_barrel_drift_m 5.070369686994704e-08
+POSE individual [0.0, 15.0, 0.0, 0.0] max_error_m 1.6841761482544015e-08 max_barrel_drift_m 4.214530555660296e-09
+POSE individual [0.0, 37.125, 0.0, 0.0] max_error_m 4.345854706484949e-08 max_barrel_drift_m 4.04654668108223e-08
+POSE individual [0.0, 45.0, 0.0, 0.0] max_error_m 2.104542699751023e-07 max_barrel_drift_m 2.2600129963713973e-07
+POSE individual [0.0, 75.0, 0.0, 0.0] max_error_m 1.3005804010810186e-07 max_barrel_drift_m 1.3874885537386838e-07
+POSE individual [0.0, 83.61, 0.0, 0.0] max_error_m 3.307318567492465e-07 max_barrel_drift_m 3.593673598098163e-07
+POSE individual [0.0, 99.0, 0.0, 0.0] max_error_m 2.6236137559975845e-07 max_barrel_drift_m 2.2635546364186227e-07
+POSE individual [0.0, 0.0, 0.0, 0.0] max_error_m 0.0 max_barrel_drift_m 0.0
+POSE individual [0.0, 0.0, 0.731, 0.0] max_error_m 3.8299728254384043e-07 max_barrel_drift_m 3.8243807165730246e-07
+POSE individual [0.0, 0.0, 15.0, 0.0] max_error_m 1.4625361700052013e-07 max_barrel_drift_m 1.459723993844715e-07
+POSE individual [0.0, 0.0, 37.125, 0.0] max_error_m 9.279717114035903e-08 max_barrel_drift_m 9.888055016832402e-08
+POSE individual [0.0, 0.0, 45.0, 0.0] max_error_m 3.1075302763986036e-07 max_barrel_drift_m 3.399136971974034e-07
+POSE individual [0.0, 0.0, 75.0, 0.0] max_error_m 2.8034882263698737e-07 max_barrel_drift_m 3.010600340779132e-07
+POSE individual [0.0, 0.0, 83.61, 0.0] max_error_m 1.7916156772090926e-07 max_barrel_drift_m 1.499823981500685e-07
+POSE individual [0.0, 0.0, 99.0, 0.0] max_error_m 2.435888718790716e-07 max_barrel_drift_m 2.352494963062775e-07
+POSE individual [0.0, 0.0, 0.0, 0.0] max_error_m 0.0 max_barrel_drift_m 0.0
+POSE individual [0.0, 0.0, 0.0, 0.731] max_error_m 7.513581651237368e-08 max_barrel_drift_m 5.07036982199455e-08
+POSE individual [0.0, 0.0, 0.0, 15.0] max_error_m 1.6841761482544015e-08 max_barrel_drift_m 4.214529905687846e-09
+POSE individual [0.0, 0.0, 0.0, 37.125] max_error_m 4.345854706484949e-08 max_barrel_drift_m 4.0465465718360435e-08
+POSE individual [0.0, 0.0, 0.0, 45.0] max_error_m 2.104542699751023e-07 max_barrel_drift_m 2.2600130018047762e-07
+POSE individual [0.0, 0.0, 0.0, 75.0] max_error_m 1.3005804010810186e-07 max_barrel_drift_m 1.387488563813299e-07
+POSE individual [0.0, 0.0, 0.0, 83.61] max_error_m 3.307318567492465e-07 max_barrel_drift_m 3.593673605608736e-07
+POSE individual [0.0, 0.0, 0.0, 99.0] max_error_m 2.6236137559975845e-07 max_barrel_drift_m 2.263554652583673e-07
+POSE simultaneous [15.0, 45.0, 75.0, 99.0] max_error_m 2.8034882263698737e-07 max_barrel_drift_m 3.010600340779132e-07
+POSE simultaneous [99.0, 99.0, 99.0, 99.0] max_error_m 2.6236137559975845e-07 max_barrel_drift_m 2.352494963062775e-07
+POSE simultaneous [0.731, 37.125, 83.61, 14.37] max_error_m 3.8299728254384043e-07 max_barrel_drift_m 3.8243807344819523e-07
+POSE simultaneous [99.0, 0.0, 45.0, 0.0] max_error_m 3.1075302763986036e-07 max_barrel_drift_m 3.399136971974034e-07
+POSE simultaneous [0.0, 99.0, 0.0, 45.0] max_error_m 2.6236137559975845e-07 max_barrel_drift_m 2.2635546364186227e-07
+POSE simultaneous [0.0, 0.0, 0.0, 0.0] max_error_m 0.0 max_barrel_drift_m 0.0
+POSE repeat-open-0 [99.0, 99.0, 99.0, 99.0] max_error_m 2.6236137559975845e-07 max_barrel_drift_m 2.352494963062775e-07
+POSE repeat-close-0 [0.0, 0.0, 0.0, 0.0] max_error_m 0.0 max_barrel_drift_m 0.0
+POSE repeat-open-1 [99.0, 99.0, 99.0, 99.0] max_error_m 2.6236137559975845e-07 max_barrel_drift_m 2.352494963062775e-07
+POSE repeat-close-1 [0.0, 0.0, 0.0, 0.0] max_error_m 0.0 max_barrel_drift_m 0.0
+POSE repeat-open-2 [99.0, 99.0, 99.0, 99.0] max_error_m 2.6236137559975845e-07 max_barrel_drift_m 2.352494963062775e-07
+POSE repeat-close-2 [0.0, 0.0, 0.0, 0.0] max_error_m 0.0 max_barrel_drift_m 0.0
+ERROR (bke.fcurve): source/blender/blenkernel/intern/fcurve_driver.cc:1167 driver_evaluate_simple_expr: Math Domain Error in Driver: '(-4.909999847412109+0.017999867598216035*(1-cos((1*a*0.017453292519943295)))+0.06799999872843432*sin((1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)'
+ERROR (bke.fcurve): source/blender/blenkernel/intern/fcurve_driver.cc:1167 driver_evaluate_simple_expr: Math Domain Error in Driver: '(1.4800000190734863+0.06799999872843432*(1-cos((1*a*0.017453292519943295)))-0.017999867598216035*sin((1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)'
+ERROR (bke.fcurve): source/blender/blenkernel/intern/fcurve_driver.cc:1167 driver_evaluate_simple_expr: Math Domain Error in Driver: '(cos((1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)'
+ERROR (bke.fcurve): source/blender/blenkernel/intern/fcurve_driver.cc:1167 driver_evaluate_simple_expr: Math Domain Error in Driver: '(sin((1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)'
+Info: Saved as "MAZ543A_Native_Barrel_Axis_Controls.blend"
+RESULT SAVED_AWAITING_FRESH_REOPEN source_unchanged 8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70 saved True
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend"
+
+Blender quit

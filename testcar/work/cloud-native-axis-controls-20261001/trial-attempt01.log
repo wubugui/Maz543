@@ -1,0 +1,25 @@
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py", line 372, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--testcar-root',required=True);p.add_argument('--out',required=True);p.add_argument('--mode',choices=['trial','build','verify'],default='trial');p.add_argument('--candidate');run(p.parse_args(sys.argv[sys.argv.index('--')+1:] if '--' in sys.argv else []))
+                                                                                                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py", line 342, in run
+    specs=measure_axes(data['axis'],data['trial'],data['scope']);base=baseline(data['scope'])
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py", line 269, in baseline
+    'meshes':{m.name:mesh_signature(m) for m in bpy.data.meshes},
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py", line 269, in <dictcomp>
+    'meshes':{m.name:mesh_signature(m) for m in bpy.data.meshes},
+                     ^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py", line 86, in mesh_signature
+    require(m.shape_keys is None,'Unsupported shape keys on '+m.name)
+  File "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py", line 28, in require
+    if not test:raise ValueError(message)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Unsupported shape keys on COOL_release_spring_0_round_wire
+
+Error: script failed, file: '/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/native-door-axis-controls.py', exiting.
+
+Blender quit

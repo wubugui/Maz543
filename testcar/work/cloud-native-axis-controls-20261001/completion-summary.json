@@ -1,0 +1,77 @@
+{
+  "status": "LOCAL_NATIVE_CONTROL_PASS_LFS_BLOCKED",
+  "finished_utc": "2026-10-01T22:41:09.870629+00:00",
+  "asset_status": "LOCAL_ONLY_LFS_BLOCKED",
+  "native_asset_published": false,
+  "source_saved": false,
+  "source_path": "testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend",
+  "source_bytes": 66069335,
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "script_file": "native-door-axis-controls.py",
+  "script_sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9",
+  "candidate_path": "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend",
+  "candidate_bytes": 67937160,
+  "candidate_sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+  "saved_candidate_count": 1,
+  "source_sha256_after_save": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "fresh_reopen_disable_autoexec_pass": true,
+  "fresh_positive_motion_before_driver_mutation": true,
+  "fresh_driver_mutation_performed": false,
+  "finite_sampled_states_per_run": 44,
+  "actual_evaluated_part_checks_per_run": 1936,
+  "barrel_center_checks_per_run": 528,
+  "closed_exact_part_checks_per_run": 1320,
+  "unchanged_unrelated_transform_checks_per_run": 456984,
+  "maximum_vertex_formula_error_m": 3.8299728254384043e-07,
+  "maximum_barrel_center_drift_m": 3.8243807344819523e-07,
+  "unchanged_threshold_m": 2e-05,
+  "max_actual_angle_error_deg": 9.659345508339356e-06,
+  "original_object_count": 10434,
+  "original_mesh_count": 7470,
+  "closed_exact_part_count": 44,
+  "simple_native_driver_count": 16,
+  "build_process": {
+    "exit_code": 0,
+    "elapsed_seconds": 175.45559501900425,
+    "max_rss_kib": 2205040
+  },
+  "fresh_verify_process": {
+    "exit_code": 0,
+    "elapsed_seconds": 187.63129616100196,
+    "max_rss_kib": 2581024
+  },
+  "not_isolated_performance": true,
+  "six_original_closed_contacts": "OPEN, not retested as new clearance; closed original geometry exact",
+  "whole_vehicle_gates": "16 OPEN",
+  "no_claims": [
+    "factory axis/mechanism",
+    "continuous clearance",
+    "scene animation",
+    "physics",
+    "rendering",
+    "browser acceptance",
+    "LFS delivery",
+    "production promotion"
+  ],
+  "failed_attempts": [
+    {
+      "tag": "trial-attempt01",
+      "exit_code": 17,
+      "failure": "Original unrelated spring shape keys unsupported by initial preservation signature; stopped before controls installed or candidate saved",
+      "retained_files": [
+        "trial-attempt01-script.py",
+        "trial-attempt01-report.json",
+        "trial-attempt01.log",
+        "trial-attempt01-process.json"
+      ],
+      "resolution": "Explicit full original shape-key coordinate/settings/animation signatures added without deleting keys or changing numerical thresholds",
+      "source_hash_was_enforced_at_script_start": true,
+      "separate_after_process_source_hash_was_not_recorded_in_this_early_launcher": true
+    }
+  ],
+  "notes": [
+    "Four expected native Math Domain Error log lines in build are deliberate raw100-degree rejection tests; all drivers restored valid before save",
+    "Fresh verify log has no ERROR lines and never rewrites driver expressions/targets",
+    "First successful provisional trial is retained locally; final build/fresh reports are authoritative"
+  ]
+}

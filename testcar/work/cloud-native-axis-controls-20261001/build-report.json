@@ -1,0 +1,6500 @@
+{
+  "status": "SAVED_AWAITING_FRESH_REOPEN",
+  "mode": "build",
+  "asset_status": "LOCAL_ONLY_LFS_BLOCKED",
+  "source_saved": false,
+  "blender_version": "4.5.13 LTS",
+  "script_sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9",
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "input_sha256": {
+    "axis": "523f0a0936a30042411db574a9a507b505bd0b5b85770d39f6618095895dcd27",
+    "trial": "ce03060e60a7cb0749c18452bb623311383a896b6923ec5941724d3387bc4dd9",
+    "scope": "40e771f244ef6a49f90699f3e60c0e01c6a7885baaea77852fac7d75c891a570"
+  },
+  "specifications": [
+    {
+      "hinge": "cab_pivot_002",
+      "source_side": -1,
+      "angle_sign": 1,
+      "parts": [
+        "BL_Door_-1_0_fasteners",
+        "BL_Door_-1_0_gap",
+        "BL_Door_-1_0_handle",
+        "BL_Door_-1_0_handle_recess",
+        "BL_Door_-1_0_hinge_1.47",
+        "BL_Door_-1_0_hinge_1.94",
+        "BL_Door_-1_0_hinge_2.38",
+        "BL_Door_-1_0_lock",
+        "BL_Door_-1_0_pressed_shell",
+        "BL_Door_-1_0_rubber_seal",
+        "BL_Door_-1_0_window"
+      ],
+      "barrels": [
+        "BL_Door_-1_0_hinge_1.47",
+        "BL_Door_-1_0_hinge_1.94",
+        "BL_Door_-1_0_hinge_2.38"
+      ],
+      "axis_local": [
+        0.017999867598216035,
+        0.06799999872843432,
+        0.0
+      ],
+      "original_authored": {
+        "location": [
+          -4.909999847412109,
+          1.4800000190734863,
+          1.4700000286102295
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.909999847412109
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.909999847412109
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "original_custom": {
+        "hingeCorrection": "Front/rear leading edge shared by runtime source, matching actual doorway; closed child world geometry preserved",
+        "dimensionStatus": "Authored leading edge, not factory hinge measurement"
+      },
+      "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+      "scope": "FITTED_NATIVE_AXIS_CONTROLS_ONLY",
+      "range_deg": [
+        0,
+        99
+      ]
+    },
+    {
+      "hinge": "cab_pivot_003",
+      "source_side": -1,
+      "angle_sign": 1,
+      "parts": [
+        "BL_Door_-1_1_fasteners",
+        "BL_Door_-1_1_gap",
+        "BL_Door_-1_1_handle",
+        "BL_Door_-1_1_handle_recess",
+        "BL_Door_-1_1_hinge_1.47",
+        "BL_Door_-1_1_hinge_1.94",
+        "BL_Door_-1_1_hinge_2.38",
+        "BL_Door_-1_1_lock",
+        "BL_Door_-1_1_pressed_shell",
+        "BL_Door_-1_1_rubber_seal",
+        "BL_Door_-1_1_window"
+      ],
+      "barrels": [
+        "BL_Door_-1_1_hinge_1.47",
+        "BL_Door_-1_1_hinge_1.94",
+        "BL_Door_-1_1_hinge_2.38"
+      ],
+      "axis_local": [
+        0.018000036478042603,
+        0.06799999872843432,
+        0.0
+      ],
+      "original_authored": {
+        "location": [
+          -3.9600000381469727,
+          1.4800000190734863,
+          1.4700000286102295
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -3.9600000381469727
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -3.9600000381469727
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "original_custom": {
+        "hingeCorrection": "Front/rear leading edge shared by runtime source, matching actual doorway; closed child world geometry preserved",
+        "dimensionStatus": "Authored leading edge, not factory hinge measurement"
+      },
+      "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+      "scope": "FITTED_NATIVE_AXIS_CONTROLS_ONLY",
+      "range_deg": [
+        0,
+        99
+      ]
+    },
+    {
+      "hinge": "cab_pivot_006",
+      "source_side": 1,
+      "angle_sign": -1,
+      "parts": [
+        "BL_Door_1_0_fasteners",
+        "BL_Door_1_0_gap",
+        "BL_Door_1_0_handle",
+        "BL_Door_1_0_handle_recess",
+        "BL_Door_1_0_hinge_1.47",
+        "BL_Door_1_0_hinge_1.94",
+        "BL_Door_1_0_hinge_2.38",
+        "BL_Door_1_0_lock",
+        "BL_Door_1_0_pressed_shell",
+        "BL_Door_1_0_rubber_seal",
+        "BL_Door_1_0_window"
+      ],
+      "barrels": [
+        "BL_Door_1_0_hinge_1.47",
+        "BL_Door_1_0_hinge_1.94",
+        "BL_Door_1_0_hinge_2.38"
+      ],
+      "axis_local": [
+        0.017999867598216035,
+        -0.06799999872843432,
+        0.0
+      ],
+      "original_authored": {
+        "location": [
+          -4.909999847412109,
+          -1.4800000190734863,
+          1.4700000286102295
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.909999847412109
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.909999847412109
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "original_custom": {
+        "hingeCorrection": "Front/rear leading edge shared by runtime source, matching actual doorway; closed child world geometry preserved",
+        "dimensionStatus": "Authored leading edge, not factory hinge measurement"
+      },
+      "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+      "scope": "FITTED_NATIVE_AXIS_CONTROLS_ONLY",
+      "range_deg": [
+        0,
+        99
+      ]
+    },
+    {
+      "hinge": "cab_pivot_007",
+      "source_side": 1,
+      "angle_sign": -1,
+      "parts": [
+        "BL_Door_1_1_fasteners",
+        "BL_Door_1_1_gap",
+        "BL_Door_1_1_handle",
+        "BL_Door_1_1_handle_recess",
+        "BL_Door_1_1_hinge_1.47",
+        "BL_Door_1_1_hinge_1.94",
+        "BL_Door_1_1_hinge_2.38",
+        "BL_Door_1_1_lock",
+        "BL_Door_1_1_pressed_shell",
+        "BL_Door_1_1_rubber_seal",
+        "BL_Door_1_1_window"
+      ],
+      "barrels": [
+        "BL_Door_1_1_hinge_1.47",
+        "BL_Door_1_1_hinge_1.94",
+        "BL_Door_1_1_hinge_2.38"
+      ],
+      "axis_local": [
+        0.018000036478042603,
+        -0.06799999872843432,
+        0.0
+      ],
+      "original_authored": {
+        "location": [
+          -3.9600000381469727,
+          -1.4800000190734863,
+          1.4700000286102295
+        ],
+        "rotation_mode": "QUATERNION",
+        "rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation_axis_angle": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_euler": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rotation_quaternion": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "matrix_basis": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -3.9600000381469727
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -3.9600000381469727
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "original_custom": {
+        "hingeCorrection": "Front/rear leading edge shared by runtime source, matching actual doorway; closed child world geometry preserved",
+        "dimensionStatus": "Authored leading edge, not factory hinge measurement"
+      },
+      "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+      "scope": "FITTED_NATIVE_AXIS_CONTROLS_ONLY",
+      "range_deg": [
+        0,
+        99
+      ]
+    }
+  ],
+  "preflight_negative_tests": [
+    {
+      "test": "nonidentity actual rest quaternion",
+      "rejected": true,
+      "reason": "Nonidentity rest rotation"
+    }
+  ],
+  "driver_topology": "16 simple expressions: per hinge location[0,1], quaternion[0,3], each SINGLE_PROP from same undriven open_angle_deg; no transform/context/frame variable; zero FCurve modifiers",
+  "autoexec_enabled": false,
+  "native_axis_formula": "original_basis @ Translation(p - Rz(angle)*p) @ Rz(angle); original identity rest quaternion verified, never assumed",
+  "factory_axis_claim": false,
+  "whole_vehicle_gates": "16 OPEN",
+  "closed_contact_gates": "6 original closed contacts remain OPEN",
+  "limits": [
+    "Fitted existing simplified barrel axes, no manufacturer hinge mechanism or dimension claim",
+    "No head-attachment repair, new geometry, reparenting, origin changes, hiding or body movement",
+    "Finite pose samples only; no continuous clearance, physics, scene animation, rendering or browser acceptance",
+    "No LFS/Git/upload/production promotion; saved native asset remains LOCAL_ONLY_LFS_BLOCKED",
+    "Stored mesh signature covers explicit authored fields and every attribute payload; excludes runtime caches/computed normals",
+    "Raw Python property assignment can bypass UI bounds: out-of-range invalidates native driver evaluation and validator rejects; use bounded UI or set_angle API"
+  ],
+  "initial_identity": {
+    "object_count": 10434,
+    "mesh_count": 7470,
+    "closed_exact_evaluated_meshes_triangles_world_matrices": 44,
+    "in_memory_original_ID_pointers_exact": true,
+    "mesh_signature_manifest_sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+    "mesh_signature_manifest_file": "build-initial_identity-mesh-signatures.json"
+  },
+  "driver_records": [
+    {
+      "hinge": "cab_pivot_002",
+      "ui": {
+        "subtype": "NONE",
+        "description": "Fitted existing barrel-axis door opening in degrees; 0 closed, 99 maximum. Factory mechanism unverified.",
+        "min": 0.0,
+        "max": 99.0,
+        "soft_min": 0.0,
+        "soft_max": 99.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "drivers": [
+        {
+          "data_path": "location",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-4.909999847412109+0.017999867598216035*(1-cos((1*a*0.017453292519943295)))+0.06799999872843432*sin((1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_002"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "location",
+          "array_index": 1,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(1.4800000190734863+0.06799999872843432*(1-cos((1*a*0.017453292519943295)))-0.017999867598216035*sin((1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_002"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(cos((1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_002"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 3,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(sin((1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_002"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_003",
+      "ui": {
+        "subtype": "NONE",
+        "description": "Fitted existing barrel-axis door opening in degrees; 0 closed, 99 maximum. Factory mechanism unverified.",
+        "min": 0.0,
+        "max": 99.0,
+        "soft_min": 0.0,
+        "soft_max": 99.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "drivers": [
+        {
+          "data_path": "location",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-3.9600000381469727+0.018000036478042603*(1-cos((1*a*0.017453292519943295)))+0.06799999872843432*sin((1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_003"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "location",
+          "array_index": 1,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(1.4800000190734863+0.06799999872843432*(1-cos((1*a*0.017453292519943295)))-0.018000036478042603*sin((1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_003"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(cos((1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_003"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 3,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(sin((1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_003"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_006",
+      "ui": {
+        "subtype": "NONE",
+        "description": "Fitted existing barrel-axis door opening in degrees; 0 closed, 99 maximum. Factory mechanism unverified.",
+        "min": 0.0,
+        "max": 99.0,
+        "soft_min": 0.0,
+        "soft_max": 99.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "drivers": [
+        {
+          "data_path": "location",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-4.909999847412109+0.017999867598216035*(1-cos((-1*a*0.017453292519943295)))+-0.06799999872843432*sin((-1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_006"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "location",
+          "array_index": 1,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-1.4800000190734863+-0.06799999872843432*(1-cos((-1*a*0.017453292519943295)))-0.017999867598216035*sin((-1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_006"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(cos((-1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_006"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 3,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(sin((-1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_006"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_007",
+      "ui": {
+        "subtype": "NONE",
+        "description": "Fitted existing barrel-axis door opening in degrees; 0 closed, 99 maximum. Factory mechanism unverified.",
+        "min": 0.0,
+        "max": 99.0,
+        "soft_min": 0.0,
+        "soft_max": 99.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "drivers": [
+        {
+          "data_path": "location",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-3.9600000381469727+0.018000036478042603*(1-cos((-1*a*0.017453292519943295)))+-0.06799999872843432*sin((-1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_007"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "location",
+          "array_index": 1,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-1.4800000190734863+-0.06799999872843432*(1-cos((-1*a*0.017453292519943295)))-0.018000036478042603*sin((-1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_007"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(cos((-1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_007"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 3,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(sin((-1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_007"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        }
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 0.0,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 44,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.731,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.731,
+          "actual_signed_degrees": 0.7310000505932212,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.011026941624359432,
+          "expected_tip_displacement_m": 0.011026959100640134
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 3.8299728254384043e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 3.8243807344819523e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 3.8243807344819523e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 3.8243807344819523e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        15.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 15.0,
+          "actual_signed_degrees": 15.000000120055855,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.22562730206361986,
+          "expected_tip_displacement_m": 0.2256272910380007
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 1.4625361700052013e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 1.4597239763165371e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 1.4597239763165371e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 1.4597239763165371e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        37.125,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 37.125,
+          "actual_signed_degrees": 37.12499854262638,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.5502799381123787,
+          "expected_tip_displacement_m": 0.550279976354078
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 9.279717114035903e-08,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 9.888054907020659e-08
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 9.888054907020659e-08
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 9.888054907020659e-08
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        45.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 45.0,
+          "actual_signed_degrees": 45.00000965934551,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.6615056675767667,
+          "expected_tip_displacement_m": 0.6615057460964904
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 3.1075302763986036e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 3.399136980263268e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 3.399136980263268e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 3.399136980263268e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        75.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 75.0,
+          "actual_signed_degrees": 74.99999987994416,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.0523036186287062,
+          "expected_tip_displacement_m": 1.0523036777484378
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.8034882263698737e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 3.010600304231551e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 3.010600304231551e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 3.010600304231551e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        83.61,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 83.61,
+          "actual_signed_degrees": 83.61000377834078,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.1522791401365227,
+          "expected_tip_displacement_m": 1.152279023205655
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 1.7916156772090926e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 1.4998239903456682e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 1.4998239903456682e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 1.4998239903456682e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        99.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.3144360783379871,
+          "expected_tip_displacement_m": 1.3144360927822547
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.435888718790716e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 0.0,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 44,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.731,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.731,
+          "actual_signed_degrees": 0.7310000505932212,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.01191783766449007,
+          "expected_tip_displacement_m": 0.011917843185328082
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 7.513581651237368e-08,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 5.070369686994704e-08
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 5.070369686994704e-08
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 5.070369686994704e-08
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        15.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 15.0,
+          "actual_signed_degrees": 15.000000120055855,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.2438560535493365,
+          "expected_tip_displacement_m": 0.24385604846989578
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 1.6841761482544015e-08,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 4.214530555660296e-09
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 4.214530555660296e-09
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 4.214530555660296e-09
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        37.125,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 37.125,
+          "actual_signed_degrees": 37.12499854262638,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.594737866805145,
+          "expected_tip_displacement_m": 0.5947378970357474
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 4.345854706484949e-08,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 4.04654668108223e-08
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 4.04654668108223e-08
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 4.04654668108223e-08
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        45.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 45.0,
+          "actual_signed_degrees": 45.00000965934551,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.7149497218427281,
+          "expected_tip_displacement_m": 0.7149497586976381
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.104542699751023e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 2.2600129963713973e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 2.2600129963713973e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 2.2600129963713973e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        75.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 75.0,
+          "actual_signed_degrees": 74.99999987994416,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.1373207493702915,
+          "expected_tip_displacement_m": 1.1373208243804762
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 1.3005804010810186e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 1.3874885537386838e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 1.3874885537386838e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 1.3874885537386838e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        83.61,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 83.61,
+          "actual_signed_degrees": 83.61000377834078,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.2453731166127888,
+          "expected_tip_displacement_m": 1.2453733235947828
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 3.307318567492465e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 3.593673598098163e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 3.593673598098163e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 3.593673598098163e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        99.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.6236137559975845e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 0.0,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 44,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.731,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.731,
+          "actual_signed_degrees": -0.7310000505932212,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.011026941624359432,
+          "expected_tip_displacement_m": 0.011026959100640134
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 3.8299728254384043e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 3.8243807165730246e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 3.8243807165730246e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 3.8243807165730246e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        15.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -15.0,
+          "actual_signed_degrees": -15.000000120055855,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.22562730206361986,
+          "expected_tip_displacement_m": 0.2256272910380007
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 1.4625361700052013e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 1.459723993844715e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 1.459723993844715e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 1.459723993844715e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        37.125,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -37.125,
+          "actual_signed_degrees": -37.12499854262638,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.5502799381123787,
+          "expected_tip_displacement_m": 0.550279976354078
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 9.279717114035903e-08,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 9.888055016832402e-08
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 9.888055016832402e-08
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 9.888055016832402e-08
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        45.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -45.0,
+          "actual_signed_degrees": -45.00000965934551,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.6615056675767667,
+          "expected_tip_displacement_m": 0.6615057460964904
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 3.1075302763986036e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 3.399136971974034e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 3.399136971974034e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 3.399136971974034e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        75.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -75.0,
+          "actual_signed_degrees": -74.99999987994416,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.0523036186287062,
+          "expected_tip_displacement_m": 1.0523036777484378
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.8034882263698737e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 3.010600340779132e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 3.010600340779132e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 3.010600340779132e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        83.61,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -83.61,
+          "actual_signed_degrees": -83.61000377834078,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.1522791401365227,
+          "expected_tip_displacement_m": 1.152279023205655
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 1.7916156772090926e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 1.499823981500685e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 1.499823981500685e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 1.499823981500685e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        99.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -99.0,
+          "actual_signed_degrees": -98.99999929196937,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.3144360783379871,
+          "expected_tip_displacement_m": 1.3144360927822547
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.435888718790716e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 0.0,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 44,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        0.731
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.731,
+          "actual_signed_degrees": -0.7310000505932212,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.01191783766449007,
+          "expected_tip_displacement_m": 0.011917843185328082
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 7.513581651237368e-08,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 5.07036982199455e-08
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 5.07036982199455e-08
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 5.07036982199455e-08
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        15.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -15.0,
+          "actual_signed_degrees": -15.000000120055855,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.2438560535493365,
+          "expected_tip_displacement_m": 0.24385604846989578
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 1.6841761482544015e-08,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 4.214529905687846e-09
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 4.214529905687846e-09
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 4.214529905687846e-09
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        37.125
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -37.125,
+          "actual_signed_degrees": -37.12499854262638,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.594737866805145,
+          "expected_tip_displacement_m": 0.5947378970357474
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 4.345854706484949e-08,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 4.0465465718360435e-08
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 4.0465465718360435e-08
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 4.0465465718360435e-08
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        45.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -45.0,
+          "actual_signed_degrees": -45.00000965934551,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.7149497218427281,
+          "expected_tip_displacement_m": 0.7149497586976381
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.104542699751023e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 2.2600130018047762e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 2.2600130018047762e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 2.2600130018047762e-07
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        75.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -75.0,
+          "actual_signed_degrees": -74.99999987994416,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.1373207493702915,
+          "expected_tip_displacement_m": 1.1373208243804762
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 1.3005804010810186e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 1.387488563813299e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 1.387488563813299e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 1.387488563813299e-07
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        83.61
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -83.61,
+          "actual_signed_degrees": -83.61000377834078,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.2453731166127888,
+          "expected_tip_displacement_m": 1.2453733235947828
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 3.307318567492465e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 3.593673605608736e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 3.593673605608736e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 3.593673605608736e-07
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "individual",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        99.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -99.0,
+          "actual_signed_degrees": -98.99999929196937,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.6236137559975845e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 2.263554652583673e-07
+        }
+      ],
+      "closed_exact_parts": 33,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "simultaneous",
+      "degrees": [
+        15.0,
+        45.0,
+        75.0,
+        99.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 15.0,
+          "actual_signed_degrees": 15.000000120055855,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.22562730206361986,
+          "expected_tip_displacement_m": 0.2256272910380007
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 45.0,
+          "actual_signed_degrees": 45.00000965934551,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.7149497218427281,
+          "expected_tip_displacement_m": 0.7149497586976381
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -75.0,
+          "actual_signed_degrees": -74.99999987994416,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.0523036186287062,
+          "expected_tip_displacement_m": 1.0523036777484378
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -99.0,
+          "actual_signed_degrees": -98.99999929196937,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.8034882263698737e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 1.4597239763165371e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 1.4597239763165371e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 1.4597239763165371e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 2.2600129963713973e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 2.2600129963713973e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 2.2600129963713973e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 3.010600340779132e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 3.010600340779132e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 3.010600340779132e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 2.263554652583673e-07
+        }
+      ],
+      "closed_exact_parts": 0,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "simultaneous",
+      "degrees": [
+        99.0,
+        99.0,
+        99.0,
+        99.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.3144360783379871,
+          "expected_tip_displacement_m": 1.3144360927822547
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -99.0,
+          "actual_signed_degrees": -98.99999929196937,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.3144360783379871,
+          "expected_tip_displacement_m": 1.3144360927822547
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -99.0,
+          "actual_signed_degrees": -98.99999929196937,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.6236137559975845e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 2.263554652583673e-07
+        }
+      ],
+      "closed_exact_parts": 0,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "simultaneous",
+      "degrees": [
+        0.731,
+        37.125,
+        83.61,
+        14.37
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.731,
+          "actual_signed_degrees": 0.7310000505932212,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.011026941624359432,
+          "expected_tip_displacement_m": 0.011026959100640134
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 37.125,
+          "actual_signed_degrees": 37.12499854262638,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.594737866805145,
+          "expected_tip_displacement_m": 0.5947378970357474
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -83.61,
+          "actual_signed_degrees": -83.61000377834078,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.1522791401365227,
+          "expected_tip_displacement_m": 1.152279023205655
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -14.37,
+          "actual_signed_degrees": -14.370000804316234,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.23366904866796212,
+          "expected_tip_displacement_m": 0.23366902502516926
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 3.8299728254384043e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 3.8243807344819523e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 3.8243807344819523e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 3.8243807344819523e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 4.04654668108223e-08
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 4.04654668108223e-08
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 4.04654668108223e-08
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 1.499823981500685e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 1.499823981500685e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 1.499823981500685e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 1.0885000676251955e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 1.0885000676251955e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 1.0885000676251955e-07
+        }
+      ],
+      "closed_exact_parts": 0,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "simultaneous",
+      "degrees": [
+        99.0,
+        0.0,
+        45.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.3144360783379871,
+          "expected_tip_displacement_m": 1.3144360927822547
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -45.0,
+          "actual_signed_degrees": -45.00000965934551,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.6615056675767667,
+          "expected_tip_displacement_m": 0.6615057460964904
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 3.1075302763986036e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 3.399136971974034e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 3.399136971974034e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 3.399136971974034e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 22,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "simultaneous",
+      "degrees": [
+        0.0,
+        99.0,
+        0.0,
+        45.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -45.0,
+          "actual_signed_degrees": -45.00000965934551,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.7149497218427281,
+          "expected_tip_displacement_m": 0.7149497586976381
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.6236137559975845e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 2.2600130018047762e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 2.2600130018047762e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 2.2600130018047762e-07
+        }
+      ],
+      "closed_exact_parts": 22,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "simultaneous",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 0.0,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 44,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "repeat-open-0",
+      "degrees": [
+        99.0,
+        99.0,
+        99.0,
+        99.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.3144360783379871,
+          "expected_tip_displacement_m": 1.3144360927822547
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -99.0,
+          "actual_signed_degrees": -98.99999929196937,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.3144360783379871,
+          "expected_tip_displacement_m": 1.3144360927822547
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -99.0,
+          "actual_signed_degrees": -98.99999929196937,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.6236137559975845e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 2.263554652583673e-07
+        }
+      ],
+      "closed_exact_parts": 0,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "repeat-close-0",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 0.0,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 44,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "repeat-open-1",
+      "degrees": [
+        99.0,
+        99.0,
+        99.0,
+        99.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.3144360783379871,
+          "expected_tip_displacement_m": 1.3144360927822547
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -99.0,
+          "actual_signed_degrees": -98.99999929196937,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.3144360783379871,
+          "expected_tip_displacement_m": 1.3144360927822547
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -99.0,
+          "actual_signed_degrees": -98.99999929196937,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.6236137559975845e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 2.263554652583673e-07
+        }
+      ],
+      "closed_exact_parts": 0,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "repeat-close-1",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 0.0,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 44,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "repeat-open-2",
+      "degrees": [
+        99.0,
+        99.0,
+        99.0,
+        99.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.3144360783379871,
+          "expected_tip_displacement_m": 1.3144360927822547
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 99.0,
+          "actual_signed_degrees": 98.99999929196937,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -99.0,
+          "actual_signed_degrees": -98.99999929196937,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.3144360783379871,
+          "expected_tip_displacement_m": 1.3144360927822547
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -99.0,
+          "actual_signed_degrees": -98.99999929196937,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 1.4206314980100285,
+          "expected_tip_displacement_m": 1.4206312989775023
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 2.6236137559975845e-07,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 2.3524949587832148e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 2.2635546364186227e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 2.352494963062775e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 2.263554652583673e-07
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 2.263554652583673e-07
+        }
+      ],
+      "closed_exact_parts": 0,
+      "unchanged_unrelated_transform_count": 10386
+    },
+    {
+      "kind": "repeat-close-2",
+      "degrees": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "actual_angle_and_tip_witnesses": [
+        {
+          "hinge": "cab_pivot_002",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_0_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_003",
+          "requested_signed_degrees": 0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_-1_1_pressed_shell",
+          "tip_vertex": 477,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_006",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_0_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        },
+        {
+          "hinge": "cab_pivot_007",
+          "requested_signed_degrees": -0.0,
+          "actual_signed_degrees": 0.0,
+          "tip_object": "BL_Door_1_1_pressed_shell",
+          "tip_vertex": 476,
+          "actual_tip_displacement_m": 0.0,
+          "expected_tip_displacement_m": 0.0
+        }
+      ],
+      "max_actual_vertex_formula_error_m": 0.0,
+      "all_12_barrel_centers": [
+        {
+          "name": "BL_Door_-1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_-1_1_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_0_hinge_2.38",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.47",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_1.94",
+          "drift_m": 0.0
+        },
+        {
+          "name": "BL_Door_1_1_hinge_2.38",
+          "drift_m": 0.0
+        }
+      ],
+      "closed_exact_parts": 44,
+      "unchanged_unrelated_transform_count": 10386
+    }
+  ],
+  "pristine_motion_before_negative_mutation": true,
+  "negative_tests": [
+    {
+      "test": "bad input -1.0",
+      "rejected": true,
+      "reason": "open_angle_deg must be a finite number in [0,99]"
+    },
+    {
+      "test": "bad input 99.0001",
+      "rejected": true,
+      "reason": "open_angle_deg must be a finite number in [0,99]"
+    },
+    {
+      "test": "bad input nan",
+      "rejected": true,
+      "reason": "open_angle_deg must be a finite number in [0,99]"
+    },
+    {
+      "test": "bad input inf",
+      "rejected": true,
+      "reason": "open_angle_deg must be a finite number in [0,99]"
+    },
+    {
+      "test": "bad input True",
+      "rejected": true,
+      "reason": "open_angle_deg must be a finite number in [0,99]"
+    },
+    {
+      "test": "bad input '45'",
+      "rejected": true,
+      "reason": "open_angle_deg must be a finite number in [0,99]"
+    },
+    {
+      "test": "bad input None",
+      "rejected": true,
+      "reason": "open_angle_deg must be a finite number in [0,99]"
+    },
+    {
+      "test": "damaged stored axis",
+      "rejected": true,
+      "reason": "Authored/axis metadata damaged"
+    },
+    {
+      "test": "bad default",
+      "rejected": true,
+      "reason": "Damaged native angle default/range"
+    },
+    {
+      "test": "bad range",
+      "rejected": true,
+      "reason": "Damaged native angle default/range"
+    },
+    {
+      "test": "muted driver",
+      "rejected": true,
+      "reason": "Muted/invalid/non-simple driver"
+    },
+    {
+      "test": "wrong expression",
+      "rejected": true,
+      "reason": "Incorrect driver expression"
+    },
+    {
+      "test": "transform feedback target",
+      "rejected": true,
+      "reason": "Unexpected driver target/fallback"
+    },
+    {
+      "test": "native out-of-range property",
+      "rejected": true,
+      "reason": "open_angle_deg must be a finite number in [0,99]"
+    },
+    {
+      "test": "raw bypass native expression invalidation",
+      "all_four_invalid": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "negative_test_note": "Negative mutation tests follow pristine motion and restore exact closed state",
+  "final_identity": {
+    "object_count": 10434,
+    "mesh_count": 7470,
+    "closed_exact_evaluated_meshes_triangles_world_matrices": 44,
+    "in_memory_original_ID_pointers_exact": true,
+    "mesh_signature_manifest_sha256": "77f22c327f85e4c2cf6e54c7840d5cec621ec01b344af207579d8c6e25c9ac2d",
+    "mesh_signature_manifest_file": "build-final_identity-mesh-signatures.json"
+  },
+  "final_driver_records": [
+    {
+      "hinge": "cab_pivot_002",
+      "ui": {
+        "subtype": "NONE",
+        "description": "Fitted existing barrel-axis door opening in degrees; 0 closed, 99 maximum. Factory mechanism unverified.",
+        "min": 0.0,
+        "max": 99.0,
+        "soft_min": 0.0,
+        "soft_max": 99.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "drivers": [
+        {
+          "data_path": "location",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-4.909999847412109+0.017999867598216035*(1-cos((1*a*0.017453292519943295)))+0.06799999872843432*sin((1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_002"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "location",
+          "array_index": 1,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(1.4800000190734863+0.06799999872843432*(1-cos((1*a*0.017453292519943295)))-0.017999867598216035*sin((1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_002"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(cos((1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_002"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 3,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(sin((1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_002"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_003",
+      "ui": {
+        "subtype": "NONE",
+        "description": "Fitted existing barrel-axis door opening in degrees; 0 closed, 99 maximum. Factory mechanism unverified.",
+        "min": 0.0,
+        "max": 99.0,
+        "soft_min": 0.0,
+        "soft_max": 99.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "drivers": [
+        {
+          "data_path": "location",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-3.9600000381469727+0.018000036478042603*(1-cos((1*a*0.017453292519943295)))+0.06799999872843432*sin((1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_003"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "location",
+          "array_index": 1,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(1.4800000190734863+0.06799999872843432*(1-cos((1*a*0.017453292519943295)))-0.018000036478042603*sin((1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_003"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(cos((1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_003"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 3,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(sin((1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_003"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_006",
+      "ui": {
+        "subtype": "NONE",
+        "description": "Fitted existing barrel-axis door opening in degrees; 0 closed, 99 maximum. Factory mechanism unverified.",
+        "min": 0.0,
+        "max": 99.0,
+        "soft_min": 0.0,
+        "soft_max": 99.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "drivers": [
+        {
+          "data_path": "location",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-4.909999847412109+0.017999867598216035*(1-cos((-1*a*0.017453292519943295)))+-0.06799999872843432*sin((-1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_006"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "location",
+          "array_index": 1,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-1.4800000190734863+-0.06799999872843432*(1-cos((-1*a*0.017453292519943295)))-0.017999867598216035*sin((-1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_006"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(cos((-1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_006"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 3,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(sin((-1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_006"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_007",
+      "ui": {
+        "subtype": "NONE",
+        "description": "Fitted existing barrel-axis door opening in degrees; 0 closed, 99 maximum. Factory mechanism unverified.",
+        "min": 0.0,
+        "max": 99.0,
+        "soft_min": 0.0,
+        "soft_max": 99.0,
+        "step": 1.0,
+        "precision": 3,
+        "default": 0.0
+      },
+      "drivers": [
+        {
+          "data_path": "location",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-3.9600000381469727+0.018000036478042603*(1-cos((-1*a*0.017453292519943295)))+-0.06799999872843432*sin((-1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_007"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "location",
+          "array_index": 1,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(-1.4800000190734863+-0.06799999872843432*(1-cos((-1*a*0.017453292519943295)))-0.018000036478042603*sin((-1*a*0.017453292519943295))) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_007"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 0,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(cos((-1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_007"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        },
+        {
+          "data_path": "rotation_quaternion",
+          "array_index": 3,
+          "mute": false,
+          "lock": false,
+          "is_valid": true,
+          "driver_type": "SCRIPTED",
+          "expression": "(sin((-1*a*0.017453292519943295)/2)) if 0<=a<=99 else sqrt(-1)",
+          "use_self": false,
+          "is_valid_driver": true,
+          "simple": true,
+          "variables": [
+            {
+              "name": "a",
+              "type": "SINGLE_PROP",
+              "targets": [
+                {
+                  "id": {
+                    "id_type": "Object",
+                    "name": "cab_pivot_007"
+                  },
+                  "id_type": "OBJECT",
+                  "data_path": "[\"open_angle_deg\"]",
+                  "bone_target": "",
+                  "transform_type": "LOC_X",
+                  "transform_space": "WORLD_SPACE",
+                  "use_fallback_value": false,
+                  "fallback_value": 0.0
+                }
+              ]
+            }
+          ],
+          "modifiers": [],
+          "keyframe_count": 0,
+          "sampled_count": 0
+        }
+      ]
+    }
+  ],
+  "maximum_vertex_formula_error_m": 3.8299728254384043e-07,
+  "maximum_barrel_center_drift_m": 3.8243807344819523e-07,
+  "threshold_m": 2e-05,
+  "pose_count": 44,
+  "source_sha256_after": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "candidate_path": "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend",
+  "candidate_bytes": 67937160,
+  "candidate_sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+  "save_count": 1,
+  "source_sha256_after_save": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70"
+}

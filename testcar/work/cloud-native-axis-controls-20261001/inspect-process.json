@@ -1,0 +1,27 @@
+{
+  "status": "EXITED",
+  "command": [
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "1",
+    "--python-exit-code",
+    "17",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/inspect-controls.py",
+    "--"
+  ],
+  "script_sha256_before": "a7c8829ca9bcbab5d206470634f1367f65f3a19055698f9202e590dc0e4f13a7",
+  "blender_binary_sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe",
+  "deadline_seconds": 240,
+  "started_utc": "2026-10-01T22:22:29.464056+00:00",
+  "not_isolated_performance": true,
+  "exit_code": 0,
+  "elapsed_seconds": 17.2207078499996,
+  "max_rss_kib": 1903220,
+  "script_sha256_after": "a7c8829ca9bcbab5d206470634f1367f65f3a19055698f9202e590dc0e4f13a7",
+  "log_sha256": "e397fb2ad55fd77a027b141787e7ee29957b391a512bafa8fc31b1ca41d910e2",
+  "ended_utc": "2026-10-01T22:22:46.685324+00:00"
+}
