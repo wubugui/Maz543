@@ -1,0 +1,68 @@
+{
+  "status": "GUARD_REGRESSIONS_PASS",
+  "blender_version": "4.5.13 LTS",
+  "old_auditor_sha256": "cd5bc72f30e60663668611798e5d7c9e384d969f3e60b63588940d561d1ccc8c",
+  "new_auditor_sha256": "f80b35accc8ec92e14847051e3fff6d1b0435a4f67a9349c549d8cf1e424a508",
+  "native_fixtures": {
+    "evaluated_follow_curve": {
+      "old_issues": [],
+      "new_issues": [
+        "__GUARD_FONT: external data Object pointer follow_curve"
+      ],
+      "vertices": 34,
+      "vertex_delta_m": 2.76574717502558,
+      "frame": 0,
+      "hinge_angle_radians": 0.7000000476837158
+    },
+    "static_text_without_external_curve": true,
+    "vertex_parent_hinge_rejected": [
+      "__GUARD_HINGE: unsupported parent type VERTEX"
+    ],
+    "ordinary_empty_hinge_accepted": true,
+    "armature_rejected": [
+      "__GUARD_ARMATURE: rigid-body or pose input not eligible"
+    ],
+    "rigid_body_rejected": [
+      "Cube: rigid-body or pose input not eligible"
+    ]
+  },
+  "published_evidence_structure": {
+    "doors": 4,
+    "moving_parts": 44,
+    "fixed_parts": 261,
+    "pairs": 11484,
+    "native_pose_checks": 24
+  },
+  "evidence_corruption_controls": [
+    {
+      "case": "missing_pair",
+      "rejected": true
+    },
+    {
+      "case": "duplicate_pair",
+      "rejected": true
+    },
+    {
+      "case": "name_order",
+      "rejected": true
+    },
+    {
+      "case": "wrong_angle",
+      "rejected": true
+    },
+    {
+      "case": "changed_fixed",
+      "rejected": true
+    },
+    {
+      "case": "released_button_changed",
+      "rejected": true
+    }
+  ],
+  "project_blend_loaded": false,
+  "blend_saved": false,
+  "limits": [
+    "Fixture rejection hardens the general checker; it does not replace the separately recorded independent exact-model audit",
+    "No new full-scene motion or interval checks were rerun"
+  ]
+}
