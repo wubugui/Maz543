@@ -1,0 +1,171 @@
+{
+  "date_utc": "2026-10-01",
+  "status": "HISTORICAL_CONTINUOUS_FRAME_TWO_TREAD_REGIONS_THREE_SUPPORT_TOPOLOGY_ONLY",
+  "sources": [
+    {
+      "file": "manual1973-1197.jpg",
+      "url": "https://sinref.ru/avtomobili/MAZ/011-Maz-543-shassi-tehopisanie-1973-g-04600_raznie_13/000/1197.jpg",
+      "page_url": "https://sinref.ru/avtomobili/MAZ/011-Maz-543-shassi-tehopisanie-1973-g-04600_raznie_13/018.htm",
+      "locator": "1973 manual cab-prose scan; no visible printed page number",
+      "bytes": 703784,
+      "sha256": "f0d97beaf0d155c37d9d1e6614c3e846f1868b0042fe125759a12c460cfdbdbe",
+      "pixels": [
+        1022,
+        1592
+      ],
+      "pixels_inspected": true,
+      "observed": "Cab tilt, seating, doors and equipment prose; no step-hanger material identification.",
+      "limits": [
+        "No verified 1977 MAZ-543A batch applicability",
+        "No identified flexible-wire-rope specification",
+        "No scale-calibrated metric step or hanger dimensions",
+        "Research-local source pixels; not published"
+      ]
+    },
+    {
+      "file": "manual1973-1204.jpg",
+      "url": "https://sinref.ru/avtomobili/MAZ/011-Maz-543-shassi-tehopisanie-1973-g-04600_raznie_13/000/1204.jpg",
+      "page_url": "https://sinref.ru/avtomobili/MAZ/011-Maz-543-shassi-tehopisanie-1973-g-04600_raznie_13/018.htm",
+      "locator": "1973 manual figure 92 illustration; no visible printed page number",
+      "bytes": 309717,
+      "sha256": "04bbeca86303512ba7e0450a922d5f49b0c1ed486c4e1d74a715a053dd9e4c5b",
+      "pixels": [
+        1046,
+        1540
+      ],
+      "pixels_inspected": true,
+      "observed": "Continuous below-cab step and three support stations; closed door and fixed sill distinguishable.",
+      "limits": [
+        "No verified 1977 MAZ-543A batch applicability",
+        "No identified flexible-wire-rope specification",
+        "No scale-calibrated metric step or hanger dimensions",
+        "Research-local source pixels; not published"
+      ]
+    },
+    {
+      "file": "manual1973-1211.jpg",
+      "url": "https://sinref.ru/avtomobili/MAZ/011-Maz-543-shassi-tehopisanie-1973-g-04600_raznie_13/000/1211.jpg",
+      "page_url": "https://sinref.ru/avtomobili/MAZ/011-Maz-543-shassi-tehopisanie-1973-g-04600_raznie_13/018.htm",
+      "locator": "1973 manual figure 92 caption; no visible printed page number",
+      "bytes": 418817,
+      "sha256": "336d9664a35caa8af8110942a86a179d0718f87f421fc846b9412d2373f06be5",
+      "pixels": [
+        984,
+        827
+      ],
+      "pixels_inspected": true,
+      "observed": "Caption identifies controls; no step-hanger callout.",
+      "limits": [
+        "No verified 1977 MAZ-543A batch applicability",
+        "No identified flexible-wire-rope specification",
+        "No scale-calibrated metric step or hanger dimensions",
+        "Research-local source pixels; not published"
+      ]
+    },
+    {
+      "file": "manual1973-1218.jpg",
+      "url": "https://sinref.ru/avtomobili/MAZ/011-Maz-543-shassi-tehopisanie-1973-g-04600_raznie_13/000/1218.jpg",
+      "page_url": "https://sinref.ru/avtomobili/MAZ/011-Maz-543-shassi-tehopisanie-1973-g-04600_raznie_13/018.htm",
+      "locator": "1973 manual figure 93 illustration and caption; no visible printed page number",
+      "bytes": 306620,
+      "sha256": "fa644b96c68c536a39b2c934ce7ad2fa7f52d7ab2b141b5f9f146ce063fb0ccc",
+      "pixels": [
+        1128,
+        1562
+      ],
+      "pixels_inspected": true,
+      "observed": "Continuous step and three support stations. Label 17 cable points into cab-tilt inset, not step.",
+      "limits": [
+        "No verified 1977 MAZ-543A batch applicability",
+        "No identified flexible-wire-rope specification",
+        "No scale-calibrated metric step or hanger dimensions",
+        "Research-local source pixels; not published"
+      ]
+    },
+    {
+      "file": "catalog-2008-84.6.gif",
+      "url": "https://www.autoopt.ru/acat/data/maz/543/84.6.gif",
+      "page_url": "https://www.autoopt.ru/auto/catalog/special/maz/maz-543_7310/37",
+      "locator": "2008 catalog drawing 27 per live page; image filename 84.6.gif",
+      "bytes": 25856,
+      "sha256": "7d4749978cdfdb19b412da656966303a05d01100db269937ae685bc973738484",
+      "pixels": [
+        617,
+        567
+      ],
+      "pixels_inspected": true,
+      "observed": "Two continuous step assemblies; three hanging/support positions and three braced mounting brackets each. No separate cable callout.",
+      "limits": [
+        "No verified 1977 MAZ-543A batch applicability",
+        "No identified flexible-wire-rope specification",
+        "No scale-calibrated metric step or hanger dimensions",
+        "Research-local source pixels; not published"
+      ]
+    }
+  ],
+  "catalog_part_labels": {
+    "scope": "Later 2008 distributor-hosted catalog only; original factory publication provenance not fully established",
+    "installation_titles": [
+      "543-8400008",
+      "543В-8400008"
+    ],
+    "callouts": [
+      {
+        "callout": 1,
+        "part": "210381",
+        "description": "bolt M8-6g x22",
+        "listed_quantity": 6
+      },
+      {
+        "callout": 2,
+        "part": "252135",
+        "description": "washer 8T",
+        "listed_quantity": 6
+      },
+      {
+        "callout": 3,
+        "part": "250510",
+        "description": "nut M8-6H",
+        "listed_quantity": 6
+      },
+      {
+        "callout": 4,
+        "part": "543-8405012-10",
+        "description": "step",
+        "listed_quantity": 1
+      }
+    ],
+    "revision_warning": "Live distributor part modal says not interchangeable with earlier same-number part; not treated as independently verified factory revision record",
+    "quantity_caution": "Illustration shows paired steps while step row quantity is 1; do not resolve this ambiguity by assumption"
+  },
+  "observed_not_inferred": [
+    "Three support stations and continuous lower step visible in each historical cab illustration",
+    "Figure93 cable label17 is associated with cab-tilt inset",
+    "Later catalog shows braced upper brackets"
+  ],
+  "inference_only": [
+    "Later catalog topology plausibly related to earlier manual and museum photographs",
+    "Segmented hanging members could contain flexible portions; not established"
+  ],
+  "remaining_open": [
+    "Flexibility, material, wire construction, exact section sizes",
+    "Hardpoint positions on fixed cab structure",
+    "Detailed fastener/weld/crimp identification",
+    "1977 MAZ-543A applicability and revisions"
+  ],
+  "manual_1977": {
+    "url": "https://djvu.online/file/zjMdLY3MFjmTL",
+    "pixels_inspected": false,
+    "blocker": "Cloud viewer remained at plain Continue panel after one normal click; no scan pixels obtained"
+  },
+  "source_pixels_published": false,
+  "whole_vehicle_acceptance": "unchanged",
+  "historical_edition_provenance": "Host attributes scan fragments to 1973 MAZ-543 manual; figures and captions visually verified, title page/colophon not obtained in this pass.",
+  "clarification": "Continuous step means one connected lower frame/assembly with TWO visible tread regions sharing a middle support, not one solid full-length deck. Both historical figures and the later catalog drawing were inspected for this distinction.",
+  "modeling_limits": [
+    "Do not equate three support stations with three homogeneous cables or rigid rods",
+    "Do not import later M8 fastener sizes or part revision into1977 target without applicability evidence",
+    "Use native geometry only for explicitly fitted independent studies; retain legacy parts and their exact identities",
+    "No old/source image pixels republished, no source or production model changed"
+  ]
+}
