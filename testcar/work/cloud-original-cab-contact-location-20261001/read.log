@@ -1,0 +1,25 @@
+CONTACT_POSE cab_pivot_002 0.0 changed 0 candidate_pairs 1
+CONTACT_POSE cab_pivot_002 15.0 changed 0 candidate_pairs 1
+CONTACT_POSE cab_pivot_002 45.0 changed 0 candidate_pairs 2
+CONTACT_POSE cab_pivot_002 75.0 changed 0 candidate_pairs 10
+CONTACT_POSE cab_pivot_002 99.0 changed 0 candidate_pairs 9
+CONTACT_POSE cab_pivot_003 0.0 changed 0 candidate_pairs 2
+CONTACT_POSE cab_pivot_003 15.0 changed 0 candidate_pairs 1
+CONTACT_POSE cab_pivot_003 45.0 changed 0 candidate_pairs 2
+CONTACT_POSE cab_pivot_003 75.0 changed 0 candidate_pairs 6
+CONTACT_POSE cab_pivot_003 99.0 changed 0 candidate_pairs 6
+CONTACT_POSE cab_pivot_006 0.0 changed 0 candidate_pairs 1
+CONTACT_POSE cab_pivot_006 15.0 changed 0 candidate_pairs 1
+CONTACT_POSE cab_pivot_006 45.0 changed 0 candidate_pairs 2
+CONTACT_POSE cab_pivot_006 75.0 changed 0 candidate_pairs 10
+CONTACT_POSE cab_pivot_006 99.0 changed 0 candidate_pairs 9
+CONTACT_POSE cab_pivot_007 0.0 changed 0 candidate_pairs 2
+CONTACT_POSE cab_pivot_007 15.0 changed 0 candidate_pairs 1
+CONTACT_POSE cab_pivot_007 45.0 changed 0 candidate_pairs 2
+CONTACT_POSE cab_pivot_007 75.0 changed 0 candidate_pairs 6
+CONTACT_POSE cab_pivot_007 99.0 changed 0 candidate_pairs 6
+DONE [{'hinge': 'cab_pivot_002', 'pairs': 1595, 'frozen_interval_separated': 1561, 'unresolved_full_bounds': 34, 'sampled_contact_pair_instances': 23, 'detail_file': 'cab_pivot_002.json', 'detail_sha256': '5e146d33504a78af90410faa6ac0e364ebf4897c40e89ae818aac5a04fcc7b31'}, {'hinge': 'cab_pivot_003', 'pairs': 1595, 'frozen_interval_separated': 1570, 'unresolved_full_bounds': 25, 'sampled_contact_pair_instances': 17, 'detail_file': 'cab_pivot_003.json', 'detail_sha256': '0a4bc3a08d7281f9bf2e494aa68c9d7e13b27b24ca443e9ef4c014d2b6ccd34e'}, {'hinge': 'cab_pivot_006', 'pairs': 1595, 'frozen_interval_separated': 1561, 'unresolved_full_bounds': 34, 'sampled_contact_pair_instances': 23, 'detail_file': 'cab_pivot_006.json', 'detail_sha256': 'bbfb093c19a4667a3a51b5d9518f1a06abcb9b3278d98fa3f2a9a2784288291f'}, {'hinge': 'cab_pivot_007', 'pairs': 1595, 'frozen_interval_separated': 1570, 'unresolved_full_bounds': 25, 'sampled_contact_pair_instances': 17, 'detail_file': 'cab_pivot_007.json', 'detail_sha256': '27bfa8f259c87209eb9212e7ff1b5411c097554a017e0fe976bdb32f599d90e0'}]
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend"
+
+Blender quit
