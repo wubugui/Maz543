@@ -1,0 +1,105 @@
+{
+  "status": "READ_ONLY_SAVED_FRAME_GRAPH_FAILED",
+  "frame_advanced": false,
+  "selection_pose_visibility_modified": false,
+  "model_saved": false,
+  "exported": false,
+  "rendered": false,
+  "geometry_payload_reread": false,
+  "runtime_route_enabled": false,
+  "timeline_status": "BLOCKED_NOT_EXECUTED",
+  "all16_vehicle_gates": "OPEN",
+  "protection_scope": "Only snapshot() and graph_records() fields are compared. All8522 names/world/parents and original action_record digests match saved evidence. Relevant local/world/basis/parent-inverse matrices and active-scene per-view-layer hide/select/visible fields are read twice. No claim for unenumerated Blender RNA, caches, geometry or dependency-graph state.",
+  "visibility_limit": "Saved native flags and visible_get in each active-scene view layer without a viewport. No local-view, camera, occlusion, material or renderer acceptance.",
+  "input_hashes_before": {
+    "artifact": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+    },
+    "review_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/review/maz543a-cab-va180-v1.glb",
+      "bytes": 24743400,
+      "sha256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e"
+    },
+    "suspension_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/maz543a-suspension.glb",
+      "bytes": 8154920,
+      "sha256": "02820335705e230b5a70a4debbc9649e4a2cf66eb180117c8d65a17f19e2ba18"
+    },
+    "exporter": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/export-va180-cab-candidate.py",
+      "bytes": 6207,
+      "sha256": "81099e989b22af47de42b0f8c15c18199deef5d8bffb2a2da1cd41c072698714"
+    },
+    "bindings": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/nativeWheelBindings.ts",
+      "bytes": 3110,
+      "sha256": "7c4d46478f190f1e3b3fcdad5e7a6678f614aa9706c200fdb9013b487e7edddc"
+    },
+    "viewport": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/vehicleViewport.ts",
+      "bytes": 77905,
+      "sha256": "9de4e242cc43aa21b765a42f447621e083e675d411a66f8a9ba83e9b29b54e5d"
+    },
+    "original_inputs": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/inputs.json",
+      "bytes": 51148,
+      "sha256": "e3249af319ae1be31f81576bd39b74eace400cd726e04552282a354a3f2c59ce"
+    },
+    "saved_expected": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/saved-state-expected.json",
+      "bytes": 909025,
+      "sha256": "9a937128e5cd0af5cac09e7416eaad9e3cff912bbc2d4e324fbb8eef288be4fc"
+    },
+    "original_report": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/native-report.json",
+      "bytes": 11598,
+      "sha256": "8513795e0c37e0b6ad62e1a9cc437877adbdf545ce0a0b242460a69719c73af3"
+    },
+    "builder": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/build-trial.py",
+      "bytes": 17627,
+      "sha256": "892cf825ff6a0929ab576c502b0fbb59829ec9943b627161fa48de02bac80a1d"
+    },
+    "helper": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    }
+  },
+  "protection_before": {
+    "objects_sha256": "9dde506f7fd366b356da057cfd30c07473648320a535b22e91f3a651f85d211f",
+    "object_names_sha256": "1a33c9db84130d22704f6d8da8b0a59eba0d22fbbe48e7556e82b8c4c35c07be",
+    "world_matrices_sha256": "817046c7c50a52dc17bb25aba0d51ab33d263e8285b5bbdfaf896a211c38e6a6",
+    "parents_sha256": "a345e8d827dfd08ddf263ff434e389198205f87128a0effd9d827687b424065f",
+    "actions_sha256": "c4d1bc8b977f0c5514c71c3efeed86d9cfad97f293486c14d4067770ec4bb5b5",
+    "actions_count": 552,
+    "actions_fake_users_sha256": "97e25547cbbf0971d50247bbdbcf79bc372246cd29fcd51b6686d7b361a13c87",
+    "collection_layer_visibility_sha256": "e6d0efb4690543e837634a4fc8cf9e6c795d3d4076f656a904d59dbe5d67f911",
+    "scene_state": [
+      {
+        "name": "Scene",
+        "frame": 0,
+        "subframe": 0.0,
+        "view_layers": [
+          {
+            "name": "ViewLayer",
+            "use": true,
+            "active_object": "cab_0064"
+          }
+        ]
+      }
+    ],
+    "active_scene": "Scene",
+    "active_view_layer": "ViewLayer",
+    "mode": "OBJECT"
+  },
+  "error": "AssertionError: ",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py\", line 314, in main\n    run(args, report)\n  File \"/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py\", line 217, in run\n    assert station_names <= source_objects\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}

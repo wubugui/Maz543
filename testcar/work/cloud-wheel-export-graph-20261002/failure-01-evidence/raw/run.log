@@ -1,0 +1,15 @@
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py", line 325, in <module>
+    main()
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py", line 314, in main
+    run(args, report)
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py", line 217, in run
+    assert station_names <= source_objects
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: '/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py', exiting.
+
+Blender quit

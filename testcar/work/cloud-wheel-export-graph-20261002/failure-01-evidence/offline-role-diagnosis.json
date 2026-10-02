@@ -1,0 +1,232 @@
+{
+  "status": "READ_ONLY_INVENTORY_DIAGNOSIS",
+  "inventory_sha256": "3c9d293ee551a1ab6dfa93c6c82ce98634e1997c8ed691f94d534169e434feb3",
+  "objects": 8522,
+  "stations": [
+    {
+      "station": 0,
+      "required_roles": {
+        "carrier": "wheels_pivot_001",
+        "spin": "wheels_pivot_002",
+        "brake": "brakes_pivot_001",
+        "drum": "brakes_0003",
+        "upright": "S543_0_upright",
+        "kingpin": "S543_0_steering_kingpin",
+        "joint_frame": "S543_0_native_steering_joint_frame"
+      },
+      "actual_types": {
+        "carrier": "EMPTY",
+        "spin": "EMPTY",
+        "brake": "EMPTY",
+        "drum": "MESH",
+        "upright": "EMPTY",
+        "kingpin": "MESH",
+        "joint_frame": "EMPTY"
+      },
+      "actual_parents": {
+        "carrier": "S543_0_native_steering_joint_frame",
+        "spin": "wheels_pivot_001",
+        "brake": "S543_0_native_steering_joint_frame",
+        "drum": "wheels_pivot_002",
+        "upright": "S543_SUSPENSION",
+        "kingpin": "S543_0_upright",
+        "joint_frame": "S543_0_upright"
+      }
+    },
+    {
+      "station": 1,
+      "required_roles": {
+        "carrier": "wheels_pivot_008",
+        "spin": "wheels_pivot_009",
+        "brake": "brakes_pivot_002",
+        "drum": "brakes_0007",
+        "upright": "S543_1_upright",
+        "kingpin": "S543_1_steering_kingpin",
+        "joint_frame": "S543_1_native_steering_joint_frame"
+      },
+      "actual_types": {
+        "carrier": "EMPTY",
+        "spin": "EMPTY",
+        "brake": "EMPTY",
+        "drum": "MESH",
+        "upright": "EMPTY",
+        "kingpin": "MESH",
+        "joint_frame": "EMPTY"
+      },
+      "actual_parents": {
+        "carrier": "S543_1_native_steering_joint_frame",
+        "spin": "wheels_pivot_008",
+        "brake": "S543_1_native_steering_joint_frame",
+        "drum": "wheels_pivot_009",
+        "upright": "S543_SUSPENSION",
+        "kingpin": "S543_1_upright",
+        "joint_frame": "S543_1_upright"
+      }
+    },
+    {
+      "station": 2,
+      "required_roles": {
+        "carrier": "wheels_pivot_015",
+        "spin": "wheels_pivot_016",
+        "brake": "brakes_pivot_003",
+        "drum": "brakes_0011",
+        "upright": "S543_2_upright",
+        "kingpin": "S543_2_steering_kingpin",
+        "joint_frame": "S543_2_native_steering_joint_frame"
+      },
+      "actual_types": {
+        "carrier": "EMPTY",
+        "spin": "EMPTY",
+        "brake": "EMPTY",
+        "drum": "MESH",
+        "upright": "EMPTY",
+        "kingpin": "MESH",
+        "joint_frame": "EMPTY"
+      },
+      "actual_parents": {
+        "carrier": "S543_2_native_steering_joint_frame",
+        "spin": "wheels_pivot_015",
+        "brake": "S543_2_native_steering_joint_frame",
+        "drum": "wheels_pivot_016",
+        "upright": "S543_SUSPENSION",
+        "kingpin": "S543_2_upright",
+        "joint_frame": "S543_2_upright"
+      }
+    },
+    {
+      "station": 3,
+      "required_roles": {
+        "carrier": "wheels_pivot_022",
+        "spin": "wheels_pivot_023",
+        "brake": "brakes_pivot_004",
+        "drum": "brakes_0015",
+        "upright": "S543_3_upright",
+        "kingpin": "S543_3_steering_kingpin",
+        "joint_frame": "S543_3_native_steering_joint_frame"
+      },
+      "actual_types": {
+        "carrier": "EMPTY",
+        "spin": "EMPTY",
+        "brake": "EMPTY",
+        "drum": "MESH",
+        "upright": "EMPTY",
+        "kingpin": "MESH",
+        "joint_frame": "EMPTY"
+      },
+      "actual_parents": {
+        "carrier": "S543_3_native_steering_joint_frame",
+        "spin": "wheels_pivot_022",
+        "brake": "S543_3_native_steering_joint_frame",
+        "drum": "wheels_pivot_023",
+        "upright": "S543_SUSPENSION",
+        "kingpin": "S543_3_upright",
+        "joint_frame": "S543_3_upright"
+      }
+    },
+    {
+      "station": 4,
+      "required_roles": {
+        "carrier": "wheels_pivot_029",
+        "spin": "wheels_pivot_030",
+        "brake": "brakes_pivot_005",
+        "drum": "brakes_0019",
+        "upright": "S543_4_upright"
+      },
+      "actual_types": {
+        "carrier": "EMPTY",
+        "spin": "EMPTY",
+        "brake": "EMPTY",
+        "drum": "MESH",
+        "upright": "EMPTY"
+      },
+      "actual_parents": {
+        "carrier": "wheels",
+        "spin": "wheels_pivot_029",
+        "brake": "brakes",
+        "drum": "brakes_pivot_005",
+        "upright": "S543_SUSPENSION"
+      }
+    },
+    {
+      "station": 5,
+      "required_roles": {
+        "carrier": "wheels_pivot_036",
+        "spin": "wheels_pivot_037",
+        "brake": "brakes_pivot_006",
+        "drum": "brakes_0023",
+        "upright": "S543_5_upright"
+      },
+      "actual_types": {
+        "carrier": "EMPTY",
+        "spin": "EMPTY",
+        "brake": "EMPTY",
+        "drum": "MESH",
+        "upright": "EMPTY"
+      },
+      "actual_parents": {
+        "carrier": "wheels",
+        "spin": "wheels_pivot_036",
+        "brake": "brakes",
+        "drum": "brakes_pivot_006",
+        "upright": "S543_SUSPENSION"
+      }
+    },
+    {
+      "station": 6,
+      "required_roles": {
+        "carrier": "wheels_pivot_043",
+        "spin": "wheels_pivot_044",
+        "brake": "brakes_pivot_007",
+        "drum": "brakes_0027",
+        "upright": "S543_6_upright"
+      },
+      "actual_types": {
+        "carrier": "EMPTY",
+        "spin": "EMPTY",
+        "brake": "EMPTY",
+        "drum": "MESH",
+        "upright": "EMPTY"
+      },
+      "actual_parents": {
+        "carrier": "wheels",
+        "spin": "wheels_pivot_043",
+        "brake": "brakes",
+        "drum": "brakes_pivot_007",
+        "upright": "S543_SUSPENSION"
+      }
+    },
+    {
+      "station": 7,
+      "required_roles": {
+        "carrier": "wheels_pivot_050",
+        "spin": "wheels_pivot_051",
+        "brake": "brakes_pivot_008",
+        "drum": "brakes_0031",
+        "upright": "S543_7_upright"
+      },
+      "actual_types": {
+        "carrier": "EMPTY",
+        "spin": "EMPTY",
+        "brake": "EMPTY",
+        "drum": "MESH",
+        "upright": "EMPTY"
+      },
+      "actual_parents": {
+        "carrier": "wheels",
+        "spin": "wheels_pivot_050",
+        "brake": "brakes",
+        "drum": "brakes_pivot_008",
+        "upright": "S543_SUSPENSION"
+      }
+    }
+  ],
+  "missing_manufactured_names": [
+    "S543_4_steering_kingpin",
+    "S543_5_steering_kingpin",
+    "S543_6_steering_kingpin",
+    "S543_7_steering_kingpin"
+  ],
+  "correct_required_unique_names": 48,
+  "native_after_checks_reached": false,
+  "mechanical_qualification": false
+}

@@ -1,0 +1,56 @@
+{
+  "schema": "MAZ_GRAPH_RUN01_ORIGINAL_TEXTS_V1",
+  "preparation_commit": "0bb73ec8f3d304e2f2cb7c80f0cd785d09fbb3f3",
+  "records": [
+    {
+      "path": "child-started.json",
+      "bytes": 90,
+      "sha256": "5d91c4e66dd2a19fdb03ab4b4be0b966defcd7fe2ea87682778263ce6422be5a"
+    },
+    {
+      "path": "heartbeat.jsonl",
+      "bytes": 1788,
+      "sha256": "dad6cfd1c2e8239460c2fd4a8e6e9fc68cc52e9bc8d48a8db5a9e06aa08a8ae2"
+    },
+    {
+      "path": "launch.json",
+      "bytes": 6571,
+      "sha256": "ff1c470241dce6c867ed8852f466e28fb7870d7aa8f443d8bd5ee30f297b5caa"
+    },
+    {
+      "path": "native/collection-visibility.json",
+      "bytes": 18778,
+      "sha256": "02f7b6e07dfe5b47f357852efcbef864d17b43b28278c9555ebc4940d9c2a56c"
+    },
+    {
+      "path": "native/native-report.json",
+      "bytes": 5537,
+      "sha256": "c557ad105c4c872c20c8034f9dbcdd800c2634ab85602ef1069a5486302b813e"
+    },
+    {
+      "path": "native/object-inventory.json",
+      "bytes": 10668164,
+      "sha256": "3c9d293ee551a1ab6dfa93c6c82ce98634e1997c8ed691f94d534169e434feb3"
+    },
+    {
+      "path": "native/protection-before.json",
+      "bytes": 1012,
+      "sha256": "77f660eab14c7765d2f7955a7d3d92b4a7cab8b9d2ce775ca3f4aa2490cd6c58"
+    },
+    {
+      "path": "process.json",
+      "bytes": 14715,
+      "sha256": "b42575730e2080428b3bc06505412f036f20b465561c9906a1f27749645708fd"
+    },
+    {
+      "path": "run.log",
+      "bytes": 958,
+      "sha256": "ebeb682ec176a049c5114f19b43650bf0199eb917aae83e23401598b4bfd1551"
+    }
+  ],
+  "records_count": 9,
+  "original_bytes": 10717613,
+  "large_inventory_representation": "object-inventory-table, restored by unchanged pack-wheel-interface-evidence.py",
+  "remaining_records": "raw/ exact original bytes",
+  "no_model_or_image_bytes": true
+}
