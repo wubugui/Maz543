@@ -14,7 +14,7 @@ assert a.artifact.stat().st_size == 67937160
 assert sha(a.artifact) == '3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f'
 script = Path(__file__).with_name('verify_restored_native.py')
 compile(script.read_bytes(), str(script), 'exec')
-protected = [a.artifact, a.manifest, script, Path(__file__), script.with_name('door-part-types.json')]
+protected = [a.artifact, a.manifest, script, Path(__file__)]
 protected += sorted(x for x in a.evidence.rglob('*') if x.is_file())
 before = {str(x.resolve()): sha(x) for x in protected}
 a.out.mkdir(parents=True, exist_ok=False)

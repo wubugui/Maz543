@@ -1,0 +1,22 @@
+{
+  "status": "REMOTE_BYTES_AND_NATIVE_LOAD_PASS_ARCHIVE_ASSUMPTION_REJECTED",
+  "commit": "4a4c1d45d1f0e8a0e0d259d40944aa39415d300b",
+  "remote_paths_exact": 142,
+  "remote_unique_blobs": 139,
+  "remote_bytes_exact": 72883682,
+  "source_bytes": 67937160,
+  "source_sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+  "original_pngs_exact": 2,
+  "native_attempt01_exit_code": 1,
+  "native_attempt01_elapsed_seconds": 11.249919248992228,
+  "native_attempt01_failed_assertion": "incorrect new assumption: all44 door parts are MESH",
+  "existing_published_inventory_actual_types": {
+    "MESH": 36,
+    "CURVE": 8
+  },
+  "native_source_not_modified": true,
+  "corrected_verifier_executed": false,
+  "classification_evidence": "door-part-types.json is extracted from the pinned existing original-cab inventory; rod() construction uses closed CURVE for gaps and open CURVE for handles",
+  "original_motion_tests_not_rerun": true,
+  "all16_vehicle_gates": "OPEN"
+}

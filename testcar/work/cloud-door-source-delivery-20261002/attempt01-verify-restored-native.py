@@ -27,7 +27,7 @@ try:
     source=a.evidence/'verify-fresh-executed-script.py'
     assert sha(source)=='4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9'
     wanted={'require','as_plain','scalar_rna','array','mesh_signature','driver_description',
-            'animation_state','value_guard','property_guard','expressions','controls_guard','snapshot'}
+            'animation_state','value_guard','property_guard','expressions','controls_guard'}
     defs=[n for n in ast.parse(source.read_bytes()).body if isinstance(n,ast.FunctionDef) and n.name in wanted]
     assert len(defs)==len(wanted)
     H=dict(bpy=bpy,np=np,json=json,hashlib=hashlib,math=math,PROP='open_angle_deg',META='maz_native_axis_control_v1')
@@ -50,39 +50,24 @@ try:
     specs=prior['specifications']
     actual_controls=json.loads(json.dumps(H['controls_guard'](specs)))
     assert actual_controls==prior['final_driver_records']
-    type_file=Path(__file__).with_name('door-part-types.json')
-    assert sha(type_file)=='748c084d0fecf2224e5e93d4486e1d3ebabea0d6e3774919ae50a9e818e48c34'
-    expected_types={row['name']:row for row in json.loads(type_file.read_text())['parts']}
-    assert len(expected_types)==44 and sum(x['type']=='CURVE' for x in expected_types.values())==8
     parts=[name for s in specs for name in s['parts']]
     assert len(parts)==len(set(parts))==44
-    checked=set();curves_checked=[];dg=bpy.context.evaluated_depsgraph_get()
+    checked=set()
     for spec in specs:
         hinge=bpy.data.objects[spec['hinge']]
         assert hinge['open_angle_deg']==0 and hinge.type=='EMPTY'
         assert set(spec['parts'])=={o.name for o in hinge.children_recursive}
         for name in spec['parts']:
             obj=bpy.data.objects[name]
-            baseline=expected_types[name]
-            assert obj.type==baseline['type'] and obj.parent==hinge and obj.parent.name==baseline['parent'],name
-            evaluated=H['snapshot'](obj,dg)
-            assert len(evaluated[0])==baseline['geometry']['vertices'] and len(evaluated[1])==baseline['geometry']['triangles'],name
-            if baseline['type']=='MESH':
-                sig=H['mesh_signature'](obj.data);expected=expected_meshes[obj.data.name]
-                assert sig['sha256']==expected['sha256'] and sig['counts']==expected['counts'],name
-                assert sig['fields']==mesh_manifest['field_schemas'][expected['field_schema']],name
-                checked.add(obj.data.name)
-            else:
-                assert baseline['type']=='CURVE' and name.endswith(('_gap','_handle'))
-                assert obj.data.name==name+'_Curve' and obj.data.dimensions=='3D'
-                assert len(obj.data.splines)==1 and obj.data.splines[0].type=='POLY'
-                assert obj.data.splines[0].use_cyclic_u==name.endswith('_gap')
-                curves_checked.append(name)
+            assert obj.type=='MESH' and obj.parent==hinge
+            sig=H['mesh_signature'](obj.data);expected=expected_meshes[obj.data.name]
+            assert sig['sha256']==expected['sha256'] and sig['counts']==expected['counts'],name
+            assert sig['fields']==mesh_manifest['field_schemas'][expected['field_schema']],name
+            checked.add(obj.data.name)
     assert sha(artifact)==manifest['sha256']
     report.update(status='REMOTE_RESTORED_NATIVE_FRESH_OPEN_PASS',actual_opened_filepath=bpy.data.filepath,
                   bytes=manifest['bytes'],sha256=manifest['sha256'],objects=10434,mesh_name_count_topology_exact=7470,
-                  door_part_bindings_and_evaluated_counts_exact=44,door_mesh_stored_signatures_exact=len(checked),
-                  original_native_curve_objects_checked=curves_checked,curve_payload_signature_recomputed=False,
+                  door_part_bindings_exact=44,door_mesh_stored_signatures_exact=len(checked),
                   exact_valid_simple_native_drivers=16,closed_angle_properties=4,
                   source_file_unchanged=True,original_cloud_model_not_read=True,
                   full7470_mesh_payload_signatures_recomputed=False)

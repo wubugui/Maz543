@@ -1,0 +1,404 @@
+{
+  "source_inventory": "testcar/work/cloud-original-cab-scope-20261001/inventory.json",
+  "source_inventory_sha256": "36ff75eb3ec7ceb5761d4f21adb16667f7d79674df94793191db20d5eda1ee77",
+  "source_native_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "native_candidate_sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+  "parts": [
+    {
+      "name": "BL_Door_-1_0_fasteners",
+      "type": "MESH",
+      "parent": "cab_pivot_002",
+      "geometry": {
+        "vertices": 1344,
+        "triangles": 2128
+      }
+    },
+    {
+      "name": "BL_Door_-1_0_gap",
+      "type": "CURVE",
+      "parent": "cab_pivot_002",
+      "geometry": {
+        "vertices": 384,
+        "triangles": 768
+      }
+    },
+    {
+      "name": "BL_Door_-1_0_handle",
+      "type": "CURVE",
+      "parent": "cab_pivot_002",
+      "geometry": {
+        "vertices": 16,
+        "triangles": 16
+      }
+    },
+    {
+      "name": "BL_Door_-1_0_handle_recess",
+      "type": "MESH",
+      "parent": "cab_pivot_002",
+      "geometry": {
+        "vertices": 320,
+        "triangles": 636
+      }
+    },
+    {
+      "name": "BL_Door_-1_0_hinge_1.47",
+      "type": "MESH",
+      "parent": "cab_pivot_002",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_-1_0_hinge_1.94",
+      "type": "MESH",
+      "parent": "cab_pivot_002",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_-1_0_hinge_2.38",
+      "type": "MESH",
+      "parent": "cab_pivot_002",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_-1_0_lock",
+      "type": "MESH",
+      "parent": "cab_pivot_002",
+      "geometry": {
+        "vertices": 160,
+        "triangles": 316
+      }
+    },
+    {
+      "name": "BL_Door_-1_0_pressed_shell",
+      "type": "MESH",
+      "parent": "cab_pivot_002",
+      "geometry": {
+        "vertices": 768,
+        "triangles": 1536
+      }
+    },
+    {
+      "name": "BL_Door_-1_0_rubber_seal",
+      "type": "MESH",
+      "parent": "cab_pivot_002",
+      "geometry": {
+        "vertices": 768,
+        "triangles": 1536
+      }
+    },
+    {
+      "name": "BL_Door_-1_0_window",
+      "type": "MESH",
+      "parent": "cab_pivot_002",
+      "geometry": {
+        "vertices": 96,
+        "triangles": 188
+      }
+    },
+    {
+      "name": "BL_Door_-1_1_fasteners",
+      "type": "MESH",
+      "parent": "cab_pivot_003",
+      "geometry": {
+        "vertices": 1368,
+        "triangles": 2166
+      }
+    },
+    {
+      "name": "BL_Door_-1_1_gap",
+      "type": "CURVE",
+      "parent": "cab_pivot_003",
+      "geometry": {
+        "vertices": 384,
+        "triangles": 768
+      }
+    },
+    {
+      "name": "BL_Door_-1_1_handle",
+      "type": "CURVE",
+      "parent": "cab_pivot_003",
+      "geometry": {
+        "vertices": 16,
+        "triangles": 16
+      }
+    },
+    {
+      "name": "BL_Door_-1_1_handle_recess",
+      "type": "MESH",
+      "parent": "cab_pivot_003",
+      "geometry": {
+        "vertices": 320,
+        "triangles": 636
+      }
+    },
+    {
+      "name": "BL_Door_-1_1_hinge_1.47",
+      "type": "MESH",
+      "parent": "cab_pivot_003",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_-1_1_hinge_1.94",
+      "type": "MESH",
+      "parent": "cab_pivot_003",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_-1_1_hinge_2.38",
+      "type": "MESH",
+      "parent": "cab_pivot_003",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_-1_1_lock",
+      "type": "MESH",
+      "parent": "cab_pivot_003",
+      "geometry": {
+        "vertices": 160,
+        "triangles": 316
+      }
+    },
+    {
+      "name": "BL_Door_-1_1_pressed_shell",
+      "type": "MESH",
+      "parent": "cab_pivot_003",
+      "geometry": {
+        "vertices": 768,
+        "triangles": 1536
+      }
+    },
+    {
+      "name": "BL_Door_-1_1_rubber_seal",
+      "type": "MESH",
+      "parent": "cab_pivot_003",
+      "geometry": {
+        "vertices": 768,
+        "triangles": 1536
+      }
+    },
+    {
+      "name": "BL_Door_-1_1_window",
+      "type": "MESH",
+      "parent": "cab_pivot_003",
+      "geometry": {
+        "vertices": 96,
+        "triangles": 188
+      }
+    },
+    {
+      "name": "BL_Door_1_0_fasteners",
+      "type": "MESH",
+      "parent": "cab_pivot_006",
+      "geometry": {
+        "vertices": 1344,
+        "triangles": 2128
+      }
+    },
+    {
+      "name": "BL_Door_1_0_gap",
+      "type": "CURVE",
+      "parent": "cab_pivot_006",
+      "geometry": {
+        "vertices": 384,
+        "triangles": 768
+      }
+    },
+    {
+      "name": "BL_Door_1_0_handle",
+      "type": "CURVE",
+      "parent": "cab_pivot_006",
+      "geometry": {
+        "vertices": 16,
+        "triangles": 16
+      }
+    },
+    {
+      "name": "BL_Door_1_0_handle_recess",
+      "type": "MESH",
+      "parent": "cab_pivot_006",
+      "geometry": {
+        "vertices": 320,
+        "triangles": 636
+      }
+    },
+    {
+      "name": "BL_Door_1_0_hinge_1.47",
+      "type": "MESH",
+      "parent": "cab_pivot_006",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_1_0_hinge_1.94",
+      "type": "MESH",
+      "parent": "cab_pivot_006",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_1_0_hinge_2.38",
+      "type": "MESH",
+      "parent": "cab_pivot_006",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_1_0_lock",
+      "type": "MESH",
+      "parent": "cab_pivot_006",
+      "geometry": {
+        "vertices": 160,
+        "triangles": 316
+      }
+    },
+    {
+      "name": "BL_Door_1_0_pressed_shell",
+      "type": "MESH",
+      "parent": "cab_pivot_006",
+      "geometry": {
+        "vertices": 768,
+        "triangles": 1536
+      }
+    },
+    {
+      "name": "BL_Door_1_0_rubber_seal",
+      "type": "MESH",
+      "parent": "cab_pivot_006",
+      "geometry": {
+        "vertices": 768,
+        "triangles": 1536
+      }
+    },
+    {
+      "name": "BL_Door_1_0_window",
+      "type": "MESH",
+      "parent": "cab_pivot_006",
+      "geometry": {
+        "vertices": 96,
+        "triangles": 188
+      }
+    },
+    {
+      "name": "BL_Door_1_1_fasteners",
+      "type": "MESH",
+      "parent": "cab_pivot_007",
+      "geometry": {
+        "vertices": 1368,
+        "triangles": 2166
+      }
+    },
+    {
+      "name": "BL_Door_1_1_gap",
+      "type": "CURVE",
+      "parent": "cab_pivot_007",
+      "geometry": {
+        "vertices": 384,
+        "triangles": 768
+      }
+    },
+    {
+      "name": "BL_Door_1_1_handle",
+      "type": "CURVE",
+      "parent": "cab_pivot_007",
+      "geometry": {
+        "vertices": 16,
+        "triangles": 16
+      }
+    },
+    {
+      "name": "BL_Door_1_1_handle_recess",
+      "type": "MESH",
+      "parent": "cab_pivot_007",
+      "geometry": {
+        "vertices": 320,
+        "triangles": 636
+      }
+    },
+    {
+      "name": "BL_Door_1_1_hinge_1.47",
+      "type": "MESH",
+      "parent": "cab_pivot_007",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_1_1_hinge_1.94",
+      "type": "MESH",
+      "parent": "cab_pivot_007",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_1_1_hinge_2.38",
+      "type": "MESH",
+      "parent": "cab_pivot_007",
+      "geometry": {
+        "vertices": 192,
+        "triangles": 380
+      }
+    },
+    {
+      "name": "BL_Door_1_1_lock",
+      "type": "MESH",
+      "parent": "cab_pivot_007",
+      "geometry": {
+        "vertices": 160,
+        "triangles": 316
+      }
+    },
+    {
+      "name": "BL_Door_1_1_pressed_shell",
+      "type": "MESH",
+      "parent": "cab_pivot_007",
+      "geometry": {
+        "vertices": 768,
+        "triangles": 1536
+      }
+    },
+    {
+      "name": "BL_Door_1_1_rubber_seal",
+      "type": "MESH",
+      "parent": "cab_pivot_007",
+      "geometry": {
+        "vertices": 768,
+        "triangles": 1536
+      }
+    },
+    {
+      "name": "BL_Door_1_1_window",
+      "type": "MESH",
+      "parent": "cab_pivot_007",
+      "geometry": {
+        "vertices": 96,
+        "triangles": 188
+      }
+    }
+  ]
+}

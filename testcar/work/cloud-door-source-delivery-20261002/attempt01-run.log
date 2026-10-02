@@ -1,0 +1,11 @@
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/maz-door-remote-4a4c1d45-20261002/restored/MAZ543A_Native_Barrel_Axis_Controls.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/a29d03198654/maz-door-remote-4a4c1d45-20261002/files/testcar/outputs/cloud-native-door-axis-20261002/verify_restored_native.py", line 62, in <module>
+    assert obj.type=='MESH' and obj.parent==hinge
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+
+Error: script failed, file: '/workspace/scratch/a29d03198654/maz-door-remote-4a4c1d45-20261002/files/testcar/outputs/cloud-native-door-axis-20261002/verify_restored_native.py', exiting.
+
+Blender quit

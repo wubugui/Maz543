@@ -1,0 +1,27 @@
+{
+  "status": "ORIGINAL_REMOTE_PNG_BYTES_AND_DECODE_VALID",
+  "images": [
+    {
+      "path": "views/closed.png",
+      "bytes": 1576059,
+      "sha256": "87864120692a8ac6fd33cdfdc39b5493e2b304320ed3596494b41b327bfb57ad",
+      "size": [
+        1600,
+        1100
+      ],
+      "mode": "RGB",
+      "decoded_rgba_sha256": "b534726514a34f51d96b288ec8cddf59f073170d496dbafdced7f5345a30f11c"
+    },
+    {
+      "path": "views/open99.png",
+      "bytes": 1585359,
+      "sha256": "0bbd1ee0462b738ed80b30b4e76937298052eb686a7de3385336bab2f4d99cf3",
+      "size": [
+        1600,
+        1100
+      ],
+      "mode": "RGB",
+      "decoded_rgba_sha256": "82cfa972b0bc66a8a7bcf551c693dc7649e051c28dabdd95f5b3a2f7ddeb5459"
+    }
+  ]
+}

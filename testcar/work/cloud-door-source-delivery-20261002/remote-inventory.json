@@ -1,0 +1,1002 @@
+{
+  "parent": "bf88d2530a098de43bc851bed752def4987a4de3",
+  "tree": "f13c07feed7bcbfa0ceb9d013a7c652c0c58e088",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 29013,
+      "sha256": "74331960ac3706d4165d6a6b88fdae387141a23f0e061c8bda04d9b58d9768da",
+      "git_blob_sha1": "4b11bb26e4dc39c78eae26f0d57ecccafb2c74e9",
+      "binary": false
+    },
+    {
+      "path": "CLOUD_CONTINUATION.md",
+      "bytes": 159193,
+      "sha256": "ee31a58a69d9091c56aafdc60cfd9c68b3ca45ce6f2b8babb49511b3380bfa2e",
+      "git_blob_sha1": "43ea32e0f0193fd6560f2d705500fa89350bb55a",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/README.md",
+      "bytes": 2595,
+      "sha256": "0c7875784d2a078029050d40988f81c1aa85e4a912509477f3772e0539def5d1",
+      "git_blob_sha1": "b2bb3742cfafa71d0f4839a4760cfd846bcf8f03",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/asset-backlog.json",
+      "bytes": 5890,
+      "sha256": "3a17f2e83292518f46eca29599d28324cca1d2786239b02887253aed70e1a3a0",
+      "git_blob_sha1": "4ca9b04def42d9f39ffb4715ee3d0210766312b0",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/blob-upload-verification.json",
+      "bytes": 22732,
+      "sha256": "8e3c9b1ea729f5e07b259a80ed2b0e644f3f47fb19bd891c2d53e6f886744c8c",
+      "git_blob_sha1": "6db22c5fd29fb0e23cb6d5703e9aefc6fba14c6b",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/image-manifest.json",
+      "bytes": 908,
+      "sha256": "5ec570e687dcb57f8f0ddeaadc1c435c7e1fa18eb23730b5088c23cc8f220757",
+      "git_blob_sha1": "778ba9d22a9066e830a84714dd27b7be73ee232e",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/manifest.json",
+      "bytes": 24511,
+      "sha256": "26f5303fc63a3b3a2391a63c1adf5ad3a8c95f15d0c4b4ac70b8d66b6dbb0946",
+      "git_blob_sha1": "b6f13b60788eaedd83c76be974a51c9e05c24279",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/run_restored_verification.py",
+      "bytes": 4055,
+      "sha256": "08d59c85a3b3128c537f6e646f117f8a321eb05da6188d4851f3f8760fc2078a",
+      "git_blob_sha1": "c61a264909cc7ba75cc0d0c88ccf50d9de09d67e",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-000.bin",
+      "bytes": 786432,
+      "sha256": "689c9c86b160faf173ebca5690d78204ea8e9c9ed3caab3c9bdd2a460b5bf7aa",
+      "git_blob_sha1": "1240a9f255192706cacd6d7b55bb1eca0402b8d8",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-001.bin",
+      "bytes": 786432,
+      "sha256": "038bc499cf4a9a661cd324592fb598cbcd3c3e406ebb19b6f43d6e22faa3f39a",
+      "git_blob_sha1": "e7d421a64306e1e33f8e45738d23c97437b98eb0",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-002.bin",
+      "bytes": 786432,
+      "sha256": "ec30e32e6627932fb88fc40ebf9c53840604115b30066b236277e730eeb3b682",
+      "git_blob_sha1": "8b44931668a547c8104107885999f6b133fbb9ad",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-003.bin",
+      "bytes": 786432,
+      "sha256": "989651d8c60e4c9f8378c625dba9cc9a5cc74b5e5f3b0a9b32913346dffbc432",
+      "git_blob_sha1": "945b5c453e49be469d7843b43307fd8e8eff40d4",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-004.bin",
+      "bytes": 786432,
+      "sha256": "b57fb10893ac4afb9417dc03cf95b6eaf52a4975cad6ef2dd36a9419c00feafb",
+      "git_blob_sha1": "f0cc6863072be34623239317989e66b2f081c2d2",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-005.bin",
+      "bytes": 786432,
+      "sha256": "a5048619cb2f9bbc4b2e9e442ded9de798904104f5b0ab354429e3676c512586",
+      "git_blob_sha1": "ba57c775cba242b0fa96f2740038625f7ff38653",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-006.bin",
+      "bytes": 786432,
+      "sha256": "43aec4901a648637f5d5ac026391ad670ea72b133f40ee9c732fe413c9f4c4c1",
+      "git_blob_sha1": "5d58405254add195481c585a314d7e4405ca4802",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-007.bin",
+      "bytes": 786432,
+      "sha256": "2ebe6af4e9529f99be1f58382d0eb49279ea8fe3e9c178b9f20d468d5510cb69",
+      "git_blob_sha1": "fa48b92c19a41dd248b21ed8305762d3dec63c1a",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-008.bin",
+      "bytes": 786432,
+      "sha256": "a9c87cb429beb4167601706555ca4b6fb3a397aa37eccc6239ae2db2173eda7f",
+      "git_blob_sha1": "71b8c52ce9ca409a414aae6bdca5d3f94545754e",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-009.bin",
+      "bytes": 786432,
+      "sha256": "9ac5c2d091f204bdc8caff2e59d0c36b574e05ae8307139613e0b9fcb0548986",
+      "git_blob_sha1": "f421b3108f709c3ed3b9d832141d78df2944f719",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-010.bin",
+      "bytes": 786432,
+      "sha256": "ce414fcc695fdc149259b3952d77d63f7b4f3861a44d625a6ee8420d2c95c4fe",
+      "git_blob_sha1": "844000353d263a1052e297937ed58f523adae299",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-011.bin",
+      "bytes": 786432,
+      "sha256": "ff650002f2d32e6762e1659240ce6cd18a0df944fd0603187f7cbe9d8ac45e58",
+      "git_blob_sha1": "64b4204ae782d3bec8541b4e3d7a14ab6a283fa2",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-012.bin",
+      "bytes": 786432,
+      "sha256": "a7f1e8c7cb788f267530eba7461e383956108a69ffc87ed6b3f06ca014a36de6",
+      "git_blob_sha1": "3b463ef27f03ccf20c0ad2735953d558304bf95b",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-013.bin",
+      "bytes": 786432,
+      "sha256": "a29375a698dd1129b9c353e3fff466fc8ab3669af00fed3d6e9d1d64191ba019",
+      "git_blob_sha1": "ce64957992354542d810508f818710810429721f",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-014.bin",
+      "bytes": 786432,
+      "sha256": "cfaa2b61311aea912596d8c307bf26df232354b8e4ac6f7271964479bc49816d",
+      "git_blob_sha1": "396f2a08f7e44a11798d6499e7996c40ac7446f7",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-015.bin",
+      "bytes": 786432,
+      "sha256": "b94f1907537235e8f1333c70ff9fa4e072b3be73c25ce096c330ecb805dadb9e",
+      "git_blob_sha1": "a589d3d670e38949b8528b843813fca1c2b0aa05",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-016.bin",
+      "bytes": 786432,
+      "sha256": "b1865595a8161f1ca389e47fc1c8c07cd96558638d6063663a0e6a1f7dc53169",
+      "git_blob_sha1": "aa2dae511654540b63bc1f7b7779e7179e44f7d0",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-017.bin",
+      "bytes": 786432,
+      "sha256": "190591f4690733a834f74af9ebcb6f9e6b8a4a4eec4283c2ae942754fba2a341",
+      "git_blob_sha1": "e5e68d2e86eff63f1a171ef9658eb6cabf63bd54",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-018.bin",
+      "bytes": 786432,
+      "sha256": "31fa92cf3b4c8dea2b8963717dda6be932da01cb0b61919faca1a5934533e207",
+      "git_blob_sha1": "0def8fe2125bdbb6ccdbaf3fe505f9117324775b",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-019.bin",
+      "bytes": 786432,
+      "sha256": "e1c81fc4ba333899ce5db2580174b1c4970932d574f78c700862da09e8f68fcd",
+      "git_blob_sha1": "043c18233d41d4c5ee5b3d95a228f5a9facf7a25",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-020.bin",
+      "bytes": 786432,
+      "sha256": "a5e477493ff05d380acf66ad190661bef74d4bb15ff4f2e20dd793a1ba2bce3f",
+      "git_blob_sha1": "8b7f519dbeee090647e64ca7e133e4afb574fa9d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-021.bin",
+      "bytes": 786432,
+      "sha256": "828c6db2a2cc25608e0d1091294f0d56959e594d584b72fcc801c6d6e2d24948",
+      "git_blob_sha1": "dae847c444d62bf58155c29f7bf699db8784f734",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-022.bin",
+      "bytes": 786432,
+      "sha256": "4abd5bf97256c1373b9c226decdfb5c9f4cba03172212db63116a1a5f77d3e16",
+      "git_blob_sha1": "688c52fdd1f13cc2ef31016c5957c00e85e94482",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-023.bin",
+      "bytes": 786432,
+      "sha256": "367cc23b2223765330a5b86332e083569b3f57839979b8a4a1f46e555bf20b4e",
+      "git_blob_sha1": "dd971a371159b2b03317fd6c68d4e2ef615c6cc9",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-024.bin",
+      "bytes": 786432,
+      "sha256": "5f56c68729795e019d7f95f708484b687a4b11d283b2f87360272824ca9935a7",
+      "git_blob_sha1": "03327201549a481b40abd404683b0d691029dc2f",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-025.bin",
+      "bytes": 786432,
+      "sha256": "c6e043e779799abd110dd9646f9945e55620347a908814960bffe25eb8af507d",
+      "git_blob_sha1": "77beaf6f11f237173a32f04d3916e4f941d597d7",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-026.bin",
+      "bytes": 786432,
+      "sha256": "04c4c79c8fcda39a06a14a2d9911c848c927fbb9c7e09bd0ff82370de5fb4e58",
+      "git_blob_sha1": "1d77545a988efa6464abfc1dd3a8a4ad9981e6f1",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-027.bin",
+      "bytes": 786432,
+      "sha256": "bd0f8c39b75e12c27ea02310c33cc68059374873f58359fe5a714df36506127a",
+      "git_blob_sha1": "d56db0938f1a89c451debdf669fffef61f08c4ea",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-028.bin",
+      "bytes": 786432,
+      "sha256": "fa4d2dbd63b6f89a28f4c14ed726fe07f80b90274749ffb98a03042baf37978e",
+      "git_blob_sha1": "38abf0ee69c00aaad491ad1af3cc454c9f343f35",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-029.bin",
+      "bytes": 786432,
+      "sha256": "77b87af110c702755021b751f2ddc08f0b40f917e6d1f13462f92b0bc2d49b16",
+      "git_blob_sha1": "055e82452c1bd248e35c125c3215ba8bcc79d4b5",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-030.bin",
+      "bytes": 786432,
+      "sha256": "f9ea3dc56b500efeb78f5981c96022494727cafd42940c7b85d70a6ed8ed9854",
+      "git_blob_sha1": "94ffa1b5a077e44d2d9216e4cdf824c05a7e875a",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-031.bin",
+      "bytes": 786432,
+      "sha256": "368cd6bcfff777437d71fe0b9dfc3cef3d33499bdea713ac22fa1dba0ace732f",
+      "git_blob_sha1": "39634e40a9fa2b7725d783f94095492cd643c023",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-032.bin",
+      "bytes": 786432,
+      "sha256": "8981a29952c0a59746ff0a86b992db04efb714967a49383d9f91602b58716ee1",
+      "git_blob_sha1": "8b7bbb56dfbc5f3bbea586ea2afe4cca58f7df9f",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-033.bin",
+      "bytes": 786432,
+      "sha256": "154ec68a9da233bd771457f6fa1c1c710d6f2d9064dc5588b8277402d2a3fec2",
+      "git_blob_sha1": "4f28fdab6993ce93c3efe352e52a5f4715be719d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-034.bin",
+      "bytes": 786432,
+      "sha256": "1e95155a35c9613fd8eb90ab02a59e4b7d20305bb070ae63ffe4d4fee821a055",
+      "git_blob_sha1": "ef9519d0cf81d85cfcea94023f841aa496c60514",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-035.bin",
+      "bytes": 786432,
+      "sha256": "31cc6c57f09d93a7f2e1cfc0a290e147ffeabb153c333ad2cc2aa4de37871bfc",
+      "git_blob_sha1": "8a7bf97bc2eb6b0cbf455c42fd91664a4671fde3",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-036.bin",
+      "bytes": 786432,
+      "sha256": "ec39a739ed416f8930e473a4a2d1f1e2e4f592e279933bbee20ba87584ebd9e6",
+      "git_blob_sha1": "3c6d1a305f151401fa282dede7f9e0854ba16958",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-037.bin",
+      "bytes": 786432,
+      "sha256": "3cf41658bb9fb605e12168f589401bc0c08a48be5a74c427ff3c941c6de03613",
+      "git_blob_sha1": "5ccdd05bc2302aed1690b504d4816d946eafa267",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-038.bin",
+      "bytes": 786432,
+      "sha256": "adb8c1245eb6ebb05f6a57d6b26672a9ea4a00e3217d43474c9fc8af3647cffc",
+      "git_blob_sha1": "e5df0784687c62337cbbec3cd5d7fb2b749ba26a",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-039.bin",
+      "bytes": 786432,
+      "sha256": "7879f3828a9478862cd2fa87e5a13c0e9892a093e18bbb3d0ceefcec0b7220c8",
+      "git_blob_sha1": "81364e3f6c54a9a9718f8916af011fddaf7d3d01",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-040.bin",
+      "bytes": 786432,
+      "sha256": "d8fb39cdd91ee148618c6adb0b0c8b117f9713b56b8f257e330b0c04f5430e1d",
+      "git_blob_sha1": "dcef5849d62e4dd33d8be1c92c8c82dfe460c797",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-041.bin",
+      "bytes": 786432,
+      "sha256": "0addf52d1d61f383747e57bdcfe1249d14ce4e6458044f7e631aeb4561defbd5",
+      "git_blob_sha1": "a5e91c159ce7d7aaba4f411b6cb195027eaca10d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-042.bin",
+      "bytes": 786432,
+      "sha256": "7fed2f7c28959494cefe05e21e291ae62bb6315bf8f5c628c74ca30863c19d0b",
+      "git_blob_sha1": "29e59c83c84563e2c8cf0fd7428682a0d6329ba0",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-043.bin",
+      "bytes": 786432,
+      "sha256": "27f2d976f5acb913e8338c8d790c8ae782b9f7053060f7f07caa4f27d14e2045",
+      "git_blob_sha1": "44e009b3372f25dd6c7fa0d223117cbd287b508d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-044.bin",
+      "bytes": 786432,
+      "sha256": "e301776c1eeb53bd2d3429c86006a743616e1c3dce4cd2dc3e833b84bfb363c3",
+      "git_blob_sha1": "43d028be87af7705716d4ec146e31604c3b4aae1",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-045.bin",
+      "bytes": 786432,
+      "sha256": "ff3d3f67370ebb5456d833a4d26340e1a50f0f692bf4d9e6f88442ed832eff2c",
+      "git_blob_sha1": "5455e9f5a55e5aff172245492dbfdb9746dff845",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-046.bin",
+      "bytes": 786432,
+      "sha256": "9a3cb14705c8eb5bfaf515da5f6f3040a82ef33b406718a1c35ff4797993144a",
+      "git_blob_sha1": "f1e8a3ef90fe126ccb631a8481235d6e1b196e16",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-047.bin",
+      "bytes": 786432,
+      "sha256": "71659361be8bf30bdd049911f116132f644f023fc22d1e4c527abdc870117559",
+      "git_blob_sha1": "28c6e6d50c7a552349c9aca0c7e5fb448c10e437",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-048.bin",
+      "bytes": 786432,
+      "sha256": "9643e541a4b20c636eb488a331ffc2e5a4406a6ba5f542067465c428fe14ca59",
+      "git_blob_sha1": "265b8073824bc91e7f42dcb90e415f7f54880351",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-049.bin",
+      "bytes": 786432,
+      "sha256": "c5a5f561ebf97427636dd96cc1cbd4d9fe2a567ade80382b156950680c86a84b",
+      "git_blob_sha1": "b799c322acc930104406a08919c24733e0fa237c",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-050.bin",
+      "bytes": 786432,
+      "sha256": "0187676c1eb7f5411911151ebf68a92245d0e7a3ae937b8c684a248b443db3ce",
+      "git_blob_sha1": "9e6e339dbadae12f0abc1b5aa522920cbb3001a2",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-051.bin",
+      "bytes": 786432,
+      "sha256": "b9285c87a7bc04c18fab943b572ea786b6fbad7df2b0e07d867b3ac0b7d2ff8c",
+      "git_blob_sha1": "9f49443c1d33d2d0a1abc0ee0c4f93e76db2e174",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-052.bin",
+      "bytes": 786432,
+      "sha256": "65d153b003c9f8df90ba24e24b895db358a891c62be9e0b4de693bee75905205",
+      "git_blob_sha1": "b0d41e95253f4c31da3e8578a0ee055c45da0c3e",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-053.bin",
+      "bytes": 786432,
+      "sha256": "59a9caa266d37c59c12cf7b30bf21f25192898a36ee26ec8b2015f65ec50ce74",
+      "git_blob_sha1": "d9b13c4da8da46d9f60e8219c198692ffb0d255d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-054.bin",
+      "bytes": 786432,
+      "sha256": "95de6d85a0344315b7cec2bacaf2196f0d449bc94c96e8d7d507b13b3da24358",
+      "git_blob_sha1": "369ed367174e641f5772ff4798e4213cd133aa8d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-055.bin",
+      "bytes": 786432,
+      "sha256": "6acfedf035842cd97516b95d046ebd7bffb29519cc529519c82b9e0bc4ba75c3",
+      "git_blob_sha1": "ff987bafe9edfddac43a66c622cd5fea327a3bdd",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-056.bin",
+      "bytes": 786432,
+      "sha256": "0c37ed5cec19f650c624c6310fbe5521155fbd6ea4721953de03c285ca2051d0",
+      "git_blob_sha1": "c42d770149c091926e273cffd0df106d929b841c",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-057.bin",
+      "bytes": 786432,
+      "sha256": "4ea5ff43080778f1639e9f00f8de638e62208c070d91638cfe9a2d8b43628254",
+      "git_blob_sha1": "1b4018426148b092b29734ad86d92197e91648c2",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-058.bin",
+      "bytes": 786432,
+      "sha256": "0aca3067911891b38e4e20772219ed49ada44e015ddedd97176d904c85116f8e",
+      "git_blob_sha1": "2c2881c4d9f496dddd73b395e8949f205cefedc0",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-059.bin",
+      "bytes": 786432,
+      "sha256": "ca5ffedf5c4e37acb5cd4e3639f5f2257891ffa673a4577dabfe59011c77435e",
+      "git_blob_sha1": "d94a70eb88e14653631d445f1c481ef299d0e90a",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-060.bin",
+      "bytes": 786432,
+      "sha256": "82030bb76b33694ec6e36c704ec422d43e11b3179b0688c046ff2eacb531d5f8",
+      "git_blob_sha1": "fdbae214d65e3d97fd503d7d423bdb0f184203a8",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-061.bin",
+      "bytes": 786432,
+      "sha256": "57d6810cae9086ad481c36c49fb4d390d7d81386548ff1c78a88859da98ae35b",
+      "git_blob_sha1": "dda720457b140d446163604e475f168610dfe0ae",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-062.bin",
+      "bytes": 786432,
+      "sha256": "7480260a5511f84269ad8d64746f9fe8383490b925335b568188857024acf5cd",
+      "git_blob_sha1": "31df170a3d35a9849b7557fbd5b8c0b6ca89f2ae",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-063.bin",
+      "bytes": 786432,
+      "sha256": "c2e69a22c7efbe69b3c57632a84afddb73eac602f2cf5ae12830bbd1c897989a",
+      "git_blob_sha1": "9610cd093820a9ad97579b9d2fed736a1e4bb755",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-064.bin",
+      "bytes": 786432,
+      "sha256": "32f40babc5faab5bb7f41e9a27b6ad86f5412969d742b35fd414f397258ccd07",
+      "git_blob_sha1": "4d03125ce9aa5f69a1c942ce1767b5b73defe566",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-065.bin",
+      "bytes": 786432,
+      "sha256": "1d43f68741b1136c4b5fd9418be2a07ac14af861f90d95a25e24b3f466f53ad4",
+      "git_blob_sha1": "23ed904288355d6366bba380f7d32b328120809c",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-066.bin",
+      "bytes": 786432,
+      "sha256": "88076ec8b7a89ea2a096841045158ae01d335b535d010355297fda8143e4b678",
+      "git_blob_sha1": "aba971fc0260e4004d58b31f1940f940aa354dca",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-067.bin",
+      "bytes": 786432,
+      "sha256": "d0bcb8a8b6648a29907b1f84014b79480dfdabd63ced25cca422e749cbd42693",
+      "git_blob_sha1": "718bd53f235ad5205b0dbc07d0fd4ebe6f1a7de6",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-068.bin",
+      "bytes": 786432,
+      "sha256": "71e06535c3ee566be76c6912dea9bb65c0ad4c8a384fa494ba8f8315aa234ef4",
+      "git_blob_sha1": "88c2390b4956c53d3695793a93145636395d68b3",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-069.bin",
+      "bytes": 786432,
+      "sha256": "4efcaf71b8b5d66eb3793fa0c16cbab4962952c74b6f9ea08505dd4690f117c5",
+      "git_blob_sha1": "a4102ef554ebd06bddd07fa104597f8f1b940b85",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-070.bin",
+      "bytes": 786432,
+      "sha256": "b27c2ca063a1ff3843d046364925ffbcf9d99fdc8d067e511fee0ffd96ee0c6b",
+      "git_blob_sha1": "d75ddb1eb892671e0117c03e745c63e406f64790",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-071.bin",
+      "bytes": 786432,
+      "sha256": "a54552f41992a6aa640cdca1b9e30cda925dea3f760f1ae98e9b75943ee6a139",
+      "git_blob_sha1": "41fac643cfb013640921f9d0226b2166d2eeaea0",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-072.bin",
+      "bytes": 786432,
+      "sha256": "57b14df722d708084eca156803b7eed44e3d6c8532d793cade3c06e268b91a56",
+      "git_blob_sha1": "b2c34701d61b179c9a831f9ff712a9ea47f36b59",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-073.bin",
+      "bytes": 786432,
+      "sha256": "057ae87a6b5c5405ed79a4f1dc5acb1da063c880f50ad1407a89b50f4e173e84",
+      "git_blob_sha1": "f12429f5769a7f959c050b6de94b37e17392dc81",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-074.bin",
+      "bytes": 786432,
+      "sha256": "c2bc6fcb4d2db91f0ea787d776e784ea94a43b9f8140b33c80cc71152ac1ca18",
+      "git_blob_sha1": "70ed009f3c4a83ebd76043575aa1d7fe412c4b9d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-075.bin",
+      "bytes": 786432,
+      "sha256": "3a985d70c8aebad73a60a6934e4cc781df787710e6dd6df99df7b924386c37ba",
+      "git_blob_sha1": "92eadec971387c349ea4d7e2f2f2e5b6cb43cf4d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-076.bin",
+      "bytes": 786432,
+      "sha256": "914c586a133fe82c2d13bf6b9ce3b50e2742c9ce109c2997056deff387d1577c",
+      "git_blob_sha1": "36aa656b3e90de90d2d8b90ce3e5a89e96be3adc",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-077.bin",
+      "bytes": 786432,
+      "sha256": "432c777db709671c3812080a344cd143cbf80b21aef500b6063db4b1ea2de6a1",
+      "git_blob_sha1": "382704f8f9724b6347b4156b69794dd7e718012e",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-078.bin",
+      "bytes": 786432,
+      "sha256": "3e9e913cd981ec570a9940f87c171b113ebf6f073dbfeaf5ff9341456da6f0b5",
+      "git_blob_sha1": "d097ef18c1456f040811ab32ada3fd1ad10a393f",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-079.bin",
+      "bytes": 786432,
+      "sha256": "b06b8d933bbae78bb2aaaa6eed23315aa21d474fb0626be969938bf4e2033022",
+      "git_blob_sha1": "e92b07de4f8d19ac15a4058cbbd73c20aa37d040",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-080.bin",
+      "bytes": 786432,
+      "sha256": "faf9bfb5797436b2eb34150d0af284a7e2237607733ef49162631a5b7350011e",
+      "git_blob_sha1": "45ae2a8872e340d92f5b757a15fbe7a3eb3e263f",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-081.bin",
+      "bytes": 786432,
+      "sha256": "02765d980ec80c7f15e129313465932208deed720c3cde50029d194d74cf3de6",
+      "git_blob_sha1": "b9ab7fb6d15c5fc2fa3793fe374531bfdf9d1016",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-082.bin",
+      "bytes": 786432,
+      "sha256": "3cba88f4b496e58155964efe59746d527c25ab315ac315a965cc3ea71da50a6e",
+      "git_blob_sha1": "32a65db7e0bc22469b05e3471a5c09a72884ef74",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-083.bin",
+      "bytes": 786432,
+      "sha256": "35fdea0cd6857f6f43c9024f24d099c879d11dee49e7375b3f1a2d9a29241b18",
+      "git_blob_sha1": "444375dd07662ba8bb445e9f5d2d1b2ad6421698",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-084.bin",
+      "bytes": 786432,
+      "sha256": "b4821d596d98b1b8876f188179740eeb978398a20fe46387d902b83f575930ab",
+      "git_blob_sha1": "b7cc025b9151747f2a8725749d699603986f9adb",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-085.bin",
+      "bytes": 786432,
+      "sha256": "cde731a26d211f39296eb7fefd3faf436d28e5435456300279c1ca49a39f77b0",
+      "git_blob_sha1": "2761dcdb7e1702b97783330c52b5cf704782aafc",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-086.bin",
+      "bytes": 304008,
+      "sha256": "8d302c172daa922b8b5da64b6f2a12cb16c6a05667609bb47d75ee29b768c92e",
+      "git_blob_sha1": "0d852752782d5a4019a48d65d0da0dc94bd97a0d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/verification-inputs.json",
+      "bytes": 1119,
+      "sha256": "b0ed8e03e1cc1ab8abca65b1aca06ae13abecf4e5a7dd6a0381c85ae3d7d46ee",
+      "git_blob_sha1": "258f90f23fc9b8be262a672a5165a30d88e5b971",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/verify_restored_native.py",
+      "bytes": 5061,
+      "sha256": "1cc2cbd1d9a3dced56272ed2bdc39406f97bed8d357012441988c944d384f66a",
+      "git_blob_sha1": "1bb47f4c6cc68a3b579a8dfafb197c3ea29988ad",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/views/closed.png",
+      "bytes": 1576059,
+      "sha256": "87864120692a8ac6fd33cdfdc39b5493e2b304320ed3596494b41b327bfb57ad",
+      "git_blob_sha1": "c4a6a2d4ad93c0f0a28eb3da1348388e49a15f62",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/views/open99.png",
+      "bytes": 1585359,
+      "sha256": "0bbd1ee0462b738ed80b30b4e76937298052eb686a7de3385336bab2f4d99cf3",
+      "git_blob_sha1": "a7b1ea1b04381a6567aa12a90efedaabb23d15d7",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/restore_native.py",
+      "bytes": 4544,
+      "sha256": "9d7e99509f1da596d1e32f3a3588e7fab9669142bc6b3aa50cdaf6329a48cd19",
+      "git_blob_sha1": "0b2c4d05d8ceafde0ce2659698680cfb52dce835",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/README.md",
+      "bytes": 13344,
+      "sha256": "fe439bace91debdf9aa497976cb80902249b6a4588ce934d9d7e380668c98940",
+      "git_blob_sha1": "572899d6f0012bf24665ae40628b98bc371f6f6c",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/build-final-executed-script.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9",
+      "git_blob_sha1": "eb16c7aa5d8b7605ae0ec05c4fe184409da8f6b7",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/build-final-process.json",
+      "bytes": 1384,
+      "sha256": "cb3de5201978e0a361990dc5ff3267fb04e1b66f86d29bddc3574f00ea43c09e",
+      "git_blob_sha1": "947b83414f7981825375ea257382ace6e7af2b27",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/build-final.log",
+      "bytes": 6147,
+      "sha256": "b948fed2fdfdf3b19b0b8114442968310902ec551a2e02ed0fb935f53cc26914",
+      "git_blob_sha1": "2d6e21d9d08f045ab89302a52f9b7e230f18180b",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/build-report.json",
+      "bytes": 184394,
+      "sha256": "4a6b6d4c3e6f8284abbf9e84914800fae70a5f1b7e587b33356f3e7498c35605",
+      "git_blob_sha1": "7214a379ac91314393083211e461b75be2449f2e",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/completion-summary.json",
+      "bytes": 3372,
+      "sha256": "3cb6df6e119731ab7903cb9b93e3b5c9928cd0e14e0ffe67fcc588127a1e33a1",
+      "git_blob_sha1": "2f278892e515e2684189106161a2e4878c951fdc",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/executed-script-snapshots.json",
+      "bytes": 1001,
+      "sha256": "8b96723fc063c0907872860d4f9e167ae7c80189379d398d019a419fe5b01b05",
+      "git_blob_sha1": "c1f48ccfe4bb58b19030ef441de38822924b51e6",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/inspect-controls.json",
+      "bytes": 42051,
+      "sha256": "3a8df5d61421e0fa42e7be80b0fa701f85695f66fe3c930d660b30806cfecf52",
+      "git_blob_sha1": "695ed74a8d04ee6f9f0f973c8cde791505d4ea8e",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/inspect-controls.py",
+      "bytes": 1999,
+      "sha256": "a7c8829ca9bcbab5d206470634f1367f65f3a19055698f9202e590dc0e4f13a7",
+      "git_blob_sha1": "424033c9f624d50395016471f5264019da2fd805",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/inspect-process.json",
+      "bytes": 997,
+      "sha256": "955c07229df9a6d7423a8b759095860806ddc9566cc6ba8cf5f6bebcdbe69d52",
+      "git_blob_sha1": "262bae3e994caae51438b1268fccfc6ebc00fc1f",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/inspect.log",
+      "bytes": 216,
+      "sha256": "e397fb2ad55fd77a027b141787e7ee29957b391a512bafa8fc31b1ca41d910e2",
+      "git_blob_sha1": "44664d72d9efdff39112c0b28cd55d5ed2096c6f",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9",
+      "git_blob_sha1": "eb16c7aa5d8b7605ae0ec05c4fe184409da8f6b7",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/pack-mesh-signatures.py",
+      "bytes": 6685,
+      "sha256": "c8badc8896263e6fa7438ca3f266361196d6497e9b3023c7fb5648a3128bbdc1",
+      "git_blob_sha1": "fdb3876c9bbb9237b0ec9c5b944093fc31bb5d32",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/parent-readback-attempt01.json",
+      "bytes": 399,
+      "sha256": "218ab03fdd9b0c59101bc2bf3fcf3c17e2ce64a28a639f3f38300b5310733bf4",
+      "git_blob_sha1": "2ce49f40aebdbcd61def7d1e1f2e0f173edc9f01",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/parent-readback.json",
+      "bytes": 1622,
+      "sha256": "1152c3f8d5ea20f685bc5712932fab356c6ac1b4247a512a2ecb9f18bf58b6d2",
+      "git_blob_sha1": "16415596222ab758994cea072fbe1f947a07fe32",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/parent-signature-restore.log",
+      "bytes": 949,
+      "sha256": "a7edb647bf2926ec3f414d992beac5343be0e15e426e2841f572d1ed7b35146d",
+      "git_blob_sha1": "ce6aa3cbfccbeaa8258afe54e1e34c1000ef8638",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/run-bounded.py",
+      "bytes": 1507,
+      "sha256": "3ce6ca749f3476534651d492194b8e7d740faf0c0d07dd064b26bb3e0f280a6f",
+      "git_blob_sha1": "639d3743f873ee35f96836d60f018e80fc98af9a",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack-validation.json",
+      "bytes": 6981,
+      "sha256": "d9e8e0eb9ea70d68acc01ff00958e3445333763288eb4d1d43882a319b78d93b",
+      "git_blob_sha1": "3a0dcfe0bc5124d615c8446db983806f465d5534",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack.log",
+      "bytes": 4388,
+      "sha256": "0d4ef57ac6442048af0e97b02936ae2f09c97465b9de96c2b90f22328a13c811",
+      "git_blob_sha1": "bedb7306f4326567fc88aeb4fef014a63881bea3",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/field-schemas.json",
+      "bytes": 27036,
+      "sha256": "c7118b26994b4691ecc4d0c13c98313a9fc91343c8837004030060712e7fa19d",
+      "git_blob_sha1": "3b380644d110a519b657cf9fd0f7fe5db1dec88a",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/index.json",
+      "bytes": 3520,
+      "sha256": "0f3974a028392e4838add6f4a89ea7979f8fafc1fa6f83489bb03b55dcf01947",
+      "git_blob_sha1": "6c8b36b5859b90fcc011832862bbe66f9cf1b244",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/mesh-signatures-000.json",
+      "bytes": 95570,
+      "sha256": "5bd8e40e98afa0869a3b1b69557db88be5d8104635c7340bba95d21bd97e0086",
+      "git_blob_sha1": "e7f9b59c31c55d7342436afd6e48cc0f32df0426",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/mesh-signatures-001.json",
+      "bytes": 96515,
+      "sha256": "1d46a5a310cddd52eb14ebdd69cfcd1b1f34743d64ac3372177bdfe35db926cd",
+      "git_blob_sha1": "6338f90f3f8e037cf7a6ce60b8d600e463e868f2",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/mesh-signatures-002.json",
+      "bytes": 92631,
+      "sha256": "244a9edc559e973cf1372bc4d951007a96cf9687438eeca291b62dbd41f65d07",
+      "git_blob_sha1": "076616a1a7e3600c5cea300bc1800f4aa281c763",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/mesh-signatures-003.json",
+      "bytes": 95233,
+      "sha256": "0d10f997e296edf6b3a3c1be25a08286f80fef1a02d74eb4852c349f766f2bb6",
+      "git_blob_sha1": "d6b2009477e3248de0c20c4452e7a0a08407d95f",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/mesh-signatures-004.json",
+      "bytes": 96644,
+      "sha256": "2f761399fb14c687ad33a4bfdfb34dd047011c782cbf43b8e9a588a6a6406469",
+      "git_blob_sha1": "0834680cf14b811532f0523773bffb0b6f3fdcca",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/mesh-signatures-005.json",
+      "bytes": 96106,
+      "sha256": "f2cc1c0447babe162f8836e9884028d04ce40da0bb2ce45cbeda8813fd06c780",
+      "git_blob_sha1": "dc97874f9701ea350e6d9a24890ffe16d439c23e",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/mesh-signatures-006.json",
+      "bytes": 98648,
+      "sha256": "4d36204046af52ae790f62a9a534460bd35ab8b69c037b2624cb0ba0088fc7dc",
+      "git_blob_sha1": "d1466a05186329d8ba5972dd8f71aab0ca655339",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/mesh-signatures-007.json",
+      "bytes": 95943,
+      "sha256": "fc03059c6e9f7a98ea3a9165ad4665daf3015982a6becf3f37d7bbd9e0e609d9",
+      "git_blob_sha1": "59f24bc5a2fa28b7401d3ac132c73596478120a4",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/mesh-signatures-008.json",
+      "bytes": 97504,
+      "sha256": "d93749eade4336b7be1a9682dd24d3f9d4743cfe610f963e4ffd97d60001bf09",
+      "git_blob_sha1": "2b77674bdc956a0a9b3dd76becf6b72c24a06dc7",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-pack/mesh-signatures-009.json",
+      "bytes": 32125,
+      "sha256": "8511fadb8c3216bf4d964ae5fbe1fabeeab0a59a445dc2d477b46429fed4be02",
+      "git_blob_sha1": "3ad0aeea63415af1a7e021abe6b352964d884f42",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/signature-restore.log",
+      "bytes": 949,
+      "sha256": "a7edb647bf2926ec3f414d992beac5343be0e15e426e2841f572d1ed7b35146d",
+      "git_blob_sha1": "ce6aa3cbfccbeaa8258afe54e1e34c1000ef8638",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/static-review.json",
+      "bytes": 1146,
+      "sha256": "ed2213ffcab50597a1d2c69a5ba46e8a2da3e7bd0c067a2e407cf38d9f494727",
+      "git_blob_sha1": "fed6815baf79c18caa3febb272837edbcb6753ff",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/terminal-hash-audit.json",
+      "bytes": 1771,
+      "sha256": "d9727249aa1c3768afb41c80102dbffcec7a4a3fc534f3cedb3eea06de2c8baa",
+      "git_blob_sha1": "7eefe01a202b8fbff538c9fac45adbcfcb91cc82",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/trial-attempt01-process.json",
+      "bytes": 1197,
+      "sha256": "e21d08a20b1b845c1660a0a102de0bbce9f9edffd8f5eca4669a31a9025a31c8",
+      "git_blob_sha1": "d8e906fc61902f9ad00dafa3beb0285bf3f4a819",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/trial-attempt01-report.json",
+      "bytes": 1563,
+      "sha256": "ef0961781d4ba9abec4590e479231b77419767b493e7c974ca49e810753e75cc",
+      "git_blob_sha1": "5938fb9c78b7939d8c137af094a3e94af8af2baa",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/trial-attempt01-script.py",
+      "bytes": 28482,
+      "sha256": "49da159eea7a22f61c3413c176d90ddca063a9d97b4bbf8f4596cdc446c24e3c",
+      "git_blob_sha1": "87dd3cefdb5e8bf92d0d234e4620109bbd56cb4a",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/trial-attempt01.log",
+      "bytes": 2390,
+      "sha256": "9507c028a87b9f04891a11c58d176c5525f34ade75ece1f570ca8fff09e5cd7c",
+      "git_blob_sha1": "801889582eceeb6b04129f9c5e89a548b5eb2a55",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/verify-fresh-executed-script.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9",
+      "git_blob_sha1": "eb16c7aa5d8b7605ae0ec05c4fe184409da8f6b7",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/verify-fresh-process.json",
+      "bytes": 1385,
+      "sha256": "de30a428cccc9f1f35e240a14beed10dd2b673e43a20b0d0492be57397b19e8b",
+      "git_blob_sha1": "bfb5d7dfb8f3e360b05a9f86dd2ae3c094b366d0",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/verify-fresh.log",
+      "bytes": 5242,
+      "sha256": "8eff2acf4b01dea512afd20e21355724f7a1445fc3f45ff54d6c508edd29b2ba",
+      "git_blob_sha1": "a23f5a8a5616b2cfaedb915a7fa086ab70c48949",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-native-axis-controls-20261001/verify-report.json",
+      "bytes": 182436,
+      "sha256": "afe0c4266af8d4e1faacf21640f932a50bc27af842c2f9b0aac794de87e71523",
+      "git_blob_sha1": "442ce0da7d147b2d90cc2888cfc7f914a646b167",
+      "binary": false
+    }
+  ],
+  "commit": "4a4c1d45d1f0e8a0e0d259d40944aa39415d300b",
+  "public_url": "https://github.com/wubugui/Maz543.git"
+}

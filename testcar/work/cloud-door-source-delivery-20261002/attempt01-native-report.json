@@ -1,0 +1,12 @@
+{
+  "status": "REMOTE_RESTORED_NATIVE_FRESH_OPEN_FAILED",
+  "saved_model": false,
+  "rendered": false,
+  "timeline_advanced": false,
+  "angle_property_changed": false,
+  "mechanical_pose_retest": false,
+  "all16_vehicle_gates": "OPEN",
+  "six_original_closed_contacts": "OPEN",
+  "error": "AssertionError: ",
+  "traceback": "Traceback (most recent call last):\n  File \"/workspace/scratch/a29d03198654/maz-door-remote-4a4c1d45-20261002/files/testcar/outputs/cloud-native-door-axis-20261002/verify_restored_native.py\", line 62, in <module>\n    assert obj.type=='MESH' and obj.parent==hinge\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+}
