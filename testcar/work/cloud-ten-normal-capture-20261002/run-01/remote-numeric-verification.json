@@ -1,0 +1,655 @@
+{
+  "status": "REMOTE_JSON_NUMERIC_BUFFERS_EXACT",
+  "asset_commit": "2815c02f2089885f16887397dc3dd0cc3cc8a18c",
+  "runtime": {
+    "python_version": "3.11.15 (main, Apr 25 2025, 12:39:20) [GCC 11.2.1 20220127 (Red Hat 11.2.1-9)]",
+    "numpy_version": "1.26.4",
+    "numpy_file": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/__init__.py"
+  },
+  "targets": [
+    {
+      "object": "BL_Front_mirror_face_-1",
+      "file_sha256": "cb568866125dd4d2cf4ff9b6eb485486eba3a62c09f4b141be6d421dcfed0cbd",
+      "buffers": [
+        {
+          "field": "position_native",
+          "dtype": "<f4",
+          "shape": [
+            384,
+            3
+          ],
+          "bytes": 4608,
+          "sha256": "30c29644f9cfc6e008f8d8392c0257708f9d886f4dcaaddd12a50d5f8e985e17"
+        },
+        {
+          "field": "raw_normals_native",
+          "dtype": "<f4",
+          "shape": [
+            1440,
+            3
+          ],
+          "bytes": 17280,
+          "sha256": "3045e67c131b901f0f27844be4a7a0d4bea49f8cd8c9606fd6621d3907a86b04"
+        },
+        {
+          "field": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            1440
+          ],
+          "bytes": 5760,
+          "sha256": "8c1f826333dd4ffeacb6651a6970517ba6cb4fbc8f6b0d24c3dc0cf44d29bab1"
+        },
+        {
+          "field": "triangle_loop",
+          "dtype": "<i4",
+          "shape": [
+            764,
+            3
+          ],
+          "bytes": 9168,
+          "sha256": "4c6f423f1ca804aca7a8bedf1763005f27f286be278802698abd81b4fa4b5f3f"
+        },
+        {
+          "field": "triangle_material",
+          "dtype": "<i4",
+          "shape": [
+            764
+          ],
+          "bytes": 3056,
+          "sha256": "8266a273ede9f21b7417188948e950c1139db0f2425a11dc496e088f726e0c23"
+        },
+        {
+          "field": "UVMap/UV",
+          "dtype": "<f4",
+          "shape": [
+            1440,
+            2
+          ],
+          "bytes": 11520,
+          "sha256": "495f13a84f579dccdcc7f72517a664b2ea8685464a9b90433fd6ddf89a492549"
+        }
+      ]
+    },
+    {
+      "object": "BL_Front_mirror_face_1",
+      "file_sha256": "54259a2a6f1bfbc444afc8435c77a1bf37f51391bc1e468b33f650583bf7b21d",
+      "buffers": [
+        {
+          "field": "position_native",
+          "dtype": "<f4",
+          "shape": [
+            384,
+            3
+          ],
+          "bytes": 4608,
+          "sha256": "30c29644f9cfc6e008f8d8392c0257708f9d886f4dcaaddd12a50d5f8e985e17"
+        },
+        {
+          "field": "raw_normals_native",
+          "dtype": "<f4",
+          "shape": [
+            1440,
+            3
+          ],
+          "bytes": 17280,
+          "sha256": "3045e67c131b901f0f27844be4a7a0d4bea49f8cd8c9606fd6621d3907a86b04"
+        },
+        {
+          "field": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            1440
+          ],
+          "bytes": 5760,
+          "sha256": "8c1f826333dd4ffeacb6651a6970517ba6cb4fbc8f6b0d24c3dc0cf44d29bab1"
+        },
+        {
+          "field": "triangle_loop",
+          "dtype": "<i4",
+          "shape": [
+            764,
+            3
+          ],
+          "bytes": 9168,
+          "sha256": "4c6f423f1ca804aca7a8bedf1763005f27f286be278802698abd81b4fa4b5f3f"
+        },
+        {
+          "field": "triangle_material",
+          "dtype": "<i4",
+          "shape": [
+            764
+          ],
+          "bytes": 3056,
+          "sha256": "8266a273ede9f21b7417188948e950c1139db0f2425a11dc496e088f726e0c23"
+        },
+        {
+          "field": "UVMap/UV",
+          "dtype": "<f4",
+          "shape": [
+            1440,
+            2
+          ],
+          "bytes": 11520,
+          "sha256": "c3f74f7e97d49c91eccd51d80c63e03a721c0bd9bc822e0fd08548c37adeb04d"
+        }
+      ]
+    },
+    {
+      "object": "S543_0_halfshaft_bellows",
+      "file_sha256": "d72386db98a7d96c33660ec4949773f614cb3c7252aa5ab1123333d20fbf79b0",
+      "buffers": [
+        {
+          "field": "position_native",
+          "dtype": "<f4",
+          "shape": [
+            3168,
+            3
+          ],
+          "bytes": 38016,
+          "sha256": "4aeecaf6ddf1ca60faf4735cb7ee47fa9093956ae9ec13cf9e623bbd620069f1"
+        },
+        {
+          "field": "raw_normals_native",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            3
+          ],
+          "bytes": 152064,
+          "sha256": "00a0131ede71ad0cbec5d59bd06f489e2f726dc8360f1dda45b9485c837872fc"
+        },
+        {
+          "field": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            12672
+          ],
+          "bytes": 50688,
+          "sha256": "3e14849cd698230b28767851b3042db6cb41d9b717e22dbddf938a5ec05fb807"
+        },
+        {
+          "field": "triangle_loop",
+          "dtype": "<i4",
+          "shape": [
+            6336,
+            3
+          ],
+          "bytes": 76032,
+          "sha256": "4698aba53beb51cfb60a83f9788bbf1033400d41ab2b79627afbeac13fd14768"
+        },
+        {
+          "field": "triangle_material",
+          "dtype": "<i4",
+          "shape": [
+            6336
+          ],
+          "bytes": 25344,
+          "sha256": "6f51e5e322486fb217dc1056279db1a58e8a3209a8d3cf4b3de92c7bb5a04d9e"
+        },
+        {
+          "field": "MetricUV/UV",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            2
+          ],
+          "bytes": 101376,
+          "sha256": "982f05666d379533c39b938775ca320d502613fc72e3cae6b93dba9118476ad3"
+        }
+      ]
+    },
+    {
+      "object": "S543_1_halfshaft_bellows",
+      "file_sha256": "5b5511ec55efaf9fb915fb801e2bd10aa812fac4c814f422fb552e57e5f05e3f",
+      "buffers": [
+        {
+          "field": "position_native",
+          "dtype": "<f4",
+          "shape": [
+            3168,
+            3
+          ],
+          "bytes": 38016,
+          "sha256": "4aeecaf6ddf1ca60faf4735cb7ee47fa9093956ae9ec13cf9e623bbd620069f1"
+        },
+        {
+          "field": "raw_normals_native",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            3
+          ],
+          "bytes": 152064,
+          "sha256": "00a0131ede71ad0cbec5d59bd06f489e2f726dc8360f1dda45b9485c837872fc"
+        },
+        {
+          "field": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            12672
+          ],
+          "bytes": 50688,
+          "sha256": "3e14849cd698230b28767851b3042db6cb41d9b717e22dbddf938a5ec05fb807"
+        },
+        {
+          "field": "triangle_loop",
+          "dtype": "<i4",
+          "shape": [
+            6336,
+            3
+          ],
+          "bytes": 76032,
+          "sha256": "4698aba53beb51cfb60a83f9788bbf1033400d41ab2b79627afbeac13fd14768"
+        },
+        {
+          "field": "triangle_material",
+          "dtype": "<i4",
+          "shape": [
+            6336
+          ],
+          "bytes": 25344,
+          "sha256": "6f51e5e322486fb217dc1056279db1a58e8a3209a8d3cf4b3de92c7bb5a04d9e"
+        },
+        {
+          "field": "MetricUV/UV",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            2
+          ],
+          "bytes": 101376,
+          "sha256": "0c0dbdfaf61de53c21547139539489a07158fe853524720d7e64e38c01c22e4d"
+        }
+      ]
+    },
+    {
+      "object": "S543_2_halfshaft_bellows",
+      "file_sha256": "2ac15639d53066339dc7e5121916d47a0113cd4feca2743e60dad381d4988656",
+      "buffers": [
+        {
+          "field": "position_native",
+          "dtype": "<f4",
+          "shape": [
+            3168,
+            3
+          ],
+          "bytes": 38016,
+          "sha256": "4aeecaf6ddf1ca60faf4735cb7ee47fa9093956ae9ec13cf9e623bbd620069f1"
+        },
+        {
+          "field": "raw_normals_native",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            3
+          ],
+          "bytes": 152064,
+          "sha256": "00a0131ede71ad0cbec5d59bd06f489e2f726dc8360f1dda45b9485c837872fc"
+        },
+        {
+          "field": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            12672
+          ],
+          "bytes": 50688,
+          "sha256": "3e14849cd698230b28767851b3042db6cb41d9b717e22dbddf938a5ec05fb807"
+        },
+        {
+          "field": "triangle_loop",
+          "dtype": "<i4",
+          "shape": [
+            6336,
+            3
+          ],
+          "bytes": 76032,
+          "sha256": "4698aba53beb51cfb60a83f9788bbf1033400d41ab2b79627afbeac13fd14768"
+        },
+        {
+          "field": "triangle_material",
+          "dtype": "<i4",
+          "shape": [
+            6336
+          ],
+          "bytes": 25344,
+          "sha256": "6f51e5e322486fb217dc1056279db1a58e8a3209a8d3cf4b3de92c7bb5a04d9e"
+        },
+        {
+          "field": "MetricUV/UV",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            2
+          ],
+          "bytes": 101376,
+          "sha256": "e061db8c1727dc4f72b4480bafd90b9236fabf3f81b65eeec202496ad99d449f"
+        }
+      ]
+    },
+    {
+      "object": "S543_3_halfshaft_bellows",
+      "file_sha256": "c6ce36681feca411bcb99552de3162c2a95a0dfe861453b0121e3bdc96d04149",
+      "buffers": [
+        {
+          "field": "position_native",
+          "dtype": "<f4",
+          "shape": [
+            3168,
+            3
+          ],
+          "bytes": 38016,
+          "sha256": "4aeecaf6ddf1ca60faf4735cb7ee47fa9093956ae9ec13cf9e623bbd620069f1"
+        },
+        {
+          "field": "raw_normals_native",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            3
+          ],
+          "bytes": 152064,
+          "sha256": "00a0131ede71ad0cbec5d59bd06f489e2f726dc8360f1dda45b9485c837872fc"
+        },
+        {
+          "field": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            12672
+          ],
+          "bytes": 50688,
+          "sha256": "3e14849cd698230b28767851b3042db6cb41d9b717e22dbddf938a5ec05fb807"
+        },
+        {
+          "field": "triangle_loop",
+          "dtype": "<i4",
+          "shape": [
+            6336,
+            3
+          ],
+          "bytes": 76032,
+          "sha256": "4698aba53beb51cfb60a83f9788bbf1033400d41ab2b79627afbeac13fd14768"
+        },
+        {
+          "field": "triangle_material",
+          "dtype": "<i4",
+          "shape": [
+            6336
+          ],
+          "bytes": 25344,
+          "sha256": "6f51e5e322486fb217dc1056279db1a58e8a3209a8d3cf4b3de92c7bb5a04d9e"
+        },
+        {
+          "field": "MetricUV/UV",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            2
+          ],
+          "bytes": 101376,
+          "sha256": "f106f5a08e2157a38ddbcd7435334dfa1d2ec0ad0ff44fc70b36949eadb2fda1"
+        }
+      ]
+    },
+    {
+      "object": "S543_4_halfshaft_bellows",
+      "file_sha256": "8ea3787fdcebd4f5bbc923e0d37d95b196d2d710f0c98d1ade8d542ef138b2b9",
+      "buffers": [
+        {
+          "field": "position_native",
+          "dtype": "<f4",
+          "shape": [
+            3168,
+            3
+          ],
+          "bytes": 38016,
+          "sha256": "4aeecaf6ddf1ca60faf4735cb7ee47fa9093956ae9ec13cf9e623bbd620069f1"
+        },
+        {
+          "field": "raw_normals_native",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            3
+          ],
+          "bytes": 152064,
+          "sha256": "00a0131ede71ad0cbec5d59bd06f489e2f726dc8360f1dda45b9485c837872fc"
+        },
+        {
+          "field": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            12672
+          ],
+          "bytes": 50688,
+          "sha256": "3e14849cd698230b28767851b3042db6cb41d9b717e22dbddf938a5ec05fb807"
+        },
+        {
+          "field": "triangle_loop",
+          "dtype": "<i4",
+          "shape": [
+            6336,
+            3
+          ],
+          "bytes": 76032,
+          "sha256": "4698aba53beb51cfb60a83f9788bbf1033400d41ab2b79627afbeac13fd14768"
+        },
+        {
+          "field": "triangle_material",
+          "dtype": "<i4",
+          "shape": [
+            6336
+          ],
+          "bytes": 25344,
+          "sha256": "6f51e5e322486fb217dc1056279db1a58e8a3209a8d3cf4b3de92c7bb5a04d9e"
+        },
+        {
+          "field": "MetricUV/UV",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            2
+          ],
+          "bytes": 101376,
+          "sha256": "dff8c11b49e60852d44fbe2852c8d9f57727655e7b0fe35bbde5d3e4cbd072f8"
+        }
+      ]
+    },
+    {
+      "object": "S543_5_halfshaft_bellows",
+      "file_sha256": "b8d41fa7cac4c337872e11ff3789d31c1117a6ce8c5e272e4920effd8fdf2e31",
+      "buffers": [
+        {
+          "field": "position_native",
+          "dtype": "<f4",
+          "shape": [
+            3168,
+            3
+          ],
+          "bytes": 38016,
+          "sha256": "4aeecaf6ddf1ca60faf4735cb7ee47fa9093956ae9ec13cf9e623bbd620069f1"
+        },
+        {
+          "field": "raw_normals_native",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            3
+          ],
+          "bytes": 152064,
+          "sha256": "00a0131ede71ad0cbec5d59bd06f489e2f726dc8360f1dda45b9485c837872fc"
+        },
+        {
+          "field": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            12672
+          ],
+          "bytes": 50688,
+          "sha256": "3e14849cd698230b28767851b3042db6cb41d9b717e22dbddf938a5ec05fb807"
+        },
+        {
+          "field": "triangle_loop",
+          "dtype": "<i4",
+          "shape": [
+            6336,
+            3
+          ],
+          "bytes": 76032,
+          "sha256": "4698aba53beb51cfb60a83f9788bbf1033400d41ab2b79627afbeac13fd14768"
+        },
+        {
+          "field": "triangle_material",
+          "dtype": "<i4",
+          "shape": [
+            6336
+          ],
+          "bytes": 25344,
+          "sha256": "6f51e5e322486fb217dc1056279db1a58e8a3209a8d3cf4b3de92c7bb5a04d9e"
+        },
+        {
+          "field": "MetricUV/UV",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            2
+          ],
+          "bytes": 101376,
+          "sha256": "9f2ad0b8cb695094076888bd6eb2805e498f53d3e45c847df4f001aff28864d8"
+        }
+      ]
+    },
+    {
+      "object": "S543_6_halfshaft_bellows",
+      "file_sha256": "5918fedb8f0c3cda36f82c5a07ae3b669e2698a67ab9a2f1a6da67bacf54689d",
+      "buffers": [
+        {
+          "field": "position_native",
+          "dtype": "<f4",
+          "shape": [
+            3168,
+            3
+          ],
+          "bytes": 38016,
+          "sha256": "4aeecaf6ddf1ca60faf4735cb7ee47fa9093956ae9ec13cf9e623bbd620069f1"
+        },
+        {
+          "field": "raw_normals_native",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            3
+          ],
+          "bytes": 152064,
+          "sha256": "00a0131ede71ad0cbec5d59bd06f489e2f726dc8360f1dda45b9485c837872fc"
+        },
+        {
+          "field": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            12672
+          ],
+          "bytes": 50688,
+          "sha256": "3e14849cd698230b28767851b3042db6cb41d9b717e22dbddf938a5ec05fb807"
+        },
+        {
+          "field": "triangle_loop",
+          "dtype": "<i4",
+          "shape": [
+            6336,
+            3
+          ],
+          "bytes": 76032,
+          "sha256": "4698aba53beb51cfb60a83f9788bbf1033400d41ab2b79627afbeac13fd14768"
+        },
+        {
+          "field": "triangle_material",
+          "dtype": "<i4",
+          "shape": [
+            6336
+          ],
+          "bytes": 25344,
+          "sha256": "6f51e5e322486fb217dc1056279db1a58e8a3209a8d3cf4b3de92c7bb5a04d9e"
+        },
+        {
+          "field": "MetricUV/UV",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            2
+          ],
+          "bytes": 101376,
+          "sha256": "133d58f1ea3f2cfd595dc727e351bcda7264a0bfd187449491c867d0f94c39b9"
+        }
+      ]
+    },
+    {
+      "object": "S543_7_halfshaft_bellows",
+      "file_sha256": "5015f10a82d2e81e3b7d08c842ee8b6ed4b8ce27bb8d2fb5f066441646b9c465",
+      "buffers": [
+        {
+          "field": "position_native",
+          "dtype": "<f4",
+          "shape": [
+            3168,
+            3
+          ],
+          "bytes": 38016,
+          "sha256": "4aeecaf6ddf1ca60faf4735cb7ee47fa9093956ae9ec13cf9e623bbd620069f1"
+        },
+        {
+          "field": "raw_normals_native",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            3
+          ],
+          "bytes": 152064,
+          "sha256": "00a0131ede71ad0cbec5d59bd06f489e2f726dc8360f1dda45b9485c837872fc"
+        },
+        {
+          "field": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            12672
+          ],
+          "bytes": 50688,
+          "sha256": "3e14849cd698230b28767851b3042db6cb41d9b717e22dbddf938a5ec05fb807"
+        },
+        {
+          "field": "triangle_loop",
+          "dtype": "<i4",
+          "shape": [
+            6336,
+            3
+          ],
+          "bytes": 76032,
+          "sha256": "4698aba53beb51cfb60a83f9788bbf1033400d41ab2b79627afbeac13fd14768"
+        },
+        {
+          "field": "triangle_material",
+          "dtype": "<i4",
+          "shape": [
+            6336
+          ],
+          "bytes": 25344,
+          "sha256": "6f51e5e322486fb217dc1056279db1a58e8a3209a8d3cf4b3de92c7bb5a04d9e"
+        },
+        {
+          "field": "MetricUV/UV",
+          "dtype": "<f4",
+          "shape": [
+            12672,
+            2
+          ],
+          "bytes": 101376,
+          "sha256": "e246c3dd0e92a8dceba1a291d24f0151eb22a6d63c09eccf09805e0e109a9d5c"
+        }
+      ]
+    }
+  ],
+  "target_count": 10,
+  "buffer_count": 60,
+  "buffer_bytes": 3650944,
+  "limits": "Only delivery reconstruction of the fresh captured numeric buffers. Existing UV/joint correspondence remains failed and canonical-zero comparison remains not run; no original raw historical values reconstructed."
+}
