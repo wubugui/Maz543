@@ -1,0 +1,138 @@
+{
+  "status": "NOT_LAUNCHED",
+  "command": [
+    "taskset",
+    "-c",
+    "0,1",
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "2",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py",
+    "--",
+    "--inputs",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inputs.json",
+    "--output",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native"
+  ],
+  "window_note": "2026-10-02 17:52 UTC: Aether confirmed its source run terminal and no remaining owned PIDs before this launch. Revision3 preparation106aa448 was plugin-published and all eleven changed files read back. CPU2 native60-second read-only graph inspection, no isolated-performance claim.",
+  "started_utc": "2026-10-02T17:52:55Z",
+  "native_budget_seconds": 60,
+  "cleanup_budget_seconds": 3,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "inputs_before": {
+    "artifact": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+    },
+    "review_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/review/maz543a-cab-va180-v1.glb",
+      "bytes": 24743400,
+      "sha256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e"
+    },
+    "suspension_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/maz543a-suspension.glb",
+      "bytes": 8154920,
+      "sha256": "02820335705e230b5a70a4debbc9649e4a2cf66eb180117c8d65a17f19e2ba18"
+    },
+    "exporter": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/export-va180-cab-candidate.py",
+      "bytes": 6207,
+      "sha256": "81099e989b22af47de42b0f8c15c18199deef5d8bffb2a2da1cd41c072698714"
+    },
+    "bindings": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/nativeWheelBindings.ts",
+      "bytes": 3110,
+      "sha256": "7c4d46478f190f1e3b3fcdad5e7a6678f614aa9706c200fdb9013b487e7edddc"
+    },
+    "viewport": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/vehicleViewport.ts",
+      "bytes": 77905,
+      "sha256": "9de4e242cc43aa21b765a42f447621e083e675d411a66f8a9ba83e9b29b54e5d"
+    },
+    "original_inputs": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/inputs.json",
+      "bytes": 51148,
+      "sha256": "e3249af319ae1be31f81576bd39b74eace400cd726e04552282a354a3f2c59ce"
+    },
+    "saved_expected": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/saved-state-expected.json",
+      "bytes": 909025,
+      "sha256": "9a937128e5cd0af5cac09e7416eaad9e3cff912bbc2d4e324fbb8eef288be4fc"
+    },
+    "original_report": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/native-report.json",
+      "bytes": 11598,
+      "sha256": "8513795e0c37e0b6ad62e1a9cc437877adbdf545ce0a0b242460a69719c73af3"
+    },
+    "builder": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/build-trial.py",
+      "bytes": 17627,
+      "sha256": "892cf825ff6a0929ab576c502b0fbb59829ec9943b627161fa48de02bac80a1d"
+    },
+    "helper": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    }
+  },
+  "preparation_before": {
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/graph_common.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/graph_common.py",
+      "bytes": 10020,
+      "sha256": "6dd91a5742fd2edf28b66e71436d15d065ff0d07cbcee1182c9ad1acc19c04b1"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py",
+      "bytes": 20542,
+      "sha256": "dce897392d380b8f08295262dd8b5daa7c06bab0c01c3ff61ec9ae17645c80f3"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run_graph_inspection.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run_graph_inspection.py",
+      "bytes": 10900,
+      "sha256": "d8480a78f7ad4999d752622de515690bc2eece936547e68cc8372b0554985ffa"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/check_deadline_controls.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/check_deadline_controls.py",
+      "bytes": 2059,
+      "sha256": "26b02c84cbfe654c857912048e9dfe3ceaeb71e10ac5564162beb4a321a1cd63"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/check_station_roles.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/check_station_roles.py",
+      "bytes": 1995,
+      "sha256": "478dc63a701d0767256f74d2888a6b1dd4a36fb7e232c17c7ea1bcf515d1aec9"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inputs.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inputs.json",
+      "bytes": 4816,
+      "sha256": "9562c4125c847b252831cdec5671d8c92a4e003f41d38d2388c1e6b1e81e0093"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/PREPARATION-MANIFEST.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/PREPARATION-MANIFEST.json",
+      "bytes": 2526,
+      "sha256": "0c15194b8048455ad0329b664cbc45143c2f537d28893bcdce8ed04dea029705"
+    }
+  },
+  "performance_claim": "Operational elapsed time only; concurrent resource contention is not isolated",
+  "native_exit_code": null,
+  "timed_out": false,
+  "termination_status": "NOT_LAUNCHED",
+  "all16_vehicle_gates": "OPEN",
+  "model_saved": false,
+  "exported": false,
+  "rendered": false
+}

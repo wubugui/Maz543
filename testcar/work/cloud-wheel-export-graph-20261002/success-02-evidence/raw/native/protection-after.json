@@ -1,0 +1,27 @@
+{
+  "objects_sha256": "0da8221e17fa82791a0af817c6ddee2f8ccac87ed824936516f0fd788c91709e",
+  "object_names_sha256": "1a33c9db84130d22704f6d8da8b0a59eba0d22fbbe48e7556e82b8c4c35c07be",
+  "world_matrices_sha256": "817046c7c50a52dc17bb25aba0d51ab33d263e8285b5bbdfaf896a211c38e6a6",
+  "parents_sha256": "a345e8d827dfd08ddf263ff434e389198205f87128a0effd9d827687b424065f",
+  "actions_sha256": "c4d1bc8b977f0c5514c71c3efeed86d9cfad97f293486c14d4067770ec4bb5b5",
+  "actions_count": 552,
+  "actions_fake_users_sha256": "97e25547cbbf0971d50247bbdbcf79bc372246cd29fcd51b6686d7b361a13c87",
+  "collection_layer_visibility_sha256": "634bbab1ab121beb2c36659d81ebf44efcd892095bcf52bc006aa0c9ffb20abe",
+  "scene_state": [
+    {
+      "name": "Scene",
+      "frame": 0,
+      "subframe": 0.0,
+      "view_layers": [
+        {
+          "name": "ViewLayer",
+          "use": true,
+          "active_object": "cab_0064"
+        }
+      ]
+    }
+  ],
+  "active_scene": "Scene",
+  "active_view_layer": "ViewLayer",
+  "mode": "OBJECT"
+}

@@ -1,0 +1,107 @@
+{
+  "schema": "MAZ_GRAPH_RUN02_TEXTS_V1",
+  "preparation_commit": "106aa448e0b36f0e2b5346dda4495e65507db35b",
+  "records": [
+    {
+      "path": "child-started.json",
+      "bytes": 90,
+      "sha256": "8508b4549affd21e37a3f50bff9c22922859a2668fc36fdfe1110a1fb204958f",
+      "storage": "direct"
+    },
+    {
+      "path": "heartbeat.jsonl",
+      "bytes": 3128,
+      "sha256": "9a6cd0a7aa0f70da42ad54e2bd48bab8c0d5824441a6c16d48b2bb2ff04483c2",
+      "storage": "direct"
+    },
+    {
+      "path": "launch.json",
+      "bytes": 6979,
+      "sha256": "c6b4dc6139d81a2f9519ea38656d59442a3e2c4f26e1b2a4e667f2897f6aec50",
+      "storage": "direct"
+    },
+    {
+      "path": "native/collection-visibility.json",
+      "bytes": 18778,
+      "sha256": "9fa12b753c13b0d57933acb4cff216161053bac77ce06b3c09ec7f36ded721e3",
+      "storage": "direct"
+    },
+    {
+      "path": "native/external-conflicts.json",
+      "bytes": 1362544,
+      "sha256": "f5c2dedec6eed5dd7e80fa044a2c03ee5d3c173dbd6712cdfbc17b5bca6223a4",
+      "storage": "plain-json-table",
+      "serialization": "indent2 ensure_ascii=False plus LF"
+    },
+    {
+      "path": "native/glb-graphs.json",
+      "bytes": 812613,
+      "sha256": "316832c92def43edbe7b6324b5eb05bd0f6b647e2e1c4678434933802ae67437",
+      "storage": "plain-json-table",
+      "serialization": "indent2 ensure_ascii=False plus LF"
+    },
+    {
+      "path": "native/native-graph.json",
+      "bytes": 8896553,
+      "sha256": "967b4614dce61f1993146bd4ede94ea27d31302f70a46af6ccc92b8ecd45bdbc",
+      "storage": "plain-json-table",
+      "serialization": "indent2 ensure_ascii=False plus LF"
+    },
+    {
+      "path": "native/native-report.json",
+      "bytes": 14488,
+      "sha256": "e5055c57289713f28659a5389675fd06d95c62816f6d8cc246619993fade4432",
+      "storage": "direct"
+    },
+    {
+      "path": "native/object-inventory.json",
+      "bytes": 10668164,
+      "sha256": "20949fbc0afcef80c09f1110842fc4bd48a15f910e6a90835a8727a8d3ce2852",
+      "storage": "plain-json-table",
+      "serialization": "indent2 ensure_ascii=False plus LF"
+    },
+    {
+      "path": "native/protection-after.json",
+      "bytes": 1012,
+      "sha256": "776f08830f083111b7deedd4da4c8453b6e00ca69c58f415d56af2f918091893",
+      "storage": "direct"
+    },
+    {
+      "path": "native/protection-before.json",
+      "bytes": 1012,
+      "sha256": "776f08830f083111b7deedd4da4c8453b6e00ca69c58f415d56af2f918091893",
+      "storage": "direct"
+    },
+    {
+      "path": "native/stations.json",
+      "bytes": 174735,
+      "sha256": "a6143bf3bffa39ab5cc1d4c5f93f8ce3b2bac95a7f5c96ce49e4346f20ffb314",
+      "storage": "plain-json-table",
+      "serialization": "indent2 ensure_ascii=False plus LF"
+    },
+    {
+      "path": "native/visibility-summary.json",
+      "bytes": 233115,
+      "sha256": "82fd445ed06d879c84bc31e3750114ee66bc223c9713575f4880b4974af5550d",
+      "storage": "plain-json-table",
+      "serialization": "indent2 ensure_ascii=False plus LF"
+    },
+    {
+      "path": "process.json",
+      "bytes": 17189,
+      "sha256": "643326f68ff24b476640de2f45cd59c0e3c0cfc7e8869c26df7911b7bf57114e",
+      "storage": "direct"
+    },
+    {
+      "path": "run.log",
+      "bytes": 254,
+      "sha256": "50d442a6bad8da357d0a8ab5a3bb6f3b8b785a561e126dd615b6c7bd1695e8cc",
+      "storage": "direct"
+    }
+  ],
+  "records_count": 15,
+  "original_bytes": 22210654,
+  "large_records": 6,
+  "asset_bytes": 0,
+  "codec_sha256": "2334d0734b5e6edbd289692be6d4c8da50daba4b3f770142400971c75091a11d"
+}

@@ -1,0 +1,352 @@
+{
+  "status": "READ_ONLY_SAVED_FRAME_GRAPH_PASS",
+  "frame_advanced": false,
+  "selection_pose_visibility_modified": false,
+  "model_saved": false,
+  "exported": false,
+  "rendered": false,
+  "geometry_payload_reread": false,
+  "runtime_route_enabled": false,
+  "timeline_status": "BLOCKED_NOT_EXECUTED",
+  "all16_vehicle_gates": "OPEN",
+  "planned_protection_scope": "Plan only: compare snapshot() and graph_records() fields, saved8522 names/world/parents/original action_record digests, and two reads of relevant local/world/basis/parent-inverse matrices plus active-scene per-view-layer hide/select/visible fields. completed_checks lists only checks actually reached and completed. No claim for unenumerated Blender RNA, caches, geometry or dependency-graph state.",
+  "completed_checks": [
+    "pinned_input_hashes_before",
+    "saved_object_names_world_parent_original_action_digests",
+    "explicit_48_station_role_identities_present",
+    "relevant_graph_matrix_view_layer_first_read",
+    "enumerated_snapshot_second_read",
+    "relevant_graph_matrix_view_layer_second_read",
+    "enumerated_snapshot_fields_exact_before_after",
+    "relevant_graph_matrix_view_layer_fields_exact_before_after",
+    "pinned_input_hashes_exact_before_after"
+  ],
+  "visibility_limit": "Saved native flags and visible_get in each active-scene view layer without a viewport. No local-view, camera, occlusion, material or renderer acceptance.",
+  "input_hashes_before": {
+    "artifact": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+    },
+    "review_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/review/maz543a-cab-va180-v1.glb",
+      "bytes": 24743400,
+      "sha256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e"
+    },
+    "suspension_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/maz543a-suspension.glb",
+      "bytes": 8154920,
+      "sha256": "02820335705e230b5a70a4debbc9649e4a2cf66eb180117c8d65a17f19e2ba18"
+    },
+    "exporter": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/export-va180-cab-candidate.py",
+      "bytes": 6207,
+      "sha256": "81099e989b22af47de42b0f8c15c18199deef5d8bffb2a2da1cd41c072698714"
+    },
+    "bindings": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/nativeWheelBindings.ts",
+      "bytes": 3110,
+      "sha256": "7c4d46478f190f1e3b3fcdad5e7a6678f614aa9706c200fdb9013b487e7edddc"
+    },
+    "viewport": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/vehicleViewport.ts",
+      "bytes": 77905,
+      "sha256": "9de4e242cc43aa21b765a42f447621e083e675d411a66f8a9ba83e9b29b54e5d"
+    },
+    "original_inputs": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/inputs.json",
+      "bytes": 51148,
+      "sha256": "e3249af319ae1be31f81576bd39b74eace400cd726e04552282a354a3f2c59ce"
+    },
+    "saved_expected": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/saved-state-expected.json",
+      "bytes": 909025,
+      "sha256": "9a937128e5cd0af5cac09e7416eaad9e3cff912bbc2d4e324fbb8eef288be4fc"
+    },
+    "original_report": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/native-report.json",
+      "bytes": 11598,
+      "sha256": "8513795e0c37e0b6ad62e1a9cc437877adbdf545ce0a0b242460a69719c73af3"
+    },
+    "builder": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/build-trial.py",
+      "bytes": 17627,
+      "sha256": "892cf825ff6a0929ab576c502b0fbb59829ec9943b627161fa48de02bac80a1d"
+    },
+    "helper": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    }
+  },
+  "protection_before": {
+    "objects_sha256": "0da8221e17fa82791a0af817c6ddee2f8ccac87ed824936516f0fd788c91709e",
+    "object_names_sha256": "1a33c9db84130d22704f6d8da8b0a59eba0d22fbbe48e7556e82b8c4c35c07be",
+    "world_matrices_sha256": "817046c7c50a52dc17bb25aba0d51ab33d263e8285b5bbdfaf896a211c38e6a6",
+    "parents_sha256": "a345e8d827dfd08ddf263ff434e389198205f87128a0effd9d827687b424065f",
+    "actions_sha256": "c4d1bc8b977f0c5514c71c3efeed86d9cfad97f293486c14d4067770ec4bb5b5",
+    "actions_count": 552,
+    "actions_fake_users_sha256": "97e25547cbbf0971d50247bbdbcf79bc372246cd29fcd51b6686d7b361a13c87",
+    "collection_layer_visibility_sha256": "634bbab1ab121beb2c36659d81ebf44efcd892095bcf52bc006aa0c9ffb20abe",
+    "scene_state": [
+      {
+        "name": "Scene",
+        "frame": 0,
+        "subframe": 0.0,
+        "view_layers": [
+          {
+            "name": "ViewLayer",
+            "use": true,
+            "active_object": "cab_0064"
+          }
+        ]
+      }
+    ],
+    "active_scene": "Scene",
+    "active_view_layer": "ViewLayer",
+    "mode": "OBJECT"
+  },
+  "protection_after": {
+    "objects_sha256": "0da8221e17fa82791a0af817c6ddee2f8ccac87ed824936516f0fd788c91709e",
+    "object_names_sha256": "1a33c9db84130d22704f6d8da8b0a59eba0d22fbbe48e7556e82b8c4c35c07be",
+    "world_matrices_sha256": "817046c7c50a52dc17bb25aba0d51ab33d263e8285b5bbdfaf896a211c38e6a6",
+    "parents_sha256": "a345e8d827dfd08ddf263ff434e389198205f87128a0effd9d827687b424065f",
+    "actions_sha256": "c4d1bc8b977f0c5514c71c3efeed86d9cfad97f293486c14d4067770ec4bb5b5",
+    "actions_count": 552,
+    "actions_fake_users_sha256": "97e25547cbbf0971d50247bbdbcf79bc372246cd29fcd51b6686d7b361a13c87",
+    "collection_layer_visibility_sha256": "634bbab1ab121beb2c36659d81ebf44efcd892095bcf52bc006aa0c9ffb20abe",
+    "scene_state": [
+      {
+        "name": "Scene",
+        "frame": 0,
+        "subframe": 0.0,
+        "view_layers": [
+          {
+            "name": "ViewLayer",
+            "use": true,
+            "active_object": "cab_0064"
+          }
+        ]
+      }
+    ],
+    "active_scene": "Scene",
+    "active_view_layer": "ViewLayer",
+    "mode": "OBJECT"
+  },
+  "relevant_records_comparison": {
+    "count": 2675,
+    "before_sha256": "944de5306b33de49ac59df8123653b2fb93064a8ee865327a4fc898c035084f9",
+    "after_sha256": "944de5306b33de49ac59df8123653b2fb93064a8ee865327a4fc898c035084f9",
+    "exactly_equal": true
+  },
+  "input_hashes_after": {
+    "artifact": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+    },
+    "review_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/review/maz543a-cab-va180-v1.glb",
+      "bytes": 24743400,
+      "sha256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e"
+    },
+    "suspension_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/maz543a-suspension.glb",
+      "bytes": 8154920,
+      "sha256": "02820335705e230b5a70a4debbc9649e4a2cf66eb180117c8d65a17f19e2ba18"
+    },
+    "exporter": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/export-va180-cab-candidate.py",
+      "bytes": 6207,
+      "sha256": "81099e989b22af47de42b0f8c15c18199deef5d8bffb2a2da1cd41c072698714"
+    },
+    "bindings": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/nativeWheelBindings.ts",
+      "bytes": 3110,
+      "sha256": "7c4d46478f190f1e3b3fcdad5e7a6678f614aa9706c200fdb9013b487e7edddc"
+    },
+    "viewport": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/vehicleViewport.ts",
+      "bytes": 77905,
+      "sha256": "9de4e242cc43aa21b765a42f447621e083e675d411a66f8a9ba83e9b29b54e5d"
+    },
+    "original_inputs": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/inputs.json",
+      "bytes": 51148,
+      "sha256": "e3249af319ae1be31f81576bd39b74eace400cd726e04552282a354a3f2c59ce"
+    },
+    "saved_expected": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/saved-state-expected.json",
+      "bytes": 909025,
+      "sha256": "9a937128e5cd0af5cac09e7416eaad9e3cff912bbc2d4e324fbb8eef288be4fc"
+    },
+    "original_report": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/native-report.json",
+      "bytes": 11598,
+      "sha256": "8513795e0c37e0b6ad62e1a9cc437877adbdf545ce0a0b242460a69719c73af3"
+    },
+    "builder": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/build-trial.py",
+      "bytes": 17627,
+      "sha256": "892cf825ff6a0929ab576c502b0fbb59829ec9943b627161fa48de02bac80a1d"
+    },
+    "helper": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    }
+  },
+  "actual_opened_filepath": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+  "saved_object_names_world_parent_action_digests_exact": true,
+  "enumerated_snapshot_fields_unchanged": true,
+  "relevant_graph_matrix_view_layer_fields_unchanged": true,
+  "original_action_record_data_exact": true,
+  "object_count": 8522,
+  "minimum_count": 859,
+  "full_subtree_count": 1985,
+  "full_union_count": 2675,
+  "old_predicate_selected_count": 690,
+  "old_names_lost_count": 160,
+  "moved_scope_lost_count": 160,
+  "shared_full_union_names": 241,
+  "unqualified_original_nodes": [
+    {
+      "object": "BL_Front_cover_front_panel",
+      "name": "PHOTO fitted continuous relief before shell thickness",
+      "type": "NODES",
+      "show_viewport": true,
+      "show_render": true,
+      "node_group": {
+        "name": "Photo fitted broad front-cover relief | local coordinates",
+        "type": "GeometryNodeTree",
+        "library": null,
+        "pointer_session_only": 140516002554656
+      }
+    },
+    {
+      "object": "BL_Front_windshield_gasket_-1",
+      "name": "Native field mapping to sloped cab front",
+      "type": "NODES",
+      "show_viewport": true,
+      "show_render": true,
+      "node_group": {
+        "name": "BL_Front_windshield_gasket_-1_Front_slope_map",
+        "type": "GeometryNodeTree",
+        "library": null,
+        "pointer_session_only": 140516014568480
+      }
+    },
+    {
+      "object": "BL_Front_windshield_gasket_1",
+      "name": "Native field mapping to sloped cab front",
+      "type": "NODES",
+      "show_viewport": true,
+      "show_render": true,
+      "node_group": {
+        "name": "BL_Front_windshield_gasket_1_Front_slope_map",
+        "type": "GeometryNodeTree",
+        "library": null,
+        "pointer_session_only": 140516020952736
+      }
+    },
+    {
+      "object": "BL_Front_windshield_glass_-1",
+      "name": "Native field mapping to sloped cab front",
+      "type": "NODES",
+      "show_viewport": true,
+      "show_render": true,
+      "node_group": {
+        "name": "BL_Front_windshield_glass_-1_Front_slope_map",
+        "type": "GeometryNodeTree",
+        "library": null,
+        "pointer_session_only": 140516021025056
+      }
+    },
+    {
+      "object": "BL_Front_windshield_glass_1",
+      "name": "Native field mapping to sloped cab front",
+      "type": "NODES",
+      "show_viewport": true,
+      "show_render": true,
+      "node_group": {
+        "name": "BL_Front_windshield_glass_1_Front_slope_map",
+        "type": "GeometryNodeTree",
+        "library": null,
+        "pointer_session_only": 140516021076896
+      }
+    },
+    {
+      "object": "TOOL_Windshield_gasket_inner_-1",
+      "name": "Native field mapping to sloped cab front",
+      "type": "NODES",
+      "show_viewport": true,
+      "show_render": true,
+      "node_group": {
+        "name": "TOOL_Windshield_gasket_inner_-1_Front_slope_map",
+        "type": "GeometryNodeTree",
+        "library": null,
+        "pointer_session_only": 140516024694688
+      }
+    },
+    {
+      "object": "TOOL_Windshield_gasket_inner_1",
+      "name": "Native field mapping to sloped cab front",
+      "type": "NODES",
+      "show_viewport": true,
+      "show_render": true,
+      "node_group": {
+        "name": "TOOL_Windshield_gasket_inner_1_Front_slope_map",
+        "type": "GeometryNodeTree",
+        "library": null,
+        "pointer_session_only": 140516024791584
+      }
+    },
+    {
+      "object": "TOOL_Windshield_opening_-1",
+      "name": "Native field mapping to sloped cab front",
+      "type": "NODES",
+      "show_viewport": true,
+      "show_render": true,
+      "node_group": {
+        "name": "TOOL_Windshield_opening_-1_Front_slope_map",
+        "type": "GeometryNodeTree",
+        "library": null,
+        "pointer_session_only": 140516024843424
+      }
+    },
+    {
+      "object": "TOOL_Windshield_opening_1",
+      "name": "Native field mapping to sloped cab front",
+      "type": "NODES",
+      "show_viewport": true,
+      "show_render": true,
+      "node_group": {
+        "name": "TOOL_Windshield_opening_1_Front_slope_map",
+        "type": "GeometryNodeTree",
+        "library": null,
+        "pointer_session_only": 140516024915744
+      }
+    }
+  ],
+  "active_view_layer": "ViewLayer",
+  "legacy_target_chain_matches_by_station": {
+    "0": false,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": true,
+    "5": true,
+    "6": true,
+    "7": true
+  }
+}
