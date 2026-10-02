@@ -1,0 +1,26 @@
+{
+  "status": "PASS_PARENT_RAW_RESTORATION_AND_NATIVE_DATUM_RECOMPUTATION",
+  "restored_bytes": 2410990,
+  "restored_sha256": "fea41bf0e145d707cc8f21089c7a20320c60de236b94c8285230fc40a225477a",
+  "restored_byte_equal_original": true,
+  "native_plus1_from_recorded_centroids": [
+    {
+      "station": 0,
+      "positive_one_degree_inner_circle_deficit_mm": 2.443773299180843
+    },
+    {
+      "station": 1,
+      "positive_one_degree_inner_circle_deficit_mm": 2.443773553154241
+    },
+    {
+      "station": 2,
+      "positive_one_degree_inner_circle_deficit_mm": 2.443773299180843
+    },
+    {
+      "station": 3,
+      "positive_one_degree_inner_circle_deficit_mm": 2.443773553154241
+    }
+  ],
+  "native_not_rerun": true,
+  "limits": "Floating numeric check of the exact reported native centroids; not certified interval arithmetic, factory dimensions or geometry-axis identification."
+}

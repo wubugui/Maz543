@@ -1,0 +1,155 @@
+{
+  "status": "ANALYTIC_EXISTING_RECONSTRUCTION_ONLY",
+  "coordinate_convention": "(height, outward lateral); positive camber = upper wheel edge outward; c=-asin(outward_axis.z)",
+  "datums_from": "published testcar/work/suspension-poses.json spec, not factory dimensions",
+  "rows": [
+    {
+      "camber_degrees": -1,
+      "circle_centre_distance_m": 0.12044767061537903,
+      "circle_radii_m": [
+        0.5149999999999999,
+        0.4059667474067303
+      ],
+      "internal_separation_deficit_m": -0.011414418022109407,
+      "external_separation_deficit_m": -0.8005190767913513,
+      "candidates": [
+        {
+          "lower_outer": [
+            0.5262923619473205,
+            1.0596981303602115
+          ],
+          "upper_outer": [
+            0.9223592766025437,
+            1.0027771402467904
+          ],
+          "wheel": [
+            0.6784074360093465,
+            1.179561612051277
+          ],
+          "wheel_shift_m": [
+            -0.0715925639906535,
+            -0.007938387948722925
+          ],
+          "lower_angle_to_outward_horizontal_degrees": -8.228521877592764,
+          "upper_angle_to_outward_horizontal_degrees": -14.64506239783665,
+          "lower_rotation_delta_radians": -0.14361479933637955,
+          "upper_rotation_delta_radians": -0.18657859153989115,
+          "lower_inner_minus_outer_height_m": 0.07370763805267944,
+          "upper_inner_minus_outer_height_m": 0.10264072339745622,
+          "lower_outer_displacement_m": 0.07389807662572895,
+          "closure_length_error_m": 5.551115123125783e-17
+        },
+        {
+          "lower_outer": [
+            0.9029037866034666,
+            0.9665024562487976
+          ],
+          "upper_outer": [
+            1.2989707012586897,
+            0.9095814661353765
+          ],
+          "wheel": [
+            1.0550188606654924,
+            1.0863659379398631
+          ],
+          "wheel_shift_m": [
+            0.30501886066549244,
+            -0.10113406206013686
+          ],
+          "lower_angle_to_outward_horizontal_degrees": 36.026735401673484,
+          "upper_angle_to_outward_horizontal_degrees": 42.44327592191737,
+          "lower_rotation_delta_radians": 0.6287851515040042,
+          "upper_rotation_delta_radians": 0.8098008766322639,
+          "lower_inner_minus_outer_height_m": -0.3029037866034666,
+          "upper_inner_minus_outer_height_m": -0.27397070125868983,
+          "lower_outer_displacement_m": 0.3185160436520246,
+          "closure_length_error_m": 1.1102230246251565e-16
+        }
+      ],
+      "status": "RIGID_LINK_CIRCLE_INTERSECTIONS"
+    },
+    {
+      "camber_degrees": 0,
+      "circle_centre_distance_m": 0.11350770898930165,
+      "circle_radii_m": [
+        0.5149999999999999,
+        0.4059667474067303
+      ],
+      "internal_separation_deficit_m": -0.004474456396032028,
+      "external_separation_deficit_m": -0.8074590384174286,
+      "candidates": [
+        {
+          "lower_outer": [
+            0.5999999999999994,
+            1.0649999999999997
+          ],
+          "upper_outer": [
+            0.9969999999999994,
+            1.0149999999999997
+          ],
+          "wheel": [
+            0.7499999999999994,
+            1.1874999999999998
+          ],
+          "wheel_shift_m": [
+            -5.551115123125783e-16,
+            -2.220446049250313e-16
+          ],
+          "lower_angle_to_outward_horizontal_degrees": -6.175834332938872e-14,
+          "upper_angle_to_outward_horizontal_degrees": -3.954896555105681,
+          "lower_rotation_delta_radians": -1.07788643167491e-15,
+          "upper_rotation_delta_radians": -1.4016565685892601e-15,
+          "lower_inner_minus_outer_height_m": 5.551115123125783e-16,
+          "upper_inner_minus_outer_height_m": 0.02800000000000047,
+          "lower_outer_displacement_m": 5.978733960281817e-16,
+          "closure_length_error_m": 2.220446049250313e-16
+        },
+        {
+          "lower_outer": [
+            0.8462278795405151,
+            1.002323812480596
+          ],
+          "upper_outer": [
+            1.2432278795405152,
+            0.9523238124805959
+          ],
+          "wheel": [
+            0.9962278795405152,
+            1.124823812480596
+          ],
+          "wheel_shift_m": [
+            0.24622787954051517,
+            -0.06267618751940396
+          ],
+          "lower_angle_to_outward_horizontal_degrees": 28.562191471941635,
+          "upper_angle_to_outward_horizontal_degrees": 32.51708802704725,
+          "lower_rotation_delta_radians": 0.4985042827704271,
+          "upper_rotation_delta_radians": 0.6365562156951756,
+          "lower_inner_minus_outer_height_m": -0.24622787954051517,
+          "upper_inner_minus_outer_height_m": -0.21822787954051526,
+          "lower_outer_displacement_m": 0.25407965905397845,
+          "closure_length_error_m": 1.1102230246251565e-16
+        }
+      ],
+      "status": "RIGID_LINK_CIRCLE_INTERSECTIONS"
+    },
+    {
+      "camber_degrees": 1,
+      "circle_centre_distance_m": 0.10658950006523804,
+      "circle_radii_m": [
+        0.5149999999999999,
+        0.4059667474067303
+      ],
+      "internal_separation_deficit_m": 0.002443752528031584,
+      "external_separation_deficit_m": -0.8143772473414922,
+      "candidates": [],
+      "status": "NO_FIXED_HARDPOINT_RIGID_LINK_CLOSURE"
+    }
+  ],
+  "limits": [
+    "Negative camber is a conditional branch, not an approved static setting.",
+    "No load, tyre compliance, steering link or source sign acceptance.",
+    "Positive one-degree camber is analytically impossible with these fixed native reconstruction datums."
+  ],
+  "all16VehicleGates": "OPEN"
+}

@@ -1,0 +1,121 @@
+{
+  "source_sha256": "cf8ebb65dcbfca6dd3b6c55a3174cfe9d628a206cb8c846eceee0041a2bb1bde",
+  "source_bytes": 11405399,
+  "decoder_sha256": "c34f662cf6ac7d52fa14f296c0095ab78783cf7f09c29d106e2629c0c0c53a7a",
+  "options": [
+    "-format=ppm",
+    "-page=80,84,162",
+    "-eachpage"
+  ],
+  "exit_code": 0,
+  "seconds": 1.659394816000713,
+  "images": [
+    {
+      "unit": 79,
+      "printed_pages": [
+        154,
+        155
+      ],
+      "pixels": [
+        4406,
+        3327
+      ],
+      "ppm_sha256": "9d9e00d51b51075dda6808faac35f0bdb769f114d167febd79e28910a2ab1bd7",
+      "png_sha256": "0331fb810e9a2873611e72f8f13599fa8a4edad9a347d91b003896e6a2670667",
+      "source_sha256_after": "cf8ebb65dcbfca6dd3b6c55a3174cfe9d628a206cb8c846eceee0041a2bb1bde",
+      "exit_code": 0,
+      "seconds": 0.5859275679977145,
+      "locator": "Halfshaft Cardan and separate constant-velocity joint, figure90",
+      "pixels_inspected": true
+    },
+    {
+      "unit": 80,
+      "pixels": [
+        4406,
+        3327
+      ],
+      "ppm_sha256": "50a770794fad410df3887263f0a5124a93ef2ba940e17707ad3f482a399b8613",
+      "png_sha256": "4f2604053a9e9a2d01da0e163f2e1a7a561754476cb7e594811def696f23b08a",
+      "printed_pages": [
+        156,
+        157
+      ],
+      "locator": "Steering knuckle support and wheel-hub prose",
+      "pixels_inspected": true
+    },
+    {
+      "unit": 84,
+      "pixels": [
+        3327,
+        4397
+      ],
+      "ppm_sha256": "1def1e64fd1b694b7aed086dfe3262b7d908acffdf7334663d2d3335d58d1096",
+      "png_sha256": "afa4c5d69026ec0a0b119932fa49e19f623b90d1ab736eb898dad5c3b20d42b7",
+      "printed_pages": [
+        164,
+        165
+      ],
+      "locator": "Figure 98, suspension and View A",
+      "pixels_inspected": true
+    },
+    {
+      "unit": 162,
+      "pixels": [
+        4397,
+        3336
+      ],
+      "ppm_sha256": "7534e70a457e7357c2138cb4d2d4e10180cdab214812e84360a0f02bbabf24e6",
+      "png_sha256": "2f59b7b35a4192477af722db575aea4496e8d5143bfbd19adecbee092770af5c",
+      "printed_pages": [
+        320,
+        321
+      ],
+      "locator": "Torsion-bar installation/replacement",
+      "pixels_inspected": true
+    }
+  ],
+  "status": "PRIMARY_POSE_AND_INTERFACE_CONSTRAINTS_NOT_DIMENSIONED_HARDPOINT_SET",
+  "date_utc": "2026-10-02",
+  "source_title": "Колесное шасси МАЗ-543 и его модификации. Техническое описание и инструкция по эксплуатации, 3rd edition 1977",
+  "public_source": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+  "observations": [
+    {
+      "locator": "pp154-155, figure90",
+      "claim": "The steered-wheel drive chain comprises a central-reducer halfshaft, an open two-joint halfshaft Cardan with needle-bearing crosses, and a separate outer halfshaft with a constant-velocity joint. The latter has a cage carrying two crosses, pin-connected inner/outer members, and an input flange supported by two ball bearings in the knuckle support.",
+      "limit": "The two external Cardan joints and the distinct in-knuckle CV joint must not be conflated. Figure proportions do not provide manufacturing dimensions or prove the retained reconstruction matches these parts."
+    },
+    {
+      "locator": "p156",
+      "claim": "The steering knuckle has two trunnions forming the steering axis; its support is carried on two needle bearings with an upper thrust ball bearing. The support has bosses for suspension-arm attachments. The constant-velocity joint is inside the knuckle.",
+      "limit": "Topology described by the primary text; no exact source/model feature correspondence or hardpoint coordinates established in this reading."
+    },
+    {
+      "locator": "p157",
+      "claim": "The wheel hub is supported on two tapered roller bearings. The drum is located on the inner centering land and bolted to the hub; its working surface is machined with that hub assembly.",
+      "limit": "The brake drum belongs to the hub assembly geometrically; the reading does not identify current model objects or prove brake mechanism closure."
+    },
+    {
+      "locator": "pp164-165 figure98 ViewA",
+      "claim": "The drawing explicitly dimensions the vertical lower-arm head-center separation as 136 plus5 mm.",
+      "limit": "This is a shown dimension, not pixel scaling of the remaining linkage; no complete lengths, joints, tolerances or hardpoint set is inferred from drawing proportions."
+    },
+    {
+      "locator": "p320",
+      "claim": "For torsion-bar installation/replacement, front and rear lower-arm head centers must have vertical separation136–141mm (543M138–143mm), and support bolts are screwed against the upper arms and locked.",
+      "limit": "Installation state, not neutral/unloaded/loaded road height or a prescribed wheel travel."
+    },
+    {
+      "locator": "p320",
+      "claim": "Correctly installed torsion bars should leave the upper suspension arms close to horizontal with the chassis fully loaded. Permanent torsion set may alter steered-wheel camber and reduce the support-bolt gap.",
+      "limit": "No numerical tolerance for close to horizontal, no specific qualified model load/pressure state, and no full force/compliance model established."
+    }
+  ],
+  "camber_sign_status": "No explicit wheel-plane sign convention or camber tolerance established in these pages; prior nominal1degree magnitude still applies only to steered wheels.",
+  "modeling_consequence": "Compare actual current lower/upper arm angles and head-center z differences at every candidate; keep installation and fully-loaded constraints separate. Do not assign source correctness to a reachable inward1degree pose, force an unreachable outward pose, move fixed axes, or infer dimensions from drawing scale. Preserve the distinction between halfshaft Cardan and in-knuckle CV joint; a straight-ahead external-flange axis correction does not validate steering or constant-velocity internals.",
+  "source_pixels_published": false,
+  "blender_or_model_modified": false,
+  "additional_decode_options": [
+    "-format=ppm",
+    "-page=79"
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "status": "NATIVE_DATUM_ANALYTIC_CLOSURE",
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "probe_interfaces_sha256": "fea41bf0e145d707cc8f21089c7a20320c60de236b94c8285230fc40a225477a",
+  "rows": [
+    {
+      "station": 0,
+      "actual_native_datums_height_outward_lateral_m": [
+        [
+          0.6000000238418579,
+          0.5500000120244093
+        ],
+        [
+          1.0249999763651028,
+          0.6100000143051147
+        ],
+        [
+          0.6000000238418579,
+          1.065000057220459
+        ],
+        [
+          0.997000040858984,
+          1.0150000739842653
+        ],
+        [
+          0.75,
+          1.1875
+        ]
+      ],
+      "solutions": [
+        {
+          "camber_degrees": -1,
+          "circle_centre_distance_m": 0.12044764128520827,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.4059668024955517
+          ],
+          "internal_separation_deficit_m": -0.0114143985847103,
+          "external_separation_deficit_m": -0.8005192064063932,
+          "candidates": [
+            {
+              "lower_outer": [
+                0.5262922656766396,
+                1.0596981706812665
+              ],
+              "upper_outer": [
+                0.9223591976389658,
+                1.0027771970321087
+              ],
+              "wheel": [
+                0.6784073149018041,
+                1.1795615955766856
+              ],
+              "wheel_shift_m": [
+                -0.07159268509819594,
+                -0.007938404423314394
+              ],
+              "lower_angle_to_outward_horizontal_degrees": -8.228534652451254,
+              "upper_angle_to_outward_horizontal_degrees": -14.645068437079926,
+              "lower_rotation_delta_radians": -0.14361502229972167,
+              "upper_rotation_delta_radians": -0.18657886557027858,
+              "lower_inner_minus_outer_height_m": 0.07370775816521835,
+              "upper_inner_minus_outer_height_m": 0.10264077872613697,
+              "lower_outer_displacement_m": 0.07389819764119274,
+              "closure_length_error_m": 1.6653345369377348e-16
+            },
+            {
+              "lower_outer": [
+                0.9029035185348568,
+                0.9665027364509147
+              ],
+              "upper_outer": [
+                1.298970450497183,
+                0.9095817628017568
+              ],
+              "wheel": [
+                1.0550185677600215,
+                1.0863661613463338
+              ],
+              "wheel_shift_m": [
+                0.30501856776002145,
+                -0.10113383865366621
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 36.02669158847775,
+              "upper_angle_to_outward_horizontal_degrees": 42.44322537310643,
+              "lower_rotation_delta_radians": 0.6287843868194828,
+              "upper_rotation_delta_radians": 0.8097998257633721,
+              "lower_inner_minus_outer_height_m": -0.30290349469299893,
+              "upper_inner_minus_outer_height_m": -0.2739704741320803,
+              "lower_outer_displacement_m": 0.31851569709515126,
+              "closure_length_error_m": 1.1102230246251565e-16
+            }
+          ],
+          "status": "RIGID_LINK_CIRCLE_INTERSECTIONS"
+        },
+        {
+          "camber_degrees": 0,
+          "circle_centre_distance_m": 0.11350767904448067,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.4059668024955517
+          ],
+          "internal_separation_deficit_m": -0.004474436343982702,
+          "external_separation_deficit_m": -0.8074591686471208,
+          "candidates": [
+            {
+              "lower_outer": [
+                0.6000000238418581,
+                1.065000057220459
+              ],
+              "upper_outer": [
+                0.9970000408589842,
+                1.0150000739842653
+              ],
+              "wheel": [
+                0.7500000000000002,
+                1.1875
+              ],
+              "wheel_shift_m": [
+                2.220446049250313e-16,
+                0.0
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 2.470333516380758e-14,
+              "upper_angle_to_outward_horizontal_degrees": -3.9548868935641868,
+              "lower_rotation_delta_radians": 4.31154534832135e-16,
+              "upper_rotation_delta_radians": 5.412337245047638e-16,
+              "lower_inner_minus_outer_height_m": -2.220446049250313e-16,
+              "upper_inner_minus_outer_height_m": 0.027999935506118567,
+              "lower_outer_displacement_m": 2.220446049250313e-16,
+              "closure_length_error_m": 0.0
+            },
+            {
+              "lower_outer": [
+                0.8462274553380309,
+                1.0023241198616222
+              ],
+              "upper_outer": [
+                1.2432274723551568,
+                0.9523241366254285
+              ],
+              "wheel": [
+                0.996227431496173,
+                1.1248240626411632
+              ],
+              "wheel_shift_m": [
+                0.246227431496173,
+                -0.06267593735883681
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 28.562131981082043,
+              "upper_angle_to_outward_horizontal_degrees": 32.51701887464624,
+              "lower_rotation_delta_radians": 0.4985032444590524,
+              "upper_rotation_delta_radians": 0.6365548401323844,
+              "lower_inner_minus_outer_height_m": -0.246227431496173,
+              "upper_inner_minus_outer_height_m": -0.2182274959900541,
+              "lower_outer_displacement_m": 0.25407916314607815,
+              "closure_length_error_m": 1.6653345369377348e-16
+            }
+          ],
+          "status": "RIGID_LINK_CIRCLE_INTERSECTIONS"
+        },
+        {
+          "camber_degrees": 1,
+          "circle_centre_distance_m": 0.10658946940131712,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.4059668024955517
+          ],
+          "internal_separation_deficit_m": 0.002443773299180843,
+          "external_separation_deficit_m": -0.8143773782902843,
+          "candidates": [],
+          "status": "NO_FIXED_HARDPOINT_RIGID_LINK_CLOSURE"
+        }
+      ]
+    },
+    {
+      "station": 1,
+      "actual_native_datums_height_outward_lateral_m": [
+        [
+          0.6000000238418579,
+          0.5500000120244093
+        ],
+        [
+          1.0249999763651028,
+          0.6100000143051147
+        ],
+        [
+          0.6000000238418579,
+          1.065000057220459
+        ],
+        [
+          0.9970000416040421,
+          1.0150000739842653
+        ],
+        [
+          0.75,
+          1.1875
+        ]
+      ],
+      "solutions": [
+        {
+          "camber_degrees": -1,
+          "circle_centre_distance_m": 0.12044764111888563,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.40596680244416433
+          ],
+          "internal_separation_deficit_m": -0.01141439836700027,
+          "external_separation_deficit_m": -0.8005192065213284,
+          "candidates": [
+            {
+              "lower_outer": [
+                0.5262922643523363,
+                1.0596981704897583
+              ],
+              "upper_outer": [
+                0.9223591970596072,
+                1.0027771968275974
+              ],
+              "wheel": [
+                0.6784073135775008,
+                1.1795615953851775
+              ],
+              "wheel_shift_m": [
+                -0.07159268642249916,
+                -0.007938404614822536
+              ],
+              "lower_angle_to_outward_horizontal_degrees": -8.22853480131776,
+              "upper_angle_to_outward_horizontal_degrees": -14.645068523488215,
+              "lower_rotation_delta_radians": -0.14361502489793235,
+              "upper_rotation_delta_radians": -0.18657886890928593,
+              "lower_inner_minus_outer_height_m": 0.07370775948952157,
+              "upper_inner_minus_outer_height_m": 0.10264077930549553,
+              "lower_outer_displacement_m": 0.07389819897582306,
+              "closure_length_error_m": 1.1102230246251565e-16
+            },
+            {
+              "lower_outer": [
+                0.9029035145942922,
+                0.9665027393167084
+              ],
+              "upper_outer": [
+                1.298970447301563,
+                0.9095817656545475
+              ],
+              "wheel": [
+                1.0550185638194567,
+                1.0863661642121276
+              ],
+              "wheel_shift_m": [
+                0.3050185638194567,
+                -0.10113383578787238
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 36.026691046397914,
+              "upper_angle_to_outward_horizontal_degrees": 42.44322476856836,
+              "lower_rotation_delta_radians": 0.6287843773584049,
+              "upper_rotation_delta_radians": 0.8097998133812941,
+              "lower_inner_minus_outer_height_m": -0.3029034907524343,
+              "upper_inner_minus_outer_height_m": -0.2739704709364603,
+              "lower_outer_displacement_m": 0.3185156924615215,
+              "closure_length_error_m": 1.1102230246251565e-16
+            }
+          ],
+          "status": "RIGID_LINK_CIRCLE_INTERSECTIONS"
+        },
+        {
+          "camber_degrees": 0,
+          "circle_centre_distance_m": 0.11350767886069064,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.40596680244416433
+          ],
+          "internal_separation_deficit_m": -0.0044744361088052825,
+          "external_separation_deficit_m": -0.8074591687795233,
+          "candidates": [
+            {
+              "lower_outer": [
+                0.6000000238418581,
+                1.065000057220459
+              ],
+              "upper_outer": [
+                0.9970000416040423,
+                1.0150000739842653
+              ],
+              "wheel": [
+                0.7500000000000002,
+                1.1875
+              ],
+              "wheel_shift_m": [
+                2.220446049250313e-16,
+                0.0
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 2.470333516380758e-14,
+              "upper_angle_to_outward_horizontal_degrees": -3.9548867886614465,
+              "lower_rotation_delta_radians": 4.31154534832135e-16,
+              "upper_rotation_delta_radians": 5.412337245047638e-16,
+              "lower_inner_minus_outer_height_m": -2.220446049250313e-16,
+              "upper_inner_minus_outer_height_m": 0.02799993476106044,
+              "lower_outer_displacement_m": 2.220446049250313e-16,
+              "closure_length_error_m": 0.0
+            },
+            {
+              "lower_outer": [
+                0.8462274495834723,
+                1.0023241229941773
+              ],
+              "upper_outer": [
+                1.2432274673456565,
+                0.9523241397579836
+              ],
+              "wheel": [
+                0.9962274257416144,
+                1.1248240657737183
+              ],
+              "wheel_shift_m": [
+                0.24622742574161438,
+                -0.0626759342262817
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 28.56213125215357,
+              "upper_angle_to_outward_horizontal_degrees": 32.51701804081505,
+              "lower_rotation_delta_radians": 0.4985032317368505,
+              "upper_rotation_delta_radians": 0.6365548237483865,
+              "lower_inner_minus_outer_height_m": -0.24622742574161438,
+              "upper_inner_minus_outer_height_m": -0.21822749098055372,
+              "lower_outer_displacement_m": 0.2540791567966161,
+              "closure_length_error_m": 0.0
+            }
+          ],
+          "status": "RIGID_LINK_CIRCLE_INTERSECTIONS"
+        },
+        {
+          "camber_degrees": 1,
+          "circle_centre_distance_m": 0.10658946919873112,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.40596680244416433
+          ],
+          "internal_separation_deficit_m": 0.002443773553154241,
+          "external_separation_deficit_m": -0.8143773784414828,
+          "candidates": [],
+          "status": "NO_FIXED_HARDPOINT_RIGID_LINK_CLOSURE"
+        }
+      ]
+    },
+    {
+      "station": 2,
+      "actual_native_datums_height_outward_lateral_m": [
+        [
+          0.6000000238418579,
+          0.5500000120244093
+        ],
+        [
+          1.0249999763651028,
+          0.6100000143051147
+        ],
+        [
+          0.6000000238418579,
+          1.065000057220459
+        ],
+        [
+          0.997000040858984,
+          1.0150000739842653
+        ],
+        [
+          0.75,
+          1.1875
+        ]
+      ],
+      "solutions": [
+        {
+          "camber_degrees": -1,
+          "circle_centre_distance_m": 0.12044764128520827,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.4059668024955517
+          ],
+          "internal_separation_deficit_m": -0.0114143985847103,
+          "external_separation_deficit_m": -0.8005192064063932,
+          "candidates": [
+            {
+              "lower_outer": [
+                0.5262922656766396,
+                1.0596981706812665
+              ],
+              "upper_outer": [
+                0.9223591976389658,
+                1.0027771970321087
+              ],
+              "wheel": [
+                0.6784073149018041,
+                1.1795615955766856
+              ],
+              "wheel_shift_m": [
+                -0.07159268509819594,
+                -0.007938404423314394
+              ],
+              "lower_angle_to_outward_horizontal_degrees": -8.228534652451254,
+              "upper_angle_to_outward_horizontal_degrees": -14.645068437079926,
+              "lower_rotation_delta_radians": -0.14361502229972167,
+              "upper_rotation_delta_radians": -0.18657886557027858,
+              "lower_inner_minus_outer_height_m": 0.07370775816521835,
+              "upper_inner_minus_outer_height_m": 0.10264077872613697,
+              "lower_outer_displacement_m": 0.07389819764119274,
+              "closure_length_error_m": 1.6653345369377348e-16
+            },
+            {
+              "lower_outer": [
+                0.9029035185348568,
+                0.9665027364509147
+              ],
+              "upper_outer": [
+                1.298970450497183,
+                0.9095817628017568
+              ],
+              "wheel": [
+                1.0550185677600215,
+                1.0863661613463338
+              ],
+              "wheel_shift_m": [
+                0.30501856776002145,
+                -0.10113383865366621
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 36.02669158847775,
+              "upper_angle_to_outward_horizontal_degrees": 42.44322537310643,
+              "lower_rotation_delta_radians": 0.6287843868194828,
+              "upper_rotation_delta_radians": 0.8097998257633721,
+              "lower_inner_minus_outer_height_m": -0.30290349469299893,
+              "upper_inner_minus_outer_height_m": -0.2739704741320803,
+              "lower_outer_displacement_m": 0.31851569709515126,
+              "closure_length_error_m": 1.1102230246251565e-16
+            }
+          ],
+          "status": "RIGID_LINK_CIRCLE_INTERSECTIONS"
+        },
+        {
+          "camber_degrees": 0,
+          "circle_centre_distance_m": 0.11350767904448067,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.4059668024955517
+          ],
+          "internal_separation_deficit_m": -0.004474436343982702,
+          "external_separation_deficit_m": -0.8074591686471208,
+          "candidates": [
+            {
+              "lower_outer": [
+                0.6000000238418581,
+                1.065000057220459
+              ],
+              "upper_outer": [
+                0.9970000408589842,
+                1.0150000739842653
+              ],
+              "wheel": [
+                0.7500000000000002,
+                1.1875
+              ],
+              "wheel_shift_m": [
+                2.220446049250313e-16,
+                0.0
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 2.470333516380758e-14,
+              "upper_angle_to_outward_horizontal_degrees": -3.9548868935641868,
+              "lower_rotation_delta_radians": 4.31154534832135e-16,
+              "upper_rotation_delta_radians": 5.412337245047638e-16,
+              "lower_inner_minus_outer_height_m": -2.220446049250313e-16,
+              "upper_inner_minus_outer_height_m": 0.027999935506118567,
+              "lower_outer_displacement_m": 2.220446049250313e-16,
+              "closure_length_error_m": 0.0
+            },
+            {
+              "lower_outer": [
+                0.8462274553380309,
+                1.0023241198616222
+              ],
+              "upper_outer": [
+                1.2432274723551568,
+                0.9523241366254285
+              ],
+              "wheel": [
+                0.996227431496173,
+                1.1248240626411632
+              ],
+              "wheel_shift_m": [
+                0.246227431496173,
+                -0.06267593735883681
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 28.562131981082043,
+              "upper_angle_to_outward_horizontal_degrees": 32.51701887464624,
+              "lower_rotation_delta_radians": 0.4985032444590524,
+              "upper_rotation_delta_radians": 0.6365548401323844,
+              "lower_inner_minus_outer_height_m": -0.246227431496173,
+              "upper_inner_minus_outer_height_m": -0.2182274959900541,
+              "lower_outer_displacement_m": 0.25407916314607815,
+              "closure_length_error_m": 1.6653345369377348e-16
+            }
+          ],
+          "status": "RIGID_LINK_CIRCLE_INTERSECTIONS"
+        },
+        {
+          "camber_degrees": 1,
+          "circle_centre_distance_m": 0.10658946940131712,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.4059668024955517
+          ],
+          "internal_separation_deficit_m": 0.002443773299180843,
+          "external_separation_deficit_m": -0.8143773782902843,
+          "candidates": [],
+          "status": "NO_FIXED_HARDPOINT_RIGID_LINK_CLOSURE"
+        }
+      ]
+    },
+    {
+      "station": 3,
+      "actual_native_datums_height_outward_lateral_m": [
+        [
+          0.6000000238418579,
+          0.5500000120244093
+        ],
+        [
+          1.0249999763651028,
+          0.6100000143051147
+        ],
+        [
+          0.6000000238418579,
+          1.065000057220459
+        ],
+        [
+          0.9970000416040421,
+          1.0150000739842653
+        ],
+        [
+          0.75,
+          1.1875
+        ]
+      ],
+      "solutions": [
+        {
+          "camber_degrees": -1,
+          "circle_centre_distance_m": 0.12044764111888563,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.40596680244416433
+          ],
+          "internal_separation_deficit_m": -0.01141439836700027,
+          "external_separation_deficit_m": -0.8005192065213284,
+          "candidates": [
+            {
+              "lower_outer": [
+                0.5262922643523363,
+                1.0596981704897583
+              ],
+              "upper_outer": [
+                0.9223591970596072,
+                1.0027771968275974
+              ],
+              "wheel": [
+                0.6784073135775008,
+                1.1795615953851775
+              ],
+              "wheel_shift_m": [
+                -0.07159268642249916,
+                -0.007938404614822536
+              ],
+              "lower_angle_to_outward_horizontal_degrees": -8.22853480131776,
+              "upper_angle_to_outward_horizontal_degrees": -14.645068523488215,
+              "lower_rotation_delta_radians": -0.14361502489793235,
+              "upper_rotation_delta_radians": -0.18657886890928593,
+              "lower_inner_minus_outer_height_m": 0.07370775948952157,
+              "upper_inner_minus_outer_height_m": 0.10264077930549553,
+              "lower_outer_displacement_m": 0.07389819897582306,
+              "closure_length_error_m": 1.1102230246251565e-16
+            },
+            {
+              "lower_outer": [
+                0.9029035145942922,
+                0.9665027393167084
+              ],
+              "upper_outer": [
+                1.298970447301563,
+                0.9095817656545475
+              ],
+              "wheel": [
+                1.0550185638194567,
+                1.0863661642121276
+              ],
+              "wheel_shift_m": [
+                0.3050185638194567,
+                -0.10113383578787238
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 36.026691046397914,
+              "upper_angle_to_outward_horizontal_degrees": 42.44322476856836,
+              "lower_rotation_delta_radians": 0.6287843773584049,
+              "upper_rotation_delta_radians": 0.8097998133812941,
+              "lower_inner_minus_outer_height_m": -0.3029034907524343,
+              "upper_inner_minus_outer_height_m": -0.2739704709364603,
+              "lower_outer_displacement_m": 0.3185156924615215,
+              "closure_length_error_m": 1.1102230246251565e-16
+            }
+          ],
+          "status": "RIGID_LINK_CIRCLE_INTERSECTIONS"
+        },
+        {
+          "camber_degrees": 0,
+          "circle_centre_distance_m": 0.11350767886069064,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.40596680244416433
+          ],
+          "internal_separation_deficit_m": -0.0044744361088052825,
+          "external_separation_deficit_m": -0.8074591687795233,
+          "candidates": [
+            {
+              "lower_outer": [
+                0.6000000238418581,
+                1.065000057220459
+              ],
+              "upper_outer": [
+                0.9970000416040423,
+                1.0150000739842653
+              ],
+              "wheel": [
+                0.7500000000000002,
+                1.1875
+              ],
+              "wheel_shift_m": [
+                2.220446049250313e-16,
+                0.0
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 2.470333516380758e-14,
+              "upper_angle_to_outward_horizontal_degrees": -3.9548867886614465,
+              "lower_rotation_delta_radians": 4.31154534832135e-16,
+              "upper_rotation_delta_radians": 5.412337245047638e-16,
+              "lower_inner_minus_outer_height_m": -2.220446049250313e-16,
+              "upper_inner_minus_outer_height_m": 0.02799993476106044,
+              "lower_outer_displacement_m": 2.220446049250313e-16,
+              "closure_length_error_m": 0.0
+            },
+            {
+              "lower_outer": [
+                0.8462274495834723,
+                1.0023241229941773
+              ],
+              "upper_outer": [
+                1.2432274673456565,
+                0.9523241397579836
+              ],
+              "wheel": [
+                0.9962274257416144,
+                1.1248240657737183
+              ],
+              "wheel_shift_m": [
+                0.24622742574161438,
+                -0.0626759342262817
+              ],
+              "lower_angle_to_outward_horizontal_degrees": 28.56213125215357,
+              "upper_angle_to_outward_horizontal_degrees": 32.51701804081505,
+              "lower_rotation_delta_radians": 0.4985032317368505,
+              "upper_rotation_delta_radians": 0.6365548237483865,
+              "lower_inner_minus_outer_height_m": -0.24622742574161438,
+              "upper_inner_minus_outer_height_m": -0.21822749098055372,
+              "lower_outer_displacement_m": 0.2540791567966161,
+              "closure_length_error_m": 0.0
+            }
+          ],
+          "status": "RIGID_LINK_CIRCLE_INTERSECTIONS"
+        },
+        {
+          "camber_degrees": 1,
+          "circle_centre_distance_m": 0.10658946919873112,
+          "circle_radii_m": [
+            0.5150000451960497,
+            0.40596680244416433
+          ],
+          "internal_separation_deficit_m": 0.002443773553154241,
+          "external_separation_deficit_m": -0.8143773784414828,
+          "candidates": [],
+          "status": "NO_FIXED_HARDPOINT_RIGID_LINK_CLOSURE"
+        }
+      ]
+    }
+  ],
+  "limits": "Uses actual retained rigid datum centres. No load state or factory sign assigned."
+}

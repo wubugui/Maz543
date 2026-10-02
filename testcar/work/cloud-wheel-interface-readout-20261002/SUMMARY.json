@@ -1,0 +1,243 @@
+{
+  "status": "READ_ONLY_NATIVE_DATUM_AND_FIXED_LINK_REACHABILITY_CHECKPOINT",
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "source_sha256_after": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "probe_seconds": 17.164413655002136,
+  "native_interfaces": 104,
+  "affected_scope_objects": 1424,
+  "direct_object_pointer_driver_target_observations": 72,
+  "direct_observed_owners_outside_scope": 0,
+  "dependency_limit": "72 tyre-legend SHRINKWRAP targets are inside corresponding spin hierarchies. No complete dependency or motion eligibility certificate; NODES/SUBSURF, nested/data/collection references and held-animation conditions are not bypassed.",
+  "rows": [
+    {
+      "station": 0,
+      "native_plus1_circle_deficit_mm": 2.443773299180843,
+      "native_minus1_nearest_branch": {
+        "lower_outer": [
+          0.5262922656766396,
+          1.0596981706812665
+        ],
+        "upper_outer": [
+          0.9223591976389658,
+          1.0027771970321087
+        ],
+        "wheel": [
+          0.6784073149018041,
+          1.1795615955766856
+        ],
+        "wheel_shift_m": [
+          -0.07159268509819594,
+          -0.007938404423314394
+        ],
+        "lower_angle_to_outward_horizontal_degrees": -8.228534652451254,
+        "upper_angle_to_outward_horizontal_degrees": -14.645068437079926,
+        "lower_rotation_delta_radians": -0.14361502229972167,
+        "upper_rotation_delta_radians": -0.18657886557027858,
+        "lower_inner_minus_outer_height_m": 0.07370775816521835,
+        "upper_inner_minus_outer_height_m": 0.10264077872613697,
+        "lower_outer_displacement_m": 0.07389819764119274,
+        "closure_length_error_m": 1.6653345369377348e-16
+      },
+      "inherited_outer_Cardan_flange_axis_acute_angle_to_wheel_axis_degrees": 6.207166008637495,
+      "outer_Cardan_angle_interpretation": "Measured retained axes only. Separate CV and support bearing interfaces are unresolved; not proof this flange must itself be the hub spindle.",
+      "drum_candidate": {
+        "object": "brakes_0003",
+        "actual_parent": "brakes_pivot_001",
+        "bounds_centre_m": [
+          -3.0799999237060547,
+          0.8974999785423279,
+          0.75
+        ],
+        "bounds_span_m": [
+          0.6700000762939453,
+          0.13000011444091797,
+          0.6700000762939453
+        ],
+        "vertex_mean_m": [
+          -3.0799999237060547,
+          0.8974999801532643,
+          0.7409459449149467
+        ],
+        "raw_vertices": 148,
+        "axis_interpretation": "Shape and authoring source support the drum candidate. Vertex mean is not a reliable circle centre; actual cylindrical-axis fit remains pending."
+      }
+    },
+    {
+      "station": 1,
+      "native_plus1_circle_deficit_mm": 2.443773553154241,
+      "native_minus1_nearest_branch": {
+        "lower_outer": [
+          0.5262922643523363,
+          1.0596981704897583
+        ],
+        "upper_outer": [
+          0.9223591970596072,
+          1.0027771968275974
+        ],
+        "wheel": [
+          0.6784073135775008,
+          1.1795615953851775
+        ],
+        "wheel_shift_m": [
+          -0.07159268642249916,
+          -0.007938404614822536
+        ],
+        "lower_angle_to_outward_horizontal_degrees": -8.22853480131776,
+        "upper_angle_to_outward_horizontal_degrees": -14.645068523488215,
+        "lower_rotation_delta_radians": -0.14361502489793235,
+        "upper_rotation_delta_radians": -0.18657886890928593,
+        "lower_inner_minus_outer_height_m": 0.07370775948952157,
+        "upper_inner_minus_outer_height_m": 0.10264077930549553,
+        "lower_outer_displacement_m": 0.07389819897582306,
+        "closure_length_error_m": 1.1102230246251565e-16
+      },
+      "inherited_outer_Cardan_flange_axis_acute_angle_to_wheel_axis_degrees": 6.207166008637488,
+      "outer_Cardan_angle_interpretation": "Measured retained axes only. Separate CV and support bearing interfaces are unresolved; not proof this flange must itself be the hub spindle.",
+      "drum_candidate": {
+        "object": "brakes_0007",
+        "actual_parent": "brakes_pivot_002",
+        "bounds_centre_m": [
+          -3.0799999237060547,
+          -0.8974999785423279,
+          0.75
+        ],
+        "bounds_span_m": [
+          0.6700000762939453,
+          0.13000011444091797,
+          0.6700000762939453
+        ],
+        "vertex_mean_m": [
+          -3.0799999237060547,
+          -0.8974999769313915,
+          0.7409459449149467
+        ],
+        "raw_vertices": 148,
+        "axis_interpretation": "Shape and authoring source support the drum candidate. Vertex mean is not a reliable circle centre; actual cylindrical-axis fit remains pending."
+      }
+    },
+    {
+      "station": 2,
+      "native_plus1_circle_deficit_mm": 2.443773299180843,
+      "native_minus1_nearest_branch": {
+        "lower_outer": [
+          0.5262922656766396,
+          1.0596981706812665
+        ],
+        "upper_outer": [
+          0.9223591976389658,
+          1.0027771970321087
+        ],
+        "wheel": [
+          0.6784073149018041,
+          1.1795615955766856
+        ],
+        "wheel_shift_m": [
+          -0.07159268509819594,
+          -0.007938404423314394
+        ],
+        "lower_angle_to_outward_horizontal_degrees": -8.228534652451254,
+        "upper_angle_to_outward_horizontal_degrees": -14.645068437079926,
+        "lower_rotation_delta_radians": -0.14361502229972167,
+        "upper_rotation_delta_radians": -0.18657886557027858,
+        "lower_inner_minus_outer_height_m": 0.07370775816521835,
+        "upper_inner_minus_outer_height_m": 0.10264077872613697,
+        "lower_outer_displacement_m": 0.07389819764119274,
+        "closure_length_error_m": 1.6653345369377348e-16
+      },
+      "inherited_outer_Cardan_flange_axis_acute_angle_to_wheel_axis_degrees": 6.207166008637495,
+      "outer_Cardan_angle_interpretation": "Measured retained axes only. Separate CV and support bearing interfaces are unresolved; not proof this flange must itself be the hub spindle.",
+      "drum_candidate": {
+        "object": "brakes_0011",
+        "actual_parent": "brakes_pivot_003",
+        "bounds_centre_m": [
+          -0.8799999952316284,
+          0.8974999785423279,
+          0.75
+        ],
+        "bounds_span_m": [
+          0.6700000762939453,
+          0.13000011444091797,
+          0.6700000762939453
+        ],
+        "vertex_mean_m": [
+          -0.8799999984535011,
+          0.8974999801532643,
+          0.7409459449149467
+        ],
+        "raw_vertices": 148,
+        "axis_interpretation": "Shape and authoring source support the drum candidate. Vertex mean is not a reliable circle centre; actual cylindrical-axis fit remains pending."
+      }
+    },
+    {
+      "station": 3,
+      "native_plus1_circle_deficit_mm": 2.443773553154241,
+      "native_minus1_nearest_branch": {
+        "lower_outer": [
+          0.5262922643523363,
+          1.0596981704897583
+        ],
+        "upper_outer": [
+          0.9223591970596072,
+          1.0027771968275974
+        ],
+        "wheel": [
+          0.6784073135775008,
+          1.1795615953851775
+        ],
+        "wheel_shift_m": [
+          -0.07159268642249916,
+          -0.007938404614822536
+        ],
+        "lower_angle_to_outward_horizontal_degrees": -8.22853480131776,
+        "upper_angle_to_outward_horizontal_degrees": -14.645068523488215,
+        "lower_rotation_delta_radians": -0.14361502489793235,
+        "upper_rotation_delta_radians": -0.18657886890928593,
+        "lower_inner_minus_outer_height_m": 0.07370775948952157,
+        "upper_inner_minus_outer_height_m": 0.10264077930549553,
+        "lower_outer_displacement_m": 0.07389819897582306,
+        "closure_length_error_m": 1.1102230246251565e-16
+      },
+      "inherited_outer_Cardan_flange_axis_acute_angle_to_wheel_axis_degrees": 6.207166008637488,
+      "outer_Cardan_angle_interpretation": "Measured retained axes only. Separate CV and support bearing interfaces are unresolved; not proof this flange must itself be the hub spindle.",
+      "drum_candidate": {
+        "object": "brakes_0015",
+        "actual_parent": "brakes_pivot_004",
+        "bounds_centre_m": [
+          -0.8799999952316284,
+          -0.8974999785423279,
+          0.75
+        ],
+        "bounds_span_m": [
+          0.6700000762939453,
+          0.13000011444091797,
+          0.6700000762939453
+        ],
+        "vertex_mean_m": [
+          -0.8799999984535011,
+          -0.8974999769313915,
+          0.7409459449149467
+        ],
+        "raw_vertices": 148,
+        "axis_interpretation": "Shape and authoring source support the drum candidate. Vertex mean is not a reliable circle centre; actual cylindrical-axis fit remains pending."
+      }
+    }
+  ],
+  "exact_upper_horizontal_from_published_spec": {
+    "wheel_plane_camber_deg": 0.24772687148500191,
+    "wheel_z_shift_m": 0.027256481474508765,
+    "lower_angle_from_horizontal_deg": 3.092974096497366,
+    "lower_inner_minus_outer_z_m": -0.02778752893828873,
+    "scope": "Analytic comparison of old reconstructed spec only; no tolerance assigned to source phrase near horizontal; no load qualification."
+  },
+  "sign_definition": "c>0 means upper wheel edge outward; c=-asin(outward axle unit vector z); right carrier Rx=-c, left Rx=+c",
+  "limits": [
+    "The original 1977 nominal camber value establishes magnitude only; its sign/tolerance remain unresolved.",
+    "The negative-one-degree reachable pose is not a selected or repaired static alignment.",
+    "Current fixed model hardpoints admit no positive-one-degree rigid linkage closure; no arm length or fixed inner axis was changed.",
+    "The 136\u2013141 mm dimension belongs to torsion-bar installation, not a prescribed static road height.",
+    "The upper arm near-horizontal condition belongs to full load; no numerical tolerance was invented.",
+    "No model objects, animations, modifiers or parents were changed during the probe.",
+    "No blend/GLB saved, no production promotion. Replay-native.py outside this checkpoint is unexecuted drafting only."
+  ],
+  "all16VehicleGates": "OPEN"
+}

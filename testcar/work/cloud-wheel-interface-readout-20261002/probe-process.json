@@ -1,0 +1,32 @@
+{
+  "command": [
+    "taskset",
+    "-c",
+    "0",
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "1",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-native-wheel-camber-20261002/probe-01/executed-script.py",
+    "--",
+    "--base",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend",
+    "--sha",
+    "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+    "--output",
+    "/workspace/scratch/a29d03198654/maz-native-wheel-camber-20261002/probe-01"
+  ],
+  "cpu_affinity": [
+    0
+  ],
+  "hard_timeout_seconds": 120,
+  "script_sha256": "7ac374b1ee9e07cae2ea900ec43c4c86d4c88f7637da204b0106e9b0803cd62e",
+  "started_utc": "2026-10-02T04:13:13Z",
+  "exit_code": 0,
+  "elapsed_seconds": 17.164413655002136,
+  "peak_child_rss_kib": 1891488,
+  "finished_utc": "2026-10-02T04:13:31Z"
+}

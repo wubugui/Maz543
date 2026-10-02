@@ -1,0 +1,55 @@
+{
+  "source_checkpoint_manifest_sha256": "2e301a7f79d14d65476f0c2f7eaf39c58eda6d72290fc4d26702b5b595ba3944",
+  "unchanged_copied_files": [
+    {
+      "path": "SUMMARY.json",
+      "bytes": 10160,
+      "sha256": "7dfef82e75995ded228073b10945a6258a34a34fdc059cc255d69d04763b61c6"
+    },
+    {
+      "path": "analytic-closure.json",
+      "bytes": 5624,
+      "sha256": "ec3a3c3c22d14926b14fd9aa22ff79e22bff261dce1c38f7f45a07d5c2963f77"
+    },
+    {
+      "path": "fourbar.py",
+      "bytes": 3661,
+      "sha256": "906d98e8961df317206c52b3456644b78bd52a6df76fbfaade094ef2a2f52d36"
+    },
+    {
+      "path": "native-analytic-closure.json",
+      "bytes": 24449,
+      "sha256": "c81ec0068f7fca229b5d59456627aef6b855167223ab2fdff340454f3666fac3"
+    },
+    {
+      "path": "probe-launch.json",
+      "bytes": 864,
+      "sha256": "fc8287ab255f238a760c637d6a1384a75d2efcb88630e2af41a79ec336b43c08"
+    },
+    {
+      "path": "probe-native.py",
+      "bytes": 5264,
+      "sha256": "7ac374b1ee9e07cae2ea900ec43c4c86d4c88f7637da204b0106e9b0803cd62e"
+    },
+    {
+      "path": "probe-process.json",
+      "bytes": 998,
+      "sha256": "b5267398d60d93decfc69eb26d37c872b8c3102313d216e518490931baa54c8c"
+    },
+    {
+      "path": "probe-read.log",
+      "bytes": 318,
+      "sha256": "c6e86edadff0e54fc48863c4cad050a1c6fd083b3b60711d63bb29f35ad8e6b9"
+    },
+    {
+      "path": "run-probe.py",
+      "bytes": 1671,
+      "sha256": "41e0d8a62452b39ebed448eaa857db3a2712d5aec39e991a881533b2c881b137"
+    },
+    {
+      "path": "wheel-primary-pose-source-v2.json",
+      "bytes": 6140,
+      "sha256": "a4e53301ecc9ba55eafe1c9ac470cc326a0e89bc68ec5fcab9f18bbf41e12bcc"
+    }
+  ]
+}
