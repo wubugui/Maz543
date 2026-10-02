@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/bin/python3.11",
+    "-B",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/classify_normals.py",
+    "--output",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/attempt-02/classification.json"
+  ],
+  "started_at_utc": "2026-10-02T22:57:23.887721+00:00",
+  "ended_at_utc": "2026-10-02T22:57:31.270439+00:00",
+  "elapsed_seconds": 7.382739257009234,
+  "timeout_seconds": 27,
+  "timed_out": false,
+  "actual_exit_code": 0,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "python": "3.11.15 (main, Apr 25 2025, 12:39:20) [GCC 11.2.1 20220127 (Red Hat 11.2.1-9)]",
+  "log_bytes": 539,
+  "log_sha256": "50136e15d140d980eaff406f59c8478ee4b231a38c37581ae5b563f573d2e07b",
+  "status": "COMPLETED"
+}

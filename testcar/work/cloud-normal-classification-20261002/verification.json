@@ -1,0 +1,115 @@
+{
+  "status": "SCOPED_VERIFICATION_COMPLETE_NOT_ACCEPTANCE",
+  "verified_at_utc": "2026-10-02T22:59:02.755372+00:00",
+  "implementation_base_head": "5c3bf6c4b13f8846fa7b93bb3779b3de6fd92f93",
+  "accepted_attempt": "attempt-02",
+  "attempt01_original_bytes_retained": true,
+  "attempt01_archived_files": 11,
+  "input_count": 52,
+  "input_records_before_equal_after": true,
+  "all_input_hashes_rechecked_after_tests": true,
+  "strict_json_no_nan_infinity": true,
+  "tests": {
+    "groups_run": 5,
+    "groups_successful": 5,
+    "log": {
+      "path": "testcar/work/cloud-normal-classification-20261002/attempt-02/tests.log",
+      "bytes": 800,
+      "sha256": "6b87edb6410bbfd81d91f84470add12fa5f1d1ec09d694bb43e03247f1942adb",
+      "git_blob_sha1": "5859e57acc9745d47a30cbd03dd24b50701b6b5a"
+    },
+    "added_controls": [
+      "Legal empty transport group has explicit NO_TRIANGLES_IN_GROUP",
+      "Full nonfinite transport record strictly JSON serializable, with eligible/nonfinite counts and unknown full-domain maxima"
+    ]
+  },
+  "terminal_records": {
+    "diagnosis": {
+      "path": "testcar/work/cloud-normal-classification-20261002/attempt-02/diagnosis-terminal.json",
+      "bytes": 874,
+      "sha256": "bad9168324e6d8e54fe922c08b30e71b6a5b53172bd4708de26c8a8005377d3c",
+      "git_blob_sha1": "08ad78b26e1be97460c96a770579a59c15099d74"
+    },
+    "tests": {
+      "path": "testcar/work/cloud-normal-classification-20261002/attempt-02/tests-terminal.json",
+      "bytes": 734,
+      "sha256": "91257aef89481ac5b216d16dc3376796412a57dbbd31bd4411d5955515348ee2",
+      "git_blob_sha1": "2096d486471b69a0e13b6bca28432ac9e7d35f35"
+    }
+  },
+  "measured_common_field_changes_between_attempts": [
+    {
+      "path": "normal_diagnosis/targets/0/buckets/0/transport_by_correspondence/normal_refined_conditioned/max_absolute_difference",
+      "attempt01": 0.0,
+      "attempt02": null
+    },
+    {
+      "path": "normal_diagnosis/targets/0/buckets/0/transport_by_correspondence/normal_refined_conditioned/max_ulp_distance",
+      "attempt01": 0,
+      "attempt02": null
+    },
+    {
+      "path": "normal_diagnosis/targets/0/buckets/0/transport_by_correspondence/normal_refined_conditioned/classification",
+      "attempt01": "UNRESOLVED_CORRESPONDENCE",
+      "attempt02": "NO_TRIANGLES_IN_GROUP"
+    },
+    {
+      "path": "normal_diagnosis/targets/1/buckets/0/transport_by_correspondence/normal_refined_conditioned/max_absolute_difference",
+      "attempt01": 0.0,
+      "attempt02": null
+    },
+    {
+      "path": "normal_diagnosis/targets/1/buckets/0/transport_by_correspondence/normal_refined_conditioned/max_ulp_distance",
+      "attempt01": 0,
+      "attempt02": null
+    },
+    {
+      "path": "normal_diagnosis/targets/1/buckets/0/transport_by_correspondence/normal_refined_conditioned/classification",
+      "attempt01": "UNRESOLVED_CORRESPONDENCE",
+      "attempt02": "NO_TRIANGLES_IN_GROUP"
+    }
+  ],
+  "all_other_common_diagnosis_fields_equal": true,
+  "tracked_worktree_diff": "",
+  "tracked_index_diff": "",
+  "critical_preserved_files": [
+    {
+      "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+      "bytes": 134267928,
+      "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/design.md",
+      "bytes": 7622,
+      "sha256": "df88a6aec47b58f239031a80b7af0148d35f1becde6a7e2f25b98fa126ad56f9"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/CLOUD_CONTINUATION.md",
+      "bytes": 202886,
+      "sha256": "367bc13142dd11a48b8ba555f10e3054b0e78b8f6f00dffd7a00278d1e23d9d1"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_export.py",
+      "bytes": 2695,
+      "sha256": "5ebff236450adbbae0fc4c4be0dcc42b98fdc1cfd0085d8399be6cac1bde59cf"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/decoded-validation.json",
+      "bytes": 3214594,
+      "sha256": "af8ecb81dc460a3724039cbace7f0b46615b23bc3d37b57ee8fa881199114a39"
+    }
+  ],
+  "classification": {
+    "path": "testcar/work/cloud-normal-classification-20261002/attempt-02/classification.json",
+    "bytes": 169223,
+    "sha256": "8dfad8ac3f9b580069429f0e9eebeeba9296e3b73d6b11b39a0ef7a109305d9c",
+    "git_blob_sha1": "ce53848e10be48f2a0c4d53057d792e46ea2059c"
+  },
+  "historical_replay_note": "These hashes prove the execution-time snapshot. Restore recorded paths/bytes/runtime before historical replay; future CLOUD changes are not evidence of a failed historical guard. Existing outputs use exclusive creation.",
+  "limitations": [
+    "Only this saved-data classification and its five bounded semantic test groups are verified.",
+    "No Blender, resampling, export, model or UV/normal mutation, or new GLB occurred in this item.",
+    "Historical qualification remains FAIL/2299/2e-4, formal +0 NOT_RUN_OLD_REFERENCE_MISMATCH and all16 OPEN.",
+    "Wall time is not an isolated performance benchmark."
+  ]
+}

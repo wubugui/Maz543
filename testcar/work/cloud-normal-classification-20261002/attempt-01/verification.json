@@ -1,0 +1,73 @@
+{
+  "status": "SCOPED_VERIFICATION_COMPLETE_NOT_ACCEPTANCE",
+  "verified_at_utc": "2026-10-02T22:54:31.356264+00:00",
+  "implementation_base_head": "5c3bf6c4b13f8846fa7b93bb3779b3de6fd92f93",
+  "input_count": 40,
+  "input_records_before_equal_after": true,
+  "all_input_hashes_rechecked_after_tests": true,
+  "strict_json_no_nan_infinity": true,
+  "tests": {
+    "groups_run": 5,
+    "groups_successful": 5,
+    "log": {
+      "path": "testcar/work/cloud-normal-classification-20261002/tests.log",
+      "bytes": 800,
+      "sha256": "d5a76f53aae8d09cc84e2b844f4df7b7bbd0858bdf176115a46424e54f136b51",
+      "git_blob_sha1": "56e1b81aa6f137156442ea2b1380e76ed7f17944"
+    }
+  },
+  "terminal_records": {
+    "diagnosis": {
+      "path": "testcar/work/cloud-normal-classification-20261002/diagnosis-terminal.json",
+      "bytes": 863,
+      "sha256": "f4d4c1cb0286fd7a3663de724c453f3364c4f9211010da0eba0d8b9fe0942694",
+      "git_blob_sha1": "9968d61d666669103dbce4b7c3c9071dfe73bb02"
+    },
+    "tests": {
+      "path": "testcar/work/cloud-normal-classification-20261002/tests-terminal.json",
+      "bytes": 735,
+      "sha256": "b51b236c16e2603b750f42cc6b6178208aa299f07b19ef20ce4d21f3a88bcff0",
+      "git_blob_sha1": "531b4391c9796875d5dc601da8ba4fd5e677b510"
+    }
+  },
+  "tracked_worktree_diff": "",
+  "tracked_index_diff": "",
+  "critical_preserved_files": [
+    {
+      "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+      "bytes": 134267928,
+      "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/design.md",
+      "bytes": 7622,
+      "sha256": "df88a6aec47b58f239031a80b7af0148d35f1becde6a7e2f25b98fa126ad56f9"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/CLOUD_CONTINUATION.md",
+      "bytes": 202886,
+      "sha256": "367bc13142dd11a48b8ba555f10e3054b0e78b8f6f00dffd7a00278d1e23d9d1"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_export.py",
+      "bytes": 2695,
+      "sha256": "5ebff236450adbbae0fc4c4be0dcc42b98fdc1cfd0085d8399be6cac1bde59cf"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/decoded-validation.json",
+      "bytes": 3214594,
+      "sha256": "af8ecb81dc460a3724039cbace7f0b46615b23bc3d37b57ee8fa881199114a39"
+    }
+  ],
+  "classification": {
+    "path": "testcar/work/cloud-normal-classification-20261002/classification.json",
+    "bytes": 153439,
+    "sha256": "6a1fbc6818e0b9051930272811d1b4c81b632fce1ca5827cbd6190b80290dfae",
+    "git_blob_sha1": "e1fbddcc3d073669c21f0316052379e8df268dac"
+  },
+  "limitations": [
+    "This verifies only this saved-data classification and its five bounded test groups.",
+    "No Blender, resampling, export, model or UV/normal mutation, or new GLB occurred.",
+    "Historical qualification remains FAIL/2299/2e-4, formal +0 NOT_RUN_OLD_REFERENCE_MISMATCH and all16 OPEN."
+  ]
+}

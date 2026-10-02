@@ -1,0 +1,79 @@
+{
+  "status": "ATTEMPT_01_PRESERVED_BEFORE_TWO_BOUNDARY_FIXES",
+  "archived_at_utc": "2026-10-02T22:56:17.923872+00:00",
+  "method": "Move original files; no duplicated report/log copies",
+  "findings": [
+    "Legal empty transport groups were incorrectly labelled UNRESOLVED_CORRESPONDENCE.",
+    "The independent transport helper could return a NaN maximum for nonfinite input; direction fields were null, but the complete record was not strict JSON."
+  ],
+  "limits": "Attempt01 completed successfully for all finite saved inputs and passed its original five tests. These two boundary findings were from subsequent parent static review. No historical source, comparator, UV helper, design or model changed.",
+  "path_mapping": [
+    {
+      "original_path": "testcar/work/cloud-normal-classification-20261002/README.md",
+      "archived_path": "testcar/work/cloud-normal-classification-20261002/attempt-01/README.md",
+      "bytes": 4186,
+      "sha256": "ea18a2a321af4eca7e192d5a8b133ddcefb8743b98b0624379c9d2d310769eb6"
+    },
+    {
+      "original_path": "testcar/work/cloud-normal-classification-20261002/classification.json",
+      "archived_path": "testcar/work/cloud-normal-classification-20261002/attempt-01/classification.json",
+      "bytes": 153439,
+      "sha256": "6a1fbc6818e0b9051930272811d1b4c81b632fce1ca5827cbd6190b80290dfae"
+    },
+    {
+      "original_path": "testcar/work/cloud-normal-classification-20261002/classify_normals.py",
+      "archived_path": "testcar/work/cloud-normal-classification-20261002/attempt-01/classify_normals.py",
+      "bytes": 21211,
+      "sha256": "64fb7117e14a5813c7999eda1d66164e8b3c280e225bcdd5e03d66898a06ec65"
+    },
+    {
+      "original_path": "testcar/work/cloud-normal-classification-20261002/diagnosis-terminal.json",
+      "archived_path": "testcar/work/cloud-normal-classification-20261002/attempt-01/diagnosis-terminal.json",
+      "bytes": 863,
+      "sha256": "f4d4c1cb0286fd7a3663de724c453f3364c4f9211010da0eba0d8b9fe0942694"
+    },
+    {
+      "original_path": "testcar/work/cloud-normal-classification-20261002/diagnosis.log",
+      "archived_path": "testcar/work/cloud-normal-classification-20261002/attempt-01/diagnosis.log",
+      "bytes": 528,
+      "sha256": "c1895cebc3d72dc8a045fee8cec6bef651a6db2b55c7d44445116c3eb68bd1b5"
+    },
+    {
+      "original_path": "testcar/work/cloud-normal-classification-20261002/run_bounded.py",
+      "archived_path": "testcar/work/cloud-normal-classification-20261002/attempt-01/run_bounded.py",
+      "bytes": 2512,
+      "sha256": "efd1a510608afe1f048ac1c95d8fd52bd008febf8adf346e8c8439b5f5cb52f2"
+    },
+    {
+      "original_path": "testcar/work/cloud-normal-classification-20261002/test_classification.py",
+      "archived_path": "testcar/work/cloud-normal-classification-20261002/attempt-01/test_classification.py",
+      "bytes": 11547,
+      "sha256": "32d35239884e20d014b75b5316ced693405bc0a198d193318b130de9e60ed62a"
+    },
+    {
+      "original_path": "testcar/work/cloud-normal-classification-20261002/tests-terminal.json",
+      "archived_path": "testcar/work/cloud-normal-classification-20261002/attempt-01/tests-terminal.json",
+      "bytes": 735,
+      "sha256": "b51b236c16e2603b750f42cc6b6178208aa299f07b19ef20ce4d21f3a88bcff0"
+    },
+    {
+      "original_path": "testcar/work/cloud-normal-classification-20261002/tests.log",
+      "archived_path": "testcar/work/cloud-normal-classification-20261002/attempt-01/tests.log",
+      "bytes": 800,
+      "sha256": "d5a76f53aae8d09cc84e2b844f4df7b7bbd0858bdf176115a46424e54f136b51"
+    },
+    {
+      "original_path": "testcar/work/cloud-normal-classification-20261002/verification.json",
+      "archived_path": "testcar/work/cloud-normal-classification-20261002/attempt-01/verification.json",
+      "bytes": 3136,
+      "sha256": "c15c51f6cf3b1095f5d1902717e67391b97ee1c8cf07acf6046f66d6d9f11e97"
+    },
+    {
+      "original_path": "testcar/work/cloud-normal-classification-20261002/MANIFEST.json",
+      "archived_path": "testcar/work/cloud-normal-classification-20261002/attempt-01/MANIFEST.json",
+      "bytes": 3323,
+      "sha256": "cba69fff23f26c2d1c06bbf5649eae8e99c3ea9a76636c3b5f4973ec15062354"
+    }
+  ],
+  "historical_input_path_note": "Attempt01 report/manifest retain original execution-time paths and hashes unchanged; use this mapping for archived attempt01 artifacts. Their original bytes have not been rewritten."
+}

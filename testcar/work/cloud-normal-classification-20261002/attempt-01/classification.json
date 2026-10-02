@@ -1,0 +1,4043 @@
+{
+  "schema": "maz-normal-classification-v1",
+  "normal_diagnosis": {
+    "status": "DIAGNOSIS_ONLY_NOT_ACCEPTANCE",
+    "scope": {
+      "measurement": "fresh_run01",
+      "objects": 10,
+      "original_loops": 104256,
+      "triangles": 52216,
+      "expanded_triangle_corners": 156648,
+      "normal_component_occurrences": 469944,
+      "uv_component_occurrences": 313296,
+      "occurrence_warning": "Expanded corners/components may repeat the same raw loop; not independent loop or vertex counts"
+    },
+    "preserved_qualification": {
+      "transport": "FAIL_STATIC_NATIVE_TRANSPORT",
+      "issues": 2299,
+      "normal_nonzero_vector_error_limit": 0.0002,
+      "whole_vehicle": "ALL_16_OPEN",
+      "browser_qa": "NOT_RUN",
+      "legacy_raw_max": 0.740678995847702,
+      "legacy_report": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/decoded-validation.json",
+      "legacy_comparator": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_export.py"
+    },
+    "correspondence": {
+      "legacy_record_status": "FRESH_NOT_CORRESPONDING_RUN03",
+      "position_only_triangles": 50680,
+      "normal_refined_triangles": 1536,
+      "unresolved_groups": [],
+      "uv_used_for_pairing": false
+    },
+    "converted_glb_transport": {
+      "position_only_independent": {
+        "triangles": 50680,
+        "expanded_corners": 152040,
+        "components": 456120,
+        "byte_different_components": 21284,
+        "numeric_different_components": 0,
+        "signed_zero_only_components": 21284,
+        "max_absolute_difference": 0.0,
+        "max_ulp_distance": 0,
+        "nonzero_ulp_histogram": {},
+        "fresh_negative_zero_components": 21284,
+        "glb_negative_zero_components": 0,
+        "vector_error": {
+          "count": 152040,
+          "finite_count": 152040,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "max_vector_error": 0.0,
+        "direction": {
+          "valid_count": 152040,
+          "excluded_count": 0,
+          "exclusion_reason_counts": {},
+          "angle_degrees": {
+            "count": 152040,
+            "finite_count": 152040,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "chord": {
+            "count": 152040,
+            "finite_count": 152040,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "excluded_angle_and_chord": null
+        },
+        "max_direction_angle_degrees": 0.0,
+        "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+        "direction_acceptance_limit": null,
+        "basis": "Exact material and oriented POSITION, unique triangle",
+        "independent_normal_evidence": true,
+        "interpretation": "Measured after POSITION-only pairing"
+      },
+      "normal_refined_conditioned": {
+        "triangles": 1536,
+        "expanded_corners": 4608,
+        "components": 13824,
+        "byte_different_components": 2544,
+        "numeric_different_components": 0,
+        "signed_zero_only_components": 2544,
+        "max_absolute_difference": 0.0,
+        "max_ulp_distance": 0,
+        "nonzero_ulp_histogram": {},
+        "fresh_negative_zero_components": 2544,
+        "glb_negative_zero_components": 0,
+        "vector_error": {
+          "count": 4608,
+          "finite_count": 4608,
+          "nonfinite_count": 0,
+          "min": 0.0,
+          "max": 0.0
+        },
+        "max_vector_error": 0.0,
+        "direction": {
+          "valid_count": 4608,
+          "excluded_count": 0,
+          "exclusion_reason_counts": {},
+          "angle_degrees": {
+            "count": 4608,
+            "finite_count": 4608,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "chord": {
+            "count": 4608,
+            "finite_count": 4608,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.0
+          },
+          "excluded_angle_and_chord": null
+        },
+        "max_direction_angle_degrees": 0.0,
+        "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+        "direction_acceptance_limit": null,
+        "basis": "Exact material/POSITION, duplicates selected by exact numeric NORMAL",
+        "independent_normal_evidence": false,
+        "interpretation": "Equality is a pairing condition; not independent NORMAL validation"
+      }
+    },
+    "attribute_binding": {
+      "uv": {
+        "components": 313296,
+        "byte_different_components": 34490,
+        "numeric_different_components": 34490,
+        "signed_zero_only_components": 0,
+        "max_absolute_difference": 4.76837158203125e-07,
+        "max_ulp_distance": 5,
+        "nonzero_ulp_histogram": {
+          "1": 26208,
+          "2": 7170,
+          "3": 1052,
+          "4": 48,
+          "5": 12
+        },
+        "fresh_negative_zero_components": 0,
+        "glb_negative_zero_components": 0
+      },
+      "glb_uv_exact_run03_all_ten": true,
+      "formal_signed_zero_gate": "NOT_RUN_OLD_REFERENCE_MISMATCH",
+      "full_attribute_fidelity": "NOT_ESTABLISHED"
+    },
+    "targets": [
+      {
+        "object": "BL_Front_mirror_face_-1",
+        "reference_mesh_id": "mesh-00069",
+        "raw_evidence": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/BL_Front_mirror_face_-1.json",
+        "original_loops": 1440,
+        "triangles": 764,
+        "glb_node": 86,
+        "glb_mesh": 69,
+        "legacy_record_status": "FRESH_NOT_CORRESPONDING_RUN03",
+        "native_raw": {
+          "length": {
+            "count": 1440,
+            "finite_count": 1440,
+            "nonfinite_count": 0,
+            "min": 0.259321004152298,
+            "max": 1.0000001194594959
+          },
+          "distance_from_unit": {
+            "count": 1440,
+            "finite_count": 1440,
+            "nonfinite_count": 0,
+            "min": 1.5919709994705045e-11,
+            "max": 0.740678995847702
+          },
+          "zero_count": 0,
+          "nonfinite_vector_count": 0,
+          "worst_distance_from_unit_corner": {
+            "object": "BL_Front_mirror_face_-1",
+            "loop_index": 1200,
+            "vertex_index": 1,
+            "r": [
+              0.0,
+              0.0,
+              -0.259321004152298
+            ],
+            "q": [
+              0.0,
+              0.0,
+              -0.25929999351501465
+            ],
+            "c": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "raw_length": 0.259321004152298,
+            "converted_length": 1.0,
+            "raw_to_reproduced_vector_error": 0.740678995847702,
+            "direction": {
+              "angle_degrees": 0.0,
+              "chord": 0.0,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 622,
+                "corner": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle": 623,
+                "corner": 0,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.5486053748899602,
+              "amplitude_squared": 0.5486053748899602,
+              "a_b_chord_squared": 0.0,
+              "residual": 0.0
+            }
+          },
+          "unit_length_acceptance_limit": null
+        },
+        "official_conversion": {
+          "round4_vector_perturbation": {
+            "count": 1440,
+            "finite_count": 1440,
+            "nonfinite_count": 0,
+            "min": 1.099989021513428e-05,
+            "max": 7.96401366962371e-05
+          },
+          "converted_length": {
+            "count": 1440,
+            "finite_count": 1440,
+            "nonfinite_count": 0,
+            "min": 0.9999999445593579,
+            "max": 1.000000097394248
+          },
+          "raw_to_reproduced_vector_error": {
+            "count": 1440,
+            "finite_count": 1440,
+            "nonfinite_count": 0,
+            "min": 8.677646154287233e-06,
+            "max": 0.740678995847702
+          },
+          "raw_to_reproduced_nonzero_max_vector_error": 0.740678995847702,
+          "legacy_field_name": "raw_to_official_normal_max_nonzero_error",
+          "legacy_value": 0.740678995847702,
+          "legacy_source": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json#/meshes/mesh-00069",
+          "legacy_mask": "~rounded_zero_after_normalization",
+          "fallback_count": 0,
+          "direction": {
+            "valid_count": 1440,
+            "excluded_count": 0,
+            "exclusion_reason_counts": {},
+            "angle_degrees": {
+              "count": 1440,
+              "finite_count": 1440,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 0.0045584343718963844
+            },
+            "chord": {
+              "count": 1440,
+              "finite_count": 1440,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 7.955968850469568e-05
+            },
+            "excluded_angle_and_chord": null
+          },
+          "direction_acceptance_limit": null,
+          "worst_vector_error_corner": {
+            "object": "BL_Front_mirror_face_-1",
+            "loop_index": 1200,
+            "vertex_index": 1,
+            "r": [
+              0.0,
+              0.0,
+              -0.259321004152298
+            ],
+            "q": [
+              0.0,
+              0.0,
+              -0.25929999351501465
+            ],
+            "c": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "raw_length": 0.259321004152298,
+            "converted_length": 1.0,
+            "raw_to_reproduced_vector_error": 0.740678995847702,
+            "direction": {
+              "angle_degrees": 0.0,
+              "chord": 0.0,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 622,
+                "corner": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle": 623,
+                "corner": 0,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.5486053748899602,
+              "amplitude_squared": 0.5486053748899602,
+              "a_b_chord_squared": 0.0,
+              "residual": 0.0
+            }
+          },
+          "worst_direction_corner": {
+            "object": "BL_Front_mirror_face_-1",
+            "loop_index": 64,
+            "vertex_index": 31,
+            "r": [
+              0.3314499855041504,
+              0.8002514243125916,
+              0.49973854422569275
+            ],
+            "q": [
+              0.3314000070095062,
+              0.8003000020980835,
+              0.49970000982284546
+            ],
+            "c": [
+              0.33139899373054504,
+              0.8002974987030029,
+              0.4996984601020813
+            ],
+            "raw_length": 1.0000000237949236,
+            "converted_length": 0.9999999652521455,
+            "raw_to_reproduced_vector_error": 7.955970960792236e-05,
+            "direction": {
+              "angle_degrees": 0.0045584343718963844,
+              "chord": 7.955968850469568e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 32,
+                "corner": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle": 33,
+                "corner": 0,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 6.329747392896934e-09,
+              "amplitude_squared": 3.4272568641198483e-15,
+              "a_b_chord_squared": 6.329743965634952e-09,
+              "residual": 5.117766449865582e-21
+            }
+          }
+        },
+        "buckets": [
+          {
+            "material_name": "Worn_steel",
+            "source_material_slot": 0,
+            "glb_primitive": 0,
+            "fresh_triangles": 764,
+            "glb_triangles": 764,
+            "transport_by_correspondence": {
+              "position_only_independent": {
+                "triangles": 764,
+                "expanded_corners": 2292,
+                "components": 6876,
+                "byte_different_components": 274,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 274,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 274,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 2292,
+                  "finite_count": 2292,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 2292,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 2292,
+                    "finite_count": 2292,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 2292,
+                    "finite_count": 2292,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              },
+              "normal_refined_conditioned": {
+                "triangles": 0,
+                "expanded_corners": 0,
+                "components": 0,
+                "byte_different_components": 0,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 0,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 0,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 0,
+                  "finite_count": 0,
+                  "nonfinite_count": 0,
+                  "min": null,
+                  "max": null
+                },
+                "max_vector_error": null,
+                "direction": {
+                  "valid_count": 0,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 0,
+                    "finite_count": 0,
+                    "nonfinite_count": 0,
+                    "min": null,
+                    "max": null
+                  },
+                  "chord": {
+                    "count": 0,
+                    "finite_count": 0,
+                    "nonfinite_count": 0,
+                    "min": null,
+                    "max": null
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": null,
+                "classification": "UNRESOLVED_CORRESPONDENCE",
+                "direction_acceptance_limit": null
+              }
+            },
+            "unresolved_groups": [],
+            "attribute_binding": {
+              "run03_signatures": {
+                "all": "f456f9dae4e4b6d16738721b6d2569661bb973900ca71f8753d9083881ebc002",
+                "NORMAL": "de87aec53016adf3327519342400ff97aa2b53d1c9e14bddf39b4c463ae8ff69",
+                "POSITION": "649414efd9b7d892653e144018d62cb36c14b9acff14d5f964cd3d57e72374cd",
+                "TEXCOORD_0": "cbbb9dde70eba2188fa2370d3d095b16746322908bddacfcc36bbe1bc3711706"
+              },
+              "glb_signatures": {
+                "all": "98fecc9b9e091cca16854e7f1224a121c436b2c5202e591e59d2bb6763987599",
+                "NORMAL": "77890ced5bfabef6068287e8aec155b9ec5aed21d58001105e9c63fc01147729",
+                "POSITION": "649414efd9b7d892653e144018d62cb36c14b9acff14d5f964cd3d57e72374cd",
+                "TEXCOORD_0": "cbbb9dde70eba2188fa2370d3d095b16746322908bddacfcc36bbe1bc3711706"
+              },
+              "fresh_signatures": {
+                "all": "6a30e57c66f784c7c1661c0486f182b118b17a667ac3c25a8efef90af999f59d",
+                "NORMAL": "de87aec53016adf3327519342400ff97aa2b53d1c9e14bddf39b4c463ae8ff69",
+                "POSITION": "649414efd9b7d892653e144018d62cb36c14b9acff14d5f964cd3d57e72374cd",
+                "TEXCOORD_0": "f68fb94e5a25a5c95df93a9183e15d6c5b271e5f11d18f66e976702d28037127"
+              },
+              "glb_vs_run03_signature_equal": {
+                "all": false,
+                "NORMAL": false,
+                "POSITION": true,
+                "TEXCOORD_0": true
+              }
+            },
+            "uv": {
+              "components": 4584,
+              "byte_different_components": 632,
+              "numeric_different_components": 632,
+              "signed_zero_only_components": 0,
+              "max_absolute_difference": 1.7881393432617188e-07,
+              "max_ulp_distance": 3,
+              "nonzero_ulp_histogram": {
+                "1": 476,
+                "2": 144,
+                "3": 12
+              },
+              "fresh_negative_zero_components": 0,
+              "glb_negative_zero_components": 0
+            }
+          }
+        ]
+      },
+      {
+        "object": "BL_Front_mirror_face_1",
+        "reference_mesh_id": "mesh-00100",
+        "raw_evidence": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/BL_Front_mirror_face_1.json",
+        "original_loops": 1440,
+        "triangles": 764,
+        "glb_node": 121,
+        "glb_mesh": 100,
+        "legacy_record_status": "FRESH_NOT_CORRESPONDING_RUN03",
+        "native_raw": {
+          "length": {
+            "count": 1440,
+            "finite_count": 1440,
+            "nonfinite_count": 0,
+            "min": 0.259321004152298,
+            "max": 1.0000001194594959
+          },
+          "distance_from_unit": {
+            "count": 1440,
+            "finite_count": 1440,
+            "nonfinite_count": 0,
+            "min": 1.5919709994705045e-11,
+            "max": 0.740678995847702
+          },
+          "zero_count": 0,
+          "nonfinite_vector_count": 0,
+          "worst_distance_from_unit_corner": {
+            "object": "BL_Front_mirror_face_1",
+            "loop_index": 1200,
+            "vertex_index": 1,
+            "r": [
+              0.0,
+              0.0,
+              -0.259321004152298
+            ],
+            "q": [
+              0.0,
+              0.0,
+              -0.25929999351501465
+            ],
+            "c": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "raw_length": 0.259321004152298,
+            "converted_length": 1.0,
+            "raw_to_reproduced_vector_error": 0.740678995847702,
+            "direction": {
+              "angle_degrees": 0.0,
+              "chord": 0.0,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 622,
+                "corner": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle": 623,
+                "corner": 0,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.5486053748899602,
+              "amplitude_squared": 0.5486053748899602,
+              "a_b_chord_squared": 0.0,
+              "residual": 0.0
+            }
+          },
+          "unit_length_acceptance_limit": null
+        },
+        "official_conversion": {
+          "round4_vector_perturbation": {
+            "count": 1440,
+            "finite_count": 1440,
+            "nonfinite_count": 0,
+            "min": 1.099989021513428e-05,
+            "max": 7.96401366962371e-05
+          },
+          "converted_length": {
+            "count": 1440,
+            "finite_count": 1440,
+            "nonfinite_count": 0,
+            "min": 0.9999999445593579,
+            "max": 1.000000097394248
+          },
+          "raw_to_reproduced_vector_error": {
+            "count": 1440,
+            "finite_count": 1440,
+            "nonfinite_count": 0,
+            "min": 8.677646154287233e-06,
+            "max": 0.740678995847702
+          },
+          "raw_to_reproduced_nonzero_max_vector_error": 0.740678995847702,
+          "legacy_field_name": "raw_to_official_normal_max_nonzero_error",
+          "legacy_value": 0.740678995847702,
+          "legacy_source": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json#/meshes/mesh-00100",
+          "legacy_mask": "~rounded_zero_after_normalization",
+          "fallback_count": 0,
+          "direction": {
+            "valid_count": 1440,
+            "excluded_count": 0,
+            "exclusion_reason_counts": {},
+            "angle_degrees": {
+              "count": 1440,
+              "finite_count": 1440,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 0.0045584343718963844
+            },
+            "chord": {
+              "count": 1440,
+              "finite_count": 1440,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 7.955968850469568e-05
+            },
+            "excluded_angle_and_chord": null
+          },
+          "direction_acceptance_limit": null,
+          "worst_vector_error_corner": {
+            "object": "BL_Front_mirror_face_1",
+            "loop_index": 1200,
+            "vertex_index": 1,
+            "r": [
+              0.0,
+              0.0,
+              -0.259321004152298
+            ],
+            "q": [
+              0.0,
+              0.0,
+              -0.25929999351501465
+            ],
+            "c": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "raw_length": 0.259321004152298,
+            "converted_length": 1.0,
+            "raw_to_reproduced_vector_error": 0.740678995847702,
+            "direction": {
+              "angle_degrees": 0.0,
+              "chord": 0.0,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 622,
+                "corner": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle": 623,
+                "corner": 0,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.5486053748899602,
+              "amplitude_squared": 0.5486053748899602,
+              "a_b_chord_squared": 0.0,
+              "residual": 0.0
+            }
+          },
+          "worst_direction_corner": {
+            "object": "BL_Front_mirror_face_1",
+            "loop_index": 64,
+            "vertex_index": 31,
+            "r": [
+              0.3314499855041504,
+              0.8002514243125916,
+              0.49973854422569275
+            ],
+            "q": [
+              0.3314000070095062,
+              0.8003000020980835,
+              0.49970000982284546
+            ],
+            "c": [
+              0.33139899373054504,
+              0.8002974987030029,
+              0.4996984601020813
+            ],
+            "raw_length": 1.0000000237949236,
+            "converted_length": 0.9999999652521455,
+            "raw_to_reproduced_vector_error": 7.955970960792236e-05,
+            "direction": {
+              "angle_degrees": 0.0045584343718963844,
+              "chord": 7.955968850469568e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 32,
+                "corner": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle": 33,
+                "corner": 0,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 6.329747392896934e-09,
+              "amplitude_squared": 3.4272568641198483e-15,
+              "a_b_chord_squared": 6.329743965634952e-09,
+              "residual": 5.117766449865582e-21
+            }
+          }
+        },
+        "buckets": [
+          {
+            "material_name": "Worn_steel",
+            "source_material_slot": 0,
+            "glb_primitive": 0,
+            "fresh_triangles": 764,
+            "glb_triangles": 764,
+            "transport_by_correspondence": {
+              "position_only_independent": {
+                "triangles": 764,
+                "expanded_corners": 2292,
+                "components": 6876,
+                "byte_different_components": 274,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 274,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 274,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 2292,
+                  "finite_count": 2292,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 2292,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 2292,
+                    "finite_count": 2292,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 2292,
+                    "finite_count": 2292,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              },
+              "normal_refined_conditioned": {
+                "triangles": 0,
+                "expanded_corners": 0,
+                "components": 0,
+                "byte_different_components": 0,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 0,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 0,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 0,
+                  "finite_count": 0,
+                  "nonfinite_count": 0,
+                  "min": null,
+                  "max": null
+                },
+                "max_vector_error": null,
+                "direction": {
+                  "valid_count": 0,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 0,
+                    "finite_count": 0,
+                    "nonfinite_count": 0,
+                    "min": null,
+                    "max": null
+                  },
+                  "chord": {
+                    "count": 0,
+                    "finite_count": 0,
+                    "nonfinite_count": 0,
+                    "min": null,
+                    "max": null
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": null,
+                "classification": "UNRESOLVED_CORRESPONDENCE",
+                "direction_acceptance_limit": null
+              }
+            },
+            "unresolved_groups": [],
+            "attribute_binding": {
+              "run03_signatures": {
+                "all": "c216372475b3947d130423267a5e59ea035be24d89e9d48d34ce3064d28fecb5",
+                "NORMAL": "de87aec53016adf3327519342400ff97aa2b53d1c9e14bddf39b4c463ae8ff69",
+                "POSITION": "649414efd9b7d892653e144018d62cb36c14b9acff14d5f964cd3d57e72374cd",
+                "TEXCOORD_0": "39e7252e462fca3df92cfd995f46bcaa4226c61852f7d1266deffb47447bbfab"
+              },
+              "glb_signatures": {
+                "all": "4057d61a4d722cb78a1b2748288c81cc96cfea8ee6b4a69cf0075ab7a8c5a340",
+                "NORMAL": "77890ced5bfabef6068287e8aec155b9ec5aed21d58001105e9c63fc01147729",
+                "POSITION": "649414efd9b7d892653e144018d62cb36c14b9acff14d5f964cd3d57e72374cd",
+                "TEXCOORD_0": "39e7252e462fca3df92cfd995f46bcaa4226c61852f7d1266deffb47447bbfab"
+              },
+              "fresh_signatures": {
+                "all": "bf5543b426af69b6e417da4c6f46e6ee338f52fc5fd45063c00bea76505abf5d",
+                "NORMAL": "de87aec53016adf3327519342400ff97aa2b53d1c9e14bddf39b4c463ae8ff69",
+                "POSITION": "649414efd9b7d892653e144018d62cb36c14b9acff14d5f964cd3d57e72374cd",
+                "TEXCOORD_0": "9ca906a8c2818808660958a36843336b2b52845644e3cee20675b701b5d8eb29"
+              },
+              "glb_vs_run03_signature_equal": {
+                "all": false,
+                "NORMAL": false,
+                "POSITION": true,
+                "TEXCOORD_0": true
+              }
+            },
+            "uv": {
+              "components": 4584,
+              "byte_different_components": 594,
+              "numeric_different_components": 594,
+              "signed_zero_only_components": 0,
+              "max_absolute_difference": 1.7881393432617188e-07,
+              "max_ulp_distance": 3,
+              "nonzero_ulp_histogram": {
+                "1": 454,
+                "2": 102,
+                "3": 38
+              },
+              "fresh_negative_zero_components": 0,
+              "glb_negative_zero_components": 0
+            }
+          }
+        ]
+      },
+      {
+        "object": "S543_0_halfshaft_bellows",
+        "reference_mesh_id": "mesh-00583",
+        "raw_evidence": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_0_halfshaft_bellows.json",
+        "original_loops": 12672,
+        "triangles": 6336,
+        "glb_node": 712,
+        "glb_mesh": 583,
+        "legacy_record_status": "FRESH_NOT_CORRESPONDING_RUN03",
+        "native_raw": {
+          "length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.7063049039932805,
+            "max": 1.000000148458673
+          },
+          "distance_from_unit": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936950960067195
+          },
+          "zero_count": 0,
+          "nonfinite_vector_count": 0,
+          "worst_distance_from_unit_corner": {
+            "object": "S543_0_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "unit_length_acceptance_limit": null
+        },
+        "official_conversion": {
+          "round4_vector_perturbation": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 8.287604533612831e-05
+          },
+          "converted_length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.9999999194198906,
+            "max": 1.0000001246528032
+          },
+          "raw_to_reproduced_vector_error": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936951594677212
+          },
+          "raw_to_reproduced_nonzero_max_vector_error": 0.2936951594677212,
+          "legacy_field_name": "raw_to_official_normal_max_nonzero_error",
+          "legacy_value": 0.2936951594677212,
+          "legacy_source": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json#/meshes/mesh-00583",
+          "legacy_mask": "~rounded_zero_after_normalization",
+          "fallback_count": 0,
+          "direction": {
+            "valid_count": 12672,
+            "excluded_count": 0,
+            "exclusion_reason_counts": {},
+            "angle_degrees": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 0.00525181837333352
+            },
+            "chord": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 9.166152229931052e-05
+            },
+            "excluded_angle_and_chord": null
+          },
+          "direction_acceptance_limit": null,
+          "worst_vector_error_corner": {
+            "object": "S543_0_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "worst_direction_corner": {
+            "object": "S543_0_halfshaft_bellows",
+            "loop_index": 39,
+            "vertex_index": 48,
+            "r": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "q": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936950439324962,
+            "direction": {
+              "angle_degrees": 0.00525181837333352,
+              "chord": 9.166152229931052e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 19,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625677883051086,
+              "amplitude_squared": 0.08625677289625261,
+              "a_b_chord_squared": 5.934258317500052e-09,
+              "residual": -6.603906352620505e-17
+            }
+          }
+        },
+        "buckets": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "glb_primitive": 0,
+            "fresh_triangles": 6336,
+            "glb_triangles": 6336,
+            "transport_by_correspondence": {
+              "position_only_independent": {
+                "triangles": 6144,
+                "expanded_corners": 18432,
+                "components": 55296,
+                "byte_different_components": 2592,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 2592,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 2592,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 18432,
+                  "finite_count": 18432,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 18432,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              },
+              "normal_refined_conditioned": {
+                "triangles": 192,
+                "expanded_corners": 576,
+                "components": 1728,
+                "byte_different_components": 318,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 318,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 318,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 576,
+                  "finite_count": 576,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 576,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              }
+            },
+            "unresolved_groups": [],
+            "attribute_binding": {
+              "run03_signatures": {
+                "all": "7c6b5ec6ddb2fe9470e77ae4a41e1ec0ef85697195d873ee68e017c01a0126c1",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "b63ee08aca2a1c1772ead213374ad33646b231f02bd4f92068df22e065e0b831"
+              },
+              "glb_signatures": {
+                "all": "34378a93f7f861f3cf6002e901c544e0fcbfd7bdc91b0d49a21e2a426c6ce0e9",
+                "NORMAL": "86ec7a2973a5220d3d26d7a525ba663d3f5a8f49af64eb23a0efd3224cd9289f",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "b63ee08aca2a1c1772ead213374ad33646b231f02bd4f92068df22e065e0b831"
+              },
+              "fresh_signatures": {
+                "all": "79c31db3e6e4b9efab56444553dbc2adbf574e42f461bc97846e795d7d6a6d09",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "e489e7a46d8170de52998387ed099bf659da466cd344afa7563cff827761233e"
+              },
+              "glb_vs_run03_signature_equal": {
+                "all": false,
+                "NORMAL": false,
+                "POSITION": true,
+                "TEXCOORD_0": true
+              }
+            },
+            "uv": {
+              "components": 38016,
+              "byte_different_components": 3714,
+              "numeric_different_components": 3714,
+              "signed_zero_only_components": 0,
+              "max_absolute_difference": 4.76837158203125e-07,
+              "max_ulp_distance": 4,
+              "nonzero_ulp_histogram": {
+                "1": 2928,
+                "2": 666,
+                "3": 114,
+                "4": 6
+              },
+              "fresh_negative_zero_components": 0,
+              "glb_negative_zero_components": 0
+            }
+          }
+        ]
+      },
+      {
+        "object": "S543_1_halfshaft_bellows",
+        "reference_mesh_id": "mesh-00829",
+        "raw_evidence": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_1_halfshaft_bellows.json",
+        "original_loops": 12672,
+        "triangles": 6336,
+        "glb_node": 982,
+        "glb_mesh": 829,
+        "legacy_record_status": "FRESH_NOT_CORRESPONDING_RUN03",
+        "native_raw": {
+          "length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.7063049039932805,
+            "max": 1.000000148458673
+          },
+          "distance_from_unit": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936950960067195
+          },
+          "zero_count": 0,
+          "nonfinite_vector_count": 0,
+          "worst_distance_from_unit_corner": {
+            "object": "S543_1_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "unit_length_acceptance_limit": null
+        },
+        "official_conversion": {
+          "round4_vector_perturbation": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 8.287604533612831e-05
+          },
+          "converted_length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.9999999194198906,
+            "max": 1.0000001246528032
+          },
+          "raw_to_reproduced_vector_error": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936951594677212
+          },
+          "raw_to_reproduced_nonzero_max_vector_error": 0.2936951594677212,
+          "legacy_field_name": "raw_to_official_normal_max_nonzero_error",
+          "legacy_value": 0.2936951594677212,
+          "legacy_source": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json#/meshes/mesh-00829",
+          "legacy_mask": "~rounded_zero_after_normalization",
+          "fallback_count": 0,
+          "direction": {
+            "valid_count": 12672,
+            "excluded_count": 0,
+            "exclusion_reason_counts": {},
+            "angle_degrees": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 0.00525181837333352
+            },
+            "chord": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 9.166152229931052e-05
+            },
+            "excluded_angle_and_chord": null
+          },
+          "direction_acceptance_limit": null,
+          "worst_vector_error_corner": {
+            "object": "S543_1_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "worst_direction_corner": {
+            "object": "S543_1_halfshaft_bellows",
+            "loop_index": 39,
+            "vertex_index": 48,
+            "r": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "q": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936950439324962,
+            "direction": {
+              "angle_degrees": 0.00525181837333352,
+              "chord": 9.166152229931052e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 19,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625677883051086,
+              "amplitude_squared": 0.08625677289625261,
+              "a_b_chord_squared": 5.934258317500052e-09,
+              "residual": -6.603906352620505e-17
+            }
+          }
+        },
+        "buckets": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "glb_primitive": 0,
+            "fresh_triangles": 6336,
+            "glb_triangles": 6336,
+            "transport_by_correspondence": {
+              "position_only_independent": {
+                "triangles": 6144,
+                "expanded_corners": 18432,
+                "components": 55296,
+                "byte_different_components": 2592,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 2592,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 2592,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 18432,
+                  "finite_count": 18432,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 18432,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              },
+              "normal_refined_conditioned": {
+                "triangles": 192,
+                "expanded_corners": 576,
+                "components": 1728,
+                "byte_different_components": 318,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 318,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 318,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 576,
+                  "finite_count": 576,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 576,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              }
+            },
+            "unresolved_groups": [],
+            "attribute_binding": {
+              "run03_signatures": {
+                "all": "ea2c627fd11c1f2b9f8fc7660d6edbdbe714d2270b540e5e8e8005d0f4b7f7e6",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "b19bafb548bc81c92d2adfc910f6411b0ec546a8e8391af9a3caa6df5395dc4d"
+              },
+              "glb_signatures": {
+                "all": "80d4b889f918153387b8b9aed993e8b2bbecb07d54fbd9e13992d75f053a1474",
+                "NORMAL": "86ec7a2973a5220d3d26d7a525ba663d3f5a8f49af64eb23a0efd3224cd9289f",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "b19bafb548bc81c92d2adfc910f6411b0ec546a8e8391af9a3caa6df5395dc4d"
+              },
+              "fresh_signatures": {
+                "all": "daab30462256939c479c937d6ce4afdc0b6bbd67790f832707de2a039475c7a6",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "c3dd5002adab0e579465fb4483ea3ed48506c7423df73372366d420d4097c319"
+              },
+              "glb_vs_run03_signature_equal": {
+                "all": false,
+                "NORMAL": false,
+                "POSITION": true,
+                "TEXCOORD_0": true
+              }
+            },
+            "uv": {
+              "components": 38016,
+              "byte_different_components": 4476,
+              "numeric_different_components": 4476,
+              "signed_zero_only_components": 0,
+              "max_absolute_difference": 4.76837158203125e-07,
+              "max_ulp_distance": 4,
+              "nonzero_ulp_histogram": {
+                "1": 3390,
+                "2": 948,
+                "3": 132,
+                "4": 6
+              },
+              "fresh_negative_zero_components": 0,
+              "glb_negative_zero_components": 0
+            }
+          }
+        ]
+      },
+      {
+        "object": "S543_2_halfshaft_bellows",
+        "reference_mesh_id": "mesh-01075",
+        "raw_evidence": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_2_halfshaft_bellows.json",
+        "original_loops": 12672,
+        "triangles": 6336,
+        "glb_node": 1252,
+        "glb_mesh": 1075,
+        "legacy_record_status": "FRESH_NOT_CORRESPONDING_RUN03",
+        "native_raw": {
+          "length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.7063049039932805,
+            "max": 1.000000148458673
+          },
+          "distance_from_unit": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936950960067195
+          },
+          "zero_count": 0,
+          "nonfinite_vector_count": 0,
+          "worst_distance_from_unit_corner": {
+            "object": "S543_2_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "unit_length_acceptance_limit": null
+        },
+        "official_conversion": {
+          "round4_vector_perturbation": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 8.287604533612831e-05
+          },
+          "converted_length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.9999999194198906,
+            "max": 1.0000001246528032
+          },
+          "raw_to_reproduced_vector_error": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936951594677212
+          },
+          "raw_to_reproduced_nonzero_max_vector_error": 0.2936951594677212,
+          "legacy_field_name": "raw_to_official_normal_max_nonzero_error",
+          "legacy_value": 0.2936951594677212,
+          "legacy_source": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json#/meshes/mesh-01075",
+          "legacy_mask": "~rounded_zero_after_normalization",
+          "fallback_count": 0,
+          "direction": {
+            "valid_count": 12672,
+            "excluded_count": 0,
+            "exclusion_reason_counts": {},
+            "angle_degrees": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 0.00525181837333352
+            },
+            "chord": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 9.166152229931052e-05
+            },
+            "excluded_angle_and_chord": null
+          },
+          "direction_acceptance_limit": null,
+          "worst_vector_error_corner": {
+            "object": "S543_2_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "worst_direction_corner": {
+            "object": "S543_2_halfshaft_bellows",
+            "loop_index": 39,
+            "vertex_index": 48,
+            "r": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "q": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936950439324962,
+            "direction": {
+              "angle_degrees": 0.00525181837333352,
+              "chord": 9.166152229931052e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 19,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625677883051086,
+              "amplitude_squared": 0.08625677289625261,
+              "a_b_chord_squared": 5.934258317500052e-09,
+              "residual": -6.603906352620505e-17
+            }
+          }
+        },
+        "buckets": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "glb_primitive": 0,
+            "fresh_triangles": 6336,
+            "glb_triangles": 6336,
+            "transport_by_correspondence": {
+              "position_only_independent": {
+                "triangles": 6144,
+                "expanded_corners": 18432,
+                "components": 55296,
+                "byte_different_components": 2592,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 2592,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 2592,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 18432,
+                  "finite_count": 18432,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 18432,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              },
+              "normal_refined_conditioned": {
+                "triangles": 192,
+                "expanded_corners": 576,
+                "components": 1728,
+                "byte_different_components": 318,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 318,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 318,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 576,
+                  "finite_count": 576,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 576,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              }
+            },
+            "unresolved_groups": [],
+            "attribute_binding": {
+              "run03_signatures": {
+                "all": "a6ddc3cf79793fe9effed2b24edd8a24fe73c6d9a61b101ad9cafb0d06f5ebdd",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "98434944e1d9d3fc73ee76d353334506d467f5a37d5a6b4d658996fb62cd2076"
+              },
+              "glb_signatures": {
+                "all": "d9d33437846f528f34680f4784218fd181494dad71a193ff79c4f8d071159e27",
+                "NORMAL": "86ec7a2973a5220d3d26d7a525ba663d3f5a8f49af64eb23a0efd3224cd9289f",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "98434944e1d9d3fc73ee76d353334506d467f5a37d5a6b4d658996fb62cd2076"
+              },
+              "fresh_signatures": {
+                "all": "db53fd1d11a967c9d8338ee9f42136eac6c2ffa8f5cb634cd01b58a648492291",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "1ef297329cfe831d171df9116752a633dbb4e6ba9aaeb4eacfa30965d55047af"
+              },
+              "glb_vs_run03_signature_equal": {
+                "all": false,
+                "NORMAL": false,
+                "POSITION": true,
+                "TEXCOORD_0": true
+              }
+            },
+            "uv": {
+              "components": 38016,
+              "byte_different_components": 4554,
+              "numeric_different_components": 4554,
+              "signed_zero_only_components": 0,
+              "max_absolute_difference": 4.76837158203125e-07,
+              "max_ulp_distance": 5,
+              "nonzero_ulp_histogram": {
+                "1": 3414,
+                "2": 984,
+                "3": 150,
+                "5": 6
+              },
+              "fresh_negative_zero_components": 0,
+              "glb_negative_zero_components": 0
+            }
+          }
+        ]
+      },
+      {
+        "object": "S543_3_halfshaft_bellows",
+        "reference_mesh_id": "mesh-01321",
+        "raw_evidence": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_3_halfshaft_bellows.json",
+        "original_loops": 12672,
+        "triangles": 6336,
+        "glb_node": 1522,
+        "glb_mesh": 1321,
+        "legacy_record_status": "FRESH_NOT_CORRESPONDING_RUN03",
+        "native_raw": {
+          "length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.7063049039932805,
+            "max": 1.000000148458673
+          },
+          "distance_from_unit": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936950960067195
+          },
+          "zero_count": 0,
+          "nonfinite_vector_count": 0,
+          "worst_distance_from_unit_corner": {
+            "object": "S543_3_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "unit_length_acceptance_limit": null
+        },
+        "official_conversion": {
+          "round4_vector_perturbation": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 8.287604533612831e-05
+          },
+          "converted_length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.9999999194198906,
+            "max": 1.0000001246528032
+          },
+          "raw_to_reproduced_vector_error": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936951594677212
+          },
+          "raw_to_reproduced_nonzero_max_vector_error": 0.2936951594677212,
+          "legacy_field_name": "raw_to_official_normal_max_nonzero_error",
+          "legacy_value": 0.2936951594677212,
+          "legacy_source": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json#/meshes/mesh-01321",
+          "legacy_mask": "~rounded_zero_after_normalization",
+          "fallback_count": 0,
+          "direction": {
+            "valid_count": 12672,
+            "excluded_count": 0,
+            "exclusion_reason_counts": {},
+            "angle_degrees": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 0.00525181837333352
+            },
+            "chord": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 9.166152229931052e-05
+            },
+            "excluded_angle_and_chord": null
+          },
+          "direction_acceptance_limit": null,
+          "worst_vector_error_corner": {
+            "object": "S543_3_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "worst_direction_corner": {
+            "object": "S543_3_halfshaft_bellows",
+            "loop_index": 39,
+            "vertex_index": 48,
+            "r": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "q": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936950439324962,
+            "direction": {
+              "angle_degrees": 0.00525181837333352,
+              "chord": 9.166152229931052e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 19,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625677883051086,
+              "amplitude_squared": 0.08625677289625261,
+              "a_b_chord_squared": 5.934258317500052e-09,
+              "residual": -6.603906352620505e-17
+            }
+          }
+        },
+        "buckets": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "glb_primitive": 0,
+            "fresh_triangles": 6336,
+            "glb_triangles": 6336,
+            "transport_by_correspondence": {
+              "position_only_independent": {
+                "triangles": 6144,
+                "expanded_corners": 18432,
+                "components": 55296,
+                "byte_different_components": 2592,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 2592,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 2592,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 18432,
+                  "finite_count": 18432,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 18432,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              },
+              "normal_refined_conditioned": {
+                "triangles": 192,
+                "expanded_corners": 576,
+                "components": 1728,
+                "byte_different_components": 318,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 318,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 318,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 576,
+                  "finite_count": 576,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 576,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              }
+            },
+            "unresolved_groups": [],
+            "attribute_binding": {
+              "run03_signatures": {
+                "all": "1da539b3c1048978e805bd6e6a6b1f66362afd01daa8f1f9889972d6b049ce1c",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "0294088fcb7c00c9d7cd3e99776fc584c4fc5e7fbb428dbfd44d9f7092c32c78"
+              },
+              "glb_signatures": {
+                "all": "7e52ec5ac8de0ac647b823e2b4a7b85e70fe2b91fd2d74732f60675123e29ea9",
+                "NORMAL": "86ec7a2973a5220d3d26d7a525ba663d3f5a8f49af64eb23a0efd3224cd9289f",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "0294088fcb7c00c9d7cd3e99776fc584c4fc5e7fbb428dbfd44d9f7092c32c78"
+              },
+              "fresh_signatures": {
+                "all": "907c288e545460dbf3aede4bb65214b928fe590352b939a4654455d289d34f30",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "17fe0df9262ff017e1765b99c22f2ef67011bcf91b98f018c50e3aadd80e83bf"
+              },
+              "glb_vs_run03_signature_equal": {
+                "all": false,
+                "NORMAL": false,
+                "POSITION": true,
+                "TEXCOORD_0": true
+              }
+            },
+            "uv": {
+              "components": 38016,
+              "byte_different_components": 3540,
+              "numeric_different_components": 3540,
+              "signed_zero_only_components": 0,
+              "max_absolute_difference": 4.76837158203125e-07,
+              "max_ulp_distance": 4,
+              "nonzero_ulp_histogram": {
+                "1": 2664,
+                "2": 786,
+                "3": 84,
+                "4": 6
+              },
+              "fresh_negative_zero_components": 0,
+              "glb_negative_zero_components": 0
+            }
+          }
+        ]
+      },
+      {
+        "object": "S543_4_halfshaft_bellows",
+        "reference_mesh_id": "mesh-01567",
+        "raw_evidence": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_4_halfshaft_bellows.json",
+        "original_loops": 12672,
+        "triangles": 6336,
+        "glb_node": 1792,
+        "glb_mesh": 1567,
+        "legacy_record_status": "FRESH_NOT_CORRESPONDING_RUN03",
+        "native_raw": {
+          "length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.7063049039932805,
+            "max": 1.000000148458673
+          },
+          "distance_from_unit": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936950960067195
+          },
+          "zero_count": 0,
+          "nonfinite_vector_count": 0,
+          "worst_distance_from_unit_corner": {
+            "object": "S543_4_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "unit_length_acceptance_limit": null
+        },
+        "official_conversion": {
+          "round4_vector_perturbation": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 8.287604533612831e-05
+          },
+          "converted_length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.9999999194198906,
+            "max": 1.0000001246528032
+          },
+          "raw_to_reproduced_vector_error": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936951594677212
+          },
+          "raw_to_reproduced_nonzero_max_vector_error": 0.2936951594677212,
+          "legacy_field_name": "raw_to_official_normal_max_nonzero_error",
+          "legacy_value": 0.2936951594677212,
+          "legacy_source": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json#/meshes/mesh-01567",
+          "legacy_mask": "~rounded_zero_after_normalization",
+          "fallback_count": 0,
+          "direction": {
+            "valid_count": 12672,
+            "excluded_count": 0,
+            "exclusion_reason_counts": {},
+            "angle_degrees": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 0.00525181837333352
+            },
+            "chord": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 9.166152229931052e-05
+            },
+            "excluded_angle_and_chord": null
+          },
+          "direction_acceptance_limit": null,
+          "worst_vector_error_corner": {
+            "object": "S543_4_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "worst_direction_corner": {
+            "object": "S543_4_halfshaft_bellows",
+            "loop_index": 39,
+            "vertex_index": 48,
+            "r": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "q": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936950439324962,
+            "direction": {
+              "angle_degrees": 0.00525181837333352,
+              "chord": 9.166152229931052e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 19,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625677883051086,
+              "amplitude_squared": 0.08625677289625261,
+              "a_b_chord_squared": 5.934258317500052e-09,
+              "residual": -6.603906352620505e-17
+            }
+          }
+        },
+        "buckets": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "glb_primitive": 0,
+            "fresh_triangles": 6336,
+            "glb_triangles": 6336,
+            "transport_by_correspondence": {
+              "position_only_independent": {
+                "triangles": 6144,
+                "expanded_corners": 18432,
+                "components": 55296,
+                "byte_different_components": 2592,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 2592,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 2592,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 18432,
+                  "finite_count": 18432,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 18432,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              },
+              "normal_refined_conditioned": {
+                "triangles": 192,
+                "expanded_corners": 576,
+                "components": 1728,
+                "byte_different_components": 318,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 318,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 318,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 576,
+                  "finite_count": 576,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 576,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              }
+            },
+            "unresolved_groups": [],
+            "attribute_binding": {
+              "run03_signatures": {
+                "all": "34fe6e536032db3ff1403868bd46eb09edfdd96ed4012a251f107269cd1b3983",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "ebbaf8124df1265dd83ad6401c20e87b0e915fb4fabb834bb47ed44d9516568c"
+              },
+              "glb_signatures": {
+                "all": "eab0b95617d0d9cc820d20b382e48f0cf0e002679ee32870e25053e5732429cb",
+                "NORMAL": "86ec7a2973a5220d3d26d7a525ba663d3f5a8f49af64eb23a0efd3224cd9289f",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "ebbaf8124df1265dd83ad6401c20e87b0e915fb4fabb834bb47ed44d9516568c"
+              },
+              "fresh_signatures": {
+                "all": "21bddead2f02981f895fb0e3c39549b8fd38fcaeb0748646ce2893e95dd5ec1d",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "035044f1e83fb6644128c3fd333f28869109ad47d5b4f61ab6019fda03338010"
+              },
+              "glb_vs_run03_signature_equal": {
+                "all": false,
+                "NORMAL": false,
+                "POSITION": true,
+                "TEXCOORD_0": true
+              }
+            },
+            "uv": {
+              "components": 38016,
+              "byte_different_components": 3132,
+              "numeric_different_components": 3132,
+              "signed_zero_only_components": 0,
+              "max_absolute_difference": 3.5762786865234375e-07,
+              "max_ulp_distance": 4,
+              "nonzero_ulp_histogram": {
+                "1": 2244,
+                "2": 780,
+                "3": 102,
+                "4": 6
+              },
+              "fresh_negative_zero_components": 0,
+              "glb_negative_zero_components": 0
+            }
+          }
+        ]
+      },
+      {
+        "object": "S543_5_halfshaft_bellows",
+        "reference_mesh_id": "mesh-01780",
+        "raw_evidence": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_5_halfshaft_bellows.json",
+        "original_loops": 12672,
+        "triangles": 6336,
+        "glb_node": 2018,
+        "glb_mesh": 1780,
+        "legacy_record_status": "FRESH_NOT_CORRESPONDING_RUN03",
+        "native_raw": {
+          "length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.7063049039932805,
+            "max": 1.000000148458673
+          },
+          "distance_from_unit": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936950960067195
+          },
+          "zero_count": 0,
+          "nonfinite_vector_count": 0,
+          "worst_distance_from_unit_corner": {
+            "object": "S543_5_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "unit_length_acceptance_limit": null
+        },
+        "official_conversion": {
+          "round4_vector_perturbation": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 8.287604533612831e-05
+          },
+          "converted_length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.9999999194198906,
+            "max": 1.0000001246528032
+          },
+          "raw_to_reproduced_vector_error": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936951594677212
+          },
+          "raw_to_reproduced_nonzero_max_vector_error": 0.2936951594677212,
+          "legacy_field_name": "raw_to_official_normal_max_nonzero_error",
+          "legacy_value": 0.2936951594677212,
+          "legacy_source": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json#/meshes/mesh-01780",
+          "legacy_mask": "~rounded_zero_after_normalization",
+          "fallback_count": 0,
+          "direction": {
+            "valid_count": 12672,
+            "excluded_count": 0,
+            "exclusion_reason_counts": {},
+            "angle_degrees": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 0.00525181837333352
+            },
+            "chord": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 9.166152229931052e-05
+            },
+            "excluded_angle_and_chord": null
+          },
+          "direction_acceptance_limit": null,
+          "worst_vector_error_corner": {
+            "object": "S543_5_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "worst_direction_corner": {
+            "object": "S543_5_halfshaft_bellows",
+            "loop_index": 39,
+            "vertex_index": 48,
+            "r": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "q": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936950439324962,
+            "direction": {
+              "angle_degrees": 0.00525181837333352,
+              "chord": 9.166152229931052e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 19,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625677883051086,
+              "amplitude_squared": 0.08625677289625261,
+              "a_b_chord_squared": 5.934258317500052e-09,
+              "residual": -6.603906352620505e-17
+            }
+          }
+        },
+        "buckets": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "glb_primitive": 0,
+            "fresh_triangles": 6336,
+            "glb_triangles": 6336,
+            "transport_by_correspondence": {
+              "position_only_independent": {
+                "triangles": 6144,
+                "expanded_corners": 18432,
+                "components": 55296,
+                "byte_different_components": 2592,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 2592,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 2592,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 18432,
+                  "finite_count": 18432,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 18432,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              },
+              "normal_refined_conditioned": {
+                "triangles": 192,
+                "expanded_corners": 576,
+                "components": 1728,
+                "byte_different_components": 318,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 318,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 318,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 576,
+                  "finite_count": 576,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 576,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              }
+            },
+            "unresolved_groups": [],
+            "attribute_binding": {
+              "run03_signatures": {
+                "all": "f58ab49d0a3ebed1a90d2b6ac6a4d8102128f24f8541046f89e50a20688dd6e5",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "0fa1b974c7e62864b1423f8d10a0a0536230f6c1da85c44e42399130d0ca5cbe"
+              },
+              "glb_signatures": {
+                "all": "758e453d84a1ce610168952d662f4c52b6c165c9d079a556770b6cf4e2ddd3b7",
+                "NORMAL": "86ec7a2973a5220d3d26d7a525ba663d3f5a8f49af64eb23a0efd3224cd9289f",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "0fa1b974c7e62864b1423f8d10a0a0536230f6c1da85c44e42399130d0ca5cbe"
+              },
+              "fresh_signatures": {
+                "all": "d4aa0297f63d865083679ea86c2be2ab304398d686ea58c916aa6ffc6c997384",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "7bcc3b180e637485f639d27b146ed3ded5246f2f45d7fda34efe51d4be1c4388"
+              },
+              "glb_vs_run03_signature_equal": {
+                "all": false,
+                "NORMAL": false,
+                "POSITION": true,
+                "TEXCOORD_0": true
+              }
+            },
+            "uv": {
+              "components": 38016,
+              "byte_different_components": 4422,
+              "numeric_different_components": 4422,
+              "signed_zero_only_components": 0,
+              "max_absolute_difference": 4.76837158203125e-07,
+              "max_ulp_distance": 4,
+              "nonzero_ulp_histogram": {
+                "1": 3462,
+                "2": 858,
+                "3": 96,
+                "4": 6
+              },
+              "fresh_negative_zero_components": 0,
+              "glb_negative_zero_components": 0
+            }
+          }
+        ]
+      },
+      {
+        "object": "S543_6_halfshaft_bellows",
+        "reference_mesh_id": "mesh-01993",
+        "raw_evidence": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_6_halfshaft_bellows.json",
+        "original_loops": 12672,
+        "triangles": 6336,
+        "glb_node": 2244,
+        "glb_mesh": 1993,
+        "legacy_record_status": "FRESH_NOT_CORRESPONDING_RUN03",
+        "native_raw": {
+          "length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.7063049039932805,
+            "max": 1.000000148458673
+          },
+          "distance_from_unit": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936950960067195
+          },
+          "zero_count": 0,
+          "nonfinite_vector_count": 0,
+          "worst_distance_from_unit_corner": {
+            "object": "S543_6_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "unit_length_acceptance_limit": null
+        },
+        "official_conversion": {
+          "round4_vector_perturbation": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 8.287604533612831e-05
+          },
+          "converted_length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.9999999194198906,
+            "max": 1.0000001246528032
+          },
+          "raw_to_reproduced_vector_error": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936951594677212
+          },
+          "raw_to_reproduced_nonzero_max_vector_error": 0.2936951594677212,
+          "legacy_field_name": "raw_to_official_normal_max_nonzero_error",
+          "legacy_value": 0.2936951594677212,
+          "legacy_source": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json#/meshes/mesh-01993",
+          "legacy_mask": "~rounded_zero_after_normalization",
+          "fallback_count": 0,
+          "direction": {
+            "valid_count": 12672,
+            "excluded_count": 0,
+            "exclusion_reason_counts": {},
+            "angle_degrees": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 0.00525181837333352
+            },
+            "chord": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 9.166152229931052e-05
+            },
+            "excluded_angle_and_chord": null
+          },
+          "direction_acceptance_limit": null,
+          "worst_vector_error_corner": {
+            "object": "S543_6_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "worst_direction_corner": {
+            "object": "S543_6_halfshaft_bellows",
+            "loop_index": 39,
+            "vertex_index": 48,
+            "r": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "q": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936950439324962,
+            "direction": {
+              "angle_degrees": 0.00525181837333352,
+              "chord": 9.166152229931052e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 19,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625677883051086,
+              "amplitude_squared": 0.08625677289625261,
+              "a_b_chord_squared": 5.934258317500052e-09,
+              "residual": -6.603906352620505e-17
+            }
+          }
+        },
+        "buckets": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "glb_primitive": 0,
+            "fresh_triangles": 6336,
+            "glb_triangles": 6336,
+            "transport_by_correspondence": {
+              "position_only_independent": {
+                "triangles": 6144,
+                "expanded_corners": 18432,
+                "components": 55296,
+                "byte_different_components": 2592,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 2592,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 2592,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 18432,
+                  "finite_count": 18432,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 18432,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              },
+              "normal_refined_conditioned": {
+                "triangles": 192,
+                "expanded_corners": 576,
+                "components": 1728,
+                "byte_different_components": 318,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 318,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 318,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 576,
+                  "finite_count": 576,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 576,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              }
+            },
+            "unresolved_groups": [],
+            "attribute_binding": {
+              "run03_signatures": {
+                "all": "0139bcda2ce569283cbdb26df4a7a3e33351ae1ce43f8660adfa348c73cc7f81",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "5b1612dfa49ede6b34324c99fee0ce566ce0623d017e8d12c87a6c52362d10d3"
+              },
+              "glb_signatures": {
+                "all": "7922cdd2a02f8b1b5a05650c16b971833c643829aa8f798f6cf1ad2b602215fa",
+                "NORMAL": "86ec7a2973a5220d3d26d7a525ba663d3f5a8f49af64eb23a0efd3224cd9289f",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "5b1612dfa49ede6b34324c99fee0ce566ce0623d017e8d12c87a6c52362d10d3"
+              },
+              "fresh_signatures": {
+                "all": "375615ead834d9d21c4998472ce2a7d28a6187510e695fc118677a2847d4e14d",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "e900004502ca4dee5678d98d73975cf889e886d02c1553e902425570953358d7"
+              },
+              "glb_vs_run03_signature_equal": {
+                "all": false,
+                "NORMAL": false,
+                "POSITION": true,
+                "TEXCOORD_0": true
+              }
+            },
+            "uv": {
+              "components": 38016,
+              "byte_different_components": 5250,
+              "numeric_different_components": 5250,
+              "signed_zero_only_components": 0,
+              "max_absolute_difference": 4.76837158203125e-07,
+              "max_ulp_distance": 4,
+              "nonzero_ulp_histogram": {
+                "1": 3996,
+                "2": 1044,
+                "3": 198,
+                "4": 12
+              },
+              "fresh_negative_zero_components": 0,
+              "glb_negative_zero_components": 0
+            }
+          }
+        ]
+      },
+      {
+        "object": "S543_7_halfshaft_bellows",
+        "reference_mesh_id": "mesh-02206",
+        "raw_evidence": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_7_halfshaft_bellows.json",
+        "original_loops": 12672,
+        "triangles": 6336,
+        "glb_node": 2470,
+        "glb_mesh": 2206,
+        "legacy_record_status": "FRESH_NOT_CORRESPONDING_RUN03",
+        "native_raw": {
+          "length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.7063049039932805,
+            "max": 1.000000148458673
+          },
+          "distance_from_unit": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936950960067195
+          },
+          "zero_count": 0,
+          "nonfinite_vector_count": 0,
+          "worst_distance_from_unit_corner": {
+            "object": "S543_7_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "unit_length_acceptance_limit": null
+        },
+        "official_conversion": {
+          "round4_vector_perturbation": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 8.287604533612831e-05
+          },
+          "converted_length": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.9999999194198906,
+            "max": 1.0000001246528032
+          },
+          "raw_to_reproduced_vector_error": {
+            "count": 12672,
+            "finite_count": 12672,
+            "nonfinite_count": 0,
+            "min": 0.0,
+            "max": 0.2936951594677212
+          },
+          "raw_to_reproduced_nonzero_max_vector_error": 0.2936951594677212,
+          "legacy_field_name": "raw_to_official_normal_max_nonzero_error",
+          "legacy_value": 0.2936951594677212,
+          "legacy_source": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json#/meshes/mesh-02206",
+          "legacy_mask": "~rounded_zero_after_normalization",
+          "fallback_count": 0,
+          "direction": {
+            "valid_count": 12672,
+            "excluded_count": 0,
+            "exclusion_reason_counts": {},
+            "angle_degrees": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 0.00525181837333352
+            },
+            "chord": {
+              "count": 12672,
+              "finite_count": 12672,
+              "nonfinite_count": 0,
+              "min": 0.0,
+              "max": 9.166152229931052e-05
+            },
+            "excluded_angle_and_chord": null
+          },
+          "direction_acceptance_limit": null,
+          "worst_vector_error_corner": {
+            "object": "S543_7_halfshaft_bellows",
+            "loop_index": 23,
+            "vertex_index": 24,
+            "r": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "q": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936951594677212,
+            "direction": {
+              "angle_degrees": 0.005251303172427886,
+              "chord": 9.165253034722308e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 11,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625684669477017,
+              "amplitude_squared": 0.08625684076167714,
+              "a_b_chord_squared": 5.933093108192543e-09,
+              "residual": -7.742926197890205e-17
+            }
+          },
+          "worst_direction_corner": {
+            "object": "S543_7_halfshaft_bellows",
+            "loop_index": 39,
+            "vertex_index": 48,
+            "r": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "q": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "c": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "raw_to_reproduced_vector_error": 0.2936950439324962,
+            "direction": {
+              "angle_degrees": 0.00525181837333352,
+              "chord": 9.166152229931052e-05,
+              "exclusion_reason": null
+            },
+            "triangle_references": [
+              {
+                "triangle": 19,
+                "corner": 2,
+                "material_slot": 0
+              }
+            ],
+            "same_corner_decomposition": {
+              "D_squared": 0.08625677883051086,
+              "amplitude_squared": 0.08625677289625261,
+              "a_b_chord_squared": 5.934258317500052e-09,
+              "residual": -6.603906352620505e-17
+            }
+          }
+        },
+        "buckets": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "glb_primitive": 0,
+            "fresh_triangles": 6336,
+            "glb_triangles": 6336,
+            "transport_by_correspondence": {
+              "position_only_independent": {
+                "triangles": 6144,
+                "expanded_corners": 18432,
+                "components": 55296,
+                "byte_different_components": 2592,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 2592,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 2592,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 18432,
+                  "finite_count": 18432,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 18432,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 18432,
+                    "finite_count": 18432,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              },
+              "normal_refined_conditioned": {
+                "triangles": 192,
+                "expanded_corners": 576,
+                "components": 1728,
+                "byte_different_components": 318,
+                "numeric_different_components": 0,
+                "signed_zero_only_components": 318,
+                "max_absolute_difference": 0.0,
+                "max_ulp_distance": 0,
+                "nonzero_ulp_histogram": {},
+                "fresh_negative_zero_components": 318,
+                "glb_negative_zero_components": 0,
+                "vector_error": {
+                  "count": 576,
+                  "finite_count": 576,
+                  "nonfinite_count": 0,
+                  "min": 0.0,
+                  "max": 0.0
+                },
+                "max_vector_error": 0.0,
+                "direction": {
+                  "valid_count": 576,
+                  "excluded_count": 0,
+                  "exclusion_reason_counts": {},
+                  "angle_degrees": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "chord": {
+                    "count": 576,
+                    "finite_count": 576,
+                    "nonfinite_count": 0,
+                    "min": 0.0,
+                    "max": 0.0
+                  },
+                  "excluded_angle_and_chord": null
+                },
+                "max_direction_angle_degrees": 0.0,
+                "classification": "NUMERIC_EQUAL_WITH_ZERO_SIGN_DIFFERENCES",
+                "direction_acceptance_limit": null
+              }
+            },
+            "unresolved_groups": [],
+            "attribute_binding": {
+              "run03_signatures": {
+                "all": "4c0c4c8538bfa9adea7d5c86168a14bb1e220d6a2ba6f3be3f7400253fa9fe6a",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "f01753afd08d2327fef3c9ed21c8b72caffbe87c7dd721f5ff07424549e92ccf"
+              },
+              "glb_signatures": {
+                "all": "06f8ae72e4c64ed88b6fe01d85cc9251e0f91ea32b37a9146fff3d12e7c9140e",
+                "NORMAL": "86ec7a2973a5220d3d26d7a525ba663d3f5a8f49af64eb23a0efd3224cd9289f",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "f01753afd08d2327fef3c9ed21c8b72caffbe87c7dd721f5ff07424549e92ccf"
+              },
+              "fresh_signatures": {
+                "all": "bcb77011b5c2f2fd980f0d3f177ffded2d224f6b7cea6079fcb3391c0e492b59",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "ab5a26b97f395e70c42097062fb123a2f93c170ea660b472569e9334d3d4c21c"
+              },
+              "glb_vs_run03_signature_equal": {
+                "all": false,
+                "NORMAL": false,
+                "POSITION": true,
+                "TEXCOORD_0": true
+              }
+            },
+            "uv": {
+              "components": 38016,
+              "byte_different_components": 4176,
+              "numeric_different_components": 4176,
+              "signed_zero_only_components": 0,
+              "max_absolute_difference": 4.76837158203125e-07,
+              "max_ulp_distance": 5,
+              "nonzero_ulp_histogram": {
+                "1": 3180,
+                "2": 858,
+                "3": 126,
+                "4": 6,
+                "5": 6
+              },
+              "fresh_negative_zero_components": 0,
+              "glb_negative_zero_components": 0
+            }
+          }
+        ]
+      }
+    ],
+    "direction_acceptance_limit": null,
+    "limits": [
+      "Fresh raw does not recover missing historical raw; old raw-length inference remains conditional.",
+      "Native direction correctness, non-unit magnitude eligibility, UV cause, tangent/shader/render equivalence and all remaining vehicle meshes remain unqualified.",
+      "No aggregate normal PASS, new angle gate, epsilon change or acceptance result is generated.",
+      "Same-corner squared-error decomposition is explanatory; maxima from different corners are never combined."
+    ]
+  },
+  "runtime": {
+    "python_version": "3.11.15 (main, Apr 25 2025, 12:39:20) [GCC 11.2.1 20220127 (Red Hat 11.2.1-9)]",
+    "numpy_version": "1.26.4",
+    "numpy_file": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/__init__.py"
+  },
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "input_records_before": [
+    {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+      "bytes": 134267928,
+      "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-transport-diagnosis-20261002/analysis.json",
+      "bytes": 9646,
+      "sha256": "6c8cebcf01f8eeaee1c4464d88a512db8445b73ccb3e1de35902f6893e3354c6"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py",
+      "bytes": 39008,
+      "sha256": "f67acdccdf722752ab7f876fd23de6130570b0d36e0f33e2bff550a1d8086860"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_glb.py",
+      "bytes": 23416,
+      "sha256": "e85fd9492838a75ddfb230c74f5921024a09306f39dbd03dff0be1e243c70f61"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json",
+      "bytes": 4878654,
+      "sha256": "32901de5c6e092bada794ff49e5f469f61e3fbe1955d7f3f921025016b288b53"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/nodes.py",
+      "bytes": 24921,
+      "sha256": "077d66f73d2a22e7caf13f73be83b3d027cc03995c040a0064b3b7a77dc5bcf1"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitive_extract.py",
+      "bytes": 86294,
+      "sha256": "884ba7f2691f1c69874c148a3058791b0621740dc5c7123799f6785fc3c87fa7"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/gltf2_blender_utils.py",
+      "bytes": 3635,
+      "sha256": "9155b7a71b2deedd6d608f01c50769568d290b1fb9005ea5ac34bb762872401c"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/bin/python3.11",
+      "bytes": 28653440,
+      "sha256": "60b08089c60cbe81827b135c8fd9e206ba2ee6bf54aa1dbd0d6f56ac2d5914f6"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/version.py",
+      "bytes": 176,
+      "sha256": "ae24c0271908be669d3348be6cb3dbbd8d4a7d3090eff2ac09e55e84c147e687"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/design.md",
+      "bytes": 7622,
+      "sha256": "df88a6aec47b58f239031a80b7af0148d35f1becde6a7e2f25b98fa126ad56f9"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/classify_normals.py",
+      "bytes": 21211,
+      "sha256": "64fb7117e14a5813c7999eda1d66164e8b3c280e225bcdd5e03d66898a06ec65"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/test_classification.py",
+      "bytes": 11547,
+      "sha256": "32d35239884e20d014b75b5316ced693405bc0a198d193318b130de9e60ed62a"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/run_bounded.py",
+      "bytes": 2512,
+      "sha256": "efd1a510608afe1f048ac1c95d8fd52bd008febf8adf346e8c8439b5f5cb52f2"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/AGENTS.md",
+      "bytes": 2956,
+      "sha256": "63de2f27a9c82c8f4b1ddaac5418adceebfea9a469f8d6d6a052f8a8059e4be3"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/CLOUD_CONTINUATION.md",
+      "bytes": 202886,
+      "sha256": "367bc13142dd11a48b8ba555f10e3054b0e78b8f6f00dffd7a00278d1e23d9d1"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/CLOUD_HANDOFF.md",
+      "bytes": 12490,
+      "sha256": "7e25bec929b484d6d669a490f3ccc0278240daa780952be680729a12f2b4cbde"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/docs/ACCEPTANCE.md",
+      "bytes": 39543,
+      "sha256": "042de4bd4b6491abd88b003d458cc1d03655db2af3019b00d15edbc5cd4869ef"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/capture.json",
+      "bytes": 8022,
+      "sha256": "5fcb01ad45251ec5f4acdab927624af1890b8ffb7a414920421d97a0e169ff9d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/replay_capture.py",
+      "bytes": 16643,
+      "sha256": "005f3af009491180b1f67de31e3fdad5342789f864e2906b87594eae3f7402ab"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/replay-report.json",
+      "bytes": 163621,
+      "sha256": "d5f3abac9c1167688872bd816ae3e2c2a477d17566b75bf98e118387c49c7766"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/result-summary.json",
+      "bytes": 22356,
+      "sha256": "7a3891c0ee889fd23da5a01d196ed26d754634e5c7b5536364e0c42ba6803ca0"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/uv-analysis-01/analyze_uv.py",
+      "bytes": 14551,
+      "sha256": "376ef05abe40e053c45a7d15d05b52b1121aad2066b6bc2a57a89f74f0d20b73"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/uv-analysis-01/analysis.json",
+      "bytes": 103033,
+      "sha256": "f84815c898f3dec04aefebe97db72103e61dca5638e2bcf5254a7b694dc5be28"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/inputs.json",
+      "bytes": 45150,
+      "sha256": "dc9167c1047f0b4322f25422181022fa7484bd81cce5e1b13f8a42e5d0273828"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_export.py",
+      "bytes": 2695,
+      "sha256": "5ebff236450adbbae0fc4c4be0dcc42b98fdc1cfd0085d8399be6cac1bde59cf"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/decoded-validation.json",
+      "bytes": 3214594,
+      "sha256": "af8ecb81dc460a3724039cbace7f0b46615b23bc3d37b57ee8fa881199114a39"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/BL_Front_mirror_face_-1.json",
+      "bytes": 192712,
+      "sha256": "cb568866125dd4d2cf4ff9b6eb485486eba3a62c09f4b141be6d421dcfed0cbd"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/BL_Front_mirror_face_1.json",
+      "bytes": 192655,
+      "sha256": "54259a2a6f1bfbc444afc8435c77a1bf37f51391bc1e468b33f650583bf7b21d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_0_halfshaft_bellows.json",
+      "bytes": 1701930,
+      "sha256": "d72386db98a7d96c33660ec4949773f614cb3c7252aa5ab1123333d20fbf79b0"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_1_halfshaft_bellows.json",
+      "bytes": 1702026,
+      "sha256": "5b5511ec55efaf9fb915fb801e2bd10aa812fac4c814f422fb552e57e5f05e3f"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_2_halfshaft_bellows.json",
+      "bytes": 1701922,
+      "sha256": "2ac15639d53066339dc7e5121916d47a0113cd4feca2743e60dad381d4988656"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_3_halfshaft_bellows.json",
+      "bytes": 1701922,
+      "sha256": "c6ce36681feca411bcb99552de3162c2a95a0dfe861453b0121e3bdc96d04149"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_4_halfshaft_bellows.json",
+      "bytes": 1701826,
+      "sha256": "8ea3787fdcebd4f5bbc923e0d37d95b196d2d710f0c98d1ade8d542ef138b2b9"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_5_halfshaft_bellows.json",
+      "bytes": 1701990,
+      "sha256": "b8d41fa7cac4c337872e11ff3789d31c1117a6ce8c5e272e4920effd8fdf2e31"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_6_halfshaft_bellows.json",
+      "bytes": 1701902,
+      "sha256": "5918fedb8f0c3cda36f82c5a07ae3b669e2698a67ab9a2f1a6da67bacf54689d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_7_halfshaft_bellows.json",
+      "bytes": 1702058,
+      "sha256": "5015f10a82d2e81e3b7d08c842ee8b6ed4b8ce27bb8d2fb5f066441646b9c465"
+    }
+  ],
+  "input_records_after": [
+    {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+      "bytes": 134267928,
+      "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-transport-diagnosis-20261002/analysis.json",
+      "bytes": 9646,
+      "sha256": "6c8cebcf01f8eeaee1c4464d88a512db8445b73ccb3e1de35902f6893e3354c6"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py",
+      "bytes": 39008,
+      "sha256": "f67acdccdf722752ab7f876fd23de6130570b0d36e0f33e2bff550a1d8086860"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_glb.py",
+      "bytes": 23416,
+      "sha256": "e85fd9492838a75ddfb230c74f5921024a09306f39dbd03dff0be1e243c70f61"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json",
+      "bytes": 4878654,
+      "sha256": "32901de5c6e092bada794ff49e5f469f61e3fbe1955d7f3f921025016b288b53"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/nodes.py",
+      "bytes": 24921,
+      "sha256": "077d66f73d2a22e7caf13f73be83b3d027cc03995c040a0064b3b7a77dc5bcf1"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitive_extract.py",
+      "bytes": 86294,
+      "sha256": "884ba7f2691f1c69874c148a3058791b0621740dc5c7123799f6785fc3c87fa7"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/gltf2_blender_utils.py",
+      "bytes": 3635,
+      "sha256": "9155b7a71b2deedd6d608f01c50769568d290b1fb9005ea5ac34bb762872401c"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/bin/python3.11",
+      "bytes": 28653440,
+      "sha256": "60b08089c60cbe81827b135c8fd9e206ba2ee6bf54aa1dbd0d6f56ac2d5914f6"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/version.py",
+      "bytes": 176,
+      "sha256": "ae24c0271908be669d3348be6cb3dbbd8d4a7d3090eff2ac09e55e84c147e687"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/design.md",
+      "bytes": 7622,
+      "sha256": "df88a6aec47b58f239031a80b7af0148d35f1becde6a7e2f25b98fa126ad56f9"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/classify_normals.py",
+      "bytes": 21211,
+      "sha256": "64fb7117e14a5813c7999eda1d66164e8b3c280e225bcdd5e03d66898a06ec65"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/test_classification.py",
+      "bytes": 11547,
+      "sha256": "32d35239884e20d014b75b5316ced693405bc0a198d193318b130de9e60ed62a"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-classification-20261002/run_bounded.py",
+      "bytes": 2512,
+      "sha256": "efd1a510608afe1f048ac1c95d8fd52bd008febf8adf346e8c8439b5f5cb52f2"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/AGENTS.md",
+      "bytes": 2956,
+      "sha256": "63de2f27a9c82c8f4b1ddaac5418adceebfea9a469f8d6d6a052f8a8059e4be3"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/CLOUD_CONTINUATION.md",
+      "bytes": 202886,
+      "sha256": "367bc13142dd11a48b8ba555f10e3054b0e78b8f6f00dffd7a00278d1e23d9d1"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/CLOUD_HANDOFF.md",
+      "bytes": 12490,
+      "sha256": "7e25bec929b484d6d669a490f3ccc0278240daa780952be680729a12f2b4cbde"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/docs/ACCEPTANCE.md",
+      "bytes": 39543,
+      "sha256": "042de4bd4b6491abd88b003d458cc1d03655db2af3019b00d15edbc5cd4869ef"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/capture.json",
+      "bytes": 8022,
+      "sha256": "5fcb01ad45251ec5f4acdab927624af1890b8ffb7a414920421d97a0e169ff9d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/replay_capture.py",
+      "bytes": 16643,
+      "sha256": "005f3af009491180b1f67de31e3fdad5342789f864e2906b87594eae3f7402ab"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/replay-report.json",
+      "bytes": 163621,
+      "sha256": "d5f3abac9c1167688872bd816ae3e2c2a477d17566b75bf98e118387c49c7766"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/result-summary.json",
+      "bytes": 22356,
+      "sha256": "7a3891c0ee889fd23da5a01d196ed26d754634e5c7b5536364e0c42ba6803ca0"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/uv-analysis-01/analyze_uv.py",
+      "bytes": 14551,
+      "sha256": "376ef05abe40e053c45a7d15d05b52b1121aad2066b6bc2a57a89f74f0d20b73"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/uv-analysis-01/analysis.json",
+      "bytes": 103033,
+      "sha256": "f84815c898f3dec04aefebe97db72103e61dca5638e2bcf5254a7b694dc5be28"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/inputs.json",
+      "bytes": 45150,
+      "sha256": "dc9167c1047f0b4322f25422181022fa7484bd81cce5e1b13f8a42e5d0273828"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_export.py",
+      "bytes": 2695,
+      "sha256": "5ebff236450adbbae0fc4c4be0dcc42b98fdc1cfd0085d8399be6cac1bde59cf"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/decoded-validation.json",
+      "bytes": 3214594,
+      "sha256": "af8ecb81dc460a3724039cbace7f0b46615b23bc3d37b57ee8fa881199114a39"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/BL_Front_mirror_face_-1.json",
+      "bytes": 192712,
+      "sha256": "cb568866125dd4d2cf4ff9b6eb485486eba3a62c09f4b141be6d421dcfed0cbd"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/BL_Front_mirror_face_1.json",
+      "bytes": 192655,
+      "sha256": "54259a2a6f1bfbc444afc8435c77a1bf37f51391bc1e468b33f650583bf7b21d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_0_halfshaft_bellows.json",
+      "bytes": 1701930,
+      "sha256": "d72386db98a7d96c33660ec4949773f614cb3c7252aa5ab1123333d20fbf79b0"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_1_halfshaft_bellows.json",
+      "bytes": 1702026,
+      "sha256": "5b5511ec55efaf9fb915fb801e2bd10aa812fac4c814f422fb552e57e5f05e3f"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_2_halfshaft_bellows.json",
+      "bytes": 1701922,
+      "sha256": "2ac15639d53066339dc7e5121916d47a0113cd4feca2743e60dad381d4988656"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_3_halfshaft_bellows.json",
+      "bytes": 1701922,
+      "sha256": "c6ce36681feca411bcb99552de3162c2a95a0dfe861453b0121e3bdc96d04149"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_4_halfshaft_bellows.json",
+      "bytes": 1701826,
+      "sha256": "8ea3787fdcebd4f5bbc923e0d37d95b196d2d710f0c98d1ade8d542ef138b2b9"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_5_halfshaft_bellows.json",
+      "bytes": 1701990,
+      "sha256": "b8d41fa7cac4c337872e11ff3789d31c1117a6ce8c5e272e4920effd8fdf2e31"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_6_halfshaft_bellows.json",
+      "bytes": 1701902,
+      "sha256": "5918fedb8f0c3cda36f82c5a07ae3b669e2698a67ab9a2f1a6da67bacf54689d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01/S543_7_halfshaft_bellows.json",
+      "bytes": 1702058,
+      "sha256": "5015f10a82d2e81e3b7d08c842ee8b6ed4b8ce27bb8d2fb5f066441646b9c465"
+    }
+  ],
+  "inputs_unchanged": true
+}
