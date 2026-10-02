@@ -1,0 +1,405 @@
+{
+  "source_manifest_sha256": "a9520a3da99b872d67e0bba2bc40f56c5ebfe58646e4d42a360e7e5bb6c7de46",
+  "source_files": 65,
+  "source_bytes": 1094662,
+  "codec_sha256": "2334d0734b5e6edbd289692be6d4c8da50daba4b3f770142400971c75091a11d",
+  "records": [
+    {
+      "path": "SUMMARY.json",
+      "bytes": 6538,
+      "sha256": "e77359dd577c39b7409e0f6f0b7199fe41cef3dfe612d1ed9de42822cc26a9d2",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/executed-runner.py",
+      "bytes": 7203,
+      "sha256": "292c2a52a5c19b719fe495b15893fc197f3cfc129d018981f3023e5a8dc2c5c5",
+      "storage": "direct-text",
+      "stored_path": "raw/attempt-01/executed-runner.py"
+    },
+    {
+      "path": "attempt-01/executed-script.py",
+      "bytes": 23950,
+      "sha256": "4cd9269489d5d2c696cee613fbda3e3cdb2ba096d6ae5e52498e95e6f2c21a58",
+      "storage": "direct-text",
+      "stored_path": "raw/attempt-01/executed-script.py"
+    },
+    {
+      "path": "attempt-01/final-protection.json",
+      "bytes": 442,
+      "sha256": "4e344a6843298f5ea6027549ef27d2bb783566f9b5beb6f456954656843cc9da",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_0.json",
+      "bytes": 20738,
+      "sha256": "c3f8ca960ca6568f4cd5ca65999a0798466ee365099b3631aad73573e6e03912",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_1.json",
+      "bytes": 26534,
+      "sha256": "de385ea8eb48e5349b816a8ccdacc57c3d15d747b0e818488c429cec592a65d0",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_10.json",
+      "bytes": 26515,
+      "sha256": "258dffa58f16917860f6ec4c6e944bae3689587fd3a47d71a908f8f1a39dbd7a",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_11.json",
+      "bytes": 24530,
+      "sha256": "f2f3b17168294a72676199d885db56a8a21534ad6ddcbe1505f528b993db5c9f",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_14.json",
+      "bytes": 21528,
+      "sha256": "b7609ff0e928f1018e8cda49bd84779d455f250aef4bbcd477419b08f631cb55",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_15.json",
+      "bytes": 19249,
+      "sha256": "85e73807ce4b13604e2fb35f35422b6e2e625d2e9fef052640a656c4b6cb5afe",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_16.json",
+      "bytes": 19979,
+      "sha256": "ba8020b4643659f52c0fc8fb0eb039d7bf6786a5feb06013dd2a9a0c5cd26529",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_17.json",
+      "bytes": 21534,
+      "sha256": "3e5f538eea5135c0c2152eece48f33b203e2a8fee1b5629df8f0d62dbcabaeb2",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_18.json",
+      "bytes": 25324,
+      "sha256": "8c332682b40b464d8c30e8ce03a7b9d5511e88a33db3a66a996ab0b9ac8cd537",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_19.json",
+      "bytes": 24318,
+      "sha256": "ad739caa960dcb3043018ebe395dd09ca202c216bc408c830a52329660b4a7d6",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_2.json",
+      "bytes": 23809,
+      "sha256": "848ffd764c4ec32e8a1872b08ab3474280d3e7baeb9849f025d95c460aa8dc76",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_3.json",
+      "bytes": 25322,
+      "sha256": "a0ffb92394cd0b00e0d13588042b6b8c6f2e56777d0b888a8837db069c88d092",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_4.json",
+      "bytes": 23802,
+      "sha256": "913c0ae02ed2bc217ec2391f20dae4d5ff7b908404336926631366d148d3af48",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_5.json",
+      "bytes": 22272,
+      "sha256": "64173ae9fe03612e0725eb1095b4b7a6ee984edbfcaf188941681d630d73eac7",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_6.json",
+      "bytes": 23011,
+      "sha256": "58e7be34fc93863e922d02e5bfc15fdb66a4e90aaa2d1131e0b00d19d825a4a8",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_7.json",
+      "bytes": 25327,
+      "sha256": "1d94b44d800ca7d45f0ba0d996f125df5452a6345b16d119a57ad4447a0728ff",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_8.json",
+      "bytes": 19978,
+      "sha256": "423e4152579909191e5c0cc2a19254c9c906cd3c8c6aa1a6fc4e04c56643ccbf",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-BL_Tyre_0_emboss_9.json",
+      "bytes": 25340,
+      "sha256": "e5382ce9867c53956e938e02a81bdaf7317d78f8bf792d2102391e8874d7f5ff",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_0.json",
+      "bytes": 22984,
+      "sha256": "1826817c7a7cf2e99acb9c8ddb4978e63bded10372cc2bec84a5b415887ee56c",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_1.json",
+      "bytes": 26042,
+      "sha256": "af92e76ae214c09720cbcde975b8ea1d7ca2854ccbeb8d8c5e869466c8a3b1d7",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_10.json",
+      "bytes": 26030,
+      "sha256": "c43b34d5dc1fe9f112c5b4b631f4016e66bc14d9500c06a1c59b1ad217115917",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_11.json",
+      "bytes": 26048,
+      "sha256": "a4cadf5412d99afe884dd3a946bc23c6665bdff387388a5d47fa824aad66d6e0",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_14.json",
+      "bytes": 24478,
+      "sha256": "164997a7d5ebd9d5558a5619b3f01611be042ed582b525e9fe508e7c089f87af",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_15.json",
+      "bytes": 24478,
+      "sha256": "35141521774dc2f7100677f3bd6a79217d848c6922e29af3097ed10d4f3fe36b",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_16.json",
+      "bytes": 24410,
+      "sha256": "99791a27d3bb9d28e7ae1337cf4e2e71215d187d78c89d490bf4769d2b20985f",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_17.json",
+      "bytes": 21546,
+      "sha256": "f38002166eed749dcb38490c1df6c6cdfe5adfcaa1d3df5949f23086d42fe0f1",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_18.json",
+      "bytes": 26054,
+      "sha256": "af6548b67be3bfb38a5addb6e1c0f0ba2a5e5de9159e146937a336b57deb404a",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_19.json",
+      "bytes": 23078,
+      "sha256": "45fd4892f010a998312be74304d7e521d5d8bbbb56ee202d439b401653d6dcbb",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_2.json",
+      "bytes": 26052,
+      "sha256": "1c3e3e3d9015ab50d107d39b901af614769059d44f27079346c2f616f3666ede",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_3.json",
+      "bytes": 26050,
+      "sha256": "d28797cbd542982e81638bf884331341d48e74e5f4db1626e804985b8d362de8",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_4.json",
+      "bytes": 26020,
+      "sha256": "a54d9b040fe623cc9806cc6352e4dd8f9685b20dcc0abc6b75c7b465b9fa25eb",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_5.json",
+      "bytes": 26004,
+      "sha256": "1e3603abc6828af3a4e66487f87c4a4fa0a6c0673b97109cd8215c00158a0556",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_6.json",
+      "bytes": 25988,
+      "sha256": "f8429f6eab14dada07afee2fa59905b964e02367831d3603bceaf8096465d645",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_7.json",
+      "bytes": 26048,
+      "sha256": "1c1c289f4dbd4fc945983ba1f4a5102a93686f54c8bdc823175b6ec88f9bf7aa",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_8.json",
+      "bytes": 24494,
+      "sha256": "2ea75aa3903c8b7f25bef2cd5ad74a8bc1c267da233f6416a12621ab33be676f",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-SOURCE_BL_Tyre_0_emboss_9.json",
+      "bytes": 26044,
+      "sha256": "931d5bb8e9717024038ec92faa276d7bffe58e64232bef8f4adad7d343e5a446",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/geometry-prefix.json",
+      "bytes": 10787,
+      "sha256": "b0762bba16147cbd2dfdb5692f67dc1a087c75b0e4b43192436bbf29ec1e7d84",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/heartbeat.jsonl",
+      "bytes": 145,
+      "sha256": "9c7ff3fc22d71ebda77f88f5191b19c19427d133fcd03eb1fe57c7ee6fe473f6",
+      "storage": "direct-text",
+      "stored_path": "raw/attempt-01/heartbeat.jsonl"
+    },
+    {
+      "path": "attempt-01/launch.json",
+      "bytes": 2030,
+      "sha256": "53f08e5bdb45c47ff3f6fee6f3ac059391a034cb65564fa4c24eabe7237de541",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/native-preflight.json",
+      "bytes": 207,
+      "sha256": "efb6f631b7cb7e52d5d421e46dbe2005a60d36114604cb476a6ae4ccc7b50965",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/phase.jsonl",
+      "bytes": 5405,
+      "sha256": "5ac6eb0ea609134ba8ef8efec88af2d57c68051bb8c27b9e9d30ee4990ef0011",
+      "storage": "direct-text",
+      "stored_path": "raw/attempt-01/phase.jsonl"
+    },
+    {
+      "path": "attempt-01/process.json",
+      "bytes": 5635,
+      "sha256": "ef6f526acb3c5abd5e007ca73bdf38ee9b32e71ac72f6b1cd22084946fa296c0",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/ray-BL_Tyre_0_emboss_1-0.json",
+      "bytes": 1952,
+      "sha256": "9d1c8755c1a8f2deb1938f21dbfadc3283e2260d607f424f4771c7720d383f6e",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/ray-BL_Tyre_0_emboss_1-1.json",
+      "bytes": 1953,
+      "sha256": "3ac6e13a01fda528c95dc796d3e7d066dd0461ff734e0b607a4e4013ab81ea09",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/ray-BL_Tyre_0_emboss_1-2.json",
+      "bytes": 1955,
+      "sha256": "a7f830b63ec93b3c782bd42f3b6ac530c51d1fe52790007cf6b2f9e03d50b7de",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/ray-BL_Tyre_0_emboss_10-126.json",
+      "bytes": 1957,
+      "sha256": "aedb86bafb2bb83456b3554b00344f0ded7d8e4c2eaaa864ef7785e2b4af0796",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/ray-BL_Tyre_0_emboss_10-20.json",
+      "bytes": 1956,
+      "sha256": "f7a9af01837427a5097abb51951c9e6f381533e774b3fc02de8a9b06318494c6",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/ray-BL_Tyre_0_emboss_10-69.json",
+      "bytes": 1954,
+      "sha256": "f7ca8d0ccc85361912bb2146b4e1bd85577a0c378f44370180c5c4ef8ff2f00a",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/ray-BL_Tyre_0_emboss_19-126.json",
+      "bytes": 1889,
+      "sha256": "3ed840c1c2bdd3a60e0ccd9aa3f806b4ec452e9d982315d9ad6412e04a25db4f",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/ray-BL_Tyre_0_emboss_19-20.json",
+      "bytes": 1955,
+      "sha256": "69fa9c66a6850c692a906e90bc23bbd44b09edaf9065216662b3c4c8b0ba0e5d",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/ray-BL_Tyre_0_emboss_19-69.json",
+      "bytes": 1960,
+      "sha256": "c0deab51e1737f73324f3e7e962ad102b40b087eb3a4ec0ccaf8dd1c445f8c11",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/report.json",
+      "bytes": 26015,
+      "sha256": "310c749cc01db8ff82aad3b16055100d745c2904761ffd9294bbfec8b91c81a9",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/reviewed-plan.json",
+      "bytes": 4255,
+      "sha256": "0dbbef463d5bf67039dd7f5bbb994dcc58019cd40955636296d9a03d200f16bf",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/run.log",
+      "bytes": 5899,
+      "sha256": "e56c27df81fc3618dc70545c8750ab8b34b9469fe7b911694fd6294262ca51ee",
+      "storage": "direct-text",
+      "stored_path": "raw/attempt-01/run.log"
+    },
+    {
+      "path": "attempt-01/tyre-projection-check.json",
+      "bytes": 927,
+      "sha256": "91c349a4fcd7c4fb0f9771126a48b0db689c8b251049f0bf21a7bc25967156fe",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/tyre-reference.json",
+      "bytes": 904,
+      "sha256": "cda82f50a522063e71c5c931a4cd6ce978736914a5b73177e50622baad987ccf",
+      "storage": "json-table"
+    },
+    {
+      "path": "attempt-01/visibility-prefix.json",
+      "bytes": 68940,
+      "sha256": "19b4a2eb39ff7ec1e0600908e8defabca5673da807f3e8b395e76a952a541df7",
+      "storage": "json-table"
+    },
+    {
+      "path": "prepared-plan.json",
+      "bytes": 4255,
+      "sha256": "0dbbef463d5bf67039dd7f5bbb994dcc58019cd40955636296d9a03d200f16bf",
+      "storage": "json-table"
+    },
+    {
+      "path": "probe-letter-visibility.py",
+      "bytes": 23950,
+      "sha256": "4cd9269489d5d2c696cee613fbda3e3cdb2ba096d6ae5e52498e95e6f2c21a58",
+      "storage": "direct-text",
+      "stored_path": "raw/probe-letter-visibility.py"
+    },
+    {
+      "path": "run-bounded.py",
+      "bytes": 7203,
+      "sha256": "292c2a52a5c19b719fe495b15893fc197f3cfc129d018981f3023e5a8dc2c5c5",
+      "storage": "direct-text",
+      "stored_path": "raw/run-bounded.py"
+    },
+    {
+      "path": "static-review.json",
+      "bytes": 1483,
+      "sha256": "31d5d06be6372f137fd4ce04e7710ee8de6461245c92fc3cd7cfc75f60bc6b35",
+      "storage": "json-table"
+    }
+  ]
+}

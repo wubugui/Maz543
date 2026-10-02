@@ -1,0 +1,99 @@
+{
+  "files": [
+    {
+      "path": "FREEZE-MANIFEST.json",
+      "bytes": 11713,
+      "sha256": "a9520a3da99b872d67e0bba2bc40f56c5ebfe58646e4d42a360e7e5bb6c7de46"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3912,
+      "sha256": "0aaf677fc3c2029f53aec6eef74b89a9a0729242ae4d7e03620c6976200a66b6"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 11539,
+      "sha256": "940e495f30478f19025c838465bf5f6b3f8df5ea00e79391dc1f399057d81afe"
+    },
+    {
+      "path": "pack-wheel-interface-evidence.py",
+      "bytes": 4630,
+      "sha256": "2334d0734b5e6edbd289692be6d4c8da50daba4b3f770142400971c75091a11d"
+    },
+    {
+      "path": "package-index.json",
+      "bytes": 14020,
+      "sha256": "f142e5e2a53c7f7b7b751d176c6c21457b5b50f29df7d792178d9e3bfde0d5d4"
+    },
+    {
+      "path": "raw/attempt-01/executed-runner.py",
+      "bytes": 7203,
+      "sha256": "292c2a52a5c19b719fe495b15893fc197f3cfc129d018981f3023e5a8dc2c5c5"
+    },
+    {
+      "path": "raw/attempt-01/executed-script.py",
+      "bytes": 23950,
+      "sha256": "4cd9269489d5d2c696cee613fbda3e3cdb2ba096d6ae5e52498e95e6f2c21a58"
+    },
+    {
+      "path": "raw/attempt-01/heartbeat.jsonl",
+      "bytes": 145,
+      "sha256": "9c7ff3fc22d71ebda77f88f5191b19c19427d133fcd03eb1fe57c7ee6fe473f6"
+    },
+    {
+      "path": "raw/attempt-01/phase.jsonl",
+      "bytes": 5405,
+      "sha256": "5ac6eb0ea609134ba8ef8efec88af2d57c68051bb8c27b9e9d30ee4990ef0011"
+    },
+    {
+      "path": "raw/attempt-01/run.log",
+      "bytes": 5899,
+      "sha256": "e56c27df81fc3618dc70545c8750ab8b34b9469fe7b911694fd6294262ca51ee"
+    },
+    {
+      "path": "raw/probe-letter-visibility.py",
+      "bytes": 23950,
+      "sha256": "4cd9269489d5d2c696cee613fbda3e3cdb2ba096d6ae5e52498e95e6f2c21a58"
+    },
+    {
+      "path": "raw/run-bounded.py",
+      "bytes": 7203,
+      "sha256": "292c2a52a5c19b719fe495b15893fc197f3cfc129d018981f3023e5a8dc2c5c5"
+    },
+    {
+      "path": "records-table/entries-000.json",
+      "bytes": 109986,
+      "sha256": "1fae6ecf906f70c3296ff9ebf62397ffad148d5322f3014b79175d098b1c817c"
+    },
+    {
+      "path": "records-table/entries-001.json",
+      "bytes": 109625,
+      "sha256": "80feeecc6f719f7fcec9a05aa6ab539744fa4e6360dd6f55af21c707c25d8e98"
+    },
+    {
+      "path": "records-table/entries-002.json",
+      "bytes": 109977,
+      "sha256": "18458309579e7bb0cf08d3492a23b9d2490c6b7a9b2a3cfa652c2b0432159066"
+    },
+    {
+      "path": "records-table/entries-003.json",
+      "bytes": 109954,
+      "sha256": "218687466ee5634c965b612d51acbdb0e0e64e69e9c98f112ac6e79d78f0913c"
+    },
+    {
+      "path": "records-table/entries-004.json",
+      "bytes": 67044,
+      "sha256": "6c0063bdc7d96768572ead975f9b75cedb6568e44e66cca39700705785cc2f60"
+    },
+    {
+      "path": "records-table/manifest.json",
+      "bytes": 1306,
+      "sha256": "34b8f2c171f809cc4e8ed99a9859799f85ca6b84bbb5f6f77d4711be60891e9d"
+    },
+    {
+      "path": "restore-records.py",
+      "bytes": 2099,
+      "sha256": "762509310373861e47e6157826d01d1317ea40dd3f9f22bc4ff0413205e927e7"
+    }
+  ]
+}
