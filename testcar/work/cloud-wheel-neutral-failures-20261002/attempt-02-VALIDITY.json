@@ -1,0 +1,15 @@
+{
+  "status": "FAILED_REAL_SPIN_GEOMETRY_REGRESSION",
+  "source_sha256_after_failed_run": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "station": 0,
+  "requested_spin_radians": 0.731,
+  "max_rigid_vertex_error_m": 0.00021065502507521943,
+  "max_radius_trajectory_error_m": 0.00010155427492491986,
+  "stationary_brake_vertex_error_m": 0.0,
+  "limits": [
+    "Failure occurred before per-object diagnostics were written; responsible objects are not yet established.",
+    "The20micrometre gate is retained. No dependency has been whitelisted to bypass this failure.",
+    "No native model was saved; original remains unchanged."
+  ],
+  "all16VehicleGates": "OPEN"
+}

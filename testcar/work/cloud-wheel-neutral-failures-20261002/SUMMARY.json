@@ -1,0 +1,56 @@
+{
+  "status": "FAILED_NATIVE_RELATIONSHIP_CANDIDATES_NOT_PROMOTED",
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "earlier_read_only_checkpoint_commit": "7f1ce0f13b78858046f7bae0934705831c6f0f2b",
+  "authoritative_verdict_files": [
+    "attempt-01-VALIDITY.json",
+    "attempt-02-VALIDITY.json"
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "process_exit_code": 0,
+      "seconds": 64.5214709819993,
+      "verdict": "REJECTED_VACUOUS_SPIN_CHECKS",
+      "reason": "Source spin objects use QUATERNION. The Euler samples did not move them, so the original report PASS is invalidated.",
+      "still_valid": {
+        "neutral_geometry_objects": 776,
+        "neutral_max_vertex_error_m": 7.045966143220146e-08,
+        "neutral_threshold_m": 2e-06,
+        "neutral_triangle_indices": "equal",
+        "outside_original_world_matrices_checked": 9626,
+        "outside_world_changes": 0,
+        "exact_shrinkwrap_profiles_observed": 72,
+        "structural_objects_checked": 817,
+        "drum_proxy_identification": "Original cylinder source and actual fitted circular geometry agree; this does not certify a detailed physical drum."
+      }
+    },
+    {
+      "attempt": 2,
+      "process_exit_code": 1,
+      "seconds": 28.496704819001025,
+      "verdict": "FAILED_REAL_SPIN_GEOMETRY_REGRESSION",
+      "station": 0,
+      "requested_spin_radians": 0.731,
+      "max_rigid_vertex_error_m": 0.00021065502507521943,
+      "max_radius_trajectory_error_m": 0.00010155427492491986,
+      "rigid_and_trajectory_threshold_m": 2e-05,
+      "stationary_brake_vertex_error_m": 0.0,
+      "stationary_threshold_m": 2e-06,
+      "responsible_objects": "UNKNOWN: original script asserted before per-object diagnostics. Do not assume the lettering or exclude it.",
+      "completed_scope": "Reached first actual matrix spin after neutral setup and explicit Euler no-motion negative control. Remaining seven actual samples and final restoration/outside-matrix checks were not reached."
+    }
+  ],
+  "model_mutations": "In memory only; candidate parents front carriers and stationary brake groups beneath neutral joint frames attached to actual upright/kingpin axes; source-corresponded simplified drums are reparented to spin. No shaft geometry, hardpoint, nonzero steering or camber setting was edited.",
+  "no_blend_glb_saved": true,
+  "source_independent_post_failure_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "next_bounded_diagnostic": "Only station0 at0.731rad: compare original source and same neutral-parent recipe, retain all186/187spin geometries, record per-object error and worst vertex before asserting. No threshold change or dependency whitelist.",
+  "limits": [
+    "The nominal1degree camber defect remains. The fixed-link +1degree no-solution statement also assumes the inherited zero spindle-axis offset relative to the upright.",
+    "Legacy VA180 exporter excludes the S543_SUSPENSION ancestor. The new native parents would be outside its selection; exporter adaptation is not performed.",
+    "No actual steering, bearing-seat, CV/halfshaft, load, tyre pressure, contact or continuous collision certificate.",
+    "No browser or full native timeline validation.",
+    "The unexecuted future diagnostic and superseded broad replay draft are excluded from this checkpoint."
+  ],
+  "all16VehicleGates": "OPEN"
+}

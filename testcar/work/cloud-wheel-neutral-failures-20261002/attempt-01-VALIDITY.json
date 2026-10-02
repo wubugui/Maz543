@@ -1,0 +1,16 @@
+{
+  "status": "REJECTED_VACUOUS_SPIN_CHECKS",
+  "original_report_sha256": "811cd191ccd677e0f3fb6c99374da0e14666f2b518e1e9c5c7c82f2112c7ddc4",
+  "reason": "All four retained spin objects use QUATERNION rotation mode. Setting rotation_euler.y did not change their world transforms. The script omitted a realized-motion assertion. Eight zero-error spin checks and the original PASS status are invalid.",
+  "still_valid": {
+    "neutral_geometry_objects": 776,
+    "neutral_max_vertex_error_m": 7.045966143220146e-08,
+    "outside_original_world_matrices_checked": 9626,
+    "outside_world_changes": [],
+    "drum_circular_identity_fit": "Measured neutral circular sections and original source authoring correspondence remain valid."
+  },
+  "next_action": "Use matrix_basis rotation with actual world-angle and nonzero drum-vertex-motion assertions; rerun same scope in a new bounded CPU1 window.",
+  "source_sha256_after": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "saved_blend": false,
+  "all16VehicleGates": "OPEN"
+}

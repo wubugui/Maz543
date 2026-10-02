@@ -1,0 +1,4664 @@
+{
+  "status": "NEUTRAL_NATIVE_PARENT_AND_DRUM_SPIN_REPAIR_SCOPED_PASS",
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "source_sha256_after": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "saved_blend": false,
+  "version": "4.5.13 LTS",
+  "build": "daeeeca98fb0",
+  "autoexec": false,
+  "rows": [
+    {
+      "station": 0,
+      "joint_frame": "S543_0_native_steering_joint_frame",
+      "native_kingpin_centre_m": [
+        -3.0799999237084115,
+        1.1260000571808129,
+        0.7500000111630213
+      ],
+      "native_kingpin_axis": [
+        9.341082294492046e-12,
+        2.1064860966646393e-10,
+        1.0
+      ],
+      "drum": "brakes_0003",
+      "drum_fit": {
+        "circle_centre_spin_xz_m": [
+          -1.4948403869806714e-17,
+          -1.93497026734768e-09
+        ],
+        "fitted_radius_m": 0.33500002312514976,
+        "radial_max_residual_m": 3.582290919457165e-08,
+        "axis_span_m": [
+          -0.35500007183230786,
+          -0.22499997108303638
+        ],
+        "ring_vertices": 100,
+        "source_correspondence": "Original cylinder(brake,.335,.13) then two torus shoes and actuator in testcar/lib/maz543.ts; actual neutral envelope, radius, axial width and radial residual agree"
+      },
+      "spin": "wheels_pivot_002",
+      "stationary_brake": "brakes_pivot_001"
+    },
+    {
+      "station": 1,
+      "joint_frame": "S543_1_native_steering_joint_frame",
+      "native_kingpin_centre_m": [
+        -3.079999923703698,
+        -1.1260000571808129,
+        0.7500000111630208
+      ],
+      "native_kingpin_axis": [
+        -9.341078792061507e-12,
+        -2.1064827659955654e-10,
+        0.9999999999999998
+      ],
+      "drum": "brakes_0007",
+      "drum_fit": {
+        "circle_centre_spin_xz_m": [
+          -1.4948403869806714e-17,
+          -1.93497026734768e-09
+        ],
+        "fitted_radius_m": 0.33500002312514976,
+        "radial_max_residual_m": 3.582290919457165e-08,
+        "axis_span_m": [
+          0.22499997108303638,
+          0.35500007183230786
+        ],
+        "ring_vertices": 100,
+        "source_correspondence": "Original cylinder(brake,.335,.13) then two torus shoes and actuator in testcar/lib/maz543.ts; actual neutral envelope, radius, axial width and radial residual agree"
+      },
+      "spin": "wheels_pivot_009",
+      "stationary_brake": "brakes_pivot_002"
+    },
+    {
+      "station": 2,
+      "joint_frame": "S543_2_native_steering_joint_frame",
+      "native_kingpin_centre_m": [
+        -0.8799999952339851,
+        1.1260000571808129,
+        0.7500000111630213
+      ],
+      "native_kingpin_axis": [
+        9.341082294492046e-12,
+        2.1064860966646393e-10,
+        1.0
+      ],
+      "drum": "brakes_0011",
+      "drum_fit": {
+        "circle_centre_spin_xz_m": [
+          -1.4948403869806714e-17,
+          -1.93497026734768e-09
+        ],
+        "fitted_radius_m": 0.33500002312514976,
+        "radial_max_residual_m": 3.582290919457165e-08,
+        "axis_span_m": [
+          -0.35500007183230786,
+          -0.22499997108303638
+        ],
+        "ring_vertices": 100,
+        "source_correspondence": "Original cylinder(brake,.335,.13) then two torus shoes and actuator in testcar/lib/maz543.ts; actual neutral envelope, radius, axial width and radial residual agree"
+      },
+      "spin": "wheels_pivot_016",
+      "stationary_brake": "brakes_pivot_003"
+    },
+    {
+      "station": 3,
+      "joint_frame": "S543_3_native_steering_joint_frame",
+      "native_kingpin_centre_m": [
+        -0.8799999952292717,
+        -1.1260000571808129,
+        0.7500000111630208
+      ],
+      "native_kingpin_axis": [
+        -9.341078792061507e-12,
+        -2.1064827659955654e-10,
+        0.9999999999999998
+      ],
+      "drum": "brakes_0015",
+      "drum_fit": {
+        "circle_centre_spin_xz_m": [
+          -1.4948403869806714e-17,
+          -1.93497026734768e-09
+        ],
+        "fitted_radius_m": 0.33500002312514976,
+        "radial_max_residual_m": 3.582290919457165e-08,
+        "axis_span_m": [
+          0.22499997108303638,
+          0.35500007183230786
+        ],
+        "ring_vertices": 100,
+        "source_correspondence": "Original cylinder(brake,.335,.13) then two torus shoes and actuator in testcar/lib/maz543.ts; actual neutral envelope, radius, axial width and radial residual agree"
+      },
+      "spin": "wheels_pivot_023",
+      "stationary_brake": "brakes_pivot_004"
+    }
+  ],
+  "detached_original_actions_preserved": [
+    {
+      "object": "wheels_pivot_001",
+      "action": "wheels_pivot_001Action"
+    },
+    {
+      "object": "brakes_pivot_001",
+      "action": "brakes_pivot_001Action"
+    },
+    {
+      "object": "wheels_pivot_008",
+      "action": "wheels_pivot_008Action"
+    },
+    {
+      "object": "brakes_pivot_002",
+      "action": "brakes_pivot_002Action"
+    },
+    {
+      "object": "wheels_pivot_015",
+      "action": "wheels_pivot_015Action"
+    },
+    {
+      "object": "brakes_pivot_003",
+      "action": "brakes_pivot_003Action"
+    },
+    {
+      "object": "wheels_pivot_022",
+      "action": "wheels_pivot_022Action"
+    },
+    {
+      "object": "brakes_pivot_004",
+      "action": "brakes_pivot_004Action"
+    }
+  ],
+  "retained_actions_held_at_frame0": [
+    {
+      "object": "brakes_pivot_001",
+      "action": "brakes_pivot_001Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    },
+    {
+      "object": "brakes_pivot_002",
+      "action": "brakes_pivot_002Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    },
+    {
+      "object": "brakes_pivot_003",
+      "action": "brakes_pivot_003Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    },
+    {
+      "object": "brakes_pivot_004",
+      "action": "brakes_pivot_004Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    },
+    {
+      "object": "wheels_pivot_001",
+      "action": "wheels_pivot_001Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    },
+    {
+      "object": "wheels_pivot_002",
+      "action": "wheels_pivot_002Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    },
+    {
+      "object": "wheels_pivot_008",
+      "action": "wheels_pivot_008Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    },
+    {
+      "object": "wheels_pivot_009",
+      "action": "wheels_pivot_009Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    },
+    {
+      "object": "wheels_pivot_015",
+      "action": "wheels_pivot_015Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    },
+    {
+      "object": "wheels_pivot_016",
+      "action": "wheels_pivot_016Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    },
+    {
+      "object": "wheels_pivot_022",
+      "action": "wheels_pivot_022Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    },
+    {
+      "object": "wheels_pivot_023",
+      "action": "wheels_pivot_023Action",
+      "frame": 0,
+      "scope": "Evaluated at frame0 and held; no timeline equivalence claim"
+    }
+  ],
+  "new_native_joint_frames": [
+    "S543_0_native_steering_joint_frame",
+    "S543_1_native_steering_joint_frame",
+    "S543_2_native_steering_joint_frame",
+    "S543_3_native_steering_joint_frame"
+  ],
+  "exact_shrinkwrap_profiles": [
+    {
+      "object": "BL_Tyre_0_emboss_0",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_1",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_10",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_11",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_14",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_15",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_16",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_17",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_18",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_19",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_2",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_3",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_4",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_5",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_6",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_7",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_8",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_0_emboss_9",
+      "target": "BL_Tyre_0_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_002"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_0",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_1",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_10",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_11",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_14",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_15",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_16",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_17",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_18",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_19",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_2",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_3",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_4",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_5",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_6",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_7",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_8",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_1_emboss_9",
+      "target": "BL_Tyre_1_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_009"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_0",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_1",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_10",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_11",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_14",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_15",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_16",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_17",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_18",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_19",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_2",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_3",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_4",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_5",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_6",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_7",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_8",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_2_emboss_9",
+      "target": "BL_Tyre_2_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_016"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_0",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_1",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_10",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_11",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_14",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_15",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_16",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_17",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_18",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_19",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_2",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_3",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_4",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_5",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_6",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_7",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_8",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    },
+    {
+      "object": "BL_Tyre_3_emboss_9",
+      "target": "BL_Tyre_3_VI203_profile",
+      "qualified_exact_profile": true,
+      "common_spin": "wheels_pivot_023"
+    }
+  ],
+  "eligibility_object_count": 817,
+  "neutral_geometry": [
+    {
+      "name": "BL_Tyre_0_emboss_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_20",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_11",
+      "vertices": 156,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_mould_ring_-1_0.38",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.152_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_mould_ring_-1_0.49",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_18",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_mould_ring_1_0.49",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_21",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_36",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0016",
+      "vertices": 147,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_19",
+      "vertices": 294,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_22",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_26",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_11",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_5",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_14",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_8",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_1_cover",
+      "vertices": 512,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_30",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.152_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.152_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_14",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_39",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_31",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_12",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_8",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_21",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_14",
+      "vertices": 14,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_mould_ring_-1_0.49",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.152_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_mould_ring_-1_0.635",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_19",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_mould_ring_1_0.635",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_22",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_37",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0017",
+      "vertices": 147,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_23",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_27",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_12",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_6",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_15",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_31",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_9",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_1_oil_plug",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.152_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_15",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_4",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_32",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_13",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_9",
+      "vertices": 242,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_22",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_15",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_mould_ring_-1_0.635",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.152_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_10",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_mould_ring_1_0.343",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_2",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_0",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_23",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_38",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0018",
+      "vertices": 148,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_24",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_28",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_13",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_7",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_1_planetary_case",
+      "vertices": 512,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_32",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_inflation_line",
+      "vertices": 24,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.152_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_5",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_33",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_14",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_mould_ring_-1_0.343",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_23",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_16",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_mould_ring_1_0.343",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.152_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_39",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.152_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_39",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_17",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_4",
+      "vertices": 24,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_25",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_29",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_14",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_8",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_33",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.152_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_2_cover",
+      "vertices": 512,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.152_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_10",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_8",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_6",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_34",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_15",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_mould_ring_-1_0.38",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_24",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_17",
+      "vertices": 178,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_mould_ring_1_0.38",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_4",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.152_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_4",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_18",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_5",
+      "vertices": 242,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_26",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_3",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_15",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_9",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_34",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.152_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_2_oil_plug",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_11",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_9",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_7",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_35",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_mould_ring_-1_0.49",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_25",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_18",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_mould_ring_1_0.49",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_8",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_5",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_5",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_19",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_27",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_30",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_VI203_profile",
+      "vertices": 2688,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_35",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.152_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_2_planetary_case",
+      "vertices": 512,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_8",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_36",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_8",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_mould_ring_-1_0.635",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_26",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_19",
+      "vertices": 294,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_mould_ring_1_0.635",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_9",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_10",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_6",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_6",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_2",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_31",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_1",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_20",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_13",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_7",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_13",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_36",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.152_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_10",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_3_cover",
+      "vertices": 512,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_9",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_37",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_9",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_mould_ring_1_0.343",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_27",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_0",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.152_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_11",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_7",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_10",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_7",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_20",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_32",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_10",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_21",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_14",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_8",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_14",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_37",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.152_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_11",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_3_oil_plug",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_10",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_0",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_38",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_mould_ring_1_0.38",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_28",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_1",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.152_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_8",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_11",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_8",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_21",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_33",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_11",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_22",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_15",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_9",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_15",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_38",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.152_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_3_planetary_case",
+      "vertices": 512,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_11",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_8",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_1",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_39",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_mould_ring_1_0.49",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_29",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_4",
+      "vertices": 24,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_10",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.152_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_9",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_9",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_22",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_12",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_34",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_23",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_16",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_VI203_profile",
+      "vertices": 2688,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_28",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_7",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_35",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0039",
+      "vertices": 484,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_12",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_9",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_10",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_4",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_10",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_mould_ring_1_0.635",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_3",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_5",
+      "vertices": 242,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_11",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.152_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_VI203_profile",
+      "vertices": 2688,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_0",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_23",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_35",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_13",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_24",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_17",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_curved_tread_blocks",
+      "vertices": 36864,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_29",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_8",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_36",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0040",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_13",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.152_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_11",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_5",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_11",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_8",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_0",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_30",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_12",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.152_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_curved_tread_blocks",
+      "vertices": 36864,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_1",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_24",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_14",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_36",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_25",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_18",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_0",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_3",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_9",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_37",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0041",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_14",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.152_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_12",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_6",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_12",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_9",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_1",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_31",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_13",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.152_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_0",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_10",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_25",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_15",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_37",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_26",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_19",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_1",
+      "vertices": 156,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Rim_0_bead_lock",
+      "vertices": 480,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_30",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_0",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_38",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0042",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_inflation_line",
+      "vertices": 24,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0003",
+      "vertices": 148,
+      "max_position_error_m": 7.045966143220146e-08
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_8",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_17",
+      "vertices": 178,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_mould_ring_1_0.38",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_1",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_24",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_10",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_32",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_8",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_14",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.152_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_1",
+      "vertices": 156,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_11",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_26",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_38",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_16",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_27",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_2",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_10",
+      "vertices": 294,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_1",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Rim_0_pressed_dish",
+      "vertices": 1632,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_31",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_39",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0053",
+      "vertices": 484,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.152_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0004",
+      "vertices": 147,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_9",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_18",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_mould_ring_1_0.49",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_4",
+      "vertices": 24,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_10",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_25",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_11",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_33",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_9",
+      "vertices": 242,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_15",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.152_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_8",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_10",
+      "vertices": 294,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_12",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_27",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_39",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_17",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_28",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_20",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_11",
+      "vertices": 156,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_32",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_10",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_4",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Rim_1_bead_lock",
+      "vertices": 480,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0054",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.152_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0005",
+      "vertices": 147,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_19",
+      "vertices": 294,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_mould_ring_1_0.635",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_5",
+      "vertices": 242,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_11",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_26",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_12",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_34",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_mould_ring_-1_0.343",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_16",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.26_9",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_8",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_11",
+      "vertices": 156,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_13",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_28",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_4",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_18",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_29",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_21",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_8",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_14",
+      "vertices": 14,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_33",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_11",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_5",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Rim_1_pressed_dish",
+      "vertices": 1632,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0055",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.152_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_8",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_8",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0006",
+      "vertices": 148,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_0",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_12",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_27",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_curved_tread_blocks",
+      "vertices": 36864,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_13",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_17",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.152_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_31",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.26_9",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_14",
+      "vertices": 14,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_14",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_29",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_5",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_19",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_3",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_22",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.343_9",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_15",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_34",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_12",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_6",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Rim_2_bead_lock",
+      "vertices": 480,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0056",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.152_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_9",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_9",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_10",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0007",
+      "vertices": 148,
+      "max_position_error_m": 7.045966143220146e-08
+    },
+    {
+      "name": "BL_Tyre_2_emboss_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_1",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_13",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_28",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_0",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_14",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_18",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.152_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_32",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_15",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_15",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_3",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_6",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_2",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_30",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_23",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_16",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_inflation_line",
+      "vertices": 24,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_35",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_13",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_7",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0011",
+      "vertices": 484,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Rim_2_pressed_dish",
+      "vertices": 1632,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.152_4",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.152_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_11",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0008",
+      "vertices": 147,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_4",
+      "vertices": 24,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_10",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_8",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_14",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_29",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_1",
+      "vertices": 156,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_15",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_19",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.152_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_33",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_8",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_8",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_16",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_16",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_30",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_7",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_20",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_31",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_24",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_17",
+      "vertices": 178,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.152_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_36",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_14",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_8",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0012",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Rim_3_bead_lock",
+      "vertices": 480,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.152_5",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.152_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_12",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0009",
+      "vertices": 147,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_5",
+      "vertices": 242,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_11",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_9",
+      "vertices": 242,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_15",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_3",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_10",
+      "vertices": 294,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_16",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_2",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.152_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_34",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.26_9",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_9",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_15",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_24",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_8",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.152_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_8",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_21",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_32",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_25",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_18",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.152_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_37",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_15",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_9",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0013",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Rim_3_pressed_dish",
+      "vertices": 1632,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.152_6",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_10",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.152_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_13",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0010",
+      "vertices": 148,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_12",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_mould_ring_-1_0.343",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_16",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_30",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_11",
+      "vertices": 156,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_17",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_20",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.152_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_35",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_25",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_9",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.152_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_9",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_22",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_33",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_26",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_19",
+      "vertices": 294,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.152_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_38",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_16",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_VI203_profile",
+      "vertices": 2688,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0014",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.152_7",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_11",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.152_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_14",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_13",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0011",
+      "vertices": 148,
+      "max_position_error_m": 7.045966143220146e-08
+    },
+    {
+      "name": "BL_Tyre_3_mould_ring_-1_0.38",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_17",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_31",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_14",
+      "vertices": 14,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_18",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_21",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.152_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_8",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_36",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_26",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_inflation_line",
+      "vertices": 24,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.152_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_0",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_23",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_34",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_27",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_emboss_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.152_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_39",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_17",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_curved_tread_blocks",
+      "vertices": 36864,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0025",
+      "vertices": 484,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_12",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.152_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_15",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_8",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_14",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0012",
+      "vertices": 147,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_mould_ring_-1_0.49",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_18",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_32",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_15",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_19",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_22",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_0",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.26_9",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_37",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_10",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_27",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.152_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.152_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_11",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_10",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_35",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_28",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_4",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_18",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_0",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0026",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_13",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.152_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_emboss_9",
+      "vertices": 242,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_15",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0013",
+      "vertices": 147,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_mould_ring_-1_0.635",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_19",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_33",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_16",
+      "vertices": 8,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_2",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_23",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_1",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_0",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_38",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_11",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_28",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_0_cover",
+      "vertices": 512,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.152_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.152_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_11",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_36",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_29",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_10",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_5",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_19",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_1",
+      "vertices": 156,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0027",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_10",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_14",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.152_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_mould_ring_-1_0.343",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_16",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0014",
+      "vertices": 148,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_mould_ring_1_0.343",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_2",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_34",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_emboss_17",
+      "vertices": 178,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_20",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_24",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_10",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_1",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_39",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_12",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_0_oil_plug",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_29",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.152_2",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.152_5",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_3",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_12",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_37",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_3",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_11",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_10",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_6",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_1_2",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_emboss_10",
+      "vertices": 294,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "wheels_0028",
+      "vertices": 436,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.26_11",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_nut_0.343_15",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.152_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.343_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_mould_ring_-1_0.38",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_17",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_mould_ring_1_0.38",
+      "vertices": 1024,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_20",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_-1_35",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "brakes_0015",
+      "vertices": 148,
+      "max_position_error_m": 7.045966143220146e-08
+    },
+    {
+      "name": "BL_Tyre_0_emboss_18",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_0_vent_-1_21",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_-1_25",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_washer_0.26_11",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.343_10",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_3_vent_1_4",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.343_13",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_1_vent_1_3",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Hub_0_planetary_case",
+      "vertices": 512,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.343_7",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_nut_0.152_3",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_washer_0.152_6",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_0_washer_0.26_4",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_1_nut_0.343_13",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_-1_38",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Tyre_2_vent_1_30",
+      "vertices": 16,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_2_washer_0.26_2",
+      "vertices": 192,
+      "max_position_error_m": 0.0
+    },
+    {
+      "name": "BL_Wheel_3_nut_0.343_11",
+      "vertices": 144,
+      "max_position_error_m": 0.0
+    }
+  ],
+  "neutral_max_vertex_error_m": 7.045966143220146e-08,
+  "spin_trials": [
+    {
+      "station": 0,
+      "radians": 0.731,
+      "spin_geometry_objects": 187,
+      "vertices": 67164,
+      "max_rigid_vertex_error_m": 0.0,
+      "stationary_brake_geometry_objects": 3,
+      "stationary_brake_max_vertex_error_m": 0.0,
+      "drum_circular_axis_to_spin_axis_m": 4.5589218511388207e-10
+    },
+    {
+      "station": 0,
+      "radians": 3.141592653589793,
+      "spin_geometry_objects": 187,
+      "vertices": 67164,
+      "max_rigid_vertex_error_m": 0.0,
+      "stationary_brake_geometry_objects": 3,
+      "stationary_brake_max_vertex_error_m": 0.0,
+      "drum_circular_axis_to_spin_axis_m": 4.5589218511388207e-10
+    },
+    {
+      "station": 1,
+      "radians": 0.731,
+      "spin_geometry_objects": 187,
+      "vertices": 67164,
+      "max_rigid_vertex_error_m": 0.0,
+      "stationary_brake_geometry_objects": 3,
+      "stationary_brake_max_vertex_error_m": 0.0,
+      "drum_circular_axis_to_spin_axis_m": 4.5589218511388207e-10
+    },
+    {
+      "station": 1,
+      "radians": 3.141592653589793,
+      "spin_geometry_objects": 187,
+      "vertices": 67164,
+      "max_rigid_vertex_error_m": 0.0,
+      "stationary_brake_geometry_objects": 3,
+      "stationary_brake_max_vertex_error_m": 0.0,
+      "drum_circular_axis_to_spin_axis_m": 4.5589218511388207e-10
+    },
+    {
+      "station": 2,
+      "radians": 0.731,
+      "spin_geometry_objects": 187,
+      "vertices": 67164,
+      "max_rigid_vertex_error_m": 0.0,
+      "stationary_brake_geometry_objects": 3,
+      "stationary_brake_max_vertex_error_m": 0.0,
+      "drum_circular_axis_to_spin_axis_m": 4.5589218511388207e-10
+    },
+    {
+      "station": 2,
+      "radians": 3.141592653589793,
+      "spin_geometry_objects": 187,
+      "vertices": 67164,
+      "max_rigid_vertex_error_m": 0.0,
+      "stationary_brake_geometry_objects": 3,
+      "stationary_brake_max_vertex_error_m": 0.0,
+      "drum_circular_axis_to_spin_axis_m": 4.5589218511388207e-10
+    },
+    {
+      "station": 3,
+      "radians": 0.731,
+      "spin_geometry_objects": 187,
+      "vertices": 67164,
+      "max_rigid_vertex_error_m": 0.0,
+      "stationary_brake_geometry_objects": 3,
+      "stationary_brake_max_vertex_error_m": 0.0,
+      "drum_circular_axis_to_spin_axis_m": 4.5589218511388207e-10
+    },
+    {
+      "station": 3,
+      "radians": 3.141592653589793,
+      "spin_geometry_objects": 187,
+      "vertices": 67164,
+      "max_rigid_vertex_error_m": 0.0,
+      "stationary_brake_geometry_objects": 3,
+      "stationary_brake_max_vertex_error_m": 0.0,
+      "drum_circular_axis_to_spin_axis_m": 4.5589218511388207e-10
+    }
+  ],
+  "outside_original_world_matrices_checked": 9626,
+  "outside_world_changes": [],
+  "structural_guard_sha256": "0ca53737b57995ca86bc01612f60175e36cf2199d04edd55017f94ab1c9e1a51",
+  "source_authoring_sha256": "d1fdc631ff369ab4f7af1c85e828bbd3d053ff35a2ec5291d0d475bbc68f7059",
+  "limits": [
+    "Camber remains approximately0 degrees and the nominal1degree defect is not fixed. No sign, load, tyre-pressure or ride-height qualification.",
+    "No halfshaft/Cardan flange was transformed; its support bearing and internal CV interface remain unresolved.",
+    "Steering controls remain at zero. No turn-angle, tie-rod, CV or steering travel claim.",
+    "Parenting and drum spin are verified at retained frame0 and two spin samples; full original timeline behavior and browser parity are unverified.",
+    "Original authored mesh coordinates and topology were not edited; evaluated neutral vertices and triangle indices were compared.",
+    "No complete collision, bearing-seat/contact or force certificate.",
+    "No blend or GLB saved or production promoted.",
+    "The retained drum is the simplified cylinder proxy identified by the original authoring and actual circular sections; no real drum wall, bore, hub-centering land or bearing seat was created or certified."
+  ],
+  "all16VehicleGates": "OPEN"
+}
