@@ -1,0 +1,235 @@
+{
+  "status": "READ_ONLY_PARTIAL_DIAGNOSIS_NO_RAW_RECAPTURE",
+  "source_head": "7d5a7bf829424fabac4455372a5cd7fb7a8245df",
+  "glb": {
+    "bytes": 134267928,
+    "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+  },
+  "sources": [
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py",
+      "bytes": 39008,
+      "sha256": "f67acdccdf722752ab7f876fd23de6130570b0d36e0f33e2bff550a1d8086860"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_glb.py",
+      "bytes": 23416,
+      "sha256": "e85fd9492838a75ddfb230c74f5921024a09306f39dbd03dff0be1e243c70f61"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_export.py",
+      "bytes": 2695,
+      "sha256": "5ebff236450adbbae0fc4c4be0dcc42b98fdc1cfd0085d8399be6cac1bde59cf"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json",
+      "bytes": 4878654,
+      "sha256": "32901de5c6e092bada794ff49e5f469f61e3fbe1955d7f3f921025016b288b53"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/decoded-validation.json",
+      "bytes": 3214594,
+      "sha256": "af8ecb81dc460a3724039cbace7f0b46615b23bc3d37b57ee8fa881199114a39"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/static-preflight.json",
+      "bytes": 3171091,
+      "sha256": "5a0cb56dde276b25dcdb36240c926623c66576f3b1b420e2026f2e5ba9ccd5e5"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitive_extract.py",
+      "bytes": 86294,
+      "sha256": "884ba7f2691f1c69874c148a3058791b0621740dc5c7123799f6785fc3c87fa7"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/gltf2_blender_utils.py",
+      "bytes": 3635,
+      "sha256": "9155b7a71b2deedd6d608f01c50769568d290b1fb9005ea5ac34bb762872401c"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/nodes.py",
+      "bytes": 24921,
+      "sha256": "077d66f73d2a22e7caf13f73be83b3d027cc03995c040a0064b3b7a77dc5bcf1"
+    }
+  ],
+  "targets": [
+    {
+      "object": "BL_Front_mirror_face_-1",
+      "reference_mesh_id": "mesh-00069",
+      "loops": 1440,
+      "vertices": 384,
+      "triangles": 764,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.740678995847702
+    },
+    {
+      "object": "BL_Front_mirror_face_1",
+      "reference_mesh_id": "mesh-00100",
+      "loops": 1440,
+      "vertices": 384,
+      "triangles": 764,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.740678995847702
+    },
+    {
+      "object": "S543_0_halfshaft_bellows",
+      "reference_mesh_id": "mesh-00583",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_1_halfshaft_bellows",
+      "reference_mesh_id": "mesh-00829",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_2_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01075",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_3_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01321",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_4_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01567",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_5_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01780",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_6_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01993",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_7_halfshaft_bellows",
+      "reference_mesh_id": "mesh-02206",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    }
+  ],
+  "total_target_loops": 104256,
+  "metric_definition": "Native raw corner normal versus local reproduction of the official float32 round4, normalize and zero replacement before yup; not directly measured against GLB accessor directions",
+  "algorithm_review": "Same coordinate system and static no-skin/no-morph operation order; no arithmetic or dtype mix-up found",
+  "signed_zero": {
+    "numeric_vector_error": 0,
+    "official_corner_fields": "NORMAL and TEXCOORD float fields are canonicalized to +0 during fast_structured_np_unique; POSITION fetched by vertex_index is outside that structure",
+    "future_fix_location": "Expected corner-attribute preparation only; keep POSITION and generic byte-exact oriented_signature unchanged",
+    "historical_hashes_cannot_be_regenerated_from_hash_only": true,
+    "coverage_not_generalized_from_prior_examples": true
+  },
+  "magnitude_inference": {
+    "kind": "Mathematical inference from stored scalar and pinned algorithm, not a measurement of missing historical raw vectors",
+    "assumptions": [
+      "Finite float32 static conversion path; recorded nonzero-round4 rows; IEEE float32 rounding",
+      "Nonzero round4 components are at least about 1e-4, so norm-square does not underflow; overflow to an all-zero result would contradict the stored rounded_zero=0",
+      "Conservative normalization length error epsilon=1e-6 bounds raw norm by 1+D+epsilon<1.741; in that interval float32 round4 per-component perturbation remains below about5.016e-5"
+    ],
+    "round4_vector_delta": 9e-05,
+    "normalization_length_epsilon": 1e-06,
+    "bound_on_abs_vector_error_minus_abs_raw_length_minus_one": 0.000181,
+    "unit_raw_would_have_error_below": 0.000181,
+    "conclusion": "The maximum-error corners have substantial non-unit raw magnitude; signed-zero cannot cause their 0.2937/0.7407 errors",
+    "mirror_possible_raw_lengths_approx": [
+      0.259321,
+      1.740679
+    ],
+    "bellows_possible_raw_lengths_approx": [
+      0.706305,
+      1.293695
+    ],
+    "length_interval_radius_approx": 0.000181,
+    "unknown": [
+      "Specific worst corner",
+      "Raw length shorter versus longer than1",
+      "Missing historical raw bytes",
+      "Whether original direction is the intended surface direction",
+      "Complete GLB-to-reference attribute correspondence"
+    ]
+  },
+  "next_scope": {
+    "type": "One pinned-source frame0 read-only ten-target collector, separately prepared and published before execution",
+    "modifiers": "All ten targets have BEVEL and WEIGHTED_NORMAL; use the pinned official evaluated_get/to_mesh apply-modifier path and release each temporary mesh",
+    "no_save_no_export_no_mesh_validate": true,
+    "raw_normals_binary_size_reference": 1251072,
+    "combined_correspondence_arrays_binary_size_approx": 3650000,
+    "retain": [
+      "Raw float32 normals",
+      "Native vertex coordinates",
+      "loop-to-vertex and triangle-to-loop indices",
+      "Material slots and UV fields",
+      "Worst-corner identity, lengths, rounding perturbation, conversion and directional statistics, triangle-use membership"
+    ],
+    "old_reference_match_first": [
+      "Per-material all/POSITION/NORMAL/UV byte signatures",
+      "Attributes, counts, bounds, material and UV-layer metadata",
+      "Original scalar and zero counts"
+    ],
+    "mismatch_rule": "Mark fresh evaluation not corresponding to run-03; do not adjust UV or replace old reference",
+    "only_after_old_match": "Calculate separate +0-canonicalized expected signatures and compare with existing GLB",
+    "inference_limit": "Matching converted signatures/scalars does not reconstruct omitted historical raw bytes because rounding/normalization loses information"
+  },
+  "unchanged_qualification": {
+    "transport": "FAIL_STATIC_NATIVE_TRANSPORT",
+    "issues": 2299,
+    "normal_nonzero_vector_error_limit": 0.0002,
+    "whole_vehicle": "ALL_16_OPEN",
+    "browser_qa": "NOT_RUN"
+  },
+  "executed": [
+    "Read-only source/JSON/GLB analysis"
+  ],
+  "not_executed": [
+    "Blender",
+    "New native collection",
+    "GLB export",
+    "Threshold or comparator change",
+    "Model change"
+  ]
+}
