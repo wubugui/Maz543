@@ -1,0 +1,129 @@
+{
+  "status": "PUBLISHED_REMOTE_BYTES_EXACT",
+  "commit": "1db5b1a5492c55a8500bde4d39c9ca9ff0df6005",
+  "tree": "80337f085842006bea63f835a043646ff75db37a",
+  "public_url": "https://github.com/wubugui/Maz543.git",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 49786,
+      "characters": 49786,
+      "sha256": "775bbeee9706907a482edb7e26a3e9d2fb70b9035a188d26da86ff3f475f0d41",
+      "git_blob_sha1": "8bd2853241e6b68efb11f4e50dd2e99e07d6edbf",
+      "binary": false
+    },
+    {
+      "path": "CLOUD_CONTINUATION.md",
+      "bytes": 192163,
+      "characters": 107817,
+      "sha256": "87f0f3b8c4e58e955c7ffd556eaed87eaa04a9932ef64a52fc5c495beff1e233",
+      "git_blob_sha1": "d9b1ab55186492baaafd0b8b4b1d4806d4622188",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/README.txt",
+      "bytes": 631,
+      "characters": 617,
+      "sha256": "c67c726dbcf15afbb61dbcce19ed052798bcf2f24eb7e7927122194eafeeb034",
+      "git_blob_sha1": "9d65a84f00191df2a30ac14c2f6641c3d35f3b15",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/blender.log",
+      "bytes": 575988,
+      "characters": 575952,
+      "sha256": "7b23565c39214e9ae5b6f7d5762e2ff9a088633170879048549e513da604d468",
+      "git_blob_sha1": "383ca2a99fe1f7b5bc6f71a8b12853c1da071987",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/heartbeat.jsonl",
+      "bytes": 506,
+      "characters": 506,
+      "sha256": "4b7ce8d1957218640357d914202db2b4cdc8f63fdf31bfe07b0c85a0c9cd1b21",
+      "git_blob_sha1": "421873f49e9c623b8aeb186e421a799f74e3b0eb",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/launch.json",
+      "bytes": 3429,
+      "characters": 3415,
+      "sha256": "4425592cb1b51eabf07ba5278433448fbdcae9bf34a235260de74b0b107c9ae2",
+      "git_blob_sha1": "7220050830da78184029222d024c5f0fc5b3acf9",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/model-after.json",
+      "bytes": 9172565,
+      "characters": 9172519,
+      "sha256": "00a5bb8de0c69d0b571619dc0c94ff884f534b20badce75b2f9884f241e2832b",
+      "git_blob_sha1": "05bb3a75a72b90cee050565f0de09e4dfc2b77be",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/model-before.json",
+      "bytes": 9172565,
+      "characters": 9172519,
+      "sha256": "00a5bb8de0c69d0b571619dc0c94ff884f534b20badce75b2f9884f241e2832b",
+      "git_blob_sha1": "05bb3a75a72b90cee050565f0de09e4dfc2b77be",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/observation-report.json",
+      "bytes": 3597,
+      "characters": 3569,
+      "sha256": "e7381e55a31a6338f6ed78d12d0ee82506f58b5280c2fea79a3baed7962ebb28",
+      "git_blob_sha1": "726633d3db4e26d1bfe3df09c09dc3081ee3f685",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/process.json",
+      "bytes": 6017,
+      "characters": 5989,
+      "sha256": "c019ecb1245f41d7cc10626912d4307b2b2588edbbf9e55029a957c7ef330646",
+      "git_blob_sha1": "40019c94617f10690c807ad85bd2d528f9c1beea",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/side-offline-glb-pending-normal-joint-fail-16-open.png",
+      "bytes": 624424,
+      "characters": null,
+      "sha256": "b505e246f347164069e3f445de51d6dbc7a6fc71f04dff15bac051100121495b",
+      "git_blob_sha1": "8bf9e43a8f88a6760286ea1b0317143bf8ac107b",
+      "binary": true
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/stage.json",
+      "bytes": 131,
+      "characters": 131,
+      "sha256": "96ece98ca8ec535cbf2feaee06668635bc2482813adb729644a428bd2be2f99a",
+      "git_blob_sha1": "eca2a86289ba9644f95d332e9d5657553e763325",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/stages.jsonl",
+      "bytes": 715,
+      "characters": 715,
+      "sha256": "8a9947c6fd8810cb9ffaa88b6948580bfca5251a8d8b466e7229330cc6e03d9b",
+      "git_blob_sha1": "32b2c1318b875ab844feb1bde4820b132da45c54",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/visual-observation.json",
+      "bytes": 1057,
+      "characters": 1043,
+      "sha256": "da41c6b8235ab4040cc80ff33c21869e964551642986c4458aabcce787fd809c",
+      "git_blob_sha1": "d56a726d53b5c52129896b3ded859c025bbdaa05",
+      "binary": false
+    }
+  ],
+  "file_count": 14,
+  "unique_blobs": 13,
+  "bytes": 19803574,
+  "fresh_bare_objects_all_absent_before_fetch": 13,
+  "no_git_alternates": true,
+  "no_local_object_source": true,
+  "ref_unchanged_before_after": true,
+  "elapsed_seconds": 12.292518160989857,
+  "finished_utc": "2026-10-02T21:10:29Z"
+}

@@ -1,0 +1,33 @@
+{
+  "status": "REMOTE_ORIGINAL_PNG_BYTES_AND_RGBA_EXACT",
+  "asset_commit": "1db5b1a5492c55a8500bde4d39c9ca9ff0df6005",
+  "images": [
+    {
+      "role": "original",
+      "bytes": 624424,
+      "sha256": "b505e246f347164069e3f445de51d6dbc7a6fc71f04dff15bac051100121495b",
+      "format": "PNG",
+      "size": [
+        1024,
+        640
+      ],
+      "source_mode": "RGB",
+      "rgba_sha256": "9d1b30367142608abb706f470bff64e86481c3ce2665844942f35fc1b02a5007"
+    },
+    {
+      "role": "remote",
+      "bytes": 624424,
+      "sha256": "b505e246f347164069e3f445de51d6dbc7a6fc71f04dff15bac051100121495b",
+      "format": "PNG",
+      "size": [
+        1024,
+        640
+      ],
+      "source_mode": "RGB",
+      "rgba_sha256": "9d1b30367142608abb706f470bff64e86481c3ce2665844942f35fc1b02a5007"
+    }
+  ],
+  "image_scope": "Actual official Blender GLB-import/Cycles side observation; not browser QA or normal/whole-vehicle acceptance",
+  "normal_joint": "FAIL_STATIC_NATIVE_TRANSPORT",
+  "all16_vehicle_gates": "OPEN"
+}
