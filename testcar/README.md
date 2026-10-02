@@ -41,6 +41,33 @@
 
 需要 Node.js 22.13+。运行 `npm install` 后执行 `npm run dev`。生产构建使用 `npm run build`。
 
+### 完整静态诊断候选（独立开发入口）
+
+`npm run prepare:static-diagnostic` 从已发布的
+`outputs/cloud-native-static-suspension-20261002` 的 171 个有序原始 parts 恢复
+`work/native-static-preview/native-static.glb`。恢复脚本核对每块和完整文件的长度、SHA，
+不会覆盖已有文件。缓存已存在时可直接启动；若校验失败，请保留该文件另行核对。
+这份 134,267,928 字节 GLB 的唯一 Git 表示仍为 parts + manifest + restore，
+缓存受现有 `/work/` 忽略规则保护，不复制到 `public` 或新增 LFS 对象。
+
+运行 `npm run dev:static-diagnostic`，打开
+`http://localhost:3001/diagnostics/native-static/`。截图固定镜头入口为
+`?view=overview`、`?view=front`、`?view=side`、`?view=rear`。
+“保存当前视图 PNG”下载真实 WebGL 画布，在画面外加 64px 诊断状态标题带，不修改模型像素。
+页面仅移动相机，使用真实 GLTFLoader 和 OrbitControls；原始节点姿态、完整导出范围与
+导出材料保持，不导入旧 vehicleViewport 或动力学/legacy overlay。开发服务和浏览器
+均核完整 SHA-256 后才解析；资产未恢复或不匹配会明确停止，不回退其他模型。
+浏览器须使用 localhost 或 HTTPS 安全上下文，以便执行 SHA-256 校验。
+
+页面显示“待核对诊断候选”、法线/联合属性 FAIL、2299 issues、16 门 OPEN 和静态
+frame 0。加载成功仅代表实际解析及第一帧 render，不能代替真实浏览器截图、材料/法线
+检查或整车验收。观察灯光不代表 Blender shader 等价。为云端诊断限制像素比 1、
+画布最多 1280×800，且只在相机/窗口变化时重绘。
+
+`npm run build:static-diagnostic` 仅核验该独立页面可打包，输出在
+`dist/static-diagnostic-check`，不含模型及仅开发期的资产路由，不能作为可独立部署站点。
+原 `npm run dev`、`npm run build` 和生产默认入口不变。
+
 `node scripts/verify-model.mjs` 检查轴距、活塞行程、连杆定长、转向中心、内外轮转速、制动保持、有限变换、导出的关节名称与 glTF 文件。该检查不等价于浏览器视觉检查。
 
 `node scripts/verify-d12.mjs` 另行检查新发动机的主副连杆闭合、180/186.7 mm 标称行程拟合、上止点关系、凸轮与平面挺柱接触、148 个导出节点及 glTF。数值一致性不等于原厂尺寸认证。

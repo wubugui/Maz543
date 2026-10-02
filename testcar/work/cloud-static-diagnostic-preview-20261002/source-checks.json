@@ -1,0 +1,49 @@
+{
+  "status": "SOURCE_CHECKED_BROWSER_PENDING",
+  "asset_commit": "cfe242a8a42763cf66e426941a56bd89eb20e891",
+  "asset_delivery_verification_commit": "b2f809a8fdf936707b7f7481eae26cdb8c50e056",
+  "asset_sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d",
+  "files": [
+    {
+      "path": "testcar/package.json",
+      "bytes": 1923,
+      "sha256": "82725e4f90ae028fce54dd62b71fb4116c04bc2f626958c7be653c70cd4d4d2e"
+    },
+    {
+      "path": "testcar/README.md",
+      "bytes": 15383,
+      "sha256": "db9c3c153d8ba1adfcaac19407301f067e4306743461f37e0ec0b3f5f8744148"
+    },
+    {
+      "path": "testcar/vite.static-diagnostic.config.ts",
+      "bytes": 3615,
+      "sha256": "2698bfe753c94306ff121e15aa7a53af37b4a5977215128a31108a8ab2fd1789"
+    },
+    {
+      "path": "testcar/diagnostics/native-static/index.html",
+      "bytes": 3390,
+      "sha256": "88985b24d1adb2889a9490da4127c35d5e41ce1c996acb4447633f23e4a160a4"
+    },
+    {
+      "path": "testcar/diagnostics/native-static/main.ts",
+      "bytes": 12170,
+      "sha256": "c0330002a418eb73aa82f09b540191965f55fffe7399a450750726e3c09388a7"
+    },
+    {
+      "path": "testcar/diagnostics/native-static/style.css",
+      "bytes": 3753,
+      "sha256": "348838d8c60dbe9463bab1bf8662b90008dd7f68a6f78f567cdf5463ada765c8"
+    }
+  ],
+  "final_typescript_exit_code": 0,
+  "final_target_type_aware_lint_exit_code": 0,
+  "final_git_diff_check_exit_code": 0,
+  "independent_vite_build_exit_code": 0,
+  "independent_vite_build_elapsed_seconds": 0.717,
+  "build_scope": "Build predates only final PNG filename view/time capture constants; final code subsequently passed TypeScript and focused lint. No production build.",
+  "browser_status": "NOT_RUN",
+  "cache_status": "NOT_RESTORED",
+  "visual_acceptance": "NOT_RUN",
+  "model_transport_status": "FAIL_STATIC_NATIVE_TRANSPORT",
+  "whole_vehicle_gates": "ALL_16_OPEN"
+}

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAZ-543A · 待核对诊断候选</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <p class="eyebrow">MAZ-543A / 静态观察</p>
+          <h1>待核对诊断候选</h1>
+          <p class="intro">
+            完整导出范围 · 保留原始姿态与导出材质 · 静态 frame 0
+          </p>
+        </div>
+        <div class="qualification" aria-label="当前验收状态">
+          <strong>法线 / 联合属性 FAIL · 2299 issues</strong>
+          <span>16 项整车验收门全部 OPEN</span>
+        </div>
+      </header>
+
+      <section class="viewer" aria-label="完整静态模型预览">
+        <div
+          id="viewport"
+          data-state="loading"
+          aria-label="三维模型，拖动旋转，滚轮缩放"
+        ></div>
+        <div id="loading" role="status" aria-live="polite">
+          <span class="loading-mark" aria-hidden="true"></span>
+          <strong id="load-title">准备加载真实导出模型</strong>
+          <p id="load-message">首次需要下载约 134 MB，完整校验后显示</p>
+          <div id="recovery" hidden>
+            <p>首次使用请在 testcar 目录运行：</p>
+            <code>npm run prepare:static-diagnostic</code>
+            <p>恢复完成后刷新本页。已有文件不会被覆盖。</p>
+          </div>
+        </div>
+        <nav aria-label="相机视角">
+          <button type="button" data-view="overview" disabled>整体</button>
+          <button type="button" data-view="front" disabled>前视</button>
+          <button type="button" data-view="side" disabled>侧视</button>
+          <button type="button" data-view="rear" disabled>后视</button>
+        </nav>
+        <p class="controls-hint">拖动旋转 · 滚轮缩放 · 右键拖动平移</p>
+        <button id="save-view" type="button" disabled>保存当前视图 PNG</button>
+      </section>
+
+      <footer>
+        <p id="render-status" role="status">静态 frame 0 · 等待资产校验</p>
+        <details>
+          <summary>诊断状态与资产来源</summary>
+          <p>
+            此页仅用于观察未验收候选。法线 / 联合属性检查仍为
+            FAIL_STATIC_NATIVE_TRANSPORT，保留 2299 issues；16 项整车验收门全部
+            OPEN。
+          </p>
+          <p>
+            已有位置签名、三角形及材料分组对照；最大世界点位差 0.441204
+            微米。这些有限结果不代表模型、材料或整车验收通过。
+          </p>
+          <p>
+            仅显示保存帧 frame
+            0，没有机构动画。相机和观察灯光可见的成像不代表原生 Blender
+            材质等价或照片级验收。
+          </p>
+          <p id="asset-facts">实际 GLTFLoader 解析：等待完成</p>
+          <p id="asset-identity"></p>
+          <p>
+            唯一工程表示：171 个原始 parts + manifest +
+            restore_glb.py。本地恢复位置：work/native-static-preview/native-static.glb（Git
+            忽略）。此页依赖独立开发服务，构建产物不包含模型。
+          </p>
+        </details>
+      </footer>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>
