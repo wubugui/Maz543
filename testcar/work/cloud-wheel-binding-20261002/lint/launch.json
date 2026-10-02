@@ -1,0 +1,17 @@
+{
+  "check": "lint",
+  "argv": [
+    "node",
+    "node_modules/oxlint/bin/oxlint",
+    "lib/nativeWheelBindings.ts",
+    "scripts/verify-native-wheel-bindings.mjs"
+  ],
+  "cwd": "/workspace/scratch/a29d03198654/Maz543/testcar",
+  "started_utc": "2026-10-02T08:34:08.487121+00:00",
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "timeout_seconds": 120,
+  "runner_sha256": "cf7bfe480e3dc15cc1eac58da9d338a989f3785f5a527c46af8319b3841f10b8"
+}

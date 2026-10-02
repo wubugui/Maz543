@@ -1,0 +1,28 @@
+{
+  "check": "build",
+  "argv": [
+    "npm",
+    "run",
+    "build"
+  ],
+  "cwd": "/workspace/scratch/a29d03198654/Maz543/testcar",
+  "started_utc": "2026-10-02T08:33:11.078532+00:00",
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "timeout_seconds": 120,
+  "runner_sha256": "cf7bfe480e3dc15cc1eac58da9d338a989f3785f5a527c46af8319b3841f10b8",
+  "finished_utc": "2026-10-02T08:33:31.416836+00:00",
+  "elapsed_seconds": 20.338185218992294,
+  "returncode": 0,
+  "timed_out": false,
+  "stdout.log": {
+    "bytes": 1175,
+    "sha256": "2f7efe4196555e805211f7c32bb8562d3267677595241b0814c8b1618ad4f4b5"
+  },
+  "stderr.log": {
+    "bytes": 1500,
+    "sha256": "8c102a950f1a30f3ad12cae7d728e603b5c875dc0c3d3f8a5465a9c811013853"
+  }
+}

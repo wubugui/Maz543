@@ -1,0 +1,27 @@
+{
+  "check": "binding",
+  "argv": [
+    "node",
+    "scripts/verify-native-wheel-bindings.mjs"
+  ],
+  "cwd": "/workspace/scratch/a29d03198654/Maz543/testcar",
+  "started_utc": "2026-10-02T08:31:32.469081+00:00",
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "timeout_seconds": 120,
+  "runner_sha256": "cf7bfe480e3dc15cc1eac58da9d338a989f3785f5a527c46af8319b3841f10b8",
+  "finished_utc": "2026-10-02T08:31:34.491088+00:00",
+  "elapsed_seconds": 2.0219044819968985,
+  "returncode": 0,
+  "timed_out": false,
+  "stdout.log": {
+    "bytes": 509,
+    "sha256": "458cc5d82c5ad63d984283f65cec2c31749b48e6c369e199e78fb011e506d023"
+  },
+  "stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

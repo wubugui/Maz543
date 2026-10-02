@@ -1,0 +1,68 @@
+{
+  "status": "SOURCE_AND_RECORDED_RESULT_REVIEWED",
+  "source_hashes_exact": [
+    {
+      "path": "lib/nativeWheelBindings.ts",
+      "sha256": "7c4d46478f190f1e3b3fcdad5e7a6678f614aa9706c200fdb9013b487e7edddc"
+    },
+    {
+      "path": "lib/vehicleViewport.ts",
+      "sha256": "9de4e242cc43aa21b765a42f447621e083e675d411a66f8a9ba83e9b29b54e5d"
+    },
+    {
+      "path": "lib/maz543.ts",
+      "sha256": "d1fdc631ff369ab4f7af1c85e828bbd3d053ff35a2ec5291d0d475bbc68f7059"
+    },
+    {
+      "path": "lib/suspension.ts",
+      "sha256": "06af7ce5a0d277df3f90072a7a9228fff6fc2bd9e593205f60c1f463e0d11d89"
+    },
+    {
+      "path": "lib/reviewVehicleAsset.ts",
+      "sha256": "df06cbb1ca75a06c277c4addce10df992ac2becb4e6eb27d7ee9eabe3fce168f"
+    },
+    {
+      "path": "lib/renderWorkerClient.ts",
+      "sha256": "8eb0be871c37d793a822dfbd352ff17859c6c48558cbc8ed63519564dca7f3ee"
+    },
+    {
+      "path": "lib/viewport.worker.ts",
+      "sha256": "6a329235c64771a81577fa7a34c5a3824e5fc8ac0fcba0386774b1313d20b8e5"
+    },
+    {
+      "path": "components/vehicle-viewer.tsx",
+      "sha256": "3608083ca79164cebc0ac8bc5645c8ba58118c2117005a3d71485a113265f510"
+    },
+    {
+      "path": "components/workshop.tsx",
+      "sha256": "8a5a0963a30c6b8f73432a22ed6159e4872a9562c147fe75ad850fbedf8150df"
+    },
+    {
+      "path": "scripts/export-va180-cab-candidate.py",
+      "sha256": "81099e989b22af47de42b0f8c15c18199deef5d8bffb2a2da1cd41c072698714"
+    },
+    {
+      "path": "scripts/verify-native-wheel-bindings.mjs",
+      "sha256": "cc72e142c5d10a11f38edc2b77310d0662ba74643e398e24a5a9e77004e9b7bf"
+    }
+  ],
+  "reviewed_actual_viewport_diff": "8 added and4 removed lines, retained CRLF; stable station preflight before mutation and station used in actual frame loop",
+  "existing_assets_modes": [
+    "production",
+    "cab-va180-v1",
+    "cab-va180-axis-v1"
+  ],
+  "recorded_checks_verified": [
+    "binding",
+    "types",
+    "lint",
+    "build"
+  ],
+  "raw_log_bytes_and_sha256_exact": true,
+  "render_or_tests_repeated_by_review": false,
+  "node_version_read_now": "v24.19.0",
+  "documentation_correction": "Original Node22.13+ wording was unsupported for registerHooks. README now records actual Node v24.19.0 and official API introduction v22.15/v23.5. No code was changed after final recorded checks.",
+  "browser_qualification": false,
+  "candidate_new_parent_support": false,
+  "all16gates": "OPEN"
+}

@@ -1,0 +1,80 @@
+{
+  "status": "HISTORICAL_RECORD_REVIEW_ONLY",
+  "git_commit": "3a7bd1322b6b72f3d8168ab16c935cdc55b5035f",
+  "read_sources": [
+    {
+      "path": "testcar/outputs/cloud-tyre-lettering-portable-20260930/portable-reexport-v2-verification.json",
+      "bytes": 45983,
+      "sha256": "d18865083fff9c3430d46de6bc9f8924606816d4fd91b17b077518dfbc315985"
+    },
+    {
+      "path": "testcar/outputs/cloud-tyre-lettering-portable-20260930/candidate-manifest.json",
+      "bytes": 3651,
+      "sha256": "001e5acca27e8b3a31d06bb9cb5d6611a529ce9d5eb1be39d41d15cfe21fa014"
+    },
+    {
+      "path": "testcar/outputs/cloud-hood-tyre-composite-20261001/asset-export/packed/packed-candidate-verification.json",
+      "bytes": 1659,
+      "sha256": "7c583c9f1f80494056baf22167f83ff8551285aacca805eaa7d56c77d33b8566"
+    },
+    {
+      "path": "testcar/outputs/cloud-hood-tyre-composite-20261001/asset-export/packed/pack-config.json",
+      "bytes": 1994,
+      "sha256": "1c90873ad4675a6f0edffbbe0d4da9470453ec5d589646d3a53c7b0317d2ec97"
+    },
+    {
+      "path": "testcar/outputs/cloud-left-driver-side-20261001/asset-export/packed-candidate-verification.json",
+      "bytes": 1339,
+      "sha256": "52c69392a02ec62651bcb20095f54cb0c4543aab047060d86104d0bf6436d8f1"
+    },
+    {
+      "path": "testcar/outputs/cloud-left-driver-side-20261001/asset-export/pack-config.json",
+      "bytes": 1587,
+      "sha256": "37e3cfc6bbd3a86e66367b8c83a284d0ef27ef5dc0c585358a05bc4295031767"
+    },
+    {
+      "path": "testcar/work/cloud-va180-web-20261001/preservation.json",
+      "bytes": 906,
+      "sha256": "fa8ca413b618d0f90b0cbc0ab2cc81aa505d09c5ddb2cf325616d72720e548bd"
+    },
+    {
+      "path": "testcar/scripts/verify-tyre-lettering-asset.mjs",
+      "bytes": 9576,
+      "sha256": "cd47b4f3dc4de46234df988d9925a0ee51059b31e7718ca20611512daafe0c16"
+    },
+    {
+      "path": "testcar/scripts/verify-composite-packed-asset.mjs",
+      "bytes": 7173,
+      "sha256": "9cf10741e97878db2338d760ff835e8e669997bd9ef6213b2a36538b7c17134f"
+    },
+    {
+      "path": "testcar/scripts/verify-left-driver-packed-asset.mjs",
+      "bytes": 7345,
+      "sha256": "31d4cdfa1575d983f0f9b5e351946c3c5261a2113b15ab0fe0535442e7a41f0d"
+    },
+    {
+      "path": "testcar/scripts/verify-va180-cab-preservation.mjs",
+      "bytes": 5491,
+      "sha256": "a197670348acbdb791c11d07cccde46b288ab0fa5d21439c1f9343b95fa874d8"
+    }
+  ],
+  "findings": [
+    {
+      "mode": "tyre-v2",
+      "finding": "Published portable-v2 report identifies a9786080 and all144 glyph parent checks. Existing verifier checks glyph -> exact spin -> exact carrier -> wheels for all8 stations and preserves old node TRS. This report alone does not list all8 brake parents; no full fresh binding run for this missing GLB."
+    },
+    {
+      "mode": "hood-tyre-v1",
+      "finding": "Published packed report/config contain only declared hood/latch changes. Verifier requires existing node TRS/parents unchanged except exactly2 diagnostic latch reparentings. Wheel/brake pivots are not exceptions."
+    },
+    {
+      "mode": "left-driver-v1",
+      "finding": "Published packed report/config contain cab/control changes. Verifier requires all existing parents unchanged and permits only cab_pivot_004 local translation as the pose exception. Wheel/brake pivots are not exceptions."
+    },
+    {
+      "mode": "cab-va180-v1 and cab-va180-axis-v1",
+      "finding": "Both select the identical fde04e48 bytes. Fresh graph/binding tests execute each mode with the actual review pose-offset function. Old VA180 preservation verifier additionally requires existing parents unchanged and confines pose exceptions to2 specified cab nodes."
+    }
+  ],
+  "limits": "These retained report/source checks support the intended legacy contracts; they are not fresh executions against absent tyre-v2, hood-tyre or left-driver GLB bytes. No old preservation gate was changed or rerun. Fresh coverage is limited to2 real GLBs and3 selector modes, as recorded in binding-report.json."
+}

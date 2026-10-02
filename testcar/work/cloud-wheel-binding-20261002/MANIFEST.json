@@ -1,0 +1,156 @@
+{
+  "files": [
+    {
+      "path": "lib/nativeWheelBindings.ts",
+      "bytes": 3110,
+      "sha256": "7c4d46478f190f1e3b3fcdad5e7a6678f614aa9706c200fdb9013b487e7edddc"
+    },
+    {
+      "path": "lib/vehicleViewport.ts",
+      "bytes": 77905,
+      "sha256": "9de4e242cc43aa21b765a42f447621e083e675d411a66f8a9ba83e9b29b54e5d"
+    },
+    {
+      "path": "scripts/verify-native-wheel-bindings.mjs",
+      "bytes": 14742,
+      "sha256": "cc72e142c5d10a11f38edc2b77310d0662ba74643e398e24a5a9e77004e9b7bf"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/README.md",
+      "bytes": 6996,
+      "sha256": "77b7c36c1b2fd7f3468ece7bc213e44b0809bd46f5ad120afdd77199e7b70eb1"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/REVIEW.json",
+      "bytes": 2419,
+      "sha256": "8b8a6f5e4e16c4798623cf7ac816e4353b8805b77f5cdef115969478aadb9a5a"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/binding/launch.json",
+      "bytes": 364,
+      "sha256": "902291f90bdf78410c26a42308140d7ad03d7052252b6e88e7a4b275883235e9"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/binding/process.json",
+      "bytes": 740,
+      "sha256": "8789adaa6872922e0414ae7469869f7e7064bcd3cd274885412ddfa13f651a5c"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/binding/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/binding/stdout.log",
+      "bytes": 816,
+      "sha256": "b040b6f941a66b8fcb451b07bfa7fa294d79d968fe77b729e154941c5383e59d"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/binding-first-two-modes/executed-check.mjs",
+      "bytes": 14546,
+      "sha256": "a74890a120b20d48a196356479a37f4a8f096e12dd5faa91deedd4ffea474aac"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/binding-first-two-modes/launch.json",
+      "bytes": 364,
+      "sha256": "5e061ea5131351533b6581854ff792cddfde1ff5a7b598c98b547bbb66ea71fa"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/binding-first-two-modes/process.json",
+      "bytes": 742,
+      "sha256": "de271f97154e7fb098650c0bda54247c177814750e5ac39fb2351538111525fc"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/binding-first-two-modes/report.json",
+      "bytes": 27309,
+      "sha256": "3dfce2ed4432a70cd4b3478a90b1cdbde60a19ef2f95c4b548755027b5dcd654"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/binding-first-two-modes/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/binding-first-two-modes/stdout.log",
+      "bytes": 509,
+      "sha256": "458cc5d82c5ad63d984283f65cec2c31749b48e6c369e199e78fb011e506d023"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/binding-report.json",
+      "bytes": 39790,
+      "sha256": "36c830a437e2a545037ea0863ca5ecee299e9e6125da9a6ea745faace193990e"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/build/launch.json",
+      "bytes": 337,
+      "sha256": "1111c034a1564aec71b39491b17a58309fcb33aa6ba2005c148d4b5a3d668eaf"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/build/process.json",
+      "bytes": 719,
+      "sha256": "b47fd125485e5659052d4fde81b15457a173ff6ec45beae2dfce38a709daebb0"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/build/stderr.log",
+      "bytes": 1500,
+      "sha256": "8c102a950f1a30f3ad12cae7d728e603b5c875dc0c3d3f8a5465a9c811013853"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/build/stdout.log",
+      "bytes": 1175,
+      "sha256": "2f7efe4196555e805211f7c32bb8562d3267677595241b0814c8b1618ad4f4b5"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/lint/launch.json",
+      "bytes": 433,
+      "sha256": "dd9aaffb5faf2d7eb542fc986da5077ed91c1ed215c41109e953c065c2eff86f"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/lint/process.json",
+      "bytes": 808,
+      "sha256": "c10bc1e41ff16117af9d87da5cecf70f675674aa995290a84eb74119a653d835"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/lint/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/lint/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/prior-review-records.json",
+      "bytes": 4012,
+      "sha256": "32d078ec8a473c9ca03612c41e5f4530b30abafb09536f042c75c526b5a90bb5"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/run-check.py",
+      "bytes": 2005,
+      "sha256": "cf7bfe480e3dc15cc1eac58da9d338a989f3785f5a527c46af8319b3841f10b8"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/types/launch.json",
+      "bytes": 369,
+      "sha256": "927084f2ced81dd306f2bff5bea5343e4b45ce9bf5d18bc6cb9627a2b3d97b3e"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/types/process.json",
+      "bytes": 745,
+      "sha256": "718c0a2ec6b0fb78cffa66eef1c33aaa0015c93dae144a1b41d5b35b357d2a31"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/types/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "work/cloud-wheel-binding-20261002/types/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "count": 30,
+  "bytes": 202455
+}

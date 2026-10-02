@@ -1,0 +1,33 @@
+{
+  "status": "PASS_SCOPED_LEGACY_WHEEL_BINDING",
+  "assets": [
+    {
+      "mode": "production",
+      "path": "public/models/maz543a-blender.glb",
+      "nodeCount": 371,
+      "frames": 97,
+      "comparedWorldMatrices": 35987,
+      "maxMatrixError": 0,
+      "maxReorderedError": 0
+    },
+    {
+      "mode": "cab-va180-v1",
+      "path": "public/models/review/maz543a-cab-va180-v1.glb",
+      "nodeCount": 850,
+      "frames": 97,
+      "comparedWorldMatrices": 82450,
+      "maxMatrixError": 0,
+      "maxReorderedError": 0
+    },
+    {
+      "mode": "cab-va180-axis-v1",
+      "path": "public/models/review/maz543a-cab-va180-v1.glb",
+      "nodeCount": 850,
+      "frames": 97,
+      "comparedWorldMatrices": 82450,
+      "maxMatrixError": 0,
+      "maxReorderedError": 0
+    }
+  ],
+  "rejectedCases": 171
+}

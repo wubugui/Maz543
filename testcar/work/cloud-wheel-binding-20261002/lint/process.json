@@ -1,0 +1,29 @@
+{
+  "check": "lint",
+  "argv": [
+    "node",
+    "node_modules/oxlint/bin/oxlint",
+    "lib/nativeWheelBindings.ts",
+    "scripts/verify-native-wheel-bindings.mjs"
+  ],
+  "cwd": "/workspace/scratch/a29d03198654/Maz543/testcar",
+  "started_utc": "2026-10-02T08:34:08.487121+00:00",
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "timeout_seconds": 120,
+  "runner_sha256": "cf7bfe480e3dc15cc1eac58da9d338a989f3785f5a527c46af8319b3841f10b8",
+  "finished_utc": "2026-10-02T08:34:09.404359+00:00",
+  "elapsed_seconds": 0.917113210001844,
+  "returncode": 0,
+  "timed_out": false,
+  "stdout.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "stderr.log": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

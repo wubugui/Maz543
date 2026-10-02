@@ -1,0 +1,1262 @@
+{
+  "status": "PASS_SCOPED_LEGACY_WHEEL_BINDING",
+  "baselineCommit": "3a7bd1322b6b72f3d8168ab16c935cdc55b5035f",
+  "baselineViewportSHA256": "d2423fe367cc9827b4f3b27f3b38bac9cb9f5bd9cd670f7ef8d165eb83efe17e",
+  "sources": [
+    {
+      "path": "lib/nativeWheelBindings.ts",
+      "sha256": "7c4d46478f190f1e3b3fcdad5e7a6678f614aa9706c200fdb9013b487e7edddc"
+    },
+    {
+      "path": "lib/vehicleViewport.ts",
+      "sha256": "9de4e242cc43aa21b765a42f447621e083e675d411a66f8a9ba83e9b29b54e5d"
+    },
+    {
+      "path": "lib/maz543.ts",
+      "sha256": "d1fdc631ff369ab4f7af1c85e828bbd3d053ff35a2ec5291d0d475bbc68f7059"
+    },
+    {
+      "path": "lib/suspension.ts",
+      "sha256": "06af7ce5a0d277df3f90072a7a9228fff6fc2bd9e593205f60c1f463e0d11d89"
+    },
+    {
+      "path": "lib/reviewVehicleAsset.ts",
+      "sha256": "df06cbb1ca75a06c277c4addce10df992ac2becb4e6eb27d7ee9eabe3fce168f"
+    },
+    {
+      "path": "lib/renderWorkerClient.ts",
+      "sha256": "8eb0be871c37d793a822dfbd352ff17859c6c48558cbc8ed63519564dca7f3ee"
+    },
+    {
+      "path": "lib/viewport.worker.ts",
+      "sha256": "6a329235c64771a81577fa7a34c5a3824e5fc8ac0fcba0386774b1313d20b8e5"
+    },
+    {
+      "path": "components/vehicle-viewer.tsx",
+      "sha256": "3608083ca79164cebc0ac8bc5645c8ba58118c2117005a3d71485a113265f510"
+    },
+    {
+      "path": "components/workshop.tsx",
+      "sha256": "8a5a0963a30c6b8f73432a22ed6159e4872a9562c147fe75ad850fbedf8150df"
+    },
+    {
+      "path": "scripts/export-va180-cab-candidate.py",
+      "sha256": "81099e989b22af47de42b0f8c15c18199deef5d8bffb2a2da1cd41c072698714"
+    },
+    {
+      "path": "scripts/verify-native-wheel-bindings.mjs",
+      "sha256": "cc72e142c5d10a11f38edc2b77310d0662ba74643e398e24a5a9e77004e9b7bf"
+    }
+  ],
+  "assets": [
+    {
+      "mode": "production",
+      "path": "public/models/maz543a-blender.glb",
+      "sha256": "4aa0a22875cae080211dcd49e02249c9ff0eb27f385a51246b0ecc79ca379698",
+      "bytes": 20544268,
+      "nodeCount": 371,
+      "stationIdentities": [
+        {
+          "station": 0,
+          "carrier": "wheels_pivot_001",
+          "spin": "wheels_pivot_002",
+          "brake": "brakes_pivot_001",
+          "parents": [
+            "wheels",
+            "wheels_pivot_001",
+            "brakes"
+          ]
+        },
+        {
+          "station": 1,
+          "carrier": "wheels_pivot_008",
+          "spin": "wheels_pivot_009",
+          "brake": "brakes_pivot_002",
+          "parents": [
+            "wheels",
+            "wheels_pivot_008",
+            "brakes"
+          ]
+        },
+        {
+          "station": 2,
+          "carrier": "wheels_pivot_015",
+          "spin": "wheels_pivot_016",
+          "brake": "brakes_pivot_003",
+          "parents": [
+            "wheels",
+            "wheels_pivot_015",
+            "brakes"
+          ]
+        },
+        {
+          "station": 3,
+          "carrier": "wheels_pivot_022",
+          "spin": "wheels_pivot_023",
+          "brake": "brakes_pivot_004",
+          "parents": [
+            "wheels",
+            "wheels_pivot_022",
+            "brakes"
+          ]
+        },
+        {
+          "station": 4,
+          "carrier": "wheels_pivot_029",
+          "spin": "wheels_pivot_030",
+          "brake": "brakes_pivot_005",
+          "parents": [
+            "wheels",
+            "wheels_pivot_029",
+            "brakes"
+          ]
+        },
+        {
+          "station": 5,
+          "carrier": "wheels_pivot_036",
+          "spin": "wheels_pivot_037",
+          "brake": "brakes_pivot_006",
+          "parents": [
+            "wheels",
+            "wheels_pivot_036",
+            "brakes"
+          ]
+        },
+        {
+          "station": 6,
+          "carrier": "wheels_pivot_043",
+          "spin": "wheels_pivot_044",
+          "brake": "brakes_pivot_007",
+          "parents": [
+            "wheels",
+            "wheels_pivot_043",
+            "brakes"
+          ]
+        },
+        {
+          "station": 7,
+          "carrier": "wheels_pivot_050",
+          "spin": "wheels_pivot_051",
+          "brake": "brakes_pivot_008",
+          "parents": [
+            "wheels",
+            "wheels_pivot_050",
+            "brakes"
+          ]
+        }
+      ],
+      "frames": 97,
+      "comparedWorldMatrices": 35987,
+      "maxMatrixError": 0,
+      "maxReorderedError": 0,
+      "oldCompactArrayFailureWitnesses": [
+        {
+          "missingStation": 0,
+          "observedWrongStation": 1,
+          "positionErrorM": 2.3750000000631943
+        },
+        {
+          "missingStation": 3,
+          "observedWrongStation": 4,
+          "positionErrorM": 4.065787131700351
+        }
+      ]
+    },
+    {
+      "mode": "cab-va180-v1",
+      "path": "public/models/review/maz543a-cab-va180-v1.glb",
+      "sha256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e",
+      "bytes": 24743400,
+      "nodeCount": 850,
+      "stationIdentities": [
+        {
+          "station": 0,
+          "carrier": "wheels_pivot_001",
+          "spin": "wheels_pivot_002",
+          "brake": "brakes_pivot_001",
+          "parents": [
+            "wheels",
+            "wheels_pivot_001",
+            "brakes"
+          ]
+        },
+        {
+          "station": 1,
+          "carrier": "wheels_pivot_008",
+          "spin": "wheels_pivot_009",
+          "brake": "brakes_pivot_002",
+          "parents": [
+            "wheels",
+            "wheels_pivot_008",
+            "brakes"
+          ]
+        },
+        {
+          "station": 2,
+          "carrier": "wheels_pivot_015",
+          "spin": "wheels_pivot_016",
+          "brake": "brakes_pivot_003",
+          "parents": [
+            "wheels",
+            "wheels_pivot_015",
+            "brakes"
+          ]
+        },
+        {
+          "station": 3,
+          "carrier": "wheels_pivot_022",
+          "spin": "wheels_pivot_023",
+          "brake": "brakes_pivot_004",
+          "parents": [
+            "wheels",
+            "wheels_pivot_022",
+            "brakes"
+          ]
+        },
+        {
+          "station": 4,
+          "carrier": "wheels_pivot_029",
+          "spin": "wheels_pivot_030",
+          "brake": "brakes_pivot_005",
+          "parents": [
+            "wheels",
+            "wheels_pivot_029",
+            "brakes"
+          ]
+        },
+        {
+          "station": 5,
+          "carrier": "wheels_pivot_036",
+          "spin": "wheels_pivot_037",
+          "brake": "brakes_pivot_006",
+          "parents": [
+            "wheels",
+            "wheels_pivot_036",
+            "brakes"
+          ]
+        },
+        {
+          "station": 6,
+          "carrier": "wheels_pivot_043",
+          "spin": "wheels_pivot_044",
+          "brake": "brakes_pivot_007",
+          "parents": [
+            "wheels",
+            "wheels_pivot_043",
+            "brakes"
+          ]
+        },
+        {
+          "station": 7,
+          "carrier": "wheels_pivot_050",
+          "spin": "wheels_pivot_051",
+          "brake": "brakes_pivot_008",
+          "parents": [
+            "wheels",
+            "wheels_pivot_050",
+            "brakes"
+          ]
+        }
+      ],
+      "frames": 97,
+      "comparedWorldMatrices": 82450,
+      "maxMatrixError": 0,
+      "maxReorderedError": 0,
+      "oldCompactArrayFailureWitnesses": [
+        {
+          "missingStation": 0,
+          "observedWrongStation": 1,
+          "positionErrorM": 2.3750000000631943
+        },
+        {
+          "missingStation": 3,
+          "observedWrongStation": 4,
+          "positionErrorM": 4.065787131700351
+        }
+      ]
+    },
+    {
+      "mode": "cab-va180-axis-v1",
+      "path": "public/models/review/maz543a-cab-va180-v1.glb",
+      "sha256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e",
+      "bytes": 24743400,
+      "nodeCount": 850,
+      "stationIdentities": [
+        {
+          "station": 0,
+          "carrier": "wheels_pivot_001",
+          "spin": "wheels_pivot_002",
+          "brake": "brakes_pivot_001",
+          "parents": [
+            "wheels",
+            "wheels_pivot_001",
+            "brakes"
+          ]
+        },
+        {
+          "station": 1,
+          "carrier": "wheels_pivot_008",
+          "spin": "wheels_pivot_009",
+          "brake": "brakes_pivot_002",
+          "parents": [
+            "wheels",
+            "wheels_pivot_008",
+            "brakes"
+          ]
+        },
+        {
+          "station": 2,
+          "carrier": "wheels_pivot_015",
+          "spin": "wheels_pivot_016",
+          "brake": "brakes_pivot_003",
+          "parents": [
+            "wheels",
+            "wheels_pivot_015",
+            "brakes"
+          ]
+        },
+        {
+          "station": 3,
+          "carrier": "wheels_pivot_022",
+          "spin": "wheels_pivot_023",
+          "brake": "brakes_pivot_004",
+          "parents": [
+            "wheels",
+            "wheels_pivot_022",
+            "brakes"
+          ]
+        },
+        {
+          "station": 4,
+          "carrier": "wheels_pivot_029",
+          "spin": "wheels_pivot_030",
+          "brake": "brakes_pivot_005",
+          "parents": [
+            "wheels",
+            "wheels_pivot_029",
+            "brakes"
+          ]
+        },
+        {
+          "station": 5,
+          "carrier": "wheels_pivot_036",
+          "spin": "wheels_pivot_037",
+          "brake": "brakes_pivot_006",
+          "parents": [
+            "wheels",
+            "wheels_pivot_036",
+            "brakes"
+          ]
+        },
+        {
+          "station": 6,
+          "carrier": "wheels_pivot_043",
+          "spin": "wheels_pivot_044",
+          "brake": "brakes_pivot_007",
+          "parents": [
+            "wheels",
+            "wheels_pivot_043",
+            "brakes"
+          ]
+        },
+        {
+          "station": 7,
+          "carrier": "wheels_pivot_050",
+          "spin": "wheels_pivot_051",
+          "brake": "brakes_pivot_008",
+          "parents": [
+            "wheels",
+            "wheels_pivot_050",
+            "brakes"
+          ]
+        }
+      ],
+      "frames": 97,
+      "comparedWorldMatrices": 82450,
+      "maxMatrixError": 0,
+      "maxReorderedError": 0,
+      "oldCompactArrayFailureWitnesses": [
+        {
+          "missingStation": 0,
+          "observedWrongStation": 1,
+          "positionErrorM": 2.3750000000631943
+        },
+        {
+          "missingStation": 3,
+          "observedWrongStation": 4,
+          "positionErrorM": 4.065787131700351
+        }
+      ]
+    }
+  ],
+  "rejectedCases": 171,
+  "rejections": [
+    {
+      "asset": "production",
+      "test": "missing carrier station 0",
+      "error": "Native wheel binding: missing target wheels_pivot_001"
+    },
+    {
+      "asset": "production",
+      "test": "missing spin station 0",
+      "error": "Native wheel binding: missing target wheels_pivot_002"
+    },
+    {
+      "asset": "production",
+      "test": "missing brake station 0",
+      "error": "Native wheel binding: missing target brakes_pivot_001"
+    },
+    {
+      "asset": "production",
+      "test": "missing carrier station 1",
+      "error": "Native wheel binding: missing target wheels_pivot_008"
+    },
+    {
+      "asset": "production",
+      "test": "missing spin station 1",
+      "error": "Native wheel binding: missing target wheels_pivot_009"
+    },
+    {
+      "asset": "production",
+      "test": "missing brake station 1",
+      "error": "Native wheel binding: missing target brakes_pivot_002"
+    },
+    {
+      "asset": "production",
+      "test": "missing carrier station 2",
+      "error": "Native wheel binding: missing target wheels_pivot_015"
+    },
+    {
+      "asset": "production",
+      "test": "missing spin station 2",
+      "error": "Native wheel binding: missing target wheels_pivot_016"
+    },
+    {
+      "asset": "production",
+      "test": "missing brake station 2",
+      "error": "Native wheel binding: missing target brakes_pivot_003"
+    },
+    {
+      "asset": "production",
+      "test": "missing carrier station 3",
+      "error": "Native wheel binding: missing target wheels_pivot_022"
+    },
+    {
+      "asset": "production",
+      "test": "missing spin station 3",
+      "error": "Native wheel binding: missing target wheels_pivot_023"
+    },
+    {
+      "asset": "production",
+      "test": "missing brake station 3",
+      "error": "Native wheel binding: missing target brakes_pivot_004"
+    },
+    {
+      "asset": "production",
+      "test": "missing carrier station 4",
+      "error": "Native wheel binding: missing target wheels_pivot_029"
+    },
+    {
+      "asset": "production",
+      "test": "missing spin station 4",
+      "error": "Native wheel binding: missing target wheels_pivot_030"
+    },
+    {
+      "asset": "production",
+      "test": "missing brake station 4",
+      "error": "Native wheel binding: missing target brakes_pivot_005"
+    },
+    {
+      "asset": "production",
+      "test": "missing carrier station 5",
+      "error": "Native wheel binding: missing target wheels_pivot_036"
+    },
+    {
+      "asset": "production",
+      "test": "missing spin station 5",
+      "error": "Native wheel binding: missing target wheels_pivot_037"
+    },
+    {
+      "asset": "production",
+      "test": "missing brake station 5",
+      "error": "Native wheel binding: missing target brakes_pivot_006"
+    },
+    {
+      "asset": "production",
+      "test": "missing carrier station 6",
+      "error": "Native wheel binding: missing target wheels_pivot_043"
+    },
+    {
+      "asset": "production",
+      "test": "missing spin station 6",
+      "error": "Native wheel binding: missing target wheels_pivot_044"
+    },
+    {
+      "asset": "production",
+      "test": "missing brake station 6",
+      "error": "Native wheel binding: missing target brakes_pivot_007"
+    },
+    {
+      "asset": "production",
+      "test": "missing carrier station 7",
+      "error": "Native wheel binding: missing target wheels_pivot_050"
+    },
+    {
+      "asset": "production",
+      "test": "missing spin station 7",
+      "error": "Native wheel binding: missing target wheels_pivot_051"
+    },
+    {
+      "asset": "production",
+      "test": "missing brake station 7",
+      "error": "Native wheel binding: missing target brakes_pivot_008"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels",
+      "error": "Native wheel binding: duplicate target wheels"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target brakes",
+      "error": "Native wheel binding: duplicate target brakes"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_001",
+      "error": "Native wheel binding: duplicate target wheels_pivot_001"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_002",
+      "error": "Native wheel binding: duplicate target wheels_pivot_002"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target brakes_pivot_001",
+      "error": "Native wheel binding: duplicate target brakes_pivot_001"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_008",
+      "error": "Native wheel binding: duplicate target wheels_pivot_008"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_009",
+      "error": "Native wheel binding: duplicate target wheels_pivot_009"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target brakes_pivot_002",
+      "error": "Native wheel binding: duplicate target brakes_pivot_002"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_015",
+      "error": "Native wheel binding: duplicate target wheels_pivot_015"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_016",
+      "error": "Native wheel binding: duplicate target wheels_pivot_016"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target brakes_pivot_003",
+      "error": "Native wheel binding: duplicate target brakes_pivot_003"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_022",
+      "error": "Native wheel binding: duplicate target wheels_pivot_022"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_023",
+      "error": "Native wheel binding: duplicate target wheels_pivot_023"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target brakes_pivot_004",
+      "error": "Native wheel binding: duplicate target brakes_pivot_004"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_029",
+      "error": "Native wheel binding: duplicate target wheels_pivot_029"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_030",
+      "error": "Native wheel binding: duplicate target wheels_pivot_030"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target brakes_pivot_005",
+      "error": "Native wheel binding: duplicate target brakes_pivot_005"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_036",
+      "error": "Native wheel binding: duplicate target wheels_pivot_036"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_037",
+      "error": "Native wheel binding: duplicate target wheels_pivot_037"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target brakes_pivot_006",
+      "error": "Native wheel binding: duplicate target brakes_pivot_006"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_043",
+      "error": "Native wheel binding: duplicate target wheels_pivot_043"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_044",
+      "error": "Native wheel binding: duplicate target wheels_pivot_044"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target brakes_pivot_007",
+      "error": "Native wheel binding: duplicate target brakes_pivot_007"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_050",
+      "error": "Native wheel binding: duplicate target wheels_pivot_050"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target wheels_pivot_051",
+      "error": "Native wheel binding: duplicate target wheels_pivot_051"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate target brakes_pivot_008",
+      "error": "Native wheel binding: duplicate target brakes_pivot_008"
+    },
+    {
+      "asset": "production",
+      "test": "missing source station 0",
+      "error": "Native wheel binding: expected 8 source stations, got 7"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate source station 0",
+      "error": "Native wheel binding: duplicate source wheels_pivot_050"
+    },
+    {
+      "asset": "production",
+      "test": "wrong source side station 0",
+      "error": "Native wheel binding: source identity mismatch at station 0"
+    },
+    {
+      "asset": "production",
+      "test": "missing source station 3",
+      "error": "Native wheel binding: expected 8 source stations, got 7"
+    },
+    {
+      "asset": "production",
+      "test": "duplicate source station 3",
+      "error": "Native wheel binding: duplicate source wheels_pivot_050"
+    },
+    {
+      "asset": "production",
+      "test": "wrong source side station 3",
+      "error": "Native wheel binding: source identity mismatch at station 3"
+    },
+    {
+      "asset": "production",
+      "test": "synthetic four-front-joint parent chain",
+      "error": "Native wheel binding: unsupported target parent chain at station 0"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing carrier station 0",
+      "error": "Native wheel binding: missing target wheels_pivot_001"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing spin station 0",
+      "error": "Native wheel binding: missing target wheels_pivot_002"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing brake station 0",
+      "error": "Native wheel binding: missing target brakes_pivot_001"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing carrier station 1",
+      "error": "Native wheel binding: missing target wheels_pivot_008"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing spin station 1",
+      "error": "Native wheel binding: missing target wheels_pivot_009"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing brake station 1",
+      "error": "Native wheel binding: missing target brakes_pivot_002"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing carrier station 2",
+      "error": "Native wheel binding: missing target wheels_pivot_015"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing spin station 2",
+      "error": "Native wheel binding: missing target wheels_pivot_016"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing brake station 2",
+      "error": "Native wheel binding: missing target brakes_pivot_003"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing carrier station 3",
+      "error": "Native wheel binding: missing target wheels_pivot_022"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing spin station 3",
+      "error": "Native wheel binding: missing target wheels_pivot_023"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing brake station 3",
+      "error": "Native wheel binding: missing target brakes_pivot_004"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing carrier station 4",
+      "error": "Native wheel binding: missing target wheels_pivot_029"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing spin station 4",
+      "error": "Native wheel binding: missing target wheels_pivot_030"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing brake station 4",
+      "error": "Native wheel binding: missing target brakes_pivot_005"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing carrier station 5",
+      "error": "Native wheel binding: missing target wheels_pivot_036"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing spin station 5",
+      "error": "Native wheel binding: missing target wheels_pivot_037"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing brake station 5",
+      "error": "Native wheel binding: missing target brakes_pivot_006"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing carrier station 6",
+      "error": "Native wheel binding: missing target wheels_pivot_043"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing spin station 6",
+      "error": "Native wheel binding: missing target wheels_pivot_044"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing brake station 6",
+      "error": "Native wheel binding: missing target brakes_pivot_007"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing carrier station 7",
+      "error": "Native wheel binding: missing target wheels_pivot_050"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing spin station 7",
+      "error": "Native wheel binding: missing target wheels_pivot_051"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing brake station 7",
+      "error": "Native wheel binding: missing target brakes_pivot_008"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels",
+      "error": "Native wheel binding: duplicate target wheels"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target brakes",
+      "error": "Native wheel binding: duplicate target brakes"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_001",
+      "error": "Native wheel binding: duplicate target wheels_pivot_001"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_002",
+      "error": "Native wheel binding: duplicate target wheels_pivot_002"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target brakes_pivot_001",
+      "error": "Native wheel binding: duplicate target brakes_pivot_001"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_008",
+      "error": "Native wheel binding: duplicate target wheels_pivot_008"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_009",
+      "error": "Native wheel binding: duplicate target wheels_pivot_009"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target brakes_pivot_002",
+      "error": "Native wheel binding: duplicate target brakes_pivot_002"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_015",
+      "error": "Native wheel binding: duplicate target wheels_pivot_015"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_016",
+      "error": "Native wheel binding: duplicate target wheels_pivot_016"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target brakes_pivot_003",
+      "error": "Native wheel binding: duplicate target brakes_pivot_003"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_022",
+      "error": "Native wheel binding: duplicate target wheels_pivot_022"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_023",
+      "error": "Native wheel binding: duplicate target wheels_pivot_023"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target brakes_pivot_004",
+      "error": "Native wheel binding: duplicate target brakes_pivot_004"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_029",
+      "error": "Native wheel binding: duplicate target wheels_pivot_029"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_030",
+      "error": "Native wheel binding: duplicate target wheels_pivot_030"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target brakes_pivot_005",
+      "error": "Native wheel binding: duplicate target brakes_pivot_005"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_036",
+      "error": "Native wheel binding: duplicate target wheels_pivot_036"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_037",
+      "error": "Native wheel binding: duplicate target wheels_pivot_037"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target brakes_pivot_006",
+      "error": "Native wheel binding: duplicate target brakes_pivot_006"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_043",
+      "error": "Native wheel binding: duplicate target wheels_pivot_043"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_044",
+      "error": "Native wheel binding: duplicate target wheels_pivot_044"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target brakes_pivot_007",
+      "error": "Native wheel binding: duplicate target brakes_pivot_007"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_050",
+      "error": "Native wheel binding: duplicate target wheels_pivot_050"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target wheels_pivot_051",
+      "error": "Native wheel binding: duplicate target wheels_pivot_051"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate target brakes_pivot_008",
+      "error": "Native wheel binding: duplicate target brakes_pivot_008"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing source station 0",
+      "error": "Native wheel binding: expected 8 source stations, got 7"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate source station 0",
+      "error": "Native wheel binding: duplicate source wheels_pivot_050"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "wrong source side station 0",
+      "error": "Native wheel binding: source identity mismatch at station 0"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "missing source station 3",
+      "error": "Native wheel binding: expected 8 source stations, got 7"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "duplicate source station 3",
+      "error": "Native wheel binding: duplicate source wheels_pivot_050"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "wrong source side station 3",
+      "error": "Native wheel binding: source identity mismatch at station 3"
+    },
+    {
+      "asset": "cab-va180-v1",
+      "test": "synthetic four-front-joint parent chain",
+      "error": "Native wheel binding: unsupported target parent chain at station 0"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing carrier station 0",
+      "error": "Native wheel binding: missing target wheels_pivot_001"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing spin station 0",
+      "error": "Native wheel binding: missing target wheels_pivot_002"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing brake station 0",
+      "error": "Native wheel binding: missing target brakes_pivot_001"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing carrier station 1",
+      "error": "Native wheel binding: missing target wheels_pivot_008"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing spin station 1",
+      "error": "Native wheel binding: missing target wheels_pivot_009"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing brake station 1",
+      "error": "Native wheel binding: missing target brakes_pivot_002"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing carrier station 2",
+      "error": "Native wheel binding: missing target wheels_pivot_015"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing spin station 2",
+      "error": "Native wheel binding: missing target wheels_pivot_016"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing brake station 2",
+      "error": "Native wheel binding: missing target brakes_pivot_003"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing carrier station 3",
+      "error": "Native wheel binding: missing target wheels_pivot_022"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing spin station 3",
+      "error": "Native wheel binding: missing target wheels_pivot_023"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing brake station 3",
+      "error": "Native wheel binding: missing target brakes_pivot_004"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing carrier station 4",
+      "error": "Native wheel binding: missing target wheels_pivot_029"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing spin station 4",
+      "error": "Native wheel binding: missing target wheels_pivot_030"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing brake station 4",
+      "error": "Native wheel binding: missing target brakes_pivot_005"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing carrier station 5",
+      "error": "Native wheel binding: missing target wheels_pivot_036"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing spin station 5",
+      "error": "Native wheel binding: missing target wheels_pivot_037"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing brake station 5",
+      "error": "Native wheel binding: missing target brakes_pivot_006"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing carrier station 6",
+      "error": "Native wheel binding: missing target wheels_pivot_043"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing spin station 6",
+      "error": "Native wheel binding: missing target wheels_pivot_044"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing brake station 6",
+      "error": "Native wheel binding: missing target brakes_pivot_007"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing carrier station 7",
+      "error": "Native wheel binding: missing target wheels_pivot_050"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing spin station 7",
+      "error": "Native wheel binding: missing target wheels_pivot_051"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing brake station 7",
+      "error": "Native wheel binding: missing target brakes_pivot_008"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels",
+      "error": "Native wheel binding: duplicate target wheels"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target brakes",
+      "error": "Native wheel binding: duplicate target brakes"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_001",
+      "error": "Native wheel binding: duplicate target wheels_pivot_001"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_002",
+      "error": "Native wheel binding: duplicate target wheels_pivot_002"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target brakes_pivot_001",
+      "error": "Native wheel binding: duplicate target brakes_pivot_001"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_008",
+      "error": "Native wheel binding: duplicate target wheels_pivot_008"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_009",
+      "error": "Native wheel binding: duplicate target wheels_pivot_009"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target brakes_pivot_002",
+      "error": "Native wheel binding: duplicate target brakes_pivot_002"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_015",
+      "error": "Native wheel binding: duplicate target wheels_pivot_015"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_016",
+      "error": "Native wheel binding: duplicate target wheels_pivot_016"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target brakes_pivot_003",
+      "error": "Native wheel binding: duplicate target brakes_pivot_003"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_022",
+      "error": "Native wheel binding: duplicate target wheels_pivot_022"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_023",
+      "error": "Native wheel binding: duplicate target wheels_pivot_023"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target brakes_pivot_004",
+      "error": "Native wheel binding: duplicate target brakes_pivot_004"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_029",
+      "error": "Native wheel binding: duplicate target wheels_pivot_029"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_030",
+      "error": "Native wheel binding: duplicate target wheels_pivot_030"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target brakes_pivot_005",
+      "error": "Native wheel binding: duplicate target brakes_pivot_005"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_036",
+      "error": "Native wheel binding: duplicate target wheels_pivot_036"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_037",
+      "error": "Native wheel binding: duplicate target wheels_pivot_037"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target brakes_pivot_006",
+      "error": "Native wheel binding: duplicate target brakes_pivot_006"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_043",
+      "error": "Native wheel binding: duplicate target wheels_pivot_043"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_044",
+      "error": "Native wheel binding: duplicate target wheels_pivot_044"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target brakes_pivot_007",
+      "error": "Native wheel binding: duplicate target brakes_pivot_007"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_050",
+      "error": "Native wheel binding: duplicate target wheels_pivot_050"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target wheels_pivot_051",
+      "error": "Native wheel binding: duplicate target wheels_pivot_051"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate target brakes_pivot_008",
+      "error": "Native wheel binding: duplicate target brakes_pivot_008"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing source station 0",
+      "error": "Native wheel binding: expected 8 source stations, got 7"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate source station 0",
+      "error": "Native wheel binding: duplicate source wheels_pivot_050"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "wrong source side station 0",
+      "error": "Native wheel binding: source identity mismatch at station 0"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "missing source station 3",
+      "error": "Native wheel binding: expected 8 source stations, got 7"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "duplicate source station 3",
+      "error": "Native wheel binding: duplicate source wheels_pivot_050"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "wrong source side station 3",
+      "error": "Native wheel binding: source identity mismatch at station 3"
+    },
+    {
+      "asset": "cab-va180-axis-v1",
+      "test": "synthetic four-front-joint parent chain",
+      "error": "Native wheel binding: unsupported target parent chain at station 0"
+    }
+  ],
+  "preflight": "Actual viewport block rejects before renderedRoot assignment or subtree replacement; no binding array is returned on failure.",
+  "failureUI": {
+    "evidence": "Source inspection only; no browser execution.",
+    "mainThread": "No onFatal callback is supplied. Existing onError displays the load error; the generated model.root remains in the scene and animation continues, with nativeLoaded=false and no native onReady. This is the existing provisional model, not an accepted native asset.",
+    "renderWorker": "Worker onFatal sends fatal. renderWorkerClient stops its workers, clears its owned API/canvas and forwards onError; no automatic main-thread retry for this asynchronous fatal. The synchronous worker-start fallback is a different existing path."
+  },
+  "limits": [
+    "Node transform graph/data test with actual createMAZ543, model.update and viewport pose statements. No GLTFLoader, Draco mesh decoding, browser, GPU or rendering.",
+    "Only production 4aa0a228 and cab VA180 fde04e48 asset bytes checked; older review assets not materialized here.",
+    "New joint-parent candidate is not integrated or activated. Export selection, suspension merge, candidate pose binding, native timeline, contacts and steering qualification remain open.",
+    "No geometry, acceptance thresholds, asset selector or asset bytes changed. All 16 whole-vehicle gates remain OPEN."
+  ]
+}

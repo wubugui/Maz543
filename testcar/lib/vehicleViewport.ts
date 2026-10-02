@@ -1,5 +1,6 @@
 import * as T from 'three';
 import {selectReviewVehicleAsset,reviewCandidateMetadata,applyReviewNativePoseOffset} from '@/lib/reviewVehicleAsset';
+import {bindLegacyWheelStations,type LegacyWheelBinding} from '@/lib/nativeWheelBindings';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -120,7 +121,7 @@ export function createVehicleViewport({host,latest,selection,callbacks,api,simul
     const coolingSprings:{mesh:T.Mesh;pitch:number;radius:number}[]=[];
     const startingNodes=new Map<string,T.Object3D>();let startingRoot:T.Group|null=null,startEngine:T.Group|null=null,preoilRoot:T.Object3D|undefined;
     const torsionMeshes:{mesh:T.Mesh;base:Float32Array;normal:Float32Array;tangent?:Float32Array;lastAngle?:number}[]=[];
-    const wheelBindings:{carrier:T.Object3D;brake?:T.Object3D;source:T.Group}[]=[];
+    let wheelBindings:readonly LegacyWheelBinding[]=[];
     const draco=protectDracoLifetime(new DRACOLoader()).loader;draco.setDecoderPath('/draco/');draco.setWorkerLimit(2);const loader=new GLTFLoader();loader.setDRACOLoader(draco);
     const resourceCensus=process.env.NODE_ENV==='development'&&new URLSearchParams(window.location.search).get('resource-census')==='1';
     const assetResources=new RenderResources(resourceCensus?new Map():undefined);
@@ -130,7 +131,10 @@ export function createVehicleViewport({host,latest,selection,callbacks,api,simul
     Promise.all([loadNative(reviewAsset.url),loadNative('/models/d12a525a-engine.glb?v=water-1'),loadNative('/models/maz543a-suspension.glb?v=s543-1'),loadNative('/models/maz543a-starting.glb?v=start-4'),loadNative('/models/maz543a-cooling.glb?v=spring-round-wire-20260908'),loadNative('/models/maz543a-cardan.glb?v=cardan-2'),loadNative('/models/maz543a-transmission.glb?v=transmission-spring-counts-20260908')]).then(([gltf,engineGltf,suspensionGltf,startingGltf,coolingGltf,cardanGltf,transmissionGltf])=>{
       if(disposed)return;
       draco.dispose(); // All seven native decodes finished; release idle workers.
-      renderedRoot=(gltf.scene.getObjectByName('MAZ543_REFERENCE_CHASSIS')||gltf.scene) as T.Group;
+      const nativeRoot=(gltf.scene.getObjectByName('MAZ543_REFERENCE_CHASSIS')||gltf.scene) as T.Group;
+      // Reject incomplete or reparented wheels before replacing any native subtree.
+      const nativeWheelBindings=bindLegacyWheelStations(nativeRoot,model.wheels);
+      renderedRoot=nativeRoot;
       if(reviewAsset.kind!=='production')renderedRoot.userData.reviewCandidate=reviewCandidateMetadata(reviewAsset);
       driveHolder=renderedRoot.getObjectByName('drive');
       if(!driveHolder)throw new Error('Missing transmission mounting assembly');
@@ -178,7 +182,7 @@ export function createVehicleViewport({host,latest,selection,callbacks,api,simul
       suspensionRoot.traverse(o=>{suspensionNodes.set(o.name,o);if(o instanceof T.Mesh&&o.userData.s543Role==='torsion'){
         o.geometry=o.geometry.clone();const a=o.geometry.getAttribute('position'),n=o.geometry.getAttribute('normal'),t=o.geometry.getAttribute('tangent');torsionMeshes.push({mesh:o,base:new Float32Array(a.array),normal:new Float32Array(n.array),tangent:t?new Float32Array(t.array):undefined});
       }});
-      for(const w of model.wheels){const carrier=renderedRoot.getObjectByName(w.carrier.name);if(carrier)wheelBindings.push({carrier,brake:renderedRoot.getObjectByName(w.brake.name),source:w.carrier});}
+      wheelBindings=nativeWheelBindings;
       scene.remove(model.root);scene.add(renderedRoot);exportMaterials=new Map();
       renderedRoot.traverse(o=>{const source=model.root.getObjectByName(o.name);if(source&&!o.userData.coolingLegacyAux)bindings.push({source,target:o});if(o instanceof T.Mesh){o.castShadow=true;o.receiveShadow=true;nativeMeshes.push(o);exportMaterials.set(o.name,o.material as T.Material);
         if(o.userData.surface==='exterior'||model.ghostNames.has(o.name)||/BL_.*(?:Tyre|Rim|Hub|Wheel|Merged_wheels)/.test(o.name)||o.userData.s543Role==='cover')nativeGhost.add(o);
@@ -475,7 +479,7 @@ export function createVehicleViewport({host,latest,selection,callbacks,api,simul
       if(flywheelRing)flywheelRing.visible=!(latest.current.focus==='starting'&&latest.current.startingComponent==='starter'&&latest.current.startingView==='assembled');
       const suspension=suspensionPose(t.suspension.travel);
       for(const [name,pose] of Object.entries(suspension)){const joint=suspensionNodes.get(name);if(joint){joint.position.set(...pose.p);joint.rotation.set(pose.rx,0,0);}}
-      wheelBindings.forEach(({carrier,brake,source},i)=>{const p=suspension[`S543_${i}_wheel`],side=i%2?1:-1;
+      wheelBindings.forEach(({station,carrier,brake,source})=>{const p=suspension[`S543_${station}_wheel`],side=station%2?1:-1;
         carrier.position.set(...p.p);carrier.position.z+=side*latest.current.explode/100*1.5;
         carrier.rotation.set(p.rx,source.rotation.y,0,'XYZ');
         if(brake){brake.position.copy(carrier.position).add(new T.Vector3(0,0,-side*.29).applyQuaternion(carrier.quaternion));brake.quaternion.copy(carrier.quaternion);}

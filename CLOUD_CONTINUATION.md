@@ -1,6 +1,6 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-02 08:17 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-02 08:37 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
@@ -30,8 +30,8 @@
 `testcar/docs/ACCEPTANCE.md`、`testcar/MIGRATION_HANDOFF.md`。
 
 - 独立开发分支：`development/cloud-maz543a-20260930`
-- 最近已核实发布的HEAD：`954b9c4eca16707071806ba5ef8c47596b03f323`（胎字只读证据21文本已实读，阶段报告已交付核回；Git模型实体仍cc47bf6）
-- 该提交根树：`500585a572c108472671496ba70883a64fcaebb6`
+- 最近已核实发布的HEAD：`3a7bd1322b6b72f3d8168ab16c935cdc55b5035f`（胎字放大图重放22文本已实读，实图已交付并逐像素核回；Git模型实体仍cc47bf6）
+- 该提交根树：`508a266130aaacc7fcb7239e022ec948cfe02407`
 - 插件原生Git对象发布后远端ref/tree/parent及文件字节已核实，本地分支已对齐
 - 原迁移分支保持：`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`
 - `migration/cloud-handoff/DELIVERY_STATE.json`确认完整快照，无待迁移文件；
@@ -86,6 +86,33 @@
 | 对应Textured候选 | `testcar/outputs/cloud-va180-textured-20261001/MAZ543A_Textured.blend`；`6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266` |
 | 开发专用GLB候选 | `testcar/public/models/review/maz543a-cab-va180-v1.glb`；`fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e` |
 | 独立TEM15前脸iteration02 | `testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/study.blend`；`a65ec84c7a03de257ad5971b9675bd4d83c5515a6429875e6d02418c760b3def` |
+
+## 2026-10-02 08:37 UTC：修复网页缺轮时的轮站错配
+
+- 原viewport跳过缺少的carrier后，把压缩数组序号当作原轮站：真实生产和cab候选
+  GLB节点图中移除首站，下一站位置错2.375m；移除站3，站4位置错4.065787m。
+  这是缺失部件条件下实际旧循环的错误，不是现有完整资产已经缺轮。
+- 新`lib/nativeWheelBindings.ts`按8站原carrier/spin/brake身份完整核对，明确保存
+  station；缺件、重名、错误source侧或非旧父链在任何native树替换之前抛出。
+  `vehicleViewport.ts`已实际接入，逐帧使用station而非数组位置；正常旧父链保持
+  原位置/旋转公式。尚未适配的新joint父链被明确拒绝，不能再先清空suspension
+  然后错误挂接。没有启用虚构候选入口，也没有改变当前模型实体。
+- 真实生产4aa0a228（371节点）、cab fde04（850节点）和相同fde04的axis模式，
+  各97帧共200887次世界矩阵逐系数比较，与旧循环正常行为差0；source数组和binding
+  数组分别重排仍差0。171个缺件/重名/错误侧/新父链负控全拒绝，失败前原target树
+  parent/TRS和renderedRoot未改。包含原故障见证，未解Draco或模拟浏览器截图。
+- CPU2有界JS检查4.184秒、完整tsc 2.723秒、聚焦lint 0.917秒、前端build 20.338秒，
+  全部exit0且未超时；构建仍有原环境代理提示、插件耗时及大chunk提示，原日志保留。
+  这是代码/节点数据验证，未运行浏览器/GLTFLoader/GPU，不称网页验收。
+- 实际故障路径继续用已有回调：主线程仅onError，原生成模型仍显示并动画，
+  nativeLoaded=false且不发native ready；worker异步fatal停止两个worker并清理
+  API/canvas，不自动回退主线程。本项没有改该产品流程。
+- `testcar/work/cloud-wheel-binding-20261002/`保留检查报告、历史两模式记录和
+  最终三模式记录、CPU限制/终态、构建/类型/lint原日志；验证脚本在
+  `scripts/verify-native-wheel-bindings.mjs`。旧review入口只保留已有证据边界。
+- 下一项真实Textured轮组只读身份检查：其72前字模来自原生evaluated mesh快照，
+  现有保存清单无source FONT/原profile，不能直接照搬Master的72 Apply。将核实际6e
+  数据与依赖后再决定父链移植；原厂外倾、转向/CV、连续净空及16项整车门仍OPEN。
 
 ## 2026-10-02 08:17 UTC：原生胎字放大观察完成
 
