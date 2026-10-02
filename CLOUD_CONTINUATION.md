@@ -1,9 +1,29 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-02 23:00 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-02 23:23 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
+
+## 2026-10-02 23:23 UTC：当前Textured四门是20合并MESH，整合控制须按真实表示
+
+- 前项最终65f19caa0d21ee9d0e7e40bf0d571bd01c0c9a87全部插件外存/独立字节
+  核回，阶段报告已交付。下一目标是把已验证的门轴控制整合到当前48dbc498
+  Textured前轮源，形成一个可用候选并保已修轮链，不平行再建独立整车源。
+- 仅读已保存native库存/图、旧scope和GLB JSON：四pivot仍EMPTY/QUATERNION、
+  cab→root父链，basis与旧scope精确同。原生采集代码只在AnimData不存在时
+  写空的slot/blend/influence；四门均为空，故当时没有旧方案16原生drivers。
+  custom/UI、constraint细节仍需fresh实读，不能从GLB缺driver推断原生状态。
+- 当前每门handle/lock/window及绿色/橡胶合并网格5个MESH，共20；旧44名仅
+  12名保留，32名含所有独立barrel已被合并，不是丢件。原生join代码、计数及
+  detail_meshes支持绿色=fasteners+3barrel+shell、橡胶=gap+recess+seal，尚未
+  证明当前逐组件几何/三铰轴，禁止恢复44对象或只换旧脚本source SHA。
+- cloud-textured-door-controls-20261002保存可重放静态摘要/12输入SHA和说明；
+  CPU2纯读0.715298秒exit0，所有输入保持，无Blender、源编辑或新几何实验。
+  本项先插件完整发布核回，再准备一次当前20件/4pivot/祖先的窄fresh intake，
+  从当前合并几何唯一识别三barrel和实测轴，不预设旧70.342mm仍成立。
+- 保当前20件材质合并/闭门、8522原对象父边矩阵、552原action及前轮链；若
+  已有同效控制/属性冲突/组件歧义就先拒绝新增。六旧接触与16整车门仍OPEN。
 
 ## 2026-10-02 23:00 UTC：法线三段旁路分类已实际完成，幅值与方向不混淆
 

@@ -1,0 +1,853 @@
+{
+  "status": "SAVED_DATA_SCOPE_ESTABLISHED_NOT_FRESH_NATIVE_INTAKE",
+  "source_sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea",
+  "input_records_before": [
+    {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+      "bytes": 134267928,
+      "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/object-inventory.json",
+      "bytes": 10668164,
+      "sha256": "20949fbc0afcef80c09f1110842fc4bd48a15f910e6a90835a8727a8d3ce2852"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/native-graph.json",
+      "bytes": 8896553,
+      "sha256": "967b4614dce61f1993146bd4ede94ea27d31302f70a46af6ccc92b8ecd45bdbc"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/native-report.json",
+      "bytes": 14488,
+      "sha256": "e5055c57289713f28659a5389675fd06d95c62816f6d8cc246619993fade4432"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/stations.json",
+      "bytes": 174735,
+      "sha256": "a6143bf3bffa39ab5cc1d4c5f93f8ce3b2bac95a7f5c96ce49e4346f20ffb314"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py",
+      "bytes": 20542,
+      "sha256": "dce897392d380b8f08295262dd8b5daa7c06bab0c01c3ff61ec9ae17645c80f3"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json",
+      "bytes": 4878654,
+      "sha256": "32901de5c6e092bada794ff49e5f469f61e3fbe1955d7f3f921025016b288b53"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-cab-door-dependencies-20261001/inventory.json",
+      "bytes": 243901,
+      "sha256": "40e771f244ef6a49f90699f3e60c0e01c6a7885baaea77852fac7d75c891a570"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/blender-export.py",
+      "bytes": 12502,
+      "sha256": "d75ef7dce7c23567f5df57206d386677d96975204be371667959522a9eef8a9e"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/summarize_saved_doors.py",
+      "bytes": 7646,
+      "sha256": "e65aae551acf38d878b1850281a5d2f9bbe432a76417f453b4a2970792d6244f"
+    }
+  ],
+  "input_records_after": [
+    {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+      "bytes": 134267928,
+      "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/object-inventory.json",
+      "bytes": 10668164,
+      "sha256": "20949fbc0afcef80c09f1110842fc4bd48a15f910e6a90835a8727a8d3ce2852"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/native-graph.json",
+      "bytes": 8896553,
+      "sha256": "967b4614dce61f1993146bd4ede94ea27d31302f70a46af6ccc92b8ecd45bdbc"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/native-report.json",
+      "bytes": 14488,
+      "sha256": "e5055c57289713f28659a5389675fd06d95c62816f6d8cc246619993fade4432"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/stations.json",
+      "bytes": 174735,
+      "sha256": "a6143bf3bffa39ab5cc1d4c5f93f8ce3b2bac95a7f5c96ce49e4346f20ffb314"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py",
+      "bytes": 20542,
+      "sha256": "dce897392d380b8f08295262dd8b5daa7c06bab0c01c3ff61ec9ae17645c80f3"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json",
+      "bytes": 4878654,
+      "sha256": "32901de5c6e092bada794ff49e5f469f61e3fbe1955d7f3f921025016b288b53"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-cab-door-dependencies-20261001/inventory.json",
+      "bytes": 243901,
+      "sha256": "40e771f244ef6a49f90699f3e60c0e01c6a7885baaea77852fac7d75c891a570"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/blender-export.py",
+      "bytes": 12502,
+      "sha256": "d75ef7dce7c23567f5df57206d386677d96975204be371667959522a9eef8a9e"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/summarize_saved_doors.py",
+      "bytes": 7646,
+      "sha256": "e65aae551acf38d878b1850281a5d2f9bbe432a76417f453b4a2970792d6244f"
+    }
+  ],
+  "inputs_unchanged": true,
+  "objects_current_door_geometry": 20,
+  "old_names_present": 12,
+  "native_animdata_inference": {
+    "code": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py",
+    "lines": "81,96-100",
+    "rule": "action_slot_handle/action_blend_type/action_influence are None only when ad=obj.animation_data is absent",
+    "finding": "The four pivots had no AnimData in this source-bound native snapshot; the previous 16-driver control is not installed",
+    "limit": "No fresh native execution here; custom/UI, constraints and component geometry must still be read before mutation"
+  },
+  "doors": [
+    {
+      "hinge": "cab_pivot_002",
+      "source_side": -1,
+      "door_index": 0,
+      "saved_inventory": {
+        "type": "EMPTY",
+        "parent": "cab",
+        "rotation_mode": "QUATERNION",
+        "action": null,
+        "action_slot_handle": null,
+        "action_blend_type": null,
+        "action_influence": null
+      },
+      "saved_graph": {
+        "ancestors": [
+          "cab",
+          "MAZ543_REFERENCE_CHASSIS"
+        ],
+        "children": [
+          "BL_Door_-1_0_handle",
+          "BL_Door_-1_0_lock",
+          "BL_Door_-1_0_window",
+          "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+          "BL_Merged_cab_pivot_002_Rubber_window_seals"
+        ],
+        "matrix_basis_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.909999847412109
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_local_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.909999847412109
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.909999847412109
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "current_children": [
+        "BL_Door_-1_0_handle",
+        "BL_Door_-1_0_lock",
+        "BL_Door_-1_0_window",
+        "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+        "BL_Merged_cab_pivot_002_Rubber_window_seals"
+      ],
+      "old44_names_still_present": [
+        "BL_Door_-1_0_handle",
+        "BL_Door_-1_0_lock",
+        "BL_Door_-1_0_window"
+      ],
+      "merged_group_evidence": [
+        {
+          "current_object": "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+          "old_components_supported_by_counts_and_join_code": [
+            "BL_Door_-1_0_fasteners",
+            "BL_Door_-1_0_hinge_1.47",
+            "BL_Door_-1_0_hinge_1.94",
+            "BL_Door_-1_0_hinge_2.38",
+            "BL_Door_-1_0_pressed_shell"
+          ],
+          "counts": {
+            "vertices": 2688,
+            "triangles": 4804
+          },
+          "detail_meshes": 5,
+          "geometric_component_correspondence": "NOT_YET_MEASURED"
+        },
+        {
+          "current_object": "BL_Merged_cab_pivot_002_Rubber_window_seals",
+          "old_components_supported_by_counts_and_join_code": [
+            "BL_Door_-1_0_gap",
+            "BL_Door_-1_0_handle_recess",
+            "BL_Door_-1_0_rubber_seal"
+          ],
+          "counts": {
+            "vertices": 1472,
+            "triangles": 2940
+          },
+          "detail_meshes": 3,
+          "geometric_component_correspondence": "NOT_YET_MEASURED"
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_003",
+      "source_side": -1,
+      "door_index": 1,
+      "saved_inventory": {
+        "type": "EMPTY",
+        "parent": "cab",
+        "rotation_mode": "QUATERNION",
+        "action": null,
+        "action_slot_handle": null,
+        "action_blend_type": null,
+        "action_influence": null
+      },
+      "saved_graph": {
+        "ancestors": [
+          "cab",
+          "MAZ543_REFERENCE_CHASSIS"
+        ],
+        "children": [
+          "BL_Door_-1_1_handle",
+          "BL_Door_-1_1_lock",
+          "BL_Door_-1_1_window",
+          "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+          "BL_Merged_cab_pivot_003_Rubber_window_seals"
+        ],
+        "matrix_basis_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -3.9600000381469727
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_local_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -3.9600000381469727
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -3.9600000381469727
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "current_children": [
+        "BL_Door_-1_1_handle",
+        "BL_Door_-1_1_lock",
+        "BL_Door_-1_1_window",
+        "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+        "BL_Merged_cab_pivot_003_Rubber_window_seals"
+      ],
+      "old44_names_still_present": [
+        "BL_Door_-1_1_handle",
+        "BL_Door_-1_1_lock",
+        "BL_Door_-1_1_window"
+      ],
+      "merged_group_evidence": [
+        {
+          "current_object": "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+          "old_components_supported_by_counts_and_join_code": [
+            "BL_Door_-1_1_fasteners",
+            "BL_Door_-1_1_hinge_1.47",
+            "BL_Door_-1_1_hinge_1.94",
+            "BL_Door_-1_1_hinge_2.38",
+            "BL_Door_-1_1_pressed_shell"
+          ],
+          "counts": {
+            "vertices": 2712,
+            "triangles": 4842
+          },
+          "detail_meshes": 5,
+          "geometric_component_correspondence": "NOT_YET_MEASURED"
+        },
+        {
+          "current_object": "BL_Merged_cab_pivot_003_Rubber_window_seals",
+          "old_components_supported_by_counts_and_join_code": [
+            "BL_Door_-1_1_gap",
+            "BL_Door_-1_1_handle_recess",
+            "BL_Door_-1_1_rubber_seal"
+          ],
+          "counts": {
+            "vertices": 1472,
+            "triangles": 2940
+          },
+          "detail_meshes": 3,
+          "geometric_component_correspondence": "NOT_YET_MEASURED"
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_006",
+      "source_side": 1,
+      "door_index": 0,
+      "saved_inventory": {
+        "type": "EMPTY",
+        "parent": "cab",
+        "rotation_mode": "QUATERNION",
+        "action": null,
+        "action_slot_handle": null,
+        "action_blend_type": null,
+        "action_influence": null
+      },
+      "saved_graph": {
+        "ancestors": [
+          "cab",
+          "MAZ543_REFERENCE_CHASSIS"
+        ],
+        "children": [
+          "BL_Door_1_0_handle",
+          "BL_Door_1_0_lock",
+          "BL_Door_1_0_window",
+          "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+          "BL_Merged_cab_pivot_006_Rubber_window_seals"
+        ],
+        "matrix_basis_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.909999847412109
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_local_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.909999847412109
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -4.909999847412109
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "current_children": [
+        "BL_Door_1_0_handle",
+        "BL_Door_1_0_lock",
+        "BL_Door_1_0_window",
+        "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+        "BL_Merged_cab_pivot_006_Rubber_window_seals"
+      ],
+      "old44_names_still_present": [
+        "BL_Door_1_0_handle",
+        "BL_Door_1_0_lock",
+        "BL_Door_1_0_window"
+      ],
+      "merged_group_evidence": [
+        {
+          "current_object": "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+          "old_components_supported_by_counts_and_join_code": [
+            "BL_Door_1_0_fasteners",
+            "BL_Door_1_0_hinge_1.47",
+            "BL_Door_1_0_hinge_1.94",
+            "BL_Door_1_0_hinge_2.38",
+            "BL_Door_1_0_pressed_shell"
+          ],
+          "counts": {
+            "vertices": 2688,
+            "triangles": 4804
+          },
+          "detail_meshes": 5,
+          "geometric_component_correspondence": "NOT_YET_MEASURED"
+        },
+        {
+          "current_object": "BL_Merged_cab_pivot_006_Rubber_window_seals",
+          "old_components_supported_by_counts_and_join_code": [
+            "BL_Door_1_0_gap",
+            "BL_Door_1_0_handle_recess",
+            "BL_Door_1_0_rubber_seal"
+          ],
+          "counts": {
+            "vertices": 1472,
+            "triangles": 2940
+          },
+          "detail_meshes": 3,
+          "geometric_component_correspondence": "NOT_YET_MEASURED"
+        }
+      ]
+    },
+    {
+      "hinge": "cab_pivot_007",
+      "source_side": 1,
+      "door_index": 1,
+      "saved_inventory": {
+        "type": "EMPTY",
+        "parent": "cab",
+        "rotation_mode": "QUATERNION",
+        "action": null,
+        "action_slot_handle": null,
+        "action_blend_type": null,
+        "action_influence": null
+      },
+      "saved_graph": {
+        "ancestors": [
+          "cab",
+          "MAZ543_REFERENCE_CHASSIS"
+        ],
+        "children": [
+          "BL_Door_1_1_handle",
+          "BL_Door_1_1_lock",
+          "BL_Door_1_1_window",
+          "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+          "BL_Merged_cab_pivot_007_Rubber_window_seals"
+        ],
+        "matrix_basis_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -3.9600000381469727
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_local_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -3.9600000381469727
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_world_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -3.9600000381469727
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            -1.4800000190734863
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            1.4700000286102295
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "matrix_parent_inverse_rows": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "current_children": [
+        "BL_Door_1_1_handle",
+        "BL_Door_1_1_lock",
+        "BL_Door_1_1_window",
+        "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+        "BL_Merged_cab_pivot_007_Rubber_window_seals"
+      ],
+      "old44_names_still_present": [
+        "BL_Door_1_1_handle",
+        "BL_Door_1_1_lock",
+        "BL_Door_1_1_window"
+      ],
+      "merged_group_evidence": [
+        {
+          "current_object": "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+          "old_components_supported_by_counts_and_join_code": [
+            "BL_Door_1_1_fasteners",
+            "BL_Door_1_1_hinge_1.47",
+            "BL_Door_1_1_hinge_1.94",
+            "BL_Door_1_1_hinge_2.38",
+            "BL_Door_1_1_pressed_shell"
+          ],
+          "counts": {
+            "vertices": 2712,
+            "triangles": 4842
+          },
+          "detail_meshes": 5,
+          "geometric_component_correspondence": "NOT_YET_MEASURED"
+        },
+        {
+          "current_object": "BL_Merged_cab_pivot_007_Rubber_window_seals",
+          "old_components_supported_by_counts_and_join_code": [
+            "BL_Door_1_1_gap",
+            "BL_Door_1_1_handle_recess",
+            "BL_Door_1_1_rubber_seal"
+          ],
+          "counts": {
+            "vertices": 1472,
+            "triangles": 2940
+          },
+          "detail_meshes": 3,
+          "geometric_component_correspondence": "NOT_YET_MEASURED"
+        }
+      ]
+    }
+  ],
+  "next_scope": [
+    "Read current four pivots and cab/root control/ancestor state without advancing frame",
+    "Read current20 mesh identities, raw attributes/materials and closed geometry; retain merged representation",
+    "Uniquely identify three barrel components in each green mesh from its actual topology/geometry; do not assume old axis or raw48 topology",
+    "Preserve all8522 object names/parents/matrices, all552 original actions and current front-wheel bindings",
+    "If identities/axes/dependencies conflict or are ambiguous, stop before adding controls"
+  ],
+  "limits": [
+    "Counts, names and join provenance do not prove individual merged component correspondence",
+    "No source edit, Blender, export, render, movement, geometry reconstruction or OEM axis claim",
+    "Old six closed contacts remain OPEN; all16 vehicle gates remain OPEN",
+    "Use current measured axes for any later native controls; never only replace the old script source SHA"
+  ]
+}
