@@ -1,0 +1,71 @@
+{
+  "status": "REMOTE_NATIVE_SOURCE_DELIVERY_VERIFIED",
+  "verified_publication_commit": "9816a3306eda83ef73165ae54e15dcd52239abbd",
+  "verified_tree": "c4f78b9e624959d5e86ae91856278c6637c0629b",
+  "representation": "128 ordered raw binary Git parts; exact original editable .blend restored",
+  "bytes": 100052636,
+  "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea",
+  "parts": 128,
+  "remote_fresh_bare_files_verified": 167,
+  "remote_bytes_verified": 101791267,
+  "restore_tool_exit_code": 0,
+  "evidence_package_restore_exit_code": 0,
+  "evidence_original_text_records": 42,
+  "evidence_original_text_bytes": 2647291,
+  "actual_native_exit_code": 0,
+  "native_elapsed_seconds": 14.013130958002876,
+  "original_cloud_candidate_not_used_by_native_verifier": true,
+  "native_source_saved_or_modified": false,
+  "rendered": false,
+  "all16_vehicle_gates": "OPEN",
+  "direct_single_blend_git_blob_uploaded": false,
+  "upload_transport": "GitHub plugin only",
+  "remote_read_transport": "public unauthenticated read-only Git, fresh empty bare without alternates",
+  "evidence_files": [
+    {
+      "path": "fetch.stderr",
+      "bytes": 12731,
+      "sha256": "6538c7a48605b633ac45e5903c71f932c801405b2b8fbc3507d29bf4faedb77f"
+    },
+    {
+      "path": "fetch.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "native-launch.json",
+      "bytes": 10805,
+      "sha256": "d59383d92ed375683f4b66afadc308524a35a8519befffdd4de63bf376d1854b"
+    },
+    {
+      "path": "native-native-report.json",
+      "bytes": 698,
+      "sha256": "13d4fa276389f92b8733cdc398892cf5e3a6b626a4706db0cfd2658632a233f0"
+    },
+    {
+      "path": "native-process.json",
+      "bytes": 20450,
+      "sha256": "dfefb19f32624da261ba9ed6a60b13f7cd1c8d539f9e46a13c9bc84249a76b1d"
+    },
+    {
+      "path": "native-run.log",
+      "bytes": 260,
+      "sha256": "4602c723a53c7946df5031ae92fec051358776da342ba3fd69971830cad138d2"
+    },
+    {
+      "path": "remote-bytes-report.json",
+      "bytes": 50885,
+      "sha256": "02d863db243ceea4c329ec9a596ee551a6f94f2be1c9ab8e372179044bffcd86"
+    },
+    {
+      "path": "remote-inventory.json",
+      "bytes": 50654,
+      "sha256": "31b12b49a80b143edb9d96357a83f6dc8018e14c73f9d97d21faba119dbdbc01"
+    },
+    {
+      "path": "verify-canonical-remote.py",
+      "bytes": 3670,
+      "sha256": "b9d8b841535c579331843a80bc7bacc6c7e6ffb1dd2e3c658d820ca458b9be74"
+    }
+  ]
+}

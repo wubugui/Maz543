@@ -1287,12 +1287,14 @@
   "upload_method": "GitHub plugin create_blob encoding=base64",
   "stored_representation": "ordered original raw binary bytes, not encoded text",
   "limited_upload_concurrency": 3,
-  "remote_complete_recovery_pending": true,
+  "remote_complete_recovery_pending": false,
   "transport_recovery": {
     "part": 44,
     "initial_error": "RemoteProtocolError: Server disconnected without sending a response.",
     "initial_call_terminal": true,
     "expected_blob_read_after_error": "404 NOT_FOUND",
     "same_payload_retry": "returned expected blob SHA"
-  }
+  },
+  "complete_remote_recovery_verified_at": "9816a3306eda83ef73165ae54e15dcd52239abbd",
+  "native_fresh_open_passed": true
 }

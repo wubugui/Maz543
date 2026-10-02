@@ -1,0 +1,1178 @@
+{
+  "parent": "6e5203e0a1f382753191f94179ee9bbc3d663d02",
+  "local_head": "56c4e87737dd6aff772883d95f0bbaaca1086d32",
+  "tree": "c4f78b9e624959d5e86ae91856278c6637c0629b",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 19780,
+      "sha256": "54866ab564dc3f5a8f0d98c940ed852903cb8f593cfed30d4d0de93823027031",
+      "git_blob_sha1": "ad3448ae3e59ea7e6caff09909fc9fa568813876",
+      "binary": false
+    },
+    {
+      "path": "CLOUD_CONTINUATION.md",
+      "bytes": 156614,
+      "sha256": "93872b85a3b6664f0a89054c16eab736b8745c1d8a6c32ef4416dc5ec8eed99b",
+      "git_blob_sha1": "74a375fd47a4eebd7f21844f804edf4ce4080221",
+      "binary": false
+    },
+    {
+      "path": "testcar/docs/PLUGIN_ENTITY_UPLOAD_20261002.md",
+      "bytes": 5389,
+      "sha256": "8043daa2932593edfd966feb1695955f6e6efebf8778a508a15a1c2d2bc0c0b7",
+      "git_blob_sha1": "884f945512fb808f8a09991bcba3eebc6d003b52",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/README.md",
+      "bytes": 2921,
+      "sha256": "bdd25155323496764e9885bca46606550eaf84f3dbb7679797123bfe9fd4e94c",
+      "git_blob_sha1": "33abddf3a0a614d5cdf50bad6571afc4c899cfb6",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/manifest.json",
+      "bytes": 35816,
+      "sha256": "7f0a0be4794bdca9c38e56ed7dc1d3f7021c729cb7cdb226dc87f3330008f1bc",
+      "git_blob_sha1": "080df4dc9c4ad86150c15c3e0bbcfcce182cdc59",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/part-upload-verification.json",
+      "bytes": 49330,
+      "sha256": "511ace2672a06b9d709b05623ff52b4ddd8969e460abc1e2dce3754ed162184a",
+      "git_blob_sha1": "ab47db734fec217fd5ddd5e96224c4707cb5e0e9",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/restore-integrity-controls.json",
+      "bytes": 480,
+      "sha256": "1cdb8f08000cc4d93efc551156a498a16eda587fe9fdb02abe471a7f35605a1f",
+      "git_blob_sha1": "eb6b16460338853ca36401ed2241c2e7987050ad",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/restore_native.py",
+      "bytes": 4544,
+      "sha256": "9d7e99509f1da596d1e32f3a3588e7fab9669142bc6b3aa50cdaf6329a48cd19",
+      "git_blob_sha1": "0b2c4d05d8ceafde0ce2659698680cfb52dce835",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/run_restored_verification.py",
+      "bytes": 4056,
+      "sha256": "99e66b069dde31e3c69ff13bd897e57155a4649acd90473c91ea0403abbd2453",
+      "git_blob_sha1": "81860dac89d2150ce25975d7e09a2efa46c670d1",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-000.bin",
+      "bytes": 786432,
+      "sha256": "c9e57d5cc8e337697974253987f60ac5857dfc0c6a36cb3d6ed5ae8586691baa",
+      "git_blob_sha1": "27f83ac2c94a8d2099b362ffc19db957c8006ecd",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-001.bin",
+      "bytes": 786432,
+      "sha256": "d60cf83deb1ceb3b735eabacc5e0f3c5f649a8961e5cff677730ae47a82e845f",
+      "git_blob_sha1": "48f22b7b2c632065f1785b9209a79c75df17750f",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-002.bin",
+      "bytes": 786432,
+      "sha256": "d95a7ab32cae83d9e150c7c567a11151676dc28e3aadd8ff68612356779a2aab",
+      "git_blob_sha1": "f3dbd321a90fc8cbb58348bbf0211cbd35f13916",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-003.bin",
+      "bytes": 786432,
+      "sha256": "085d2b11b28601fbc89d559e49814fb83362624b6fd7fa82b906a530732faa34",
+      "git_blob_sha1": "34a05c887228293da76b06697d4188910a660031",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-004.bin",
+      "bytes": 786432,
+      "sha256": "5b8c2486069120abc23971e87801995aabec5aa9b006b87e63cfbde400ce77ba",
+      "git_blob_sha1": "755a8eb7d4b8ba4943a8e7f494804441fd9a4d41",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-005.bin",
+      "bytes": 786432,
+      "sha256": "ab7ed550465e97c95c8376bb63b250154c8cce7acb61e006d4133e392568b054",
+      "git_blob_sha1": "494820dea7c9fa1409b2e5d6a17ce4199b363dba",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-006.bin",
+      "bytes": 786432,
+      "sha256": "bae0a7dce1b39019f2d15e424fd6d5df8fa773fa50208133f1bbeacea9c53d25",
+      "git_blob_sha1": "66baf3b454769651b8de346018f86be705bb232b",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-007.bin",
+      "bytes": 786432,
+      "sha256": "ff31e9c2076ce92b907d316247af2c1c2b7a7bb1d5523d9b0e8daff97e7abc45",
+      "git_blob_sha1": "3baa66213b7987c6ff07c3f54569667a5fccbf92",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-008.bin",
+      "bytes": 786432,
+      "sha256": "a3b6d918f30aa232b8bbce8d911deebf73e7d831b8a7e6cc8ad1c9ca85cc6e45",
+      "git_blob_sha1": "fc6f0f67d9bcbb8621c987cfc326e013689abc91",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-009.bin",
+      "bytes": 786432,
+      "sha256": "855a1bcd276a0d257d0b9d0a402cc8b520f81fb1b9a8a73ba0aa47d0ba50dbc0",
+      "git_blob_sha1": "41aecf17f0ff5566693ca4e396cc6164610367d1",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-010.bin",
+      "bytes": 786432,
+      "sha256": "62981a0eb3983c78ee7a19344a2c1559d187c8d2f51334c4f317f41053fe651c",
+      "git_blob_sha1": "a37e5a4d4595ecd19b28a7e313ab1c54f4d713aa",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-011.bin",
+      "bytes": 786432,
+      "sha256": "a0bbc2a0ac142327d4ca36e0e16f1587ef957c917155e9d2aecee684ddd308b5",
+      "git_blob_sha1": "66fd27124e91b9e820f8df517227b46e1d25ca4d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-012.bin",
+      "bytes": 786432,
+      "sha256": "74b4af333a4313d37885bf3d0e88c1e95728a98568f8bfeddcf75c41f5c1b6f0",
+      "git_blob_sha1": "2706b43fe05ef2b1828d2f08a819c452b1eefa57",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-013.bin",
+      "bytes": 786432,
+      "sha256": "5b1fe33e7886dcf8f20ddd646d55ec526b4d8aacfc9c4507bf9132ed575ead63",
+      "git_blob_sha1": "61892a7b4ded3e5fbb64ae66a13db964ff77be70",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-014.bin",
+      "bytes": 786432,
+      "sha256": "b89795667c39fa4df11bc20116a140c61ec825a11b628d7d7683a61966bbd024",
+      "git_blob_sha1": "b522496bc84fcd168d52a9306873e7199ed9ceff",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-015.bin",
+      "bytes": 786432,
+      "sha256": "1f7338ab4892a2007b55ec1abaf2ab95c4ed258f006968a6da886460489a61b6",
+      "git_blob_sha1": "7ab03f8b17e02fefe0794bf0e6c1fd8797bb5ffd",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-016.bin",
+      "bytes": 786432,
+      "sha256": "0d4f96a0fb18b7194d361c7c465f81dccbf4608b60fe61ca38afe862c4b14ccc",
+      "git_blob_sha1": "738e1ca4f13bd928e7afcb4977fcefca05bc3158",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-017.bin",
+      "bytes": 786432,
+      "sha256": "e3087fa8d3904b5b5f3ac75b2185bf75b31d39096c6cd8e7593cb93db6860d68",
+      "git_blob_sha1": "89ef4e3c92112d8c32391164ceffbf529842a276",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-018.bin",
+      "bytes": 786432,
+      "sha256": "adf91c72bcc4679a293a58de0d60b63407876fc9d63e3da42da4958c0b2429cc",
+      "git_blob_sha1": "88dfecc6fafb404cc9c4a6356f7b3f389969e05e",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-019.bin",
+      "bytes": 786432,
+      "sha256": "f2c39278b284e061a79911913499599b9182ec1560c50aea5734a866d8d4f6d8",
+      "git_blob_sha1": "6ce88c69349adb77104ae4048a2b570751d40083",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-020.bin",
+      "bytes": 786432,
+      "sha256": "bbba0268dc18eefa8bc4e30f0cbdb83ab5a86810a64d0e1042ab8fa3c86c7525",
+      "git_blob_sha1": "419c35c50aee88e323e1911d0bf7801443fff84d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-021.bin",
+      "bytes": 786432,
+      "sha256": "30464ffe169c10a57959c9421bebca99a2edf7b2cca5103220409c1973687609",
+      "git_blob_sha1": "c85c4d76d3763d7b176d9dcf1b51ed2c51f64793",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-022.bin",
+      "bytes": 786432,
+      "sha256": "7670a8dc142db742273f117784dbfd7078d5a4c914746f708da1ef48a82c2a50",
+      "git_blob_sha1": "3216495253000fb2a58a9d38a341494c3a0c1e15",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-023.bin",
+      "bytes": 786432,
+      "sha256": "fa0cd4c4ab882275d0ba4e2b9fecb15daa35c0c5078a722cfe43e26da212dab5",
+      "git_blob_sha1": "0dbc25a8d00b1deebf43d8c28092590be62473c9",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-024.bin",
+      "bytes": 786432,
+      "sha256": "b530a9eeba3064638bfbe2af779865ef9e70002e1c96064d9d498a665d6bae64",
+      "git_blob_sha1": "34d4263752905aa8dabe1f687f64076b3910eaa5",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-025.bin",
+      "bytes": 786432,
+      "sha256": "cc22108e77495a911f2220312a787f6c0b023384a257310ebc6b7c26e522baca",
+      "git_blob_sha1": "6577afe0996c319673849ff5d8c980691d23ae34",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-026.bin",
+      "bytes": 786432,
+      "sha256": "5c54e503e8e9c776e71862a8c5669660050e8e342486bbc784097a8b1bcf9bda",
+      "git_blob_sha1": "bd2e09a31e2eb40f6631d06af7d59df34ac238c7",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-027.bin",
+      "bytes": 786432,
+      "sha256": "e75ca934e0e2cddfc59effc9049e7e09c900f967cc075c99f6a15192afd6be9e",
+      "git_blob_sha1": "00e2b69b997e0db0474a2516e57ea16c817cd9b0",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-028.bin",
+      "bytes": 786432,
+      "sha256": "62e0052f7e33d6bbd498717230c65babe30220813f7130ff7a04c1f848bd8d03",
+      "git_blob_sha1": "4071fd15c8845bacf157201e8eba71e2f1e5f0db",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-029.bin",
+      "bytes": 786432,
+      "sha256": "e110c8062e0e3751c2aa7083c50731efbb3785a2d990b3904c02afce689a47d5",
+      "git_blob_sha1": "fbb18e366e68697da43ab73a55439b8a81d1a2ba",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-030.bin",
+      "bytes": 786432,
+      "sha256": "22bcfed87987fd9cd3a5d083d0d948e8f0a3c7362f7139fbe039897eeaa47f4c",
+      "git_blob_sha1": "bad5bd5223d71e1d8c9bd153b052ceaa23ec4f8e",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-031.bin",
+      "bytes": 786432,
+      "sha256": "bccea4c85817a5bd02bda5afd69d77b331c318abadbcc7853def088f42fae3e6",
+      "git_blob_sha1": "e61bfc27a4e859d6b1d9f7380cc0c964cf8eb9f1",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-032.bin",
+      "bytes": 786432,
+      "sha256": "be31fed195512cb7202e5d7fb7b6b10cb8adc652b02f47a81a235631df7a1956",
+      "git_blob_sha1": "142c986b36e5587e38125e472c964830d47a733a",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-033.bin",
+      "bytes": 786432,
+      "sha256": "de59f6dce0e33cf3f1f0361e5b2376c67076740a21830aed30d58245ebe08874",
+      "git_blob_sha1": "a179e112f8ba96d9054184e70a2752cad8c8fbfb",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-034.bin",
+      "bytes": 786432,
+      "sha256": "d713a5814424d35876dcbd4e678156e6a1b750553ace73063a397e22324b629c",
+      "git_blob_sha1": "5b1389f6d703edfa54a481f9cb0902129dba416b",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-035.bin",
+      "bytes": 786432,
+      "sha256": "d3b5ae51ee1b6c2698303222a180444e5a1cbcdbdf79dadab72f9807f3a35b87",
+      "git_blob_sha1": "e10d62043e56526cefea56f84c37526a4d54f3f6",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-036.bin",
+      "bytes": 786432,
+      "sha256": "99b84a3841634bae901642fe809196b934d42090b9973ccfee6e2d3a1d7eea9a",
+      "git_blob_sha1": "b191b4a4536dd9bbf6a223356e1cccc8601f1e01",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-037.bin",
+      "bytes": 786432,
+      "sha256": "dda5e6b0e2e12160e2e358673583c06ce0e90aea107aa207985ef718ac74f766",
+      "git_blob_sha1": "87c70e8746df28ea575620835c8db56a1afd480e",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-038.bin",
+      "bytes": 786432,
+      "sha256": "74f842eb83064de2a99ec6d8a923bd5856ef5d1a5dd96da9eb21a36706b65138",
+      "git_blob_sha1": "5a7abe23fdbb2f5885171061154f4d9de259f640",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-039.bin",
+      "bytes": 786432,
+      "sha256": "ccfc3f883bdff35f1d13f113900b07c93f04c8ba6e47e18a08bac9610b94e304",
+      "git_blob_sha1": "61e1a41d4963df81030f242a5030bbc1d8f71a21",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-040.bin",
+      "bytes": 786432,
+      "sha256": "f4e91477f944ae938a7013aaea56a720b8833fd778ccb857508c2ebdbd259561",
+      "git_blob_sha1": "159a1ad4ad67b945184a772760332b0cbadc6691",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-041.bin",
+      "bytes": 786432,
+      "sha256": "6acbcf611b27f8b50dea584d90e6f19545446157636d8a0f6ef1c8f452a41490",
+      "git_blob_sha1": "bab5e69f8d8ceb9968b65f270ebd67ddb649c3fe",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-042.bin",
+      "bytes": 786432,
+      "sha256": "760c1922c95089c733afd0b953f8d510391e3e7478b356e379f4c33a92178701",
+      "git_blob_sha1": "265dd287d20be48f485544d2e34ff1470a404631",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-043.bin",
+      "bytes": 786432,
+      "sha256": "60c7161237011f3dd2c0a8e4384010b7bffa8bc86459e85aad1f765a056cda4b",
+      "git_blob_sha1": "7140b305a793f01805483861269fc215cc698270",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-044.bin",
+      "bytes": 786432,
+      "sha256": "440bc3e1c09d98028119ed9653b25793115b44be8a6092974fa7695b5661fb22",
+      "git_blob_sha1": "39f1d088eb9252f2e7f13051cd14b0c0f12d4ee5",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-045.bin",
+      "bytes": 786432,
+      "sha256": "6ba11e8338ad579739c8efaf004013c4fb23d4a2d1bb3e7f96f8020c9537bbbc",
+      "git_blob_sha1": "a1147cafef995b32a7bd2b3d5539f7280410601e",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-046.bin",
+      "bytes": 786432,
+      "sha256": "4ee8447a2157d9932ab01fbcbd2c018d6208141ab2c3a683d78d7a42a7125f90",
+      "git_blob_sha1": "de4743bfb1bcd589f286bb6b74955db5e4758f6b",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-047.bin",
+      "bytes": 786432,
+      "sha256": "73261a7ce4a3a681f8bee2a62a3f1ccd2af8a4e980281af29280939cae315b4a",
+      "git_blob_sha1": "dca0e73c7f6af11e845df49b9a50dab8f720a35e",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-048.bin",
+      "bytes": 786432,
+      "sha256": "680aa44382b2e6dcda8a728094943a24333fc007835d9e0465c1693601f207bc",
+      "git_blob_sha1": "55bcbfccda4dd01bc9195cf8d65fa59d3a693467",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-049.bin",
+      "bytes": 786432,
+      "sha256": "f0f78d962473517145a710227e82dc31a5dd9d6be1b20bf026a7c9ed98781052",
+      "git_blob_sha1": "4f5a6fd9317ca6ab432261ea7601e0108ca5c6b6",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-050.bin",
+      "bytes": 786432,
+      "sha256": "7436a02018f1b95fb8f748b631730408db14602d625e6a0f10f6c35152323c65",
+      "git_blob_sha1": "d7ea94f0540bd4dc9e201d86547f21b0de634b11",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-051.bin",
+      "bytes": 786432,
+      "sha256": "aac9ccb86bee73165a4d0cc099d65a7c32b57c9e141db6170fe6356fdb7a9278",
+      "git_blob_sha1": "085703205d6edce3e7edcef07181323ab301d46b",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-052.bin",
+      "bytes": 786432,
+      "sha256": "5f7da6d956d720d64a56148b65ae668a7a5430a7b6dee8789a509de282fb356a",
+      "git_blob_sha1": "6df67c2551991267938372f095f4528d3ca0dce0",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-053.bin",
+      "bytes": 786432,
+      "sha256": "4d832dcf855aa9f0713fc6ad0f5bff49fc9dad55f1f03c8a4b20c8657044cd46",
+      "git_blob_sha1": "bdafba205ecd3f2a98add97f55daa06b2403ea03",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-054.bin",
+      "bytes": 786432,
+      "sha256": "73f337f69e30b950d5fd9e56f3fcbe473c3931498165a03821ac08f8dc3f353b",
+      "git_blob_sha1": "ea97a0e27914d2a3b407446feedbf3ef64df4743",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-055.bin",
+      "bytes": 786432,
+      "sha256": "6c33465d5e6a0019591adb1d0440afc292e1b99a201bc50d3ecb6a01ee520bb9",
+      "git_blob_sha1": "dabc6ac5120b7d9e4d200f7ea0a65decaa5477f4",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-056.bin",
+      "bytes": 786432,
+      "sha256": "4ba9cc07b1a408b61bab1ddd9cf9b2a9feb42fc75adad2cd75cd8e23dce7cb1f",
+      "git_blob_sha1": "62ccd967cc03c21432838b39aa44ddce3daf9cf1",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-057.bin",
+      "bytes": 786432,
+      "sha256": "48acbcbf24183d410d443daaae68bea94dacdae2140dd4119b1c4c2ea4722c08",
+      "git_blob_sha1": "cad9368c0fe43ebd72506d271c55041715d90d03",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-058.bin",
+      "bytes": 786432,
+      "sha256": "17cbeb70c0c3c751685011bfe961d6a2d8ec204e572169558f9198dfa2f7c842",
+      "git_blob_sha1": "08d765d4dc49816db035362e4eedabb70fdff912",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-059.bin",
+      "bytes": 786432,
+      "sha256": "4f711df00199cf0f79357fbc527665e33ca3ddd39ce7719310736d2c5bc3e582",
+      "git_blob_sha1": "07e93ee2938fd388f436f13771203091bfa62950",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-060.bin",
+      "bytes": 786432,
+      "sha256": "439734cae78008b6b294cf0f6bd7c884be5c399759c3e974701c41a9d6db699a",
+      "git_blob_sha1": "427ae353b85c0e490ab70f213074042601dacd15",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-061.bin",
+      "bytes": 786432,
+      "sha256": "f505262a959a42d2958164b3bfaafbdb1f587ff8a33c723b7d61946ef9796a1a",
+      "git_blob_sha1": "a61c940cae542f25cce3b9652a5727aaee9da375",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-062.bin",
+      "bytes": 786432,
+      "sha256": "5ca0bd3240b4398eebea8a7dfc783fcf5f2cdd50f20c58e06bfe99431da9702f",
+      "git_blob_sha1": "3ab85d419bda3862d1032c8cf1ded4cab05cb805",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-063.bin",
+      "bytes": 786432,
+      "sha256": "b37b636abac03002b3dea0023bcebcb367c77dc503ad7691e4bfe7ce01d4ef81",
+      "git_blob_sha1": "71932f5d2ffe9de021a6ff76d9d40e23a88d9491",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-064.bin",
+      "bytes": 786432,
+      "sha256": "4168ccafc419b55220f6e0f74d1212c94fbf7bce581a76944be6eab2e4e52941",
+      "git_blob_sha1": "4b589ba766f2d58ac78dfbffe9da1a80b35b5923",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-065.bin",
+      "bytes": 786432,
+      "sha256": "c89ca3ec3acfd0fc7d727ebc3985bfa00468b862af555651c732d4f0fc7b064e",
+      "git_blob_sha1": "0c97936eefbd4700ad007b6ba7f064832e20f603",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-066.bin",
+      "bytes": 786432,
+      "sha256": "b233ef72e4600f564326e4a15d00ae6348c2af633cc972f7ee73127175c1f30c",
+      "git_blob_sha1": "a0e5fc71ff0b4161444d2c5662f9112e2911d0a3",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-067.bin",
+      "bytes": 786432,
+      "sha256": "661a85f40994aa005b9d133b59a368ca617cbc260e9f35d23ff75d1f6160d5fa",
+      "git_blob_sha1": "b7359cfb54a15f3ed8a3837b23f3e3b365262a67",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-068.bin",
+      "bytes": 786432,
+      "sha256": "ad00ff0dca9c1916425944fc61ab57e5a11da7fa053c94e99846db3689eb6cd8",
+      "git_blob_sha1": "394bfc7f7816cc9977146f0a60aa82ab9a44198e",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-069.bin",
+      "bytes": 786432,
+      "sha256": "82f3dd90555fcd6bf780a25fc7c5df436854210c5da38cab1242f157e1e5a8cd",
+      "git_blob_sha1": "a81f7031d5ae967e2b955e6e72371097edea5666",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-070.bin",
+      "bytes": 786432,
+      "sha256": "a30077e4cfc9b5bc298f9c48cdbc566d46e6d40edf2568a13483b6157b0ae642",
+      "git_blob_sha1": "eec18ee2078382be7ecc721e34b2fa005e5951f3",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-071.bin",
+      "bytes": 786432,
+      "sha256": "41d95c61130d93b5aad242d1c0cb2ffa5285fd2c0210fffc80a951905d76f05c",
+      "git_blob_sha1": "2336ba6074fa1df535642185854dd86a93da836e",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-072.bin",
+      "bytes": 786432,
+      "sha256": "cf19165fc5a0df0860a35e3490c548f62a19abfc6a313bae563934a54b52f317",
+      "git_blob_sha1": "7dc9a394b14c22643d6e40ab4fe284f1f5d24662",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-073.bin",
+      "bytes": 786432,
+      "sha256": "a565b08ee4c71c95fdd6a81f048df69c856c9d1900dd6ff3f4b5bf565e177472",
+      "git_blob_sha1": "71e4dbc7f7feefbd2e8221e6cdeb7997b2b4fd86",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-074.bin",
+      "bytes": 786432,
+      "sha256": "61df5db6086877a0fdf7758f259735c0f016bdd13a11d4df440abd63d52a708d",
+      "git_blob_sha1": "a53080441d8103faaa75623e9c27852dde09bfe8",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-075.bin",
+      "bytes": 786432,
+      "sha256": "3c50f5212ee5c73f6028d7b2b11cf209535d3c95604c25b592044c1b739fe93c",
+      "git_blob_sha1": "c8be37e526a024a919f11782a7055494b1bbe450",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-076.bin",
+      "bytes": 786432,
+      "sha256": "439f5c867901a70a44b91675505191c45fa1fe791067adf1b40aa151391a6702",
+      "git_blob_sha1": "58998bb53d24402512133a58e4509daa28e69f9b",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-077.bin",
+      "bytes": 786432,
+      "sha256": "6f566d6c28287b61a9ab32f19c2c2c45efb697905cfc282b8941d030aa83985b",
+      "git_blob_sha1": "e17eab9e01d8ce7183ec377c4725249a286b9ac5",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-078.bin",
+      "bytes": 786432,
+      "sha256": "697e34678477e2c35fa3d7cd622f54268d2dfdcb1516dd023c4d1d8c667cb4c7",
+      "git_blob_sha1": "a263aadedf2870088488bcfae23034a07ae0e8fa",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-079.bin",
+      "bytes": 786432,
+      "sha256": "5bb86af98d7449fb6e9061742d6f409621d57ff27b70195e26d1d1a6d4a4cdd5",
+      "git_blob_sha1": "73bfab46afc5406ee4d880edf0857d4340f3a32c",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-080.bin",
+      "bytes": 786432,
+      "sha256": "817ac1bbd7453d9863870095b3d85cc6652763c9319cac96e0f8e5c8827bd678",
+      "git_blob_sha1": "6f4fb2647ac49d969b30140b6a5476d62a38a2f7",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-081.bin",
+      "bytes": 786432,
+      "sha256": "c91da6f3309da16cada0fc1a6fb72805bebafee1114c417b473a2d9e3b9a0537",
+      "git_blob_sha1": "f5a1be03e6fb2f310614bad0bfd4955d282b33d2",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-082.bin",
+      "bytes": 786432,
+      "sha256": "787f25b90ea088f5db3ff9cf5978a8d64d8e9b1821e0c61f185ecb93ff2b93f1",
+      "git_blob_sha1": "cfd729515c5533253c2667d5286c1e2b4a8d6519",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-083.bin",
+      "bytes": 786432,
+      "sha256": "cf53a93bd7dd2156bf67a813cc181f1b389a26dd5ce821195a41ab4a97fe0183",
+      "git_blob_sha1": "4e3b77fdf5689a197143e323cc7b072a476ae345",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-084.bin",
+      "bytes": 786432,
+      "sha256": "ba7891fb640fa9ad91fc7878102513db1265e203bca0cc2a0a526c253f4c1a56",
+      "git_blob_sha1": "3f3f8fa70c22b27c4a1c24eede640823aebeca7b",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-085.bin",
+      "bytes": 786432,
+      "sha256": "b43944bccbe132d9557d50659ead57ec424ca16f55c9a12f90ce8afde88c9dbe",
+      "git_blob_sha1": "0e7be45dcd6206f2c329cf766079748b9dc1b11d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-086.bin",
+      "bytes": 786432,
+      "sha256": "aa866148c0f9ee1ef6214df735b42c04cab9389b1a8dfab3a357ca02c419d0f1",
+      "git_blob_sha1": "8b8d42f3b57d278fcaa553daf32d2d3e7f30cb17",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-087.bin",
+      "bytes": 786432,
+      "sha256": "a05f976010123b71914551b819afb78c9a2d1bca03f12253084f58550aa33b77",
+      "git_blob_sha1": "7d317107c912a1341da53fdc65053061cca8e26a",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-088.bin",
+      "bytes": 786432,
+      "sha256": "4fdee7edb673484d4518c1d529754b834ba01e61221e766f6b19f5a79eca6ea6",
+      "git_blob_sha1": "ba1057d0772de30f1a18a82536fba497d2479a93",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-089.bin",
+      "bytes": 786432,
+      "sha256": "8bcdd59d932a23b3bfc536c3f2f60108d52a895ad80136359d98bc0413b82967",
+      "git_blob_sha1": "bffe2b0781832830e9b12ed41a4ea62395e500ad",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-090.bin",
+      "bytes": 786432,
+      "sha256": "689d887afcf85fe1b3d340461116b6dac103e12c40f9d68468c608beb79e6af3",
+      "git_blob_sha1": "1cd644ea54f4ea434f61203897ba2ace9e2190ca",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-091.bin",
+      "bytes": 786432,
+      "sha256": "a2e5be2b0a3d3f53d296d7f23b19bb46770ef0f97de6a57c63908a6859041a56",
+      "git_blob_sha1": "72b3c34415cbbdffc0bda0b673bed4563bb358ef",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-092.bin",
+      "bytes": 786432,
+      "sha256": "d9d36381e7b137f9c28d2e733d6a61540cd9bc840ae3d24c2e7b6a31c6175364",
+      "git_blob_sha1": "cbf34760b08297388f6ce2b2a36bc2df075ac02a",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-093.bin",
+      "bytes": 786432,
+      "sha256": "caffd30875eafbfb7a8bcdb8d43c08b41d5284757dc6adf1b3f370f11b273fdc",
+      "git_blob_sha1": "3b43f8b8799af94addfe5cf61a0d170e0d68406c",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-094.bin",
+      "bytes": 786432,
+      "sha256": "a0de5181d8dfecf815372cbed3272ee7828ea9f6b8b85239cb65af230e2abd63",
+      "git_blob_sha1": "2b17cabafc8cefccbee9438921f9c34294788c0d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-095.bin",
+      "bytes": 786432,
+      "sha256": "03d217b3b55db7a2aae00fd36dcc945653c2406c4b564b963b3266a89538c9fd",
+      "git_blob_sha1": "bacb9796965196906c39f621e20e55ca1bdf0c05",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-096.bin",
+      "bytes": 786432,
+      "sha256": "7c5215afa877fe16a3372ef36ba93a2aef932c0ff26867bbbaf7fcc9d9f4f9fc",
+      "git_blob_sha1": "94c223b6e4915b6f054307d3704c8f3c022869fc",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-097.bin",
+      "bytes": 786432,
+      "sha256": "5608961c6f0d560681e4bdf4e3a9121c505955e5c90efbad80654b6795b3cb1d",
+      "git_blob_sha1": "ef2db3d73dccf2f7a1812c04bfb9514996640cef",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-098.bin",
+      "bytes": 786432,
+      "sha256": "674e148338793bf533ecec597cfb9ea8f90bfad91b71b3f8f6df72f34482222b",
+      "git_blob_sha1": "067fa12072dd24b822bc8d5c8422e490a190c612",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-099.bin",
+      "bytes": 786432,
+      "sha256": "fa740819eef8c49c6504ad811b59e6a2f8dbfe3bc26644ee300bb8a3c7fe7fba",
+      "git_blob_sha1": "0de5c8d3f1440c189668d37db0b7ef948258f047",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-100.bin",
+      "bytes": 786432,
+      "sha256": "8b2878b008c36578c23eb08ec39f3cc9f7be14e0078b214c92a5f3f1f752f23d",
+      "git_blob_sha1": "5fcee23c02911d0c2b060ed03cb79723bae12457",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-101.bin",
+      "bytes": 786432,
+      "sha256": "0322aff4c2c67e1ac8bf448ba4754764bdbed508d0f40cfbcb48dab73db98c4d",
+      "git_blob_sha1": "44e61a4f239db77a2e99e6924b83e5daafa408c8",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-102.bin",
+      "bytes": 786432,
+      "sha256": "32c1893b227cad340c54661b43161475c7a896ba30b2e21a6d41822d7cebff41",
+      "git_blob_sha1": "c03d4b8a40ee6a2034b5acbb6e4dedabcfce9bb3",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-103.bin",
+      "bytes": 786432,
+      "sha256": "9d0633ddf37a0d96905e121eaf6c3afb47de8d5b459e0967586ea7427a689efe",
+      "git_blob_sha1": "d1962afbc6d49fdc57b89bde361d688fa55913a3",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-104.bin",
+      "bytes": 786432,
+      "sha256": "b9d3c7a9ca5c32666fcb36679e7679c0abdf0258b0354beb028f85822e3bcaef",
+      "git_blob_sha1": "2af3922448cc74f5bbf9ce9fdb2edb9446f3ea02",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-105.bin",
+      "bytes": 786432,
+      "sha256": "71cc47a0e224a57c0a48bf90c7c64478e6ab9a29df097f65eddfa3eb2114c3ae",
+      "git_blob_sha1": "610ee3ddf08a2b38675f262a8dab171f1e7033d8",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-106.bin",
+      "bytes": 786432,
+      "sha256": "40d8e3d058365c446eef9c1d234ba512ce1dfbc738a11f5f75d5330fffce4b5f",
+      "git_blob_sha1": "a94580b1c33f3f9be4b3715432ea34d574843665",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-107.bin",
+      "bytes": 786432,
+      "sha256": "0b57bce4018f8c20310d2e729a24defb20b6a5de29a6034c9186bc823d01f661",
+      "git_blob_sha1": "403ba58f75184ede19ea20dd3be462d9b4348a03",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-108.bin",
+      "bytes": 786432,
+      "sha256": "e195f97ce5ddb46a21ed5f58429cb1c519fb3f12dc64a371fa2ba873b459e3b1",
+      "git_blob_sha1": "a8d3076cd5074d8ffdfe66ff155c3414b93e00e8",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-109.bin",
+      "bytes": 786432,
+      "sha256": "7f06af6802cf6354dcd09f467ff7119c11488287dd88277a28257bdd73cef0c8",
+      "git_blob_sha1": "efe44707b5e958bbd45b806ffc2f343910f69b6f",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-110.bin",
+      "bytes": 786432,
+      "sha256": "a2f35a737f663f2f0678f37df91771662bbe2523bb2ba5cc3cb77dd42f7d85c7",
+      "git_blob_sha1": "73ddea3600b9d26507737b1dcfa7cd94624d59e3",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-111.bin",
+      "bytes": 786432,
+      "sha256": "51235d21c0e9fcddbb7109ef31e7d9fb3298162d417b70ae04d863a89675d756",
+      "git_blob_sha1": "4fe8accd7b43e8769cb564d6e80436cc6b362562",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-112.bin",
+      "bytes": 786432,
+      "sha256": "e96ea71863c8cd2c63d53fc8f8a960cf7df56b1fd431b8ea163cbf6eb3c10129",
+      "git_blob_sha1": "c79a0db49a3031ec55e586e81c829f3096b8ba5d",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-113.bin",
+      "bytes": 786432,
+      "sha256": "42baf536a6b2cebf00bec74dbc9e4a75c464e902735a4c0405122d5fce6fa282",
+      "git_blob_sha1": "7c94599f0ae049626d92e113b47d60a606b74422",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-114.bin",
+      "bytes": 786432,
+      "sha256": "2d71989ce7726aa867a293e99328a4612cb2c3f8609b02a0825a58b040d5b704",
+      "git_blob_sha1": "143e464c0ba2fdd5a26df242628545ff9a22f0e5",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-115.bin",
+      "bytes": 786432,
+      "sha256": "2884a507188d294af8a437b6afd3c5c5a9f8b135fddc048b394470cce1d14f60",
+      "git_blob_sha1": "cec10a1b9f78999671d89b655a14317e1c132956",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-116.bin",
+      "bytes": 786432,
+      "sha256": "3e5bb85ba9677b554709fff847fa98645df23fc28c9adf3fff36e69d2461585a",
+      "git_blob_sha1": "cfca4786cc3d71dfc035a01675a84871ebd98ac8",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-117.bin",
+      "bytes": 786432,
+      "sha256": "f2c5ee937c8eaab0456f8a14aa6d78c668b5db5b3ad341d050acaadc28d45e32",
+      "git_blob_sha1": "eb40f36ca4d7fec249e40f99720d2d4cfce13cb9",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-118.bin",
+      "bytes": 786432,
+      "sha256": "14231cd4a8822368d72ef9ae49c8b3a48b178206a3c8b1b992eb939440a27255",
+      "git_blob_sha1": "51e65e99d2c20dccbe0cbcfaa49cd5e5eec80726",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-119.bin",
+      "bytes": 786432,
+      "sha256": "9a28bcd0a8b78bd9e5a638ffa1c0c24d525183ac19f221f978428de610b26a62",
+      "git_blob_sha1": "545ee71282094e8bd82ef2f3f19c6dc3c97135cd",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-120.bin",
+      "bytes": 786432,
+      "sha256": "27adae8b58e34f034865f144e53a41de41e18e8856d4230257f1306a42a9b2fb",
+      "git_blob_sha1": "2df6304ee68e06e67a8b0e96d589c7c976f10553",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-121.bin",
+      "bytes": 786432,
+      "sha256": "c96a6e1d4869d58bed362dcbc8d480488d944a86d5d2ed8db82a9f1369940578",
+      "git_blob_sha1": "fd9588e7b80400de5259f78e6f2e3479b04cdb7f",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-122.bin",
+      "bytes": 786432,
+      "sha256": "dda20f9e0ffd895ae05e060aae215c92d0cad09ac89b4735c60e8fbc1fedc45f",
+      "git_blob_sha1": "94eb63ea30a77f30f70c3965582d2bda3fa933ac",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-123.bin",
+      "bytes": 786432,
+      "sha256": "0d4c9e4e938824480d44be6cd5a0b4d76ff5cdaf02859d2fde2980e875a6654e",
+      "git_blob_sha1": "923d98990fe30f67a27fd7ff97c86ddbc233c62c",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-124.bin",
+      "bytes": 786432,
+      "sha256": "22dc1e06fb6951f3b9fabd234824b5b62be5fd97f46810e92a9b49e7105ad8e4",
+      "git_blob_sha1": "52e02ffe8912b976627b2f9b3bbf2739d85b2b0f",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-125.bin",
+      "bytes": 786432,
+      "sha256": "ab4e567c0352d32230cd03df826ddd8bba908a7454f24296028a84d04240a550",
+      "git_blob_sha1": "5b69992b92c3045dd213890e697e2b30386f5073",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-126.bin",
+      "bytes": 786432,
+      "sha256": "62da807b0280db42d259938b1cb8c68a0ed2138033d4b170f1f4699823d19db6",
+      "git_blob_sha1": "56e3f6e9e9740fc593bbf74d9ef9094abf092651",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/source-parts/part-127.bin",
+      "bytes": 175772,
+      "sha256": "fef2205dc4963686727249a70f4b276e28f8e4bd2e732dc4711b70be2b7317c8",
+      "git_blob_sha1": "02f6275a37fa28fa3ebfa185dab2dd41106a0bc5",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/test_restore_native.py",
+      "bytes": 2292,
+      "sha256": "6c6675a87ee0fc7d3aac6f7d46af58953566fc7f3ace0a87e39a929b52c48619",
+      "git_blob_sha1": "a4787283f535678aaee82c599ba407209fbdd1c0",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-textured-front-wheel-20261002/verify_restored_native.py",
+      "bytes": 5228,
+      "sha256": "afd0e1d636b8192498206326337524709ef93292b1394f7023fb94dc89e48e78",
+      "git_blob_sha1": "edcb795594982b442a6b5ede9a3215727a677315",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-entity-upload-20261002/plan.json",
+      "bytes": 2978,
+      "sha256": "8ca0a22c29508603207311000892858ab99b51d4bb5c2b8555a4347508dbdad8",
+      "git_blob_sha1": "1bf53aef310b6753aa5b5c82fb16f58de655e1b0",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-entity-upload-20261002/prepared-8MiB-manifest.json",
+      "bytes": 4003,
+      "sha256": "0f1f5150d710d59ba66bda59f715c194833a601f69df87aa7eb2e0f97d86de21",
+      "git_blob_sha1": "cb6cb45ba33030270cd6eb65c25c5378ae0c03ce",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-entity-upload-20261002/single-blob-attempt.json",
+      "bytes": 817,
+      "sha256": "520b4c33891bdfc366cd4f0d30a1f3ac5fdc718a79e06b9d8d7ba2688ed6462d",
+      "git_blob_sha1": "89b919273c0c248f87491e4898f77e901500f841",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/FIXED-FINAL-MANIFEST.json",
+      "bytes": 7077,
+      "sha256": "2d7cbcbf64baf1548799de648679723ae67d959198a2b3dcd18e3fd84498aae1",
+      "git_blob_sha1": "697fe503c125dab941d9797438e109c48ae06ed0",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/README.md",
+      "bytes": 3588,
+      "sha256": "747c48572ca58334898e92a6015b79a5927c9ae0857ce56821a08b1a4e5ac681",
+      "git_blob_sha1": "3704f8218141c0562171cf7f224a5d1237fabe3f",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/pack-wheel-interface-evidence.py",
+      "bytes": 4630,
+      "sha256": "2334d0734b5e6edbd289692be6d4c8da50daba4b3f770142400971c75091a11d",
+      "git_blob_sha1": "5e1d3710b216f36d2a8bc0b0edabd2b97617853f",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/package-fixed-evidence.py",
+      "bytes": 12858,
+      "sha256": "9c100215c1653a3fa03f76f169d5720e0005df49b4a946351d5d543b3ae376cb",
+      "git_blob_sha1": "5f7fa51c51634c140d18704182203372f4ccedcc",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/package-index.json",
+      "bytes": 11520,
+      "sha256": "5f9d47ea01d51b93c9303e38fdf33ffd0993caeab56ca24887e4dba231234b29",
+      "git_blob_sha1": "972a7bb0c779ff2bda7f35cb4cad9f1d68c229d8",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-000.json",
+      "bytes": 109991,
+      "sha256": "80d079ac44228e4c99c6a5ce34de4317043c6f1a0d97e63cee044853dba8b4d6",
+      "git_blob_sha1": "27fbe168b949c4a6687666d29d20f405ee461b0f",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-001.json",
+      "bytes": 109991,
+      "sha256": "929a083647765ea6f84cf24bc333fcf23bd91981bbc715a99e0d67903e15219f",
+      "git_blob_sha1": "3006636cdb75cb054b1d498e54d3a0cf94b19979",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-002.json",
+      "bytes": 109987,
+      "sha256": "bc94f54463e72b5035f3632d7f446cf767e1e0630b5e2e4ad311b6f1cfa803cc",
+      "git_blob_sha1": "6dd3d4466117c73431711067e20bea708f63a22e",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-003.json",
+      "bytes": 109460,
+      "sha256": "68406446a24f7340c49872a9d2f846d4c4b62dc9c3bfbc9ae2ef2f5857370248",
+      "git_blob_sha1": "049ecfad9dba56d255da1e0f34ee99b5d9f9f017",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-004.json",
+      "bytes": 109990,
+      "sha256": "8869e506a073c3f8d20044eb29419116e02f128b426eb2e0bb6ea2e61aea270b",
+      "git_blob_sha1": "d0f255ea3a20e0e4b276e8a5610e27e597fe1b2d",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-005.json",
+      "bytes": 109986,
+      "sha256": "c3051d36665647ec9068c068369d635a02a3c18a5f995032f42cb468b886c31b",
+      "git_blob_sha1": "ed954e994f616876394dd158733dd7e8651d7b5e",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-006.json",
+      "bytes": 109993,
+      "sha256": "cbf16778ce28e9c5ad2e37f5f93761f8a4c19521a6bb5215cba387bd8a535fa1",
+      "git_blob_sha1": "02a194b6ac59d975654beec60675ed9f8d5645f9",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-007.json",
+      "bytes": 109942,
+      "sha256": "e7c45a4d3c5ce39521fd75f19d683eb13ecdd5e6220ea89bc35380845715b17a",
+      "git_blob_sha1": "073c80b4f86bbfc4be159fcadbdde6fc45c3b689",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-008.json",
+      "bytes": 109966,
+      "sha256": "43206d2b41f76b94f2580051de6b3bc05e37bc9e4af74ccdb7539f802106c52a",
+      "git_blob_sha1": "2f2827b783b817ff42bc63b3b985f5248c95a390",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-009.json",
+      "bytes": 109917,
+      "sha256": "6cd95c0067f3a2104452aee4799949bafc53311f5524d6d68ebcdcaf74e83484",
+      "git_blob_sha1": "c4a62c36eda127dcf073e37131e2a2d8e5f5a1b6",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-010.json",
+      "bytes": 93424,
+      "sha256": "b4c2d3c50f95936d992b4a4266064489f5ffb633f2fe69490a3db0213dd90b95",
+      "git_blob_sha1": "c3314f11dbc28803b9e02d2a7d30acbca06bcfe3",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-011.json",
+      "bytes": 132529,
+      "sha256": "beff247c69ca4779396873ccfd8a492f4fdd3a92b2195dfa5185500a10ed5ac2",
+      "git_blob_sha1": "c39186e570c86f51e52a16f08e109f3a34f6c5fb",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/entries-012.json",
+      "bytes": 3188,
+      "sha256": "7d00e251238c32798ccd2d35591580bdb9067521459c3146f7a7a9b39c9a3a71",
+      "git_blob_sha1": "e062bcfb6e3345829809f3a443762f0151fbce84",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/records-table/manifest.json",
+      "bytes": 2933,
+      "sha256": "5e0ceb95b6b882933c9d80679cdf2b696e0a34acdad640a713d55fdb68117624",
+      "git_blob_sha1": "efabfb357169cc4ef93f989941786fd5a7151222",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/sources/build-trial.py",
+      "bytes": 17627,
+      "sha256": "892cf825ff6a0929ab576c502b0fbb59829ec9943b627161fa48de02bac80a1d",
+      "git_blob_sha1": "725fe5edeb9b6d3e90512bff7683d4b1b96de120",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/sources/fixed-01/verify-saved.py",
+      "bytes": 4436,
+      "sha256": "912ce98f2388c84a14cdeb4478b7c6ff6e14940fa84028bf5eb14cd0ba0e19bf",
+      "git_blob_sha1": "77bbd9151d0642e4cf970d2f1ced4824843c0b2e",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/sources/intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289",
+      "git_blob_sha1": "71c05e0c82e5b4db2b8139e01136cf413ed4a36f",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/sources/run-bounded.py",
+      "bytes": 8038,
+      "sha256": "561d26c1cd4b573bd906e3e0ffc2d6a18ad4620566400fb376c102c6b5282912",
+      "git_blob_sha1": "ed401720aa8765704d91c82dfc5e6f5ef832d9e3",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/sources/run-fresh-open.py",
+      "bytes": 3485,
+      "sha256": "2c0bd7cb6a3d02a0a55b5a3d021e0cf01f2c5b17a2965239c5d832db2339778f",
+      "git_blob_sha1": "35bc18d1587afd157e236bcae1efa4394311ed5a",
+      "binary": false
+    },
+    {
+      "path": "testcar/work/cloud-textured-wheel-fixed-20261002/sources/verify-saved.py",
+      "bytes": 4994,
+      "sha256": "3ca4b8c71f72de741156030713266b7fa25860c33bde6e169ddb447671a185bb",
+      "git_blob_sha1": "3e6790c88e7ae595b1da73bccb9c749a727ca580",
+      "binary": false
+    }
+  ],
+  "public_url": "https://github.com/wubugui/Maz543.git",
+  "commit": "9816a3306eda83ef73165ae54e15dcd52239abbd"
+}

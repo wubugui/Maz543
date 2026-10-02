@@ -1,5 +1,5 @@
 {
-  "status": "ALL_128_PART_BLOBS_CONFIRMED_PENDING_INDEPENDENT_REMOTE_RESTORE_AND_NATIVE_VERIFICATION",
+  "status": "COMPLETE_PLUGIN_PUBLICATION_REMOTE_RESTORATION_NATIVE_VERIFICATION",
   "source_path": "/workspace/scratch/a29d03198654/maz-textured-front-wheel-fixed-20261002/fixed-01/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
   "destination_path": "testcar/outputs/cloud-textured-front-wheel-20261002/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
   "bytes": 100052636,
@@ -32,7 +32,7 @@
   "parts_count": 128,
   "part_size_max_bytes": 786432,
   "attributes_changed_locally": true,
-  "attributes_published": false,
+  "attributes_published": true,
   "original_single_blob_attempt": {
     "ipc_frame_bytes": 133403855,
     "ipc_maximum_bytes": 67108864,
@@ -52,6 +52,7 @@
   },
   "part_blobs_confirmed": 128,
   "direct_single_blend_blob_uploaded": false,
-  "remote_bytes_independently_verified": false,
-  "recovered_native_fresh_open_passed": false
+  "remote_bytes_independently_verified": true,
+  "recovered_native_fresh_open_passed": true,
+  "verified_publication_commit": "9816a3306eda83ef73165ae54e15dcd52239abbd"
 }
