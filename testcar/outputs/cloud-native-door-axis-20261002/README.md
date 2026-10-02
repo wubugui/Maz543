@@ -1,0 +1,13 @@
+# Existing editable door-axis source and original native views
+
+This directory preserves the existing MAZ543A_Native_Barrel_Axis_Controls.blend,67937160bytes, SHA-2563b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f. It was already built and verified in the earlier cloud-native-axis-controls-20261001 work. This delivery does not rebuild or modify it. Its unique canonical Git representation is87 ordered original raw binary parts of at most768KiB. No encoded text or missing LFS pointer stands in for the native bytes. Only these exact new part and two original PNG paths have ordinary-Git exceptions, leaving earlier LFS assets and global patterns unchanged.
+
+After retrieving the complete source-parts directory and manifest, restore into an unused output path with the already published common strict restorer:
+
+    python -B ../cloud-textured-front-wheel-20261002/restore_native.py --manifest manifest.json --output /path/to/new/MAZ543A_Native_Barrel_Axis_Controls.blend
+
+The manifest records every offset, size, SHA-256 and Git blob SHA plus the complete original length/SHA. All parts and the whole file are checked before output, the write is checked again, and existing files are never overwritten. This is byte restoration, not procedural reconstruction. views/closed.png and views/open99.png are the original unmodified images previously rendered from this exact saved source. Their byte hashes are in image-manifest.json. They show the axis-control-only candidate, with the original closed contacts and without the separate rivet or step changes.
+
+The native verification entry points open only the remotely restored candidate. They check its complete file SHA, official Blender4.5.13 identity,10434 objects,7470 mesh names/topology counts, all44 door bindings and stored door-mesh signatures, and16 exact valid simple native drivers with four closed angle properties. Original evidence and signature tables are restored from the previously published work/cloud-native-axis-controls-20261001 package. This archive integrity check does not repeat the historical44-pose motion test or recompute all7470 mesh payload hashes. No original cloud model is read, no scene frame or door angle changes, and no file is saved or rendered.
+
+Publication is pending independent remote byte retrieval, clean restoration and actual fresh-open. All16 whole-vehicle gates and the six original closed contacts remain OPEN. This is not a production promotion or a factory hinge-mechanism claim. See the historical work package for the complete original finite-sample evidence and limits.

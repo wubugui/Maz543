@@ -1,0 +1,28 @@
+{
+  "native_source_sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+  "evidence_root": "testcar/work/cloud-native-axis-controls-20261001",
+  "files": {
+    "verify-report.json": {
+      "bytes": 182436,
+      "sha256": "afe0c4266af8d4e1faacf21640f932a50bc27af842c2f9b0aac794de87e71523"
+    },
+    "verify-fresh-executed-script.py": {
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    "completion-summary.json": {
+      "bytes": 3372,
+      "sha256": "3cb6df6e119731ab7903cb9b93e3b5c9928cd0e14e0ffe67fcc588127a1e33a1"
+    },
+    "pack-mesh-signatures.py": {
+      "bytes": 6685,
+      "sha256": "c8badc8896263e6fa7438ca3f266361196d6497e9b3023c7fb5648a3128bbdc1"
+    },
+    "signature-pack/index.json": {
+      "bytes": 3520,
+      "sha256": "0f3974a028392e4838add6f4a89ea7979f8fafc1fa6f83489bb03b55dcf01947"
+    }
+  },
+  "restorer": "testcar/outputs/cloud-textured-front-wheel-20261002/restore_native.py",
+  "fresh_verification_scope": "only recovered native open and closed-state/archive fidelity; no new mechanical trial"
+}

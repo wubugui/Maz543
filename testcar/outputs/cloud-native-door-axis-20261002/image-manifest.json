@@ -1,0 +1,23 @@
+{
+  "status": "ORIGINAL_NATIVE_PNG_BLOBS_CONFIRMED_PENDING_REMOTE_READBACK",
+  "images": [
+    {
+      "bytes": 1576059,
+      "sha256": "87864120692a8ac6fd33cdfdc39b5493e2b304320ed3596494b41b327bfb57ad",
+      "git_blob_sha1": "c4a6a2d4ad93c0f0a28eb3da1348388e49a15f62",
+      "same_direct_blob_paths": [],
+      "existing_lfs_pointer_paths": [],
+      "source_path": "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/attempt01/closed.png",
+      "path": "views/closed.png"
+    },
+    {
+      "bytes": 1585359,
+      "sha256": "0bbd1ee0462b738ed80b30b4e76937298052eb686a7de3385336bab2f4d99cf3",
+      "git_blob_sha1": "a7b1ea1b04381a6567aa12a90efedaabb23d15d7",
+      "same_direct_blob_paths": [],
+      "existing_lfs_pointer_paths": [],
+      "source_path": "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/attempt01/open99.png",
+      "path": "views/open99.png"
+    }
+  ]
+}
