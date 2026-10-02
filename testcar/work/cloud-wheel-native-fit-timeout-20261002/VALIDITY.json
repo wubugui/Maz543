@@ -1,0 +1,54 @@
+{
+  "status": "HARD_TIMEOUT_AFTER_RECORDED_SCOPED_CHECKS_NO_FINAL_ACCEPTANCE",
+  "elapsed_seconds": 120.06961416699778,
+  "wrapper_exit_code": 124,
+  "native_exit_code": null,
+  "timed_out": true,
+  "source_sha256_independently_checked_after_timeout": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "native_apply": {
+    "completed_objects": 72,
+    "source_fonts_checked": 72,
+    "source_font_failures": [],
+    "sharing_peer_failures": [],
+    "single_user_copies": 0,
+    "remaining_modifier": "SOLIDIFY retained for every glyph",
+    "uniform_scope": "All72previously qualified front-wheel tyre glyphs, not only the2known failing objects"
+  },
+  "neutral": {
+    "objects": 776,
+    "max_vertex_error_m": 7.045966143220146e-08,
+    "limit_m": 2e-06,
+    "all_triangles_equal": true,
+    "all_evaluated_uv_material_signatures_equal": true,
+    "failures": []
+  },
+  "spin_prefix": {
+    "completed_samples": 8,
+    "expected_samples": 8,
+    "max_rigid_vertex_error_m": 3.616499636090535e-07,
+    "max_radius_trajectory_error_m": 1.978751018594238e-07,
+    "unchanged_gate_m": 2e-05,
+    "stationary_brake_max_error_m": 0.0,
+    "completed_restorations": 4,
+    "restoration_failures": [
+      [],
+      [],
+      [],
+      []
+    ],
+    "all_restore_vertices_zero": true,
+    "all_restore_matrices_zero": true,
+    "all_restore_original_action_and_euler": true
+  },
+  "incomplete": [
+    "No final report.json or completion marker was produced before the hard120second stop.",
+    "The last original-outside-matrix check and final source-hash/summary stage lack a completed in-process report. Its completion is not inferred from the passing recorded prefix."
+  ],
+  "limits": [
+    "No blend/GLB saved or production promoted.",
+    "Source model was independently hashed after the failed process; original8e962d6 remains intact.",
+    "Old Euler negative controls executed before the saved spin samples, but the aggregate negative-control table was only held in memory for the missing final report.",
+    "The next run will only index the same complete data-user/object sets and cache each outside matrix once; no test/object/gate is removed.",
+    "The1degree camber, steering/CV/halfshaft, actual drum/bearing construction, old exporter incompatibility and16whole-vehicle gates remain OPEN."
+  ]
+}
