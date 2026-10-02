@@ -21,8 +21,10 @@
 - 三条UV读取/转换路径相同，U不被转换；未发现官方把导出UV写回原mesh。
   validate时机、BEVEL插值及依赖图/遍历上下文仍仅假设，具体原生步骤因果
   尚未证明；没有依据做唯一UV或模型修复，也不重导134MB来碰运气。
-- 最小脚本/数据/说明保存在cloud-ten-normal-capture-20261002/uv-analysis-01，
-  与本节立即插件外存并逐字核回后才下项。原2e-4 raw-vector FAIL、2299issues、
+- 最小脚本/数据/说明与本节已be32a9dc6db3d90661d3c7c33c4fbfa2d1dc636c
+  插件非force发布，4路径326464B在新空bare逐字取回，长度/SHA256/GitSHA
+  全同。远端终验在cloud-ten-normal-capture-20261002/uv-analysis-01，
+  同步外存后才下项。原2e-4 raw-vector FAIL、2299issues、
   全车16OPEN与网页QA blocked保持。下一先清楚区分导出法线方向保真和native
   raw非单位长度的资格含义，任何比较标准改动须明确审查，不暗改阈值。
 
