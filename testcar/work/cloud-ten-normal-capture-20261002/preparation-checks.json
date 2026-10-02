@@ -1,0 +1,127 @@
+{
+  "status": "PREPARED_NOT_EXECUTED",
+  "runtime": {
+    "python_version": "3.11.15 (main, Apr 25 2025, 12:39:20) [GCC 11.2.1 20220127 (Red Hat 11.2.1-9)]",
+    "numpy_version": "1.26.4",
+    "numpy_file": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/__init__.py"
+  },
+  "checks": [
+    "Pure numerical controls used bundled official Python3.11.15 and NumPy1.26.4; no Blender process",
+    "All three scripts parse/compile; no frame_set/save/export/render/mesh.validate call in collector/replay/runner",
+    "All13 pinned input byte counts and SHA256 match",
+    "Ten mappings and104256 expected loops exactly match published diagnosis and run03 reference",
+    "Numeric JSON roundtrip preserves every float32 bit including negative zero",
+    "New pure conversion matches exact AST-extracted legacy conversion on nonunit/zero/signed-zero controls",
+    "Corner +0 changes exact byte signatures only, keeps POSITION bytes and preserves generic negative-zero rejection",
+    "Statistics identify triangle-used/unused and zero-direction corners on a four-corner numerical fixture; no source-mesh acceptance inferred",
+    "Runner and replay --help exit0 without native launch; all three new source files checked for trailing whitespace",
+    "Final statistics field names explicitly record unchanged limit0.0002 and nonzero exceedance count"
+  ],
+  "prepared_files": {
+    "README.md": {
+      "bytes": 5836,
+      "sha256": "f9d7538da2f36ec66dfb33b818619bfc5f47d8aefb5f3bb88255d12b399a54cc"
+    },
+    "capture.json": {
+      "bytes": 8022,
+      "sha256": "5fcb01ad45251ec5f4acdab927624af1890b8ffb7a414920421d97a0e169ff9d"
+    },
+    "capture_native.py": {
+      "bytes": 11380,
+      "sha256": "67d60a93a9047e67b5055668e94d78337840b4c0827471797d1587058c5b741c"
+    },
+    "replay_capture.py": {
+      "bytes": 16643,
+      "sha256": "005f3af009491180b1f67de31e3fdad5342789f864e2906b87594eae3f7402ab"
+    },
+    "run_capture.py": {
+      "bytes": 8246,
+      "sha256": "e3a096633f07f6d041f4fe65aedead61336faeceb22c5ed3d7eb6fab2a43ca82"
+    }
+  },
+  "input_files": {
+    "source": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+    },
+    "glb": {
+      "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+      "bytes": 134267928,
+      "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+    },
+    "diagnosis": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-transport-diagnosis-20261002/analysis.json",
+      "bytes": 9646,
+      "sha256": "6c8cebcf01f8eeaee1c4464d88a512db8445b73ccb3e1de35902f6893e3354c6"
+    },
+    "legacy_export_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py",
+      "bytes": 39008,
+      "sha256": "f67acdccdf722752ab7f876fd23de6130570b0d36e0f33e2bff550a1d8086860"
+    },
+    "decoder": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_glb.py",
+      "bytes": 23416,
+      "sha256": "e85fd9492838a75ddfb230c74f5921024a09306f39dbd03dff0be1e243c70f61"
+    },
+    "references": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json",
+      "bytes": 4878654,
+      "sha256": "32901de5c6e092bada794ff49e5f469f61e3fbe1955d7f3f921025016b288b53"
+    },
+    "mesh_protection_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    "official_nodes": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/nodes.py",
+      "bytes": 24921,
+      "sha256": "077d66f73d2a22e7caf13f73be83b3d027cc03995c040a0064b3b7a77dc5bcf1"
+    },
+    "official_primitive_extract": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitive_extract.py",
+      "bytes": 86294,
+      "sha256": "884ba7f2691f1c69874c148a3058791b0621740dc5c7123799f6785fc3c87fa7"
+    },
+    "official_unique": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/gltf2_blender_utils.py",
+      "bytes": 3635,
+      "sha256": "9155b7a71b2deedd6d608f01c50769568d290b1fb9005ea5ac34bb762872401c"
+    },
+    "bundled_python": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/bin/python3.11",
+      "bytes": 28653440,
+      "sha256": "60b08089c60cbe81827b135c8fd9e206ba2ee6bf54aa1dbd0d6f56ac2d5914f6"
+    },
+    "numpy_version": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/version.py",
+      "bytes": 176,
+      "sha256": "ae24c0271908be669d3348be6cb3dbbd8d4a7d3090eff2ac09e55e84c147e687"
+    }
+  },
+  "expected_binary_equivalent_array_bytes": 3650944,
+  "not_run": [
+    "Blender process",
+    "Source open/evaluation",
+    "Fresh raw capture",
+    "Actual ten-target legacy correspondence",
+    "Actual corrected-zero comparison",
+    "GLB export or source save",
+    "Browser",
+    "Commit/push/Slack"
+  ],
+  "qualification": {
+    "transport": "FAIL_STATIC_NATIVE_TRANSPORT",
+    "issues": 2299,
+    "normal_nonzero_vector_error_limit": 0.0002,
+    "whole_vehicle": "ALL_16_OPEN",
+    "browser_qa": "NOT_RUN"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schema": "maz-ten-normal-capture-plan-v1",
+  "prepared_at_head": "78569c6397c6b9920bd6e8d0c0f1166078b16bb0",
+  "inputs": {
+    "source": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+    },
+    "glb": {
+      "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+      "bytes": 134267928,
+      "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+    },
+    "diagnosis": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-transport-diagnosis-20261002/analysis.json",
+      "bytes": 9646,
+      "sha256": "6c8cebcf01f8eeaee1c4464d88a512db8445b73ccb3e1de35902f6893e3354c6"
+    },
+    "legacy_export_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py",
+      "bytes": 39008,
+      "sha256": "f67acdccdf722752ab7f876fd23de6130570b0d36e0f33e2bff550a1d8086860"
+    },
+    "decoder": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_glb.py",
+      "bytes": 23416,
+      "sha256": "e85fd9492838a75ddfb230c74f5921024a09306f39dbd03dff0be1e243c70f61"
+    },
+    "references": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json",
+      "bytes": 4878654,
+      "sha256": "32901de5c6e092bada794ff49e5f469f61e3fbe1955d7f3f921025016b288b53"
+    },
+    "mesh_protection_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    "official_nodes": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/nodes.py",
+      "bytes": 24921,
+      "sha256": "077d66f73d2a22e7caf13f73be83b3d027cc03995c040a0064b3b7a77dc5bcf1"
+    },
+    "official_primitive_extract": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitive_extract.py",
+      "bytes": 86294,
+      "sha256": "884ba7f2691f1c69874c148a3058791b0621740dc5c7123799f6785fc3c87fa7"
+    },
+    "official_unique": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/gltf2_blender_utils.py",
+      "bytes": 3635,
+      "sha256": "9155b7a71b2deedd6d608f01c50769568d290b1fb9005ea5ac34bb762872401c"
+    },
+    "bundled_python": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/bin/python3.11",
+      "bytes": 28653440,
+      "sha256": "60b08089c60cbe81827b135c8fd9e206ba2ee6bf54aa1dbd0d6f56ac2d5914f6"
+    },
+    "numpy_version": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/version.py",
+      "bytes": 176,
+      "sha256": "ae24c0271908be669d3348be6cb3dbbd8d4a7d3090eff2ac09e55e84c147e687"
+    }
+  },
+  "targets": [
+    {
+      "object": "BL_Front_mirror_face_-1",
+      "reference_mesh_id": "mesh-00069",
+      "loops": 1440,
+      "vertices": 384,
+      "triangles": 764,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.740678995847702
+    },
+    {
+      "object": "BL_Front_mirror_face_1",
+      "reference_mesh_id": "mesh-00100",
+      "loops": 1440,
+      "vertices": 384,
+      "triangles": 764,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.740678995847702
+    },
+    {
+      "object": "S543_0_halfshaft_bellows",
+      "reference_mesh_id": "mesh-00583",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_1_halfshaft_bellows",
+      "reference_mesh_id": "mesh-00829",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_2_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01075",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_3_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01321",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_4_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01567",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_5_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01780",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_6_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01993",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    },
+    {
+      "object": "S543_7_halfshaft_bellows",
+      "reference_mesh_id": "mesh-02206",
+      "loops": 12672,
+      "vertices": 3168,
+      "triangles": 6336,
+      "raw_zero": 0,
+      "rounded_zero": 0,
+      "raw_to_reproduced_conversion_max_nonzero_error": 0.2936951594677212
+    }
+  ],
+  "blender_version": [
+    4,
+    5,
+    13
+  ],
+  "blender_build_hash": "daeeeca98fb0",
+  "execution": {
+    "threads": 2,
+    "wall_seconds": 300,
+    "heartbeat_seconds": 10,
+    "term_grace_seconds": 5,
+    "kill_grace_seconds": 5
+  },
+  "unchanged_qualification": {
+    "transport": "FAIL_STATIC_NATIVE_TRANSPORT",
+    "issues": 2299,
+    "normal_nonzero_vector_error_limit": 0.0002,
+    "whole_vehicle": "ALL_16_OPEN",
+    "browser_qa": "NOT_RUN"
+  },
+  "limits": [
+    "Fresh raw vectors are a new measurement, not reconstructed missing run-03 raw bytes. Even matching converted signatures and scalar records does not invert lossy rounding/normalization.",
+    "Only ten named targets; no inference for the other 2364 unique meshes.",
+    "Original raw-vector FAIL, 2e-4 threshold, 2299 issues, old references, generic decoder and all 16 OPEN remain unchanged.",
+    "NORMAL/TEXCOORD corner zero canonicalization is a separate expected-data experiment after all ten legacy records and material records match exactly. POSITION bytes and generic oriented_signature remain unchanged.",
+    "No frame_set, save, export, render, mesh.validate, model edits, browser, production-default changes or acceptance claim."
+  ],
+  "runtime": {
+    "python_version": "3.11.15 (main, Apr 25 2025, 12:39:20) [GCC 11.2.1 20220127 (Red Hat 11.2.1-9)]",
+    "numpy_version": "1.26.4",
+    "numpy_file": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/__init__.py"
+  }
+}

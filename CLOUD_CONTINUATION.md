@@ -1,9 +1,32 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-02 21:27 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-02 21:51 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
+
+## 2026-10-02 21:51 UTC：10目标同源原法线采集准备冻结，先发布再只读执行
+
+- 上项78569c6397c6b9920bd6e8d0c0f1166078b16bb0已插件发布，2路径204990B
+  新空bare逐字核回，阶段报告已交付。现cloud-ten-normal-capture-20261002的
+  6文件56245B准备已完成；清单SHA
+  bcd40034b9b00294688de9a6175bc3e33f14b069e1538dff982514fd0f4965bb。
+- 原模型SHA48dbc498、官方4.5.13/builddaeeeca98fb0、原134MB GLB、run03
+  reference与helper/官方源码、Python/NumPy等13输入固定。只打开保存frame0，
+  按官方有modifier路径evaluated_get→to_mesh，10件逐件finally释放临时mesh；
+  不frame_set、不validate、不save/export/render，不默认允许NODES/SUBSURF。
+- 每目标保存完整float32/int32正常数值JSON及原LE缓冲hash，含-0原位往返；
+  104256loops对应原数组3650944B二进制等价。记录角点长度、round4扰动、转换
+  误差、方向统计/最坏身份和triangle使用状态，而非再次只留一个最大值。
+- 新采集末尾同官方Python3.11.15/NumPy1.26.4环境精确重放完整旧record/材料；
+  任何失配明确FRESH_NOT_CORRESPONDING_RUN03并跳过+0比较。全十件旧记录
+  匹配后才独立对NORMAL/TEXCOORD规范+0并比现有GLB，POSITION和通用签名不改。
+- CPU2/300秒单次操作界，10秒阶段心跳，自有进程组监督/真实终态与有限目标
+  及祖先原始数据前后保护。CAPTURE_COMPLETE仅表示采集/保护完成，对应资格
+  另列；不以exit0掩盖失配，旧raw-vector FAIL/2e-4/2299issues/16OPEN不变。
+- 13输入整SHA、3脚本语法、无启动help、官方bundled Python下数值JSON、旧转换
+  AST精确对照、+0负控和corner统计小检查通过。现先插件完整保存此准备，实际
+  打开源/采集/旧对应/GLB零号比较均未运行；没有创建新模型或放宽阈值。
 
 ## 2026-10-02 21:27 UTC：法线只读诊断排除零符号数值影响，下一只采10目标
 
