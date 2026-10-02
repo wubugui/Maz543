@@ -1,0 +1,210 @@
+{
+  "date_utc": "2026-10-02",
+  "status": "1977_PRIMARY_PIXELS_VERIFY_A_PHOTO_AND_GENERAL_CAB_TOPOLOGY_NOT_DIMENSIONED_INSTALLATION",
+  "supersedes_only": "Earlier decoder-unavailable/read-pending limitation; the original recovery record remains historical",
+  "source": {
+    "title": "Колесное шасси МАЗ-543 и его модификации. Техническое описание и инструкция по эксплуатации",
+    "edition": 3,
+    "year": 1977,
+    "publisher": "Military Publishing House, USSR Ministry of Defence",
+    "title_page_pixels_verified": true,
+    "public_index": "https://teharmy.com/books/",
+    "public_book": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+    "bytes": 11405399,
+    "sha256": "cf8ebb65dcbfca6dd3b6c55a3174cfe9d628a206cb8c846eceee0041a2bb1bde",
+    "source_unchanged_after_decoding": true
+  },
+  "decoder": {
+    "runtime_banner": "DDJVU --- DjVuLibre-3.5.28",
+    "package_version": "3.5.28-2.2",
+    "architecture": "amd64",
+    "upstream": "https://djvu.sourceforge.net/",
+    "distribution_reference": "https://packages.debian.org/trixie/djvulibre-bin",
+    "method": "Official Debian package payloads extracted inside the authorized cloud workspace; no system package/configuration mutation",
+    "packages": [
+      {
+        "file": "djvulibre-bin_3.5.28-2.2_amd64.deb",
+        "sha256": "a1f23b5d8e382c8567c78e47f4090586054d6bdb5d2dd3363350081b4c49ea1f",
+        "bytes": 302788,
+        "source": "https://deb.debian.org/debian/pool/main/d/djvulibre/djvulibre-bin_3.5.28-2.2_amd64.deb"
+      },
+      {
+        "file": "libdjvulibre21_3.5.28-2.2_amd64.deb",
+        "sha256": "576f95b4129c6e06d27c83389a9d0025d65cfff79c82f01936eb44d160b7049d",
+        "bytes": 610336,
+        "source": "https://deb.debian.org/debian/pool/main/d/djvulibre/libdjvulibre21_3.5.28-2.2_amd64.deb"
+      },
+      {
+        "file": "libdjvulibre-text_3.5.28-2.2_all.deb",
+        "sha256": "c9e5c8c23994e0d7385155d2acd1c1b715dff495583e051491684efa0bf9a719",
+        "bytes": 52024,
+        "source": "https://deb.debian.org/debian/pool/main/d/djvulibre/libdjvulibre-text_3.5.28-2.2_all.deb"
+      }
+    ],
+    "executable_sha256": {
+      "ddjvu": "c34f662cf6ac7d52fa14f296c0095ab78783cf7f09c29d106e2629c0c0c53a7a",
+      "djvutxt": "363d33a924bf8f4649ff3c711ea3cefd776e58a97074142b2daa6b0b92750216",
+      "djvused": "e67c85890999fc2f826c368a68766454616f1815ade1eb627c73c17cfb046e8e"
+    },
+    "render_options": [
+      "-format=ppm",
+      "-page=2,3,5,87-90",
+      "-eachpage"
+    ],
+    "text_use": "Existing OCR text extracted only for search and page selection; key source conclusions verified against decoded pixels"
+  },
+  "page_locators": [
+    {
+      "scan_unit_1based": 2,
+      "printed_pages": [
+        1
+      ],
+      "locator": "Title page; third edition and Moscow 1977 visible",
+      "decoded_pixels": [
+        2094,
+        3318
+      ],
+      "decoded_ppm_sha256": "34fccc87d84423c01a776a596b68834bfbb49c691236f804dde8fdd0b4ae2bbc",
+      "decoded_png_sha256": "fd409ed1a3d2c940fa036d25cdec4c9d4b2de48b8b5baf7518ea5fe9d3640acf",
+      "pixels_inspected": true
+    },
+    {
+      "scan_unit_1based": 3,
+      "printed_pages": [
+        2,
+        3
+      ],
+      "locator": "Blank p2 and introduction p3; base-model scope and documentation date",
+      "decoded_pixels": [
+        4343,
+        3300
+      ],
+      "decoded_ppm_sha256": "4ba279cf05eca3cad8704969d473d9422ccdfd3ed54d55f8fbf6ef452cacb0d1",
+      "decoded_png_sha256": "ba3fa8b0504f21dece1b45c4e2cde8da69dd99ba2af6b16d9d166f5a3cf2fd6e",
+      "pixels_inspected": true
+    },
+    {
+      "scan_unit_1based": 5,
+      "printed_pages": [
+        6,
+        7
+      ],
+      "locator": "Figure 2 on p.6 specifically captions MAZ-543A; adjacent figures label 543/543V/543M",
+      "decoded_pixels": [
+        4343,
+        3300
+      ],
+      "decoded_ppm_sha256": "64934afe26999b69a8d6ca5ad0b4b01544fe8e97221dea3e3de326af647d51f3",
+      "decoded_png_sha256": "359b1a265359a9f35251f76730f0bd0c08c16e2ba2f567d51d91a791d6a82ad8",
+      "pixels_inspected": true
+    },
+    {
+      "scan_unit_1based": 87,
+      "printed_pages": [
+        170,
+        171
+      ],
+      "locator": "Cab general description and cab body mounting/tilt prose",
+      "decoded_pixels": [
+        4397,
+        3327
+      ],
+      "decoded_ppm_sha256": "116f601cd451c8d2513d248fa1ce6efa48fbeca4441a754cfa80b846e396816c",
+      "decoded_png_sha256": "639aeb422f1c39237bbabc42351a3037b994835d590d8cca0e7ea39c5b52d521",
+      "pixels_inspected": true
+    },
+    {
+      "scan_unit_1based": 88,
+      "printed_pages": [
+        172,
+        173
+      ],
+      "locator": "Cab fittings, references to figures 101/102, heater and bodywork prose",
+      "decoded_pixels": [
+        4397,
+        3327
+      ],
+      "decoded_ppm_sha256": "516bc05957ed9d977705ef6b8a259a82e9237cc44a175f6fa75a9d857f1b707a",
+      "decoded_png_sha256": "e708b3ab532bc0254ccf5f140e5c4c4e78e0ab791d409897a821f808155b1e91",
+      "pixels_inspected": true
+    },
+    {
+      "scan_unit_1based": 89,
+      "printed_pages": [
+        174,
+        175
+      ],
+      "locator": "Figure 101 left-cab image/caption on p.174; instrument layout p.175; scan stored in a rotated spread arrangement",
+      "decoded_pixels": [
+        3327,
+        4397
+      ],
+      "decoded_ppm_sha256": "9580e8552eb996cc287568d1a455904e808363f3aab56cf2086f029e77ec320e",
+      "decoded_png_sha256": "4cafc236312b65f7a43214dddfa55bd5a16f5a105f083100d1ba397e539a2ef9",
+      "pixels_inspected": true
+    },
+    {
+      "scan_unit_1based": 90,
+      "printed_pages": [
+        176,
+        177
+      ],
+      "locator": "Figure 102 instrument/tilt details and caption on p.176; right-cab view continues atop p.177; figure 103 below",
+      "decoded_pixels": [
+        4397,
+        3327
+      ],
+      "decoded_ppm_sha256": "379898180a12e63d7df5ece96f7aa2d394f4953f9d5b1996c0bc5ab43f499acb",
+      "decoded_png_sha256": "15274f072b216942d4183404c8bb1d6de9ffaa1ed394bd19f952febefaf60da7",
+      "pixels_inspected": true
+    }
+  ],
+  "new_primary_findings": [
+    {
+      "id": "A_SPECIFIC_PHOTO",
+      "locator": "scan unit 5, printed p.6, figure 2",
+      "claim": "The handbook itself labels this photographed chassis MAZ-543A. The visible lower step is below the door-bearing fixed sill in the region forward of the near first wheel.",
+      "boundary": "Halftone oblique photo; no calibrated coordinates, exact clearance, hidden mount identity, individual vehicle production year or serial number established"
+    },
+    {
+      "id": "1977_CAB_TOPOLOGY",
+      "locator": "scan unit 89/p.174 figure 101 and scan unit 90/p.177 upper cab view of figure 102",
+      "claim": "Both general cab drawings show a connected lower frame, two distinct tread regions and three support positions below the fixed sill. The step does not trace the complete cab lower perimeter or its rear extension.",
+      "boundary": "General cab illustrations; not manufacturing/detail drawings. Do not infer a metric end position, section size, flexibility or joint design from linework"
+    },
+    {
+      "id": "CABLE_CALLOUT_SCOPE",
+      "locator": "scan unit 90/p.176, figure 102 tilt-mechanism inset and caption",
+      "claim": "Cable callout 17 is attached to the cab-tilting mechanism, not to a lower-step support.",
+      "boundary": "Does not specify whether the step supports themselves contain cable"
+    },
+    {
+      "id": "APPLICABILITY_LIMIT",
+      "locator": "scan unit 3/p.3 introduction; scan unit 87/p.170 cab description",
+      "claim": "The introduction treats 543 as the base and describes differences for 543A/543V/543M, with documentation current to 1977-01-01. The cab prose expressly groups 543 and 543A as two two-seat, two-door cabs.",
+      "boundary": "This establishes handbook scope, not identity of every lower-step revision or target vehicle batch"
+    }
+  ],
+  "bounded_negative_findings": {
+    "visually_read_scope": "Title p.1, introduction p.3, general cab/bodywork prose pp.170-173, figures 101/102 and captions pp.174-177, A-labelled photograph p.6",
+    "not_found_in_this_scope": [
+      "Dimensioned lower-step installation",
+      "Step-support material/flexibility specification",
+      "Detailed hidden step hardpoints",
+      "Step-support joints or section sizes",
+      "Specified clearance to first wheel"
+    ],
+    "ocr_search": "Case-insensitive stem поднож returned zero matches in the extracted full-book OCR; this is only a search result, not proof of absence from uninspected pages or figures",
+    "scope_warning": "Do not say the whole handbook lacks an answer; only the stated pages and figures were visually assessed for this task"
+  },
+  "modeling_consequence": "An A-labelled original-handbook photograph now supports the qualitative forward-of-first-wheel installation region. No candidate length, height, offset or hardpoint coordinate is selected. The existing short step and 2.2 m fitted step remain rejected by their independent intersection evidence.",
+  "remaining_gap": [
+    "Contemporary applicable step assembly/detail drawing or documented physical measurement",
+    "Exact lower-step ends and three mounting coordinates",
+    "Support material, flexibility, section and joints",
+    "Target-batch revision identity",
+    "Native candidate installation and motion checks after source-grounded placement"
+  ],
+  "source_pixels_published": false,
+  "model_or_repository_modified": false
+}
