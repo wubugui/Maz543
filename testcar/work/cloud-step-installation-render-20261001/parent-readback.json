@@ -1,0 +1,81 @@
+{
+  "status": "ALL_12_RENDER_RECORDS_EXACT_RESTORE_AND_PIXELS_REVIEWED",
+  "records": [
+    {
+      "path": "diagnostic-render/REPORT.md",
+      "sha256": "e61d4401a9b450897528e8f078da2c8805a157daa89b0114ca8d3ea96c2efdc5",
+      "bytes": 1803,
+      "exact": true
+    },
+    {
+      "path": "diagnostic-render/PIXEL_REVIEW.json",
+      "sha256": "20688486c1f6f1ba5ffd3869eb35b4c35a346c5813736b94120932717bfd58c9",
+      "bytes": 1316,
+      "exact": true
+    },
+    {
+      "path": "diagnostic-render/render-rejected-layout.py",
+      "sha256": "b9f6e053a870eff144321d315205ee55e5881dff918ff011196d77d2da7bdc68",
+      "bytes": 21597,
+      "exact": true
+    },
+    {
+      "path": "diagnostic-render/run-render.py",
+      "sha256": "792261ad95bf03baa54a4529c8953689c6d258517b8d68dc5c71735e7bf38573",
+      "bytes": 2987,
+      "exact": true
+    },
+    {
+      "path": "diagnostic-render/attempt-01/executed-script.py",
+      "sha256": "b9f6e053a870eff144321d315205ee55e5881dff918ff011196d77d2da7bdc68",
+      "bytes": 21597,
+      "exact": true
+    },
+    {
+      "path": "diagnostic-render/attempt-01/executed-runner.py",
+      "sha256": "792261ad95bf03baa54a4529c8953689c6d258517b8d68dc5c71735e7bf38573",
+      "bytes": 2987,
+      "exact": true
+    },
+    {
+      "path": "diagnostic-render/attempt-01/native.log",
+      "sha256": "28b786e05aad17241d7202f8d143b0dcd16bb45653f9af3e1869108fa66dbdaf",
+      "bytes": 1227519,
+      "exact": true
+    },
+    {
+      "path": "diagnostic-render/attempt-01/process.json",
+      "sha256": "9ac264f9f0bdcde8747869e31bbb048a8631e434c68b622288a0b9c878d42e06",
+      "bytes": 1666,
+      "exact": true
+    },
+    {
+      "path": "diagnostic-render/attempt-01/native/fit-report.json",
+      "sha256": "bf3e0bffa03d3ca3d57db2837263d230fc7be47935ad479a0af746ab6813e996",
+      "bytes": 66057,
+      "exact": true
+    },
+    {
+      "path": "diagnostic-render/attempt-01/native/instance-manifest.json",
+      "sha256": "7a1c49eabbdf2c8421be601f5a75785919de6a2888a3edeaf2a18a16f0bf08f5",
+      "bytes": 270669,
+      "exact": true
+    },
+    {
+      "path": "diagnostic-render/attempt-01/native/frame-degeneracy-diagnostic.json",
+      "sha256": "f1cc72e16e804efc006ca1912b9fc5c253da13d30b04d72de6c413e9e3122c4f",
+      "bytes": 354596,
+      "exact": true
+    },
+    {
+      "path": "pack-evidence-v2.py",
+      "sha256": "3c50e58b908eb341d4cdaa1fb782456a4f39be6f051427f2b991d8805d53dcb5",
+      "bytes": 6630,
+      "exact": true
+    }
+  ],
+  "image_sha256": "c3be1592a5bb0ea467ff33ea30bdb01f2883cb16176a4b2b985ea5340b3458c7",
+  "actual_pixels_review": "Long diagnostic tread visibly crosses unchanged front wheel region; original upper platforms retained. Some frame/tread boundaries superpose in this side view. Captions readable, pale original material appearance not a texture update. Not a proof of depth or clearance.",
+  "image_not_in_git": true,
+  "no_blend_saved": true
+}

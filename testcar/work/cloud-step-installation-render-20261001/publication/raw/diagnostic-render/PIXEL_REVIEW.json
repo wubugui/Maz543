@@ -1,0 +1,24 @@
+{
+  "status": "DIRECT_PIXELS_REVIEWED_DIAGNOSTIC_VIEW_USEFUL",
+  "image_file": "attempt-01/native/rejected-layout-side.png",
+  "image_sha256": "c3be1592a5bb0ea467ff33ea30bdb01f2883cb16176a4b2b985ea5340b3458c7",
+  "image_bytes": 1315375,
+  "resolution": [
+    1200,
+    840
+  ],
+  "observed": [
+    "Unchanged actual front wheel visibly intersects the long fitted lower step region",
+    "Both retained old upper platform boxes are visible above the fitted lower frame",
+    "Diagnostic cyan tread1 and pale-pink/magenta tread2 lie over the orange/coral lower frame",
+    "Rejected-layout and invalid-frame labels are legible",
+    "Complete original scene retained; this camera crops the upper cab and wider vehicle deliberately"
+  ],
+  "limits": [
+    "Side projection illustrates the independently measured conflict, not a proof of depth or exact penetration",
+    "Direct frontal side view largely superposes frame and tread thickness; orange/coral frame hides some lower tread boundaries",
+    "Original native master materials were not changed; light tyre appearance belongs to this native candidate/render setting, not a new texture result",
+    "No physical support guides created, no whole-vehicle, motion or manufacturing acceptance",
+    "No PNG committed to Git/LFS or publicly shared by this task"
+  ]
+}
