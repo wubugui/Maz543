@@ -51,7 +51,7 @@
 缓存受现有 `/work/` 忽略规则保护，不复制到 `public` 或新增 LFS 对象。
 
 运行 `npm run dev:static-diagnostic`，打开
-`http://localhost:3001/diagnostics/native-static/`。截图固定镜头入口为
+`http://127.0.0.1:3001/diagnostics/native-static/`。截图固定镜头入口为
 `?view=overview`、`?view=front`、`?view=side`、`?view=rear`。
 “保存当前视图 PNG”下载真实 WebGL 画布，在画面外加 64px 诊断状态标题带，不修改模型像素。
 页面仅移动相机，使用真实 GLTFLoader 和 OrbitControls；原始节点姿态、完整导出范围与
@@ -119,3 +119,9 @@ frame 0。加载成功仅代表实际解析及第一帧 render，不能代替真
 `scripts/prepare-cooling-references.py` 生成原始目录 GIF 的兼容 PNG。
 `blender-cooling.py` 自动附入资料；仅更新现有冷却母版的依据时，在 Blender 执行
 `scripts/cooling_references.py`，它会保存、重新打开并检查机构数据没有变化。
+
+诊断服务默认只绑定 loopback。当前云环境中，通配 host 的接口枚举会报
+`uv_interface_addresses`；loopback 启动与同一执行上下文内 HTML/模块/资产 HTTP
+检查已通过。此环境跨执行调用的 loopback 可达性未建立，云浏览器导航返回
+`ERR_BLOCKED_BY_CLIENT`，因此浏览器真实装载与 PNG 下载仍未验证。不能把
+HTTP 200 或构建通过当成已经看过图；原模型验收 FAIL 不变。

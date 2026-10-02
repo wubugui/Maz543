@@ -1,0 +1,42 @@
+{
+  "status": "SAME_CONTEXT_HTTP_VERIFIED_BROWSER_UNVERIFIED",
+  "source_commit": "3b1580b7775734d0f2af0e9a466780c498fb92b6",
+  "prior_cross_exec_http": "URLError: <urlopen error [Errno 111] Connection refused>",
+  "browser_loaded_model": false,
+  "first_frame_rendered": false,
+  "pngs": 0,
+  "pid": 6,
+  "command": [
+    "taskset",
+    "-c",
+    "0,1",
+    "node",
+    "node_modules/vite/bin/vite.js",
+    "--config",
+    "vite.static-diagnostic.config.ts",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "3001",
+    "--strictPort"
+  ],
+  "page": {
+    "status": 200,
+    "bytes": 3447,
+    "sha256": "49479df32a3553212cf737bc4d941363ac78748ff28709108cd3e4e83ab17788"
+  },
+  "transformed_module": {
+    "status": 200,
+    "bytes": 36941,
+    "sha256": "53ec17a3b3090823a0acc55a9088b06614e369f5e7eb4e1c75d5df4a286c69f0"
+  },
+  "asset_head": {
+    "status": 200,
+    "bytes": 134267928,
+    "sha256_header": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d",
+    "content_type": "model/gltf-binary"
+  },
+  "server_exit_code_after_owned_cleanup": 143,
+  "elapsed_seconds": 0.6928802480106242,
+  "finished_utc": "2026-10-02T20:37:46Z"
+}

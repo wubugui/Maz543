@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vinext dev",
-    "dev:static-diagnostic": "vite --config vite.static-diagnostic.config.ts --host 0.0.0.0 --port 3001 --strictPort",
+    "dev:static-diagnostic": "vite --config vite.static-diagnostic.config.ts --host 127.0.0.1 --port 3001 --strictPort",
     "build:static-diagnostic": "vite build --config vite.static-diagnostic.config.ts",
     "prepare:static-diagnostic": "python3 outputs/cloud-native-static-suspension-20261002/restore_glb.py --output work/native-static-preview/native-static.glb",
     "build": "vinext build",
