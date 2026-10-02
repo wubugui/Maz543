@@ -1,6 +1,6 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-02 10:43 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-02 10:59 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
@@ -30,8 +30,8 @@
 `testcar/docs/ACCEPTANCE.md`、`testcar/MIGRATION_HANDOFF.md`。
 
 - 独立开发分支：`development/cloud-maz543a-20260930`
-- 最近已核实发布的HEAD：`b370f6847d094c2b31aaea1f41d1d1718bcc485b`（5件MetricUV/真实法线诊断18文本已完整实读；原UV intake仍BLOCKED，Git模型实体仍cc47bf6）
-- 该提交根树：`618a084f0119e0eb61d4061e3dbc74c9b434313c`
+- 最近已核实发布的HEAD：`5e36960fe16f727bbd5d4ff9cce57e846217b0c5`（Textured trial01前置失败14文本已完整实读；原UV intake仍BLOCKED，Git模型实体仍cc47bf6）
+- 该提交根树：`fe29ea52b6321ce5389149a1d40171374393e34d`
 - 插件原生Git对象发布后远端ref/tree/parent及文件字节已核实，本地分支已对齐
 - 原迁移分支保持：`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`
 - `migration/cloud-handoff/DELIVERY_STATE.json`确认完整快照，无待迁移文件；
@@ -86,6 +86,36 @@
 | 对应Textured候选 | `testcar/outputs/cloud-va180-textured-20261001/MAZ543A_Textured.blend`；`6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266` |
 | 开发专用GLB候选 | `testcar/public/models/review/maz543a-cab-va180-v1.glb`；`fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e` |
 | 独立TEM15前脸iteration02 | `testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/study.blend`；`a65ec84c7a03de257ad5971b9675bd4d83c5515a6429875e6d02418c760b3def` |
+
+## 2026-10-02 10:59 UTC：真实Textured前4轮已保存，独立fresh-open通过限定范围
+
+- 原6e源实际构造52.730708秒exit0，独立重新打开12.253417秒exit0，均确认正常
+  子进程终态、未超时、原99960163B/SHA不变。已保存真正可编辑候选，并非只完成检查。
+- 新增4个原生EMPTY关节框在原主销轴上；原carrier与固定制动器连接对应关节框，
+  原4鼓连接对应spin，共12条原父边变更。4spin从QUATERNION改XYZ，与原Euler
+  曲线字段一致；8旧父坐标action只分离并设fake user保留，全部552原action关键帧/
+  handle数据未改。没有Apply已烘焙字模、造替代FONT、手写网格、删件或挪其他系统。
+- 128移动网格中性最大顶点误差0.070460µm<原2µm门；本地几何、UV、实际corner/
+  vertex/polygon法线、已读拓扑与材质保持。4轮各0.731/π共8个实际属性旋转，最大
+  刚体误差0.315052µm、圆周路径误差0.201747µm<原20µm门；固定制动器位移0，
+  鼓/胎均实测运动，8样本后4次恢复精确。有限样本不等于连续机械净空或运动证明。
+- 8518原对象保留，8358范围外中性矩阵完全不变，82原材质、132已读raw保持。
+  新文件fresh-open得到8522对象，全部保存矩阵/父链/552action数据、132raw/128
+  evaluated记录与7个所选原shader图精确回读。保存前全部15个FILE图像已打包，
+  Render Result为VIEWER且无需外部文件；没有重新渲染或更改原图像资源。
+- 新文件仅云端：maz-textured-front-wheel-fixed-20261002/fixed-01/
+  MAZ543A_Textured_Front_Wheel_Parent_Study.blend，100052636B、SHA
+  48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea。
+  **LOCAL_ONLY_LFS_BLOCKED，不在GitHub**；原生脚本/全证据可重放，新模型实体没有
+  上传路线，不能发布缺失实体指针或把binary改编码塞进Git文本。生产默认不变。
+- 全过程固定frame0，未执行原全场31/91时间线；9个原NODES资格仍BLOCKED，旧
+  trial01失败保留。切换XYZ是实际模式修复，不宣称时间线/转向/CV/悬架安装通过。
+  原exact132 MetricUV intake仍BLOCKED，4支承的原evaluated UV差异单独保留；
+  其raw、位置、已读拓扑与真实法线受保护，未放宽通用UV门。16整车门仍OPEN。
+- testcar/work/cloud-textured-wheel-fixed-20261002/保留42文本2647291B，两个进程
+  原生日志/准备/终态、实际构造与fresh-open脚本、原材料/动作记录和独立结果核算。
+  普通JSON表已独立恢复全部42原文及final清单逐字节核对；未包含模型/PNG/GLB字节。
+  下一项做保存候选真实可见画面，并继续查未分类前盖图/后续导出与网页父链接入。
 
 ## 2026-10-02 10:43 UTC：Textured真实修复前置门拒9个原NODES，构造尚未开始
 

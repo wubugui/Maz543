@@ -1,0 +1,19 @@
+# Saved Textured front-four native hierarchy candidate
+
+A real editable Blender candidate has been constructed and saved from the exact Textured6e source. Build:52.730708seconds/exit0; independent fresh-open:12.253417seconds/exit0. Both terminated normally without timeout. The source file stayed unchanged.
+
+The candidate adds four native EMPTY joint frames on the retained kingpin axes, parents the original carriers and stationary brakes under those frames, and places each original simplified drum under its existing wheel spin. It changes the four spin modes from QUATERNION to XYZ, matching their unchanged original Euler action channels. The eight former parent-coordinate carrier/brake actions are detached but preserved with fake users; all552 original action key/handle records are unchanged. No vertex or face construction, modifier Apply, part deletion, relocation of other systems or new font was used.
+
+All128 moving meshes preserve their local geometry, UV, real corner/vertex/polygon normals, topology and materials exactly. Neutral world vertex error is at most0.070460micrometres, below the original2micrometre gate. Four wheels at0.731 and pi radians produce eight actual fixed-frame rotations: maximum rigid error0.315052micrometres and radius-path error0.201747micrometres, below the original20micrometre gates. Each drum and tyre actually moves; all fixed brake geometry has0 displacement. Each finite property trial restores exactly. These are samples, not a continuous mechanical proof.
+
+All8518 original objects remain,12 parent edges change, and8358 outside neutral matrices stay exact. All82 materials and132 selected raw meshes remain unchanged in the build. The saved file fresh-opens with8522 objects, all saved world matrices and parent edges exact, all552 original action key records exact,132 raw/128 evaluated meshes exact, and the selected original material node graphs unchanged. Packed image resources were checked before saving.
+
+Binary:100052636bytes, SHA-256 48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea. It currently exists only in the authorized cloud workspace as fixed-01/MAZ543A_Textured_Front_Wheel_Parent_Study.blend. Delivery status is LOCAL_ONLY_LFS_BLOCKED: no GitHub binary upload or missing-entity pointer is claimed. The full recipe and verification evidence below are published and replayable against the existing tracked6e asset.
+
+Global timeline playback remains BLOCKED and was not executed: trial01's nine-node preflight failure is preserved separately in5e36960f. This stage holds frame0 and does not give arbitrary NODES or SUBSURF permission. Activating matching Euler mode is a concrete edit, not evidence that frames31/91, steering, CV, suspension installation or continuous mechanics pass. The original exact132-mesh MetricUV intake remains BLOCKED; the four original support meshes retain their known evaluated UV differences while their raw data, positions, full recorded topology and actual normals are protected. All16 vehicle gates remain OPEN. No fresh render, GLB export or browser validation occurred in this stage.
+
+Restore all frozen text into a new unused directory:
+
+    python -B package-fixed-evidence.py restore --package . --out /tmp/maz-fixed-restored-UNUSED
+
+The ordinary JSON value/reference tables preserve scripts, inputs, exact evidence, original logs, both terminal processes and the independent result review. No blend/PNG/GLB bytes are encoded. Source asset paths remain explicit; ordinary engine launches require a coordinated cloud compute window, not renewed user permission.
