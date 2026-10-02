@@ -103,11 +103,53 @@ def main():
     assert tuple(cfg['expected']['neutral_torsion_names']) == TORSION_NAMES
     assert len(TORSION_NAMES) == len(set(TORSION_NAMES)) == 16
     assert all(name in names for name in TORSION_NAMES)
+    from self_component import source_issues, component_issues, count_issues, INT_MAX
+    expected_components = {n: inventory[n]['type'] for n in names if inventory[n]['type'] in {'CURVE', 'FONT'}}
+    assert cfg['expected']['self_components'] == expected_components
+    assert dict(Counter(expected_components.values())) == {'CURVE': 13, 'FONT': 7}
+    identity = [[1.0 if i == j else 0.0 for j in range(4)] for i in range(4)]
+    source = {'pointer': 1, 'type': 'CURVE', 'original': {'pointer': 1}, 'matrix_world': identity,
+              'instance_type': 'NONE', 'instance_collection': None, 'particle_system_count': 0,
+              'modifier_types': ['WELD'], 'is_instancer': False, 'data': {'pointer': 10, 'rna_type': 'Curve'}}
+    evaluated = dict(source, pointer=2, data={'pointer': 20, 'rna_type': 'Curve'})
+    temporary = dict(source, pointer=3, type='MESH', data={'pointer': 30, 'rna_type': 'Mesh'})
+    native_fields = {'position': 'native-coordinate-hash', 'corner_normals': 'native-normal-hash',
+                     'uvs': 'native-UV-hash', 'materials': ['actual-material']}
+    proof = {'source': source, 'evaluated_object': evaluated, 'saved_matrix': identity,
+             'evaluated_mesh_fields': native_fields}
+    entry = {'is_instance': True, 'object': temporary, 'instance_object': evaluated, 'parent': evaluated,
+             'matrix_world': identity, 'persistent_id': [0] + [INT_MAX] * 7,
+             'particle_system': None, 'mesh_fields': native_fields}
+    assert not source_issues(source, 'CURVE', identity)
+    assert not component_issues(proof, entry)
+    for ordinary in (0, 1):
+        assert not count_issues(ordinary, [entry])
+    component_controls = ['root self Mesh accepted; ordinary count 0 or 1 does not infer multiplicity']
+    for label, mutate in [
+        ('foreign original', lambda r: r['object'].update(original={'pointer': 99})),
+        ('different evaluated parent', lambda r: r['parent'].update(pointer=99)),
+        ('displaced matrix', lambda r: r['matrix_world'][0].__setitem__(3, 0.1)),
+        ('nested persistent ID', lambda r: r['persistent_id'].__setitem__(1, 0)),
+        ('Curve instead of Mesh', lambda r: r['object'].update(type='CURVE')),
+        ('particle instance', lambda r: r.update(particle_system={'pointer': 99})),
+        ('different native UV', lambda r: r['mesh_fields'].update(uvs='different')),
+        ('different material group', lambda r: r['mesh_fields'].update(materials=['other']))]:
+        row = copy.deepcopy(entry); mutate(row)
+        assert component_issues(proof, row), label
+        component_controls.append(label + ' rejected')
+    for label, mutate in [('Geometry Nodes source', lambda r: r['modifier_types'].append('NODES')),
+                           ('legacy instancer', lambda r: r.update(is_instancer=True))]:
+        row = copy.deepcopy(source); mutate(row)
+        assert source_issues(row, 'CURVE', identity), label
+        component_controls.append(label + ' rejected')
+    assert count_issues(1, []) and count_issues(1, [entry, entry])
+    component_controls.append('missing or duplicate component rejected')
     result = {'status': 'PURE_STATIC_PREPARATION_PASS', 'compiled': compiled,
               'verified_input_count': len(pins), 'official_option_names': len(op),
               'scope_names': len(names), 'station_names': 48,
               'scope_types': cfg['expected']['types'], 'deadline_controls': deadline_controls,
               'neutral_torsion_schema_controls': torsion_controls,
+              'self_component_controls': component_controls,
               'capacity_controls': capacity_controls, 'decode_failure_controls': decode_controls,
               'decoder_controls': test_controls(), 'native_execution': False,
               'asset_created': False, 'all16_vehicle_gates': 'OPEN'}

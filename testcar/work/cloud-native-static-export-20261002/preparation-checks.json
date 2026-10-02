@@ -4,6 +4,7 @@
     "check_preparation.py",
     "export_native.py",
     "run_export.py",
+    "self_component.py",
     "torsion_neutral.py",
     "validate_export.py",
     "validate_glb.py"
@@ -43,6 +44,20 @@
     "vertex group rejected",
     "driver rejected",
     "NLA rejected"
+  ],
+  "self_component_controls": [
+    "root self Mesh accepted; ordinary count 0 or 1 does not infer multiplicity",
+    "foreign original rejected",
+    "different evaluated parent rejected",
+    "displaced matrix rejected",
+    "nested persistent ID rejected",
+    "Curve instead of Mesh rejected",
+    "particle instance rejected",
+    "different native UV rejected",
+    "different material group rejected",
+    "Geometry Nodes source rejected",
+    "legacy instancer rejected",
+    "missing or duplicate component rejected"
   ],
   "capacity_controls": [
     {

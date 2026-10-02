@@ -19,6 +19,7 @@ import numpy as np
 import bpy
 from validate_glb import oriented_signature
 from torsion_neutral import TORSION_NAMES, neutral_schema_issues
+from self_component import source_issues, component_issues, count_issues
 
 
 def digest(value):
@@ -178,10 +179,114 @@ def torsion_key_record(obj, animation_state, action_record, data_users):
                      for k in keys.key_blocks]}
 
 
-def static_preflight(names, output, namespace, action_record):
+def pointer_record(block):
+    if block is None:
+        return None
+    return {'pointer': block.as_pointer(), 'name': block.name,
+            'rna_type': block.bl_rna.identifier, 'original_pointer': block.original.as_pointer(),
+            'original_name': block.original.name, 'original_rna_type': block.original.bl_rna.identifier}
+
+
+def object_record(obj):
+    if obj is None:
+        return None
+    return {'pointer': obj.as_pointer(), 'name': obj.name, 'type': obj.type,
+            'rna_type': obj.bl_rna.identifier, 'data': pointer_record(obj.data),
+            'original': {'pointer': obj.original.as_pointer(), 'name': obj.original.name,
+                         'type': obj.original.type, 'data': pointer_record(obj.original.data)},
+            'matrix_world': [list(r) for r in obj.matrix_world],
+            'instance_type': obj.instance_type, 'instance_collection': pointer_record(obj.instance_collection),
+            'is_instancer': obj.is_instancer, 'particle_system_count': len(obj.particle_systems),
+            'modifier_types': [m.type for m in obj.modifiers]}
+
+
+def self_component_preflight(dg, names, expected, graph_records, problem):
+    """Copy self-component evidence; never retain iterator-owned objects."""
+    rows, allowed = {}, {}
+    source_pointers = {bpy.data.objects[n].as_pointer(): n for n in names}
+    actual = {n: bpy.data.objects[n].type for n in names if bpy.data.objects[n].type in {'CURVE', 'FONT'}}
+    if actual != expected:
+        problem(None, 'exact20_self_component_scope', {'actual': actual, 'expected': expected})
+    # Independent official evaluated meshes are read and released BEFORE iteration.
+    for name, expected_type in expected.items():
+        evaluated = None
+        try:
+            obj = bpy.data.objects[name]
+            row = {'source': object_record(obj), 'saved_matrix': graph_records[name]['matrix_world_rows'],
+                   'ordinary_count': 0, 'ordinary_entries': [], 'components': []}
+            rows[name] = row
+            for reason in source_issues(row['source'], expected_type, row['saved_matrix']):
+                problem(name, 'self_component:' + reason)
+            evaluated = obj.evaluated_get(dg)
+            row['evaluated_object'] = object_record(evaluated)
+            mesh = evaluated.to_mesh(preserve_all_data_layers=True, depsgraph=dg)
+            assert mesh is not None
+            row['evaluated_mesh_identity'] = pointer_record(mesh)
+            row['evaluated_mesh_fields'] = static_mesh_fields(mesh, tuple(mesh.materials))
+            assert len(mesh.polygons) > 0, 'Empty component unsupported in exact20 scope'
+            row['source_unchanged_during_evaluation'] = object_record(obj) == row['source']
+            assert row['source_unchanged_during_evaluation']
+        except Exception:
+            problem(name, 'self_component_source_read_error', traceback.format_exc())
+        finally:
+            if evaluated is not None:
+                try:
+                    evaluated.to_mesh_clear()
+                except Exception:
+                    problem(name, 'self_component_mesh_clear_error', traceback.format_exc())
+    unexpected = []
+    try:
+        for instance in dg.object_instances:
+            # Read identities first while this iterator entry is valid. No update,
+            # evaluated_get or to_mesh call occurs inside this iteration.
+            owners = [o.original.as_pointer() for o in (instance.object, instance.instance_object, instance.parent) if o]
+            relevant = [source_pointers[p] for p in owners if p in source_pointers]
+            if not relevant:
+                continue
+            name = source_pointers.get(instance.object.original.as_pointer()) if instance.object else None
+            if not instance.is_instance and name not in rows:
+                continue
+            entry = {'is_instance': instance.is_instance, 'object': object_record(instance.object),
+                     'instance_object': object_record(instance.instance_object), 'parent': object_record(instance.parent),
+                     'matrix_world': [list(r) for r in instance.matrix_world],
+                     'persistent_id': list(instance.persistent_id), 'random_id': instance.random_id,
+                     'particle_system': None if instance.particle_system is None else
+                        {'pointer': instance.particle_system.as_pointer(), 'name': instance.particle_system.name},
+                     'show_self': instance.show_self, 'show_particles': instance.show_particles,
+                     'mesh_fields': None}
+            if not entry['is_instance']:
+                rows[name]['ordinary_count'] += 1
+                rows[name]['ordinary_entries'].append(entry)
+                if entry['object'] != rows[name].get('evaluated_object') or entry['matrix_world'] != rows[name]['saved_matrix']:
+                    problem(name, 'self_component:ordinary_entry_source_or_matrix')
+                continue
+            if name not in rows:
+                unexpected.append(entry)
+                problem(name, 'unqualified_derived_instance', {'relevant_originals': relevant})
+                continue
+            rows[name]['components'].append(entry)
+            try:
+                if instance.object.type == 'MESH' and isinstance(instance.object.data, bpy.types.Mesh):
+                    entry['mesh_fields'] = static_mesh_fields(instance.object.data, tuple(instance.object.data.materials))
+                for reason in component_issues(rows[name], entry):
+                    problem(name, 'self_component:' + reason)
+            except Exception:
+                problem(name, 'self_component_iterator_read_error', traceback.format_exc())
+    except Exception:
+        problem(None, 'dependency_graph_read_error', traceback.format_exc())
+    for name, row in rows.items():
+        for reason in count_issues(row['ordinary_count'], row['components']):
+            problem(name, 'self_component:' + reason)
+        row['qualified'] = (not any(i['object'] == name and i['reason'].startswith('self_component')
+                                     for i in problem.issues))
+        if row['qualified']:
+            allowed[row['source']['pointer']] = row
+    return {'objects': rows, 'unexpected_components': unexpected}, allowed
+
+
+def static_preflight(names, output, namespace, action_record, expected_components, graph_records):
     """Collect all current guard failures before refusing this one export."""
     issues, observations, proofs, allowed = [], {}, {}, {}
-    names_set = set(names)
     data_users = {}
     for obj in bpy.data.objects:
         if obj.data:
@@ -190,6 +295,7 @@ def static_preflight(names, output, namespace, action_record):
         users.sort()
     def problem(name, reason, detail=None):
         issues.append({'object': name, 'reason': reason, 'detail': detail})
+    problem.issues = issues
     shape_names = []
     for name in names:
         obj = bpy.data.objects[name]
@@ -225,14 +331,10 @@ def static_preflight(names, output, namespace, action_record):
     dg = None
     try:
         dg = bpy.context.evaluated_depsgraph_get()
-        for instance in dg.object_instances:
-            if instance.is_instance:
-                parent = instance.parent.original.name if instance.parent else None
-                owner = instance.object.original.name if instance.object else None
-                if parent in names_set or owner in names_set:
-                    problem(owner, 'derived_instance', {'parent': parent})
     except Exception:
         problem(None, 'dependency_graph_read_error', traceback.format_exc())
+    components, allowed_components = ({}, {}) if dg is None else self_component_preflight(
+        dg, names, expected_components, graph_records, problem)
     for image in bpy.data.images:
         if image.source == 'TILED':
             problem(image.name, 'tiled_image')
@@ -266,25 +368,29 @@ def static_preflight(names, output, namespace, action_record):
                     evaluated.to_mesh_clear()
                 except Exception:
                     problem(name, 'evaluated_mesh_clear_error', traceback.format_exc())
-    record = {'schema': 'maz-saved-frame-static-preflight-v2', 'frame': bpy.context.scene.frame_current,
+    record = {'schema': 'maz-saved-frame-static-preflight-v3', 'frame': bpy.context.scene.frame_current,
               'subframe': bpy.context.scene.frame_subframe, 'shape_key_objects': shape_names,
               'neutral_torsion_key_records': observations, 'neutral_torsion_proofs': proofs,
-              'issues': issues, 'status': 'PASS' if not issues and len(allowed) == 16 else 'FAIL',
+              'self_component_proofs': components,
+              'issues': issues, 'status': 'PASS' if not issues and len(allowed) == 16 and len(allowed_components) == 20 else 'FAIL',
               'all16_vehicle_gates': 'OPEN'}
     write(output / 'static-preflight.json', record)
     assert record['status'] == 'PASS', issues
-    return allowed, data_users
+    return allowed, data_users, allowed_components
 
 
 class NativeReference:
-    def __init__(self, out, neutral_torsions, key_recorder):
+    def __init__(self, out, neutral_torsions, key_recorder, self_components):
         self.out = out
         self.neutral_torsions = neutral_torsions
         self.key_recorder = key_recorder
+        self.self_components = self_components
+        self.current_node_identity = None
         self.mesh_ids = {}
         self.references = {'schema': 'maz-native-export-field-references-v1',
                            'meshes': {}, 'nodes': {}, 'materials': {}, 'known_empty_nodes': [], 'hook_errors': [],
                            'neutral_torsion_hooks': {},
+                           'self_component_hooks': {}, 'self_component_node_mesh_calls': {},
                            'limits': ['Native fields are captured during this official export, not from GLB primitive arrays.',
                                       'Official curve/font tessellation is not independently qualified.',
                                       'Cross-evaluation UV determinism and shader/render equivalence are not asserted.']}
@@ -292,10 +398,35 @@ class NativeReference:
     def error(self, hook):
         self.references['hook_errors'].append({'hook': hook, 'traceback': traceback.format_exc()})
 
+    def gather_node_mesh_hook(self, hook_node, obj, settings):
+        # Official nodes.py calls this immediately before synchronous mesh gather;
+        # children are gathered later. Capture values only, do not alter the hook.
+        self.current_node_identity = None
+        try:
+            if obj is None:
+                return
+            self.current_node_identity = {'pointer': obj.as_pointer(), 'name': obj.name}
+            proof = self.self_components.get(obj.as_pointer())
+            if proof is not None:
+                assert object_record(obj) == proof['source'], 'Component source changed before export'
+                assert hook_node.export_mesh is True
+                calls = self.references['self_component_node_mesh_calls']
+                calls[obj.name] = calls.get(obj.name, 0) + 1
+                assert calls[obj.name] == 1
+        except BaseException:
+            self.error('gather_node_mesh_hook')
+
     def gather_mesh_hook(self, gltf_mesh, mesh, obj, vertex_groups, modifiers, materials, settings):
         try:
             assert settings['gltf_current_frame'] and not settings['gltf_animations']
             assert not settings['gltf_draco_mesh_compression']
+            component_proof = self.self_components.get((self.current_node_identity or {}).get('pointer'))
+            component_name = None
+            if component_proof is not None:
+                component_name = component_proof['source']['name']
+                assert mesh.bl_rna.identifier == 'Mesh'
+                assert static_mesh_fields(mesh, materials) == component_proof['evaluated_mesh_fields'], 'Official hook differs from proved component'
+                assert component_name not in self.references['self_component_hooks']
             torsion_proof = None
             if mesh.shape_keys is not None:
                 torsion_proof = self.neutral_torsions.get(mesh.as_pointer())
@@ -353,6 +484,12 @@ class NativeReference:
             mesh_id = 'mesh-' + str(len(self.mesh_ids)).zfill(5)
             assert id(gltf_mesh) not in self.mesh_ids
             self.mesh_ids[id(gltf_mesh)] = mesh_id
+            if component_name is not None:
+                self.references['self_component_hooks'][component_name] = {
+                    'source_pointer_session_only': component_proof['source']['pointer'],
+                    'hook_mesh_identity': pointer_record(mesh), 'mesh_id': mesh_id,
+                    'preflight_fields_sha256': digest(component_proof['evaluated_mesh_fields']),
+                    'hook_native_fields_equal': True}
             self.references['meshes'][mesh_id] = {
                 'native_mesh_name': mesh.name, 'vertices': len(coords), 'loops': len(loops),
                 'parts': parts, 'triangles': len(triangles), 'uv_layers': uv_rows,
@@ -373,6 +510,8 @@ class NativeReference:
             assert obj is not None and node.name == obj.name
             assert node.name not in self.references['nodes']
             self.references['nodes'][node.name] = self.mesh_ids[id(node.mesh)] if node.mesh else None
+            if obj.as_pointer() in self.self_components:
+                assert self.references['self_component_hooks'][obj.name]['mesh_id'] == self.references['nodes'][node.name], 'Component node/cache correspondence'
             if node.mesh is None and obj.type in {'MESH', 'CURVE', 'FONT'}:
                 dg = bpy.context.evaluated_depsgraph_get()
                 evaluated = obj.evaluated_get(dg)
@@ -431,7 +570,8 @@ def main(args, report):
     write(args.output / 'protection-before.json', {'state': before['state'],
           'authored_sections': {k: digest(v) for k, v in authored_before.items()},
           'meshes': {k: {'sha256': v['sha256'], 'counts': v['counts']} for k, v in authored_before['meshes'].items()}})
-    allowed_torsions, data_users = static_preflight(names, args.output, namespace, action_record)
+    allowed_torsions, data_users, allowed_components = static_preflight(
+        names, args.output, namespace, action_record, cfg['expected']['self_components'], expected_graph['records'])
     report['completed_checks'].append('static_shape_skin_instance_color_and_udim_preflight')
     selected = [o for o in bpy.context.view_layer.objects if o.select_get()]
     active = bpy.context.view_layer.objects.active
@@ -441,7 +581,7 @@ def main(args, report):
     image_nodes = [(n, 'used' in n, value(n.get('used'))) for tree in all_trees for n in tree.nodes if n.type == 'TEX_IMAGE']
     from io_scene_gltf2.blender.exp import export as official
     collector = NativeReference(args.output, allowed_torsions,
-        lambda obj: torsion_key_record(obj, namespace['animation_state'], action_record, data_users))
+        lambda obj: torsion_key_record(obj, namespace['animation_state'], action_record, data_users), allowed_components)
     original_save = official.save
     def audited_save(context, settings):
         assert settings['gltf_user_extensions'] == [] and settings['pre_export_callbacks'] == [] and settings['post_export_callbacks'] == []
@@ -503,6 +643,8 @@ def main(args, report):
     assert not collector.references['hook_errors'], collector.references['hook_errors']
     assert set(collector.references['nodes']) == set(names), 'Incomplete hook/source mapping'
     assert set(collector.references['neutral_torsion_hooks']) == set(TORSION_NAMES), 'Incomplete exact16 neutral hook coverage'
+    assert set(collector.references['self_component_hooks']) == set(cfg['expected']['self_components']), 'Incomplete exact20 component hook coverage'
+    assert set(collector.references['self_component_node_mesh_calls']) == set(cfg['expected']['self_components']), 'Incomplete component source hook coverage'
     report['status'] = 'EXPORTED_SOURCE_PROTECTED_REFERENCES_CAPTURED'
 
 

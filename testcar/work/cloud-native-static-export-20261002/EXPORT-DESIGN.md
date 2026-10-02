@@ -1,9 +1,10 @@
 # One saved-frame full-native static export
 
-Revision3 preparation, based on published/read-back
-`63a431d2b31c5496d1d1c53cceac8050fcf9ab21`. The earlier run-01 exited1 after
-27.833s at the broad shape-key guard, produced no GLB and preserved all inputs.
-Its complete seven original records were published and remain unchanged. This
+Revision4 preparation, based on published/read-back
+`c63a90042baada64ff5b196a61b403ce1d73f379`. Run-02 exited1 after 28.734942s,
+with the exact16 neutral torsion proofs passing and only20 derived-instance
+guards failing, one per13 CURVE/7 FONT. It produced no GLB and preserved all140
+inputs. Its eight original records and run-01's seven records remain unchanged. This
 revision has not been executed; no new GLB/source save/render/application change
 has occurred. Independent review and complete plugin publication/readback
 of this preparation are prerequisites to the separately coordinated native run.
@@ -44,7 +45,7 @@ correspondence is a new requirement; no prior two-object Draco result qualifies 
 Export applies native modifiers at this one saved state, preserves hierarchy,
 exports normal/UV/material data and extras, and disables animations, skins,
 morphs, GPU instances and derived GN instances. Preflight rejects every shape-key object outside the exact16 neutral torsion
-exception below, armature modifiers, separate evaluated instances, color attributes,
+exception below, armature modifiers, unqualified evaluated instances, color attributes,
 material-variant resets, nonmesh empty-slot remapping and tiled images instead of
 silently omitting their effects. These are execution-time unknowns, not passed
 preparation facts. All34 exact options are in inputs.json.
@@ -92,6 +93,67 @@ compares the hook's native fields against the retained evaluated proof. All16
 hook identities must occur; every other keyed mesh fails. Raw-source/whole-source
 protection and actual decoded GLB correspondence remain required. No generic
 shape-key permission or dynamic qualification is introduced.
+
+## Exact20 curve/font self-component proof
+
+The20 names/types in inputs.json must equal the entire independently recovered
+13 CURVE/7 FONT scope. Names select the objects to examine; they do not qualify
+an instance. Their original Object/data identities and evaluated Object/data
+identities are copied as plain names, pointers, types and original mappings.
+Require source instance_type=NONE, no instance collection, no particles or NODES
+modifier, and is_instancer=False. Other native modifiers remain as authored.
+
+Before iterating the dependency graph, each source's official evaluated.to_mesh
+with all data layers is read, summarized using the exact native position,
+edge/loop/polygon/triangle, corner-normal, UV and material fields, then cleared.
+The iterator separately records ordinary entries/counts and generated components;
+it does not assume one ordinary entry. For every relevant generated entry,
+object/instance_object/parent and their original/data identities, all world
+matrices, persistent_id, particle system, visibility flags and random_id are
+copied while the iterator entry is valid. No iterator-owned object is retained,
+and no dependency-graph update or to_mesh call occurs inside iteration.
+
+Exactly one generated component is required per source. It must be a temporary
+MESH Object with Mesh data; all three original Object pointers must identify the
+same actual source. Parent and instance_object must be that source's actual
+evaluated Object, with the same evaluated data. Persistent ID must be exactly
+[0, INT_MAX, INT_MAX, INT_MAX, INT_MAX, INT_MAX, INT_MAX, INT_MAX], with no particle
+system. Source/evaluated/temporary/instance/parent/entry matrices must equal the
+saved graph's source world matrix; observed ordinary entries must equal the
+evaluated source and saved matrix too. The component Mesh fields must exactly
+equal the independently read evaluated mesh. Every additional, displaced,
+multiple, foreign or unqualified generated entry remains a failure. Actual
+temporary Mesh data.original is recorded without assuming it maps to Curve data.
+
+The supported gather_node_mesh_hook observes the actual source immediately before
+official mesh gathering and changes no hook fields. Its pointer binds the actual
+native gather_mesh_hook input to the20 proofs. The hook again requires exact
+native-field equality. The subsequent node hook checks the concrete glTF mesh
+identity, handling the actual exporter cache mapping rather than inferred names.
+All20 source pre-hooks and all20 mesh/node associations are required, with caught
+errors retained. export_gn_mesh remains False; official CURVE/FONT conversion
+still supplies the one exported surface. This proves correspondence between three
+actual native reads if it passes, not independent tessellation correctness.
+
+Engineering sources use the exact Blender build commit daeeeca98fb0. These are
+references and Git blob SHA-1 identities, not copied vendor source or SHA-256:
+
+- [object_dupli.cc:278–297,937–940,1085–1089,1774–1785](https://github.com/blender/blender/blob/daeeeca98fb0/source/blender/blenkernel/intern/object_dupli.cc#L937-L940),
+  blob c7318e082e1794ad80461855b0341f8dba657e47: root Mesh components use their
+  source Object plus component data, index0 and trailing INT_MAX IDs
+- [depsgraph_query_iter.cc:116–121,158–175,190–194](https://github.com/blender/blender/blob/daeeeca98fb0/source/blender/depsgraph/intern/depsgraph_query_iter.cc#L158-L175),
+  blob 567af4d1262a11961bc18710ce6f31f9a9421c87: iterator-owned shallow Object
+  copy replaces data and matrix while retaining the original/evaluated owner
+- [rna_depsgraph.cc:77–99,119–153,165–178,616–624](https://github.com/blender/blender/blob/daeeeca98fb0/source/blender/makesrna/intern/rna_depsgraph.cc#L77-L99),
+  blob 6c2e1a7bd5eb3eb77c757f1347285b4bd5794962: exposed object, instance_object,
+  parent, world matrix and fixed-length persistent ID come from those entries
+
+Supplementary definitions: [object.cc:5458–5466](https://github.com/blender/blender/blob/daeeeca98fb0/source/blender/blenkernel/intern/object.cc#L5458-L5466)
+sets the temporary object's type from its Mesh data; [rna_object.cc:3467–3471](https://github.com/blender/blender/blob/daeeeca98fb0/source/blender/makesrna/intern/rna_object.cc#L3467-L3471)
+defines is_instancer from OB_DUPLI flags; [BKE_duplilist.hh:58](https://github.com/blender/blender/blob/daeeeca98fb0/source/blender/blenkernel/BKE_duplilist.hh#L58)
+defines MAX_DUPLI_RECUR=8. Exact current pointers/matrices/component counts are
+unmeasured until the separately authorized run; run-02's name-only observations
+are not promoted into proof.
 
 ## Economical evidence and actual checks
 

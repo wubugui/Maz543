@@ -1,31 +1,35 @@
 {
   "schema": "maz-native-static-export-preparation-v1",
   "status": "PREPARED_NOT_EXECUTED_READY_FOR_INDEPENDENT_REVIEW",
-  "prepared_at_head": "63a431d2b31c5496d1d1c53cceac8050fcf9ab21",
+  "prepared_at_head": "c63a90042baada64ff5b196a61b403ce1d73f379",
   "prepared_files": {
     "EXPORT-DESIGN.md": {
-      "bytes": 12053,
-      "sha256": "dc72a7c6f70f49542270f2b4685b7bb7cd8d1398a5a3cc34e3434016deec2c6c"
+      "bytes": 16795,
+      "sha256": "16be0939a5e95c792d9f33d81635b127936ff9a0aed7635f99fd8fad71991eac"
     },
     "check_preparation.py": {
-      "bytes": 7009,
-      "sha256": "9c7369efae51c8dd39232e3247f1fb5f05a5a86e003cd1f0ac739f21b34c7df3"
+      "bytes": 10187,
+      "sha256": "c02954a6f780e734d80c2d999e5b79d20fda9973115d74deddf0263df69b55fd"
     },
     "export_native.py": {
-      "bytes": 29981,
-      "sha256": "40992a0b22f9916df804b954aa7ecb357a7e3655258d4d4a41177b2f2a59c365"
+      "bytes": 39008,
+      "sha256": "f67acdccdf722752ab7f876fd23de6130570b0d36e0f33e2bff550a1d8086860"
     },
     "inputs.json": {
-      "bytes": 44180,
-      "sha256": "2510dd40b984e9b3497d431931c2ab6c7fda9b6c428de0f79d3f365b05142efd"
+      "bytes": 45150,
+      "sha256": "dc9167c1047f0b4322f25422181022fa7484bd81cce5e1b13f8a42e5d0273828"
     },
     "preparation-checks.json": {
-      "bytes": 2356,
-      "sha256": "b30f5a9451e3ba969763a6a0523afba3fba3cdc25e77d3908abeaafcac82aa9a"
+      "bytes": 2911,
+      "sha256": "f9985c2a92ace780f3bea998b843d52d3fc7aec6dbcd5a415cfa3bc7e7ad188a"
     },
     "run_export.py": {
-      "bytes": 16344,
-      "sha256": "4334a673cd0cf39904c22a23a49f41640146b24af82e8bf856b3058d5b4bbd08"
+      "bytes": 16365,
+      "sha256": "d9e5af547d395bc01302a5bd21104de7563dce3fae2ab170121b8003a1eb9209"
+    },
+    "self_component.py": {
+      "bytes": 3132,
+      "sha256": "dcff901eb4c1796de047c5351cdd4199841ca5642678762b856cc232faad6453"
     },
     "torsion_neutral.py": {
       "bytes": 1589,
@@ -60,12 +64,24 @@
     "native/decoded-validation.json"
   ],
   "failure_outputs": "Preserve every generated file including partial GLB and preservation-failure.json; no retry or cleanup that destroys evidence",
-  "revision": 3,
+  "revision": 4,
   "native_execution_of_this_revision": false,
-  "prior_native_attempt": {
-    "status": "FAILED_BROAD_SHAPE_KEY_GUARD",
-    "run": "run-01",
-    "published_failure_commit": "63a431d2b31c5496d1d1c53cceac8050fcf9ab21",
-    "original7_records_unchanged": true
-  }
+  "prior_native_attempts": [
+    {
+      "run": "run-01",
+      "published_failure_commit": "63a431d2b31c5496d1d1c53cceac8050fcf9ab21",
+      "original_files": 7,
+      "original_bytes": 1523511,
+      "process_sha256": "f66485ef34f75b56335661d83af7259d1711090a0410b8783b789367d9924a4b",
+      "original_record_hashes_match": true
+    },
+    {
+      "run": "run-02",
+      "published_failure_commit": "c63a90042baada64ff5b196a61b403ce1d73f379",
+      "original_files": 8,
+      "original_bytes": 4320414,
+      "process_sha256": "6bb13a6e1522435a4ff51fadd125659ec43fa8f4e347b661e0269b2e594efe81",
+      "original_record_hashes_match": true
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "schema": "maz-native-static-export-inputs-v1",
-  "prepared_at_head": "63a431d2b31c5496d1d1c53cceac8050fcf9ab21",
+  "prepared_at_head": "c63a90042baada64ff5b196a61b403ce1d73f379",
   "inputs": {
     "artifact": {
       "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
@@ -733,7 +733,29 @@
       "S543_6_upper_torsion_bar",
       "S543_7_lower_torsion_bar",
       "S543_7_upper_torsion_bar"
-    ]
+    ],
+    "self_components": {
+      "BL_Front_cover_latch_-0.46": "CURVE",
+      "BL_Front_cover_latch_0.46": "CURVE",
+      "BL_Front_mirror_arm_-1": "CURVE",
+      "BL_Front_mirror_arm_1": "CURVE",
+      "BL_Front_single_recovery_hook": "CURVE",
+      "BL_Front_upper_fine_rod_-1": "CURVE",
+      "BL_Front_upper_fine_rod_1": "CURVE",
+      "BL_Front_wiper_arm_-1": "CURVE",
+      "BL_Front_wiper_arm_1": "CURVE",
+      "BL_Front_wiper_blade_-1": "CURVE",
+      "BL_Front_wiper_blade_1": "CURVE",
+      "BL_Photo_front_cover_top_grip_-1": "CURVE",
+      "BL_Photo_front_cover_top_grip_1": "CURVE",
+      "VA180 B4 / OBSERVED A scale label 0": "FONT",
+      "VA180 B4 / OBSERVED A scale label 1": "FONT",
+      "VA180 B4 / OBSERVED A scale label 2": "FONT",
+      "VA180 B4 / OBSERVED A scale label 3": "FONT",
+      "VA180 B4 / OBSERVED A scale label 4": "FONT",
+      "VA180 B4 / OBSERVED current unit": "FONT",
+      "VA180 B4 / OBSERVED push instruction": "FONT"
+    }
   },
   "export_options": {
     "export_format": "GLB",
