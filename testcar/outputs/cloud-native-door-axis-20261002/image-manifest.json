@@ -1,5 +1,5 @@
 {
-  "status": "ORIGINAL_NATIVE_PNG_BLOBS_CONFIRMED_PENDING_REMOTE_READBACK",
+  "status": "ORIGINAL_PNG_FILES_REMOTE_BYTES_AND_DECODE_VERIFIED",
   "images": [
     {
       "bytes": 1576059,
@@ -19,5 +19,6 @@
       "source_path": "/workspace/scratch/a29d03198654/maz-native-axis-render-20261001/attempt01/open99.png",
       "path": "views/open99.png"
     }
-  ]
+  ],
+  "verified_publication_commit": "4a4c1d45d1f0e8a0e0d259d40944aa39415d300b"
 }

@@ -713,6 +713,8 @@
     }
   ],
   "upload_method": "GitHub plugin create_blob encoding=base64",
-  "remote_restore_and_native_open_pending": true,
-  "local_exec_terminal_reconciliation": "part039 API and later durable receipt both confirmed; retained without retransmission; local reads040/041 had not entered Git API and resumed after uploader session handling was corrected"
+  "remote_restore_and_native_open_pending": false,
+  "local_exec_terminal_reconciliation": "part039 API and later durable receipt both confirmed; retained without retransmission; local reads040/041 had not entered Git API and resumed after uploader session handling was corrected",
+  "complete_remote_restore_verified": true,
+  "corrected_native_open_passed": true
 }

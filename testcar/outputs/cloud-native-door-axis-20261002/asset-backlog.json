@@ -8,7 +8,8 @@
   "current_door_source": {
     "sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
     "bytes": 67937160,
-    "status": "IN_PLUGIN_UPLOAD"
+    "status": "COMPLETE_REMOTE_RESTORE_AND_NATIVE_OPEN_VERIFIED",
+    "source_publication_commit": "4a4c1d45d1f0e8a0e0d259d40944aa39415d300b"
   },
   "original_render_images": [
     {
@@ -16,7 +17,7 @@
       "bytes": 1576059,
       "sha256": "87864120692a8ac6fd33cdfdc39b5493e2b304320ed3596494b41b327bfb57ad",
       "git_blob_sha1": "c4a6a2d4ad93c0f0a28eb3da1348388e49a15f62",
-      "status": "CURRENT_DOOR_DELIVERY",
+      "status": "COMPLETE_ORIGINAL_PNG_PLUGIN_PUBLICATION_REMOTE_BYTE_VERIFICATION",
       "existing_direct_blob_paths": [],
       "existing_lfs_pointer_paths": []
     },
@@ -25,7 +26,7 @@
       "bytes": 1585359,
       "sha256": "0bbd1ee0462b738ed80b30b4e76937298052eb686a7de3385336bab2f4d99cf3",
       "git_blob_sha1": "a7b1ea1b04381a6567aa12a90efedaabb23d15d7",
-      "status": "CURRENT_DOOR_DELIVERY",
+      "status": "COMPLETE_ORIGINAL_PNG_PLUGIN_PUBLICATION_REMOTE_BYTE_VERIFICATION",
       "existing_direct_blob_paths": [],
       "existing_lfs_pointer_paths": []
     },

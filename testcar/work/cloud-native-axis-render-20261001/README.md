@@ -1,5 +1,7 @@
 # Native saved four-door controls: two actual endpoint renders
 
+Current delivery update (2026-10-02): the unchanged native source and original closed/open PNG files are now completely published through the GitHub plugin at testcar/outputs/cloud-native-door-axis-20261002. Independent remote byte restoration and corrected native fresh-open passed. The LOCAL_ONLY/LFS-blocked labels below describe the historical run, and are superseded for artifact delivery only; all original mechanical/acceptance limits remain. See testcar/work/cloud-door-source-delivery-20261002/delivery.json.
+
 Status: **two same-camera native views accepted for bounded visual inspection**. The actual PNG pixels were opened and reviewed. This is not whole-vehicle, browser, continuous-clearance, materials, manufacturer/batch, or physical-mechanism acceptance.
 
 The candidate remains **LOCAL_ONLY_LFS_BLOCKED**. Nothing was uploaded, published, promoted, saved, or re-exported by this task. The original six closed contacts and all 16 vehicle gates remain OPEN. The candidate contains only the native axis-control correction; it does not contain the separate 140-head repair or new step layout.

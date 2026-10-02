@@ -1,5 +1,7 @@
 # Native fitted barrel-axis door controls
 
+Current delivery update (2026-10-02): the unchanged native source and original closed/open PNG files are now completely published through the GitHub plugin at testcar/outputs/cloud-native-door-axis-20261002. Independent remote byte restoration and corrected native fresh-open passed. The LOCAL_ONLY/LFS-blocked labels below describe the historical run, and are superseded for artifact delivery only; all original mechanical/acceptance limits remain. See testcar/work/cloud-door-source-delivery-20261002/delivery.json.
+
 Status: saved native controls passed a fresh Blender 4.5.13 reopen with autoexec disabled. The one candidate remains `LOCAL_ONLY_LFS_BLOCKED`; no asset upload or production promotion occurred.
 
 ## Actual final results

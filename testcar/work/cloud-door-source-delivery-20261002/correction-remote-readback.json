@@ -1,0 +1,161 @@
+{
+  "status": "PUBLISHED_REMOTE_BYTES_EXACT",
+  "commit": "2b9a46879e5088f0b1099f1b47129d44f3234669",
+  "tree": "5cf8a8ff3a83b0ec61463a6c00574463c12820d8",
+  "public_url": "https://github.com/wubugui/Maz543.git",
+  "files": [
+    {
+      "path": "CLOUD_CONTINUATION.md",
+      "bytes": 160315,
+      "sha256": "99c25031a17c8a079b35f42da6099d3826333a98aa1e81e440fc52d1e92afc6a",
+      "git_blob_sha1": "2bba0e08eeeb39bdf668d6d12931bd0c56a9431a"
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/README.md",
+      "bytes": 2777,
+      "sha256": "39d9e4efd76dc7c9d2550582ea7ad61dbfd55f03e55489d4df254b6ce44184f8",
+      "git_blob_sha1": "f0c213c0bbbc02e14112ae910fbf694e92ecee2c"
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/door-part-types.json",
+      "bytes": 8553,
+      "sha256": "748c084d0fecf2224e5e93d4486e1d3ebabea0d6e3774919ae50a9e818e48c34",
+      "git_blob_sha1": "50ef88972510f17eba2cf4c765f74ad3e5c53aac"
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/manifest.json",
+      "bytes": 24612,
+      "sha256": "3e66337ef957698eb67bc3c8acc76a26a526a3ad90d8a20f4b66f4fb918f6187",
+      "git_blob_sha1": "80e9b8db6f6d75b7543a5a8b19e7046e7d413a63"
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/run_restored_verification.py",
+      "bytes": 4097,
+      "sha256": "cb92e134932d5d9cf6b1865ae6516ca978aa189af4e8561359186beefe351195",
+      "git_blob_sha1": "e1750e328f91ea835db09f714b51f607e76e9d13"
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/verify_restored_native.py",
+      "bytes": 6338,
+      "sha256": "02b906efc31eaba1c15c755a19bb80077c1aa051d34b2a00ba9ebd7402c9ae07",
+      "git_blob_sha1": "fe667c2f5b5a12e20f150ab37eb5c9c2358bf5fd"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/README.md",
+      "bytes": 1613,
+      "sha256": "c4cb10684ae1e078a49a95d4247123eab269dcd725de3801df1ec9b2ddbb0c74",
+      "git_blob_sha1": "b46356b69aac0fbdd87dece7e85de6b509799dac"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/attempt01-launch.json",
+      "bytes": 12764,
+      "sha256": "18350ffbf1da8b43eafa5e7cbd695d7b253872cff85c8b25eaa209e9fec8d440",
+      "git_blob_sha1": "e8c70513eed16d4df052ed4e41a8ffef74a72fdb"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/attempt01-native-report.json",
+      "bytes": 663,
+      "sha256": "f8362259ff88f695820a3cfb3952683f95d6fcc037ac1d7757519fb8a896b20d",
+      "git_blob_sha1": "04265e091e62ae0cf75066b996d720ccdcbda043"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/attempt01-process.json",
+      "bytes": 24356,
+      "sha256": "d97417bc6710875684a94034a308bb0d3a93dda0b116809eb8b2d910231ef4fc",
+      "git_blob_sha1": "021fb3d7c44d39c76f5c6dbc1a91b5232f4fbea4"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/attempt01-run-restored-verification.py",
+      "bytes": 4055,
+      "sha256": "08d59c85a3b3128c537f6e646f117f8a321eb05da6188d4851f3f8760fc2078a",
+      "git_blob_sha1": "c61a264909cc7ba75cc0d0c88ccf50d9de09d67e"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/attempt01-run.log",
+      "bytes": 724,
+      "sha256": "ed79b72fc83763f512a9689abfae080e961e62fb027239d7640764fa2a6124ff",
+      "git_blob_sha1": "04d0342c6e28dfbd72888b0d1288ef97f965b9e4"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/attempt01-summary.json",
+      "bytes": 986,
+      "sha256": "432e08d22d40ab9250662a84f497a30c2a8270f94bdd31a9763512ef03d6e33b",
+      "git_blob_sha1": "5ef540b887e2015f51a5a2809269eca7d56e5081"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/attempt01-verify-restored-native.py",
+      "bytes": 5061,
+      "sha256": "1cc2cbd1d9a3dced56272ed2bdc39406f97bed8d357012441988c944d384f66a",
+      "git_blob_sha1": "1bb47f4c6cc68a3b579a8dfafb197c3ea29988ad"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/fetch.stderr",
+      "bytes": 10603,
+      "sha256": "7306f9af2425e550cf410dfa38c8082edeabece56fc76e48bc1cdbae0c8ab594",
+      "git_blob_sha1": "35dfb2580a0ae05b1f07fd2b2ea2f2fabc3f7bb9"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/fetch.stdout",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/native-restore.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/native-restore.stdout",
+      "bytes": 294,
+      "sha256": "c37639d1ed797d11a12747948cef8cded4c9b4c800c8e3962d36c05851d3b582",
+      "git_blob_sha1": "ad295aadb3d506a61dd65118f3b4460975985df3"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/remote-bytes-report.json",
+      "bytes": 42894,
+      "sha256": "1f81162ea43aa2cc58a8b64fde71fc85e5cf77e17ebeb89aaf8db2d86505d2ea",
+      "git_blob_sha1": "dcf2ec167ee215b8f9d44e749040403822110299"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/remote-image-verification.json",
+      "bytes": 727,
+      "sha256": "88dd89697acb22618b51fff97be550104d32e7867e6a9846dbdf53d09ad62057",
+      "git_blob_sha1": "cb44d28fa8cd1894f9ee62ff4641994d582482fe"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/remote-inventory.json",
+      "bytes": 42604,
+      "sha256": "adaf30f36f989594598032f185001f0c76239c46985d6b27fd31c9096897cd41",
+      "git_blob_sha1": "0b12238c6f5998b19504f7c6e258b020b47545c9"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/signature-restore.stderr",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/signature-restore.stdout",
+      "bytes": 949,
+      "sha256": "a7edb647bf2926ec3f414d992beac5343be0e15e426e2841f572d1ed7b35146d",
+      "git_blob_sha1": "ce6aa3cbfccbeaa8258afe54e1e34c1000ef8638"
+    },
+    {
+      "path": "testcar/work/cloud-door-source-delivery-20261002/verify-canonical-remote.py",
+      "bytes": 3670,
+      "sha256": "b9d8b841535c579331843a80bc7bacc6c7e6ffb1dd2e3c658d820ca458b9be74",
+      "git_blob_sha1": "2f3a71ba3cc3e0c711c8f5b6db2636173a582c64"
+    }
+  ],
+  "file_count": 24,
+  "unique_blobs": 22,
+  "bytes": 358655,
+  "fresh_bare_objects_all_absent_before_fetch": 22,
+  "no_git_alternates": true,
+  "no_local_object_source": true,
+  "ref_unchanged_before_after": true,
+  "elapsed_seconds": 11.15379181499884,
+  "finished_utc": "2026-10-02T15:48:25Z"
+}

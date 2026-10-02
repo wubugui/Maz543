@@ -1,0 +1,33 @@
+{
+  "status": "REMOTE_RESTORED_NATIVE_FRESH_OPEN_PASS",
+  "saved_model": false,
+  "rendered": false,
+  "timeline_advanced": false,
+  "angle_property_changed": false,
+  "mechanical_pose_retest": false,
+  "all16_vehicle_gates": "OPEN",
+  "six_original_closed_contacts": "OPEN",
+  "actual_opened_filepath": "/workspace/scratch/a29d03198654/maz-door-remote-4a4c1d45-20261002/restored/MAZ543A_Native_Barrel_Axis_Controls.blend",
+  "bytes": 67937160,
+  "sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+  "objects": 10434,
+  "mesh_name_count_topology_exact": 7470,
+  "door_part_bindings_and_evaluated_counts_exact": 44,
+  "door_mesh_stored_signatures_exact": 36,
+  "original_native_curve_objects_checked": [
+    "BL_Door_-1_0_gap",
+    "BL_Door_-1_0_handle",
+    "BL_Door_-1_1_gap",
+    "BL_Door_-1_1_handle",
+    "BL_Door_1_0_gap",
+    "BL_Door_1_0_handle",
+    "BL_Door_1_1_gap",
+    "BL_Door_1_1_handle"
+  ],
+  "curve_payload_signature_recomputed": false,
+  "exact_valid_simple_native_drivers": 16,
+  "closed_angle_properties": 4,
+  "source_file_unchanged": true,
+  "original_cloud_model_not_read": true,
+  "full7470_mesh_payload_signatures_recomputed": false
+}
