@@ -1,0 +1,19 @@
+{
+  "title": "离线GLB观察 / 待核对 / normal+joint FAIL / 16 OPEN",
+  "review_type": "Direct inspection of actual unmodified 1024x640 PNG",
+  "png": "side-offline-glb-pending-normal-joint-fail-16-open.png",
+  "png_sha256": "b505e246f347164069e3f445de51d6dbc7a6fc71f04dff15bac051100121495b",
+  "visible": [
+    "Orthographic side view shows the near-side four wheel stations, cab and rear chassis in one frame",
+    "Original exported body, wheel/tyre detail and open-frame arrangement remain visible"
+  ],
+  "limitations": [
+    "Glass retains conspicuous grain; causes are not isolated by this single 16-sample render",
+    "No new reference-photo comparison, material or normal acceptance",
+    "Official Blender import/Cycles observation does not validate the unavailable Three.js/WebGL page",
+    "All 2299 transport issues and all16 whole-vehicle gates remain open"
+  ],
+  "model_before_after_json_identical": true,
+  "model_guard_bytes_each": 9172565,
+  "model_guard_sha256": "00a5bb8de0c69d0b571619dc0c94ff884f534b20badce75b2f9884f241e2832b"
+}
