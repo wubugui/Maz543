@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--threads",
+    "1",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-step-frame-topology-repair-20261001/attempt-06-clamp-diagnostic/executed-script.py",
+    "--",
+    "/workspace/scratch/a29d03198654/maz-step-frame-topology-repair-20261001/attempt-06-clamp-diagnostic/native"
+  ],
+  "timeout_seconds": 120,
+  "threads": 1,
+  "script_sha256_start": "c6e2d8ef1d15928e0385c4f8ffd17210d75c5dbac6cb14401604622e7f00bcae",
+  "runner_sha256": "236ed37a1613839077b6927925e50895fe7b726161e7a1019e759970eedddf70",
+  "start_utc": "2026-10-01T23:52:43Z",
+  "pid": 6,
+  "exit_code": 0,
+  "timed_out": false,
+  "elapsed_seconds": 0.7160198540004785,
+  "end_utc": "2026-10-01T23:52:44Z",
+  "script_sha256_end": "c6e2d8ef1d15928e0385c4f8ffd17210d75c5dbac6cb14401604622e7f00bcae",
+  "log_sha256": "2031e61fe014a7c417025af2d580878190df2ee669af83c8bd85c7a401d08d5e",
+  "evidence_sha256": {
+    "report.json": "ef1ae812aa438b7db0d4cc6c89ebe94408f5d09030d7a479883d0f66e4d824cd"
+  }
+}

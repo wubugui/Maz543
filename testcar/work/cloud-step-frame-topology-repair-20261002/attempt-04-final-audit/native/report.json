@@ -1,0 +1,481 @@
+{
+  "status": "FAILED",
+  "script_sha256": "aee73e8dd58f6f072dec35688ba187a196b2dff96c756c43985df48395a0ee09",
+  "original_script_sha256": "b295070b1d492c0d376ee732586003928bb94f12db503dbfc089dca93d152812",
+  "stages": [
+    {
+      "label": "original_exact_empty_scene",
+      "vertices": 1092,
+      "faces": 1114,
+      "triangles": 2188,
+      "exact_duplicate_vertices_world": 366,
+      "exact_duplicate_vertices_local": 366,
+      "crossnorm_eq_zero": 845,
+      "crossnorm_lt_1e_14": 1461,
+      "min_crossnorm_m2": 0.0,
+      "raw_index_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "exact_weld_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 418,
+        "edge_winding_imbalance": 0,
+        "self_edges": 159
+      },
+      "bounds_m": [
+        [
+          -5.150000333786011,
+          1.4599999822676182,
+          0.8764999732375145
+        ],
+        [
+          -2.950000047683716,
+          1.5799999833106995,
+          0.9234999790787697
+        ]
+      ],
+      "signed_volume_m3": 0.003076807328206015,
+      "vertex_triangle_signature": "9a9db59657e581e41081bca70983f669e11449ee64446d174ba24c8b078ae5bf"
+    },
+    {
+      "label": "original_boolean_union_unbeveled",
+      "vertices": 124,
+      "faces": 102,
+      "triangles": 252,
+      "exact_duplicate_vertices_world": 0,
+      "exact_duplicate_vertices_local": 0,
+      "crossnorm_eq_zero": 0,
+      "crossnorm_lt_1e_14": 2,
+      "min_crossnorm_m2": 7.025630077706069e-17,
+      "raw_index_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "exact_weld_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "bounds_m": [
+        [
+          -5.150000214576721,
+          1.4599999822676182,
+          0.8764999769628048
+        ],
+        [
+          -2.9500001668930054,
+          1.5799999833106995,
+          0.9234999753534794
+        ]
+      ],
+      "signed_volume_m3": 0.003076807328205949,
+      "vertex_triangle_signature": "0a0abcbaf3acc358fd0ded998a05c3a98ca2fecdb8632e995868d8f00942069f"
+    },
+    {
+      "label": "corrected_native_unbeveled",
+      "vertices": 40,
+      "faces": 26,
+      "triangles": 84,
+      "exact_duplicate_vertices_world": 0,
+      "exact_duplicate_vertices_local": 0,
+      "crossnorm_eq_zero": 0,
+      "crossnorm_lt_1e_14": 0,
+      "min_crossnorm_m2": 0.00019599912548073917,
+      "raw_index_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "exact_weld_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "bounds_m": [
+        [
+          -5.150000214576721,
+          1.4599999822676182,
+          0.8764999769628048
+        ],
+        [
+          -2.9500001668930054,
+          1.5799999795854092,
+          0.9234999753534794
+        ]
+      ],
+      "signed_volume_m3": 0.003076806870174078,
+      "vertex_triangle_signature": "9343c15d018bb2a49a48d7f60e309bb2295d4b4292d673d158e6eb92eff0fd09"
+    },
+    {
+      "label": "corrected_native_beveled",
+      "vertices": 480,
+      "faces": 486,
+      "triangles": 964,
+      "exact_duplicate_vertices_world": 0,
+      "exact_duplicate_vertices_local": 0,
+      "crossnorm_eq_zero": 0,
+      "crossnorm_lt_1e_14": 0,
+      "min_crossnorm_m2": 4.193119205696439e-07,
+      "raw_index_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "exact_weld_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "bounds_m": [
+        [
+          -5.150000214576721,
+          1.4599999822676182,
+          0.8764999769628048
+        ],
+        [
+          -2.9500001668930054,
+          1.5799999795854092,
+          0.9234999753534794
+        ]
+      ],
+      "signed_volume_m3": 0.0030577076486944326,
+      "vertex_triangle_signature": "db475fd73f250267177c385dde18d8ec366ba8d4dcdb7534d8987f1cdc93fe92"
+    }
+  ],
+  "original_bevel_settings": {
+    "width": 0.0020000000949949026,
+    "segments": 3,
+    "affect": "EDGES",
+    "limit_method": "ANGLE",
+    "angle_limit": 0.5235987901687622,
+    "use_clamp_overlap": true,
+    "miter_outer": "MITER_SHARP",
+    "miter_inner": "MITER_SHARP",
+    "vmesh_method": "ADJ",
+    "harden_normals": false,
+    "loop_slide": true,
+    "offset_type": "OFFSET",
+    "profile": 0.5
+  },
+  "params_m": {
+    "x_frame": [
+      -5.15,
+      -2.95
+    ],
+    "y_center": 1.52,
+    "width": 0.12,
+    "z_frame_center": 0.9,
+    "frame_rect_section_width": 0.014,
+    "frame_rect_section_height": 0.047,
+    "frame_bevel_display_fit": 0.002,
+    "x_stations": [
+      -5.12,
+      -4.035,
+      -2.98
+    ],
+    "tread_x": [
+      [
+        -5.1,
+        -4.12
+      ],
+      [
+        -3.95,
+        -3.0
+      ]
+    ],
+    "z_tread_center": 0.928,
+    "tread_thickness": 0.009,
+    "station_z_bottom": 0.9235,
+    "station_z_top": 1.105,
+    "interface_size": [
+      0.08,
+      0.16,
+      0.014
+    ],
+    "interface_center_z": 1.101,
+    "guide_radius_display_only": 0.0015,
+    "sill_min_z_inherited": 1.1200000047683716
+  },
+  "parameter_provenance": {
+    "x_frame": "Fitted outer extent using legacy platform bounds -5.15/-2.95 as placement leads, not hardpoints",
+    "y_center": "Inherited lower-step/tread model center at +Y 1.52 m; one side only",
+    "width": "Inherited nominal existing native tread extent 0.12 m; no factory width claim",
+    "z_frame_center": "Inherited existing native lower-step curve centerline around 0.90 m",
+    "frame_rect_section_width": "Fitted visualization/space envelope, not verified section",
+    "frame_rect_section_height": "Fitted 0.047 m envelope reaches inherited tread underside at 0.9235 m",
+    "frame_bevel_display_fit": "Fitted edge treatment for readability, not manufacturing radius",
+    "x_stations": "Fitted end/center/end stations; middle -4.035 m is midpoint of legacy tread-region gap, not original hardpoint",
+    "tread_x": "Fitted extents near two legacy placement leads; deliberately separate by 0.17 m; not factory measurements",
+    "z_tread_center": "Inherited current tread center 0.928 m, not tread top or factory datum",
+    "tread_thickness": "Inherited existing native tread envelope thickness about 0.009 m, simple envelope only",
+    "station_z_bottom": "Fitted guide starts at frame top/tread underside, no joint construction",
+    "station_z_top": "Fitted centerline end below sill with intentionally unclaimed interface gap",
+    "interface_size": "Fitted wire envelope for unknown upper interface, not bracket dimensions",
+    "interface_center_z": "Fitted position below sill; no actual mounting contact",
+    "guide_radius_display_only": "Graphic line weight only; explicitly not support diameter",
+    "sill_min_z_inherited": "Exact recorded fixed side-sill minimum Z from current native inventory; reference plane only, no sill surface imported"
+  },
+  "recipe_equivalence": "For ideal real-valued boxes: subtract four open inter-rail gaps from the common outer box. The remainder is exactly the original union of two longitudinal rails and three full-width ties. Cutter Z/X overshoot is outside that outer box, so it cannot alter the intended envelope.",
+  "corrected_bevel_settings": {
+    "width": 0.0020000000949949026,
+    "segments": 3,
+    "affect": "EDGES",
+    "limit_method": "ANGLE",
+    "angle_limit": 0.5235987901687622,
+    "use_clamp_overlap": true,
+    "miter_outer": "MITER_SHARP",
+    "miter_inner": "MITER_SHARP",
+    "vmesh_method": "ADJ",
+    "harden_normals": false,
+    "loop_slide": true,
+    "offset_type": "OFFSET",
+    "profile": 0.5
+  },
+  "corrected_modifier_stack": [
+    {
+      "name": "Editable exact difference 1",
+      "type": "BOOLEAN",
+      "operation": "DIFFERENCE",
+      "solver": "EXACT"
+    },
+    {
+      "name": "Editable exact difference 2",
+      "type": "BOOLEAN",
+      "operation": "DIFFERENCE",
+      "solver": "EXACT"
+    },
+    {
+      "name": "Editable exact difference 3",
+      "type": "BOOLEAN",
+      "operation": "DIFFERENCE",
+      "solver": "EXACT"
+    },
+    {
+      "name": "Editable exact difference 4",
+      "type": "BOOLEAN",
+      "operation": "DIFFERENCE",
+      "solver": "EXACT"
+    },
+    {
+      "name": "Intended fitted 2 mm bevel",
+      "type": "BEVEL",
+      "operation": null,
+      "solver": null
+    }
+  ],
+  "construction_only_cutter_overshoot_m": {
+    "z_each_end": 0.01,
+    "x_beyond_outer_ends": 0.01,
+    "purpose": "Avoid exactly coplanar cutter caps; removed region outside frame has no intended shape effect; not a hardware dimension"
+  },
+  "native_geometry_readback": {
+    "duplicate_triangle_coordinate_sets": 0,
+    "unused_vertices": 0,
+    "bmesh_nonmanifold_vertices": 0,
+    "euler_characteristic": -2,
+    "nonincident_triangle_bvh_candidates": 0,
+    "nonincident_bvh_examples": [],
+    "bvh_epsilon_m": 0
+  },
+  "surface_comparisons": {
+    "same_ideal_unbeveled_frame": {
+      "a_to_b": {
+        "sample_count": 754,
+        "max_distance_m": 0.0003772098571062088,
+        "mean_distance_m": 6.030888464690194e-06,
+        "p99_distance_m": 0.00013455735504976484,
+        "target_degenerate_triangles_omitted_from_query_only": 0
+      },
+      "b_to_a": {
+        "sample_count": 250,
+        "max_distance_m": 0.0001123075489886105,
+        "mean_distance_m": 2.4656613259139703e-06,
+        "p99_distance_m": 7.904518170107599e-05,
+        "target_degenerate_triangles_omitted_from_query_only": 2
+      },
+      "bounds_difference_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -3.725290298461914e-09,
+          0.0
+        ]
+      ],
+      "max_abs_bounds_difference_m": 3.725290298461914e-09,
+      "a_signed_volume_m3": 0.003076807328205949,
+      "b_signed_volume_m3": 0.003076806870174078,
+      "signed_volume_delta_m3": -4.580318711117082e-10,
+      "signed_volume_delta_percent": -1.4886595820050301e-05
+    },
+    "actual_old_degenerate_frame_to_corrected_beveled": {
+      "a_to_b": {
+        "sample_count": 6562,
+        "max_distance_m": 0.00150944699998945,
+        "mean_distance_m": 0.0008386362169141715,
+        "p99_distance_m": 0.00150944699998945,
+        "target_degenerate_triangles_omitted_from_query_only": 0
+      },
+      "b_to_a": {
+        "sample_count": 2890,
+        "max_distance_m": 0.0008711814880371094,
+        "mean_distance_m": 0.0002704666484236524,
+        "p99_distance_m": 0.0007851123809814453,
+        "target_degenerate_triangles_omitted_from_query_only": 1461
+      },
+      "bounds_difference_m": [
+        [
+          1.1920928955078125e-07,
+          0.0,
+          3.725290298461914e-09
+        ],
+        [
+          -1.1920928955078125e-07,
+          -3.725290298461914e-09,
+          -3.725290298461914e-09
+        ]
+      ],
+      "max_abs_bounds_difference_m": 1.1920928955078125e-07,
+      "a_signed_volume_m3": 0.003076807328206015,
+      "b_signed_volume_m3": 0.0030577076486944326,
+      "signed_volume_delta_m3": -1.909967951158227e-05,
+      "signed_volume_delta_percent": -0.6207629361932996
+    },
+    "intended_bevel_effect_on_clean_same_frame": {
+      "a_to_b": {
+        "sample_count": 250,
+        "max_distance_m": 0.0015090338420122862,
+        "mean_distance_m": 0.0003897324030349409,
+        "p99_distance_m": 0.0015090338420122862,
+        "target_degenerate_triangles_omitted_from_query_only": 0
+      },
+      "b_to_a": {
+        "sample_count": 2890,
+        "max_distance_m": 0.0008711814880371094,
+        "mean_distance_m": 0.00027253845203422614,
+        "p99_distance_m": 0.0007851123809814453,
+        "target_degenerate_triangles_omitted_from_query_only": 0
+      },
+      "bounds_difference_m": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "max_abs_bounds_difference_m": 0.0,
+      "a_signed_volume_m3": 0.003076806870174078,
+      "b_signed_volume_m3": 0.0030577076486944326,
+      "signed_volume_delta_m3": -1.909922147964524e-05,
+      "signed_volume_delta_percent": -0.6207481420036174
+    }
+  },
+  "regular_sections": [
+    {
+      "location": "long rail y side -1, x=-4.6",
+      "section_width_m": 0.013999998569488525,
+      "section_height_m": 0.04699999839067459,
+      "top_flat_setback_left_m": 0.0020000003278255463,
+      "top_flat_setback_right_m": 0.0020000003278255463,
+      "section_intersection_points_evaluated": 72
+    },
+    {
+      "location": "long rail y side 1, x=-4.6",
+      "section_width_m": 0.013999998569488525,
+      "section_height_m": 0.04699999839067459,
+      "top_flat_setback_left_m": 0.0020000003278255463,
+      "top_flat_setback_right_m": 0.0020000003278255463,
+      "section_intersection_points_evaluated": 72
+    },
+    {
+      "location": "long rail y side -1, x=-3.5",
+      "section_width_m": 0.013999998569488525,
+      "section_height_m": 0.04699999839067459,
+      "top_flat_setback_left_m": 0.0020000003278255463,
+      "top_flat_setback_right_m": 0.0020000003278255463,
+      "section_intersection_points_evaluated": 80
+    },
+    {
+      "location": "long rail y side 1, x=-3.5",
+      "section_width_m": 0.013999998569488525,
+      "section_height_m": 0.04699999839067459,
+      "top_flat_setback_left_m": 0.0020000003278255463,
+      "top_flat_setback_right_m": 0.0020000003278255463,
+      "section_intersection_points_evaluated": 80
+    },
+    {
+      "location": "transverse tie x=-5.12, y=1.52",
+      "section_width_m": 0.01399993896484375,
+      "section_height_m": 0.04699999839067459,
+      "top_flat_setback_left_m": 0.001999974250793457,
+      "top_flat_setback_right_m": 0.001999974250793457,
+      "section_intersection_points_evaluated": 64
+    },
+    {
+      "location": "transverse tie x=-4.035, y=1.52",
+      "section_width_m": 0.01399993896484375,
+      "section_height_m": 0.04699999839067459,
+      "top_flat_setback_left_m": 0.0020000003278255463,
+      "top_flat_setback_right_m": 0.0020000003278255463,
+      "section_intersection_points_evaluated": 64
+    },
+    {
+      "location": "transverse tie x=-2.98, y=1.52",
+      "section_width_m": 0.01399993896484375,
+      "section_height_m": 0.04699999839067459,
+      "top_flat_setback_left_m": 0.001999974250793457,
+      "top_flat_setback_right_m": 0.001999974250793457,
+      "section_intersection_points_evaluated": 64
+    }
+  ],
+  "checks": {
+    "unchanged_empty_scene_original_defect_reproduced": true,
+    "original_degenerate_frame_rejected": true,
+    "corrected_unbeveled_target_topology": true,
+    "corrected_beveled_target_topology": true,
+    "zero_duplicate_triangle_coordinate_sets": true,
+    "no_unused_evaluated_vertices": true,
+    "all_native_bmesh_vertices_manifold": true,
+    "no_nonincident_bvh_surface_candidates": true,
+    "genus_two_euler_characteristic": true,
+    "same_ideal_unbeveled_envelope_within_2um": true,
+    "finite_unbeveled_surface_samples_within_2um": false,
+    "nominal_14mm_by_47mm_sections_within_2um": true,
+    "intended_2mm_top_flat_setbacks_within_2um": true,
+    "no_weld_or_delete_cleanup_in_final_recipe": true
+  },
+  "limits": [
+    "Targeted evaluated-surface topology checks only; not a certified geometric solid, absence-of-self-contact proof, structural strength or manufacturing qualification.",
+    "BVH nonincident check skips triangle pairs sharing any vertex; it is supplemental and does not independently certify all possible adjacent-face overlaps.",
+    "Surface comparison samples all vertices, unique triangulated-edge midpoints and triangle centroids; this is not a global Hausdorff bound. BVH uses Blender float precision; reported submicrometre distances are approximate.",
+    "Degenerate triangles are filtered only when constructing a nearest-surface diagnostic BVH, never removed from a native mesh or hidden from counts/acceptance.",
+    "2um dimensional guard applies to inherited Float32 envelope/section comparison only; zero duplicates and fixed crossnorm>=1e-14 requirements were not relaxed.",
+    "Native three-segment bevel approximates the fitted 2mm/profile0.5 shape; this is not a factory radius.",
+    "Source vehicle is never loaded; original fitted stations, rails and tread parameters/provenance are unchanged.",
+    "No blend/GLB save, export or render. No repository write or publication.",
+    "Known second-tread conflict with front tyre/hub/rim remains FAILED, all six original closed-contact pairs and all16 whole-vehicle gates OPEN."
+  ],
+  "vehicle_loaded": false,
+  "asset_saved_or_exported": false,
+  "position_changes": false,
+  "original_prefix_note": "Unchanged original source stopped before render setup; its auxiliary IN_PROGRESS file is a deliberately interrupted prefix, not this native process terminal record.",
+  "error": "Traceback (most recent call last):\n  File \"/workspace/scratch/a29d03198654/maz-step-frame-topology-repair-20261001/attempt-04-final-audit/executed-script.py\", line 178, in <module>\n    assert all(checks.values()),checks\n           ^^^^^^^^^^^^^^^^^^^^\nAssertionError: {'unchanged_empty_scene_original_defect_reproduced': True, 'original_degenerate_frame_rejected': True, 'corrected_unbeveled_target_topology': True, 'corrected_beveled_target_topology': True, 'zero_duplicate_triangle_coordinate_sets': True, 'no_unused_evaluated_vertices': True, 'all_native_bmesh_vertices_manifold': True, 'no_nonincident_bvh_surface_candidates': True, 'genus_two_euler_characteristic': True, 'same_ideal_unbeveled_envelope_within_2um': True, 'finite_unbeveled_surface_samples_within_2um': False, 'nominal_14mm_by_47mm_sections_within_2um': True, 'intended_2mm_top_flat_setbacks_within_2um': True, 'no_weld_or_delete_cleanup_in_final_recipe': True}\n"
+}

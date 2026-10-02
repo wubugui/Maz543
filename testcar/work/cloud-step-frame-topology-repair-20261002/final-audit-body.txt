@@ -1,0 +1,71 @@
+ audit(base,'original_exact_empty_scene')
+ original_bad=snapshot(base)
+ bevel.show_viewport=False;original_unbeveled=snapshot(base);audit(base,'original_boolean_union_unbeveled')
+ P=g['P'];cube=g['cube'];col=g['col_tools'];yc=P['y_center'];fw=P['frame_rect_section_width'];fh=P['frame_rect_section_height'];xmin,xmax=P['x_frame'];zc=P['z_frame_center']
+ report['params_m']=P;report['parameter_provenance']=g['PARAMETER_PROVENANCE']
+ report['recipe_equivalence']='For ideal real-valued boxes: subtract four open inter-rail gaps from the common outer box. The remainder is exactly the original union of two longitudinal rails and three full-width ties. Cutter Z/X overshoot is outside that outer box, so it cannot alter the intended envelope.'
+ corrected=cube('CORRECTED_FRAME__native_difference',((xmin+xmax)/2,yc,zc),(xmax-xmin,P['width'],fh),None,col)
+ corrected['scope']='Fitted frame envelope only. Tyre-placement conflict remains FAILED. Not a certified solid.'
+ stations=P['x_stations'];ranges=[(xmin-.01,stations[0]-fw/2),(stations[0]+fw/2,stations[1]-fw/2),(stations[1]+fw/2,stations[2]-fw/2),(stations[2]+fw/2,xmax+.01)]
+ for i,(x0,x1) in enumerate(ranges):
+  tool=cube(f'CORRECTED_TOOL__interrail_opening_{i+1}',((x0+x1)/2,yc,zc),(x1-x0,P['width']-2*fw,fh+.02),None,col)
+  m=corrected.modifiers.new(f'Editable exact difference {i+1}','BOOLEAN');m.operation='DIFFERENCE';m.solver='EXACT';m.object=tool
+  tool.hide_set(True);tool.hide_render=True;tool.display_type='WIRE'
+ unb=snapshot(corrected);unb_row=audit(corrected,'corrected_native_unbeveled')
+ b=corrected.modifiers.new('Intended fitted 2 mm bevel','BEVEL');b.width=P['frame_bevel_display_fit'];b.segments=3;b.affect='EDGES';b.limit_method='ANGLE';b.angle_limit=math.radians(30);b.use_clamp_overlap=True
+ b.miter_outer='MITER_SHARP';b.miter_inner='MITER_SHARP';b.vmesh_method='ADJ';b.offset_type='OFFSET';b.profile=.5;b.loop_slide=True
+ final=snapshot(corrected);final_row=audit(corrected,'corrected_native_beveled')
+ report['corrected_bevel_settings']=settings(b)
+ report['corrected_modifier_stack']=[{'name':m.name,'type':m.type,'operation':getattr(m,'operation',None),'solver':getattr(m,'solver',None)} for m in corrected.modifiers]
+ report['construction_only_cutter_overshoot_m']={'z_each_end':.01,'x_beyond_outer_ends':.01,'purpose':'Avoid exactly coplanar cutter caps; removed region outside frame has no intended shape effect; not a hardware dimension'}
+ report['native_geometry_readback']=quality(final)
+ report['surface_comparisons']={
+  'same_ideal_unbeveled_frame':compare(original_unbeveled,unb),
+  'actual_old_degenerate_frame_to_corrected_beveled':compare(original_bad,final),
+  'intended_bevel_effect_on_clean_same_frame':compare(unb,final),
+ }
+ report['regular_sections']=[]
+ for xx in (-4.6,-3.5):
+  pts=plane_section(final,0,xx)
+  for side in (-1,1):
+   ymid=yc+side*(P['width']/2-fw/2)
+   section=section_dimensions(pts,1,ymid,fw)
+   report['regular_sections'].append(dict(location=f'long rail y side {side}, x={xx}',**section))
+ pts=plane_section(final,1,yc)
+ for xx in stations:report['regular_sections'].append(dict(location=f'transverse tie x={xx}, y={yc}',**section_dimensions(pts,0,xx,fw)))
+ def passes(row):
+  return row['exact_duplicate_vertices_world']==0 and row['exact_duplicate_vertices_local']==0 and row['crossnorm_lt_1e_14']==0 and row['raw_index_topology']['components']==1 and row['raw_index_topology']['edge_incidence_not_two']==0 and row['raw_index_topology']['edge_winding_imbalance']==0 and row['exact_weld_topology']['edge_incidence_not_two']==0 and row['signed_volume_m3']>0
+ q=report['native_geometry_readback'];sections=report['regular_sections']
+ checks={
+  'unchanged_empty_scene_original_defect_reproduced':report['stages'][0]['exact_duplicate_vertices_world']==366 and report['stages'][0]['crossnorm_lt_1e_14']==1461 and report['stages'][0]['exact_weld_topology']['edge_incidence_not_two']==418,
+  'original_degenerate_frame_rejected':not passes(report['stages'][0]),
+  'corrected_unbeveled_target_topology':passes(unb_row),
+  'corrected_beveled_target_topology':passes(final_row),
+  'zero_duplicate_triangle_coordinate_sets':q['duplicate_triangle_coordinate_sets']==0,
+  'no_unused_evaluated_vertices':q['unused_vertices']==0,
+  'all_native_bmesh_vertices_manifold':q['bmesh_nonmanifold_vertices']==0,
+  'no_nonincident_bvh_surface_candidates':q['nonincident_triangle_bvh_candidates']==0,
+  'genus_two_euler_characteristic':q['euler_characteristic']==-2,
+  'same_ideal_unbeveled_envelope_within_2um':report['surface_comparisons']['same_ideal_unbeveled_frame']['max_abs_bounds_difference_m']<2e-6,
+  'finite_unbeveled_surface_samples_within_2um':max(report['surface_comparisons']['same_ideal_unbeveled_frame']['a_to_b']['max_distance_m'],report['surface_comparisons']['same_ideal_unbeveled_frame']['b_to_a']['max_distance_m'])<2e-6,
+  'nominal_14mm_by_47mm_sections_within_2um':all(abs(x['section_width_m']-fw)<2e-6 and abs(x['section_height_m']-fh)<2e-6 for x in sections),
+  'intended_2mm_top_flat_setbacks_within_2um':all(max(abs(x['top_flat_setback_left_m']-.002),abs(x['top_flat_setback_right_m']-.002))<2e-6 for x in sections),
+  'no_weld_or_delete_cleanup_in_final_recipe':all(m.type in {'BOOLEAN','BEVEL'} for m in corrected.modifiers),
+ }
+ report['checks']=checks
+ report['limits']=[
+  'Targeted evaluated-surface topology checks only; not a certified geometric solid, absence-of-self-contact proof, structural strength or manufacturing qualification.',
+  'BVH nonincident check skips triangle pairs sharing any vertex; it is supplemental and does not independently certify all possible adjacent-face overlaps.',
+  'Surface comparison samples all vertices, unique triangulated-edge midpoints and triangle centroids; this is not a global Hausdorff bound. BVH uses Blender float precision; reported submicrometre distances are approximate.',
+  'Degenerate triangles are filtered only when constructing a nearest-surface diagnostic BVH, never removed from a native mesh or hidden from counts/acceptance.',
+  '2um dimensional guard applies to inherited Float32 envelope/section comparison only; zero duplicates and fixed crossnorm>=1e-14 requirements were not relaxed.',
+  'Native three-segment bevel approximates the fitted 2mm/profile0.5 shape; this is not a factory radius.',
+  'Source vehicle is never loaded; original fitted stations, rails and tread parameters/provenance are unchanged.',
+  'No blend/GLB save, export or render. No repository write or publication.',
+  'Known second-tread conflict with front tyre/hub/rim remains FAILED, all six original closed-contact pairs and all16 whole-vehicle gates OPEN.',
+ ]
+ report['vehicle_loaded']=False;report['asset_saved_or_exported']=False;report['position_changes']=False
+ report['original_prefix_note']='Unchanged original source stopped before render setup; its auxiliary IN_PROGRESS file is a deliberately interrupted prefix, not this native process terminal record.'
+ assert all(checks.values()),checks
+ report['status']='BOUNDED_NATIVE_FRAME_TOPOLOGY_CORRECTION_PASS_NOT_SOLID_OR_INSTALLATION_CERTIFICATION'
+ report['script_sha256_end']=hashlib.sha256(Path(__file__).read_bytes()).hexdigest();write()

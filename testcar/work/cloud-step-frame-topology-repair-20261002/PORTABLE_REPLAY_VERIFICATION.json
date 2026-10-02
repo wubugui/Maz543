@@ -1,0 +1,70 @@
+{
+  "status": "PORTABLE_ENTRY_REPLAYS_EXISTING_GEOMETRY_AND_CHECKS",
+  "historical_attempts_01_through_08_files_byte_unchanged": true,
+  "historical_files_verified": 48,
+  "new_process_exit_code": 0,
+  "new_process_seconds": 2.9729519259999506,
+  "new_script_sha256": "13223b829fe8b66b0351ca158e419ed5c3d7213a038e38c0b99a2629f6accdee",
+  "historical_final_script_sha256": "3e84b3a24038871cb429f6e4c656d7c839589362ddeb4f74141e598ee5a5f7f4",
+  "old_final_report_sha256": "16a16158c65d2104d656eafd58f80ce61a5db7aa61570c08f5a1fae6d6aa688b",
+  "portable_report_sha256": "25e935adc03490d470ebdfbd37932ab486bd1c317b707f9d5509482a7ab8242d",
+  "all_prior_report_fields_except_documented_metadata_equal": true,
+  "metadata_exclusions": [
+    "autoexec_disabled_after_original_prefix",
+    "autoexec_disabled_at_entry",
+    "autoexec_disabled_before_completion",
+    "portable_input_paths",
+    "script_sha256",
+    "script_sha256_end"
+  ],
+  "full_report_byte_equality_claim": false,
+  "key_geometry": {
+    "label": "corrected_native_beveled",
+    "vertices": 480,
+    "faces": 486,
+    "triangles": 964,
+    "exact_duplicate_vertices_world": 0,
+    "exact_duplicate_vertices_local": 0,
+    "crossnorm_eq_zero": 0,
+    "crossnorm_lt_1e_14": 0,
+    "min_crossnorm_m2": 4.193119205696439e-07,
+    "raw_index_topology": {
+      "components": 1,
+      "edge_incidence_not_two": 0,
+      "edge_winding_imbalance": 0,
+      "self_edges": 0
+    },
+    "exact_weld_topology": {
+      "components": 1,
+      "edge_incidence_not_two": 0,
+      "edge_winding_imbalance": 0,
+      "self_edges": 0
+    },
+    "bounds_m": [
+      [
+        -5.150000214576721,
+        1.4599999822676182,
+        0.8764999769628048
+      ],
+      [
+        -2.9500001668930054,
+        1.5799999795854092,
+        0.9234999753534794
+      ]
+    ],
+    "signed_volume_m3": 0.0030577076486944326,
+    "vertex_triangle_signature": "db475fd73f250267177c385dde18d8ec366ba8d4dcdb7534d8987f1cdc93fe92"
+  },
+  "autoexec_runtime_checks": {
+    "autoexec_disabled_at_entry": true,
+    "autoexec_disabled_after_original_prefix": true,
+    "autoexec_disabled_before_completion": true
+  },
+  "original_inputs_sourced_from_published_repository_paths": {
+    "repo": "/workspace/scratch/a29d03198654/Maz543",
+    "original_script": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/build-step-layout-study.py",
+    "original_layout_report": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-step-layout-study-20261001/iteration-02-elevation/layout-report.json",
+    "out": "/workspace/scratch/a29d03198654/maz-step-frame-topology-repair-20261001/attempt-09-portable/native"
+  },
+  "scope": "Entry/path/security verification only; no geometry, parameters or check thresholds changed; no new render or asset save; known installation FAIL and16 OPEN unchanged"
+}

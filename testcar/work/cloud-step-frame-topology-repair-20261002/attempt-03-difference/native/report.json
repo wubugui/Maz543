@@ -1,0 +1,285 @@
+{
+  "status": "DIAGNOSIS_COMPLETE_NOT_ACCEPTANCE",
+  "script_sha256": "e8e4214cb55dff69800a455ca2bfd812824fa8ac7fe0f9a50a818d506bc68b4d",
+  "original_script_sha256": "b295070b1d492c0d376ee732586003928bb94f12db503dbfc089dca93d152812",
+  "stages": [
+    {
+      "label": "original_exact_empty_scene",
+      "vertices": 1092,
+      "faces": 1114,
+      "triangles": 2188,
+      "exact_duplicate_vertices_world": 366,
+      "exact_duplicate_vertices_local": 366,
+      "crossnorm_eq_zero": 845,
+      "crossnorm_lt_1e_14": 1461,
+      "min_crossnorm_m2": 0.0,
+      "raw_index_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "exact_weld_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 418,
+        "edge_winding_imbalance": 0,
+        "self_edges": 159
+      },
+      "bounds_m": [
+        [
+          -5.150000333786011,
+          1.4599999822676182,
+          0.8764999732375145
+        ],
+        [
+          -2.950000047683716,
+          1.5799999833106995,
+          0.9234999790787697
+        ]
+      ],
+      "signed_volume_m3": 0.003076807328206015,
+      "vertex_triangle_signature": "9a9db59657e581e41081bca70983f669e11449ee64446d174ba24c8b078ae5bf"
+    },
+    {
+      "label": "difference_prefix_1",
+      "vertices": 16,
+      "faces": 10,
+      "triangles": 28,
+      "exact_duplicate_vertices_world": 0,
+      "exact_duplicate_vertices_local": 0,
+      "crossnorm_eq_zero": 0,
+      "crossnorm_lt_1e_14": 0,
+      "min_crossnorm_m2": 0.00032200500059076376,
+      "raw_index_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "exact_weld_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "bounds_m": [
+        [
+          -5.150000214576721,
+          1.4599999822676182,
+          0.8764999769628048
+        ],
+        [
+          -2.9500001668930054,
+          1.5799999795854092,
+          0.9234999753534794
+        ]
+      ],
+      "signed_volume_m3": 0.012308546015315636,
+      "vertex_triangle_signature": "0df4632b496009ba590dcc8fa41f81c1f8697773c71181d3fa2ef055beb253ca"
+    },
+    {
+      "label": "difference_prefix_2",
+      "vertices": 24,
+      "faces": 16,
+      "triangles": 48,
+      "exact_duplicate_vertices_world": 0,
+      "exact_duplicate_vertices_local": 0,
+      "crossnorm_eq_zero": 0,
+      "crossnorm_lt_1e_14": 0,
+      "min_crossnorm_m2": 0.00019599912548073917,
+      "raw_index_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "exact_weld_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "bounds_m": [
+        [
+          -5.150000214576721,
+          1.4599999822676182,
+          0.8764999769628048
+        ],
+        [
+          -2.9500001668930054,
+          1.5799999795854092,
+          0.9234999753534794
+        ]
+      ],
+      "signed_volume_m3": 0.007677541993751695,
+      "vertex_triangle_signature": "fb3060829480b5455c48a8d96680a2373ba4ec418f9297aa2b98d6889724f924"
+    },
+    {
+      "label": "difference_prefix_3",
+      "vertices": 32,
+      "faces": 22,
+      "triangles": 68,
+      "exact_duplicate_vertices_world": 0,
+      "exact_duplicate_vertices_local": 0,
+      "crossnorm_eq_zero": 0,
+      "crossnorm_lt_1e_14": 0,
+      "min_crossnorm_m2": 0.00019599912548073917,
+      "raw_index_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "exact_weld_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "bounds_m": [
+        [
+          -5.150000214576721,
+          1.4599999822676182,
+          0.8764999769628048
+        ],
+        [
+          -2.9500001668930054,
+          1.5799999795854092,
+          0.9234999753534794
+        ]
+      ],
+      "signed_volume_m3": 0.0031762583597484684,
+      "vertex_triangle_signature": "98d7ba17371904ea54f80a0fdeb22eca76ab2bdd85cdf90275f16a22eafac2b9"
+    },
+    {
+      "label": "difference_prefix_4",
+      "vertices": 40,
+      "faces": 26,
+      "triangles": 84,
+      "exact_duplicate_vertices_world": 0,
+      "exact_duplicate_vertices_local": 0,
+      "crossnorm_eq_zero": 0,
+      "crossnorm_lt_1e_14": 0,
+      "min_crossnorm_m2": 0.00019599912548073917,
+      "raw_index_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "exact_weld_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "bounds_m": [
+        [
+          -5.150000214576721,
+          1.4599999822676182,
+          0.8764999769628048
+        ],
+        [
+          -2.9500001668930054,
+          1.5799999795854092,
+          0.9234999753534794
+        ]
+      ],
+      "signed_volume_m3": 0.003076806870174078,
+      "vertex_triangle_signature": "9343c15d018bb2a49a48d7f60e309bb2295d4b4292d673d158e6eb92eff0fd09"
+    },
+    {
+      "label": "difference_frame_beveled_2mm",
+      "vertices": 480,
+      "faces": 486,
+      "triangles": 964,
+      "exact_duplicate_vertices_world": 0,
+      "exact_duplicate_vertices_local": 0,
+      "crossnorm_eq_zero": 0,
+      "crossnorm_lt_1e_14": 0,
+      "min_crossnorm_m2": 4.193119205696439e-07,
+      "raw_index_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "exact_weld_topology": {
+        "components": 1,
+        "edge_incidence_not_two": 0,
+        "edge_winding_imbalance": 0,
+        "self_edges": 0
+      },
+      "bounds_m": [
+        [
+          -5.150000214576721,
+          1.4599999822676182,
+          0.8764999769628048
+        ],
+        [
+          -2.9500001668930054,
+          1.5799999795854092,
+          0.9234999753534794
+        ]
+      ],
+      "signed_volume_m3": 0.0030577076486944326,
+      "vertex_triangle_signature": "db475fd73f250267177c385dde18d8ec366ba8d4dcdb7534d8987f1cdc93fe92"
+    }
+  ],
+  "original_bevel_settings": {
+    "width": 0.0020000000949949026,
+    "segments": 3,
+    "affect": "EDGES",
+    "limit_method": "ANGLE",
+    "angle_limit": 0.5235987901687622,
+    "use_clamp_overlap": true,
+    "miter_outer": "MITER_SHARP",
+    "miter_inner": "MITER_SHARP",
+    "vmesh_method": "ADJ",
+    "harden_normals": false,
+    "loop_slide": true,
+    "offset_type": "OFFSET",
+    "profile": 0.5
+  },
+  "corrected_modifiers": [
+    {
+      "name": "Native through opening 0",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "Native through opening 1",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "Native through opening 2",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "Native through opening 3",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "Intended 2 mm bevel",
+      "type": "BEVEL"
+    }
+  ],
+  "aperture_ranges_fitted_derived_m": [
+    [
+      -5.16,
+      -5.127
+    ],
+    [
+      -5.113,
+      -4.042
+    ],
+    [
+      -4.0280000000000005,
+      -2.987
+    ],
+    [
+      -2.973,
+      -2.9400000000000004
+    ]
+  ],
+  "script_sha256_end": "e8e4214cb55dff69800a455ca2bfd812824fa8ac7fe0f9a50a818d506bc68b4d"
+}

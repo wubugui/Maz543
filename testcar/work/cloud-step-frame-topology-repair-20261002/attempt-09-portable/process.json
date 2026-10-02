@@ -1,0 +1,40 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "1",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-step-frame-topology-repair-20261001/attempt-09-portable/executed-script.py",
+    "--",
+    "--repo",
+    "/workspace/scratch/a29d03198654/Maz543",
+    "--original-script",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/build-step-layout-study.py",
+    "--original-layout-report",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-step-layout-study-20261001/iteration-02-elevation/layout-report.json",
+    "--out",
+    "/workspace/scratch/a29d03198654/maz-step-frame-topology-repair-20261001/attempt-09-portable/native"
+  ],
+  "timeout_seconds": 120,
+  "threads": 1,
+  "disable_autoexec_cli": true,
+  "script_sha256_start": "13223b829fe8b66b0351ca158e419ed5c3d7213a038e38c0b99a2629f6accdee",
+  "runner_sha256": "88c390794bd0da9b7628245c689595a46ab493b5490ce336e426100da6380d4c",
+  "start_utc": "2026-10-02T02:25:46Z",
+  "pid": 8,
+  "exit_code": 0,
+  "timed_out": false,
+  "elapsed_seconds": 2.9729519259999506,
+  "end_utc": "2026-10-02T02:25:49Z",
+  "script_sha256_end": "13223b829fe8b66b0351ca158e419ed5c3d7213a038e38c0b99a2629f6accdee",
+  "log_sha256": "1c234adaaaaedad6f7c88983539190faea7eeca1dd248c778fe8b13f6498b89f",
+  "evidence_sha256": {
+    "report.json": "25e935adc03490d470ebdfbd37932ab486bd1c317b707f9d5509482a7ab8242d"
+  }
+}

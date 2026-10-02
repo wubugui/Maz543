@@ -1,0 +1,70 @@
+{
+  "status": "FROZEN_FRESH_EMPTY_SCENE_REPLAY_MATCHES",
+  "final_script_sha256": "3e84b3a24038871cb429f6e4c656d7c839589362ddeb4f74141e598ee5a5f7f4",
+  "final_report_sha256": "16a16158c65d2104d656eafd58f80ce61a5db7aa61570c08f5a1fae6d6aa688b",
+  "fresh_report_sha256": "16a16158c65d2104d656eafd58f80ce61a5db7aa61570c08f5a1fae6d6aa688b",
+  "final_reports_byte_identical": true,
+  "runs": [
+    {
+      "run": "attempt-01-diagnosis",
+      "exit_code": 0,
+      "seconds": 1.0168057659975602,
+      "timeout_seconds": 120,
+      "script_sha256": "4f40dcb10a7509321e60b08e2db203e0d098ef979bdf3eddcd4b3abb55a95f01"
+    },
+    {
+      "run": "attempt-02-cleanup",
+      "exit_code": 0,
+      "seconds": 1.4186139549929067,
+      "timeout_seconds": 120,
+      "script_sha256": "2abb4fd71ab3aea5a70aa810b1db05cf136d133daad18cd86ea0d4e9419f6697"
+    },
+    {
+      "run": "attempt-03-difference",
+      "exit_code": 0,
+      "seconds": 0.7159681940029259,
+      "timeout_seconds": 120,
+      "script_sha256": "e8e4214cb55dff69800a455ca2bfd812824fa8ac7fe0f9a50a818d506bc68b4d"
+    },
+    {
+      "run": "attempt-04-final-audit",
+      "exit_code": 1,
+      "seconds": 0.7661922359984601,
+      "timeout_seconds": 120,
+      "script_sha256": "aee73e8dd58f6f072dec35688ba187a196b2dff96c756c43985df48395a0ee09"
+    },
+    {
+      "run": "attempt-05-float64-audit",
+      "exit_code": 0,
+      "seconds": 2.973366026999429,
+      "timeout_seconds": 120,
+      "script_sha256": "05a0ec0871ecba6b6f67838f6f081e2bed667ca01415a56ab2d6310384c95fec"
+    },
+    {
+      "run": "attempt-06-clamp-diagnostic",
+      "exit_code": 0,
+      "seconds": 0.7160198540004785,
+      "timeout_seconds": 120,
+      "script_sha256": "c6e2d8ef1d15928e0385c4f8ffd17210d75c5dbac6cb14401604622e7f00bcae"
+    },
+    {
+      "run": "attempt-07-final",
+      "exit_code": 0,
+      "seconds": 3.225575188000221,
+      "timeout_seconds": 120,
+      "script_sha256": "3e84b3a24038871cb429f6e4c656d7c839589362ddeb4f74141e598ee5a5f7f4"
+    },
+    {
+      "run": "attempt-08-fresh-replay",
+      "exit_code": 0,
+      "seconds": 3.0231274219986517,
+      "timeout_seconds": 120,
+      "script_sha256": "3e84b3a24038871cb429f6e4c656d7c839589362ddeb4f74141e598ee5a5f7f4"
+    }
+  ],
+  "no_asset_files_saved": true,
+  "all_files_under_200000_bytes": true,
+  "numerical_helper_controls": "distance-helper-controls.json",
+  "whole_vehicle_gates": "ALL16 OPEN",
+  "known_step_tyre_fit": "FAILED UNCHANGED"
+}

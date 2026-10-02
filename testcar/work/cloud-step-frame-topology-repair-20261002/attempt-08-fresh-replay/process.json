@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETED",
+  "command": [
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--threads",
+    "1",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-step-frame-topology-repair-20261001/attempt-08-fresh-replay/executed-script.py",
+    "--",
+    "/workspace/scratch/a29d03198654/maz-step-frame-topology-repair-20261001/attempt-08-fresh-replay/native"
+  ],
+  "timeout_seconds": 120,
+  "threads": 1,
+  "script_sha256_start": "3e84b3a24038871cb429f6e4c656d7c839589362ddeb4f74141e598ee5a5f7f4",
+  "runner_sha256": "236ed37a1613839077b6927925e50895fe7b726161e7a1019e759970eedddf70",
+  "start_utc": "2026-10-01T23:53:32Z",
+  "pid": 5,
+  "exit_code": 0,
+  "timed_out": false,
+  "elapsed_seconds": 3.0231274219986517,
+  "end_utc": "2026-10-01T23:53:35Z",
+  "script_sha256_end": "3e84b3a24038871cb429f6e4c656d7c839589362ddeb4f74141e598ee5a5f7f4",
+  "log_sha256": "1c234adaaaaedad6f7c88983539190faea7eeca1dd248c778fe8b13f6498b89f",
+  "evidence_sha256": {
+    "report.json": "16a16158c65d2104d656eafd58f80ce61a5db7aa61570c08f5a1fae6d6aa688b"
+  }
+}

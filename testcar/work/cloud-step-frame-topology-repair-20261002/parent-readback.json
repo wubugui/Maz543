@@ -1,0 +1,25 @@
+{
+  "status": "EXACT_SOURCE_HASHES_AND_PORTABLE_REPORT_COMPARISON_PASS",
+  "manifest_files_verified": 69,
+  "old_final_fresh_reports_byte_identical": true,
+  "portable_all_prior_fields_equal_except": [
+    "autoexec_disabled_after_original_prefix",
+    "autoexec_disabled_at_entry",
+    "autoexec_disabled_before_completion",
+    "portable_input_paths",
+    "script_sha256",
+    "script_sha256_end"
+  ],
+  "portable_script_sha256": "13223b829fe8b66b0351ca158e419ed5c3d7213a038e38c0b99a2629f6accdee",
+  "portable_report_sha256": "25e935adc03490d470ebdfbd37932ab486bd1c317b707f9d5509482a7ab8242d",
+  "autoexec_checks": {
+    "autoexec_disabled_at_entry": true,
+    "autoexec_disabled_after_original_prefix": true,
+    "autoexec_disabled_before_completion": true
+  },
+  "native_rerun_by_parent": false,
+  "geometry_saved_or_encoded": false,
+  "installation_status": "FAIL_UNCHANGED",
+  "whole_vehicle_gates": "ALL16_OPEN",
+  "historical_48_files_against_before_list_verified": true
+}
