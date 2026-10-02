@@ -1,0 +1,764 @@
+{
+  "status": "NOT_LAUNCHED",
+  "command": [
+    "taskset",
+    "-c",
+    "0,1",
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "2",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py",
+    "--",
+    "--inputs",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/inputs.json",
+    "--output",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-01/native"
+  ],
+  "window_note": "2026-10-02 18:41 UTC: Aether confirmed its preceding source run terminal with no remaining owned PIDs and released the heavy window. Revision2 preparationf3caebe591a3f760b4ad9b21fed75485b7391e92 was plugin-published and all11 changed files read back. One CPU2 native export900s plus separate decoder300s; operational timing, not an isolated benchmark.",
+  "started_utc": "2026-10-02T18:41:29Z",
+  "native_budget_seconds": 900,
+  "cleanup_budget_seconds": 6,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "inputs_before": {
+    "artifact": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+    },
+    "review_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/review/maz543a-cab-va180-v1.glb",
+      "bytes": 24743400,
+      "sha256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e"
+    },
+    "suspension_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/maz543a-suspension.glb",
+      "bytes": 8154920,
+      "sha256": "02820335705e230b5a70a4debbc9649e4a2cf66eb180117c8d65a17f19e2ba18"
+    },
+    "exporter": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/export-va180-cab-candidate.py",
+      "bytes": 6207,
+      "sha256": "81099e989b22af47de42b0f8c15c18199deef5d8bffb2a2da1cd41c072698714"
+    },
+    "bindings": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/nativeWheelBindings.ts",
+      "bytes": 3110,
+      "sha256": "7c4d46478f190f1e3b3fcdad5e7a6678f614aa9706c200fdb9013b487e7edddc"
+    },
+    "viewport": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/vehicleViewport.ts",
+      "bytes": 77905,
+      "sha256": "9de4e242cc43aa21b765a42f447621e083e675d411a66f8a9ba83e9b29b54e5d"
+    },
+    "original_inputs": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/inputs.json",
+      "bytes": 51148,
+      "sha256": "e3249af319ae1be31f81576bd39b74eace400cd726e04552282a354a3f2c59ce"
+    },
+    "saved_expected": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/saved-state-expected.json",
+      "bytes": 909025,
+      "sha256": "9a937128e5cd0af5cac09e7416eaad9e3cff912bbc2d4e324fbb8eef288be4fc"
+    },
+    "original_report": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/native-report.json",
+      "bytes": 11598,
+      "sha256": "8513795e0c37e0b6ad62e1a9cc437877adbdf545ce0a0b242460a69719c73af3"
+    },
+    "builder": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/build-trial.py",
+      "bytes": 17627,
+      "sha256": "892cf825ff6a0929ab576c502b0fbb59829ec9943b627161fa48de02bac80a1d"
+    },
+    "helper": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    },
+    "graph_common": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/graph_common.py",
+      "bytes": 10020,
+      "sha256": "6dd91a5742fd2edf28b66e71436d15d065ff0d07cbcee1182c9ad1acc19c04b1"
+    },
+    "graph_inspector": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py",
+      "bytes": 20542,
+      "sha256": "dce897392d380b8f08295262dd8b5daa7c06bab0c01c3ff61ec9ae17645c80f3"
+    },
+    "mesh_protection_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    "native_graph": {
+      "path": "/workspace/scratch/a29d03198654/maz-graph-success-remote-82c0f429-20261002/restored/native/native-graph.json",
+      "bytes": 8896553,
+      "sha256": "967b4614dce61f1993146bd4ede94ea27d31302f70a46af6ccc92b8ecd45bdbc"
+    },
+    "object_inventory": {
+      "path": "/workspace/scratch/a29d03198654/maz-graph-success-remote-82c0f429-20261002/restored/native/object-inventory.json",
+      "bytes": 10668164,
+      "sha256": "20949fbc0afcef80c09f1110842fc4bd48a15f910e6a90835a8727a8d3ce2852"
+    },
+    "stations": {
+      "path": "/workspace/scratch/a29d03198654/maz-graph-success-remote-82c0f429-20261002/restored/native/stations.json",
+      "bytes": 174735,
+      "sha256": "a6143bf3bffa39ab5cc1d4c5f93f8ce3b2bac95a7f5c96ce49e4346f20ffb314"
+    },
+    "official_exporter_py_000": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/__init__.py",
+      "bytes": 84361,
+      "sha256": "65d621a211ba6a3a0424b6179fef7e7a9f953aa2bfb35d1e6aa649f89a432e41"
+    },
+    "official_exporter_py_001": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/__init__.py",
+      "bytes": 104,
+      "sha256": "59a7c3a3465a99ffb07cbdc268695b087151579cd6484567e0d60b0abbd12a50"
+    },
+    "official_exporter_py_002": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/blender_default.py",
+      "bytes": 311,
+      "sha256": "84633c83caf11477c1473db1579107b8542d87d3cadea66a1d620e56289722d0"
+    },
+    "official_exporter_py_003": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/conversion.py",
+      "bytes": 7955,
+      "sha256": "9d61cd2714b27d4be15e0d4c899fa59096ea7577e076deb156b846f108291813"
+    },
+    "official_exporter_py_004": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/data_path.py",
+      "bytes": 3274,
+      "sha256": "13af69efa34e6b85ad02feb4bca4cfa2f999600ce542ce01775d00d0989bad4c"
+    },
+    "official_exporter_py_005": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/extras.py",
+      "bytes": 2514,
+      "sha256": "d61296a4100d6f7313327b8c945f3c6e10812e6dea1a164777b53fe48049d9a4"
+    },
+    "official_exporter_py_006": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/gltf2_blender_math.py",
+      "bytes": 6767,
+      "sha256": "9f1d3f3e4a7e407a4915e6bf006dc93294208c09a5bee433abf9291e53b444d7"
+    },
+    "official_exporter_py_007": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/gltf2_blender_ui.py",
+      "bytes": 31398,
+      "sha256": "f44ed45b57097c80c88441bd7f059ae9fc69bcdfe9c21712bac18c55408bba30"
+    },
+    "official_exporter_py_008": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/gltf2_blender_utils.py",
+      "bytes": 3635,
+      "sha256": "9155b7a71b2deedd6d608f01c50769568d290b1fb9005ea5ac34bb762872401c"
+    },
+    "official_exporter_py_009": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/json_util.py",
+      "bytes": 651,
+      "sha256": "072ffecccc01a7c7cca1ee4d774fc905a4e89b0bf3e5d7198f19a0d1bb8fe725"
+    },
+    "official_exporter_py_010": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/material_helpers.py",
+      "bytes": 905,
+      "sha256": "ad69d5b2f5f2af364d09a1b1428e23018d4c60381fcd7642dbd9b4f702762833"
+    },
+    "official_exporter_py_011": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/accessors.py",
+      "bytes": 5615,
+      "sha256": "32b553e2b55b8f8d0b8b263bd9a67366fcd9ddb9811ecc8feb0f2a51b0999b1e"
+    },
+    "official_exporter_py_012": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/action.py",
+      "bytes": 55539,
+      "sha256": "7b9e314e99f7dc8c0c4b58790c0c45285299455f1269d96ac4cf7bee4feea6bc"
+    },
+    "official_exporter_py_013": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/anim_utils.py",
+      "bytes": 14162,
+      "sha256": "8302b6fecd686d0bf5e638fe9caa6955fbd3deea7ff0d86285e10a4b54b4a6a5"
+    },
+    "official_exporter_py_014": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/animations.py",
+      "bytes": 777,
+      "sha256": "39ec425948079cd3c14ba1acb32e3c93cf215fa350ca1776d27b766ec6b23f25"
+    },
+    "official_exporter_py_015": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/drivers.py",
+      "bytes": 3285,
+      "sha256": "6108ba9c9bf0bdbe5a6937b287d3b3aa334432581da022924d946c6de9684eb0"
+    },
+    "official_exporter_py_016": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/fcurves/animation.py",
+      "bytes": 1163,
+      "sha256": "2cabe5fef0dd62b913e1ba027a26c14c130bf8b06aca8e10f64cde11808a0830"
+    },
+    "official_exporter_py_017": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/fcurves/channel_target.py",
+      "bytes": 1715,
+      "sha256": "cd3775990723da77cecc9e70cb0c78c821e2bad0d85c97cb71ce7c114b49a812"
+    },
+    "official_exporter_py_018": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/fcurves/channels.py",
+      "bytes": 17364,
+      "sha256": "2eee16314542d4c62a8189f46e26548788ed527e3dfc4698e4ea600b9b641d88"
+    },
+    "official_exporter_py_019": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/fcurves/keyframes.py",
+      "bytes": 9038,
+      "sha256": "9c05d8fb843aa62f4efba05064626322cc6eb2efdd9ad088c91af836a8eff72c"
+    },
+    "official_exporter_py_020": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/fcurves/sampler.py",
+      "bytes": 9499,
+      "sha256": "ba9ddbef6d9ba58547369e54774d5c09d1b0ff689fff698a1503064de6aa0a13"
+    },
+    "official_exporter_py_021": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/keyframes.py",
+      "bytes": 4691,
+      "sha256": "738f0afd438814a880198edd22eb6836aed56b438ffeb94f64300b2e9fecd6b8"
+    },
+    "official_exporter_py_022": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/armature/action_sampled.py",
+      "bytes": 2587,
+      "sha256": "ac8294c8eccf8381287d0e1b1701feabfa88c07635777519e52bf90811a30f09"
+    },
+    "official_exporter_py_023": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/armature/channel_target.py",
+      "bytes": 1695,
+      "sha256": "d6f2ce1be8b3f09e91265076cf13b5c5a217e1c20fae6857f37bc6e1d91c806c"
+    },
+    "official_exporter_py_024": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/armature/channels.py",
+      "bytes": 9773,
+      "sha256": "bdc7a080ee9d76f4f2dcc0b8bec78bedae851479570460bd15cd3c87a84d87e6"
+    },
+    "official_exporter_py_025": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/armature/keyframes.py",
+      "bytes": 3343,
+      "sha256": "83f01a8c4c08c30926720d7347a2bdf1c694b0e397596c4af8766f741b767458"
+    },
+    "official_exporter_py_026": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/armature/sampler.py",
+      "bytes": 8766,
+      "sha256": "3c0d215f492a4b85c4be71c929327a2e9819889fdc691c65376a793e5f0fa1cf"
+    },
+    "official_exporter_py_027": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/data/channel_target.py",
+      "bytes": 1809,
+      "sha256": "d46981d6b29b30c7aa7f805303d723994f38b514a2cdf6569de5862619e0b40e"
+    },
+    "official_exporter_py_028": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/data/channels.py",
+      "bytes": 4039,
+      "sha256": "1b21e14c556664860ba3c826fadb2bb1a684702d98737e0aefe4b9dfc8fb0656"
+    },
+    "official_exporter_py_029": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/data/keyframes.py",
+      "bytes": 6753,
+      "sha256": "da651bc661d6b96757ccb3c89eac9d84b2db9d27379844d2c920d4f4b924d32b"
+    },
+    "official_exporter_py_030": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/data/sampler.py",
+      "bytes": 4269,
+      "sha256": "d86b702063cb9b178a35bd4ce3c757d4a606727ff116bdbbdbbefe546b0653a9"
+    },
+    "official_exporter_py_031": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/object/action_sampled.py",
+      "bytes": 2315,
+      "sha256": "00a476f4f3ad085f18f62622cda40d7cb00601ce93300fafbb41991419b9069d"
+    },
+    "official_exporter_py_032": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/object/channel_target.py",
+      "bytes": 1491,
+      "sha256": "4be657337c88c894b6d25ca72fcdb6bcd42f8b2812626ca0459e0ffdc3b8cb29"
+    },
+    "official_exporter_py_033": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/object/channels.py",
+      "bytes": 5198,
+      "sha256": "7783439652f29df31df741b4b0b645c697eef234744a23b749533441d0b1034c"
+    },
+    "official_exporter_py_034": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/object/keyframes.py",
+      "bytes": 2972,
+      "sha256": "fb02cba1268b14a690c3a9e02c6ad0ef31d22a125b2553a8a8839ce9f575868e"
+    },
+    "official_exporter_py_035": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/object/sampler.py",
+      "bytes": 5808,
+      "sha256": "f994542fa670b8df6edc0e3e680aaa7e006977d0f16caf9a54ed4735b33bc7fa"
+    },
+    "official_exporter_py_036": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/sampling_cache.py",
+      "bytes": 43943,
+      "sha256": "6b75e1a6e0b69d3ac9341b8b1f99623705d1c7bfbba2945bfaecf3c677a52ed5"
+    },
+    "official_exporter_py_037": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/shapekeys/action_sampled.py",
+      "bytes": 1485,
+      "sha256": "59cd156ec429a559d32b0cf3e32c7ad357d6ef155cd586ac6c67f5b3809e073f"
+    },
+    "official_exporter_py_038": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/shapekeys/channel_target.py",
+      "bytes": 1109,
+      "sha256": "4d025621bab6036654eb5ee9a4a44c900411f9ecb51dd826d961034dc000ce10"
+    },
+    "official_exporter_py_039": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/shapekeys/channels.py",
+      "bytes": 2270,
+      "sha256": "aef515aad37b9315c8e6618ce05ffceaabdbe92d9098c36e50c3316b6782b754"
+    },
+    "official_exporter_py_040": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/shapekeys/keyframes.py",
+      "bytes": 5616,
+      "sha256": "53b2293719d7acc3618bdb716fb82a23da84dbfa6ed1451a7e99cd82598f7251"
+    },
+    "official_exporter_py_041": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/sampled/shapekeys/sampler.py",
+      "bytes": 3397,
+      "sha256": "8d751bcebdfc7f40645796afaa06bdbd38a638751eedc5c422912e5b01f8590e"
+    },
+    "official_exporter_py_042": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/scene_animation.py",
+      "bytes": 11445,
+      "sha256": "47c02da1dc69857188a4101287263838553571507b27d82d40041c69f55c9aa1"
+    },
+    "official_exporter_py_043": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/animation/tracks.py",
+      "bytes": 35572,
+      "sha256": "64e9494ba47de4bcd6e802abb66cb87323438c5f30a297b8b8fbec25ce843f8e"
+    },
+    "official_exporter_py_044": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/cache.py",
+      "bytes": 7009,
+      "sha256": "0df5300d67c1e1260c8f83743c29e49a4d2b2fa54ff8ac4cf610e5fd6d45e8cd"
+    },
+    "official_exporter_py_045": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/cameras.py",
+      "bytes": 5041,
+      "sha256": "cc7c4765d69358dd7f666ff4eed3d0db279438b1b8002a3b58a0ed5f4d55981f"
+    },
+    "official_exporter_py_046": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/export.py",
+      "bytes": 16226,
+      "sha256": "273a06669ffe6c475b52460feabee22a05bb87cfbb33896e412beb8400bf8e26"
+    },
+    "official_exporter_py_047": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/exporter.py",
+      "bytes": 21269,
+      "sha256": "54ad6307a2ddd5db124b3e1a3ebd222f8f7df83f76af5fadb89ab9cbf24620a4"
+    },
+    "official_exporter_py_048": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/gather.py",
+      "bytes": 6820,
+      "sha256": "089a6137cce476876378616c121ab67eab9a5b94a70bfaba0c91873d6ba66b51"
+    },
+    "official_exporter_py_049": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/joints.py",
+      "bytes": 3950,
+      "sha256": "b3c2921b821c7da84d2770034a38f792c8e334e85a22997b2d67d7598175cf63"
+    },
+    "official_exporter_py_050": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/light_spots.py",
+      "bytes": 1458,
+      "sha256": "e9cb6bcec2de836756dce73033f43846a2349376c757d0c8318f5f82b6f25a4c"
+    },
+    "official_exporter_py_051": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/lights.py",
+      "bytes": 9100,
+      "sha256": "0002540b2d64346415332ad1b7c5f2fe3f76ec743f2f1548e819c1ed3bcd6ac5"
+    },
+    "official_exporter_py_052": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/encode_image.py",
+      "bytes": 19148,
+      "sha256": "00e651d2f4eef3edfdcc48a7ada9e6175cf02a1b2623e8766db7bd235d0312a8"
+    },
+    "official_exporter_py_053": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/extensions/anisotropy.py",
+      "bytes": 11717,
+      "sha256": "4228e0e0f5729451fd173425a1c98449e1a42af6a0f24c11ca7724c5767a902d"
+    },
+    "official_exporter_py_054": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/extensions/clearcoat.py",
+      "bytes": 8676,
+      "sha256": "f712ba93185b5221d400e2bdef6416d3008ff04f96cd9e51fbf55c2cc1a8fa26"
+    },
+    "official_exporter_py_055": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/extensions/emission.py",
+      "bytes": 5115,
+      "sha256": "a9a7334cfc4ed22cadd6f1f7896e1db8acf88da480618946db11581a6b519e27"
+    },
+    "official_exporter_py_056": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/extensions/ior.py",
+      "bytes": 1576,
+      "sha256": "6fa43821b28d8e28b2a8deb328fbd61fa8058a5cbe1faa8b7c837d5470d10bd5"
+    },
+    "official_exporter_py_057": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/extensions/sheen.py",
+      "bytes": 6419,
+      "sha256": "6b5bfe70924890cb8d7ca30375338907266fbbbaa60f78e64aca3887f649ff53"
+    },
+    "official_exporter_py_058": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/extensions/specular.py",
+      "bytes": 6593,
+      "sha256": "b1af3c0612741cace0e2ab0c2e0fe916f69dafbfe78cdaa5a9502ac2af674307"
+    },
+    "official_exporter_py_059": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/extensions/transmission.py",
+      "bytes": 3286,
+      "sha256": "36abf725bf752c0435bc2eadc50771135ccca85d1fbf5f54320e41181400d22f"
+    },
+    "official_exporter_py_060": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/extensions/variants.py",
+      "bytes": 516,
+      "sha256": "2f499e5a6338d02663ccba0820decb843424b3280bb4d8c2cdd9513885c52670"
+    },
+    "official_exporter_py_061": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/extensions/volume.py",
+      "bytes": 5306,
+      "sha256": "a300c004258c7f4d9088bbc4d9bbf37f5333785b0e53f2a47dbcf0e422b0c033"
+    },
+    "official_exporter_py_062": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/image.py",
+      "bytes": 21251,
+      "sha256": "e5b74c36cf3861cc4d6054ee447cc8754bee96e4d29e8935c430fa452969bdda"
+    },
+    "official_exporter_py_063": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/material_utils.py",
+      "bytes": 392,
+      "sha256": "5d08cd11f70da980002802dbbc4f2ff3a1db6a65d97defd86443fc00ac9ac42e"
+    },
+    "official_exporter_py_064": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/material_viewport.py",
+      "bytes": 1063,
+      "sha256": "338c42b5daa8268eafe93b55d4281da7ba2912f3b03066ebdf026818a4966e17"
+    },
+    "official_exporter_py_065": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/materials.py",
+      "bytes": 31928,
+      "sha256": "953219426a8496bdec68a8f90b18f2e21c13bbceab2d3fbc6f868219dd79c717"
+    },
+    "official_exporter_py_066": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/pbr_metallic_roughness.py",
+      "bytes": 10938,
+      "sha256": "dd3e37d5f6f73337605d9143f2af2a472346370065aa7d8e728dbcc67b194472"
+    },
+    "official_exporter_py_067": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/search_node_tree.py",
+      "bytes": 43795,
+      "sha256": "31a00d03287e66c71d172ce15374b7b6fcca49611403f368bb60ca417d7b8c7a"
+    },
+    "official_exporter_py_068": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/texture.py",
+      "bytes": 9422,
+      "sha256": "96d30086f397af50efe88395c3f29304f2e9d15a5c41d55049fdbf3a4184156e"
+    },
+    "official_exporter_py_069": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/texture_info.py",
+      "bytes": 11152,
+      "sha256": "25c0d8b54424e7dcef38b56fe869c4e6a90699a228617b7b665a6426b089c453"
+    },
+    "official_exporter_py_070": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/unlit.py",
+      "bytes": 7156,
+      "sha256": "97701c5b8528d243d866594a2fe3650eac1a6a4a20a1e8781a646704de57cdb8"
+    },
+    "official_exporter_py_071": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/mesh.py",
+      "bytes": 6255,
+      "sha256": "b16f09b830474ac755721b489eebea3f5f4cded9114f396203d9241732e7c4b7"
+    },
+    "official_exporter_py_072": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/nodes.py",
+      "bytes": 24921,
+      "sha256": "077d66f73d2a22e7caf13f73be83b3d027cc03995c040a0064b3b7a77dc5bcf1"
+    },
+    "official_exporter_py_073": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitive_attributes.py",
+      "bytes": 10071,
+      "sha256": "56f4338728d0baf17a68a696fbe4300026e1e7690afc986ea6357ac63fa2d0c4"
+    },
+    "official_exporter_py_074": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitive_extract.py",
+      "bytes": 86294,
+      "sha256": "884ba7f2691f1c69874c148a3058791b0621740dc5c7123799f6785fc3c87fa7"
+    },
+    "official_exporter_py_075": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitives.py",
+      "bytes": 15009,
+      "sha256": "294d9e0ecb72d27d71d0be1f4f3f48c74cff170d7183ed98ddf85326c2292bdd"
+    },
+    "official_exporter_py_076": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/sampler.py",
+      "bytes": 6836,
+      "sha256": "4e0a2d099680e86339abf6bfc70de2dad7b2d612b8c7825b8c5c71db315b6996"
+    },
+    "official_exporter_py_077": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/skins.py",
+      "bytes": 5398,
+      "sha256": "4db9c3f346464b1638fc4f5cd2abe3733409bc2dc302670c116baa60e5b197e0"
+    },
+    "official_exporter_py_078": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/tree.py",
+      "bytes": 45487,
+      "sha256": "580a3e78a81f9ed39a70131c774e23bfd96af78817cc9c86c5f8760630dd51c7"
+    },
+    "official_exporter_py_079": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/KHR_materials_anisotropy.py",
+      "bytes": 4404,
+      "sha256": "9d1622ac520220f4076042fe3b0e885d089dc70a1992aac68abae78dc558fbab"
+    },
+    "official_exporter_py_080": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/KHR_materials_pbrSpecularGlossiness.py",
+      "bytes": 5695,
+      "sha256": "e43d8d56949251d3f548cc9f38b67a54207ec1ae5b39233c8ad12bd49b87ffbb"
+    },
+    "official_exporter_py_081": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/KHR_materials_unlit.py",
+      "bytes": 2033,
+      "sha256": "fbb9da47410c34384e80f9198155d7c7f9a2724981ae296e3e1d2f97cbc8ca42"
+    },
+    "official_exporter_py_082": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/animation.py",
+      "bytes": 9738,
+      "sha256": "104287e8219efc8bb9645150c1d63b7d3efd632c4913ea87459bd2f91112126d"
+    },
+    "official_exporter_py_083": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/animation_node.py",
+      "bytes": 6700,
+      "sha256": "059a286dc51dcb349b2e91f3af7328c1c6a2e92bf458cadfe66538999d369c71"
+    },
+    "official_exporter_py_084": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/animation_pointer.py",
+      "bytes": 40371,
+      "sha256": "0afd03826d8023c176aeb60f3c4fee8de6ff0914d2cdfcc018f33890d987c51f"
+    },
+    "official_exporter_py_085": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/animation_utils.py",
+      "bytes": 6751,
+      "sha256": "799ce04f986eb5c853a76250e066b355b1f5265ff5ed952df3bea0e357529ce9"
+    },
+    "official_exporter_py_086": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/animation_weight.py",
+      "bytes": 3617,
+      "sha256": "768b137805043cd55b9ca35d1a5011fb9299321c699ae980e58a9c222e7bc0d7"
+    },
+    "official_exporter_py_087": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/blender_gltf.py",
+      "bytes": 34108,
+      "sha256": "1eaa5e503da4d047504379dc946c233b0d20455b0fdb2a6cbeeef4d38dc0384f"
+    },
+    "official_exporter_py_088": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/camera.py",
+      "bytes": 3135,
+      "sha256": "5b00f3f6cc0b48d9cc62afa6ae4a3d1fd57d484de98f22c00c85034a97e50c60"
+    },
+    "official_exporter_py_089": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/draco_compression_extension.py",
+      "bytes": 5563,
+      "sha256": "6c92253952e90ca59ec6e5e6bac8e7b9d937ca71db1a0afca3b36799c9e4a785"
+    },
+    "official_exporter_py_090": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/image.py",
+      "bytes": 3049,
+      "sha256": "e01880acd058238366247adf8b42fcb7ea4e8898e7ebea9d03a198c7fbe1a509"
+    },
+    "official_exporter_py_091": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/light.py",
+      "bytes": 5954,
+      "sha256": "f64b81d19326f83b413fdf2b98f39fe841704f5a7cc1bef50b000b68f29af8b5"
+    },
+    "official_exporter_py_092": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/material.py",
+      "bytes": 4828,
+      "sha256": "10282aec1e08e1bfec176ea7a84eca80cb5ce393cd361f8419da255371da73d0"
+    },
+    "official_exporter_py_093": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/material_utils.py",
+      "bytes": 5325,
+      "sha256": "917ec6db3e7d87c8aa9e1649280829d2ada23771e0a09e772509efdbfa2f4190"
+    },
+    "official_exporter_py_094": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/mesh.py",
+      "bytes": 37898,
+      "sha256": "7524c816b6c293e47548e6efc351b6964d0fffac35e5b35156edb178b1b92c8b"
+    },
+    "official_exporter_py_095": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/node.py",
+      "bytes": 14524,
+      "sha256": "285d19305f586703fd2fad2a88d13fae95a200710ca78ab89e3a6afc96cf0835"
+    },
+    "official_exporter_py_096": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/pbrMetallicRoughness.py",
+      "bytes": 38816,
+      "sha256": "424d0dbb82c23cb09c8296e08302c499a63fc3932ee2b1e1df01fe128a9d465f"
+    },
+    "official_exporter_py_097": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/scene.py",
+      "bytes": 5446,
+      "sha256": "5f80c4cfaa39d8bd3720646507b29b36348ed768ee148073d3a87406bc1ab625"
+    },
+    "official_exporter_py_098": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/texture.py",
+      "bytes": 9598,
+      "sha256": "793910607f00db6ff939dc018133c16426276e104bf92727383ad219c3ad413b"
+    },
+    "official_exporter_py_099": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/imp/vnode.py",
+      "bytes": 24112,
+      "sha256": "bf7adbbedbe829a45ab1640e4ac76faa7f1af2f79d78093fb21ea784ba668037"
+    },
+    "official_exporter_py_100": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/__init__.py",
+      "bytes": 124,
+      "sha256": "d1cd66e78241a927a36cd7b73c01f04adab808e8576775687f7b901f3dd5a2de"
+    },
+    "official_exporter_py_101": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/com/constants.py",
+      "bytes": 4185,
+      "sha256": "a812f552ef90409f5cdb0965e23ac6c4fe7ade5de39bcfffbd57e462ea9355e6"
+    },
+    "official_exporter_py_102": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/com/debug.py",
+      "bytes": 3783,
+      "sha256": "a0112a1488ce1520f6554f1c337494845ab0aea9b683a73b0b747505d6a2fa94"
+    },
+    "official_exporter_py_103": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/com/draco.py",
+      "bytes": 1355,
+      "sha256": "fcbe5c371459967076aed1b6e50f7bc6c54677facf36a81ccccaad5b8f18b7ed"
+    },
+    "official_exporter_py_104": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/com/gltf2_io.py",
+      "bytes": 55198,
+      "sha256": "81473227ff16b6c95ef1674844d2cd681bd0955b897f31e15276c9a00c86e014"
+    },
+    "official_exporter_py_105": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/com/gltf2_io_extensions.py",
+      "bytes": 1268,
+      "sha256": "3639475f9392fc1072bb8df66d5f0602a1494ebe229f69dfb723b569eead4c1a"
+    },
+    "official_exporter_py_106": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/com/lights_punctual.py",
+      "bytes": 2961,
+      "sha256": "f8e00dbfaf5907baa44deb44c32bad7372b89784edc383c024d696652cfd2358"
+    },
+    "official_exporter_py_107": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/com/path.py",
+      "bytes": 450,
+      "sha256": "bafcb71499fc534463880b80e9ddf8c5863f504fd341b9ec20d718a316d681ab"
+    },
+    "official_exporter_py_108": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/com/variants.py",
+      "bytes": 1201,
+      "sha256": "6ea3c9b3cdad4bb8a6d486408327305cfe37ec0b86cc06858ade384832f983fb"
+    },
+    "official_exporter_py_109": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/exp/binary_data.py",
+      "bytes": 1088,
+      "sha256": "9d0c2ac292e9ade8c4c58e4f61f632e91ad704d311f722df76636a792b1ebe75"
+    },
+    "official_exporter_py_110": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/exp/buffer.py",
+      "bytes": 1662,
+      "sha256": "8a8637aed5b1eb38238f0718c69957e7016138fe5e9aa8ae84404086071284fc"
+    },
+    "official_exporter_py_111": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/exp/draco.py",
+      "bytes": 6394,
+      "sha256": "783dea6179bae8ad0c1609faf4bdb2fbdff4ffad877e2900935c57ecfc887b3c"
+    },
+    "official_exporter_py_112": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/exp/export.py",
+      "bytes": 3285,
+      "sha256": "5245a27046ec1d2184366b8e8f138a3e827a883967ca4998f389a1378f7d4c52"
+    },
+    "official_exporter_py_113": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/exp/image_data.py",
+      "bytes": 2091,
+      "sha256": "e8cb8194c9689548a7a0b7b046d1a0b2aaa546661a16e2c1a15a9e5ffc83f7c6"
+    },
+    "official_exporter_py_114": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/exp/user_extensions.py",
+      "bytes": 698,
+      "sha256": "e76dcf9607020e4024cdabce499e29832e8aba510abf0f6f5736104a7b550000"
+    },
+    "official_exporter_py_115": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/imp/__init__.py",
+      "bytes": 127,
+      "sha256": "4e11da33e79af22df107cf85683d73bbd69f0e0e0cb23fc8fabe82af71a75c7e"
+    },
+    "official_exporter_py_116": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/imp/gltf2_io_binary.py",
+      "bytes": 7922,
+      "sha256": "ce95a9a794f5161be00f3480556261769ede4ce46c9bca2734ba14b9909fc99a"
+    },
+    "official_exporter_py_117": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/imp/gltf2_io_gltf.py",
+      "bytes": 7235,
+      "sha256": "12e8fa6304419323019db88f07bb0e8b24f7cc68b4230c04fb8bf3e6d9212382"
+    },
+    "official_exporter_py_118": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/imp/user_extensions.py",
+      "bytes": 477,
+      "sha256": "c70aa91f4d3b7f816357bd50cb7446a0a6d02e46bd1e52067acb7a1b6be385cd"
+    }
+  },
+  "preparation_before": {
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py",
+      "bytes": 21668,
+      "sha256": "280e68c0b061dc8145f4208961f570446a417cb7bcd092a34f0d78770ba676f0"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_glb.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_glb.py",
+      "bytes": 23416,
+      "sha256": "e85fd9492838a75ddfb230c74f5921024a09306f39dbd03dff0be1e243c70f61"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run_export.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run_export.py",
+      "bytes": 16322,
+      "sha256": "9809b41abaf9e905c2365fcc8367c0790ead14d86822a48c21a52d26cec57906"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/check_preparation.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/check_preparation.py",
+      "bytes": 4663,
+      "sha256": "c1570f4c95ccdbb748af7c2cabea87b11057bdde8e1534de72cb652dea9c5362"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_export.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_export.py",
+      "bytes": 2695,
+      "sha256": "5ebff236450adbbae0fc4c4be0dcc42b98fdc1cfd0085d8399be6cac1bde59cf"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/inputs.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/inputs.json",
+      "bytes": 42848,
+      "sha256": "0b13489d807637cec8700112876bfc09508c312ff5e5af87455bb6d2ab96b9b9"
+    },
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/PREPARATION-MANIFEST.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/PREPARATION-MANIFEST.json",
+      "bytes": 2028,
+      "sha256": "84c583f5b31fe332d6fa30be0ec5d0a2ee598a908bfd387435bf266d8f2856c7"
+    }
+  },
+  "performance_claim": "Operational elapsed time only; concurrent resource contention is not isolated",
+  "budget_basis": "15s source preload and27.874s graph baseline;900s permits full-scope native extraction, single uncompressed export and source protection; actual decode runs after Blender exits; not a performance forecast",
+  "native_exit_code": null,
+  "timed_out": false,
+  "termination_status": "NOT_LAUNCHED",
+  "all16_vehicle_gates": "OPEN",
+  "model_saved": false,
+  "exported": null,
+  "rendered": false
+}

@@ -1,0 +1,15 @@
+NATIVE_PHASE original-data-protection
+WARN (bpy.rna): source/blender/python/intern/bpy_rna.cc:1356 pyrna_enum_to_py: current value '-1' matches no enum in 'ColorManagedInputColorspaceSettings', '(null)', 'name'
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend"
+Traceback (most recent call last):
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py", line 378, in <module>
+    main(args, report)
+  File "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py", line 274, in main
+    assert getattr(obj.data, 'shape_keys', None) is None, name
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: S543_0_lower_torsion_bar
+
+Error: script failed, file: '/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py', exiting.
+
+Blender quit
