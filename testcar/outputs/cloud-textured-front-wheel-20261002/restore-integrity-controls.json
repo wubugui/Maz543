@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "controls": [
+    {
+      "case": "complete",
+      "passed": true
+    },
+    {
+      "case": "missing",
+      "passed": true
+    },
+    {
+      "case": "corrupt",
+      "passed": true
+    },
+    {
+      "case": "reordered",
+      "passed": true
+    },
+    {
+      "case": "wrong_whole_hash",
+      "passed": true
+    },
+    {
+      "case": "unsafe_path",
+      "passed": true
+    },
+    {
+      "case": "existing_output",
+      "passed": true
+    }
+  ]
+}

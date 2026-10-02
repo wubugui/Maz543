@@ -1,0 +1,110 @@
+{
+  "schema": "MAZ_NATIVE_BLEND_BINARY_PARTS_V1",
+  "representation": "Canonical ordered raw binary parts; not a directly stored single .blend blob and not LFS pointers",
+  "native_filename": "MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+  "bytes": 100052636,
+  "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea",
+  "original_git_blob_sha1": "61f801a013596e63880efce36468df9520456ed4",
+  "part_size_max_bytes": 8388608,
+  "parts": [
+    {
+      "index": 0,
+      "path": "source-parts/part-000.bin",
+      "offset": 0,
+      "bytes": 8388608,
+      "sha256": "566d7eeae2aa40ec8610646580c34048d776ff555d7ef625b49a3b4c3f981416",
+      "git_blob_sha1": "7b35465a30c3398bade2bc8c3a262df956df07a8"
+    },
+    {
+      "index": 1,
+      "path": "source-parts/part-001.bin",
+      "offset": 8388608,
+      "bytes": 8388608,
+      "sha256": "407cff2cb8d9ec9f34fe1191ef171d2a8723fdbe84e6c429f65afb598ed716b0",
+      "git_blob_sha1": "a511f3bd36de312df352845935fe51878a89ac8e"
+    },
+    {
+      "index": 2,
+      "path": "source-parts/part-002.bin",
+      "offset": 16777216,
+      "bytes": 8388608,
+      "sha256": "c3dd5c757b399a62faceae01e10f5e91f279299c0038722397aa23a4bb4b9955",
+      "git_blob_sha1": "591ff316818278e6e4e9edc93be6ebf02a0990d0"
+    },
+    {
+      "index": 3,
+      "path": "source-parts/part-003.bin",
+      "offset": 25165824,
+      "bytes": 8388608,
+      "sha256": "84550cd6f82a300559963eee880df56483251359db912fce435863c067f479c1",
+      "git_blob_sha1": "b2e8eb7c337c7bf0a9d161ecbb725721a4a425b0"
+    },
+    {
+      "index": 4,
+      "path": "source-parts/part-004.bin",
+      "offset": 33554432,
+      "bytes": 8388608,
+      "sha256": "39021dc09f5effe9be3120af4ac6198fe88ba57cd26b1b47e45b3ddb0ff6c426",
+      "git_blob_sha1": "c2982b960acfa8b8adba277402e7f81d79d1d140"
+    },
+    {
+      "index": 5,
+      "path": "source-parts/part-005.bin",
+      "offset": 41943040,
+      "bytes": 8388608,
+      "sha256": "a3df5aed7afd8d8fac164d9159928ad0cab7e93a877582cb71d8ca601375dda1",
+      "git_blob_sha1": "ece7d98a5de74d7ac788e7d47caad60334008c91"
+    },
+    {
+      "index": 6,
+      "path": "source-parts/part-006.bin",
+      "offset": 50331648,
+      "bytes": 8388608,
+      "sha256": "42088c35b76ce9dd9149e49816ecf1093f64f3dec7892b2072e4b44069a316a5",
+      "git_blob_sha1": "f2e56172eef3801a1d41e11d44715612ac266d80"
+    },
+    {
+      "index": 7,
+      "path": "source-parts/part-007.bin",
+      "offset": 58720256,
+      "bytes": 8388608,
+      "sha256": "083d97d463c40933caaaddddf8b876420d1a5fa27fd8e934f4edc066bcac3464",
+      "git_blob_sha1": "f37fcfab795577bad460c540b4dac8eea7e87965"
+    },
+    {
+      "index": 8,
+      "path": "source-parts/part-008.bin",
+      "offset": 67108864,
+      "bytes": 8388608,
+      "sha256": "ad5c27c3e45f8af21918b0b05d4a627f975390ca336eb6fa8b444e322997e3fb",
+      "git_blob_sha1": "51695fdbdf624cec0c8a785b9fec14b9a88e43a6"
+    },
+    {
+      "index": 9,
+      "path": "source-parts/part-009.bin",
+      "offset": 75497472,
+      "bytes": 8388608,
+      "sha256": "d1d4024b4128c6f2609d5d76f8f0bfc03e94ec312d14ab70d434df1933da49e7",
+      "git_blob_sha1": "6872aff1e3f6ee80477c9da0fc37b3819ff5c2ed"
+    },
+    {
+      "index": 10,
+      "path": "source-parts/part-010.bin",
+      "offset": 83886080,
+      "bytes": 8388608,
+      "sha256": "08a7ba2d71e0c4075f11ddf6680c8dfa7f293b15e8ee33f5ffa8857b67b6d3fa",
+      "git_blob_sha1": "4e2c2681ff5b7c56936bd6bc1eecc12a4348ac12"
+    },
+    {
+      "index": 11,
+      "path": "source-parts/part-011.bin",
+      "offset": 92274688,
+      "bytes": 7777948,
+      "sha256": "ceff1e2def86100e91cbed0b2ee1febf5e8cb2de10855a8786ce588d05c7d3c5",
+      "git_blob_sha1": "abec9aa09fad0d11008d7b7daee03565d59229f5"
+    }
+  ],
+  "source_validation_commit": "a0997f7d38effe4539b18a15e2b281038a4aa3c5",
+  "source_status": "Unaccepted fixed-frame front-four candidate; all16 vehicle gates OPEN",
+  "delivery_status": "PREPARED_PENDING_PLUGIN_UPLOAD_AND_REMOTE_NATIVE_VERIFICATION"
+}

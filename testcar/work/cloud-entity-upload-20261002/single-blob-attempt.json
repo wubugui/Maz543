@@ -1,0 +1,17 @@
+{
+  "status": "WHOLE_FILE_UPLOAD_NOT_CREATED",
+  "source_bytes": 100052636,
+  "source_sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea",
+  "base64_characters": 133403516,
+  "ipc_frame_bytes": 133403855,
+  "ipc_maximum_bytes": 67108864,
+  "exact_error": "code-mode IPC frame length 133403855 exceeds 67108864 bytes",
+  "source_buffer_fully_validated": true,
+  "expected_git_blob_sha1": "61f801a013596e63880efce36468df9520456ed4",
+  "subsequent_plugin_blob_read": {
+    "http_status": 404,
+    "code": "NOT_FOUND"
+  },
+  "cause_scope": "Measured code-mode IPC transport limit, not GitHub100MiB file limit or safety-review denial",
+  "bookkeeping_correction": "A subsequent generic buffer-preparation error was the wrapper catching its exit sentinel, not failure to read the complete source"
+}

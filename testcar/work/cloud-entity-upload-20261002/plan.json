@@ -1,5 +1,5 @@
 {
-  "status": "PREPARING_COMPLETE_NATIVE_BINARY_PLUGIN_UPLOAD_NOT_COMPLETED",
+  "status": "ALL_128_PART_BLOBS_CONFIRMED_PENDING_INDEPENDENT_REMOTE_RESTORE_AND_NATIVE_VERIFICATION",
   "source_path": "/workspace/scratch/a29d03198654/maz-textured-front-wheel-fixed-20261002/fixed-01/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
   "destination_path": "testcar/outputs/cloud-textured-front-wheel-20261002/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
   "bytes": 100052636,
@@ -7,12 +7,12 @@
   "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea",
   "git_blob_sha1": "61f801a013596e63880efce36468df9520456ed4",
   "base64_request_characters": 133403516,
-  "upload_action": "GitHub plugin create_blob, encoding=base64, one complete binary blob; never repository text shards",
-  "attribute_exception_scope": "Only the exact new destination path, after complete blob exists and is validated; existing LFS rules/assets remain unchanged",
-  "proposed_attribute_line": "\"testcar/outputs/cloud-textured-front-wheel-20261002/MAZ543A_Textured_Front_Wheel_Parent_Study.blend\" -filter -diff -merge -text",
-  "attributes_changed": false,
-  "binary_uploaded": false,
-  "large_request_capacity": "Not declared by the tool schema and not yet verified; do not infer it from GitHub 100MiB file limit",
+  "upload_action": "GitHub plugin create_blob encoding=base64 for each complete raw binary part; no encoded text files",
+  "attribute_exception_scope": "Only the128 exact new source-parts/part-NNN.bin paths; existing LFS paths and global patterns untouched",
+  "proposed_attribute_line": null,
+  "attributes_changed": true,
+  "binary_uploaded": true,
+  "large_request_capacity": "64MiB IPC limit measured. First8MiB raw part entered create_blob and was cancelled after prolonged pending, with object404. Recovery uses768KiB raw parts below previously observed successful sub1MB binary transfers; not a claimed universal size bound.",
   "read_probe": {
     "path": "testcar/public/draco/draco_decoder.wasm",
     "git_blob_sha1": "469904ebcb7b83523db73913a19c349528105ff8",
@@ -26,5 +26,32 @@
     "No missing LFS pointer, dropped bytes or alternate storage substitute",
     "All native bytes and size/SHA must be independently retrieved before completion",
     "Do not start next development/modeling/test item until this entire artifact is uploaded and verified"
-  ]
+  ],
+  "representation_schema": "MAZ_NATIVE_BLEND_BINARY_PARTS_V1",
+  "part_manifest": "testcar/outputs/cloud-textured-front-wheel-20261002/manifest.json",
+  "parts_count": 128,
+  "part_size_max_bytes": 786432,
+  "attributes_changed_locally": true,
+  "attributes_published": false,
+  "original_single_blob_attempt": {
+    "ipc_frame_bytes": 133403855,
+    "ipc_maximum_bytes": 67108864,
+    "error": "code-mode IPC frame length 133403855 exceeds 67108864 bytes",
+    "expected_blob_plugin_read_status": 404,
+    "expected_blob_plugin_read_code": "NOT_FOUND"
+  },
+  "previous_8MiB_call": {
+    "cell": "545",
+    "result": "user cancelled MCP tool call",
+    "terminal_confirmed": true,
+    "expected_blob": "7b35465a30c3398bade2bc8c3a262df956df07a8",
+    "expected_blob_read_status": 404,
+    "successful_parts": 0,
+    "observed_wait_until_interruption_seconds": 2897.7,
+    "exact_API_start_time": "not recorded; do not infer"
+  },
+  "part_blobs_confirmed": 128,
+  "direct_single_blend_blob_uploaded": false,
+  "remote_bytes_independently_verified": false,
+  "recovered_native_fresh_open_passed": false
 }
