@@ -1,0 +1,60 @@
+{
+  "schema": "maz-native-static-export-preparation-v1",
+  "status": "PREPARED_NOT_EXECUTED_READY_FOR_INDEPENDENT_REVIEW",
+  "prepared_at_head": "82c0f429c16a8fb906dddf39b366ff4e016ac0bb",
+  "prepared_files": {
+    "EXPORT-DESIGN.md": {
+      "bytes": 9540,
+      "sha256": "80032f38bacf4550f49c8157460fcfc12f9c4ac9e949ffe598fd1bfc9ec4ae7f"
+    },
+    "check_preparation.py": {
+      "bytes": 4663,
+      "sha256": "c1570f4c95ccdbb748af7c2cabea87b11057bdde8e1534de72cb652dea9c5362"
+    },
+    "export_native.py": {
+      "bytes": 21668,
+      "sha256": "280e68c0b061dc8145f4208961f570446a417cb7bcd092a34f0d78770ba676f0"
+    },
+    "inputs.json": {
+      "bytes": 42848,
+      "sha256": "0b13489d807637cec8700112876bfc09508c312ff5e5af87455bb6d2ab96b9b9"
+    },
+    "preparation-checks.json": {
+      "bytes": 1878,
+      "sha256": "449ea2c63d6d8ebc7227e9e8a9f00954961f17252a428eeb691ce2bd799d893a"
+    },
+    "run_export.py": {
+      "bytes": 16322,
+      "sha256": "9809b41abaf9e905c2365fcc8367c0790ead14d86822a48c21a52d26cec57906"
+    },
+    "validate_export.py": {
+      "bytes": 2695,
+      "sha256": "5ebff236450adbbae0fc4c4be0dcc42b98fdc1cfd0085d8399be6cac1bde59cf"
+    },
+    "validate_glb.py": {
+      "bytes": 23416,
+      "sha256": "e85fd9492838a75ddfb230c74f5921024a09306f39dbd03dff0be1e243c70f61"
+    }
+  },
+  "must_publish_and_readback_before_native_run": true,
+  "native_execution": false,
+  "asset_created": false,
+  "all16_vehicle_gates": "OPEN",
+  "expected_outputs": [
+    "launch.json",
+    "child-started.json",
+    "heartbeat.jsonl",
+    "run.log",
+    "decode.log",
+    "process.json",
+    "native/protection-before.json",
+    "native/static-preflight.json",
+    "native/native-static.glb",
+    "native/native-references.json",
+    "native/protection-after.json",
+    "native/native-report.json",
+    "native/decoded-validation.json"
+  ],
+  "failure_outputs": "Preserve every generated file including partial GLB and preservation-failure.json; no retry or cleanup that destroys evidence",
+  "revision": 2
+}

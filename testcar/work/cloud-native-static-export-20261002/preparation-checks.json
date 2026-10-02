@@ -1,0 +1,84 @@
+{
+  "status": "PURE_STATIC_PREPARATION_PASS",
+  "compiled": [
+    "check_preparation.py",
+    "export_native.py",
+    "run_export.py",
+    "validate_export.py",
+    "validate_glb.py"
+  ],
+  "verified_input_count": 137,
+  "official_option_names": 34,
+  "scope_names": 2675,
+  "station_names": 48,
+  "scope_types": {
+    "MESH": 2386,
+    "EMPTY": 269,
+    "CURVE": 13,
+    "FONT": 7
+  },
+  "deadline_controls": [
+    {
+      "observed_seconds": 899.95,
+      "passes": true
+    },
+    {
+      "observed_seconds": 900.1,
+      "passes": false
+    }
+  ],
+  "capacity_controls": [
+    {
+      "terminal_bytes": 805306368,
+      "passes": true,
+      "timed_out": false
+    },
+    {
+      "terminal_bytes": 805306369,
+      "passes": false,
+      "timed_out": false
+    }
+  ],
+  "decode_failure_controls": [
+    {
+      "exception": "TimeoutExpired",
+      "status": "TIMEOUT"
+    },
+    {
+      "exception": "InterruptedError",
+      "status": "INTERRUPTED"
+    },
+    {
+      "exception": "KeyboardInterrupt",
+      "status": "INTERRUPTED"
+    },
+    {
+      "exception": "ValueError",
+      "status": "FAILED"
+    }
+  ],
+  "decoder_controls": {
+    "passed": true,
+    "checks": [
+      "cyclic rotation accepted",
+      "reversed winding rejected",
+      "triangle multiplicity retained",
+      "triangle storage order ignored",
+      "vertex storage order ignored",
+      "joint position/UV binding retained",
+      "POSITION corruption rejected",
+      "NORMAL corruption rejected",
+      "TEXCOORD_0 corruption rejected",
+      "negative zero retained",
+      "actual embedded raw accessor decoded",
+      "accessor overrun rejected",
+      "bad GLB magic rejected",
+      "out-of-range triangle index rejected",
+      "node cycle rejected",
+      "nonfinite normal rejected"
+    ]
+  },
+  "native_execution": false,
+  "asset_created": false,
+  "all16_vehicle_gates": "OPEN"
+}
