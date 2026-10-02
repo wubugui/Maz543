@@ -1,0 +1,27 @@
+{
+  "status": "READ_ONLY_COMPONENT_DIFFERENCE_LOCALIZED_FOR_FOUR_REPRESENTATIVES",
+  "native_runs": [
+    {
+      "directory": "appearance-components-01",
+      "wrapper_exit": 124,
+      "second_fresh_open_complete": false
+    },
+    {
+      "directory": "appearance-components-02",
+      "native_exit": 0,
+      "elapsed_seconds": 16.513028925997787,
+      "fresh_opens": 1
+    }
+  ],
+  "cross_process_samples": 2,
+  "objects_per_sample": 6,
+  "evaluated_uv_digest_differences": 4,
+  "all_recorded_component_stable_controls": 2,
+  "root_cause": "UNDETERMINED",
+  "full301coverage": false,
+  "historical_component_cause_retrospectively_proven": false,
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "source_bytes": 66069335,
+  "saved_model": false,
+  "all16VehicleGates": "OPEN"
+}

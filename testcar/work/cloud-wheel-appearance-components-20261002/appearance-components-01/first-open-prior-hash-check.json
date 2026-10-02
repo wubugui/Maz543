@@ -1,0 +1,111 @@
+{
+  "status": "ONE_COMPLETED_OPEN_ONLY_NOT_CAUSE_LOCALIZATION",
+  "rows": [
+    {
+      "object": "BL_Hub_0_cover",
+      "role": "previous_combined_hash_differed",
+      "current_combined_sha": "045db4f87cefb5aa0a480ef43ceec73411affc84896c461ef46a20a17cb9991d",
+      "matches_timeout_before": false,
+      "matches_complete_before": true,
+      "uv_layers": [
+        [
+          "SurfaceUV",
+          [
+            1920,
+            2
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "object": "BL_Wheel_0_nut_0.26_1",
+      "role": "previous_combined_hash_differed",
+      "current_combined_sha": "a115ca3816d5879b5460ebb96cc7d11d56b27f0ec8f25a5ad2ef105b1d494660",
+      "matches_timeout_before": false,
+      "matches_complete_before": false,
+      "uv_layers": [
+        [
+          "SurfaceUV",
+          [
+            576,
+            2
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "object": "BL_Wheel_0_washer_0.343_12",
+      "role": "previous_combined_hash_differed",
+      "current_combined_sha": "c093cfb8f420f664a0add48218942bc323b7ada795392ce5211f81563256fce0",
+      "matches_timeout_before": false,
+      "matches_complete_before": false,
+      "uv_layers": [
+        [
+          "SurfaceUV",
+          [
+            720,
+            2
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "object": "BL_Tyre_0_curved_tread_blocks",
+      "role": "previous_combined_hash_differed",
+      "current_combined_sha": "0a2c53ac9cb3ad1b854a30c403c35059aaa839c47442794a9ede9762490d46f8",
+      "matches_timeout_before": false,
+      "matches_complete_before": false,
+      "uv_layers": [
+        [
+          "SurfaceUV",
+          [
+            142848,
+            2
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "object": "BL_Tyre_0_VI203_profile",
+      "role": "previous_combined_hash_stable",
+      "current_combined_sha": "489b5af96ddda08d603614460540c2f3287fd1922c6f1d5c5cc241ece0c94d13",
+      "matches_timeout_before": true,
+      "matches_complete_before": true,
+      "uv_layers": [
+        [
+          "SurfaceUV",
+          [
+            10240,
+            2
+          ],
+          0
+        ]
+      ]
+    },
+    {
+      "object": "BL_Rim_0_bead_lock",
+      "role": "previous_combined_hash_stable",
+      "current_combined_sha": "56b69c1b6b6b79f57ec451382ca2f15e690f3ef00432f5793837284ca64382fc",
+      "matches_timeout_before": true,
+      "matches_complete_before": true,
+      "uv_layers": [
+        [
+          "SurfaceUV",
+          [
+            1536,
+            2
+          ],
+          0
+        ]
+      ]
+    }
+  ],
+  "limits": [
+    "Only aggregate old hashes exist; the new component observations cannot identify old differing fields without another complete observation.",
+    "No second engine run has been started."
+  ]
+}

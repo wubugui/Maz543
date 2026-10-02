@@ -1,0 +1,20 @@
+{
+  "status": "SMALL_READ_ONLY_APPEARANCE_SINGLE_OPEN_COMPLETE",
+  "source_sha256_before": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "source_sha256_after": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "selection_basis_parent_comparison_sha256": "1c211a71f014954c2919644c9ec2a1d51c053ff511d8dcf7c3fad7810fee5002",
+  "blender_version": "4.5.13 LTS",
+  "blender_build_hash": "daeeeca98fb0",
+  "autoexec": false,
+  "objects": 6,
+  "fresh_opens": 1,
+  "saved_blend_glb": false,
+  "transformed_applied_or_rendered": false,
+  "limits": [
+    "This is one fresh open in a new process. Its complete case may be compared with the persisted first case from appearance-components-01; the unfinished second open of that timeout process is unavailable.",
+    "The same six objects, selection order, appearance function, and open_mainfile, scene.frame_set(0), view_layer.update, evaluated_depsgraph_get initialization are retained.",
+    "Six representatives cannot establish whole301object stability; earlier combined-only hashes do not localize their historical changes.",
+    "No object transform, modifier Apply, model save, or render. Material lists and bindings are read, not complete shader-node or renderer state."
+  ],
+  "all16VehicleGates": "OPEN"
+}

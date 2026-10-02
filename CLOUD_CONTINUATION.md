@@ -1,6 +1,6 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-02 05:44 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-02 06:06 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
@@ -30,8 +30,8 @@
 `testcar/docs/ACCEPTANCE.md`、`testcar/MIGRATION_HANDOFF.md`。
 
 - 独立开发分支：`development/cloud-maz543a-20260930`
-- 最近已核实发布的HEAD：`cf7357b54e47e59bd8272a61ecdc867ce55a3605`（原生Apply超时17文本已读回；Git模型实体仍cc47bf6）
-- 该提交根树：`f426ba7238e37c1dd24d12fa9f9fcc09217576c5`
+- 最近已核实发布的HEAD：`66085d7f353b6a5ee6d441243f3e0618e2ac0b64`（原生限定修复完整终验20文本已读回；Git模型实体仍cc47bf6）
+- 该提交根树：`1e7a674d6bbd0bd90697d8bc5ddb35d16af59e72`
 - 插件原生Git对象发布后远端ref/tree/parent及文件字节已核实，本地分支已对齐
 - 原迁移分支保持：`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`
 - `migration/cloud-handoff/DELIVERY_STATE.json`确认完整快照，无待迁移文件；
@@ -1629,3 +1629,30 @@ blend/GLB积压。名义1°、缺失CV/支承安装和旧exporter父分支排除
 接触和连续净空均未认证。旧exporter会漏重父链轮组，网页还会清空suspension
 子层级并按旧局部坐标覆写轮/制动姿态，不能仅放开导出白名单。需明确候选装配
 与绑定，现生产规则不改。新LFS上传缺口仍在，16整车门仍OPEN。
+
+## 2026-10-02 06:06 UTC：四个代表件的跨进程差异定位到评估UV
+
+证据：`testcar/work/cloud-wheel-appearance-components-20261002/`。只读同一8e母版、
+官方4.5.13，CPU1/30秒硬界。第一轮原计划两次fresh-open，30.054秒超时，wrapper124、
+native exit未知；第一份6件组件JSON完整落盘，第二次没有完整记录。保留原script、
+runner、argv、log和失败终态，不把部分样本当两次成功。随后只补一次单fresh-open，
+16.513029秒exit0、峰RSS1917160KiB，未重复第一有效样本。两进程初始化顺序和
+同6件读取函数相同；明确这是跨两个独立进程的两个完整样本。
+
+- 4个原组合hash变化代表：BL_Hub_0_cover、BL_Wheel_0_nut_0.26_1、
+  BL_Wheel_0_washer_0.343_12、BL_Tyre_0_curved_tread_blocks。本轮仅
+  evaluated SurfaceUV 的float32字节摘要不同；两处重复/派生组合hash一起变，
+  不是3个独立故障。
+- 原始网格UV及外观记录、评估材质列表/slot绑定/面材质索引、局部顶点/loop/
+  triangle顺序摘要、UV形状/字节数/active标志/数值范围/非有限数/负零数均相同。
+  范围相同不代表UV值相同或有误差上界。两个无修饰器对照
+  BL_Tyre_0_VI203_profile、BL_Rim_0_bead_lock的全部记录字段相同。
+- 原UV数组未保存，尚无逐loop差值、ULP或最大UV误差，也未定位具体modifier因果。
+  6件固定读取顺序不同于早先776件完整遍历，不能追溯证明历史301件都同因，
+  不把4件结论外推全部。材质绑定记录不代表完整shader或真实渲染。
+- 父级独立解析两份JSON得到同4变2稳，包内compare-components.py再次复核通过。
+  全部原记录按字节保留，源SHA仍8e962d6；没有模型变换、Apply、渲染、blend/GLB
+  保存或生产替换。16门OPEN，原生限定修复的同进程保护边界保持不变。
+
+下一项准备同机位原生轮组中性/实际转动双图，保留原材质、附近门体和已知下踏步
+干涉，不移隐藏原件；之后推进候选导出/网页装配兼容。新LFS实体上传缺口不变。

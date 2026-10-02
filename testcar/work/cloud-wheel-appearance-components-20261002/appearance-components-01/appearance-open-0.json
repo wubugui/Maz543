@@ -1,0 +1,1148 @@
+{
+  "fresh_open": 0,
+  "saved_frame_before_init": 0,
+  "saved_subframe_before_init": 0.0,
+  "evaluated_frame": 0,
+  "evaluated_subframe": 0.0,
+  "spin_rotation_mode": "QUATERNION",
+  "initialization_calls": [
+    "open_mainfile",
+    "scene.frame_set(0)",
+    "view_layer.update",
+    "evaluated_depsgraph_get"
+  ],
+  "load_and_update_seconds": 15.668752395999036,
+  "elapsed_seconds": 15.711564015997283,
+  "rows": [
+    {
+      "object": "BL_Hub_0_cover",
+      "selection_role": "previous_combined_hash_differed",
+      "rotation_mode": "XYZ",
+      "parent": "wheels_pivot_002",
+      "modifiers": [
+        {
+          "name": "Manufactured edge radii",
+          "type": "BEVEL",
+          "viewport": true
+        },
+        {
+          "name": "Weighted surface normals",
+          "type": "WEIGHTED_NORMAL",
+          "viewport": true
+        }
+      ],
+      "raw_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                384,
+                2
+              ],
+              "bytes": 3072,
+              "sha256": "79bebc69c4019620fab98da9cd590f894e7711d7f5bcea0dfe4e77b771c4f956"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              -3.2101075649261475,
+              -3.2639999389648438
+            ],
+            "finite_max_by_component": [
+              1.4919999837875366,
+              1.4919999837875366
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "OD_green_aged_enamel"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "OD_green_aged_enamel"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            66
+          ],
+          "bytes": 264,
+          "sha256": "44b8aa4d28701168922acf61435ea4bb442f97b0b14ad7a2510ed68874ee2a72",
+          "histogram": [
+            [
+              0,
+              66
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 384,
+              "sha256": "79bebc69c4019620fab98da9cd590f894e7711d7f5bcea0dfe4e77b771c4f956",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "OD_green_aged_enamel"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "OD_green_aged_enamel"
+            ]
+          ],
+          "polygon_material_index_sha256": "44b8aa4d28701168922acf61435ea4bb442f97b0b14ad7a2510ed68874ee2a72"
+        },
+        "original_combined_signature_sha256": "57bd761bfe9e9b646d8137a1cae6eaabab3c32d112e4d4a5b56948eff8ca8342"
+      },
+      "evaluated_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                1920,
+                2
+              ],
+              "bytes": 15360,
+              "sha256": "5c6f1c563aa538b07128e2066bb13b89e9a50ed4eae74953d962d3728b02c06f"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              -3.2101078033447266,
+              -3.2639973163604736
+            ],
+            "finite_max_by_component": [
+              1.4920001029968262,
+              1.4920002222061157
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "OD_green_aged_enamel"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "OD_green_aged_enamel"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            450
+          ],
+          "bytes": 1800,
+          "sha256": "09cec5a5bd8afffbb758753810a20c55ccb06a46d7bf54eda69ecd2ad645ef11",
+          "histogram": [
+            [
+              0,
+              450
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 1920,
+              "sha256": "5c6f1c563aa538b07128e2066bb13b89e9a50ed4eae74953d962d3728b02c06f",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "OD_green_aged_enamel"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "OD_green_aged_enamel"
+            ]
+          ],
+          "polygon_material_index_sha256": "09cec5a5bd8afffbb758753810a20c55ccb06a46d7bf54eda69ecd2ad645ef11"
+        },
+        "original_combined_signature_sha256": "045db4f87cefb5aa0a480ef43ceec73411affc84896c461ef46a20a17cb9991d"
+      },
+      "evaluated_geometry_ordering": {
+        "local_vertex_float_bytes": {
+          "dtype": "<f4",
+          "shape": [
+            512,
+            3
+          ],
+          "bytes": 6144,
+          "sha256": "b8792b3015d4c23c5763b659b3e95dd64c9bbad91c5332fa9f83117a5c45f275"
+        },
+        "loop_vertex_indices": {
+          "dtype": "<i4",
+          "shape": [
+            1920
+          ],
+          "bytes": 7680,
+          "sha256": "b7270b98efa538daec2df2354877f602caf7b9cdcf06ddd508083cd689815869"
+        },
+        "triangle_indices": {
+          "dtype": "<i4",
+          "shape": [
+            1020,
+            3
+          ],
+          "bytes": 12240,
+          "sha256": "662cec3c100f7fdf6f24c05a35d9d4ae3cf8593613cb1866b282d41394bdab4c"
+        }
+      }
+    },
+    {
+      "object": "BL_Wheel_0_nut_0.26_1",
+      "selection_role": "previous_combined_hash_differed",
+      "rotation_mode": "XYZ",
+      "parent": "wheels_pivot_002",
+      "modifiers": [
+        {
+          "name": "Manufactured edge radii",
+          "type": "BEVEL",
+          "viewport": true
+        },
+        {
+          "name": "Weighted surface normals",
+          "type": "WEIGHTED_NORMAL",
+          "viewport": true
+        }
+      ],
+      "raw_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                36,
+                2
+              ],
+              "bytes": 288,
+              "sha256": "696fa20907303639be0d4f2e759d3508e6901c13e2d8e260cc94d400195b0441"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              -2.865833282470703,
+              -2.876833438873291
+            ],
+            "finite_max_by_component": [
+              1.3940000534057617,
+              1.3940000534057617
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "Phosphated_steel"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "Phosphated_steel"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925",
+          "histogram": [
+            [
+              0,
+              8
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 36,
+              "sha256": "696fa20907303639be0d4f2e759d3508e6901c13e2d8e260cc94d400195b0441",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "Phosphated_steel"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "Phosphated_steel"
+            ]
+          ],
+          "polygon_material_index_sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        },
+        "original_combined_signature_sha256": "57a2e7e942014a81d66000dace9468ab89be4665c6eaa57dd64d9368ed11c627"
+      },
+      "evaluated_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                576,
+                2
+              ],
+              "bytes": 4608,
+              "sha256": "af5e46d2e85df718474837df60cc8961b004a777e611c9b5c3c1915b56641e86"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              -2.8658335208892822,
+              -2.876542329788208
+            ],
+            "finite_max_by_component": [
+              1.3940000534057617,
+              1.3940001726150513
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "Phosphated_steel"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "Phosphated_steel"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            146
+          ],
+          "bytes": 584,
+          "sha256": "62ec1707572ac5078d31a687a5d23de0c6d2a58d3462efb7039957548a7986cc",
+          "histogram": [
+            [
+              0,
+              146
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 576,
+              "sha256": "af5e46d2e85df718474837df60cc8961b004a777e611c9b5c3c1915b56641e86",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "Phosphated_steel"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "Phosphated_steel"
+            ]
+          ],
+          "polygon_material_index_sha256": "62ec1707572ac5078d31a687a5d23de0c6d2a58d3462efb7039957548a7986cc"
+        },
+        "original_combined_signature_sha256": "a115ca3816d5879b5460ebb96cc7d11d56b27f0ec8f25a5ad2ef105b1d494660"
+      },
+      "evaluated_geometry_ordering": {
+        "local_vertex_float_bytes": {
+          "dtype": "<f4",
+          "shape": [
+            144,
+            3
+          ],
+          "bytes": 1728,
+          "sha256": "713fd1d5f8d094053427b520600e4b521c62048f5a8937f5dd3631b2d0f6903f"
+        },
+        "loop_vertex_indices": {
+          "dtype": "<i4",
+          "shape": [
+            576
+          ],
+          "bytes": 2304,
+          "sha256": "410ead46802bcd4da014da5433ea9e0a9b82fe5317facb322a00ce229ca43443"
+        },
+        "triangle_indices": {
+          "dtype": "<i4",
+          "shape": [
+            284,
+            3
+          ],
+          "bytes": 3408,
+          "sha256": "06e38d16d5accd231467473d115e10c95ef778632919e82558338b0ff00fce8f"
+        }
+      }
+    },
+    {
+      "object": "BL_Wheel_0_washer_0.343_12",
+      "selection_role": "previous_combined_hash_differed",
+      "rotation_mode": "XYZ",
+      "parent": "wheels_pivot_002",
+      "modifiers": [
+        {
+          "name": "Manufactured edge radii",
+          "type": "BEVEL",
+          "viewport": true
+        },
+        {
+          "name": "Weighted surface normals",
+          "type": "WEIGHTED_NORMAL",
+          "viewport": true
+        }
+      ],
+      "raw_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                144,
+                2
+              ],
+              "bytes": 1152,
+              "sha256": "3a54d58e338c464efd1caae64509f2642cfab211cffc972d66e84369be67b7d3"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              -3.0914552211761475,
+              -3.0961999893188477
+            ],
+            "finite_max_by_component": [
+              1.4759999513626099,
+              1.4759999513626099
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "Phosphated_steel"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "Phosphated_steel"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            26
+          ],
+          "bytes": 104,
+          "sha256": "39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418",
+          "histogram": [
+            [
+              0,
+              26
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 144,
+              "sha256": "3a54d58e338c464efd1caae64509f2642cfab211cffc972d66e84369be67b7d3",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "Phosphated_steel"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "Phosphated_steel"
+            ]
+          ],
+          "polygon_material_index_sha256": "39f37f8d1931b3bdf767e7510dd69509fbf23af1f7654933d0a4d291cbdd4418"
+        },
+        "original_combined_signature_sha256": "b48a14225f625037e46e255c13514a5e781c0d792fc2eca6a1471983db114181"
+      },
+      "evaluated_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                720,
+                2
+              ],
+              "bytes": 5760,
+              "sha256": "a3742b16371d0ccd49cf37a2aca0eb3331df2c34538c580dde59cc9549be0fe1"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              -3.0914556980133057,
+              -3.096195697784424
+            ],
+            "finite_max_by_component": [
+              1.4759999513626099,
+              1.4759999513626099
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "Phosphated_steel"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "Phosphated_steel"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            170
+          ],
+          "bytes": 680,
+          "sha256": "3893c122a235d76ac34b7853ae88aae7b72c2785f12e0e5ba05506aa89f4cf6c",
+          "histogram": [
+            [
+              0,
+              170
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 720,
+              "sha256": "a3742b16371d0ccd49cf37a2aca0eb3331df2c34538c580dde59cc9549be0fe1",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "Phosphated_steel"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "Phosphated_steel"
+            ]
+          ],
+          "polygon_material_index_sha256": "3893c122a235d76ac34b7853ae88aae7b72c2785f12e0e5ba05506aa89f4cf6c"
+        },
+        "original_combined_signature_sha256": "c093cfb8f420f664a0add48218942bc323b7ada795392ce5211f81563256fce0"
+      },
+      "evaluated_geometry_ordering": {
+        "local_vertex_float_bytes": {
+          "dtype": "<f4",
+          "shape": [
+            192,
+            3
+          ],
+          "bytes": 2304,
+          "sha256": "5b165e6a3aed2acd9432dcd2ebdfd514f1f3498babe2517971188ee21a6d59d8"
+        },
+        "loop_vertex_indices": {
+          "dtype": "<i4",
+          "shape": [
+            720
+          ],
+          "bytes": 2880,
+          "sha256": "c980c785222baafdec414cd4097b1c44427893d5341345a633edae3c463bd37d"
+        },
+        "triangle_indices": {
+          "dtype": "<i4",
+          "shape": [
+            380,
+            3
+          ],
+          "bytes": 4560,
+          "sha256": "4a3b15caf701786fd045f5aba2f85ae0ff382ac63dcf157ff87043fe9f8b9caf"
+        }
+      }
+    },
+    {
+      "object": "BL_Tyre_0_curved_tread_blocks",
+      "selection_role": "previous_combined_hash_differed",
+      "rotation_mode": "XYZ",
+      "parent": "wheels_pivot_002",
+      "modifiers": [
+        {
+          "name": "Manufactured edge radii",
+          "type": "BEVEL",
+          "viewport": true
+        },
+        {
+          "name": "Weighted surface normals",
+          "type": "WEIGHTED_NORMAL",
+          "viewport": true
+        }
+      ],
+      "raw_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                18432,
+                2
+              ],
+              "bytes": 147456,
+              "sha256": "6c0e055d190413d6f447ca5433f7620b5cdb2936a9e111df8ec102c56308b18b"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              -3.833987236022949,
+              -3.8339874744415283
+            ],
+            "finite_max_by_component": [
+              1.503987431526184,
+              1.5039873123168945
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "Tyre_rubber"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "Tyre_rubber"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            3456
+          ],
+          "bytes": 13824,
+          "sha256": "299407adb3f1bd645191cfecb3c33a47510b1dfba3c0a936d741bdd8513526c0",
+          "histogram": [
+            [
+              0,
+              3456
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 18432,
+              "sha256": "6c0e055d190413d6f447ca5433f7620b5cdb2936a9e111df8ec102c56308b18b",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "Tyre_rubber"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "Tyre_rubber"
+            ]
+          ],
+          "polygon_material_index_sha256": "299407adb3f1bd645191cfecb3c33a47510b1dfba3c0a936d741bdd8513526c0"
+        },
+        "original_combined_signature_sha256": "2bfe5c1016778780c729005e05cbf0c10e420be06086b70186aec1ad24a1fb77"
+      },
+      "evaluated_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                142848,
+                2
+              ],
+              "bytes": 1142784,
+              "sha256": "0751575d69fb57de1a00eb7a5fadf893dfd44e03fb3311c5ad2d66d3f24c7529"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              -3.833986759185791,
+              -3.83398699760437
+            ],
+            "finite_max_by_component": [
+              1.5039868354797363,
+              1.5039868354797363
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "Tyre_rubber"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "Tyre_rubber"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            34944
+          ],
+          "bytes": 139776,
+          "sha256": "67b858a53a3257e5b4eae997fee97e409e77ddff5eac0d60f603353edab3caa3",
+          "histogram": [
+            [
+              0,
+              34944
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 142848,
+              "sha256": "0751575d69fb57de1a00eb7a5fadf893dfd44e03fb3311c5ad2d66d3f24c7529",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "Tyre_rubber"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "Tyre_rubber"
+            ]
+          ],
+          "polygon_material_index_sha256": "67b858a53a3257e5b4eae997fee97e409e77ddff5eac0d60f603353edab3caa3"
+        },
+        "original_combined_signature_sha256": "0a2c53ac9cb3ad1b854a30c403c35059aaa839c47442794a9ede9762490d46f8"
+      },
+      "evaluated_geometry_ordering": {
+        "local_vertex_float_bytes": {
+          "dtype": "<f4",
+          "shape": [
+            36864,
+            3
+          ],
+          "bytes": 442368,
+          "sha256": "8d5fc1b4f32855998748947dcdbdde9385979353e6a5122eb3245f60e81390da"
+        },
+        "loop_vertex_indices": {
+          "dtype": "<i4",
+          "shape": [
+            142848
+          ],
+          "bytes": 571392,
+          "sha256": "91cdfebb39a59ac7b4796e6337ef7c42927ff84ccbb682411f385e07e6601574"
+        },
+        "triangle_indices": {
+          "dtype": "<i4",
+          "shape": [
+            72960,
+            3
+          ],
+          "bytes": 875520,
+          "sha256": "1de34885478b7358882759f32e3d77895be41359ac54c0bb5f7e994962e1bf75"
+        }
+      }
+    },
+    {
+      "object": "BL_Tyre_0_VI203_profile",
+      "selection_role": "previous_combined_hash_stable",
+      "rotation_mode": "XYZ",
+      "parent": "wheels_pivot_002",
+      "modifiers": [],
+      "raw_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                10240,
+                2
+              ],
+              "bytes": 81920,
+              "sha256": "c316772c50da56a4fbd5fe4ad5d77ca5c63f54a7603eb99ab5546d93a34b38d2"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              0.0,
+              0.0
+            ],
+            "finite_max_by_component": [
+              0.9921875,
+              1.0
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "Tyre_rubber"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "Tyre_rubber"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            2560
+          ],
+          "bytes": 10240,
+          "sha256": "84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652",
+          "histogram": [
+            [
+              0,
+              2560
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 10240,
+              "sha256": "c316772c50da56a4fbd5fe4ad5d77ca5c63f54a7603eb99ab5546d93a34b38d2",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "Tyre_rubber"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "Tyre_rubber"
+            ]
+          ],
+          "polygon_material_index_sha256": "84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652"
+        },
+        "original_combined_signature_sha256": "489b5af96ddda08d603614460540c2f3287fd1922c6f1d5c5cc241ece0c94d13"
+      },
+      "evaluated_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                10240,
+                2
+              ],
+              "bytes": 81920,
+              "sha256": "c316772c50da56a4fbd5fe4ad5d77ca5c63f54a7603eb99ab5546d93a34b38d2"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              0.0,
+              0.0
+            ],
+            "finite_max_by_component": [
+              0.9921875,
+              1.0
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "Tyre_rubber"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "Tyre_rubber"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            2560
+          ],
+          "bytes": 10240,
+          "sha256": "84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652",
+          "histogram": [
+            [
+              0,
+              2560
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 10240,
+              "sha256": "c316772c50da56a4fbd5fe4ad5d77ca5c63f54a7603eb99ab5546d93a34b38d2",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "Tyre_rubber"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "Tyre_rubber"
+            ]
+          ],
+          "polygon_material_index_sha256": "84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652"
+        },
+        "original_combined_signature_sha256": "489b5af96ddda08d603614460540c2f3287fd1922c6f1d5c5cc241ece0c94d13"
+      },
+      "evaluated_geometry_ordering": {
+        "local_vertex_float_bytes": {
+          "dtype": "<f4",
+          "shape": [
+            2688,
+            3
+          ],
+          "bytes": 32256,
+          "sha256": "fa071081152c5bed78d2be9d4f178a252be24ab8508cb81ae53a271869205669"
+        },
+        "loop_vertex_indices": {
+          "dtype": "<i4",
+          "shape": [
+            10240
+          ],
+          "bytes": 40960,
+          "sha256": "fea824aff916a92d8ab725cb6c57b84e9155b295678649464c7f339ce3257c8d"
+        },
+        "triangle_indices": {
+          "dtype": "<i4",
+          "shape": [
+            5120,
+            3
+          ],
+          "bytes": 61440,
+          "sha256": "2c4c6a82892a7269c7ae33920c7495c7604d333f82d4f5cf4f5d3bc64708416c"
+        }
+      }
+    },
+    {
+      "object": "BL_Rim_0_bead_lock",
+      "selection_role": "previous_combined_hash_stable",
+      "rotation_mode": "XYZ",
+      "parent": "wheels_pivot_002",
+      "modifiers": [],
+      "raw_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                1536,
+                2
+              ],
+              "bytes": 12288,
+              "sha256": "7002f8a057b8abac897bba0a9fcdcec4088f70c6cac8ff6a0eb2221b8ecc8c20"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              0.0,
+              0.0
+            ],
+            "finite_max_by_component": [
+              0.9895833134651184,
+              1.0
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "OD_green_shadow"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "OD_green_shadow"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            384
+          ],
+          "bytes": 1536,
+          "sha256": "80422bc3d307b4a25bdafcc84ac7fb01cb55a09810e8b0f37bb12e0edb5c48ca",
+          "histogram": [
+            [
+              0,
+              384
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 1536,
+              "sha256": "7002f8a057b8abac897bba0a9fcdcec4088f70c6cac8ff6a0eb2221b8ecc8c20",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "OD_green_shadow"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "OD_green_shadow"
+            ]
+          ],
+          "polygon_material_index_sha256": "80422bc3d307b4a25bdafcc84ac7fb01cb55a09810e8b0f37bb12e0edb5c48ca"
+        },
+        "original_combined_signature_sha256": "56b69c1b6b6b79f57ec451382ca2f15e690f3ef00432f5793837284ca64382fc"
+      },
+      "evaluated_mesh_appearance": {
+        "uv_layers": [
+          {
+            "name": "SurfaceUV",
+            "active_render": true,
+            "raw_float_bytes": {
+              "dtype": "<f4",
+              "shape": [
+                1536,
+                2
+              ],
+              "bytes": 12288,
+              "sha256": "7002f8a057b8abac897bba0a9fcdcec4088f70c6cac8ff6a0eb2221b8ecc8c20"
+            },
+            "nonfinite_values": 0,
+            "negative_zero_values": 0,
+            "finite_min_by_component": [
+              0.0,
+              0.0
+            ],
+            "finite_max_by_component": [
+              0.9895833134651184,
+              1.0
+            ]
+          }
+        ],
+        "active_uv": "SurfaceUV",
+        "material_list": [
+          "OD_green_shadow"
+        ],
+        "object_material_slots": [
+          [
+            "DATA",
+            "OD_green_shadow"
+          ]
+        ],
+        "polygon_material_indices": {
+          "dtype": "<i4",
+          "shape": [
+            384
+          ],
+          "bytes": 1536,
+          "sha256": "80422bc3d307b4a25bdafcc84ac7fb01cb55a09810e8b0f37bb12e0edb5c48ca",
+          "histogram": [
+            [
+              0,
+              384
+            ]
+          ]
+        },
+        "original_combined_signature_components": {
+          "uv": [
+            {
+              "name": "SurfaceUV",
+              "loops": 1536,
+              "sha256": "7002f8a057b8abac897bba0a9fcdcec4088f70c6cac8ff6a0eb2221b8ecc8c20",
+              "active_render": true
+            }
+          ],
+          "active_uv": "SurfaceUV",
+          "evaluated_materials": [
+            "OD_green_shadow"
+          ],
+          "object_material_slots": [
+            [
+              "DATA",
+              "OD_green_shadow"
+            ]
+          ],
+          "polygon_material_index_sha256": "80422bc3d307b4a25bdafcc84ac7fb01cb55a09810e8b0f37bb12e0edb5c48ca"
+        },
+        "original_combined_signature_sha256": "56b69c1b6b6b79f57ec451382ca2f15e690f3ef00432f5793837284ca64382fc"
+      },
+      "evaluated_geometry_ordering": {
+        "local_vertex_float_bytes": {
+          "dtype": "<f4",
+          "shape": [
+            480,
+            3
+          ],
+          "bytes": 5760,
+          "sha256": "08826446026334f92ac26703ffe196f19c624c11fb2af9c46549bc09108cc49b"
+        },
+        "loop_vertex_indices": {
+          "dtype": "<i4",
+          "shape": [
+            1536
+          ],
+          "bytes": 6144,
+          "sha256": "f1109e349e332af3ea638af27635e02cfefd65066822a92c53fa70d494f30559"
+        },
+        "triangle_indices": {
+          "dtype": "<i4",
+          "shape": [
+            768,
+            3
+          ],
+          "bytes": 9216,
+          "sha256": "4f2bc3ebf48f52ac59f3f3d679dcbe75dbc5be5f4968171f483804763d78cdb1"
+        }
+      }
+    }
+  ]
+}

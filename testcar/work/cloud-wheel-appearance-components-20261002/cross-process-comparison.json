@@ -1,0 +1,118 @@
+{
+  "status": "SIX_OBJECT_READ_ONLY_CROSS_PROCESS_COMPARISON",
+  "first_case": {
+    "path": "/workspace/scratch/a29d03198654/maz-native-wheel-camber-20261002/appearance-components-01/appearance-open-0.json",
+    "bytes": 32449,
+    "sha256": "f7bacf6105272877a5854d5d268650df5e8b6fda6ace99bedad6391a7704bc8f",
+    "process_outcome": "30-second timeout after first case was complete; second fresh-open case unavailable"
+  },
+  "second_case": {
+    "path": "/workspace/scratch/a29d03198654/maz-native-wheel-camber-20261002/appearance-components-02/appearance-open-0.json",
+    "bytes": 32449,
+    "sha256": "8bfaa46d36843eb09680559440bf07eece04fae3491db9450ba966acdfa5f4d8",
+    "process_outcome": "16.513028925997787 seconds, exit0, one fresh open"
+  },
+  "initialization_metadata_differences": [],
+  "objects": [
+    {
+      "object": "BL_Hub_0_cover",
+      "role": "previous_combined_hash_differed",
+      "component_differences": [
+        {
+          "path": "/evaluated_mesh_appearance/original_combined_signature_components/uv/0/sha256",
+          "first": "5c6f1c563aa538b07128e2066bb13b89e9a50ed4eae74953d962d3728b02c06f",
+          "second": "0e830b830e2d7d9449e214f5ae79f1b75e2918f5fefe5bef0ddb919144d51ff4"
+        },
+        {
+          "path": "/evaluated_mesh_appearance/original_combined_signature_sha256",
+          "first": "045db4f87cefb5aa0a480ef43ceec73411affc84896c461ef46a20a17cb9991d",
+          "second": "cd0759e554e177a44df864b8858e2fe67742bb711f585ae61fed5e424df6ca3f"
+        },
+        {
+          "path": "/evaluated_mesh_appearance/uv_layers/0/raw_float_bytes/sha256",
+          "first": "5c6f1c563aa538b07128e2066bb13b89e9a50ed4eae74953d962d3728b02c06f",
+          "second": "0e830b830e2d7d9449e214f5ae79f1b75e2918f5fefe5bef0ddb919144d51ff4"
+        }
+      ]
+    },
+    {
+      "object": "BL_Wheel_0_nut_0.26_1",
+      "role": "previous_combined_hash_differed",
+      "component_differences": [
+        {
+          "path": "/evaluated_mesh_appearance/original_combined_signature_components/uv/0/sha256",
+          "first": "af5e46d2e85df718474837df60cc8961b004a777e611c9b5c3c1915b56641e86",
+          "second": "0e0a5b974b8f536fcf0bbe51245d1e60c9f733837d1adb45813c1c6fdbc53124"
+        },
+        {
+          "path": "/evaluated_mesh_appearance/original_combined_signature_sha256",
+          "first": "a115ca3816d5879b5460ebb96cc7d11d56b27f0ec8f25a5ad2ef105b1d494660",
+          "second": "67581515ec8c9e605df48030cb63d56d776d160e2522f763bb948e7a997f2f28"
+        },
+        {
+          "path": "/evaluated_mesh_appearance/uv_layers/0/raw_float_bytes/sha256",
+          "first": "af5e46d2e85df718474837df60cc8961b004a777e611c9b5c3c1915b56641e86",
+          "second": "0e0a5b974b8f536fcf0bbe51245d1e60c9f733837d1adb45813c1c6fdbc53124"
+        }
+      ]
+    },
+    {
+      "object": "BL_Wheel_0_washer_0.343_12",
+      "role": "previous_combined_hash_differed",
+      "component_differences": [
+        {
+          "path": "/evaluated_mesh_appearance/original_combined_signature_components/uv/0/sha256",
+          "first": "a3742b16371d0ccd49cf37a2aca0eb3331df2c34538c580dde59cc9549be0fe1",
+          "second": "7316c2321103379635051d33f78f81ad76167bbf4f28397ac6205e057454bd65"
+        },
+        {
+          "path": "/evaluated_mesh_appearance/original_combined_signature_sha256",
+          "first": "c093cfb8f420f664a0add48218942bc323b7ada795392ce5211f81563256fce0",
+          "second": "8f20d33774d6d72e70763d449431a722dc8c7dfe86681c0bee9997c778a82fb1"
+        },
+        {
+          "path": "/evaluated_mesh_appearance/uv_layers/0/raw_float_bytes/sha256",
+          "first": "a3742b16371d0ccd49cf37a2aca0eb3331df2c34538c580dde59cc9549be0fe1",
+          "second": "7316c2321103379635051d33f78f81ad76167bbf4f28397ac6205e057454bd65"
+        }
+      ]
+    },
+    {
+      "object": "BL_Tyre_0_curved_tread_blocks",
+      "role": "previous_combined_hash_differed",
+      "component_differences": [
+        {
+          "path": "/evaluated_mesh_appearance/original_combined_signature_components/uv/0/sha256",
+          "first": "0751575d69fb57de1a00eb7a5fadf893dfd44e03fb3311c5ad2d66d3f24c7529",
+          "second": "7b824eff2d372dc8bfb0af9117819ee356837af15684379a6bee4906a74a1adb"
+        },
+        {
+          "path": "/evaluated_mesh_appearance/original_combined_signature_sha256",
+          "first": "0a2c53ac9cb3ad1b854a30c403c35059aaa839c47442794a9ede9762490d46f8",
+          "second": "4a7e809ffac7f5b57795f27cf2b360497c9e4eed5be59398c7134a423e29228e"
+        },
+        {
+          "path": "/evaluated_mesh_appearance/uv_layers/0/raw_float_bytes/sha256",
+          "first": "0751575d69fb57de1a00eb7a5fadf893dfd44e03fb3311c5ad2d66d3f24c7529",
+          "second": "7b824eff2d372dc8bfb0af9117819ee356837af15684379a6bee4906a74a1adb"
+        }
+      ]
+    },
+    {
+      "object": "BL_Tyre_0_VI203_profile",
+      "role": "previous_combined_hash_stable",
+      "component_differences": []
+    },
+    {
+      "object": "BL_Rim_0_bead_lock",
+      "role": "previous_combined_hash_stable",
+      "component_differences": []
+    }
+  ],
+  "limitations": [
+    "Only six representatives across two separate native processes, not all301 historical differing objects.",
+    "Historical per-object records store only combined signatures; these new component comparisons cannot retrospectively prove the exact changing component in those old runs.",
+    "Appearance lists and bindings are read, not complete shader or rendered appearance.",
+    "No model transform, Apply, save or render performed."
+  ]
+}
