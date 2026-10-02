@@ -1,0 +1,264 @@
+{
+  "status": "FITTED_LAYOUT_INSTALLATION_FAIL_FRAME_SOLID_VALIDITY_UNKNOWN",
+  "final_native_process_status": "PROCESS_COMPLETED",
+  "final_native_report_sha256": "90898f809647258cb1e2c3860437a3d8df30e18e554df25eedbd287f08fd662c",
+  "groups_tread_box_witness_pairs": {
+    "existing_step": 20,
+    "wheel_related": 8,
+    "construction_tool": 4
+  },
+  "wheel_surface_witnesses": [
+    {
+      "object": "BL_Hub_0_cover",
+      "component": 0,
+      "triangle": 267,
+      "point_world_m": [
+        -3.132675290107727,
+        1.489463984966278,
+        0.9236474931240082
+      ],
+      "minimum_axis_box_margin_m": 0.00014751963317394257,
+      "object_bounds_m": [
+        [
+          -3.2639999389648438,
+          1.4570000171661377,
+          0.5659999847412109
+        ],
+        [
+          -2.8959999084472656,
+          1.4919999837875366,
+          0.9340000152587891
+        ]
+      ],
+      "witness_construction": "edge_20",
+      "surface_candidates": 76
+    },
+    {
+      "object": "BL_Rim_0_bead_lock",
+      "component": 0,
+      "triangle": 78,
+      "point_world_m": [
+        -3.3917691707611084,
+        1.4605000019073486,
+        0.9300000071525574
+      ],
+      "minimum_axis_box_margin_m": 0.0005000196397304535,
+      "object_bounds_m": [
+        [
+          -3.440000057220459,
+          1.4394999742507935,
+          0.38999998569488525
+        ],
+        [
+          -2.7200000286102295,
+          1.4824999570846558,
+          1.1100000143051147
+        ]
+      ],
+      "witness_construction": "vertex_2",
+      "surface_candidates": 20
+    },
+    {
+      "object": "BL_Rim_0_pressed_dish",
+      "component": 0,
+      "triangle": 1614,
+      "point_world_m": [
+        -3.377812986454764,
+        1.4653160718711247,
+        0.9279999732971191
+      ],
+      "minimum_axis_box_margin_m": 0.0044999998062849045,
+      "object_bounds_m": [
+        [
+          -3.437000036239624,
+          0.9315000176429749,
+          0.3930000066757202
+        ],
+        [
+          -2.7230000495910645,
+          1.4665000438690186,
+          1.1069999933242798
+        ]
+      ],
+      "witness_construction": "triangle_clipped_to_inset_aabb_centroid",
+      "surface_candidates": 14
+    },
+    {
+      "object": "BL_Tyre_0_VI203_profile",
+      "component": 0,
+      "triangle": 362,
+      "point_world_m": [
+        -3.416509936502191,
+        1.460790330000601,
+        0.9313345246891499
+      ],
+      "minimum_axis_box_margin_m": 0.0007903477329829212,
+      "object_bounds_m": [
+        [
+          -3.809000015258789,
+          0.8845000267028809,
+          0.020999999716877937
+        ],
+        [
+          -2.3510000705718994,
+          1.4904999732971191,
+          1.4789999723434448
+        ]
+      ],
+      "witness_construction": "triangle_clipped_to_inset_aabb_centroid",
+      "surface_candidates": 28
+    },
+    {
+      "object": "BL_Tyre_0_mould_ring_-1_0.38",
+      "component": 0,
+      "triangle": 848,
+      "point_world_m": [
+        -3.4140387773513794,
+        1.4704874157905579,
+        0.9285474121570587
+      ],
+      "minimum_axis_box_margin_m": 0.003952560946345329,
+      "object_bounds_m": [
+        [
+          -3.4635000228881836,
+          1.4639999866485596,
+          0.36649999022483826
+        ],
+        [
+          -2.696500062942505,
+          1.4709999561309814,
+          1.1334999799728394
+        ]
+      ],
+      "witness_construction": "edge_12",
+      "surface_candidates": 32
+    },
+    {
+      "object": "BL_Tyre_0_mould_ring_-1_0.49",
+      "component": 0,
+      "triangle": 896,
+      "point_world_m": [
+        -3.535841703414917,
+        1.4927728176116943,
+        0.925837516784668
+      ],
+      "minimum_axis_box_margin_m": 0.0023375432938337326,
+      "object_bounds_m": [
+        [
+          -3.5717999935150146,
+          1.4897000789642334,
+          0.2581999897956848
+        ],
+        [
+          -2.5881998538970947,
+          1.493299961090088,
+          1.2417999505996704
+        ]
+      ],
+      "witness_construction": "edge_01",
+      "surface_candidates": 32
+    },
+    {
+      "object": "BL_Tyre_0_mould_ring_-1_0.635",
+      "component": 0,
+      "triangle": 928,
+      "point_world_m": [
+        -3.687955760239852,
+        1.476119639478886,
+        0.9279999732971191
+      ],
+      "minimum_axis_box_margin_m": 0.0044999998062849045,
+      "object_bounds_m": [
+        [
+          -3.7171998023986816,
+          1.4722999334335327,
+          0.1128000020980835
+        ],
+        [
+          -2.4428000450134277,
+          1.476699948310852,
+          1.3871999979019165
+        ]
+      ],
+      "witness_construction": "triangle_clipped_to_inset_aabb_centroid",
+      "surface_candidates": 32
+    },
+    {
+      "object": "BL_Tyre_0_vent_-1_18",
+      "component": 0,
+      "triangle": 0,
+      "point_world_m": [
+        -3.6409162282943726,
+        1.4873220920562744,
+        0.9323675036430359
+      ],
+      "minimum_axis_box_margin_m": 0.00013246946036815643,
+      "object_bounds_m": [
+        [
+          -3.6710045337677,
+          1.480737566947937,
+          0.921313464641571
+        ],
+        [
+          -3.612003803253174,
+          1.4962624311447144,
+          0.9409664273262024
+        ]
+      ],
+      "witness_construction": "edge_01",
+      "surface_candidates": 27
+    }
+  ],
+  "nearby_original_datums": {
+    "BL_Cab_-1_side_monocoque": [
+      [
+        -5.423670768737793,
+        1.4730000495910645,
+        1.1200000047683716
+      ],
+      [
+        -2.89359188079834,
+        1.5099999904632568,
+        2.6600000858306885
+      ]
+    ],
+    "cab_0062": [
+      [
+        -5.150000095367432,
+        -1.559999942779541,
+        1.2024999856948853
+      ],
+      [
+        -2.8570001125335693,
+        1.559999942779541,
+        1.9179999828338623
+      ]
+    ],
+    "cab_0063": [
+      [
+        -5.114999771118164,
+        -1.4800000190734863,
+        1.2300000190734863
+      ],
+      [
+        -2.984999895095825,
+        1.4800000190734863,
+        2.287356376647949
+      ]
+    ],
+    "BL_Cab_-1_step": [
+      [
+        -4.822999954223633,
+        1.4570000171661377,
+        0.8782927393913269
+      ],
+      [
+        -3.5283734798431396,
+        1.5421708822250366,
+        1.1381969451904297
+      ]
+    ]
+  },
+  "retained_legacy_platforms": "No physical-study AABB overlap with cab_0062/0063. Old upper platforms start Z1.2025m, original support batch starts1.23m; cannot infer their own wheel/body fit. Their prior contacts remain open.",
+  "source_reference_correction": "Upper legacy platform extents -5.15..-2.95 were used as placement leads for the lower frame, without evidence those two levels share the same extent. Existing lower curve is X-4.823..-3.528m. Both re-inspected museum side photographs show lower frame ending ahead of the first wheel and not extending across the entire two-door span; this supports revisiting that datum transfer, not a factory dimension or exact replacement extent."
+}

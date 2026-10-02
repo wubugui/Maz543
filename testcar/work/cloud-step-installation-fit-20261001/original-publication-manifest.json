@@ -1,0 +1,655 @@
+{
+  "status": "TEXT_EVIDENCE_READY_EXACT_RESTORE_VERIFIED",
+  "geometry_result": "INSTALLATION_FAIL_FRAME_SOLID_UNKNOWN",
+  "files": [
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/index.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/index.json",
+      "bytes": 8537,
+      "sha256": "f6a407fb43b5c16826eb35ca3e5a2901c8f56cf0606a313f19586663cb38756f"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/PROVENANCE_NOTES.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/PROVENANCE_NOTES.json",
+      "bytes": 1626,
+      "sha256": "fd12c785698d5071a0d61544fc0234ea947b115a36a858e53c234767c5dbb946"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/REPORT.md",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/REPORT.md",
+      "bytes": 11440,
+      "sha256": "e8e2ed0476481c3d43b7524f818d559db69ff3f910e4e7e5b45745c2ce272f7f"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-01/FAILURE.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-01/FAILURE.json",
+      "bytes": 1632,
+      "sha256": "1223f62cd8a5db1d913e161338ed7de8ff0a30e860c74d90c7922d2f2152ba72"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-01/executed-script.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-01/executed-script.py",
+      "bytes": 21676,
+      "sha256": "c93bff7f66f8c16c6973b9f761f16a49ed3399a4843f9933e0dcbd33722d8a2b"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-01/native/fit-report.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-01/native/fit-report.json",
+      "bytes": 28871,
+      "sha256": "44684664a92df5ce2ab8ee248d55946fd549abb42b8a25d7dd42ad7992ecdce4"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-01/native.log",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-01/native.log",
+      "bytes": 946,
+      "sha256": "a22dc213f3195cccc594b7ab338cc3028f1319ede24d72978c8198aa65f31947"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-01/process.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-01/process.json",
+      "bytes": 1493,
+      "sha256": "a44628994457b37088ae38abcc171e04ba46d8e0db319118a5b7449792ebab96"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-02/FAILURE.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-02/FAILURE.json",
+      "bytes": 1632,
+      "sha256": "b305a7d34eeaa910bd0b3c7ddb0630797a2395110fce1b94bfc0fba5ca2fb2bb"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-02/executed-script.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-02/executed-script.py",
+      "bytes": 22465,
+      "sha256": "8eee7dbb8f4318ba22d4011e26edac4504056cb63360a93889d7bc59f5c55b89"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-02/native/fit-report.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-02/native/fit-report.json",
+      "bytes": 4183,
+      "sha256": "fa022640a42f756f737232822a049f707b8f0b888204342ccc3e01ddd64d385a"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-02/native.log",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-02/native.log",
+      "bytes": 877,
+      "sha256": "3138da35efa7ce45ff0b7551830552bee7cdbea8cb1bcf4b3c860fb49eb5a52a"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-02/process.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-02/process.json",
+      "bytes": 1493,
+      "sha256": "cc919ecd17c3375c1ee46ef7fc6f3a18bd9161e48ea80434f28408a6ad5f8b2b"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-03/FAILURE.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-03/FAILURE.json",
+      "bytes": 1631,
+      "sha256": "d833dfe1831061345e3f0cae63af026bebfa2e0d5444440375fc1255fc658fbd"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-03/executed-script.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-03/executed-script.py",
+      "bytes": 22922,
+      "sha256": "ff853e64664d4188d0ec681831fdb7fb512c1a4f107dcc92c21b534827ff891e"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-03/native/fit-report.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-03/native/fit-report.json",
+      "bytes": 4018,
+      "sha256": "4ad05d4667d7d934c544433c48de9ff0a10b95b2a6e17a380f126c4777b514f5"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-03/native.log",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-03/native.log",
+      "bytes": 711,
+      "sha256": "ff514404f3c3be09bd86a9525a8f40ea4cef66b154e7a94e77bba7030da40a30"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-03/process.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-03/process.json",
+      "bytes": 1492,
+      "sha256": "51802569b6b87cb23f63a120f7d68884db1c37336e3bf7be0ea2e2d3790c1a28"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-03/retrospective-runner-source-copy.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-03/retrospective-runner-source-copy.py",
+      "bytes": 2553,
+      "sha256": "787fc1f4e44166b34e764ad14c316a00527904e882ce7da5f4312d3c89bab3ac"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-04/executed-runner.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-04/executed-runner.py",
+      "bytes": 2979,
+      "sha256": "63a6846e5437e88443786bbfa51f75b814c75032df7706e3ebff8df3ac1b565a"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-04/executed-script.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-04/executed-script.py",
+      "bytes": 24187,
+      "sha256": "7b2f067577e21922600f7e2cf68e7bcda04be19935fecf72723f9eb21b841c8b"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-04/native/fit-report.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-04/native/fit-report.json",
+      "bytes": 118100,
+      "sha256": "a16478cbab051d2819e700d7ff55cb305c2e099a6e6de28700e8b2dfc75dcf97"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-04/native.log",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-04/native.log",
+      "bytes": 638,
+      "sha256": "baa74803a9c6ca605835d45dc8e690b18428c029d5694058e2acefc14ccceb0e"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-04/process.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-04/process.json",
+      "bytes": 1629,
+      "sha256": "c6a254a594d514a81d4c1338c3bc451ae6baaa23b7d359e0e92ca454a5f5797f"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-05/executed-runner.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-05/executed-runner.py",
+      "bytes": 2979,
+      "sha256": "63a6846e5437e88443786bbfa51f75b814c75032df7706e3ebff8df3ac1b565a"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-05/executed-script.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-05/executed-script.py",
+      "bytes": 28034,
+      "sha256": "7cac8e75cf5488a62946ecddf90da5bd491d77030d3a6ec3071ec52bd23dcad8"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-05/native/station-datum-probes.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-05/native/station-datum-probes.json",
+      "bytes": 11037,
+      "sha256": "c2285caad629d3ce96731712f4438917ae5020861382020700f8cef8bf542c67"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-05/native/targeted-pairs.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-05/native/targeted-pairs.json",
+      "bytes": 72130,
+      "sha256": "2f32d8ea98bd7a2c258ff711a17aa86a7e0b06d3b11184dc9e419b5833e0d6cb"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-05/native.log",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-05/native.log",
+      "bytes": 638,
+      "sha256": "105d68f7f51ccde0aa80659ab6849d026c1e9193c31a9e90a5a04fe8378febbf"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/attempt-05/process.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/attempt-05/process.json",
+      "bytes": 1630,
+      "sha256": "ff4b65cf3507dd9462e16c1797abf665a77078641f3f965664fbe1d856b9af7a"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/check-installation-fit.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/check-installation-fit.py",
+      "bytes": 28034,
+      "sha256": "7cac8e75cf5488a62946ecddf90da5bd491d77030d3a6ec3071ec52bd23dcad8"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/installation-failure-summary.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/installation-failure-summary.json",
+      "bytes": 6962,
+      "sha256": "b2849fc212f7544bf731f4fa49d6ade4188967f61e348b5cf7e6da8ca1a3a4ae"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/make-summary.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/make-summary.py",
+      "bytes": 14673,
+      "sha256": "6489c86b4747980a6160e20d0c10c7729be4703a3e2746593f38a62fa960894b"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/pack-evidence.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/pack-evidence.py",
+      "bytes": 6002,
+      "sha256": "e7d908d68b58a031050d1708063477a2262d074cae6d3c2c2fe503d4f0de4280"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/photo-datum-reinspection.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/photo-datum-reinspection.json",
+      "bytes": 1454,
+      "sha256": "eb1c96bb403d1cc3a91e10ccbd237e9565317d7af4f139cc332be07ec7dca35b"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/portable-runner-help.txt",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/portable-runner-help.txt",
+      "bytes": 329,
+      "sha256": "ff17614b0c13cadc959c421a79c1e6397030f47fa862beeb5b6a8b10ba583d9f"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/raw/run-bounded.py",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/raw/run-bounded.py",
+      "bytes": 2988,
+      "sha256": "bf482c9e487fab0699bbf68faf88bf4a3242e09f9ec47b5f6a9faf7044d54b90"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/record-0d116f0484408bb76586.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/record-0d116f0484408bb76586.json",
+      "bytes": 321,
+      "sha256": "34059ff3ba9ba0e340b2c8d433a0410a69a03f02fe2139bcc422357f05c24a39"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/record-2a9731b1f3feefa1bf3e.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/record-2a9731b1f3feefa1bf3e.json",
+      "bytes": 319,
+      "sha256": "e09679743a306b5acc36db6e4c8bcca50451c51399430a08edf20bcde4521151"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/record-409ed6ec9de7b25e3eae.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/record-409ed6ec9de7b25e3eae.json",
+      "bytes": 170,
+      "sha256": "f11f3cd193eb124943d36a4f5d4667209112a46473a9dc035fce5a14242c5454"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/record-52c77202202b920335d0.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/record-52c77202202b920335d0.json",
+      "bytes": 171,
+      "sha256": "770250bb71ea1f4f8d1bd4f746bfeb449b985ac5507cd04150161bdf7515d9f3"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/record-afa6dca52bc7f3d084c5.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/record-afa6dca52bc7f3d084c5.json",
+      "bytes": 464,
+      "sha256": "af585d8b6ac2f542f8f692c1cdacaac4d28a1d57fe43cc2c299b133c4ad25a38"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-0023a10a0ecc5472fb7b1724.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-0023a10a0ecc5472fb7b1724.json",
+      "bytes": 27533,
+      "sha256": "0023a10a0ecc5472fb7b172410d6fac5db43da7247af4ffaecd55143df3bdccf"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-06b5b25680b67aa6d9c29561.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-06b5b25680b67aa6d9c29561.json",
+      "bytes": 103186,
+      "sha256": "06b5b25680b67aa6d9c295612aab19cb677c8f8175b8111c5b246bfec2ad8414"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-0a15967d31871a1d85782380.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-0a15967d31871a1d85782380.json",
+      "bytes": 144906,
+      "sha256": "0a15967d31871a1d85782380454a327ac7a01d4ab2e525e3763c7dd1ea068c58"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-0a498f978fd7cd3c6264a240.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-0a498f978fd7cd3c6264a240.json",
+      "bytes": 144919,
+      "sha256": "0a498f978fd7cd3c6264a24002d50aff793b3e2eb8eafff14d23f4335376cfad"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-144053962a1b0beb1ed28ec1.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-144053962a1b0beb1ed28ec1.json",
+      "bytes": 144857,
+      "sha256": "144053962a1b0beb1ed28ec1b0a59ebd6b17e1a57e017feb7899f385d1048f70"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-152562a7e6c3dd7ab364b726.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-152562a7e6c3dd7ab364b726.json",
+      "bytes": 51640,
+      "sha256": "152562a7e6c3dd7ab364b7268d6ec32114dd668b2571a54ac666a8df4954485b"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-18acd300d3fdc20fc5a140ee.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-18acd300d3fdc20fc5a140ee.json",
+      "bytes": 50284,
+      "sha256": "18acd300d3fdc20fc5a140ee85fc8d2e435169c3dcf1093f2d1911a085f67b5b"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-28e9dd82902b90b89fc606d9.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-28e9dd82902b90b89fc606d9.json",
+      "bytes": 102786,
+      "sha256": "28e9dd82902b90b89fc606d9af56d535f695c7f1c8d05a158ad4649d1c236d34"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-29f1228f30452b148ae5b8ac.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-29f1228f30452b148ae5b8ac.json",
+      "bytes": 20957,
+      "sha256": "29f1228f30452b148ae5b8acadd4fb54a176010468b3cc5c2eaa0b9e876c1810"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-2f5491dbd5e9ce4f6059832c.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-2f5491dbd5e9ce4f6059832c.json",
+      "bytes": 74299,
+      "sha256": "2f5491dbd5e9ce4f6059832cc9e25163fb0625912ff10c1d91fdd3206dafb33d"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-324c23b8abf3eabfb5f58f90.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-324c23b8abf3eabfb5f58f90.json",
+      "bytes": 71831,
+      "sha256": "324c23b8abf3eabfb5f58f9037f39b85f9e62b2a32517421f913a2b6db545ae5"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-383aff459fe3b626a2a4c0db.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-383aff459fe3b626a2a4c0db.json",
+      "bytes": 144981,
+      "sha256": "383aff459fe3b626a2a4c0dbf123de294cb350d6ba72a6a65959e4fe1e086bfa"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-41bc6cfb248f81224807e19d.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-41bc6cfb248f81224807e19d.json",
+      "bytes": 83483,
+      "sha256": "41bc6cfb248f81224807e19d1e4afc0ffc6b1c9dfb0915a178a38bcab9677818"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-42a8ecade0d356f56996b16a.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-42a8ecade0d356f56996b16a.json",
+      "bytes": 144985,
+      "sha256": "42a8ecade0d356f56996b16a2bf3791f29776a1ea69fb208e3ced2498782de6d"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-46cfbf8b9297cdd67382ddde.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-46cfbf8b9297cdd67382ddde.json",
+      "bytes": 144884,
+      "sha256": "46cfbf8b9297cdd67382dddec3ba8613eaef020968d0c2f190ecd8e1cc6d9e8f"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-49393b9cdb07ee7bc11074fd.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-49393b9cdb07ee7bc11074fd.json",
+      "bytes": 1508,
+      "sha256": "49393b9cdb07ee7bc11074fd36a63cb79c2a7e897d25526ca49f1df155cf02c3"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-4d0c895073024c99be29d09f.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-4d0c895073024c99be29d09f.json",
+      "bytes": 144990,
+      "sha256": "4d0c895073024c99be29d09f427278dc27b4c141eeb9725c6abc65722f076f30"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-515647943f37af5fd1deff50.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-515647943f37af5fd1deff50.json",
+      "bytes": 71814,
+      "sha256": "515647943f37af5fd1deff50fc5227f53960058e77f2e0ae437a0b56c5b79149"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-56d0e24391f4e69f278fe083.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-56d0e24391f4e69f278fe083.json",
+      "bytes": 144990,
+      "sha256": "56d0e24391f4e69f278fe08334cf8587511888209614e5b5c8bba58a93bb7057"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-59ab77a3115deb5d4ebe121c.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-59ab77a3115deb5d4ebe121c.json",
+      "bytes": 51633,
+      "sha256": "59ab77a3115deb5d4ebe121cb05542ffd6c1a16a465c6c231936da1d0de94b14"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-5ae2bc2a3d96de4e87edc383.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-5ae2bc2a3d96de4e87edc383.json",
+      "bytes": 144944,
+      "sha256": "5ae2bc2a3d96de4e87edc383a9106472db143460720da1012ba8f85dd1962c38"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-5cca259358690258d393eb89.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-5cca259358690258d393eb89.json",
+      "bytes": 16663,
+      "sha256": "5cca259358690258d393eb89388745ecbe42fddb5ae659780882435c8a5094ee"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-64f3911c7eeed78db34331c7.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-64f3911c7eeed78db34331c7.json",
+      "bytes": 144990,
+      "sha256": "64f3911c7eeed78db34331c7c4f4c4ae73d12847bc9ac91d662a41606a1a977d"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-663d75ecdc202950e2777e36.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-663d75ecdc202950e2777e36.json",
+      "bytes": 144893,
+      "sha256": "663d75ecdc202950e2777e362adbb84d96df8fd08af9610f28b0c03d4c7208c0"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-694ae8dcc39c40ed5c7f216d.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-694ae8dcc39c40ed5c7f216d.json",
+      "bytes": 144971,
+      "sha256": "694ae8dcc39c40ed5c7f216d13c9f12ccae879c88f1fa5b36a0bb9514ebbd89e"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-6974f1d3f99a142edfa40958.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-6974f1d3f99a142edfa40958.json",
+      "bytes": 144957,
+      "sha256": "6974f1d3f99a142edfa4095838c8261ad403b3027ca4787f65e274e3ceebb643"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-6a357cf2e3f51f303121969a.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-6a357cf2e3f51f303121969a.json",
+      "bytes": 36919,
+      "sha256": "6a357cf2e3f51f303121969af1d128334e02e830f38e810582d4bc6229efe249"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-713c9581ce0950ecdfaf5f6a.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-713c9581ce0950ecdfaf5f6a.json",
+      "bytes": 144972,
+      "sha256": "713c9581ce0950ecdfaf5f6af4eecd0b9f6924916bbb434383df6ce9a5ffe19f"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-716a8c1563b5702eec8766d0.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-716a8c1563b5702eec8766d0.json",
+      "bytes": 136816,
+      "sha256": "716a8c1563b5702eec8766d086825367c24c25d78eb008ac870f7f051fe5a116"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-74fcc671215a0098608ad5f1.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-74fcc671215a0098608ad5f1.json",
+      "bytes": 49567,
+      "sha256": "74fcc671215a0098608ad5f18409b1c258ff2f25a4a012433d1cae03e3aec862"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-76e2986ce0fbd5b43e7515f5.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-76e2986ce0fbd5b43e7515f5.json",
+      "bytes": 144894,
+      "sha256": "76e2986ce0fbd5b43e7515f58db8dba03756551389bcabc642e1acac077bd4ed"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-7a1eeac911805d21047cc285.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-7a1eeac911805d21047cc285.json",
+      "bytes": 144991,
+      "sha256": "7a1eeac911805d21047cc2852db497365a890533f15b6caefbef5bb1d0e4d2e3"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-7b30c982916772421bf13aaf.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-7b30c982916772421bf13aaf.json",
+      "bytes": 17829,
+      "sha256": "7b30c982916772421bf13aaf8825bb8fbbeb57b92a3e34653812b6a8b8922408"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-825e78827c2255b804f7e167.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-825e78827c2255b804f7e167.json",
+      "bytes": 144949,
+      "sha256": "825e78827c2255b804f7e167ef434fe0749eda5bcbfd6846de41d7db163c2bd8"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-82d77754b00e406f358f327b.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-82d77754b00e406f358f327b.json",
+      "bytes": 102218,
+      "sha256": "82d77754b00e406f358f327b3c5d36fb68a5c59edc28ce4126885bf0116c57d3"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-8a60d072126d06c75f6473ef.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-8a60d072126d06c75f6473ef.json",
+      "bytes": 144976,
+      "sha256": "8a60d072126d06c75f6473ef977dba6ba5dd69a051991b891e9af8e9453db401"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-8a89ad2fce985b1202b7c968.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-8a89ad2fce985b1202b7c968.json",
+      "bytes": 144941,
+      "sha256": "8a89ad2fce985b1202b7c96882504ab844f406d05fba1c53874291cf86458adf"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-8e40137d29a8e72cbe4c5bc9.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-8e40137d29a8e72cbe4c5bc9.json",
+      "bytes": 37951,
+      "sha256": "8e40137d29a8e72cbe4c5bc9f7c95e3e32a47c9afcdab7b5a835571e7ab41d25"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-93723f2c94ee272516939403.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-93723f2c94ee272516939403.json",
+      "bytes": 2176,
+      "sha256": "93723f2c94ee27251693940395baca7dd948bd6ffe59426b160a5bbc135340c2"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-94800141c0f8dceefd081258.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-94800141c0f8dceefd081258.json",
+      "bytes": 71994,
+      "sha256": "94800141c0f8dceefd08125863e561b89ef3ae413169f20861a5597116be4ff9"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-979f97165b3e8c41882b4b5b.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-979f97165b3e8c41882b4b5b.json",
+      "bytes": 144733,
+      "sha256": "979f97165b3e8c41882b4b5b5eec09c22321e3a8cbf97c93a6e2e273c13fca30"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-9a3f0062a69123e013ee23fc.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-9a3f0062a69123e013ee23fc.json",
+      "bytes": 111627,
+      "sha256": "9a3f0062a69123e013ee23fc06c775421192517dbd15b723ce6131a7f5f7ed87"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-a62abf3a8f9586fa4e18c2de.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-a62abf3a8f9586fa4e18c2de.json",
+      "bytes": 144863,
+      "sha256": "a62abf3a8f9586fa4e18c2de05619df149ccc710b5fcfb787bde26bb70bb27f6"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-a6592848faa73e19335a5e28.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-a6592848faa73e19335a5e28.json",
+      "bytes": 144883,
+      "sha256": "a6592848faa73e19335a5e28ad90745ba8624be23918c9733b22de39b26e8768"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-a7597be48a5d02d5b3cd9db5.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-a7597be48a5d02d5b3cd9db5.json",
+      "bytes": 144969,
+      "sha256": "a7597be48a5d02d5b3cd9db5faff1d9c55a2f1f16a20f3cac1bf343218cd03d7"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-a80f965ba132be5bd589cd23.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-a80f965ba132be5bd589cd23.json",
+      "bytes": 144950,
+      "sha256": "a80f965ba132be5bd589cd23bd63a22d6dcf3fbc340e6a0b0989b5708329424c"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-ad2972cbecab6dfcc8d52ccb.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-ad2972cbecab6dfcc8d52ccb.json",
+      "bytes": 84947,
+      "sha256": "ad2972cbecab6dfcc8d52ccb04ebf84b3082e53993823e7c88b4161d31f1148a"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-b08c4cfd27a9059fa187480e.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-b08c4cfd27a9059fa187480e.json",
+      "bytes": 120026,
+      "sha256": "b08c4cfd27a9059fa187480e8488799134d471fbc3fe5e1ee35959adcfc98bfe"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-b4de4f448902cfdbeb039349.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-b4de4f448902cfdbeb039349.json",
+      "bytes": 3355,
+      "sha256": "b4de4f448902cfdbeb0393498d73193e3738576b4460111ff3054a7422d487d1"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-b5f05b3c587d50143ea1f414.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-b5f05b3c587d50143ea1f414.json",
+      "bytes": 74540,
+      "sha256": "b5f05b3c587d50143ea1f414aad1df50b5f510c0d7dc59617abdcd994d381e9c"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-bdc9839ec3be9b85b7bcf2cd.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-bdc9839ec3be9b85b7bcf2cd.json",
+      "bytes": 51634,
+      "sha256": "bdc9839ec3be9b85b7bcf2cd06e0bb4f053e582aea2986a0c121f1acac81cb95"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-c23d32aa934f3b0c95fabd5a.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-c23d32aa934f3b0c95fabd5a.json",
+      "bytes": 88114,
+      "sha256": "c23d32aa934f3b0c95fabd5a479e97f5ca48ef0cb9190606735655a075cb63fc"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-c314a2c0964b8dd89501de20.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-c314a2c0964b8dd89501de20.json",
+      "bytes": 51165,
+      "sha256": "c314a2c0964b8dd89501de201b462c6c6fab042da48bf5830dfd61e97dc1ad8c"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-d42c4dfd5480224c1195253d.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-d42c4dfd5480224c1195253d.json",
+      "bytes": 144011,
+      "sha256": "d42c4dfd5480224c1195253d361a75ac2bd60703a1e2b571d0f901096a280475"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-d518e293cec3f29b8fa1f2ab.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-d518e293cec3f29b8fa1f2ab.json",
+      "bytes": 101801,
+      "sha256": "d518e293cec3f29b8fa1f2ab8418b6c1347fa166693b784d04bd9e61b9f6962c"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-d67bf9cb64024cbedbff7381.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-d67bf9cb64024cbedbff7381.json",
+      "bytes": 144978,
+      "sha256": "d67bf9cb64024cbedbff738184a9aa2da0a264e9065ccea45437cce40058381b"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-d681d031572168ef1ef7652a.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-d681d031572168ef1ef7652a.json",
+      "bytes": 144976,
+      "sha256": "d681d031572168ef1ef7652a2c605320366cefa80f106143e2b4e45a2f086f2c"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-d75ca8c93288173b4fd17cbc.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-d75ca8c93288173b4fd17cbc.json",
+      "bytes": 144915,
+      "sha256": "d75ca8c93288173b4fd17cbc5da66ebba9e2b0272a2004cc93785e2d186eccd0"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-da59101db70f9657b1f2f03b.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-da59101db70f9657b1f2f03b.json",
+      "bytes": 144990,
+      "sha256": "da59101db70f9657b1f2f03b05ac47b4095f0a47ef87ef921fd97d3e15964e27"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-e3187429ec69507a33d95c1b.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-e3187429ec69507a33d95c1b.json",
+      "bytes": 101893,
+      "sha256": "e3187429ec69507a33d95c1ba8430c89616708a1a388bd071fe39e2d357f15b4"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-e688d89255e1b5cfb1f25db5.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-e688d89255e1b5cfb1f25db5.json",
+      "bytes": 144971,
+      "sha256": "e688d89255e1b5cfb1f25db5e6d72b3f432185f8ae33a73985f2e25942e5aa00"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-eaff1d4d5d09fd3e9e249f97.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-eaff1d4d5d09fd3e9e249f97.json",
+      "bytes": 113505,
+      "sha256": "eaff1d4d5d09fd3e9e249f97cbca4a976e2dc8a6ef431eeecacd7d46a9dbb5dc"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-f13e710124ee2481833a3d16.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-f13e710124ee2481833a3d16.json",
+      "bytes": 144896,
+      "sha256": "f13e710124ee2481833a3d16731d00c012b35997288f968585e2bdcbd5cc79bc"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-f2c2ef49921c9d0f87f1ca75.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-f2c2ef49921c9d0f87f1ca75.json",
+      "bytes": 144890,
+      "sha256": "f2c2ef49921c9d0f87f1ca75602823bcfd4c6270258dd92d26169a1b3bc3c75e"
+    },
+    {
+      "local_path": "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/publication/shard-f47947c6e0548f3f3c1c4442.json",
+      "suggested_repo_path": "testcar/work/cloud-step-installation-fit-20261001/publication/shard-f47947c6e0548f3f3c1c4442.json",
+      "bytes": 125722,
+      "sha256": "f47947c6e0548f3f3c1c44427da06dc45e5d0d746e69e9812cf2421c040ef777"
+    }
+  ],
+  "files_count": 107,
+  "bytes_total": 7314497,
+  "largest_file_bytes": 144991,
+  "original_records": 41,
+  "original_bytes": 11265505,
+  "restore_all_original_bytes_sha_verified": true,
+  "no_model_texture_or_source_pixels": true
+}

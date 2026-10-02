@@ -1,0 +1,10 @@
+usage: run-bounded.py [-h] --run-name RUN_NAME --blender BLENDER --repo REPO
+                      --candidate CANDIDATE --layout-report LAYOUT_REPORT
+
+options:
+  -h, --help            show this help message and exit
+  --run-name RUN_NAME
+  --blender BLENDER
+  --repo REPO
+  --candidate CANDIDATE
+  --layout-report LAYOUT_REPORT

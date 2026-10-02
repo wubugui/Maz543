@@ -1,0 +1,41 @@
+{
+  "status": "FAILED_OR_TIMED_OUT_NOT_ACCEPTED",
+  "process": {
+    "status": "PROCESS_FAILED",
+    "command": [
+      "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "--background",
+      "--factory-startup",
+      "--disable-autoexec",
+      "--threads",
+      "1",
+      "--python-exit-code",
+      "17",
+      "--python",
+      "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/attempt-03/executed-script.py",
+      "--",
+      "--repo",
+      "/workspace/scratch/a29d03198654/Maz543",
+      "--candidate",
+      "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend",
+      "--layout-report",
+      "/workspace/scratch/a29d03198654/maz-step-layout-study-20261001/iteration-02-elevation/native/layout-report.json",
+      "--out",
+      "/workspace/scratch/a29d03198654/maz-step-installation-fit-20261001/attempt-03/native"
+    ],
+    "timeout_seconds": 240,
+    "threads": 1,
+    "script_sha256_start": "ff853e64664d4188d0ec681831fdb7fb512c1a4f107dcc92c21b534827ff891e",
+    "start_utc": "2026-10-01T23:35:45Z",
+    "pid": 7,
+    "exit_code": 17,
+    "timed_out": false,
+    "elapsed_seconds": 39.08282176800276,
+    "peak_children_rss_kib": 2057696,
+    "script_sha256_end": "ff853e64664d4188d0ec681831fdb7fb512c1a4f107dcc92c21b534827ff891e",
+    "end_utc": "2026-10-01T23:36:24Z",
+    "log_sha256": "ff514404f3c3be09bd86a9525a8f40ea4cef66b154e7a94e77bba7030da40a30",
+    "report_sha256": "4ad05d4667d7d934c544433c48de9ff0a10b95b2a6e17a380f126c4777b514f5",
+    "native_report_status": "FAILED_NOT_ACCEPTED"
+  }
+}

@@ -1,0 +1,15 @@
+STAGE initialize 0.0
+STAGE native_layout_reconstruction 21.679
+STAGE all_actual_vehicle_geometry_broad_phase 40.393
+INVENTORY 0 0 40.471
+INVENTORY 1500 87 41.151
+INVENTORY 9000 174 46.441
+INVENTORY 10500 186 47.061
+STAGE targeted_evaluated_triangle_checks 47.604
+STAGE upper_station_datum_probes 57.054
+STAGE preservation_readback 57.367
+RESULT BOUNDED_INSTALLATION_DIAGNOSTIC_COMPLETE_NOT_INSTALLATION_ACCEPTANCE pairs 81 intrusions 51
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend"
+
+Blender quit

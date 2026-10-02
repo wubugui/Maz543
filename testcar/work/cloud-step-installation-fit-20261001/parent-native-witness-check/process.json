@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "1",
+    "--python-exit-code",
+    "17",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-step-fit-parent-witness-20261001/verify-witnesses.py"
+  ],
+  "script_sha256_start": "be0c3de7c0ea40bd84df191c8a073d934e0109db2698d1923b62fd7b26f02dca",
+  "timeout_seconds": 90,
+  "status": "COMPLETED",
+  "exit_code": 0,
+  "timed_out": false,
+  "elapsed_seconds": 18.02823060600349,
+  "script_sha256_end": "be0c3de7c0ea40bd84df191c8a073d934e0109db2698d1923b62fd7b26f02dca",
+  "log_sha256": "03963019f38cf837adc3ce1e25923673afe20e80aca0ad085a6be0737a0fe964",
+  "report_sha256": "675e07fcaaf75bdbc85e36cb64f8141048b859bae6db00bbe66d338c416f7313"
+}

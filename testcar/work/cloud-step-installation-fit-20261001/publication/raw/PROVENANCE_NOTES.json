@@ -1,0 +1,12 @@
+{
+  "status": "PROVENANCE_CLARIFICATION_NOT_NATIVE_REWRITE",
+  "historical_script_copies": "Every attempt executed the exact executed-script.py copied before its Blender launch. All frozen script start/end hashes are in its process receipt.",
+  "runner_provenance": {
+    "attempts_01_02": "Runner did not freeze itself or include its hash. No claim of contemporaneous runner artifact. Its command, fixed CPU/time bound and process result are recorded.",
+    "attempt_03": "retrospective-runner-source-copy.py was copied from the unchanged source runner after launch, before that runner source was revised. This was added retrospectively and is not an at-launch artifact or contemporaneously recorded runner hash. It was originally named executed-runner.py and has been renamed to avoid that implication.",
+    "attempts_04_05": "executed-runner.py was copied by each runner before Blender launch and its SHA is in the final process record.",
+    "portable_current": "Current root run-bounded.py was revised after attempt05 to accept explicit paths and reject missing native reports. Only syntax/help checked; not the runner used for attempt05."
+  },
+  "native_receipt_integrity": "No native report, process.json, FAILURE.json or native.log has been edited after its producer wrote it. process.json intentionally transitions from IN_PROGRESS to terminal while running; those production writes can change its size. Packaging reads native bytes and verifies lossless restore.",
+  "superseded_attempt_04": "Successful process, scientifically superseded numerical interpretation. It is not relabeled by rewriting native files."
+}

@@ -1,0 +1,253 @@
+{
+  "status": "ALL_41_NATIVE_HISTORY_RECORDS_EXACT_BYTE_RESTORE_PASS",
+  "records": [
+    {
+      "path": "REPORT.md",
+      "bytes": 11440,
+      "sha256": "e8e2ed0476481c3d43b7524f818d559db69ff3f910e4e7e5b45745c2ce272f7f",
+      "exact": true
+    },
+    {
+      "path": "PROVENANCE_NOTES.json",
+      "bytes": 1626,
+      "sha256": "fd12c785698d5071a0d61544fc0234ea947b115a36a858e53c234767c5dbb946",
+      "exact": true
+    },
+    {
+      "path": "installation-failure-summary.json",
+      "bytes": 6962,
+      "sha256": "b2849fc212f7544bf731f4fa49d6ade4188967f61e348b5cf7e6da8ca1a3a4ae",
+      "exact": true
+    },
+    {
+      "path": "photo-datum-reinspection.json",
+      "bytes": 1454,
+      "sha256": "eb1c96bb403d1cc3a91e10ccbd237e9565317d7af4f139cc332be07ec7dca35b",
+      "exact": true
+    },
+    {
+      "path": "check-installation-fit.py",
+      "bytes": 28034,
+      "sha256": "7cac8e75cf5488a62946ecddf90da5bd491d77030d3a6ec3071ec52bd23dcad8",
+      "exact": true
+    },
+    {
+      "path": "run-bounded.py",
+      "bytes": 2988,
+      "sha256": "bf482c9e487fab0699bbf68faf88bf4a3242e09f9ec47b5f6a9faf7044d54b90",
+      "exact": true
+    },
+    {
+      "path": "pack-evidence.py",
+      "bytes": 6002,
+      "sha256": "e7d908d68b58a031050d1708063477a2262d074cae6d3c2c2fe503d4f0de4280",
+      "exact": true
+    },
+    {
+      "path": "make-summary.py",
+      "bytes": 14673,
+      "sha256": "6489c86b4747980a6160e20d0c10c7729be4703a3e2746593f38a62fa960894b",
+      "exact": true
+    },
+    {
+      "path": "portable-runner-help.txt",
+      "bytes": 329,
+      "sha256": "ff17614b0c13cadc959c421a79c1e6397030f47fa862beeb5b6a8b10ba583d9f",
+      "exact": true
+    },
+    {
+      "path": "attempt-01/executed-script.py",
+      "bytes": 21676,
+      "sha256": "c93bff7f66f8c16c6973b9f761f16a49ed3399a4843f9933e0dcbd33722d8a2b",
+      "exact": true
+    },
+    {
+      "path": "attempt-01/native.log",
+      "bytes": 946,
+      "sha256": "a22dc213f3195cccc594b7ab338cc3028f1319ede24d72978c8198aa65f31947",
+      "exact": true
+    },
+    {
+      "path": "attempt-01/process.json",
+      "bytes": 1493,
+      "sha256": "a44628994457b37088ae38abcc171e04ba46d8e0db319118a5b7449792ebab96",
+      "exact": true
+    },
+    {
+      "path": "attempt-01/FAILURE.json",
+      "bytes": 1632,
+      "sha256": "1223f62cd8a5db1d913e161338ed7de8ff0a30e860c74d90c7922d2f2152ba72",
+      "exact": true
+    },
+    {
+      "path": "attempt-01/native/fit-report.json",
+      "bytes": 28871,
+      "sha256": "44684664a92df5ce2ab8ee248d55946fd549abb42b8a25d7dd42ad7992ecdce4",
+      "exact": true
+    },
+    {
+      "path": "attempt-02/executed-script.py",
+      "bytes": 22465,
+      "sha256": "8eee7dbb8f4318ba22d4011e26edac4504056cb63360a93889d7bc59f5c55b89",
+      "exact": true
+    },
+    {
+      "path": "attempt-02/native.log",
+      "bytes": 877,
+      "sha256": "3138da35efa7ce45ff0b7551830552bee7cdbea8cb1bcf4b3c860fb49eb5a52a",
+      "exact": true
+    },
+    {
+      "path": "attempt-02/process.json",
+      "bytes": 1493,
+      "sha256": "cc919ecd17c3375c1ee46ef7fc6f3a18bd9161e48ea80434f28408a6ad5f8b2b",
+      "exact": true
+    },
+    {
+      "path": "attempt-02/FAILURE.json",
+      "bytes": 1632,
+      "sha256": "b305a7d34eeaa910bd0b3c7ddb0630797a2395110fce1b94bfc0fba5ca2fb2bb",
+      "exact": true
+    },
+    {
+      "path": "attempt-02/native/fit-report.json",
+      "bytes": 4183,
+      "sha256": "fa022640a42f756f737232822a049f707b8f0b888204342ccc3e01ddd64d385a",
+      "exact": true
+    },
+    {
+      "path": "attempt-03/executed-script.py",
+      "bytes": 22922,
+      "sha256": "ff853e64664d4188d0ec681831fdb7fb512c1a4f107dcc92c21b534827ff891e",
+      "exact": true
+    },
+    {
+      "path": "attempt-03/native.log",
+      "bytes": 711,
+      "sha256": "ff514404f3c3be09bd86a9525a8f40ea4cef66b154e7a94e77bba7030da40a30",
+      "exact": true
+    },
+    {
+      "path": "attempt-03/process.json",
+      "bytes": 1492,
+      "sha256": "51802569b6b87cb23f63a120f7d68884db1c37336e3bf7be0ea2e2d3790c1a28",
+      "exact": true
+    },
+    {
+      "path": "attempt-03/FAILURE.json",
+      "bytes": 1631,
+      "sha256": "d833dfe1831061345e3f0cae63af026bebfa2e0d5444440375fc1255fc658fbd",
+      "exact": true
+    },
+    {
+      "path": "attempt-03/retrospective-runner-source-copy.py",
+      "bytes": 2553,
+      "sha256": "787fc1f4e44166b34e764ad14c316a00527904e882ce7da5f4312d3c89bab3ac",
+      "exact": true
+    },
+    {
+      "path": "attempt-03/native/fit-report.json",
+      "bytes": 4018,
+      "sha256": "4ad05d4667d7d934c544433c48de9ff0a10b95b2a6e17a380f126c4777b514f5",
+      "exact": true
+    },
+    {
+      "path": "attempt-04/executed-script.py",
+      "bytes": 24187,
+      "sha256": "7b2f067577e21922600f7e2cf68e7bcda04be19935fecf72723f9eb21b841c8b",
+      "exact": true
+    },
+    {
+      "path": "attempt-04/native.log",
+      "bytes": 638,
+      "sha256": "baa74803a9c6ca605835d45dc8e690b18428c029d5694058e2acefc14ccceb0e",
+      "exact": true
+    },
+    {
+      "path": "attempt-04/process.json",
+      "bytes": 1629,
+      "sha256": "c6a254a594d514a81d4c1338c3bc451ae6baaa23b7d359e0e92ca454a5f5797f",
+      "exact": true
+    },
+    {
+      "path": "attempt-04/executed-runner.py",
+      "bytes": 2979,
+      "sha256": "63a6846e5437e88443786bbfa51f75b814c75032df7706e3ebff8df3ac1b565a",
+      "exact": true
+    },
+    {
+      "path": "attempt-04/native/fit-report.json",
+      "bytes": 118100,
+      "sha256": "a16478cbab051d2819e700d7ff55cb305c2e099a6e6de28700e8b2dfc75dcf97",
+      "exact": true
+    },
+    {
+      "path": "attempt-05/executed-script.py",
+      "bytes": 28034,
+      "sha256": "7cac8e75cf5488a62946ecddf90da5bd491d77030d3a6ec3071ec52bd23dcad8",
+      "exact": true
+    },
+    {
+      "path": "attempt-05/native.log",
+      "bytes": 638,
+      "sha256": "105d68f7f51ccde0aa80659ab6849d026c1e9193c31a9e90a5a04fe8378febbf",
+      "exact": true
+    },
+    {
+      "path": "attempt-05/process.json",
+      "bytes": 1630,
+      "sha256": "ff4b65cf3507dd9462e16c1797abf665a77078641f3f965664fbe1d856b9af7a",
+      "exact": true
+    },
+    {
+      "path": "attempt-05/executed-runner.py",
+      "bytes": 2979,
+      "sha256": "63a6846e5437e88443786bbfa51f75b814c75032df7706e3ebff8df3ac1b565a",
+      "exact": true
+    },
+    {
+      "path": "attempt-05/native/fit-report.json",
+      "bytes": 230876,
+      "sha256": "90898f809647258cb1e2c3860437a3d8df30e18e554df25eedbd287f08fd662c",
+      "exact": true
+    },
+    {
+      "path": "attempt-05/native/targeted-pairs.json",
+      "bytes": 72130,
+      "sha256": "2f32d8ea98bd7a2c258ff711a17aa86a7e0b06d3b11184dc9e419b5833e0d6cb",
+      "exact": true
+    },
+    {
+      "path": "attempt-05/native/station-datum-probes.json",
+      "bytes": 11037,
+      "sha256": "c2285caad629d3ce96731712f4438917ae5020861382020700f8cef8bf542c67",
+      "exact": true
+    },
+    {
+      "path": "attempt-05/native/all-geometry-inventory.json",
+      "bytes": 9703330,
+      "sha256": "7929cddd99fbdeb4a38acbd69ea98133bf14a4a8fdf0db56ecc8a6161d9f2221",
+      "exact": true
+    },
+    {
+      "path": "attempt-05/native/nearby-components.json",
+      "bytes": 249950,
+      "sha256": "dcca5415022fd37fe46e05681b3d1cb401a6384a595bb4520b4e0ec74ae63fee",
+      "exact": true
+    },
+    {
+      "path": "attempt-05/native/instance-manifest.json",
+      "bytes": 270669,
+      "sha256": "7a1c49eabbdf2c8421be601f5a75785919de6a2888a3edeaf2a18a16f0bf08f5",
+      "exact": true
+    },
+    {
+      "path": "attempt-05/native/frame-degeneracy-diagnostic.json",
+      "bytes": 354596,
+      "sha256": "f1cc72e16e804efc006ca1912b9fc5c253da13d30b04d72de6c413e9e3122c4f",
+      "exact": true
+    }
+  ],
+  "candidate_status": "LOCAL_ONLY_LFS_BLOCKED",
+  "not_a_new_native_evaluation": true
+}

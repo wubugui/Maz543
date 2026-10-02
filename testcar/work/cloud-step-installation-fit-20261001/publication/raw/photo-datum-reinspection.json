@@ -1,0 +1,28 @@
+{
+  "status": "QUALITATIVE_DATUM_CORRECTION_LEAD_ONLY",
+  "sources": [
+    {
+      "file": "iwm07.jpg",
+      "sha256": "e20d18e0de71b0faab0ac273c15eb823ac99171144498faa07c298594352038f",
+      "bytes": 468829,
+      "page": "https://www.cybermodeler.com/armor/scud/pages/iwm_scud_07.shtml",
+      "image": "https://cybermodeler.com/armor/scud/images/iwm_scud_07.jpg",
+      "pixels_reinspected": true,
+      "observation": "Lower frame is ahead of the first tyre, beneath the forward/middle lower-door region; its aft end does not follow the complete aft upper platform/door span. No scale/metric dimensions or symmetry inferred."
+    },
+    {
+      "file": "iwm12.jpg",
+      "sha256": "f1ab0df4fa4803994dc8c7761394fd99f92ba798ecbbaa1d2205c8ea8a2ec64c",
+      "bytes": 470284,
+      "page": "https://www.cybermodeler.com/armor/scud/pages/iwm_scud_12.shtml",
+      "image": "https://www.cybermodeler.com/armor/scud/images/iwm_scud_12.jpg",
+      "pixels_reinspected": true,
+      "observation": "Lower frame is ahead of the first tyre, beneath the forward/middle lower-door region; its aft end does not follow the complete aft upper platform/door span. No scale/metric dimensions or symmetry inferred."
+    }
+  ],
+  "pixels_republished": false,
+  "limits": [
+    "Same museum vehicle, not independent batch evidence",
+    "No calibrated measurement, manufacturer dimensions, 1977 applicability, hidden hardpoints or support materials established"
+  ]
+}
