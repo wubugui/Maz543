@@ -1,0 +1,142 @@
+{
+  "status": "NOT_LAUNCHED",
+  "command": [
+    "taskset",
+    "-c",
+    "0,1",
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "2",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/capture_native.py",
+    "--",
+    "--output",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run-01"
+  ],
+  "started_utc": "2026-10-02T21:55:53Z",
+  "window_note": "Aether stated no ready native views and released the prior fresh-only window; this is the single coordinated CPU2 read-only capture, connector/read-only work may coexist; not an isolated performance claim",
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "budget": {
+    "threads": 2,
+    "wall_seconds": 300,
+    "heartbeat_seconds": 10,
+    "term_grace_seconds": 5,
+    "kill_grace_seconds": 5
+  },
+  "inputs_before": {
+    "source": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+    },
+    "glb": {
+      "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+      "bytes": 134267928,
+      "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+    },
+    "diagnosis": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-normal-transport-diagnosis-20261002/analysis.json",
+      "bytes": 9646,
+      "sha256": "6c8cebcf01f8eeaee1c4464d88a512db8445b73ccb3e1de35902f6893e3354c6"
+    },
+    "legacy_export_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py",
+      "bytes": 39008,
+      "sha256": "f67acdccdf722752ab7f876fd23de6130570b0d36e0f33e2bff550a1d8086860"
+    },
+    "decoder": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/validate_glb.py",
+      "bytes": 23416,
+      "sha256": "e85fd9492838a75ddfb230c74f5921024a09306f39dbd03dff0be1e243c70f61"
+    },
+    "references": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/run-03/native/native-references.json",
+      "bytes": 4878654,
+      "sha256": "32901de5c6e092bada794ff49e5f469f61e3fbe1955d7f3f921025016b288b53"
+    },
+    "mesh_protection_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    "official_nodes": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/nodes.py",
+      "bytes": 24921,
+      "sha256": "077d66f73d2a22e7caf13f73be83b3d027cc03995c040a0064b3b7a77dc5bcf1"
+    },
+    "official_primitive_extract": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/primitive_extract.py",
+      "bytes": 86294,
+      "sha256": "884ba7f2691f1c69874c148a3058791b0621740dc5c7123799f6785fc3c87fa7"
+    },
+    "official_unique": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/com/gltf2_blender_utils.py",
+      "bytes": 3635,
+      "sha256": "9155b7a71b2deedd6d608f01c50769568d290b1fb9005ea5ac34bb762872401c"
+    },
+    "bundled_python": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/bin/python3.11",
+      "bytes": 28653440,
+      "sha256": "60b08089c60cbe81827b135c8fd9e206ba2ee6bf54aa1dbd0d6f56ac2d5914f6"
+    },
+    "numpy_version": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/version.py",
+      "bytes": 176,
+      "sha256": "ae24c0271908be669d3348be6cb3dbbd8d4a7d3090eff2ac09e55e84c147e687"
+    }
+  },
+  "prepared_before": {
+    "README.md": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/README.md",
+      "bytes": 5836,
+      "sha256": "f9d7538da2f36ec66dfb33b818619bfc5f47d8aefb5f3bb88255d12b399a54cc"
+    },
+    "capture.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/capture.json",
+      "bytes": 8022,
+      "sha256": "5fcb01ad45251ec5f4acdab927624af1890b8ffb7a414920421d97a0e169ff9d"
+    },
+    "capture_native.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/capture_native.py",
+      "bytes": 11380,
+      "sha256": "67d60a93a9047e67b5055668e94d78337840b4c0827471797d1587058c5b741c"
+    },
+    "replay_capture.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/replay_capture.py",
+      "bytes": 16643,
+      "sha256": "005f3af009491180b1f67de31e3fdad5342789f864e2906b87594eae3f7402ab"
+    },
+    "run_capture.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run_capture.py",
+      "bytes": 8246,
+      "sha256": "e3a096633f07f6d041f4fe65aedead61336faeceb22c5ed3d7eb6fab2a43ca82"
+    },
+    "preparation-checks.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/preparation-checks.json",
+      "bytes": 6118,
+      "sha256": "bcd40034b9b00294688de9a6175bc3e33f14b069e1538dff982514fd0f4965bb"
+    }
+  },
+  "timed_out": false,
+  "unchanged_qualification": {
+    "transport": "FAIL_STATIC_NATIVE_TRANSPORT",
+    "issues": 2299,
+    "normal_nonzero_vector_error_limit": 0.0002,
+    "whole_vehicle": "ALL_16_OPEN",
+    "browser_qa": "NOT_RUN"
+  },
+  "budget_basis": "One 100MB source load, ten finite evaluated meshes, about104256 loops, raw JSON readback and ten-target existing-GLB decode. Prior source/evaluation operation histories are about20-100s; 300s allows CPU2 contention and guards without an arbitrarily short timeout. This is an operation ceiling, not a performance claim."
+}

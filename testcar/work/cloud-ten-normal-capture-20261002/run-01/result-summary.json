@@ -1,0 +1,741 @@
+{
+  "status": "RAW_CAPTURE_COMPLETE_LEGACY_UV_CORRESPONDENCE_FAILED",
+  "preparation_commit": "00b83b55de9fb8c0cbff56d4ca1b8d6e80305c9e",
+  "actual_exit_code": 0,
+  "actual_elapsed_seconds": 12.022093869003584,
+  "max_child_rss_kib": 1807088,
+  "source_and_file_guards_pass": true,
+  "all_ten_only_differ_in_TEXCOORD_0_and_joint_signatures": true,
+  "signed_zero_comparison": "NOT_RUN_OLD_REFERENCE_MISMATCH",
+  "targets": [
+    {
+      "object": "BL_Front_mirror_face_-1",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "material_record_differences": [],
+      "part_differences": [
+        {
+          "bucket": 0,
+          "materials_and_slots_match": true,
+          "triangle_count_match": true,
+          "attributes_match": true,
+          "differing_signature_fields": [
+            "all",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "fresh_scalar": 0.740678995847702,
+      "old_scalar": 0.740678995847702,
+      "fresh_raw_length": {
+        "count": 1440,
+        "min": 0.259321004152298,
+        "max": 1.0000001194594959,
+        "mean": 0.9506229258772805,
+        "p50": 0.9999999956946083,
+        "p95": 1.0000000740416655,
+        "p99": 1.000000101890836
+      },
+      "fresh_max_direction_angle_degrees": 0.0045584343718963844,
+      "fresh_worst_conversion_corner": {
+        "loop_index": 1200,
+        "vertex_index": 1,
+        "position_native": [
+          0.0,
+          0.06599999964237213,
+          0.0
+        ],
+        "raw_normal_native": [
+          0.0,
+          0.0,
+          -0.259321004152298
+        ],
+        "rounded_normal_native": [
+          0.0,
+          0.0,
+          -0.25929999351501465
+        ],
+        "converted_normal_native": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "raw_length": 0.259321004152298,
+        "converted_length": 1.0,
+        "round4_vector_perturbation": 2.1010637283325195e-05,
+        "raw_to_reproduced_conversion_vector_error": 0.740678995847702,
+        "direction_vector_error": 0.0,
+        "direction_angle_degrees": 0.0,
+        "direction_is_defined_nonzero": true,
+        "used_by_triangle": true,
+        "triangle_memberships": [
+          {
+            "triangle_index": 622,
+            "corner_in_triangle": 0,
+            "material_slot": 0
+          },
+          {
+            "triangle_index": 623,
+            "corner_in_triangle": 0,
+            "material_slot": 0
+          }
+        ]
+      }
+    },
+    {
+      "object": "BL_Front_mirror_face_1",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "material_record_differences": [],
+      "part_differences": [
+        {
+          "bucket": 0,
+          "materials_and_slots_match": true,
+          "triangle_count_match": true,
+          "attributes_match": true,
+          "differing_signature_fields": [
+            "all",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "fresh_scalar": 0.740678995847702,
+      "old_scalar": 0.740678995847702,
+      "fresh_raw_length": {
+        "count": 1440,
+        "min": 0.259321004152298,
+        "max": 1.0000001194594959,
+        "mean": 0.9506229258772805,
+        "p50": 0.9999999956946083,
+        "p95": 1.0000000740416655,
+        "p99": 1.000000101890836
+      },
+      "fresh_max_direction_angle_degrees": 0.0045584343718963844,
+      "fresh_worst_conversion_corner": {
+        "loop_index": 1200,
+        "vertex_index": 1,
+        "position_native": [
+          0.0,
+          0.06599999964237213,
+          0.0
+        ],
+        "raw_normal_native": [
+          0.0,
+          0.0,
+          -0.259321004152298
+        ],
+        "rounded_normal_native": [
+          0.0,
+          0.0,
+          -0.25929999351501465
+        ],
+        "converted_normal_native": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "raw_length": 0.259321004152298,
+        "converted_length": 1.0,
+        "round4_vector_perturbation": 2.1010637283325195e-05,
+        "raw_to_reproduced_conversion_vector_error": 0.740678995847702,
+        "direction_vector_error": 0.0,
+        "direction_angle_degrees": 0.0,
+        "direction_is_defined_nonzero": true,
+        "used_by_triangle": true,
+        "triangle_memberships": [
+          {
+            "triangle_index": 622,
+            "corner_in_triangle": 0,
+            "material_slot": 0
+          },
+          {
+            "triangle_index": 623,
+            "corner_in_triangle": 0,
+            "material_slot": 0
+          }
+        ]
+      }
+    },
+    {
+      "object": "S543_0_halfshaft_bellows",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "material_record_differences": [],
+      "part_differences": [
+        {
+          "bucket": 0,
+          "materials_and_slots_match": true,
+          "triangle_count_match": true,
+          "attributes_match": true,
+          "differing_signature_fields": [
+            "all",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "fresh_scalar": 0.2936951594677212,
+      "old_scalar": 0.2936951594677212,
+      "fresh_raw_length": {
+        "count": 12672,
+        "min": 0.7063049039932805,
+        "max": 1.000000148458673,
+        "mean": 0.9955503230209843,
+        "p50": 1.0,
+        "p95": 1.0000000702527154,
+        "p99": 1.0000001052567933
+      },
+      "fresh_max_direction_angle_degrees": 0.00525181837333352,
+      "fresh_worst_conversion_corner": {
+        "loop_index": 23,
+        "vertex_index": 24,
+        "position_native": [
+          0.014999999664723873,
+          -0.025980761274695396,
+          -0.5344000458717346
+        ],
+        "raw_normal_native": [
+          -0.24944867193698883,
+          0.4320579171180725,
+          0.49996793270111084
+        ],
+        "rounded_normal_native": [
+          -0.24940000474452972,
+          0.43209999799728394,
+          0.5
+        ],
+        "converted_normal_native": [
+          -0.35308969020843506,
+          0.6117483973503113,
+          0.7078782916069031
+        ],
+        "raw_length": 0.7063049039932805,
+        "converted_length": 1.000000053360234,
+        "round4_vector_perturbation": 7.188607427802025e-05,
+        "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+        "direction_vector_error": 9.165253034722308e-05,
+        "direction_angle_degrees": 0.005251303172427886,
+        "direction_is_defined_nonzero": true,
+        "used_by_triangle": true,
+        "triangle_memberships": [
+          {
+            "triangle_index": 11,
+            "corner_in_triangle": 2,
+            "material_slot": 0
+          }
+        ]
+      }
+    },
+    {
+      "object": "S543_1_halfshaft_bellows",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "material_record_differences": [],
+      "part_differences": [
+        {
+          "bucket": 0,
+          "materials_and_slots_match": true,
+          "triangle_count_match": true,
+          "attributes_match": true,
+          "differing_signature_fields": [
+            "all",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "fresh_scalar": 0.2936951594677212,
+      "old_scalar": 0.2936951594677212,
+      "fresh_raw_length": {
+        "count": 12672,
+        "min": 0.7063049039932805,
+        "max": 1.000000148458673,
+        "mean": 0.9955503230209843,
+        "p50": 1.0,
+        "p95": 1.0000000702527154,
+        "p99": 1.0000001052567933
+      },
+      "fresh_max_direction_angle_degrees": 0.00525181837333352,
+      "fresh_worst_conversion_corner": {
+        "loop_index": 23,
+        "vertex_index": 24,
+        "position_native": [
+          0.014999999664723873,
+          -0.025980761274695396,
+          -0.5344000458717346
+        ],
+        "raw_normal_native": [
+          -0.24944867193698883,
+          0.4320579171180725,
+          0.49996793270111084
+        ],
+        "rounded_normal_native": [
+          -0.24940000474452972,
+          0.43209999799728394,
+          0.5
+        ],
+        "converted_normal_native": [
+          -0.35308969020843506,
+          0.6117483973503113,
+          0.7078782916069031
+        ],
+        "raw_length": 0.7063049039932805,
+        "converted_length": 1.000000053360234,
+        "round4_vector_perturbation": 7.188607427802025e-05,
+        "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+        "direction_vector_error": 9.165253034722308e-05,
+        "direction_angle_degrees": 0.005251303172427886,
+        "direction_is_defined_nonzero": true,
+        "used_by_triangle": true,
+        "triangle_memberships": [
+          {
+            "triangle_index": 11,
+            "corner_in_triangle": 2,
+            "material_slot": 0
+          }
+        ]
+      }
+    },
+    {
+      "object": "S543_2_halfshaft_bellows",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "material_record_differences": [],
+      "part_differences": [
+        {
+          "bucket": 0,
+          "materials_and_slots_match": true,
+          "triangle_count_match": true,
+          "attributes_match": true,
+          "differing_signature_fields": [
+            "all",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "fresh_scalar": 0.2936951594677212,
+      "old_scalar": 0.2936951594677212,
+      "fresh_raw_length": {
+        "count": 12672,
+        "min": 0.7063049039932805,
+        "max": 1.000000148458673,
+        "mean": 0.9955503230209843,
+        "p50": 1.0,
+        "p95": 1.0000000702527154,
+        "p99": 1.0000001052567933
+      },
+      "fresh_max_direction_angle_degrees": 0.00525181837333352,
+      "fresh_worst_conversion_corner": {
+        "loop_index": 23,
+        "vertex_index": 24,
+        "position_native": [
+          0.014999999664723873,
+          -0.025980761274695396,
+          -0.5344000458717346
+        ],
+        "raw_normal_native": [
+          -0.24944867193698883,
+          0.4320579171180725,
+          0.49996793270111084
+        ],
+        "rounded_normal_native": [
+          -0.24940000474452972,
+          0.43209999799728394,
+          0.5
+        ],
+        "converted_normal_native": [
+          -0.35308969020843506,
+          0.6117483973503113,
+          0.7078782916069031
+        ],
+        "raw_length": 0.7063049039932805,
+        "converted_length": 1.000000053360234,
+        "round4_vector_perturbation": 7.188607427802025e-05,
+        "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+        "direction_vector_error": 9.165253034722308e-05,
+        "direction_angle_degrees": 0.005251303172427886,
+        "direction_is_defined_nonzero": true,
+        "used_by_triangle": true,
+        "triangle_memberships": [
+          {
+            "triangle_index": 11,
+            "corner_in_triangle": 2,
+            "material_slot": 0
+          }
+        ]
+      }
+    },
+    {
+      "object": "S543_3_halfshaft_bellows",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "material_record_differences": [],
+      "part_differences": [
+        {
+          "bucket": 0,
+          "materials_and_slots_match": true,
+          "triangle_count_match": true,
+          "attributes_match": true,
+          "differing_signature_fields": [
+            "all",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "fresh_scalar": 0.2936951594677212,
+      "old_scalar": 0.2936951594677212,
+      "fresh_raw_length": {
+        "count": 12672,
+        "min": 0.7063049039932805,
+        "max": 1.000000148458673,
+        "mean": 0.9955503230209843,
+        "p50": 1.0,
+        "p95": 1.0000000702527154,
+        "p99": 1.0000001052567933
+      },
+      "fresh_max_direction_angle_degrees": 0.00525181837333352,
+      "fresh_worst_conversion_corner": {
+        "loop_index": 23,
+        "vertex_index": 24,
+        "position_native": [
+          0.014999999664723873,
+          -0.025980761274695396,
+          -0.5344000458717346
+        ],
+        "raw_normal_native": [
+          -0.24944867193698883,
+          0.4320579171180725,
+          0.49996793270111084
+        ],
+        "rounded_normal_native": [
+          -0.24940000474452972,
+          0.43209999799728394,
+          0.5
+        ],
+        "converted_normal_native": [
+          -0.35308969020843506,
+          0.6117483973503113,
+          0.7078782916069031
+        ],
+        "raw_length": 0.7063049039932805,
+        "converted_length": 1.000000053360234,
+        "round4_vector_perturbation": 7.188607427802025e-05,
+        "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+        "direction_vector_error": 9.165253034722308e-05,
+        "direction_angle_degrees": 0.005251303172427886,
+        "direction_is_defined_nonzero": true,
+        "used_by_triangle": true,
+        "triangle_memberships": [
+          {
+            "triangle_index": 11,
+            "corner_in_triangle": 2,
+            "material_slot": 0
+          }
+        ]
+      }
+    },
+    {
+      "object": "S543_4_halfshaft_bellows",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "material_record_differences": [],
+      "part_differences": [
+        {
+          "bucket": 0,
+          "materials_and_slots_match": true,
+          "triangle_count_match": true,
+          "attributes_match": true,
+          "differing_signature_fields": [
+            "all",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "fresh_scalar": 0.2936951594677212,
+      "old_scalar": 0.2936951594677212,
+      "fresh_raw_length": {
+        "count": 12672,
+        "min": 0.7063049039932805,
+        "max": 1.000000148458673,
+        "mean": 0.9955503230209843,
+        "p50": 1.0,
+        "p95": 1.0000000702527154,
+        "p99": 1.0000001052567933
+      },
+      "fresh_max_direction_angle_degrees": 0.00525181837333352,
+      "fresh_worst_conversion_corner": {
+        "loop_index": 23,
+        "vertex_index": 24,
+        "position_native": [
+          0.014999999664723873,
+          -0.025980761274695396,
+          -0.5344000458717346
+        ],
+        "raw_normal_native": [
+          -0.24944867193698883,
+          0.4320579171180725,
+          0.49996793270111084
+        ],
+        "rounded_normal_native": [
+          -0.24940000474452972,
+          0.43209999799728394,
+          0.5
+        ],
+        "converted_normal_native": [
+          -0.35308969020843506,
+          0.6117483973503113,
+          0.7078782916069031
+        ],
+        "raw_length": 0.7063049039932805,
+        "converted_length": 1.000000053360234,
+        "round4_vector_perturbation": 7.188607427802025e-05,
+        "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+        "direction_vector_error": 9.165253034722308e-05,
+        "direction_angle_degrees": 0.005251303172427886,
+        "direction_is_defined_nonzero": true,
+        "used_by_triangle": true,
+        "triangle_memberships": [
+          {
+            "triangle_index": 11,
+            "corner_in_triangle": 2,
+            "material_slot": 0
+          }
+        ]
+      }
+    },
+    {
+      "object": "S543_5_halfshaft_bellows",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "material_record_differences": [],
+      "part_differences": [
+        {
+          "bucket": 0,
+          "materials_and_slots_match": true,
+          "triangle_count_match": true,
+          "attributes_match": true,
+          "differing_signature_fields": [
+            "all",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "fresh_scalar": 0.2936951594677212,
+      "old_scalar": 0.2936951594677212,
+      "fresh_raw_length": {
+        "count": 12672,
+        "min": 0.7063049039932805,
+        "max": 1.000000148458673,
+        "mean": 0.9955503230209843,
+        "p50": 1.0,
+        "p95": 1.0000000702527154,
+        "p99": 1.0000001052567933
+      },
+      "fresh_max_direction_angle_degrees": 0.00525181837333352,
+      "fresh_worst_conversion_corner": {
+        "loop_index": 23,
+        "vertex_index": 24,
+        "position_native": [
+          0.014999999664723873,
+          -0.025980761274695396,
+          -0.5344000458717346
+        ],
+        "raw_normal_native": [
+          -0.24944867193698883,
+          0.4320579171180725,
+          0.49996793270111084
+        ],
+        "rounded_normal_native": [
+          -0.24940000474452972,
+          0.43209999799728394,
+          0.5
+        ],
+        "converted_normal_native": [
+          -0.35308969020843506,
+          0.6117483973503113,
+          0.7078782916069031
+        ],
+        "raw_length": 0.7063049039932805,
+        "converted_length": 1.000000053360234,
+        "round4_vector_perturbation": 7.188607427802025e-05,
+        "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+        "direction_vector_error": 9.165253034722308e-05,
+        "direction_angle_degrees": 0.005251303172427886,
+        "direction_is_defined_nonzero": true,
+        "used_by_triangle": true,
+        "triangle_memberships": [
+          {
+            "triangle_index": 11,
+            "corner_in_triangle": 2,
+            "material_slot": 0
+          }
+        ]
+      }
+    },
+    {
+      "object": "S543_6_halfshaft_bellows",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "material_record_differences": [],
+      "part_differences": [
+        {
+          "bucket": 0,
+          "materials_and_slots_match": true,
+          "triangle_count_match": true,
+          "attributes_match": true,
+          "differing_signature_fields": [
+            "all",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "fresh_scalar": 0.2936951594677212,
+      "old_scalar": 0.2936951594677212,
+      "fresh_raw_length": {
+        "count": 12672,
+        "min": 0.7063049039932805,
+        "max": 1.000000148458673,
+        "mean": 0.9955503230209843,
+        "p50": 1.0,
+        "p95": 1.0000000702527154,
+        "p99": 1.0000001052567933
+      },
+      "fresh_max_direction_angle_degrees": 0.00525181837333352,
+      "fresh_worst_conversion_corner": {
+        "loop_index": 23,
+        "vertex_index": 24,
+        "position_native": [
+          0.014999999664723873,
+          -0.025980761274695396,
+          -0.5344000458717346
+        ],
+        "raw_normal_native": [
+          -0.24944867193698883,
+          0.4320579171180725,
+          0.49996793270111084
+        ],
+        "rounded_normal_native": [
+          -0.24940000474452972,
+          0.43209999799728394,
+          0.5
+        ],
+        "converted_normal_native": [
+          -0.35308969020843506,
+          0.6117483973503113,
+          0.7078782916069031
+        ],
+        "raw_length": 0.7063049039932805,
+        "converted_length": 1.000000053360234,
+        "round4_vector_perturbation": 7.188607427802025e-05,
+        "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+        "direction_vector_error": 9.165253034722308e-05,
+        "direction_angle_degrees": 0.005251303172427886,
+        "direction_is_defined_nonzero": true,
+        "used_by_triangle": true,
+        "triangle_memberships": [
+          {
+            "triangle_index": 11,
+            "corner_in_triangle": 2,
+            "material_slot": 0
+          }
+        ]
+      }
+    },
+    {
+      "object": "S543_7_halfshaft_bellows",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "material_record_differences": [],
+      "part_differences": [
+        {
+          "bucket": 0,
+          "materials_and_slots_match": true,
+          "triangle_count_match": true,
+          "attributes_match": true,
+          "differing_signature_fields": [
+            "all",
+            "TEXCOORD_0"
+          ]
+        }
+      ],
+      "fresh_scalar": 0.2936951594677212,
+      "old_scalar": 0.2936951594677212,
+      "fresh_raw_length": {
+        "count": 12672,
+        "min": 0.7063049039932805,
+        "max": 1.000000148458673,
+        "mean": 0.9955503230209843,
+        "p50": 1.0,
+        "p95": 1.0000000702527154,
+        "p99": 1.0000001052567933
+      },
+      "fresh_max_direction_angle_degrees": 0.00525181837333352,
+      "fresh_worst_conversion_corner": {
+        "loop_index": 23,
+        "vertex_index": 24,
+        "position_native": [
+          0.014999999664723873,
+          -0.025980761274695396,
+          -0.5344000458717346
+        ],
+        "raw_normal_native": [
+          -0.24944867193698883,
+          0.4320579171180725,
+          0.49996793270111084
+        ],
+        "rounded_normal_native": [
+          -0.24940000474452972,
+          0.43209999799728394,
+          0.5
+        ],
+        "converted_normal_native": [
+          -0.35308969020843506,
+          0.6117483973503113,
+          0.7078782916069031
+        ],
+        "raw_length": 0.7063049039932805,
+        "converted_length": 1.000000053360234,
+        "round4_vector_perturbation": 7.188607427802025e-05,
+        "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+        "direction_vector_error": 9.165253034722308e-05,
+        "direction_angle_degrees": 0.005251303172427886,
+        "direction_is_defined_nonzero": true,
+        "used_by_triangle": true,
+        "triangle_memberships": [
+          {
+            "triangle_index": 11,
+            "corner_in_triangle": 2,
+            "material_slot": 0
+          }
+        ]
+      }
+    }
+  ],
+  "interpretation": "These are actual new raw measurements. The large conversion vector errors contain amplitude normalization; maxima and independent POSITION/NORMAL hashes match old run03, but UV/joint mismatch prevents claiming complete old correspondence or recovered historical raw bytes. No threshold, UV data, old reference or model changed.",
+  "next": "Publish every original record, then diagnose only the retained UV mismatch without rerunning source or changing UV to force a pass",
+  "unchanged_qualification": {
+    "transport": "FAIL_STATIC_NATIVE_TRANSPORT",
+    "issues": 2299,
+    "normal_nonzero_vector_error_limit": 0.0002,
+    "whole_vehicle": "ALL_16_OPEN",
+    "browser_qa": "NOT_RUN"
+  }
+}

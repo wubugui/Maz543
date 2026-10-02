@@ -1,0 +1,4708 @@
+{
+  "schema": "maz-fresh-ten-normal-replay-v1",
+  "runtime": {
+    "python_version": "3.11.15 (main, Apr 25 2025, 12:39:20) [GCC 11.2.1 20220127 (Red Hat 11.2.1-9)]",
+    "numpy_version": "1.26.4",
+    "numpy_file": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/__init__.py"
+  },
+  "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+  "targets": [
+    {
+      "object": "BL_Front_mirror_face_-1",
+      "reference_mesh_id": "mesh-00069",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "differing_material_records": [],
+      "fresh_legacy_record": {
+        "native_mesh_name": "Cylinder.002",
+        "vertices": 384,
+        "loops": 1440,
+        "parts": [
+          {
+            "material_name": "Worn_steel",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 764,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "6a30e57c66f784c7c1661c0486f182b118b17a667ac3c25a8efef90af999f59d",
+                "NORMAL": "de87aec53016adf3327519342400ff97aa2b53d1c9e14bddf39b4c463ae8ff69",
+                "POSITION": "649414efd9b7d892653e144018d62cb36c14b9acff14d5f964cd3d57e72374cd",
+                "TEXCOORD_0": "f68fb94e5a25a5c95df93a9183e15d6c5b271e5f11d18f66e976702d28037127"
+              }
+            }
+          }
+        ],
+        "triangles": 764,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "UVMap",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.06599999964237213,
+            -0.0024999999441206455,
+            -0.06599999964237213
+          ],
+          [
+            0.06599999964237213,
+            0.0024999999441206455,
+            0.06599999964237213
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.740678995847702,
+        "raw_to_official_normal_max_nonzero_error": 0.740678995847702,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "run03_record": {
+        "native_mesh_name": "Cylinder.002",
+        "vertices": 384,
+        "loops": 1440,
+        "parts": [
+          {
+            "material_name": "Worn_steel",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 764,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "f456f9dae4e4b6d16738721b6d2569661bb973900ca71f8753d9083881ebc002",
+                "NORMAL": "de87aec53016adf3327519342400ff97aa2b53d1c9e14bddf39b4c463ae8ff69",
+                "POSITION": "649414efd9b7d892653e144018d62cb36c14b9acff14d5f964cd3d57e72374cd",
+                "TEXCOORD_0": "cbbb9dde70eba2188fa2370d3d095b16746322908bddacfcc36bbe1bc3711706"
+              }
+            }
+          }
+        ],
+        "triangles": 764,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "UVMap",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.06599999964237213,
+            -0.0024999999441206455,
+            -0.06599999964237213
+          ],
+          [
+            0.06599999964237213,
+            0.0024999999441206455,
+            0.06599999964237213
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.740678995847702,
+        "raw_to_official_normal_max_nonzero_error": 0.740678995847702,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "statistics": {
+        "measurement": "Fresh read-only raw vectors, not recovered historical raw bytes",
+        "conversion_metric": "Native raw versus reproduced float32 round4/normalize/zero replacement before yup; not directly raw versus GLB",
+        "raw_length": {
+          "count": 1440,
+          "min": 0.259321004152298,
+          "max": 1.0000001194594959,
+          "mean": 0.9506229258772805,
+          "p50": 0.9999999956946083,
+          "p95": 1.0000000740416655,
+          "p99": 1.000000101890836
+        },
+        "round4_vector_perturbation": {
+          "count": 1440,
+          "min": 1.099989021513428e-05,
+          "max": 7.96401366962371e-05,
+          "mean": 4.546914257583795e-05,
+          "p50": 4.818145247214067e-05,
+          "p95": 6.277039973359163e-05,
+          "p99": 7.305042866104037e-05
+        },
+        "conversion_vector_error": {
+          "count": 1440,
+          "min": 8.677646154287233e-06,
+          "max": 0.740678995847702,
+          "mean": 0.049413826564438,
+          "p50": 4.258619326868105e-05,
+          "p95": 0.740633100271225,
+          "p99": 0.740678995847702
+        },
+        "conversion_vector_error_triangle_used": {
+          "count": 1440,
+          "min": 8.677646154287233e-06,
+          "max": 0.740678995847702,
+          "mean": 0.049413826564438,
+          "p50": 4.258619326868105e-05,
+          "p95": 0.740633100271225,
+          "p99": 0.740678995847702
+        },
+        "direction_vector_error": {
+          "count": 1440,
+          "min": 0.0,
+          "max": 7.955968850469568e-05,
+          "mean": 3.675664739472983e-05,
+          "p50": 3.9481089276027e-05,
+          "p95": 5.849332926522704e-05,
+          "p99": 6.800807288463227e-05
+        },
+        "direction_angle_degrees": {
+          "count": 1440,
+          "min": 0.0,
+          "max": 0.0045584343718963844,
+          "mean": 0.002106000764954295,
+          "p50": 0.0022620997862433296,
+          "p95": 0.00335142089704205,
+          "p99": 0.003896575549857788
+        },
+        "direction_excluded_count": 0,
+        "triangle_used_loops": 1440,
+        "unused_loops": 0,
+        "raw_length_below_one": 816,
+        "raw_length_above_one": 624,
+        "unchanged_nonzero_conversion_error_limit": 0.0002,
+        "nonzero_conversion_error_exceeding_limit_count": 96,
+        "worst_corners": {
+          "conversion_vector_error": {
+            "loop_index": 1200,
+            "vertex_index": 1,
+            "position_native": [
+              0.0,
+              0.06599999964237213,
+              0.0
+            ],
+            "raw_normal_native": [
+              0.0,
+              0.0,
+              -0.259321004152298
+            ],
+            "rounded_normal_native": [
+              0.0,
+              0.0,
+              -0.25929999351501465
+            ],
+            "converted_normal_native": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "raw_length": 0.259321004152298,
+            "converted_length": 1.0,
+            "round4_vector_perturbation": 2.1010637283325195e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.740678995847702,
+            "direction_vector_error": 0.0,
+            "direction_angle_degrees": 0.0,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 622,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 623,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          },
+          "round4_perturbation": {
+            "loop_index": 64,
+            "vertex_index": 31,
+            "position_native": [
+              0.02512865886092186,
+              0.06066594272851944,
+              0.0012499999720603228
+            ],
+            "raw_normal_native": [
+              0.3314499855041504,
+              0.8002514243125916,
+              0.49973854422569275
+            ],
+            "rounded_normal_native": [
+              0.3314000070095062,
+              0.8003000020980835,
+              0.49970000982284546
+            ],
+            "converted_normal_native": [
+              0.33139899373054504,
+              0.8002974987030029,
+              0.4996984601020813
+            ],
+            "raw_length": 1.0000000237949236,
+            "converted_length": 0.9999999652521455,
+            "round4_vector_perturbation": 7.96401366962371e-05,
+            "raw_to_reproduced_conversion_vector_error": 7.955970960792236e-05,
+            "direction_vector_error": 7.955968850469568e-05,
+            "direction_angle_degrees": 0.0045584343718963844,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 32,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 33,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_minimum": {
+            "loop_index": 1200,
+            "vertex_index": 1,
+            "position_native": [
+              0.0,
+              0.06599999964237213,
+              0.0
+            ],
+            "raw_normal_native": [
+              0.0,
+              0.0,
+              -0.259321004152298
+            ],
+            "rounded_normal_native": [
+              0.0,
+              0.0,
+              -0.25929999351501465
+            ],
+            "converted_normal_native": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "raw_length": 0.259321004152298,
+            "converted_length": 1.0,
+            "round4_vector_perturbation": 2.1010637283325195e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.740678995847702,
+            "direction_vector_error": 0.0,
+            "direction_angle_degrees": 0.0,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 622,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 623,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_maximum": {
+            "loop_index": 10,
+            "vertex_index": 8,
+            "position_native": [
+              0.008287711068987846,
+              0.06295143067836761,
+              -0.0024999999441206455
+            ],
+            "raw_normal_native": [
+              7.688812911510468e-05,
+              0.000482708215713501,
+              -1.0
+            ],
+            "rounded_normal_native": [
+              9.999999747378752e-05,
+              0.0005000000237487257,
+              -1.0
+            ],
+            "converted_normal_native": [
+              9.999998292187229e-05,
+              0.0004999999655410647,
+              -0.9999998807907104
+            ],
+            "raw_length": 1.0000001194594959,
+            "converted_length": 1.0000000107906986,
+            "round4_vector_perturbation": 2.8864599151142664e-05,
+            "raw_to_reproduced_conversion_vector_error": 2.8864798792632615e-05,
+            "direction_vector_error": 2.8864592356584604e-05,
+            "direction_angle_degrees": 0.0016538193194552842,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 4,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 5,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_distance_from_unit": {
+            "loop_index": 1200,
+            "vertex_index": 1,
+            "position_native": [
+              0.0,
+              0.06599999964237213,
+              0.0
+            ],
+            "raw_normal_native": [
+              0.0,
+              0.0,
+              -0.259321004152298
+            ],
+            "rounded_normal_native": [
+              0.0,
+              0.0,
+              -0.25929999351501465
+            ],
+            "converted_normal_native": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "raw_length": 0.259321004152298,
+            "converted_length": 1.0,
+            "round4_vector_perturbation": 2.1010637283325195e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.740678995847702,
+            "direction_vector_error": 0.0,
+            "direction_angle_degrees": 0.0,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 622,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 623,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_vector_error": {
+            "loop_index": 64,
+            "vertex_index": 31,
+            "position_native": [
+              0.02512865886092186,
+              0.06066594272851944,
+              0.0012499999720603228
+            ],
+            "raw_normal_native": [
+              0.3314499855041504,
+              0.8002514243125916,
+              0.49973854422569275
+            ],
+            "rounded_normal_native": [
+              0.3314000070095062,
+              0.8003000020980835,
+              0.49970000982284546
+            ],
+            "converted_normal_native": [
+              0.33139899373054504,
+              0.8002974987030029,
+              0.4996984601020813
+            ],
+            "raw_length": 1.0000000237949236,
+            "converted_length": 0.9999999652521455,
+            "round4_vector_perturbation": 7.96401366962371e-05,
+            "raw_to_reproduced_conversion_vector_error": 7.955970960792236e-05,
+            "direction_vector_error": 7.955968850469568e-05,
+            "direction_angle_degrees": 0.0045584343718963844,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 32,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 33,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_angle_degrees": {
+            "loop_index": 64,
+            "vertex_index": 31,
+            "position_native": [
+              0.02512865886092186,
+              0.06066594272851944,
+              0.0012499999720603228
+            ],
+            "raw_normal_native": [
+              0.3314499855041504,
+              0.8002514243125916,
+              0.49973854422569275
+            ],
+            "rounded_normal_native": [
+              0.3314000070095062,
+              0.8003000020980835,
+              0.49970000982284546
+            ],
+            "converted_normal_native": [
+              0.33139899373054504,
+              0.8002974987030029,
+              0.4996984601020813
+            ],
+            "raw_length": 1.0000000237949236,
+            "converted_length": 0.9999999652521455,
+            "round4_vector_perturbation": 7.96401366962371e-05,
+            "raw_to_reproduced_conversion_vector_error": 7.955970960792236e-05,
+            "direction_vector_error": 7.955968850469568e-05,
+            "direction_angle_degrees": 0.0045584343718963844,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 32,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 33,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": "BL_Front_mirror_face_1",
+      "reference_mesh_id": "mesh-00100",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "differing_material_records": [],
+      "fresh_legacy_record": {
+        "native_mesh_name": "Cylinder.004",
+        "vertices": 384,
+        "loops": 1440,
+        "parts": [
+          {
+            "material_name": "Worn_steel",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 764,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "bf5543b426af69b6e417da4c6f46e6ee338f52fc5fd45063c00bea76505abf5d",
+                "NORMAL": "de87aec53016adf3327519342400ff97aa2b53d1c9e14bddf39b4c463ae8ff69",
+                "POSITION": "649414efd9b7d892653e144018d62cb36c14b9acff14d5f964cd3d57e72374cd",
+                "TEXCOORD_0": "9ca906a8c2818808660958a36843336b2b52845644e3cee20675b701b5d8eb29"
+              }
+            }
+          }
+        ],
+        "triangles": 764,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "UVMap",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.06599999964237213,
+            -0.0024999999441206455,
+            -0.06599999964237213
+          ],
+          [
+            0.06599999964237213,
+            0.0024999999441206455,
+            0.06599999964237213
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.740678995847702,
+        "raw_to_official_normal_max_nonzero_error": 0.740678995847702,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "run03_record": {
+        "native_mesh_name": "Cylinder.004",
+        "vertices": 384,
+        "loops": 1440,
+        "parts": [
+          {
+            "material_name": "Worn_steel",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 764,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "c216372475b3947d130423267a5e59ea035be24d89e9d48d34ce3064d28fecb5",
+                "NORMAL": "de87aec53016adf3327519342400ff97aa2b53d1c9e14bddf39b4c463ae8ff69",
+                "POSITION": "649414efd9b7d892653e144018d62cb36c14b9acff14d5f964cd3d57e72374cd",
+                "TEXCOORD_0": "39e7252e462fca3df92cfd995f46bcaa4226c61852f7d1266deffb47447bbfab"
+              }
+            }
+          }
+        ],
+        "triangles": 764,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "UVMap",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.06599999964237213,
+            -0.0024999999441206455,
+            -0.06599999964237213
+          ],
+          [
+            0.06599999964237213,
+            0.0024999999441206455,
+            0.06599999964237213
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.740678995847702,
+        "raw_to_official_normal_max_nonzero_error": 0.740678995847702,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "statistics": {
+        "measurement": "Fresh read-only raw vectors, not recovered historical raw bytes",
+        "conversion_metric": "Native raw versus reproduced float32 round4/normalize/zero replacement before yup; not directly raw versus GLB",
+        "raw_length": {
+          "count": 1440,
+          "min": 0.259321004152298,
+          "max": 1.0000001194594959,
+          "mean": 0.9506229258772805,
+          "p50": 0.9999999956946083,
+          "p95": 1.0000000740416655,
+          "p99": 1.000000101890836
+        },
+        "round4_vector_perturbation": {
+          "count": 1440,
+          "min": 1.099989021513428e-05,
+          "max": 7.96401366962371e-05,
+          "mean": 4.546914257583795e-05,
+          "p50": 4.818145247214067e-05,
+          "p95": 6.277039973359163e-05,
+          "p99": 7.305042866104037e-05
+        },
+        "conversion_vector_error": {
+          "count": 1440,
+          "min": 8.677646154287233e-06,
+          "max": 0.740678995847702,
+          "mean": 0.049413826564438,
+          "p50": 4.258619326868105e-05,
+          "p95": 0.740633100271225,
+          "p99": 0.740678995847702
+        },
+        "conversion_vector_error_triangle_used": {
+          "count": 1440,
+          "min": 8.677646154287233e-06,
+          "max": 0.740678995847702,
+          "mean": 0.049413826564438,
+          "p50": 4.258619326868105e-05,
+          "p95": 0.740633100271225,
+          "p99": 0.740678995847702
+        },
+        "direction_vector_error": {
+          "count": 1440,
+          "min": 0.0,
+          "max": 7.955968850469568e-05,
+          "mean": 3.675664739472983e-05,
+          "p50": 3.9481089276027e-05,
+          "p95": 5.849332926522704e-05,
+          "p99": 6.800807288463227e-05
+        },
+        "direction_angle_degrees": {
+          "count": 1440,
+          "min": 0.0,
+          "max": 0.0045584343718963844,
+          "mean": 0.002106000764954295,
+          "p50": 0.0022620997862433296,
+          "p95": 0.00335142089704205,
+          "p99": 0.003896575549857788
+        },
+        "direction_excluded_count": 0,
+        "triangle_used_loops": 1440,
+        "unused_loops": 0,
+        "raw_length_below_one": 816,
+        "raw_length_above_one": 624,
+        "unchanged_nonzero_conversion_error_limit": 0.0002,
+        "nonzero_conversion_error_exceeding_limit_count": 96,
+        "worst_corners": {
+          "conversion_vector_error": {
+            "loop_index": 1200,
+            "vertex_index": 1,
+            "position_native": [
+              0.0,
+              0.06599999964237213,
+              0.0
+            ],
+            "raw_normal_native": [
+              0.0,
+              0.0,
+              -0.259321004152298
+            ],
+            "rounded_normal_native": [
+              0.0,
+              0.0,
+              -0.25929999351501465
+            ],
+            "converted_normal_native": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "raw_length": 0.259321004152298,
+            "converted_length": 1.0,
+            "round4_vector_perturbation": 2.1010637283325195e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.740678995847702,
+            "direction_vector_error": 0.0,
+            "direction_angle_degrees": 0.0,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 622,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 623,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          },
+          "round4_perturbation": {
+            "loop_index": 64,
+            "vertex_index": 31,
+            "position_native": [
+              0.02512865886092186,
+              0.06066594272851944,
+              0.0012499999720603228
+            ],
+            "raw_normal_native": [
+              0.3314499855041504,
+              0.8002514243125916,
+              0.49973854422569275
+            ],
+            "rounded_normal_native": [
+              0.3314000070095062,
+              0.8003000020980835,
+              0.49970000982284546
+            ],
+            "converted_normal_native": [
+              0.33139899373054504,
+              0.8002974987030029,
+              0.4996984601020813
+            ],
+            "raw_length": 1.0000000237949236,
+            "converted_length": 0.9999999652521455,
+            "round4_vector_perturbation": 7.96401366962371e-05,
+            "raw_to_reproduced_conversion_vector_error": 7.955970960792236e-05,
+            "direction_vector_error": 7.955968850469568e-05,
+            "direction_angle_degrees": 0.0045584343718963844,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 32,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 33,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_minimum": {
+            "loop_index": 1200,
+            "vertex_index": 1,
+            "position_native": [
+              0.0,
+              0.06599999964237213,
+              0.0
+            ],
+            "raw_normal_native": [
+              0.0,
+              0.0,
+              -0.259321004152298
+            ],
+            "rounded_normal_native": [
+              0.0,
+              0.0,
+              -0.25929999351501465
+            ],
+            "converted_normal_native": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "raw_length": 0.259321004152298,
+            "converted_length": 1.0,
+            "round4_vector_perturbation": 2.1010637283325195e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.740678995847702,
+            "direction_vector_error": 0.0,
+            "direction_angle_degrees": 0.0,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 622,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 623,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_maximum": {
+            "loop_index": 10,
+            "vertex_index": 8,
+            "position_native": [
+              0.008287711068987846,
+              0.06295143067836761,
+              -0.0024999999441206455
+            ],
+            "raw_normal_native": [
+              7.688812911510468e-05,
+              0.000482708215713501,
+              -1.0
+            ],
+            "rounded_normal_native": [
+              9.999999747378752e-05,
+              0.0005000000237487257,
+              -1.0
+            ],
+            "converted_normal_native": [
+              9.999998292187229e-05,
+              0.0004999999655410647,
+              -0.9999998807907104
+            ],
+            "raw_length": 1.0000001194594959,
+            "converted_length": 1.0000000107906986,
+            "round4_vector_perturbation": 2.8864599151142664e-05,
+            "raw_to_reproduced_conversion_vector_error": 2.8864798792632615e-05,
+            "direction_vector_error": 2.8864592356584604e-05,
+            "direction_angle_degrees": 0.0016538193194552842,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 4,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 5,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_distance_from_unit": {
+            "loop_index": 1200,
+            "vertex_index": 1,
+            "position_native": [
+              0.0,
+              0.06599999964237213,
+              0.0
+            ],
+            "raw_normal_native": [
+              0.0,
+              0.0,
+              -0.259321004152298
+            ],
+            "rounded_normal_native": [
+              0.0,
+              0.0,
+              -0.25929999351501465
+            ],
+            "converted_normal_native": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "raw_length": 0.259321004152298,
+            "converted_length": 1.0,
+            "round4_vector_perturbation": 2.1010637283325195e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.740678995847702,
+            "direction_vector_error": 0.0,
+            "direction_angle_degrees": 0.0,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 622,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 623,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_vector_error": {
+            "loop_index": 64,
+            "vertex_index": 31,
+            "position_native": [
+              0.02512865886092186,
+              0.06066594272851944,
+              0.0012499999720603228
+            ],
+            "raw_normal_native": [
+              0.3314499855041504,
+              0.8002514243125916,
+              0.49973854422569275
+            ],
+            "rounded_normal_native": [
+              0.3314000070095062,
+              0.8003000020980835,
+              0.49970000982284546
+            ],
+            "converted_normal_native": [
+              0.33139899373054504,
+              0.8002974987030029,
+              0.4996984601020813
+            ],
+            "raw_length": 1.0000000237949236,
+            "converted_length": 0.9999999652521455,
+            "round4_vector_perturbation": 7.96401366962371e-05,
+            "raw_to_reproduced_conversion_vector_error": 7.955970960792236e-05,
+            "direction_vector_error": 7.955968850469568e-05,
+            "direction_angle_degrees": 0.0045584343718963844,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 32,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 33,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_angle_degrees": {
+            "loop_index": 64,
+            "vertex_index": 31,
+            "position_native": [
+              0.02512865886092186,
+              0.06066594272851944,
+              0.0012499999720603228
+            ],
+            "raw_normal_native": [
+              0.3314499855041504,
+              0.8002514243125916,
+              0.49973854422569275
+            ],
+            "rounded_normal_native": [
+              0.3314000070095062,
+              0.8003000020980835,
+              0.49970000982284546
+            ],
+            "converted_normal_native": [
+              0.33139899373054504,
+              0.8002974987030029,
+              0.4996984601020813
+            ],
+            "raw_length": 1.0000000237949236,
+            "converted_length": 0.9999999652521455,
+            "round4_vector_perturbation": 7.96401366962371e-05,
+            "raw_to_reproduced_conversion_vector_error": 7.955970960792236e-05,
+            "direction_vector_error": 7.955968850469568e-05,
+            "direction_angle_degrees": 0.0045584343718963844,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 32,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 33,
+                "corner_in_triangle": 0,
+                "material_slot": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": "S543_0_halfshaft_bellows",
+      "reference_mesh_id": "mesh-00583",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "differing_material_records": [],
+      "fresh_legacy_record": {
+        "native_mesh_name": "S543_0_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "79c31db3e6e4b9efab56444553dbc2adbf574e42f461bc97846e795d7d6a6d09",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "e489e7a46d8170de52998387ed099bf659da466cd344afa7563cff827761233e"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "run03_record": {
+        "native_mesh_name": "S543_0_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "7c6b5ec6ddb2fe9470e77ae4a41e1ec0ef85697195d873ee68e017c01a0126c1",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "b63ee08aca2a1c1772ead213374ad33646b231f02bd4f92068df22e065e0b831"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "statistics": {
+        "measurement": "Fresh read-only raw vectors, not recovered historical raw bytes",
+        "conversion_metric": "Native raw versus reproduced float32 round4/normalize/zero replacement before yup; not directly raw versus GLB",
+        "raw_length": {
+          "count": 12672,
+          "min": 0.7063049039932805,
+          "max": 1.000000148458673,
+          "mean": 0.9955503230209843,
+          "p50": 1.0,
+          "p95": 1.0000000702527154,
+          "p99": 1.0000001052567933
+        },
+        "round4_vector_perturbation": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 8.287604533612831e-05,
+          "mean": 4.7185252822547514e-05,
+          "p50": 5.0469673255206285e-05,
+          "p95": 7.250089806323542e-05,
+          "p99": 7.712042387077415e-05
+        },
+        "conversion_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "conversion_vector_error_triangle_used": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "direction_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 9.166152229931052e-05,
+          "mean": 3.27639583628586e-05,
+          "p50": 3.17269650087844e-05,
+          "p95": 6.522898892867351e-05,
+          "p99": 7.264012379375729e-05
+        },
+        "direction_angle_degrees": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.00525181837333352,
+          "mean": 0.0018772365345031078,
+          "p50": 0.0018178211918396065,
+          "p95": 0.003737345768181116,
+          "p99": 0.0041619725176049935
+        },
+        "direction_excluded_count": 0,
+        "triangle_used_loops": 12672,
+        "unused_loops": 0,
+        "raw_length_below_one": 6172,
+        "raw_length_above_one": 6184,
+        "unchanged_nonzero_conversion_error_limit": 0.0002,
+        "nonzero_conversion_error_exceeding_limit_count": 192,
+        "worst_corners": {
+          "conversion_vector_error": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "round4_perturbation": {
+            "loop_index": 2193,
+            "vertex_index": 2886,
+            "position_native": [
+              0.0341925323009491,
+              -0.009161860682070255,
+              -0.3880000114440918
+            ],
+            "raw_normal_native": [
+              0.03484787419438362,
+              -0.009353226982057095,
+              0.9993488788604736
+            ],
+            "rounded_normal_native": [
+              0.03480000048875809,
+              -0.009399999864399433,
+              0.9993000030517578
+            ],
+            "converted_normal_native": [
+              0.03480174392461777,
+              -0.009400470182299614,
+              0.9993500113487244
+            ],
+            "raw_length": 1.0000000194352654,
+            "converted_length": 0.9999999877012692,
+            "round4_vector_perturbation": 8.287604533612831e-05,
+            "raw_to_reproduced_conversion_vector_error": 6.603941465112546e-05,
+            "direction_vector_error": 6.603940679088782e-05,
+            "direction_angle_degrees": 0.003783779291352973,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1096,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_minimum": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_maximum": {
+            "loop_index": 2258,
+            "vertex_index": 3080,
+            "position_native": [
+              -0.02133811265230179,
+              -0.02133811265230179,
+              -0.38817572593688965
+            ],
+            "raw_normal_native": [
+              0.4984124004840851,
+              0.4984241724014282,
+              0.7093368172645569
+            ],
+            "rounded_normal_native": [
+              0.4984000027179718,
+              0.4984000027179718,
+              0.7092999815940857
+            ],
+            "converted_normal_native": [
+              0.4984220564365387,
+              0.4984220564365387,
+              0.7093313336372375
+            ],
+            "raw_length": 1.000000148458673,
+            "converted_length": 1.000000016782219,
+            "round4_vector_perturbation": 4.5768382340273e-05,
+            "raw_to_reproduced_conversion_vector_error": 1.130419805990306e-05,
+            "direction_vector_error": 1.1303430186324705e-05,
+            "direction_angle_degrees": 0.0006476388437027679,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1128,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 1129,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_distance_from_unit": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_vector_error": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_angle_degrees": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": "S543_1_halfshaft_bellows",
+      "reference_mesh_id": "mesh-00829",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "differing_material_records": [],
+      "fresh_legacy_record": {
+        "native_mesh_name": "S543_1_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "daab30462256939c479c937d6ce4afdc0b6bbd67790f832707de2a039475c7a6",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "c3dd5002adab0e579465fb4483ea3ed48506c7423df73372366d420d4097c319"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "run03_record": {
+        "native_mesh_name": "S543_1_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "ea2c627fd11c1f2b9f8fc7660d6edbdbe714d2270b540e5e8e8005d0f4b7f7e6",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "b19bafb548bc81c92d2adfc910f6411b0ec546a8e8391af9a3caa6df5395dc4d"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "statistics": {
+        "measurement": "Fresh read-only raw vectors, not recovered historical raw bytes",
+        "conversion_metric": "Native raw versus reproduced float32 round4/normalize/zero replacement before yup; not directly raw versus GLB",
+        "raw_length": {
+          "count": 12672,
+          "min": 0.7063049039932805,
+          "max": 1.000000148458673,
+          "mean": 0.9955503230209843,
+          "p50": 1.0,
+          "p95": 1.0000000702527154,
+          "p99": 1.0000001052567933
+        },
+        "round4_vector_perturbation": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 8.287604533612831e-05,
+          "mean": 4.7185252822547514e-05,
+          "p50": 5.0469673255206285e-05,
+          "p95": 7.250089806323542e-05,
+          "p99": 7.712042387077415e-05
+        },
+        "conversion_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "conversion_vector_error_triangle_used": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "direction_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 9.166152229931052e-05,
+          "mean": 3.27639583628586e-05,
+          "p50": 3.17269650087844e-05,
+          "p95": 6.522898892867351e-05,
+          "p99": 7.264012379375729e-05
+        },
+        "direction_angle_degrees": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.00525181837333352,
+          "mean": 0.0018772365345031078,
+          "p50": 0.0018178211918396065,
+          "p95": 0.003737345768181116,
+          "p99": 0.0041619725176049935
+        },
+        "direction_excluded_count": 0,
+        "triangle_used_loops": 12672,
+        "unused_loops": 0,
+        "raw_length_below_one": 6172,
+        "raw_length_above_one": 6184,
+        "unchanged_nonzero_conversion_error_limit": 0.0002,
+        "nonzero_conversion_error_exceeding_limit_count": 192,
+        "worst_corners": {
+          "conversion_vector_error": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "round4_perturbation": {
+            "loop_index": 2193,
+            "vertex_index": 2886,
+            "position_native": [
+              0.0341925323009491,
+              -0.009161860682070255,
+              -0.3880000114440918
+            ],
+            "raw_normal_native": [
+              0.03484787419438362,
+              -0.009353226982057095,
+              0.9993488788604736
+            ],
+            "rounded_normal_native": [
+              0.03480000048875809,
+              -0.009399999864399433,
+              0.9993000030517578
+            ],
+            "converted_normal_native": [
+              0.03480174392461777,
+              -0.009400470182299614,
+              0.9993500113487244
+            ],
+            "raw_length": 1.0000000194352654,
+            "converted_length": 0.9999999877012692,
+            "round4_vector_perturbation": 8.287604533612831e-05,
+            "raw_to_reproduced_conversion_vector_error": 6.603941465112546e-05,
+            "direction_vector_error": 6.603940679088782e-05,
+            "direction_angle_degrees": 0.003783779291352973,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1096,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_minimum": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_maximum": {
+            "loop_index": 2258,
+            "vertex_index": 3080,
+            "position_native": [
+              -0.02133811265230179,
+              -0.02133811265230179,
+              -0.38817572593688965
+            ],
+            "raw_normal_native": [
+              0.4984124004840851,
+              0.4984241724014282,
+              0.7093368172645569
+            ],
+            "rounded_normal_native": [
+              0.4984000027179718,
+              0.4984000027179718,
+              0.7092999815940857
+            ],
+            "converted_normal_native": [
+              0.4984220564365387,
+              0.4984220564365387,
+              0.7093313336372375
+            ],
+            "raw_length": 1.000000148458673,
+            "converted_length": 1.000000016782219,
+            "round4_vector_perturbation": 4.5768382340273e-05,
+            "raw_to_reproduced_conversion_vector_error": 1.130419805990306e-05,
+            "direction_vector_error": 1.1303430186324705e-05,
+            "direction_angle_degrees": 0.0006476388437027679,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1128,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 1129,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_distance_from_unit": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_vector_error": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_angle_degrees": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": "S543_2_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01075",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "differing_material_records": [],
+      "fresh_legacy_record": {
+        "native_mesh_name": "S543_2_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "db53fd1d11a967c9d8338ee9f42136eac6c2ffa8f5cb634cd01b58a648492291",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "1ef297329cfe831d171df9116752a633dbb4e6ba9aaeb4eacfa30965d55047af"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "run03_record": {
+        "native_mesh_name": "S543_2_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "a6ddc3cf79793fe9effed2b24edd8a24fe73c6d9a61b101ad9cafb0d06f5ebdd",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "98434944e1d9d3fc73ee76d353334506d467f5a37d5a6b4d658996fb62cd2076"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "statistics": {
+        "measurement": "Fresh read-only raw vectors, not recovered historical raw bytes",
+        "conversion_metric": "Native raw versus reproduced float32 round4/normalize/zero replacement before yup; not directly raw versus GLB",
+        "raw_length": {
+          "count": 12672,
+          "min": 0.7063049039932805,
+          "max": 1.000000148458673,
+          "mean": 0.9955503230209843,
+          "p50": 1.0,
+          "p95": 1.0000000702527154,
+          "p99": 1.0000001052567933
+        },
+        "round4_vector_perturbation": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 8.287604533612831e-05,
+          "mean": 4.7185252822547514e-05,
+          "p50": 5.0469673255206285e-05,
+          "p95": 7.250089806323542e-05,
+          "p99": 7.712042387077415e-05
+        },
+        "conversion_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "conversion_vector_error_triangle_used": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "direction_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 9.166152229931052e-05,
+          "mean": 3.27639583628586e-05,
+          "p50": 3.17269650087844e-05,
+          "p95": 6.522898892867351e-05,
+          "p99": 7.264012379375729e-05
+        },
+        "direction_angle_degrees": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.00525181837333352,
+          "mean": 0.0018772365345031078,
+          "p50": 0.0018178211918396065,
+          "p95": 0.003737345768181116,
+          "p99": 0.0041619725176049935
+        },
+        "direction_excluded_count": 0,
+        "triangle_used_loops": 12672,
+        "unused_loops": 0,
+        "raw_length_below_one": 6172,
+        "raw_length_above_one": 6184,
+        "unchanged_nonzero_conversion_error_limit": 0.0002,
+        "nonzero_conversion_error_exceeding_limit_count": 192,
+        "worst_corners": {
+          "conversion_vector_error": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "round4_perturbation": {
+            "loop_index": 2193,
+            "vertex_index": 2886,
+            "position_native": [
+              0.0341925323009491,
+              -0.009161860682070255,
+              -0.3880000114440918
+            ],
+            "raw_normal_native": [
+              0.03484787419438362,
+              -0.009353226982057095,
+              0.9993488788604736
+            ],
+            "rounded_normal_native": [
+              0.03480000048875809,
+              -0.009399999864399433,
+              0.9993000030517578
+            ],
+            "converted_normal_native": [
+              0.03480174392461777,
+              -0.009400470182299614,
+              0.9993500113487244
+            ],
+            "raw_length": 1.0000000194352654,
+            "converted_length": 0.9999999877012692,
+            "round4_vector_perturbation": 8.287604533612831e-05,
+            "raw_to_reproduced_conversion_vector_error": 6.603941465112546e-05,
+            "direction_vector_error": 6.603940679088782e-05,
+            "direction_angle_degrees": 0.003783779291352973,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1096,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_minimum": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_maximum": {
+            "loop_index": 2258,
+            "vertex_index": 3080,
+            "position_native": [
+              -0.02133811265230179,
+              -0.02133811265230179,
+              -0.38817572593688965
+            ],
+            "raw_normal_native": [
+              0.4984124004840851,
+              0.4984241724014282,
+              0.7093368172645569
+            ],
+            "rounded_normal_native": [
+              0.4984000027179718,
+              0.4984000027179718,
+              0.7092999815940857
+            ],
+            "converted_normal_native": [
+              0.4984220564365387,
+              0.4984220564365387,
+              0.7093313336372375
+            ],
+            "raw_length": 1.000000148458673,
+            "converted_length": 1.000000016782219,
+            "round4_vector_perturbation": 4.5768382340273e-05,
+            "raw_to_reproduced_conversion_vector_error": 1.130419805990306e-05,
+            "direction_vector_error": 1.1303430186324705e-05,
+            "direction_angle_degrees": 0.0006476388437027679,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1128,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 1129,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_distance_from_unit": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_vector_error": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_angle_degrees": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": "S543_3_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01321",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "differing_material_records": [],
+      "fresh_legacy_record": {
+        "native_mesh_name": "S543_3_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "907c288e545460dbf3aede4bb65214b928fe590352b939a4654455d289d34f30",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "17fe0df9262ff017e1765b99c22f2ef67011bcf91b98f018c50e3aadd80e83bf"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "run03_record": {
+        "native_mesh_name": "S543_3_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "1da539b3c1048978e805bd6e6a6b1f66362afd01daa8f1f9889972d6b049ce1c",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "0294088fcb7c00c9d7cd3e99776fc584c4fc5e7fbb428dbfd44d9f7092c32c78"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "statistics": {
+        "measurement": "Fresh read-only raw vectors, not recovered historical raw bytes",
+        "conversion_metric": "Native raw versus reproduced float32 round4/normalize/zero replacement before yup; not directly raw versus GLB",
+        "raw_length": {
+          "count": 12672,
+          "min": 0.7063049039932805,
+          "max": 1.000000148458673,
+          "mean": 0.9955503230209843,
+          "p50": 1.0,
+          "p95": 1.0000000702527154,
+          "p99": 1.0000001052567933
+        },
+        "round4_vector_perturbation": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 8.287604533612831e-05,
+          "mean": 4.7185252822547514e-05,
+          "p50": 5.0469673255206285e-05,
+          "p95": 7.250089806323542e-05,
+          "p99": 7.712042387077415e-05
+        },
+        "conversion_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "conversion_vector_error_triangle_used": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "direction_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 9.166152229931052e-05,
+          "mean": 3.27639583628586e-05,
+          "p50": 3.17269650087844e-05,
+          "p95": 6.522898892867351e-05,
+          "p99": 7.264012379375729e-05
+        },
+        "direction_angle_degrees": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.00525181837333352,
+          "mean": 0.0018772365345031078,
+          "p50": 0.0018178211918396065,
+          "p95": 0.003737345768181116,
+          "p99": 0.0041619725176049935
+        },
+        "direction_excluded_count": 0,
+        "triangle_used_loops": 12672,
+        "unused_loops": 0,
+        "raw_length_below_one": 6172,
+        "raw_length_above_one": 6184,
+        "unchanged_nonzero_conversion_error_limit": 0.0002,
+        "nonzero_conversion_error_exceeding_limit_count": 192,
+        "worst_corners": {
+          "conversion_vector_error": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "round4_perturbation": {
+            "loop_index": 2193,
+            "vertex_index": 2886,
+            "position_native": [
+              0.0341925323009491,
+              -0.009161860682070255,
+              -0.3880000114440918
+            ],
+            "raw_normal_native": [
+              0.03484787419438362,
+              -0.009353226982057095,
+              0.9993488788604736
+            ],
+            "rounded_normal_native": [
+              0.03480000048875809,
+              -0.009399999864399433,
+              0.9993000030517578
+            ],
+            "converted_normal_native": [
+              0.03480174392461777,
+              -0.009400470182299614,
+              0.9993500113487244
+            ],
+            "raw_length": 1.0000000194352654,
+            "converted_length": 0.9999999877012692,
+            "round4_vector_perturbation": 8.287604533612831e-05,
+            "raw_to_reproduced_conversion_vector_error": 6.603941465112546e-05,
+            "direction_vector_error": 6.603940679088782e-05,
+            "direction_angle_degrees": 0.003783779291352973,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1096,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_minimum": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_maximum": {
+            "loop_index": 2258,
+            "vertex_index": 3080,
+            "position_native": [
+              -0.02133811265230179,
+              -0.02133811265230179,
+              -0.38817572593688965
+            ],
+            "raw_normal_native": [
+              0.4984124004840851,
+              0.4984241724014282,
+              0.7093368172645569
+            ],
+            "rounded_normal_native": [
+              0.4984000027179718,
+              0.4984000027179718,
+              0.7092999815940857
+            ],
+            "converted_normal_native": [
+              0.4984220564365387,
+              0.4984220564365387,
+              0.7093313336372375
+            ],
+            "raw_length": 1.000000148458673,
+            "converted_length": 1.000000016782219,
+            "round4_vector_perturbation": 4.5768382340273e-05,
+            "raw_to_reproduced_conversion_vector_error": 1.130419805990306e-05,
+            "direction_vector_error": 1.1303430186324705e-05,
+            "direction_angle_degrees": 0.0006476388437027679,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1128,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 1129,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_distance_from_unit": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_vector_error": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_angle_degrees": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": "S543_4_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01567",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "differing_material_records": [],
+      "fresh_legacy_record": {
+        "native_mesh_name": "S543_4_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "21bddead2f02981f895fb0e3c39549b8fd38fcaeb0748646ce2893e95dd5ec1d",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "035044f1e83fb6644128c3fd333f28869109ad47d5b4f61ab6019fda03338010"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "run03_record": {
+        "native_mesh_name": "S543_4_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "34fe6e536032db3ff1403868bd46eb09edfdd96ed4012a251f107269cd1b3983",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "ebbaf8124df1265dd83ad6401c20e87b0e915fb4fabb834bb47ed44d9516568c"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "statistics": {
+        "measurement": "Fresh read-only raw vectors, not recovered historical raw bytes",
+        "conversion_metric": "Native raw versus reproduced float32 round4/normalize/zero replacement before yup; not directly raw versus GLB",
+        "raw_length": {
+          "count": 12672,
+          "min": 0.7063049039932805,
+          "max": 1.000000148458673,
+          "mean": 0.9955503230209843,
+          "p50": 1.0,
+          "p95": 1.0000000702527154,
+          "p99": 1.0000001052567933
+        },
+        "round4_vector_perturbation": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 8.287604533612831e-05,
+          "mean": 4.7185252822547514e-05,
+          "p50": 5.0469673255206285e-05,
+          "p95": 7.250089806323542e-05,
+          "p99": 7.712042387077415e-05
+        },
+        "conversion_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "conversion_vector_error_triangle_used": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "direction_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 9.166152229931052e-05,
+          "mean": 3.27639583628586e-05,
+          "p50": 3.17269650087844e-05,
+          "p95": 6.522898892867351e-05,
+          "p99": 7.264012379375729e-05
+        },
+        "direction_angle_degrees": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.00525181837333352,
+          "mean": 0.0018772365345031078,
+          "p50": 0.0018178211918396065,
+          "p95": 0.003737345768181116,
+          "p99": 0.0041619725176049935
+        },
+        "direction_excluded_count": 0,
+        "triangle_used_loops": 12672,
+        "unused_loops": 0,
+        "raw_length_below_one": 6172,
+        "raw_length_above_one": 6184,
+        "unchanged_nonzero_conversion_error_limit": 0.0002,
+        "nonzero_conversion_error_exceeding_limit_count": 192,
+        "worst_corners": {
+          "conversion_vector_error": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "round4_perturbation": {
+            "loop_index": 2193,
+            "vertex_index": 2886,
+            "position_native": [
+              0.0341925323009491,
+              -0.009161860682070255,
+              -0.3880000114440918
+            ],
+            "raw_normal_native": [
+              0.03484787419438362,
+              -0.009353226982057095,
+              0.9993488788604736
+            ],
+            "rounded_normal_native": [
+              0.03480000048875809,
+              -0.009399999864399433,
+              0.9993000030517578
+            ],
+            "converted_normal_native": [
+              0.03480174392461777,
+              -0.009400470182299614,
+              0.9993500113487244
+            ],
+            "raw_length": 1.0000000194352654,
+            "converted_length": 0.9999999877012692,
+            "round4_vector_perturbation": 8.287604533612831e-05,
+            "raw_to_reproduced_conversion_vector_error": 6.603941465112546e-05,
+            "direction_vector_error": 6.603940679088782e-05,
+            "direction_angle_degrees": 0.003783779291352973,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1096,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_minimum": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_maximum": {
+            "loop_index": 2258,
+            "vertex_index": 3080,
+            "position_native": [
+              -0.02133811265230179,
+              -0.02133811265230179,
+              -0.38817572593688965
+            ],
+            "raw_normal_native": [
+              0.4984124004840851,
+              0.4984241724014282,
+              0.7093368172645569
+            ],
+            "rounded_normal_native": [
+              0.4984000027179718,
+              0.4984000027179718,
+              0.7092999815940857
+            ],
+            "converted_normal_native": [
+              0.4984220564365387,
+              0.4984220564365387,
+              0.7093313336372375
+            ],
+            "raw_length": 1.000000148458673,
+            "converted_length": 1.000000016782219,
+            "round4_vector_perturbation": 4.5768382340273e-05,
+            "raw_to_reproduced_conversion_vector_error": 1.130419805990306e-05,
+            "direction_vector_error": 1.1303430186324705e-05,
+            "direction_angle_degrees": 0.0006476388437027679,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1128,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 1129,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_distance_from_unit": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_vector_error": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_angle_degrees": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": "S543_5_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01780",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "differing_material_records": [],
+      "fresh_legacy_record": {
+        "native_mesh_name": "S543_5_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "d4aa0297f63d865083679ea86c2be2ab304398d686ea58c916aa6ffc6c997384",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "7bcc3b180e637485f639d27b146ed3ded5246f2f45d7fda34efe51d4be1c4388"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "run03_record": {
+        "native_mesh_name": "S543_5_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "f58ab49d0a3ebed1a90d2b6ac6a4d8102128f24f8541046f89e50a20688dd6e5",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "0fa1b974c7e62864b1423f8d10a0a0536230f6c1da85c44e42399130d0ca5cbe"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "statistics": {
+        "measurement": "Fresh read-only raw vectors, not recovered historical raw bytes",
+        "conversion_metric": "Native raw versus reproduced float32 round4/normalize/zero replacement before yup; not directly raw versus GLB",
+        "raw_length": {
+          "count": 12672,
+          "min": 0.7063049039932805,
+          "max": 1.000000148458673,
+          "mean": 0.9955503230209843,
+          "p50": 1.0,
+          "p95": 1.0000000702527154,
+          "p99": 1.0000001052567933
+        },
+        "round4_vector_perturbation": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 8.287604533612831e-05,
+          "mean": 4.7185252822547514e-05,
+          "p50": 5.0469673255206285e-05,
+          "p95": 7.250089806323542e-05,
+          "p99": 7.712042387077415e-05
+        },
+        "conversion_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "conversion_vector_error_triangle_used": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "direction_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 9.166152229931052e-05,
+          "mean": 3.27639583628586e-05,
+          "p50": 3.17269650087844e-05,
+          "p95": 6.522898892867351e-05,
+          "p99": 7.264012379375729e-05
+        },
+        "direction_angle_degrees": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.00525181837333352,
+          "mean": 0.0018772365345031078,
+          "p50": 0.0018178211918396065,
+          "p95": 0.003737345768181116,
+          "p99": 0.0041619725176049935
+        },
+        "direction_excluded_count": 0,
+        "triangle_used_loops": 12672,
+        "unused_loops": 0,
+        "raw_length_below_one": 6172,
+        "raw_length_above_one": 6184,
+        "unchanged_nonzero_conversion_error_limit": 0.0002,
+        "nonzero_conversion_error_exceeding_limit_count": 192,
+        "worst_corners": {
+          "conversion_vector_error": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "round4_perturbation": {
+            "loop_index": 2193,
+            "vertex_index": 2886,
+            "position_native": [
+              0.0341925323009491,
+              -0.009161860682070255,
+              -0.3880000114440918
+            ],
+            "raw_normal_native": [
+              0.03484787419438362,
+              -0.009353226982057095,
+              0.9993488788604736
+            ],
+            "rounded_normal_native": [
+              0.03480000048875809,
+              -0.009399999864399433,
+              0.9993000030517578
+            ],
+            "converted_normal_native": [
+              0.03480174392461777,
+              -0.009400470182299614,
+              0.9993500113487244
+            ],
+            "raw_length": 1.0000000194352654,
+            "converted_length": 0.9999999877012692,
+            "round4_vector_perturbation": 8.287604533612831e-05,
+            "raw_to_reproduced_conversion_vector_error": 6.603941465112546e-05,
+            "direction_vector_error": 6.603940679088782e-05,
+            "direction_angle_degrees": 0.003783779291352973,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1096,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_minimum": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_maximum": {
+            "loop_index": 2258,
+            "vertex_index": 3080,
+            "position_native": [
+              -0.02133811265230179,
+              -0.02133811265230179,
+              -0.38817572593688965
+            ],
+            "raw_normal_native": [
+              0.4984124004840851,
+              0.4984241724014282,
+              0.7093368172645569
+            ],
+            "rounded_normal_native": [
+              0.4984000027179718,
+              0.4984000027179718,
+              0.7092999815940857
+            ],
+            "converted_normal_native": [
+              0.4984220564365387,
+              0.4984220564365387,
+              0.7093313336372375
+            ],
+            "raw_length": 1.000000148458673,
+            "converted_length": 1.000000016782219,
+            "round4_vector_perturbation": 4.5768382340273e-05,
+            "raw_to_reproduced_conversion_vector_error": 1.130419805990306e-05,
+            "direction_vector_error": 1.1303430186324705e-05,
+            "direction_angle_degrees": 0.0006476388437027679,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1128,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 1129,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_distance_from_unit": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_vector_error": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_angle_degrees": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": "S543_6_halfshaft_bellows",
+      "reference_mesh_id": "mesh-01993",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "differing_material_records": [],
+      "fresh_legacy_record": {
+        "native_mesh_name": "S543_6_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "375615ead834d9d21c4998472ce2a7d28a6187510e695fc118677a2847d4e14d",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "e900004502ca4dee5678d98d73975cf889e886d02c1553e902425570953358d7"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "run03_record": {
+        "native_mesh_name": "S543_6_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "0139bcda2ce569283cbdb26df4a7a3e33351ae1ce43f8660adfa348c73cc7f81",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "5b1612dfa49ede6b34324c99fee0ce566ce0623d017e8d12c87a6c52362d10d3"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "statistics": {
+        "measurement": "Fresh read-only raw vectors, not recovered historical raw bytes",
+        "conversion_metric": "Native raw versus reproduced float32 round4/normalize/zero replacement before yup; not directly raw versus GLB",
+        "raw_length": {
+          "count": 12672,
+          "min": 0.7063049039932805,
+          "max": 1.000000148458673,
+          "mean": 0.9955503230209843,
+          "p50": 1.0,
+          "p95": 1.0000000702527154,
+          "p99": 1.0000001052567933
+        },
+        "round4_vector_perturbation": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 8.287604533612831e-05,
+          "mean": 4.7185252822547514e-05,
+          "p50": 5.0469673255206285e-05,
+          "p95": 7.250089806323542e-05,
+          "p99": 7.712042387077415e-05
+        },
+        "conversion_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "conversion_vector_error_triangle_used": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "direction_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 9.166152229931052e-05,
+          "mean": 3.27639583628586e-05,
+          "p50": 3.17269650087844e-05,
+          "p95": 6.522898892867351e-05,
+          "p99": 7.264012379375729e-05
+        },
+        "direction_angle_degrees": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.00525181837333352,
+          "mean": 0.0018772365345031078,
+          "p50": 0.0018178211918396065,
+          "p95": 0.003737345768181116,
+          "p99": 0.0041619725176049935
+        },
+        "direction_excluded_count": 0,
+        "triangle_used_loops": 12672,
+        "unused_loops": 0,
+        "raw_length_below_one": 6172,
+        "raw_length_above_one": 6184,
+        "unchanged_nonzero_conversion_error_limit": 0.0002,
+        "nonzero_conversion_error_exceeding_limit_count": 192,
+        "worst_corners": {
+          "conversion_vector_error": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "round4_perturbation": {
+            "loop_index": 2193,
+            "vertex_index": 2886,
+            "position_native": [
+              0.0341925323009491,
+              -0.009161860682070255,
+              -0.3880000114440918
+            ],
+            "raw_normal_native": [
+              0.03484787419438362,
+              -0.009353226982057095,
+              0.9993488788604736
+            ],
+            "rounded_normal_native": [
+              0.03480000048875809,
+              -0.009399999864399433,
+              0.9993000030517578
+            ],
+            "converted_normal_native": [
+              0.03480174392461777,
+              -0.009400470182299614,
+              0.9993500113487244
+            ],
+            "raw_length": 1.0000000194352654,
+            "converted_length": 0.9999999877012692,
+            "round4_vector_perturbation": 8.287604533612831e-05,
+            "raw_to_reproduced_conversion_vector_error": 6.603941465112546e-05,
+            "direction_vector_error": 6.603940679088782e-05,
+            "direction_angle_degrees": 0.003783779291352973,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1096,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_minimum": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_maximum": {
+            "loop_index": 2258,
+            "vertex_index": 3080,
+            "position_native": [
+              -0.02133811265230179,
+              -0.02133811265230179,
+              -0.38817572593688965
+            ],
+            "raw_normal_native": [
+              0.4984124004840851,
+              0.4984241724014282,
+              0.7093368172645569
+            ],
+            "rounded_normal_native": [
+              0.4984000027179718,
+              0.4984000027179718,
+              0.7092999815940857
+            ],
+            "converted_normal_native": [
+              0.4984220564365387,
+              0.4984220564365387,
+              0.7093313336372375
+            ],
+            "raw_length": 1.000000148458673,
+            "converted_length": 1.000000016782219,
+            "round4_vector_perturbation": 4.5768382340273e-05,
+            "raw_to_reproduced_conversion_vector_error": 1.130419805990306e-05,
+            "direction_vector_error": 1.1303430186324705e-05,
+            "direction_angle_degrees": 0.0006476388437027679,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1128,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 1129,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_distance_from_unit": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_vector_error": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_angle_degrees": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "object": "S543_7_halfshaft_bellows",
+      "reference_mesh_id": "mesh-02206",
+      "correspondence": "FRESH_NOT_CORRESPONDING_RUN03",
+      "differing_fields": [
+        "parts"
+      ],
+      "differing_material_records": [],
+      "fresh_legacy_record": {
+        "native_mesh_name": "S543_7_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "bcb77011b5c2f2fd980f0d3f177ffded2d224f6b7cea6079fcb3391c0e492b59",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "ab5a26b97f395e70c42097062fb123a2f93c170ea660b472569e9334d3d4c21c"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "run03_record": {
+        "native_mesh_name": "S543_7_halfshaft_bellows_mesh",
+        "vertices": 3168,
+        "loops": 12672,
+        "parts": [
+          {
+            "material_name": "S543_rubber",
+            "source_material_slot": 0,
+            "signature": {
+              "triangles": 6336,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ],
+              "signatures": {
+                "all": "4c0c4c8538bfa9adea7d5c86168a14bb1e220d6a2ba6f3be3f7400253fa9fe6a",
+                "NORMAL": "114f0722e7e3bc765b07c250cedfa8f35f43806317ad07567f2f47793169da03",
+                "POSITION": "5ca59a16ef2900b81d6cd50d31beeb32e242ffc18bede6f21f29362476e7ded9",
+                "TEXCOORD_0": "f01753afd08d2327fef3c9ed21c8b72caffbe87c7dd721f5ff07424549e92ccf"
+              }
+            }
+          }
+        ],
+        "triangles": 6336,
+        "uv_layers": [
+          {
+            "index": 0,
+            "name": "MetricUV",
+            "active": true,
+            "active_render": true
+          }
+        ],
+        "bounds": [
+          [
+            -0.043734367936849594,
+            -0.5344000458717346,
+            -0.043734367936849594
+          ],
+          [
+            0.043734367936849594,
+            -0.3880000114440918,
+            0.043734367936849594
+          ]
+        ],
+        "raw_normal_zero_count": 0,
+        "rounded_normal_zero_count": 0,
+        "raw_to_official_normal_max_vector_error": 0.2936951594677212,
+        "raw_to_official_normal_max_nonzero_error": 0.2936951594677212,
+        "normal_rule": "float32 round4, normalize, replace exact0 with native+Z, swizzle(x,z,-y)",
+        "loose_edges_omitted": 0,
+        "unused_vertices_omitted": 0,
+        "tangents": "Explicitly omitted; native/generated tangent equivalence remains unqualified"
+      },
+      "statistics": {
+        "measurement": "Fresh read-only raw vectors, not recovered historical raw bytes",
+        "conversion_metric": "Native raw versus reproduced float32 round4/normalize/zero replacement before yup; not directly raw versus GLB",
+        "raw_length": {
+          "count": 12672,
+          "min": 0.7063049039932805,
+          "max": 1.000000148458673,
+          "mean": 0.9955503230209843,
+          "p50": 1.0,
+          "p95": 1.0000000702527154,
+          "p99": 1.0000001052567933
+        },
+        "round4_vector_perturbation": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 8.287604533612831e-05,
+          "mean": 4.7185252822547514e-05,
+          "p50": 5.0469673255206285e-05,
+          "p95": 7.250089806323542e-05,
+          "p99": 7.712042387077415e-05
+        },
+        "conversion_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "conversion_vector_error_triangle_used": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.2936951594677212,
+          "mean": 0.004481674085857397,
+          "p50": 3.205280765502947e-05,
+          "p95": 6.688159198503261e-05,
+          "p99": 0.29367592809196796
+        },
+        "direction_vector_error": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 9.166152229931052e-05,
+          "mean": 3.27639583628586e-05,
+          "p50": 3.17269650087844e-05,
+          "p95": 6.522898892867351e-05,
+          "p99": 7.264012379375729e-05
+        },
+        "direction_angle_degrees": {
+          "count": 12672,
+          "min": 0.0,
+          "max": 0.00525181837333352,
+          "mean": 0.0018772365345031078,
+          "p50": 0.0018178211918396065,
+          "p95": 0.003737345768181116,
+          "p99": 0.0041619725176049935
+        },
+        "direction_excluded_count": 0,
+        "triangle_used_loops": 12672,
+        "unused_loops": 0,
+        "raw_length_below_one": 6172,
+        "raw_length_above_one": 6184,
+        "unchanged_nonzero_conversion_error_limit": 0.0002,
+        "nonzero_conversion_error_exceeding_limit_count": 192,
+        "worst_corners": {
+          "conversion_vector_error": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "round4_perturbation": {
+            "loop_index": 2193,
+            "vertex_index": 2886,
+            "position_native": [
+              0.0341925323009491,
+              -0.009161860682070255,
+              -0.3880000114440918
+            ],
+            "raw_normal_native": [
+              0.03484787419438362,
+              -0.009353226982057095,
+              0.9993488788604736
+            ],
+            "rounded_normal_native": [
+              0.03480000048875809,
+              -0.009399999864399433,
+              0.9993000030517578
+            ],
+            "converted_normal_native": [
+              0.03480174392461777,
+              -0.009400470182299614,
+              0.9993500113487244
+            ],
+            "raw_length": 1.0000000194352654,
+            "converted_length": 0.9999999877012692,
+            "round4_vector_perturbation": 8.287604533612831e-05,
+            "raw_to_reproduced_conversion_vector_error": 6.603941465112546e-05,
+            "direction_vector_error": 6.603940679088782e-05,
+            "direction_angle_degrees": 0.003783779291352973,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1096,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_minimum": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_maximum": {
+            "loop_index": 2258,
+            "vertex_index": 3080,
+            "position_native": [
+              -0.02133811265230179,
+              -0.02133811265230179,
+              -0.38817572593688965
+            ],
+            "raw_normal_native": [
+              0.4984124004840851,
+              0.4984241724014282,
+              0.7093368172645569
+            ],
+            "rounded_normal_native": [
+              0.4984000027179718,
+              0.4984000027179718,
+              0.7092999815940857
+            ],
+            "converted_normal_native": [
+              0.4984220564365387,
+              0.4984220564365387,
+              0.7093313336372375
+            ],
+            "raw_length": 1.000000148458673,
+            "converted_length": 1.000000016782219,
+            "round4_vector_perturbation": 4.5768382340273e-05,
+            "raw_to_reproduced_conversion_vector_error": 1.130419805990306e-05,
+            "direction_vector_error": 1.1303430186324705e-05,
+            "direction_angle_degrees": 0.0006476388437027679,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 1128,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              },
+              {
+                "triangle_index": 1129,
+                "corner_in_triangle": 1,
+                "material_slot": 0
+              }
+            ]
+          },
+          "raw_length_distance_from_unit": {
+            "loop_index": 23,
+            "vertex_index": 24,
+            "position_native": [
+              0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              -0.24944867193698883,
+              0.4320579171180725,
+              0.49996793270111084
+            ],
+            "rounded_normal_native": [
+              -0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              -0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063049039932805,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.188607427802025e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936951594677212,
+            "direction_vector_error": 9.165253034722308e-05,
+            "direction_angle_degrees": 0.005251303172427886,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 11,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_vector_error": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          },
+          "direction_angle_degrees": {
+            "loop_index": 39,
+            "vertex_index": 48,
+            "position_native": [
+              -0.014999999664723873,
+              -0.025980761274695396,
+              -0.5344000458717346
+            ],
+            "raw_normal_native": [
+              0.2494487166404724,
+              0.4320579767227173,
+              0.499968022108078
+            ],
+            "rounded_normal_native": [
+              0.24940000474452972,
+              0.43209999799728394,
+              0.5
+            ],
+            "converted_normal_native": [
+              0.35308969020843506,
+              0.6117483973503113,
+              0.7078782916069031
+            ],
+            "raw_length": 0.7063050195304932,
+            "converted_length": 1.000000053360234,
+            "round4_vector_perturbation": 7.184164456853703e-05,
+            "raw_to_reproduced_conversion_vector_error": 0.2936950439324962,
+            "direction_vector_error": 9.166152229931052e-05,
+            "direction_angle_degrees": 0.00525181837333352,
+            "direction_is_defined_nonzero": true,
+            "used_by_triangle": true,
+            "triangle_memberships": [
+              {
+                "triangle_index": 19,
+                "corner_in_triangle": 2,
+                "material_slot": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "signed_zero_comparison": {
+    "status": "NOT_RUN_OLD_REFERENCE_MISMATCH"
+  },
+  "limits": [
+    "Fresh raw vectors are a new measurement, not reconstructed missing run-03 raw bytes. Even matching converted signatures and scalar records does not invert lossy rounding/normalization.",
+    "Only ten named targets; no inference for the other 2364 unique meshes.",
+    "Original raw-vector FAIL, 2e-4 threshold, 2299 issues, old references, generic decoder and all 16 OPEN remain unchanged.",
+    "NORMAL/TEXCOORD corner zero canonicalization is a separate expected-data experiment after all ten legacy records and material records match exactly. POSITION bytes and generic oriented_signature remain unchanged.",
+    "No frame_set, save, export, render, mesh.validate, model edits, browser, production-default changes or acceptance claim."
+  ],
+  "unchanged_qualification": {
+    "transport": "FAIL_STATIC_NATIVE_TRANSPORT",
+    "issues": 2299,
+    "normal_nonzero_vector_error_limit": 0.0002,
+    "whole_vehicle": "ALL_16_OPEN",
+    "browser_qa": "NOT_RUN"
+  }
+}

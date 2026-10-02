@@ -1,0 +1,43 @@
+CAPTURE_STAGE {"stage": "VERIFY_PINNED_INPUTS", "target": null, "elapsed_seconds": 2.0029983716085553e-06, "utc": "2026-10-02T21:55:53Z"}
+CAPTURE_STAGE {"stage": "OPEN_PINNED_SAVED_SOURCE", "target": null, "elapsed_seconds": 0.32585495300008915, "utc": "2026-10-02T21:55:53Z"}
+CAPTURE_STAGE {"stage": "GUARD_BEFORE", "target": null, "elapsed_seconds": 8.417397537996294, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "GET_DEPSGRAPH", "target": null, "elapsed_seconds": 8.477635492992704, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "EVALUATE_TARGET", "target": "BL_Front_mirror_face_-1", "elapsed_seconds": 8.47792740399018, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "CAPTURE_TARGET_ARRAYS", "target": "BL_Front_mirror_face_-1", "elapsed_seconds": 8.48068089899607, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "EVALUATE_TARGET", "target": "BL_Front_mirror_face_1", "elapsed_seconds": 8.493664587993408, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "CAPTURE_TARGET_ARRAYS", "target": "BL_Front_mirror_face_1", "elapsed_seconds": 8.497111345990561, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "EVALUATE_TARGET", "target": "S543_0_halfshaft_bellows", "elapsed_seconds": 8.50983489099599, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "CAPTURE_TARGET_ARRAYS", "target": "S543_0_halfshaft_bellows", "elapsed_seconds": 8.533756213000743, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "EVALUATE_TARGET", "target": "S543_1_halfshaft_bellows", "elapsed_seconds": 8.655559000995709, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "CAPTURE_TARGET_ARRAYS", "target": "S543_1_halfshaft_bellows", "elapsed_seconds": 8.670098341986886, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "EVALUATE_TARGET", "target": "S543_2_halfshaft_bellows", "elapsed_seconds": 8.78232551299152, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "CAPTURE_TARGET_ARRAYS", "target": "S543_2_halfshaft_bellows", "elapsed_seconds": 8.801727417987422, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "EVALUATE_TARGET", "target": "S543_3_halfshaft_bellows", "elapsed_seconds": 8.926513099999283, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "CAPTURE_TARGET_ARRAYS", "target": "S543_3_halfshaft_bellows", "elapsed_seconds": 8.940379711988498, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "EVALUATE_TARGET", "target": "S543_4_halfshaft_bellows", "elapsed_seconds": 9.057194525987143, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "CAPTURE_TARGET_ARRAYS", "target": "S543_4_halfshaft_bellows", "elapsed_seconds": 9.070411839988083, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "EVALUATE_TARGET", "target": "S543_5_halfshaft_bellows", "elapsed_seconds": 9.185191338998266, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "CAPTURE_TARGET_ARRAYS", "target": "S543_5_halfshaft_bellows", "elapsed_seconds": 9.201095869997516, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "EVALUATE_TARGET", "target": "S543_6_halfshaft_bellows", "elapsed_seconds": 9.291014484988409, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "CAPTURE_TARGET_ARRAYS", "target": "S543_6_halfshaft_bellows", "elapsed_seconds": 9.305332272997475, "utc": "2026-10-02T21:56:02Z"}
+CAPTURE_STAGE {"stage": "EVALUATE_TARGET", "target": "S543_7_halfshaft_bellows", "elapsed_seconds": 9.440071801000158, "utc": "2026-10-02T21:56:03Z"}
+CAPTURE_STAGE {"stage": "CAPTURE_TARGET_ARRAYS", "target": "S543_7_halfshaft_bellows", "elapsed_seconds": 9.45936316299776, "utc": "2026-10-02T21:56:03Z"}
+CAPTURE_STAGE {"stage": "REPLAY_SAVED_ARRAYS", "target": null, "elapsed_seconds": 9.58582880499307, "utc": "2026-10-02T21:56:03Z"}
+CAPTURE_STAGE {"stage": "REPLAY_OLD_REFERENCE", "target": "BL_Front_mirror_face_-1", "elapsed_seconds": 9.906068791999132, "utc": "2026-10-02T21:56:03Z"}
+CAPTURE_STAGE {"stage": "REPLAY_OLD_REFERENCE", "target": "BL_Front_mirror_face_1", "elapsed_seconds": 9.91845734299568, "utc": "2026-10-02T21:56:03Z"}
+CAPTURE_STAGE {"stage": "REPLAY_OLD_REFERENCE", "target": "S543_0_halfshaft_bellows", "elapsed_seconds": 9.930327457987005, "utc": "2026-10-02T21:56:03Z"}
+CAPTURE_STAGE {"stage": "REPLAY_OLD_REFERENCE", "target": "S543_1_halfshaft_bellows", "elapsed_seconds": 10.047604954990675, "utc": "2026-10-02T21:56:03Z"}
+CAPTURE_STAGE {"stage": "REPLAY_OLD_REFERENCE", "target": "S543_2_halfshaft_bellows", "elapsed_seconds": 10.130753713994636, "utc": "2026-10-02T21:56:03Z"}
+CAPTURE_STAGE {"stage": "REPLAY_OLD_REFERENCE", "target": "S543_3_halfshaft_bellows", "elapsed_seconds": 10.213293504988542, "utc": "2026-10-02T21:56:03Z"}
+CAPTURE_STAGE {"stage": "REPLAY_OLD_REFERENCE", "target": "S543_4_halfshaft_bellows", "elapsed_seconds": 10.351999603997683, "utc": "2026-10-02T21:56:03Z"}
+CAPTURE_STAGE {"stage": "REPLAY_OLD_REFERENCE", "target": "S543_5_halfshaft_bellows", "elapsed_seconds": 10.437002400998608, "utc": "2026-10-02T21:56:04Z"}
+CAPTURE_STAGE {"stage": "REPLAY_OLD_REFERENCE", "target": "S543_6_halfshaft_bellows", "elapsed_seconds": 10.588881082992884, "utc": "2026-10-02T21:56:04Z"}
+CAPTURE_STAGE {"stage": "REPLAY_OLD_REFERENCE", "target": "S543_7_halfshaft_bellows", "elapsed_seconds": 10.675901347989566, "utc": "2026-10-02T21:56:04Z"}
+CAPTURE_STAGE {"stage": "GUARD_AFTER", "target": null, "elapsed_seconds": 10.788161126998602, "utc": "2026-10-02T21:56:04Z"}
+CAPTURE_STAGE {"stage": "VERIFY_INPUTS_AFTER", "target": null, "elapsed_seconds": 10.842114181999932, "utc": "2026-10-02T21:56:04Z"}
+CAPTURE_STAGE {"stage": "CAPTURE_COMPLETE_GUARDS_PASS", "target": null, "elapsed_seconds": 11.1398601809924, "utc": "2026-10-02T21:56:04Z"}
+{"status": "CAPTURE_COMPLETE_GUARDS_PASS", "correspondence": "FRESH_NOT_CORRESPONDING_RUN03", "signed_zero_comparison": "NOT_RUN_OLD_REFERENCE_MISMATCH"}
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend"
+
+Blender quit
