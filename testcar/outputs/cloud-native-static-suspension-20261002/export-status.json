@@ -1,0 +1,17 @@
+{
+  "status": "EXPORTED_UNACCEPTED_TRANSPORT_CHECK_FAILED",
+  "glb_bytes": 134267928,
+  "glb_sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d",
+  "native_exit_code": 0,
+  "native_seconds": 98.28009441100585,
+  "native_source_memory_preserved": true,
+  "native_inputs_unchanged": true,
+  "decode_exit_code": 1,
+  "decode_seconds": 14.183065003002412,
+  "decode_status": "FAIL_STATIC_NATIVE_TRANSPORT",
+  "decoded_nodes": 2675,
+  "issues_count": 2299,
+  "max_world_displacement_m": 4.412036031232553e-07,
+  "native_mesh_references": 2374,
+  "all16_vehicle_gates": "OPEN"
+}

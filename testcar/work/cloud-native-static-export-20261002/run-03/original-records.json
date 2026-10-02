@@ -1,0 +1,88 @@
+{
+  "schema": "MAZ_STATIC_EXPORT_RUN03_ORIGINALS_V1",
+  "records": [
+    {
+      "path": "child-started.json",
+      "bytes": 90,
+      "sha256": "1cb4684262886ea7a7339895f0077aa75cda4ea0e8bc394ffc20f0d2fe7b7b0e",
+      "storage": "exact original text at this path"
+    },
+    {
+      "path": "decode.log",
+      "bytes": 186049,
+      "sha256": "7d8644d1de3e9624c4c768187dd59e8b1fea2aaaae3c587cd01e7f42811d9c66",
+      "storage": "exact original text at this path"
+    },
+    {
+      "path": "heartbeat.jsonl",
+      "bytes": 19000,
+      "sha256": "4aea6f21749ec68619d7e6d58137ca8f81ae3f22f3d027e796b4d4868a92828d",
+      "storage": "exact original text at this path"
+    },
+    {
+      "path": "launch.json",
+      "bytes": 46446,
+      "sha256": "b226c46a42e9800d19de3ff1979ed06604cb71fd1a2afc0441c47ac21df0262a",
+      "storage": "exact original text at this path"
+    },
+    {
+      "path": "native/decoded-validation.json",
+      "bytes": 3214594,
+      "sha256": "af8ecb81dc460a3724039cbace7f0b46615b23bc3d37b57ee8fa881199114a39",
+      "storage": "exact original text at this path"
+    },
+    {
+      "path": "native/native-references.json",
+      "bytes": 4878654,
+      "sha256": "32901de5c6e092bada794ff49e5f469f61e3fbe1955d7f3f921025016b288b53",
+      "storage": "exact original text at this path"
+    },
+    {
+      "path": "native/native-report.json",
+      "bytes": 651,
+      "sha256": "57b1f25f4299f9f484cf904d8a3474061c47554ab64589e232834c1808751ed0",
+      "storage": "exact original text at this path"
+    },
+    {
+      "path": "native/native-static.glb",
+      "bytes": 134267928,
+      "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d",
+      "canonical_manifest": "testcar/outputs/cloud-native-static-suspension-20261002/manifest.json"
+    },
+    {
+      "path": "native/protection-after.json",
+      "bytes": 1380342,
+      "sha256": "fbce4fe01181f405cf8e8bd04428c0bbbd311c840a179aaa2e57845cda586f71",
+      "storage": "exact original text at this path"
+    },
+    {
+      "path": "native/protection-before.json",
+      "bytes": 1380230,
+      "sha256": "39d6260acb347f1a223a6e8f371cef9514743a1f02160171480e0e6c1335a383",
+      "storage": "exact original text at this path"
+    },
+    {
+      "path": "native/static-preflight.json",
+      "bytes": 3171091,
+      "sha256": "5a0cb56dde276b25dcdb36240c926623c66576f3b1b420e2026f2e5ba9ccd5e5",
+      "storage": "exact original text at this path"
+    },
+    {
+      "path": "process.json",
+      "bytes": 140331,
+      "sha256": "fd30e718a803097157f8cf7a9054eda97e2ba19009b86299ab6a9a372ab28c57",
+      "storage": "exact original text at this path"
+    },
+    {
+      "path": "run.log",
+      "bytes": 260517,
+      "sha256": "b9f23f5417c9a5a9cb33236dee5560347b2dbf2df6544c8137ad9763d8383c70",
+      "storage": "exact original text at this path"
+    }
+  ],
+  "original_file_count": 13,
+  "original_bytes": 148945923,
+  "native_source_preserved": true,
+  "transport_qualification": "FAIL_STATIC_NATIVE_TRANSPORT",
+  "no_screenshot_produced": true
+}
