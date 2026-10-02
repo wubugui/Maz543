@@ -1,0 +1,234 @@
+{
+  "date_utc": "2026-10-02",
+  "status": "BOUNDED_SEARCH_NO_NEW_ACCEPTED_1977A_STEP_MOUNT_DATUM",
+  "repository_head_at_start": "a2f73cbeca5b325b7da49a8681109748a89dd322",
+  "repository_state_at_start": "Clean; exact full SHA recorded below",
+  "scope": "Read-only source investigation. No model/job/repository mutation, external messages, uploads or software installation.",
+  "handbook": {
+    "title": "Колесное шасси МАЗ-543 и его модификации. Техническое описание и инструкция по эксплуатации",
+    "edition": 3,
+    "year": 1977,
+    "public_source": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+    "input_sha256": "cf8ebb65dcbfca6dd3b6c55a3174cfe9d628a206cb8c846eceee0041a2bb1bde",
+    "input_bytes": 11405399,
+    "source_unchanged": true,
+    "decoder": "Previously authorized official DjVuLibre 3.5.28-2.2 workspace installation; no new install",
+    "decoder_sha256": "c34f662cf6ac7d52fa14f296c0095ab78783cf7f09c29d106e2629c0c0c53a7a",
+    "newly_inspected_pages": [
+      {
+        "scan_unit_1based": 185,
+        "pixels": [
+          3336,
+          4397
+        ],
+        "ppm_sha256": "236d9b768464b01eeb99f64c916367ea43a4747941128ded50891124185bc4fd",
+        "png_sha256": "d3d4e059f4ff232ceaac75e3fc994c9b967573e5ade758524d52add2a690bac1",
+        "printed_pages": [
+          366,
+          367
+        ],
+        "locator": "Maintenance rows 49-55; chassis/cabs heading starts at row 50",
+        "pixels_inspected": true
+      },
+      {
+        "scan_unit_1based": 186,
+        "pixels": [
+          3336,
+          4397
+        ],
+        "ppm_sha256": "4fa49ff2176cf694d4d4f06df1c98d9c9be38d2fb4780030a94e81ada69019fa",
+        "png_sha256": "1135f7a58cb27b2b2f127952b112758c8513d2ca7d5db5091e9050883e12d015",
+        "printed_pages": [
+          368,
+          369
+        ],
+        "locator": "Maintenance rows 56-61",
+        "pixels_inspected": true
+      },
+      {
+        "scan_unit_1based": 187,
+        "pixels": [
+          3336,
+          4397
+        ],
+        "ppm_sha256": "4fa09dcf8c700cda2145e25dfe2d619520689d6fac5d932b7637cffbb3386769",
+        "png_sha256": "c70a9a67ad560a2601e459694de3a61bf4c8a4a600a6426afe81f3d3addff130",
+        "printed_pages": [
+          370,
+          371
+        ],
+        "locator": "Maintenance rows 62-67; chassis/cab section ends at row 63",
+        "pixels_inspected": true
+      },
+      {
+        "scan_unit_1based": 235,
+        "pixels": [
+          4397,
+          3336
+        ],
+        "ppm_sha256": "2b569daadc769d40d8f5f6aafea8ba7a48aeb2da9c0d07e94b81f56f631d6afd",
+        "png_sha256": "0d4d43ef20f7a57de4a9b74d0b36f080fb23c38398b1b9c0b723c97684c2845e",
+        "printed_pages": [
+          468,
+          469
+        ],
+        "locator": "Contents: cab/bodywork chapter and start of operating-adjustment chapter",
+        "pixels_inspected": true
+      },
+      {
+        "scan_unit_1based": 236,
+        "pixels": [
+          4397,
+          3336
+        ],
+        "ppm_sha256": "74b96a0d83b389a8da6250362ec88b00d2d030d12982a1abb228ccd1e2790e75",
+        "png_sha256": "df469a18baeb7b25e9f9b148dd35fb9d11e89dad0c1c17d3ecc0f39e82c56a7e",
+        "printed_pages": [
+          470,
+          471
+        ],
+        "locator": "Contents: remainder of operating adjustments, maintenance and appendices",
+        "pixels_inspected": true
+      }
+    ],
+    "findings": [
+      "Contents pp468-471 identifies cab description at p170, heater p172, bodywork p173 and steering starting p178. No separately named lower-step assembly/repair subsection appears in these inspected contents pages.",
+      "The maintenance table has a chassis/cabs section at rows 50-63, spanning pp366-370. It covers wheels/tires, suspension/frame, special-body supports, sun visor and wipers. These inspected rows do not specify lower-step mounting, a step part number, support section/material, hidden hardpoint, rear endpoint or wheel clearance.",
+      "Row 62 concerns special-body support nuts for 543A/543V/543M. It is not a lower-step support instruction and its listed wrench sizes must not be adopted for the step.",
+      "No new lower-step geometry or support material was established. The previously inspected pp170-177 and figure 2 were not re-decoded or re-reviewed in this pass."
+    ],
+    "ocr_screening": {
+      "source": "Existing full-book OCR, used for navigation only",
+      "case_insensitive_substring_counts": {
+        "поднож": 0,
+        "ступеньк": 0,
+        "ножк": 0,
+        "ступень": 6,
+        "ступени": 9,
+        "кабин": 249,
+        "оперен": 8,
+        "трос": 35
+      },
+      "scope_warning": "OCR hit counts and the selected pages do not establish absence from the whole handbook."
+    }
+  },
+  "new_custodial_source_lead": {
+    "page_url": "https://www.vhu.sk/tazky-nakladny-automobilovy-special-maz-543/",
+    "publisher": "Vojenský historický ústav, Vojenské historické múzeum Piešťany",
+    "page_published": "2024-02-27",
+    "page_updated": "2024-02-28",
+    "text_and_photo_credit": "Mgr. Lukáš Danko, VHÚ – VHM Piešťany",
+    "custodial_facts_from_page": [
+      "Museum identifies the vehicle as MAZ 543 and says it was manufactured in 1974",
+      "Transferred to the museum in 2023 from military unit VÚ 4405 Nitra; previously a driver-training vehicle",
+      "Cites Collection XIII Automotive Technology, AT 278 operating log and AT 278 catalog record"
+    ],
+    "authority_limit": "Used as a first-party custody and attributed-photo source only. Generic historical/technical specifications on this article are not imported into the model.",
+    "applicability": "MAZ-543A identity, serial number, step revision, original condition and modification history are not established by this page.",
+    "photos": [
+      {
+        "url": "https://www.vhu.sk/data/images/34087.jpg",
+        "local_file": "vhu-34087.jpg",
+        "pixels": [
+          1280,
+          829
+        ],
+        "sha256": "5df63890d65cf53a04f48cadb46df074ec090c456ab054a2ec734b920866bae2",
+        "bytes": 467685,
+        "pixels_inspected": true
+      },
+      {
+        "url": "https://www.vhu.sk/data/images/34089.jpg",
+        "local_file": "vhu-34089.jpg",
+        "pixels": [
+          1280,
+          998
+        ],
+        "sha256": "1bf80d69452fb6dbd2a46d005e3763aec78b61ac9268aeba98a10967df791ed2",
+        "bytes": 509136,
+        "pixels_inspected": true
+      },
+      {
+        "url": "https://www.vhu.sk/data/images/34091.jpg",
+        "local_file": "vhu-34091.jpg",
+        "pixels": [
+          1280,
+          960
+        ],
+        "sha256": "9eb9803b5dd73c905b7d5d0d64eb551e3b23981ab96643159e2ed8139e3f4079",
+        "bytes": 561618,
+        "pixels_inspected": true
+      },
+      {
+        "url": "https://www.vhu.sk/data/images/34093.jpg",
+        "local_file": "vhu-34093.jpg",
+        "pixels": [
+          1280,
+          960
+        ],
+        "sha256": "c4ef63468743d2fce1db31670010196e996650a929bbe99f05b285a9d40791f3",
+        "bytes": 499690,
+        "pixels_inspected": true
+      },
+      {
+        "url": "https://www.vhu.sk/data/images/34095.jpg",
+        "local_file": "vhu-34095.jpg",
+        "pixels": [
+          960,
+          1280
+        ],
+        "sha256": "058d020d132a25d557bbd2c0a763f2c67fa8be57502f97971b141d6d43cb8b31",
+        "bytes": 419839,
+        "pixels_inspected": true
+      }
+    ],
+    "photo_findings": [
+      {
+        "photo": "34089.jpg",
+        "claim": "Left-cab lower frame and three descending supports are visible. Its rear end is close to the first tire front outline in this oblique image. The rear door extends over the first-wheel upper/front region in projection.",
+        "boundary": "Projection only. No exact longitudinal end, lateral position, distance, first-wheel envelope or target-A applicability follows."
+      },
+      {
+        "photo": "34089.jpg",
+        "claim": "The three visible supports do not provide resolved upper attachment fasteners or section detail. Their bent/irregular appearance is observable.",
+        "boundary": "Do not infer cable, hose, solid rod, steel, rubber, flexibility or joints from this limited image."
+      },
+      {
+        "photo": "34087.jpg and 34091.jpg",
+        "claim": "The right-cab below-sill structure does not show the same complete suspended lower frame seen on the left; thin hanging elements and a different visible horizontal member are present.",
+        "boundary": "Possible incomplete/damaged condition is an interpretation, not a confirmed diagnosis. Absence or asymmetry in these photos is not original design evidence."
+      },
+      {
+        "photo": "34093.jpg and 34095.jpg",
+        "claim": "Rear views show the chassis and cabs but do not resolve the lower-step upper attachments.",
+        "boundary": "No step measurements or mounting conclusions derived."
+      }
+    ],
+    "potential_next_check": "If a physical-document inquiry is later authorized, request the AT 278 catalog card/identification plate and relevant operating-log repair entries first. Verify A applicability and original step condition before requesting close views or a measured survey.",
+    "contacted": false
+  },
+  "accepted_new_dimensions_mm": [],
+  "accepted_new_hardpoint_coordinates": [],
+  "accepted_new_step_assembly_number": null,
+  "accepted_new_support_structure": null,
+  "not_established": [
+    "Contemporary applicable step assembly and revision",
+    "Three upper support connections and hidden reinforcement",
+    "Support material, cross-section, flexibility and joints",
+    "Exact step rear endpoint or lateral offset relative to first tire",
+    "Rear-door boarding path",
+    "Any new native installation/clearance result"
+  ],
+  "next_feasible_directions": [
+    "Obtain a traceable contemporary installation/detail drawing for 543-8400008 and its listed step revision, with drawing date, amendments and applicable chassis serial range. The later 543-8405012-10 catalog lead cannot itself establish this.",
+    "Use the identified AT 278 institutional records as a bounded provenance inquiry if correspondence is separately authorized; a 1974 build year alone does not establish MAZ-543A applicability.",
+    "For any verified target-A vehicle, document identity and restoration history, then inspect all three upper joints from below/inside and record dimensional survey datum, uncertainty, tire/load state and rear-door access relationship. Do not scale millimeters from oblique photographs."
+  ],
+  "modeling_consequence": "No lower-step length, height, offset or hardpoint is selected. Existing short-step and 2.2 m fitted placements remain FAIL. Whole-vehicle acceptance unchanged.",
+  "publication_boundary": "Only this factual JSON and text research report/provenance may be copied to the repository. Book OCR, decoded pages and museum photo bytes remain local research materials.",
+  "book_or_photo_uploaded": false,
+  "repository_modified": false,
+  "models_modified": false,
+  "blender_run": false,
+  "external_messages_sent": false
+}
