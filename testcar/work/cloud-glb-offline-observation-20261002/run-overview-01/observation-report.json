@@ -1,0 +1,134 @@
+{
+  "title": "离线GLB观察 / 待核对 / normal+joint FAIL / 16 OPEN",
+  "view": "overview",
+  "status": "OFFLINE_OBSERVATION_RENDERED_GUARDS_PASS",
+  "started_utc": "2026-10-02T20:52:03Z",
+  "qualification": {
+    "normal_joint": "FAIL_STATIC_NATIVE_TRANSPORT",
+    "issue_count": 2299,
+    "all16_vehicle_gates": "OPEN",
+    "browser_qa": "NOT_RUN",
+    "native_shader_equivalence": "NOT_ESTABLISHED"
+  },
+  "render_settings": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "threads": 2,
+    "samples": 16,
+    "resolution": [
+      1024,
+      640
+    ],
+    "denoising": false,
+    "view_transform": "AgX"
+  },
+  "guard_scope": "Imported objects: identity, parent/data, transforms, visibility, slots and collection visibility. Meshes: identity, positions, topology, corner normals, UV, vertex colors and material assignments. Materials: editable scalar/array RNA, node values/sockets/links and image binding. Images: identity, packed bytes and color settings. This is a finite non-mutation guard, not native-source equivalence.",
+  "blender": {
+    "version": "4.5.13 LTS",
+    "build_hash": "daeeeca98fb0"
+  },
+  "input_before": {
+    "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+    "bytes": 134267928,
+    "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+  },
+  "import_seconds": 7.754119930003071,
+  "imported_counts": {
+    "objects": 2675,
+    "mesh_objects": 2406,
+    "unique_meshes": 2374,
+    "materials": 34,
+    "images": 5,
+    "vertices": 3140630,
+    "polygons": 2495306
+  },
+  "bounds_blender": {
+    "min": [
+      -5.749101161956787,
+      -1.8629999160766602,
+      -0.003979163244366646
+    ],
+    "max": [
+      5.519999980926514,
+      1.8629999160766602,
+      2.994999885559082
+    ],
+    "center": [
+      -0.11455059051513672,
+      0.0,
+      1.4955103397369385
+    ],
+    "radius": 6.121061752225965
+  },
+  "camera": {
+    "gltf_direction": [
+      -1.4,
+      0.72,
+      1.0
+    ],
+    "blender_direction": [
+      -0.7506513595581055,
+      -0.5361795425415039,
+      0.3860493004322052
+    ],
+    "location": [
+      -11.473868370056152,
+      -8.113798141479492,
+      7.337445259094238
+    ],
+    "target": [
+      -0.11455059051513672,
+      0.0,
+      1.4955103397369385
+    ],
+    "projection": "PERSP",
+    "lens_mm": 38.059139251708984,
+    "ortho_scale": 6.0,
+    "matrix_world": [
+      [
+        0.5812381505966187,
+        0.3141411244869232,
+        -0.7506514191627502,
+        -11.473868370056152
+      ],
+      [
+        -0.8137335181236267,
+        0.22438646852970123,
+        -0.5361795425415039,
+        -8.113798141479492
+      ],
+      [
+        -1.1902390184559408e-08,
+        0.922478199005127,
+        0.38604915142059326,
+        7.337445259094238
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "render_seconds": 6.437693150000996,
+  "image": {
+    "title": "离线GLB观察 / 待核对 / normal+joint FAIL / 16 OPEN",
+    "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/run-overview-01/overview-offline-glb-pending-normal-joint-fail-16-open.png",
+    "bytes": 667683,
+    "sha256": "df568cf82f72c7913f737a0cdd0996d842575fd4792e36337e9462d64c64fd84",
+    "resolution": [
+      1024,
+      640
+    ]
+  },
+  "input_after": {
+    "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+    "bytes": 134267928,
+    "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+  },
+  "input_unchanged": true,
+  "model_unchanged_in_guard_scope": true,
+  "elapsed_seconds": 21.85849516899907,
+  "finished_utc": "2026-10-02T20:52:25Z"
+}

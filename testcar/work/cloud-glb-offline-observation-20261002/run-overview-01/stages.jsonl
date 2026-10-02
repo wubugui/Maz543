@@ -1,0 +1,7 @@
+{"stage": "VERIFY_INPUT_AND_EMPTY_SCENE", "utc": "2026-10-02T20:52:03Z", "elapsed_seconds": 2.5628003641031682e-05}
+{"stage": "IMPORT_GLTF", "utc": "2026-10-02T20:52:03Z", "elapsed_seconds": 0.09063023699854966}
+{"stage": "GUARD_BEFORE", "utc": "2026-10-02T20:52:11Z", "elapsed_seconds": 7.852003806998255}
+{"stage": "SET_OBSERVERS", "utc": "2026-10-02T20:52:15Z", "elapsed_seconds": 11.959094079997158}
+{"stage": "RENDER_OVERVIEW", "utc": "2026-10-02T20:52:15Z", "elapsed_seconds": 12.123815926999669}
+{"stage": "FINAL_GUARDS", "utc": "2026-10-02T20:52:22Z", "elapsed_seconds": 18.562731062003877}
+{"stage": "OFFLINE_OBSERVATION_RENDERED_GUARDS_PASS", "utc": "2026-10-02T20:52:25Z", "elapsed_seconds": 21.85893706200295}

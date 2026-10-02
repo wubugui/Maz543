@@ -1,0 +1,19 @@
+{
+  "title": "离线GLB观察 / 待核对 / normal+joint FAIL / 16 OPEN",
+  "review_type": "Direct inspection of actual unmodified 1024x640 PNG",
+  "png": "overview-offline-glb-pending-normal-joint-fail-16-open.png",
+  "png_sha256": "df568cf82f72c7913f737a0cdd0996d842575fd4792e36337e9462d64c64fd84",
+  "visible": [
+    "Front three-quarter view of the exported dual-cab vehicle, wheels and rear chassis",
+    "Exported olive body materials and detailed tyre tread are visible"
+  ],
+  "limitations": [
+    "Windows show conspicuous grain; this single 16-sample observation does not establish whether all appearance differences are only sampling noise",
+    "No new photographic comparison, material or normal fidelity acceptance",
+    "Official Blender import/Cycles image is not Three.js/WebGL behavior or completed browser QA",
+    "All original 2299 transport issues and all16 vehicle gates remain open"
+  ],
+  "model_before_after_json_identical": true,
+  "model_guard_bytes_each": 9172565,
+  "model_guard_sha256": "e51ba5db125dc4a10a14e65e1b6f38ce4cc779bf940440f599f8eb6a47253c62"
+}

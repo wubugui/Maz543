@@ -1,0 +1,141 @@
+{
+  "title": "离线GLB观察 / 待核对 / normal+joint FAIL / 16 OPEN",
+  "status": "OFFLINE_OBSERVATION_COMPLETE",
+  "view": "overview",
+  "command": [
+    "taskset",
+    "-c",
+    "0,1",
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "2",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/observe_glb.py",
+    "--",
+    "--view",
+    "overview",
+    "--output",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/run-overview-01"
+  ],
+  "started_utc": "2026-10-02T20:52:03Z",
+  "window_note": "Aether confirmed no engine; reserved this single offline GLB view, other connector and read-only work may continue; no isolated performance claim",
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "budget": {
+    "wall_seconds_per_view": 900,
+    "heartbeat_seconds": 10,
+    "term_grace_seconds": 5,
+    "kill_grace_seconds": 5
+  },
+  "input_before": {
+    "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+    "bytes": 134267928,
+    "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+  },
+  "blender_before": {
+    "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "bytes": 163613240,
+    "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+  },
+  "prepared_before": {
+    "observation.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/observation.json",
+      "bytes": 1195,
+      "sha256": "bc421761337e074477dfe24611f2e4216cf34053adfc6546041cae8d09d884f7"
+    },
+    "run_observation.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/run_observation.py",
+      "bytes": 8602,
+      "sha256": "9eee0c1ea46238c3c61417566e9bbe63f36aba88a96fda491b881969e6a6ad9a"
+    },
+    "observe_glb.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/observe_glb.py",
+      "bytes": 16185,
+      "sha256": "f59d8caf69b8666917b9d3a6e66c5509e275ed3f78aadcdf7649ae905314e1ee"
+    },
+    "README.md": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/README.md",
+      "bytes": 6577,
+      "sha256": "3125e6d75169c8fc2119002beed016cab2206660be376d40bc3a4f4d3b202197"
+    },
+    "preparation-checks.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/preparation-checks.json",
+      "bytes": 2770,
+      "sha256": "7381236052525c3492b8390385074256fe784c7e4602863bfd1ed90b582216a1"
+    }
+  },
+  "qualification": {
+    "normal_joint": "FAIL_STATIC_NATIVE_TRANSPORT",
+    "issue_count": 2299,
+    "all16_vehicle_gates": "OPEN",
+    "browser_qa": "NOT_RUN",
+    "native_shader_equivalence": "NOT_ESTABLISHED"
+  },
+  "timed_out": false,
+  "budget_basis": "One 134MB GLB import, finite guards, CPU2 BVH and one 1024x640 16-sample Cycles image. 900s is an operational ceiling, not a performance prediction or acceptance result.",
+  "performance_claim": "Elapsed time includes actual concurrent resource contention",
+  "child_pid": 5,
+  "owned_process_group": 5,
+  "first_terminal_observed_seconds": 22.62316121099866,
+  "exit_code": 0,
+  "child_terminal": true,
+  "elapsed_seconds": 22.623236232000636,
+  "finished_utc": "2026-10-02T20:52:25Z",
+  "max_child_rss_kib": 2413856,
+  "input_after": {
+    "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+    "bytes": 134267928,
+    "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+  },
+  "blender_after": {
+    "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "bytes": 163613240,
+    "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+  },
+  "prepared_after": {
+    "observation.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/observation.json",
+      "bytes": 1195,
+      "sha256": "bc421761337e074477dfe24611f2e4216cf34053adfc6546041cae8d09d884f7"
+    },
+    "run_observation.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/run_observation.py",
+      "bytes": 8602,
+      "sha256": "9eee0c1ea46238c3c61417566e9bbe63f36aba88a96fda491b881969e6a6ad9a"
+    },
+    "observe_glb.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/observe_glb.py",
+      "bytes": 16185,
+      "sha256": "f59d8caf69b8666917b9d3a6e66c5509e275ed3f78aadcdf7649ae905314e1ee"
+    },
+    "README.md": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/README.md",
+      "bytes": 6577,
+      "sha256": "3125e6d75169c8fc2119002beed016cab2206660be376d40bc3a4f4d3b202197"
+    },
+    "preparation-checks.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/preparation-checks.json",
+      "bytes": 2770,
+      "sha256": "7381236052525c3492b8390385074256fe784c7e4602863bfd1ed90b582216a1"
+    }
+  },
+  "file_guards_pass": true,
+  "native_status": "OFFLINE_OBSERVATION_RENDERED_GUARDS_PASS",
+  "image": {
+    "title": "离线GLB观察 / 待核对 / normal+joint FAIL / 16 OPEN",
+    "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-glb-offline-observation-20261002/run-overview-01/overview-offline-glb-pending-normal-joint-fail-16-open.png",
+    "bytes": 667683,
+    "sha256": "df568cf82f72c7913f737a0cdd0996d842575fd4792e36337e9462d64c64fd84",
+    "resolution": [
+      1024,
+      640
+    ]
+  }
+}

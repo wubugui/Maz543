@@ -467,3 +467,6 @@
 "testcar/outputs/cloud-native-static-suspension-20261002/source-parts/part-168.bin" -filter -diff -merge -text
 "testcar/outputs/cloud-native-static-suspension-20261002/source-parts/part-169.bin" -filter -diff -merge -text
 "testcar/outputs/cloud-native-static-suspension-20261002/source-parts/part-170.bin" -filter -diff -merge -text
+
+# Exact generated offline diagnostic image, retained as original Git bytes.
+"testcar/work/cloud-glb-offline-observation-20261002/run-overview-01/overview-offline-glb-pending-normal-joint-fail-16-open.png" -filter -diff -merge -text
