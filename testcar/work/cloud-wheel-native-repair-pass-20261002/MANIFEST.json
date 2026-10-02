@@ -1,0 +1,99 @@
+{
+  "status": "NATIVE_PARENT_DRUM_AND_APPLIED_TYRE_FIT_SCOPED_PASS",
+  "source_input_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "original_json_records": 17,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 4161,
+      "sha256": "5000f3f4662043c80e9d307d2063e83b9d0853aa77aa000124201874b0564433"
+    },
+    {
+      "path": "REPLAY.md",
+      "bytes": 1098,
+      "sha256": "b2839b4349b7f1a9f601b4c53c02eea3b96d2789e998803ecce87f468ce56d6f"
+    },
+    {
+      "path": "SUMMARY.json",
+      "bytes": 8181,
+      "sha256": "cc4a64c3da191351a289100abc6f9a87f0f20204d872e71e9995a6f1331854ac"
+    },
+    {
+      "path": "diagnostic-tables/entries-000.json",
+      "bytes": 109803,
+      "sha256": "dd39e1345ef296233c77e2e98e807b891749c576baf912b4921aab7bd7b9ef14"
+    },
+    {
+      "path": "diagnostic-tables/entries-001.json",
+      "bytes": 109964,
+      "sha256": "65d2b3e10cb509d160401b76bf9cce0f06ff1c072ccdd9d55a5ebdabc9b63e52"
+    },
+    {
+      "path": "diagnostic-tables/entries-002.json",
+      "bytes": 109899,
+      "sha256": "f1ddbe76b83357c4233c6d816ede29e45390f52f673f268689d517dfd6755c04"
+    },
+    {
+      "path": "diagnostic-tables/entries-003.json",
+      "bytes": 109991,
+      "sha256": "2a5094f4df19ab655282100146473dd40b0a342e784facd1077a09c47e0aa269"
+    },
+    {
+      "path": "diagnostic-tables/entries-004.json",
+      "bytes": 109979,
+      "sha256": "d886a45336011fa66e6403677750c12d77d0de03dc4c862bc458aff1f93426b1"
+    },
+    {
+      "path": "diagnostic-tables/entries-005.json",
+      "bytes": 44632,
+      "sha256": "3da98e77ef6c2f5ecb358190b6cb68bee9f6f240269c2fb3a97e706853da34de"
+    },
+    {
+      "path": "diagnostic-tables/manifest.json",
+      "bytes": 1506,
+      "sha256": "9f04b1ab04068b8be153155b84a06c240ee35d146b9a69b0532f768b005aabe5"
+    },
+    {
+      "path": "executed-runner.py",
+      "bytes": 1888,
+      "sha256": "fcf55ece39697af8b18b4eb58885bad754774b445444d794f82170c174cf1adb"
+    },
+    {
+      "path": "executed-script.py",
+      "bytes": 30918,
+      "sha256": "5940176455cbb19373f96d0b2150dd636006e67eb73d404e44bf77b9313d49e8"
+    },
+    {
+      "path": "launch.json",
+      "bytes": 993,
+      "sha256": "d88d883e6b4fffc6919723495ade5a7349e1868922e5e143f2612c099cea0894"
+    },
+    {
+      "path": "parent-record-comparison.json",
+      "bytes": 76051,
+      "sha256": "1c211a71f014954c2919644c9ec2a1d51c053ff511d8dcf7c3fad7810fee5002"
+    },
+    {
+      "path": "process.json",
+      "bytes": 1127,
+      "sha256": "2ba906d3cf8f6000a002a4c96dc5f739d51779b28be3bb1123b8d1a1b7b42244"
+    },
+    {
+      "path": "restore-records.py",
+      "bytes": 1326,
+      "sha256": "ebcaef46337c98bb3ee0263f3e288da682213fa3e684c2f3fb4238eba3289501"
+    },
+    {
+      "path": "run.log",
+      "bytes": 449,
+      "sha256": "fefb801adcea8fa3de7675bf2dee0b40a6e3398317454de867cb03d9d7f6c53b"
+    },
+    {
+      "path": "source-records.json",
+      "bytes": 2963,
+      "sha256": "8770123726421165ef75a074d43bd778fa9fc2ca5559050073f98ba6c75e41f8"
+    }
+  ],
+  "publication_note": "Independent parent comparison added; original executed records unchanged. Cross-process combined appearance signature variation is unresolved.",
+  "source_package_manifest_sha256": "1b8433f93491b97844ea4a2555f8cd793181d226e68447e354dd265e183953e1"
+}

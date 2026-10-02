@@ -1,0 +1,211 @@
+{
+  "status": "NATIVE_PARENT_DRUM_AND_APPLIED_TYRE_FIT_SCOPED_PASS",
+  "process": {
+    "exit_code": 0,
+    "seconds": 101.48228013100015,
+    "hard_limit_seconds": 120,
+    "cpu_affinity": [
+      0
+    ],
+    "peak_rss_kib": 1919432,
+    "blender_version": "4.5.13 LTS",
+    "blender_build": "daeeeca98fb0",
+    "executed_script_sha256": "5940176455cbb19373f96d0b2150dd636006e67eb73d404e44bf77b9313d49e8"
+  },
+  "native_repair": {
+    "neutral_joint_frames": [
+      "S543_0_native_steering_joint_frame",
+      "S543_1_native_steering_joint_frame",
+      "S543_2_native_steering_joint_frame",
+      "S543_3_native_steering_joint_frame"
+    ],
+    "drum_proxies": [
+      "brakes_0003",
+      "brakes_0007",
+      "brakes_0011",
+      "brakes_0015"
+    ],
+    "detached_carrier_brake_actions_preserved": [
+      {
+        "object": "wheels_pivot_001",
+        "action": "wheels_pivot_001Action"
+      },
+      {
+        "object": "brakes_pivot_001",
+        "action": "brakes_pivot_001Action"
+      },
+      {
+        "object": "wheels_pivot_008",
+        "action": "wheels_pivot_008Action"
+      },
+      {
+        "object": "brakes_pivot_002",
+        "action": "brakes_pivot_002Action"
+      },
+      {
+        "object": "wheels_pivot_015",
+        "action": "wheels_pivot_015Action"
+      },
+      {
+        "object": "brakes_pivot_003",
+        "action": "brakes_pivot_003Action"
+      },
+      {
+        "object": "wheels_pivot_022",
+        "action": "wheels_pivot_022Action"
+      },
+      {
+        "object": "brakes_pivot_004",
+        "action": "brakes_pivot_004Action"
+      }
+    ],
+    "glyphs_applied": 72,
+    "operator": "Native bpy.ops.object.modifier_apply, exact qualified SHRINKWRAP only",
+    "solidify_retained": true,
+    "source_fonts_retained": 72,
+    "single_user_copies": 0,
+    "mesh_user_observation_time": "Original sharing before operations; users_at_apply immediately before each native Apply; object_users_after_all_applies from the new full-set index after all72."
+  },
+  "neutral": {
+    "geometry_objects": 776,
+    "max_vertex_error_m": 7.045966143220146e-08,
+    "vertex_limit_m": 2e-06,
+    "all_triangle_indices_equal": true,
+    "all_uv_material_binding_signatures_equal": true,
+    "appearance_signature_definition": "Evaluated UV-layer values/names/render flags/active layer, material-slot identities and link modes, evaluated material identities, polygon material-index values; not a renderer/material-node-content audit."
+  },
+  "spin": {
+    "samples": 8,
+    "requested_angles_radians": [
+      0.731,
+      3.141592653589793
+    ],
+    "observed_angles_radians": [
+      0.7309995889663696,
+      3.141592502593994
+    ],
+    "objects_per_station": 187,
+    "vertices_per_sample": 67164,
+    "max_rigid_vertex_error_m": 3.616499636090535e-07,
+    "max_radius_trajectory_error_m": 1.978751018594238e-07,
+    "unchanged_gate_m": 2e-05,
+    "stationary_brake_max_vertex_error_m": 0.0,
+    "max_drum_circular_axis_offset_m": 1.3197343116991443e-07,
+    "real_nonzero_drum_and_tyre_motion": true
+  },
+  "negative_controls": [
+    {
+      "station": 0,
+      "attempted_euler_y_radians": 0.731,
+      "rotation_mode": "QUATERNION",
+      "world_matrix_delta": 0.0,
+      "drum_and_tyre_vertex_delta_m": 0.0,
+      "rejected_as_motion_trial": true
+    },
+    {
+      "station": 1,
+      "attempted_euler_y_radians": 0.731,
+      "rotation_mode": "QUATERNION",
+      "world_matrix_delta": 0.0,
+      "drum_and_tyre_vertex_delta_m": 0.0,
+      "rejected_as_motion_trial": true
+    },
+    {
+      "station": 2,
+      "attempted_euler_y_radians": 0.731,
+      "rotation_mode": "QUATERNION",
+      "world_matrix_delta": 0.0,
+      "drum_and_tyre_vertex_delta_m": 0.0,
+      "rejected_as_motion_trial": true
+    },
+    {
+      "station": 3,
+      "attempted_euler_y_radians": 0.731,
+      "rotation_mode": "QUATERNION",
+      "world_matrix_delta": 0.0,
+      "drum_and_tyre_vertex_delta_m": 0.0,
+      "rejected_as_motion_trial": true
+    }
+  ],
+  "restorations": [
+    {
+      "station": 0,
+      "geometry_objects": 187,
+      "max_vertex_error_m": 0.0,
+      "world_matrix_error": 0.0,
+      "original_action_restored": true,
+      "original_euler_restored": true,
+      "rotation_mode": "QUATERNION",
+      "restoration_failures": [],
+      "prior_sample_error": null
+    },
+    {
+      "station": 1,
+      "geometry_objects": 187,
+      "max_vertex_error_m": 0.0,
+      "world_matrix_error": 0.0,
+      "original_action_restored": true,
+      "original_euler_restored": true,
+      "rotation_mode": "QUATERNION",
+      "restoration_failures": [],
+      "prior_sample_error": null
+    },
+    {
+      "station": 2,
+      "geometry_objects": 187,
+      "max_vertex_error_m": 0.0,
+      "world_matrix_error": 0.0,
+      "original_action_restored": true,
+      "original_euler_restored": true,
+      "rotation_mode": "QUATERNION",
+      "restoration_failures": [],
+      "prior_sample_error": null
+    },
+    {
+      "station": 3,
+      "geometry_objects": 187,
+      "max_vertex_error_m": 0.0,
+      "world_matrix_error": 0.0,
+      "original_action_restored": true,
+      "original_euler_restored": true,
+      "rotation_mode": "QUATERNION",
+      "restoration_failures": [],
+      "prior_sample_error": null
+    }
+  ],
+  "outside_original_matrices": {
+    "checked": 9626,
+    "changes": []
+  },
+  "final_protection": {
+    "source_fonts_checked": 72,
+    "source_font_failures": [],
+    "sharing_peer_objects_checked": 0,
+    "sharing_peer_failures": [],
+    "glyph_visibility_flags_checked": 72,
+    "glyph_visibility_failures": [],
+    "phase": "After all real spins, restorations and outside-matrix checks"
+  },
+  "reverse_dependency_scan": {
+    "original_objects_scanned": 10434,
+    "observed_outside_scope_references": [],
+    "limits": "Bounded direct object/collection RNA references, object/data/shape-key drivers, collection instances and traversed geometry-node trees. No complete Blender dependency or renderer/material-displacement proof."
+  },
+  "source_sha256_before": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "source_sha256_after": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "saved_blend_or_glb": false,
+  "production_promoted": false,
+  "limits": [
+    "Camber remains approximately0 degrees and the nominal1degree defect is not fixed. No sign, load, tyre-pressure or ride-height qualification.",
+    "No halfshaft/Cardan flange was transformed; its support bearing and internal CV interface remain unresolved.",
+    "Added neutral steering joint frames remain unturned. No turn-angle, tie-rod, CV, interactive control or steering-travel claim.",
+    "Parenting and drum spin are verified at retained frame0 and two spin samples; full original timeline behavior and browser parity are unverified.",
+    "The72front glyphs use native Shrinkwrap Modifier Apply at neutral; Solidify, source FONT objects, evaluated neutral vertices/triangles and UV/material signatures are retained. No manual vertex/face construction occurred.",
+    "No complete collision, bearing-seat/contact or force certificate.",
+    "No blend or GLB saved or production promoted.",
+    "The retained drum is the simplified cylinder proxy identified by the original authoring and actual circular sections; no real drum wall, bore, hub-centering land or bearing seat was created or certified.",
+    "EXPORT INCOMPATIBILITY: testcar/scripts/export-va180-cab-candidate.py excludes the S543_SUSPENSION ancestor branch. This native candidate reparents front wheel/brake objects below uprights in that branch; reusing that exporter unchanged could omit them. Exporter adaptation and browser parity are explicitly not performed here; do not export or promote this candidate through the old selection rule.",
+    "The separate plus-one-degree no-closure result applies only to inherited fixed reconstructed hardpoints, rigid arm lengths and zero wheel-axis offset relative to the upright. It neither proves a factory impossibility nor justifies changing an arm length or fixed inner axis; source-resolved knuckle/spindle/trunnion/CV relationships remain necessary."
+  ],
+  "all16VehicleGates": "OPEN"
+}
