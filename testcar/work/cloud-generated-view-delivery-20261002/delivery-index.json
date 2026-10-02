@@ -1,0 +1,109 @@
+{
+  "status": "ALL_IDENTIFIED_NEW_NATIVE_SOURCES_AND_ORIGINAL_GENERATED_VIEWS_DELIVERED",
+  "inventory_scope": "MAZ-generated scratch directories excluding the installed Blender tool, private delivery receipts, verified recovery copies and original manual-source scans; also repository ignored outputs/work blend/glb/png inventory",
+  "ignored_repository_native_image_files_remaining": [],
+  "native_sources": [
+    {
+      "native_filename": "MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea",
+      "canonical_root": "testcar/outputs/cloud-textured-front-wheel-20261002",
+      "parts": 128,
+      "native_verification_commit": "bf88d2530a098de43bc851bed752def4987a4de3"
+    },
+    {
+      "native_filename": "MAZ543A_Native_Barrel_Axis_Controls.blend",
+      "bytes": 67937160,
+      "sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+      "canonical_root": "testcar/outputs/cloud-native-door-axis-20261002",
+      "parts": 87,
+      "native_verification_commit": "e619c37c5d28afeb14ccdec47c3a49c0b0ea86da"
+    }
+  ],
+  "original_pngs": [
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/views/closed.png",
+      "bytes": 1576059,
+      "sha256": "87864120692a8ac6fd33cdfdc39b5493e2b304320ed3596494b41b327bfb57ad",
+      "verified_commit": "4a4c1d45d1f0e8a0e0d259d40944aa39415d300b"
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/views/open99.png",
+      "bytes": 1585359,
+      "sha256": "0bbd1ee0462b738ed80b30b4e76937298052eb686a7de3385336bab2f4d99cf3",
+      "verified_commit": "4a4c1d45d1f0e8a0e0d259d40944aa39415d300b"
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/wheel/station0-neutral.png",
+      "bytes": 1178213,
+      "sha256": "7b173610175dbc2f894c1b8fc23708c0d1a090429701de1cb615938ffb8306a8",
+      "verified_commit": "ddab60961d4f791460330d3301c094563b28e853"
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/wheel/station0-spin-0p731.png",
+      "bytes": 1178538,
+      "sha256": "1291eb1f34f4d40d15cb6fbf58c8995d572081f9324ecb5ba67e53d9cb1be8a2",
+      "verified_commit": "ddab60961d4f791460330d3301c094563b28e853"
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/rejected-layout-side.png",
+      "bytes": 1315375,
+      "sha256": "c3be1592a5bb0ea467ff33ea30bdb01f2883cb16176a4b2b985ea5340b3458c7",
+      "verified_commit": "ddab60961d4f791460330d3301c094563b28e853"
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/iteration01-oblique.png",
+      "bytes": 1623588,
+      "sha256": "8f8827630f5065be32f28459e333cb240f9fbe5921974427a67e32a2fee1e3fe",
+      "verified_commit": "ddab60961d4f791460330d3301c094563b28e853"
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/iteration02-elevation.png",
+      "bytes": 1613160,
+      "sha256": "0081e97d3e0f548681f63cc4f8d118b453a1868d1e570fc646fa77350673ad53",
+      "verified_commit": "ddab60961d4f791460330d3301c094563b28e853"
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/iteration02-oblique.png",
+      "bytes": 1630258,
+      "sha256": "e370743200dbb45f5c8ad85d343238e8d907201dd066b6f558ac7da80a129394",
+      "verified_commit": "ddab60961d4f791460330d3301c094563b28e853"
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/tyre/neutral-letter-closeup.png",
+      "bytes": 1105956,
+      "sha256": "915c9d6985ad560e61c2e7ffe0c8ba02b815ff7699d0d65307eb1cb4fec28fa6",
+      "verified_commit": "ddab60961d4f791460330d3301c094563b28e853"
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration01-after.png",
+      "bytes": 898353,
+      "sha256": "a2a781dd3afca00c21637f850975df0ebffe6704d127564f710223ef66ed4c02",
+      "verified_commit": "ddab60961d4f791460330d3301c094563b28e853"
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration01-before.png",
+      "bytes": 920155,
+      "sha256": "33e9c0ba8f67b8704d07b899ffef376897e9697c6c1db6659b10c022607fe69a",
+      "verified_commit": "ddab60961d4f791460330d3301c094563b28e853"
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration02-after.png",
+      "bytes": 1090464,
+      "sha256": "3b0aed9f5f571803dd8ec23ab03841a89e0b97260c22aefa2d110a79296c9843",
+      "verified_commit": "ddab60961d4f791460330d3301c094563b28e853"
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration02-before.png",
+      "bytes": 1094170,
+      "sha256": "27bcb092edef9b30d630a5a1016dd9cf88ea7483e888f62529de70700024d0eb",
+      "verified_commit": "ddab60961d4f791460330d3301c094563b28e853"
+    }
+  ],
+  "native_source_bytes": 167989796,
+  "original_png_bytes": 16809648,
+  "remaining_identified_assets": 0,
+  "new_render_or_model_change": false,
+  "all16_vehicle_gates": "OPEN",
+  "pending_GUI_and_earlier_Slack_rejections_not_retried": true
+}

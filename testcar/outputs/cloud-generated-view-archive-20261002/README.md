@@ -20,4 +20,4 @@ These are the remaining eleven original PNG render files from prior cloud work, 
 
 The two original door-axis views are already stored in [their canonical source directory](../cloud-native-door-axis-20261002/README.md). Both unique newly saved native .blend sources also have complete, independently verified recovery instructions there and in [the front-wheel source directory](../cloud-textured-front-wheel-20261002/README.md). They are not duplicated in this image archive.
 
-Initial publication awaits independent complete remote-byte retrieval and original-image decode verification. Prior Slack delivery is not used as proof that the GitHub files are complete.
+Independent verification completed from publicationddab60961d4f791460330d3301c094563b28e853: all17 required files were fetched into a new empty bare repository, with every original byte/SHA exact. All11 PNGs decoded with their original dimensions, mode and exactRGBA hashes. Raw readback and image evidence is in ../../work/cloud-generated-view-delivery-20261002. No new render or re-encoding occurred.

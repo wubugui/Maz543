@@ -1,0 +1,136 @@
+{
+  "status": "PUBLISHED_REMOTE_BYTES_EXACT",
+  "commit": "ddab60961d4f791460330d3301c094563b28e853",
+  "tree": "e7a433fd70ca1c5ba47199a53e96d6a961d71f49",
+  "public_url": "https://github.com/wubugui/Maz543.git",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 30326,
+      "sha256": "270f38f126b1891036e79edbc307c008610b27229c4b58cf75df10128af57bb1",
+      "git_blob_sha1": "7dc699778bbbf19a5b80205bb9bf5e3bce712e6b",
+      "binary": false
+    },
+    {
+      "path": "CLOUD_CONTINUATION.md",
+      "bytes": 162507,
+      "sha256": "5f7d92b4d265de0afa2fd326785769bc2b605a598e46906ee44e8936e808b602",
+      "git_blob_sha1": "a692731f5acd3f94c66ebe662131011ee82ec683",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/README.md",
+      "bytes": 2519,
+      "sha256": "2e5327d03ccadb89a7a8f2947f82a119cf4c62a20f2aa49623dc0173db841472",
+      "git_blob_sha1": "d16e11ceac1e1ca38c30f4aec573590e9db92a93",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/manifest.json",
+      "bytes": 7247,
+      "sha256": "a464f27031071668552d9caf5b194d3405f1c20b2cd80606c6b36a1ed8bf339d",
+      "git_blob_sha1": "4904d84748c7f6895ecb63c8bae7e40b174f28a6",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration01-after.png",
+      "bytes": 898353,
+      "sha256": "a2a781dd3afca00c21637f850975df0ebffe6704d127564f710223ef66ed4c02",
+      "git_blob_sha1": "6217ac2685665ea0bf054867ce3a87f5910bee10",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration01-before.png",
+      "bytes": 920155,
+      "sha256": "33e9c0ba8f67b8704d07b899ffef376897e9697c6c1db6659b10c022607fe69a",
+      "git_blob_sha1": "6b37e685d3f7381c03a5c397d0d1da9deacb2bad",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration02-after.png",
+      "bytes": 1090464,
+      "sha256": "3b0aed9f5f571803dd8ec23ab03841a89e0b97260c22aefa2d110a79296c9843",
+      "git_blob_sha1": "549d388706ec46a92c37b630c9e26046391a03c4",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration02-before.png",
+      "bytes": 1094170,
+      "sha256": "27bcb092edef9b30d630a5a1016dd9cf88ea7483e888f62529de70700024d0eb",
+      "git_blob_sha1": "a920b763d4f97f682cc23bef1aa0afbe78abd395",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/iteration01-oblique.png",
+      "bytes": 1623588,
+      "sha256": "8f8827630f5065be32f28459e333cb240f9fbe5921974427a67e32a2fee1e3fe",
+      "git_blob_sha1": "677928fdc3ff55a87dd4245df113ecfc47e92ad7",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/iteration02-elevation.png",
+      "bytes": 1613160,
+      "sha256": "0081e97d3e0f548681f63cc4f8d118b453a1868d1e570fc646fa77350673ad53",
+      "git_blob_sha1": "b2cfa816dc4739356c28ff4e42391b312a52da88",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/iteration02-oblique.png",
+      "bytes": 1630258,
+      "sha256": "e370743200dbb45f5c8ad85d343238e8d907201dd066b6f558ac7da80a129394",
+      "git_blob_sha1": "4efaff229fbdd4c38c6235d91cfe69e178d03160",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/rejected-layout-side.png",
+      "bytes": 1315375,
+      "sha256": "c3be1592a5bb0ea467ff33ea30bdb01f2883cb16176a4b2b985ea5340b3458c7",
+      "git_blob_sha1": "cf972acc98a5cef88e642fb3f563956109e509a7",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/tyre/neutral-letter-closeup.png",
+      "bytes": 1105956,
+      "sha256": "915c9d6985ad560e61c2e7ffe0c8ba02b815ff7699d0d65307eb1cb4fec28fa6",
+      "git_blob_sha1": "8f2bf5bcf91e3905debc8a15ce2a25330975a7d3",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/upload-verification.json",
+      "bytes": 3241,
+      "sha256": "6b92e97d368c96312a639dffe48f6dd33be7d2bebd9f753ee2ae2073335fd70c",
+      "git_blob_sha1": "15a4b1545312baaa61bbbd7432b3d796296708e1",
+      "binary": false
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/wheel/station0-neutral.png",
+      "bytes": 1178213,
+      "sha256": "7b173610175dbc2f894c1b8fc23708c0d1a090429701de1cb615938ffb8306a8",
+      "git_blob_sha1": "0ec66f31d11bd65dae3c2d10e3c2c9c5dbe8a736",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-generated-view-archive-20261002/wheel/station0-spin-0p731.png",
+      "bytes": 1178538,
+      "sha256": "1291eb1f34f4d40d15cb6fbf58c8995d572081f9324ecb5ba67e53d9cb1be8a2",
+      "git_blob_sha1": "0d3ff849a19ede74972af242e73f4ff76fce047e",
+      "binary": true
+    },
+    {
+      "path": "testcar/outputs/cloud-native-door-axis-20261002/asset-backlog.json",
+      "bytes": 6329,
+      "sha256": "79f306908acea12316d099f7502990d64c1470699ed9e3e14d946860a005b6cc",
+      "git_blob_sha1": "056511f76ef8c81aae60ff4cc1766dc1d08b61af",
+      "binary": false
+    }
+  ],
+  "file_count": 17,
+  "unique_blobs": 17,
+  "bytes": 13860399,
+  "fresh_bare_objects_all_absent_before_fetch": 17,
+  "no_git_alternates": true,
+  "no_local_object_source": true,
+  "ref_unchanged_before_after": true,
+  "elapsed_seconds": 18.333882386999903,
+  "finished_utc": "2026-10-02T16:05:24Z"
+}

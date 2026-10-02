@@ -1,5 +1,5 @@
 {
-  "status": "ALL_11_ORIGINAL_PNG_BLOBS_CONFIRMED_PENDING_COMPLETE_REMOTE_READBACK",
+  "status": "ALL11_ORIGINAL_PNG_FILES_REMOTE_BYTES_AND_RGBA_VERIFIED",
   "images": [
     {
       "path": "wheel/station0-neutral.png",
@@ -161,5 +161,6 @@
   "transformation": "none; original PNG bytes",
   "no_new_render": true,
   "factory_or_acceptance_claim": false,
-  "manual_scans_excluded": true
+  "manual_scans_excluded": true,
+  "verified_publication_commit": "ddab60961d4f791460330d3301c094563b28e853"
 }
