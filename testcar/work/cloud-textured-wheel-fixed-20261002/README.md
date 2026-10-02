@@ -1,4 +1,5 @@
 # Saved Textured front-four native hierarchy candidate
+Current delivery update (2026-10-02): this exact native source is now completely plugin-published in testcar/outputs/cloud-textured-front-wheel-20261002 as128 ordered original binary parts. Independent remote byte restoration and actual Blender fresh-open passed, with final verification bf88d253. The LOCAL_ONLY/LFS-blocked statements below describe the original10:59 run and are superseded for artifact delivery only; the source geometry and all motion/acceptance limits remain unchanged.
 
 A real editable Blender candidate has been constructed and saved from the exact Textured6e source. Build:52.730708seconds/exit0; independent fresh-open:12.253417seconds/exit0. Both terminated normally without timeout. The source file stayed unchanged.
 

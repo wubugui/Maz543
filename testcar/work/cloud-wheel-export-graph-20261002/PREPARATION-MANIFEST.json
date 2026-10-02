@@ -1,0 +1,57 @@
+{
+  "schema": "maz-wheel-graph-preparation-v1",
+  "status": "PREPARED_NOT_EXECUTED_READY_FOR_INDEPENDENT_REVIEW",
+  "prepared_at_head": "79160c48326f42816c81172c597718d157b92e06",
+  "prepared_files": {
+    "README.md": {
+      "bytes": 9025,
+      "sha256": "7e533766d202da842042bf007f73d029ae30c078c1581e57f003446848093dba"
+    },
+    "graph_common.py": {
+      "bytes": 7732,
+      "sha256": "e7e5e331ada34d09026e100e33c105fbaf7c74a4dedf46228e08ea8cf884712c"
+    },
+    "inspect_native_graph.py": {
+      "bytes": 19921,
+      "sha256": "4cb4a84d9fae4efd0781ed23ac66a07415d4720dacd8607c6ef5eff48740d42c"
+    },
+    "run_graph_inspection.py": {
+      "bytes": 10839,
+      "sha256": "f30986c3c74b58541f264cd07f643b8fc6b5873f5b638b68e30ecaf07b3a4681"
+    },
+    "check_deadline_controls.py": {
+      "bytes": 2059,
+      "sha256": "26b02c84cbfe654c857912048e9dfe3ceaeb71e10ac5564162beb4a321a1cd63"
+    },
+    "inputs.json": {
+      "bytes": 4303,
+      "sha256": "4bc79b35ee5b3d17b16fedbd765b230cfed866d39fdfdfa6c4bd26b87314cc4c"
+    },
+    "preparation-checks.json": {
+      "bytes": 9665,
+      "sha256": "a9dee2f75d3d0901e0c4a8fa80211aa21c25a246e1d10441950d9f195e5141ad"
+    }
+  },
+  "native_execution": false,
+  "must_publish_and_readback_before_native_run": true,
+  "expected_outputs": [
+    "launch.json",
+    "child-started.json",
+    "heartbeat.jsonl",
+    "run.log",
+    "process.json",
+    "native/object-inventory.json",
+    "native/collection-visibility.json",
+    "native/protection-before.json",
+    "native/native-graph.json",
+    "native/stations.json",
+    "native/external-conflicts.json",
+    "native/visibility-summary.json",
+    "native/glb-graphs.json",
+    "native/protection-after.json",
+    "native/native-report.json"
+  ],
+  "all16_vehicle_gates": "OPEN",
+  "revision": 2,
+  "scope_of_protection": "Exact saved names/world/parent/action_record digests; enumerated snapshot fields; second exact relevant graph/matrix/view-layer-state record. No all-RNA/cache/geometry/state claim."
+}

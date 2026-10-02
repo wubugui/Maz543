@@ -1,0 +1,259 @@
+{
+  "status": "PREPARATION_CHECKS_PASS_NATIVE_NOT_EXECUTED",
+  "revision": 2,
+  "supersedes_preparation_manifest_sha256": "67856107c266a35008de3ca8f8007f9b20c41ab563f0e091a51faa56389d1ed8",
+  "review_corrections": [
+    "Bind monotonic time immediately to every poll/wait terminal observation; reject first terminal observation after60s while preserving its actual code",
+    "Re-read the same relevant graph_records with the after snapshot and assert exact equality",
+    "Restrict protection statuses and wording to enumerated fields; no all-RNA/cache/state claim"
+  ],
+  "deadline_controls": {
+    "status": "TWO_FOCUSED_PURE_MEMORY_CONTROLS_PASS",
+    "original_witness": {
+      "loop_entered_elapsed": 59.9,
+      "first_terminal_observed_elapsed": 60.1,
+      "exit_code": 0,
+      "old_loop_incorrect_timed_out": false,
+      "cause": "The old while-condition poll saw exit0 after wait and skipped the deadline body"
+    },
+    "controls": [
+      {
+        "control": "within_deadline",
+        "status": "PASS",
+        "eligible_for_native_success": true,
+        "observations": [
+          {
+            "code": null,
+            "elapsed": 59.9
+          },
+          {
+            "code": 0,
+            "elapsed": 59.95
+          },
+          {
+            "code": 0,
+            "elapsed": 61.0,
+            "phase": "cleanup"
+          }
+        ],
+        "record": {
+          "native_exit_code": 0,
+          "timed_out": false,
+          "first_terminal_observed_monotonic": 59.95,
+          "first_terminal_observed_elapsed_seconds": 59.95,
+          "first_terminal_observation_phase": "native",
+          "terminal_observed_within_native_deadline": true
+        }
+      },
+      {
+        "control": "first_terminal_observation_after_deadline",
+        "status": "PASS",
+        "eligible_for_native_success": false,
+        "observations": [
+          {
+            "code": null,
+            "elapsed": 59.9
+          },
+          {
+            "code": 0,
+            "elapsed": 60.1
+          },
+          {
+            "code": 0,
+            "elapsed": 61.0,
+            "phase": "cleanup"
+          }
+        ],
+        "record": {
+          "native_exit_code": 0,
+          "timed_out": true,
+          "first_terminal_observed_monotonic": 60.1,
+          "first_terminal_observed_elapsed_seconds": 60.1,
+          "first_terminal_observation_phase": "native",
+          "terminal_observed_within_native_deadline": false,
+          "deadline_failure_reason": "FIRST_TERMINAL_OBSERVATION_AFTER_NATIVE_DEADLINE"
+        }
+      }
+    ],
+    "native_execution": false
+  },
+  "syntax": {
+    "graph_common.py": {
+      "syntax": "PASS",
+      "sha256": "e7e5e331ada34d09026e100e33c105fbaf7c74a4dedf46228e08ea8cf884712c"
+    },
+    "inspect_native_graph.py": {
+      "syntax": "PASS",
+      "sha256": "4cb4a84d9fae4efd0781ed23ac66a07415d4720dacd8607c6ef5eff48740d42c"
+    },
+    "run_graph_inspection.py": {
+      "syntax": "PASS",
+      "sha256": "f30986c3c74b58541f264cd07f643b8fc6b5873f5b638b68e30ecaf07b3a4681"
+    },
+    "check_deadline_controls.py": {
+      "syntax": "PASS",
+      "sha256": "26b02c84cbfe654c857912048e9dfe3ceaeb71e10ac5564162beb4a321a1cd63"
+    }
+  },
+  "inspector_bpy_operators": [
+    "bpy.ops.wm.open_mainfile"
+  ],
+  "prohibited_native_calls_absent": true,
+  "review_glb_unique_nodes": 850,
+  "suspension_glb_unique_nodes": 549,
+  "old_names_equal_original_export": true,
+  "all160_moved_scope_in_old_glb": true,
+  "legacy_station_identity_checks": [
+    {
+      "station": 0,
+      "carrier": "wheels_pivot_001",
+      "spin": "wheels_pivot_002",
+      "brake": "brakes_pivot_001",
+      "drum": "brakes_0003",
+      "upright": "S543_0_upright",
+      "kingpin": "S543_0_steering_kingpin",
+      "joint_frame": "S543_0_native_steering_joint_frame",
+      "drum_identity_scope": "Original saved front-four evidence"
+    },
+    {
+      "station": 1,
+      "carrier": "wheels_pivot_008",
+      "spin": "wheels_pivot_009",
+      "brake": "brakes_pivot_002",
+      "drum": "brakes_0007",
+      "upright": "S543_1_upright",
+      "kingpin": "S543_1_steering_kingpin",
+      "joint_frame": "S543_1_native_steering_joint_frame",
+      "drum_identity_scope": "Original saved front-four evidence"
+    },
+    {
+      "station": 2,
+      "carrier": "wheels_pivot_015",
+      "spin": "wheels_pivot_016",
+      "brake": "brakes_pivot_003",
+      "drum": "brakes_0011",
+      "upright": "S543_2_upright",
+      "kingpin": "S543_2_steering_kingpin",
+      "joint_frame": "S543_2_native_steering_joint_frame",
+      "drum_identity_scope": "Original saved front-four evidence"
+    },
+    {
+      "station": 3,
+      "carrier": "wheels_pivot_022",
+      "spin": "wheels_pivot_023",
+      "brake": "brakes_pivot_004",
+      "drum": "brakes_0015",
+      "upright": "S543_3_upright",
+      "kingpin": "S543_3_steering_kingpin",
+      "joint_frame": "S543_3_native_steering_joint_frame",
+      "drum_identity_scope": "Original saved front-four evidence"
+    },
+    {
+      "station": 4,
+      "carrier": "wheels_pivot_029",
+      "spin": "wheels_pivot_030",
+      "brake": "brakes_pivot_005",
+      "drum": "brakes_0019",
+      "upright": "S543_4_upright",
+      "kingpin": "S543_4_steering_kingpin",
+      "drum_identity_scope": "Retained legacy drum name and mesh/parent identity; geometry not reread"
+    },
+    {
+      "station": 5,
+      "carrier": "wheels_pivot_036",
+      "spin": "wheels_pivot_037",
+      "brake": "brakes_pivot_006",
+      "drum": "brakes_0023",
+      "upright": "S543_5_upright",
+      "kingpin": "S543_5_steering_kingpin",
+      "drum_identity_scope": "Retained legacy drum name and mesh/parent identity; geometry not reread"
+    },
+    {
+      "station": 6,
+      "carrier": "wheels_pivot_043",
+      "spin": "wheels_pivot_044",
+      "brake": "brakes_pivot_007",
+      "drum": "brakes_0027",
+      "upright": "S543_6_upright",
+      "kingpin": "S543_6_steering_kingpin",
+      "drum_identity_scope": "Retained legacy drum name and mesh/parent identity; geometry not reread"
+    },
+    {
+      "station": 7,
+      "carrier": "wheels_pivot_050",
+      "spin": "wheels_pivot_051",
+      "brake": "brakes_pivot_008",
+      "drum": "brakes_0031",
+      "upright": "S543_7_upright",
+      "kingpin": "S543_7_steering_kingpin",
+      "drum_identity_scope": "Retained legacy drum name and mesh/parent identity; geometry not reread"
+    }
+  ],
+  "glb_parent_forest_and_transform_shape_checks": "PASS",
+  "original_action_helper_definitions_compile": "PASS",
+  "inputs_verified": {
+    "artifact": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe"
+    },
+    "review_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/review/maz543a-cab-va180-v1.glb",
+      "bytes": 24743400,
+      "sha256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e"
+    },
+    "suspension_glb": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/public/models/maz543a-suspension.glb",
+      "bytes": 8154920,
+      "sha256": "02820335705e230b5a70a4debbc9649e4a2cf66eb180117c8d65a17f19e2ba18"
+    },
+    "exporter": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/export-va180-cab-candidate.py",
+      "bytes": 6207,
+      "sha256": "81099e989b22af47de42b0f8c15c18199deef5d8bffb2a2da1cd41c072698714"
+    },
+    "bindings": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/nativeWheelBindings.ts",
+      "bytes": 3110,
+      "sha256": "7c4d46478f190f1e3b3fcdad5e7a6678f614aa9706c200fdb9013b487e7edddc"
+    },
+    "viewport": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/lib/vehicleViewport.ts",
+      "bytes": 77905,
+      "sha256": "9de4e242cc43aa21b765a42f447621e083e675d411a66f8a9ba83e9b29b54e5d"
+    },
+    "original_inputs": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/inputs.json",
+      "bytes": 51148,
+      "sha256": "e3249af319ae1be31f81576bd39b74eace400cd726e04552282a354a3f2c59ce"
+    },
+    "saved_expected": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/saved-state-expected.json",
+      "bytes": 909025,
+      "sha256": "9a937128e5cd0af5cac09e7416eaad9e3cff912bbc2d4e324fbb8eef288be4fc"
+    },
+    "original_report": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/native-report.json",
+      "bytes": 11598,
+      "sha256": "8513795e0c37e0b6ad62e1a9cc437877adbdf545ce0a0b242460a69719c73af3"
+    },
+    "builder": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/build-trial.py",
+      "bytes": 17627,
+      "sha256": "892cf825ff6a0929ab576c502b0fbb59829ec9943b627161fa48de02bac80a1d"
+    },
+    "helper": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    }
+  },
+  "native_execution": false,
+  "geometry_payload_decoded": false,
+  "all16_vehicle_gates": "OPEN"
+}
