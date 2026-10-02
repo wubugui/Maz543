@@ -1,6 +1,6 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-02 08:37 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-02 09:04 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
@@ -30,8 +30,8 @@
 `testcar/docs/ACCEPTANCE.md`、`testcar/MIGRATION_HANDOFF.md`。
 
 - 独立开发分支：`development/cloud-maz543a-20260930`
-- 最近已核实发布的HEAD：`3a7bd1322b6b72f3d8168ab16c935cdc55b5035f`（胎字放大图重放22文本已实读，实图已交付并逐像素核回；Git模型实体仍cc47bf6）
-- 该提交根树：`508a266130aaacc7fcb7239e022ec948cfe02407`
+- 最近已核实发布的HEAD：`2a825d415e068d58bab99b6533f70a00bc53725d`（8轮站绑定修复32文本已逐字实读，实际主/worker共用viewport已接入；Git模型实体仍cc47bf6）
+- 该提交根树：`b511e613124cf3e83df4e3228edfb24d9d642b11`
 - 插件原生Git对象发布后远端ref/tree/parent及文件字节已核实，本地分支已对齐
 - 原迁移分支保持：`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`
 - `migration/cloud-handoff/DELIVERY_STATE.json`确认完整快照，无待迁移文件；
@@ -86,6 +86,33 @@
 | 对应Textured候选 | `testcar/outputs/cloud-va180-textured-20261001/MAZ543A_Textured.blend`；`6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266` |
 | 开发专用GLB候选 | `testcar/public/models/review/maz543a-cab-va180-v1.glb`；`fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e` |
 | 独立TEM15前脸iteration02 | `testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/study.blend`；`a65ec84c7a03de257ad5971b9675bd4d83c5515a6429875e6d02418c760b3def` |
+
+## 2026-10-02 09:04 UTC：真实Textured轮组只读，首次UV复读门仍BLOCKED
+
+- 单次真实6e406e源读取15.979524秒，child/wrapper exit1、未超时、确认退出。
+  173结构对象/132几何摘要及全8518对象简要逆依赖已读；源99960163B及SHA前后不变，
+  没有Apply、改父级、保存、导出或渲染。frame0显式求值，不是任意时间线资格。
+- 72前轮字模全是MESH且modifier=0，原SOURCE_FONT/profile在该Textured内不存在；
+  旧构造脚本确实用evaluated mesh快照导入，不应复用Master的72 Apply。拟移动子树
+  精确160对象/128MESH，另4kingpin及其支承/祖先合计173结构；不套Master776计数。
+- 128拟移动几何在同进程复读保持；8518对象身份/矩阵、原材质记录保持，源SHA保持。
+  限定逆依赖扫描0外部引用、0不可读项；包含modifier ID-property覆盖、constraint
+  嵌套target、对象/数据/material/world driver与node引用，未知粒子/pose/非简单
+  driver显式拒绝；不是任意插件handler/缓存/非ID链或渲染位移的普遍证明。
+- 唯一拒绝：4个S543_i_steering_kingpin的evaluated authored_geometry_uv和uv_layers
+  摘要在同进程复读时变化。其他记录的几何位置/索引/拓扑/材料字段不变；法线本项
+  未记录，第二次完整摘要及UV数组也未保存，因此不能给数值幅度或根因。首次
+  READ_ONLY_INTAKE_BLOCKED保留，不移除4件、不白名单UV、不放宽原门。
+- 四原简化鼓实际均148顶点，100环顶点拟合半径0.335000023m、宽约0.130000101m，
+  圆心/残差及4kingpin竖轴符合原作者参数的2µm门；不是厂家鼓内腔/轴承配合认证。
+  原850导出名完全一致，当前参考的261几何/321pose原本没有轮组原生数据。
+- `testcar/work/cloud-textured-wheel-intake-20261002/`保留准备与唯一实际读取27原
+  文本1673455B、执行脚本/输入/终态/原日志；普通JSON表可精确恢复所有文本与源清单，
+  已独立逐字核对。没有新增模型资产、图片或LFS实体。实际运行前后观察HEAD2a825d4，
+  准备引用的原证据仍固定Git3a7bd132，二者明确区分。
+- 下一项只聚焦4kingpin实际材质的UV使用路径及读数差异/法线，不重复全车读取。
+  原首次失败保存后再设计最小诊断，不能由这4个Textured对象推断先前Master301
+  摘要同因；父链移植、导出合并/网页、原厂外倾/转向CV及16项整车门仍OPEN。
 
 ## 2026-10-02 08:37 UTC：修复网页缺轮时的轮站错配
 

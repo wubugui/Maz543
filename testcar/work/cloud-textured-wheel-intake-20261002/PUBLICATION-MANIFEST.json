@@ -1,0 +1,76 @@
+{
+  "files": [
+    {
+      "path": "INTAKE-FINAL-MANIFEST.json",
+      "bytes": 4578,
+      "sha256": "e07925cdd34d2acd27908bdb702b909a1bb627b05f2adbc4994017b54117a074"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2465,
+      "sha256": "d3b8992717d9936be26176d477f51dfafae4d878737a96abe6cfbb3181592607"
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 4953,
+      "sha256": "0462cdefd0ff91f48c4c9aaf51d32de68a6ed75aa7c0871da4e5e34ccf236675"
+    },
+    {
+      "path": "pack-wheel-interface-evidence.py",
+      "bytes": 4630,
+      "sha256": "2334d0734b5e6edbd289692be6d4c8da50daba4b3f770142400971c75091a11d"
+    },
+    {
+      "path": "package-index.json",
+      "bytes": 7689,
+      "sha256": "2346fa5e6c166730d1b228d1968e5f4430ce0fff654075099ecb77c56a930e19"
+    },
+    {
+      "path": "package-intake-evidence.py",
+      "bytes": 11728,
+      "sha256": "2e836165c33064b8af02f8a9a71f26fa34d5e4697650dde70ed391bd19223c3b"
+    },
+    {
+      "path": "records-table/entries-000.json",
+      "bytes": 109998,
+      "sha256": "a325a5d6e961d719e129988a8ec5805c3fbf121238efdd73b169dd023a8f2498"
+    },
+    {
+      "path": "records-table/entries-001.json",
+      "bytes": 109988,
+      "sha256": "517345ce1df2a5e010fadaa453d4b5d96d1b331a45724e4bcab6057d7f197b6f"
+    },
+    {
+      "path": "records-table/entries-002.json",
+      "bytes": 109417,
+      "sha256": "8fb8c91e5b104fe3f5ab24c813189d8e46c5bafcdacb266cae83951f9e4be54d"
+    },
+    {
+      "path": "records-table/entries-003.json",
+      "bytes": 109991,
+      "sha256": "6227cd85f135395d3f4cdbdec6e20096e2360159ec050edd79204d054c870843"
+    },
+    {
+      "path": "records-table/entries-004.json",
+      "bytes": 61255,
+      "sha256": "4d2b211eb2bf11305e16b778d4b8d24cfa77738176ed78b1c3a72c64c56393c4"
+    },
+    {
+      "path": "records-table/manifest.json",
+      "bytes": 1306,
+      "sha256": "1330a764df56e6c106ce309f35b99d325a789ac83b812697f0522e26b67aa9ee"
+    },
+    {
+      "path": "sources/inspect-textured-wheels.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    },
+    {
+      "path": "sources/run-bounded.py",
+      "bytes": 8444,
+      "sha256": "3dd5e0b36909b87f89049109de6835401b1ba3dd378f30322651d2c4da245c96"
+    }
+  ],
+  "count": 14,
+  "bytes": 581275
+}
