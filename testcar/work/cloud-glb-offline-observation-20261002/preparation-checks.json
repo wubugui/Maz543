@@ -1,0 +1,101 @@
+{
+  "title": "离线GLB观察 / 待核对 / normal+joint FAIL / 16 OPEN",
+  "status": "PREPARED_NOT_EXECUTED",
+  "created_utc": "2026-10-02T20:48:04Z",
+  "prepared_files": {
+    "observation.json": {
+      "bytes": 1195,
+      "sha256": "bc421761337e074477dfe24611f2e4216cf34053adfc6546041cae8d09d884f7"
+    },
+    "run_observation.py": {
+      "bytes": 8602,
+      "sha256": "9eee0c1ea46238c3c61417566e9bbe63f36aba88a96fda491b881969e6a6ad9a"
+    },
+    "observe_glb.py": {
+      "bytes": 16185,
+      "sha256": "f59d8caf69b8666917b9d3a6e66c5509e275ed3f78aadcdf7649ae905314e1ee"
+    },
+    "README.md": {
+      "bytes": 6577,
+      "sha256": "3125e6d75169c8fc2119002beed016cab2206660be376d40bc3a4f4d3b202197"
+    }
+  },
+  "source_checks": {
+    "run_observation.py": {
+      "syntax": "PASS",
+      "blender_operator_calls": []
+    },
+    "observe_glb.py": {
+      "syntax": "PASS",
+      "blender_operator_calls": [
+        "bpy.ops.import_scene.gltf",
+        "bpy.ops.render.render"
+      ]
+    }
+  },
+  "runner_help": "PASS; argparse exited before launch",
+  "input_size_sha256": "PASS",
+  "blender_binary_sha256": "PASS",
+  "glb_resource_uris": "NONE; all buffers/images embedded",
+  "glb_counts": {
+    "nodes": 2675,
+    "meshes": 2374,
+    "materials": 34,
+    "images": 5,
+    "animations": 0
+  },
+  "extensions_used": [
+    "KHR_materials_transmission"
+  ],
+  "pure_projection_check": {
+    "source": "Actual pinned GLB JSON POSITION accessor min/max transformed through its complete default-scene TRS hierarchy; conservative boxes, not a rendered image or actual Blender import",
+    "visited_nodes": 2675,
+    "box_corners": 19248,
+    "bounds_blender": {
+      "min": [
+        -5.749101161956787,
+        -1.8629999607801437,
+        -0.003979163244366646
+      ],
+      "max": [
+        5.519999980926514,
+        1.8629999607801437,
+        2.994999885559082
+      ]
+    },
+    "views": {
+      "overview": {
+        "max_abs_ndc_xy": [
+          0.7796193174691938,
+          0.8456185275293677
+        ],
+        "distance": 15.132613719842068,
+        "all_accessor_box_corners_within_frame": true,
+        "sensor_fit": "VERTICAL"
+      },
+      "side": {
+        "max_abs_ndc_xy": [
+          0.8928571428571427,
+          0.3801772412620978
+        ],
+        "distance": 18.36318546625603,
+        "all_accessor_box_corners_within_frame": true,
+        "sensor_fit": "VERTICAL"
+      }
+    }
+  },
+  "not_run": [
+    "Blender process",
+    "GLB native import",
+    "Cycles render",
+    "Post-render guard",
+    "Browser QA"
+  ],
+  "qualification": {
+    "normal_joint": "FAIL_STATIC_NATIVE_TRANSPORT",
+    "issue_count": 2299,
+    "all16_vehicle_gates": "OPEN",
+    "browser_qa": "NOT_RUN",
+    "native_shader_equivalence": "NOT_ESTABLISHED"
+  }
+}

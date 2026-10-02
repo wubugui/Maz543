@@ -1,0 +1,40 @@
+{
+  "title": "离线GLB观察 / 待核对 / normal+joint FAIL / 16 OPEN",
+  "input": {
+    "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+    "bytes": 134267928,
+    "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+  },
+  "blender": {
+    "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "sha256": "e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe",
+    "version": "4.5.13",
+    "build_hash": "daeeeca98fb0"
+  },
+  "render": {
+    "engine": "CYCLES",
+    "device": "CPU",
+    "threads": 2,
+    "samples": 16,
+    "resolution": [1024, 640],
+    "denoising": false,
+    "view_transform": "AgX"
+  },
+  "execution": {
+    "wall_seconds_per_view": 900,
+    "heartbeat_seconds": 10,
+    "term_grace_seconds": 5,
+    "kill_grace_seconds": 5
+  },
+  "views_gltf": {
+    "overview": [-1.4, 0.72, 1.0],
+    "side": [0.0, 0.0, 1.0]
+  },
+  "qualification": {
+    "normal_joint": "FAIL_STATIC_NATIVE_TRANSPORT",
+    "issue_count": 2299,
+    "all16_vehicle_gates": "OPEN",
+    "browser_qa": "NOT_RUN",
+    "native_shader_equivalence": "NOT_ESTABLISHED"
+  }
+}
