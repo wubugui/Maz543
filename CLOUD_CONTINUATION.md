@@ -1,6 +1,6 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-02 09:04 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-02 09:43 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
@@ -30,8 +30,8 @@
 `testcar/docs/ACCEPTANCE.md`、`testcar/MIGRATION_HANDOFF.md`。
 
 - 独立开发分支：`development/cloud-maz543a-20260930`
-- 最近已核实发布的HEAD：`2a825d415e068d58bab99b6533f70a00bc53725d`（8轮站绑定修复32文本已逐字实读，实际主/worker共用viewport已接入；Git模型实体仍cc47bf6）
-- 该提交根树：`b511e613124cf3e83df4e3228edfb24d9d642b11`
+- 最近已核实发布的HEAD：`6944344fdaba65e5c1b95a088a573c1c4db2a902`（真实Textured首次intake16文本已逐字实读，原UV复读BLOCKED明确保留；Git模型实体仍cc47bf6）
+- 该提交根树：`fd0a9ee34e52bce7f73e31f343f373e2e61af51f`
 - 插件原生Git对象发布后远端ref/tree/parent及文件字节已核实，本地分支已对齐
 - 原迁移分支保持：`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`
 - `migration/cloud-handoff/DELIVERY_STATE.json`确认完整快照，无待迁移文件；
@@ -86,6 +86,34 @@
 | 对应Textured候选 | `testcar/outputs/cloud-va180-textured-20261001/MAZ543A_Textured.blend`；`6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266` |
 | 开发专用GLB候选 | `testcar/public/models/review/maz543a-cab-va180-v1.glb`；`fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e` |
 | 独立TEM15前脸iteration02 | `testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/study.blend`；`a65ec84c7a03de257ad5971b9675bd4d83c5515a6429875e6d02418c760b3def` |
+
+## 2026-10-02 09:43 UTC：5件最小诊断量化MetricUV差异，真实法线稳定
+
+- 仅原4kingpin+brakes_0003，原6e源一次打开、frame0三轮读；13.919930秒child/
+  wrapper0，确认退出、未超时，原SHA不变。没有修改/关闭modifier，没有Apply、
+  改父级、保存/导出或渲染。是完整诊断采集，不是机械或画面验收。
+- 四主销跨evaluated mesh返回的MetricUV有限数值变化为1–4 ULP，最大绝对差
+  2.384185791015625e-7 UV单位，不是NaN/Inf或符号零变化。阶段0的8组轮次比较
+  共2824个标量变化，全部3读取阶段共8472个变化记录；不是唯一loop数量。独立
+  从每条浮点值重建float32位型，逐条核对有限值绝对差和同符号uint32差，均相符。
+- 三轮的完整已读拓扑（含edge端点、loop→vertex/edge、polygon区间、triangle→
+  vertex/loop/polygon）、位置、真实corner/vertex/polygon normals、smooth/sharp/
+  seam与元数据逐位保持；五件raw前后保持，8518原对象身份/矩阵、材质保持。
+  同一evaluated mesh内，初读UV、读三角拓扑后、读真实法线后均相同；bulk与直接
+  RNA逐项读取float32位型相同。鼓对照无UV变化。不能唯一定位某个modifier/具体
+  舍入实现，也不能把三个样本当所有未来评估的误差上界。
+- 已实核4件共用S543_machined_steel的唯一5-node/4-link图：Object坐标明确接
+  Noise.Vector→Bump.Height→Principled.Normal→活动Surface，无Image/UV/Attribute/
+  Group节点或Displacement连接，Anisotropic=0。图与首次intake记录完全相同，
+  当前shader不读MetricUV；这仍不等于已验证图像一致或可放宽任意UV要求。
+- 首次6944344的exact-UV FAIL不改为PASS，不移除4个支承件、不添加通用UV容差
+  白名单，不把本结果外推为Master301条摘要同因。后续Textured父链候选将保持
+  原raw数据/所有部件，继续独立记录原4支承评估差异，并验证实际128个拟移动
+  网格及支承的几何/法线/矩阵；中性/刚体几何原2µm/20µm门不放宽。
+- `testcar/work/cloud-kingpin-uv-repeat-20261002/`保存23原文本5090519B，含
+  每个变化标量及loop/vertex/edge/polygon身份、真实法线/拓扑摘要、原生脚本/日志/
+  终态与独立数值复核；普通JSON引用表已独立恢复并逐字核全部23文本及源清单。
+  没有把blend/glb/png编码为文本，也没有新增LFS实体；16项整车门仍OPEN。
 
 ## 2026-10-02 09:04 UTC：真实Textured轮组只读，首次UV复读门仍BLOCKED
 
