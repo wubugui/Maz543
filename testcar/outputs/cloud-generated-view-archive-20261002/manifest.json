@@ -1,0 +1,165 @@
+{
+  "status": "ALL_11_ORIGINAL_PNG_BLOBS_CONFIRMED_PENDING_COMPLETE_REMOTE_READBACK",
+  "images": [
+    {
+      "path": "wheel/station0-neutral.png",
+      "source_relative_path": "maz-native-wheel-views-20261002/attempt-station0-neutral-01/wheel-neutral.png",
+      "bytes": 1178213,
+      "sha256": "7b173610175dbc2f894c1b8fc23708c0d1a090429701de1cb615938ffb8306a8",
+      "git_blob_sha1": "0ec66f31d11bd65dae3c2d10e3c2c9c5dbe8a736",
+      "dimensions": [
+        1100,
+        1000
+      ],
+      "mode": "RGB",
+      "decoded_rgba_sha256": "8e3f30361f93a5f10aaa9fd0b954ee53ff1a4475d112d4929a69af3f7e966650",
+      "status": "ORIGINAL_GENERATED_ENGINEERING_VIEW; historical candidate/iteration, not whole-vehicle acceptance"
+    },
+    {
+      "path": "wheel/station0-spin-0p731.png",
+      "source_relative_path": "maz-native-wheel-views-20261002/attempt-station0-spin-01/wheel-spin-0p731.png",
+      "bytes": 1178538,
+      "sha256": "1291eb1f34f4d40d15cb6fbf58c8995d572081f9324ecb5ba67e53d9cb1be8a2",
+      "git_blob_sha1": "0d3ff849a19ede74972af242e73f4ff76fce047e",
+      "dimensions": [
+        1100,
+        1000
+      ],
+      "mode": "RGB",
+      "decoded_rgba_sha256": "3bd1c8bb571028285b2c1bd4f90d1f533a25020c150fb9162af5a892413fa112",
+      "status": "ORIGINAL_GENERATED_ENGINEERING_VIEW; historical candidate/iteration, not whole-vehicle acceptance"
+    },
+    {
+      "path": "step/rejected-layout-side.png",
+      "source_relative_path": "maz-step-installation-fit-20261001/diagnostic-render/attempt-01/native/rejected-layout-side.png",
+      "bytes": 1315375,
+      "sha256": "c3be1592a5bb0ea467ff33ea30bdb01f2883cb16176a4b2b985ea5340b3458c7",
+      "git_blob_sha1": "cf972acc98a5cef88e642fb3f563956109e509a7",
+      "dimensions": [
+        1200,
+        840
+      ],
+      "mode": "RGBA",
+      "decoded_rgba_sha256": "1bb285e1996a3014126607517ec2524d9468608418312ba8106de87d530445f8",
+      "status": "ORIGINAL_GENERATED_ENGINEERING_VIEW; historical candidate/iteration, not whole-vehicle acceptance"
+    },
+    {
+      "path": "step/iteration01-oblique.png",
+      "source_relative_path": "maz-step-layout-study-20261001/iteration-01-oblique/native/oblique.png",
+      "bytes": 1623588,
+      "sha256": "8f8827630f5065be32f28459e333cb240f9fbe5921974427a67e32a2fee1e3fe",
+      "git_blob_sha1": "677928fdc3ff55a87dd4245df113ecfc47e92ad7",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "mode": "RGBA",
+      "decoded_rgba_sha256": "c6f7dca4e1a9a9c31022ae03fd5239c33d58f32256bce9e4df258c5e33254cda",
+      "status": "ORIGINAL_GENERATED_ENGINEERING_VIEW; historical candidate/iteration, not whole-vehicle acceptance"
+    },
+    {
+      "path": "step/iteration02-elevation.png",
+      "source_relative_path": "maz-step-layout-study-20261001/iteration-02-elevation/native/elevation.png",
+      "bytes": 1613160,
+      "sha256": "0081e97d3e0f548681f63cc4f8d118b453a1868d1e570fc646fa77350673ad53",
+      "git_blob_sha1": "b2cfa816dc4739356c28ff4e42391b312a52da88",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "mode": "RGBA",
+      "decoded_rgba_sha256": "06ee9b5352d8a60962ce4e6389ad98450998f3b082436d17ee520c4211fe21e7",
+      "status": "ORIGINAL_GENERATED_ENGINEERING_VIEW; historical candidate/iteration, not whole-vehicle acceptance"
+    },
+    {
+      "path": "step/iteration02-oblique.png",
+      "source_relative_path": "maz-step-layout-study-20261001/iteration-02-oblique/native/oblique.png",
+      "bytes": 1630258,
+      "sha256": "e370743200dbb45f5c8ad85d343238e8d907201dd066b6f558ac7da80a129394",
+      "git_blob_sha1": "4efaff229fbdd4c38c6235d91cfe69e178d03160",
+      "dimensions": [
+        1600,
+        1000
+      ],
+      "mode": "RGBA",
+      "decoded_rgba_sha256": "3989b44be04a78bfd7ba6fc63ceacf22a57d35649023171f7356c4dabffe69a0",
+      "status": "ORIGINAL_GENERATED_ENGINEERING_VIEW; historical candidate/iteration, not whole-vehicle acceptance"
+    },
+    {
+      "path": "tyre/neutral-letter-closeup.png",
+      "source_relative_path": "maz-tyre-letter-closeup-20261002/attempt-01/wheel-neutral.png",
+      "bytes": 1105956,
+      "sha256": "915c9d6985ad560e61c2e7ffe0c8ba02b815ff7699d0d65307eb1cb4fec28fa6",
+      "git_blob_sha1": "8f2bf5bcf91e3905debc8a15ce2a25330975a7d3",
+      "dimensions": [
+        1100,
+        1000
+      ],
+      "mode": "RGB",
+      "decoded_rgba_sha256": "b2e5273ba9084d3a33552cbfe6bcec003cbc1f4d6e139f07d4d88f5416f39870",
+      "status": "ORIGINAL_GENERATED_ENGINEERING_VIEW; historical candidate/iteration, not whole-vehicle acceptance"
+    },
+    {
+      "path": "rivet/iteration01-after.png",
+      "source_relative_path": "maz543-native-rivet-inspection/iteration-01/native-rivet-after.png",
+      "bytes": 898353,
+      "sha256": "a2a781dd3afca00c21637f850975df0ebffe6704d127564f710223ef66ed4c02",
+      "git_blob_sha1": "6217ac2685665ea0bf054867ce3a87f5910bee10",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "mode": "RGBA",
+      "decoded_rgba_sha256": "5ca74b347662a801b7261ff00f13749745f3d69354f463702d6384f3d27484f2",
+      "status": "ORIGINAL_GENERATED_ENGINEERING_VIEW; historical candidate/iteration, not whole-vehicle acceptance"
+    },
+    {
+      "path": "rivet/iteration01-before.png",
+      "source_relative_path": "maz543-native-rivet-inspection/iteration-01/native-rivet-before.png",
+      "bytes": 920155,
+      "sha256": "33e9c0ba8f67b8704d07b899ffef376897e9697c6c1db6659b10c022607fe69a",
+      "git_blob_sha1": "6b37e685d3f7381c03a5c397d0d1da9deacb2bad",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "mode": "RGBA",
+      "decoded_rgba_sha256": "d387adc8feb29af54933e907430348953f22df2c1557add5b880b730f6eac2ec",
+      "status": "ORIGINAL_GENERATED_ENGINEERING_VIEW; historical candidate/iteration, not whole-vehicle acceptance"
+    },
+    {
+      "path": "rivet/iteration02-after.png",
+      "source_relative_path": "maz543-native-rivet-inspection/iteration-02/native-rivet-after.png",
+      "bytes": 1090464,
+      "sha256": "3b0aed9f5f571803dd8ec23ab03841a89e0b97260c22aefa2d110a79296c9843",
+      "git_blob_sha1": "549d388706ec46a92c37b630c9e26046391a03c4",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "mode": "RGBA",
+      "decoded_rgba_sha256": "b0f38076924b77cb2793462974def254b482c5543b8d4e95f78e4c6c514c9d6a",
+      "status": "ORIGINAL_GENERATED_ENGINEERING_VIEW; historical candidate/iteration, not whole-vehicle acceptance"
+    },
+    {
+      "path": "rivet/iteration02-before.png",
+      "source_relative_path": "maz543-native-rivet-inspection/iteration-02/native-rivet-before.png",
+      "bytes": 1094170,
+      "sha256": "27bcb092edef9b30d630a5a1016dd9cf88ea7483e888f62529de70700024d0eb",
+      "git_blob_sha1": "a920b763d4f97f682cc23bef1aa0afbe78abd395",
+      "dimensions": [
+        1200,
+        900
+      ],
+      "mode": "RGBA",
+      "decoded_rgba_sha256": "4ed411d075452f4c510329509cd906c8d6c502f87f2609ffb4d66defdc0ba87b",
+      "status": "ORIGINAL_GENERATED_ENGINEERING_VIEW; historical candidate/iteration, not whole-vehicle acceptance"
+    }
+  ],
+  "image_count": 11,
+  "bytes": 13648230,
+  "transformation": "none; original PNG bytes",
+  "no_new_render": true,
+  "factory_or_acceptance_claim": false,
+  "manual_scans_excluded": true
+}

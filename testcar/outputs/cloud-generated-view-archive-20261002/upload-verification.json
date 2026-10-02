@@ -1,0 +1,95 @@
+{
+  "status": "ALL11_PLUGIN_BLOBS_CONFIRMED",
+  "upload_method": "GitHub plugin create_blob encoding=base64",
+  "files": [
+    {
+      "path": "wheel/station0-neutral.png",
+      "bytes": 1178213,
+      "git_blob_sha1": "0ec66f31d11bd65dae3c2d10e3c2c9c5dbe8a736",
+      "started_utc": "2026-10-02T15:58:47.335Z",
+      "finished_utc": "2026-10-02T15:58:50.162Z",
+      "elapsed_seconds": 2.827
+    },
+    {
+      "path": "wheel/station0-spin-0p731.png",
+      "bytes": 1178538,
+      "git_blob_sha1": "0d3ff849a19ede74972af242e73f4ff76fce047e",
+      "started_utc": "2026-10-02T15:58:47.358Z",
+      "finished_utc": "2026-10-02T15:58:51.280Z",
+      "elapsed_seconds": 3.922
+    },
+    {
+      "path": "step/rejected-layout-side.png",
+      "bytes": 1315375,
+      "git_blob_sha1": "cf972acc98a5cef88e642fb3f563956109e509a7",
+      "started_utc": "2026-10-02T15:58:48.014Z",
+      "finished_utc": "2026-10-02T15:58:52.414Z",
+      "elapsed_seconds": 4.4
+    },
+    {
+      "path": "step/iteration01-oblique.png",
+      "bytes": 1623588,
+      "git_blob_sha1": "677928fdc3ff55a87dd4245df113ecfc47e92ad7",
+      "started_utc": "2026-10-02T15:58:59.224Z",
+      "finished_utc": "2026-10-02T15:59:04.544Z",
+      "elapsed_seconds": 5.32
+    },
+    {
+      "path": "step/iteration02-elevation.png",
+      "bytes": 1613160,
+      "git_blob_sha1": "b2cfa816dc4739356c28ff4e42391b312a52da88",
+      "started_utc": "2026-10-02T15:58:58.923Z",
+      "finished_utc": "2026-10-02T15:59:01.854Z",
+      "elapsed_seconds": 2.931
+    },
+    {
+      "path": "step/iteration02-oblique.png",
+      "bytes": 1630258,
+      "git_blob_sha1": "4efaff229fbdd4c38c6235d91cfe69e178d03160",
+      "started_utc": "2026-10-02T15:58:59.246Z",
+      "finished_utc": "2026-10-02T15:59:03.139Z",
+      "elapsed_seconds": 3.893
+    },
+    {
+      "path": "tyre/neutral-letter-closeup.png",
+      "bytes": 1105956,
+      "git_blob_sha1": "8f2bf5bcf91e3905debc8a15ce2a25330975a7d3",
+      "started_utc": "2026-10-02T15:59:10.325Z",
+      "finished_utc": "2026-10-02T15:59:13.918Z",
+      "elapsed_seconds": 3.593
+    },
+    {
+      "path": "rivet/iteration01-after.png",
+      "bytes": 898353,
+      "git_blob_sha1": "6217ac2685665ea0bf054867ce3a87f5910bee10",
+      "started_utc": "2026-10-02T15:59:10.458Z",
+      "finished_utc": "2026-10-02T15:59:14.862Z",
+      "elapsed_seconds": 4.404
+    },
+    {
+      "path": "rivet/iteration01-before.png",
+      "bytes": 920155,
+      "git_blob_sha1": "6b37e685d3f7381c03a5c397d0d1da9deacb2bad",
+      "started_utc": "2026-10-02T15:59:10.321Z",
+      "finished_utc": "2026-10-02T15:59:12.805Z",
+      "elapsed_seconds": 2.484
+    },
+    {
+      "path": "rivet/iteration02-after.png",
+      "bytes": 1090464,
+      "git_blob_sha1": "549d388706ec46a92c37b630c9e26046391a03c4",
+      "started_utc": "2026-10-02T15:59:21.174Z",
+      "finished_utc": "2026-10-02T15:59:23.427Z",
+      "elapsed_seconds": 2.253
+    },
+    {
+      "path": "rivet/iteration02-before.png",
+      "bytes": 1094170,
+      "git_blob_sha1": "a920b763d4f97f682cc23bef1aa0afbe78abd395",
+      "started_utc": "2026-10-02T15:59:21.178Z",
+      "finished_utc": "2026-10-02T15:59:24.467Z",
+      "elapsed_seconds": 3.289
+    }
+  ],
+  "remote_readback_pending": true
+}

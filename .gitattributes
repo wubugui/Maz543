@@ -281,3 +281,16 @@
 "testcar/outputs/cloud-native-door-axis-20261002/source-parts/part-086.bin" -filter -diff -merge -text
 "testcar/outputs/cloud-native-door-axis-20261002/views/closed.png" -filter -diff -merge -text
 "testcar/outputs/cloud-native-door-axis-20261002/views/open99.png" -filter -diff -merge -text
+
+# Exact remaining original generated-view PNGs: ordinary Git through plugin.
+"testcar/outputs/cloud-generated-view-archive-20261002/wheel/station0-neutral.png" -filter -diff -merge -text
+"testcar/outputs/cloud-generated-view-archive-20261002/wheel/station0-spin-0p731.png" -filter -diff -merge -text
+"testcar/outputs/cloud-generated-view-archive-20261002/step/rejected-layout-side.png" -filter -diff -merge -text
+"testcar/outputs/cloud-generated-view-archive-20261002/step/iteration01-oblique.png" -filter -diff -merge -text
+"testcar/outputs/cloud-generated-view-archive-20261002/step/iteration02-elevation.png" -filter -diff -merge -text
+"testcar/outputs/cloud-generated-view-archive-20261002/step/iteration02-oblique.png" -filter -diff -merge -text
+"testcar/outputs/cloud-generated-view-archive-20261002/tyre/neutral-letter-closeup.png" -filter -diff -merge -text
+"testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration01-after.png" -filter -diff -merge -text
+"testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration01-before.png" -filter -diff -merge -text
+"testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration02-after.png" -filter -diff -merge -text
+"testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration02-before.png" -filter -diff -merge -text
