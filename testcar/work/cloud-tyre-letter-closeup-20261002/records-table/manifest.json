@@ -1,0 +1,87 @@
+{
+  "schema": "PLAIN_JSON_INTERFACE_TABLE_v1",
+  "root": 25817,
+  "entries": 25818,
+  "original_bytes": 2612169,
+  "original_sha256": "b8eee863b86bdd9e49f59f6c1632e32c73f1c7127cbbd6c6f4daf9444ef2125c",
+  "serialization": "Python json.dumps(indent=2, ensure_ascii=True) plus LF",
+  "shards": [
+    {
+      "file": "entries-000.json",
+      "start_index": 0,
+      "entries": 2056,
+      "bytes": 109980,
+      "sha256": "fd54d5560160175917be4517637b5cd2d5a7eb878a3ea21a695abc093f10a6c6"
+    },
+    {
+      "file": "entries-001.json",
+      "start_index": 2056,
+      "entries": 2690,
+      "bytes": 109960,
+      "sha256": "74e42d758a806bd20f2f14361b4dd4ef294641ea99ed759eb8f222adfd9564a1"
+    },
+    {
+      "file": "entries-002.json",
+      "start_index": 4746,
+      "entries": 2542,
+      "bytes": 109993,
+      "sha256": "7bc1355b72dced278e75cbff3fa4634c6c9501d71a67799b62ea00a2b7c49b58"
+    },
+    {
+      "file": "entries-003.json",
+      "start_index": 7288,
+      "entries": 2588,
+      "bytes": 109991,
+      "sha256": "f064b14e176f06829a5a7781f5e677e8d0619d8202a3d6793129fcf84bbf93a9"
+    },
+    {
+      "file": "entries-004.json",
+      "start_index": 9876,
+      "entries": 2421,
+      "bytes": 109986,
+      "sha256": "df87c174a47a9f546e23bd2e4512bbff53178710e71556f02070581c14cf05ad"
+    },
+    {
+      "file": "entries-005.json",
+      "start_index": 12297,
+      "entries": 2458,
+      "bytes": 109977,
+      "sha256": "cc3c5b22ed53cc849514108e38acb6c1b3ba736713117f6cb5100e791e07eec5"
+    },
+    {
+      "file": "entries-006.json",
+      "start_index": 14755,
+      "entries": 2429,
+      "bytes": 109976,
+      "sha256": "a72b9929ccbf7388817babd17e3a34bd147fc180ef966603238609b626318d9b"
+    },
+    {
+      "file": "entries-007.json",
+      "start_index": 17184,
+      "entries": 2424,
+      "bytes": 109980,
+      "sha256": "5898ccaff2202ff561f2f3b417bfe5c610e474d5b75594cadf5c296aa33b97d5"
+    },
+    {
+      "file": "entries-008.json",
+      "start_index": 19608,
+      "entries": 2419,
+      "bytes": 109984,
+      "sha256": "05997fe45fa942422c44464c652d13f48785ed2ccbf2bd1d38adbe1521c2c3dd"
+    },
+    {
+      "file": "entries-009.json",
+      "start_index": 22027,
+      "entries": 2434,
+      "bytes": 109986,
+      "sha256": "b22aec06dd85da46b18d7f0e7d809359ec771664cd269296d6aac121faa594c4"
+    },
+    {
+      "file": "entries-010.json",
+      "start_index": 24461,
+      "entries": 1357,
+      "bytes": 109399,
+      "sha256": "374f7f2f86d67be4a50841bb130e09751c87998bc67936d14e31e42f56da0272"
+    }
+  ]
+}

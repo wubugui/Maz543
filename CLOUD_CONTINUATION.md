@@ -1,6 +1,6 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-02 07:38 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-02 08:17 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
@@ -30,8 +30,8 @@
 `testcar/docs/ACCEPTANCE.md`、`testcar/MIGRATION_HANDOFF.md`。
 
 - 独立开发分支：`development/cloud-maz543a-20260930`
-- 最近已核实发布的HEAD：`cbd6a041668f2c7282c820f4ee67452e127ed718`（两实图完整成像证据46文本已读回，图片和阶段报告也已交付核回；Git模型实体仍cc47bf6）
-- 该提交根树：`07ec3c3d9ff64a21cc9a83333fb5baa2ef9709af`
+- 最近已核实发布的HEAD：`954b9c4eca16707071806ba5ef8c47596b03f323`（胎字只读证据21文本已实读，阶段报告已交付核回；Git模型实体仍cc47bf6）
+- 该提交根树：`500585a572c108472671496ba70883a64fcaebb6`
 - 插件原生Git对象发布后远端ref/tree/parent及文件字节已核实，本地分支已对齐
 - 原迁移分支保持：`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`
 - `migration/cloud-handoff/DELIVERY_STATE.json`确认完整快照，无待迁移文件；
@@ -86,6 +86,28 @@
 | 对应Textured候选 | `testcar/outputs/cloud-va180-textured-20261001/MAZ543A_Textured.blend`；`6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266` |
 | 开发专用GLB候选 | `testcar/public/models/review/maz543a-cab-va180-v1.glb`；`fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e` |
 | 独立TEM15前脸iteration02 | `testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/study.blend`；`a65ec84c7a03de257ad5971b9675bd4d83c5515a6429875e6d02418c760b3def` |
+
+## 2026-10-02 08:17 UTC：原生胎字放大观察完成
+
+- 同一站0中性原生重放109.641492秒exit0，实际HEAD954b9c4，方法验证仍属于66085d7。
+  原8e962d6源SHA前后不变；本次只18字模/1站操作，完整4站资格和全场景依赖保护保留，
+  不把一图作为新的4站机械验证。10246固定原矩阵最大误差0；20见证还原0；18源FONT/
+  Solidify/可见性和原材料/世界/对象身份最终检查通过，cleanup_errors为空。
+- 与先前全轮中性图相比，相机世界矩阵、灯光、材料、几何、分辨率和Cycles设置相同；
+  仅正交范围2.60m改为0.5432866216m，并做原生camera shift取景。实际1100×1000
+  图中1500x600-635与VI-203多数轮廓可读，末端仍被原车体件局部挡住。短放射杆与字形
+  明确是不同细节。不因先前单字约3–13px就扩大或重做字形；本图也不证明原厂字体/
+  尺寸、全字无遮挡或唯一渲染原因。原短阶干涉、外倾0°及简化鼓继续保留，16项OPEN。
+- 原PNG1105956B，SHA915c9d6985ad560e61c2e7ffe0c8ba02b815ff7699d0d65307eb1cb4fec28fa6，
+  已经授权渠道交付并实际回取：返回编码少511B，但全部RGBA像素完全相同。图片仍
+  不在Git/LFS；没有新blend/GLB，不发布缺失实体的LFS指针。
+- `testcar/work/cloud-tyre-letter-closeup-20261002/`保存19原文本1788790B及源清单，
+  用可读脚本/普通JSON表保留精确原字节。单独进程恢复并逐文件对照全部19文本及清单
+  完全一致。原始日志、心跳、源/runner/plan和原生终态均保留，不包含图片实体或私有
+  交付收据。取景前准备文档精确复制为reviewed-plan，明确它是事后归档副本。
+- 下一项：处理已定位的候选轮组导出和网页装配/绑定兼容。旧导出排除S543父层，旧网页
+  会清空suspension，且缺前轮时会压缩轮站索引；必须在独立候选范围改正，保持生产
+  资产/入口与原几何，先核真实Textured身份再构造，不默认Master对象等同Textured。
 
 ## 最近完成的小项、验证边界与证据
 
