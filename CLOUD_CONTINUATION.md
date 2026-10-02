@@ -1,6 +1,6 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-02 09:43 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-02 10:43 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
@@ -30,8 +30,8 @@
 `testcar/docs/ACCEPTANCE.md`、`testcar/MIGRATION_HANDOFF.md`。
 
 - 独立开发分支：`development/cloud-maz543a-20260930`
-- 最近已核实发布的HEAD：`6944344fdaba65e5c1b95a088a573c1c4db2a902`（真实Textured首次intake16文本已逐字实读，原UV复读BLOCKED明确保留；Git模型实体仍cc47bf6）
-- 该提交根树：`fd0a9ee34e52bce7f73e31f343f373e2e61af51f`
+- 最近已核实发布的HEAD：`b370f6847d094c2b31aaea1f41d1d1718bcc485b`（5件MetricUV/真实法线诊断18文本已完整实读；原UV intake仍BLOCKED，Git模型实体仍cc47bf6）
+- 该提交根树：`618a084f0119e0eb61d4061e3dbc74c9b434313c`
 - 插件原生Git对象发布后远端ref/tree/parent及文件字节已核实，本地分支已对齐
 - 原迁移分支保持：`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`
 - `migration/cloud-handoff/DELIVERY_STATE.json`确认完整快照，无待迁移文件；
@@ -86,6 +86,26 @@
 | 对应Textured候选 | `testcar/outputs/cloud-va180-textured-20261001/MAZ543A_Textured.blend`；`6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266` |
 | 开发专用GLB候选 | `testcar/public/models/review/maz543a-cab-va180-v1.glb`；`fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e` |
 | 独立TEM15前脸iteration02 | `testcar/outputs/cloud-tem15-face-study-20261001/iteration-02/study.blend`；`a65ec84c7a03de257ad5971b9675bd4d83c5515a6429875e6d02418c760b3def` |
+
+## 2026-10-02 10:43 UTC：Textured真实修复前置门拒9个原NODES，构造尚未开始
+
+- 首次真实Textured前4轮修复trial在10.756761秒child/wrapper1终态；CPU2，未超时，
+  子进程退出与原6e SHA不变均实核。已完成原160对象/128网格的身份及逆依赖intake；
+  新增全场时间线前置门在原舱盖/风挡9个NODES处拒绝，未创建joint、改父级/旋转
+  模式、改action、保存、导出或渲染。不是完成模型，不把失败回写为PASS。
+- 拟定的原生操作只新增4个EMPTY关节框、重接原carrier/固定制动器与4鼓、保留但
+  分离8个旧父坐标action，并把4spin设为XYZ以使用原Euler动作；不Apply已烘焙的
+  72 Textured字模，不构造替代FONT。实际几何/动作样本、保存和fresh-open均未到达。
+- 拒绝对象为BL_Front_cover_front_panel，以及左右各一的BL_Front_windshield_gasket、
+  BL_Front_windshield_glass、TOOL_Windshield_gasket_inner、TOOL_Windshield_opening。
+  不默认白名单NODES；下一步静态核已有精确cab配置和实际图的时间/Simulation依赖。
+  旧配置的stationary VIEWPORT资格不能直接扩成全场时间线资格。
+- 为相对资源恢复原路径语义，已把原6e已有LFS缓存实体逐字节恢复到其正确跟踪路径
+  testcar/outputs/cloud-va180-textured-20261001/MAZ543A_Textured.blend；99960163B/SHA相同，
+  工作树保持原跟踪内容，没有认证/网络调用或新增LFS。没有新二进制资产。
+- testcar/work/cloud-textured-wheel-trial01-20261002/保存24原文本1674758B，包括失败
+  原生日志、输入、脚本、完整intake和进程终态；普通JSON引用表独立还原全部文本及
+  final清单并逐字节核对。原exact132 UV失败继续BLOCKED；16项整车门仍OPEN。
 
 ## 2026-10-02 09:43 UTC：5件最小诊断量化MetricUV差异，真实法线稳定
 

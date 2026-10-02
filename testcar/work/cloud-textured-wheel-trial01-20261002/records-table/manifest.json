@@ -1,0 +1,38 @@
+{
+  "schema": "PLAIN_JSON_INTERFACE_TABLE_v1",
+  "root": 5537,
+  "entries": 5538,
+  "original_bytes": 1985202,
+  "original_sha256": "b44f23370232414ca7394fd1debe7f72ca635a025dd136ccbb37088f18f02778",
+  "serialization": "Python json.dumps(indent=2, ensure_ascii=True) plus LF",
+  "shards": [
+    {
+      "file": "entries-000.json",
+      "start_index": 0,
+      "entries": 2211,
+      "bytes": 108815,
+      "sha256": "125d7adf6c9768875cb5e5f5f0e955e2f89938c9465ebcb4732fa3bff049fc2f"
+    },
+    {
+      "file": "entries-001.json",
+      "start_index": 2211,
+      "entries": 1205,
+      "bytes": 109778,
+      "sha256": "616daf7d335edc9fc33de7f083943328feaf53fceeb601b5e95a0dd256e6b565"
+    },
+    {
+      "file": "entries-002.json",
+      "start_index": 3416,
+      "entries": 1202,
+      "bytes": 109971,
+      "sha256": "7f93671579e4bc1d6b29b3cc0b972663bf340b89a03d4b5dd4f2a6cef6474980"
+    },
+    {
+      "file": "entries-003.json",
+      "start_index": 4618,
+      "entries": 920,
+      "bytes": 108523,
+      "sha256": "960a688b04d1f400206a3bef3cf74b4cfd11e5b5564a1fe92b6e99f6bac0a79f"
+    }
+  ]
+}

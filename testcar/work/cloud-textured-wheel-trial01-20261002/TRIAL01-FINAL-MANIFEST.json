@@ -1,0 +1,128 @@
+{
+  "status": "TRIAL_01_BLOCKED_BEFORE_CONSTRUCTION",
+  "text_record_count": 24,
+  "text_bytes": 1674758,
+  "text_records": [
+    {
+      "path": "PREPARATION-MANIFEST.json",
+      "bytes": 1171,
+      "sha256": "bef7362773b56ddc9d7c0c408cc7f3e7133ac75d98e90635050e54a75bcf6b10"
+    },
+    {
+      "path": "build-trial.py",
+      "bytes": 15764,
+      "sha256": "135171151ebb02bd212992859d7d56dad37a475f6d2a519e3d481cf32d4b818f"
+    },
+    {
+      "path": "expected-snapshots-000.json",
+      "bytes": 84550,
+      "sha256": "29363bcae8018163f147e4d6c5bd8d7e431d92df9d7dcbf85080ec7d81f28abb"
+    },
+    {
+      "path": "expected-snapshots-001.json",
+      "bytes": 84314,
+      "sha256": "3dfe27755f40add88b60ea3267bb84d223f02ff65f38c2f19d2059e8ce4deee8"
+    },
+    {
+      "path": "expected-snapshots-002.json",
+      "bytes": 21819,
+      "sha256": "9327b4131ff5f9adff1663423072039fabdab6ebe96873b89ff6fbc92eaf6ace"
+    },
+    {
+      "path": "inputs.json",
+      "bytes": 50969,
+      "sha256": "a5784a0f71f32d332a98451bc33b97aba754d591da6fe28d89fba70a3cf1e3c6"
+    },
+    {
+      "path": "intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    },
+    {
+      "path": "run-bounded.py",
+      "bytes": 8033,
+      "sha256": "6b58383ef907dc9a74c849017ef03adf1e315f0ebc0f9dc5b2a87f83aaa1e1d1"
+    },
+    {
+      "path": "trial-01/PREPARATION-MANIFEST.json",
+      "bytes": 1171,
+      "sha256": "bef7362773b56ddc9d7c0c408cc7f3e7133ac75d98e90635050e54a75bcf6b10"
+    },
+    {
+      "path": "trial-01/build-trial.py",
+      "bytes": 15764,
+      "sha256": "135171151ebb02bd212992859d7d56dad37a475f6d2a519e3d481cf32d4b818f"
+    },
+    {
+      "path": "trial-01/dependency-index.json",
+      "bytes": 38969,
+      "sha256": "470370ae5f86eb582bdd6484181e6fa0d57648db82e7535341df911fc202eab8"
+    },
+    {
+      "path": "trial-01/expected-snapshots-000.json",
+      "bytes": 84550,
+      "sha256": "29363bcae8018163f147e4d6c5bd8d7e431d92df9d7dcbf85080ec7d81f28abb"
+    },
+    {
+      "path": "trial-01/expected-snapshots-001.json",
+      "bytes": 84314,
+      "sha256": "3dfe27755f40add88b60ea3267bb84d223f02ff65f38c2f19d2059e8ce4deee8"
+    },
+    {
+      "path": "trial-01/expected-snapshots-002.json",
+      "bytes": 21819,
+      "sha256": "9327b4131ff5f9adff1663423072039fabdab6ebe96873b89ff6fbc92eaf6ace"
+    },
+    {
+      "path": "trial-01/inputs.json",
+      "bytes": 50969,
+      "sha256": "a5784a0f71f32d332a98451bc33b97aba754d591da6fe28d89fba70a3cf1e3c6"
+    },
+    {
+      "path": "trial-01/intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    },
+    {
+      "path": "trial-01/launch.json",
+      "bytes": 1619,
+      "sha256": "5839e595a04cd3f9b78dd731f98e3b1eda01d042895f8430a94f069eaf3624cd"
+    },
+    {
+      "path": "trial-01/materials.json",
+      "bytes": 94040,
+      "sha256": "434c86c012d91d4a9005a828a7014bf5e0437f2e3ac997b0b3f89681922eb177"
+    },
+    {
+      "path": "trial-01/native-report.json",
+      "bytes": 1667,
+      "sha256": "fc833d62e140ff6538d31c99bd9a476d31bfaedc3b76e8e1cbc54017f750f112"
+    },
+    {
+      "path": "trial-01/objects.json",
+      "bytes": 885939,
+      "sha256": "30827d5a79dc4a96c7b9984ebad5a1a05be72fe6c7cd1251ffdf5c9147ca36a1"
+    },
+    {
+      "path": "trial-01/preflight-summary.json",
+      "bytes": 46427,
+      "sha256": "8592252dee3fae63d60272c9e4724a108c5fdc00bca06c83858d15ef72f0b269"
+    },
+    {
+      "path": "trial-01/process.json",
+      "bytes": 2037,
+      "sha256": "3848e2e53dd5580428a1b3d30c7104b8f7ab416802c70dfc28ed4fa96a50e21e"
+    },
+    {
+      "path": "trial-01/run-bounded.py",
+      "bytes": 8033,
+      "sha256": "6b58383ef907dc9a74c849017ef03adf1e315f0ebc0f9dc5b2a87f83aaa1e1d1"
+    },
+    {
+      "path": "trial-01/run.log",
+      "bytes": 1154,
+      "sha256": "3aeb32aac7767e11eed18d6cdcd6f3986e9e607c8b364e6f7b4f5512047aa594"
+    }
+  ],
+  "asset_output_count": 0
+}
