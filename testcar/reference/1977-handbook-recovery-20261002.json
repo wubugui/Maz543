@@ -1,0 +1,38 @@
+{
+  "date_utc": "2026-10-02",
+  "status": "EXACT_EXISTING_HANDBOOK_RECOVERED_NOT_NEW_INSTALLATION_EVIDENCE",
+  "title": "Колесное шасси МАЗ-543 и его модификации. Техническое описание и инструкция по эксплуатации",
+  "edition_and_year": "Third edition, 1977, inherited from the existing verified reference record; title page not newly decoded in this pass",
+  "public_index": "https://teharmy.com/books/",
+  "public_book": "https://drive.google.com/file/d/1quwh1UlmlDyw-WHAIPwLYbylRmNDXUr1/view?usp=drivesdk",
+  "bytes": 11405399,
+  "sha256": "cf8ebb65dcbfca6dd3b6c55a3174cfe9d628a206cb8c846eceee0041a2bb1bde",
+  "matches_previously_recorded_source_sha256": true,
+  "acquisition": "Authorized read-only public-book retrieval completed and complete local bytes hashed",
+  "iff_form_type_counts": {
+    "DJVM": 1,
+    "DJVU": 240,
+    "DJVI": 29
+  },
+  "iff_chunk_counts": {
+    "FORM": 270,
+    "DIRM": 1,
+    "INFO": 240,
+    "CIDa": 240,
+    "Sjbz": 240,
+    "FG44": 10,
+    "BG44": 40,
+    "TXTz": 240,
+    "Djbz": 29,
+    "INCL": 232
+  },
+  "iff_container_length_overruns": 0,
+  "uncompressed_text_or_jpeg_page_chunks_found": false,
+  "decoder_free_limit": "All 240 text layers are TXTz. Image layers are Sjbz/FG44/BG44 with Djbz dictionaries. No TXTa, BGjp or FGjp chunks were found. Compressed layers were not decoded.",
+  "page_mapping_limit": "240 DJVU forms are scan units, not an established printed-page count; spread-to-printed-page mapping remains unverified in this pass.",
+  "newly_inspected_book_pixels": false,
+  "newly_read_book_text": false,
+  "installation_gap": "No newly verified lower-step mounting coordinates, dimensions, support construction, or exact target-batch applicability. The cab chapter and its figures remain to be decoded and visually checked; detail/hardpoint documentation may still be necessary.",
+  "new_software_installed": false,
+  "book_pixels_published": false
+}
