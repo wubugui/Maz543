@@ -1,0 +1,18 @@
+{
+  "status": "VIEW01_SIGKILL_UNKNOWN_CAUSE",
+  "exit_code": -9,
+  "wrapper_code": 1,
+  "elapsed_seconds": 20.290426389998174,
+  "peak_child_rss_kib": 1992300,
+  "timed_out": false,
+  "png_count": 0,
+  "native_final_report_present": false,
+  "source_unchanged": true,
+  "later_exec_observation": {
+    "rlimit_CPU_AS_RSS_DATA": "unlimited",
+    "cgroup_path": "0::/",
+    "cgroup_memory_files": "not exposed at /sys/fs/cgroup in the later exec namespace",
+    "scope": "Later exec observations do not prove the terminated child resource limits or the cause of SIGKILL"
+  },
+  "next_trial": "Same pinned source and render script via desktop terminal, same CPU2 and child240/cleanup3 bounds; separate view-02; no changed geometry/material/resolution/quality gates"
+}

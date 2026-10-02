@@ -1,0 +1,111 @@
+{
+  "schema": "MAZ_ACTUAL_TEXTURED_NODE_READ_TEXT_PUBLICATION_v1",
+  "source_manifest": {
+    "path": "NODE-ARCHIVE-MANIFEST.json",
+    "bytes": 1611,
+    "sha256": "6d34f43726831c2e860c10089020856e52bcea644cda0c08174402fdcf73f4dc"
+  },
+  "original_text_record_count": 10,
+  "original_text_bytes": 266636,
+  "asset_bytes_included": 0,
+  "codec": {
+    "file": "pack-wheel-interface-evidence.py",
+    "sha256": "2334d0734b5e6edbd289692be6d4c8da50daba4b3f770142400971c75091a11d"
+  },
+  "table": {
+    "folder": "records-table",
+    "manifest_sha256": "c8bd30a6c7bfacf710abfed7bed7ca1be9e66c52d051f1e0d4e081e0d219a4c6"
+  },
+  "records": [
+    {
+      "path": "READ-FINAL-MANIFEST.json",
+      "bytes": 1450,
+      "sha256": "61aa439f8d09280230d877752bc0b1409db498435c4e761fdd4b285db48bd342",
+      "storage": {
+        "kind": "json-pretty2-utf8-lf",
+        "payload_index": 0
+      }
+    },
+    {
+      "path": "READ-RESULT.json",
+      "bytes": 974,
+      "sha256": "2febd9367b31473fe1ad4feaf7cb7de040e06ca151ba96cf53fc50038c11aeea",
+      "storage": {
+        "kind": "json-pretty2-utf8-lf",
+        "payload_index": 1
+      }
+    },
+    {
+      "path": "read-01/launch.json",
+      "bytes": 833,
+      "sha256": "cb41fbf9f948b21de011425d658d970003926d594ae7964b1dfcc08ddb678370",
+      "storage": {
+        "kind": "json-pretty2-utf8-lf",
+        "payload_index": 2
+      }
+    },
+    {
+      "path": "read-01/native-report.json",
+      "bytes": 245776,
+      "sha256": "342f33b0f6d6dd6be42490faa863a1a66f3fecde648d76103a21b1e98eefea48",
+      "storage": {
+        "kind": "json-pretty2-utf8-lf",
+        "payload_index": 3
+      }
+    },
+    {
+      "path": "read-01/process.json",
+      "bytes": 1210,
+      "sha256": "ce2ff713a6b68425f162aa982607fa58829deb51e7bee17d63c00c23f5e19f51",
+      "storage": {
+        "kind": "json-pretty2-utf8-lf",
+        "payload_index": 4
+      }
+    },
+    {
+      "path": "read-01/read-nodes.py",
+      "bytes": 4911,
+      "sha256": "e762a2b491255d50bf57c1b1405d4ec02cdb91b132848bea761a147463e40904",
+      "storage": {
+        "kind": "readable-source",
+        "file": "sources/read-nodes.py"
+      }
+    },
+    {
+      "path": "read-01/run-read.py",
+      "bytes": 3159,
+      "sha256": "b4dbb334b9befeb9980173572fb35ce403ff1ec4df10da5bca70af9fab19343d",
+      "storage": {
+        "kind": "readable-source",
+        "file": "sources/run-read.py"
+      }
+    },
+    {
+      "path": "read-01/run.log",
+      "bytes": 253,
+      "sha256": "ad959a1a200b8e2877d89f47e15eaff3c0b61e65791de701c29ee9988d20666b",
+      "storage": {
+        "kind": "literal-pipe-lines",
+        "payload_index": 5
+      }
+    },
+    {
+      "path": "read-nodes.py",
+      "bytes": 4911,
+      "sha256": "e762a2b491255d50bf57c1b1405d4ec02cdb91b132848bea761a147463e40904",
+      "storage": {
+        "kind": "readable-source",
+        "file": "sources/read-nodes.py"
+      }
+    },
+    {
+      "path": "run-read.py",
+      "bytes": 3159,
+      "sha256": "b4dbb334b9befeb9980173572fb35ce403ff1ec4df10da5bca70af9fab19343d",
+      "storage": {
+        "kind": "readable-source",
+        "file": "sources/run-read.py"
+      }
+    }
+  ]
+}

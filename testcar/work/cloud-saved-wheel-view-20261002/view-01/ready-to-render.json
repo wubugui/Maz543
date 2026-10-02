@@ -1,0 +1,168 @@
+{
+  "status": "VIEW_IN_PROGRESS",
+  "source_sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea",
+  "source_delivery": "LOCAL_ONLY_LFS_BLOCKED",
+  "saved_model": false,
+  "mechanical_pose_changed": false,
+  "timeline_advanced": false,
+  "all16_vehicle_gates": "OPEN",
+  "scope": "One frame0 native view of already saved candidate. No replay of construction and no mechanical, timeline, export or browser acceptance.",
+  "image_resource_check": [
+    {
+      "name": "COOL_lower_cast_normal.002",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "COOL_lower_cast_roughness.002",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "COOL_upper_cast_normal.002",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "COOL_upper_cast_roughness.002",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "factory-543a-profile.jpg",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "maz543a-5.jpg",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "MAZ543A-museum-front.jpg",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "MAZ543A_BaseColor",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "MAZ543A_Normal",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "MAZ543A_ORM",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "MN1_20mm_woven_insulation_normal.002",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "museum-front-oblique.jpg",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "museum-front.jpg",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "Render Result",
+      "source": "VIEWER",
+      "packed": false
+    },
+    {
+      "name": "S543_CastNormal",
+      "source": "FILE",
+      "packed": true
+    },
+    {
+      "name": "S543_CastRoughness",
+      "source": "FILE",
+      "packed": true
+    }
+  ],
+  "camera_world_matrix": [
+    [
+      -0.9910606741905212,
+      0.01390847098082304,
+      -0.13268497586250305,
+      -4.159999847412109
+    ],
+    [
+      -0.1334119439125061,
+      -0.10332047939300537,
+      0.9856602549552917,
+      6.387499809265137
+    ],
+    [
+      -4.7524338242510566e-08,
+      0.994550883769989,
+      0.1042524203658104,
+      1.5199999809265137
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "camera_matrix_max_difference_from_reference": 3.725290298461914e-09,
+  "camera_ortho_scale_m": 2.6,
+  "resolution": [
+    1100,
+    1000
+  ],
+  "cycles_samples": 12,
+  "additional_lights": [
+    {
+      "name": "WHEEL_VIEW_ONLY_KEY",
+      "world_position_m": [
+        -4.579999923706055,
+        3.7874999046325684,
+        3.25
+      ],
+      "watts": 650,
+      "disk_size_m": 1.7
+    },
+    {
+      "name": "WHEEL_VIEW_ONLY_FILL",
+      "world_position_m": [
+        -1.0799999237060547,
+        3.6875,
+        1.5499999523162842
+      ],
+      "watts": 220,
+      "disk_size_m": 2.0
+    }
+  ],
+  "original_lights_retained": true,
+  "original_geometry_visibility_retained": true,
+  "original_world_and_materials_retained": true,
+  "original_objects": 8522,
+  "tyre_projected_bounds": [
+    [
+      0.06102576106786728,
+      0.087298683822155,
+      4.95020055770874
+    ],
+    [
+      0.649281919002533,
+      0.7322030067443848,
+      5.747814655303955
+    ]
+  ],
+  "notes": [
+    "Original lower-step/body interference remains visible; no part is moved or hidden",
+    "Lettering may remain unreadable at this full-wheel scale",
+    "This is Textured candidate48dbc498, not the previous Master-based visualization"
+  ]
+}

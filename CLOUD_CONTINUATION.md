@@ -1,9 +1,42 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-02 10:59 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-02 12:32 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
+
+## 2026-10-02 12:32 UTC：轮候选文本外存已恢复，剩余只读/画面失败如实保存
+
+- 用户新的明确上传指令后，原第7分片按原目标/原字节成功；最初6个blob先逐字节
+  回读相同，没有重传。完整26路径1592703B已通过插件blob/tree/commit/nonforce ref
+  发布为a0997f7d38effe4539b18a15e2b281038a4aa3c5，根树d93daa115568dbb3bf68087d3564002413d9edc3、
+  parent5e36960f；全部26文件逐字实际读回。本地分支已CAS对齐该远端，原本地5508d7a
+  所代表的树完整交付；此前第7分片两次拒绝属于历史阻断，不再说本阶段文本未push。
+- 新100052636B、48dbc498候选实体仍仅云端，未上传LFS；脚本/验证已交付不等于
+  模型实体交付。不得只传缺失实体指针或擅改attributes绕行。此前报告与GUI启动的
+  两次拒绝保持各自停止，本次Git授权不被扩到那些动作。
+- 原6e的9个NODES只读实际13.658638秒正常exit0：8风挡图匹配旧13-node/15-link
+  精确局部条款；原前盖为14-node/16-link，实际幅值0.04500000178813934m，有3个
+  SMOOTHERSTEP和COSINE。9图无嵌套/group/object/data动画或bakes；场景无animation/
+  handlers/cache_files/刚体世界。8518对象身份/矩阵及源SHA保持；没有推进帧、修改/
+  保存模型、导出或渲染。仅图库存，既有全场时间线门仍BLOCKED，未泛化NODES权限。
+  testcar/work/cloud-textured-node-read-20261002/以普通JSON引用表保留10原文本266636B，
+  包含原9记录和其清单；已独立还原所有原文逐字节核对。
+- testcar/work/cloud-saved-wheel-view-20261002/保留下述未成图过程的16原文本40786B
+  及清单，逐字复制校验。它没有PNG/新blend输出，也没有把失败改写为成功。
+
+### 本地画面检查终态：2026-10-02 11:59 UTC
+
+- 对已保存48dbc498候选的frame0单图只读检查：15.526秒呈现前保护通过，随后
+  20.290秒子进程SIGKILL(-9)、wrapper1；不是240秒超时。峰RSS1992300KiB，
+  0 PNG、无native最终报告，源文件SHA保持。后续exec rlimit均unlimited且cgroup
+  内存事件不暴露，不能据此宣称OOM或平台时限。原失败保留，不自动重跑。
+- 拟在独立云桌面终端用同源/同脚本/同画面参数对照执行上下文，但实际启动工具
+  被自动审批首次及原参数一次授权重试均拒；保持停止，不第三次或换启动路线。
+  view-02目录/launch均不存在，未运行Blender。没有新实体或实图，也没有重发旧图。
+- 同级maz-saved-wheel-view-20261002保留呈现脚本、runner、准备、view-01原始
+  ready/log/heartbeat/process及GUI未启动状态。原四轮模型构造和fresh-open结论
+  不受此独立画面失败改写；当前图像/外存阻碍仍须如实保留。
 
 ## 开工与完成一项时的固定流程
 
@@ -30,8 +63,8 @@
 `testcar/docs/ACCEPTANCE.md`、`testcar/MIGRATION_HANDOFF.md`。
 
 - 独立开发分支：`development/cloud-maz543a-20260930`
-- 最近已核实发布的HEAD：`5e36960fe16f727bbd5d4ff9cce57e846217b0c5`（Textured trial01前置失败14文本已完整实读；原UV intake仍BLOCKED，Git模型实体仍cc47bf6）
-- 该提交根树：`fe29ea52b6321ce5389149a1d40171374393e34d`
+- 最近已核实发布的HEAD：`a0997f7d38effe4539b18a15e2b281038a4aa3c5`（Textured前4轮保存/fresh-open的26文本1592703B已完整实读；新100MB模型实体仍未上传，原UV/时间线仍BLOCKED）
+- 该提交根树：`d93daa115568dbb3bf68087d3564002413d9edc3`
 - 插件原生Git对象发布后远端ref/tree/parent及文件字节已核实，本地分支已对齐
 - 原迁移分支保持：`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`
 - `migration/cloud-handoff/DELIVERY_STATE.json`确认完整快照，无待迁移文件；

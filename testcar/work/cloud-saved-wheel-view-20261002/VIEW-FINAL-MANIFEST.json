@@ -1,0 +1,88 @@
+{
+  "status": "NO_COMPLETED_IMAGE",
+  "records": [
+    {
+      "path": "PREPARATION-UI.json",
+      "bytes": 655,
+      "sha256": "2b062a75d24555ccf3ff09b14def56b795bf114d30ac4c0b8c27fe04795bdf98"
+    },
+    {
+      "path": "PREPARATION.json",
+      "bytes": 527,
+      "sha256": "2e75b5b0f8f33cdcf3349a577f4cb06406c4202c6ae590b773065f0f0d16abe5"
+    },
+    {
+      "path": "VIEW01-OUTCOME.json",
+      "bytes": 765,
+      "sha256": "609436e3e7e2ab826e9e9da8fba2e0cc7f478ededd659ccb9473f1fd976fc4bb"
+    },
+    {
+      "path": "VIEW02-STATUS.json",
+      "bytes": 370,
+      "sha256": "7e185c7b67cbd60cfc6ef8b02fa50140b18d267c98de3dae00eb8e953fb2bb26"
+    },
+    {
+      "path": "render-saved-view.py",
+      "bytes": 8580,
+      "sha256": "ee15145cf83982f6bf3fcdf1b6f53fb829eed9c71a186acc885178d5150c22d0"
+    },
+    {
+      "path": "run-view-ui.py",
+      "bytes": 4728,
+      "sha256": "dfa30f5de5435c965af8dbcf5fcc62eb4b4f4366b1073c8a412eb864b569853e"
+    },
+    {
+      "path": "run-view.py",
+      "bytes": 4651,
+      "sha256": "7e7646aaa58aeb493464ea4371c7038e6cfaf9c2eebca5acf74e8804c7f5273d"
+    },
+    {
+      "path": "view-01/PREPARATION.json",
+      "bytes": 527,
+      "sha256": "2e75b5b0f8f33cdcf3349a577f4cb06406c4202c6ae590b773065f0f0d16abe5"
+    },
+    {
+      "path": "view-01/heartbeat.jsonl",
+      "bytes": 137,
+      "sha256": "bc426a7725624cd4e4132f632806100f4d434e2ceda21c508a6959eb63371ac8"
+    },
+    {
+      "path": "view-01/launch.json",
+      "bytes": 1190,
+      "sha256": "96da3058dee10f0fc8ff6e879f62173182b5c8b31d14111c104ab982778e9b91"
+    },
+    {
+      "path": "view-01/phase.jsonl",
+      "bytes": 93,
+      "sha256": "b8de069189fbcda02a2515b537be229dbb1a4bad8265ada204cbcd73bf26fa28"
+    },
+    {
+      "path": "view-01/process.json",
+      "bytes": 1528,
+      "sha256": "e3fbbf8c3c493f0d57f0139f7ba7c6c783b7dde862b16ab8440cdc98b45dffea"
+    },
+    {
+      "path": "view-01/ready-to-render.json",
+      "bytes": 3705,
+      "sha256": "f8a8dcef2db12bac71b7d8281096f173327526fe84c221853033ef2ea2814b36"
+    },
+    {
+      "path": "view-01/render-saved-view.py",
+      "bytes": 8580,
+      "sha256": "ee15145cf83982f6bf3fcdf1b6f53fb829eed9c71a186acc885178d5150c22d0"
+    },
+    {
+      "path": "view-01/run-view.py",
+      "bytes": 4651,
+      "sha256": "7e7646aaa58aeb493464ea4371c7038e6cfaf9c2eebca5acf74e8804c7f5273d"
+    },
+    {
+      "path": "view-01/run.log",
+      "bytes": 99,
+      "sha256": "0068f4fbb512c06ee73adf667c74dc59362aae4541e1a20f4f64e467ed4db830"
+    }
+  ],
+  "model_outputs": 0,
+  "image_outputs": 0,
+  "total_bytes": 40786
+}

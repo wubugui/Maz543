@@ -1,0 +1,32 @@
+{
+  "status": "RUNNING",
+  "command": [
+    "taskset",
+    "-c",
+    "0,1",
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "2",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-saved-wheel-view-20261002/view-01/render-saved-view.py",
+    "--",
+    "/workspace/scratch/a29d03198654/maz-saved-wheel-view-20261002/view-01"
+  ],
+  "handoff_note": "2026-10-02 11:48 UTC: Aether north source confirmed terminal and explicitly released CPU2 window for one unchanged frame0 MAZ candidate view.",
+  "source_sha256_before": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea",
+  "script_sha256": "ee15145cf83982f6bf3fcdf1b6f53fb829eed9c71a186acc885178d5150c22d0",
+  "runner_sha256": "7e7646aaa58aeb493464ea4371c7038e6cfaf9c2eebca5acf74e8804c7f5273d",
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "child_execution_budget_seconds": 240,
+  "cleanup_budget_seconds": 3,
+  "budget_scope": "Own child wall time and cleanup; input hashing/final report I/O are outside this bound.",
+  "started_utc": "2026-10-02T11:49:13Z"
+}

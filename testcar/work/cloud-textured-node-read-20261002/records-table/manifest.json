@@ -1,0 +1,17 @@
+{
+  "schema": "PLAIN_JSON_INTERFACE_TABLE_v1",
+  "root": 389,
+  "entries": 390,
+  "original_bytes": 301302,
+  "original_sha256": "47901e7d986a1fb420b32fceb6832e5857a498d4d2e825b273d4fc2131801d99",
+  "serialization": "Python json.dumps(indent=2, ensure_ascii=True) plus LF",
+  "shards": [
+    {
+      "file": "entries-000.json",
+      "start_index": 0,
+      "entries": 390,
+      "bytes": 38012,
+      "sha256": "b0fd3adcdb1c4bba543c9e7bf13cf542f5320641636cf0295555df6822902711"
+    }
+  ]
+}

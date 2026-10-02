@@ -1,0 +1,56 @@
+{
+  "text_record_count": 10,
+  "text_bytes": 266636,
+  "text_records": [
+    {
+      "path": "READ-FINAL-MANIFEST.json",
+      "bytes": 1450,
+      "sha256": "61aa439f8d09280230d877752bc0b1409db498435c4e761fdd4b285db48bd342"
+    },
+    {
+      "path": "READ-RESULT.json",
+      "bytes": 974,
+      "sha256": "2febd9367b31473fe1ad4feaf7cb7de040e06ca151ba96cf53fc50038c11aeea"
+    },
+    {
+      "path": "read-01/launch.json",
+      "bytes": 833,
+      "sha256": "cb41fbf9f948b21de011425d658d970003926d594ae7964b1dfcc08ddb678370"
+    },
+    {
+      "path": "read-01/native-report.json",
+      "bytes": 245776,
+      "sha256": "342f33b0f6d6dd6be42490faa863a1a66f3fecde648d76103a21b1e98eefea48"
+    },
+    {
+      "path": "read-01/process.json",
+      "bytes": 1210,
+      "sha256": "ce2ff713a6b68425f162aa982607fa58829deb51e7bee17d63c00c23f5e19f51"
+    },
+    {
+      "path": "read-01/read-nodes.py",
+      "bytes": 4911,
+      "sha256": "e762a2b491255d50bf57c1b1405d4ec02cdb91b132848bea761a147463e40904"
+    },
+    {
+      "path": "read-01/run-read.py",
+      "bytes": 3159,
+      "sha256": "b4dbb334b9befeb9980173572fb35ce403ff1ec4df10da5bca70af9fab19343d"
+    },
+    {
+      "path": "read-01/run.log",
+      "bytes": 253,
+      "sha256": "ad959a1a200b8e2877d89f47e15eaff3c0b61e65791de701c29ee9988d20666b"
+    },
+    {
+      "path": "read-nodes.py",
+      "bytes": 4911,
+      "sha256": "e762a2b491255d50bf57c1b1405d4ec02cdb91b132848bea761a147463e40904"
+    },
+    {
+      "path": "run-read.py",
+      "bytes": 3159,
+      "sha256": "b4dbb334b9befeb9980173572fb35ce403ff1ec4df10da5bca70af9fab19343d"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Saved-candidate native view: no completed image
+
+The existing100052636-byte candidate48dbc498 was opened at its unchanged frame0, with no reconstruction, pose change or model save. Only one camera and two presentation lights were added in memory, retaining the original objects, visibility, materials, world and lights. The pre-render protection completed after15.526087seconds. The process was then killed by SIGKILL after20.290426seconds, before its240-second deadline. Peak child RSS was1992300KiB;0PNG and no native final report were produced. The wrapper confirmed termination and unchanged candidate file SHA. This is an incomplete visual inspection; no final in-memory protection pass can be claimed.
+
+A later exec reported unlimited CPU/AS/RSS/data rlimits and did not expose cgroup memory counters. Those later observations do not establish the terminated child's limits or prove OOM, a platform time cap, or any other specific cause.
+
+A same-source/same-render-script context comparison was prepared for a separate cloud desktop terminal, retaining the exact camera, material, resolution, samples, CPU2 and child240/cleanup3 bounds. Its GUI launch was rejected twice by automatic approval review, including one identical-call retry after the original project authorization was supplied. The attempt never started: no view-02 directory or launch record exists. No third retry or alternate launch route was used. This rendering approval block remains separate from the later renewed Git publication authorization.
+
+The16 frozen original text records (40786bytes) and their manifest are copied verbatim here; each byte count/SHA was checked against the original. There is no new image or binary model in this directory. The saved candidate's prior construction/fresh-open checks are preserved separately and are not invalidated or upgraded by this failed visual attempt. All16 whole-vehicle gates remain OPEN.
