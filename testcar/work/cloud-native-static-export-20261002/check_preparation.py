@@ -69,10 +69,45 @@ def main():
     sys.path.insert(0, str(Path(pins['graph_common']['path']).parent))
     from graph_common import required_station_names
     assert len(required_station_names(stations, inventory)) == 48
+    from torsion_neutral import TORSION_NAMES, neutral_schema_issues
+    import copy
+    fixture = {'name': TORSION_NAMES[0], 'type': 'MESH', 'mesh_name': TORSION_NAMES[0] + '_mesh',
+               'data_object_users': [TORSION_NAMES[0]], 'modifiers': [], 'counts': [800, 1568, 3072, 768],
+               'show_only_shape_key': False, 'use_relative': True, 'reference_key': 'Basis',
+               'animation': {'drivers': [], 'nla': []},
+               'keys': [{'name': n, 'value': 0.0, 'relative_key': 'Basis', 'mute': False,
+                         'vertex_group': '', 'points': 800} for n in ['Basis', 'Twist_-1', 'Twist_1']]}
+    torsion_controls = []
+    for name in TORSION_NAMES:
+        row = copy.deepcopy(fixture)
+        row.update(name=name, mesh_name=name + '_mesh', data_object_users=[name])
+        assert not neutral_schema_issues(row), name
+    torsion_controls.append('all16 exact neutral identities accepted')
+    cases = [('unknown object', lambda r: r.update(name='unknown')),
+             ('shared mesh', lambda r: r['data_object_users'].append('other')),
+             ('dummy modifier', lambda r: r['modifiers'].append('dummy')),
+             ('wrong topology', lambda r: r['counts'].__setitem__(0, 799)),
+             ('show only', lambda r: r.update(show_only_shape_key=True)),
+             ('absolute keys', lambda r: r.update(use_relative=False)),
+             ('missing key', lambda r: r['keys'].pop()),
+             ('nonzero twist', lambda r: r['keys'][1].update(value=0.1)),
+             ('relative key', lambda r: r['keys'][2].update(relative_key='Twist_-1')),
+             ('muted key', lambda r: r['keys'][2].update(mute=True)),
+             ('vertex group', lambda r: r['keys'][2].update(vertex_group='group')),
+             ('driver', lambda r: r['animation']['drivers'].append('driver')),
+             ('NLA', lambda r: r['animation']['nla'].append('track'))]
+    for label, mutate in cases:
+        row = copy.deepcopy(fixture); mutate(row)
+        assert neutral_schema_issues(row), label
+        torsion_controls.append(label + ' rejected')
+    assert tuple(cfg['expected']['neutral_torsion_names']) == TORSION_NAMES
+    assert len(TORSION_NAMES) == len(set(TORSION_NAMES)) == 16
+    assert all(name in names for name in TORSION_NAMES)
     result = {'status': 'PURE_STATIC_PREPARATION_PASS', 'compiled': compiled,
               'verified_input_count': len(pins), 'official_option_names': len(op),
               'scope_names': len(names), 'station_names': 48,
               'scope_types': cfg['expected']['types'], 'deadline_controls': deadline_controls,
+              'neutral_torsion_schema_controls': torsion_controls,
               'capacity_controls': capacity_controls, 'decode_failure_controls': decode_controls,
               'decoder_controls': test_controls(), 'native_execution': False,
               'asset_created': False, 'all16_vehicle_gates': 'OPEN'}

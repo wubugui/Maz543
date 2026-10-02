@@ -107,7 +107,7 @@ def main():
         assert {key: actual[key] for key in ('bytes', 'sha256')} == expected, ('preparation changed', name)
     assert args.inputs.resolve() == folder / 'inputs.json'
     before = verify_inputs(cfg)
-    scripts = [folder / n for n in ('export_native.py', 'validate_glb.py', 'run_export.py', 'check_preparation.py', 'validate_export.py')]
+    scripts = [folder / n for n in ('export_native.py', 'validate_glb.py', 'run_export.py', 'check_preparation.py', 'validate_export.py', 'torsion_neutral.py')]
     for script in scripts:
         compile(script.read_bytes(), str(script), 'exec')
     protection_paths = scripts + [args.inputs.resolve(), args.preparation.resolve()]

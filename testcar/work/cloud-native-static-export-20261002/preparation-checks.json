@@ -4,10 +4,11 @@
     "check_preparation.py",
     "export_native.py",
     "run_export.py",
+    "torsion_neutral.py",
     "validate_export.py",
     "validate_glb.py"
   ],
-  "verified_input_count": 137,
+  "verified_input_count": 140,
   "official_option_names": 34,
   "scope_names": 2675,
   "station_names": 48,
@@ -26,6 +27,22 @@
       "observed_seconds": 900.1,
       "passes": false
     }
+  ],
+  "neutral_torsion_schema_controls": [
+    "all16 exact neutral identities accepted",
+    "unknown object rejected",
+    "shared mesh rejected",
+    "dummy modifier rejected",
+    "wrong topology rejected",
+    "show only rejected",
+    "absolute keys rejected",
+    "missing key rejected",
+    "nonzero twist rejected",
+    "relative key rejected",
+    "muted key rejected",
+    "vertex group rejected",
+    "driver rejected",
+    "NLA rejected"
   ],
   "capacity_controls": [
     {

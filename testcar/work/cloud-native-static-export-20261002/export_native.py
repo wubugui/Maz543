@@ -18,6 +18,7 @@ sys.path.insert(0, str(HERE))
 import numpy as np
 import bpy
 from validate_glb import oriented_signature
+from torsion_neutral import TORSION_NAMES, neutral_schema_issues
 
 
 def digest(value):
@@ -125,12 +126,165 @@ def protection(graph_module, action_record, mesh_signature):
     return graph, sections
 
 
+def static_mesh_fields(mesh, materials):
+    """Exact native fields used for neutral evaluation correspondence, no repair."""
+    mesh.calc_loop_triangles()
+    fields = {}
+    for label, collection, attribute, width, dtype in [
+        ('position', mesh.vertices, 'co', 3, np.float32),
+        ('edge_vertices', mesh.edges, 'vertices', 2, np.int32),
+        ('loop_vertices', mesh.loops, 'vertex_index', 1, np.int32),
+        ('loop_edges', mesh.loops, 'edge_index', 1, np.int32),
+        ('polygon_start', mesh.polygons, 'loop_start', 1, np.int32),
+        ('polygon_size', mesh.polygons, 'loop_total', 1, np.int32),
+        ('polygon_material', mesh.polygons, 'material_index', 1, np.int32),
+        ('polygon_smooth', mesh.polygons, 'use_smooth', 1, np.bool_),
+        ('triangle_loops', mesh.loop_triangles, 'loops', 3, np.int32),
+        ('triangle_vertices', mesh.loop_triangles, 'vertices', 3, np.int32),
+        ('triangle_material', mesh.loop_triangles, 'material_index', 1, np.int32),
+        ('corner_normals', mesh.corner_normals, 'vector', 3, np.float32)]:
+        a = array(collection, attribute, width, dtype)
+        assert np.isfinite(a).all(), label
+        fields[label] = {'count': len(collection), 'sha256': hashlib.sha256(a.tobytes()).hexdigest()}
+    uvs = []
+    for uv in mesh.uv_layers:
+        a = array(uv.uv, 'vector', 2)
+        assert np.isfinite(a).all(), uv.name
+        uvs.append({'name': uv.name, 'active': uv == mesh.uv_layers.active,
+                    'active_render': uv.active_render, 'active_clone': uv.active_clone,
+                    'sha256': hashlib.sha256(a.tobytes()).hexdigest()})
+    return {'fields': fields, 'uvs': uvs,
+            'materials': [value(m.original if m else None) for m in materials]}
+
+
+def torsion_key_record(obj, animation_state, action_record, data_users):
+    mesh, keys = obj.data, obj.data.shape_keys
+    assert keys is not None
+    return {'name': obj.name, 'type': obj.type, 'mesh_name': mesh.name,
+            'mesh_pointer_session_only': mesh.as_pointer(),
+            'data_object_users': data_users[mesh.as_pointer()],
+            'modifiers': [m.name for m in obj.modifiers],
+            'counts': [len(mesh.vertices), len(mesh.edges), len(mesh.loops), len(mesh.polygons)],
+            'show_only_shape_key': obj.show_only_shape_key,
+            'active_shape_key_index': obj.active_shape_key_index,
+            'key_identity': value(keys), 'use_relative': keys.use_relative,
+            'eval_time': keys.eval_time, 'reference_key': keys.reference_key.name,
+            'animation': animation_state(keys),
+            'action_record': action_record(keys.animation_data.action)
+                             if keys.animation_data and keys.animation_data.action else None,
+            'keys': [{'name': k.name, 'value': k.value, 'relative_key': k.relative_key.name,
+                      'mute': k.mute, 'vertex_group': k.vertex_group, 'points': len(k.data),
+                      'coordinates_sha256': hashlib.sha256(array(k.data, 'co', 3).tobytes()).hexdigest()}
+                     for k in keys.key_blocks]}
+
+
+def static_preflight(names, output, namespace, action_record):
+    """Collect all current guard failures before refusing this one export."""
+    issues, observations, proofs, allowed = [], {}, {}, {}
+    names_set = set(names)
+    data_users = {}
+    for obj in bpy.data.objects:
+        if obj.data:
+            data_users.setdefault(obj.data.as_pointer(), []).append(obj.name)
+    for users in data_users.values():
+        users.sort()
+    def problem(name, reason, detail=None):
+        issues.append({'object': name, 'reason': reason, 'detail': detail})
+    shape_names = []
+    for name in names:
+        obj = bpy.data.objects[name]
+        try:
+            if obj.type not in {'MESH', 'EMPTY', 'CURVE', 'FONT'}:
+                problem(name, 'unsupported_type', obj.type)
+            if not obj.visible_get() or obj.hide_render or obj.hide_select:
+                problem(name, 'visibility_or_selection_guard')
+            if obj.instance_collection or obj.instance_type != 'NONE':
+                problem(name, 'object_instance_guard')
+            if any(m.type == 'ARMATURE' for m in obj.modifiers):
+                problem(name, 'armature_modifier')
+            if obj.data is not None and obj.data.get('gltf2_variant_default_materials'):
+                problem(name, 'material_variant_reset')
+            if obj.type == 'MESH' and len(obj.data.color_attributes):
+                problem(name, 'color_attributes', [a.name for a in obj.data.color_attributes])
+            if obj.type in {'CURVE', 'FONT'} and not all(slot.material for slot in obj.material_slots):
+                problem(name, 'nonmesh_empty_material_slot')
+            if getattr(obj.data, 'shape_keys', None):
+                shape_names.append(name)
+                if name not in TORSION_NAMES:
+                    problem(name, 'unknown_shape_key_object')
+                else:
+                    row = torsion_key_record(obj, namespace['animation_state'], action_record, data_users)
+                    observations[name] = row
+                    for reason in neutral_schema_issues(row):
+                        problem(name, 'neutral_torsion_schema:' + reason)
+        except Exception:
+            problem(name, 'guard_read_error', traceback.format_exc())
+    if set(shape_names) != set(TORSION_NAMES):
+        problem(None, 'exact16_shape_scope', {'missing': sorted(set(TORSION_NAMES) - set(shape_names)),
+                                             'unexpected': sorted(set(shape_names) - set(TORSION_NAMES))})
+    dg = None
+    try:
+        dg = bpy.context.evaluated_depsgraph_get()
+        for instance in dg.object_instances:
+            if instance.is_instance:
+                parent = instance.parent.original.name if instance.parent else None
+                owner = instance.object.original.name if instance.object else None
+                if parent in names_set or owner in names_set:
+                    problem(owner, 'derived_instance', {'parent': parent})
+    except Exception:
+        problem(None, 'dependency_graph_read_error', traceback.format_exc())
+    for image in bpy.data.images:
+        if image.source == 'TILED':
+            problem(image.name, 'tiled_image')
+    # Evaluate only the exact16 eligible bars. Unrelated guards remain failures.
+    for name, row in observations.items():
+        if dg is None or neutral_schema_issues(row):
+            continue
+        obj = bpy.data.objects[name]
+        evaluated = None
+        try:
+            raw = static_mesh_fields(obj.data, tuple(s.material for s in obj.material_slots))
+            evaluated = obj.evaluated_get(dg)
+            mesh = evaluated.to_mesh(preserve_all_data_layers=True, depsgraph=dg)
+            assert mesh is not None
+            actual = static_mesh_fields(mesh, tuple(mesh.materials))
+            after = torsion_key_record(obj, namespace['animation_state'], action_record, data_users)
+            proof = {'source': row, 'raw': raw, 'evaluated': actual,
+                     'exact_fields_equal': actual == raw, 'key_state_unchanged': after == row}
+            proofs[name] = proof
+            if actual != raw:
+                problem(name, 'raw_evaluated_native_fields_differ')
+            if after != row:
+                problem(name, 'key_state_changed_during_evaluation')
+            if actual == raw and after == row:
+                allowed[obj.data.as_pointer()] = proof
+        except Exception:
+            problem(name, 'neutral_evaluation_error', traceback.format_exc())
+        finally:
+            if evaluated is not None:
+                try:
+                    evaluated.to_mesh_clear()
+                except Exception:
+                    problem(name, 'evaluated_mesh_clear_error', traceback.format_exc())
+    record = {'schema': 'maz-saved-frame-static-preflight-v2', 'frame': bpy.context.scene.frame_current,
+              'subframe': bpy.context.scene.frame_subframe, 'shape_key_objects': shape_names,
+              'neutral_torsion_key_records': observations, 'neutral_torsion_proofs': proofs,
+              'issues': issues, 'status': 'PASS' if not issues and len(allowed) == 16 else 'FAIL',
+              'all16_vehicle_gates': 'OPEN'}
+    write(output / 'static-preflight.json', record)
+    assert record['status'] == 'PASS', issues
+    return allowed, data_users
+
+
 class NativeReference:
-    def __init__(self, out):
+    def __init__(self, out, neutral_torsions, key_recorder):
         self.out = out
+        self.neutral_torsions = neutral_torsions
+        self.key_recorder = key_recorder
         self.mesh_ids = {}
         self.references = {'schema': 'maz-native-export-field-references-v1',
                            'meshes': {}, 'nodes': {}, 'materials': {}, 'known_empty_nodes': [], 'hook_errors': [],
+                           'neutral_torsion_hooks': {},
                            'limits': ['Native fields are captured during this official export, not from GLB primitive arrays.',
                                       'Official curve/font tessellation is not independently qualified.',
                                       'Cross-evaluation UV determinism and shader/render equivalence are not asserted.']}
@@ -142,7 +296,18 @@ class NativeReference:
         try:
             assert settings['gltf_current_frame'] and not settings['gltf_animations']
             assert not settings['gltf_draco_mesh_compression']
-            assert mesh.shape_keys is None, 'Shape keys need a separately qualified static path'
+            torsion_proof = None
+            if mesh.shape_keys is not None:
+                torsion_proof = self.neutral_torsions.get(mesh.as_pointer())
+                assert torsion_proof is not None, 'Shape keys outside exact16 qualified original meshes'
+                owner = bpy.data.objects[torsion_proof['source']['name']]
+                assert owner.data.as_pointer() == mesh.as_pointer()
+                assert self.key_recorder(owner) == torsion_proof['source'], 'Torsion key state changed before hook'
+                assert static_mesh_fields(mesh, materials) == torsion_proof['evaluated'], 'Hook differs from actual neutral evaluated mesh'
+                assert owner.name not in self.references['neutral_torsion_hooks']
+                self.references['neutral_torsion_hooks'][owner.name] = {'original_mesh_pointer_session_only': mesh.as_pointer(),
+                    'preflight_evaluated_fields_sha256': digest(torsion_proof['evaluated']),
+                    'hook_native_fields_equal': True}
             assert len(mesh.color_attributes) == 0, 'Unexpected native color attributes'
             mesh.calc_loop_triangles()
             coords = yup(array(mesh.vertices, 'co', 3))
@@ -225,6 +390,7 @@ class NativeReference:
 
 def main(args, report):
     cfg = json.loads(args.inputs.read_text())
+    assert tuple(cfg['expected']['neutral_torsion_names']) == TORSION_NAMES
     ip = {k: Path(v['path']) for k, v in cfg['inputs'].items()}
     sys.path.insert(0, str(ip['graph_common'].parent))
     import graph_common as gc
@@ -265,31 +431,7 @@ def main(args, report):
     write(args.output / 'protection-before.json', {'state': before['state'],
           'authored_sections': {k: digest(v) for k, v in authored_before.items()},
           'meshes': {k: {'sha256': v['sha256'], 'counts': v['counts']} for k, v in authored_before['meshes'].items()}})
-    for name in names:
-        obj = bpy.data.objects[name]
-        assert obj.type in {'MESH', 'EMPTY', 'CURVE', 'FONT'}
-        assert obj.visible_get() and not obj.hide_render and not obj.hide_select, name
-        assert not obj.instance_collection and obj.instance_type == 'NONE', name
-        assert not any(m.type == 'ARMATURE' for m in obj.modifiers), name
-        assert getattr(obj.data, 'shape_keys', None) is None, name
-        assert obj.data is None or not obj.data.get('gltf2_variant_default_materials'), ('Material variants reset source data', name)
-        if obj.type == 'MESH':
-            assert len(obj.data.color_attributes) == 0, ('Color attributes require explicit preservation', name)
-        if obj.type in {'CURVE', 'FONT'}:
-            assert all(s.material for s in obj.material_slots), ('Nonmesh empty-slot remap', name)
-    dg = bpy.context.evaluated_depsgraph_get()
-    instances = []
-    for instance in dg.object_instances:
-        if instance.is_instance:
-            parent = instance.parent.original.name if instance.parent else None
-            owner = instance.object.original.name if instance.object else None
-            if parent in names or owner in names:
-                instances.append({'parent': parent, 'object': owner})
-    write(args.output / 'static-preflight.json', {'derived_instances': instances,
-          'shape_keys': 0, 'armature_modifiers': 0, 'frame': 0, 'all16_vehicle_gates': 'OPEN'})
-    assert not instances, 'Separate instances require provenance and extra node scope'
-    for image in bpy.data.images:
-        assert image.source != 'TILED', 'UDIM requires an explicit tile/reference plan'
+    allowed_torsions, data_users = static_preflight(names, args.output, namespace, action_record)
     report['completed_checks'].append('static_shape_skin_instance_color_and_udim_preflight')
     selected = [o for o in bpy.context.view_layer.objects if o.select_get()]
     active = bpy.context.view_layer.objects.active
@@ -298,7 +440,8 @@ def main(args, report):
     all_trees = list(bpy.data.node_groups) + [m.node_tree for m in bpy.data.materials if m.node_tree]
     image_nodes = [(n, 'used' in n, value(n.get('used'))) for tree in all_trees for n in tree.nodes if n.type == 'TEX_IMAGE']
     from io_scene_gltf2.blender.exp import export as official
-    collector = NativeReference(args.output)
+    collector = NativeReference(args.output, allowed_torsions,
+        lambda obj: torsion_key_record(obj, namespace['animation_state'], action_record, data_users))
     original_save = official.save
     def audited_save(context, settings):
         assert settings['gltf_user_extensions'] == [] and settings['pre_export_callbacks'] == [] and settings['post_export_callbacks'] == []
@@ -359,6 +502,7 @@ def main(args, report):
     assert report['source_memory_preserved'], report['changed_authored_sections']
     assert not collector.references['hook_errors'], collector.references['hook_errors']
     assert set(collector.references['nodes']) == set(names), 'Incomplete hook/source mapping'
+    assert set(collector.references['neutral_torsion_hooks']) == set(TORSION_NAMES), 'Incomplete exact16 neutral hook coverage'
     report['status'] = 'EXPORTED_SOURCE_PROTECTED_REFERENCES_CAPTURED'
 
 

@@ -1,6 +1,6 @@
 {
   "schema": "maz-native-static-export-inputs-v1",
-  "prepared_at_head": "82c0f429c16a8fb906dddf39b366ff4e016ac0bb",
+  "prepared_at_head": "63a431d2b31c5496d1d1c53cceac8050fcf9ab21",
   "inputs": {
     "artifact": {
       "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
@@ -686,6 +686,21 @@
       "path": "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/imp/user_extensions.py",
       "bytes": 477,
       "sha256": "c70aa91f4d3b7f816357bd50cb7446a0a6d02e46bd1e52067acb7a1b6be385cd"
+    },
+    "torsion_constructor": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/blender-suspension.py",
+      "bytes": 27848,
+      "sha256": "c7b0edcc839863fb0e1e216529f30e86aaf3a92f4a197b6439cf2df40d67a7b6"
+    },
+    "torsion_neutral_finalizer": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/finalize-suspension.py",
+      "bytes": 1459,
+      "sha256": "ede9eb58443e0f7ae4fdc5bf1ec15215f8c43c07c3332752953c99004ce20702"
+    },
+    "torsion_original_verifier": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/verify-suspension-native.py",
+      "bytes": 2570,
+      "sha256": "c3751fe5df48a72032089f4c012b5a4df1a75a464c2d4475e49704a045a736e8"
     }
   },
   "expected": {
@@ -700,7 +715,25 @@
     },
     "frame": 0,
     "subframe": 0,
-    "all16_vehicle_gates": "OPEN"
+    "all16_vehicle_gates": "OPEN",
+    "neutral_torsion_names": [
+      "S543_0_lower_torsion_bar",
+      "S543_0_upper_torsion_bar",
+      "S543_1_lower_torsion_bar",
+      "S543_1_upper_torsion_bar",
+      "S543_2_lower_torsion_bar",
+      "S543_2_upper_torsion_bar",
+      "S543_3_lower_torsion_bar",
+      "S543_3_upper_torsion_bar",
+      "S543_4_lower_torsion_bar",
+      "S543_4_upper_torsion_bar",
+      "S543_5_lower_torsion_bar",
+      "S543_5_upper_torsion_bar",
+      "S543_6_lower_torsion_bar",
+      "S543_6_upper_torsion_bar",
+      "S543_7_lower_torsion_bar",
+      "S543_7_upper_torsion_bar"
+    ]
   },
   "export_options": {
     "export_format": "GLB",
@@ -755,5 +788,6 @@
   "preparation_only": true,
   "asset_status": "NOT_CREATED",
   "shader_render_equivalence": "UNQUALIFIED",
-  "whole_timeline": "BLOCKED_NINE_ORIGINAL_NODES"
+  "whole_timeline": "BLOCKED_NINE_ORIGINAL_NODES",
+  "preparation_revision": 3
 }

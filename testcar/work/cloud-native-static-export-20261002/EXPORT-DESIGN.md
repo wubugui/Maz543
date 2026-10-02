@@ -1,8 +1,11 @@
 # One saved-frame full-native static export
 
-Preparation only, based on published/read-back `82c0f429c16a8fb906dddf39b366ff4e016ac0bb`.
-No Blender invocation, GLB, source save, render, upload or application change has
-occurred in this item. Independent review and complete plugin publication/readback
+Revision3 preparation, based on published/read-back
+`63a431d2b31c5496d1d1c53cceac8050fcf9ab21`. The earlier run-01 exited1 after
+27.833s at the broad shape-key guard, produced no GLB and preserved all inputs.
+Its complete seven original records were published and remain unchanged. This
+revision has not been executed; no new GLB/source save/render/application change
+has occurred. Independent review and complete plugin publication/readback
 of this preparation are prerequisites to the separately coordinated native run.
 
 ## Deliverable and exact scope
@@ -11,9 +14,9 @@ One real `native-static.glb` from the remote-restored editable source
 `48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea`
 (100,052,636 bytes), using official Blender4.5.13 executable
 `e3ce4e960a2fd3beb1f9d2299e38b3804475ccd395193013aec239a4b75bfbfe`.
-`inputs.json` pins137 inputs: source/binary, retained source/protection helpers,
+`inputs.json` pins140 inputs: source/binary, retained source/protection helpers,
 original graph dependencies, independent remote graph records and119 installed
-exporter Python files. The preparation manifest pins every new preparation file.
+exporter Python files, plus three retained torsion construction/neutral/verifier scripts. The preparation manifest pins every new preparation file.
 No old GLB geometry is copied into the new asset.
 
 The selection is exactly the ancestry-closed union of old850 names and the full
@@ -40,8 +43,8 @@ correspondence is a new requirement; no prior two-object Draco result qualifies 
 
 Export applies native modifiers at this one saved state, preserves hierarchy,
 exports normal/UV/material data and extras, and disables animations, skins,
-morphs, GPU instances and derived GN instances. Preflight rejects relevant
-shape keys, armature modifiers, separate evaluated instances, color attributes,
+morphs, GPU instances and derived GN instances. Preflight rejects every shape-key object outside the exact16 neutral torsion
+exception below, armature modifiers, separate evaluated instances, color attributes,
 material-variant resets, nonmesh empty-slot remapping and tiled images instead of
 silently omitting their effects. These are execution-time unknowns, not passed
 preparation facts. All34 exact options are in inputs.json.
@@ -55,6 +58,40 @@ material-slot assignment and actual GLB material/texture definitions recorded.
 Procedural Object-coordinate/Noise/Bump shaders do not become equivalent glTF
 shaders. Images use the official AUTO encoder; embedded bytes and decoded PNG
 pixels are inventoried, not claimed equal to Blender's linear float pixels.
+
+## Exact16 neutral torsion exception
+
+Only S543_{0..7}_{lower|upper}_torsion_bar with its same-named `_mesh` is eligible.
+The recovered graph identifies unique unshared data and no modifiers; retained
+blender-suspension.py:185–196,286–303 creates Basis/Twist_-1/Twist_1 and neutral
+frame0 keys, and finalize-suspension.py:13–18 repeats the neutral save. Historical
+construction is not treated as evidence that the current values pass.
+
+One preflight collects and writes all current guard failures before rejection,
+including unexpected shapes, colors, visibility, instances, armatures, variants,
+nonmesh slot remapping and tiled images. Every exact16 live key schema/value/
+relative-key/mute/vertex-group/coordinate hash, key animation/action/driver/NLA,
+show-only flag, mesh identity/user and topology count is recorded. Require exactly
+these16 shape-key objects, relative Basis plus Twist_-1/Twist_1, all values0,
+unmuted keys, no vertex groups, no key drivers/NLA, no modifiers, no sharing,
+show_only_shape_key=False and800/1568/3072/768 counts. Existing key actions are
+recorded and protected, never removed or advanced.
+
+At the unchanged saved frame0, official evaluated_get(...).to_mesh with all data
+layers supplies each eligible bar's actual mixed native geometry. Native position,
+edge/loop/polygon/triangle topology, corner normals, all UV data/layer state and
+material identities must be byte-exactly equal to the actual raw export input.
+The same key/action state is required after evaluation. Every temporary mesh is
+cleared; any mismatch fails, without baking, data replacement, new_from_object,
+dummy modifiers or shape-key deletion. This is the sole explicit exception to
+the broad shape guard and remains static-frame-only.
+
+The hook allows shape keys only by the previously proved original Mesh pointer,
+reconfirms the original object binding and entire live key/action record, and
+compares the hook's native fields against the retained evaluated proof. All16
+hook identities must occur; every other keyed mesh fails. Raw-source/whole-source
+protection and actual decoded GLB correspondence remain required. No generic
+shape-key permission or dynamic qualification is introduced.
 
 ## Economical evidence and actual checks
 
@@ -127,7 +164,7 @@ peak RSS and output bytes; native phase/node milestones identify progress.
 
 Native geometry arrays are processed per mesh and released; persisted references
 are compact hashes/graphs. Decoding in a new process avoids retaining the Blender
-scene alongside the parsed GLB. Preparation is roughly100–160KiB. Actual GLB size
+scene alongside the parsed GLB. Preparation is roughly140–180KiB. Actual GLB size
 is unknown until export; reserve roughly50–300MiB planning capacity, potentially
 more. At768KiB rawparts that would mean about67–400 binary parts. Compact native,
 protection and decoded evidence is expected to be several MiB, not a second full
