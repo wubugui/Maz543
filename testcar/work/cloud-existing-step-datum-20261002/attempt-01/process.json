@@ -1,0 +1,50 @@
+{
+  "status": "PROCESS_COMPLETED",
+  "command": [
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "1",
+    "--python-exit-code",
+    "17",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-existing-step-datum-20261002/attempt-01/executed-script.py",
+    "--",
+    "--candidate",
+    "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend",
+    "--original",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/outputs/cloud-va180-panel-fit-20261001/MAZ543A_Master.blend",
+    "--inventory",
+    "/workspace/scratch/a29d03198654/maz-step-fit-parent-restore-20261001/attempt-05/native/all-geometry-inventory.json",
+    "--out",
+    "/workspace/scratch/a29d03198654/maz-existing-step-datum-20261002/attempt-01/native"
+  ],
+  "timeout_seconds": 120,
+  "threads": 1,
+  "script_sha256_start": "1118b30ba5d90ffa3793aa530b6356c7344643accc40824143f2db9168f3af79",
+  "runner_sha256_start": "6c860b9d6367d9b62c43a2c372659444e44fe3cecc592abbdf8d5d5332a37355",
+  "input_sha256_start": {
+    "candidate": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+    "original": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+    "inventory": "7929cddd99fbdeb4a38acbd69ea98133bf14a4a8fdf0db56ecc8a6161d9f2221"
+  },
+  "start_utc": "2026-10-02T02:48:34Z",
+  "pid": 6,
+  "exit_code": 0,
+  "timed_out": false,
+  "elapsed_seconds": 28.610721311000816,
+  "peak_children_rss_kib": 2010632,
+  "script_sha256_end": "1118b30ba5d90ffa3793aa530b6356c7344643accc40824143f2db9168f3af79",
+  "runner_sha256_end": "6c860b9d6367d9b62c43a2c372659444e44fe3cecc592abbdf8d5d5332a37355",
+  "log_sha256": "496940f33f3d9225378a99e70f421636106fb8202bbdd2bedab8b4d2f7b82666",
+  "input_sha256_end": {
+    "candidate": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f",
+    "original": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+    "inventory": "7929cddd99fbdeb4a38acbd69ea98133bf14a4a8fdf0db56ecc8a6161d9f2221"
+  },
+  "end_utc": "2026-10-02T02:49:02Z",
+  "report_sha256": "6d3313ea59d9d8abe7781edac2adc5ea11d93aff02e7128d656b5e57c26579de",
+  "native_report_status": "BOUNDED_ORIGINAL_STEP_DATUM_DIAGNOSTIC_COMPLETE"
+}

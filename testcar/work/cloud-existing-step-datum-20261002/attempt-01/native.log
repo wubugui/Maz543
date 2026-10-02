@@ -1,0 +1,19 @@
+STAGE input_validation 0.0
+STAGE fresh_selected_geometry_matches_published_snapshot 21.906
+STAGE strict_triangle_crossing_checks 21.943
+PAIR BL_Cab_-1_step BL_Tyre_0_VI203_profile 462 44
+PAIR BL_Cab_-1_step BL_Tyre_0_mould_ring_-1_0.49 348 0
+PAIR BL_Cab_-1_step BL_Tyre_0_mould_ring_-1_0.635 382 0
+PAIR BL_Cab_-1_step BL_Tyre_0_vent_-1_16 202 34
+PAIR BL_Cab_-1_step BL_Tyre_0_vent_-1_17 202 18
+PAIR BL_Cab_-1_step BL_Tyre_0_vent_-1_18 206 24
+PAIR BL_Step_-1_17 BL_Tyre_0_VI203_profile 0 0
+PAIR BL_Step_-1_18 BL_Tyre_0_VI203_profile 128 0
+PAIR BL_Step_-1_19 BL_Tyre_0_VI203_profile 164 36
+PAIR BL_Step_-1_19 BL_Tyre_0_mould_ring_-1_0.635 64 32
+STAGE preservation_and_terminal_checks 22.24
+STAGE complete 27.544
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/maz-native-axis-controls-20261001/MAZ543A_Native_Barrel_Axis_Controls.blend"
+
+Blender quit

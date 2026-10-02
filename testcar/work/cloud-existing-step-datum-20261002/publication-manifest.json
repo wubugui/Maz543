@@ -1,0 +1,88 @@
+{
+  "status": "TEXT_ONLY_EVIDENCE_READY_FOR_PARENT_REVIEW",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 8560,
+      "sha256": "ba4171b8ba589b4b7f0c0d6a15f331c3bc3d278d056d838f6460ec79a6cbd4d9"
+    },
+    {
+      "path": "attempt-01/executed-runner.py",
+      "bytes": 2890,
+      "sha256": "6c860b9d6367d9b62c43a2c372659444e44fe3cecc592abbdf8d5d5332a37355"
+    },
+    {
+      "path": "attempt-01/executed-script.py",
+      "bytes": 17492,
+      "sha256": "1118b30ba5d90ffa3793aa530b6356c7344643accc40824143f2db9168f3af79"
+    },
+    {
+      "path": "attempt-01/native/crossing-witnesses.json",
+      "bytes": 13720,
+      "sha256": "34c66e16f4d1bc48b4ad44ec8f9188853e986d6ff7d30503447f53dc19e4a31c"
+    },
+    {
+      "path": "attempt-01/native/datum-report.json",
+      "bytes": 4274,
+      "sha256": "6d3313ea59d9d8abe7781edac2adc5ea11d93aff02e7128d656b5e57c26579de"
+    },
+    {
+      "path": "attempt-01/native/existing-datums.json",
+      "bytes": 7216,
+      "sha256": "4f80ecdb02bc4041253c4457369b67f38432187b25489c1fb7d8c87ef1ce343e"
+    },
+    {
+      "path": "attempt-01/native/fresh-selected-geometry.json",
+      "bytes": 18819,
+      "sha256": "b0fd557cfa2dba1b2725b9a0db301c6e6f68f8a8ada1a27647f19e42d08c0ef4"
+    },
+    {
+      "path": "attempt-01/native/reused-broadphase.json",
+      "bytes": 76403,
+      "sha256": "ba20a167dbf463ba0a7eefb56cc6eafc5a62157465492b159d0e95367357ab57"
+    },
+    {
+      "path": "attempt-01/native/triangle-pairs.json",
+      "bytes": 4012,
+      "sha256": "a87414049c35e8641f3d5290582f42d7a9d242eed26a61b57168602eff8eaca7"
+    },
+    {
+      "path": "attempt-01/native.log",
+      "bytes": 911,
+      "sha256": "496940f33f3d9225378a99e70f421636106fb8202bbdd2bedab8b4d2f7b82666"
+    },
+    {
+      "path": "attempt-01/process.json",
+      "bytes": 2340,
+      "sha256": "970dc7490b282776d27f6c74f300c6137e896a329d6bdba001a49d0a27d938db"
+    },
+    {
+      "path": "check-existing-step-datum.py",
+      "bytes": 17492,
+      "sha256": "1118b30ba5d90ffa3793aa530b6356c7344643accc40824143f2db9168f3af79"
+    },
+    {
+      "path": "exact-witness-verification.json",
+      "bytes": 5312,
+      "sha256": "d06b543663efb24ff327f3944d16eca65fa96bc65deea96727199d28b8761c5b"
+    },
+    {
+      "path": "run-existing-step-datum.py",
+      "bytes": 2890,
+      "sha256": "6c860b9d6367d9b62c43a2c372659444e44fe3cecc592abbdf8d5d5332a37355"
+    },
+    {
+      "path": "scope-clarification.json",
+      "bytes": 875,
+      "sha256": "d863205985adc2c3d870ad32e1e6aa6a892afb36237009cb127b700be0dbb6ed"
+    },
+    {
+      "path": "verify-exact-witnesses.py",
+      "bytes": 3826,
+      "sha256": "783e7e497662bf136035ded0355dc63a352035b32bded50350ea5df393ed8d07"
+    }
+  ],
+  "bytes": 187032,
+  "file_count": 16,
+  "no_models_exports_renders_photos": true
+}
