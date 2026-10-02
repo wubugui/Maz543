@@ -11,3 +11,18 @@ Restore into a new destination, refusing overwrite:
     python -B restore_glb.py --output /tmp/maz-static-glb-restored-NEW/native-static.glb
 
 Every ordered part length/SHA256/Git blob SHA is checked before output, followed by a second whole-file hash check while writing and atomic final naming. The manifest records the exact whole134267928-byte artifact and171parts. Only these171 exact new paths receive ordinary Git binary attributes; all existing LFS assets remain unchanged. All parts are uploaded through the GitHub plugin, then independently fetched into a new empty directory and reassembled/parsed before further work. A later development page must explicitly restore this file and present its actual qualification status.
+
+## Verified remote delivery
+
+Commit `cfe242a8a42763cf66e426941a56bd89eb20e891` was independently fetched
+into a new empty bare repository: all 192 changed paths, 187 unique blobs and
+149,235,903 bytes matched. No local objects or alternates supplied the reads.
+The 171 parts restored the exact 134,267,928-byte GLB in a new directory.
+A fresh actual decoder completed in 14.106648 seconds and reproduced the entire
+original failed JSON report exactly: 2,675 nodes, 2,374 unique meshes, 2,299 issues.
+The nonzero exit code is the preserved transport rejection, not a delivery failure.
+See `remote-bytes-verification.json` and `remote-restoration-verification.json`.
+
+An independent static diagnostic viewer may show this candidate while visibly
+reporting its failed normal/joint-attribute checks. This is not the production
+asset and does not qualify animation, materials, fit or whole-vehicle acceptance.

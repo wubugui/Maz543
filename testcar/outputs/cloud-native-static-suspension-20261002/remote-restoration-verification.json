@@ -1,0 +1,28 @@
+{
+  "delivery_status": "REMOTE_RESTORATION_AND_ACTUAL_PARSE_VERIFIED",
+  "commit": "cfe242a8a42763cf66e426941a56bd89eb20e891",
+  "restore": {
+    "status": "EXACT_GLB_BYTES_RESTORED",
+    "output": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+    "bytes": 134267928,
+    "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d",
+    "parts": 171
+  },
+  "actual_decoder_exit_code": 1,
+  "actual_decoder_elapsed_seconds": 14.106647720996989,
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "actual_decoder_report_exactly_matches_published_original": true,
+  "actual_decode_status": "FAIL_STATIC_NATIVE_TRANSPORT",
+  "issues": 2299,
+  "nodes": 2675,
+  "unique_meshes": 2374,
+  "max_world_displacement_m": 4.412036031232553e-07,
+  "asset_sha_after": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d",
+  "inputs_reverified_after": true,
+  "whole_vehicle_gates": "ALL_16_OPEN",
+  "claim": "Exact asset delivery and reproducible failed validation; not accepted model transport or rendering",
+  "finished_utc": "2026-10-02T20:12:22Z"
+}
