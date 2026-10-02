@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "/workspace/scratch/a29d03198654/Maz543/testcar/node_modules/.bin/oxlint",
+    "--no-ignore",
+    "/workspace/scratch/a29d03198654/maz-door-quantization-policy-20261002/proposed/testcar/scripts/cab-door-position-precision.mjs",
+    "/workspace/scratch/a29d03198654/maz-door-quantization-policy-20261002/proposed/testcar/scripts/read-door-grid-probe.mjs",
+    "/workspace/scratch/a29d03198654/maz-door-quantization-policy-20261002/proposed/testcar/scripts/preserve-unmodified-body-streams.mjs",
+    "/workspace/scratch/a29d03198654/maz-door-quantization-policy-20261002/proposed/testcar/scripts/verify-door-position-guard.mjs"
+  ],
+  "exitCode": 0,
+  "elapsedSeconds": 0.20436337100545643,
+  "inputSHA256": {
+    "cab-door-position-precision.mjs": "b394b7e467f05ea8ab0473dea73857570490cc5fc15c5dc2dbf42942136ec419",
+    "read-door-grid-probe.mjs": "ea6ccdbf06751fd1d53b60db07ae5676a67dd58049c597d5697d68d72154eef6",
+    "preserve-unmodified-body-streams.mjs": "7967611007bdd0c9199c1d772713f21382f7a9f55d403cf893adf8895ef63210",
+    "verify-door-position-guard.mjs": "64de9249cefafe0362ae168fe16c1ad805b8ec1702dfddb8e18ccd3b1d4a2de7"
+  }
+}

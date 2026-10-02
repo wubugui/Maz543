@@ -1,0 +1,11 @@
+{
+  "status": "SAME_EXECUTED_POLICY_VALUES_AND_ENCODER_GRID_FUNCTION_SOURCE",
+  "methods": [
+    "requiredDoorPositionBits",
+    "readDoorPositionGrid",
+    "loadDoorPrecisionDecoder"
+  ],
+  "executedPolicySHA256": "dc7cdb3336ae390b8e866278bc3775c3436573945b3e5680b9d7a311e7f2dcfa",
+  "finalPolicySHA256": "40b31abf452796a3a8995bc172b77f81df26788b25a1f738b8040fd033fca506",
+  "changes": "After native run, only comments and static chain eligibility checks (translation arity, skin, weights, targeted animations) changed. Native run did not execute these future changes; final guard regression covers them."
+}

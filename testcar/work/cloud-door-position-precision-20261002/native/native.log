@@ -1,0 +1,308 @@
+INFO Draco mesh compression is available, use library at /workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/libextern_draco.so
+11:42:30 | INFO: Starting glTF 2.0 export
+11:42:30 | INFO: Extracting primitive: BL_Door_-1_0_handle_Curve
+11:42:31 | WARNING: More than one shader node tex image used for a texture. The resulting glTF sampler will behave like the first shader node tex image.
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_-1_0_lock_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_-1_0_window_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_-1_0_fasteners_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_-1_0_gap_Curve
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_-1_1_handle_Curve
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_-1_1_lock_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_-1_1_window_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_-1_1_fasteners_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_-1_1_gap_Curve
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_1_0_handle_Curve
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_1_0_lock_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_1_0_window_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_1_0_fasteners_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_1_0_gap_Curve
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_1_1_handle_Curve
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_1_1_lock_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_1_1_window_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_1_1_fasteners_Topology
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Extracting primitive: BL_Door_1_1_gap_Curve
+11:42:31 | INFO: Primitives created: 1
+11:42:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_handle.
+11:42:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_handle.
+11:42:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_handle.
+DOOR_PRECISION_PROBED BL_Door_-1_0_handle 13
+11:42:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_lock.
+11:42:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_lock.
+11:42:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_lock.
+DOOR_PRECISION_PROBED BL_Door_-1_0_lock 12
+11:42:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_window.
+11:42:31 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_window.
+11:42:32 | INFO: Draco encoder: Encoding mesh BL_Door_-1_0_window.
+DOOR_PRECISION_PROBED BL_Door_-1_0_window 17
+11:42:32 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_handle.
+11:42:32 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_handle.
+11:42:32 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_handle.
+DOOR_PRECISION_PROBED BL_Door_-1_1_handle 13
+11:42:32 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_lock.
+11:42:32 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_lock.
+11:42:32 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_lock.
+DOOR_PRECISION_PROBED BL_Door_-1_1_lock 12
+11:42:32 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_window.
+11:42:32 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_window.
+11:42:32 | INFO: Draco encoder: Encoding mesh BL_Door_-1_1_window.
+DOOR_PRECISION_PROBED BL_Door_-1_1_window 17
+11:42:33 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_handle.
+11:42:33 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_handle.
+Blender 4.5.13 LTS (hash daeeeca98fb0 built 2026-08-25 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/Maz543/.git/lfs/objects/6e/40/6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266"
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 481, compression ratio: 2.59
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 486, compression ratio: 2.57
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 510, compression ratio: 2.45
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 948 indices, raw size: 16968, encoded size: 3564, compression ratio: 4.76
+DracoDecoder | Decoded 314 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 948 indices, raw size: 16968, encoded size: 3788, compression ratio: 4.48
+DracoDecoder | Decoded 314 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 948 indices, raw size: 16968, encoded size: 4238, compression ratio: 4.00
+DracoDecoder | Decoded 314 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 324 vertices, 564 indices, raw size: 16536, encoded size: 2328, compression ratio: 7.10
+DracoDecoder | Decoded 324 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 324 vertices, 564 indices, raw size: 16536, encoded size: 2634, compression ratio: 6.28
+DracoDecoder | Decoded 324 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 324 vertices, 564 indices, raw size: 16536, encoded size: 2736, compression ratio: 6.04
+DracoDecoder | Decoded 324 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 478, compression ratio: 2.61
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 483, compression ratio: 2.58
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 507, compression ratio: 2.46
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 312 vertices, 948 indices, raw size: 16872, encoded size: 3507, compression ratio: 4.81
+DracoDecoder | Decoded 312 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 312 vertices, 948 indices, raw size: 16872, encoded size: 3731, compression ratio: 4.52
+DracoDecoder | Decoded 312 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 312 vertices, 948 indices, raw size: 16872, encoded size: 4180, compression ratio: 4.04
+DracoDecoder | Decoded 312 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 564 indices, raw size: 16008, encoded size: 2284, compression ratio: 7.01
+DracoDecoder | Decoded 314 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 564 indices, raw size: 16008, encoded size: 2580, compression ratio: 6.20
+DracoDecoder | Decoded 314 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 564 indices, raw size: 16008, encoded size: 2679, compression ratio: 5.98
+DracoDecoder | Decoded 314 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 481, compression ratio: 2.59
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertic11:42:33 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_handle.
+DOOR_PRECISION_PROBED BL_Door_1_0_handle 13
+11:42:33 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_lock.
+11:42:33 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_lock.
+11:42:33 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_lock.
+DOOR_PRECISION_PROBED BL_Door_1_0_lock 12
+11:42:33 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_window.
+11:42:33 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_window.
+11:42:33 | INFO: Draco encoder: Encoding mesh BL_Door_1_0_window.
+DOOR_PRECISION_PROBED BL_Door_1_0_window 17
+11:42:33 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_handle.
+11:42:33 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_handle.
+11:42:34 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_handle.
+DOOR_PRECISION_PROBED BL_Door_1_1_handle 13
+11:42:34 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_lock.
+11:42:34 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_lock.
+11:42:34 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_lock.
+DOOR_PRECISION_PROBED BL_Door_1_1_lock 12
+11:42:34 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_window.
+11:42:34 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_window.
+11:42:34 | INFO: Draco encoder: Encoding mesh BL_Door_1_1_window.
+DOOR_PRECISION_PROBED BL_Door_1_1_window 17
+11:42:34 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_002_OD_green_aged_enamel.
+11:42:34 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_002_OD_green_aged_enamel.
+11:42:35 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_002_OD_green_aged_enamel.
+DOOR_PRECISION_PROBED BL_Merged_cab_pivot_002_OD_green_aged_enamel 17
+11:42:35 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_002_Rubber_window_seals.
+es, 48 indices, raw size: 1248, encoded size: 485, compression ratio: 2.57
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 510, compression ratio: 2.45
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 948 indices, raw size: 16968, encoded size: 3527, compression ratio: 4.81
+DracoDecoder | Decoded 314 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 948 indices, raw size: 16968, encoded size: 3751, compression ratio: 4.52
+DracoDecoder | Decoded 314 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 314 vertices, 948 indices, raw size: 16968, encoded size: 4199, compression ratio: 4.04
+DracoDecoder | Decoded 314 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 328 vertices, 564 indices, raw size: 16632, encoded size: 2378, compression ratio: 6.99
+DracoDecoder | Decoded 328 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 328 vertices, 564 indices, raw size: 16632, encoded size: 2682, compression ratio: 6.20
+DracoDecoder | Decoded 328 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 328 vertices, 564 indices, raw size: 16632, encoded size: 2783, compression ratio: 5.98
+DracoDecoder | Decoded 328 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 480, compression ratio: 2.60
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 484, compression ratio: 2.58
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 24 vertices, 48 indices, raw size: 1248, encoded size: 509, compression ratio: 2.45
+DracoDecoder | Decoded 24 vertices, 48 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 312 vertices, 948 indices, raw size: 16872, encoded size: 3517, compression ratio: 4.80
+DracoDecoder | Decoded 312 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 312 vertices, 948 indices, raw size: 16872, encoded size: 3739, compression ratio: 4.51
+DracoDecoder | Decoded 312 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 312 vertices, 948 indices, raw size: 16872, encoded size: 4186, compression ratio: 4.03
+DracoDecoder | Decoded 312 vertices, 948 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 316 vertices, 564 indices, raw size: 16104, encoded size: 2330, compression ratio: 6.91
+DracoDecoder | Decoded 316 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 316 vertices, 564 indices, raw size: 16104, encoded size: 2625, compression ratio: 6.13
+DracoDecoder | Decoded 316 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 316 vertices, 564 indices, raw size: 16104, encoded size: 2723, compression ratio: 5.91
+DracoDecoder | Decoded 316 vertices, 564 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6398 vertices, 14412 indices, raw size: 334008, encoded size: 56416, compression ratio: 5.92
+DracoDecoder | Decoded 6398 vertices, 14412 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6398 vertices, 14412 indices, raw size: 334008, encoded size: 64480, compression ratio: 5.18
+DracoDecoder | Decoded 6398 vertices, 14412 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6398 vertices, 14412 indices, raw size: 334008, encoded size: 66790, compression ratio: 5.00
+DracoDecoder | Decoded 6398 vertices, 14412 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4135 vertices, 8820 indices, raw size: 248080, enco11:42:35 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_002_Rubber_window_seals.
+11:42:35 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_002_Rubber_window_seals.
+DOOR_PRECISION_PROBED BL_Merged_cab_pivot_002_Rubber_window_seals 17
+11:42:35 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_003_OD_green_aged_enamel.
+11:42:35 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_003_OD_green_aged_enamel.
+11:42:36 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_003_OD_green_aged_enamel.
+DOOR_PRECISION_PROBED BL_Merged_cab_pivot_003_OD_green_aged_enamel 17
+11:42:36 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_003_Rubber_window_seals.
+11:42:36 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_003_Rubber_window_seals.
+11:42:36 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_003_Rubber_window_seals.
+DOOR_PRECISION_PROBED BL_Merged_cab_pivot_003_Rubber_window_seals 17
+11:42:36 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_006_OD_green_aged_enamel.
+11:42:36 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_006_OD_green_aged_enamel.
+11:42:37 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_006_OD_green_aged_enamel.
+DOOR_PRECISION_PROBED BL_Merged_cab_pivot_006_OD_green_aged_enamel 17
+11:42:37 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_006_Rubber_window_seals.
+11:42:37 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_006_Rubber_window_seals.
+11:42:37 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_006_Rubber_window_seals.
+DOOR_PRECISION_PROBED BL_Merged_cab_pivot_006_Rubber_window_seals 17
+11:42:37 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_007_OD_green_aged_enamel.
+11:42:37 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_007_OD_green_aged_enamel.
+11:42:38 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_007_OD_green_aged_enamel.
+DOOR_PRECISION_PROBED BL_Merged_cab_pivot_007_OD_green_aged_enamel 17
+11:42:38 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_007_Rubber_window_seals.
+11:42:38 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_007_Rubber_window_seals.
+11:42:38 | INFO: Draco encoder: Encoding mesh BL_Merged_cab_pivot_007_Rubber_window_seals.
+ded size: 38118, compression ratio: 6.51
+DracoDecoder | Decoded 4135 vertices, 8820 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4135 vertices, 8820 indices, raw size: 248080, encoded size: 42532, compression ratio: 5.83
+DracoDecoder | Decoded 4135 vertices, 8820 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4135 vertices, 8820 indices, raw size: 248080, encoded size: 44023, compression ratio: 5.64
+DracoDecoder | Decoded 4135 vertices, 8820 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6410 vertices, 14526 indices, raw size: 334908, encoded size: 56218, compression ratio: 5.96
+DracoDecoder | Decoded 6410 vertices, 14526 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6410 vertices, 14526 indices, raw size: 334908, encoded size: 64423, compression ratio: 5.20
+DracoDecoder | Decoded 6410 vertices, 14526 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6410 vertices, 14526 indices, raw size: 334908, encoded size: 66723, compression ratio: 5.02
+DracoDecoder | Decoded 6410 vertices, 14526 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4125 vertices, 8820 indices, raw size: 247744, encoded size: 38212, compression ratio: 6.48
+DracoDecoder | Decoded 4125 vertices, 8820 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4125 vertices, 8820 indices, raw size: 247744, encoded size: 42605, compression ratio: 5.81
+DracoDecoder | Decoded 4125 vertices, 8820 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4125 vertices, 8820 indices, raw size: 247744, encoded size: 44092, compression ratio: 5.62
+DracoDecoder | Decoded 4125 vertices, 8820 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6302 vertices, 14412 indices, raw size: 330360, encoded size: 56011, compression ratio: 5.90
+DracoDecoder | Decoded 6302 vertices, 14412 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6302 vertices, 14412 indices, raw size: 330360, encoded size: 63966, compression ratio: 5.16
+DracoDecoder | Decoded 6302 vertices, 14412 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6302 vertices, 14412 indices, raw size: 330360, encoded size: 66234, compression ratio: 4.99
+DracoDecoder | Decoded 6302 vertices, 14412 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4119 vertices, 8820 indices, raw size: 247800, encoded size: 38195, compression ratio: 6.49
+DracoDecoder | Decoded 4119 vertices, 8820 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4119 vertices, 8820 indices, raw size: 247800, encoded size: 42634, compression ratio: 5.81
+DracoDecoder | Decoded 4119 vertices, 8820 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4119 vertices, 8820 indices, raw size: 247800, encoded size: 44135, compression ratio: 5.61
+DracoDecoder | Decoded 4119 vertices, 8820 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6306 vertices, 14526 indices, raw size: 331116, encoded size: 55280, compression ratio: 5.99
+DracoDecoder | Decoded 6306 vertices, 14526 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6306 vertices, 14526 indices, raw size: 331116, encoded size: 63422, compression ratio: 5.22
+DracoDecoder | Decoded 6306 vertices, 14526 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 6306 vertices, 14526 indices, raw size: 331116, encoded size: 65675, compression ratio: 5.04
+DracoDecoder | Decoded 6306 vertices, 14526 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4045 vertices, 8820 indices, raw size: 243544, encoded size: 37713, compression ratio: 6.46
+DracoDecoder | Decoded 4045 vertices, 8820 indices
+DracoEncoder | Preserve triangle order: no
+DracoEncoder | Encoded 4045 vertices, 8820 indices, raw size: 243544, encoded size: 42053, compression ratio: 5.79
+DracoDecoder | Decoded 4045 vertices, 8820 indices
+DracoEncoder | DOOR_PRECISION_PROBED BL_Merged_cab_pivot_007_Rubber_window_seals 17
+NATIVE_DOOR_PRECISION_PROBE_COMPLETE 20
+Preserve triangle order: no
+DracoEncoder | Encoded 4045 vertices, 8820 indices, raw size: 243544, encoded size: 43525, compression ratio: 5.60
+DracoDecoder | Decoded 4045 vertices, 8820 indices
+
+Blender quit

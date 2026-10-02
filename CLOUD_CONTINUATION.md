@@ -1,6 +1,6 @@
 # MAZ543 云开发权威进度记录
 
-更新时间：2026-10-02 03:41 UTC。**每次开始任务先读本文件。**
+更新时间：2026-10-02 03:53 UTC。**每次开始任务先读本文件。**
 本文件是唯一持续更新的工程进度入口；`CLOUD_HANDOFF.md` 是不可混淆的原始
 迁移/生产基线，下面的历史段落保留旧证据。当前状态和工作流以本文件顶部为准。
 独立研究、有限检查、发布成功均不代表整车验收：**16项仍全部OPEN**。
@@ -30,8 +30,8 @@
 `testcar/docs/ACCEPTANCE.md`、`testcar/MIGRATION_HANDOFF.md`。
 
 - 独立开发分支：`development/cloud-maz543a-20260930`
-- 最近已核实发布的HEAD：`902049b1a4d9e9a75e52afdb26cf62f19da7f299`（原书恢复记录已读回；Git模型实体仍cc47bf6）
-- 该提交根树：`0975295a7875ed7700c2e139ea60c7fba602614d`
+- 最近已核实发布的HEAD：`a2f73cbeca5b325b7da49a8681109748a89dd322`（1977原书关键页像结论已读回；Git模型实体仍cc47bf6）
+- 该提交根树：`013b361ad19edb1502c6e452baafa8dc294a1251`
 - 插件原生Git对象发布后远端ref/tree/parent及文件字节已核实，本地分支已对齐
 - 原迁移分支保持：`4f28bd4618ca7e272f6049b9f615821b8e0bb8f1`
 - `migration/cloud-handoff/DELIVERY_STATE.json`确认完整快照，无待迁移文件；
@@ -41,7 +41,9 @@
   失败侧图32文本与下框修正75文本均已完整逐个读回，阶段报告已授权渠道
   发送并回读。原短下阶6组交叉的22文本已实读，阶段报告也已回读；原书恢复
   记录的2文本已实读。本轮已直接读1977原书相关页像：A型图2与驾驶室图101/102
-  支持下阶定性区域和两踏面/三支承，尚无毫米安装尺寸。门位置量化误差另行核查。
+  支持下阶定性区域和两踏面/三支承，2文本和阶段报告均已实读，尚无毫米安装尺寸。
+  本轮阻止packer无声继承门14bit旧流，真实Textured门内存18bit有限误差通过；
+  **旧GLB未改变，仍FAIL**，不是已重导出/上传或网页验收。
   文档不能预先包含自身commit SHA，应以实际远端ref/tree核验为交付依据
 - **当前2.2m下踏步拟合布局安装FAIL**：第二踏面侵入8个原轮胎/轮毂/轮辋对象。
   下框raw-index闭合不代表有效实体，已见重合点/零面积面；其solid有效性UNKNOWN。
@@ -1344,3 +1346,57 @@ p6图2明确标MAZ-543A，照片可见下阶在承载车门的固定门槛下、
 边界均记入9567B来源JSON；没有上传原书、页像或OCR，没有在线转换或模型写入。
 下一步仍需可适用装配详图/有记录实测，结合原轮胎和门槛实际几何形成明确拟合
 假设后验证。新原生门候选保持LOCAL_ONLY_LFS_BLOCKED，整车16项继续OPEN。
+
+
+## 最新完成小项：阻止门压缩旧流被静默保留，真实源内存精度对照通过
+
+a2f73cb的完整tree/parent/nonforce ref与2文本均逐字读回，本地对齐干净，1977
+手册实际来源结果的阶段报告已发且线程实读。当前只修一处打包策略和相关小验证，
+不创建第二份大模型或新GLB，不改变生产入口或原源/材质/UV/拓扑。
+
+根因：既有`export-va180-cab-candidate.py`已经要求POSITION18bit，但
+`prepare-va180-cab-pack.mjs`只批准2个旧mesh换流，因此通用packer又保留了20条
+14bit门流。现在`preserve-unmodified-body-streams.mjs`在任何JSON打包修改或文件
+写入前，读取实际会保留/替换的Draco流元数据，拒绝超预算门流。不能靠候选
+导出设置、尚未编码的accessor bounds或把旧流标changed/new冒充修复。
+
+新policy将本地POSITION完整grid step限制10µm，是既有20µm比较的一半；所需
+bit按range/(2^bits-1)确定，不是完整世界/Float32传播误差证明。范围明确限静态
+4已知pivot/20精确子mesh；同时查baseline/candidate防止改名全部pivot绕过。
+scale非1、matrix式变换、skin、weights/morph、translation非3项或链上动画拒绝，
+未知/lossless路径需单独审查，不默认放行。实际fde04 GLB20流中12条被拒，
+8个较小handle/lock满足grid先决条件；当前完整资产仍FAIL。
+
+这次重新恢复的是**已发布既有**Textured LFS实体，99960163B、SHA6e406eca…，
+作为原export真正merged/baked输入；不是用独立Master或原生门控制候选替代UV
+和几何来源。其只读恢复没有修复CLI写认证或新增LFS上传。官方4.5.13LTS/build
+daeeeca98fb0、background/factory-startup/disable-autoexec、CPU1、120秒界执行，
+仅20真实门primitive在内存各编码14bit、按范围12/13/17bit及18bit，共60次。
+实际gather/compressor/native decoder与独立WASM读grid均有SHA，临时PNG编码、
+最终buffer/image/GLB写出入口被拦截；输入和冻结脚本前后SHA不变。
+
+有限双向所选真实顶点距离/全mesh跨度/12个真实连通铰链barrel跨度比较：14bit
+12/20失败，最大顶点距离64.416381µm，barrel跨度误差54.478645µm，重现已知
+问题。按range策略最大8.123744µm/3.933907µm，固定18bit最大4.129531µm/
+2.145767µm，均低于未放宽的20µm。KD只选对应候选，距离用Float64重算，
+它是到所选真实顶点的有限上界，不是逐角点对应、连续曲面或Hausdorff证明。
+attribute名称/类型及index数量已查，UV/normal值和完整三角对应尚未认证。
+
+成功原生exit0/20.735秒/RUSAGE_CHILDREN峰1762468KiB，非并发总内存或隔离
+性能基准。首轮0.466秒exit1因把版本字符串误写4.5.13（实际带LTS）在开源前
+拒绝，其真实原脚本/日志保留，最终改精确tuple和build hash。原生后最终policy
+只补静态资格与注释，执行时dc7cdb…字节保留，三个grid/decoder函数及policy值
+与最终40b31a…完全相同，不能把后加资格检查说成本次原生执行过。
+
+最终12类负控/路由检查通过，实际packer在写入前exit1，原字节/描述符未改；
+主审对落地代码独立再跑，guard和20流报告逐字相同，又逐SHA核全部交付文件、
+8项执行源码映射，并从60次原生记录独立重算14/18/policy摘要完全相同。
+最终repo-config lint4文件/208规则0diagnostics；初始外目录缺tsgolint、早期空
+输出lint及初次隔离packer找不到three的失败保留，不当最终覆盖。仅连接既有
+依赖，没有安装新包。两个Python脚本AST通过，未运行无关整app构建/浏览器。
+
+证据`work/cloud-door-position-precision-20261002/`，原始30文本273532B加主审
+复核小记录，原生report SHA27e25aaf…；一处packer变更和5个新增脚本可重放。
+下一步真正修复资产仍需以原Textured重编码门流、核逐角点/UV/normal/拓扑和
+其它流保留，再完成新LFS实体上传/实际回取。当前未产出/上传新GLB，旧GLB仍
+FAIL，唯一保存门blend仍LOCAL_ONLY_LFS_BLOCKED，原接触和16整车OPEN保持。

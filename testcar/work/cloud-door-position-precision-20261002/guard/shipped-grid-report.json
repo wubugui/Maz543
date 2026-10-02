@@ -1,0 +1,366 @@
+{
+  "status": "FAIL_DOOR_POSITION_GRID_BUDGET",
+  "policy": {
+    "id": "cab-door-position-grid-20um-v1",
+    "comparisonBudgetM": 0.00002,
+    "maximumGridStepM": 0.00001,
+    "maxQuantizationBits": 30
+  },
+  "checked": [
+    {
+      "node": "BL_Door_-1_0_handle",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.04842662811279297,
+      "minimum": [
+        -4.194213390350342,
+        1.7979999780654907,
+        -1.5862360000610352
+      ],
+      "requiredBits": 13,
+      "gridStepM": 0.00000295590722778447,
+      "gridAccepted": true,
+      "points": 24,
+      "triangles": 16,
+      "streamSHA256": "f15a72d41de56e34528fc8a049a26729c71e3ccaeba40d52e6d04dd905762dd7"
+    },
+    {
+      "node": "BL_Door_-1_0_lock",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.026000022888183594,
+      "minimum": [
+        -4.192999839782715,
+        1.687000036239624,
+        -1.559000015258789
+      ],
+      "requiredBits": 12,
+      "gridStepM": 0.0000015870123230289687,
+      "gridAccepted": true,
+      "points": 314,
+      "triangles": 316,
+      "streamSHA256": "a5e208205147ba09248b37772944ec03ad47debaf945cdd90f394a79f4ceeb1c"
+    },
+    {
+      "node": "BL_Door_-1_0_window",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.6663994789123535,
+      "minimum": [
+        -4.788726329803467,
+        2.0017707347869873,
+        -1.531999945640564
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.00004067627900337872,
+      "gridAccepted": false,
+      "points": 324,
+      "triangles": 188,
+      "streamSHA256": "29107fd724ed4b5a6d761f878bb2534becf5c8ba8ce877a7ace669f89999ab99"
+    },
+    {
+      "node": "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 1.2699999809265137,
+      "minimum": [
+        -4.909999847412109,
+        1.2799999713897705,
+        -1.565999984741211
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.00007751937868073697,
+      "gridAccepted": false,
+      "points": 6398,
+      "triangles": 4804,
+      "streamSHA256": "a4eb6fdf8c78a9c677b9187313c1d10f508df31c3855d3cc45caea6e949e4541"
+    },
+    {
+      "node": "BL_Merged_cab_pivot_002_Rubber_window_seals",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 1.2799960374832153,
+      "minimum": [
+        -4.914996147155762,
+        1.2750016450881958,
+        -1.5509999990463257
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.00007812952679504458,
+      "gridAccepted": false,
+      "points": 4135,
+      "triangles": 2940,
+      "streamSHA256": "bf50e0d98ba374bfb0954c04ae7482d17d78d3d6fbbb9b50ed63a236e4a5f820"
+    },
+    {
+      "node": "BL_Door_-1_1_handle",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.04842710494995117,
+      "minimum": [
+        -3.1742136478424072,
+        1.7979999780654907,
+        -1.5862360000610352
+      ],
+      "requiredBits": 13,
+      "gridStepM": 0.000002955936333391392,
+      "gridAccepted": true,
+      "points": 24,
+      "triangles": 16,
+      "streamSHA256": "f2f32b2f3417996b7852b77719bdcc558e862dac3aa6cf267bf5ab71e4e3a038"
+    },
+    {
+      "node": "BL_Door_-1_1_lock",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.026000022888183594,
+      "minimum": [
+        -3.1730000972747803,
+        1.687000036239624,
+        -1.559000015258789
+      ],
+      "requiredBits": 12,
+      "gridStepM": 0.0000015870123230289687,
+      "gridAccepted": true,
+      "points": 312,
+      "triangles": 316,
+      "streamSHA256": "446001ecc32ed2d4f5f817f44535a878e8fc1b7bb8addf9e74d6032f8b84ed8a"
+    },
+    {
+      "node": "BL_Door_-1_1_window",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.7330398559570312,
+      "minimum": [
+        -3.836486339569092,
+        2.0017707347869873,
+        -1.531999945640564
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.000044743933098762816,
+      "gridAccepted": false,
+      "points": 314,
+      "triangles": 188,
+      "streamSHA256": "ec17d0a6802c68d3f4eb97e6bd2b43825fbdceb569073e31cecc255d482646f2"
+    },
+    {
+      "node": "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 1.2699999809265137,
+      "minimum": [
+        -3.9600000381469727,
+        1.2799999713897705,
+        -1.565999984741211
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.00007751937868073697,
+      "gridAccepted": false,
+      "points": 6410,
+      "triangles": 4842,
+      "streamSHA256": "d3051479854d3c6fad3d61ece11fb8e5340f48ff20b0bc101d7a30ce2c232663"
+    },
+    {
+      "node": "BL_Merged_cab_pivot_003_Rubber_window_seals",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 1.2799960374832153,
+      "minimum": [
+        -3.964996337890625,
+        1.2750016450881958,
+        -1.5509999990463257
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.00007812952679504458,
+      "gridAccepted": false,
+      "points": 4125,
+      "triangles": 2940,
+      "streamSHA256": "2bba999abb35b6ac90602695bec141035b0b4db33d0537c596eef65a397c262b"
+    },
+    {
+      "node": "BL_Door_1_0_handle",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.04842662811279297,
+      "minimum": [
+        -4.194213390350342,
+        1.7979999780654907,
+        1.5487639904022217
+      ],
+      "requiredBits": 13,
+      "gridStepM": 0.00000295590722778447,
+      "gridAccepted": true,
+      "points": 24,
+      "triangles": 16,
+      "streamSHA256": "04b990dab4438c99fa13c89b4562279d0a2d7841b4243764f5e5321d456df29c"
+    },
+    {
+      "node": "BL_Door_1_0_lock",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.026000022888183594,
+      "minimum": [
+        -4.192999839782715,
+        1.687000036239624,
+        1.5410000085830688
+      ],
+      "requiredBits": 12,
+      "gridStepM": 0.0000015870123230289687,
+      "gridAccepted": true,
+      "points": 314,
+      "triangles": 316,
+      "streamSHA256": "4bc75708371bc11b28c385f05f164cf2948a10d08d8d6cf67c91a6f0051d69fd"
+    },
+    {
+      "node": "BL_Door_1_0_window",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.6663994789123535,
+      "minimum": [
+        -4.788726329803467,
+        2.0017707347869873,
+        1.524999976158142
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.00004067627900337872,
+      "gridAccepted": false,
+      "points": 328,
+      "triangles": 188,
+      "streamSHA256": "b7e0e6f3e27f35ad44285e8e19dd1a76adb17d33446985bd5d10e1e8ef70c268"
+    },
+    {
+      "node": "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 1.2699999809265137,
+      "minimum": [
+        -4.909999847412109,
+        1.2799999713897705,
+        1.4769999980926514
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.00007751937868073697,
+      "gridAccepted": false,
+      "points": 6302,
+      "triangles": 4804,
+      "streamSHA256": "90e38ff6525c562a3d7a5e8020bf19effce1058ccb0292f30769030f8111ce3e"
+    },
+    {
+      "node": "BL_Merged_cab_pivot_006_Rubber_window_seals",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 1.2799960374832153,
+      "minimum": [
+        -4.914996147155762,
+        1.2750016450881958,
+        1.5240000486373901
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.00007812952679504458,
+      "gridAccepted": false,
+      "points": 4119,
+      "triangles": 2940,
+      "streamSHA256": "d3d48f434160198bfa73b066a9e4a08a72f4dd1cf02f658bf59fc72881438bef"
+    },
+    {
+      "node": "BL_Door_1_1_handle",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.04842710494995117,
+      "minimum": [
+        -3.1742136478424072,
+        1.7979999780654907,
+        1.5487639904022217
+      ],
+      "requiredBits": 13,
+      "gridStepM": 0.000002955936333391392,
+      "gridAccepted": true,
+      "points": 24,
+      "triangles": 16,
+      "streamSHA256": "bc6e83c0c9359eb9a074e8cf7480d04d26ccbc8ef687a98bd58010c18df72dc5"
+    },
+    {
+      "node": "BL_Door_1_1_lock",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.026000022888183594,
+      "minimum": [
+        -3.1730000972747803,
+        1.687000036239624,
+        1.5410000085830688
+      ],
+      "requiredBits": 12,
+      "gridStepM": 0.0000015870123230289687,
+      "gridAccepted": true,
+      "points": 312,
+      "triangles": 316,
+      "streamSHA256": "6a446043c450cc59b0259a8fff8fd87e290f61de396891f6b74020446e0a4829"
+    },
+    {
+      "node": "BL_Door_1_1_window",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 0.7330398559570312,
+      "minimum": [
+        -3.836486339569092,
+        2.0017707347869873,
+        1.524999976158142
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.000044743933098762816,
+      "gridAccepted": false,
+      "points": 316,
+      "triangles": 188,
+      "streamSHA256": "83f35bb10e4b0b6691107a899ae330b834751d91b0842c33493947872c6fb492"
+    },
+    {
+      "node": "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 1.2699999809265137,
+      "minimum": [
+        -3.9600000381469727,
+        1.2799999713897705,
+        1.4769999980926514
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.00007751937868073697,
+      "gridAccepted": false,
+      "points": 6306,
+      "triangles": 4842,
+      "streamSHA256": "03f02736d449b48307412dab0e6dc7a2fb41da7ee643eb0f1ced31f526956994"
+    },
+    {
+      "node": "BL_Merged_cab_pivot_007_Rubber_window_seals",
+      "selected": "retained-baseline",
+      "bits": 14,
+      "rangeM": 1.2799960374832153,
+      "minimum": [
+        -3.964996337890625,
+        1.2750016450881958,
+        1.5240000486373901
+      ],
+      "requiredBits": 17,
+      "gridStepM": 0.00007812952679504458,
+      "gridAccepted": false,
+      "points": 4045,
+      "triangles": 2940,
+      "streamSHA256": "98e7d1f57a9acef1577f577e0471d878d295c77757ebb059cee673b1c2d1b5e7"
+    }
+  ],
+  "failedNodes": [
+    "BL_Door_-1_0_window",
+    "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+    "BL_Merged_cab_pivot_002_Rubber_window_seals",
+    "BL_Door_-1_1_window",
+    "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+    "BL_Merged_cab_pivot_003_Rubber_window_seals",
+    "BL_Door_1_0_window",
+    "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+    "BL_Merged_cab_pivot_006_Rubber_window_seals",
+    "BL_Door_1_1_window",
+    "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+    "BL_Merged_cab_pivot_007_Rubber_window_seals"
+  ],
+  "limits": "Grid precondition only. Native corner/topology/attribute transport, Float32 error, materials, UVs, full asset and browser acceptance still require independent checks."
+}

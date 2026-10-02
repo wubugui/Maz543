@@ -1,0 +1,4176 @@
+{
+  "status": "PASS_NATIVE_FINITE_DOOR_ENCODER_PROBE_ONLY",
+  "source": {
+    "sha256": "6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266",
+    "bytes": 99960163
+  },
+  "sourceRole": "Exact published Textured input of export-va180-cab-candidate.py",
+  "blenderVersion": "4.5.13 LTS",
+  "pinnedInstalledCode": {
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/material/encode_image.py": "00e651d2f4eef3edfdcc48a7ada9e6175cf02a1b2623e8766db7bd235d0312a8",
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/libextern_draco.so": "687e03509fa38a9ff7db8a5842638002eba9ea5fa1f620839ef8c09270c4c54e",
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/io/exp/draco.py": "783dea6179bae8ad0c1609faf4bdb2fbdff4ffad877e2900935c57ecfc887b3c",
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/blender/exp/export.py": "273a06669ffe6c475b52460feabee22a05bb87cfbb33896e412beb8400bf8e26"
+  },
+  "scriptSHA256": "10e9bfab53c1c88cde68f28a216e5d30c42f227be9ac1520995593fb8eb32db4",
+  "gridReaderSHA256": "ea6ccdbf06751fd1d53b60db07ae5676a67dd58049c597d5697d68d72154eef6",
+  "settings": {
+    "gltf_draco_mesh_compression": true,
+    "gltf_draco_mesh_compression_level": 6,
+    "gltf_draco_position_quantization": 18,
+    "gltf_draco_normal_quantization": 10,
+    "gltf_draco_texcoord_quantization": 12,
+    "gltf_draco_color_quantization": 10,
+    "gltf_draco_generic_quantization": 12
+  },
+  "nativeTriangulation": [],
+  "doors": [
+    {
+      "node": "BL_Door_-1_0_handle",
+      "nativeRangeM": 0.04842662811279297,
+      "nativeMin": [
+        -4.194213390350342,
+        1.7979999780654907,
+        -1.5862360000610352
+      ],
+      "nativeMax": [
+        -4.145786762237549,
+        1.8219999074935913,
+        -1.5487639904022217
+      ],
+      "requiredBits": 13,
+      "nativePoints": 24,
+      "nativeIndices": 48,
+      "nativeIndicesSHA256": "c115a0d1b7c79680ad1eb89e9cde75d678a2f6b1c251308b0caedeb5752c6154",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "3c1b355af3462a5b180010eee58a893eed9e16bdd3b718be1bde67b400b94f83"
+        },
+        "NORMAL": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "1776e40e09989a7b548110c61ab67fcfc77dff0092521d22351947639383b432"
+        },
+        "TEXCOORD_0": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "1fb1b525f3664db710cc3f1f963eaaf27de4974d87ca313afea39f76722e5447"
+        },
+        "TANGENT": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "f4d70af20175ab60f5178f0fbfda3a3c560865fdb4fe70cd189a0d85bff3d917"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 13,
+          "streamBytes": 481,
+          "grid": {
+            "bits": 13,
+            "rangeM": 0.04842662811279297,
+            "minimum": [
+              -4.194213390350342,
+              1.7979999780654907,
+              -1.5862360000610352
+            ],
+            "requiredBits": 13,
+            "gridStepM": 5.9121753281397835e-06,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "52d380403038fa157de1af3a4ee7fe1376a91d38f930594cc47fad4d125dcee6"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 4.696301365755131e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.696301365755131e-06,
+          "spanErrorM": [
+            0.0,
+            2.384185791015625e-06,
+            5.960464477539062e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 14,
+          "streamBytes": 486,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.04842662811279297,
+            "minimum": [
+              -4.194213390350342,
+              1.7979999780654907,
+              -1.5862360000610352
+            ],
+            "requiredBits": 13,
+            "gridStepM": 2.95590722778447e-06,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "f15a72d41de56e34528fc8a049a26729c71e3ccaeba40d52e6d04dd905762dd7"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 1.6603932711105489e-06,
+          "nativeToDecodedChosenVertexMaxM": 1.6603932711105489e-06,
+          "spanErrorM": [
+            0.0,
+            9.5367431640625e-07,
+            0.0
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 510,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.04842662811279297,
+            "minimum": [
+              -4.194213390350342,
+              1.7979999780654907,
+              -1.5862360000610352
+            ],
+            "requiredBits": 13,
+            "gridStepM": 1.847336305481854e-07,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "865539a84e722e9aae9110ec1e665c4ffa9c7b7f6c5a6502f4f276c80539d31f"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 1.6858739404357614e-07,
+          "nativeToDecodedChosenVertexMaxM": 1.6858739404357614e-07,
+          "spanErrorM": [
+            0.0,
+            1.1920928955078125e-07,
+            1.1920928955078125e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Door_-1_0_lock",
+      "nativeRangeM": 0.026000022888183594,
+      "nativeMin": [
+        -4.192999839782715,
+        1.687000036239624,
+        -1.559000015258789
+      ],
+      "nativeMax": [
+        -4.166999816894531,
+        1.7130000591278076,
+        -1.5410000085830688
+      ],
+      "requiredBits": 12,
+      "nativePoints": 314,
+      "nativeIndices": 948,
+      "nativeIndicesSHA256": "eb6a0b9d34a7bc0bb79d9f2489050d7178c315fe6e8f93e4893ea979dcd0c4e2",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 314,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "1e09a9a6e5b34799bd34be3440b9ed90fe957b4a8db001345437c96d68299dda"
+        },
+        "NORMAL": {
+          "count": 314,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "768d5f4b939c7bd0d3f95f6c09ec97992137d7d79584f620c33abde53c2fd969"
+        },
+        "TEXCOORD_0": {
+          "count": 314,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "0ab2466be3bf380f6a6e528c40e528181dd6ba3b788831885037e0afad542648"
+        },
+        "TANGENT": {
+          "count": 314,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "e7dded70c003388351daa814fc25936efe5822b1b0a5e7851960a7e8dbcff7af"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 12,
+          "streamBytes": 3564,
+          "grid": {
+            "bits": 12,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -4.192999839782715,
+              1.687000036239624,
+              -1.559000015258789
+            ],
+            "requiredBits": 12,
+            "gridStepM": 6.349211938506372e-06,
+            "gridAccepted": true,
+            "points": 314,
+            "triangles": 316,
+            "streamSHA256": "d49974422e41ce2d4e59b4e41fc03123466d3308e31b0c8de478bf1fe75d3ce4"
+          },
+          "decodedPoints": 314,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 4.554980558047962e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.554980558047962e-06,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 14,
+          "streamBytes": 3788,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -4.192999839782715,
+              1.687000036239624,
+              -1.559000015258789
+            ],
+            "requiredBits": 12,
+            "gridStepM": 1.5870123230289687e-06,
+            "gridAccepted": true,
+            "points": 314,
+            "triangles": 316,
+            "streamSHA256": "a5e208205147ba09248b37772944ec03ad47debaf945cdd90f394a79f4ceeb1c"
+          },
+          "decodedPoints": 314,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 1.1980385328675377e-06,
+          "nativeToDecodedChosenVertexMaxM": 1.1980385328675377e-06,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            1.1920928955078125e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 4238,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -4.192999839782715,
+              1.687000036239624,
+              -1.559000015258789
+            ],
+            "requiredBits": 12,
+            "gridStepM": 9.918259456931367e-08,
+            "gridAccepted": true,
+            "points": 314,
+            "triangles": 316,
+            "streamSHA256": "2319078dac25950d8453254f7adf826394d2e8e18b6042bfa4beea856a8b6190"
+          },
+          "decodedPoints": 314,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 0.0,
+          "nativeToDecodedChosenVertexMaxM": 0.0,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Door_-1_0_window",
+      "nativeRangeM": 0.6663994789123535,
+      "nativeMin": [
+        -4.788726329803467,
+        2.0017707347869873,
+        -1.531999945640564
+      ],
+      "nativeMax": [
+        -4.122326850891113,
+        2.4682507514953613,
+        -1.524999976158142
+      ],
+      "requiredBits": 17,
+      "nativePoints": 321,
+      "nativeIndices": 564,
+      "nativeIndicesSHA256": "848d8fcdaf762e679d3885a0a951bc59b732dc187f4fcddaa426325d6fefb7c5",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 321,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "b54fbf629390080c3443e1513a39e9bc150b091ceee942d62074dadf70e019c3"
+        },
+        "NORMAL": {
+          "count": 321,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "8dbb3af7f4499af06d994c9cc5ae627c56fc91a45dde9d5e96bc5cf4b154895d"
+        },
+        "TEXCOORD_0": {
+          "count": 321,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "292a26d08fef2df692f449126a12819541ee83b60817f0ed92d2cea92b8a2e4e"
+        },
+        "TANGENT": {
+          "count": 321,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "574c07b24822f5388264589da74fbd8866328134c980ca3d954952f56688f535"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 2328,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.6663994789123535,
+            "minimum": [
+              -4.788726329803467,
+              2.0017707347869873,
+              -1.531999945640564
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.067627900337872e-05,
+            "gridAccepted": false,
+            "points": 324,
+            "triangles": 188,
+            "streamSHA256": "29107fd724ed4b5a6d761f878bb2534becf5c8ba8ce877a7ace669f89999ab99"
+          },
+          "decodedPoints": 324,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 2.6944727806102537e-05,
+          "nativeToDecodedChosenVertexMaxM": 2.6944727806102537e-05,
+          "spanErrorM": [
+            0.0,
+            4.5299530029296875e-06,
+            3.6954879760742188e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 2634,
+          "grid": {
+            "bits": 17,
+            "rangeM": 0.6663994789123535,
+            "minimum": [
+              -4.788726329803467,
+              2.0017707347869873,
+              -1.531999945640564
+            ],
+            "requiredBits": 17,
+            "gridStepM": 5.084263329892604e-06,
+            "gridAccepted": true,
+            "points": 324,
+            "triangles": 188,
+            "streamSHA256": "642f3ad88cd979f4d42a2cd6788c25fee3eb0f34856f58b3fdc015b57fab36e0"
+          },
+          "decodedPoints": 324,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 3.236263265728528e-06,
+          "nativeToDecodedChosenVertexMaxM": 3.236263265728528e-06,
+          "spanErrorM": [
+            0.0,
+            1.1920928955078125e-06,
+            1.0728836059570312e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 2736,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.6663994789123535,
+            "minimum": [
+              -4.788726329803467,
+              2.0017707347869873,
+              -1.531999945640564
+            ],
+            "requiredBits": 17,
+            "gridStepM": 2.542121967446598e-06,
+            "gridAccepted": true,
+            "points": 324,
+            "triangles": 188,
+            "streamSHA256": "fdf8af48018dd23cf4dad05f3c96fecfad4e78195f55a237e0e8790c222eceea"
+          },
+          "decodedPoints": 324,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 2.1490760299348767e-06,
+          "nativeToDecodedChosenVertexMaxM": 2.1490760299348767e-06,
+          "spanErrorM": [
+            0.0,
+            7.152557373046875e-07,
+            1.0728836059570312e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Door_-1_1_handle",
+      "nativeRangeM": 0.04842710494995117,
+      "nativeMin": [
+        -3.1742136478424072,
+        1.7979999780654907,
+        -1.5862360000610352
+      ],
+      "nativeMax": [
+        -3.125786542892456,
+        1.8219999074935913,
+        -1.5487639904022217
+      ],
+      "requiredBits": 13,
+      "nativePoints": 24,
+      "nativeIndices": 48,
+      "nativeIndicesSHA256": "c115a0d1b7c79680ad1eb89e9cde75d678a2f6b1c251308b0caedeb5752c6154",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "be3cad1673910de646152f59ab0e48d67f63420807cafcbcb1beb6155f3ba1d6"
+        },
+        "NORMAL": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "1776e40e09989a7b548110c61ab67fcfc77dff0092521d22351947639383b432"
+        },
+        "TEXCOORD_0": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "b2539ae6d92ebc82cfe5d9233a26b0f612fafc00d845275e4bc742ddf2b8a4b2"
+        },
+        "TANGENT": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "6d50fbd531e895e815e082e28570c1674107f9fe92afa59cdb19bd30e9492b30"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 13,
+          "streamBytes": 478,
+          "grid": {
+            "bits": 13,
+            "rangeM": 0.04842710494995117,
+            "minimum": [
+              -3.1742136478424072,
+              1.7979999780654907,
+              -1.5862360000610352
+            ],
+            "requiredBits": 13,
+            "gridStepM": 5.912233542906992e-06,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "a416da2e20ba7798b986078f81814214908fc071ed2da4dcca930417104c2ed5"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 4.288221776152837e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.288221776152837e-06,
+          "spanErrorM": [
+            0.0,
+            2.1457672119140625e-06,
+            2.384185791015625e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 14,
+          "streamBytes": 483,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.04842710494995117,
+            "minimum": [
+              -3.1742136478424072,
+              1.7979999780654907,
+              -1.5862360000610352
+            ],
+            "requiredBits": 13,
+            "gridStepM": 2.955936333391392e-06,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "f2f32b2f3417996b7852b77719bdcc558e862dac3aa6cf267bf5ab71e4e3a038"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 1.8697246481607106e-06,
+          "nativeToDecodedChosenVertexMaxM": 1.8697246481607106e-06,
+          "spanErrorM": [
+            0.0,
+            7.152557373046875e-07,
+            3.5762786865234375e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 507,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.04842710494995117,
+            "minimum": [
+              -3.1742136478424072,
+              1.7979999780654907,
+              -1.5862360000610352
+            ],
+            "requiredBits": 13,
+            "gridStepM": 1.8473544954452787e-07,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "bd60d967c2c67bd777c3f2e01a92001dcc81196f4e966192f3a0bd7f2a54d07c"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 1.6858739404357614e-07,
+          "nativeToDecodedChosenVertexMaxM": 1.6858739404357614e-07,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            1.1920928955078125e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Door_-1_1_lock",
+      "nativeRangeM": 0.026000022888183594,
+      "nativeMin": [
+        -3.1730000972747803,
+        1.687000036239624,
+        -1.559000015258789
+      ],
+      "nativeMax": [
+        -3.1470000743865967,
+        1.7130000591278076,
+        -1.5410000085830688
+      ],
+      "requiredBits": 12,
+      "nativePoints": 312,
+      "nativeIndices": 948,
+      "nativeIndicesSHA256": "7ef56ff3f67bc5de27e3605cdcd0fbcef7b4e52ed8e17d953df8af0031beee9a",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "0850ffd26fdee9632da4af18d31daf97960ebd8cd071acb5ce343b3f17fc513a"
+        },
+        "NORMAL": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "c63adec40b022479674007e3c2a25b97dba2a54e3e98cb7171446c12d04063f0"
+        },
+        "TEXCOORD_0": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "0eb0dc8efc41d5a9d968003cc29d844f5f8c286ffb9cbdb954400332c7b12729"
+        },
+        "TANGENT": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "5037b0170da223a461ce3379fe6f98b83560aee1a42ce74f73c4f1f0c64c2d54"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 12,
+          "streamBytes": 3507,
+          "grid": {
+            "bits": 12,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -3.1730000972747803,
+              1.687000036239624,
+              -1.559000015258789
+            ],
+            "requiredBits": 12,
+            "gridStepM": 6.349211938506372e-06,
+            "gridAccepted": true,
+            "points": 312,
+            "triangles": 316,
+            "streamSHA256": "999c0a700bc747b23e3cf90fbd7db698fd3fa72786125082d403251cb39e8881"
+          },
+          "decodedPoints": 312,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 4.468361094949559e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.468361094949559e-06,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 14,
+          "streamBytes": 3731,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -3.1730000972747803,
+              1.687000036239624,
+              -1.559000015258789
+            ],
+            "requiredBits": 12,
+            "gridStepM": 1.5870123230289687e-06,
+            "gridAccepted": true,
+            "points": 312,
+            "triangles": 316,
+            "streamSHA256": "446001ecc32ed2d4f5f817f44535a878e8fc1b7bb8addf9e74d6032f8b84ed8a"
+          },
+          "decodedPoints": 312,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 1.1740753414387827e-06,
+          "nativeToDecodedChosenVertexMaxM": 1.1740753414387827e-06,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            1.1920928955078125e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 4180,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -3.1730000972747803,
+              1.687000036239624,
+              -1.559000015258789
+            ],
+            "requiredBits": 12,
+            "gridStepM": 9.918259456931367e-08,
+            "gridAccepted": true,
+            "points": 312,
+            "triangles": 316,
+            "streamSHA256": "885d479e5da155fa565a5d5418e8109dce9ea6745bf34f08eff49f76e52e39df"
+          },
+          "decodedPoints": 312,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 0.0,
+          "nativeToDecodedChosenVertexMaxM": 0.0,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Door_-1_1_window",
+      "nativeRangeM": 0.7330398559570312,
+      "nativeMin": [
+        -3.836486339569092,
+        2.0017707347869873,
+        -1.531999945640564
+      ],
+      "nativeMax": [
+        -3.1034464836120605,
+        2.4682507514953613,
+        -1.524999976158142
+      ],
+      "requiredBits": 17,
+      "nativePoints": 310,
+      "nativeIndices": 564,
+      "nativeIndicesSHA256": "e703b7ede90e6dde64eb8675e8d496e309740b326e7e038ae1a8bf5fcf7596f4",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 310,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "72c18835a7e3b28c9510d65e9d37413bf335180849fea63327bed80061b49ccb"
+        },
+        "NORMAL": {
+          "count": 310,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "4972b61cc9823d53714648c5da856d1614d1441871812c2f8ea0befb34d20d60"
+        },
+        "TEXCOORD_0": {
+          "count": 310,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "cd086c60e0927bc1b8643ec24bddabe471d527e6bd87fbd7184d963e1c880a94"
+        },
+        "TANGENT": {
+          "count": 310,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "86822ff887d1bd0a20aff1528b28ca65ff22e6f938eae3e057d0433eb9410993"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 2284,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.7330398559570312,
+            "minimum": [
+              -3.836486339569092,
+              2.0017707347869873,
+              -1.531999945640564
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.4743933098762816e-05,
+            "gridAccepted": false,
+            "points": 314,
+            "triangles": 188,
+            "streamSHA256": "ec17d0a6802c68d3f4eb97e6bd2b43825fbdceb569073e31cecc255d482646f2"
+          },
+          "decodedPoints": 314,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 3.574549733893708e-05,
+          "nativeToDecodedChosenVertexMaxM": 3.574549733893708e-05,
+          "spanErrorM": [
+            0.0,
+            2.0265579223632812e-05,
+            1.990795135498047e-05
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 2580,
+          "grid": {
+            "bits": 17,
+            "rangeM": 0.7330398559570312,
+            "minimum": [
+              -3.836486339569092,
+              2.0017707347869873,
+              -1.531999945640564
+            ],
+            "requiredBits": 17,
+            "gridStepM": 5.592692937087771e-06,
+            "gridAccepted": true,
+            "points": 314,
+            "triangles": 188,
+            "streamSHA256": "ad1011ed52b08555891e4b010bd71cb6aa4615e11ccece992d1aa004128cfe1a"
+          },
+          "decodedPoints": 314,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 4.23989754766911e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.23989754766911e-06,
+          "spanErrorM": [
+            0.0,
+            9.5367431640625e-07,
+            2.0265579223632812e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 2679,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.7330398559570312,
+            "minimum": [
+              -3.836486339569092,
+              2.0017707347869873,
+              -1.531999945640564
+            ],
+            "requiredBits": 17,
+            "gridStepM": 2.7963358012879658e-06,
+            "gridAccepted": true,
+            "points": 314,
+            "triangles": 188,
+            "streamSHA256": "8872a42d5e2c33bc0b1254f76fd3f07fbf28569fc63e8443ffab906cd0b5f72c"
+          },
+          "decodedPoints": 314,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 1.9947529471732987e-06,
+          "nativeToDecodedChosenVertexMaxM": 1.9947529471732987e-06,
+          "spanErrorM": [
+            0.0,
+            9.5367431640625e-07,
+            7.152557373046875e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Door_1_0_handle",
+      "nativeRangeM": 0.04842662811279297,
+      "nativeMin": [
+        -4.194213390350342,
+        1.7979999780654907,
+        1.5487639904022217
+      ],
+      "nativeMax": [
+        -4.145786762237549,
+        1.8219999074935913,
+        1.5862360000610352
+      ],
+      "requiredBits": 13,
+      "nativePoints": 24,
+      "nativeIndices": 48,
+      "nativeIndicesSHA256": "c115a0d1b7c79680ad1eb89e9cde75d678a2f6b1c251308b0caedeb5752c6154",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "20733b7f4db4c3f88f3ebad3adbe170bba643dbca5b4cf6647b222bdde4bb203"
+        },
+        "NORMAL": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "194590ac7608a37cc3b6a69f502251b03ad088d2b0c96226a3e403696db14f50"
+        },
+        "TEXCOORD_0": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "ea5abcd462e1f4d3374fc65072e077db743c2478fc546a6a10f62578c3dbd952"
+        },
+        "TANGENT": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "89bd880249eaca3c5fc1b0dd605cfebf2d4a7c975a923e86ba77a2a214a73454"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 13,
+          "streamBytes": 481,
+          "grid": {
+            "bits": 13,
+            "rangeM": 0.04842662811279297,
+            "minimum": [
+              -4.194213390350342,
+              1.7979999780654907,
+              1.5487639904022217
+            ],
+            "requiredBits": 13,
+            "gridStepM": 5.9121753281397835e-06,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "d05bdaba7aeb8b8da42c43b31e8cfbe834001a9c196a3905b03f76dd24a54026"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 4.696301365755131e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.696301365755131e-06,
+          "spanErrorM": [
+            0.0,
+            2.384185791015625e-06,
+            5.960464477539062e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 14,
+          "streamBytes": 485,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.04842662811279297,
+            "minimum": [
+              -4.194213390350342,
+              1.7979999780654907,
+              1.5487639904022217
+            ],
+            "requiredBits": 13,
+            "gridStepM": 2.95590722778447e-06,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "04b990dab4438c99fa13c89b4562279d0a2d7841b4243764f5e5321d456df29c"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 1.6603932711105489e-06,
+          "nativeToDecodedChosenVertexMaxM": 1.6603932711105489e-06,
+          "spanErrorM": [
+            0.0,
+            9.5367431640625e-07,
+            0.0
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 510,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.04842662811279297,
+            "minimum": [
+              -4.194213390350342,
+              1.7979999780654907,
+              1.5487639904022217
+            ],
+            "requiredBits": 13,
+            "gridStepM": 1.847336305481854e-07,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "efee9d28eaa9094fa9d53083b7662b4c6048c02ebba8fd76158441aab6eaeeee"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 1.6858739404357614e-07,
+          "nativeToDecodedChosenVertexMaxM": 1.6858739404357614e-07,
+          "spanErrorM": [
+            0.0,
+            1.1920928955078125e-07,
+            1.1920928955078125e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Door_1_0_lock",
+      "nativeRangeM": 0.026000022888183594,
+      "nativeMin": [
+        -4.192999839782715,
+        1.687000036239624,
+        1.5410000085830688
+      ],
+      "nativeMax": [
+        -4.166999816894531,
+        1.7130000591278076,
+        1.559000015258789
+      ],
+      "requiredBits": 12,
+      "nativePoints": 314,
+      "nativeIndices": 948,
+      "nativeIndicesSHA256": "b0b97207459f37536590574049f5f6b5227e0ba70a8fd5228f3ae6b68150a89f",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 314,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "4d74a5d75d172ac585bf44cbd7ddd0e42b2a04ac25cb06c32aa2f47f98e9c4af"
+        },
+        "NORMAL": {
+          "count": 314,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "fbdd393b1fdfb64a039cdbc4a92dfca404d0cc3ca158997aac2058130f7a8fc3"
+        },
+        "TEXCOORD_0": {
+          "count": 314,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "d10227253415cc065b3bbbc63c5b198c038a1780df2e411444b742f9c3338308"
+        },
+        "TANGENT": {
+          "count": 314,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "4e6a377238668a296ec47cffd56977586219b21e5b234a8175d5fce8d27edb2a"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 12,
+          "streamBytes": 3527,
+          "grid": {
+            "bits": 12,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -4.192999839782715,
+              1.687000036239624,
+              1.5410000085830688
+            ],
+            "requiredBits": 12,
+            "gridStepM": 6.349211938506372e-06,
+            "gridAccepted": true,
+            "points": 314,
+            "triangles": 316,
+            "streamSHA256": "f7c390d2c13e909549927445e6a2c32cb1986ecc25e6e61065e0049a14ea4c49"
+          },
+          "decodedPoints": 314,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 4.554980558047962e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.554980558047962e-06,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 14,
+          "streamBytes": 3751,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -4.192999839782715,
+              1.687000036239624,
+              1.5410000085830688
+            ],
+            "requiredBits": 12,
+            "gridStepM": 1.5870123230289687e-06,
+            "gridAccepted": true,
+            "points": 314,
+            "triangles": 316,
+            "streamSHA256": "4bc75708371bc11b28c385f05f164cf2948a10d08d8d6cf67c91a6f0051d69fd"
+          },
+          "decodedPoints": 314,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 1.27280691290275e-06,
+          "nativeToDecodedChosenVertexMaxM": 1.27280691290275e-06,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            1.1920928955078125e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 4199,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -4.192999839782715,
+              1.687000036239624,
+              1.5410000085830688
+            ],
+            "requiredBits": 12,
+            "gridStepM": 9.918259456931367e-08,
+            "gridAccepted": true,
+            "points": 314,
+            "triangles": 316,
+            "streamSHA256": "147133a016d3069f78064734abd737e502433eca1fdd29825bb0e226b3ec74ca"
+          },
+          "decodedPoints": 314,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 0.0,
+          "nativeToDecodedChosenVertexMaxM": 0.0,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Door_1_0_window",
+      "nativeRangeM": 0.6663994789123535,
+      "nativeMin": [
+        -4.788726329803467,
+        2.0017707347869873,
+        1.524999976158142
+      ],
+      "nativeMax": [
+        -4.122326850891113,
+        2.4682507514953613,
+        1.531999945640564
+      ],
+      "requiredBits": 17,
+      "nativePoints": 323,
+      "nativeIndices": 564,
+      "nativeIndicesSHA256": "d0b5a338af65df9d8dd12befb3c97932c9252d863e561f0261861d7fc4ab184f",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 323,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "b09e6178f84a8a714a17132723a053eabd0c8b28b89de123def10ea043eb847b"
+        },
+        "NORMAL": {
+          "count": 323,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "9426f8dbda283ed419077bf7f4e8ef5b39314cec331924546e5fe1d5db8530e1"
+        },
+        "TEXCOORD_0": {
+          "count": 323,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "30cf48cdf9568add6c5cf0d74c7b0de1c4d81aba3b40f477b4f49406166f0e8c"
+        },
+        "TANGENT": {
+          "count": 323,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "b94eff63cffdcc6f41ba144ac1dad03624a094544946b5b5315405e7fa56c340"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 2378,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.6663994789123535,
+            "minimum": [
+              -4.788726329803467,
+              2.0017707347869873,
+              1.524999976158142
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.067627900337872e-05,
+            "gridAccepted": false,
+            "points": 328,
+            "triangles": 188,
+            "streamSHA256": "b7e0e6f3e27f35ad44285e8e19dd1a76adb17d33446985bd5d10e1e8ef70c268"
+          },
+          "decodedPoints": 328,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 2.6944727806102537e-05,
+          "nativeToDecodedChosenVertexMaxM": 2.6944727806102537e-05,
+          "spanErrorM": [
+            0.0,
+            4.5299530029296875e-06,
+            3.6954879760742188e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 2682,
+          "grid": {
+            "bits": 17,
+            "rangeM": 0.6663994789123535,
+            "minimum": [
+              -4.788726329803467,
+              2.0017707347869873,
+              1.524999976158142
+            ],
+            "requiredBits": 17,
+            "gridStepM": 5.084263329892604e-06,
+            "gridAccepted": true,
+            "points": 328,
+            "triangles": 188,
+            "streamSHA256": "2f992aa30c16c1be96c2f6f98a5d6fc8a1d5d6df5996fd18dcb327b63a1f7444"
+          },
+          "decodedPoints": 328,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 3.236263265728528e-06,
+          "nativeToDecodedChosenVertexMaxM": 3.236263265728528e-06,
+          "spanErrorM": [
+            0.0,
+            1.1920928955078125e-06,
+            1.0728836059570312e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 2783,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.6663994789123535,
+            "minimum": [
+              -4.788726329803467,
+              2.0017707347869873,
+              1.524999976158142
+            ],
+            "requiredBits": 17,
+            "gridStepM": 2.542121967446598e-06,
+            "gridAccepted": true,
+            "points": 328,
+            "triangles": 188,
+            "streamSHA256": "82976109ec1b580dad397045764333590eaa45303798c7fc4db443157a641da4"
+          },
+          "decodedPoints": 328,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 2.1490760299348767e-06,
+          "nativeToDecodedChosenVertexMaxM": 2.1490760299348767e-06,
+          "spanErrorM": [
+            0.0,
+            7.152557373046875e-07,
+            1.0728836059570312e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Door_1_1_handle",
+      "nativeRangeM": 0.04842710494995117,
+      "nativeMin": [
+        -3.1742136478424072,
+        1.7979999780654907,
+        1.5487639904022217
+      ],
+      "nativeMax": [
+        -3.125786542892456,
+        1.8219999074935913,
+        1.5862360000610352
+      ],
+      "requiredBits": 13,
+      "nativePoints": 24,
+      "nativeIndices": 48,
+      "nativeIndicesSHA256": "c115a0d1b7c79680ad1eb89e9cde75d678a2f6b1c251308b0caedeb5752c6154",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "8f91933c6ed81310045b6a82f86c7005b3c5147eccfff447784b2141c414d464"
+        },
+        "NORMAL": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "194590ac7608a37cc3b6a69f502251b03ad088d2b0c96226a3e403696db14f50"
+        },
+        "TEXCOORD_0": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "d2d32d8d6f80578ecbcdcd6e2789004489775009332db1ac139f9e22a9fa2b0d"
+        },
+        "TANGENT": {
+          "count": 24,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "3e6a04c70dc23eda25fcf4a05baabd59d3bba086dd2c6cbdf269e994982c8bcf"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 13,
+          "streamBytes": 480,
+          "grid": {
+            "bits": 13,
+            "rangeM": 0.04842710494995117,
+            "minimum": [
+              -3.1742136478424072,
+              1.7979999780654907,
+              1.5487639904022217
+            ],
+            "requiredBits": 13,
+            "gridStepM": 5.912233542906992e-06,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "59c9f263cdbd043818b167074b4765c5f0426fd54c8bf8c47c7281db476c234b"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 4.288221776152837e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.288221776152837e-06,
+          "spanErrorM": [
+            0.0,
+            2.1457672119140625e-06,
+            2.384185791015625e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 14,
+          "streamBytes": 484,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.04842710494995117,
+            "minimum": [
+              -3.1742136478424072,
+              1.7979999780654907,
+              1.5487639904022217
+            ],
+            "requiredBits": 13,
+            "gridStepM": 2.955936333391392e-06,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "bc6e83c0c9359eb9a074e8cf7480d04d26ccbc8ef687a98bd58010c18df72dc5"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 1.8697246481607106e-06,
+          "nativeToDecodedChosenVertexMaxM": 1.8697246481607106e-06,
+          "spanErrorM": [
+            0.0,
+            7.152557373046875e-07,
+            3.5762786865234375e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 509,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.04842710494995117,
+            "minimum": [
+              -3.1742136478424072,
+              1.7979999780654907,
+              1.5487639904022217
+            ],
+            "requiredBits": 13,
+            "gridStepM": 1.8473544954452787e-07,
+            "gridAccepted": true,
+            "points": 24,
+            "triangles": 16,
+            "streamSHA256": "42aa16457fd27e0cd061c0549c76007dab7e502dc8d27151e0a6b01aa9012424"
+          },
+          "decodedPoints": 24,
+          "decodedIndices": 48,
+          "decodedToNativeChosenVertexMaxM": 1.6858739404357614e-07,
+          "nativeToDecodedChosenVertexMaxM": 1.6858739404357614e-07,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            1.1920928955078125e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Door_1_1_lock",
+      "nativeRangeM": 0.026000022888183594,
+      "nativeMin": [
+        -3.1730000972747803,
+        1.687000036239624,
+        1.5410000085830688
+      ],
+      "nativeMax": [
+        -3.1470000743865967,
+        1.7130000591278076,
+        1.559000015258789
+      ],
+      "requiredBits": 12,
+      "nativePoints": 312,
+      "nativeIndices": 948,
+      "nativeIndicesSHA256": "3953fbb1e3066a61b9e98db7aa2717bd31ed68fb0c3e7c1e9c2c69cfc70218db",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "ae1537beb0224b311cd678d38a103c1ff33e465e1c29dd31362e0d63702ec8e5"
+        },
+        "NORMAL": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "d264e9d16c135475717bf71cce15c6bc81b1249adc905886435707b60440b2ac"
+        },
+        "TEXCOORD_0": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "78a8c727fb2b501c232ddaa0775287bf3566bea2bf2a88af8a49a40d0daae9e2"
+        },
+        "TANGENT": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "526123014e59152b8b3ca034602d30c824acd6b22ce2568a0afadc916481aa98"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 12,
+          "streamBytes": 3517,
+          "grid": {
+            "bits": 12,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -3.1730000972747803,
+              1.687000036239624,
+              1.5410000085830688
+            ],
+            "requiredBits": 12,
+            "gridStepM": 6.349211938506372e-06,
+            "gridAccepted": true,
+            "points": 312,
+            "triangles": 316,
+            "streamSHA256": "3a0facd82e55783e13788f90cc1132c03fa5b338b90d30011ddeabc74075e111"
+          },
+          "decodedPoints": 312,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 4.468361094949559e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.468361094949559e-06,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 14,
+          "streamBytes": 3739,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -3.1730000972747803,
+              1.687000036239624,
+              1.5410000085830688
+            ],
+            "requiredBits": 12,
+            "gridStepM": 1.5870123230289687e-06,
+            "gridAccepted": true,
+            "points": 312,
+            "triangles": 316,
+            "streamSHA256": "6a446043c450cc59b0259a8fff8fd87e290f61de396891f6b74020446e0a4829"
+          },
+          "decodedPoints": 312,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 1.2502775766493696e-06,
+          "nativeToDecodedChosenVertexMaxM": 1.2502775766493696e-06,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            1.1920928955078125e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 4186,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.026000022888183594,
+            "minimum": [
+              -3.1730000972747803,
+              1.687000036239624,
+              1.5410000085830688
+            ],
+            "requiredBits": 12,
+            "gridStepM": 9.918259456931367e-08,
+            "gridAccepted": true,
+            "points": 312,
+            "triangles": 316,
+            "streamSHA256": "7fbc773ddc6b8566f5e0ffced56319b4cac82e1711b55df52114aa891b7fda5b"
+          },
+          "decodedPoints": 312,
+          "decodedIndices": 948,
+          "decodedToNativeChosenVertexMaxM": 0.0,
+          "nativeToDecodedChosenVertexMaxM": 0.0,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Door_1_1_window",
+      "nativeRangeM": 0.7330398559570312,
+      "nativeMin": [
+        -3.836486339569092,
+        2.0017707347869873,
+        1.524999976158142
+      ],
+      "nativeMax": [
+        -3.1034464836120605,
+        2.4682507514953613,
+        1.531999945640564
+      ],
+      "requiredBits": 17,
+      "nativePoints": 312,
+      "nativeIndices": 564,
+      "nativeIndicesSHA256": "9bdeed8138963fd01489ac79458e5e2d489aa7891549d14bdc54aa7b646ec60a",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "62b4fe3a956ae987259c948f3b672e8e6dfd9b18f74519486899b07a0a9b726e"
+        },
+        "NORMAL": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "7432a10b2c7ba8610c3bd50a2a97f7c2cbbabf3a2f9243a971942f9d470fa19a"
+        },
+        "TEXCOORD_0": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "f3b672e52ecc4a95badaf998b0ce348124048e7963b1bfc1cecbcf3d4a1ce48c"
+        },
+        "TANGENT": {
+          "count": 312,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "39b477b1310b52810026a8d5f2491ec55c16e98973603fc76cbb1910ea023601"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 2330,
+          "grid": {
+            "bits": 14,
+            "rangeM": 0.7330398559570312,
+            "minimum": [
+              -3.836486339569092,
+              2.0017707347869873,
+              1.524999976158142
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.4743933098762816e-05,
+            "gridAccepted": false,
+            "points": 316,
+            "triangles": 188,
+            "streamSHA256": "83f35bb10e4b0b6691107a899ae330b834751d91b0842c33493947872c6fb492"
+          },
+          "decodedPoints": 316,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 3.574549733893708e-05,
+          "nativeToDecodedChosenVertexMaxM": 3.574549733893708e-05,
+          "spanErrorM": [
+            0.0,
+            2.0265579223632812e-05,
+            1.990795135498047e-05
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 2625,
+          "grid": {
+            "bits": 17,
+            "rangeM": 0.7330398559570312,
+            "minimum": [
+              -3.836486339569092,
+              2.0017707347869873,
+              1.524999976158142
+            ],
+            "requiredBits": 17,
+            "gridStepM": 5.592692937087771e-06,
+            "gridAccepted": true,
+            "points": 316,
+            "triangles": 188,
+            "streamSHA256": "d7813c2ae29b52245d54f4577dc082db2a892f13b8ed4699431f0cc264f39aea"
+          },
+          "decodedPoints": 316,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 4.23989754766911e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.23989754766911e-06,
+          "spanErrorM": [
+            0.0,
+            9.5367431640625e-07,
+            2.0265579223632812e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 2723,
+          "grid": {
+            "bits": 18,
+            "rangeM": 0.7330398559570312,
+            "minimum": [
+              -3.836486339569092,
+              2.0017707347869873,
+              1.524999976158142
+            ],
+            "requiredBits": 17,
+            "gridStepM": 2.7963358012879658e-06,
+            "gridAccepted": true,
+            "points": 316,
+            "triangles": 188,
+            "streamSHA256": "84efb7f29277dd68f1bae8295040e84c1273b4755c9ad294038b91bf361a2fe7"
+          },
+          "decodedPoints": 316,
+          "decodedIndices": 564,
+          "decodedToNativeChosenVertexMaxM": 1.9947529471732987e-06,
+          "nativeToDecodedChosenVertexMaxM": 1.9947529471732987e-06,
+          "spanErrorM": [
+            0.0,
+            9.5367431640625e-07,
+            7.152557373046875e-07
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+      "nativeRangeM": 1.2699999809265137,
+      "nativeMin": [
+        -4.909999847412109,
+        1.2799999713897705,
+        -1.565999984741211
+      ],
+      "nativeMax": [
+        -4.03000020980835,
+        2.549999952316284,
+        -1.4769999980926514
+      ],
+      "requiredBits": 17,
+      "nativePoints": 6358,
+      "nativeIndices": 14412,
+      "nativeIndicesSHA256": "d68b9baaed31c29bcd82cf56aedf150d357c57c78d70b9928d5183d11904a543",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 6358,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "664ddde1c01282d35f18df3932c55aaa55eae0cd04617589cdc0a10835650850"
+        },
+        "NORMAL": {
+          "count": 6358,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "14297cda5ee2c90f341e305eab43ebfb4566bc165d0ec4efe04951b61403fbae"
+        },
+        "TEXCOORD_0": {
+          "count": 6358,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "97b9046f0f367f861d82866634832f837ee62420df68b45a4121aeceada2466d"
+        },
+        "TANGENT": {
+          "count": 6358,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "50bdd4fdd41cbd2cf44bbb7acef12bc2cf3220121e9495a4d9964d6cb33ede8d"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 56416,
+          "grid": {
+            "bits": 14,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -4.909999847412109,
+              1.2799999713897705,
+              -1.565999984741211
+            ],
+            "requiredBits": 17,
+            "gridStepM": 7.751937868073697e-05,
+            "gridAccepted": false,
+            "points": 6398,
+            "triangles": 4804,
+            "streamSHA256": "a4eb6fdf8c78a9c677b9187313c1d10f508df31c3855d3cc45caea6e949e4541"
+          },
+          "decodedPoints": 6398,
+          "decodedIndices": 14412,
+          "decodedToNativeChosenVertexMaxM": 6.433514523015853e-05,
+          "nativeToDecodedChosenVertexMaxM": 6.433514523015853e-05,
+          "spanErrorM": [
+            4.76837158203125e-07,
+            0.0,
+            7.748603820800781e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.4699999690055847,
+                -1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035968780517578125,
+                0.10294568538665771,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.435943603515625e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 8.065674862830037e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.9399999976158142,
+                -1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035968780517578125,
+                0.10294556617736816,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.447864532470703e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 8.06579874496833e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                2.3800000846385956,
+                -1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035968780517578125,
+                0.10294580459594727,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.412101745605469e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 8.067656748771452e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            }
+          ]
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 64480,
+          "grid": {
+            "bits": 17,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -4.909999847412109,
+              1.2799999713897705,
+              -1.565999984741211
+            ],
+            "requiredBits": 17,
+            "gridStepM": 9.689404833460594e-06,
+            "gridAccepted": true,
+            "points": 6398,
+            "triangles": 4804,
+            "streamSHA256": "b22af15e534d2b0bacf28a7c59a389e3571c1c2e3cf50fab266bfa7e7c316e01"
+          },
+          "decodedPoints": 6398,
+          "decodedIndices": 14412,
+          "decodedToNativeChosenVertexMaxM": 7.986132728788483e-06,
+          "nativeToDecodedChosenVertexMaxM": 7.986132728788483e-06,
+          "spanErrorM": [
+            1.9073486328125e-06,
+            0.0,
+            2.86102294921875e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.4699999690055847,
+                -1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.0359959602355957,
+                0.10299837589263916,
+                0.035996198654174805
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.814697265625e-06
+              ],
+              "centroidErrorM": 5.319677444392958e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.9399999976158142,
+                -1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.0359959602355957,
+                0.10299837589263916,
+                0.035996198654174805
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.814697265625e-06
+              ],
+              "centroidErrorM": 3.105997633399061e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                2.3800000846385956,
+                -1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.0359959602355957,
+                0.10299825668334961,
+                0.035996198654174805
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.814697265625e-06
+              ],
+              "centroidErrorM": 7.903899848198073e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            }
+          ]
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 66790,
+          "grid": {
+            "bits": 18,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -4.909999847412109,
+              1.2799999713897705,
+              -1.565999984741211
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.844683935586736e-06,
+            "gridAccepted": true,
+            "points": 6398,
+            "triangles": 4804,
+            "streamSHA256": "ad70d30474458b7d9892d4bb37ea7f970c1265902bb9af9023802500ba8b2ea7"
+          },
+          "decodedPoints": 6398,
+          "decodedIndices": 14412,
+          "decodedToNativeChosenVertexMaxM": 4.129530924722856e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.129530924722856e-06,
+          "spanErrorM": [
+            1.430511474609375e-06,
+            0.0,
+            1.6689300537109375e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.4699999690055847,
+                -1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299789905548096,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                9.5367431640625e-07,
+                2.1457672119140625e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 6.701301513320056e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.9399999976158142,
+                -1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299789905548096,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                9.5367431640625e-07,
+                2.1457672119140625e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 8.572314893089101e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                2.3800000846385956,
+                -1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299801826477051,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                9.5367431640625e-07,
+                1.9073486328125e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 1.9849968170648034e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "BL_Merged_cab_pivot_002_Rubber_window_seals",
+      "nativeRangeM": 1.2799960374832153,
+      "nativeMin": [
+        -4.914996147155762,
+        1.2750016450881958,
+        -1.5509999990463257
+      ],
+      "nativeMax": [
+        -4.025001049041748,
+        2.554997682571411,
+        -1.5240000486373901
+      ],
+      "requiredBits": 17,
+      "nativePoints": 4115,
+      "nativeIndices": 8820,
+      "nativeIndicesSHA256": "933370f2de57163868e18978b7139716705801a7bfe5c290a682dacdea0cf033",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 4115,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "6377bddb35b261fac2224a62e7f5de05d55510bdd5f0eaca242b89edc4495a88"
+        },
+        "NORMAL": {
+          "count": 4115,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "21fc2fbfaf34c73d62dd712a3f3492f5bee483f954affc6f13ced960f1564f75"
+        },
+        "TEXCOORD_0": {
+          "count": 4115,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "79405086921c891d868d684e80c1012ef7a958b266aaf464f337cdf4d293b158"
+        },
+        "TEXCOORD_1": {
+          "count": 4115,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "b934165d68271d699c4a760d7f099f099c513cf92fd4e0ae004b9aefdd8890f0"
+        },
+        "TANGENT": {
+          "count": 4115,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "f0f17987c55f06acb072a84fde7c452c5f8478f0930d11f18605b4f622695c77"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 38118,
+          "grid": {
+            "bits": 14,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -4.914996147155762,
+              1.2750016450881958,
+              -1.5509999990463257
+            ],
+            "requiredBits": 17,
+            "gridStepM": 7.812952679504458e-05,
+            "gridAccepted": false,
+            "points": 4135,
+            "triangles": 2940,
+            "streamSHA256": "bf50e0d98ba374bfb0954c04ae7482d17d78d3d6fbbb9b50ed63a236e4a5f820"
+          },
+          "decodedPoints": 4135,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 6.441638068733744e-05,
+          "nativeToDecodedChosenVertexMaxM": 6.441638068733744e-05,
+          "spanErrorM": [
+            2.1457672119140625e-05,
+            0.0,
+            3.2901763916015625e-05
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 42532,
+          "grid": {
+            "bits": 17,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -4.914996147155762,
+              1.2750016450881958,
+              -1.5509999990463257
+            ],
+            "requiredBits": 17,
+            "gridStepM": 9.76566927453987e-06,
+            "gridAccepted": true,
+            "points": 4135,
+            "triangles": 2940,
+            "streamSHA256": "609d4be0eb7ae2fe84c8a9bebc413442f073c9f7d0132d7c217741c94e257c44"
+          },
+          "decodedPoints": 4135,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 7.867813110351562e-06,
+          "nativeToDecodedChosenVertexMaxM": 7.867813110351562e-06,
+          "spanErrorM": [
+            9.5367431640625e-07,
+            0.0,
+            2.1457672119140625e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 44023,
+          "grid": {
+            "bits": 18,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -4.914996147155762,
+              1.2750016450881958,
+              -1.5509999990463257
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.882816010662941e-06,
+            "gridAccepted": true,
+            "points": 4135,
+            "triangles": 2940,
+            "streamSHA256": "60189dfc83e8ab8c539836cb94c43c71c227172e7d2a3e8479064e15e98517b4"
+          },
+          "decodedPoints": 4135,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 4.129530924722856e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.129530924722856e-06,
+          "spanErrorM": [
+            4.76837158203125e-07,
+            0.0,
+            2.0265579223632812e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+      "nativeRangeM": 1.2699999809265137,
+      "nativeMin": [
+        -3.9600000381469727,
+        1.2799999713897705,
+        -1.565999984741211
+      ],
+      "nativeMax": [
+        -3.009999990463257,
+        2.549999952316284,
+        -1.4769999980926514
+      ],
+      "requiredBits": 17,
+      "nativePoints": 6372,
+      "nativeIndices": 14526,
+      "nativeIndicesSHA256": "bb385e5fa56f2031d170a81762464f822a11f52574100f9e30dc5cbd7e2f7a7d",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 6372,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "cca1261dda730e440fd8c3a91eddeddcbd8036bfbd350834b3a2483105ae39af"
+        },
+        "NORMAL": {
+          "count": 6372,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "161cffb9f57ac6e02f5d9d2eed45de86d2c55f47c1839a7cfa9fb701440ffb8a"
+        },
+        "TEXCOORD_0": {
+          "count": 6372,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "97dc7b139818eb49511c8288d35c027d63e6a4367781c5bee6ae0740471c6b37"
+        },
+        "TANGENT": {
+          "count": 6372,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "049c004f5fabc79867acaf4eb77011905b46536f82336c4034a316358e99c076"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 56218,
+          "grid": {
+            "bits": 14,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -3.9600000381469727,
+              1.2799999713897705,
+              -1.565999984741211
+            ],
+            "requiredBits": 17,
+            "gridStepM": 7.751937868073697e-05,
+            "gridAccepted": false,
+            "points": 6410,
+            "triangles": 4842,
+            "streamSHA256": "d3051479854d3c6fad3d61ece11fb8e5340f48ff20b0bc101d7a30ce2c232663"
+          },
+          "decodedPoints": 6410,
+          "decodedIndices": 14526,
+          "decodedToNativeChosenVertexMaxM": 6.433514523015853e-05,
+          "nativeToDecodedChosenVertexMaxM": 6.433514523015853e-05,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            7.748603820800781e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.4699999690055847,
+                -1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.03596901893615723,
+                0.10294568538665771,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.435943603515625e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 8.204661685985771e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.9399999976158142,
+                -1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.03596901893615723,
+                0.10294556617736816,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.447864532470703e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 8.20478346959426e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                2.3800000846385956,
+                -1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.03596901893615723,
+                0.10294580459594727,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.412101745605469e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 8.20661000685375e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            }
+          ]
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 64423,
+          "grid": {
+            "bits": 17,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -3.9600000381469727,
+              1.2799999713897705,
+              -1.565999984741211
+            ],
+            "requiredBits": 17,
+            "gridStepM": 9.689404833460594e-06,
+            "gridAccepted": true,
+            "points": 6410,
+            "triangles": 4842,
+            "streamSHA256": "a56fd427b4bf064d7cac3e8c8f91a4caa419b3ce64ac263d577dc4d9e0de4c4f"
+          },
+          "decodedPoints": 6410,
+          "decodedIndices": 14526,
+          "decodedToNativeChosenVertexMaxM": 7.937047243937161e-06,
+          "nativeToDecodedChosenVertexMaxM": 7.937047243937161e-06,
+          "spanErrorM": [
+            2.384185791015625e-06,
+            0.0,
+            2.86102294921875e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.4699999690055847,
+                -1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035996198654174805,
+                0.10299837589263916,
+                0.035996198654174805
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.814697265625e-06
+              ],
+              "centroidErrorM": 6.395853213019557e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.9399999976158142,
+                -1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035996198654174805,
+                0.10299837589263916,
+                0.035996198654174805
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.814697265625e-06
+              ],
+              "centroidErrorM": 4.717540832763397e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                2.3800000846385956,
+                -1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035996198654174805,
+                0.10299825668334961,
+                0.035996198654174805
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.814697265625e-06
+              ],
+              "centroidErrorM": 8.664848701532816e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            }
+          ]
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 66723,
+          "grid": {
+            "bits": 18,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -3.9600000381469727,
+              1.2799999713897705,
+              -1.565999984741211
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.844683935586736e-06,
+            "gridAccepted": true,
+            "points": 6410,
+            "triangles": 4842,
+            "streamSHA256": "75dd48bb5aa12834361bf66f2717e70487dc877886bc3b05a23037886a03816a"
+          },
+          "decodedPoints": 6410,
+          "decodedIndices": 14526,
+          "decodedToNativeChosenVertexMaxM": 4.129530924722856e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.129530924722856e-06,
+          "spanErrorM": [
+            1.1920928955078125e-06,
+            0.0,
+            1.6689300537109375e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.4699999690055847,
+                -1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299789905548096,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                7.152557373046875e-07,
+                2.1457672119140625e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 7.33397720097588e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.9399999976158142,
+                -1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299789905548096,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                7.152557373046875e-07,
+                2.1457672119140625e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 9.075481377771954e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                2.3800000846385956,
+                -1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299801826477051,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                7.152557373046875e-07,
+                1.9073486328125e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 3.5805016374477094e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "BL_Merged_cab_pivot_003_Rubber_window_seals",
+      "nativeRangeM": 1.2799960374832153,
+      "nativeMin": [
+        -3.964996337890625,
+        1.2750016450881958,
+        -1.5509999990463257
+      ],
+      "nativeMax": [
+        -3.0050010681152344,
+        2.554997682571411,
+        -1.5240000486373901
+      ],
+      "requiredBits": 17,
+      "nativePoints": 4109,
+      "nativeIndices": 8820,
+      "nativeIndicesSHA256": "997c5bda89a6778b1e32b2b6c75395e5d3483deca5b426313d0b64abc76f0d0a",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 4109,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "d3466faa1e9e13ff9e5c442774660d0ee7ef0b156b3acc4dd59a361806f43b98"
+        },
+        "NORMAL": {
+          "count": 4109,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "a7f1ec8a00deae43b780e60c8f97b8e0677c0e103af94e6c9eb5015dae3408ba"
+        },
+        "TEXCOORD_0": {
+          "count": 4109,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "3663a457368eb3b3562559aee509e19f77e875ef50e43c32f75fb994963646bd"
+        },
+        "TEXCOORD_1": {
+          "count": 4109,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "dc8939b5b4b4ee342646d4faa964e6380cf71ad95843ac772d9b6364f2a5d820"
+        },
+        "TANGENT": {
+          "count": 4109,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "4b6e94dff091f91ddbadac2b9f5b19682d0cacebdb86d73a071a54693336c7c9"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 38212,
+          "grid": {
+            "bits": 14,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -3.964996337890625,
+              1.2750016450881958,
+              -1.5509999990463257
+            ],
+            "requiredBits": 17,
+            "gridStepM": 7.812952679504458e-05,
+            "gridAccepted": false,
+            "points": 4125,
+            "triangles": 2940,
+            "streamSHA256": "2bba999abb35b6ac90602695bec141035b0b4db33d0537c596eef65a397c262b"
+          },
+          "decodedPoints": 4125,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 6.33879634125839e-05,
+          "nativeToDecodedChosenVertexMaxM": 6.33879634125839e-05,
+          "spanErrorM": [
+            1.7881393432617188e-05,
+            0.0,
+            3.2901763916015625e-05
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 42605,
+          "grid": {
+            "bits": 17,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -3.964996337890625,
+              1.2750016450881958,
+              -1.5509999990463257
+            ],
+            "requiredBits": 17,
+            "gridStepM": 9.76566927453987e-06,
+            "gridAccepted": true,
+            "points": 4125,
+            "triangles": 2940,
+            "streamSHA256": "08f4eacc68eec1957d817e426047b9055435ad6981f76cc7c1bbde5ab40b1a14"
+          },
+          "decodedPoints": 4125,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 7.580811069290469e-06,
+          "nativeToDecodedChosenVertexMaxM": 7.580811069290469e-06,
+          "spanErrorM": [
+            7.152557373046875e-07,
+            0.0,
+            2.1457672119140625e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 44092,
+          "grid": {
+            "bits": 18,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -3.964996337890625,
+              1.2750016450881958,
+              -1.5509999990463257
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.882816010662941e-06,
+            "gridAccepted": true,
+            "points": 4125,
+            "triangles": 2940,
+            "streamSHA256": "bd7dc67ea74855de70604ef6fe75db57ebd6c4c13af839fb192e1e0e0ffa8ba0"
+          },
+          "decodedPoints": 4125,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 3.996623662529042e-06,
+          "nativeToDecodedChosenVertexMaxM": 3.996623662529042e-06,
+          "spanErrorM": [
+            4.76837158203125e-07,
+            0.0,
+            2.0265579223632812e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+      "nativeRangeM": 1.2699999809265137,
+      "nativeMin": [
+        -4.909999847412109,
+        1.2799999713897705,
+        1.4769999980926514
+      ],
+      "nativeMax": [
+        -4.03000020980835,
+        2.549999952316284,
+        1.565999984741211
+      ],
+      "requiredBits": 17,
+      "nativePoints": 6282,
+      "nativeIndices": 14412,
+      "nativeIndicesSHA256": "d30c7052e731be46899930f626dfd7cc3572c92f53e4fc079556f35323039367",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 6282,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "2d127e35a0447580b43153be28d66483f608161889fd31f2aa36df25170326a8"
+        },
+        "NORMAL": {
+          "count": 6282,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "d4bb1f14c8d543e74f5ab650af2d99826f79c6b109c891d549c6ab608af65636"
+        },
+        "TEXCOORD_0": {
+          "count": 6282,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "eb604e64754ed0765975b86bc61f1c63df18979c738ac822d4d686f7eb883980"
+        },
+        "TANGENT": {
+          "count": 6282,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "989fbe333df7dc169ebf370f3400f59350f7bddf49b525ab830b58d0dd9b3b23"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 56011,
+          "grid": {
+            "bits": 14,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -4.909999847412109,
+              1.2799999713897705,
+              1.4769999980926514
+            ],
+            "requiredBits": 17,
+            "gridStepM": 7.751937868073697e-05,
+            "gridAccepted": false,
+            "points": 6302,
+            "triangles": 4804,
+            "streamSHA256": "90e38ff6525c562a3d7a5e8020bf19effce1058ccb0292f30769030f8111ce3e"
+          },
+          "decodedPoints": 6302,
+          "decodedIndices": 14412,
+          "decodedToNativeChosenVertexMaxM": 6.319048197435303e-05,
+          "nativeToDecodedChosenVertexMaxM": 6.319048197435303e-05,
+          "spanErrorM": [
+            4.76837158203125e-07,
+            0.0,
+            7.748603820800781e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.4699999690055847,
+                1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035968780517578125,
+                0.10294568538665771,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.435943603515625e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 7.206471029611394e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.9399999976158142,
+                1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035968780517578125,
+                0.10294556617736816,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.447864532470703e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 7.206609681540456e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                2.3800000846385956,
+                1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035968780517578125,
+                0.10294580459594727,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.412101745605469e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 7.208689140456641e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            }
+          ]
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 63966,
+          "grid": {
+            "bits": 17,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -4.909999847412109,
+              1.2799999713897705,
+              1.4769999980926514
+            ],
+            "requiredBits": 17,
+            "gridStepM": 9.689404833460594e-06,
+            "gridAccepted": true,
+            "points": 6302,
+            "triangles": 4804,
+            "streamSHA256": "b7c3a3e77254a7d8861d5fa977105365ca03c93dd979fbf3a312bff48bceebe3"
+          },
+          "decodedPoints": 6302,
+          "decodedIndices": 14412,
+          "decodedToNativeChosenVertexMaxM": 8.064929139892029e-06,
+          "nativeToDecodedChosenVertexMaxM": 8.064929139892029e-06,
+          "spanErrorM": [
+            1.9073486328125e-06,
+            0.0,
+            2.86102294921875e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.4699999690055847,
+                1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.0359959602355957,
+                0.10299837589263916,
+                0.035996079444885254
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.933906555175781e-06
+              ],
+              "centroidErrorM": 4.944713840265579e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.9399999976158142,
+                1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.0359959602355957,
+                0.10299837589263916,
+                0.035996079444885254
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.933906555175781e-06
+              ],
+              "centroidErrorM": 2.407996708554923e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                2.3800000846385956,
+                1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.0359959602355957,
+                0.10299825668334961,
+                0.035996079444885254
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.933906555175781e-06
+              ],
+              "centroidErrorM": 7.656556645129473e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            }
+          ]
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 66234,
+          "grid": {
+            "bits": 18,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -4.909999847412109,
+              1.2799999713897705,
+              1.4769999980926514
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.844683935586736e-06,
+            "gridAccepted": true,
+            "points": 6302,
+            "triangles": 4804,
+            "streamSHA256": "abcc1d45a04156400b42e44ce82db9dd9142ec5562468319e3b4bafb79f12c72"
+          },
+          "decodedPoints": 6302,
+          "decodedIndices": 14412,
+          "decodedToNativeChosenVertexMaxM": 4.129530924722856e-06,
+          "nativeToDecodedChosenVertexMaxM": 4.129530924722856e-06,
+          "spanErrorM": [
+            1.430511474609375e-06,
+            0.0,
+            1.6689300537109375e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.4699999690055847,
+                1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299789905548096,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                9.5367431640625e-07,
+                2.1457672119140625e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 6.536772924970158e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                1.9399999976158142,
+                1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299789905548096,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                9.5367431640625e-07,
+                2.1457672119140625e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 8.444320039320777e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -4.892000034451485,
+                2.3800000846385956,
+                1.5480000202854474
+              ],
+              "nativeSpan": [
+                0.03599977493286133,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299801826477051,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                9.5367431640625e-07,
+                1.9073486328125e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 1.3274677638099703e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "BL_Merged_cab_pivot_006_Rubber_window_seals",
+      "nativeRangeM": 1.2799960374832153,
+      "nativeMin": [
+        -4.914996147155762,
+        1.2750016450881958,
+        1.5240000486373901
+      ],
+      "nativeMax": [
+        -4.025001049041748,
+        2.554997682571411,
+        1.5509999990463257
+      ],
+      "requiredBits": 17,
+      "nativePoints": 4110,
+      "nativeIndices": 8820,
+      "nativeIndicesSHA256": "af143a30a6cc1694c7e5775819c277682849eed890d94b0277502ba1365222c6",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 4110,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "c593295fc64a9a19b92f17229f5de6664eaf988da4d5c75aa186df8e011a7509"
+        },
+        "NORMAL": {
+          "count": 4110,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "93ea8480b1f4bf316a37368ed7be68a0ac0ce8f8a614ae86413bb20845ace5e2"
+        },
+        "TEXCOORD_0": {
+          "count": 4110,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "3c9cb233b09750944f1f557d75947a6c8e9652d7dcee0ad5f5ceb79909c1d7b3"
+        },
+        "TEXCOORD_1": {
+          "count": 4110,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "10d8892a48b6e47c81bd520e0f249cfdfa0e145fc712484583f8fae4b2bc49ed"
+        },
+        "TANGENT": {
+          "count": 4110,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "fa6110904d8d28fa9c806493d6c07aaacbbcb4c763ef087ab5335ddd9376b4ae"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 38195,
+          "grid": {
+            "bits": 14,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -4.914996147155762,
+              1.2750016450881958,
+              1.5240000486373901
+            ],
+            "requiredBits": 17,
+            "gridStepM": 7.812952679504458e-05,
+            "gridAccepted": false,
+            "points": 4119,
+            "triangles": 2940,
+            "streamSHA256": "d3d48f434160198bfa73b066a9e4a08a72f4dd1cf02f658bf59fc72881438bef"
+          },
+          "decodedPoints": 4119,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 6.405611092665996e-05,
+          "nativeToDecodedChosenVertexMaxM": 6.405611092665996e-05,
+          "spanErrorM": [
+            2.1457672119140625e-05,
+            0.0,
+            3.2901763916015625e-05
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 42634,
+          "grid": {
+            "bits": 17,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -4.914996147155762,
+              1.2750016450881958,
+              1.5240000486373901
+            ],
+            "requiredBits": 17,
+            "gridStepM": 9.76566927453987e-06,
+            "gridAccepted": true,
+            "points": 4119,
+            "triangles": 2940,
+            "streamSHA256": "a11ba244fadc45a6f7f4ee12a9797b411765a9e596f2a5277d24524148b244d1"
+          },
+          "decodedPoints": 4119,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 8.123743551922236e-06,
+          "nativeToDecodedChosenVertexMaxM": 8.123743551922236e-06,
+          "spanErrorM": [
+            9.5367431640625e-07,
+            0.0,
+            2.1457672119140625e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 44135,
+          "grid": {
+            "bits": 18,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -4.914996147155762,
+              1.2750016450881958,
+              1.5240000486373901
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.882816010662941e-06,
+            "gridAccepted": true,
+            "points": 4119,
+            "triangles": 2940,
+            "streamSHA256": "2a2801b57c749f2db2385a75dcc78ae221747130dbf457b71b83c859b5d69d9f"
+          },
+          "decodedPoints": 4119,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 3.933906555175781e-06,
+          "nativeToDecodedChosenVertexMaxM": 3.933906555175781e-06,
+          "spanErrorM": [
+            4.76837158203125e-07,
+            0.0,
+            2.0265579223632812e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        }
+      ]
+    },
+    {
+      "node": "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+      "nativeRangeM": 1.2699999809265137,
+      "nativeMin": [
+        -3.9600000381469727,
+        1.2799999713897705,
+        1.4769999980926514
+      ],
+      "nativeMax": [
+        -3.009999990463257,
+        2.549999952316284,
+        1.565999984741211
+      ],
+      "requiredBits": 17,
+      "nativePoints": 6293,
+      "nativeIndices": 14526,
+      "nativeIndicesSHA256": "b5fe7e450489c910a61ad730951119483fcafcea88dd70efbcd30ebc4c8d047d",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 6293,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "9e9415c9e7ea35fadcd8fb7021881737bf5417576d92e8d0550ad5be6255c4a0"
+        },
+        "NORMAL": {
+          "count": 6293,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "a2b014c243a075087500d4fd77f11f308f5de483c5edf4f7214ae504f9b0173f"
+        },
+        "TEXCOORD_0": {
+          "count": 6293,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "f16d4230b589a47a4ced19ad2246ae430f8fcfec0dd38c6dfad8af74a6f4b805"
+        },
+        "TANGENT": {
+          "count": 6293,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "a579a0fbbff1ea3bce232f017c587aae15450f39bd377965db9fc974f0691167"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 55280,
+          "grid": {
+            "bits": 14,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -3.9600000381469727,
+              1.2799999713897705,
+              1.4769999980926514
+            ],
+            "requiredBits": 17,
+            "gridStepM": 7.751937868073697e-05,
+            "gridAccepted": false,
+            "points": 6306,
+            "triangles": 4842,
+            "streamSHA256": "03f02736d449b48307412dab0e6dc7a2fb41da7ee643eb0f1ced31f526956994"
+          },
+          "decodedPoints": 6306,
+          "decodedIndices": 14526,
+          "decodedToNativeChosenVertexMaxM": 6.300038959714277e-05,
+          "nativeToDecodedChosenVertexMaxM": 6.300038959714277e-05,
+          "spanErrorM": [
+            0.0,
+            0.0,
+            7.748603820800781e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.4699999690055847,
+                1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.03596901893615723,
+                0.10294568538665771,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.435943603515625e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 7.36191261786815e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.9399999976158142,
+                1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.03596901893615723,
+                0.10294556617736816,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.447864532470703e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 7.362048342314155e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                2.3800000846385956,
+                1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.03596901893615723,
+                0.10294580459594727,
+                0.03596901893615723
+              ],
+              "spanErrorM": [
+                3.0994415283203125e-05,
+                5.412101745605469e-05,
+                3.0994415283203125e-05
+              ],
+              "centroidErrorM": 7.3640839088263704e-06,
+              "centroid20umAccepted": true,
+              "associationLimitM": 0.00015503875736147394,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": false
+            }
+          ]
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 63422,
+          "grid": {
+            "bits": 17,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -3.9600000381469727,
+              1.2799999713897705,
+              1.4769999980926514
+            ],
+            "requiredBits": 17,
+            "gridStepM": 9.689404833460594e-06,
+            "gridAccepted": true,
+            "points": 6306,
+            "triangles": 4842,
+            "streamSHA256": "ca81421e3ce60c7002d3b64cefc470ff6ecebb08590d91580d4a7de13eaf90a2"
+          },
+          "decodedPoints": 6306,
+          "decodedIndices": 14526,
+          "decodedToNativeChosenVertexMaxM": 7.92629728788342e-06,
+          "nativeToDecodedChosenVertexMaxM": 7.92629728788342e-06,
+          "spanErrorM": [
+            2.384185791015625e-06,
+            0.0,
+            2.86102294921875e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.4699999690055847,
+                1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035996198654174805,
+                0.10299837589263916,
+                0.035996079444885254
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.933906555175781e-06
+              ],
+              "centroidErrorM": 6.078910804561523e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.9399999976158142,
+                1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035996198654174805,
+                0.10299837589263916,
+                0.035996079444885254
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.933906555175781e-06
+              ],
+              "centroidErrorM": 4.278014697977579e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                2.3800000846385956,
+                1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.035996198654174805,
+                0.10299825668334961,
+                0.035996079444885254
+              ],
+              "spanErrorM": [
+                3.814697265625e-06,
+                1.6689300537109375e-06,
+                3.933906555175781e-06
+              ],
+              "centroidErrorM": 8.433612587010216e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 1.937880966692119e-05,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            }
+          ]
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 65675,
+          "grid": {
+            "bits": 18,
+            "rangeM": 1.2699999809265137,
+            "minimum": [
+              -3.9600000381469727,
+              1.2799999713897705,
+              1.4769999980926514
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.844683935586736e-06,
+            "gridAccepted": true,
+            "points": 6306,
+            "triangles": 4842,
+            "streamSHA256": "adca62d479aaeda245b61b7b91150a3907847de8147769dfd8e7bf97616d5214"
+          },
+          "decodedPoints": 6306,
+          "decodedIndices": 14526,
+          "decodedToNativeChosenVertexMaxM": 3.996623662529042e-06,
+          "nativeToDecodedChosenVertexMaxM": 3.996623662529042e-06,
+          "spanErrorM": [
+            1.1920928955078125e-06,
+            0.0,
+            1.6689300537109375e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TANGENT": 3
+          },
+          "barrels": [
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.4699999690055847,
+                1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299789905548096,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                7.152557373046875e-07,
+                2.1457672119140625e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 7.091763040000674e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                1.9399999976158142,
+                1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10300004482269287,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299789905548096,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                7.152557373046875e-07,
+                2.1457672119140625e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 8.880892053694331e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            },
+            {
+              "nativeCentroid": [
+                -3.9420000265041986,
+                2.3800000846385956,
+                1.548000021527211
+              ],
+              "nativeSpan": [
+                0.03600001335144043,
+                0.10299992561340332,
+                0.03600001335144043
+              ],
+              "decodedSpan": [
+                0.036000728607177734,
+                0.10299801826477051,
+                0.036000847816467285
+              ],
+              "spanErrorM": [
+                7.152557373046875e-07,
+                1.9073486328125e-06,
+                8.344650268554688e-07
+              ],
+              "centroidErrorM": 3.0538293021796936e-07,
+              "centroid20umAccepted": true,
+              "associationLimitM": 9.689367871173471e-06,
+              "uniquePoints": 192,
+              "triangles": 380,
+              "span20umAccepted": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": "BL_Merged_cab_pivot_007_Rubber_window_seals",
+      "nativeRangeM": 1.2799960374832153,
+      "nativeMin": [
+        -3.964996337890625,
+        1.2750016450881958,
+        1.5240000486373901
+      ],
+      "nativeMax": [
+        -3.0050010681152344,
+        2.554997682571411,
+        1.5509999990463257
+      ],
+      "requiredBits": 17,
+      "nativePoints": 4034,
+      "nativeIndices": 8820,
+      "nativeIndicesSHA256": "4d245b621a16d23db2a61cbc7e4bf7d6e207105b0e4b1cfd3074e5e245b9bea8",
+      "nativeAttributes": {
+        "POSITION": {
+          "count": 4034,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "0b7bc634eb8eac8516f204c01a1eff6a5062b3710fffefbc6c3f776f2eb89c70"
+        },
+        "NORMAL": {
+          "count": 4034,
+          "componentType": 5126,
+          "type": "VEC3",
+          "sha256": "ecd2752b712450a403077a990a8175266592250ec035d53a36fb04dd1bf64f4d"
+        },
+        "TEXCOORD_0": {
+          "count": 4034,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "e8dc6973bb869d0fe190bdf7ce101317b2b091cafa5c0f7316655eee6e507b63"
+        },
+        "TEXCOORD_1": {
+          "count": 4034,
+          "componentType": 5126,
+          "type": "VEC2",
+          "sha256": "7303118bc56040e34f11d143f1c68a5d0db840314d48b05877ebf514a3796aa7"
+        },
+        "TANGENT": {
+          "count": 4034,
+          "componentType": 5126,
+          "type": "VEC4",
+          "sha256": "2bc39f9ff259a99dda2ff80561d1244ff4399673ac3ff3c549114572f23f0aa1"
+        }
+      },
+      "encodes": [
+        {
+          "requestedBits": 14,
+          "streamBytes": 37713,
+          "grid": {
+            "bits": 14,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -3.964996337890625,
+              1.2750016450881958,
+              1.5240000486373901
+            ],
+            "requiredBits": 17,
+            "gridStepM": 7.812952679504458e-05,
+            "gridAccepted": false,
+            "points": 4045,
+            "triangles": 2940,
+            "streamSHA256": "98e7d1f57a9acef1577f577e0471d878d295c77757ebb059cee673b1c2d1b5e7"
+          },
+          "decodedPoints": 4045,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 6.359745769778799e-05,
+          "nativeToDecodedChosenVertexMaxM": 6.359745769778799e-05,
+          "spanErrorM": [
+            1.7881393432617188e-05,
+            0.0,
+            3.2901763916015625e-05
+          ],
+          "finiteVertexAndSpan20umAccepted": false,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 17,
+          "streamBytes": 42053,
+          "grid": {
+            "bits": 17,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -3.964996337890625,
+              1.2750016450881958,
+              1.5240000486373901
+            ],
+            "requiredBits": 17,
+            "gridStepM": 9.76566927453987e-06,
+            "gridAccepted": true,
+            "points": 4045,
+            "triangles": 2940,
+            "streamSHA256": "01245e9b2995f49bae9449e89a3ae080df4cbe97be80ec9a5a375415d1925d90"
+          },
+          "decodedPoints": 4045,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 7.725644944200348e-06,
+          "nativeToDecodedChosenVertexMaxM": 7.725644944200348e-06,
+          "spanErrorM": [
+            7.152557373046875e-07,
+            0.0,
+            2.1457672119140625e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        },
+        {
+          "requestedBits": 18,
+          "streamBytes": 43525,
+          "grid": {
+            "bits": 18,
+            "rangeM": 1.2799960374832153,
+            "minimum": [
+              -3.964996337890625,
+              1.2750016450881958,
+              1.5240000486373901
+            ],
+            "requiredBits": 17,
+            "gridStepM": 4.882816010662941e-06,
+            "gridAccepted": true,
+            "points": 4045,
+            "triangles": 2940,
+            "streamSHA256": "349c7cb979d06c943013ec3a3a01abce79b6c16b95e21a2755ca73ae5821b60f"
+          },
+          "decodedPoints": 4045,
+          "decodedIndices": 8820,
+          "decodedToNativeChosenVertexMaxM": 3.933906555175781e-06,
+          "nativeToDecodedChosenVertexMaxM": 3.933906555175781e-06,
+          "spanErrorM": [
+            4.76837158203125e-07,
+            0.0,
+            2.0265579223632812e-06
+          ],
+          "finiteVertexAndSpan20umAccepted": true,
+          "attributeBindings": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2,
+            "TEXCOORD_1": 3,
+            "TANGENT": 4
+          },
+          "barrels": []
+        }
+      ]
+    }
+  ],
+  "sourceFileUnchanged": true,
+  "nativeModelOrAssetSaved": false,
+  "temporaryImageEncodingBlocked": true,
+  "limits": [
+    "Only selected 20 genuine native door primitives were gathered and encoded in memory",
+    "Finite bidirectional chosen-vertex, whole-mesh span and 12 connected barrel span comparisons; not indexed corner, UV, normal, full topology or continuous surface parity",
+    "Attribute names/types and index counts checked; attribute value transport and face correspondence not certified",
+    "No complete GLB, no material/image finalization, no asset promotion or new LFS, no browser test",
+    "Existing shipped fde04e48 GLB remains failed; native controls and whole-angle Float32 error unproved"
+  ],
+  "wholeVehicleAcceptance": "16 OPEN"
+}

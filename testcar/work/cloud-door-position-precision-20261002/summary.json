@@ -1,0 +1,82 @@
+{
+  "status": "CODE_GUARD_AND_NATIVE_PRECISION_PROBE_ONLY_SHIPPED_ASSET_STILL_FAILS",
+  "nativeSourceSHA256": "6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266",
+  "nativeSourceBytes": 99960163,
+  "shippedAssetSHA256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e",
+  "shippedAssetBytes": 24743400,
+  "priorPublishedSourceReferences": {
+    "testcar/scripts/export-va180-cab-candidate.py": "81099e989b22af47de42b0f8c15c18199deef5d8bffb2a2da1cd41c072698714",
+    "testcar/scripts/prepare-va180-cab-pack.mjs": "aede00f4f6aedaeb1c1cda88a96e6316aadd455f78a6ff843bd7d0abac504fe8",
+    "testcar/scripts/preserve-unmodified-body-streams.mjs": "6bb6c476ebf5052d636cc4243d12b09cc9f38b74fb5ace51037ee33c2b0eeec9",
+    "testcar/work/cloud-va180-web-20261001/pack-report.json": "45f2040fac501a89aaeee8222bce299109400e8b0bd2198f5d5432b0f24878c6",
+    "testcar/work/cloud-va180-web-20261001/native-world-reference.json": "edd1275a89e85dbc848dcf7a5df767fb2fe14ded5e773ddaa042155c28d5ef4f",
+    "testcar/work/cloud-barrel-axis-web-20261001/binding-report.json": "d98f81ff5c0e02e6e71acb2086edd72a18d970368f00da464c903f79ec21978b"
+  },
+  "policyComparisonBudgetM": 2e-05,
+  "policyMaxGridStepM": 1e-05,
+  "nativePrimitives": 20,
+  "actualEncodes": 60,
+  "actualNativeRangesM": [
+    0.026000022888183594,
+    1.2799960374832153
+  ],
+  "selectedBitsCounts": {
+    "12": 4,
+    "13": 4,
+    "17": 12
+  },
+  "measurements": {
+    "14": {
+      "encodes": 20,
+      "finite20umFailures": 12,
+      "gridRejected": 12,
+      "maximumChosenVertexDistanceM": 6.441638068733744e-05,
+      "maximumWholeMeshSpanErrorM": 3.2901763916015625e-05,
+      "maximumBarrelSpanErrorM": 5.447864532470703e-05,
+      "barrelComparisons": 12
+    },
+    "17": {
+      "encodes": 12,
+      "finite20umFailures": 0,
+      "gridRejected": 0,
+      "maximumChosenVertexDistanceM": 8.123743551922236e-06,
+      "maximumWholeMeshSpanErrorM": 2.86102294921875e-06,
+      "maximumBarrelSpanErrorM": 3.933906555175781e-06,
+      "barrelComparisons": 12
+    },
+    "18": {
+      "encodes": 20,
+      "finite20umFailures": 0,
+      "gridRejected": 0,
+      "maximumChosenVertexDistanceM": 4.129530924722856e-06,
+      "maximumWholeMeshSpanErrorM": 2.0265579223632812e-06,
+      "maximumBarrelSpanErrorM": 2.1457672119140625e-06,
+      "barrelComparisons": 12
+    },
+    "policySelected": {
+      "encodes": 20,
+      "finite20umFailures": 0,
+      "gridRejected": 0,
+      "maximumChosenVertexDistanceM": 8.123743551922236e-06,
+      "maximumWholeMeshSpanErrorM": 2.86102294921875e-06,
+      "maximumBarrelSpanErrorM": 3.933906555175781e-06,
+      "barrelComparisons": 12
+    }
+  },
+  "nativeProcess": {
+    "exitCode": 0,
+    "elapsedSeconds": 20.73503923899989,
+    "peakChildRssKiB": 1762468,
+    "timedOut": false
+  },
+  "nativeReportSHA256": "27e25aaf78ee6c4496ba2decb986b8e6b62470b12a565f3f29e1aa6e0943a067",
+  "all16Gates": "OPEN",
+  "sourceChoice": "Exact Textured input of published exporter, restored from existing LFS. Master8e962d6 and native-control3b230c12 were not geometry/UV substitutes.",
+  "limitations": [
+    "Only selected 20 genuine native door primitives were gathered and encoded in memory",
+    "Finite bidirectional chosen-vertex, whole-mesh span and 12 connected barrel span comparisons; not indexed corner, UV, normal, full topology or continuous surface parity",
+    "Attribute names/types and index counts checked; attribute value transport and face correspondence not certified",
+    "No complete GLB, no material/image finalization, no asset promotion or new LFS, no browser test",
+    "Existing shipped fde04e48 GLB remains failed; native controls and whole-angle Float32 error unproved"
+  ]
+}

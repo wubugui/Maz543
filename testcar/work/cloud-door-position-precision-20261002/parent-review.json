@@ -1,0 +1,51 @@
+{
+  "status": "PASS_PARENT_SOURCE_MAP_AND_REPORT_RECOMPUTATION",
+  "delivery_manifest_sha256": "224599da13f5248af459546af5035daca0e718e1dfb4ca747f6e1970eb09045c",
+  "execution_sources": [
+    {
+      "attempt": "native-attempt-01",
+      "name": "probe-native-door-position-precision.py",
+      "exact": true
+    },
+    {
+      "attempt": "native-attempt-01",
+      "name": "read-door-grid-probe.mjs",
+      "exact": true
+    },
+    {
+      "attempt": "native-attempt-01",
+      "name": "cab-door-position-precision.mjs",
+      "exact": true
+    },
+    {
+      "attempt": "native-attempt-01",
+      "name": "executed-runner.py",
+      "exact": true
+    },
+    {
+      "attempt": "native-attempt-02",
+      "name": "probe-native-door-position-precision.py",
+      "exact": true
+    },
+    {
+      "attempt": "native-attempt-02",
+      "name": "read-door-grid-probe.mjs",
+      "exact": true
+    },
+    {
+      "attempt": "native-attempt-02",
+      "name": "cab-door-position-precision.mjs",
+      "exact": true
+    },
+    {
+      "attempt": "native-attempt-02",
+      "name": "executed-runner.py",
+      "exact": true
+    }
+  ],
+  "native_summary_14_18_policy_recomputed_exact": true,
+  "replayed_final_guard_exact_report_bytes": true,
+  "python_ast_files": 2,
+  "native_rerun": false,
+  "whole_vehicle_acceptance": "16 OPEN"
+}

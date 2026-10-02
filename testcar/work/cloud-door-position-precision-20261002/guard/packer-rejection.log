@@ -1,0 +1,21 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+AssertionError [ERR_ASSERTION]: Refusing to pack under-budget door POSITION streams: BL_Door_-1_0_window, BL_Merged_cab_pivot_002_OD_green_aged_enamel, BL_Merged_cab_pivot_002_Rubber_window_seals, BL_Door_-1_1_window, BL_Merged_cab_pivot_003_OD_green_aged_enamel, BL_Merged_cab_pivot_003_Rubber_window_seals, BL_Door_1_0_window, BL_Merged_cab_pivot_006_OD_green_aged_enamel, BL_Merged_cab_pivot_006_Rubber_window_seals, BL_Door_1_1_window, BL_Merged_cab_pivot_007_OD_green_aged_enamel, BL_Merged_cab_pivot_007_Rubber_window_seals. Re-export the exact native Textured source and verify transport; a pivot correction cannot repair quantization.
++ actual - expected
+
++ 'FAIL_DOOR_POSITION_GRID_BUDGET'
+- 'PASS_GRID_PRECONDITION_ONLY'
+
+    at assertPackedDoorPositionPrecision (file:///workspace/scratch/a29d03198654/maz-door-quantization-policy-20261002/evidence/guard-final/packer-replay/scripts/cab-door-position-precision.mjs:151:10)
+    at async file:///workspace/scratch/a29d03198654/maz-door-quantization-policy-20261002/evidence/guard-final/packer-replay/scripts/preserve-unmodified-body-streams.mjs:16:29 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: 'FAIL_DOOR_POSITION_GRID_BUDGET',
+  expected: 'PASS_GRID_PRECONDITION_ONLY',
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.19.0

@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "node",
+    "/workspace/scratch/a29d03198654/maz-door-quantization-policy-20261002/evidence/guard-final/verify-door-position-guard.mjs",
+    "--repo",
+    "/workspace/scratch/a29d03198654/Maz543",
+    "--out",
+    "/workspace/scratch/a29d03198654/maz-door-quantization-policy-20261002/evidence/guard-final"
+  ],
+  "inputSHA256Before": {
+    "verify-door-position-guard.mjs": "c791ddca4e1145d5de7a4cc83c9192d8e077b57c76d8cb5a3d55d3b6a0dca37d",
+    "cab-door-position-precision.mjs": "40b31abf452796a3a8995bc172b77f81df26788b25a1f738b8040fd033fca506",
+    "preserve-unmodified-body-streams.mjs": "7967611007bdd0c9199c1d772713f21382f7a9f55d403cf893adf8895ef63210"
+  },
+  "exitCode": 0,
+  "elapsedSeconds": 0.5563538649948896,
+  "inputSHA256After": {
+    "verify-door-position-guard.mjs": "c791ddca4e1145d5de7a4cc83c9192d8e077b57c76d8cb5a3d55d3b6a0dca37d",
+    "cab-door-position-precision.mjs": "40b31abf452796a3a8995bc172b77f81df26788b25a1f738b8040fd033fca506",
+    "preserve-unmodified-body-streams.mjs": "7967611007bdd0c9199c1d772713f21382f7a9f55d403cf893adf8895ef63210"
+  }
+}

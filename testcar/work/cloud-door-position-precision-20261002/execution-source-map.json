@@ -1,0 +1,50 @@
+[
+  {
+    "attempt": "native-attempt-01",
+    "executedName": "probe-native-door-position-precision.py",
+    "recoverBytesFrom": "native-failure-01/probe-native-door-position-precision.py",
+    "sha256": "b0f318075ab2ffb7623e36cad2e911078dfde8f90e97640ad7815e171c170370"
+  },
+  {
+    "attempt": "native-attempt-01",
+    "executedName": "read-door-grid-probe.mjs",
+    "recoverBytesFrom": "PATCH:testcar/scripts/read-door-grid-probe.mjs",
+    "sha256": "ea6ccdbf06751fd1d53b60db07ae5676a67dd58049c597d5697d68d72154eef6"
+  },
+  {
+    "attempt": "native-attempt-01",
+    "executedName": "cab-door-position-precision.mjs",
+    "recoverBytesFrom": "native/executed-policy.mjs",
+    "sha256": "dc7cdb3336ae390b8e866278bc3775c3436573945b3e5680b9d7a311e7f2dcfa"
+  },
+  {
+    "attempt": "native-attempt-01",
+    "executedName": "executed-runner.py",
+    "recoverBytesFrom": "PATCH:testcar/scripts/run-native-door-position-probe.py",
+    "sha256": "e85fde455dc8ce80ed9840a884534bc9c11af44b75ddb65111ced1aac533581f"
+  },
+  {
+    "attempt": "native-attempt-02",
+    "executedName": "probe-native-door-position-precision.py",
+    "recoverBytesFrom": "PATCH:testcar/scripts/probe-native-door-position-precision.py",
+    "sha256": "10e9bfab53c1c88cde68f28a216e5d30c42f227be9ac1520995593fb8eb32db4"
+  },
+  {
+    "attempt": "native-attempt-02",
+    "executedName": "read-door-grid-probe.mjs",
+    "recoverBytesFrom": "PATCH:testcar/scripts/read-door-grid-probe.mjs",
+    "sha256": "ea6ccdbf06751fd1d53b60db07ae5676a67dd58049c597d5697d68d72154eef6"
+  },
+  {
+    "attempt": "native-attempt-02",
+    "executedName": "cab-door-position-precision.mjs",
+    "recoverBytesFrom": "native/executed-policy.mjs",
+    "sha256": "dc7cdb3336ae390b8e866278bc3775c3436573945b3e5680b9d7a311e7f2dcfa"
+  },
+  {
+    "attempt": "native-attempt-02",
+    "executedName": "executed-runner.py",
+    "recoverBytesFrom": "PATCH:testcar/scripts/run-native-door-position-probe.py",
+    "sha256": "e85fde455dc8ce80ed9840a884534bc9c11af44b75ddb65111ced1aac533581f"
+  }
+]

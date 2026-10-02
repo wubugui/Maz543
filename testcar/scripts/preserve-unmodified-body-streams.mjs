@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import assert from 'node:assert/strict';
 import crypto from 'node:crypto';
 import {verifyLocalTransform} from './scoped-body-transforms.mjs';
+import {assertPackedDoorPositionPrecision} from './cab-door-position-precision.mjs';
 const config=process.argv[2]?JSON.parse(await fs.readFile(process.argv[2],'utf8')):null;
 if(config)assert.ok(config.report,'Scoped packaging must declare its own report path');
 const sourcePath=config?.source??'../restoration/searchlight-correction-20260930/maz543a-blender.glb';
@@ -11,6 +12,8 @@ const candidatePath=config?.candidate??'work/searchlight-correction-20260930/maz
 const outputPath=config?.output??'public/models/maz543a-blender.glb';
 async function read(file){const bytes=await fs.readFile(file),length=bytes.readUInt32LE(12);return {bytes,j:JSON.parse(bytes.subarray(20,20+length)),start:28+length};}
 const before=await read(sourcePath),candidate=await read(candidatePath);
+// Check the actual retained/native door streams before any packaging mutation or write.
+const doorPositionPrecision=await assertPackedDoorPositionPrecision(before,candidate,config);
 const changed=new Set(config?.changedMeshes??['BL_Merged_cab_pivot_001_Headlamp_prismatic_glass','BL_Merged_cab_pivot_001_OD_green_aged_enamel','BL_Merged_cab_pivot_001_Phosphated_steel']);
 const j=candidate.j,binLength=j.buffers[0].byteLength;
 const chunks=[candidate.bytes.subarray(candidate.start,candidate.start+binLength)];let offset=binLength;
@@ -77,5 +80,5 @@ const header=Buffer.alloc(20);header.writeUInt32LE(0x46546c67,0);header.writeUIn
 const binHeader=Buffer.alloc(8);binHeader.writeUInt32LE(bin.length+binPad,0);binHeader.writeUInt32LE(0x004e4942,4);
 const output=Buffer.concat([header,json,Buffer.alloc(jsonPad,32),binHeader,bin,Buffer.alloc(binPad)]);
 await fs.writeFile(outputPath,output);
-const report={preservedMeshNodes:preserved,nativeCandidate:candidatePath,source:sourcePath,output:outputPath,sha256:crypto.createHash('sha256').update(output).digest('hex'),bytes:output.length,changedMeshes:[...changed],scope:config?.scope??'Only new lamp and three separated cab material streams are taken from the new native export. Unchanged production surfaces retain their original compressed byte streams.'};
+const report={doorPositionPrecision,preservedMeshNodes:preserved,nativeCandidate:candidatePath,source:sourcePath,output:outputPath,sha256:crypto.createHash('sha256').update(output).digest('hex'),bytes:output.length,changedMeshes:[...changed],scope:config?.scope??'Only new lamp and three separated cab material streams are taken from the new native export. Unchanged production surfaces retain their original compressed byte streams.'};
 await fs.writeFile(config?.report??'outputs/searchlight-correction-20260930/stream-preservation.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));

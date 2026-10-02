@@ -1,0 +1,151 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6975,
+      "sha256": "e92a337c6e6a1c445a71a82c8e800c4b89b30aec28f822d29ebd33af69010ee9"
+    },
+    {
+      "path": "checks/earlier-empty-focused-lint-process.json",
+      "bytes": 1156,
+      "sha256": "b73e9991cce085ee436fad44aa4e5806d8510d0b3b2f0fb7ac636c02f76237c1"
+    },
+    {
+      "path": "checks/earlier-empty-focused-lint.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "checks/lint-initial-location-failure-process.json",
+      "bytes": 1060,
+      "sha256": "51ca22f4d6dd6260a16948d03dced41712e5876f2a3f5fe3206d621d18947b7e"
+    },
+    {
+      "path": "checks/lint-initial-location-failure.log",
+      "bytes": 103,
+      "sha256": "2d650e9fa5854f8dadd208c45fb9d796938845652dd47e9a533c1ad486ac538f"
+    },
+    {
+      "path": "checks/lint-initial-location-failure.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "checks/lint-process.json",
+      "bytes": 1059,
+      "sha256": "6127d7f7d230471745f1807918c1ef08bec00464c35c977bf25bd2bec0a7ad1a"
+    },
+    {
+      "path": "checks/lint.json",
+      "bytes": 194,
+      "sha256": "98f25641eef70cbb45571727a66f6be2e4e434ed7244552798eff55e1199be17"
+    },
+    {
+      "path": "checks/lint.stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "door-position-precision.patch",
+      "bytes": 41127,
+      "sha256": "db04750f7e2c3ab674e57894e4f17e082e63b54369dc756b5385e77ce04f8806"
+    },
+    {
+      "path": "execution-source-map.json",
+      "bytes": 2023,
+      "sha256": "d26d21e20bd40da525b5228d1ec03752c86e6c6554ceae13e134e4b5a33ed8de"
+    },
+    {
+      "path": "guard/guard-regression.json",
+      "bytes": 1493,
+      "sha256": "b77827dd2cd184089ef9d9f00dc0bf8d923892a50a8a9f96263b7a4f385d9e01"
+    },
+    {
+      "path": "guard/packer-rejection.log",
+      "bytes": 1387,
+      "sha256": "bb3426b0d39bbb846c9d1ca328e9cc299f426a6e64ec004734db4b8073d2592a"
+    },
+    {
+      "path": "guard/process.json",
+      "bytes": 1095,
+      "sha256": "b4f6dc46edd752e465caed40e086b4902e83b968c9a84b19a75ec9e9e914137a"
+    },
+    {
+      "path": "guard/shipped-grid-report.json",
+      "bytes": 10881,
+      "sha256": "b592c17337839b0c8c5ddd41e165518aff9b77ed5666974fc107d4a516eceebc"
+    },
+    {
+      "path": "guard/terminal.log",
+      "bytes": 1141,
+      "sha256": "7185e02b807774426532a1090084b4a9b26aa4269b6a3babf9f7ea654d5cc6d4"
+    },
+    {
+      "path": "guard-failure-01/packer-rejection.log",
+      "bytes": 1120,
+      "sha256": "0b5f0ef2d3890ee8eb04e2883bfc19a68d56c538b8286b248d80367444acb485"
+    },
+    {
+      "path": "guard-failure-01/verifier-source-copied-after-run.mjs",
+      "bytes": 5276,
+      "sha256": "b676fe53ac2fd3d7c05e1c10c623605c7f7497ba72839ac35b262eddb9bdcbdc"
+    },
+    {
+      "path": "native/executed-policy-comparison.json",
+      "bytes": 609,
+      "sha256": "a42edfb330b6c1344fbe40e30c8688c240d584bc201eeecb7326a533b10022af"
+    },
+    {
+      "path": "native/executed-policy.mjs",
+      "bytes": 8962,
+      "sha256": "dc7cdb3336ae390b8e866278bc3775c3436573945b3e5680b9d7a311e7f2dcfa"
+    },
+    {
+      "path": "native/launch.json",
+      "bytes": 1475,
+      "sha256": "0762db35c3d32332362a5bb04541326a3238c7037f799dbac8954eb0184d3b13"
+    },
+    {
+      "path": "native/native-probe.json",
+      "bytes": 132925,
+      "sha256": "27e25aaf78ee6c4496ba2decb986b8e6b62470b12a565f3f29e1aa6e0943a067"
+    },
+    {
+      "path": "native/native.log",
+      "bytes": 20662,
+      "sha256": "505506640a22a24f656ee167313fe9fab2a10c39546df961742f3b1589df5dbc"
+    },
+    {
+      "path": "native/process.json",
+      "bytes": 2819,
+      "sha256": "6ca47737bff3d8a027e8b29ccf992f698f3f1f4f6deefca687899e2af524bac0"
+    },
+    {
+      "path": "native-failure-01/launch.json",
+      "bytes": 1475,
+      "sha256": "2c59d04da09dc397e9cf9da5d556ca83ec56328c4fc4f29512cacbff656e1261"
+    },
+    {
+      "path": "native-failure-01/native.log",
+      "bytes": 567,
+      "sha256": "740f92e13a49c44989a0fa7ad60e1eef00c043a1dc6b148d9ba374ada0bc9730"
+    },
+    {
+      "path": "native-failure-01/probe-native-door-position-precision.py",
+      "bytes": 16705,
+      "sha256": "b0f318075ab2ffb7623e36cad2e911078dfde8f90e97640ad7815e171c170370"
+    },
+    {
+      "path": "native-failure-01/process.json",
+      "bytes": 2678,
+      "sha256": "00395306ea315103c453fb8bc8eafd0afd553acff2fbe7b36a2e29583957a2ea"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 3714,
+      "sha256": "2daa5c8d72144e073440a293719a70a0f199e0fa0601ac729be4f3fa180ab8dd"
+    }
+  ],
+  "fileCountExcludingManifest": 29,
+  "bytesExcludingManifest": 268681
+}

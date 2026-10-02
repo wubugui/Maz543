@@ -1,0 +1,31 @@
+{
+  "argv": [
+    "/workspace/scratch/a29d03198654/maz543-tools/blender-4.5.13-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "1",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/a29d03198654/maz-door-quantization-policy-20261002/evidence/native-attempt-02/probe-native-door-position-precision.py",
+    "--",
+    "--source",
+    "/workspace/scratch/a29d03198654/Maz543/.git/lfs/objects/6e/40/6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266",
+    "--out",
+    "/workspace/scratch/a29d03198654/maz-door-quantization-policy-20261002/evidence/native-attempt-02",
+    "--grid-reader",
+    "/workspace/scratch/a29d03198654/maz-door-quantization-policy-20261002/evidence/native-attempt-02/read-door-grid-probe.mjs",
+    "--decoder-dir",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/public/draco"
+  ],
+  "deadlineSeconds": 120,
+  "scriptSHA256Before": {
+    "probe-native-door-position-precision.py": "10e9bfab53c1c88cde68f28a216e5d30c42f227be9ac1520995593fb8eb32db4",
+    "read-door-grid-probe.mjs": "ea6ccdbf06751fd1d53b60db07ae5676a67dd58049c597d5697d68d72154eef6",
+    "cab-door-position-precision.mjs": "dc7cdb3336ae390b8e866278bc3775c3436573945b3e5680b9d7a311e7f2dcfa",
+    "executed-runner.py": "e85fde455dc8ce80ed9840a884534bc9c11af44b75ddb65111ced1aac533581f"
+  },
+  "sourceSHA256Before": "6e406ecadc638130a631e12accebcd9d46de7bdc7c85ca582f0f10d28babe266"
+}

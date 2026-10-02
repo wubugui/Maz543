@@ -1,0 +1,60 @@
+{
+  "status": "PASS_ACTUAL_ASSET_REJECTION_AND_PACKER_WRITE_PREVENTION",
+  "assetSHA256": "fde04e480978d065f5d071ff04669d6b4adfef54e0204513e3be8ccd47ea7d1e",
+  "checkedPrimitives": 20,
+  "rejectedPrimitives": 12,
+  "cases": [
+    {
+      "name": "missing-known-door",
+      "rejected": true
+    },
+    {
+      "name": "all-known-pivots-renamed",
+      "rejected": true
+    },
+    {
+      "name": "changed-door-scope",
+      "rejected": true
+    },
+    {
+      "name": "scaled-door-chain",
+      "rejected": true
+    },
+    {
+      "name": "unknown-door-matrix",
+      "rejected": true
+    },
+    {
+      "name": "malformed-translation",
+      "rejected": true
+    },
+    {
+      "name": "skinned-door",
+      "rejected": true
+    },
+    {
+      "name": "morph-door-weights",
+      "rejected": true
+    },
+    {
+      "name": "animated-door-scale",
+      "rejected": true
+    },
+    {
+      "name": "claiming-old-streams-are-new-does-not-repair-precision",
+      "rejected": true
+    },
+    {
+      "name": "mixed-native-retained-routing-still-rejects-real-under-budget-streams",
+      "rejected": true
+    },
+    {
+      "name": "corrupt-candidate-binding-ignored-when-retained-rejected-when-changed-or-new",
+      "rejected": true
+    }
+  ],
+  "executedPackerExitCode": 1,
+  "assetWriteAttempted": false,
+  "inputAssetAndDescriptorsUnchanged": true,
+  "limits": "The shipped asset intentionally FAILS precision. This test proves refusal, not native export correctness or a repaired asset."
+}
