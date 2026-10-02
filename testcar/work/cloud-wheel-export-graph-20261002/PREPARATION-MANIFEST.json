@@ -1,38 +1,41 @@
 {
   "schema": "maz-wheel-graph-preparation-v1",
   "status": "PREPARED_NOT_EXECUTED_READY_FOR_INDEPENDENT_REVIEW",
-  "prepared_at_head": "79160c48326f42816c81172c597718d157b92e06",
+  "prepared_at_head": "e8bfd43ce053ec3764503cef15bf9621084663ce",
   "prepared_files": {
     "README.md": {
-      "bytes": 9025,
-      "sha256": "7e533766d202da842042bf007f73d029ae30c078c1581e57f003446848093dba"
+      "bytes": 10943,
+      "sha256": "4f4165b0213ecff23b553e04e3922ba8923b44fdd31d0d3d346eff2744bc5b99"
     },
     "graph_common.py": {
-      "bytes": 7732,
-      "sha256": "e7e5e331ada34d09026e100e33c105fbaf7c74a4dedf46228e08ea8cf884712c"
+      "bytes": 10020,
+      "sha256": "6dd91a5742fd2edf28b66e71436d15d065ff0d07cbcee1182c9ad1acc19c04b1"
     },
     "inspect_native_graph.py": {
-      "bytes": 19921,
-      "sha256": "4cb4a84d9fae4efd0781ed23ac66a07415d4720dacd8607c6ef5eff48740d42c"
+      "bytes": 20542,
+      "sha256": "dce897392d380b8f08295262dd8b5daa7c06bab0c01c3ff61ec9ae17645c80f3"
     },
     "run_graph_inspection.py": {
-      "bytes": 10839,
-      "sha256": "f30986c3c74b58541f264cd07f643b8fc6b5873f5b638b68e30ecaf07b3a4681"
+      "bytes": 10900,
+      "sha256": "d8480a78f7ad4999d752622de515690bc2eece936547e68cc8372b0554985ffa"
     },
     "check_deadline_controls.py": {
       "bytes": 2059,
       "sha256": "26b02c84cbfe654c857912048e9dfe3ceaeb71e10ac5564162beb4a321a1cd63"
     },
+    "check_station_roles.py": {
+      "bytes": 1995,
+      "sha256": "478dc63a701d0767256f74d2888a6b1dd4a36fb7e232c17c7ea1bcf515d1aec9"
+    },
     "inputs.json": {
-      "bytes": 4303,
-      "sha256": "4bc79b35ee5b3d17b16fedbd765b230cfed866d39fdfdfa6c4bd26b87314cc4c"
+      "bytes": 4816,
+      "sha256": "9562c4125c847b252831cdec5671d8c92a4e003f41d38d2388c1e6b1e81e0093"
     },
     "preparation-checks.json": {
-      "bytes": 9665,
-      "sha256": "a9dee2f75d3d0901e0c4a8fa80211aa21c25a246e1d10441950d9f195e5141ad"
+      "bytes": 17583,
+      "sha256": "e73ed09cc745b248cd56a8b84f9995da190ae1e418c7a1ef209329573892316e"
     }
   },
-  "native_execution": false,
   "must_publish_and_readback_before_native_run": true,
   "expected_outputs": [
     "launch.json",
@@ -52,6 +55,13 @@
     "native/native-report.json"
   ],
   "all16_vehicle_gates": "OPEN",
-  "revision": 2,
-  "scope_of_protection": "Exact saved names/world/parent/action_record digests; enumerated snapshot fields; second exact relevant graph/matrix/view-layer-state record. No all-RNA/cache/geometry/state claim."
+  "revision": 3,
+  "native_execution_of_this_revision": false,
+  "prior_native_attempt": {
+    "preparation_commit": "0bb73ec8f3d304e2f2cb7c80f0cd785d09fbb3f3",
+    "status": "FAILED_REAR_KINGPIN_ROLE_ASSUMPTION",
+    "published_failure_commit": "e8bfd43ce053ec3764503cef15bf9621084663ce",
+    "original9_records_rechecked_unchanged": true
+  },
+  "planned_scope_of_protection": "Planned only: exact saved names/world/parent/action_record digests, enumerated snapshot fields, two exact relevant graph/matrix/view-layer-state reads. Runtime completed_checks is the reached-check record. No all-RNA/cache/geometry/state claim."
 }

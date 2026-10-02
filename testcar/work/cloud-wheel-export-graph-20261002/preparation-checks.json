@@ -1,12 +1,502 @@
 {
   "status": "PREPARATION_CHECKS_PASS_NATIVE_NOT_EXECUTED",
-  "revision": 2,
-  "supersedes_preparation_manifest_sha256": "67856107c266a35008de3ca8f8007f9b20c41ab563f0e091a51faa56389d1ed8",
+  "revision": 3,
+  "supersedes_preparation_manifest_sha256": "1cbddd23e8c0ac76e4eb1b3d77f195ffedf84e0fcab08ded54c355ff424c9a3d",
+  "prior_native_attempt": {
+    "preparation_commit": "0bb73ec8f3d304e2f2cb7c80f0cd785d09fbb3f3",
+    "status": "FAILED_REAR_KINGPIN_ROLE_ASSUMPTION",
+    "published_failure_commit": "e8bfd43ce053ec3764503cef15bf9621084663ce",
+    "original9_records_rechecked_unchanged": true
+  },
   "review_corrections": [
-    "Bind monotonic time immediately to every poll/wait terminal observation; reject first terminal observation after60s while preserving its actual code",
-    "Re-read the same relevant graph_records with the after snapshot and assert exact equality",
-    "Restrict protection statuses and wording to enumerated fields; no all-RNA/cache/state claim"
+    "One explicit48-name role table: carrier/spin/brake/drum/upright at0-7 and kingpin/joint_frame at0-3, mandatory without existence filtering",
+    "The same table drives selection of relevant records and all station role records",
+    "Initial report holds planned scope only; completed_checks is appended only after each reached check succeeds; no all-RNA/cache/state claim"
   ],
+  "station_role_controls": {
+    "status": "STATIC_STATION_ROLE_CONTROLS_PASS",
+    "positive_required_names": [
+      "S543_0_native_steering_joint_frame",
+      "S543_0_steering_kingpin",
+      "S543_0_upright",
+      "S543_1_native_steering_joint_frame",
+      "S543_1_steering_kingpin",
+      "S543_1_upright",
+      "S543_2_native_steering_joint_frame",
+      "S543_2_steering_kingpin",
+      "S543_2_upright",
+      "S543_3_native_steering_joint_frame",
+      "S543_3_steering_kingpin",
+      "S543_3_upright",
+      "S543_4_upright",
+      "S543_5_upright",
+      "S543_6_upright",
+      "S543_7_upright",
+      "brakes_0003",
+      "brakes_0007",
+      "brakes_0011",
+      "brakes_0015",
+      "brakes_0019",
+      "brakes_0023",
+      "brakes_0027",
+      "brakes_0031",
+      "brakes_pivot_001",
+      "brakes_pivot_002",
+      "brakes_pivot_003",
+      "brakes_pivot_004",
+      "brakes_pivot_005",
+      "brakes_pivot_006",
+      "brakes_pivot_007",
+      "brakes_pivot_008",
+      "wheels_pivot_001",
+      "wheels_pivot_002",
+      "wheels_pivot_008",
+      "wheels_pivot_009",
+      "wheels_pivot_015",
+      "wheels_pivot_016",
+      "wheels_pivot_022",
+      "wheels_pivot_023",
+      "wheels_pivot_029",
+      "wheels_pivot_030",
+      "wheels_pivot_036",
+      "wheels_pivot_037",
+      "wheels_pivot_043",
+      "wheels_pivot_044",
+      "wheels_pivot_050",
+      "wheels_pivot_051"
+    ],
+    "positive_required_count": 48,
+    "inventory_objects": 8522,
+    "negative_rejection_counts": {
+      "missing_common_role": 40,
+      "missing_front_kingpin": 4,
+      "wrong_station_role": 48
+    },
+    "negative_rejected_cases": {
+      "missing_common_role": [
+        [
+          0,
+          "carrier"
+        ],
+        [
+          0,
+          "spin"
+        ],
+        [
+          0,
+          "brake"
+        ],
+        [
+          0,
+          "drum"
+        ],
+        [
+          0,
+          "upright"
+        ],
+        [
+          1,
+          "carrier"
+        ],
+        [
+          1,
+          "spin"
+        ],
+        [
+          1,
+          "brake"
+        ],
+        [
+          1,
+          "drum"
+        ],
+        [
+          1,
+          "upright"
+        ],
+        [
+          2,
+          "carrier"
+        ],
+        [
+          2,
+          "spin"
+        ],
+        [
+          2,
+          "brake"
+        ],
+        [
+          2,
+          "drum"
+        ],
+        [
+          2,
+          "upright"
+        ],
+        [
+          3,
+          "carrier"
+        ],
+        [
+          3,
+          "spin"
+        ],
+        [
+          3,
+          "brake"
+        ],
+        [
+          3,
+          "drum"
+        ],
+        [
+          3,
+          "upright"
+        ],
+        [
+          4,
+          "carrier"
+        ],
+        [
+          4,
+          "spin"
+        ],
+        [
+          4,
+          "brake"
+        ],
+        [
+          4,
+          "drum"
+        ],
+        [
+          4,
+          "upright"
+        ],
+        [
+          5,
+          "carrier"
+        ],
+        [
+          5,
+          "spin"
+        ],
+        [
+          5,
+          "brake"
+        ],
+        [
+          5,
+          "drum"
+        ],
+        [
+          5,
+          "upright"
+        ],
+        [
+          6,
+          "carrier"
+        ],
+        [
+          6,
+          "spin"
+        ],
+        [
+          6,
+          "brake"
+        ],
+        [
+          6,
+          "drum"
+        ],
+        [
+          6,
+          "upright"
+        ],
+        [
+          7,
+          "carrier"
+        ],
+        [
+          7,
+          "spin"
+        ],
+        [
+          7,
+          "brake"
+        ],
+        [
+          7,
+          "drum"
+        ],
+        [
+          7,
+          "upright"
+        ]
+      ],
+      "missing_front_kingpin": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "wrong_station_role": [
+        [
+          0,
+          "carrier",
+          1
+        ],
+        [
+          0,
+          "spin",
+          1
+        ],
+        [
+          0,
+          "brake",
+          1
+        ],
+        [
+          0,
+          "drum",
+          1
+        ],
+        [
+          0,
+          "upright",
+          1
+        ],
+        [
+          0,
+          "kingpin",
+          1
+        ],
+        [
+          0,
+          "joint_frame",
+          1
+        ],
+        [
+          1,
+          "carrier",
+          2
+        ],
+        [
+          1,
+          "spin",
+          2
+        ],
+        [
+          1,
+          "brake",
+          2
+        ],
+        [
+          1,
+          "drum",
+          2
+        ],
+        [
+          1,
+          "upright",
+          2
+        ],
+        [
+          1,
+          "kingpin",
+          2
+        ],
+        [
+          1,
+          "joint_frame",
+          2
+        ],
+        [
+          2,
+          "carrier",
+          3
+        ],
+        [
+          2,
+          "spin",
+          3
+        ],
+        [
+          2,
+          "brake",
+          3
+        ],
+        [
+          2,
+          "drum",
+          3
+        ],
+        [
+          2,
+          "upright",
+          3
+        ],
+        [
+          2,
+          "kingpin",
+          3
+        ],
+        [
+          2,
+          "joint_frame",
+          3
+        ],
+        [
+          3,
+          "carrier",
+          4
+        ],
+        [
+          3,
+          "spin",
+          4
+        ],
+        [
+          3,
+          "brake",
+          4
+        ],
+        [
+          3,
+          "drum",
+          4
+        ],
+        [
+          3,
+          "upright",
+          4
+        ],
+        [
+          3,
+          "kingpin",
+          0
+        ],
+        [
+          3,
+          "joint_frame",
+          0
+        ],
+        [
+          4,
+          "carrier",
+          5
+        ],
+        [
+          4,
+          "spin",
+          5
+        ],
+        [
+          4,
+          "brake",
+          5
+        ],
+        [
+          4,
+          "drum",
+          5
+        ],
+        [
+          4,
+          "upright",
+          5
+        ],
+        [
+          5,
+          "carrier",
+          6
+        ],
+        [
+          5,
+          "spin",
+          6
+        ],
+        [
+          5,
+          "brake",
+          6
+        ],
+        [
+          5,
+          "drum",
+          6
+        ],
+        [
+          5,
+          "upright",
+          6
+        ],
+        [
+          6,
+          "carrier",
+          7
+        ],
+        [
+          6,
+          "spin",
+          7
+        ],
+        [
+          6,
+          "brake",
+          7
+        ],
+        [
+          6,
+          "drum",
+          7
+        ],
+        [
+          6,
+          "upright",
+          7
+        ],
+        [
+          7,
+          "carrier",
+          0
+        ],
+        [
+          7,
+          "spin",
+          0
+        ],
+        [
+          7,
+          "brake",
+          0
+        ],
+        [
+          7,
+          "drum",
+          0
+        ],
+        [
+          7,
+          "upright",
+          0
+        ]
+      ]
+    },
+    "native_execution": false
+  },
+  "static_inventory_source": {
+    "path": "/workspace/scratch/a29d03198654/maz-graph-failure-remote-e8bfd43-20261002/restored/native/object-inventory.json",
+    "bytes": 10668164,
+    "sha256": "3c9d293ee551a1ab6dfa93c6c82ce98634e1997c8ed691f94d534169e434feb3"
+  },
+  "offline_saved_inventory_relevant_names": {
+    "count": 2675,
+    "missing": [],
+    "names_sha256": "3ecc0a7cad7f9d79949cb0c21cc7391b4b89816323e1d76ba24888ffd19c6ec4",
+    "effective_visibility_or_matrices_not_recomputed": true
+  },
   "deadline_controls": {
     "status": "TWO_FOCUSED_PURE_MEMORY_CONTROLS_PASS",
     "original_witness": {
@@ -80,19 +570,23 @@
   "syntax": {
     "graph_common.py": {
       "syntax": "PASS",
-      "sha256": "e7e5e331ada34d09026e100e33c105fbaf7c74a4dedf46228e08ea8cf884712c"
+      "sha256": "6dd91a5742fd2edf28b66e71436d15d065ff0d07cbcee1182c9ad1acc19c04b1"
     },
     "inspect_native_graph.py": {
       "syntax": "PASS",
-      "sha256": "4cb4a84d9fae4efd0781ed23ac66a07415d4720dacd8607c6ef5eff48740d42c"
+      "sha256": "dce897392d380b8f08295262dd8b5daa7c06bab0c01c3ff61ec9ae17645c80f3"
     },
     "run_graph_inspection.py": {
       "syntax": "PASS",
-      "sha256": "f30986c3c74b58541f264cd07f643b8fc6b5873f5b638b68e30ecaf07b3a4681"
+      "sha256": "d8480a78f7ad4999d752622de515690bc2eece936547e68cc8372b0554985ffa"
     },
     "check_deadline_controls.py": {
       "syntax": "PASS",
       "sha256": "26b02c84cbfe654c857912048e9dfe3ceaeb71e10ac5564162beb4a321a1cd63"
+    },
+    "check_station_roles.py": {
+      "syntax": "PASS",
+      "sha256": "478dc63a701d0767256f74d2888a6b1dd4a36fb7e232c17c7ea1bcf515d1aec9"
     }
   },
   "inspector_bpy_operators": [
@@ -155,7 +649,6 @@
       "brake": "brakes_pivot_005",
       "drum": "brakes_0019",
       "upright": "S543_4_upright",
-      "kingpin": "S543_4_steering_kingpin",
       "drum_identity_scope": "Retained legacy drum name and mesh/parent identity; geometry not reread"
     },
     {
@@ -165,7 +658,6 @@
       "brake": "brakes_pivot_006",
       "drum": "brakes_0023",
       "upright": "S543_5_upright",
-      "kingpin": "S543_5_steering_kingpin",
       "drum_identity_scope": "Retained legacy drum name and mesh/parent identity; geometry not reread"
     },
     {
@@ -175,7 +667,6 @@
       "brake": "brakes_pivot_007",
       "drum": "brakes_0027",
       "upright": "S543_6_upright",
-      "kingpin": "S543_6_steering_kingpin",
       "drum_identity_scope": "Retained legacy drum name and mesh/parent identity; geometry not reread"
     },
     {
@@ -185,7 +676,6 @@
       "brake": "brakes_pivot_008",
       "drum": "brakes_0031",
       "upright": "S543_7_upright",
-      "kingpin": "S543_7_steering_kingpin",
       "drum_identity_scope": "Retained legacy drum name and mesh/parent identity; geometry not reread"
     }
   ],
@@ -253,7 +743,7 @@
       "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
     }
   },
-  "native_execution": false,
+  "native_execution_of_this_revision": false,
   "geometry_payload_decoded": false,
   "all16_vehicle_gates": "OPEN"
 }

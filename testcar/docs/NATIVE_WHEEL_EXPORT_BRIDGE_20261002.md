@@ -1,6 +1,6 @@
 # Saved front-wheel candidate: export and static review boundary
 
-The saved editable source is100052636bytes, SHA-25648dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea. Its complete plugin publication, clean remote restoration and native fresh-open are verified in bf88d253; all identified native/view assets were subsequently closed out in f2b800c. This document records the next integration decision from the code and original data at79160c. No new GLB, native inspection run or application route is claimed here.
+The saved editable source is100052636bytes, SHA-25648dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea. Its complete plugin publication, clean remote restoration and native fresh-open are verified in bf88d253; all identified native/view assets were subsequently closed out in f2b800c. This document records the next integration decision from the code and original data at79160c. No new GLB or application route is claimed here. The first graph inspection and its failed role assumption are recorded below.
 
 ## Existing data and concrete failure paths
 
@@ -39,3 +39,13 @@ The native source currently has finite fixed-frame spin evidence only. Nine orig
 ## Reviewed read-only preparation
 
 The dedicated work/cloud-wheel-export-graph-20261002 package is frozen at preparation manifest SHA-2561cbddd23e8c0ac76e4eb1b3d77f195ffedf84e0fcab08ded54c355ff424c9a3d (8files/65553bytes). Independent review confirmed the12 actual input hashes,850/549 GLB graphs, all8 legacy station identities and the absence of model-mutating operations beyond loading the pinned candidate. A first-observed-late exit0 boundary in the draft runner was corrected before any native run. Two pure-memory controls distinguish59.95-second timely completion from60.1-second late observation while preserving the real exit code. A second relevant-record read covers local/world/basis/parent-inverse and all inventoried active-scene view-layer states. Protection claims are limited to those enumerated fields. No concrete preparation blocker remains; actual native graph/visibility results are still pending.
+
+## First inspection outcome and corrected role preparation
+
+The first native run exited1 after15.773098 seconds, within the60second window, with all protected files unchanged. The raw8522-object inventory and all nine original text records were completely published in e8bfd43ce053ec3764503cef15bf9621084663ce and independently recovered from39 remote paths/8392545bytes. The inspector incorrectly manufactured steering-kingpin names for the rear four stations. Only the front four have that role; no model part was removed or created.
+
+Revision3 uses one explicit48-name table: five shared roles at every station, plus front-four kingpin and joint-frame roles. The identity/name-presence checks and native records consume that same table. It retains all eight old GLB chain checks and original front-four evidence matching;92 focused negative cases reject missing common roles, missing front kingpins and cross-station identities. Existing inventory resolves all2675 subsequent relevant names. The complete original S543 subtree contains1985 objects, and its union with the old850 is2675 with no missing ancestors. These offline facts do not replace the pending native second snapshot, relevant matrix/visibility comparison or geometry qualification.
+
+The corrected report separately identifies planned protection and actually completed checks. The60second deadline and real exit-code recording remain unchanged. Manifest0c15194b8048455ad0329b664cbc45143c2f537d28893bcdce8ed04dea029705 fixes the9 preparation files/81384bytes. Narrow independent review reran the role/deadline controls and verified the manifest, five Python compilations and twelve pinned native inputs without finding a concrete blocker. Complete plugin publication/readback is still required before its native run.
+
+Local official Blender4.5.13 glTF exporter source also establishes an export requirement: blender/exp/export.py:28–29 and47–48 call frame_set when gltf_current_frame is false, even when animations are disabled. A future static candidate export must explicitly set export_current_frame=True and export_animations=False. This observation does not execute or qualify that export.

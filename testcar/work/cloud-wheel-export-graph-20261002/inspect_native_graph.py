@@ -15,7 +15,7 @@ sys.dont_write_bytecode = True
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from graph_common import (digest, file_record, legacy_stations, load_inputs,
                           original_selector, read_glb_graph, read_only_action_helper,
-                          verify_inputs, write_new)
+                          required_station_names, STATION_ROLE_TABLE, verify_inputs, write_new)
 import bpy
 
 
@@ -152,6 +152,7 @@ def graph_records(names, inventory):
 def run(args, report):
     cfg = load_inputs(args.inputs)
     report['input_hashes_before'] = verify_inputs(cfg)
+    report['completed_checks'].append('pinned_input_hashes_before')
     ip = {key: Path(value['path']) for key, value in cfg['inputs'].items()}
     expected = json.loads(ip['saved_expected'].read_text())
     original = json.loads(ip['original_inputs'].read_text())
@@ -181,6 +182,7 @@ def run(args, report):
     for key in ('world_matrices_sha256', 'parents_sha256', 'actions_sha256'):
         assert before['state'][key] == expected[key], ('saved-state mismatch', key)
     assert not issues, issues
+    report['completed_checks'].append('saved_object_names_world_parent_original_action_digests')
     write_new(args.output / 'object-inventory.json', before['objects'])
     write_new(args.output / 'collection-visibility.json', before['visibility'])
     write_new(args.output / 'protection-before.json', before['state'])
@@ -209,18 +211,14 @@ def run(args, report):
         rejected[name] = {'hide_render': obj.hide_render,
                           'name_prefix_excluded': obj.name.startswith(('SOURCE_', 'ARCHIVE_', 'CUTTER_')),
                           'excluded_ancestry': [n for n in [name] + ancestors(obj) if n in excluded]}
-    station_names = {row[key] for row in stations for key in
-                     ('carrier', 'spin', 'brake', 'drum', 'upright', 'kingpin')}
-    for row in stations:
-        if 'joint_frame' in row:
-            station_names.add(row['joint_frame'])
-    assert station_names <= source_objects
+    station_names = required_station_names(stations, before['objects'])
+    report['completed_checks'].append('explicit_48_station_role_identities_present')
     relevant = full_union_ancestry | minimal | selected | station_names
     records = graph_records(relevant, before['objects'])
+    report['completed_checks'].append('relevant_graph_matrix_view_layer_first_read')
     active_layer = bpy.context.view_layer.name
     for row in stations:
-        row['native_records'] = {key: records[row[key]] for key in
-                                 ('carrier', 'spin', 'brake', 'drum', 'upright', 'kingpin')}
+        row['native_records'] = {key: records[row[key]] for key in STATION_ROLE_TABLE[row['station']]}
         row['legacy_target_chain_matches'] = (
             bpy.data.objects[row['carrier']].parent.name == 'wheels' and
             bpy.data.objects[row['spin']].parent.name == row['carrier'] and
@@ -273,17 +271,22 @@ def run(args, report):
     write_new(args.output / 'glb-graphs.json', {'review': review, 'external_suspension': external})
     # Re-read exactly the enumerated snapshot and relevant graph fields.
     after = snapshot(action_record)
+    report['completed_checks'].append('enumerated_snapshot_second_read')
     records_after = graph_records(relevant, after['objects'])
+    report['completed_checks'].append('relevant_graph_matrix_view_layer_second_read')
     report['protection_after'] = after['state']
     report['relevant_records_comparison'] = {
         'count': len(relevant), 'before_sha256': digest(records),
         'after_sha256': digest(records_after), 'exactly_equal': records_after == records}
     write_new(args.output / 'protection-after.json', after['state'])
     assert after == before, 'An enumerated native snapshot field changed'
+    report['completed_checks'].append('enumerated_snapshot_fields_exact_before_after')
     assert records_after == records, 'An enumerated relevant matrix/graph/view-layer field changed'
+    report['completed_checks'].append('relevant_graph_matrix_view_layer_fields_exact_before_after')
     assert not issues, issues
     report['input_hashes_after'] = verify_inputs(cfg)
     assert report['input_hashes_after'] == report['input_hashes_before']
+    report['completed_checks'].append('pinned_input_hashes_exact_before_after')
     report.update(status='READ_ONLY_SAVED_FRAME_GRAPH_PASS', actual_opened_filepath=bpy.data.filepath,
                   saved_object_names_world_parent_action_digests_exact=True,
                   enumerated_snapshot_fields_unchanged=True,
@@ -308,7 +311,8 @@ def main():
               'selection_pose_visibility_modified': False, 'model_saved': False, 'exported': False,
               'rendered': False, 'geometry_payload_reread': False, 'runtime_route_enabled': False,
               'timeline_status': 'BLOCKED_NOT_EXECUTED', 'all16_vehicle_gates': 'OPEN',
-              'protection_scope': 'Only snapshot() and graph_records() fields are compared. All8522 names/world/parents and original action_record digests match saved evidence. Relevant local/world/basis/parent-inverse matrices and active-scene per-view-layer hide/select/visible fields are read twice. No claim for unenumerated Blender RNA, caches, geometry or dependency-graph state.',
+              'planned_protection_scope': 'Plan only: compare snapshot() and graph_records() fields, saved8522 names/world/parents/original action_record digests, and two reads of relevant local/world/basis/parent-inverse matrices plus active-scene per-view-layer hide/select/visible fields. completed_checks lists only checks actually reached and completed. No claim for unenumerated Blender RNA, caches, geometry or dependency-graph state.',
+              'completed_checks': [],
               'visibility_limit': 'Saved native flags and visible_get in each active-scene view layer without a viewport. No local-view, camera, occlusion, material or renderer acceptance.'}
     try:
         run(args, report)

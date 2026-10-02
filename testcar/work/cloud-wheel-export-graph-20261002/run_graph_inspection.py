@@ -67,7 +67,8 @@ def main():
     assert args.inputs.resolve() == folder / 'inputs.json'
     before = verify_inputs(cfg)
     scripts = [folder / n for n in ('graph_common.py', 'inspect_native_graph.py',
-                                   'run_graph_inspection.py', 'check_deadline_controls.py')]
+                                   'run_graph_inspection.py', 'check_deadline_controls.py',
+                                   'check_station_roles.py')]
     for script in scripts:
         compile(script.read_bytes(), str(script), 'exec')
     protection_paths = scripts + [args.inputs.resolve(), args.preparation.resolve()]

@@ -1,10 +1,19 @@
 # Saved wheel export graph inspection preparation
 
-**PREPARED, NOT EXECUTED.** Ready for independent review, followed by complete
+**REVISION3 PREPARED, NOT EXECUTED.** Ready for independent review, followed by complete
 GitHub-plugin publication/readback of this preparation before one native run.
-No Blender process, browser, render, model save, GLB export, upload, runtime
-change, Git ref/index change or application edit was performed by this package.
+This correction launched no Blender process and made no browser, render, model
+save, GLB export, upload, runtime, Git ref/index or application change.
 All 16 vehicle gates remain OPEN.
+
+The original revision2 at `0bb73ec8f3d304e2f2cb7c80f0cd785d09fbb3f3` ran once:
+run-01 exited1 in 15.773098 seconds because the inspector incorrectly assumed
+rear stations4–7 had steering kingpins. Its nine original records are preserved
+unchanged in `failure-01-evidence`, published and remotely recovered at
+`e8bfd43ce053ec3764503cef15bf9621084663ce`. No second snapshot/graph read was
+reached. Its prefilled protection description was a plan, not completed proof.
+This revision corrects the role assumption and makes planned/reached reporting
+explicit; it does not alter the source model or the original failed evidence.
 
 ## Exact inputs
 
@@ -24,6 +33,14 @@ input. It pins the source recovered independently from the published Git parts:
 - Current exporter, `nativeWheelBindings.ts` and `vehicleViewport.ts`, pinned at
   clean preparation HEAD `79160c48326f42816c81172c597718d157b92e06`
 
+The static role controls additionally use the independently recovered run-01
+8522-object inventory: 10668164 bytes, SHA-256
+`3c9d293ee551a1ab6dfa93c6c82ce98634e1997c8ed691f94d534169e434feb3`.
+Its explicit local path is in `inputs.json` under `static_role_fixture`; it is
+preparation evidence, not a new native execution input. The original12 native
+inputs and their hashes are unchanged. Revision3 is prepared at the published
+failure checkpoint `e8bfd43ce053ec3764503cef15bf9621084663ce`.
+
 The original evidence can also be restored with the already published
 `../cloud-textured-wheel-fixed-20261002/package-fixed-evidence.py`. The run does
 not consult the historical cloud model path or rebuild a candidate.
@@ -36,11 +53,11 @@ From the repository root, after independent review and preparation publication:
 PYTHONDONTWRITEBYTECODE=1 python testcar/work/cloud-wheel-export-graph-20261002/run_graph_inspection.py \
   --inputs testcar/work/cloud-wheel-export-graph-20261002/inputs.json \
   --preparation testcar/work/cloud-wheel-export-graph-20261002/PREPARATION-MANIFEST.json \
-  --output testcar/work/cloud-wheel-export-graph-20261002/run-01 \
+  --output testcar/work/cloud-wheel-export-graph-20261002/run-02 \
   --window-note 'One bounded graph inspection; record actual competing jobs at launch; not an isolated performance measurement'
 ```
 
-`run-01` must not exist. Both scripts use explicit CLI paths; the input JSON is
+`run-02` must not exist. Existing run-01 must remain untouched. Both scripts use explicit CLI paths; the input JSON is
 the complete path/hash contract. The runner checks preparation hashes and all
 input bytes, owns one new child process group, sets affinity to exactly two
 available CPUs and two Blender/BLAS threads, disables autoexec, and supplies
@@ -71,8 +88,8 @@ inspection and is not an isolated performance result.
   minimum ancestry closure, complete native S543 subtree, its union with the
   old850, any additional required ancestry, data-sharing references, and local,
   world, basis and parent-inverse matrices for that entire relevant union
-- `native/stations.json`: all eight saved carrier/spin/brake/drum/upright/kingpin
-  identities and matrices; front-four native joint identities and legacy-chain
+- `native/stations.json`: all eight saved carrier/spin/brake/drum/upright
+  identities and matrices; front-four kingpin/native joint identities and legacy-chain
   compatibility. Rear drum names are checked against the actual old GLB mesh
   and brake parent; this does not reread or requalify their geometry
 - `native/external-conflicts.json`, `native/glb-graphs.json`: complete GLB node
@@ -91,6 +108,11 @@ inspection and is not an isolated performance result.
   every active-scene view layer. Both relevant-record digests and the exact
   equality result are retained in the native report
 
+The report initializes only `planned_protection_scope`. `completed_checks`
+starts empty and adds each hash check, saved-state check, role validation,
+first/second read and exact comparison only after that step succeeds. A failed
+run therefore cannot imply that later protection reads or comparisons happened.
+
 Only the original read-only `allowed` predicate and exclusion constant are
 extracted from the exporter. Only four read-only helper definitions and the
 original exact `action_record` definition are extracted from the source
@@ -105,11 +127,17 @@ runner observation/success logic. The original loop's witness was entry at
 incorrectly left `timed_out=false`. The corrected late-observation control
 retains exit0 and rejects success; the within-deadline control passes and keeps
 its first terminal time despite a later cleanup observation. These controls
-launch no child process. The old review has 850 unique node names exactly equal to
+launch no child process. A single explicit48-name role table requires
+carrier/spin/brake/drum/upright at stations0–7 and kingpin/joint_frame only at0–3.
+The same table drives native membership checks and record extraction; no
+existence-based role filtering is used. Static controls against the saved
+inventory pass the complete table and reject each of40 missing common roles,
+each of4 missing front kingpins and all48 role assignments to another station.
+The old review has 850 unique node names exactly equal to
 `inputs.previous_export_names`; all 160 moved-scope names are present. The
 external suspension has 549 unique names. All eight legacy carrier/spin/brake/
 drum names and old parent edges resolve. Binary GLB payloads were hashed for
-identity but not decoded or converted. No native execution has occurred.
+identity but not decoded or converted. No native execution of revision3 has occurred.
 
 ## Interpretation and remaining decisions
 

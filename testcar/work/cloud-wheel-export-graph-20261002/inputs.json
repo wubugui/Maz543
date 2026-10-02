@@ -1,6 +1,6 @@
 {
   "schema": "maz-wheel-graph-inputs-v1",
-  "prepared_at_head": "79160c48326f42816c81172c597718d157b92e06",
+  "prepared_at_head": "e8bfd43ce053ec3764503cef15bf9621084663ce",
   "inputs": {
     "artifact": {
       "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
@@ -100,5 +100,14 @@
     "No geometry payload reread, export, save, rendering, browser, upload, or runtime-route enabling",
     "Nine original NODES remain unqualified for global timeline; no generic NODES or SUBSURF permission",
     "Elapsed time is an operational observation, not isolated performance"
-  ]
+  ],
+  "first_prepared_at_head": "79160c48326f42816c81172c597718d157b92e06",
+  "preparation_revision": 3,
+  "static_role_fixture": {
+    "path": "/workspace/scratch/a29d03198654/maz-graph-failure-remote-e8bfd43-20261002/restored/native/object-inventory.json",
+    "bytes": 10668164,
+    "sha256": "3c9d293ee551a1ab6dfa93c6c82ce98634e1997c8ed691f94d534169e434feb3",
+    "source_commit": "e8bfd43ce053ec3764503cef15bf9621084663ce",
+    "scope": "Pure-data preparation controls only; not opened by native inspector"
+  }
 }

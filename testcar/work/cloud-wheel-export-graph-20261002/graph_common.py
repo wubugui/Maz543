@@ -8,6 +8,38 @@ import struct
 from pathlib import Path
 
 
+# Explicit saved-candidate roles. Rear stations have no steering-kingpin/joint
+# role; all listed roles are mandatory, never filtered by inventory existence.
+STATION_ROLE_TABLE = (
+    dict(carrier='wheels_pivot_001', spin='wheels_pivot_002', brake='brakes_pivot_001',
+         drum='brakes_0003', upright='S543_0_upright', kingpin='S543_0_steering_kingpin', joint_frame='S543_0_native_steering_joint_frame'),
+    dict(carrier='wheels_pivot_008', spin='wheels_pivot_009', brake='brakes_pivot_002',
+         drum='brakes_0007', upright='S543_1_upright', kingpin='S543_1_steering_kingpin', joint_frame='S543_1_native_steering_joint_frame'),
+    dict(carrier='wheels_pivot_015', spin='wheels_pivot_016', brake='brakes_pivot_003',
+         drum='brakes_0011', upright='S543_2_upright', kingpin='S543_2_steering_kingpin', joint_frame='S543_2_native_steering_joint_frame'),
+    dict(carrier='wheels_pivot_022', spin='wheels_pivot_023', brake='brakes_pivot_004',
+         drum='brakes_0015', upright='S543_3_upright', kingpin='S543_3_steering_kingpin', joint_frame='S543_3_native_steering_joint_frame'),
+    dict(carrier='wheels_pivot_029', spin='wheels_pivot_030', brake='brakes_pivot_005', drum='brakes_0019', upright='S543_4_upright'),
+    dict(carrier='wheels_pivot_036', spin='wheels_pivot_037', brake='brakes_pivot_006', drum='brakes_0023', upright='S543_5_upright'),
+    dict(carrier='wheels_pivot_043', spin='wheels_pivot_044', brake='brakes_pivot_007', drum='brakes_0027', upright='S543_6_upright'),
+    dict(carrier='wheels_pivot_050', spin='wheels_pivot_051', brake='brakes_pivot_008', drum='brakes_0031', upright='S543_7_upright'),
+)
+
+
+def required_station_names(stations, inventory):
+    assert [row['station'] for row in stations] == list(range(8)), 'Station order/identity mismatch'
+    all_roles = set().union(*(set(row) for row in STATION_ROLE_TABLE))
+    names = set()
+    for row, expected in zip(stations, STATION_ROLE_TABLE):
+        assert set(row) & all_roles == set(expected), ('Station role-set mismatch', row['station'])
+        for role, name in expected.items():
+            assert row[role] == name, ('Wrong station role identity', row['station'], role, row[role], name)
+            assert name in inventory, ('Missing mandatory station role', row['station'], role, name)
+            names.add(name)
+    assert len(names) == 48
+    return names
+
+
 def digest(value):
     return hashlib.sha256(json.dumps(value, sort_keys=True, separators=(',', ':'),
                                     allow_nan=False).encode()).hexdigest()
@@ -104,16 +136,15 @@ def legacy_stations(path, review_graph, original):
     result = []
     for number, carrier, spin, brake in tuples:
         station = int(number)
-        drum = f'brakes_{3 + 4 * station:04d}'
-        row = {'station': station, 'carrier': carrier, 'spin': spin, 'brake': brake, 'drum': drum,
-               'upright': f'S543_{station}_upright', 'kingpin': f'S543_{station}_steering_kingpin'}
+        row = {'station': station, **STATION_ROLE_TABLE[station]}
+        assert (carrier, spin, brake) == (row['carrier'], row['spin'], row['brake'])
+        drum = row['drum']
         for name, parent in [(carrier, 'wheels'), (spin, carrier), (brake, 'brakes'), (drum, brake)]:
             assert review_graph['nodes'][name]['parent'] == parent, (name, parent)
         assert 'mesh' in review_graph['nodes'][drum]['node']
         if station < 4:
             prior = original['stations'][station]
-            assert all(row[key] == prior[key] for key in row)
-            row['joint_frame'] = f'S543_{station}_native_steering_joint_frame'
+            assert all(row[key] == prior[key] for key in ('station', 'carrier', 'spin', 'brake', 'drum', 'upright', 'kingpin'))
         row['drum_identity_scope'] = ('Original saved front-four evidence' if station < 4 else
                                       'Retained legacy drum name and mesh/parent identity; geometry not reread')
         result.append(row)
