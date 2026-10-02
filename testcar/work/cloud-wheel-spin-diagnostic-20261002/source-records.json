@@ -1,0 +1,54 @@
+{
+  "table_codec_repo_path": "testcar/work/cloud-wheel-interface-readout-20261002/pack-wheel-interface-evidence.py",
+  "table_codec_sha256": "2334d0734b5e6edbd289692be6d4c8da50daba4b3f770142400971c75091a11d",
+  "original_records": [
+    {
+      "path": "after-neutral-parenting.json",
+      "bytes": 299199,
+      "sha256": "f9132b2449ae17cd32fd25d649ea5f36fa0a303c4ad53abbfc7d02574f9060ba"
+    },
+    {
+      "path": "comparison.json",
+      "bytes": 71003,
+      "sha256": "37a49e874a4fe518e8ce27915d9a4f5c5e7e2f10036953a76db66b53b05bcf13"
+    },
+    {
+      "path": "original-source.json",
+      "bytes": 298005,
+      "sha256": "2b40c1bd92a3a7d7f1a75358ac4be90423e7396305822faf248abe073d994835"
+    }
+  ],
+  "original_checkpoint_manifest_sha256": "67f5a205944172f6238f73d2f317b736afb90fcc19288ace26fbf20bddc0d95f",
+  "unchanged_copied_files": [
+    {
+      "path": "SUMMARY.json",
+      "bytes": 5614,
+      "sha256": "3df7b50507b6af10c0a6a8472acc8e4c12863c7ff4970b39ee695e7d0f5ce119"
+    },
+    {
+      "path": "executed-script.py",
+      "bytes": 13196,
+      "sha256": "6fb676cc6bd45a8545798991732807a957a489684daa946e21898bb5ad80b26b"
+    },
+    {
+      "path": "launch.json",
+      "bytes": 1113,
+      "sha256": "ef277d150a645b7178ce14d613ae33267204581f93fb478c740aa5cb93f09a4f"
+    },
+    {
+      "path": "process.json",
+      "bytes": 1246,
+      "sha256": "62b97b14ffba381d1d5e4f2729df7689b5aefd664aaba711147af216918b4689"
+    },
+    {
+      "path": "run-spin-diagnostic.py",
+      "bytes": 1848,
+      "sha256": "815f2f8bb779373a4d762bcb835b08dc13b60164b0d71cd0279aad0b3d2fdb16"
+    },
+    {
+      "path": "run.log",
+      "bytes": 1191,
+      "sha256": "db0b71f5ecaa8765bfbc6736a720a742f7b618426828da0f4b638f38a5401351"
+    }
+  ]
+}

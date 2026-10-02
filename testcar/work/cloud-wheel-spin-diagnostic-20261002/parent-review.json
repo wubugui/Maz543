@@ -1,0 +1,36 @@
+{
+  "status": "PASS_PARENT_LOSSLESS_RECORD_AND_PAIRED_OBSERVATION_REVIEW",
+  "original_records": [
+    {
+      "file": "original-source.json",
+      "bytes": 298005,
+      "sha256": "2b40c1bd92a3a7d7f1a75358ac4be90423e7396305822faf248abe073d994835",
+      "byte_equal_native_record": true
+    },
+    {
+      "file": "after-neutral-parenting.json",
+      "bytes": 299199,
+      "sha256": "f9132b2449ae17cd32fd25d649ea5f36fa0a303c4ad53abbfc7d02574f9060ba",
+      "byte_equal_native_record": true
+    },
+    {
+      "file": "comparison.json",
+      "bytes": 71003,
+      "sha256": "37a49e874a4fe518e8ce27915d9a4f5c5e7e2f10036953a76db66b53b05bcf13",
+      "byte_equal_native_record": true
+    }
+  ],
+  "all_186_common_observation_dicts_equal": true,
+  "same_two_over_20um_names": [
+    "BL_Tyre_0_emboss_10",
+    "BL_Tyre_0_emboss_19"
+  ],
+  "both_cases_complete_187_observations": true,
+  "both_cases_190_restored_numeric_vertex_and_triangle_checks": true,
+  "source_and_candidate_control_violations": [],
+  "drum_source_displacement_m": 0.0,
+  "drum_candidate_displacement_m": 0.2394689585900432,
+  "native_rerun": false,
+  "overall_candidate": "FAIL_INHERITED_LETTERING_REGRESSION",
+  "all16VehicleGates": "OPEN"
+}

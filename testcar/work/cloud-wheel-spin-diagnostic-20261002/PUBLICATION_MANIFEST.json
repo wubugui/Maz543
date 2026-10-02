@@ -1,0 +1,75 @@
+{
+  "schema": "SPIN_DIAGNOSTIC_PUBLICATION_v1",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2845,
+      "sha256": "a802f8fb767d04f856faaef353ad3d0668a9feb00b1600ed8e099e6f9cd19135"
+    },
+    {
+      "path": "SUMMARY.json",
+      "bytes": 5614,
+      "sha256": "3df7b50507b6af10c0a6a8472acc8e4c12863c7ff4970b39ee695e7d0f5ce119"
+    },
+    {
+      "path": "diagnostic-tables/entries-000.json",
+      "bytes": 109995,
+      "sha256": "9355d92e2c5096cb047f34675c5ac14aece96e92577d8dcfb5262ffad513820b"
+    },
+    {
+      "path": "diagnostic-tables/entries-001.json",
+      "bytes": 109943,
+      "sha256": "083b6d3bc730bc63ff9ddec77da9a3645bbb8722643bed98fed4823f248b41c1"
+    },
+    {
+      "path": "diagnostic-tables/entries-002.json",
+      "bytes": 46799,
+      "sha256": "b44913cc2ee9b25b48e8d0a59820ef0bde6f8a67669495c0b3415b76d6c74558"
+    },
+    {
+      "path": "diagnostic-tables/manifest.json",
+      "bytes": 899,
+      "sha256": "2f661b60cac597e84a899437f66dc5fde9d86fd842b3966cb1c8ae363546d08e"
+    },
+    {
+      "path": "executed-script.py",
+      "bytes": 13196,
+      "sha256": "6fb676cc6bd45a8545798991732807a957a489684daa946e21898bb5ad80b26b"
+    },
+    {
+      "path": "launch.json",
+      "bytes": 1113,
+      "sha256": "ef277d150a645b7178ce14d613ae33267204581f93fb478c740aa5cb93f09a4f"
+    },
+    {
+      "path": "parent-review.json",
+      "bytes": 1214,
+      "sha256": "c1517e3e57d429ffb4e72dd89ece416a0a4abeb1fde02846a23442bfabcdfd41"
+    },
+    {
+      "path": "process.json",
+      "bytes": 1246,
+      "sha256": "62b97b14ffba381d1d5e4f2729df7689b5aefd664aaba711147af216918b4689"
+    },
+    {
+      "path": "restore-spin-records.py",
+      "bytes": 1326,
+      "sha256": "ebcaef46337c98bb3ee0263f3e288da682213fa3e684c2f3fb4238eba3289501"
+    },
+    {
+      "path": "run-spin-diagnostic.py",
+      "bytes": 1848,
+      "sha256": "815f2f8bb779373a4d762bcb835b08dc13b60164b0d71cd0279aad0b3d2fdb16"
+    },
+    {
+      "path": "run.log",
+      "bytes": 1191,
+      "sha256": "db0b71f5ecaa8765bfbc6736a720a742f7b618426828da0f4b638f38a5401351"
+    },
+    {
+      "path": "source-records.json",
+      "bytes": 1747,
+      "sha256": "b49d42a1d23d8cf35f5157e270ba4d6b571362a1f4a45426bd223af1bc0abdc3"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "status": "INHERITED_LETTERING_REGRESSION_REPRODUCED_CANDIDATE_REMAINS_FAILED",
+  "source_sha256": "8e962d6dc2565974be8a0e96930606599ddbf6098780951dc96cbb9e13e3fd70",
+  "process_exit_code": 1,
+  "process_seconds": 99.97257071599597,
+  "peak_rss_kib": 2116344,
+  "actual_rotation_radians": 0.7309995889663696,
+  "requested_rotation_radians": 0.731,
+  "case_scope": "Two fresh opens; only station0;187rows each (original186spin members plus stationary drum, versus187spin members after exact frozen neutral recipe).",
+  "shared_original_186_observation_records_byte_value_equal_as_JSON_objects": true,
+  "failing_objects": [
+    {
+      "name": "BL_Tyre_0_emboss_10",
+      "source_and_candidate_max_rigid_error_m": 0.00012537015393677885,
+      "source_and_candidate_max_radius_trajectory_error_m": 6.011495460467309e-05,
+      "vertices_at_or_above20um": 1,
+      "evaluated_vertices": 294,
+      "modifiers": [
+        {
+          "name": "Conform legend to actual sidewall",
+          "type": "SHRINKWRAP",
+          "viewport": true,
+          "target": "BL_Tyre_0_VI203_profile"
+        },
+        {
+          "name": "Raised rubber legend thickness",
+          "type": "SOLIDIFY",
+          "viewport": true,
+          "target": null
+        }
+      ]
+    },
+    {
+      "name": "BL_Tyre_0_emboss_19",
+      "source_and_candidate_max_rigid_error_m": 0.00021065502507521943,
+      "source_and_candidate_max_radius_trajectory_error_m": 0.00010155427492491986,
+      "vertices_at_or_above20um": 2,
+      "evaluated_vertices": 294,
+      "modifiers": [
+        {
+          "name": "Conform legend to actual sidewall",
+          "type": "SHRINKWRAP",
+          "viewport": true,
+          "target": "BL_Tyre_0_VI203_profile"
+        },
+        {
+          "name": "Raised rubber legend thickness",
+          "type": "SOLIDIFY",
+          "viewport": true,
+          "target": null
+        }
+      ]
+    }
+  ],
+  "candidate_drum": {
+    "name": "brakes_0003",
+    "type": "MESH",
+    "parent": "wheels_pivot_002",
+    "spin_member": true,
+    "vertices_before": 148,
+    "vertices_after": 148,
+    "triangle_indices_equal": true,
+    "modifiers": [],
+    "max_rigid_vertex_error_m": 1.760617639405586e-07,
+    "vertices_at_or_above20um": 0,
+    "max_actual_vertex_displacement_m": 0.2394689585900432,
+    "max_expected_radius_chord_m": 0.2394689488931399,
+    "max_radius_trajectory_error_m": 9.69690330809847e-09,
+    "hypothetical_spin_max_vertex_error_m": 1.760617639405586e-07,
+    "max_ideal_matrix_vertex_error_m": 1.2674446769283384e-07,
+    "worst_vertex": {
+      "index": 99,
+      "before_world_m": [
+        -3.0799999237060547,
+        0.9624999761581421,
+        0.7500000196915081
+      ],
+      "after_world_m": [
+        -3.079999910559718,
+        0.9624999761581421,
+        0.7500000146604694
+      ],
+      "expected_world_m": [
+        -3.0800000856203953,
+        0.9624999761581421,
+        0.7499999959120318
+      ],
+      "error_vector_m": [
+        1.7506067750971965e-07,
+        0.0,
+        1.8748437580207167e-08
+      ],
+      "radius_m": 1.969150809078002e-08,
+      "actual_displacement_m": 1.4076133150336307e-08,
+      "expected_chord_m": 1.4076132387997532e-08
+    }
+  },
+  "source_drum": {
+    "name": "brakes_0003",
+    "type": "MESH",
+    "parent": "brakes_pivot_001",
+    "spin_member": false,
+    "vertices_before": 148,
+    "vertices_after": 148,
+    "triangle_indices_equal": true,
+    "modifiers": [],
+    "max_rigid_vertex_error_m": 0.0,
+    "vertices_at_or_above20um": 0,
+    "max_actual_vertex_displacement_m": 0.0,
+    "max_expected_radius_chord_m": 0.0,
+    "max_radius_trajectory_error_m": 0.0,
+    "hypothetical_spin_max_vertex_error_m": 0.23946914591977408,
+    "max_ideal_matrix_vertex_error_m": 0.0,
+    "worst_vertex": {
+      "index": 0,
+      "before_world_m": [
+        -3.0799999237060547,
+        0.8325000181881281,
+        0.4149999429869114
+      ],
+      "after_world_m": [
+        -3.0799999237060547,
+        0.8325000181881281,
+        0.4149999429869114
+      ],
+      "expected_world_m": [
+        -3.0799999237060547,
+        0.8325000181881281,
+        0.4149999429869114
+      ],
+      "error_vector_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "radius_m": 0.3350000570130886,
+      "actual_displacement_m": 0.0,
+      "expected_chord_m": 0.0
+    }
+  },
+  "controls": {
+    "case_violations": [
+      [],
+      []
+    ],
+    "outside_original_world_matrix_changes": [
+      [],
+      []
+    ],
+    "outside_matrices_checked_per_case": [
+      10247,
+      10247
+    ],
+    "restoration_max_vertex_error_m": [
+      0.0,
+      0.0
+    ],
+    "restoration_world_matrix_error": [
+      0.0,
+      0.0
+    ],
+    "stationary_brake_max_vertex_displacement_m": 0.0
+  },
+  "limits": [
+    "The detailed observations establish same failures with both native parent configurations at this one pose. They do not by themselves isolate which internal Shrinkwrap/Solidify operation causes the error.",
+    "No letter was excluded and20micrometre/2micrometre gates remain unchanged.",
+    "A proposed Modifier Apply repair has not been executed.",
+    "This diagnostic reuses the locked candidate02 mutation and its previously passed exact-source qualification; it does not redo a complete general dependency proof.",
+    "No blend/GLB saved; no1degree alignment, nonzero steering, CV/halfshaft, real bearing/drum construction, full-timeline or browser acceptance.",
+    "The existing VA180 exporter still excludes the new S543_SUSPENSION ancestor path; it cannot be reused unadapted for promotion."
+  ],
+  "all16VehicleGates": "OPEN"
+}
