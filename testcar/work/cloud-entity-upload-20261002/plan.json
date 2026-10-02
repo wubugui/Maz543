@@ -1,0 +1,30 @@
+{
+  "status": "PREPARING_COMPLETE_NATIVE_BINARY_PLUGIN_UPLOAD_NOT_COMPLETED",
+  "source_path": "/workspace/scratch/a29d03198654/maz-textured-front-wheel-fixed-20261002/fixed-01/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+  "destination_path": "testcar/outputs/cloud-textured-front-wheel-20261002/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+  "bytes": 100052636,
+  "MiB": 95.41762924194336,
+  "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea",
+  "git_blob_sha1": "61f801a013596e63880efce36468df9520456ed4",
+  "base64_request_characters": 133403516,
+  "upload_action": "GitHub plugin create_blob, encoding=base64, one complete binary blob; never repository text shards",
+  "attribute_exception_scope": "Only the exact new destination path, after complete blob exists and is validated; existing LFS rules/assets remain unchanged",
+  "proposed_attribute_line": "\"testcar/outputs/cloud-textured-front-wheel-20261002/MAZ543A_Textured_Front_Wheel_Parent_Study.blend\" -filter -diff -merge -text",
+  "attributes_changed": false,
+  "binary_uploaded": false,
+  "large_request_capacity": "Not declared by the tool schema and not yet verified; do not infer it from GitHub 100MiB file limit",
+  "read_probe": {
+    "path": "testcar/public/draco/draco_decoder.wasm",
+    "git_blob_sha1": "469904ebcb7b83523db73913a19c349528105ff8",
+    "bytes": 192420,
+    "encoding": "base64",
+    "complete_readback_equal": true
+  },
+  "safety_and_publication": [
+    "No credentials or network/security changes",
+    "No CLI upload or local-machine transit",
+    "No missing LFS pointer, dropped bytes or alternate storage substitute",
+    "All native bytes and size/SHA must be independently retrieved before completion",
+    "Do not start next development/modeling/test item until this entire artifact is uploaded and verified"
+  ]
+}
