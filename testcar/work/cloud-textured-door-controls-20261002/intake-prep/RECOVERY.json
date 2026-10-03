@@ -1,0 +1,16 @@
+{
+  "status": "RECOVERED_PREPARATION_PENDING_PUBLICATION",
+  "restoredFrom": "Visible tool source text and ordered patches retained in the same task",
+  "priorPublication": "f0a0ca6221a8982075b61f1c19a67d24267b9156",
+  "nativeExecution": "NOT_RUN",
+  "finalChecks": "See newly generated preparation-checks.json; no old result reused",
+  "staleManifestMustNotBeUsed": {
+    "bytes": 5839,
+    "sha256": "233294618b17effaaeb81fc06f3859f3da85f7ad49c3fc4a0998fc6f6c78d8ba",
+    "status": "STALE_AFTER_ACTION_STORAGE_CHANGE_DO_NOT_USE"
+  },
+  "recoveryScope": "Only this new intake-prep directory; source models and published repository remain untouched",
+  "sourceTextIndependentOldByteHashCheck": "NOT_AVAILABLE_FOR_UNPUBLISHED_FINAL_REVISION",
+  "phase": "MAZ_TEXT_TEXTURED_DOOR_INTAKE_4514",
+  "runtime_policy": "Current4.5.14 only for new read-only door intake; all4.5.13 records unchanged"
+}

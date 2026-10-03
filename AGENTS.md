@@ -23,6 +23,19 @@ The user requires actual reference comparison from multiple views, native struct
 
 On 2026-09-30 the user explicitly authorized Blender execution on the dot cloud computer, superseding the former Hub-only restriction for this project. Use verified official Blender 4.5.13 to match the current masters, preserve current sources, and validate candidate files before promotion. The existing Hub is not reachable from this environment; do not change network/security settings or duplicate unknown jobs. Modeling must use Blender engineering tools/modifiers and appropriate curves/Spin/Screw/Boolean operations, not manual script mesh construction.
 
+Narrow recovery exception, 2026-10-03: after the former workspace contents became
+unavailable and the exact official 4.5.13 archive returned HTTP403, the new
+Textured-door intake may use the already-installed official Blender4.5.14,
+build62c1db4208e8, binary SHA256
+050c02562f81fe80ba616a80198fa02d381e60f8b61b8d39add881f4bca0d7d8.
+This permission is only for the separately versioned, source-only read-only
+20-door-mesh/6-control intake after its prepared files are plugin-published and
+read back. Do not alter the other project's installation. Do not relabel or
+relax any 4.5.13 experiment, runtime pin or historical result. Record current
+before/after protection separately from cross-version baseline correspondence;
+any discrepancy blocks later control installation. No frame change, geometry
+evaluation, save, export or rendering is included in this intake exception.
+
 The user authorized continued development in the cloud and Git pushes to wubugui/Maz543. No force pushes, history replacement, deployments, paid services, or new credentials. No further development on the original Windows workstation after this migration.
 
 User-authorized progress reports and real screenshot attachments belong in the already established dedicated private Slack MAZ543 progress channel. Its private destination is intentionally absent from this public repository; obtain it from the delegation/session context. Never publish signed upload URLs or private delivery metadata here.

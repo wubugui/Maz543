@@ -1,0 +1,189 @@
+{
+  "status": "PREPARED_NOT_EXECUTED_READY_FOR_REVIEW",
+  "phase": "MAZ_TEXT_TEXTURED_DOOR_INTAKE_4514",
+  "preparation_revision": 3,
+  "revision_reason": "Workspace recovery and explicitly separate4.5.14 stage; old4.5.13 comparisons moved after raw capture and never transferred as acceptance",
+  "native_execution": "NOT_RUN",
+  "blender_was_launched": false,
+  "runtime": {
+    "python_version": "3.11.15 (main, Apr 25 2025, 12:39:20) [GCC 11.2.1 20220127 (Red Hat 11.2.1-9)]",
+    "numpy_version": "1.26.4",
+    "numpy_file": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/__init__.py"
+  },
+  "cpu_affinity_for_pure_tests": [
+    0,
+    1
+  ],
+  "syntax": {
+    "status": "PASS",
+    "files": [
+      "collect_native.py",
+      "components.py",
+      "inputs/rebuild_inputs.py",
+      "run_intake.py",
+      "test_components.py"
+    ]
+  },
+  "pure_checks": [
+    {
+      "command": [
+        "taskset",
+        "-c",
+        "0,1",
+        "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/bin/python3.11",
+        "-B",
+        "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run_intake.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.035525926999980584,
+      "stdout": "usage: run_intake.py [-h] --output OUTPUT --window-note WINDOW_NOTE\n\nOne CPU2, 120-second read-only saved-frame door intake. Never starts on\nimport.\n\noptions:\n  -h, --help            show this help message and exit\n  --output OUTPUT       New direct child directory of this package\n  --window-note WINDOW_NOTE\n                        Actual concurrent-work context, not an isolated\n                        benchmark\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "taskset",
+        "-c",
+        "0,1",
+        "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/bin/python3.11",
+        "-B",
+        "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/collect_native.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.037512457000048016,
+      "stdout": "usage: collect_native.py [-h] --output OUTPUT\n\nRead saved Textured doors once. No modeling entry point is imported or run.\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "taskset",
+        "-c",
+        "0,1",
+        "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/bin/python3.11",
+        "-B",
+        "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/test_components.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.17926828400004524,
+      "stdout": "",
+      "stderr": "test_disconnected_coincident_vertices_stay_distinct (__main__.ComponentsTests.test_disconnected_coincident_vertices_stay_distinct) ... ok\ntest_invalid_indices_and_topology_rejected (__main__.ComponentsTests.test_invalid_indices_and_topology_rejected) ... ok\ntest_layered_action_does_not_read_legacy_groups (__main__.ComponentsTests.test_layered_action_does_not_read_legacy_groups) ... ok\ntest_noncontiguous_input_indices_round_trip (__main__.ComponentsTests.test_noncontiguous_input_indices_round_trip) ... ok\ntest_symmetric_components_have_no_unique_selection (__main__.ComponentsTests.test_symmetric_components_have_no_unique_selection) ... ok\n\n----------------------------------------------------------------------\nRan 5 tests in 0.032s\n\nOK\n"
+    }
+  ],
+  "helper_ast_extractions": [
+    {
+      "input": "legacy_export_helper",
+      "functions": [
+        "authored_rna",
+        "custom",
+        "material_record",
+        "tree_record",
+        "value"
+      ],
+      "ast_compile": "PASS"
+    },
+    {
+      "input": "mesh_protection_helper",
+      "functions": [
+        "animation_state",
+        "array",
+        "as_plain",
+        "authored",
+        "driver_description",
+        "mesh_signature",
+        "require",
+        "scalar_rna"
+      ],
+      "ast_compile": "PASS"
+    },
+    {
+      "input": "graph_common",
+      "functions": [
+        "digest",
+        "read_only_action_helper"
+      ],
+      "ast_compile": "PASS"
+    },
+    {
+      "input": "helper",
+      "functions": [
+        "curves_of",
+        "idref",
+        "rna_values",
+        "value_record"
+      ],
+      "ast_compile": "PASS"
+    },
+    {
+      "input": "graph_inspector",
+      "functions": [
+        "collections_and_layers",
+        "ident",
+        "rows",
+        "snapshot"
+      ],
+      "ast_compile": "PASS"
+    },
+    {
+      "input": "array_helper",
+      "functions": [
+        "file_record",
+        "pack_array",
+        "runtime_identity",
+        "unpack_array",
+        "write_json"
+      ],
+      "ast_compile": "PASS"
+    }
+  ],
+  "explicit_native_operator_calls": [
+    "bpy.ops.wm.open_mainfile"
+  ],
+  "historical_comparison_after_raw_capture": true,
+  "pinned_input_count": 24,
+  "all_input_hashes_before_after_exact": true,
+  "inputs_sha256": "e41f8a8df472bb5bb78e7394b06d02fd10cbf10eb18856141743248d034515de",
+  "preparation_elapsed_seconds": 0.7924655239999083,
+  "prepared_files": {
+    "README.md": {
+      "bytes": 8248,
+      "sha256": "21aa868bde1023c2871a0e94a08055d912d04e992c26fbf25cacaa0d4b4f97ef"
+    },
+    "RECOVERY.json": {
+      "bytes": 893,
+      "sha256": "99ea780c38dd95fd2f57032dcea6263d5c24cbbc5f9b72c4745d3c0e47c19254"
+    },
+    "collect_native.py": {
+      "bytes": 24612,
+      "sha256": "cb36f1b78c2ec07495e38522f26d4907a6a87c8d89416ddc6bbde6bba50a7507"
+    },
+    "components.py": {
+      "bytes": 10198,
+      "sha256": "9bfb1dba90814199fa53e577572e6f859f294f7d22962f4a9a369fa6253b4f0a"
+    },
+    "inputs/intake.json": {
+      "bytes": 10064,
+      "sha256": "7dd98573b00213ca83b28a326c9625932f6ac8418ff848a52bbcc8aa6c28b078"
+    },
+    "inputs/rebuild_inputs.py": {
+      "bytes": 5204,
+      "sha256": "df0a1dec5b32035a4d1bdb276995507850478568ac18d7eba30cd3664eac9130"
+    },
+    "run_intake.py": {
+      "bytes": 9338,
+      "sha256": "4e8c0ac28056d1e74c21bba0bad8394246e275986989039cd60f310c61617b42"
+    },
+    "test_components.py": {
+      "bytes": 5316,
+      "sha256": "8b5e76612d8479be4daa7eb99f69b25af8244a5d4a74e9d7049ead78243a60a5"
+    }
+  },
+  "prepared_bytes": 73873,
+  "qualification": {
+    "axes": "NOT_IDENTIFIED_REVIEW_SAVED_RAW",
+    "control_installation": "NOT_RUN",
+    "closed_contacts": "SIX_ORIGINAL_OPEN",
+    "whole_vehicle": "ALL_16_OPEN",
+    "global_timeline_nodes": "BLOCKED_NOT_EXECUTED"
+  }
+}

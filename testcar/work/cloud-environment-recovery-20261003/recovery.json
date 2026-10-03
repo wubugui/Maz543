@@ -1,0 +1,244 @@
+{
+  "status": "PUBLISHED_PROJECT_BYTES_RECOVERED_NEW_READ_ONLY_RUNTIME_PREPARATION_FROZEN_NOT_EXECUTED",
+  "recovered_commit": "f0a0ca6221a8982075b61f1c19a67d24267b9156",
+  "workspace_observation": "2026-10-02 23:49 UTC: previous project/tool directories absent; cause not established",
+  "source_recovery": {
+    "status": "PUBLISHED_ASSETS_RESTORED_EXACT_BYTES_NO_NATIVE_RUN",
+    "base_commit": "f0a0ca6221a8982075b61f1c19a67d24267b9156",
+    "assets": [
+      {
+        "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+        "bytes": 100052636,
+        "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+      },
+      {
+        "path": "/workspace/scratch/a29d03198654/maz-static-glb-remote-cfe242a8-20261002/restored/native-static.glb",
+        "bytes": 134267928,
+        "sha256": "e99d275080737a520293c548d947401c6910cda3bc86d101dc57396bee9c587d"
+      },
+      {
+        "path": "/workspace/scratch/a29d03198654/maz-door-remote-recovery-20261002/restored/MAZ543A_Native_Barrel_Axis_Controls.blend",
+        "bytes": 67937160,
+        "sha256": "3b230c12077828102776eb70e5e87aaa47b8b72f5e681589745ad8610a18c03f"
+      }
+    ],
+    "canonical_parts": 386,
+    "total_bytes": 302257724,
+    "fixed_text_records_restored": 42,
+    "fixed_text_bytes": 2647291,
+    "tools_status": "OLD_4513_DOWNLOAD_STOPPED_NEW_4514_READ_ONLY_INTAKE_PREPARATION_PENDING",
+    "native_read_or_execution": "NOT_RUN"
+  },
+  "image_recovery": {
+    "status": "PUBLISHED_IMAGES_RESTORED_EXACT_BYTES",
+    "commit": "f0a0ca6221a8982075b61f1c19a67d24267b9156",
+    "count": 15,
+    "bytes": 18101755,
+    "files": [
+      {
+        "path": "testcar/outputs/cloud-native-door-axis-20261002/views/closed.png",
+        "bytes": 1576059,
+        "sha256": "87864120692a8ac6fd33cdfdc39b5493e2b304320ed3596494b41b327bfb57ad",
+        "dimensions": [
+          1600,
+          1100
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-native-door-axis-20261002/views/open99.png",
+        "bytes": 1585359,
+        "sha256": "0bbd1ee0462b738ed80b30b4e76937298052eb686a7de3385336bab2f4d99cf3",
+        "dimensions": [
+          1600,
+          1100
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-generated-view-archive-20261002/wheel/station0-neutral.png",
+        "bytes": 1178213,
+        "sha256": "7b173610175dbc2f894c1b8fc23708c0d1a090429701de1cb615938ffb8306a8",
+        "dimensions": [
+          1100,
+          1000
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-generated-view-archive-20261002/wheel/station0-spin-0p731.png",
+        "bytes": 1178538,
+        "sha256": "1291eb1f34f4d40d15cb6fbf58c8995d572081f9324ecb5ba67e53d9cb1be8a2",
+        "dimensions": [
+          1100,
+          1000
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/rejected-layout-side.png",
+        "bytes": 1315375,
+        "sha256": "c3be1592a5bb0ea467ff33ea30bdb01f2883cb16176a4b2b985ea5340b3458c7",
+        "dimensions": [
+          1200,
+          840
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/iteration01-oblique.png",
+        "bytes": 1623588,
+        "sha256": "8f8827630f5065be32f28459e333cb240f9fbe5921974427a67e32a2fee1e3fe",
+        "dimensions": [
+          1600,
+          1000
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/iteration02-elevation.png",
+        "bytes": 1613160,
+        "sha256": "0081e97d3e0f548681f63cc4f8d118b453a1868d1e570fc646fa77350673ad53",
+        "dimensions": [
+          1600,
+          1000
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-generated-view-archive-20261002/step/iteration02-oblique.png",
+        "bytes": 1630258,
+        "sha256": "e370743200dbb45f5c8ad85d343238e8d907201dd066b6f558ac7da80a129394",
+        "dimensions": [
+          1600,
+          1000
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-generated-view-archive-20261002/tyre/neutral-letter-closeup.png",
+        "bytes": 1105956,
+        "sha256": "915c9d6985ad560e61c2e7ffe0c8ba02b815ff7699d0d65307eb1cb4fec28fa6",
+        "dimensions": [
+          1100,
+          1000
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration01-after.png",
+        "bytes": 898353,
+        "sha256": "a2a781dd3afca00c21637f850975df0ebffe6704d127564f710223ef66ed4c02",
+        "dimensions": [
+          1200,
+          900
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration01-before.png",
+        "bytes": 920155,
+        "sha256": "33e9c0ba8f67b8704d07b899ffef376897e9697c6c1db6659b10c022607fe69a",
+        "dimensions": [
+          1200,
+          900
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration02-after.png",
+        "bytes": 1090464,
+        "sha256": "3b0aed9f5f571803dd8ec23ab03841a89e0b97260c22aefa2d110a79296c9843",
+        "dimensions": [
+          1200,
+          900
+        ]
+      },
+      {
+        "path": "testcar/outputs/cloud-generated-view-archive-20261002/rivet/iteration02-before.png",
+        "bytes": 1094170,
+        "sha256": "27bcb092edef9b30d630a5a1016dd9cf88ea7483e888f62529de70700024d0eb",
+        "dimensions": [
+          1200,
+          900
+        ]
+      },
+      {
+        "path": "testcar/work/cloud-glb-offline-observation-20261002/run-overview-01/overview-offline-glb-pending-normal-joint-fail-16-open.png",
+        "bytes": 667683,
+        "sha256": "df568cf82f72c7913f737a0cdd0996d842575fd4792e36337e9462d64c64fd84",
+        "dimensions": [
+          1024,
+          640
+        ]
+      },
+      {
+        "path": "testcar/work/cloud-glb-offline-observation-20261002/run-side-01/side-offline-glb-pending-normal-joint-fail-16-open.png",
+        "bytes": 624424,
+        "sha256": "b505e246f347164069e3f445de51d6dbc7a6fc71f04dff15bac051100121495b",
+        "dimensions": [
+          1024,
+          640
+        ]
+      }
+    ],
+    "scope": "Byte identities and PNG dimensions checked; no new render or pixel acceptance",
+    "utc": "2026-10-03T00:02:47Z"
+  },
+  "unpublished_draft": "Only the unfinished door-intake preparation was reconstructed; no unpublished native model existed",
+  "unpublished_draft_qualification": "Rebuilt and newly checked for explicitly separate4.5.14 stage; prepared, not native-executed",
+  "official_4513_archive": {
+    "url": "https://download.blender.org/release/Blender4.5/blender-4.5.13-linux-x64.tar.xz",
+    "expected_bytes": 378033952,
+    "expected_sha256": "da4e69b06b75b9e642d106496c50e7e240218b411d2f6e18271c1d1d819cef91",
+    "retrieval": "HTTP403; download stopped; no new archive obtained"
+  },
+  "proposed_new_intake_runtime": {
+    "version": [
+      4,
+      5,
+      14
+    ],
+    "build_hash": "62c1db4208e8",
+    "actual_version_output": "Blender 4.5.14 LTS",
+    "python_version": "3.11.15",
+    "numpy_version": "1.26.4",
+    "verified_files": [
+      {
+        "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/blender",
+        "bytes": 163613240,
+        "sha256": "050c02562f81fe80ba616a80198fa02d381e60f8b61b8d39add881f4bca0d7d8"
+      },
+      {
+        "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/bin/python3.11",
+        "bytes": 28653440,
+        "sha256": "60b08089c60cbe81827b135c8fd9e206ba2ee6bf54aa1dbd0d6f56ac2d5914f6"
+      },
+      {
+        "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/__init__.py",
+        "bytes": 17005,
+        "sha256": "22cd1535fa14d74ef6f457cca149ffdc80875f460be313b8f895273f78bc402e"
+      }
+    ],
+    "installation_access": "Existing official installation read-only; no installation files changed",
+    "compatibility": "NOT_ESTABLISHED_BY_VERSION_OR_PYTHON_IDENTITY"
+  },
+  "boundaries": [
+    "Old4.5.13 experiments, pins, outputs and conclusions remain unchanged",
+    "New intake is separately versioned and limited to current20 door meshes and6 controls/ancestors, plus explicit source/wheel/action protection",
+    "No source model has been opened, evaluated, modified, saved or exported after this recovery",
+    "Any cross-version baseline discrepancy must be retained and block subsequent control installation",
+    "This sparse checkout does not claim that every historical LFS asset was materialized; published objects remain in Git history"
+  ],
+  "graph_records_recovery": {
+    "status": "ALL_ORIGINAL_TEXT_BYTES_EXACT",
+    "records": 15,
+    "bytes": 22210654,
+    "package": "testcar/work/cloud-wheel-export-graph-20261002/success-02-evidence",
+    "restored_to": "testcar/work/cloud-wheel-export-graph-20261002/run-02",
+    "method": "Published checked restorer; original JSON value tables and direct records, no Blender or recomputation"
+  },
+  "new_preparation": {
+    "phase": "MAZ_TEXT_TEXTURED_DOOR_INTAKE_4514",
+    "files": 9,
+    "bytes": 80601,
+    "fixed_inputs": 24,
+    "preparation_sha256": "d535b6b4ad239b0fe20140e4533ab111447cc261a3de3c3eff6d48778993158a",
+    "pure_test_groups": 5,
+    "pure_tests_exit_code": 0,
+    "help_exit_codes": [
+      0,
+      0
+    ],
+    "native_execution": "NOT_RUN"
+  }
+}
