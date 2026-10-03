@@ -1,0 +1,1475 @@
+{
+  "status": "REMOTE_ORIGINAL_NUMERIC_BUFFERS_EXACT",
+  "commit": "974dcc97752ed328826966d49042e04295ba1bd1",
+  "scope": "All20 raw files from independently fetched Git blobs; reconstruct each typed numeric array and compare exact length/SHA, not geometry qualification",
+  "files": 20,
+  "buffers": 140,
+  "buffer_bytes": 1263360,
+  "runtime": {
+    "python": "3.11.15 (main, Apr 25 2025, 12:39:20) [GCC 11.2.1 20220127 (Red Hat 11.2.1-9)]",
+    "numpy": "1.26.4",
+    "numpy_file": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/__init__.py"
+  },
+  "rows": [
+    {
+      "file": "BL_Door_-1_0_handle.raw.json",
+      "object": "BL_Door_-1_0_handle",
+      "json_bytes": 3722,
+      "json_sha256": "a301e7d4eb158523690ce112fa55f1ec7a5a6413953e70188f7e34e125750a04",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            16,
+            3
+          ],
+          "bytes": 192,
+          "sha256": "6c62da256dbb8d0a43c503a2f857ce2d3849996965e202a9d5f2065f15fdcf2a"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            24,
+            2
+          ],
+          "bytes": 192,
+          "sha256": "6e3c3570da7d004dbc8cd9b4ccfcab3289ec2b50adee86083f4b439702aa4838"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            32
+          ],
+          "bytes": 128,
+          "sha256": "e0edfc31caaa82ee3034e60b44a4faffc6899f18567284d485232f22f9329f3b"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            32
+          ],
+          "bytes": 128,
+          "sha256": "bac8a636511ef9a021fdcba24c162d4cda20480e84b1c63979cf76bc324ccbb5"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "5ec6d8164cc14337f90482b0c103a2f4e3e429932fb495335562befa204f2957"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "7f2c0ac94b32b62200aa9ccabc1409647a2a0e775b503212ba3a7a85a6274122"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        }
+      ]
+    },
+    {
+      "file": "BL_Door_-1_0_lock.raw.json",
+      "object": "BL_Door_-1_0_lock",
+      "json_bytes": 20871,
+      "json_sha256": "9cc0f015884c06bbdccb0c9ecdfe1e090e00cd3deb78ec8bae767b77319d1293",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            160,
+            3
+          ],
+          "bytes": 1920,
+          "sha256": "8f594cdbd0e1b7b29d2909f844f8fcbfa917d0bf1001156fa1c1f6e350c69778"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            334,
+            2
+          ],
+          "bytes": 2672,
+          "sha256": "76864bfb79ddfab771ecb949ff339a3aa05b88ff95687e8f8f7b4ec6d22a8af1"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            668
+          ],
+          "bytes": 2672,
+          "sha256": "1bbd4d008527b4d3c7a449bc6fbfb91bfc0d9ec3135d6fef3a86dafaff1aca04"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            668
+          ],
+          "bytes": 2672,
+          "sha256": "f2ca4d600c4482ab3ff151890d6e6b33316bed523c2cad218b4c0d85897242ba"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "878631e43b02b2b3002cd9d7d29083a16b8fc8c153acd94461088b437f59060b"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "8ef4dd99aec251fa68207e6973e2cf4a4b37b4afcad0fc426dfa2056ffd6db8e"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "2dd23156fbb26642d6f2194611e536f77213eb212f6a23654f9d5319a82ac556"
+        }
+      ]
+    },
+    {
+      "file": "BL_Door_-1_0_window.raw.json",
+      "object": "BL_Door_-1_0_window",
+      "json_bytes": 13946,
+      "json_sha256": "25a2a4e8260e6bb5b335c8ff2cdb8bc3e6a2411d1005412fb5c0b79c9123fbf7",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            96,
+            3
+          ],
+          "bytes": 1152,
+          "sha256": "1c3090417782fbadac64524ae31c8c11615b32c1b3dbc3b64a6a53b310f0dc1d"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            234,
+            2
+          ],
+          "bytes": 1872,
+          "sha256": "bb8d28426d069c74e49293ea96e38e5cdb2ddf02f0cb8936f6a38a3eaa33e11d"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            468
+          ],
+          "bytes": 1872,
+          "sha256": "d80ca31b3f2ee28ec8d7a9601ddadca99b1c9bfdf0813b57c07bfd988a799378"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            468
+          ],
+          "bytes": 1872,
+          "sha256": "cda71d4029fa3c6a80c1051cd89fdc1eabf259bb93fdaad0f0b49ccd649c44e1"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "ec3eedce940728088df10bef53c61f9759d548f28ae32b58a95ab752f169d442"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "612802d046d4327e7eb69f0ba6e54d9ab58fc0867d8f385846d10e349cc9fe02"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "738c079dff6c9b77a0891ac42db1cabcab933a672b14aed8ecfcf94c0e77bb40"
+        }
+      ]
+    },
+    {
+      "file": "BL_Door_-1_1_handle.raw.json",
+      "object": "BL_Door_-1_1_handle",
+      "json_bytes": 3724,
+      "json_sha256": "22eade4f199ba4fe0abb40985fed0ecb46a917a14959546e4a288c5271e77d18",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            16,
+            3
+          ],
+          "bytes": 192,
+          "sha256": "97c5f7b2901fe90293b6689879a9c5fd4fc44798a626b2bd672ae1271e91cb8d"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            24,
+            2
+          ],
+          "bytes": 192,
+          "sha256": "6e3c3570da7d004dbc8cd9b4ccfcab3289ec2b50adee86083f4b439702aa4838"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            32
+          ],
+          "bytes": 128,
+          "sha256": "e0edfc31caaa82ee3034e60b44a4faffc6899f18567284d485232f22f9329f3b"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            32
+          ],
+          "bytes": 128,
+          "sha256": "bac8a636511ef9a021fdcba24c162d4cda20480e84b1c63979cf76bc324ccbb5"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "5ec6d8164cc14337f90482b0c103a2f4e3e429932fb495335562befa204f2957"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "7f2c0ac94b32b62200aa9ccabc1409647a2a0e775b503212ba3a7a85a6274122"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        }
+      ]
+    },
+    {
+      "file": "BL_Door_-1_1_lock.raw.json",
+      "object": "BL_Door_-1_1_lock",
+      "json_bytes": 20929,
+      "json_sha256": "a26d1294fd275276da35bb39b01929afc539024a6f7713b164623184b98070d6",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            160,
+            3
+          ],
+          "bytes": 1920,
+          "sha256": "ce8a8e724d8d30b56e306a14e5f7cf59eae69e9850373f887ddb71330447ff85"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            334,
+            2
+          ],
+          "bytes": 2672,
+          "sha256": "bf640fff0fcbe7df4aaa92b30ab052fb2056477cdca48adad6e387efb4e86196"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            668
+          ],
+          "bytes": 2672,
+          "sha256": "7808a5292ed94c5994ad6ff3da384e77eb210ab15a91053112fb2be6b8e9e9e4"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            668
+          ],
+          "bytes": 2672,
+          "sha256": "30fc3fd5c35fd4fa342b79d6943f1fd7f26c1d9614a77fc3805489983155c662"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "878631e43b02b2b3002cd9d7d29083a16b8fc8c153acd94461088b437f59060b"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "8ef4dd99aec251fa68207e6973e2cf4a4b37b4afcad0fc426dfa2056ffd6db8e"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "2dd23156fbb26642d6f2194611e536f77213eb212f6a23654f9d5319a82ac556"
+        }
+      ]
+    },
+    {
+      "file": "BL_Door_-1_1_window.raw.json",
+      "object": "BL_Door_-1_1_window",
+      "json_bytes": 14000,
+      "json_sha256": "de6d275dfd75ca122b52688095c5f4d13fa4ba0e6a034d007ad0f56e864c7004",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            96,
+            3
+          ],
+          "bytes": 1152,
+          "sha256": "044d1796a9b17770dc713379b6de8b9de79211ea699e381da1c3fbbcbc2f98f5"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            234,
+            2
+          ],
+          "bytes": 1872,
+          "sha256": "bb8d28426d069c74e49293ea96e38e5cdb2ddf02f0cb8936f6a38a3eaa33e11d"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            468
+          ],
+          "bytes": 1872,
+          "sha256": "d80ca31b3f2ee28ec8d7a9601ddadca99b1c9bfdf0813b57c07bfd988a799378"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            468
+          ],
+          "bytes": 1872,
+          "sha256": "cda71d4029fa3c6a80c1051cd89fdc1eabf259bb93fdaad0f0b49ccd649c44e1"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "ec3eedce940728088df10bef53c61f9759d548f28ae32b58a95ab752f169d442"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "612802d046d4327e7eb69f0ba6e54d9ab58fc0867d8f385846d10e349cc9fe02"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "738c079dff6c9b77a0891ac42db1cabcab933a672b14aed8ecfcf94c0e77bb40"
+        }
+      ]
+    },
+    {
+      "file": "BL_Door_1_0_handle.raw.json",
+      "object": "BL_Door_1_0_handle",
+      "json_bytes": 3736,
+      "json_sha256": "baac83bbc4465d45494da75c78ff68005ad73ec13741bf5c20bc28c2178a4680",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            16,
+            3
+          ],
+          "bytes": 192,
+          "sha256": "486940a046f7a590c893a40445e0c4fd2c8a6017163d8033b5cb6c22ef290b62"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            24,
+            2
+          ],
+          "bytes": 192,
+          "sha256": "6e3c3570da7d004dbc8cd9b4ccfcab3289ec2b50adee86083f4b439702aa4838"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            32
+          ],
+          "bytes": 128,
+          "sha256": "e0edfc31caaa82ee3034e60b44a4faffc6899f18567284d485232f22f9329f3b"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            32
+          ],
+          "bytes": 128,
+          "sha256": "bac8a636511ef9a021fdcba24c162d4cda20480e84b1c63979cf76bc324ccbb5"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "5ec6d8164cc14337f90482b0c103a2f4e3e429932fb495335562befa204f2957"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "7f2c0ac94b32b62200aa9ccabc1409647a2a0e775b503212ba3a7a85a6274122"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        }
+      ]
+    },
+    {
+      "file": "BL_Door_1_0_lock.raw.json",
+      "object": "BL_Door_1_0_lock",
+      "json_bytes": 21029,
+      "json_sha256": "109018763dc1344091ff2b9518c826fff307b52daba4e272ccf9fe0925ad615c",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            160,
+            3
+          ],
+          "bytes": 1920,
+          "sha256": "be91c1a45d2c9c23adc98fa81d5c09ac61f62c5275f460c26d9bf9dcc4f40a8c"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            334,
+            2
+          ],
+          "bytes": 2672,
+          "sha256": "76864bfb79ddfab771ecb949ff339a3aa05b88ff95687e8f8f7b4ec6d22a8af1"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            668
+          ],
+          "bytes": 2672,
+          "sha256": "1bbd4d008527b4d3c7a449bc6fbfb91bfc0d9ec3135d6fef3a86dafaff1aca04"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            668
+          ],
+          "bytes": 2672,
+          "sha256": "f2ca4d600c4482ab3ff151890d6e6b33316bed523c2cad218b4c0d85897242ba"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "878631e43b02b2b3002cd9d7d29083a16b8fc8c153acd94461088b437f59060b"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "8ef4dd99aec251fa68207e6973e2cf4a4b37b4afcad0fc426dfa2056ffd6db8e"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "2dd23156fbb26642d6f2194611e536f77213eb212f6a23654f9d5319a82ac556"
+        }
+      ]
+    },
+    {
+      "file": "BL_Door_1_0_window.raw.json",
+      "object": "BL_Door_1_0_window",
+      "json_bytes": 14040,
+      "json_sha256": "33e483a4b17bfe0be31f9eaed6654bb1bed083ea100ed5e4e56bd7b39d7c3ab1",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            96,
+            3
+          ],
+          "bytes": 1152,
+          "sha256": "aeb6e36455742886c732becaf91aba0e021947cea1a9bdc7d83c999799640ca5"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            234,
+            2
+          ],
+          "bytes": 1872,
+          "sha256": "2b7f376e333285878361a845f28b33c5a09b882eab957888bab18e9ad41f891d"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            468
+          ],
+          "bytes": 1872,
+          "sha256": "73abddc376f886ad3c9f863b3d0350fd2686a047ca7d161e58cbd796634ea0fb"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            468
+          ],
+          "bytes": 1872,
+          "sha256": "ad9030741f2014247623390f9c163785ee13fea336928359af0319208bba2ae2"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "ec3eedce940728088df10bef53c61f9759d548f28ae32b58a95ab752f169d442"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "612802d046d4327e7eb69f0ba6e54d9ab58fc0867d8f385846d10e349cc9fe02"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "738c079dff6c9b77a0891ac42db1cabcab933a672b14aed8ecfcf94c0e77bb40"
+        }
+      ]
+    },
+    {
+      "file": "BL_Door_1_1_handle.raw.json",
+      "object": "BL_Door_1_1_handle",
+      "json_bytes": 3738,
+      "json_sha256": "af1a9dca7a87cc753e4283cdb61ba184412604a4d846199d60146704fd310bf0",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            16,
+            3
+          ],
+          "bytes": 192,
+          "sha256": "ee93340dcf4c2b232a1ec0b4988f4c2a510b6fdaa933384ed56cdf8040e431eb"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            24,
+            2
+          ],
+          "bytes": 192,
+          "sha256": "6e3c3570da7d004dbc8cd9b4ccfcab3289ec2b50adee86083f4b439702aa4838"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            32
+          ],
+          "bytes": 128,
+          "sha256": "e0edfc31caaa82ee3034e60b44a4faffc6899f18567284d485232f22f9329f3b"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            32
+          ],
+          "bytes": 128,
+          "sha256": "bac8a636511ef9a021fdcba24c162d4cda20480e84b1c63979cf76bc324ccbb5"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "5ec6d8164cc14337f90482b0c103a2f4e3e429932fb495335562befa204f2957"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "7f2c0ac94b32b62200aa9ccabc1409647a2a0e775b503212ba3a7a85a6274122"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            8
+          ],
+          "bytes": 32,
+          "sha256": "66687aadf862bd776c8fc18b8e9f8e20089714856ee233b3902a591d0d5f2925"
+        }
+      ]
+    },
+    {
+      "file": "BL_Door_1_1_lock.raw.json",
+      "object": "BL_Door_1_1_lock",
+      "json_bytes": 21087,
+      "json_sha256": "0c073134a8e7dfd0d2638187c79c83b42a68ef10c18aed88e0fd7140d59a9f02",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            160,
+            3
+          ],
+          "bytes": 1920,
+          "sha256": "e03a68672596061d64912c0236bed6dc0e67d586667aaad7b7a959f27aa56215"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            334,
+            2
+          ],
+          "bytes": 2672,
+          "sha256": "bf640fff0fcbe7df4aaa92b30ab052fb2056477cdca48adad6e387efb4e86196"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            668
+          ],
+          "bytes": 2672,
+          "sha256": "7808a5292ed94c5994ad6ff3da384e77eb210ab15a91053112fb2be6b8e9e9e4"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            668
+          ],
+          "bytes": 2672,
+          "sha256": "30fc3fd5c35fd4fa342b79d6943f1fd7f26c1d9614a77fc3805489983155c662"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "878631e43b02b2b3002cd9d7d29083a16b8fc8c153acd94461088b437f59060b"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "8ef4dd99aec251fa68207e6973e2cf4a4b37b4afcad0fc426dfa2056ffd6db8e"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            176
+          ],
+          "bytes": 704,
+          "sha256": "2dd23156fbb26642d6f2194611e536f77213eb212f6a23654f9d5319a82ac556"
+        }
+      ]
+    },
+    {
+      "file": "BL_Door_1_1_window.raw.json",
+      "object": "BL_Door_1_1_window",
+      "json_bytes": 14094,
+      "json_sha256": "aa77dc69aed443d96b502f2604ab3e84d5db90e84586b9f8ead6b710cfc7d901",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            96,
+            3
+          ],
+          "bytes": 1152,
+          "sha256": "8748b89465413dfde081c5701cfb7fb7b562e99950c7e051a7b0a54ac006df2b"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            234,
+            2
+          ],
+          "bytes": 1872,
+          "sha256": "2b7f376e333285878361a845f28b33c5a09b882eab957888bab18e9ad41f891d"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            468
+          ],
+          "bytes": 1872,
+          "sha256": "73abddc376f886ad3c9f863b3d0350fd2686a047ca7d161e58cbd796634ea0fb"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            468
+          ],
+          "bytes": 1872,
+          "sha256": "ad9030741f2014247623390f9c163785ee13fea336928359af0319208bba2ae2"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "ec3eedce940728088df10bef53c61f9759d548f28ae32b58a95ab752f169d442"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "612802d046d4327e7eb69f0ba6e54d9ab58fc0867d8f385846d10e349cc9fe02"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            140
+          ],
+          "bytes": 560,
+          "sha256": "738c079dff6c9b77a0891ac42db1cabcab933a672b14aed8ecfcf94c0e77bb40"
+        }
+      ]
+    },
+    {
+      "file": "BL_Merged_cab_pivot_002_OD_green_aged_enamel.raw.json",
+      "object": "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+      "json_bytes": 336647,
+      "json_sha256": "f0f0ad3e5cc910a4fdc42b99e0c7b45ce9913354d83480c7cf65ce476c3f9710",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            2688,
+            3
+          ],
+          "bytes": 32256,
+          "sha256": "7a4ff8979849d05a86cf2a2ac9a26c8aef7f63bebc776dd9d4bdef2756f92466"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            5262,
+            2
+          ],
+          "bytes": 42096,
+          "sha256": "0233cd9451a2c0c971ecfd94cf66bce26e2ee361ee10e5773560de2ae3a5275c"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            10076
+          ],
+          "bytes": 40304,
+          "sha256": "91acfe91259ae87964e6476e2206278be731d35945b4796a7c759487ccc34eb7"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            10076
+          ],
+          "bytes": 40304,
+          "sha256": "ce1c4cc9f8fcb925f5be97fad61af3048a54285a7f403e01e3e0a40dc3ec1d68"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            2636
+          ],
+          "bytes": 10544,
+          "sha256": "32e9788746ebf8c1669407a2865ebe389b7d563070931599eaa8e889e190f25c"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            2636
+          ],
+          "bytes": 10544,
+          "sha256": "51f2b6cb2ef912a3df0273b5be814325e3c157214ed5fdad0339ad822a53ad0e"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            2636
+          ],
+          "bytes": 10544,
+          "sha256": "21634d5ecb9a208e5192112b48c7f533c90f8fb668787a01660a883efdcd485d"
+        }
+      ]
+    },
+    {
+      "file": "BL_Merged_cab_pivot_002_Rubber_window_seals.raw.json",
+      "object": "BL_Merged_cab_pivot_002_Rubber_window_seals",
+      "json_bytes": 186069,
+      "json_sha256": "23dc92b76e72b3b9c4f98af50506b7588cc1911b0dfdc2404facf3a756f1637f",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            1472,
+            3
+          ],
+          "bytes": 17664,
+          "sha256": "cb532a239d598cc37b6ed515de9a2cabc5d34d97363d32cfe0af4d1afe26e6d2"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            2978,
+            2
+          ],
+          "bytes": 23824,
+          "sha256": "fdea884891d95c5838b9f5adddb23ac854e108238e6fb73121783c8c335399d1"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            5956
+          ],
+          "bytes": 23824,
+          "sha256": "e73dbd77a03652d6167e8ba6cd97b2c393360a49f626beb710bd4c058a2b9794"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            5956
+          ],
+          "bytes": 23824,
+          "sha256": "a58124d5f30b36f433c47b2c7a98920d4b102ad44bcb19dc6f451d38305d513f"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "defbe47186eaf4fd015f843f6cafc79c331cfec4617bab8663447fecf8c304db"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "01b7523fa4a2e394e071cfe9ccbc180dfc1070ff8fef86c39b30b27d7900158c"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "c13dce11b2fd969ef7945862c68860c142aa1a099a833c93c1cc577533f44bdc"
+        }
+      ]
+    },
+    {
+      "file": "BL_Merged_cab_pivot_003_OD_green_aged_enamel.raw.json",
+      "object": "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+      "json_bytes": 340844,
+      "json_sha256": "4d149acefeeb42dc34f7b5d873a8e9985fcde77241c449dee6d1f6ba94d42389",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            2712,
+            3
+          ],
+          "bytes": 32544,
+          "sha256": "c6ce072e500bbdd85d70f9047d3e3d547cc4771a1072bc952fef10ab3f674cc6"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            5307,
+            2
+          ],
+          "bytes": 42456,
+          "sha256": "42167a46765051c9696b83ee46849ff9635a479d2371c161015a4451e7d444de"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            10158
+          ],
+          "bytes": 40632,
+          "sha256": "aab61e180a64229f015ee7a8b6cf6a26004d67d0f573d61371a172fb25ec5f26"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            10158
+          ],
+          "bytes": 40632,
+          "sha256": "3910cf4011c92eb8e5ae5072d543b13465665cb870aa58b7a9ba37fc21669e77"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            2658
+          ],
+          "bytes": 10632,
+          "sha256": "cf0cadb66e4e4fa0a705491ae5c36030c42eda42b4b17b1e2b0daf9cf19a6d3d"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            2658
+          ],
+          "bytes": 10632,
+          "sha256": "47cf88cae85c625bf1e74af2f4dbf0f1f5b1a767653402a07a44594e6981abac"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            2658
+          ],
+          "bytes": 10632,
+          "sha256": "2ce1125f1c9020dcbc01e1e5559a1c581b29ee84324e6b5c49d8195a1415e273"
+        }
+      ]
+    },
+    {
+      "file": "BL_Merged_cab_pivot_003_Rubber_window_seals.raw.json",
+      "object": "BL_Merged_cab_pivot_003_Rubber_window_seals",
+      "json_bytes": 186771,
+      "json_sha256": "af105251bf9e0ba130e4008c6c722e74228c11282683eaf18032bdee671647c0",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            1472,
+            3
+          ],
+          "bytes": 17664,
+          "sha256": "496525c2da3ba17e8531953b4334a799679983bed3aa011a3d2b34e525be846b"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            2978,
+            2
+          ],
+          "bytes": 23824,
+          "sha256": "599e3f56851a8e8564ec57f64353bd863610e46af36f63a9f4372209db2c7a31"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            5956
+          ],
+          "bytes": 23824,
+          "sha256": "b1e6d02301796337cfd1fd36e7851c06ed4fc5462cb3d5a3277fa75ba09ad4bd"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            5956
+          ],
+          "bytes": 23824,
+          "sha256": "11048a3fdfc60a2ac7a5b9ba12ac442b25904acebbad62415d1b931567bd61fa"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "defbe47186eaf4fd015f843f6cafc79c331cfec4617bab8663447fecf8c304db"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "01b7523fa4a2e394e071cfe9ccbc180dfc1070ff8fef86c39b30b27d7900158c"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "c13dce11b2fd969ef7945862c68860c142aa1a099a833c93c1cc577533f44bdc"
+        }
+      ]
+    },
+    {
+      "file": "BL_Merged_cab_pivot_006_OD_green_aged_enamel.raw.json",
+      "object": "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+      "json_bytes": 339334,
+      "json_sha256": "ffd11635b4cd04af5cd7aa3d423b810b395bd367fdc528ba68cee1277c7b63cb",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            2688,
+            3
+          ],
+          "bytes": 32256,
+          "sha256": "802dcd9b04588a1308f2da13d359abee484c8111e03383d7f4cc76fa01ab915d"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            5262,
+            2
+          ],
+          "bytes": 42096,
+          "sha256": "28635ff4ab99969407073bbf078325d1ff13062d782a7ad771d6fda1cbea5154"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            10076
+          ],
+          "bytes": 40304,
+          "sha256": "98ebfcd0e9795365611a179f2227a3d19741f410eb35a7f94eefedfcf5baa028"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            10076
+          ],
+          "bytes": 40304,
+          "sha256": "081abd3709f558ad8196f0ea81432ef9e3208bfe244a51ae92c8f72e5db8c4ab"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            2636
+          ],
+          "bytes": 10544,
+          "sha256": "32e9788746ebf8c1669407a2865ebe389b7d563070931599eaa8e889e190f25c"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            2636
+          ],
+          "bytes": 10544,
+          "sha256": "51f2b6cb2ef912a3df0273b5be814325e3c157214ed5fdad0339ad822a53ad0e"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            2636
+          ],
+          "bytes": 10544,
+          "sha256": "21634d5ecb9a208e5192112b48c7f533c90f8fb668787a01660a883efdcd485d"
+        }
+      ]
+    },
+    {
+      "file": "BL_Merged_cab_pivot_006_Rubber_window_seals.raw.json",
+      "object": "BL_Merged_cab_pivot_006_Rubber_window_seals",
+      "json_bytes": 187540,
+      "json_sha256": "e3bdbc311e4bd12f077aae2ae4a379fa483a867600cb53c93065d3d9f152b162",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            1472,
+            3
+          ],
+          "bytes": 17664,
+          "sha256": "9fec97b2599cc389e8f10a0b276580008ed1e3c17ba86cfff0a067daffc2c61f"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            2978,
+            2
+          ],
+          "bytes": 23824,
+          "sha256": "8cc1b990ef1c1683aa5e4369701ababe4065aec3eea1c084b3804691bb3163a2"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            5956
+          ],
+          "bytes": 23824,
+          "sha256": "d31c72e4a342b6f45392c7e1165c178207c838b8f6cd389a9e4583b960b06bff"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            5956
+          ],
+          "bytes": 23824,
+          "sha256": "a042be67ff7e1e10643b85809e5203e32bf713880cba3e0cc6f5e05d2c375079"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "defbe47186eaf4fd015f843f6cafc79c331cfec4617bab8663447fecf8c304db"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "01b7523fa4a2e394e071cfe9ccbc180dfc1070ff8fef86c39b30b27d7900158c"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "c13dce11b2fd969ef7945862c68860c142aa1a099a833c93c1cc577533f44bdc"
+        }
+      ]
+    },
+    {
+      "file": "BL_Merged_cab_pivot_007_OD_green_aged_enamel.raw.json",
+      "object": "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+      "json_bytes": 343555,
+      "json_sha256": "21b69a2b7252d73ab2d43fb2790dff0d933f1df1bbf6e6333200eed74829108b",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            2712,
+            3
+          ],
+          "bytes": 32544,
+          "sha256": "ddcae52c88d453ab93067a1e3ca81647623165581b3a01b8971be330f5d1210a"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            5307,
+            2
+          ],
+          "bytes": 42456,
+          "sha256": "3b0407c6aa61a558720198839d68403eefe1cf9e7b638db9c2af38d0aafb45f9"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            10158
+          ],
+          "bytes": 40632,
+          "sha256": "4ccda9ae80c587061f9c24c02a994422d294efba30826d3d92b34b1d6acdc8cc"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            10158
+          ],
+          "bytes": 40632,
+          "sha256": "a664cb63eba2701c23a182b1e9d6c402e97067c613c62cb599aa5efcf4c805ef"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            2658
+          ],
+          "bytes": 10632,
+          "sha256": "cf0cadb66e4e4fa0a705491ae5c36030c42eda42b4b17b1e2b0daf9cf19a6d3d"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            2658
+          ],
+          "bytes": 10632,
+          "sha256": "47cf88cae85c625bf1e74af2f4dbf0f1f5b1a767653402a07a44594e6981abac"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            2658
+          ],
+          "bytes": 10632,
+          "sha256": "2ce1125f1c9020dcbc01e1e5559a1c581b29ee84324e6b5c49d8195a1415e273"
+        }
+      ]
+    },
+    {
+      "file": "BL_Merged_cab_pivot_007_Rubber_window_seals.raw.json",
+      "object": "BL_Merged_cab_pivot_007_Rubber_window_seals",
+      "json_bytes": 188242,
+      "json_sha256": "910df947ecc010b3fa91a7c9a4cb27cb43a9045d5e7563967abcdda93b82fe22",
+      "arrays": [
+        {
+          "name": "position",
+          "dtype": "<f4",
+          "shape": [
+            1472,
+            3
+          ],
+          "bytes": 17664,
+          "sha256": "2aba09b411e775807ac0abadc0fc5cb2f6386b7893805eaf79c0a3bc5e4bf6ed"
+        },
+        {
+          "name": "edges",
+          "dtype": "<i4",
+          "shape": [
+            2978,
+            2
+          ],
+          "bytes": 23824,
+          "sha256": "2942123f944db3ebc27b54e50a0d6409826b351b2ad5827b71f4ef28440bfc23"
+        },
+        {
+          "name": "loop_vertex",
+          "dtype": "<i4",
+          "shape": [
+            5956
+          ],
+          "bytes": 23824,
+          "sha256": "0e201f8834db106570e9ec5bc8166af08350da31170db7d4da4d9b3a801409d1"
+        },
+        {
+          "name": "loop_edge",
+          "dtype": "<i4",
+          "shape": [
+            5956
+          ],
+          "bytes": 23824,
+          "sha256": "0ece4b1c1114fbe8442d37e8e8f963bc0d3c445c43f8ba03f3f9d33374673d45"
+        },
+        {
+          "name": "polygon_start",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "defbe47186eaf4fd015f843f6cafc79c331cfec4617bab8663447fecf8c304db"
+        },
+        {
+          "name": "polygon_size",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "01b7523fa4a2e394e071cfe9ccbc180dfc1070ff8fef86c39b30b27d7900158c"
+        },
+        {
+          "name": "polygon_material",
+          "dtype": "<i4",
+          "shape": [
+            1508
+          ],
+          "bytes": 6032,
+          "sha256": "c13dce11b2fd969ef7945862c68860c142aa1a099a833c93c1cc577533f44bdc"
+        }
+      ]
+    }
+  ]
+}
