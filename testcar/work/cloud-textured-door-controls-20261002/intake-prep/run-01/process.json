@@ -1,0 +1,403 @@
+{
+  "status": "READ_ONLY_CAPTURE_COMPLETE",
+  "phase": "MAZ_TEXT_TEXTURED_DOOR_INTAKE_4514",
+  "command": [
+    "taskset",
+    "-c",
+    "0,1",
+    "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/blender",
+    "--background",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--threads",
+    "2",
+    "--python-exit-code",
+    "1",
+    "--python",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/collect_native.py",
+    "--",
+    "--output",
+    "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01"
+  ],
+  "started_utc": "2026-10-03T00:50:29Z",
+  "window_note": "Aether confirmed its pure tests terminated and no engine at 00:49 UTC; other work is documentation or publication only. This is not an isolated performance benchmark.",
+  "cpu_affinity": [
+    0,
+    1
+  ],
+  "budget": {
+    "threads": 2,
+    "wall_seconds": 120,
+    "postflight_reserve_seconds": 10,
+    "minimum_native_seconds": 60,
+    "heartbeat_seconds": 10,
+    "term_grace_seconds": 2,
+    "kill_grace_seconds": 3
+  },
+  "inputs_before": {
+    "source": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "050c02562f81fe80ba616a80198fa02d381e60f8b61b8d39add881f4bca0d7d8"
+    },
+    "bundled_python": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/bin/python3.11",
+      "bytes": 28653440,
+      "sha256": "60b08089c60cbe81827b135c8fd9e206ba2ee6bf54aa1dbd0d6f56ac2d5914f6"
+    },
+    "numpy_version": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/version.py",
+      "bytes": 176,
+      "sha256": "ae24c0271908be669d3348be6cb3dbbd8d4a7d3090eff2ac09e55e84c147e687"
+    },
+    "legacy_export_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py",
+      "bytes": 39008,
+      "sha256": "f67acdccdf722752ab7f876fd23de6130570b0d36e0f33e2bff550a1d8086860"
+    },
+    "mesh_protection_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    "helper": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    },
+    "builder": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/build-trial.py",
+      "bytes": 17627,
+      "sha256": "892cf825ff6a0929ab576c502b0fbb59829ec9943b627161fa48de02bac80a1d"
+    },
+    "saved_expected": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/saved-state-expected.json",
+      "bytes": 909025,
+      "sha256": "9a937128e5cd0af5cac09e7416eaad9e3cff912bbc2d4e324fbb8eef288be4fc"
+    },
+    "graph_common": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/graph_common.py",
+      "bytes": 10020,
+      "sha256": "6dd91a5742fd2edf28b66e71436d15d065ff0d07cbcee1182c9ad1acc19c04b1"
+    },
+    "graph_inspector": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py",
+      "bytes": 20542,
+      "sha256": "dce897392d380b8f08295262dd8b5daa7c06bab0c01c3ff61ec9ae17645c80f3"
+    },
+    "array_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/replay_capture.py",
+      "bytes": 16643,
+      "sha256": "005f3af009491180b1f67de31e3fdad5342789f864e2906b87594eae3f7402ab"
+    },
+    "original_runner": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run_capture.py",
+      "bytes": 8246,
+      "sha256": "e3a096633f07f6d041f4fe65aedead61336faeceb22c5ed3d7eb6fab2a43ca82"
+    },
+    "stations": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/stations.json",
+      "bytes": 174735,
+      "sha256": "a6143bf3bffa39ab5cc1d4c5f93f8ce3b2bac95a7f5c96ce49e4346f20ffb314"
+    },
+    "inventory": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/object-inventory.json",
+      "bytes": 10668164,
+      "sha256": "20949fbc0afcef80c09f1110842fc4bd48a15f910e6a90835a8727a8d3ce2852"
+    },
+    "graph": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/native-graph.json",
+      "bytes": 8896553,
+      "sha256": "967b4614dce61f1993146bd4ede94ea27d31302f70a46af6ccc92b8ecd45bdbc"
+    },
+    "graph_report": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/native-report.json",
+      "bytes": 14488,
+      "sha256": "e5055c57289713f28659a5389675fd06d95c62816f6d8cc246619993fade4432"
+    },
+    "static_findings": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/static-findings.json",
+      "bytes": 23525,
+      "sha256": "6884556f7d5d0bebf709609b8035a478e65d685ab2928ce9cdc45ed98648c99c"
+    },
+    "static_script": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/summarize_saved_doors.py",
+      "bytes": 7646,
+      "sha256": "e65aae551acf38d878b1850281a5d2f9bbe432a76417f453b4a2970792d6244f"
+    },
+    "scope_readme": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/README.md",
+      "bytes": 2883,
+      "sha256": "4d31f0d1b0a3cdb3ae98855fce943ed6062668c7fcb2533210b5d02764d1a9ac"
+    },
+    "wheel_fresh_report": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fresh-01/native-report.json",
+      "bytes": 576,
+      "sha256": "65d48d83b73071cc5d171baeef5e95887aa0b212199892b5cf010ca51053c439"
+    },
+    "wheel_materials": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/materials.json",
+      "bytes": 94040,
+      "sha256": "434c86c012d91d4a9005a828a7014bf5e0437f2e3ac997b0b3f89681922eb177"
+    },
+    "wheel_inputs": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/inputs.json",
+      "bytes": 51148,
+      "sha256": "e3249af319ae1be31f81576bd39b74eace400cd726e04552282a354a3f2c59ce"
+    },
+    "official_action_ui": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/scripts/startup/bl_ui/anim.py",
+      "bytes": 1744,
+      "sha256": "67af24479fb3cb1d31a63b26fa51a0a4c922cfad1a144c64ca82969c46f10e62"
+    }
+  },
+  "prepared_before": {
+    "README.md": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/README.md",
+      "bytes": 8248,
+      "sha256": "21aa868bde1023c2871a0e94a08055d912d04e992c26fbf25cacaa0d4b4f97ef"
+    },
+    "RECOVERY.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/RECOVERY.json",
+      "bytes": 893,
+      "sha256": "99ea780c38dd95fd2f57032dcea6263d5c24cbbc5f9b72c4745d3c0e47c19254"
+    },
+    "collect_native.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/collect_native.py",
+      "bytes": 24612,
+      "sha256": "cb36f1b78c2ec07495e38522f26d4907a6a87c8d89416ddc6bbde6bba50a7507"
+    },
+    "components.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/components.py",
+      "bytes": 10198,
+      "sha256": "9bfb1dba90814199fa53e577572e6f859f294f7d22962f4a9a369fa6253b4f0a"
+    },
+    "inputs/intake.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/inputs/intake.json",
+      "bytes": 10064,
+      "sha256": "7dd98573b00213ca83b28a326c9625932f6ac8418ff848a52bbcc8aa6c28b078"
+    },
+    "inputs/rebuild_inputs.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/inputs/rebuild_inputs.py",
+      "bytes": 5204,
+      "sha256": "df0a1dec5b32035a4d1bdb276995507850478568ac18d7eba30cd3664eac9130"
+    },
+    "run_intake.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run_intake.py",
+      "bytes": 9338,
+      "sha256": "4e8c0ac28056d1e74c21bba0bad8394246e275986989039cd60f310c61617b42"
+    },
+    "test_components.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/test_components.py",
+      "bytes": 5316,
+      "sha256": "8b5e76612d8479be4daa7eb99f69b25af8244a5d4a74e9d7049ead78243a60a5"
+    },
+    "preparation-checks.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/preparation-checks.json",
+      "bytes": 6728,
+      "sha256": "d535b6b4ad239b0fe20140e4533ab111447cc261a3de3c3eff6d48778993158a"
+    }
+  },
+  "timed_out": false,
+  "qualification": {
+    "axes": "NOT_IDENTIFIED_REVIEW_SAVED_RAW",
+    "control_installation": "NOT_RUN",
+    "closed_contacts": "SIX_ORIGINAL_OPEN",
+    "whole_vehicle": "ALL_16_OPEN",
+    "global_timeline_nodes": "BLOCKED_NOT_EXECUTED"
+  },
+  "preflight_seconds": 0.21600415700004305,
+  "native_seconds_available": 109.78385802899948,
+  "budget_basis": "120s from preflight start;110s latest native terminal observation with10s reserved for postflight. Minimum60s remains before launch. Prior4.5.13 same-source fresh-open12.253s and narrow raw capture12.022s are historical budget context only, not4.5.14 validation. This run reads20 raw door meshes and object/action records without evaluation. Cleanup may add at most5s after a timed-out child; all timing is reported, never a performance claim.",
+  "child_pid": 5,
+  "owned_process_group": 5,
+  "first_terminal_observed_seconds": 84.24679489100026,
+  "exit_code": 0,
+  "child_terminal": true,
+  "elapsed_seconds": 84.24692834799998,
+  "finished_utc": "2026-10-03T00:51:53Z",
+  "max_child_rss_kib": 1740116,
+  "inputs_after": {
+    "source": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "050c02562f81fe80ba616a80198fa02d381e60f8b61b8d39add881f4bca0d7d8"
+    },
+    "bundled_python": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/bin/python3.11",
+      "bytes": 28653440,
+      "sha256": "60b08089c60cbe81827b135c8fd9e206ba2ee6bf54aa1dbd0d6f56ac2d5914f6"
+    },
+    "numpy_version": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/version.py",
+      "bytes": 176,
+      "sha256": "ae24c0271908be669d3348be6cb3dbbd8d4a7d3090eff2ac09e55e84c147e687"
+    },
+    "legacy_export_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py",
+      "bytes": 39008,
+      "sha256": "f67acdccdf722752ab7f876fd23de6130570b0d36e0f33e2bff550a1d8086860"
+    },
+    "mesh_protection_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    "helper": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    },
+    "builder": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/build-trial.py",
+      "bytes": 17627,
+      "sha256": "892cf825ff6a0929ab576c502b0fbb59829ec9943b627161fa48de02bac80a1d"
+    },
+    "saved_expected": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/saved-state-expected.json",
+      "bytes": 909025,
+      "sha256": "9a937128e5cd0af5cac09e7416eaad9e3cff912bbc2d4e324fbb8eef288be4fc"
+    },
+    "graph_common": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/graph_common.py",
+      "bytes": 10020,
+      "sha256": "6dd91a5742fd2edf28b66e71436d15d065ff0d07cbcee1182c9ad1acc19c04b1"
+    },
+    "graph_inspector": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py",
+      "bytes": 20542,
+      "sha256": "dce897392d380b8f08295262dd8b5daa7c06bab0c01c3ff61ec9ae17645c80f3"
+    },
+    "array_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/replay_capture.py",
+      "bytes": 16643,
+      "sha256": "005f3af009491180b1f67de31e3fdad5342789f864e2906b87594eae3f7402ab"
+    },
+    "original_runner": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run_capture.py",
+      "bytes": 8246,
+      "sha256": "e3a096633f07f6d041f4fe65aedead61336faeceb22c5ed3d7eb6fab2a43ca82"
+    },
+    "stations": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/stations.json",
+      "bytes": 174735,
+      "sha256": "a6143bf3bffa39ab5cc1d4c5f93f8ce3b2bac95a7f5c96ce49e4346f20ffb314"
+    },
+    "inventory": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/object-inventory.json",
+      "bytes": 10668164,
+      "sha256": "20949fbc0afcef80c09f1110842fc4bd48a15f910e6a90835a8727a8d3ce2852"
+    },
+    "graph": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/native-graph.json",
+      "bytes": 8896553,
+      "sha256": "967b4614dce61f1993146bd4ede94ea27d31302f70a46af6ccc92b8ecd45bdbc"
+    },
+    "graph_report": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/native-report.json",
+      "bytes": 14488,
+      "sha256": "e5055c57289713f28659a5389675fd06d95c62816f6d8cc246619993fade4432"
+    },
+    "static_findings": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/static-findings.json",
+      "bytes": 23525,
+      "sha256": "6884556f7d5d0bebf709609b8035a478e65d685ab2928ce9cdc45ed98648c99c"
+    },
+    "static_script": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/summarize_saved_doors.py",
+      "bytes": 7646,
+      "sha256": "e65aae551acf38d878b1850281a5d2f9bbe432a76417f453b4a2970792d6244f"
+    },
+    "scope_readme": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/README.md",
+      "bytes": 2883,
+      "sha256": "4d31f0d1b0a3cdb3ae98855fce943ed6062668c7fcb2533210b5d02764d1a9ac"
+    },
+    "wheel_fresh_report": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fresh-01/native-report.json",
+      "bytes": 576,
+      "sha256": "65d48d83b73071cc5d171baeef5e95887aa0b212199892b5cf010ca51053c439"
+    },
+    "wheel_materials": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/materials.json",
+      "bytes": 94040,
+      "sha256": "434c86c012d91d4a9005a828a7014bf5e0437f2e3ac997b0b3f89681922eb177"
+    },
+    "wheel_inputs": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/inputs.json",
+      "bytes": 51148,
+      "sha256": "e3249af319ae1be31f81576bd39b74eace400cd726e04552282a354a3f2c59ce"
+    },
+    "official_action_ui": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/scripts/startup/bl_ui/anim.py",
+      "bytes": 1744,
+      "sha256": "67af24479fb3cb1d31a63b26fa51a0a4c922cfad1a144c64ca82969c46f10e62"
+    }
+  },
+  "prepared_after": {
+    "README.md": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/README.md",
+      "bytes": 8248,
+      "sha256": "21aa868bde1023c2871a0e94a08055d912d04e992c26fbf25cacaa0d4b4f97ef"
+    },
+    "RECOVERY.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/RECOVERY.json",
+      "bytes": 893,
+      "sha256": "99ea780c38dd95fd2f57032dcea6263d5c24cbbc5f9b72c4745d3c0e47c19254"
+    },
+    "collect_native.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/collect_native.py",
+      "bytes": 24612,
+      "sha256": "cb36f1b78c2ec07495e38522f26d4907a6a87c8d89416ddc6bbde6bba50a7507"
+    },
+    "components.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/components.py",
+      "bytes": 10198,
+      "sha256": "9bfb1dba90814199fa53e577572e6f859f294f7d22962f4a9a369fa6253b4f0a"
+    },
+    "inputs/intake.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/inputs/intake.json",
+      "bytes": 10064,
+      "sha256": "7dd98573b00213ca83b28a326c9625932f6ac8418ff848a52bbcc8aa6c28b078"
+    },
+    "inputs/rebuild_inputs.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/inputs/rebuild_inputs.py",
+      "bytes": 5204,
+      "sha256": "df0a1dec5b32035a4d1bdb276995507850478568ac18d7eba30cd3664eac9130"
+    },
+    "run_intake.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run_intake.py",
+      "bytes": 9338,
+      "sha256": "4e8c0ac28056d1e74c21bba0bad8394246e275986989039cd60f310c61617b42"
+    },
+    "test_components.py": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/test_components.py",
+      "bytes": 5316,
+      "sha256": "8b5e76612d8479be4daa7eb99f69b25af8244a5d4a74e9d7049ead78243a60a5"
+    },
+    "preparation-checks.json": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/preparation-checks.json",
+      "bytes": 6728,
+      "sha256": "d535b6b4ad239b0fe20140e4533ab111447cc261a3de3c3eff6d48778993158a"
+    }
+  },
+  "file_guards_pass": true,
+  "native_status": "CAPTURE_COMPLETE_GUARDS_PASS",
+  "axis_identification": "NOT_IDENTIFIED_REVIEW_SAVED_RAW",
+  "dependency_blockers": [],
+  "component_summary_complete": true,
+  "legacy_baseline_status": "RECORDED_FIELDS_EXACT",
+  "installation_eligibility": "BLOCKED_AXES_UNIDENTIFIED",
+  "elapsed_with_postflight_seconds": 84.48147583499986,
+  "operation_deadline_pass": true
+}

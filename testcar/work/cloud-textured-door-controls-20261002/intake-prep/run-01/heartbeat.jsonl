@@ -1,0 +1,9 @@
+{"utc": "2026-10-03T00:50:29Z", "elapsed_seconds": 0.21743409000009706, "stage": {"stage": "STARTING"}, "child_pid": 5}
+{"utc": "2026-10-03T00:50:39Z", "elapsed_seconds": 10.217671446000168, "stage": {"stage": "OPEN_SAVED_SOURCE", "target": null, "elapsed_seconds": 0.22057379800025956, "utc": "2026-10-03T00:50:29Z"}, "child_pid": 5}
+{"utc": "2026-10-03T00:50:49Z", "elapsed_seconds": 20.21811529000024, "stage": {"stage": "GUARD_BEFORE", "target": null, "elapsed_seconds": 12.448555679000037, "utc": "2026-10-03T00:50:42Z"}, "child_pid": 5}
+{"utc": "2026-10-03T00:50:59Z", "elapsed_seconds": 30.21852475300011, "stage": {"stage": "GUARD_BEFORE", "target": null, "elapsed_seconds": 12.448555679000037, "utc": "2026-10-03T00:50:42Z"}, "child_pid": 5}
+{"utc": "2026-10-03T00:51:09Z", "elapsed_seconds": 40.21896138200009, "stage": {"stage": "GUARD_BEFORE", "target": null, "elapsed_seconds": 12.448555679000037, "utc": "2026-10-03T00:50:42Z"}, "child_pid": 5}
+{"utc": "2026-10-03T00:51:19Z", "elapsed_seconds": 50.219374134999725, "stage": {"stage": "GUARD_AFTER", "target": null, "elapsed_seconds": 47.3228816550004, "utc": "2026-10-03T00:51:16Z"}, "child_pid": 5}
+{"utc": "2026-10-03T00:51:29Z", "elapsed_seconds": 60.21977055100024, "stage": {"stage": "GUARD_AFTER", "target": null, "elapsed_seconds": 47.3228816550004, "utc": "2026-10-03T00:51:16Z"}, "child_pid": 5}
+{"utc": "2026-10-03T00:51:39Z", "elapsed_seconds": 70.22024476900015, "stage": {"stage": "GUARD_AFTER", "target": null, "elapsed_seconds": 47.3228816550004, "utc": "2026-10-03T00:51:16Z"}, "child_pid": 5}
+{"utc": "2026-10-03T00:51:49Z", "elapsed_seconds": 80.2206954899998, "stage": {"stage": "GUARD_AFTER", "target": null, "elapsed_seconds": 47.3228816550004, "utc": "2026-10-03T00:51:16Z"}, "child_pid": 5}

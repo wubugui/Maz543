@@ -1,0 +1,36 @@
+INTAKE_STAGE {"stage": "VERIFY_PINNED_INPUTS", "target": null, "elapsed_seconds": 9.314000180893345e-06, "utc": "2026-10-03T00:50:29Z"}
+INTAKE_STAGE {"stage": "OPEN_SAVED_SOURCE", "target": null, "elapsed_seconds": 0.22057379800025956, "utc": "2026-10-03T00:50:29Z"}
+INTAKE_STAGE {"stage": "GUARD_BEFORE", "target": null, "elapsed_seconds": 12.448555679000037, "utc": "2026-10-03T00:50:42Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_-1_0_handle", "elapsed_seconds": 46.52195626599996, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_-1_0_lock", "elapsed_seconds": 46.523906147000616, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_-1_0_window", "elapsed_seconds": 46.526935243000025, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Merged_cab_pivot_002_OD_green_aged_enamel", "elapsed_seconds": 46.52903628700051, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SUMMARIZE_INDEX_COMPONENTS", "target": "BL_Merged_cab_pivot_002_OD_green_aged_enamel", "elapsed_seconds": 46.55847258200038, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Merged_cab_pivot_002_Rubber_window_seals", "elapsed_seconds": 46.678670292000334, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_-1_1_handle", "elapsed_seconds": 46.69694375200061, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_-1_1_lock", "elapsed_seconds": 46.698629142999835, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_-1_1_window", "elapsed_seconds": 46.70128681000051, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Merged_cab_pivot_003_OD_green_aged_enamel", "elapsed_seconds": 46.70336819500017, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SUMMARIZE_INDEX_COMPONENTS", "target": "BL_Merged_cab_pivot_003_OD_green_aged_enamel", "elapsed_seconds": 46.73107348199983, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Merged_cab_pivot_003_Rubber_window_seals", "elapsed_seconds": 46.85618874800048, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_1_0_handle", "elapsed_seconds": 46.875883178000095, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_1_0_lock", "elapsed_seconds": 46.87781414200026, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_1_0_window", "elapsed_seconds": 46.88054437599976, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Merged_cab_pivot_006_OD_green_aged_enamel", "elapsed_seconds": 46.882568837000235, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SUMMARIZE_INDEX_COMPONENTS", "target": "BL_Merged_cab_pivot_006_OD_green_aged_enamel", "elapsed_seconds": 46.90959502400028, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Merged_cab_pivot_006_Rubber_window_seals", "elapsed_seconds": 47.024049930000274, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_1_1_handle", "elapsed_seconds": 47.04231789200048, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_1_1_lock", "elapsed_seconds": 47.04391960900057, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Door_1_1_window", "elapsed_seconds": 47.04642501100034, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Merged_cab_pivot_007_OD_green_aged_enamel", "elapsed_seconds": 47.048259851999774, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SUMMARIZE_INDEX_COMPONENTS", "target": "BL_Merged_cab_pivot_007_OD_green_aged_enamel", "elapsed_seconds": 47.07455465400062, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "SAVE_RAW_DOOR", "target": "BL_Merged_cab_pivot_007_Rubber_window_seals", "elapsed_seconds": 47.19248789899984, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "COMPARE_HISTORICAL_4513_BASELINE", "target": null, "elapsed_seconds": 47.32089785400012, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "GUARD_AFTER", "target": null, "elapsed_seconds": 47.3228816550004, "utc": "2026-10-03T00:51:16Z"}
+INTAKE_STAGE {"stage": "VERIFY_INPUTS_AFTER", "target": null, "elapsed_seconds": 82.892273811, "utc": "2026-10-03T00:51:52Z"}
+INTAKE_STAGE {"stage": "CAPTURE_COMPLETE_GUARDS_PASS", "target": null, "elapsed_seconds": 83.10542049300011, "utc": "2026-10-03T00:51:52Z"}
+{"status": "CAPTURE_COMPLETE_GUARDS_PASS", "axis_identification": "NOT_IDENTIFIED_REVIEW_SAVED_RAW", "installation": "NOT_RUN"}
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:31:19)
+Read blend: "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend"
+
+Blender quit

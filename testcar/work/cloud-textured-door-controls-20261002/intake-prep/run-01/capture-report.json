@@ -1,0 +1,1394 @@
+{
+  "status": "CAPTURE_COMPLETE_GUARDS_PASS",
+  "phase": "MAZ_TEXT_TEXTURED_DOOR_INTAKE_4514",
+  "qualification": {
+    "axes": "NOT_IDENTIFIED_REVIEW_SAVED_RAW",
+    "control_installation": "NOT_RUN",
+    "closed_contacts": "SIX_ORIGINAL_OPEN",
+    "whole_vehicle": "ALL_16_OPEN",
+    "global_timeline_nodes": "BLOCKED_NOT_EXECUTED"
+  },
+  "limits": [
+    "Raw saved frame only; no frame_set, depsgraph evaluation, mesh changes, save/export/render or pose trial",
+    "Only20 door mesh payloads; all8522 objects transform/binding records and552 original action records, no other geometry sweep",
+    "Supported mesh signature fields and actually read action field inventories are explicit; original source is the recoverable full action archive. Unsupported or unenumerated RNA is not certified.",
+    "Prior4.5.13 wheel132 raw/128 evaluated/7 material PASS records are historical only; no such acceptance is transferred to4.5.14",
+    "Current before/after nonmutation protection is separate from historical4.5.13 baseline correspondence; save raw first and block axes/install on any mismatch",
+    "No geometric acceptance thresholds or OEM dimension claim; all PCA axes and components remain candidates pending offline review"
+  ],
+  "raw_files": [
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_-1_0_handle.raw.json",
+      "bytes": 3722,
+      "sha256": "a301e7d4eb158523690ce112fa55f1ec7a5a6413953e70188f7e34e125750a04"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_-1_0_lock.raw.json",
+      "bytes": 20871,
+      "sha256": "9cc0f015884c06bbdccb0c9ecdfe1e090e00cd3deb78ec8bae767b77319d1293"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_-1_0_window.raw.json",
+      "bytes": 13946,
+      "sha256": "25a2a4e8260e6bb5b335c8ff2cdb8bc3e6a2411d1005412fb5c0b79c9123fbf7"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_002_OD_green_aged_enamel.raw.json",
+      "bytes": 336647,
+      "sha256": "f0f0ad3e5cc910a4fdc42b99e0c7b45ce9913354d83480c7cf65ce476c3f9710"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_002_Rubber_window_seals.raw.json",
+      "bytes": 186069,
+      "sha256": "23dc92b76e72b3b9c4f98af50506b7588cc1911b0dfdc2404facf3a756f1637f"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_-1_1_handle.raw.json",
+      "bytes": 3724,
+      "sha256": "22eade4f199ba4fe0abb40985fed0ecb46a917a14959546e4a288c5271e77d18"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_-1_1_lock.raw.json",
+      "bytes": 20929,
+      "sha256": "a26d1294fd275276da35bb39b01929afc539024a6f7713b164623184b98070d6"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_-1_1_window.raw.json",
+      "bytes": 14000,
+      "sha256": "de6d275dfd75ca122b52688095c5f4d13fa4ba0e6a034d007ad0f56e864c7004"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_003_OD_green_aged_enamel.raw.json",
+      "bytes": 340844,
+      "sha256": "4d149acefeeb42dc34f7b5d873a8e9985fcde77241c449dee6d1f6ba94d42389"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_003_Rubber_window_seals.raw.json",
+      "bytes": 186771,
+      "sha256": "af105251bf9e0ba130e4008c6c722e74228c11282683eaf18032bdee671647c0"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_1_0_handle.raw.json",
+      "bytes": 3736,
+      "sha256": "baac83bbc4465d45494da75c78ff68005ad73ec13741bf5c20bc28c2178a4680"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_1_0_lock.raw.json",
+      "bytes": 21029,
+      "sha256": "109018763dc1344091ff2b9518c826fff307b52daba4e272ccf9fe0925ad615c"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_1_0_window.raw.json",
+      "bytes": 14040,
+      "sha256": "33e483a4b17bfe0be31f9eaed6654bb1bed083ea100ed5e4e56bd7b39d7c3ab1"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_006_OD_green_aged_enamel.raw.json",
+      "bytes": 339334,
+      "sha256": "ffd11635b4cd04af5cd7aa3d423b810b395bd367fdc528ba68cee1277c7b63cb"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_006_Rubber_window_seals.raw.json",
+      "bytes": 187540,
+      "sha256": "e3bdbc311e4bd12f077aae2ae4a379fa483a867600cb53c93065d3d9f152b162"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_1_1_handle.raw.json",
+      "bytes": 3738,
+      "sha256": "af1a9dca7a87cc753e4283cdb61ba184412604a4d846199d60146704fd310bf0"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_1_1_lock.raw.json",
+      "bytes": 21087,
+      "sha256": "0c073134a8e7dfd0d2638187c79c83b42a68ef10c18aed88e0fd7140d59a9f02"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Door_1_1_window.raw.json",
+      "bytes": 14094,
+      "sha256": "aa77dc69aed443d96b502f2604ab3e84d5db90e84586b9f8ead6b710cfc7d901"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_007_OD_green_aged_enamel.raw.json",
+      "bytes": 343555,
+      "sha256": "21b69a2b7252d73ab2d43fb2790dff0d933f1df1bbf6e6333200eed74829108b"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_007_Rubber_window_seals.raw.json",
+      "bytes": 188242,
+      "sha256": "910df947ecc010b3fa91a7c9a4cb27cb43a9045d5e7563967abcdda93b82fe22"
+    }
+  ],
+  "component_files": [
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_002_OD_green_aged_enamel.components.json",
+      "bytes": 427984,
+      "sha256": "97064f42b6c34902bce54fa9132a7c31a526f414b50bc009e39f2eb4bd751366"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_003_OD_green_aged_enamel.components.json",
+      "bytes": 437250,
+      "sha256": "13c2e50dec66f6087f7096598920ee86b824f6d5bfb095f89093197b0ffab129"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_006_OD_green_aged_enamel.components.json",
+      "bytes": 428578,
+      "sha256": "18b688d2a84c75314a2622c209f41503e3e0b5905505aee970f712ec4253b3b1"
+    },
+    {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/intake-prep/run-01/BL_Merged_cab_pivot_007_OD_green_aged_enamel.components.json",
+      "bytes": 438054,
+      "sha256": "37b9a801d5b4b6566a8d48931b90585724d2d7f45b8d8054dce860c111bc4771"
+    }
+  ],
+  "dependency_blockers": [],
+  "guard_scope": "Explicit stored fields only; no guarantee for unenumerated RNA or runtime caches",
+  "observed_runtime": {
+    "blender_version": [
+      4,
+      5,
+      14
+    ],
+    "build_hash": "62c1db4208e8",
+    "python_version": "3.11.15 (main, Apr 25 2025, 12:39:20) [GCC 11.2.1 20220127 (Red Hat 11.2.1-9)]",
+    "numpy_version": "1.26.4",
+    "numpy_file": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/__init__.py"
+  },
+  "observed_counts": {
+    "objects": 8522,
+    "actions": 552
+  },
+  "prior_wheel_evidence": {
+    "status": "FIXED_FRAME_SAVED_ARTIFACT_FRESH_OPEN_PASS",
+    "timeline_status": "BLOCKED_NOT_EXECUTED",
+    "rendered": false,
+    "asset_delivery": "LOCAL_ONLY_LFS_BLOCKED",
+    "selected_materials_exact": 7,
+    "artifact_sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea",
+    "artifact_bytes": 100052636,
+    "original_source_unchanged": true,
+    "objects": 8522,
+    "raw_meshes_exact": 132,
+    "moving_evaluated_meshes_exact": 128,
+    "all_saved_world_matrices_exact": true,
+    "all_original_action_key_data_exact": true,
+    "parent_and_mode_persistence": true
+  },
+  "prior_wheel_evidence_scope": "Historical4.5.13 only;132raw/128evaluated/7materials are not requalified in4.5.14",
+  "inbound_id_users": [
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_-1_0_fasteners_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_-1_0_gap_Curve",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_002_Rubber_window_seals",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_-1_0_handle_Curve",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_0_handle",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_-1_0_lock_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_0_lock",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_-1_0_window_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_0_window",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_-1_1_fasteners_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_-1_1_gap_Curve",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_003_Rubber_window_seals",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_-1_1_handle_Curve",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_1_handle",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_-1_1_lock_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_1_lock",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_-1_1_window_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_1_window",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_1_0_fasteners_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_1_0_gap_Curve",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_006_Rubber_window_seals",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_1_0_handle_Curve",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_1_0_handle",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_1_0_lock_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_1_0_lock",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_1_0_window_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_1_0_window",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_1_1_fasteners_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_1_1_gap_Curve",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_007_Rubber_window_seals",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_1_1_handle_Curve",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_1_1_handle",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_1_1_lock_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_1_1_lock",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Mesh",
+        "name": "BL_Door_1_1_window_Topology",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Object",
+          "name": "BL_Door_1_1_window",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_-1_0_handle",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_-1_0_lock",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_-1_0_window",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_-1_1_handle",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_-1_1_lock",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_-1_1_window",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_1_0_handle",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_1_0_lock",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_1_0_window",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_1_1_handle",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_1_1_lock",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Door_1_1_window",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Merged_cab_pivot_002_Rubber_window_seals",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Merged_cab_pivot_003_Rubber_window_seals",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Merged_cab_pivot_006_Rubber_window_seals",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "BL_Merged_cab_pivot_007_Rubber_window_seals",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "MAZ543_REFERENCE_CHASSIS",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "S543_STARTING",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "body",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "brakes",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cooling",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "drive",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "engine",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "frame",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "fuel",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "suspension",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "wheels",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "cab",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Cab_-1_step",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Cab_1_step",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Left_driver_floor_side_lever_knob_proxy_retained",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Left_driver_floor_side_lever_proxy_retained",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Left_driver_pedal_link_a_retained",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Left_driver_pedal_link_b_retained",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Left_driver_pedal_plate_a_retained",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Left_driver_pedal_plate_b_retained",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Left_driver_steering_column_retained",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_Worn_steel",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_PanelFit_original_dashboard_blocks_retained",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "LEFT DISPLAY ROOT — not vehicle datum",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "RIGHT DISPLAY ROOT — not vehicle datum",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_0032",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_0061",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_0062",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_0063",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_0064",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_0065",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_0066",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_0067",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_0068",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_0069",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_pivot_001",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_pivot_002",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_pivot_003",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_pivot_004",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_pivot_005",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_pivot_006",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "cab_pivot_007",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "cab_pivot_002",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_0_handle",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_0_lock",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_0_window",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_002_OD_green_aged_enamel",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_002_Rubber_window_seals",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "cab_pivot_003",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_1_handle",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_1_lock",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_-1_1_window",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_003_OD_green_aged_enamel",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_003_Rubber_window_seals",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "cab_pivot_006",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_1_0_handle",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_1_0_lock",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_1_0_window",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_006_OD_green_aged_enamel",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_006_Rubber_window_seals",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    },
+    {
+      "target": {
+        "type": "Object",
+        "name": "cab_pivot_007",
+        "library": null
+      },
+      "users": [
+        {
+          "type": "Collection",
+          "name": "Collection",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_1_1_handle",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_1_1_lock",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Door_1_1_window",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_007_OD_green_aged_enamel",
+          "library": null
+        },
+        {
+          "type": "Object",
+          "name": "BL_Merged_cab_pivot_007_Rubber_window_seals",
+          "library": null
+        },
+        {
+          "type": "Scene",
+          "name": "Scene",
+          "library": null
+        }
+      ]
+    }
+  ],
+  "legacy_baseline_comparison": {
+    "status": "RECORDED_FIELDS_EXACT",
+    "differences": [],
+    "scope": "Whole names/parents/world/original action key digests; exact named control/door/wheel identity, mode, binding and available original graph matrices. No missing historical values reconstructed from hashes.",
+    "compatibility_claim": "Limited saved-frame field comparison only; not Blender version, whole vehicle, timeline, geometry evaluation or wheel acceptance"
+  },
+  "source_guards_pass": true,
+  "inputs_after": {
+    "source": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/restored/MAZ543A_Textured_Front_Wheel_Parent_Study.blend",
+      "bytes": 100052636,
+      "sha256": "48dbc4987780b8f3781aa6c815452d140c1f2bccfd10df0c3dbc7974d04fdeea"
+    },
+    "blender": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/blender",
+      "bytes": 163613240,
+      "sha256": "050c02562f81fe80ba616a80198fa02d381e60f8b61b8d39add881f4bca0d7d8"
+    },
+    "bundled_python": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/bin/python3.11",
+      "bytes": 28653440,
+      "sha256": "60b08089c60cbe81827b135c8fd9e206ba2ee6bf54aa1dbd0d6f56ac2d5914f6"
+    },
+    "numpy_version": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/python/lib/python3.11/site-packages/numpy/version.py",
+      "bytes": 176,
+      "sha256": "ae24c0271908be669d3348be6cb3dbbd8d4a7d3090eff2ac09e55e84c147e687"
+    },
+    "legacy_export_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-native-static-export-20261002/export_native.py",
+      "bytes": 39008,
+      "sha256": "f67acdccdf722752ab7f876fd23de6130570b0d36e0f33e2bff550a1d8086860"
+    },
+    "mesh_protection_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/scripts/native-door-axis-controls.py",
+      "bytes": 31337,
+      "sha256": "4390d1566fce69cff30e336ae21137d74b1927fff1067dedcbdd7b7ca71b95d9"
+    },
+    "helper": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/intake-helper-source.py",
+      "bytes": 34833,
+      "sha256": "e093cb1f0d1f66d3c399b345daea9f6d563abceee940d0f64c8f49e7f97aa289"
+    },
+    "builder": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/build-trial.py",
+      "bytes": 17627,
+      "sha256": "892cf825ff6a0929ab576c502b0fbb59829ec9943b627161fa48de02bac80a1d"
+    },
+    "saved_expected": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/saved-state-expected.json",
+      "bytes": 909025,
+      "sha256": "9a937128e5cd0af5cac09e7416eaad9e3cff912bbc2d4e324fbb8eef288be4fc"
+    },
+    "graph_common": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/graph_common.py",
+      "bytes": 10020,
+      "sha256": "6dd91a5742fd2edf28b66e71436d15d065ff0d07cbcee1182c9ad1acc19c04b1"
+    },
+    "graph_inspector": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/inspect_native_graph.py",
+      "bytes": 20542,
+      "sha256": "dce897392d380b8f08295262dd8b5daa7c06bab0c01c3ff61ec9ae17645c80f3"
+    },
+    "array_helper": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/replay_capture.py",
+      "bytes": 16643,
+      "sha256": "005f3af009491180b1f67de31e3fdad5342789f864e2906b87594eae3f7402ab"
+    },
+    "original_runner": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-ten-normal-capture-20261002/run_capture.py",
+      "bytes": 8246,
+      "sha256": "e3a096633f07f6d041f4fe65aedead61336faeceb22c5ed3d7eb6fab2a43ca82"
+    },
+    "stations": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/stations.json",
+      "bytes": 174735,
+      "sha256": "a6143bf3bffa39ab5cc1d4c5f93f8ce3b2bac95a7f5c96ce49e4346f20ffb314"
+    },
+    "inventory": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/object-inventory.json",
+      "bytes": 10668164,
+      "sha256": "20949fbc0afcef80c09f1110842fc4bd48a15f910e6a90835a8727a8d3ce2852"
+    },
+    "graph": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/native-graph.json",
+      "bytes": 8896553,
+      "sha256": "967b4614dce61f1993146bd4ede94ea27d31302f70a46af6ccc92b8ecd45bdbc"
+    },
+    "graph_report": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-wheel-export-graph-20261002/run-02/native/native-report.json",
+      "bytes": 14488,
+      "sha256": "e5055c57289713f28659a5389675fd06d95c62816f6d8cc246619993fade4432"
+    },
+    "static_findings": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/static-findings.json",
+      "bytes": 23525,
+      "sha256": "6884556f7d5d0bebf709609b8035a478e65d685ab2928ce9cdc45ed98648c99c"
+    },
+    "static_script": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/summarize_saved_doors.py",
+      "bytes": 7646,
+      "sha256": "e65aae551acf38d878b1850281a5d2f9bbe432a76417f453b4a2970792d6244f"
+    },
+    "scope_readme": {
+      "path": "/workspace/scratch/a29d03198654/Maz543/testcar/work/cloud-textured-door-controls-20261002/README.md",
+      "bytes": 2883,
+      "sha256": "4d31f0d1b0a3cdb3ae98855fce943ed6062668c7fcb2533210b5d02764d1a9ac"
+    },
+    "wheel_fresh_report": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fresh-01/native-report.json",
+      "bytes": 576,
+      "sha256": "65d48d83b73071cc5d171baeef5e95887aa0b212199892b5cf010ca51053c439"
+    },
+    "wheel_materials": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/materials.json",
+      "bytes": 94040,
+      "sha256": "434c86c012d91d4a9005a828a7014bf5e0437f2e3ac997b0b3f89681922eb177"
+    },
+    "wheel_inputs": {
+      "path": "/workspace/scratch/a29d03198654/maz-canonical-remote-9816a330-20261002/fixed-evidence-restored/fixed-01/inputs.json",
+      "bytes": 51148,
+      "sha256": "e3249af319ae1be31f81576bd39b74eace400cd726e04552282a354a3f2c59ce"
+    },
+    "official_action_ui": {
+      "path": "/workspace/scratch/a29d03198654/tools-feiting/blender-4.5.14-linux-x64/4.5/scripts/startup/bl_ui/anim.py",
+      "bytes": 1744,
+      "sha256": "67af24479fb3cb1d31a63b26fa51a0a4c922cfad1a144c64ca82969c46f10e62"
+    }
+  },
+  "file_guards_pass": true,
+  "unsupported_read_fields": [],
+  "elapsed_seconds": 83.10398708399998,
+  "axis_identification": "NOT_IDENTIFIED_REVIEW_SAVED_RAW",
+  "installation_eligibility": "BLOCKED_AXES_UNIDENTIFIED",
+  "component_summary_complete": true,
+  "installation": "NOT_RUN"
+}

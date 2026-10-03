@@ -98,7 +98,11 @@ stage/stages、launch/process。JSON总量预计约10–25MB，主要为两份85
 官方bundled Python下4组纯NumPy合成负控：同位不连接、多解不选择、非连续
 索引双向映射、非法索引/loop关系/非有限坐标拒绝。另以纯伪action验证layered分支不会访问legacy groups；没有真正读取新native。
 `preparation-checks.json`冻结各文件bytes/SHA以及实测检查结果；其自身SHA由
-父任务最终清单/发布核回固定。准备后停止，任何改动必须重新审查冻结发布。
+最终工程清单/发布核回固定。准备后停止，任何改动必须重新审查冻结发布。
 
 恢复说明：未发准备源码由本任务可见工具文本与按序补丁恢复；旧preparation-checks
 不可复用。RECOVERY.json保留恢复与新版本阶段事实，本次正式清单需重新冻结。
+
+发布说明文案修订：已执行run-01的原准备以提交
+`eaedd2af47019a582b527e8d017a18c5ecc751d3`中的版本及校验为准；
+本次仅修订说明措辞，原准备检查和运行记录未改，不表示新测试或原生运行。
